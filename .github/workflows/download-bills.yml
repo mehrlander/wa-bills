@@ -1,0 +1,104 @@
+name: Download WA Bills
+
+on:
+  # Allow manual triggering
+  workflow_dispatch:
+    inputs:
+      biennium:
+        description: 'Biennium (e.g., 2023-24) - leave empty to use config file'
+        required: false
+        type: string
+      chamber:
+        description: 'Chamber (House or Senate)'
+        required: false
+        type: choice
+        options:
+          - House
+          - Senate
+      start:
+        description: 'Starting bill number'
+        required: false
+        type: number
+      end:
+        description: 'Ending bill number'
+        required: false
+        type: number
+
+  # Run on schedule (weekly on Mondays at 2 AM UTC)
+  schedule:
+    - cron: '0 2 * * 1'
+
+  # Allow manual trigger via push to main (commented out by default)
+  # push:
+  #   branches:
+  #     - main
+  #   paths:
+  #     - 'bills_config.json'
+
+jobs:
+  download-bills:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Download bills (from config)
+        if: ${{ !inputs.biennium }}
+        run: |
+          python download_bills.py --config bills_config.json --output-dir bills
+
+      - name: Download bills (range mode)
+        if: ${{ inputs.biennium && inputs.chamber && inputs.start && inputs.end }}
+        run: |
+          python download_bills.py \
+            --biennium "${{ inputs.biennium }}" \
+            --chamber "${{ inputs.chamber }}" \
+            --start ${{ inputs.start }} \
+            --end ${{ inputs.end }} \
+            --output-dir bills
+
+      - name: Check for changes
+        id: check_changes
+        run: |
+          git add bills/
+          if git diff --staged --quiet; then
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+            echo "No new bills downloaded"
+          else
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+            echo "New bills downloaded"
+          fi
+
+      - name: Commit and push changes
+        if: steps.check_changes.outputs.has_changes == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Create commit message
+          if [ -n "${{ inputs.biennium }}" ]; then
+            COMMIT_MSG="Download ${{ inputs.chamber }} bills ${{ inputs.start }}-${{ inputs.end }} (${{ inputs.biennium }})"
+          else
+            COMMIT_MSG="Download bills from config ($(date +'%Y-%m-%d'))"
+          fi
+
+          git commit -m "$COMMIT_MSG"
+          git push
+
+      - name: Upload bills as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: wa-bills-${{ github.run_number }}
+          path: bills/
+          retention-days: 30

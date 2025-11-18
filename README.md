@@ -18,6 +18,88 @@ Extract structured data from budget bills including:
 - Cross-references
 - Legislative structure
 
+## Automated Bill Downloads
+
+This repository includes tools to automatically download bills from [lawfilesext.leg.wa.gov](https://lawfilesext.leg.wa.gov/).
+
+### Quick Start
+
+1. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+2. **Download bills from config:**
+   ```bash
+   python download_bills.py --config bills_config.json
+   ```
+
+3. **Download a range of bills:**
+   ```bash
+   python download_bills.py --biennium 2023-24 --chamber House --start 1000 --end 1010
+   ```
+
+### Configuration
+
+Edit `bills_config.json` to specify which bills to download:
+
+```json
+{
+  "bills": [
+    {
+      "biennium": "2023-24",
+      "chamber": "House",
+      "number": "1050",
+      "format": "Pdf",
+      "type": "Bills",
+      "category": "House Bills",
+      "note": "Operating Budget Bill"
+    }
+  ]
+}
+```
+
+**Configuration fields:**
+- `biennium`: Two-year session (e.g., "2023-24", "2021-22")
+- `chamber`: "House" or "Senate"
+- `number`: Bill number (can include suffix like "1234-S" for substitute bills)
+- `format`: "Pdf" or "Htm"
+- `type`: "Bills", "Session Laws", etc.
+- `category`: "House Bills", "Senate Bills", "House Passed Legislature", etc.
+
+### GitHub Actions Automation
+
+The repository includes a GitHub Actions workflow that can:
+- Run on a schedule (weekly by default)
+- Be triggered manually
+- Download bills automatically and commit them
+
+**Manual trigger:**
+1. Go to the "Actions" tab in GitHub
+2. Select "Download WA Bills" workflow
+3. Click "Run workflow"
+4. Optionally specify a biennium and bill range
+
+### WA Legislative Website Structure
+
+Bills are organized on lawfilesext.leg.wa.gov as follows:
+
+```
+/Biennium/[YEAR-YEAR]/[Format]/Bills/[Category]/[Number].[ext]
+```
+
+**Examples:**
+- `/Biennium/2023-24/Pdf/Bills/House Bills/1050.pdf`
+- `/Biennium/2023-24/Htm/Bills/Senate Bills/5950.htm`
+- `/Biennium/2023-24/Pdf/Bills/Session Laws/House/1050-S.SL.pdf`
+
+**Bill naming conventions:**
+- Standard: `1234.pdf`
+- Substitute: `1234-S.pdf`
+- Engrossed Substitute: `1234-S.E.pdf`
+- Passed Legislature: `1234-S.PL.pdf`
+- Session Law: `1234-S.SL.pdf`
+
 ## Approach
 
 Use parallel extraction tasks to:

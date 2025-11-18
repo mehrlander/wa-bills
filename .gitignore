@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+package-lock.json
+npm-debug.log*
+
+# Database files
+*.db
+*.db-shm
+*.db-wal
+
+# Large bill files (already in bills/.gitignore)
+*.pdf
+*.xml
+*.htm
+*.html
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local

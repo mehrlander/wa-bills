@@ -30,12 +30,20 @@ node example-usage.js
 - Enactment dates and chapter numbers
 
 ### Files
+
+**Database & Metadata:**
 - `wa-budget-bills.db` - SQLite database with all budget bill metadata
-- `schema.sql` - Database schema definition
+- `schema.sql` - Database schema for bill metadata
 - `init-database.js` - Script to initialize and populate the database
 - `query-database.js` - Command-line query tool
 - `example-usage.js` - Example usage and programmatic queries
-- `DATABASE.md` - Complete documentation of the database
+- `DATABASE.md` - Complete documentation of the metadata database
+
+**Content Schema (for parsing bill content):**
+- `content-schema.sql` - Relational schema for appropriations, agencies, programs, funds, provisos
+- `CONTENT-SCHEMA.md` - Detailed documentation of the content database design
+- `SCHEMA-DIAGRAM.md` - Entity relationship diagrams and query patterns
+- `example-content-data.sql` - Example data showing how bills map to the schema
 
 ## Database Overview
 
@@ -108,28 +116,65 @@ async function example() {
 
 See [example-usage.js](example-usage.js) for more examples.
 
-## Future Goals
+## Database Architecture
 
-This database provides the foundation for deeper analysis:
+This repository provides two complementary database schemas:
 
-### Bill Content (Future)
-- XML, HTM, and PDF formats of enacted bills
-- Full-text search capabilities
-- Document download and storage
+### 1. Metadata Database (Implemented)
 
-### Data Extraction (Future)
-- Agencies and programs
-- Appropriations amounts and accounts
-- Proviso language (conditions, restrictions)
-- Structural hierarchy (agency → program → account)
-- Cross-references between sections
+The **metadata database** (`schema.sql`) contains information about the bills themselves:
+- Bill numbers and legislative sessions
+- Bienniums and fiscal periods
+- Enactment dates and chapter numbers
+- Bill relationships (companions, amendments)
+- Available formats (XML, HTM, PDF)
 
-### Analysis (Future)
-1. Parse bills into normalized database structures
-2. Compare different schema approaches
-3. Build reusable parsing libraries
-4. Document structural patterns across biennia
-5. Track budget changes over time
+**Status**: ✅ Fully implemented with 27 bills from 2000-2025
+
+### 2. Content Database (Schema Designed)
+
+The **content database** (`content-schema.sql`) is designed to capture the actual budget appropriations:
+
+**Organizational Structure:**
+- State agencies and departments
+- Programs and sub-programs within agencies
+
+**Financial Data:**
+- Appropriations by agency and program
+- Fund sources (General Fund, dedicated accounts)
+- Dollar amounts by fiscal year and fund
+- Appropriation types (direct, reappropriation, transfer)
+
+**Staffing:**
+- FTE (Full-Time Equivalent) authorizations
+- Position counts by fiscal year
+
+**Conditions:**
+- Proviso language and restrictions
+- Directives and reporting requirements
+
+**Structure:**
+- Bill sections and organizational parts
+- Cross-references to RCW and other sections
+
+**Status**: 📐 Schema designed and documented, ready for bill parsing implementation
+
+See [CONTENT-SCHEMA.md](CONTENT-SCHEMA.md) for complete documentation and [SCHEMA-DIAGRAM.md](SCHEMA-DIAGRAM.md) for entity relationships.
+
+## Next Steps
+
+### Bill Content Parsing (Future)
+1. Download bill documents (XML, HTM, PDF formats)
+2. Build parsers to extract structured data from bills
+3. Populate content database with appropriations data
+4. Implement full-text search for proviso language
+
+### Analysis Tools (Future)
+1. Cross-biennium trend analysis
+2. Agency spending comparisons
+3. Fund source analysis
+4. Proviso tracking and categorization
+5. Budget change tracking (governor → house → senate → enacted)
 
 ## Data Sources
 

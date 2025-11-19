@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HB 5092-S Budget Explorer</title>
+
+  <!-- CDN Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+
+  <!-- Tailwind CSS for styling -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+    .card {
+      @apply bg-white rounded-lg shadow-md p-6 mb-4;
+    }
+    .stat-card {
+      @apply bg-gradient-to-br from-blue-50 to-blue-100 rounded-lg p-4 border border-blue-200;
+    }
+    .result-item {
+      @apply border-l-4 border-blue-500 pl-4 py-2 mb-2 bg-gray-50;
+    }
+  </style>
+</head>
+<body class="bg-gray-100">
+  <div class="container mx-auto px-4 py-8 max-w-7xl">
+    <!-- Header -->
+    <header class="mb-8">
+      <h1 class="text-4xl font-bold text-gray-800 mb-2">Washington State Budget Explorer</h1>
+      <p class="text-gray-600">Interactive analysis of HB 5092-S (2021-2023 Operating Budget)</p>
+      <div id="loading" class="mt-4 text-blue-600">
+        <span class="animate-pulse">⏳ Loading budget data...</span>
+      </div>
+    </header>
+
+    <!-- Overview Stats -->
+    <div id="overview" class="hidden">
+      <h2 class="text-2xl font-bold text-gray-800 mb-4">Budget Overview</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
+        <div class="stat-card">
+          <div class="text-sm text-gray-600 mb-1">Total Biennium Budget</div>
+          <div id="stat-total" class="text-3xl font-bold text-blue-800"></div>
+        </div>
+        <div class="stat-card">
+          <div class="text-sm text-gray-600 mb-1">Fiscal Year 2022</div>
+          <div id="stat-fy2022" class="text-3xl font-bold text-blue-800"></div>
+        </div>
+        <div class="stat-card">
+          <div class="text-sm text-gray-600 mb-1">Fiscal Year 2023</div>
+          <div id="stat-fy2023" class="text-3xl font-bold text-blue-800"></div>
+        </div>
+        <div class="stat-card">
+          <div class="text-sm text-gray-600 mb-1">Agencies Funded</div>
+          <div id="stat-agencies" class="text-3xl font-bold text-blue-800"></div>
+        </div>
+      </div>
+
+      <!-- Metadata -->
+      <div class="card">
+        <h3 class="text-xl font-bold mb-3">Bill Information</h3>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div>
+            <span class="font-semibold">Bill Number:</span>
+            <span id="meta-bill"></span>
+          </div>
+          <div>
+            <span class="font-semibold">Type:</span>
+            <span id="meta-type"></span>
+          </div>
+          <div>
+            <span class="font-semibold">Chapter:</span>
+            <span id="meta-chapter"></span>
+          </div>
+          <div>
+            <span class="font-semibold">Effective Date:</span>
+            <span id="meta-date"></span>
+          </div>
+          <div class="col-span-2">
+            <span class="font-semibold">Sponsors:</span>
+            <span id="meta-sponsors"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Search and Filter -->
+    <div id="search-section" class="hidden">
+      <div class="card">
+        <h2 class="text-2xl font-bold text-gray-800 mb-4">Search & Query</h2>
+
+        <!-- Search Tabs -->
+        <div class="flex flex-wrap gap-2 mb-4">
+          <button onclick="setSearchMode('agency')" id="tab-agency" class="px-4 py-2 bg-blue-500 text-white rounded-lg">
+            Search Agencies
+          </button>
+          <button onclick="setSearchMode('proviso')" id="tab-proviso" class="px-4 py-2 bg-gray-300 text-gray-700 rounded-lg">
+            Search Provisos
+          </button>
+          <button onclick="setSearchMode('rcw')" id="tab-rcw" class="px-4 py-2 bg-gray-300 text-gray-700 rounded-lg">
+            Find RCW
+          </button>
+          <button onclick="setSearchMode('top')" id="tab-top" class="px-4 py-2 bg-gray-300 text-gray-700 rounded-lg">
+            Top Agencies
+          </button>
+        </div>
+
+        <!-- Search Agency -->
+        <div id="search-agency" class="search-panel">
+          <div class="mb-3">
+            <label class="block text-sm font-semibold mb-2">Search for Agency:</label>
+            <input type="text" id="input-agency"
+              placeholder="e.g., Health, Education, Transportation"
+              class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+          </div>
+          <button onclick="searchAgency()" class="px-6 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600">
+            Search
+          </button>
+        </div>
+
+        <!-- Search Provisos -->
+        <div id="search-proviso" class="search-panel hidden">
+          <div class="mb-3">
+            <label class="block text-sm font-semibold mb-2">Search Proviso Text:</label>
+            <input type="text" id="input-proviso"
+              placeholder="e.g., provided solely, COVID, mental health"
+              class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+          </div>
+          <button onclick="searchProvisos()" class="px-6 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600">
+            Search
+          </button>
+        </div>
+
+        <!-- Search RCW -->
+        <div id="search-rcw" class="search-panel hidden">
+          <div class="mb-3">
+            <label class="block text-sm font-semibold mb-2">Find RCW Citation:</label>
+            <input type="text" id="input-rcw"
+              placeholder="e.g., 43.79, 28B.15"
+              class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+          </div>
+          <button onclick="searchRCW()" class="px-6 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600">
+            Search
+          </button>
+          <div class="mt-3 text-sm text-gray-600">
+            Total RCW References: <span id="rcw-count" class="font-bold"></span>
+          </div>
+        </div>
+
+        <!-- Top Agencies -->
+        <div id="search-top" class="search-panel hidden">
+          <div class="mb-3">
+            <label class="block text-sm font-semibold mb-2">Number of Agencies:</label>
+            <select id="input-top" class="px-4 py-2 border border-gray-300 rounded-lg">
+              <option value="10">Top 10</option>
+              <option value="20">Top 20</option>
+              <option value="50">Top 50</option>
+            </select>
+          </div>
+          <button onclick="showTopAgencies()" class="px-6 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600">
+            Show
+          </button>
+        </div>
+
+        <!-- Results -->
+        <div id="results" class="mt-6 hidden">
+          <h3 class="text-xl font-bold mb-3">Results (<span id="result-count"></span>)</h3>
+          <div id="results-content" class="max-h-96 overflow-y-auto"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Charts -->
+    <div id="charts-section" class="hidden">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-8">
+        <div class="card">
+          <h3 class="text-xl font-bold mb-4">Appropriations by Fiscal Year</h3>
+          <canvas id="chart-fiscal-year"></canvas>
+        </div>
+        <div class="card">
+          <h3 class="text-xl font-bold mb-4">Top 10 Agencies by Funding</h3>
+          <canvas id="chart-top-agencies"></canvas>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3 class="text-xl font-bold mb-4">Fund Type Distribution</h3>
+        <canvas id="chart-fund-types"></canvas>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="mt-8 text-center text-gray-600 text-sm">
+      <p>Data extracted from ENGROSSED SUBSTITUTE SENATE BILL 5092 (Chapter 334, Laws of 2021)</p>
+      <p class="mt-2">Built with Lodash, Chart.js, and Tailwind CSS</p>
+    </footer>
+  </div>
+
+  <script>
+    let budgetData = null;
+
+    // Load data
+    async function loadData() {
+      try {
+        const response = await fetch('hb5092-data.json');
+        budgetData = await response.json();
+
+        document.getElementById('loading').classList.add('hidden');
+        document.getElementById('overview').classList.remove('hidden');
+        document.getElementById('search-section').classList.remove('hidden');
+        document.getElementById('charts-section').classList.remove('hidden');
+
+        displayOverview();
+        createCharts();
+      } catch (error) {
+        document.getElementById('loading').innerHTML =
+          '<span class="text-red-600">❌ Error loading data. Make sure hb5092-data.json is in the same directory.</span>';
+        console.error('Error loading data:', error);
+      }
+    }
+
+    // Display overview
+    function displayOverview() {
+      const { metadata, fiscalImpact } = budgetData;
+
+      document.getElementById('stat-total').textContent = formatCurrency(fiscalImpact.totalBienniumBudget);
+      document.getElementById('stat-fy2022').textContent = formatCurrency(fiscalImpact.fiscalYear2022);
+      document.getElementById('stat-fy2023').textContent = formatCurrency(fiscalImpact.fiscalYear2023);
+      document.getElementById('stat-agencies').textContent = fiscalImpact.agencyCount;
+
+      document.getElementById('meta-bill').textContent = metadata.billNumber;
+      document.getElementById('meta-type').textContent = metadata.billType;
+      document.getElementById('meta-chapter').textContent = `Chapter ${metadata.chapter.number}, Laws of ${metadata.chapter.year}`;
+      document.getElementById('meta-date').textContent = metadata.effectiveDate;
+      document.getElementById('meta-sponsors').textContent = metadata.sponsors;
+
+      document.getElementById('rcw-count').textContent = budgetData.rcwReferences.length;
+    }
+
+    // Format currency
+    function formatCurrency(amount) {
+      if (amount >= 1000000000) {
+        return '$' + (amount / 1000000000).toFixed(2) + 'B';
+      } else if (amount >= 1000000) {
+        return '$' + (amount / 1000000).toFixed(2) + 'M';
+      } else {
+        return '$' + amount.toLocaleString();
+      }
+    }
+
+    // Set search mode
+    function setSearchMode(mode) {
+      // Update tabs
+      document.querySelectorAll('[id^="tab-"]').forEach(tab => {
+        tab.className = 'px-4 py-2 bg-gray-300 text-gray-700 rounded-lg';
+      });
+      document.getElementById('tab-' + mode).className = 'px-4 py-2 bg-blue-500 text-white rounded-lg';
+
+      // Show panel
+      document.querySelectorAll('.search-panel').forEach(panel => {
+        panel.classList.add('hidden');
+      });
+      document.getElementById('search-' + mode).classList.remove('hidden');
+
+      // Hide results
+      document.getElementById('results').classList.add('hidden');
+    }
+
+    // Search agencies
+    function searchAgency() {
+      const query = document.getElementById('input-agency').value.toLowerCase();
+      if (!query) return;
+
+      const results = _.filter(budgetData.sections, s =>
+        s.agencyName.toLowerCase().includes(query)
+      );
+
+      displayResults(results, (section) => `
+        <div class="result-item">
+          <div class="font-bold">Section ${section.sectionNumber}: ${section.agencyName}</div>
+          <div class="text-sm text-gray-600 mt-1">
+            Total Appropriation: <span class="font-semibold">${formatCurrency(section.totalAppropriation || 0)}</span>
+          </div>
+          <div class="text-sm text-gray-600">
+            Appropriations: ${section.appropriations.length} | Provisos: ${section.provisos.length}
+          </div>
+        </div>
+      `);
+    }
+
+    // Search provisos
+    function searchProvisos() {
+      const query = document.getElementById('input-proviso').value.toLowerCase();
+      if (!query) return;
+
+      const results = [];
+      budgetData.sections.forEach(section => {
+        section.provisos.forEach(proviso => {
+          if (proviso.text.toLowerCase().includes(query)) {
+            results.push({ section, proviso });
+          }
+        });
+      });
+
+      displayResults(results, (item) => `
+        <div class="result-item">
+          <div class="font-bold">Section ${item.section.sectionNumber}: ${item.section.agencyName}</div>
+          <div class="text-sm text-gray-700 mt-1">
+            Subsection (${item.proviso.subsection}): ${item.proviso.text.substring(0, 200)}${item.proviso.text.length > 200 ? '...' : ''}
+          </div>
+          ${item.proviso.amounts.length > 0 ? `
+            <div class="text-sm text-gray-600 mt-1">
+              Amounts: ${item.proviso.amounts.map(a => formatCurrency(a)).join(', ')}
+            </div>
+          ` : ''}
+        </div>
+      `);
+    }
+
+    // Search RCW
+    function searchRCW() {
+      const query = document.getElementById('input-rcw').value.toLowerCase();
+      if (!query) return;
+
+      const results = budgetData.rcwReferences.filter(rcw =>
+        rcw.toLowerCase().includes(query)
+      );
+
+      displayResults(results, (rcw) => `
+        <div class="result-item">
+          <div class="font-bold">RCW ${rcw}</div>
+          <a href="http://app.leg.wa.gov/RCW/default.aspx?cite=${rcw}"
+             target="_blank"
+             class="text-blue-600 hover:underline text-sm">
+            View on leg.wa.gov →
+          </a>
+        </div>
+      `);
+    }
+
+    // Show top agencies
+    function showTopAgencies() {
+      const n = parseInt(document.getElementById('input-top').value);
+
+      const results = _.chain(budgetData.sections)
+        .filter(s => s.totalAppropriation)
+        .orderBy(['totalAppropriation'], ['desc'])
+        .take(n)
+        .value();
+
+      displayResults(results, (section, index) => `
+        <div class="result-item">
+          <div class="flex justify-between items-start">
+            <div>
+              <span class="text-2xl font-bold text-gray-400 mr-2">#${index + 1}</span>
+              <span class="font-bold">${section.agencyName}</span>
+            </div>
+            <div class="text-right">
+              <div class="text-xl font-bold text-blue-600">${formatCurrency(section.totalAppropriation)}</div>
+              <div class="text-xs text-gray-500">Sec. ${section.sectionNumber}</div>
+            </div>
+          </div>
+        </div>
+      `);
+    }
+
+    // Display results
+    function displayResults(results, formatter) {
+      const resultsDiv = document.getElementById('results');
+      const countSpan = document.getElementById('result-count');
+      const contentDiv = document.getElementById('results-content');
+
+      resultsDiv.classList.remove('hidden');
+      countSpan.textContent = results.length;
+
+      if (results.length === 0) {
+        contentDiv.innerHTML = '<div class="text-gray-500 italic">No results found</div>';
+      } else {
+        contentDiv.innerHTML = results.map((result, index) => formatter(result, index)).join('');
+      }
+    }
+
+    // Create charts
+    function createCharts() {
+      createFiscalYearChart();
+      createTopAgenciesChart();
+      createFundTypesChart();
+    }
+
+    function createFiscalYearChart() {
+      const ctx = document.getElementById('chart-fiscal-year').getContext('2d');
+      new Chart(ctx, {
+        type: 'bar',
+        data: {
+          labels: ['FY 2022', 'FY 2023'],
+          datasets: [{
+            label: 'Appropriations',
+            data: [
+              budgetData.fiscalImpact.fiscalYear2022,
+              budgetData.fiscalImpact.fiscalYear2023
+            ],
+            backgroundColor: ['#3B82F6', '#10B981']
+          }]
+        },
+        options: {
+          responsive: true,
+          plugins: {
+            tooltip: {
+              callbacks: {
+                label: (context) => formatCurrency(context.raw)
+              }
+            }
+          },
+          scales: {
+            y: {
+              ticks: {
+                callback: (value) => formatCurrency(value)
+              }
+            }
+          }
+        }
+      });
+    }
+
+    function createTopAgenciesChart() {
+      const topAgencies = _.chain(budgetData.sections)
+        .filter(s => s.totalAppropriation)
+        .orderBy(['totalAppropriation'], ['desc'])
+        .take(10)
+        .value();
+
+      const ctx = document.getElementById('chart-top-agencies').getContext('2d');
+      new Chart(ctx, {
+        type: 'horizontalBar',
+        data: {
+          labels: topAgencies.map(s => s.agencyName.replace('FOR THE ', '').substring(0, 30)),
+          datasets: [{
+            label: 'Total Appropriation',
+            data: topAgencies.map(s => s.totalAppropriation),
+            backgroundColor: '#3B82F6'
+          }]
+        },
+        options: {
+          indexAxis: 'y',
+          responsive: true,
+          plugins: {
+            tooltip: {
+              callbacks: {
+                label: (context) => formatCurrency(context.raw)
+              }
+            }
+          },
+          scales: {
+            x: {
+              ticks: {
+                callback: (value) => formatCurrency(value)
+              }
+            }
+          }
+        }
+      });
+    }
+
+    function createFundTypesChart() {
+      const fundData = budgetData.appropriationsSummary.byFundType;
+      const topFunds = _.chain(fundData)
+        .toPairs()
+        .orderBy([1], ['desc'])
+        .take(8)
+        .value();
+
+      const ctx = document.getElementById('chart-fund-types').getContext('2d');
+      new Chart(ctx, {
+        type: 'pie',
+        data: {
+          labels: topFunds.map(f => f[0].replace(' Appropriation', '')),
+          datasets: [{
+            data: topFunds.map(f => f[1]),
+            backgroundColor: [
+              '#3B82F6', '#10B981', '#F59E0B', '#EF4444',
+              '#8B5CF6', '#EC4899', '#14B8A6', '#F97316'
+            ]
+          }]
+        },
+        options: {
+          responsive: true,
+          plugins: {
+            tooltip: {
+              callbacks: {
+                label: (context) => context.label + ': ' + formatCurrency(context.raw)
+              }
+            }
+          }
+        }
+      });
+    }
+
+    // Load data on page load
+    loadData();
+  </script>
+</body>
+</html>

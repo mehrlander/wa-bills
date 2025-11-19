@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WA Bills Explorer - Interactive Data Browser</title>
+
+  <!-- Lodash for data manipulation -->
+  <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
+
+  <!-- Chart.js for visualizations -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+
+  <!-- Marked for markdown rendering -->
+  <script src="https://cdn.jsdelivr.net/npm/marked@9.1.6/marked.min.js"></script>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background: #f5f5f5;
+    }
+
+    .container {
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    header {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      padding: 30px 0;
+      margin-bottom: 30px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+
+    header h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+    }
+
+    header p {
+      font-size: 1.1em;
+      opacity: 0.9;
+    }
+
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      margin-bottom: 30px;
+    }
+
+    .stat-card {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .stat-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    }
+
+    .stat-card h3 {
+      font-size: 0.9em;
+      color: #666;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    .stat-card .value {
+      font-size: 2em;
+      font-weight: bold;
+      color: #667eea;
+    }
+
+    .section {
+      background: white;
+      padding: 25px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      margin-bottom: 30px;
+    }
+
+    .section h2 {
+      font-size: 1.8em;
+      margin-bottom: 20px;
+      color: #333;
+      border-bottom: 3px solid #667eea;
+      padding-bottom: 10px;
+    }
+
+    .tabs {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 20px;
+      flex-wrap: wrap;
+    }
+
+    .tab {
+      padding: 10px 20px;
+      background: #f0f0f0;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 1em;
+      transition: all 0.2s;
+    }
+
+    .tab:hover {
+      background: #e0e0e0;
+    }
+
+    .tab.active {
+      background: #667eea;
+      color: white;
+    }
+
+    .tab-content {
+      display: none;
+    }
+
+    .tab-content.active {
+      display: block;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+
+    th, td {
+      padding: 12px;
+      text-align: left;
+      border-bottom: 1px solid #e0e0e0;
+    }
+
+    th {
+      background: #f8f9fa;
+      font-weight: 600;
+      color: #333;
+      position: sticky;
+      top: 0;
+    }
+
+    tr:hover {
+      background: #f8f9fa;
+    }
+
+    .number {
+      text-align: right;
+      font-family: 'Monaco', 'Courier New', monospace;
+    }
+
+    .filters {
+      display: flex;
+      gap: 15px;
+      margin-bottom: 20px;
+      flex-wrap: wrap;
+    }
+
+    .filter-group {
+      flex: 1;
+      min-width: 200px;
+    }
+
+    .filter-group label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: 600;
+      color: #555;
+    }
+
+    select, input {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      font-size: 1em;
+    }
+
+    select:focus, input:focus {
+      outline: none;
+      border-color: #667eea;
+    }
+
+    .search-box {
+      position: relative;
+    }
+
+    .search-box input {
+      padding-right: 40px;
+    }
+
+    .search-box::after {
+      content: '🔍';
+      position: absolute;
+      right: 12px;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 1.2em;
+    }
+
+    .chart-container {
+      position: relative;
+      height: 400px;
+      margin-top: 20px;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 4px 10px;
+      border-radius: 4px;
+      font-size: 0.85em;
+      font-weight: 600;
+    }
+
+    .badge-budget { background: #e3f2fd; color: #1976d2; }
+    .badge-policy { background: #f3e5f5; color: #7b1fa2; }
+    .badge-operating { background: #e8f5e9; color: #388e3c; }
+    .badge-capital { background: #fff3e0; color: #f57c00; }
+    .badge-supplemental { background: #fce4ec; color: #c2185b; }
+
+    .loading {
+      text-align: center;
+      padding: 40px;
+      font-size: 1.2em;
+      color: #666;
+    }
+
+    .error {
+      background: #ffebee;
+      color: #c62828;
+      padding: 15px;
+      border-radius: 6px;
+      margin-bottom: 20px;
+    }
+
+    .bill-details {
+      background: #f8f9fa;
+      padding: 15px;
+      border-radius: 6px;
+      margin-top: 10px;
+    }
+
+    .bill-details h4 {
+      margin-bottom: 10px;
+      color: #667eea;
+    }
+
+    .bill-details dl {
+      display: grid;
+      grid-template-columns: 150px 1fr;
+      gap: 10px;
+    }
+
+    .bill-details dt {
+      font-weight: 600;
+      color: #555;
+    }
+
+    .bill-details dd {
+      color: #333;
+    }
+
+    .expandable {
+      cursor: pointer;
+      user-select: none;
+    }
+
+    .expandable::before {
+      content: '▶ ';
+      display: inline-block;
+      transition: transform 0.2s;
+    }
+
+    .expandable.expanded::before {
+      transform: rotate(90deg);
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px 0;
+      color: #666;
+      margin-top: 50px;
+    }
+
+    @media (max-width: 768px) {
+      .stats-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .filters {
+        flex-direction: column;
+      }
+
+      table {
+        font-size: 0.9em;
+      }
+
+      th, td {
+        padding: 8px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Washington State Bills Explorer</h1>
+      <p>Interactive analysis of WA legislation: Operating & Capital Budgets, Policy Bills (2021-2027)</p>
+    </div>
+  </header>
+
+  <div class="container">
+    <div id="loading" class="loading">Loading bill data...</div>
+    <div id="error" class="error" style="display: none;"></div>
+
+    <div id="app" style="display: none;">
+      <!-- Statistics Dashboard -->
+      <div class="stats-grid" id="stats"></div>
+
+      <!-- Main Navigation -->
+      <div class="section">
+        <div class="tabs">
+          <button class="tab active" data-tab="overview">Overview</button>
+          <button class="tab" data-tab="bills">Bills Index</button>
+          <button class="tab" data-tab="appropriations">Appropriations</button>
+          <button class="tab" data-tab="agencies">Agencies</button>
+          <button class="tab" data-tab="charts">Visualizations</button>
+          <button class="tab" data-tab="query">Advanced Query</button>
+        </div>
+
+        <!-- Overview Tab -->
+        <div id="overview" class="tab-content active">
+          <h2>Dataset Overview</h2>
+          <div id="overview-content"></div>
+        </div>
+
+        <!-- Bills Index Tab -->
+        <div id="bills" class="tab-content">
+          <h2>Bills Index</h2>
+          <div class="filters">
+            <div class="filter-group">
+              <label>Type</label>
+              <select id="billTypeFilter">
+                <option value="">All Types</option>
+              </select>
+            </div>
+            <div class="filter-group search-box">
+              <label>Search</label>
+              <input type="text" id="billSearch" placeholder="Search bills...">
+            </div>
+          </div>
+          <div id="bills-table"></div>
+        </div>
+
+        <!-- Appropriations Tab -->
+        <div id="appropriations" class="tab-content">
+          <h2>Appropriations Browser</h2>
+          <div class="filters">
+            <div class="filter-group">
+              <label>Bill</label>
+              <select id="appropBillFilter">
+                <option value="">All Bills</option>
+              </select>
+            </div>
+            <div class="filter-group">
+              <label>Agency</label>
+              <select id="appropAgencyFilter">
+                <option value="">All Agencies</option>
+              </select>
+            </div>
+            <div class="filter-group">
+              <label>Minimum Amount</label>
+              <input type="number" id="appropMinAmount" placeholder="$0">
+            </div>
+          </div>
+          <div id="appropriations-table"></div>
+        </div>
+
+        <!-- Agencies Tab -->
+        <div id="agencies" class="tab-content">
+          <h2>Agencies & Departments</h2>
+          <div id="agencies-table"></div>
+        </div>
+
+        <!-- Charts Tab -->
+        <div id="charts" class="tab-content">
+          <h2>Data Visualizations</h2>
+          <div class="tabs">
+            <button class="tab active" data-tab="chart-bills">Bill Types</button>
+            <button class="tab" data-tab="chart-agencies">Top Agencies</button>
+            <button class="tab" data-tab="chart-accounts">Account Types</button>
+          </div>
+
+          <div id="chart-bills" class="tab-content active">
+            <div class="chart-container">
+              <canvas id="billTypesChart"></canvas>
+            </div>
+          </div>
+
+          <div id="chart-agencies" class="tab-content">
+            <div class="chart-container">
+              <canvas id="agenciesChart"></canvas>
+            </div>
+          </div>
+
+          <div id="chart-accounts" class="tab-content">
+            <div class="chart-container">
+              <canvas id="accountsChart"></canvas>
+            </div>
+          </div>
+        </div>
+
+        <!-- Advanced Query Tab -->
+        <div id="query" class="tab-content">
+          <h2>Advanced Query with Lodash</h2>
+          <p style="margin-bottom: 15px; color: #666;">
+            Write custom queries using lodash. Access data via <code>window.billsData</code> and <code>window.billsIndex</code>.
+          </p>
+          <div style="margin-bottom: 15px;">
+            <label style="display: block; margin-bottom: 5px; font-weight: 600;">Query Examples:</label>
+            <select id="queryExamples" style="margin-bottom: 10px;">
+              <option value="">-- Select an example --</option>
+              <option value="total">Total appropriations across all bills</option>
+              <option value="topAgencies">Top 10 agencies by total appropriations</option>
+              <option value="budgetBills">All budget bills with total amounts</option>
+              <option value="policyBills">Policy bills with most sections</option>
+              <option value="avgApprop">Average appropriation by bill type</option>
+            </select>
+          </div>
+          <textarea id="queryInput" rows="8" style="width: 100%; font-family: monospace; padding: 10px; border: 1px solid #ddd; border-radius: 6px;" placeholder="// Enter your lodash query here...
+// Example:
+_.sumBy(billsData.appropriations.filter(a => !a.isTotal), 'amount')"></textarea>
+          <button onclick="runQuery()" style="margin-top: 10px; padding: 10px 20px; background: #667eea; color: white; border: none; border-radius: 6px; cursor: pointer; font-size: 1em;">Run Query</button>
+          <div id="queryResult" style="margin-top: 20px; padding: 15px; background: #f8f9fa; border-radius: 6px; font-family: monospace; white-space: pre-wrap;"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>WA Bills Explorer | Data extracted from Washington State Legislature XML files</p>
+    <p>Built with vanilla JavaScript, Lodash, and Chart.js | All data loaded client-side from JSON</p>
+  </footer>
+
+  <script>
+    // Global data storage
+    let billsIndex = [];
+    let billsData = {};
+
+    // Load data
+    async function loadData() {
+      try {
+        const [indexResponse, dataResponse] = await Promise.all([
+          fetch('bills-index.json'),
+          fetch('bills-data.json')
+        ]);
+
+        billsIndex = await indexResponse.json();
+        billsData = await dataResponse.json();
+
+        // Make available globally for advanced queries
+        window.billsIndex = billsIndex;
+        window.billsData = billsData;
+
+        document.getElementById('loading').style.display = 'none';
+        document.getElementById('app').style.display = 'block';
+
+        initializeApp();
+      } catch (error) {
+        document.getElementById('loading').style.display = 'none';
+        const errorDiv = document.getElementById('error');
+        errorDiv.textContent = 'Error loading data: ' + error.message;
+        errorDiv.style.display = 'block';
+      }
+    }
+
+    // Initialize the app
+    function initializeApp() {
+      renderStats();
+      renderOverview();
+      renderBillsTable();
+      renderAppropriationsTable();
+      renderAgenciesTable();
+      renderCharts();
+      setupFilters();
+      setupTabs();
+      setupQueryExamples();
+    }
+
+    // Render statistics
+    function renderStats() {
+      const stats = [
+        { label: 'Total Bills', value: billsData.metadata.billCount },
+        { label: 'Total Appropriations', value: billsData.metadata.totalAppropriations.toLocaleString() },
+        { label: 'Total Amount', value: '$' + (billsData.aggregates.totalAppropriationAmount / 1e9).toFixed(1) + 'B' },
+        { label: 'Agencies', value: billsData.metadata.totalAgencies },
+        { label: 'Sections', value: billsData.metadata.totalSections.toLocaleString() },
+        { label: 'Departments', value: billsData.metadata.totalDepartments }
+      ];
+
+      document.getElementById('stats').innerHTML = stats.map(stat => `
+        <div class="stat-card">
+          <h3>${stat.label}</h3>
+          <div class="value">${stat.value}</div>
+        </div>
+      `).join('');
+    }
+
+    // Render overview
+    function renderOverview() {
+      const billsByType = _.groupBy(billsIndex, 'type');
+
+      const html = `
+        <h3>Bill Types Distribution</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Type</th>
+              <th>Count</th>
+              <th>Bills</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${Object.keys(billsByType).map(type => `
+              <tr>
+                <td><span class="badge badge-${type.split('/')[0]}">${type}</span></td>
+                <td class="number">${billsByType[type].length}</td>
+                <td>${billsByType[type].map(b => b.billNumber).join(', ')}</td>
+              </tr>
+            `).join('')}
+          </tbody>
+        </table>
+
+        <h3 style="margin-top: 30px;">Largest Appropriations</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Bill</th>
+              <th>Session Law Caption</th>
+              <th class="number">Total Amount</th>
+              <th class="number">Appropriations</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${_.orderBy(billsIndex.filter(b => b.totalAppropriationAmount > 0), 'totalAppropriationAmount', 'desc')
+              .map(bill => `
+                <tr>
+                  <td><strong>${bill.billNumber}</strong></td>
+                  <td>${bill.sessionLawCaption}</td>
+                  <td class="number">$${(bill.totalAppropriationAmount / 1e9).toFixed(2)}B</td>
+                  <td class="number">${bill.appropriationCount.toLocaleString()}</td>
+                </tr>
+              `).join('')}
+          </tbody>
+        </table>
+      `;
+
+      document.getElementById('overview-content').innerHTML = html;
+    }
+
+    // Render bills table
+    function renderBillsTable() {
+      const html = `
+        <table>
+          <thead>
+            <tr>
+              <th>Bill Number</th>
+              <th>Type</th>
+              <th>Session Law Caption</th>
+              <th>Session</th>
+              <th class="number">Sections</th>
+              <th class="number">Appropriations</th>
+              <th class="number">Total Amount</th>
+            </tr>
+          </thead>
+          <tbody id="billsTableBody">
+            ${billsIndex.map(bill => `
+              <tr class="bill-row" data-type="${bill.type}">
+                <td><strong>${bill.billNumber}</strong></td>
+                <td><span class="badge badge-${bill.type.split('/')[0]}">${bill.type}</span></td>
+                <td>${bill.sessionLawCaption || 'N/A'}</td>
+                <td>${bill.session || 'N/A'}</td>
+                <td class="number">${bill.sections.toLocaleString()}</td>
+                <td class="number">${bill.appropriationCount.toLocaleString()}</td>
+                <td class="number">${bill.totalAppropriationAmount > 0 ? '$' + (bill.totalAppropriationAmount / 1e9).toFixed(2) + 'B' : '-'}</td>
+              </tr>
+            `).join('')}
+          </tbody>
+        </table>
+      `;
+
+      document.getElementById('bills-table').innerHTML = html;
+    }
+
+    // Render appropriations table
+    function renderAppropriationsTable() {
+      const approps = billsData.appropriations
+        .filter(a => !a.isTotal && a.amount)
+        .slice(0, 500); // Limit for performance
+
+      const html = `
+        <p style="margin-bottom: 15px; color: #666;">
+          Showing first 500 appropriations (of ${billsData.appropriations.length.toLocaleString()} total). Use filters to narrow results.
+        </p>
+        <table>
+          <thead>
+            <tr>
+              <th>Bill</th>
+              <th>Department</th>
+              <th>Account Name</th>
+              <th class="number">Amount</th>
+              <th class="number">Section</th>
+            </tr>
+          </thead>
+          <tbody id="appropsTableBody">
+            ${approps.map(a => `
+              <tr class="approp-row" data-bill="${a.billId}" data-agency="${a.agencyCode}">
+                <td><strong>${a.billId}</strong></td>
+                <td>${a.departmentName || 'N/A'}</td>
+                <td>${a.accountName}</td>
+                <td class="number">$${a.amount.toLocaleString()}</td>
+                <td class="number">${a.sectionNumber || '-'}</td>
+              </tr>
+            `).join('')}
+          </tbody>
+        </table>
+      `;
+
+      document.getElementById('appropriations-table').innerHTML = html;
+    }
+
+    // Render agencies table
+    function renderAgenciesTable() {
+      const html = `
+        <h3>Top 20 Agencies by Total Appropriations</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Agency Code</th>
+              <th>Department Name</th>
+              <th class="number">Total Amount</th>
+              <th class="number">Appropriations</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${billsData.aggregates.appropriationsByAgency.slice(0, 20).map(agency => `
+              <tr>
+                <td><strong>${agency.agencyCode}</strong></td>
+                <td>${agency.departmentName || 'N/A'}</td>
+                <td class="number">$${(agency.totalAmount / 1e9).toFixed(3)}B</td>
+                <td class="number">${agency.count.toLocaleString()}</td>
+              </tr>
+            `).join('')}
+          </tbody>
+        </table>
+      `;
+
+      document.getElementById('agencies-table').innerHTML = html;
+    }
+
+    // Render charts
+    function renderCharts() {
+      // Bill types chart
+      const billTypes = _.countBy(billsIndex, 'type');
+      new Chart(document.getElementById('billTypesChart'), {
+        type: 'doughnut',
+        data: {
+          labels: Object.keys(billTypes),
+          datasets: [{
+            data: Object.values(billTypes),
+            backgroundColor: ['#667eea', '#764ba2', '#f093fb', '#4facfe', '#43e97b']
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: {
+            title: { display: true, text: 'Bills by Type' }
+          }
+        }
+      });
+
+      // Top agencies chart
+      const topAgencies = billsData.aggregates.appropriationsByAgency.slice(0, 10);
+      new Chart(document.getElementById('agenciesChart'), {
+        type: 'bar',
+        data: {
+          labels: topAgencies.map(a => a.departmentName || a.agencyCode).map(n => n.length > 30 ? n.substring(0, 30) + '...' : n),
+          datasets: [{
+            label: 'Total Appropriations ($B)',
+            data: topAgencies.map(a => a.totalAmount / 1e9),
+            backgroundColor: '#667eea'
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          indexAxis: 'y',
+          plugins: {
+            title: { display: true, text: 'Top 10 Agencies by Appropriations' }
+          }
+        }
+      });
+
+      // Account types chart
+      const topAccounts = billsData.aggregates.appropriationsByAccount.slice(0, 10);
+      new Chart(document.getElementById('accountsChart'), {
+        type: 'bar',
+        data: {
+          labels: topAccounts.map(a => a.accountType.length > 40 ? a.accountType.substring(0, 40) + '...' : a.accountType),
+          datasets: [{
+            label: 'Total Appropriations ($B)',
+            data: topAccounts.map(a => a.totalAmount / 1e9),
+            backgroundColor: '#764ba2'
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: {
+            title: { display: true, text: 'Top 10 Account Types by Appropriations' }
+          }
+        }
+      });
+    }
+
+    // Setup filters
+    function setupFilters() {
+      // Bill type filter
+      const types = _.uniq(billsIndex.map(b => b.type)).sort();
+      const billTypeFilter = document.getElementById('billTypeFilter');
+      billTypeFilter.innerHTML = '<option value="">All Types</option>' +
+        types.map(t => `<option value="${t}">${t}</option>`).join('');
+
+      billTypeFilter.addEventListener('change', filterBills);
+      document.getElementById('billSearch').addEventListener('input', filterBills);
+
+      // Appropriation filters
+      const bills = _.uniq(billsData.appropriations.map(a => a.billId)).sort();
+      const agencies = _.uniq(billsData.appropriations.map(a => a.agencyCode)).filter(Boolean).sort();
+
+      document.getElementById('appropBillFilter').innerHTML = '<option value="">All Bills</option>' +
+        bills.map(b => `<option value="${b}">${b}</option>`).join('');
+
+      document.getElementById('appropAgencyFilter').innerHTML = '<option value="">All Agencies</option>' +
+        agencies.map(a => `<option value="${a}">${a}</option>`).join('');
+
+      document.getElementById('appropBillFilter').addEventListener('change', filterAppropriations);
+      document.getElementById('appropAgencyFilter').addEventListener('change', filterAppropriations);
+      document.getElementById('appropMinAmount').addEventListener('input', filterAppropriations);
+    }
+
+    // Filter bills
+    function filterBills() {
+      const type = document.getElementById('billTypeFilter').value;
+      const search = document.getElementById('billSearch').value.toLowerCase();
+
+      document.querySelectorAll('.bill-row').forEach(row => {
+        const matchesType = !type || row.dataset.type === type;
+        const matchesSearch = !search || row.textContent.toLowerCase().includes(search);
+        row.style.display = matchesType && matchesSearch ? '' : 'none';
+      });
+    }
+
+    // Filter appropriations
+    function filterAppropriations() {
+      const bill = document.getElementById('appropBillFilter').value;
+      const agency = document.getElementById('appropAgencyFilter').value;
+      const minAmount = parseFloat(document.getElementById('appropMinAmount').value) || 0;
+
+      document.querySelectorAll('.approp-row').forEach(row => {
+        const matchesBill = !bill || row.dataset.bill === bill;
+        const matchesAgency = !agency || row.dataset.agency === agency;
+        const amount = parseFloat(row.querySelector('.number').textContent.replace(/[$,]/g, ''));
+        const matchesAmount = amount >= minAmount;
+
+        row.style.display = matchesBill && matchesAgency && matchesAmount ? '' : 'none';
+      });
+    }
+
+    // Setup tabs
+    function setupTabs() {
+      document.querySelectorAll('.tab').forEach(tab => {
+        tab.addEventListener('click', () => {
+          const tabName = tab.dataset.tab;
+          const parent = tab.closest('.section') || document;
+
+          parent.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+          parent.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+
+          tab.classList.add('active');
+          parent.querySelector(`#${tabName}`).classList.add('active');
+        });
+      });
+    }
+
+    // Setup query examples
+    function setupQueryExamples() {
+      const examples = {
+        total: "_.sumBy(billsData.appropriations.filter(a => !a.isTotal), 'amount')",
+        topAgencies: "_.chain(billsData.appropriations)\n  .filter(a => !a.isTotal && a.amount)\n  .groupBy('departmentName')\n  .map((approp, dept) => ({ \n    department: dept, \n    total: _.sumBy(approp, 'amount') \n  }))\n  .orderBy('total', 'desc')\n  .take(10)\n  .value()",
+        budgetBills: "billsIndex\n  .filter(b => b.type.includes('budget'))\n  .map(b => ({\n    bill: b.billNumber,\n    type: b.type,\n    total: b.totalAppropriationAmount\n  }))",
+        policyBills: "_.chain(billsIndex)\n  .filter({ type: 'policy' })\n  .orderBy('sections', 'desc')\n  .map(b => ({ bill: b.billNumber, sections: b.sections }))\n  .value()",
+        avgApprop: "_.chain(billsData.appropriations)\n  .filter(a => !a.isTotal && a.amount)\n  .groupBy('billId')\n  .map((approp, bill) => ({\n    bill,\n    avg: _.meanBy(approp, 'amount')\n  }))\n  .value()"
+      };
+
+      document.getElementById('queryExamples').addEventListener('change', (e) => {
+        const example = examples[e.target.value];
+        if (example) {
+          document.getElementById('queryInput').value = example;
+        }
+      });
+    }
+
+    // Run custom query
+    function runQuery() {
+      const query = document.getElementById('queryInput').value;
+      const resultDiv = document.getElementById('queryResult');
+
+      try {
+        const result = eval(query);
+        resultDiv.textContent = JSON.stringify(result, null, 2);
+        resultDiv.style.background = '#e8f5e9';
+        resultDiv.style.color = '#2e7d32';
+      } catch (error) {
+        resultDiv.textContent = 'Error: ' + error.message;
+        resultDiv.style.background = '#ffebee';
+        resultDiv.style.color = '#c62828';
+      }
+    }
+
+    // Load data on page load
+    loadData();
+  </script>
+</body>
+</html>

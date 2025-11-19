@@ -1,0 +1,1191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Washington State Budget Bill Comparison Tool</title>
+
+    <!--
+        TECHNICAL CHOICES:
+
+        1. Pure JavaScript with DOMParser (built-in XML parsing):
+           - No external dependencies for XML parsing
+           - Native browser support, fast and reliable
+           - Handles complex nested structures well
+
+        2. diff-match-patch library (Google, via CDN):
+           - Industry standard for text diffing
+           - Produces semantic diffs optimized for human reading
+           - Clean HTML output with proper highlighting
+           - Well-tested for legislative/legal text comparison
+
+        3. Bootstrap 5 (via CDN):
+           - Responsive design out of the box
+           - Professional appearance for legislative use
+           - Minimal custom CSS needed
+           - Print-friendly
+
+        4. Single HTML file approach:
+           - Easy distribution and archival
+           - No server needed, runs locally
+           - Self-contained for security/compliance
+           - Works offline once loaded
+    -->
+
+    <!-- Bootstrap CSS for professional UI -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Google's diff-match-patch for text comparison -->
+    <script src="https://cdn.jsdelivr.net/npm/diff-match-patch@1.0.5/index.js"></script>
+
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f5f5f5;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+            color: white;
+            padding: 2rem 0;
+            margin-bottom: 2rem;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .input-section {
+            background: white;
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        textarea {
+            font-family: 'Courier New', monospace;
+            font-size: 0.85rem;
+        }
+
+        .comparison-output {
+            background: white;
+            border-radius: 8px;
+            padding: 2rem;
+            margin-top: 2rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .summary-card {
+            background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+            border-left: 4px solid #3b82f6;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+            border-radius: 4px;
+        }
+
+        .metric {
+            text-align: center;
+            padding: 1rem;
+        }
+
+        .metric-value {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #1e3a8a;
+        }
+
+        .metric-label {
+            color: #64748b;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .agency-section {
+            border: 1px solid #e2e8f0;
+            border-radius: 6px;
+            margin-bottom: 1.5rem;
+            overflow: hidden;
+        }
+
+        .agency-header {
+            background: #f1f5f9;
+            padding: 1rem 1.5rem;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: background 0.2s;
+        }
+
+        .agency-header:hover {
+            background: #e2e8f0;
+        }
+
+        .agency-name {
+            font-weight: 600;
+            color: #1e293b;
+            font-size: 1.1rem;
+        }
+
+        .agency-change {
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+
+        .agency-body {
+            padding: 1.5rem;
+            display: none;
+        }
+
+        .agency-body.show {
+            display: block;
+        }
+
+        .appropriation-item {
+            padding: 1rem;
+            border-left: 3px solid #cbd5e1;
+            margin-bottom: 1rem;
+            background: #fafafa;
+        }
+
+        .appropriation-item.new {
+            border-left-color: #22c55e;
+            background: #f0fdf4;
+        }
+
+        .appropriation-item.removed {
+            border-left-color: #ef4444;
+            background: #fef2f2;
+        }
+
+        .appropriation-item.changed {
+            border-left-color: #f59e0b;
+            background: #fffbeb;
+        }
+
+        .appropriation-item.unchanged {
+            border-left-color: #94a3b8;
+            background: #f8fafc;
+            opacity: 0.7;
+        }
+
+        .badge {
+            font-size: 0.75rem;
+            padding: 0.35rem 0.65rem;
+            font-weight: 600;
+        }
+
+        .amount-old {
+            text-decoration: line-through;
+            color: #ef4444;
+        }
+
+        .amount-new {
+            color: #22c55e;
+            font-weight: bold;
+        }
+
+        .proviso-diff {
+            background: #f8fafc;
+            padding: 1rem;
+            border-radius: 4px;
+            margin-top: 0.5rem;
+            font-family: 'Courier New', monospace;
+            font-size: 0.85rem;
+            white-space: pre-wrap;
+            word-break: break-word;
+        }
+
+        /* Diff highlighting styles */
+        ins {
+            background: #bbf7d0;
+            text-decoration: none;
+            padding: 0 2px;
+        }
+
+        del {
+            background: #fecaca;
+            padding: 0 2px;
+        }
+
+        .positive {
+            color: #22c55e;
+        }
+
+        .negative {
+            color: #ef4444;
+        }
+
+        .btn-compare {
+            background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
+            border: none;
+            padding: 0.75rem 2rem;
+            font-size: 1.1rem;
+            font-weight: 600;
+            box-shadow: 0 4px 6px rgba(59, 130, 246, 0.3);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .btn-compare:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(59, 130, 246, 0.4);
+        }
+
+        .loading {
+            display: none;
+            text-align: center;
+            padding: 2rem;
+        }
+
+        .spinner-border {
+            width: 3rem;
+            height: 3rem;
+        }
+
+        @media print {
+            .input-section, .header, button {
+                display: none;
+            }
+            .comparison-output {
+                box-shadow: none;
+            }
+        }
+
+        .collapse-icon {
+            transition: transform 0.3s;
+        }
+
+        .collapsed .collapse-icon {
+            transform: rotate(-90deg);
+        }
+
+        .filter-section {
+            background: #f8fafc;
+            padding: 1rem;
+            border-radius: 6px;
+            margin-bottom: 1.5rem;
+        }
+
+        .account-name {
+            font-weight: 500;
+            color: #475569;
+        }
+
+        .fiscal-year {
+            color: #64748b;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <h1 class="mb-0">Washington State Budget Bill Comparison Tool</h1>
+            <p class="mb-0 mt-2">Compare appropriations, provisos, and funding changes across budget bills</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="input-section">
+                    <h4>Base Bill (XML)</h4>
+                    <p class="text-muted small">Paste the baseline budget bill XML or load from file</p>
+                    <div class="mb-3">
+                        <input type="file" class="form-control" id="file1" accept=".xml" />
+                    </div>
+                    <textarea class="form-control" id="xml1" rows="10" placeholder="Paste XML content here..."></textarea>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="input-section">
+                    <h4>Comparison Bill (XML)</h4>
+                    <p class="text-muted small">Paste the supplemental/comparison budget bill XML or load from file</p>
+                    <div class="mb-3">
+                        <input type="file" class="form-control" id="file2" accept=".xml" />
+                    </div>
+                    <textarea class="form-control" id="xml2" rows="10" placeholder="Paste XML content here..."></textarea>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center mb-4">
+            <button class="btn btn-primary btn-lg btn-compare" onclick="compareBills()">
+                <i>⚖️</i> Compare Budget Bills
+            </button>
+        </div>
+
+        <div class="loading" id="loading">
+            <div class="spinner-border text-primary" role="status"></div>
+            <p class="mt-3">Analyzing budget bills...</p>
+        </div>
+
+        <div id="output" class="comparison-output" style="display: none;"></div>
+    </div>
+
+    <script>
+        // File upload handlers
+        document.getElementById('file1').addEventListener('change', function(e) {
+            const file = e.target.files[0];
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = function(event) {
+                    document.getElementById('xml1').value = event.target.result;
+                };
+                reader.readAsText(file);
+            }
+        });
+
+        document.getElementById('file2').addEventListener('change', function(e) {
+            const file = e.target.files[0];
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = function(event) {
+                    document.getElementById('xml2').value = event.target.result;
+                };
+                reader.readAsText(file);
+            }
+        });
+
+        /**
+         * Parse a budget bill XML into a structured object
+         *
+         * The XML structure is:
+         * Bill -> Parts -> BillSections (agencies) -> Appropriations + Provisos
+         *
+         * We extract:
+         * - Agency code and name from Department element
+         * - Appropriation details (account, amount, fiscal year)
+         * - Proviso text paragraphs
+         */
+        function parseBudgetBill(xmlString) {
+            const parser = new DOMParser();
+            const doc = parser.parseFromString(xmlString, 'text/xml');
+
+            // Check for parsing errors
+            const parserError = doc.querySelector('parsererror');
+            if (parserError) {
+                throw new Error('XML parsing error: ' + parserError.textContent);
+            }
+
+            const agencies = [];
+            const sections = doc.querySelectorAll('BillSection');
+
+            sections.forEach(section => {
+                const sectionNum = section.getAttribute('SectionNumber') || 'Unknown';
+                const deptElement = section.querySelector('Department');
+
+                if (!deptElement) return;
+
+                const agencyCode = deptElement.getAttribute('Code') || '';
+                const agencyName = getTextContent(deptElement);
+
+                // Extract appropriations
+                const appropriations = [];
+                const appropElements = section.querySelectorAll('Appropriation');
+
+                appropElements.forEach(approp => {
+                    const accountName = getTextContent(approp.querySelector('AccountName'));
+                    const dollarAmountElement = approp.querySelector('DollarAmount');
+                    const amount = dollarAmountElement ? parseAmount(getTextContent(dollarAmountElement)) : 0;
+                    const appropTotal = approp.querySelector('AppropriationTotal');
+                    const total = appropTotal ? parseAmount(getTextContent(appropTotal)) : amount;
+
+                    // Try to extract fiscal year from account name or context
+                    const fiscalYear = extractFiscalYear(accountName);
+
+                    appropriations.push({
+                        accountName: accountName.trim(),
+                        amount: total,
+                        fiscalYear: fiscalYear,
+                        rawText: getTextContent(approp)
+                    });
+                });
+
+                // Extract provisos - these are the conditions and limitations
+                const provisos = extractProvisos(section);
+
+                agencies.push({
+                    sectionNumber: sectionNum,
+                    code: agencyCode,
+                    name: agencyName.trim(),
+                    appropriations: appropriations,
+                    provisos: provisos
+                });
+            });
+
+            return agencies;
+        }
+
+        /**
+         * Extract text content from an element, handling TextRun children
+         */
+        function getTextContent(element) {
+            if (!element) return '';
+
+            // If element has TextRun children, concatenate their text
+            const textRuns = element.querySelectorAll('TextRun');
+            if (textRuns.length > 0) {
+                return Array.from(textRuns).map(tr => tr.textContent).join('');
+            }
+
+            return element.textContent || '';
+        }
+
+        /**
+         * Parse dollar amount string to number
+         * Handles formats like: $1,234,567 or 1234567
+         */
+        function parseAmount(str) {
+            if (!str) return 0;
+            const cleaned = str.replace(/[$,\s]/g, '');
+            const num = parseFloat(cleaned);
+            return isNaN(num) ? 0 : num;
+        }
+
+        /**
+         * Extract fiscal year from account name or context
+         * Looks for patterns like "FY 2026", "fiscal year 2027", etc.
+         */
+        function extractFiscalYear(text) {
+            if (!text) return '';
+
+            const fyMatch = text.match(/FY\s*(\d{4})/i);
+            if (fyMatch) return fyMatch[1];
+
+            const fiscalMatch = text.match(/fiscal\s+year\s+(\d{4})/i);
+            if (fiscalMatch) return fiscalMatch[1];
+
+            const yearMatch = text.match(/\b(20\d{2})\b/);
+            if (yearMatch) return yearMatch[1];
+
+            return '';
+        }
+
+        /**
+         * Extract proviso paragraphs from a bill section
+         * Provisos are conditions and limitations that follow appropriations
+         */
+        function extractProvisos(section) {
+            const provisos = [];
+
+            // Look for the proviso introduction text
+            const allParagraphs = section.querySelectorAll('P, BudgetP');
+            let inProvisos = false;
+            let currentProviso = '';
+
+            allParagraphs.forEach(p => {
+                const text = getTextContent(p).trim();
+
+                // Check if this is the proviso section start
+                if (text.includes('appropriations in this section are subject to the following conditions and limitations')) {
+                    inProvisos = true;
+                    return;
+                }
+
+                // If we're in the proviso section
+                if (inProvisos && text) {
+                    // Check if this is a numbered proviso (1), (2), etc.
+                    if (/^\(\d+\)/.test(text)) {
+                        if (currentProviso) {
+                            provisos.push(currentProviso);
+                        }
+                        currentProviso = text;
+                    } else if (currentProviso) {
+                        currentProviso += ' ' + text;
+                    }
+                }
+            });
+
+            if (currentProviso) {
+                provisos.push(currentProviso);
+            }
+
+            return provisos;
+        }
+
+        /**
+         * Format number as currency
+         */
+        function formatCurrency(amount) {
+            return '$' + amount.toLocaleString('en-US', {
+                minimumFractionDigits: 0,
+                maximumFractionDigits: 0
+            });
+        }
+
+        /**
+         * Calculate percentage change
+         */
+        function calcPercentChange(oldVal, newVal) {
+            if (oldVal === 0) return newVal > 0 ? 100 : 0;
+            return ((newVal - oldVal) / oldVal) * 100;
+        }
+
+        /**
+         * Compare two budget bills and generate comparison report
+         */
+        function compareBills() {
+            const xml1 = document.getElementById('xml1').value.trim();
+            const xml2 = document.getElementById('xml2').value.trim();
+
+            if (!xml1 || !xml2) {
+                alert('Please provide both XML files for comparison');
+                return;
+            }
+
+            // Show loading indicator
+            document.getElementById('loading').style.display = 'block';
+            document.getElementById('output').style.display = 'none';
+
+            // Use setTimeout to allow UI to update
+            setTimeout(() => {
+                try {
+                    const bill1 = parseBudgetBill(xml1);
+                    const bill2 = parseBudgetBill(xml2);
+
+                    const comparison = compareAgencies(bill1, bill2);
+                    displayComparison(comparison);
+
+                } catch (error) {
+                    document.getElementById('output').innerHTML = `
+                        <div class="alert alert-danger">
+                            <h4>Error parsing XML</h4>
+                            <p>${error.message}</p>
+                            <p class="small">Please ensure you've pasted valid Washington State budget bill XML.</p>
+                        </div>
+                    `;
+                    document.getElementById('output').style.display = 'block';
+                } finally {
+                    document.getElementById('loading').style.display = 'none';
+                }
+            }, 100);
+        }
+
+        /**
+         * Compare agencies between two bills
+         */
+        function compareAgencies(bill1, bill2) {
+            const result = {
+                agencies: [],
+                summary: {
+                    totalAgencies: 0,
+                    agenciesChanged: 0,
+                    agenciesNew: 0,
+                    agenciesRemoved: 0,
+                    appropriationsNew: 0,
+                    appropriationsRemoved: 0,
+                    appropriationsChanged: 0,
+                    appropriationsUnchanged: 0,
+                    provisosAdded: 0,
+                    provisosRemoved: 0,
+                    provisosModified: 0,
+                    totalFiscalImpact: 0,
+                    bill1Total: 0,
+                    bill2Total: 0
+                }
+            };
+
+            // Create maps for quick lookup
+            const bill1Map = new Map();
+            const bill2Map = new Map();
+
+            bill1.forEach(agency => {
+                const key = agency.code || agency.name;
+                bill1Map.set(key, agency);
+            });
+
+            bill2.forEach(agency => {
+                const key = agency.code || agency.name;
+                bill2Map.set(key, agency);
+            });
+
+            // Get all unique agency keys
+            const allKeys = new Set([...bill1Map.keys(), ...bill2Map.keys()]);
+
+            allKeys.forEach(key => {
+                const agency1 = bill1Map.get(key);
+                const agency2 = bill2Map.get(key);
+
+                if (!agency1 && agency2) {
+                    // New agency
+                    result.agencies.push({
+                        code: agency2.code,
+                        name: agency2.name,
+                        status: 'new',
+                        appropriations: agency2.appropriations.map(a => ({
+                            ...a,
+                            status: 'new',
+                            oldAmount: 0,
+                            newAmount: a.amount,
+                            change: a.amount
+                        })),
+                        provisos: {
+                            added: agency2.provisos,
+                            removed: [],
+                            modified: []
+                        },
+                        totalChange: agency2.appropriations.reduce((sum, a) => sum + a.amount, 0)
+                    });
+                    result.summary.agenciesNew++;
+                    result.summary.appropriationsNew += agency2.appropriations.length;
+                    result.summary.provisosAdded += agency2.provisos.length;
+                } else if (agency1 && !agency2) {
+                    // Removed agency
+                    result.agencies.push({
+                        code: agency1.code,
+                        name: agency1.name,
+                        status: 'removed',
+                        appropriations: agency1.appropriations.map(a => ({
+                            ...a,
+                            status: 'removed',
+                            oldAmount: a.amount,
+                            newAmount: 0,
+                            change: -a.amount
+                        })),
+                        provisos: {
+                            added: [],
+                            removed: agency1.provisos,
+                            modified: []
+                        },
+                        totalChange: -agency1.appropriations.reduce((sum, a) => sum + a.amount, 0)
+                    });
+                    result.summary.agenciesRemoved++;
+                    result.summary.appropriationsRemoved += agency1.appropriations.length;
+                    result.summary.provisosRemoved += agency1.provisos.length;
+                } else {
+                    // Existing agency - compare details
+                    const agencyComparison = compareAgencyDetails(agency1, agency2);
+                    result.agencies.push(agencyComparison);
+
+                    if (agencyComparison.hasChanges) {
+                        result.summary.agenciesChanged++;
+                    }
+
+                    // Count appropriation changes
+                    agencyComparison.appropriations.forEach(a => {
+                        if (a.status === 'new') result.summary.appropriationsNew++;
+                        else if (a.status === 'removed') result.summary.appropriationsRemoved++;
+                        else if (a.status === 'changed') result.summary.appropriationsChanged++;
+                        else result.summary.appropriationsUnchanged++;
+                    });
+
+                    result.summary.provisosAdded += agencyComparison.provisos.added.length;
+                    result.summary.provisosRemoved += agencyComparison.provisos.removed.length;
+                    result.summary.provisosModified += agencyComparison.provisos.modified.length;
+                }
+            });
+
+            // Calculate totals
+            result.summary.totalAgencies = allKeys.size;
+            result.agencies.forEach(agency => {
+                result.summary.totalFiscalImpact += agency.totalChange;
+
+                agency.appropriations.forEach(a => {
+                    result.summary.bill1Total += a.oldAmount || 0;
+                    result.summary.bill2Total += a.newAmount || 0;
+                });
+            });
+
+            // Sort agencies by total change (largest changes first)
+            result.agencies.sort((a, b) => Math.abs(b.totalChange) - Math.abs(a.totalChange));
+
+            return result;
+        }
+
+        /**
+         * Compare details of a single agency between two bills
+         */
+        function compareAgencyDetails(agency1, agency2) {
+            const result = {
+                code: agency2.code,
+                name: agency2.name,
+                status: 'existing',
+                appropriations: [],
+                provisos: {
+                    added: [],
+                    removed: [],
+                    modified: []
+                },
+                totalChange: 0,
+                hasChanges: false
+            };
+
+            // Compare appropriations
+            const approp1Map = new Map();
+            const approp2Map = new Map();
+
+            agency1.appropriations.forEach(a => {
+                const key = `${a.accountName}|${a.fiscalYear}`;
+                approp1Map.set(key, a);
+            });
+
+            agency2.appropriations.forEach(a => {
+                const key = `${a.accountName}|${a.fiscalYear}`;
+                approp2Map.set(key, a);
+            });
+
+            const allAppropKeys = new Set([...approp1Map.keys(), ...approp2Map.keys()]);
+
+            allAppropKeys.forEach(key => {
+                const a1 = approp1Map.get(key);
+                const a2 = approp2Map.get(key);
+
+                if (!a1 && a2) {
+                    result.appropriations.push({
+                        ...a2,
+                        status: 'new',
+                        oldAmount: 0,
+                        newAmount: a2.amount,
+                        change: a2.amount
+                    });
+                    result.totalChange += a2.amount;
+                    result.hasChanges = true;
+                } else if (a1 && !a2) {
+                    result.appropriations.push({
+                        ...a1,
+                        status: 'removed',
+                        oldAmount: a1.amount,
+                        newAmount: 0,
+                        change: -a1.amount
+                    });
+                    result.totalChange -= a1.amount;
+                    result.hasChanges = true;
+                } else {
+                    const change = a2.amount - a1.amount;
+                    result.appropriations.push({
+                        ...a2,
+                        status: change !== 0 ? 'changed' : 'unchanged',
+                        oldAmount: a1.amount,
+                        newAmount: a2.amount,
+                        change: change
+                    });
+                    result.totalChange += change;
+                    if (change !== 0) result.hasChanges = true;
+                }
+            });
+
+            // Compare provisos using text diffing
+            const proviso1Set = new Set(agency1.provisos);
+            const proviso2Set = new Set(agency2.provisos);
+
+            agency2.provisos.forEach(p2 => {
+                if (!proviso1Set.has(p2)) {
+                    // Check if it's a modification of an existing proviso
+                    let isModification = false;
+                    agency1.provisos.forEach(p1 => {
+                        // Simple heuristic: if they start with the same number, consider it a modification
+                        const num1 = p1.match(/^\((\d+)\)/);
+                        const num2 = p2.match(/^\((\d+)\)/);
+                        if (num1 && num2 && num1[1] === num2[1] && p1 !== p2) {
+                            result.provisos.modified.push({
+                                old: p1,
+                                new: p2,
+                                number: num2[1]
+                            });
+                            isModification = true;
+                            result.hasChanges = true;
+                        }
+                    });
+
+                    if (!isModification) {
+                        result.provisos.added.push(p2);
+                        result.hasChanges = true;
+                    }
+                }
+            });
+
+            agency1.provisos.forEach(p1 => {
+                if (!proviso2Set.has(p1)) {
+                    // Check if it was already counted as modified
+                    const num1 = p1.match(/^\((\d+)\)/);
+                    const alreadyCounted = result.provisos.modified.some(m => {
+                        const numMod = m.old.match(/^\((\d+)\)/);
+                        return numMod && num1 && numMod[1] === num1[1];
+                    });
+
+                    if (!alreadyCounted) {
+                        result.provisos.removed.push(p1);
+                        result.hasChanges = true;
+                    }
+                }
+            });
+
+            return result;
+        }
+
+        /**
+         * Display the comparison results
+         */
+        function displayComparison(comparison) {
+            const output = document.getElementById('output');
+
+            let html = `
+                <div class="summary-card">
+                    <h3 class="mb-4">📊 Summary of Changes</h3>
+
+                    <div class="row">
+                        <div class="col-md-3 col-6">
+                            <div class="metric">
+                                <div class="metric-value">${comparison.summary.totalAgencies}</div>
+                                <div class="metric-label">Total Agencies</div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-6">
+                            <div class="metric">
+                                <div class="metric-value positive">${comparison.summary.agenciesNew}</div>
+                                <div class="metric-label">New Agencies</div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-6">
+                            <div class="metric">
+                                <div class="metric-value">${comparison.summary.agenciesChanged}</div>
+                                <div class="metric-label">Changed Agencies</div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-6">
+                            <div class="metric">
+                                <div class="metric-value negative">${comparison.summary.agenciesRemoved}</div>
+                                <div class="metric-label">Removed Agencies</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr class="my-4">
+
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="metric">
+                                <div class="metric-value">${formatCurrency(comparison.summary.bill1Total)}</div>
+                                <div class="metric-label">Base Bill Total</div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="metric">
+                                <div class="metric-value ${comparison.summary.totalFiscalImpact >= 0 ? 'positive' : 'negative'}">
+                                    ${comparison.summary.totalFiscalImpact >= 0 ? '+' : ''}${formatCurrency(comparison.summary.totalFiscalImpact)}
+                                </div>
+                                <div class="metric-label">Net Change</div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="metric">
+                                <div class="metric-value">${formatCurrency(comparison.summary.bill2Total)}</div>
+                                <div class="metric-label">Comparison Bill Total</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr class="my-4">
+
+                    <div class="row">
+                        <div class="col-md-3 col-6">
+                            <div class="metric">
+                                <div class="metric-value positive">${comparison.summary.appropriationsNew}</div>
+                                <div class="metric-label">New Appropriations</div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-6">
+                            <div class="metric">
+                                <div class="metric-value">${comparison.summary.appropriationsChanged}</div>
+                                <div class="metric-label">Changed Appropriations</div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-6">
+                            <div class="metric">
+                                <div class="metric-value negative">${comparison.summary.appropriationsRemoved}</div>
+                                <div class="metric-label">Removed Appropriations</div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-6">
+                            <div class="metric">
+                                <div class="metric-value">${comparison.summary.appropriationsUnchanged}</div>
+                                <div class="metric-label">Unchanged</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr class="my-4">
+
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="metric">
+                                <div class="metric-value positive">${comparison.summary.provisosAdded}</div>
+                                <div class="metric-label">Provisos Added</div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="metric">
+                                <div class="metric-value">${comparison.summary.provisosModified}</div>
+                                <div class="metric-label">Provisos Modified</div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="metric">
+                                <div class="metric-value negative">${comparison.summary.provisosRemoved}</div>
+                                <div class="metric-label">Provisos Removed</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="filter-section">
+                    <h5>🔍 Filter Results</h5>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label class="form-label">Show Agencies:</label>
+                            <select class="form-select" id="filterStatus" onchange="filterAgencies()">
+                                <option value="all">All Agencies</option>
+                                <option value="changed">Changed Only</option>
+                                <option value="new">New Only</option>
+                                <option value="removed">Removed Only</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label">Search:</label>
+                            <input type="text" class="form-control" id="searchAgency"
+                                   placeholder="Search by agency name..."
+                                   onkeyup="filterAgencies()">
+                        </div>
+                    </div>
+                </div>
+
+                <h3 class="mb-4">🏛️ Agency-by-Agency Breakdown</h3>
+            `;
+
+            comparison.agencies.forEach((agency, index) => {
+                html += generateAgencyHTML(agency, index);
+            });
+
+            output.innerHTML = html;
+            output.style.display = 'block';
+
+            // Scroll to results
+            output.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+
+        /**
+         * Generate HTML for a single agency comparison
+         */
+        function generateAgencyHTML(agency, index) {
+            const statusBadge = {
+                'new': '<span class="badge bg-success">NEW</span>',
+                'removed': '<span class="badge bg-danger">REMOVED</span>',
+                'existing': agency.hasChanges ? '<span class="badge bg-warning">CHANGED</span>' : '<span class="badge bg-secondary">UNCHANGED</span>'
+            };
+
+            const changeClass = agency.totalChange > 0 ? 'positive' : agency.totalChange < 0 ? 'negative' : '';
+            const changeSymbol = agency.totalChange > 0 ? '+' : '';
+
+            let html = `
+                <div class="agency-section" data-status="${agency.status}" data-changed="${agency.hasChanges}">
+                    <div class="agency-header" onclick="toggleAgency(${index})">
+                        <div>
+                            <span class="agency-name">${agency.name}</span>
+                            ${agency.code ? `<small class="text-muted ms-2">(${agency.code})</small>` : ''}
+                            ${statusBadge[agency.status]}
+                        </div>
+                        <div>
+                            <span class="agency-change ${changeClass}">
+                                ${changeSymbol}${formatCurrency(agency.totalChange)}
+                            </span>
+                            <span class="collapse-icon ms-2">▼</span>
+                        </div>
+                    </div>
+
+                    <div class="agency-body" id="agency-${index}">
+            `;
+
+            // Appropriations section
+            if (agency.appropriations && agency.appropriations.length > 0) {
+                html += '<h5 class="mb-3">💰 Appropriations</h5>';
+
+                agency.appropriations.forEach(approp => {
+                    const statusClass = approp.status;
+                    const statusBadgeApprop = {
+                        'new': '<span class="badge bg-success">NEW</span>',
+                        'removed': '<span class="badge bg-danger">REMOVED</span>',
+                        'changed': '<span class="badge bg-warning">CHANGED</span>',
+                        'unchanged': '<span class="badge bg-secondary">UNCHANGED</span>'
+                    };
+
+                    html += `
+                        <div class="appropriation-item ${statusClass}">
+                            <div class="d-flex justify-content-between align-items-start mb-2">
+                                <div>
+                                    <div class="account-name">${approp.accountName}</div>
+                                    ${approp.fiscalYear ? `<div class="fiscal-year">FY ${approp.fiscalYear}</div>` : ''}
+                                </div>
+                                <div>
+                                    ${statusBadgeApprop[approp.status]}
+                                </div>
+                            </div>
+                    `;
+
+                    if (approp.status === 'changed') {
+                        const percentChange = calcPercentChange(approp.oldAmount, approp.newAmount);
+                        html += `
+                            <div class="mt-2">
+                                <span class="amount-old">${formatCurrency(approp.oldAmount)}</span>
+                                →
+                                <span class="amount-new">${formatCurrency(approp.newAmount)}</span>
+                                <span class="ms-2 ${approp.change >= 0 ? 'positive' : 'negative'}">
+                                    (${approp.change >= 0 ? '+' : ''}${formatCurrency(approp.change)},
+                                    ${percentChange >= 0 ? '+' : ''}${percentChange.toFixed(1)}%)
+                                </span>
+                            </div>
+                        `;
+                    } else if (approp.status === 'new') {
+                        html += `<div class="mt-2 amount-new">${formatCurrency(approp.newAmount)}</div>`;
+                    } else if (approp.status === 'removed') {
+                        html += `<div class="mt-2 amount-old">${formatCurrency(approp.oldAmount)}</div>`;
+                    } else {
+                        html += `<div class="mt-2">${formatCurrency(approp.newAmount)}</div>`;
+                    }
+
+                    html += '</div>';
+                });
+            }
+
+            // Provisos section
+            if (agency.provisos && (agency.provisos.added.length > 0 ||
+                                   agency.provisos.removed.length > 0 ||
+                                   agency.provisos.modified.length > 0)) {
+                html += '<h5 class="mb-3 mt-4">📜 Proviso Changes</h5>';
+
+                if (agency.provisos.added.length > 0) {
+                    html += '<h6 class="text-success">Added Provisos</h6>';
+                    agency.provisos.added.forEach(proviso => {
+                        html += `
+                            <div class="appropriation-item new mb-3">
+                                <span class="badge bg-success mb-2">ADDED</span>
+                                <div>${escapeHtml(proviso)}</div>
+                            </div>
+                        `;
+                    });
+                }
+
+                if (agency.provisos.modified.length > 0) {
+                    html += '<h6 class="text-warning mt-3">Modified Provisos</h6>';
+                    agency.provisos.modified.forEach(proviso => {
+                        const diff = createTextDiff(proviso.old, proviso.new);
+                        html += `
+                            <div class="appropriation-item changed mb-3">
+                                <span class="badge bg-warning mb-2">MODIFIED (${proviso.number})</span>
+                                <div class="proviso-diff">${diff}</div>
+                            </div>
+                        `;
+                    });
+                }
+
+                if (agency.provisos.removed.length > 0) {
+                    html += '<h6 class="text-danger mt-3">Removed Provisos</h6>';
+                    agency.provisos.removed.forEach(proviso => {
+                        html += `
+                            <div class="appropriation-item removed mb-3">
+                                <span class="badge bg-danger mb-2">REMOVED</span>
+                                <div>${escapeHtml(proviso)}</div>
+                            </div>
+                        `;
+                    });
+                }
+            }
+
+            html += `
+                    </div>
+                </div>
+            `;
+
+            return html;
+        }
+
+        /**
+         * Create a visual diff of two text strings
+         * Uses diff-match-patch library for semantic diffing
+         */
+        function createTextDiff(oldText, newText) {
+            if (typeof diff_match_patch === 'undefined') {
+                // Fallback if library doesn't load
+                return `
+                    <div><strong>Old:</strong> ${escapeHtml(oldText)}</div>
+                    <div class="mt-2"><strong>New:</strong> ${escapeHtml(newText)}</div>
+                `;
+            }
+
+            const dmp = new diff_match_patch();
+            const diffs = dmp.diff_main(oldText, newText);
+            dmp.diff_cleanupSemantic(diffs);
+
+            let html = '';
+            diffs.forEach(([operation, text]) => {
+                const escapedText = escapeHtml(text);
+                if (operation === 1) { // Insert
+                    html += `<ins>${escapedText}</ins>`;
+                } else if (operation === -1) { // Delete
+                    html += `<del>${escapedText}</del>`;
+                } else { // Equal
+                    html += escapedText;
+                }
+            });
+
+            return html;
+        }
+
+        /**
+         * Escape HTML to prevent XSS
+         */
+        function escapeHtml(text) {
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+
+        /**
+         * Toggle agency details visibility
+         */
+        function toggleAgency(index) {
+            const body = document.getElementById(`agency-${index}`);
+            const header = body.previousElementSibling;
+
+            if (body.classList.contains('show')) {
+                body.classList.remove('show');
+                header.classList.add('collapsed');
+            } else {
+                body.classList.add('show');
+                header.classList.remove('collapsed');
+            }
+        }
+
+        /**
+         * Filter agencies based on status and search
+         */
+        function filterAgencies() {
+            const statusFilter = document.getElementById('filterStatus').value;
+            const searchText = document.getElementById('searchAgency').value.toLowerCase();
+
+            const agencies = document.querySelectorAll('.agency-section');
+
+            agencies.forEach(agency => {
+                let show = true;
+
+                // Status filter
+                if (statusFilter !== 'all') {
+                    if (statusFilter === 'changed') {
+                        show = agency.dataset.changed === 'true' && agency.dataset.status === 'existing';
+                    } else {
+                        show = agency.dataset.status === statusFilter;
+                    }
+                }
+
+                // Search filter
+                if (show && searchText) {
+                    const agencyName = agency.querySelector('.agency-name').textContent.toLowerCase();
+                    show = agencyName.includes(searchText);
+                }
+
+                agency.style.display = show ? 'block' : 'none';
+            });
+        }
+    </script>
+</body>
+</html>

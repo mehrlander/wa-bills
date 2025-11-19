@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WA Bill 5187-S Data Explorer</title>
+
+  <!-- Lodash from CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
+
+  <!-- Chart.js for visualizations -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+
+  <!-- Bootstrap for styling -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+      background-color: #f5f5f5;
+      padding: 20px;
+    }
+
+    .header {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      padding: 30px;
+      border-radius: 10px;
+      margin-bottom: 30px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+
+    .card {
+      border: none;
+      border-radius: 10px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      margin-bottom: 20px;
+    }
+
+    .card-header {
+      background-color: #667eea;
+      color: white;
+      border-radius: 10px 10px 0 0 !important;
+      font-weight: 600;
+    }
+
+    .stat-card {
+      text-align: center;
+      padding: 20px;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      margin-bottom: 20px;
+    }
+
+    .stat-number {
+      font-size: 2.5em;
+      font-weight: bold;
+      color: #667eea;
+      margin: 10px 0;
+    }
+
+    .stat-label {
+      color: #666;
+      font-size: 0.9em;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    .query-result {
+      background: #f8f9fa;
+      padding: 15px;
+      border-radius: 5px;
+      margin-top: 10px;
+      font-family: 'Courier New', monospace;
+      font-size: 0.9em;
+      max-height: 400px;
+      overflow-y: auto;
+    }
+
+    .btn-query {
+      background-color: #667eea;
+      border: none;
+      padding: 10px 20px;
+      margin: 5px;
+    }
+
+    .btn-query:hover {
+      background-color: #5568d3;
+    }
+
+    #loading {
+      text-align: center;
+      padding: 50px;
+    }
+
+    .agency-item {
+      padding: 10px;
+      border-bottom: 1px solid #eee;
+      cursor: pointer;
+      transition: background-color 0.2s;
+    }
+
+    .agency-item:hover {
+      background-color: #f0f0f0;
+    }
+
+    .amount {
+      color: #28a745;
+      font-weight: bold;
+    }
+
+    .chart-container {
+      position: relative;
+      height: 400px;
+      margin: 20px 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Washington State Bill 5187-S</h1>
+      <h4>2023-2025 Operating Budget Data Explorer</h4>
+      <p class="mb-0">Interactive query tool for exploring structured bill data using Lodash</p>
+    </div>
+
+    <div id="loading">
+      <div class="spinner-border text-primary" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+      <p>Loading bill data...</p>
+    </div>
+
+    <div id="content" style="display: none;">
+      <!-- Summary Statistics -->
+      <div class="row mb-4">
+        <div class="col-md-3">
+          <div class="stat-card">
+            <div class="stat-label">Total Amount</div>
+            <div class="stat-number" id="stat-total"></div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="stat-card">
+            <div class="stat-label">Sections</div>
+            <div class="stat-number" id="stat-sections"></div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="stat-card">
+            <div class="stat-label">Appropriations</div>
+            <div class="stat-number" id="stat-appropriations"></div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="stat-card">
+            <div class="stat-label">Agencies</div>
+            <div class="stat-number" id="stat-agencies"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Query Examples -->
+      <div class="card">
+        <div class="card-header">
+          <h5 class="mb-0">Quick Queries (Using Lodash)</h5>
+        </div>
+        <div class="card-body">
+          <button class="btn btn-primary btn-query" onclick="queryTopAgencies()">Top 10 Agencies by Funding</button>
+          <button class="btn btn-primary btn-query" onclick="queryByFiscalYear()">Breakdown by Fiscal Year</button>
+          <button class="btn btn-primary btn-query" onclick="queryFundSources()">Fund Sources</button>
+          <button class="btn btn-primary btn-query" onclick="queryVetoedSections()">Vetoed Sections</button>
+          <button class="btn btn-primary btn-query" onclick="queryStatutoryRefs()">Statutory References (sample)</button>
+          <button class="btn btn-primary btn-query" onclick="searchAgency()">Search Agency</button>
+          <div id="query-result" class="query-result" style="display: none;"></div>
+        </div>
+      </div>
+
+      <!-- Visualizations -->
+      <div class="card">
+        <div class="card-header">
+          <h5 class="mb-0">Fiscal Year Distribution</h5>
+        </div>
+        <div class="card-body">
+          <div class="chart-container">
+            <canvas id="fiscalYearChart"></canvas>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <h5 class="mb-0">Top 15 Agencies by Appropriation</h5>
+        </div>
+        <div class="card-body">
+          <div class="chart-container">
+            <canvas id="agencyChart"></canvas>
+          </div>
+        </div>
+      </div>
+
+      <!-- Agency Explorer -->
+      <div class="card">
+        <div class="card-header">
+          <h5 class="mb-0">Agency Explorer</h5>
+        </div>
+        <div class="card-body">
+          <input type="text" class="form-control mb-3" id="agency-search" placeholder="Search agencies..." onkeyup="filterAgencies()">
+          <div id="agency-list" style="max-height: 400px; overflow-y: auto;"></div>
+        </div>
+      </div>
+
+      <!-- Bill Metadata -->
+      <div class="card">
+        <div class="card-header">
+          <h5 class="mb-0">Bill Information</h5>
+        </div>
+        <div class="card-body">
+          <div class="row">
+            <div class="col-md-6">
+              <p><strong>Bill ID:</strong> <span id="bill-id"></span></p>
+              <p><strong>Session:</strong> <span id="bill-session"></span></p>
+              <p><strong>Sponsors:</strong> <span id="bill-sponsors"></span></p>
+              <p><strong>Effective Date:</strong> <span id="bill-effective"></span></p>
+            </div>
+            <div class="col-md-6">
+              <p><strong>Senate Vote:</strong> <span id="vote-senate"></span></p>
+              <p><strong>House Vote:</strong> <span id="vote-house"></span></p>
+              <p><strong>Governor:</strong> <span id="bill-governor"></span></p>
+              <p><strong>Chapter Law:</strong> <span id="bill-chapter"></span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    let billData = null;
+
+    // Load the JSON data
+    async function loadData() {
+      try {
+        const response = await fetch('5187-S-data.json');
+        billData = await response.json();
+        displayData();
+        document.getElementById('loading').style.display = 'none';
+        document.getElementById('content').style.display = 'block';
+      } catch (error) {
+        document.getElementById('loading').innerHTML =
+          `<div class="alert alert-danger">Error loading data: ${error.message}</div>`;
+      }
+    }
+
+    function displayData() {
+      const { summary, data } = billData;
+
+      // Summary statistics
+      document.getElementById('stat-total').textContent =
+        '$' + (summary.totalAmount / 1e9).toFixed(1) + 'B';
+      document.getElementById('stat-sections').textContent = summary.totalSections;
+      document.getElementById('stat-appropriations').textContent = summary.totalAppropriations;
+      document.getElementById('stat-agencies').textContent = data.agencies.length;
+
+      // Bill metadata
+      document.getElementById('bill-id').textContent = data.metadata.shortBillId;
+      document.getElementById('bill-session').textContent = data.metadata.session;
+      document.getElementById('bill-sponsors').textContent = data.metadata.sponsors;
+      document.getElementById('bill-effective').textContent = data.certification.effectiveDate;
+      document.getElementById('bill-governor').textContent = data.certification.governor;
+      document.getElementById('bill-chapter').textContent =
+        `Chapter ${data.certification.chapterLaw}, Laws of ${data.certification.year}`;
+
+      // Voting
+      const senateVote = _.find(data.voting, { chamber: 'Senate' });
+      const houseVote = _.find(data.voting, { chamber: 'House' });
+
+      if (senateVote) {
+        document.getElementById('vote-senate').textContent =
+          `${senateVote.yeas} Yeas, ${senateVote.nays} Nays (${senateVote.passedDate})`;
+      }
+
+      if (houseVote) {
+        document.getElementById('vote-house').textContent =
+          `${houseVote.yeas} Yeas, ${houseVote.nays} Nays (${houseVote.passedDate})`;
+      }
+
+      // Display agency list
+      displayAgencyList();
+
+      // Create charts
+      createFiscalYearChart();
+      createAgencyChart();
+    }
+
+    function displayAgencyList() {
+      const agencies = _.sortBy(
+        _.map(billData.data.fiscalImpacts.byAgency, (value, key) => ({
+          name: key,
+          ...value
+        })),
+        a => -a.total
+      );
+
+      const html = agencies.map(agency => `
+        <div class="agency-item">
+          <div class="d-flex justify-content-between">
+            <div>
+              <strong>${agency.name}</strong>
+              ${agency.agencyCode ? `<small class="text-muted"> (${agency.agencyCode})</small>` : ''}
+            </div>
+            <div class="amount">$${(agency.total / 1e6).toFixed(1)}M</div>
+          </div>
+        </div>
+      `).join('');
+
+      document.getElementById('agency-list').innerHTML = html;
+    }
+
+    function filterAgencies() {
+      const search = document.getElementById('agency-search').value.toLowerCase();
+      const items = document.querySelectorAll('.agency-item');
+
+      items.forEach(item => {
+        const text = item.textContent.toLowerCase();
+        item.style.display = text.includes(search) ? 'block' : 'none';
+      });
+    }
+
+    function createFiscalYearChart() {
+      const ctx = document.getElementById('fiscalYearChart').getContext('2d');
+      const fyData = billData.data.fiscalImpacts.byFiscalYear;
+
+      new Chart(ctx, {
+        type: 'bar',
+        data: {
+          labels: ['FY 2024', 'FY 2025'],
+          datasets: [{
+            label: 'Appropriations (Billions)',
+            data: [fyData['FY 2024'] / 1e9, fyData['FY 2025'] / 1e9],
+            backgroundColor: ['#667eea', '#764ba2']
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: {
+            legend: {
+              display: false
+            }
+          },
+          scales: {
+            y: {
+              beginAtZero: true,
+              ticks: {
+                callback: function(value) {
+                  return '$' + value + 'B';
+                }
+              }
+            }
+          }
+        }
+      });
+    }
+
+    function createAgencyChart() {
+      const ctx = document.getElementById('agencyChart').getContext('2d');
+
+      // Get top 15 agencies using Lodash
+      const topAgencies = _.chain(billData.data.fiscalImpacts.byAgency)
+        .map((value, key) => ({ name: key, total: value.total }))
+        .orderBy(['total'], ['desc'])
+        .take(15)
+        .value();
+
+      new Chart(ctx, {
+        type: 'horizontalBar',
+        data: {
+          labels: topAgencies.map(a => a.name.length > 40 ? a.name.substring(0, 40) + '...' : a.name),
+          datasets: [{
+            label: 'Total Appropriation (Billions)',
+            data: topAgencies.map(a => a.total / 1e9),
+            backgroundColor: '#667eea'
+          }]
+        },
+        options: {
+          indexAxis: 'y',
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: {
+            legend: {
+              display: false
+            }
+          },
+          scales: {
+            x: {
+              beginAtZero: true,
+              ticks: {
+                callback: function(value) {
+                  return '$' + value + 'B';
+                }
+              }
+            }
+          }
+        }
+      });
+    }
+
+    // Query functions using Lodash
+    function queryTopAgencies() {
+      const top10 = _.chain(billData.data.fiscalImpacts.byAgency)
+        .map((value, key) => ({
+          agency: key,
+          total: value.total,
+          formatted: '$' + (value.total / 1e9).toFixed(2) + 'B'
+        }))
+        .orderBy(['total'], ['desc'])
+        .take(10)
+        .value();
+
+      showResult('Top 10 Agencies by Total Appropriations', top10);
+    }
+
+    function queryByFiscalYear() {
+      const fyBreakdown = {
+        'FY 2024': '$' + (billData.data.fiscalImpacts.byFiscalYear['FY 2024'] / 1e9).toFixed(2) + 'B',
+        'FY 2025': '$' + (billData.data.fiscalImpacts.byFiscalYear['FY 2025'] / 1e9).toFixed(2) + 'B',
+        'Total': '$' + (billData.summary.totalAmount / 1e9).toFixed(2) + 'B'
+      };
+
+      showResult('Appropriations by Fiscal Year', fyBreakdown);
+    }
+
+    function queryFundSources() {
+      const sources = _.chain(billData.data.fiscalImpacts.byFundSource)
+        .map((value, key) => ({
+          source: key,
+          amount: value,
+          formatted: '$' + (value / 1e9).toFixed(2) + 'B'
+        }))
+        .orderBy(['amount'], ['desc'])
+        .take(15)
+        .value();
+
+      showResult('Top 15 Fund Sources', sources);
+    }
+
+    function queryVetoedSections() {
+      const vetos = billData.data.vetos;
+      const result = {
+        hasVetos: vetos.hasVetos,
+        count: vetos.vetoedSections ? vetos.vetoedSections.length : 0,
+        sections: vetos.vetoedSections || []
+      };
+
+      showResult('Vetoed Sections', result);
+    }
+
+    function queryStatutoryRefs() {
+      const sample = _.take(billData.data.statutoryReferences, 50);
+      showResult('Statutory References (first 50)', sample);
+    }
+
+    function searchAgency() {
+      const searchTerm = prompt('Enter agency name to search:');
+      if (!searchTerm) return;
+
+      const results = _.filter(billData.data.agencies, agency =>
+        agency.name.toLowerCase().includes(searchTerm.toLowerCase())
+      );
+
+      showResult(`Agencies matching "${searchTerm}"`, results);
+    }
+
+    function showResult(title, data) {
+      const resultDiv = document.getElementById('query-result');
+      resultDiv.style.display = 'block';
+      resultDiv.innerHTML = `<h6>${title}</h6><pre>${JSON.stringify(data, null, 2)}</pre>`;
+      resultDiv.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    }
+
+    // Load data on page load
+    loadData();
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

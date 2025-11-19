@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WA Bill HB 1210-S2 Data Explorer</title>
+
+    <!-- CDN Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.0/dist/axios.min.js"></script>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f5f5;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            background: #0c3c60;
+            color: white;
+            padding: 30px 20px;
+            margin-bottom: 30px;
+            border-radius: 8px;
+        }
+
+        h1 {
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            opacity: 0.9;
+            font-size: 0.9em;
+        }
+
+        .query-section {
+            background: white;
+            padding: 25px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            color: #0c3c60;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #e0e0e0;
+            padding-bottom: 10px;
+        }
+
+        .query-buttons {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        button {
+            background: #0c3c60;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: background 0.2s;
+        }
+
+        button:hover {
+            background: #0a2f4a;
+        }
+
+        button:active {
+            transform: translateY(1px);
+        }
+
+        .results {
+            background: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            padding: 20px;
+            margin-top: 15px;
+            max-height: 500px;
+            overflow-y: auto;
+        }
+
+        .results pre {
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            font-family: 'Monaco', 'Courier New', monospace;
+            font-size: 13px;
+            line-height: 1.4;
+        }
+
+        .stat-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 15px;
+        }
+
+        .stat-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .stat-card h3 {
+            font-size: 2em;
+            margin-bottom: 5px;
+        }
+
+        .stat-card p {
+            opacity: 0.9;
+            font-size: 0.9em;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: #666;
+        }
+
+        .error {
+            background: #fee;
+            border: 1px solid #fcc;
+            color: #c33;
+            padding: 15px;
+            border-radius: 6px;
+            margin-top: 15px;
+        }
+
+        .list-item {
+            padding: 8px 0;
+            border-bottom: 1px solid #eee;
+        }
+
+        .list-item:last-child {
+            border-bottom: none;
+        }
+
+        .badge {
+            display: inline-block;
+            background: #0c3c60;
+            color: white;
+            padding: 3px 8px;
+            border-radius: 3px;
+            font-size: 0.85em;
+            margin-right: 8px;
+        }
+
+        .search-box {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #ddd;
+            border-radius: 6px;
+            font-size: 14px;
+            margin-bottom: 15px;
+        }
+
+        .search-box:focus {
+            outline: none;
+            border-color: #0c3c60;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>WA Bill HB 1210-S2 Data Explorer</h1>
+            <p class="subtitle">Second Substitute House Bill 1210 - Replacing "marijuana" with "cannabis"</p>
+        </header>
+
+        <!-- Overview Statistics -->
+        <div class="query-section">
+            <h2>Bill Overview</h2>
+            <div id="overview" class="loading">Loading bill data...</div>
+        </div>
+
+        <!-- Quick Queries -->
+        <div class="query-section">
+            <h2>Quick Queries</h2>
+            <div class="query-buttons">
+                <button onclick="showMetadata()">Bill Metadata</button>
+                <button onclick="showPassageInfo()">Passage Information</button>
+                <button onclick="showEffectiveDates()">Effective Dates</button>
+                <button onclick="showStatutoryRefs()">RCW References</button>
+                <button onclick="showAgencies()">Agencies Mentioned</button>
+                <button onclick="showAmendmentStats()">Amendment Statistics</button>
+                <button onclick="showSectionsByType()">Sections by Type</button>
+                <button onclick="showRCWTitles()">RCW Titles Affected</button>
+            </div>
+            <div id="quickResults"></div>
+        </div>
+
+        <!-- Search Sections -->
+        <div class="query-section">
+            <h2>Search Bill Sections</h2>
+            <input type="text" id="searchBox" class="search-box" placeholder="Search by RCW number (e.g., 69.50) or section number...">
+            <div id="searchResults"></div>
+        </div>
+
+        <!-- Advanced Queries -->
+        <div class="query-section">
+            <h2>Advanced Queries (Using Lodash)</h2>
+            <div class="query-buttons">
+                <button onclick="findSectionsWithMostChanges()">Sections with Most Changes</button>
+                <button onclick="groupByRCWTitle()">Group by RCW Title</button>
+                <button onclick="findSectionsWithoutAmendments()">Sections Without Amendments</button>
+                <button onclick="analyzeVotingPattern()">Voting Analysis</button>
+            </div>
+            <div id="advancedResults"></div>
+        </div>
+
+        <!-- Raw Data Explorer -->
+        <div class="query-section">
+            <h2>Raw Data Explorer</h2>
+            <p style="margin-bottom: 10px; color: #666;">View the complete bill data structure:</p>
+            <button onclick="showRawData()">Show Full JSON Data</button>
+            <div id="rawResults"></div>
+        </div>
+    </div>
+
+    <script>
+        let billData = null;
+
+        // Load the bill data
+        async function loadBillData() {
+            try {
+                const response = await axios.get('1210-S2-data.json');
+                billData = response.data;
+                displayOverview();
+                setupSearch();
+            } catch (error) {
+                document.getElementById('overview').innerHTML =
+                    '<div class="error">Error loading bill data: ' + error.message + '</div>';
+            }
+        }
+
+        // Display overview statistics
+        function displayOverview() {
+            const stats = billData.statistics;
+            const html = `
+                <div class="stat-grid">
+                    <div class="stat-card">
+                        <h3>${stats.totalSections}</h3>
+                        <p>Total Sections</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>${stats.totalRCWsAmended}</h3>
+                        <p>RCW Sections Amended</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>${billData.amendments.totalStrikes}</h3>
+                        <p>Terms Replaced</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>${billData.agencies.length}</h3>
+                        <p>Agencies Mentioned</p>
+                    </div>
+                </div>
+            `;
+            document.getElementById('overview').innerHTML = html;
+        }
+
+        // Quick query functions
+        function showMetadata() {
+            const meta = billData.metadata;
+            const html = `
+                <div class="results">
+                    <pre>${JSON.stringify(meta, null, 2)}</pre>
+                </div>
+            `;
+            document.getElementById('quickResults').innerHTML = html;
+        }
+
+        function showPassageInfo() {
+            const enrolling = billData.enrollingInfo;
+            const html = `
+                <div class="results">
+                    <h3>House of Representatives</h3>
+                    <p><strong>Passed:</strong> ${enrolling.house.passedDate}</p>
+                    <p><strong>Vote:</strong> ${enrolling.house.yeas} Yeas, ${enrolling.house.nays} Nays</p>
+                    <p><strong>Speaker:</strong> ${enrolling.house.signer}</p>
+
+                    <h3 style="margin-top: 20px;">Senate</h3>
+                    <p><strong>Passed:</strong> ${enrolling.senate.passedDate}</p>
+                    <p><strong>Vote:</strong> ${enrolling.senate.yeas} Yeas, ${enrolling.senate.nays} Nays</p>
+                    <p><strong>President:</strong> ${enrolling.senate.signer}</p>
+
+                    <h3 style="margin-top: 20px;">Governor</h3>
+                    <p><strong>Approved:</strong> ${enrolling.approvedDate}</p>
+                    <p><strong>Governor:</strong> ${enrolling.governor}</p>
+                    <p><strong>Filed:</strong> ${enrolling.filedDate}</p>
+                </div>
+            `;
+            document.getElementById('quickResults').innerHTML = html;
+        }
+
+        function showEffectiveDates() {
+            const dates = billData.effectiveDates;
+            let html = '<div class="results">';
+            dates.forEach(date => {
+                html += `
+                    <div class="list-item">
+                        <span class="badge">${date.type}</span>
+                        <strong>Date:</strong> ${date.date}<br>
+                        <strong>Sections:</strong> ${Array.isArray(date.sections) ? date.sections.join(', ') : date.sections}
+                    </div>
+                `;
+            });
+            html += '</div>';
+            document.getElementById('quickResults').innerHTML = html;
+        }
+
+        function showStatutoryRefs() {
+            const refs = billData.statutoryReferences;
+            const grouped = _.groupBy(refs, ref => ref.split('.')[0]);
+
+            let html = '<div class="results">';
+            html += `<p><strong>Total RCW Sections:</strong> ${refs.length}</p><br>`;
+
+            Object.keys(grouped).sort().forEach(title => {
+                html += `
+                    <div class="list-item">
+                        <strong>Title ${title}:</strong> ${grouped[title].length} sections
+                        <details style="margin-top: 5px;">
+                            <summary style="cursor: pointer; color: #0c3c60;">Show sections</summary>
+                            <div style="margin-left: 20px; margin-top: 5px;">
+                                ${grouped[title].join(', ')}
+                            </div>
+                        </details>
+                    </div>
+                `;
+            });
+            html += '</div>';
+            document.getElementById('quickResults').innerHTML = html;
+        }
+
+        function showAgencies() {
+            const agencies = billData.agencies;
+            let html = '<div class="results">';
+            agencies.forEach(agency => {
+                html += `<div class="list-item">${agency}</div>`;
+            });
+            html += '</div>';
+            document.getElementById('quickResults').innerHTML = html;
+        }
+
+        function showAmendmentStats() {
+            const amendments = billData.amendments;
+            const html = `
+                <div class="results">
+                    <h3>Amendment Summary</h3>
+                    <p><strong>Total Deletions (Strikes):</strong> ${amendments.totalStrikes}</p>
+                    <p><strong>Total Additions:</strong> ${amendments.totalAdditions}</p>
+
+                    <h3 style="margin-top: 20px;">Primary Changes</h3>
+                    ${amendments.primaryChanges.map(change => `
+                        <div class="list-item">
+                            <strong>From:</strong> "${change.from}"
+                            <strong>To:</strong> "${change.to}"<br>
+                            <strong>Occurrences:</strong> ${change.occurrences}
+                        </div>
+                    `).join('')}
+                </div>
+            `;
+            document.getElementById('quickResults').innerHTML = html;
+        }
+
+        function showSectionsByType() {
+            const types = billData.statistics.sectionsByType;
+            let html = '<div class="results">';
+            Object.keys(types).sort().forEach(type => {
+                html += `
+                    <div class="list-item">
+                        <span class="badge">${type}</span>
+                        ${types[type]} sections
+                    </div>
+                `;
+            });
+            html += '</div>';
+            document.getElementById('quickResults').innerHTML = html;
+        }
+
+        function showRCWTitles() {
+            const titles = billData.statistics.rcwTitlesAffected;
+            let html = '<div class="results">';
+            html += `<p><strong>Total RCW Titles Affected:</strong> ${titles.length}</p><br>`;
+            titles.forEach(title => {
+                const sections = billData.statutoryReferences.filter(ref => ref.startsWith(title + '.'));
+                html += `
+                    <div class="list-item">
+                        <strong>Title ${title}:</strong> ${sections.length} sections affected
+                    </div>
+                `;
+            });
+            html += '</div>';
+            document.getElementById('quickResults').innerHTML = html;
+        }
+
+        // Search functionality
+        function setupSearch() {
+            const searchBox = document.getElementById('searchBox');
+            searchBox.addEventListener('input', _.debounce(performSearch, 300));
+        }
+
+        function performSearch() {
+            const query = document.getElementById('searchBox').value.toLowerCase();
+            if (!query) {
+                document.getElementById('searchResults').innerHTML = '';
+                return;
+            }
+
+            // Search in sections
+            const results = _.filter(billData.sections, section => {
+                return (section.number && section.number.includes(query)) ||
+                       (section.rcw && section.rcw.full.toLowerCase().includes(query)) ||
+                       (section.caption && section.caption.toLowerCase().includes(query));
+            });
+
+            let html = '<div class="results">';
+            if (results.length === 0) {
+                html += '<p>No sections found matching your search.</p>';
+            } else {
+                html += `<p><strong>Found ${results.length} sections:</strong></p><br>`;
+                results.forEach(section => {
+                    html += `
+                        <div class="list-item">
+                            <span class="badge">Sec. ${section.number}</span>
+                            ${section.rcw ? `<strong>RCW ${section.rcw.full}</strong>` : ''}
+                            ${section.caption ? `<br>${section.caption}` : ''}
+                            ${section.type ? `<br><small>Type: ${section.type}</small>` : ''}
+                        </div>
+                    `;
+                });
+            }
+            html += '</div>';
+            document.getElementById('searchResults').innerHTML = html;
+        }
+
+        // Advanced queries using Lodash
+        function findSectionsWithMostChanges() {
+            const sectionsWithChanges = _.chain(billData.sections)
+                .map(section => ({
+                    number: section.number,
+                    rcw: section.rcw ? section.rcw.full : 'N/A',
+                    totalChanges: section.amendments.strikes.length + section.amendments.additions.length,
+                    strikes: section.amendments.strikes.length,
+                    additions: section.amendments.additions.length
+                }))
+                .filter(s => s.totalChanges > 0)
+                .orderBy(['totalChanges'], ['desc'])
+                .take(10)
+                .value();
+
+            let html = '<div class="results">';
+            html += '<h3>Top 10 Sections with Most Changes</h3>';
+            sectionsWithChanges.forEach((section, index) => {
+                html += `
+                    <div class="list-item">
+                        <strong>#${index + 1}</strong>
+                        Section ${section.number} (RCW ${section.rcw})<br>
+                        <small>Total Changes: ${section.totalChanges} (${section.strikes} strikes, ${section.additions} additions)</small>
+                    </div>
+                `;
+            });
+            html += '</div>';
+            document.getElementById('advancedResults').innerHTML = html;
+        }
+
+        function groupByRCWTitle() {
+            const grouped = _.chain(billData.sections)
+                .filter(s => s.rcw)
+                .groupBy(s => s.rcw.title)
+                .mapValues(sections => ({
+                    count: sections.length,
+                    sections: _.map(sections, s => s.rcw.full)
+                }))
+                .value();
+
+            let html = '<div class="results">';
+            html += '<h3>Sections Grouped by RCW Title</h3>';
+            Object.keys(grouped).sort().forEach(title => {
+                html += `
+                    <div class="list-item">
+                        <strong>Title ${title}:</strong> ${grouped[title].count} sections
+                        <details style="margin-top: 5px;">
+                            <summary style="cursor: pointer; color: #0c3c60;">Show sections</summary>
+                            <div style="margin-left: 20px; margin-top: 5px;">
+                                ${grouped[title].sections.join(', ')}
+                            </div>
+                        </details>
+                    </div>
+                `;
+            });
+            html += '</div>';
+            document.getElementById('advancedResults').innerHTML = html;
+        }
+
+        function findSectionsWithoutAmendments() {
+            const sections = _.filter(billData.sections, s =>
+                s.amendments.strikes.length === 0 && s.amendments.additions.length === 0
+            );
+
+            let html = '<div class="results">';
+            html += `<p><strong>Found ${sections.length} sections without amendments:</strong></p><br>`;
+            sections.forEach(section => {
+                html += `
+                    <div class="list-item">
+                        <span class="badge">Sec. ${section.number}</span>
+                        Type: ${section.type}
+                        ${section.rcw ? ` - RCW ${section.rcw.full}` : ''}
+                    </div>
+                `;
+            });
+            html += '</div>';
+            document.getElementById('advancedResults').innerHTML = html;
+        }
+
+        function analyzeVotingPattern() {
+            const house = billData.enrollingInfo.house;
+            const senate = billData.enrollingInfo.senate;
+
+            const houseTotal = house.yeas + house.nays;
+            const senateTotal = senate.yeas + senate.nays;
+
+            const housePercent = ((house.yeas / houseTotal) * 100).toFixed(1);
+            const senatePercent = ((senate.yeas / senateTotal) * 100).toFixed(1);
+
+            const html = `
+                <div class="results">
+                    <h3>Voting Pattern Analysis</h3>
+
+                    <h4>House of Representatives</h4>
+                    <p><strong>Total Votes:</strong> ${houseTotal}</p>
+                    <p><strong>Approval Rate:</strong> ${housePercent}%</p>
+                    <div style="background: #eee; border-radius: 4px; height: 30px; margin: 10px 0; overflow: hidden;">
+                        <div style="background: #4caf50; height: 100%; width: ${housePercent}%;"></div>
+                    </div>
+
+                    <h4 style="margin-top: 20px;">Senate</h4>
+                    <p><strong>Total Votes:</strong> ${senateTotal}</p>
+                    <p><strong>Approval Rate:</strong> ${senatePercent}%</p>
+                    <div style="background: #eee; border-radius: 4px; height: 30px; margin: 10px 0; overflow: hidden;">
+                        <div style="background: #4caf50; height: 100%; width: ${senatePercent}%;"></div>
+                    </div>
+
+                    <h4 style="margin-top: 20px;">Summary</h4>
+                    <p>The bill passed with strong bipartisan support in both chambers.</p>
+                    <p><strong>Combined Approval:</strong> ${((house.yeas + senate.yeas) / (houseTotal + senateTotal) * 100).toFixed(1)}%</p>
+                </div>
+            `;
+            document.getElementById('advancedResults').innerHTML = html;
+        }
+
+        function showRawData() {
+            const html = `
+                <div class="results">
+                    <pre>${JSON.stringify(billData, null, 2)}</pre>
+                </div>
+            `;
+            document.getElementById('rawResults').innerHTML = html;
+        }
+
+        // Load data on page load
+        loadBillData();
+    </script>
+</body>
+</html>

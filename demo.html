@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HB 1281-S Bill Data Explorer</title>
+
+    <!-- Lodash from CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
+
+    <!-- Chart.js for visualizations -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f5f5;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+            color: white;
+            padding: 40px 20px;
+            margin-bottom: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .stat-card {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        .stat-value {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #3b82f6;
+            margin-bottom: 5px;
+        }
+
+        .stat-label {
+            color: #666;
+            font-size: 0.9em;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .query-section {
+            background: white;
+            padding: 25px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .query-section h2 {
+            color: #1e3a8a;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #3b82f6;
+        }
+
+        .controls {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+
+        input, select, button {
+            padding: 10px 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 1em;
+        }
+
+        input, select {
+            flex: 1;
+            min-width: 200px;
+        }
+
+        button {
+            background: #3b82f6;
+            color: white;
+            border: none;
+            cursor: pointer;
+            transition: background 0.3s;
+            min-width: 120px;
+        }
+
+        button:hover {
+            background: #2563eb;
+        }
+
+        button:active {
+            transform: translateY(1px);
+        }
+
+        .results {
+            background: #f9fafb;
+            padding: 15px;
+            border-radius: 5px;
+            max-height: 400px;
+            overflow-y: auto;
+            border: 1px solid #e5e7eb;
+        }
+
+        .result-item {
+            background: white;
+            padding: 12px;
+            margin-bottom: 10px;
+            border-left: 3px solid #3b82f6;
+            border-radius: 3px;
+        }
+
+        .result-item strong {
+            color: #1e3a8a;
+        }
+
+        .chart-container {
+            position: relative;
+            height: 300px;
+            margin-top: 20px;
+        }
+
+        .code-example {
+            background: #1e293b;
+            color: #e2e8f0;
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto;
+            margin-top: 10px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9em;
+        }
+
+        .metadata-grid {
+            display: grid;
+            grid-template-columns: 200px 1fr;
+            gap: 10px;
+            margin-top: 15px;
+        }
+
+        .metadata-label {
+            font-weight: bold;
+            color: #666;
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 4px 8px;
+            border-radius: 3px;
+            font-size: 0.85em;
+            margin: 2px;
+        }
+
+        .badge-primary {
+            background: #dbeafe;
+            color: #1e40af;
+        }
+
+        .badge-success {
+            background: #dcfce7;
+            color: #166534;
+        }
+
+        .badge-warning {
+            background: #fef3c7;
+            color: #92400e;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📜 HB 1281-S Bill Data Explorer</h1>
+            <p class="subtitle">Washington State Technical Corrections Bill - Interactive Data Query Demo</p>
+        </header>
+
+        <!-- Statistics Overview -->
+        <div class="stats" id="stats">
+            <div class="stat-card">
+                <div class="stat-value" id="stat-sections">-</div>
+                <div class="stat-label">Sections</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="stat-rcw">-</div>
+                <div class="stat-label">RCW References</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="stat-agencies">-</div>
+                <div class="stat-label">Agencies</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="stat-amendments">-</div>
+                <div class="stat-label">Amendments</div>
+            </div>
+        </div>
+
+        <!-- Bill Metadata -->
+        <div class="query-section">
+            <h2>📋 Bill Metadata</h2>
+            <div class="metadata-grid" id="metadata"></div>
+        </div>
+
+        <!-- Query 1: Search Sections -->
+        <div class="query-section">
+            <h2>🔍 Search Sections</h2>
+            <div class="controls">
+                <input type="text" id="search-keyword" placeholder="Enter keyword (e.g., nursing, health, technical)">
+                <button onclick="searchSections()">Search</button>
+            </div>
+            <div class="results" id="search-results"></div>
+            <div class="code-example">
+// Query code:
+const results = billData.sections.filter(section =>
+  section.caption?.toLowerCase().includes(keyword.toLowerCase())
+);</div>
+        </div>
+
+        <!-- Query 2: Filter by RCW Title -->
+        <div class="query-section">
+            <h2>📚 Browse by RCW Title</h2>
+            <div class="controls">
+                <select id="rcw-title">
+                    <option value="">Select RCW Title...</option>
+                </select>
+                <button onclick="filterByRCWTitle()">Filter</button>
+            </div>
+            <div class="results" id="rcw-results"></div>
+            <div class="code-example">
+// Query code:
+const results = billData.sections.filter(section =>
+  section.rcwCitation?.startsWith(`RCW ${title}.`)
+);</div>
+        </div>
+
+        <!-- Query 3: Agency Search -->
+        <div class="query-section">
+            <h2>🏛️ Search Agencies</h2>
+            <div class="controls">
+                <input type="text" id="agency-keyword" placeholder="Enter agency keyword (e.g., health, education)">
+                <button onclick="searchAgencies()">Search</button>
+            </div>
+            <div class="results" id="agency-results"></div>
+            <div class="code-example">
+// Query code:
+const results = billData.agencies.filter(agency =>
+  agency.toLowerCase().includes(keyword.toLowerCase())
+);</div>
+        </div>
+
+        <!-- Query 4: Timeline -->
+        <div class="query-section">
+            <h2>📅 Bill Timeline</h2>
+            <div id="timeline-results"></div>
+        </div>
+
+        <!-- Query 5: Section Analysis -->
+        <div class="query-section">
+            <h2>📊 Section Analysis</h2>
+            <div class="chart-container">
+                <canvas id="sectionChart"></canvas>
+            </div>
+        </div>
+
+        <!-- Query 6: Amendment Statistics -->
+        <div class="query-section">
+            <h2>✏️ Amendment Statistics</h2>
+            <div id="amendment-stats"></div>
+            <div class="chart-container">
+                <canvas id="amendmentChart"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let billData = null;
+
+        // Load the bill data
+        async function loadBillData() {
+            try {
+                const response = await fetch('hb1281s-extracted-data.json');
+                billData = await response.json();
+                console.log('Bill data loaded:', billData);
+                initializePage();
+            } catch (error) {
+                console.error('Error loading bill data:', error);
+                alert('Error loading bill data. Please ensure hb1281s-extracted-data.json is in the same directory.');
+            }
+        }
+
+        function initializePage() {
+            // Update statistics
+            document.getElementById('stat-sections').textContent = billData.sections.length;
+            document.getElementById('stat-rcw').textContent = billData.rcwReferences.length;
+            document.getElementById('stat-agencies').textContent = billData.agencies.length;
+            document.getElementById('stat-amendments').textContent =
+                billData.amendments.strikeCount + billData.amendments.addCount;
+
+            // Display metadata
+            displayMetadata();
+
+            // Populate RCW title dropdown
+            populateRCWTitles();
+
+            // Display timeline
+            displayTimeline();
+
+            // Create charts
+            createSectionChart();
+            createAmendmentChart();
+
+            // Display amendment stats
+            displayAmendmentStats();
+        }
+
+        function displayMetadata() {
+            const metadata = billData.metadata;
+            const container = document.getElementById('metadata');
+
+            const fields = [
+                { label: 'Bill ID', value: metadata.billId },
+                { label: 'Legislature', value: metadata.legislature },
+                { label: 'Session', value: metadata.session },
+                { label: 'Sponsors', value: metadata.sponsors },
+                { label: 'Chapter Law', value: `Chapter ${metadata.chapterLaw}, Laws of ${metadata.chapterYear}` },
+                { label: 'Description', value: metadata.briefDescription },
+                { label: 'Effective Date', value: metadata.effectiveDate },
+                { label: 'Governor', value: metadata.governor }
+            ];
+
+            fields.forEach(field => {
+                const labelDiv = document.createElement('div');
+                labelDiv.className = 'metadata-label';
+                labelDiv.textContent = field.label + ':';
+
+                const valueDiv = document.createElement('div');
+                valueDiv.textContent = field.value || 'N/A';
+
+                container.appendChild(labelDiv);
+                container.appendChild(valueDiv);
+            });
+        }
+
+        function populateRCWTitles() {
+            const titles = new Set();
+            billData.sections.forEach(section => {
+                if (section.rcwCitation) {
+                    const title = section.rcwCitation.split('.')[1];
+                    titles.add(title);
+                }
+            });
+
+            const select = document.getElementById('rcw-title');
+            Array.from(titles).sort((a, b) => parseInt(a) - parseInt(b)).forEach(title => {
+                const option = document.createElement('option');
+                option.value = title;
+                option.textContent = `Title ${title}`;
+                select.appendChild(option);
+            });
+        }
+
+        function searchSections() {
+            const keyword = document.getElementById('search-keyword').value.toLowerCase();
+            const results = billData.sections.filter(section =>
+                (section.caption && section.caption.toLowerCase().includes(keyword)) ||
+                (section.rcwCitation && section.rcwCitation.toLowerCase().includes(keyword))
+            );
+
+            displayResults('search-results', results, section => `
+                <div class="result-item">
+                    <strong>Section ${section.sectionNumber}</strong>
+                    ${section.rcwCitation ? `<span class="badge badge-primary">${section.rcwCitation}</span>` : ''}
+                    <span class="badge badge-warning">${section.type || 'N/A'}</span>
+                    <span class="badge badge-success">${section.action || 'N/A'}</span>
+                    <br>
+                    ${section.caption || 'No caption'}
+                </div>
+            `);
+        }
+
+        function filterByRCWTitle() {
+            const title = document.getElementById('rcw-title').value;
+            if (!title) {
+                alert('Please select an RCW title');
+                return;
+            }
+
+            const results = billData.sections.filter(section =>
+                section.rcwCitation && section.rcwCitation.startsWith(`RCW ${title}.`)
+            );
+
+            displayResults('rcw-results', results, section => `
+                <div class="result-item">
+                    <strong>${section.rcwCitation}</strong> - Section ${section.sectionNumber}
+                    <br>
+                    ${section.caption || 'No caption'}
+                </div>
+            `);
+        }
+
+        function searchAgencies() {
+            const keyword = document.getElementById('agency-keyword').value.toLowerCase();
+            const results = billData.agencies.filter(agency =>
+                agency.toLowerCase().includes(keyword)
+            );
+
+            displayResults('agency-results', results, agency => `
+                <div class="result-item">${agency}</div>
+            `);
+        }
+
+        function displayResults(elementId, results, formatFn) {
+            const container = document.getElementById(elementId);
+
+            if (results.length === 0) {
+                container.innerHTML = '<div class="result-item">No results found</div>';
+                return;
+            }
+
+            container.innerHTML = `
+                <div style="margin-bottom: 10px; color: #666;">
+                    Found ${results.length} result(s)
+                </div>
+                ${results.slice(0, 50).map(formatFn).join('')}
+                ${results.length > 50 ? '<div class="result-item">Showing first 50 results...</div>' : ''}
+            `;
+        }
+
+        function displayTimeline() {
+            const dates = billData.dates;
+            const passage = billData.metadata.passage;
+
+            const timeline = [
+                { event: 'First Reading', date: dates.readFirstTime },
+                { event: 'Passed House', date: dates.passedHouse, details: `Yeas: ${passage.house?.yeas}, Nays: ${passage.house?.nays}` },
+                { event: 'Passed Senate', date: dates.passedSenate, details: `Yeas: ${passage.senate?.yeas}, Nays: ${passage.senate?.nays}` },
+                { event: 'Approved by Governor', date: dates.approved },
+                { event: 'Filed', date: dates.filed },
+                { event: 'Effective Date', date: dates.effective }
+            ].filter(item => item.date);
+
+            const container = document.getElementById('timeline-results');
+            container.innerHTML = timeline.map(item => `
+                <div class="result-item">
+                    <strong>${item.event}:</strong> ${item.date}
+                    ${item.details ? `<br><small>${item.details}</small>` : ''}
+                </div>
+            `).join('');
+        }
+
+        function createSectionChart() {
+            const sectionsByType = _.groupBy(billData.sections, 'type');
+
+            const ctx = document.getElementById('sectionChart').getContext('2d');
+            new Chart(ctx, {
+                type: 'pie',
+                data: {
+                    labels: Object.keys(sectionsByType),
+                    datasets: [{
+                        data: Object.values(sectionsByType).map(arr => arr.length),
+                        backgroundColor: [
+                            '#3b82f6',
+                            '#10b981',
+                            '#f59e0b',
+                            '#ef4444',
+                            '#8b5cf6'
+                        ]
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        title: {
+                            display: true,
+                            text: 'Sections by Type'
+                        },
+                        legend: {
+                            position: 'bottom'
+                        }
+                    }
+                }
+            });
+        }
+
+        function createAmendmentChart() {
+            const ctx = document.getElementById('amendmentChart').getContext('2d');
+            new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: ['Additions', 'Strikethroughs', 'Total'],
+                    datasets: [{
+                        label: 'Number of Amendments',
+                        data: [
+                            billData.amendments.addCount,
+                            billData.amendments.strikeCount,
+                            billData.amendments.addCount + billData.amendments.strikeCount
+                        ],
+                        backgroundColor: [
+                            '#10b981',
+                            '#ef4444',
+                            '#3b82f6'
+                        ]
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        title: {
+                            display: true,
+                            text: 'Amendment Statistics'
+                        },
+                        legend: {
+                            display: false
+                        }
+                    },
+                    scales: {
+                        y: {
+                            beginAtZero: true
+                        }
+                    }
+                }
+            });
+        }
+
+        function displayAmendmentStats() {
+            const container = document.getElementById('amendment-stats');
+            const amendments = billData.amendments;
+
+            container.innerHTML = `
+                <div class="metadata-grid">
+                    <div class="metadata-label">Total Additions:</div>
+                    <div><span class="badge badge-success">${amendments.addCount}</span></div>
+
+                    <div class="metadata-label">Total Removals:</div>
+                    <div><span class="badge badge-warning">${amendments.strikeCount}</span></div>
+
+                    <div class="metadata-label">Sample Additions:</div>
+                    <div>${amendments.additions.slice(0, 3).map(a => `<div class="badge badge-success">${a}</div>`).join('')}</div>
+
+                    <div class="metadata-label">Sample Removals:</div>
+                    <div>${amendments.strikethrough.slice(0, 3).map(s => `<div class="badge badge-warning">${s}</div>`).join('')}</div>
+                </div>
+            `;
+        }
+
+        // Load data when page loads
+        loadBillData();
+    </script>
+</body>
+</html>

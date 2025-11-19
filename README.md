@@ -26,6 +26,22 @@ Use parallel extraction tasks to:
 3. Build reusable parsing libraries
 4. Document structural patterns across biennia
 
+## Tools
+
+### Budget Appropriations Explorer
+
+Interactive web-based tool for exploring budget bill appropriations:
+- **File**: `budget-explorer.html`
+- **Features**:
+  - Paste XML budget bill content for instant parsing
+  - Sortable/filterable data grid with 1000+ row performance
+  - Interactive visualizations (top 10 agencies, fund distribution)
+  - Proviso text viewer for each appropriation
+  - CSV export functionality
+  - Built with Tabulator.js and Chart.js
+
+**Usage**: Open `budget-explorer.html` in any modern browser, paste XML content from budget bills, and click "Parse & Load Data"
+
 ## Output Format
 
 Each extraction should produce:

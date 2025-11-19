@@ -1,0 +1,979 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WA Bill XML Inspector</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f5f5f5;
+            color: #333;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 1.5rem 2rem;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .header h1 {
+            font-size: 1.8rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .header p {
+            opacity: 0.9;
+            font-size: 0.9rem;
+        }
+
+        .container {
+            max-width: 1600px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .upload-section {
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            margin-bottom: 2rem;
+        }
+
+        .upload-area {
+            border: 3px dashed #667eea;
+            border-radius: 8px;
+            padding: 3rem;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .upload-area:hover {
+            background: #f8f9ff;
+            border-color: #764ba2;
+        }
+
+        .upload-area.dragover {
+            background: #f0f0ff;
+            border-color: #764ba2;
+        }
+
+        .upload-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        #fileInput {
+            display: none;
+        }
+
+        .main-content {
+            display: none;
+        }
+
+        .main-content.active {
+            display: grid;
+            grid-template-columns: 1fr 400px;
+            gap: 2rem;
+        }
+
+        .left-panel {
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+        }
+
+        .right-panel {
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+        }
+
+        .panel {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+
+        .panel-header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 1rem 1.5rem;
+            font-weight: 600;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .panel-content {
+            padding: 1.5rem;
+            max-height: 600px;
+            overflow: auto;
+        }
+
+        .tree-content {
+            max-height: 800px;
+        }
+
+        .tree-node {
+            margin-left: 1.5rem;
+            position: relative;
+        }
+
+        .tree-node::before {
+            content: '';
+            position: absolute;
+            left: -1rem;
+            top: 0;
+            bottom: 0;
+            width: 1px;
+            background: #e0e0e0;
+        }
+
+        .node-header {
+            padding: 0.4rem 0.6rem;
+            margin: 0.2rem 0;
+            border-radius: 4px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            transition: background 0.2s;
+            font-family: 'Consolas', 'Monaco', monospace;
+            font-size: 0.85rem;
+        }
+
+        .node-header:hover {
+            background: #f0f0ff;
+        }
+
+        .node-header.selected {
+            background: #e8ebff;
+            border-left: 3px solid #667eea;
+        }
+
+        .toggle-btn {
+            width: 16px;
+            height: 16px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            background: #667eea;
+            color: white;
+            border-radius: 3px;
+            font-size: 0.7rem;
+            font-weight: bold;
+            cursor: pointer;
+            user-select: none;
+        }
+
+        .toggle-btn.empty {
+            background: transparent;
+            color: transparent;
+        }
+
+        .element-name {
+            color: #d73a49;
+            font-weight: 600;
+        }
+
+        .attribute {
+            color: #6f42c1;
+        }
+
+        .attribute-name {
+            color: #005cc5;
+        }
+
+        .attribute-value {
+            color: #22863a;
+        }
+
+        .text-content {
+            color: #666;
+            font-style: italic;
+        }
+
+        .node-children {
+            display: none;
+        }
+
+        .node-children.expanded {
+            display: block;
+        }
+
+        .stats-grid {
+            display: grid;
+            gap: 1rem;
+        }
+
+        .stat-item {
+            padding: 0.8rem;
+            background: #f8f9fa;
+            border-radius: 6px;
+            border-left: 3px solid #667eea;
+        }
+
+        .stat-label {
+            font-size: 0.85rem;
+            color: #666;
+            margin-bottom: 0.3rem;
+        }
+
+        .stat-value {
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: #333;
+        }
+
+        .stat-list {
+            max-height: 200px;
+            overflow-y: auto;
+            font-size: 0.85rem;
+        }
+
+        .stat-list-item {
+            padding: 0.4rem 0;
+            border-bottom: 1px solid #eee;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .stat-list-item:last-child {
+            border-bottom: none;
+        }
+
+        .xpath-display {
+            background: #f8f9fa;
+            padding: 1rem;
+            border-radius: 6px;
+            font-family: 'Consolas', 'Monaco', monospace;
+            font-size: 0.85rem;
+            word-break: break-all;
+            border: 1px solid #e0e0e0;
+        }
+
+        .copy-btn {
+            background: #667eea;
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 0.85rem;
+            margin-top: 0.5rem;
+            transition: background 0.2s;
+        }
+
+        .copy-btn:hover {
+            background: #764ba2;
+        }
+
+        .copy-btn:active {
+            transform: scale(0.98);
+        }
+
+        .text-extraction {
+            white-space: pre-wrap;
+            font-family: 'Consolas', 'Monaco', monospace;
+            font-size: 0.85rem;
+            line-height: 1.6;
+            background: #f8f9fa;
+            padding: 1rem;
+            border-radius: 6px;
+            max-height: 400px;
+            overflow-y: auto;
+        }
+
+        .schema-item {
+            margin-bottom: 1.5rem;
+            padding: 1rem;
+            background: #f8f9fa;
+            border-radius: 6px;
+        }
+
+        .schema-title {
+            font-weight: 600;
+            color: #667eea;
+            margin-bottom: 0.5rem;
+            font-size: 0.9rem;
+        }
+
+        .schema-content {
+            font-size: 0.85rem;
+            font-family: 'Consolas', 'Monaco', monospace;
+        }
+
+        .schema-list {
+            list-style: none;
+            margin-top: 0.5rem;
+        }
+
+        .schema-list li {
+            padding: 0.3rem 0;
+            color: #555;
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 0.2rem 0.5rem;
+            background: #667eea;
+            color: white;
+            border-radius: 3px;
+            font-size: 0.75rem;
+            margin-left: 0.5rem;
+        }
+
+        .toolbar {
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .btn {
+            background: #667eea;
+            color: white;
+            border: none;
+            padding: 0.6rem 1.2rem;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            transition: all 0.2s;
+        }
+
+        .btn:hover {
+            background: #764ba2;
+        }
+
+        .btn-secondary {
+            background: #6c757d;
+        }
+
+        .btn-secondary:hover {
+            background: #5a6268;
+        }
+
+        .empty-state {
+            text-align: center;
+            color: #999;
+            padding: 2rem;
+            font-style: italic;
+        }
+
+        @media (max-width: 1200px) {
+            .main-content.active {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .loading {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border: 3px solid rgba(255,255,255,.3);
+            border-radius: 50%;
+            border-top-color: white;
+            animation: spin 1s ease-in-out infinite;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🔍 WA Bill XML Inspector</h1>
+        <p>Interactive tool for analyzing and understanding Washington State bill XML structure</p>
+    </div>
+
+    <div class="container">
+        <div class="upload-section">
+            <div class="upload-area" id="uploadArea">
+                <div class="upload-icon">📄</div>
+                <h2>Drop XML file here or click to browse</h2>
+                <p style="margin-top: 0.5rem; color: #666;">Supports any WA bill XML format</p>
+                <input type="file" id="fileInput" accept=".xml,.htm,.html">
+            </div>
+        </div>
+
+        <div class="main-content" id="mainContent">
+            <div class="left-panel">
+                <!-- Tree View Panel -->
+                <div class="panel">
+                    <div class="panel-header">
+                        <span>📊 XML Structure Tree</span>
+                        <div class="toolbar" style="margin: 0;">
+                            <button class="btn btn-secondary" id="expandAllBtn" style="padding: 0.4rem 0.8rem; font-size: 0.8rem;">Expand All</button>
+                            <button class="btn btn-secondary" id="collapseAllBtn" style="padding: 0.4rem 0.8rem; font-size: 0.8rem;">Collapse All</button>
+                        </div>
+                    </div>
+                    <div class="panel-content tree-content" id="treeView">
+                        <div class="empty-state">No XML loaded</div>
+                    </div>
+                </div>
+
+                <!-- Text Extraction Panel -->
+                <div class="panel">
+                    <div class="panel-header">
+                        <span>📝 Text Extraction</span>
+                        <button class="copy-btn" id="copyTextBtn" style="margin: 0; padding: 0.4rem 0.8rem;">Copy</button>
+                    </div>
+                    <div class="panel-content">
+                        <div class="text-extraction" id="textExtraction">
+                            <div class="empty-state">No text extracted yet</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="right-panel">
+                <!-- Statistics Panel -->
+                <div class="panel">
+                    <div class="panel-header">📈 Node Statistics</div>
+                    <div class="panel-content">
+                        <div class="stats-grid" id="statsGrid">
+                            <div class="empty-state">No statistics available</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- XPath Panel -->
+                <div class="panel">
+                    <div class="panel-header">🎯 XPath</div>
+                    <div class="panel-content">
+                        <div class="xpath-display" id="xpathDisplay">Click any element in the tree to see its XPath</div>
+                        <button class="copy-btn" id="copyXPathBtn">Copy XPath</button>
+                    </div>
+                </div>
+
+                <!-- Schema Inference Panel -->
+                <div class="panel">
+                    <div class="panel-header">🧬 Schema Inference</div>
+                    <div class="panel-content">
+                        <div id="schemaInference">
+                            <div class="empty-state">Schema patterns will appear here</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Global state
+        let xmlDoc = null;
+        let selectedNode = null;
+        let nodeMap = new Map(); // Maps DOM elements to XML nodes
+
+        // File upload handlers
+        const uploadArea = document.getElementById('uploadArea');
+        const fileInput = document.getElementById('fileInput');
+        const mainContent = document.getElementById('mainContent');
+
+        uploadArea.addEventListener('click', () => fileInput.click());
+
+        uploadArea.addEventListener('dragover', (e) => {
+            e.preventDefault();
+            uploadArea.classList.add('dragover');
+        });
+
+        uploadArea.addEventListener('dragleave', () => {
+            uploadArea.classList.remove('dragover');
+        });
+
+        uploadArea.addEventListener('drop', (e) => {
+            e.preventDefault();
+            uploadArea.classList.remove('dragover');
+            const file = e.dataTransfer.files[0];
+            if (file) handleFile(file);
+        });
+
+        fileInput.addEventListener('change', (e) => {
+            const file = e.target.files[0];
+            if (file) handleFile(file);
+        });
+
+        // Handle file upload
+        function handleFile(file) {
+            const reader = new FileReader();
+            reader.onload = (e) => {
+                try {
+                    const content = e.target.result;
+                    parseXML(content);
+                    mainContent.classList.add('active');
+                } catch (error) {
+                    alert('Error parsing XML: ' + error.message);
+                }
+            };
+            reader.readAsText(file);
+        }
+
+        // Parse XML
+        function parseXML(xmlString) {
+            const parser = new DOMParser();
+            xmlDoc = parser.parseFromString(xmlString, 'text/xml');
+
+            // Check for parsing errors
+            const parserError = xmlDoc.querySelector('parsererror');
+            if (parserError) {
+                throw new Error('XML parsing error: ' + parserError.textContent);
+            }
+
+            // Clear previous state
+            nodeMap.clear();
+            selectedNode = null;
+
+            // Build all views
+            buildTreeView();
+            calculateStatistics();
+            extractText();
+            inferSchema();
+        }
+
+        // Build interactive tree view
+        function buildTreeView() {
+            const treeView = document.getElementById('treeView');
+            treeView.innerHTML = '';
+
+            const rootElement = xmlDoc.documentElement;
+            const treeNode = createTreeNode(rootElement, [rootElement.nodeName]);
+            treeView.appendChild(treeNode);
+        }
+
+        function createTreeNode(xmlNode, path) {
+            const container = document.createElement('div');
+            container.className = 'tree-node';
+
+            const header = document.createElement('div');
+            header.className = 'node-header';
+
+            // Store mapping
+            nodeMap.set(header, { xmlNode, path });
+
+            // Check if node has children
+            const hasChildren = Array.from(xmlNode.childNodes).some(
+                child => child.nodeType === 1 // Element nodes
+            );
+
+            // Toggle button
+            const toggleBtn = document.createElement('span');
+            toggleBtn.className = hasChildren ? 'toggle-btn' : 'toggle-btn empty';
+            toggleBtn.textContent = hasChildren ? '+' : '';
+            header.appendChild(toggleBtn);
+
+            // Element name
+            const elementName = document.createElement('span');
+            elementName.className = 'element-name';
+            elementName.textContent = `<${xmlNode.nodeName}>`;
+            header.appendChild(elementName);
+
+            // Attributes
+            if (xmlNode.attributes && xmlNode.attributes.length > 0) {
+                const attrs = Array.from(xmlNode.attributes).map(attr => {
+                    return `<span class="attribute"><span class="attribute-name">${attr.name}</span>=<span class="attribute-value">"${attr.value}"</span></span>`;
+                }).join(' ');
+                const attrSpan = document.createElement('span');
+                attrSpan.innerHTML = ' ' + attrs;
+                header.appendChild(attrSpan);
+            }
+
+            // Text content preview (if it's a text-only node)
+            const textContent = getDirectTextContent(xmlNode);
+            if (textContent && textContent.length > 0 && !hasChildren) {
+                const textSpan = document.createElement('span');
+                textSpan.className = 'text-content';
+                const preview = textContent.length > 50 ? textContent.substring(0, 50) + '...' : textContent;
+                textSpan.textContent = `: "${preview}"`;
+                header.appendChild(textSpan);
+            }
+
+            container.appendChild(header);
+
+            // Children container
+            const childrenContainer = document.createElement('div');
+            childrenContainer.className = 'node-children';
+
+            // Add child elements
+            if (hasChildren) {
+                const childElements = Array.from(xmlNode.childNodes).filter(
+                    child => child.nodeType === 1
+                );
+
+                childElements.forEach((child, index) => {
+                    const childPath = [...path, child.nodeName + `[${getElementIndex(child)}]`];
+                    const childNode = createTreeNode(child, childPath);
+                    childrenContainer.appendChild(childNode);
+                });
+
+                container.appendChild(childrenContainer);
+
+                // Toggle functionality
+                toggleBtn.addEventListener('click', (e) => {
+                    e.stopPropagation();
+                    const isExpanded = childrenContainer.classList.toggle('expanded');
+                    toggleBtn.textContent = isExpanded ? '−' : '+';
+                });
+            }
+
+            // Click to select and show XPath
+            header.addEventListener('click', (e) => {
+                e.stopPropagation();
+                selectNode(header);
+            });
+
+            return container;
+        }
+
+        function getDirectTextContent(node) {
+            let text = '';
+            for (let child of node.childNodes) {
+                if (child.nodeType === 3) { // Text node
+                    text += child.textContent;
+                }
+            }
+            return text.trim();
+        }
+
+        function getElementIndex(element) {
+            const parent = element.parentNode;
+            const siblings = Array.from(parent.childNodes).filter(
+                node => node.nodeType === 1 && node.nodeName === element.nodeName
+            );
+            return siblings.indexOf(element) + 1;
+        }
+
+        function selectNode(headerElement) {
+            // Remove previous selection
+            document.querySelectorAll('.node-header.selected').forEach(el => {
+                el.classList.remove('selected');
+            });
+
+            // Add new selection
+            headerElement.classList.add('selected');
+            selectedNode = nodeMap.get(headerElement);
+
+            // Update XPath display
+            displayXPath(selectedNode);
+        }
+
+        function displayXPath(nodeInfo) {
+            const xpathDisplay = document.getElementById('xpathDisplay');
+            const xpath = '/' + nodeInfo.path.join('/');
+            xpathDisplay.textContent = xpath;
+        }
+
+        // Calculate statistics
+        function calculateStatistics() {
+            const statsGrid = document.getElementById('statsGrid');
+            statsGrid.innerHTML = '';
+
+            const stats = {
+                totalElements: 0,
+                maxDepth: 0,
+                elementTypes: new Map(),
+                attributePatterns: new Map(),
+                totalAttributes: 0
+            };
+
+            function traverse(node, depth = 0) {
+                if (node.nodeType === 1) {
+                    stats.totalElements++;
+                    stats.maxDepth = Math.max(stats.maxDepth, depth);
+
+                    // Count element types
+                    const count = stats.elementTypes.get(node.nodeName) || 0;
+                    stats.elementTypes.set(node.nodeName, count + 1);
+
+                    // Count attributes
+                    if (node.attributes) {
+                        stats.totalAttributes += node.attributes.length;
+                        for (let attr of node.attributes) {
+                            const key = `${node.nodeName}/@${attr.name}`;
+                            const count = stats.attributePatterns.get(key) || 0;
+                            stats.attributePatterns.set(key, count + 1);
+                        }
+                    }
+
+                    // Traverse children
+                    for (let child of node.childNodes) {
+                        traverse(child, depth + 1);
+                    }
+                }
+            }
+
+            traverse(xmlDoc.documentElement);
+
+            // Display statistics
+            addStatItem(statsGrid, 'Total Elements', stats.totalElements);
+            addStatItem(statsGrid, 'Max Nesting Depth', stats.maxDepth);
+            addStatItem(statsGrid, 'Unique Element Types', stats.elementTypes.size);
+            addStatItem(statsGrid, 'Total Attributes', stats.totalAttributes);
+
+            // Element types list
+            const elementTypesList = document.createElement('div');
+            elementTypesList.className = 'stat-item';
+            elementTypesList.innerHTML = `
+                <div class="stat-label">Element Types (Top 10)</div>
+                <div class="stat-list"></div>
+            `;
+            const listContainer = elementTypesList.querySelector('.stat-list');
+
+            const sortedElements = Array.from(stats.elementTypes.entries())
+                .sort((a, b) => b[1] - a[1])
+                .slice(0, 10);
+
+            sortedElements.forEach(([name, count]) => {
+                const item = document.createElement('div');
+                item.className = 'stat-list-item';
+                item.innerHTML = `<span>${name}</span><span class="badge">${count}</span>`;
+                listContainer.appendChild(item);
+            });
+
+            statsGrid.appendChild(elementTypesList);
+
+            // Attribute patterns list
+            if (stats.attributePatterns.size > 0) {
+                const attrList = document.createElement('div');
+                attrList.className = 'stat-item';
+                attrList.innerHTML = `
+                    <div class="stat-label">Common Attributes (Top 10)</div>
+                    <div class="stat-list"></div>
+                `;
+                const attrContainer = attrList.querySelector('.stat-list');
+
+                const sortedAttrs = Array.from(stats.attributePatterns.entries())
+                    .sort((a, b) => b[1] - a[1])
+                    .slice(0, 10);
+
+                sortedAttrs.forEach(([name, count]) => {
+                    const item = document.createElement('div');
+                    item.className = 'stat-list-item';
+                    item.innerHTML = `<span>${name}</span><span class="badge">${count}</span>`;
+                    attrContainer.appendChild(item);
+                });
+
+                statsGrid.appendChild(attrList);
+            }
+        }
+
+        function addStatItem(container, label, value) {
+            const item = document.createElement('div');
+            item.className = 'stat-item';
+            item.innerHTML = `
+                <div class="stat-label">${label}</div>
+                <div class="stat-value">${value}</div>
+            `;
+            container.appendChild(item);
+        }
+
+        // Extract text with formatting
+        function extractText() {
+            const textExtraction = document.getElementById('textExtraction');
+            const text = extractTextFromNode(xmlDoc.documentElement, 0);
+            textExtraction.textContent = text || 'No text content found';
+        }
+
+        function extractTextFromNode(node, depth) {
+            let text = '';
+            const indent = '  '.repeat(depth);
+
+            if (node.nodeType === 1) {
+                // Add element name as header for structural context
+                if (depth === 0 || hasSignificantText(node)) {
+                    text += `${indent}[${node.nodeName}]\n`;
+                }
+
+                // Process children
+                for (let child of node.childNodes) {
+                    if (child.nodeType === 3) { // Text node
+                        const content = child.textContent.trim();
+                        if (content) {
+                            text += `${indent}  ${content}\n`;
+                        }
+                    } else if (child.nodeType === 1) { // Element node
+                        text += extractTextFromNode(child, depth + 1);
+                    }
+                }
+
+                if (depth === 0 || hasSignificantText(node)) {
+                    text += '\n';
+                }
+            }
+
+            return text;
+        }
+
+        function hasSignificantText(node) {
+            for (let child of node.childNodes) {
+                if (child.nodeType === 3 && child.textContent.trim()) {
+                    return true;
+                }
+            }
+            return false;
+        }
+
+        // Infer schema patterns
+        function inferSchema() {
+            const schemaInference = document.getElementById('schemaInference');
+            schemaInference.innerHTML = '';
+
+            const patterns = {
+                rootElement: xmlDoc.documentElement.nodeName,
+                commonStructures: new Map(),
+                repeatingElements: new Map(),
+                elementHierarchy: new Map()
+            };
+
+            function analyzeStructure(node, parent = null) {
+                if (node.nodeType === 1) {
+                    // Track parent-child relationships
+                    if (parent) {
+                        const key = `${parent} > ${node.nodeName}`;
+                        const count = patterns.commonStructures.get(key) || 0;
+                        patterns.commonStructures.set(key, count + 1);
+                    }
+
+                    // Track element hierarchy
+                    if (!patterns.elementHierarchy.has(node.nodeName)) {
+                        patterns.elementHierarchy.set(node.nodeName, new Set());
+                    }
+
+                    const children = Array.from(node.childNodes)
+                        .filter(child => child.nodeType === 1)
+                        .map(child => child.nodeName);
+
+                    children.forEach(child => {
+                        patterns.elementHierarchy.get(node.nodeName).add(child);
+                    });
+
+                    // Analyze children
+                    for (let child of node.childNodes) {
+                        analyzeStructure(child, node.nodeName);
+                    }
+                }
+            }
+
+            analyzeStructure(xmlDoc.documentElement);
+
+            // Find repeating elements
+            patterns.commonStructures.forEach((count, pattern) => {
+                if (count > 1) {
+                    patterns.repeatingElements.set(pattern, count);
+                }
+            });
+
+            // Display schema patterns
+            addSchemaItem(schemaInference, 'Root Element', `<${patterns.rootElement}>`);
+
+            // Display repeating patterns
+            if (patterns.repeatingElements.size > 0) {
+                const repeatingDiv = document.createElement('div');
+                repeatingDiv.className = 'schema-item';
+                repeatingDiv.innerHTML = `
+                    <div class="schema-title">Repeating Patterns (Top 10)</div>
+                    <ul class="schema-list"></ul>
+                `;
+                const list = repeatingDiv.querySelector('.schema-list');
+
+                const sortedRepeating = Array.from(patterns.repeatingElements.entries())
+                    .sort((a, b) => b[1] - a[1])
+                    .slice(0, 10);
+
+                sortedRepeating.forEach(([pattern, count]) => {
+                    const li = document.createElement('li');
+                    li.innerHTML = `${pattern} <span class="badge">${count}×</span>`;
+                    list.appendChild(li);
+                });
+
+                schemaInference.appendChild(repeatingDiv);
+            }
+
+            // Display element hierarchy (top elements)
+            const hierarchyDiv = document.createElement('div');
+            hierarchyDiv.className = 'schema-item';
+            hierarchyDiv.innerHTML = `
+                <div class="schema-title">Element Hierarchy (Sample)</div>
+                <ul class="schema-list"></ul>
+            `;
+            const hierarchyList = hierarchyDiv.querySelector('.schema-list');
+
+            const topElements = Array.from(patterns.elementHierarchy.entries())
+                .filter(([_, children]) => children.size > 0)
+                .slice(0, 5);
+
+            topElements.forEach(([element, children]) => {
+                const li = document.createElement('li');
+                const childList = Array.from(children).join(', ');
+                li.innerHTML = `<strong>${element}</strong> → ${childList}`;
+                hierarchyList.appendChild(li);
+            });
+
+            schemaInference.appendChild(hierarchyDiv);
+        }
+
+        function addSchemaItem(container, title, content) {
+            const item = document.createElement('div');
+            item.className = 'schema-item';
+            item.innerHTML = `
+                <div class="schema-title">${title}</div>
+                <div class="schema-content">${content}</div>
+            `;
+            container.appendChild(item);
+        }
+
+        // Copy buttons
+        document.getElementById('copyXPathBtn').addEventListener('click', () => {
+            const xpathText = document.getElementById('xpathDisplay').textContent;
+            navigator.clipboard.writeText(xpathText).then(() => {
+                showCopyFeedback('copyXPathBtn');
+            });
+        });
+
+        document.getElementById('copyTextBtn').addEventListener('click', () => {
+            const text = document.getElementById('textExtraction').textContent;
+            navigator.clipboard.writeText(text).then(() => {
+                showCopyFeedback('copyTextBtn');
+            });
+        });
+
+        function showCopyFeedback(buttonId) {
+            const btn = document.getElementById(buttonId);
+            const originalText = btn.textContent;
+            btn.textContent = '✓ Copied!';
+            setTimeout(() => {
+                btn.textContent = originalText;
+            }, 2000);
+        }
+
+        // Expand/Collapse all
+        document.getElementById('expandAllBtn').addEventListener('click', () => {
+            document.querySelectorAll('.node-children').forEach(el => {
+                el.classList.add('expanded');
+            });
+            document.querySelectorAll('.toggle-btn:not(.empty)').forEach(btn => {
+                btn.textContent = '−';
+            });
+        });
+
+        document.getElementById('collapseAllBtn').addEventListener('click', () => {
+            document.querySelectorAll('.node-children').forEach(el => {
+                el.classList.remove('expanded');
+            });
+            document.querySelectorAll('.toggle-btn:not(.empty)').forEach(btn => {
+                btn.textContent = '+';
+            });
+        });
+    </script>
+</body>
+</html>

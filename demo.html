@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HB 5200-S Budget Explorer</title>
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4/lodash.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.umd.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f5f5;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+            color: white;
+            padding: 30px 20px;
+            margin-bottom: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        header h1 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            opacity: 0.9;
+            font-size: 1.1em;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .stat-card {
+            background: white;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            border-left: 4px solid #3b82f6;
+        }
+
+        .stat-card h3 {
+            font-size: 0.9em;
+            color: #666;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 10px;
+        }
+
+        .stat-card .value {
+            font-size: 2em;
+            font-weight: bold;
+            color: #1e3a8a;
+        }
+
+        .search-section {
+            background: white;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+
+        .search-section h2 {
+            margin-bottom: 15px;
+            color: #1e3a8a;
+        }
+
+        .search-controls {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+
+        input, select, button {
+            padding: 12px 20px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            font-size: 1em;
+        }
+
+        input {
+            flex: 1;
+            min-width: 300px;
+        }
+
+        select {
+            min-width: 200px;
+        }
+
+        button {
+            background: #3b82f6;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-weight: 600;
+            transition: background 0.2s;
+        }
+
+        button:hover {
+            background: #2563eb;
+        }
+
+        button:active {
+            transform: translateY(1px);
+        }
+
+        .results {
+            margin-top: 20px;
+        }
+
+        .result-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #e5e7eb;
+        }
+
+        .result-header h3 {
+            color: #1e3a8a;
+        }
+
+        .result-count {
+            color: #666;
+            font-size: 0.9em;
+        }
+
+        .result-item {
+            background: #f9fafb;
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 6px;
+            border-left: 3px solid #3b82f6;
+        }
+
+        .result-item h4 {
+            color: #1e3a8a;
+            margin-bottom: 8px;
+        }
+
+        .result-item .meta {
+            color: #666;
+            font-size: 0.9em;
+            margin-bottom: 5px;
+        }
+
+        .result-item .amount {
+            color: #059669;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+
+        .chart-container {
+            background: white;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+
+        .chart-container h2 {
+            margin-bottom: 20px;
+            color: #1e3a8a;
+        }
+
+        canvas {
+            max-height: 400px;
+        }
+
+        .tabs {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        .tab {
+            padding: 12px 24px;
+            background: #e5e7eb;
+            border: none;
+            border-radius: 6px 6px 0 0;
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.2s;
+        }
+
+        .tab.active {
+            background: white;
+            color: #3b82f6;
+            border-bottom: 3px solid #3b82f6;
+        }
+
+        .tab-content {
+            display: none;
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: #666;
+        }
+
+        .spinner {
+            border: 3px solid #f3f3f3;
+            border-top: 3px solid #3b82f6;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 20px;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .error {
+            background: #fee2e2;
+            color: #991b1b;
+            padding: 15px;
+            border-radius: 6px;
+            margin-bottom: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #e5e7eb;
+        }
+
+        th {
+            background: #f9fafb;
+            font-weight: 600;
+            color: #1e3a8a;
+        }
+
+        tr:hover {
+            background: #f9fafb;
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 0.85em;
+            font-weight: 600;
+            background: #dbeafe;
+            color: #1e40af;
+        }
+
+        .badge.vetoed {
+            background: #fee2e2;
+            color: #991b1b;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Washington State HB 5200-S</h1>
+            <p>2023-2025 Capital Budget Explorer | $21.8 Billion Total Appropriated</p>
+        </header>
+
+        <div id="loading" class="loading">
+            <div class="spinner"></div>
+            <p>Loading budget data...</p>
+        </div>
+
+        <div id="app" style="display: none;">
+            <!-- Overview Stats -->
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <h3>Total Appropriation</h3>
+                    <div class="value" id="stat-appropriation">$0</div>
+                </div>
+                <div class="stat-card">
+                    <h3>Total Reappropriation</h3>
+                    <div class="value" id="stat-reappropriation">$0</div>
+                </div>
+                <div class="stat-card">
+                    <h3>Capital Projects</h3>
+                    <div class="value" id="stat-projects">0</div>
+                </div>
+                <div class="stat-card">
+                    <h3>State Agencies</h3>
+                    <div class="value" id="stat-agencies">0</div>
+                </div>
+            </div>
+
+            <!-- Tabs -->
+            <div class="tabs">
+                <button class="tab active" onclick="showTab('search')">Search Projects</button>
+                <button class="tab" onclick="showTab('agencies')">Agencies</button>
+                <button class="tab" onclick="showTab('accounts')">Funding Accounts</button>
+                <button class="tab" onclick="showTab('grants')">Grant Programs</button>
+            </div>
+
+            <!-- Search Tab -->
+            <div id="tab-search" class="tab-content active">
+                <div class="search-section">
+                    <h2>Search Capital Projects</h2>
+                    <div class="search-controls">
+                        <input type="text" id="search-input" placeholder="Search by project name, department, or keyword...">
+                        <select id="agency-filter">
+                            <option value="">All Agencies</option>
+                        </select>
+                        <button onclick="searchProjects()">Search</button>
+                        <button onclick="clearSearch()" style="background: #6b7280;">Clear</button>
+                    </div>
+                    <div class="results" id="search-results"></div>
+                </div>
+            </div>
+
+            <!-- Agencies Tab -->
+            <div id="tab-agencies" class="tab-content">
+                <div class="chart-container">
+                    <h2>Top 10 Agencies by Total Funding</h2>
+                    <canvas id="agencies-chart"></canvas>
+                </div>
+                <div class="search-section">
+                    <div id="agencies-table"></div>
+                </div>
+            </div>
+
+            <!-- Accounts Tab -->
+            <div id="tab-accounts" class="tab-content">
+                <div class="chart-container">
+                    <h2>Top 10 Funding Accounts</h2>
+                    <canvas id="accounts-chart"></canvas>
+                </div>
+                <div class="search-section">
+                    <div id="accounts-table"></div>
+                </div>
+            </div>
+
+            <!-- Grants Tab -->
+            <div id="tab-grants" class="tab-content">
+                <div class="search-section">
+                    <h2>Grant Programs</h2>
+                    <div id="grants-list"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let budgetData = null;
+
+        // Load data
+        async function loadData() {
+            try {
+                const response = await fetch('hb5200-data.json');
+                budgetData = await response.json();
+                initializeApp();
+            } catch (error) {
+                document.getElementById('loading').innerHTML = `
+                    <div class="error">
+                        <strong>Error loading data:</strong> ${error.message}
+                        <br><br>
+                        Make sure hb5200-data.json is in the same directory as this HTML file.
+                    </div>
+                `;
+            }
+        }
+
+        // Initialize app with data
+        function initializeApp() {
+            document.getElementById('loading').style.display = 'none';
+            document.getElementById('app').style.display = 'block';
+
+            // Update stats
+            document.getElementById('stat-appropriation').textContent =
+                formatCurrency(budgetData.fiscalSummary.totalAppropriation);
+            document.getElementById('stat-reappropriation').textContent =
+                formatCurrency(budgetData.fiscalSummary.totalReappropriation);
+            document.getElementById('stat-projects').textContent =
+                budgetData.projects.length.toLocaleString();
+            document.getElementById('stat-agencies').textContent =
+                budgetData.agencies.length;
+
+            // Populate agency filter
+            const agencyFilter = document.getElementById('agency-filter');
+            const sortedAgencies = _.sortBy(budgetData.agencies, 'name');
+            sortedAgencies.forEach(agency => {
+                const option = document.createElement('option');
+                option.value = agency.index || agency.name;
+                option.textContent = agency.name;
+                agencyFilter.appendChild(option);
+            });
+
+            // Initialize charts and tables
+            initializeAgenciesTab();
+            initializeAccountsTab();
+            initializeGrantsTab();
+
+            // Show all projects initially
+            searchProjects();
+        }
+
+        // Format currency
+        function formatCurrency(amount) {
+            return new Intl.NumberFormat('en-US', {
+                style: 'currency',
+                currency: 'USD',
+                minimumFractionDigits: 0,
+                maximumFractionDigits: 0
+            }).format(amount);
+        }
+
+        // Tab switching
+        function showTab(tabName) {
+            // Update tab buttons
+            document.querySelectorAll('.tab').forEach(tab => {
+                tab.classList.remove('active');
+            });
+            event.target.classList.add('active');
+
+            // Update tab content
+            document.querySelectorAll('.tab-content').forEach(content => {
+                content.classList.remove('active');
+            });
+            document.getElementById(`tab-${tabName}`).classList.add('active');
+        }
+
+        // Search projects
+        function searchProjects() {
+            const searchTerm = document.getElementById('search-input').value.toLowerCase();
+            const agencyFilter = document.getElementById('agency-filter').value;
+
+            let filtered = budgetData.projects;
+
+            // Filter by search term
+            if (searchTerm) {
+                filtered = _.filter(filtered, project =>
+                    project.name.toLowerCase().includes(searchTerm) ||
+                    (project.department && project.department.toLowerCase().includes(searchTerm))
+                );
+            }
+
+            // Filter by agency
+            if (agencyFilter) {
+                filtered = _.filter(filtered, project =>
+                    project.agencyCode === agencyFilter ||
+                    project.department.includes(agencyFilter)
+                );
+            }
+
+            displaySearchResults(filtered);
+        }
+
+        // Display search results
+        function displaySearchResults(projects) {
+            const resultsDiv = document.getElementById('search-results');
+
+            if (projects.length === 0) {
+                resultsDiv.innerHTML = '<p class="meta">No projects found.</p>';
+                return;
+            }
+
+            // Get funding for each project
+            const projectsWithFunding = projects.map(project => {
+                const funding = _.chain(budgetData.appropriations)
+                    .filter(a => a.project === project.id && a.type === 'appropriation')
+                    .sumBy('amount')
+                    .value();
+                return { ...project, funding };
+            });
+
+            // Sort by funding
+            const sorted = _.orderBy(projectsWithFunding, ['funding'], ['desc']).slice(0, 50);
+
+            let html = `
+                <div class="result-header">
+                    <h3>Search Results</h3>
+                    <div class="result-count">${projects.length} projects found (showing top 50)</div>
+                </div>
+            `;
+
+            sorted.forEach(project => {
+                html += `
+                    <div class="result-item">
+                        <h4>${project.name} ${project.vetoed ? '<span class="badge vetoed">VETOED</span>' : ''}</h4>
+                        <div class="meta">Section ${project.section} | ${project.department}</div>
+                        <div class="meta">Project ID: ${project.id}</div>
+                        ${project.funding > 0 ? `<div class="amount">${formatCurrency(project.funding)}</div>` : ''}
+                        ${project.conditions.length > 0 ? `<div class="meta" style="margin-top: 8px; font-size: 0.85em;">${project.conditions[0].substring(0, 200)}...</div>` : ''}
+                    </div>
+                `;
+            });
+
+            resultsDiv.innerHTML = html;
+        }
+
+        // Clear search
+        function clearSearch() {
+            document.getElementById('search-input').value = '';
+            document.getElementById('agency-filter').value = '';
+            searchProjects();
+        }
+
+        // Initialize Agencies tab
+        function initializeAgenciesTab() {
+            // Get top agencies with names
+            const topAgencies = _.chain(budgetData.fiscalSummary.byAgency)
+                .toPairs()
+                .map(([code, amounts]) => {
+                    const agency = _.find(budgetData.agencies, a => a.index === code || a.name.includes(code));
+                    return {
+                        code,
+                        name: agency ? agency.name : `Agency ${code}`,
+                        ...amounts
+                    };
+                })
+                .orderBy(['total'], ['desc'])
+                .take(10)
+                .value();
+
+            // Create chart
+            const ctx = document.getElementById('agencies-chart').getContext('2d');
+            new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: topAgencies.map(a => a.name.substring(0, 40)),
+                    datasets: [{
+                        label: 'Total Funding',
+                        data: topAgencies.map(a => a.total),
+                        backgroundColor: '#3b82f6'
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: { display: false }
+                    },
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            ticks: {
+                                callback: value => formatCurrency(value)
+                            }
+                        }
+                    }
+                }
+            });
+
+            // Create table
+            let tableHTML = `
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Agency</th>
+                            <th>Projects</th>
+                            <th>Appropriation</th>
+                            <th>Reappropriation</th>
+                            <th>Total</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+            `;
+
+            topAgencies.forEach(agency => {
+                tableHTML += `
+                    <tr>
+                        <td><strong>${agency.name}</strong></td>
+                        <td>${(_.find(budgetData.agencies, a => a.index === agency.code)?.projectCount || 0)}</td>
+                        <td>${formatCurrency(agency.appropriation)}</td>
+                        <td>${formatCurrency(agency.reappropriation)}</td>
+                        <td><strong>${formatCurrency(agency.total)}</strong></td>
+                    </tr>
+                `;
+            });
+
+            tableHTML += '</tbody></table>';
+            document.getElementById('agencies-table').innerHTML = tableHTML;
+        }
+
+        // Initialize Accounts tab
+        function initializeAccountsTab() {
+            const topAccounts = _.chain(budgetData.fiscalSummary.byAccount)
+                .toPairs()
+                .filter(([name]) => name && !name.includes('Prior Biennia') && !name.includes('Future Biennia'))
+                .orderBy([1], ['desc'])
+                .take(10)
+                .value();
+
+            // Create chart
+            const ctx = document.getElementById('accounts-chart').getContext('2d');
+            new Chart(ctx, {
+                type: 'doughnut',
+                data: {
+                    labels: topAccounts.map(a => a[0].substring(0, 50)),
+                    datasets: [{
+                        data: topAccounts.map(a => a[1]),
+                        backgroundColor: [
+                            '#3b82f6', '#10b981', '#f59e0b', '#ef4444', '#8b5cf6',
+                            '#ec4899', '#14b8a6', '#f97316', '#06b6d4', '#84cc16'
+                        ]
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            position: 'right'
+                        }
+                    }
+                }
+            });
+
+            // Create table
+            let tableHTML = `
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Account Name</th>
+                            <th>Total Amount</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+            `;
+
+            topAccounts.forEach(([name, amount]) => {
+                tableHTML += `
+                    <tr>
+                        <td>${name}</td>
+                        <td><strong>${formatCurrency(amount)}</strong></td>
+                    </tr>
+                `;
+            });
+
+            tableHTML += '</tbody></table>';
+            document.getElementById('accounts-table').innerHTML = tableHTML;
+        }
+
+        // Initialize Grants tab
+        function initializeGrantsTab() {
+            const grantsByProgram = _.groupBy(budgetData.grants, 'program');
+
+            let html = '';
+            _.forEach(grantsByProgram, (grants, program) => {
+                const totalAmount = _.sumBy(grants, 'amount');
+                html += `
+                    <div class="result-item">
+                        <h4>${program}</h4>
+                        <div class="amount">${formatCurrency(totalAmount)} across ${grants.length} grants</div>
+                        <details style="margin-top: 10px;">
+                            <summary style="cursor: pointer; color: #3b82f6;">View grant recipients</summary>
+                            <ul style="margin-top: 10px; padding-left: 20px;">
+                `;
+
+                _.orderBy(grants, ['amount'], ['desc']).forEach(grant => {
+                    html += `<li>${grant.grantee}: ${formatCurrency(grant.amount)}</li>`;
+                });
+
+                html += `
+                            </ul>
+                        </details>
+                    </div>
+                `;
+            });
+
+            document.getElementById('grants-list').innerHTML = html;
+        }
+
+        // Enter key search
+        document.addEventListener('DOMContentLoaded', () => {
+            document.getElementById('search-input')?.addEventListener('keypress', (e) => {
+                if (e.key === 'Enter') searchProjects();
+            });
+        });
+
+        // Load data on page load
+        loadData();
+    </script>
+</body>
+</html>

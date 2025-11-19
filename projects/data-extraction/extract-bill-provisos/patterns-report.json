@@ -1,0 +1,224 @@
+{
+  "summary": {
+    "totalProvisos": 11986,
+    "totalAppropriations": 7156,
+    "billsProcessed": 9
+  },
+  "bills": [
+    {
+      "billNumber": "2SHB 1210.SL",
+      "biennium": "",
+      "legislature": "67th Legislature",
+      "session": "2022 Regular Session",
+      "provisoCount": 0,
+      "appropriationCount": 0
+    },
+    {
+      "billNumber": "SHB 1281.SL",
+      "biennium": "",
+      "legislature": "69th Legislature",
+      "session": "2025 Regular Session",
+      "provisoCount": 0,
+      "appropriationCount": 0
+    },
+    {
+      "billNumber": "E2SHB 1320.SL",
+      "biennium": "",
+      "legislature": "67th Legislature",
+      "session": "2021 Regular Session",
+      "provisoCount": 0,
+      "appropriationCount": 0
+    },
+    {
+      "billNumber": "ESSB 5167.SL",
+      "biennium": "2025-2027",
+      "legislature": "69th Legislature",
+      "session": "2025 Regular Session",
+      "provisoCount": 3439,
+      "appropriationCount": 2172
+    },
+    {
+      "billNumber": "ESSB 5187.SL",
+      "biennium": "2023-2025",
+      "legislature": "68th Legislature",
+      "session": "2023 Regular Session",
+      "provisoCount": 3449,
+      "appropriationCount": 1941
+    },
+    {
+      "billNumber": "SSB 5195.SL",
+      "biennium": "",
+      "legislature": "69th Legislature",
+      "session": "2025 Regular Session",
+      "provisoCount": 534,
+      "appropriationCount": 17
+    },
+    {
+      "billNumber": "ESSB 5200.SL",
+      "biennium": "",
+      "legislature": "68th Legislature",
+      "session": "2023 Regular Session",
+      "provisoCount": 423,
+      "appropriationCount": 0
+    },
+    {
+      "billNumber": "ESSB 5693.SL",
+      "biennium": "2021-2023",
+      "legislature": "67th Legislature",
+      "session": "2022 Regular Session",
+      "provisoCount": 1859,
+      "appropriationCount": 1473
+    },
+    {
+      "billNumber": "ESSB 5950.SL",
+      "biennium": "2023-2025",
+      "legislature": "68th Legislature",
+      "session": "2024 Regular Session",
+      "provisoCount": 2282,
+      "appropriationCount": 1553
+    }
+  ],
+  "categoryBreakdown": [
+    {
+      "category": "Conditional appropriations",
+      "count": 9597,
+      "percentage": "80.1%"
+    },
+    {
+      "category": "Grant programs",
+      "count": 2192,
+      "percentage": "18.3%"
+    },
+    {
+      "category": "Reporting requirements",
+      "count": 2012,
+      "percentage": "16.8%"
+    },
+    {
+      "category": "Study requirements",
+      "count": 1410,
+      "percentage": "11.8%"
+    },
+    {
+      "category": "General",
+      "count": 1235,
+      "percentage": "10.3%"
+    },
+    {
+      "category": "IT constraints",
+      "count": 765,
+      "percentage": "6.4%"
+    },
+    {
+      "category": "FTE restrictions",
+      "count": 579,
+      "percentage": "4.8%"
+    },
+    {
+      "category": "Pilots",
+      "count": 333,
+      "percentage": "2.8%"
+    },
+    {
+      "category": "Transfers",
+      "count": 183,
+      "percentage": "1.5%"
+    }
+  ],
+  "topAgencies": [
+    {
+      "agency": "FOR THE DEPARTMENT OF COMMERCE",
+      "provisoCount": 957
+    },
+    {
+      "agency": "FOR THE DEPARTMENT OF HEALTH",
+      "provisoCount": 600
+    },
+    {
+      "agency": "FOR THE UNIVERSITY OF WASHINGTON",
+      "provisoCount": 534
+    },
+    {
+      "agency": "FOR THE DEPARTMENT OF COMMERCECOMMUNITY SERVICES AND HOUSING —",
+      "provisoCount": 361
+    },
+    {
+      "agency": "FOR THE STATE BOARD FOR COMMUNITY AND TECHNICAL COLLEGES",
+      "provisoCount": 348
+    },
+    {
+      "agency": "FOR THE DEPARTMENT OF ECOLOGY",
+      "provisoCount": 329
+    },
+    {
+      "agency": "FOR THE STATE HEALTH CARE AUTHORITYMEDICAL ASSISTANCE —",
+      "provisoCount": 311
+    },
+    {
+      "agency": "FOR THE DEPARTMENT OF SOCIAL AND HEALTH SERVICESAGING AND ADULT SERVICES PROGRAM —",
+      "provisoCount": 295
+    },
+    {
+      "agency": "FOR THE DEPARTMENT OF FISH AND WILDLIFE",
+      "provisoCount": 292
+    },
+    {
+      "agency": "FOR THE DEPARTMENT OF LABOR AND INDUSTRIES",
+      "provisoCount": 277
+    },
+    {
+      "agency": "FOR THE STATE HEALTH CARE AUTHORITYCOMMUNITY BEHAVIORAL HEALTH PROGRAM —",
+      "provisoCount": 275
+    },
+    {
+      "agency": "FOR THE STATE HEALTH CARE AUTHORITY—COMMUNITY BEHAVIORAL HEALTH PROGRAM",
+      "provisoCount": 260
+    },
+    {
+      "agency": "FOR WASHINGTON STATE UNIVERSITY",
+      "provisoCount": 258
+    },
+    {
+      "agency": "FOR THE DEPARTMENT OF CHILDREN, YOUTH, AND FAMILIESCHILDREN AND FAMILIES SERVICES PROGRAM —",
+      "provisoCount": 252
+    },
+    {
+      "agency": "FOR THE DEPARTMENT OF NATURAL RESOURCES",
+      "provisoCount": 251
+    },
+    {
+      "agency": "FOR THE ATTORNEY GENERAL",
+      "provisoCount": 228
+    },
+    {
+      "agency": "FOR THE DEPARTMENT OF CHILDREN, YOUTH, AND FAMILIESEARLY LEARNING PROGRAM —",
+      "provisoCount": 212
+    },
+    {
+      "agency": "FOR WESTERN WASHINGTON UNIVERSITY",
+      "provisoCount": 193
+    },
+    {
+      "agency": "FOR THE EMPLOYMENT SECURITY DEPARTMENT",
+      "provisoCount": 191
+    },
+    {
+      "agency": "FOR THE ADMINISTRATOR FOR THE COURTS",
+      "provisoCount": 186
+    }
+  ],
+  "bienniumBreakdown": [
+    {
+      "biennium": "2021-2023",
+      "count": 1859
+    },
+    {
+      "biennium": "2023-2025",
+      "count": 5731
+    },
+    {
+      "biennium": "2025-2027",
+      "count": 3439
+    }
+  ]
+}

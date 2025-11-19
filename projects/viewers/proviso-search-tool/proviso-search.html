@@ -1,0 +1,874 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Washington Budget Bill Proviso Search Tool</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f5f5;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            background: #1e3a8a;
+            color: white;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .subtitle {
+            opacity: 0.9;
+            font-size: 1rem;
+        }
+
+        .card {
+            background: white;
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .card h2 {
+            font-size: 1.25rem;
+            margin-bottom: 1rem;
+            color: #1e3a8a;
+        }
+
+        textarea {
+            width: 100%;
+            min-height: 150px;
+            padding: 0.75rem;
+            border: 2px solid #e5e7eb;
+            border-radius: 6px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.875rem;
+            resize: vertical;
+        }
+
+        textarea:focus {
+            outline: none;
+            border-color: #1e3a8a;
+        }
+
+        button {
+            background: #1e3a8a;
+            color: white;
+            border: none;
+            padding: 0.75rem 1.5rem;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 1rem;
+            font-weight: 500;
+            transition: background 0.2s;
+        }
+
+        button:hover {
+            background: #1e40af;
+        }
+
+        button:disabled {
+            background: #9ca3af;
+            cursor: not-allowed;
+        }
+
+        .search-box {
+            position: relative;
+            margin-bottom: 1rem;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 0.75rem 2.5rem 0.75rem 1rem;
+            border: 2px solid #e5e7eb;
+            border-radius: 6px;
+            font-size: 1rem;
+        }
+
+        input[type="text"]:focus {
+            outline: none;
+            border-color: #1e3a8a;
+        }
+
+        .search-icon {
+            position: absolute;
+            right: 1rem;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #9ca3af;
+        }
+
+        .filters {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .filter-group {
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            font-weight: 500;
+            margin-bottom: 0.5rem;
+            color: #374151;
+        }
+
+        select {
+            padding: 0.5rem;
+            border: 2px solid #e5e7eb;
+            border-radius: 6px;
+            font-size: 0.875rem;
+            background: white;
+        }
+
+        select:focus {
+            outline: none;
+            border-color: #1e3a8a;
+        }
+
+        .stats {
+            display: flex;
+            gap: 2rem;
+            padding: 1rem;
+            background: #f3f4f6;
+            border-radius: 6px;
+            margin-bottom: 1rem;
+        }
+
+        .stat {
+            flex: 1;
+        }
+
+        .stat-value {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #1e3a8a;
+        }
+
+        .stat-label {
+            font-size: 0.875rem;
+            color: #6b7280;
+        }
+
+        .proviso-item {
+            background: white;
+            border: 1px solid #e5e7eb;
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-bottom: 1rem;
+            transition: box-shadow 0.2s;
+        }
+
+        .proviso-item:hover {
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .proviso-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 0.75rem;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .proviso-meta {
+            display: flex;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 0.25rem 0.75rem;
+            border-radius: 9999px;
+            font-size: 0.75rem;
+            font-weight: 500;
+        }
+
+        .badge-section {
+            background: #dbeafe;
+            color: #1e40af;
+        }
+
+        .badge-agency {
+            background: #dcfce7;
+            color: #166534;
+        }
+
+        .badge-category {
+            background: #fef3c7;
+            color: #92400e;
+        }
+
+        .badge-amount {
+            background: #e0e7ff;
+            color: #3730a3;
+        }
+
+        .proviso-text {
+            margin-bottom: 0.75rem;
+            line-height: 1.7;
+        }
+
+        .highlight {
+            background: #fef08a;
+            padding: 0.125rem 0.25rem;
+            border-radius: 2px;
+            font-weight: 500;
+        }
+
+        .proviso-context {
+            font-size: 0.875rem;
+            color: #6b7280;
+            padding-top: 0.75rem;
+            border-top: 1px solid #f3f4f6;
+        }
+
+        .empty-state {
+            text-align: center;
+            padding: 3rem;
+            color: #6b7280;
+        }
+
+        .empty-state-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            opacity: 0.5;
+        }
+
+        .loading {
+            display: inline-block;
+            width: 1rem;
+            height: 1rem;
+            border: 2px solid #f3f4f6;
+            border-top-color: #1e3a8a;
+            border-radius: 50%;
+            animation: spin 0.6s linear infinite;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        .category-chips {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-top: 0.5rem;
+        }
+
+        .chip {
+            padding: 0.375rem 0.75rem;
+            border-radius: 6px;
+            font-size: 0.875rem;
+            cursor: pointer;
+            transition: all 0.2s;
+            border: 1px solid #e5e7eb;
+            background: white;
+        }
+
+        .chip:hover {
+            background: #f3f4f6;
+        }
+
+        .chip.active {
+            background: #1e3a8a;
+            color: white;
+            border-color: #1e3a8a;
+        }
+
+        .clear-filters {
+            background: #dc2626;
+            margin-left: auto;
+        }
+
+        .clear-filters:hover {
+            background: #b91c1c;
+        }
+
+        @media (max-width: 768px) {
+            .filters {
+                grid-template-columns: 1fr;
+            }
+
+            .stats {
+                flex-direction: column;
+                gap: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Washington Budget Bill Proviso Search Tool</h1>
+            <p class="subtitle">Extract, search, and analyze proviso sections from budget bill XML</p>
+        </header>
+
+        <xml-uploader></xml-uploader>
+        <proviso-search></proviso-search>
+    </div>
+
+    <script>
+        // Shared state management
+        class ProvisoStore {
+            constructor() {
+                this.provisos = [];
+                this.filteredProvisos = [];
+                this.listeners = new Set();
+                this.filters = {
+                    search: '',
+                    agency: '',
+                    category: '',
+                    keyword: ''
+                };
+            }
+
+            subscribe(listener) {
+                this.listeners.add(listener);
+                return () => this.listeners.delete(listener);
+            }
+
+            notify() {
+                this.listeners.forEach(listener => listener(this.getState()));
+            }
+
+            getState() {
+                return {
+                    provisos: this.provisos,
+                    filteredProvisos: this.filteredProvisos,
+                    filters: { ...this.filters }
+                };
+            }
+
+            setProvisos(provisos) {
+                this.provisos = provisos;
+                this.applyFilters();
+            }
+
+            setFilters(filters) {
+                this.filters = { ...this.filters, ...filters };
+                this.applyFilters();
+            }
+
+            clearFilters() {
+                this.filters = {
+                    search: '',
+                    agency: '',
+                    category: '',
+                    keyword: ''
+                };
+                this.applyFilters();
+            }
+
+            applyFilters() {
+                this.filteredProvisos = this.provisos.filter(proviso => {
+                    // Search filter
+                    if (this.filters.search) {
+                        const searchLower = this.filters.search.toLowerCase();
+                        const textMatches = proviso.text.toLowerCase().includes(searchLower);
+                        const agencyMatches = proviso.agency.toLowerCase().includes(searchLower);
+                        if (!textMatches && !agencyMatches) return false;
+                    }
+
+                    // Agency filter
+                    if (this.filters.agency && proviso.agency !== this.filters.agency) {
+                        return false;
+                    }
+
+                    // Category filter
+                    if (this.filters.category && !proviso.categories.includes(this.filters.category)) {
+                        return false;
+                    }
+
+                    // Keyword filter
+                    if (this.filters.keyword) {
+                        const keywordLower = this.filters.keyword.toLowerCase();
+                        if (!proviso.text.toLowerCase().includes(keywordLower)) {
+                            return false;
+                        }
+                    }
+
+                    return true;
+                });
+
+                this.notify();
+            }
+        }
+
+        const store = new ProvisoStore();
+
+        // XML Parser
+        class ProvisoParser {
+            categorize(text) {
+                const categories = [];
+                const textLower = text.toLowerCase();
+
+                const patterns = {
+                    'FTE Restrictions': /\b(fte|full time equivalent|staff|position|hiring|vacancy)\b/i,
+                    'Reporting Requirements': /\b(report|submit|provide.*report|transmit.*report|reporting)\b/i,
+                    'IT Spending': /\b(information technology|IT|system|software|hardware|digital|cyber|database)\b/i,
+                    'Pilot Programs': /\b(pilot|demonstration|trial|test)\b/i,
+                    'Implementation': /\b(implementation of|enact|establish)\b/i,
+                    'Grants': /\b(grant|distribute|allocation|award)\b/i,
+                    'Studies': /\b(study|review|evaluate|analyze|assessment|examination)\b/i,
+                    'Lapse Provisions': /\b(lapse|revert)\b/i,
+                    'Bill Contingencies': /if.*bill.*not enacted/i,
+                    'Funding Distribution': /\b(distribute|allocate|provide.*solely for)\b/i,
+                    'Contracts': /\b(contract|procure|vendor|consultant)\b/i,
+                    'Compliance': /\b(comply|compliance|pursuant to|accordance with)\b/i,
+                    'Training': /\b(training|education|professional development)\b/i,
+                    'Infrastructure': /\b(infrastructure|facility|facilities|building|construction)\b/i
+                };
+
+                for (const [category, pattern] of Object.entries(patterns)) {
+                    if (pattern.test(textLower)) {
+                        categories.push(category);
+                    }
+                }
+
+                return categories.length > 0 ? categories : ['Other'];
+            }
+
+            extractAmount(text) {
+                const amountPattern = /\$[\d,]+(?:,\d{3})*(?:\.\d{2})?/g;
+                const amounts = text.match(amountPattern) || [];
+                return amounts.join(', ');
+            }
+
+            extractAgencies(text) {
+                // Common agency patterns
+                const agencies = new Set();
+                const agencyPatterns = [
+                    /department of ([^.,;]+)/gi,
+                    /office of ([^.,;]+)/gi,
+                    /([A-Z][a-z]+ ){0,2}(commission|board|authority|committee)/g
+                ];
+
+                agencyPatterns.forEach(pattern => {
+                    const matches = text.matchAll(pattern);
+                    for (const match of matches) {
+                        agencies.add(match[0].trim());
+                    }
+                });
+
+                return Array.from(agencies);
+            }
+
+            parseXML(xmlString) {
+                const parser = new DOMParser();
+                const xmlDoc = parser.parseFromString(xmlString, 'text/xml');
+
+                // Check for parsing errors
+                const parserError = xmlDoc.querySelector('parsererror');
+                if (parserError) {
+                    throw new Error('Invalid XML: ' + parserError.textContent);
+                }
+
+                const provisos = [];
+                const sections = xmlDoc.querySelectorAll('BillSection');
+
+                sections.forEach((section, sectionIndex) => {
+                    // Get section metadata
+                    const sectionNum = section.querySelector('BillSectionNumber Value')?.textContent ||
+                                      section.querySelector('BillSectionNumber')?.textContent?.match(/\d+/)?.[0] ||
+                                      (sectionIndex + 1).toString();
+
+                    const deptElement = section.querySelector('Department DeptName, Department Index');
+                    const agency = deptElement?.textContent?.trim() || 'Unknown Agency';
+
+                    // Get total appropriation
+                    const totalAppropElement = section.querySelector('AppropriationTotal DollarAmount');
+                    const totalAppropriation = totalAppropElement?.textContent?.trim() || '';
+
+                    // Find the "conditions and limitations" paragraph
+                    const allPs = section.querySelectorAll('P');
+                    let startCollecting = false;
+                    let provisoNumber = 0;
+
+                    allPs.forEach((p, pIndex) => {
+                        const text = this.getTextContent(p);
+
+                        // Check if this is the start of provisos section
+                        if (text.includes('subject to the following conditions and limitations')) {
+                            startCollecting = true;
+                            return;
+                        }
+
+                        // Collect proviso paragraphs
+                        if (startCollecting && text.trim()) {
+                            // Skip if it's a veto note or other metadata
+                            if (text.includes('was partially vetoed') ||
+                                text.includes('See message at end')) {
+                                return;
+                            }
+
+                            provisoNumber++;
+                            const categories = this.categorize(text);
+                            const amounts = this.extractAmount(text);
+                            const mentionedAgencies = this.extractAgencies(text);
+
+                            provisos.push({
+                                id: `sec${sectionNum}-p${provisoNumber}`,
+                                sectionNumber: sectionNum,
+                                agency: agency,
+                                provisoNumber: provisoNumber,
+                                text: text,
+                                categories: categories,
+                                amounts: amounts,
+                                totalAppropriation: totalAppropriation,
+                                mentionedAgencies: mentionedAgencies
+                            });
+                        }
+                    });
+                });
+
+                return provisos;
+            }
+
+            getTextContent(element) {
+                // Recursively get all text content, preserving structure
+                let text = '';
+                element.childNodes.forEach(node => {
+                    if (node.nodeType === Node.TEXT_NODE) {
+                        text += node.textContent;
+                    } else if (node.nodeType === Node.ELEMENT_NODE) {
+                        text += this.getTextContent(node);
+                    }
+                });
+                return text.trim();
+            }
+        }
+
+        // XML Uploader Component
+        class XMLUploader extends HTMLElement {
+            constructor() {
+                super();
+                this.parser = new ProvisoParser();
+            }
+
+            connectedCallback() {
+                this.render();
+                this.attachEventListeners();
+            }
+
+            render() {
+                this.innerHTML = `
+                    <div class="card">
+                        <h2>1. Paste Budget Bill XML</h2>
+                        <textarea
+                            id="xml-input"
+                            placeholder="Paste your budget bill XML here..."
+                        ></textarea>
+                        <div style="margin-top: 1rem; display: flex; gap: 1rem; align-items: center;">
+                            <button id="parse-btn">Parse Provisos</button>
+                            <span id="parse-status"></span>
+                        </div>
+                    </div>
+                `;
+            }
+
+            attachEventListeners() {
+                const parseBtn = this.querySelector('#parse-btn');
+                const xmlInput = this.querySelector('#xml-input');
+                const status = this.querySelector('#parse-status');
+
+                parseBtn.addEventListener('click', () => {
+                    const xmlContent = xmlInput.value.trim();
+
+                    if (!xmlContent) {
+                        status.textContent = 'Please paste XML content first';
+                        status.style.color = '#dc2626';
+                        return;
+                    }
+
+                    try {
+                        status.innerHTML = '<span class="loading"></span> Parsing...';
+                        status.style.color = '#6b7280';
+
+                        setTimeout(() => {
+                            try {
+                                const provisos = this.parser.parseXML(xmlContent);
+                                store.setProvisos(provisos);
+
+                                status.textContent = `Successfully parsed ${provisos.length} provisos!`;
+                                status.style.color = '#16a34a';
+                            } catch (error) {
+                                status.textContent = `Error: ${error.message}`;
+                                status.style.color = '#dc2626';
+                            }
+                        }, 100);
+                    } catch (error) {
+                        status.textContent = `Error: ${error.message}`;
+                        status.style.color = '#dc2626';
+                    }
+                });
+            }
+        }
+
+        // Proviso Search Component
+        class ProvisoSearch extends HTMLElement {
+            constructor() {
+                super();
+                this.unsubscribe = null;
+            }
+
+            connectedCallback() {
+                this.render();
+                this.unsubscribe = store.subscribe(() => this.update());
+            }
+
+            disconnectedCallback() {
+                if (this.unsubscribe) this.unsubscribe();
+            }
+
+            render() {
+                this.innerHTML = `
+                    <div class="card hidden" id="search-container">
+                        <h2>2. Search and Filter Provisos</h2>
+
+                        <div class="search-box">
+                            <input
+                                type="text"
+                                id="search-input"
+                                placeholder="Search across all proviso text and agencies..."
+                            >
+                            <span class="search-icon">🔍</span>
+                        </div>
+
+                        <div class="filters">
+                            <div class="filter-group">
+                                <label for="agency-filter">Agency</label>
+                                <select id="agency-filter">
+                                    <option value="">All Agencies</option>
+                                </select>
+                            </div>
+                            <div class="filter-group">
+                                <label for="category-filter">Category</label>
+                                <select id="category-filter">
+                                    <option value="">All Categories</option>
+                                </select>
+                            </div>
+                            <div class="filter-group">
+                                <label for="keyword-filter">Keyword</label>
+                                <input type="text" id="keyword-filter" placeholder="Filter by keyword...">
+                            </div>
+                        </div>
+
+                        <div style="margin-top: 1rem;">
+                            <button class="clear-filters" id="clear-filters-btn">Clear All Filters</button>
+                        </div>
+
+                        <div class="stats" id="stats"></div>
+                    </div>
+
+                    <div class="card hidden" id="results-container">
+                        <h2>Results</h2>
+                        <div id="results-list"></div>
+                    </div>
+                `;
+
+                this.attachEventListeners();
+            }
+
+            attachEventListeners() {
+                const searchInput = this.querySelector('#search-input');
+                const agencyFilter = this.querySelector('#agency-filter');
+                const categoryFilter = this.querySelector('#category-filter');
+                const keywordFilter = this.querySelector('#keyword-filter');
+                const clearBtn = this.querySelector('#clear-filters-btn');
+
+                searchInput.addEventListener('input', (e) => {
+                    store.setFilters({ search: e.target.value });
+                });
+
+                agencyFilter.addEventListener('change', (e) => {
+                    store.setFilters({ agency: e.target.value });
+                });
+
+                categoryFilter.addEventListener('change', (e) => {
+                    store.setFilters({ category: e.target.value });
+                });
+
+                keywordFilter.addEventListener('input', (e) => {
+                    store.setFilters({ keyword: e.target.value });
+                });
+
+                clearBtn.addEventListener('click', () => {
+                    store.clearFilters();
+                    searchInput.value = '';
+                    agencyFilter.value = '';
+                    categoryFilter.value = '';
+                    keywordFilter.value = '';
+                });
+            }
+
+            update() {
+                const state = store.getState();
+                const searchContainer = this.querySelector('#search-container');
+                const resultsContainer = this.querySelector('#results-container');
+
+                if (state.provisos.length === 0) {
+                    searchContainer.classList.add('hidden');
+                    resultsContainer.classList.add('hidden');
+                    return;
+                }
+
+                searchContainer.classList.remove('hidden');
+                resultsContainer.classList.remove('hidden');
+
+                this.updateFilters(state.provisos);
+                this.updateStats(state);
+                this.updateResults(state.filteredProvisos, state.filters.search);
+            }
+
+            updateFilters(provisos) {
+                // Update agency filter
+                const agencies = [...new Set(provisos.map(p => p.agency))].sort();
+                const agencyFilter = this.querySelector('#agency-filter');
+                const currentAgency = agencyFilter.value;
+
+                agencyFilter.innerHTML = '<option value="">All Agencies</option>' +
+                    agencies.map(a => `<option value="${a}">${a}</option>`).join('');
+                agencyFilter.value = currentAgency;
+
+                // Update category filter
+                const categories = [...new Set(provisos.flatMap(p => p.categories))].sort();
+                const categoryFilter = this.querySelector('#category-filter');
+                const currentCategory = categoryFilter.value;
+
+                categoryFilter.innerHTML = '<option value="">All Categories</option>' +
+                    categories.map(c => `<option value="${c}">${c}</option>`).join('');
+                categoryFilter.value = currentCategory;
+            }
+
+            updateStats(state) {
+                const stats = this.querySelector('#stats');
+                const totalProvisos = state.provisos.length;
+                const filteredCount = state.filteredProvisos.length;
+                const agencies = new Set(state.filteredProvisos.map(p => p.agency)).size;
+                const categories = new Set(state.filteredProvisos.flatMap(p => p.categories)).size;
+
+                stats.innerHTML = `
+                    <div class="stat">
+                        <div class="stat-value">${filteredCount}</div>
+                        <div class="stat-label">Provisos (of ${totalProvisos} total)</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-value">${agencies}</div>
+                        <div class="stat-label">Agencies</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-value">${categories}</div>
+                        <div class="stat-label">Categories</div>
+                    </div>
+                `;
+            }
+
+            updateResults(provisos, searchTerm) {
+                const resultsList = this.querySelector('#results-list');
+
+                if (provisos.length === 0) {
+                    resultsList.innerHTML = `
+                        <div class="empty-state">
+                            <div class="empty-state-icon">🔍</div>
+                            <div>No provisos match your search criteria</div>
+                        </div>
+                    `;
+                    return;
+                }
+
+                resultsList.innerHTML = provisos.map(proviso => {
+                    const highlightedText = this.highlightText(proviso.text, searchTerm);
+
+                    return `
+                        <div class="proviso-item">
+                            <div class="proviso-header">
+                                <div class="proviso-meta">
+                                    <span class="badge badge-section">Section ${proviso.sectionNumber}</span>
+                                    <span class="badge badge-agency">${this.truncate(proviso.agency, 40)}</span>
+                                    ${proviso.amounts ? `<span class="badge badge-amount">${proviso.amounts}</span>` : ''}
+                                </div>
+                            </div>
+
+                            <div class="proviso-text">${highlightedText}</div>
+
+                            ${proviso.categories.length > 0 ? `
+                                <div style="margin-bottom: 0.75rem;">
+                                    ${proviso.categories.map(cat =>
+                                        `<span class="badge badge-category">${cat}</span>`
+                                    ).join(' ')}
+                                </div>
+                            ` : ''}
+
+                            <div class="proviso-context">
+                                <strong>Section ${proviso.sectionNumber}:</strong> ${proviso.agency}
+                                ${proviso.totalAppropriation ? ` | Total Appropriation: ${proviso.totalAppropriation}` : ''}
+                                ${proviso.mentionedAgencies.length > 0 ? ` | Mentions: ${proviso.mentionedAgencies.join(', ')}` : ''}
+                            </div>
+                        </div>
+                    `;
+                }).join('');
+            }
+
+            highlightText(text, searchTerm) {
+                if (!searchTerm || searchTerm.trim() === '') {
+                    return this.escapeHtml(text);
+                }
+
+                const escaped = this.escapeHtml(text);
+                const regex = new RegExp(`(${this.escapeRegex(searchTerm)})`, 'gi');
+                return escaped.replace(regex, '<span class="highlight">$1</span>');
+            }
+
+            escapeHtml(text) {
+                const div = document.createElement('div');
+                div.textContent = text;
+                return div.innerHTML;
+            }
+
+            escapeRegex(string) {
+                return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+            }
+
+            truncate(str, maxLength) {
+                return str.length > maxLength ? str.substring(0, maxLength) + '...' : str;
+            }
+        }
+
+        // Register custom elements
+        customElements.define('xml-uploader', XMLUploader);
+        customElements.define('proviso-search', ProvisoSearch);
+    </script>
+</body>
+</html>

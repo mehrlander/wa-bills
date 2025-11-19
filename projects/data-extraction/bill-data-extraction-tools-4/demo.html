@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WA Bill HB 5950-S - Data Query Demo</title>
+
+  <!-- Load Lodash from CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
+
+  <!-- Load Chart.js for visualizations -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+
+  <!-- Tailwind CSS for styling -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+    .query-result {
+      max-height: 400px;
+      overflow-y: auto;
+    }
+    .code-block {
+      background: #1e293b;
+      color: #e2e8f0;
+      padding: 1rem;
+      border-radius: 0.5rem;
+      overflow-x: auto;
+      font-family: 'Courier New', monospace;
+      font-size: 0.875rem;
+    }
+  </style>
+</head>
+<body class="bg-gray-50">
+
+<div class="container mx-auto px-4 py-8 max-w-7xl">
+  <!-- Header -->
+  <header class="mb-8">
+    <h1 class="text-4xl font-bold text-gray-900 mb-2">Washington State Bill Data Explorer</h1>
+    <h2 class="text-xl text-gray-600">HB 5950-S: 2023-2025 Supplemental Operating Budget</h2>
+    <p class="text-sm text-gray-500 mt-2">Interactive demo of querying structured bill data using JavaScript and Lodash</p>
+  </header>
+
+  <!-- Loading State -->
+  <div id="loading" class="text-center py-12">
+    <div class="inline-block animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600"></div>
+    <p class="mt-4 text-gray-600">Loading bill data...</p>
+  </div>
+
+  <!-- Main Content (hidden until loaded) -->
+  <div id="content" class="hidden">
+
+    <!-- Summary Cards -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
+      <div class="bg-white rounded-lg shadow p-6">
+        <div class="text-sm text-gray-600 mb-1">Total Appropriations</div>
+        <div id="total-approp" class="text-2xl font-bold text-blue-600">-</div>
+      </div>
+      <div class="bg-white rounded-lg shadow p-6">
+        <div class="text-sm text-gray-600 mb-1">Agencies</div>
+        <div id="total-agencies" class="text-2xl font-bold text-green-600">-</div>
+      </div>
+      <div class="bg-white rounded-lg shadow p-6">
+        <div class="text-sm text-gray-600 mb-1">Appropriations</div>
+        <div id="total-items" class="text-2xl font-bold text-purple-600">-</div>
+      </div>
+      <div class="bg-white rounded-lg shadow p-6">
+        <div class="text-sm text-gray-600 mb-1">Bill Sections</div>
+        <div id="total-sections" class="text-2xl font-bold text-orange-600">-</div>
+      </div>
+    </div>
+
+    <!-- Query Examples Tabs -->
+    <div class="bg-white rounded-lg shadow mb-8">
+      <div class="border-b border-gray-200">
+        <nav class="flex -mb-px">
+          <button onclick="showTab('top-agencies')" class="tab-button px-6 py-3 border-b-2 border-blue-600 text-blue-600 font-medium">
+            Top Agencies
+          </button>
+          <button onclick="showTab('search')" class="tab-button px-6 py-3 border-b-2 border-transparent text-gray-500 hover:text-gray-700 font-medium">
+            Search
+          </button>
+          <button onclick="showTab('fiscal-year')" class="tab-button px-6 py-3 border-b-2 border-transparent text-gray-500 hover:text-gray-700 font-medium">
+            By Fiscal Year
+          </button>
+          <button onclick="showTab('conditions')" class="tab-button px-6 py-3 border-b-2 border-transparent text-gray-500 hover:text-gray-700 font-medium">
+            Conditions
+          </button>
+          <button onclick="showTab('custom')" class="tab-button px-6 py-3 border-b-2 border-transparent text-gray-500 hover:text-gray-700 font-medium">
+            Custom Query
+          </button>
+        </nav>
+      </div>
+
+      <div class="p-6">
+        <!-- Top Agencies Tab -->
+        <div id="tab-top-agencies" class="tab-content">
+          <h3 class="text-lg font-semibold mb-4">Top 15 Agencies by Total Appropriations</h3>
+
+          <div class="mb-4">
+            <label class="block text-sm font-medium text-gray-700 mb-2">Code:</label>
+            <pre class="code-block">const topAgencies = _.chain(billData.fiscalImpacts.byAgency)
+  .toPairs()
+  .orderBy([1], ['desc'])
+  .take(15)
+  .map(([name, amount]) => ({ name, amount }))
+  .value();</pre>
+          </div>
+
+          <div class="mb-4">
+            <canvas id="chart-top-agencies"></canvas>
+          </div>
+
+          <div class="query-result">
+            <table class="min-w-full divide-y divide-gray-200">
+              <thead class="bg-gray-50">
+                <tr>
+                  <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">Rank</th>
+                  <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">Agency</th>
+                  <th class="px-6 py-3 text-right text-xs font-medium text-gray-500 uppercase">Amount</th>
+                </tr>
+              </thead>
+              <tbody id="result-top-agencies" class="bg-white divide-y divide-gray-200">
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- Search Tab -->
+        <div id="tab-search" class="tab-content hidden">
+          <h3 class="text-lg font-semibold mb-4">Search Appropriations</h3>
+
+          <div class="mb-4">
+            <label class="block text-sm font-medium text-gray-700 mb-2">Search Agency Name:</label>
+            <input
+              type="text"
+              id="search-input"
+              placeholder="e.g., HEALTH, EDUCATION, TRANSPORTATION"
+              class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500"
+              oninput="performSearch()"
+            />
+          </div>
+
+          <div class="mb-4">
+            <label class="block text-sm font-medium text-gray-700 mb-2">Code:</label>
+            <pre class="code-block">const results = _.filter(billData.appropriations, approp =>
+  approp.agency && approp.agency.toUpperCase().includes(searchText.toUpperCase())
+);</pre>
+          </div>
+
+          <div id="search-summary" class="mb-4 p-4 bg-blue-50 rounded-md hidden">
+            <div class="text-sm font-medium text-blue-900">Found <span id="search-count">0</span> appropriations</div>
+            <div class="text-sm text-blue-700">Total: <span id="search-total">$0</span></div>
+          </div>
+
+          <div class="query-result">
+            <table class="min-w-full divide-y divide-gray-200">
+              <thead class="bg-gray-50">
+                <tr>
+                  <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">Section</th>
+                  <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">Agency</th>
+                  <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">Account</th>
+                  <th class="px-6 py-3 text-right text-xs font-medium text-gray-500 uppercase">Amount</th>
+                </tr>
+              </thead>
+              <tbody id="result-search" class="bg-white divide-y divide-gray-200">
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- Fiscal Year Tab -->
+        <div id="tab-fiscal-year" class="tab-content hidden">
+          <h3 class="text-lg font-semibold mb-4">Appropriations by Fiscal Year</h3>
+
+          <div class="mb-4">
+            <label class="block text-sm font-medium text-gray-700 mb-2">Code:</label>
+            <pre class="code-block">const byYear = _.groupBy(
+  billData.appropriations.filter(a => a.fiscalYear),
+  'fiscalYear'
+);</pre>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+            <div class="p-4 bg-blue-50 rounded-lg">
+              <div class="text-sm text-gray-600">FY 2024 Appropriations</div>
+              <div id="fy2024-count" class="text-2xl font-bold text-blue-600">-</div>
+              <div id="fy2024-total" class="text-sm text-gray-600">-</div>
+            </div>
+            <div class="p-4 bg-green-50 rounded-lg">
+              <div class="text-sm text-gray-600">FY 2025 Appropriations</div>
+              <div id="fy2025-count" class="text-2xl font-bold text-green-600">-</div>
+              <div id="fy2025-total" class="text-sm text-gray-600">-</div>
+            </div>
+          </div>
+
+          <div class="mb-4">
+            <canvas id="chart-fiscal-year"></canvas>
+          </div>
+        </div>
+
+        <!-- Conditions Tab -->
+        <div id="tab-conditions" class="tab-content hidden">
+          <h3 class="text-lg font-semibold mb-4">"Provided Solely" Conditions</h3>
+
+          <div class="mb-4">
+            <label class="block text-sm font-medium text-gray-700 mb-2">Code:</label>
+            <pre class="code-block">const providedSolely = _.filter(
+  billData.conditionsAndLimitations,
+  { hasProvidedSolely: true }
+);</pre>
+          </div>
+
+          <div class="mb-4 p-4 bg-yellow-50 rounded-md">
+            <div class="text-sm font-medium text-yellow-900">
+              Found <span id="conditions-count">0</span> conditions with "provided solely" language
+            </div>
+          </div>
+
+          <div class="query-result">
+            <div id="result-conditions" class="space-y-4">
+            </div>
+          </div>
+        </div>
+
+        <!-- Custom Query Tab -->
+        <div id="tab-custom" class="tab-content hidden">
+          <h3 class="text-lg font-semibold mb-4">Custom Query Console</h3>
+
+          <div class="mb-4">
+            <label class="block text-sm font-medium text-gray-700 mb-2">
+              Enter JavaScript code (use <code class="bg-gray-100 px-1 rounded">billData</code> and <code class="bg-gray-100 px-1 rounded">_</code> for Lodash):
+            </label>
+            <textarea
+              id="custom-query"
+              rows="6"
+              class="w-full px-4 py-2 border border-gray-300 rounded-md font-mono text-sm focus:ring-blue-500 focus:border-blue-500"
+              placeholder="// Example: Find all appropriations over $1 billion
+_.filter(billData.appropriations, a => a.amount > 1000000000)"
+            ></textarea>
+          </div>
+
+          <button
+            onclick="runCustomQuery()"
+            class="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
+          >
+            Run Query
+          </button>
+
+          <div id="custom-result" class="mt-4 hidden">
+            <label class="block text-sm font-medium text-gray-700 mb-2">Result:</label>
+            <pre id="custom-output" class="code-block"></pre>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bill Metadata -->
+    <div class="bg-white rounded-lg shadow p-6 mb-8">
+      <h3 class="text-lg font-semibold mb-4">Bill Metadata</h3>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div>
+          <div class="text-sm text-gray-600">Bill ID</div>
+          <div id="meta-billId" class="font-medium">-</div>
+        </div>
+        <div>
+          <div class="text-sm text-gray-600">Session</div>
+          <div id="meta-session" class="font-medium">-</div>
+        </div>
+        <div class="md:col-span-2">
+          <div class="text-sm text-gray-600">Sponsors</div>
+          <div id="meta-sponsors" class="font-medium">-</div>
+        </div>
+        <div class="md:col-span-2">
+          <div class="text-sm text-gray-600">Description</div>
+          <div id="meta-description" class="font-medium">-</div>
+        </div>
+        <div>
+          <div class="text-sm text-gray-600">Effective Date</div>
+          <div id="meta-effectiveDate" class="font-medium">-</div>
+        </div>
+        <div>
+          <div class="text-sm text-gray-600">Bill Type</div>
+          <div id="meta-billType" class="font-medium">-</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  let billData = null;
+  let charts = {};
+
+  // Load the JSON data
+  fetch('hb-5950-s-data.json')
+    .then(response => response.json())
+    .then(data => {
+      billData = data.billData;
+      initializePage();
+    })
+    .catch(error => {
+      document.getElementById('loading').innerHTML =
+        '<div class="text-red-600">Error loading data: ' + error.message + '</div>';
+    });
+
+  function initializePage() {
+    document.getElementById('loading').classList.add('hidden');
+    document.getElementById('content').classList.remove('hidden');
+
+    // Populate summary cards
+    document.getElementById('total-approp').textContent =
+      '$' + (billData.fiscalImpacts.totalAppropriations / 1000000000).toFixed(2) + 'B';
+    document.getElementById('total-agencies').textContent = billData.agencies.length;
+    document.getElementById('total-items').textContent = billData.appropriations.length;
+
+    // Count unique sections
+    const sections = new Set(billData.appropriations.map(a => a.section).filter(Boolean));
+    document.getElementById('total-sections').textContent = sections.size;
+
+    // Populate metadata
+    document.getElementById('meta-billId').textContent = billData.metadata.billId || '-';
+    document.getElementById('meta-session').textContent = billData.metadata.session || '-';
+    document.getElementById('meta-sponsors').textContent = billData.metadata.sponsors || '-';
+    document.getElementById('meta-description').textContent = billData.metadata.briefDescription || '-';
+    document.getElementById('meta-effectiveDate').textContent = billData.metadata.effectiveDate || '-';
+    document.getElementById('meta-billType').textContent = billData.billType.description || '-';
+
+    // Initialize first tab
+    showTab('top-agencies');
+  }
+
+  function showTab(tabName) {
+    // Hide all tabs
+    document.querySelectorAll('.tab-content').forEach(el => el.classList.add('hidden'));
+
+    // Remove active state from all buttons
+    document.querySelectorAll('.tab-button').forEach(btn => {
+      btn.classList.remove('border-blue-600', 'text-blue-600');
+      btn.classList.add('border-transparent', 'text-gray-500');
+    });
+
+    // Show selected tab
+    document.getElementById('tab-' + tabName).classList.remove('hidden');
+
+    // Set active button
+    event.target.classList.remove('border-transparent', 'text-gray-500');
+    event.target.classList.add('border-blue-600', 'text-blue-600');
+
+    // Load tab data
+    switch(tabName) {
+      case 'top-agencies':
+        loadTopAgencies();
+        break;
+      case 'fiscal-year':
+        loadFiscalYear();
+        break;
+      case 'conditions':
+        loadConditions();
+        break;
+    }
+  }
+
+  function loadTopAgencies() {
+    const topAgencies = _.chain(billData.fiscalImpacts.byAgency)
+      .toPairs()
+      .orderBy([1], ['desc'])
+      .take(15)
+      .map(([name, amount]) => ({ name, amount }))
+      .value();
+
+    // Populate table
+    const tbody = document.getElementById('result-top-agencies');
+    tbody.innerHTML = topAgencies.map((agency, index) => `
+      <tr>
+        <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">${index + 1}</td>
+        <td class="px-6 py-4 text-sm text-gray-900">${agency.name}</td>
+        <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900 text-right font-medium">
+          $${(agency.amount / 1000000).toFixed(1)}M
+        </td>
+      </tr>
+    `).join('');
+
+    // Create chart
+    if (charts.topAgencies) {
+      charts.topAgencies.destroy();
+    }
+
+    const ctx = document.getElementById('chart-top-agencies');
+    charts.topAgencies = new Chart(ctx, {
+      type: 'bar',
+      data: {
+        labels: topAgencies.map(a => a.name.substring(0, 30)),
+        datasets: [{
+          label: 'Appropriations ($M)',
+          data: topAgencies.map(a => a.amount / 1000000),
+          backgroundColor: 'rgba(59, 130, 246, 0.5)',
+          borderColor: 'rgba(59, 130, 246, 1)',
+          borderWidth: 1
+        }]
+      },
+      options: {
+        indexAxis: 'y',
+        responsive: true,
+        plugins: {
+          legend: { display: false }
+        },
+        scales: {
+          x: {
+            title: {
+              display: true,
+              text: 'Amount (Millions $)'
+            }
+          }
+        }
+      }
+    });
+  }
+
+  function performSearch() {
+    const searchText = document.getElementById('search-input').value;
+
+    if (!searchText) {
+      document.getElementById('result-search').innerHTML = '';
+      document.getElementById('search-summary').classList.add('hidden');
+      return;
+    }
+
+    const results = _.filter(billData.appropriations, approp =>
+      approp.agency && approp.agency.toUpperCase().includes(searchText.toUpperCase())
+    );
+
+    // Show summary
+    document.getElementById('search-summary').classList.remove('hidden');
+    document.getElementById('search-count').textContent = results.length;
+
+    const total = _.sumBy(results, 'amount');
+    document.getElementById('search-total').textContent =
+      '$' + (total / 1000000).toFixed(1) + 'M';
+
+    // Populate table
+    const tbody = document.getElementById('result-search');
+    if (results.length === 0) {
+      tbody.innerHTML = '<tr><td colspan="4" class="px-6 py-4 text-center text-gray-500">No results found</td></tr>';
+    } else {
+      tbody.innerHTML = results.slice(0, 50).map(approp => `
+        <tr>
+          <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">${approp.section || '-'}</td>
+          <td class="px-6 py-4 text-sm text-gray-900">${approp.agency || '-'}</td>
+          <td class="px-6 py-4 text-sm text-gray-500">${approp.accountName || '-'}</td>
+          <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900 text-right font-medium">
+            ${approp.amountFormatted}
+          </td>
+        </tr>
+      `).join('');
+
+      if (results.length > 50) {
+        tbody.innerHTML += `<tr><td colspan="4" class="px-6 py-4 text-center text-gray-500">
+          Showing first 50 of ${results.length} results
+        </td></tr>`;
+      }
+    }
+  }
+
+  function loadFiscalYear() {
+    const byYear = _.groupBy(
+      billData.appropriations.filter(a => a.fiscalYear),
+      'fiscalYear'
+    );
+
+    const fy2024 = byYear[2024] || [];
+    const fy2025 = byYear[2025] || [];
+
+    const fy2024Total = _.sumBy(fy2024, 'amount');
+    const fy2025Total = _.sumBy(fy2025, 'amount');
+
+    document.getElementById('fy2024-count').textContent = fy2024.length;
+    document.getElementById('fy2024-total').textContent =
+      '$' + (fy2024Total / 1000000000).toFixed(2) + 'B';
+
+    document.getElementById('fy2025-count').textContent = fy2025.length;
+    document.getElementById('fy2025-total').textContent =
+      '$' + (fy2025Total / 1000000000).toFixed(2) + 'B';
+
+    // Create chart
+    if (charts.fiscalYear) {
+      charts.fiscalYear.destroy();
+    }
+
+    const ctx = document.getElementById('chart-fiscal-year');
+    charts.fiscalYear = new Chart(ctx, {
+      type: 'doughnut',
+      data: {
+        labels: ['FY 2024', 'FY 2025'],
+        datasets: [{
+          data: [fy2024Total / 1000000000, fy2025Total / 1000000000],
+          backgroundColor: [
+            'rgba(59, 130, 246, 0.5)',
+            'rgba(16, 185, 129, 0.5)'
+          ],
+          borderColor: [
+            'rgba(59, 130, 246, 1)',
+            'rgba(16, 185, 129, 1)'
+          ],
+          borderWidth: 1
+        }]
+      },
+      options: {
+        responsive: true,
+        plugins: {
+          legend: {
+            position: 'bottom'
+          },
+          title: {
+            display: true,
+            text: 'Total Appropriations by Fiscal Year (Billions $)'
+          }
+        }
+      }
+    });
+  }
+
+  function loadConditions() {
+    const providedSolely = _.filter(
+      billData.conditionsAndLimitations,
+      { hasProvidedSolely: true }
+    );
+
+    document.getElementById('conditions-count').textContent = providedSolely.length;
+
+    const container = document.getElementById('result-conditions');
+    container.innerHTML = providedSolely.slice(0, 20).map(condition => `
+      <div class="p-4 bg-gray-50 rounded-md">
+        <div class="text-xs text-gray-500 mb-2">Section ${condition.section}</div>
+        <div class="text-sm text-gray-700">${condition.text.substring(0, 500)}${condition.text.length > 500 ? '...' : ''}</div>
+      </div>
+    `).join('');
+
+    if (providedSolely.length > 20) {
+      container.innerHTML += `
+        <div class="p-4 text-center text-gray-500">
+          Showing first 20 of ${providedSolely.length} conditions
+        </div>
+      `;
+    }
+  }
+
+  function runCustomQuery() {
+    const query = document.getElementById('custom-query').value;
+    const resultDiv = document.getElementById('custom-result');
+    const outputPre = document.getElementById('custom-output');
+
+    try {
+      const result = eval(query);
+      outputPre.textContent = JSON.stringify(result, null, 2);
+      resultDiv.classList.remove('hidden');
+    } catch (error) {
+      outputPre.textContent = 'Error: ' + error.message;
+      resultDiv.classList.remove('hidden');
+    }
+  }
+</script>
+
+</body>
+</html>

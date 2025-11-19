@@ -1,0 +1,363 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://example.com/wa-bill-schema.json",
+  "title": "Washington State Bill Data Schema",
+  "description": "Schema for structured data extracted from Washington State legislative bills",
+  "type": "object",
+  "required": ["format", "metadata", "sections"],
+  "properties": {
+    "format": {
+      "type": "string",
+      "description": "Source format of the bill",
+      "enum": ["xml", "html"]
+    },
+    "metadata": {
+      "type": "object",
+      "description": "Bill metadata and identification information",
+      "properties": {
+        "shortId": {
+          "type": "string",
+          "description": "Short bill identifier (e.g., '2SHB 1210.SL')",
+          "example": "2SHB 1210.SL"
+        },
+        "longId": {
+          "type": "string",
+          "description": "Long bill identifier",
+          "example": "SECOND SUBSTITUTE HOUSE BILL 1210"
+        },
+        "legislature": {
+          "type": "string",
+          "description": "Legislature number (e.g., '67th Legislature')",
+          "example": "67th Legislature"
+        },
+        "session": {
+          "type": "string",
+          "description": "Legislative session",
+          "example": "2022 Regular Session"
+        },
+        "sponsors": {
+          "type": "string",
+          "description": "Bill sponsors and co-sponsors"
+        },
+        "briefDescription": {
+          "type": "string",
+          "description": "Brief description of the bill's purpose"
+        },
+        "billTitle": {
+          "type": "string",
+          "description": "Full bill title including 'AN ACT Relating to...'"
+        }
+      }
+    },
+    "enrollingInfo": {
+      "type": "object",
+      "description": "Bill passage and enrollment information",
+      "properties": {
+        "chapterLaw": {
+          "type": "string",
+          "description": "Chapter number in session laws"
+        },
+        "year": {
+          "type": "string",
+          "description": "Year enacted into law"
+        },
+        "sessionLawCaption": {
+          "type": "string",
+          "description": "Session law caption"
+        },
+        "house": {
+          "type": "object",
+          "description": "House passage information",
+          "properties": {
+            "chamber": {
+              "type": "string",
+              "const": "House"
+            },
+            "passedDate": {
+              "type": "string",
+              "description": "Date passed by the House"
+            },
+            "yeas": {
+              "type": "integer",
+              "description": "Number of yes votes"
+            },
+            "nays": {
+              "type": "integer",
+              "description": "Number of no votes"
+            },
+            "signer": {
+              "type": "string",
+              "description": "Speaker of the House"
+            }
+          }
+        },
+        "senate": {
+          "type": "object",
+          "description": "Senate passage information",
+          "properties": {
+            "chamber": {
+              "type": "string",
+              "const": "Senate"
+            },
+            "passedDate": {
+              "type": "string",
+              "description": "Date passed by the Senate"
+            },
+            "yeas": {
+              "type": "integer",
+              "description": "Number of yes votes"
+            },
+            "nays": {
+              "type": "integer",
+              "description": "Number of no votes"
+            },
+            "signer": {
+              "type": "string",
+              "description": "President of the Senate"
+            }
+          }
+        },
+        "approvedDate": {
+          "type": "string",
+          "description": "Date approved by Governor"
+        },
+        "filedDate": {
+          "type": "string",
+          "description": "Date filed with Secretary of State"
+        },
+        "governor": {
+          "type": "string",
+          "description": "Governor who signed the bill"
+        }
+      }
+    },
+    "sections": {
+      "type": "array",
+      "description": "Individual sections of the bill",
+      "items": {
+        "type": "object",
+        "properties": {
+          "number": {
+            "type": "string",
+            "description": "Section number"
+          },
+          "type": {
+            "type": "string",
+            "description": "Section type",
+            "enum": ["new", "amendatory", "repealer", "remd"]
+          },
+          "action": {
+            "type": "string",
+            "description": "Action taken",
+            "enum": ["", "amend", "remd", "repeal"]
+          },
+          "rcw": {
+            "type": ["object", "null"],
+            "description": "RCW section being amended",
+            "properties": {
+              "title": {
+                "type": "string",
+                "description": "RCW Title number"
+              },
+              "chapter": {
+                "type": "string",
+                "description": "RCW Chapter number"
+              },
+              "section": {
+                "type": "string",
+                "description": "RCW Section number"
+              },
+              "full": {
+                "type": "string",
+                "description": "Full RCW citation (Title.Chapter.Section)"
+              }
+            }
+          },
+          "caption": {
+            "type": "string",
+            "description": "Section caption/title"
+          },
+          "amendments": {
+            "type": "object",
+            "description": "Text amendments (strike/add)",
+            "properties": {
+              "strikes": {
+                "type": "array",
+                "description": "Text being removed",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "additions": {
+                "type": "array",
+                "description": "Text being added",
+                "items": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "statutoryReferences": {
+      "type": "array",
+      "description": "All RCW sections referenced in the bill",
+      "items": {
+        "type": "string",
+        "pattern": "^\\d+[A-Z]?\\.\\d+[A-Z]?\\.\\d+$"
+      }
+    },
+    "effectiveDates": {
+      "type": "array",
+      "description": "Effective dates for the bill or specific sections",
+      "items": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "string",
+            "enum": ["primary", "specific"]
+          },
+          "date": {
+            "type": "string",
+            "description": "Effective date or description"
+          },
+          "sections": {
+            "oneOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            ],
+            "description": "Sections affected by this date"
+          }
+        }
+      }
+    },
+    "fiscalInfo": {
+      "type": "object",
+      "description": "Fiscal impact information",
+      "properties": {
+        "hasFiscalImpact": {
+          "type": "boolean",
+          "description": "Whether the bill has fiscal impact"
+        },
+        "billType": {
+          "type": "string",
+          "description": "Classification of bill type"
+        },
+        "appropriations": {
+          "type": "array",
+          "description": "Appropriations made by the bill",
+          "items": {
+            "type": "object",
+            "properties": {
+              "amount": {
+                "type": "number"
+              },
+              "recipient": {
+                "type": "string"
+              },
+              "account": {
+                "type": "string"
+              },
+              "purpose": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "fundTransfers": {
+          "type": "array",
+          "description": "Fund transfers specified in the bill",
+          "items": {
+            "type": "object"
+          }
+        },
+        "fiscalNotes": {
+          "type": "array",
+          "description": "Fiscal notes attached to the bill",
+          "items": {
+            "type": "object"
+          }
+        },
+        "description": {
+          "type": "string",
+          "description": "Description of fiscal impact"
+        }
+      }
+    },
+    "agencies": {
+      "type": "array",
+      "description": "Government agencies mentioned in the bill",
+      "items": {
+        "type": "string"
+      }
+    },
+    "amendments": {
+      "type": "object",
+      "description": "Summary of amendments made",
+      "properties": {
+        "totalStrikes": {
+          "type": "integer",
+          "description": "Total number of text deletions"
+        },
+        "totalAdditions": {
+          "type": "integer",
+          "description": "Total number of text additions"
+        },
+        "primaryChanges": {
+          "type": "array",
+          "description": "Main terminology or substantive changes",
+          "items": {
+            "type": "object",
+            "properties": {
+              "from": {
+                "type": "string"
+              },
+              "to": {
+                "type": "string"
+              },
+              "occurrences": {
+                "type": "integer"
+              }
+            }
+          }
+        }
+      }
+    },
+    "statistics": {
+      "type": "object",
+      "description": "Bill statistics",
+      "properties": {
+        "totalSections": {
+          "type": "integer",
+          "description": "Total number of sections"
+        },
+        "sectionsByType": {
+          "type": "object",
+          "description": "Count of sections by type",
+          "additionalProperties": {
+            "type": "integer"
+          }
+        },
+        "rcwTitlesAffected": {
+          "type": "array",
+          "description": "RCW titles affected by the bill",
+          "items": {
+            "type": "string"
+          }
+        },
+        "totalRCWsAmended": {
+          "type": "integer",
+          "description": "Total number of RCW sections amended"
+        }
+      }
+    }
+  }
+}

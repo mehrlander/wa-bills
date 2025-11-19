@@ -1,0 +1,58 @@
+{
+  "description": "Configuration for downloading WA State Legislative Bills",
+  "bills": [
+    {
+      "biennium": "2023-24",
+      "chamber": "House",
+      "number": "1050",
+      "format": "Pdf",
+      "type": "Bills",
+      "category": "House Bills",
+      "note": "Operating Budget Bill"
+    },
+    {
+      "biennium": "2023-24",
+      "chamber": "House",
+      "number": "1050",
+      "format": "Htm",
+      "type": "Bills",
+      "category": "House Bills",
+      "note": "Operating Budget Bill (HTML)"
+    },
+    {
+      "biennium": "2023-24",
+      "chamber": "Senate",
+      "number": "5950",
+      "format": "Pdf",
+      "type": "Bills",
+      "category": "Senate Bills",
+      "note": "Senate Operating Budget Bill"
+    },
+    {
+      "biennium": "2021-22",
+      "chamber": "House",
+      "number": "1080",
+      "format": "Pdf",
+      "type": "Bills",
+      "category": "House Bills",
+      "note": "2021-22 Operating Budget"
+    },
+    {
+      "biennium": "2019-20",
+      "chamber": "House",
+      "number": "1109",
+      "format": "Pdf",
+      "type": "Bills",
+      "category": "House Bills",
+      "note": "2019-20 Operating Budget"
+    }
+  ],
+  "notes": {
+    "biennium": "Format: YYYY-YY (e.g., 2023-24)",
+    "chamber": "Options: House, Senate",
+    "number": "Bill number, can include suffix like '1234-S' for substitute bills",
+    "format": "Options: Pdf, Htm",
+    "type": "Options: Bills, Session Laws, etc.",
+    "category": "Examples: House Bills, Senate Bills, House Passed Legislature, Senate Passed Legislature"
+  }
+}

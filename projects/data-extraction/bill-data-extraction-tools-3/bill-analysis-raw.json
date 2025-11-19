@@ -1,0 +1,993 @@
+{
+  "billType": {
+    "shortId": "ESSB 5167.SL",
+    "longId": "ENGROSSED SUBSTITUTE SENATE BILL 5167",
+    "description": "Making 2025-2027 fiscal biennium operating appropriations and 2023-2025 fiscal biennium second supplemental operating appropriations.",
+    "chapterLaw": "424",
+    "type": "Operating Budget Bill (Biennial Appropriations)"
+  },
+  "structure": {
+    "parts": [
+      "PART I: GENERAL GOVERNMENT",
+      "PART II: HUMAN SERVICES",
+      "PART III: NATURAL RESOURCES",
+      "PART IV: TRANSPORTATION",
+      "PART V: EDUCATION",
+      "PART VI: HIGHER EDUCATION",
+      "PART VII: SPECIAL APPROPRIATIONS",
+      "PART VIII: OTHER TRANSFERS AND APPROPRIATIONS",
+      "PART IX: MISCELLANEOUS",
+      "PART XI: GENERAL GOVERNMENT"
+    ]
+  },
+  "entities": {
+    "agencies": [
+      {
+        "name": "FOR THE HOUSE OF REPRESENTATIVES",
+        "sections": [
+          "101"
+        ]
+      },
+      {
+        "name": "FOR THE SENATE",
+        "sections": [
+          "102"
+        ]
+      },
+      {
+        "name": "FOR THE JOINT LEGISLATIVE AUDIT AND REVIEW COMMITTEE",
+        "sections": [
+          "103"
+        ]
+      },
+      {
+        "name": "FOR THE LEGISLATIVE EVALUATION AND ACCOUNTABILITY PROGRAM COMMITTEE",
+        "sections": [
+          "104"
+        ]
+      },
+      {
+        "name": "FOR THE JOINT LEGISLATIVE SYSTEMS COMMITTEE",
+        "sections": [
+          "105"
+        ]
+      },
+      {
+        "name": "FOR THE OFFICE OF STATE LEGISLATIVE LABOR RELATIONS",
+        "sections": [
+          "106"
+        ]
+      },
+      {
+        "name": "FOR THE OFFICE OF THE STATE ACTUARY",
+        "sections": [
+          "107"
+        ]
+      },
+      {
+        "name": "FOR THE STATUTE LAW COMMITTEE",
+        "sections": [
+          "108"
+        ]
+      },
+      {
+        "name": "FOR THE OFFICE OF LEGISLATIVE SUPPORT SERVICES",
+        "sections": [
+          "109"
+        ]
+      },
+      {
+        "name": "LEGISLATIVE AGENCIES",
+        "sections": [
+          "110"
+        ]
+      },
+      {
+        "name": "FOR THE SUPREME COURT",
+        "sections": [
+          "111"
+        ]
+      },
+      {
+        "name": "FOR THE COMMISSION ON JUDICIAL CONDUCT",
+        "sections": [
+          "112"
+        ]
+      },
+      {
+        "name": "FOR THE COURT OF APPEALS",
+        "sections": [
+          "113"
+        ]
+      },
+      {
+        "name": "FOR THE ADMINISTRATOR FOR THE COURTS",
+        "sections": [
+          "114"
+        ]
+      },
+      {
+        "name": "FOR THE OFFICE OF PUBLIC DEFENSE",
+        "sections": [
+          "115"
+        ]
+      },
+      {
+        "name": "FOR THE OFFICE OF CIVIL LEGAL AID",
+        "sections": [
+          "116"
+        ]
+      },
+      {
+        "name": "FOR THE OFFICE OF THE GOVERNOR",
+        "sections": [
+          "117"
+        ]
+      },
+      {
+        "name": "FOR THE LIEUTENANT GOVERNOR",
+        "sections": [
+          "118"
+        ]
+      },
+      {
+        "name": "FOR THE PUBLIC DISCLOSURE COMMISSION",
+        "sections": [
+          "119"
+        ]
+      },
+      {
+        "name": "FOR THE SECRETARY OF STATE",
+        "sections": [
+          "120"
+        ]
+      },
+      {
+        "name": "FOR THE GOVERNOR'S OFFICE OF INDIAN AFFAIRS",
+        "sections": [
+          "121"
+        ]
+      },
+      {
+        "name": "FOR THE COMMISSION ON ASIAN PACIFIC AMERICAN AFFAIRS",
+        "sections": [
+          "122"
+        ]
+      },
+      {
+        "name": "FOR THE STATE TREASURER",
+        "sections": [
+          "123"
+        ]
+      },
+      {
+        "name": "FOR THE STATE AUDITOR",
+        "sections": [
+          "124"
+        ]
+      },
+      {
+        "name": "FOR THE CITIZENS' COMMISSION ON SALARIES FOR ELECTED OFFICIALS",
+        "sections": [
+          "125"
+        ]
+      },
+      {
+        "name": "FOR THE ATTORNEY GENERAL",
+        "sections": [
+          "126"
+        ]
+      },
+      {
+        "name": "FOR THE CASELOAD FORECAST COUNCIL",
+        "sections": [
+          "127"
+        ]
+      },
+      {
+        "name": "FOR THE DEPARTMENT OF COMMERCE",
+        "sections": [
+          "128"
+        ]
+      },
+      {
+        "name": "FOR THE DEPARTMENT OF COMMERCE<TextRun fontFamily=\"Times New Roman\">—</TextRun>COMMUNITY SERVICES",
+        "sections": [
+          "129"
+        ]
+      },
+      {
+        "name": "FOR THE DEPARTMENT OF COMMERCE<TextRun fontFamily=\"Times New Roman\">—</TextRun>HOUSING",
+        "sections": [
+          "130"
+        ]
+      },
+      {
+        "name": "FOR THE DEPARTMENT OF COMMERCE<TextRun fontFamily=\"Times New Roman\">—</TextRun>LOCAL GOVERNMENT",
+        "sections": [
+          "131"
+        ]
+      },
+      {
+        "name": "FOR THE DEPARTMENT OF COMMERCE<TextRun fontFamily=\"Times New Roman\">—</TextRun>OFFICE OF ECONOMIC DEVELOPMENT",
+        "sections": [
+          "132"
+        ]
+      },
+      {
+        "name": "FOR THE DEPARTMENT OF COMMERCE<TextRun fontFamily=\"Times New Roman\">—</TextRun>ENERGY AND INNOVATION",
+        "sections": [
+          "133"
+        ]
+      },
+      {
+        "name": "FOR THE DEPARTMENT OF COMMERCE<TextRun fontFamily=\"Times New Roman\">—</TextRun>PROGRAM SUPPORT",
+        "sections": [
+          "134"
+        ]
+      },
+      {
+        "name": "FOR THE ECONOMIC AND REVENUE FORECAST COUNCIL",
+        "sections": [
+          "135"
+        ]
+      },
+      {
+        "name": "FOR THE OFFICE OF FINANCIAL MANAGEMENT",
+        "sections": [
+          "136"
+        ]
+      },
+      {
+        "name": "FOR THE OFFICE OF ADMINISTRATIVE HEARINGS",
+        "sections": [
+          "137"
+        ]
+      },
+      {
+        "name": "FOR THE WASHINGTON STATE LOTTERY",
+        "sections": [
+          "138"
+        ]
+      },
+      {
+        "name": "FOR THE COMMISSION ON HISPANIC AFFAIRS",
+        "sections": [
+          "139"
+        ]
+      },
+      {
+        "name": "FOR THE COMMISSION ON AFRICAN-AMERICAN AFFAIRS",
+        "sections": [
+          "140"
+        ]
+      },
+      {
+        "name": "FOR THE DEPARTMENT OF RETIREMENT SYSTEMS<TextRun fontFamily=\"Times New Roman\">—</TextRun>OPERATIONS",
+        "sections": [
+          "141"
+        ]
+      },
+      {
+        "name": "FOR THE DEPARTMENT OF REVENUE",
+        "sections": [
+          "142"
+        ]
+      },
+      {
+        "name": "FOR THE BOARD OF TAX APPEALS",
+        "sections": [
+          "143"
+        ]
+      },
+      {
+        "name": "FOR THE OFFICE OF MINORITY AND WOMEN'S BUSINESS ENTERPRISES",
+        "sections": [
+          "144"
+        ]
+      },
+      {
+        "name": "FOR THE INSURANCE COMMISSIONER",
+        "sections": [
+          "145"
+        ]
+      },
+      {
+        "name": "FOR THE STATE INVESTMENT BOARD",
+        "sections": [
+          "146"
+        ]
+      },
+      {
+        "name": "FOR THE LIQUOR AND CANNABIS BOARD",
+        "sections": [
+          "147"
+        ]
+      },
+      {
+        "name": "FOR THE UTILITIES AND TRANSPORTATION COMMISSION",
+        "sections": [
+          "148"
+        ]
+      },
+      {
+        "name": "FOR THE MILITARY DEPARTMENT",
+        "sections": [
+          "149"
+        ]
+      }
+    ],
+    "appropriations": [
+      {
+        "account": "General Fund—State Appropriation (FY 2026)",
+        "amount": 61985000
+      },
+      {
+        "account": "General Fund—State Appropriation (FY 2027)",
+        "amount": 65250000
+      },
+      {
+        "account": "General Fund—State Appropriation (FY 2026)",
+        "amount": 45521000
+      },
+      {
+        "account": "General Fund—State Appropriation (FY 2027)",
+        "amount": 50984000
+      },
+      {
+        "account": "Performance Audits of Government Account—State",
+        "amount": 13910000
+      },
+      {
+        "account": "Performance Audits of Government Account—State",
+        "amount": 5607000
+      },
+      {
+        "account": "General Fund—State Appropriation (FY 2026)",
+        "amount": 23263000
+      },
+      {
+        "account": "General Fund—State Appropriation (FY 2027)",
+        "amount": 22084000
+      },
+      {
+        "account": "General Fund—State Appropriation (FY 2026)",
+        "amount": 919000
+      },
+      {
+        "account": "General Fund—State Appropriation (FY 2027)",
+        "amount": 933000
+      },
+      {
+        "account": "General Fund—State Appropriation (FY 2026)",
+        "amount": 404000
+      },
+      {
+        "account": "General Fund—State Appropriation (FY 2027)",
+        "amount": 422000
+      },
+      {
+        "account": "State Health Care Authority Administrative Account—",
+        "amount": 318000
+      },
+      {
+        "account": "Department of Retirement Systems Expense Account—",
+        "amount": 7684000
+      },
+      {
+        "account": "School Employees' Insurance Administrative Account—",
+        "amount": 265000
+      },
+      {
+        "account": "General Fund—State Appropriation (FY 2026)",
+        "amount": 6429000
+      },
+      {
+        "account": "General Fund—State Appropriation (FY 2027)",
+        "amount": 6245000
+      },
+      {
+        "account": "General Fund—State Appropriation (FY 2026)",
+        "amount": 6568000
+      },
+      {
+        "account": "General Fund—State Appropriation (FY 2027)",
+        "amount": 6926000
+      },
+      {
+        "account": "General Fund—State Appropriation (FY 2026)",
+        "amount": 15979000
+      },
+      {
+        "account": "General Fund—State Appropriation (FY 2027)",
+        "amount": 16247000
+      },
+      {
+        "account": "General Fund—State Appropriation (FY 2026)",
+        "amount": 2935000
+      },
+      {
+        "account": "General Fund—State Appropriation (FY 2027)",
+        "amount": 2863000
+      },
+      {
+        "account": "General Fund—State Appropriation (FY 2026)",
+        "amount": 27987000
+      },
+      {
+        "account": "General Fund—State Appropriation (FY 2027)",
+        "amount": 28640000
+      },
+      {
+        "account": "General Fund—State Appropriation (FY 2026)",
+        "amount": 108147000
+      },
+      {
+        "account": "General Fund—State Appropriation (FY 2027)",
+        "amount": 109947000
+      },
+      {
+        "account": "General Fund—Federal Appropriation",
+        "amount": 2209000
+      },
+      {
+        "account": "General Fund—Private/Local Appropriation",
+        "amount": 681000
+      },
+      {
+        "account": "Judicial Stabilization Trust Account—State",
+        "amount": 36639000
+      },
+      {
+        "account": "Judicial Information Systems Account—State",
+        "amount": 79530000
+      },
+      {
+        "account": "Opioid Abatement Settlement Account—State",
+        "amount": 940000
+      },
+      {
+        "account": "General Fund—State Appropriation (FY 2026)",
+        "amount": 83336000
+      },
+      {
+        "account": "General Fund—State Appropriation (FY 2027)",
+        "amount": 84113000
+      },
+      {
+        "account": "Judicial Stabilization Trust Account—State",
+        "amount": 19056000
+      },
+      {
+        "account": "General Fund—State Appropriation (FY 2026)",
+        "amount": 66083000
+      },
+      {
+        "account": "General Fund—State Appropriation (FY 2027)",
+        "amount": 64483000
+      },
+      {
+        "account": "Judicial Stabilization Trust Account—State",
+        "amount": 1464000
+      },
+      {
+        "account": "General Fund—State Appropriation (FY 2026)",
+        "amount": 23479000
+      },
+      {
+        "account": "General Fund—State Appropriation (FY 2027)",
+        "amount": 23590000
+      },
+      {
+        "account": "Economic Development Strategic Reserve Account—State",
+        "amount": 2215000
+      },
+      {
+        "account": "GOV Central Service Account—State Appropriation",
+        "amount": 20473000
+      },
+      {
+        "account": "Performance Audits of Government Account—State",
+        "amount": 854000
+      },
+      {
+        "account": "General Fund—State Appropriation (FY 2026)",
+        "amount": 1356000
+      },
+      {
+        "account": "General Fund—State Appropriation (FY 2027)",
+        "amount": 1416000
+      },
+      {
+        "account": "General Fund—Private/Local Appropriation",
+        "amount": 90000
+      },
+      {
+        "account": "General Fund—State Appropriation (FY 2026)",
+        "amount": 4501000
+      },
+      {
+        "account": "General Fund—State Appropriation (FY 2027)",
+        "amount": 5851000
+      },
+      {
+        "account": "Public Disclosure Transparency Account—State",
+        "amount": 3208000
+      },
+      {
+        "account": "General Fund—State Appropriation (FY 2026)",
+        "amount": 33025000
+      },
+      {
+        "account": "General Fund—State Appropriation (FY 2027)",
+        "amount": 40763000
+      },
+      {
+        "account": "General Fund—Federal Appropriation",
+        "amount": 8822000
+      },
+      {
+        "account": "Public Records Efficiency, Preservation, and Access",
+        "amount": 12854000
+      },
+      {
+        "account": "Charitable Organization Education Account—State",
+        "amount": 1305000
+      },
+      {
+        "account": "Washington State Library Operations Account—State",
+        "amount": 14891000
+      },
+      {
+        "account": "Local Government Archives Account—State",
+        "amount": 11783000
+      },
+      {
+        "account": "Election Account—Federal Appropriation",
+        "amount": 4499000
+      },
+      {
+        "account": "Personnel Service Account—State Appropriation",
+        "amount": 1685000
+      },
+      {
+        "account": "General Fund—State Appropriation (FY 2026)",
+        "amount": 852000
+      },
+      {
+        "account": "General Fund—State Appropriation (FY 2027)",
+        "amount": 833000
+      },
+      {
+        "account": "Climate Commitment Account—State Appropriation",
+        "amount": 506000
+      },
+      {
+        "account": "General Fund—State Appropriation (FY 2026)",
+        "amount": 628000
+      },
+      {
+        "account": "General Fund—State Appropriation (FY 2027)",
+        "amount": 619000
+      },
+      {
+        "account": "State Treasurer's Service Account—State",
+        "amount": 24224000
+      },
+      {
+        "account": "General Fund—State Appropriation (FY 2026)",
+        "amount": 723000
+      },
+      {
+        "account": "General Fund—State Appropriation (FY 2027)",
+        "amount": 737000
+      },
+      {
+        "account": "Auditing Services Revolving Account—State",
+        "amount": 18024000
+      },
+      {
+        "account": "Performance Audits of Government Account—State",
+        "amount": 81000
+      },
+      {
+        "account": "General Fund—State Appropriation (FY 2026)",
+        "amount": 278000
+      },
+      {
+        "account": "General Fund—State Appropriation (FY 2027)",
+        "amount": 318000
+      },
+      {
+        "account": "General Fund—State Appropriation (FY 2026)",
+        "amount": 40286000
+      },
+      {
+        "account": "General Fund—State Appropriation (FY 2027)",
+        "amount": 34616000
+      },
+      {
+        "account": "General Fund—Federal Appropriation",
+        "amount": 29506000
+      },
+      {
+        "account": "General Fund—Private/Local Appropriation",
+        "amount": 104000
+      },
+      {
+        "account": "Public Service Revolving Account—State Appropriation",
+        "amount": 6568000
+      },
+      {
+        "account": "New Motor Vehicle Arbitration Account—State",
+        "amount": 1934000
+      },
+      {
+        "account": "Medicaid Fraud Penalty Account—State Appropriation",
+        "amount": 8735000
+      },
+      {
+        "account": "Child Rescue Fund—State Appropriation",
+        "amount": 200000
+      },
+      {
+        "account": "Legal Services Revolving Account—State Appropriation",
+        "amount": 435096000
+      },
+      {
+        "account": "Local Government Archives Account—State",
+        "amount": 1161000
+      },
+      {
+        "account": "Tobacco Prevention and Control Account—State",
+        "amount": 275000
+      },
+      {
+        "account": "General Fund—State Appropriation (FY 2026)",
+        "amount": 2395000
+      },
+      {
+        "account": "General Fund—State Appropriation (FY 2027)",
+        "amount": 2369000
+      },
+      {
+        "account": "Workforce Education Investment Account—State",
+        "amount": 367000
+      },
+      {
+        "account": "General Fund—State Appropriation (FY 2026)",
+        "amount": 72053000
+      },
+      {
+        "account": "General Fund—State Appropriation (FY 2027)",
+        "amount": 55043000
+      },
+      {
+        "account": "General Fund—Federal Appropriation",
+        "amount": 143496000
+      },
+      {
+        "account": "General Fund—Private/Local Appropriation",
+        "amount": 5396000
+      },
+      {
+        "account": "Climate Commitment Account—State Appropriation",
+        "amount": 25005000
+      },
+      {
+        "account": "Community Reinvestment Account—State Appropriation",
+        "amount": 60000000
+      },
+      {
+        "account": "Domestic Violence Co-Responder Account—State",
+        "amount": 8326000
+      },
+      {
+        "account": "Financial Fraud and Identity Theft Crimes",
+        "amount": 2680000
+      },
+      {
+        "account": "Lead Paint Account—State Appropriation",
+        "amount": 1690000
+      },
+      {
+        "account": "Opioid Abatement Settlement Account—State",
+        "amount": 200000
+      },
+      {
+        "account": "Prostitution Prevention and Intervention Account—",
+        "amount": 26000
+      },
+      {
+        "account": "General Fund—State Appropriation (FY 2026)",
+        "amount": 309054000
+      },
+      {
+        "account": "General Fund—State Appropriation (FY 2027)",
+        "amount": 304114000
+      },
+      {
+        "account": "General Fund—Federal Appropriation",
+        "amount": 65412000
+      },
+      {
+        "account": "Home Security Fund Account—State Appropriation",
+        "amount": 248615000
+      },
+      {
+        "account": "Affordable Housing for All Account—State",
+        "amount": 91728000
+      }
+    ],
+    "sections": [
+      {
+        "sectionNumber": "101",
+        "agency": "FOR THE HOUSE OF REPRESENTATIVES"
+      },
+      {
+        "sectionNumber": "102",
+        "agency": "FOR THE SENATE"
+      },
+      {
+        "sectionNumber": "103",
+        "agency": "FOR THE JOINT LEGISLATIVE AUDIT AND REVIEW COMMITTEE"
+      },
+      {
+        "sectionNumber": "104",
+        "agency": "FOR THE LEGISLATIVE EVALUATION AND ACCOUNTABILITY PROGRAM COMMITTEE"
+      },
+      {
+        "sectionNumber": "105",
+        "agency": "FOR THE JOINT LEGISLATIVE SYSTEMS COMMITTEE"
+      },
+      {
+        "sectionNumber": "106",
+        "agency": "FOR THE OFFICE OF STATE LEGISLATIVE LABOR RELATIONS"
+      },
+      {
+        "sectionNumber": "107",
+        "agency": "FOR THE OFFICE OF THE STATE ACTUARY"
+      },
+      {
+        "sectionNumber": "108",
+        "agency": "FOR THE STATUTE LAW COMMITTEE"
+      },
+      {
+        "sectionNumber": "109",
+        "agency": "FOR THE OFFICE OF LEGISLATIVE SUPPORT SERVICES"
+      },
+      {
+        "sectionNumber": "110",
+        "agency": "LEGISLATIVE AGENCIES"
+      },
+      {
+        "sectionNumber": "111",
+        "agency": "FOR THE SUPREME COURT"
+      },
+      {
+        "sectionNumber": "112",
+        "agency": "FOR THE COMMISSION ON JUDICIAL CONDUCT"
+      },
+      {
+        "sectionNumber": "113",
+        "agency": "FOR THE COURT OF APPEALS"
+      },
+      {
+        "sectionNumber": "114",
+        "agency": "FOR THE ADMINISTRATOR FOR THE COURTS"
+      },
+      {
+        "sectionNumber": "115",
+        "agency": "FOR THE OFFICE OF PUBLIC DEFENSE"
+      },
+      {
+        "sectionNumber": "116",
+        "agency": "FOR THE OFFICE OF CIVIL LEGAL AID"
+      },
+      {
+        "sectionNumber": "117",
+        "agency": "FOR THE OFFICE OF THE GOVERNOR"
+      },
+      {
+        "sectionNumber": "118",
+        "agency": "FOR THE LIEUTENANT GOVERNOR"
+      },
+      {
+        "sectionNumber": "119",
+        "agency": "FOR THE PUBLIC DISCLOSURE COMMISSION"
+      },
+      {
+        "sectionNumber": "120",
+        "agency": "FOR THE SECRETARY OF STATE"
+      },
+      {
+        "sectionNumber": "121",
+        "agency": "FOR THE GOVERNOR'S OFFICE OF INDIAN AFFAIRS"
+      },
+      {
+        "sectionNumber": "122",
+        "agency": "FOR THE COMMISSION ON ASIAN PACIFIC AMERICAN AFFAIRS"
+      },
+      {
+        "sectionNumber": "123",
+        "agency": "FOR THE STATE TREASURER"
+      },
+      {
+        "sectionNumber": "124",
+        "agency": "FOR THE STATE AUDITOR"
+      },
+      {
+        "sectionNumber": "125",
+        "agency": "FOR THE CITIZENS' COMMISSION ON SALARIES FOR ELECTED OFFICIALS"
+      },
+      {
+        "sectionNumber": "126",
+        "agency": "FOR THE ATTORNEY GENERAL"
+      },
+      {
+        "sectionNumber": "127",
+        "agency": "FOR THE CASELOAD FORECAST COUNCIL"
+      },
+      {
+        "sectionNumber": "128",
+        "agency": "FOR THE DEPARTMENT OF COMMERCE"
+      },
+      {
+        "sectionNumber": "129",
+        "agency": "FOR THE DEPARTMENT OF COMMERCE<TextRun fontFamily=\"Times New Roman\">—</TextRun>COMMUNITY SERVICES"
+      },
+      {
+        "sectionNumber": "130",
+        "agency": "FOR THE DEPARTMENT OF COMMERCE<TextRun fontFamily=\"Times New Roman\">—</TextRun>HOUSING"
+      },
+      {
+        "sectionNumber": "131",
+        "agency": "FOR THE DEPARTMENT OF COMMERCE<TextRun fontFamily=\"Times New Roman\">—</TextRun>LOCAL GOVERNMENT"
+      },
+      {
+        "sectionNumber": "132",
+        "agency": "FOR THE DEPARTMENT OF COMMERCE<TextRun fontFamily=\"Times New Roman\">—</TextRun>OFFICE OF ECONOMIC DEVELOPMENT"
+      },
+      {
+        "sectionNumber": "133",
+        "agency": "FOR THE DEPARTMENT OF COMMERCE<TextRun fontFamily=\"Times New Roman\">—</TextRun>ENERGY AND INNOVATION"
+      },
+      {
+        "sectionNumber": "134",
+        "agency": "FOR THE DEPARTMENT OF COMMERCE<TextRun fontFamily=\"Times New Roman\">—</TextRun>PROGRAM SUPPORT"
+      },
+      {
+        "sectionNumber": "135",
+        "agency": "FOR THE ECONOMIC AND REVENUE FORECAST COUNCIL"
+      },
+      {
+        "sectionNumber": "136",
+        "agency": "FOR THE OFFICE OF FINANCIAL MANAGEMENT"
+      },
+      {
+        "sectionNumber": "137",
+        "agency": "FOR THE OFFICE OF ADMINISTRATIVE HEARINGS"
+      },
+      {
+        "sectionNumber": "138",
+        "agency": "FOR THE WASHINGTON STATE LOTTERY"
+      },
+      {
+        "sectionNumber": "139",
+        "agency": "FOR THE COMMISSION ON HISPANIC AFFAIRS"
+      },
+      {
+        "sectionNumber": "140",
+        "agency": "FOR THE COMMISSION ON AFRICAN-AMERICAN AFFAIRS"
+      },
+      {
+        "sectionNumber": "141",
+        "agency": "FOR THE DEPARTMENT OF RETIREMENT SYSTEMS<TextRun fontFamily=\"Times New Roman\">—</TextRun>OPERATIONS"
+      },
+      {
+        "sectionNumber": "142",
+        "agency": "FOR THE DEPARTMENT OF REVENUE"
+      },
+      {
+        "sectionNumber": "143",
+        "agency": "FOR THE BOARD OF TAX APPEALS"
+      },
+      {
+        "sectionNumber": "144",
+        "agency": "FOR THE OFFICE OF MINORITY AND WOMEN'S BUSINESS ENTERPRISES"
+      },
+      {
+        "sectionNumber": "145",
+        "agency": "FOR THE INSURANCE COMMISSIONER"
+      },
+      {
+        "sectionNumber": "146",
+        "agency": "FOR THE STATE INVESTMENT BOARD"
+      },
+      {
+        "sectionNumber": "147",
+        "agency": "FOR THE LIQUOR AND CANNABIS BOARD"
+      },
+      {
+        "sectionNumber": "148",
+        "agency": "FOR THE UTILITIES AND TRANSPORTATION COMMISSION"
+      },
+      {
+        "sectionNumber": "149",
+        "agency": "FOR THE MILITARY DEPARTMENT"
+      }
+    ],
+    "dates": [
+      {
+        "type": "effective_date",
+        "value": "May 20, 2025—Except for section 940, which takes effect July 1, 2025."
+      }
+    ],
+    "rcwReferences": [
+      "1.12.025",
+      "10.101.050",
+      "10.118.030",
+      "10.77.086",
+      "10.77.086.",
+      "10.77.120",
+      "10.77.120.",
+      "10.93.020",
+      "10.99.033",
+      "13.06.050.",
+      "13.34.030.",
+      "13.34.090",
+      "13.34.212",
+      "13.40.190",
+      "13.40.510",
+      "15.04.090.",
+      "15.26.120.",
+      "15.64.050.",
+      "15.64.060.",
+      "15.76.115",
+      "15.76.115.",
+      "16.76.020",
+      "16.76.020.",
+      "16.76.030.",
+      "18.04.015.",
+      "18.04.025.",
+      "18.04.105.",
+      "18.08.240.",
+      "18.20.010.",
+      "18.20.430.",
+      "18.20.500.",
+      "18.22.810.",
+      "18.225.145",
+      "18.300.900",
+      "18.300.901.",
+      "18.390.030",
+      "18.43.050",
+      "18.43.110",
+      "18.44.011.",
+      "18.51.010.",
+      "18.51.050",
+      "18.64.011.",
+      "18.64.046.",
+      "18.79.202",
+      "18.85.061.",
+      "18.85.220.",
+      "18.85.321.",
+      "18.96.010.",
+      "18.96.210.",
+      "19.02.020."
+    ],
+    "vetoedSections": []
+  },
+  "stats": {
+    "totalSections": 1260,
+    "vetoedSections": 38,
+    "appropriations": {
+      "count": 100,
+      "total": 3297929000,
+      "min": 26000,
+      "max": 435096000,
+      "average": 32979290
+    },
+    "totalAgencies": 49,
+    "rcwReferencesCount": 50
+  }
+}

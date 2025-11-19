@@ -1,0 +1,900 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WA Budget Bill Appropriations Explorer</title>
+
+    <!-- Tabulator CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tabulator-tables@6.2.5/dist/css/tabulator.min.css" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: #f5f7fa;
+            color: #2c3e50;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            background: linear-gradient(135deg, #2c3e50 0%, #3498db 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            font-size: 2.2em;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+
+        .controls {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+
+        .file-input-wrapper {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        textarea {
+            width: 100%;
+            min-height: 150px;
+            padding: 15px;
+            border: 2px dashed #cbd5e0;
+            border-radius: 8px;
+            font-family: 'Courier New', monospace;
+            font-size: 13px;
+            resize: vertical;
+            transition: border-color 0.3s;
+        }
+
+        textarea:focus {
+            outline: none;
+            border-color: #3498db;
+            background-color: #f8fafc;
+        }
+
+        textarea::placeholder {
+            color: #a0aec0;
+        }
+
+        .button-group {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        button {
+            padding: 12px 24px;
+            border: none;
+            border-radius: 6px;
+            font-size: 14px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.3s;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .btn-primary {
+            background: #3498db;
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background: #2980b9;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 8px rgba(52, 152, 219, 0.3);
+        }
+
+        .btn-secondary {
+            background: #95a5a6;
+            color: white;
+        }
+
+        .btn-secondary:hover {
+            background: #7f8c8d;
+        }
+
+        .btn-success {
+            background: #27ae60;
+            color: white;
+        }
+
+        .btn-success:hover {
+            background: #229954;
+        }
+
+        button:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .stat-card {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            border-left: 4px solid #3498db;
+        }
+
+        .stat-label {
+            font-size: 0.9em;
+            color: #7f8c8d;
+            margin-bottom: 5px;
+        }
+
+        .stat-value {
+            font-size: 1.8em;
+            font-weight: 700;
+            color: #2c3e50;
+        }
+
+        .charts-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .chart-wrapper {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+
+        .chart-wrapper h3 {
+            margin-bottom: 20px;
+            color: #2c3e50;
+            font-size: 1.3em;
+        }
+
+        .chart-canvas {
+            position: relative;
+            height: 300px;
+        }
+
+        #data-table {
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+
+        .tabulator {
+            font-size: 14px;
+        }
+
+        .tabulator-header {
+            background: #34495e;
+            color: white;
+            font-weight: 600;
+        }
+
+        .tabulator-header .tabulator-col {
+            border-right: 1px solid #2c3e50;
+        }
+
+        .tabulator-row:hover {
+            background-color: #ecf0f1 !important;
+        }
+
+        .tabulator-row.tabulator-row-even {
+            background-color: #f8f9fa;
+        }
+
+        .amount-cell {
+            font-weight: 600;
+            color: #27ae60;
+        }
+
+        .proviso-link {
+            color: #3498db;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+
+        .proviso-link:hover {
+            color: #2980b9;
+        }
+
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.5);
+            z-index: 1000;
+            overflow: auto;
+        }
+
+        .modal-content {
+            background: white;
+            margin: 50px auto;
+            padding: 30px;
+            max-width: 800px;
+            border-radius: 10px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+            position: relative;
+        }
+
+        .modal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid #ecf0f1;
+        }
+
+        .modal-header h2 {
+            color: #2c3e50;
+        }
+
+        .close-modal {
+            background: #e74c3c;
+            color: white;
+            border: none;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            font-size: 20px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0;
+        }
+
+        .close-modal:hover {
+            background: #c0392b;
+        }
+
+        .proviso-content {
+            line-height: 1.8;
+            color: #34495e;
+        }
+
+        .error-message {
+            background: #e74c3c;
+            color: white;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            display: none;
+        }
+
+        .success-message {
+            background: #27ae60;
+            color: white;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            display: none;
+        }
+
+        @media (max-width: 768px) {
+            .charts-container {
+                grid-template-columns: 1fr;
+            }
+
+            h1 {
+                font-size: 1.6em;
+            }
+
+            .button-group {
+                flex-direction: column;
+            }
+
+            button {
+                width: 100%;
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Washington State Budget Bill Explorer</h1>
+            <p class="subtitle">Analyze and explore legislative appropriations with interactive data visualization</p>
+        </header>
+
+        <div class="controls">
+            <div class="file-input-wrapper">
+                <label for="xmlInput" style="font-weight: 600; color: #2c3e50; font-size: 1.1em;">
+                    Paste Budget Bill XML:
+                </label>
+                <textarea
+                    id="xmlInput"
+                    placeholder="Paste your WA budget bill XML content here...&#10;&#10;The parser will extract all appropriations including:&#10;• Agency codes and departments&#10;• Account names and fund sources&#10;• Dollar amounts&#10;• Associated proviso text"></textarea>
+                <div class="button-group">
+                    <button class="btn-primary" onclick="parseXML()">
+                        <span>📊</span> Parse & Load Data
+                    </button>
+                    <button class="btn-secondary" onclick="clearData()">
+                        <span>🗑️</span> Clear All
+                    </button>
+                    <button class="btn-success" id="exportBtn" onclick="exportCSV()" disabled>
+                        <span>💾</span> Export to CSV
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="error-message" id="errorMessage"></div>
+        <div class="success-message" id="successMessage"></div>
+
+        <div id="statsSection" style="display: none;">
+            <div class="stats">
+                <div class="stat-card">
+                    <div class="stat-label">Total Appropriations</div>
+                    <div class="stat-value" id="totalRows">0</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label">Total Amount</div>
+                    <div class="stat-value" id="totalAmount">$0</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label">Agencies</div>
+                    <div class="stat-value" id="totalAgencies">0</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label">Fund Sources</div>
+                    <div class="stat-value" id="totalFunds">0</div>
+                </div>
+            </div>
+
+            <div class="charts-container">
+                <div class="chart-wrapper">
+                    <h3>Top 10 Agencies by Amount</h3>
+                    <div class="chart-canvas">
+                        <canvas id="agencyChart"></canvas>
+                    </div>
+                </div>
+                <div class="chart-wrapper">
+                    <h3>Fund Type Distribution</h3>
+                    <div class="chart-canvas">
+                        <canvas id="fundChart"></canvas>
+                    </div>
+                </div>
+            </div>
+
+            <div id="data-table"></div>
+        </div>
+    </div>
+
+    <!-- Proviso Modal -->
+    <div id="provisoModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Proviso Details</h2>
+                <button class="close-modal" onclick="closeModal()">&times;</button>
+            </div>
+            <div class="proviso-content" id="provisoContent"></div>
+        </div>
+    </div>
+
+    <!-- Tabulator JS -->
+    <script src="https://cdn.jsdelivr.net/npm/tabulator-tables@6.2.5/dist/js/tabulator.min.js"></script>
+
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+
+    <script>
+        let table;
+        let agencyChart;
+        let fundChart;
+        let appropriationsData = [];
+
+        // Money formatter
+        function formatMoney(value) {
+            if (!value) return '$0';
+            const num = parseFloat(value.toString().replace(/[$,]/g, ''));
+            return '$' + num.toLocaleString('en-US', { minimumFractionDigits: 0, maximumFractionDigits: 0 });
+        }
+
+        // Extract fund type from account name
+        function extractFundType(accountName) {
+            if (!accountName) return 'Unknown';
+
+            const cleanName = accountName.replace(/—/g, '-').replace(/\s+/g, ' ').trim();
+
+            // Common fund patterns
+            if (cleanName.includes('General Fund')) return 'General Fund';
+            if (cleanName.includes('Performance Audits')) return 'Performance Audits';
+            if (cleanName.includes('Health Care')) return 'Health Care';
+            if (cleanName.includes('Retirement')) return 'Retirement Systems';
+            if (cleanName.includes('Education')) return 'Education';
+            if (cleanName.includes('Transportation')) return 'Transportation';
+            if (cleanName.includes('Special')) return 'Special Funds';
+            if (cleanName.includes('Federal')) return 'Federal';
+
+            // Extract first significant part
+            const match = cleanName.match(/^([^—-]+)/);
+            return match ? match[1].trim() : 'Other';
+        }
+
+        // Parse XML content
+        function parseXML() {
+            const xmlInput = document.getElementById('xmlInput').value.trim();
+
+            if (!xmlInput) {
+                showError('Please paste XML content first.');
+                return;
+            }
+
+            try {
+                const parser = new DOMParser();
+                const xmlDoc = parser.parseFromString(xmlInput, 'text/xml');
+
+                // Check for parsing errors
+                const parseError = xmlDoc.querySelector('parsererror');
+                if (parseError) {
+                    showError('Invalid XML format. Please check your input.');
+                    return;
+                }
+
+                appropriationsData = [];
+                let rowId = 1;
+
+                // Get all Appropriations sections (grouped by agency)
+                const allAppropriationSections = xmlDoc.getElementsByTagName('Appropriations');
+
+                for (let section of allAppropriationSections) {
+                    const agencyCode = section.getAttribute('agency') || 'Unknown';
+
+                    // Find the department name for this section
+                    let departmentName = '';
+                    let sectionNode = section.parentElement;
+
+                    // Look for Department/DeptName in siblings or parent
+                    if (sectionNode) {
+                        const deptElement = sectionNode.querySelector('Department DeptName, DeptName');
+                        if (deptElement) {
+                            departmentName = deptElement.textContent.trim().replace(/^FOR THE\s+/i, '');
+                        }
+                    }
+
+                    // Get individual appropriations within this section
+                    const appropriations = section.getElementsByTagName('Appropriation');
+
+                    for (let approp of appropriations) {
+                        const accountNameElement = approp.querySelector('AccountName');
+                        const amountElement = approp.querySelector('DollarAmount');
+
+                        if (accountNameElement && amountElement) {
+                            const accountName = accountNameElement.textContent.trim().replace(/\s+/g, ' ');
+                            const amountText = amountElement.textContent.trim();
+                            const amount = parseFloat(amountText.replace(/[$,]/g, ''));
+
+                            const fundType = extractFundType(accountName);
+
+                            appropriationsData.push({
+                                id: rowId++,
+                                agency: agencyCode,
+                                department: departmentName || 'N/A',
+                                account: accountName,
+                                amount: amount,
+                                amountFormatted: amountText,
+                                fundSource: fundType,
+                                provisoText: extractProvisoText(section.parentElement)
+                            });
+                        }
+                    }
+                }
+
+                if (appropriationsData.length === 0) {
+                    showError('No appropriations found in the XML. Please check the format.');
+                    return;
+                }
+
+                showSuccess(`Successfully parsed ${appropriationsData.length} appropriations!`);
+                renderData();
+
+            } catch (error) {
+                showError('Error parsing XML: ' + error.message);
+                console.error(error);
+            }
+        }
+
+        // Extract proviso text from section
+        function extractProvisoText(sectionElement) {
+            if (!sectionElement) return '';
+
+            const provisos = [];
+            const paragraphs = sectionElement.querySelectorAll('P');
+
+            for (let p of paragraphs) {
+                const text = p.textContent.trim();
+                // Look for conditions and limitations
+                if (text.includes('appropriation') || text.includes('provided solely') ||
+                    text.includes('condition') || text.includes('limitation')) {
+                    provisos.push(text);
+                }
+            }
+
+            return provisos.join('\n\n');
+        }
+
+        // Render all visualizations
+        function renderData() {
+            document.getElementById('statsSection').style.display = 'block';
+            document.getElementById('exportBtn').disabled = false;
+
+            updateStats();
+            createTable();
+            createCharts();
+        }
+
+        // Update statistics
+        function updateStats() {
+            const totalRows = appropriationsData.length;
+            const totalAmount = appropriationsData.reduce((sum, row) => sum + row.amount, 0);
+            const uniqueAgencies = new Set(appropriationsData.map(row => row.agency)).size;
+            const uniqueFunds = new Set(appropriationsData.map(row => row.fundSource)).size;
+
+            document.getElementById('totalRows').textContent = totalRows.toLocaleString();
+            document.getElementById('totalAmount').textContent = formatMoney(totalAmount);
+            document.getElementById('totalAgencies').textContent = uniqueAgencies;
+            document.getElementById('totalFunds').textContent = uniqueFunds;
+        }
+
+        // Create Tabulator table
+        function createTable() {
+            if (table) {
+                table.destroy();
+            }
+
+            table = new Tabulator("#data-table", {
+                data: appropriationsData,
+                layout: "fitDataFill",
+                height: "600px",
+                pagination: true,
+                paginationSize: 50,
+                paginationSizeSelector: [25, 50, 100, 200, 500],
+                movableColumns: true,
+                resizableColumnFit: true,
+                initialSort: [
+                    {column: "amount", dir: "desc"}
+                ],
+                columns: [
+                    {
+                        title: "Agency",
+                        field: "agency",
+                        width: 100,
+                        sorter: "string",
+                        headerFilter: "input",
+                        headerFilterPlaceholder: "Filter..."
+                    },
+                    {
+                        title: "Department/Program",
+                        field: "department",
+                        width: 300,
+                        sorter: "string",
+                        headerFilter: "input",
+                        headerFilterPlaceholder: "Filter..."
+                    },
+                    {
+                        title: "Account",
+                        field: "account",
+                        width: 350,
+                        sorter: "string",
+                        headerFilter: "input",
+                        headerFilterPlaceholder: "Filter..."
+                    },
+                    {
+                        title: "Amount",
+                        field: "amount",
+                        width: 150,
+                        sorter: "number",
+                        headerFilter: "input",
+                        headerFilterPlaceholder: "Min amount...",
+                        headerFilterFunc: ">=",
+                        formatter: function(cell) {
+                            return '<span class="amount-cell">' + formatMoney(cell.getValue()) + '</span>';
+                        }
+                    },
+                    {
+                        title: "Fund Source",
+                        field: "fundSource",
+                        width: 200,
+                        sorter: "string",
+                        headerFilter: "select",
+                        headerFilterParams: {
+                            values: true,
+                            sortValuesList: "asc"
+                        }
+                    },
+                    {
+                        title: "Proviso",
+                        field: "provisoText",
+                        width: 100,
+                        headerSort: false,
+                        formatter: function(cell) {
+                            const provisoText = cell.getValue();
+                            if (provisoText && provisoText.trim()) {
+                                return '<span class="proviso-link">View</span>';
+                            }
+                            return '<span style="color: #95a5a6;">None</span>';
+                        },
+                        cellClick: function(e, cell) {
+                            const provisoText = cell.getValue();
+                            if (provisoText && provisoText.trim()) {
+                                showProviso(provisoText, cell.getRow().getData());
+                            }
+                        }
+                    }
+                ]
+            });
+        }
+
+        // Create charts
+        function createCharts() {
+            // Destroy existing charts
+            if (agencyChart) agencyChart.destroy();
+            if (fundChart) fundChart.destroy();
+
+            // Top 10 agencies by total amount
+            const agencyTotals = {};
+            appropriationsData.forEach(row => {
+                if (!agencyTotals[row.agency]) {
+                    agencyTotals[row.agency] = 0;
+                }
+                agencyTotals[row.agency] += row.amount;
+            });
+
+            const sortedAgencies = Object.entries(agencyTotals)
+                .sort((a, b) => b[1] - a[1])
+                .slice(0, 10);
+
+            const agencyLabels = sortedAgencies.map(([agency]) => agency);
+            const agencyData = sortedAgencies.map(([, amount]) => amount / 1000000); // Convert to millions
+
+            const agencyCtx = document.getElementById('agencyChart').getContext('2d');
+            agencyChart = new Chart(agencyCtx, {
+                type: 'bar',
+                data: {
+                    labels: agencyLabels,
+                    datasets: [{
+                        label: 'Amount (Millions)',
+                        data: agencyData,
+                        backgroundColor: 'rgba(52, 152, 219, 0.8)',
+                        borderColor: 'rgba(52, 152, 219, 1)',
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            display: false
+                        },
+                        tooltip: {
+                            callbacks: {
+                                label: function(context) {
+                                    return formatMoney(context.raw * 1000000);
+                                }
+                            }
+                        }
+                    },
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            ticks: {
+                                callback: function(value) {
+                                    return '$' + value.toFixed(0) + 'M';
+                                }
+                            }
+                        }
+                    }
+                }
+            });
+
+            // Fund type distribution
+            const fundTotals = {};
+            appropriationsData.forEach(row => {
+                if (!fundTotals[row.fundSource]) {
+                    fundTotals[row.fundSource] = 0;
+                }
+                fundTotals[row.fundSource] += row.amount;
+            });
+
+            const fundLabels = Object.keys(fundTotals);
+            const fundData = Object.values(fundTotals);
+
+            const colors = [
+                'rgba(52, 152, 219, 0.8)',
+                'rgba(46, 204, 113, 0.8)',
+                'rgba(155, 89, 182, 0.8)',
+                'rgba(241, 196, 15, 0.8)',
+                'rgba(230, 126, 34, 0.8)',
+                'rgba(231, 76, 60, 0.8)',
+                'rgba(149, 165, 166, 0.8)',
+                'rgba(52, 73, 94, 0.8)',
+                'rgba(22, 160, 133, 0.8)',
+                'rgba(243, 156, 18, 0.8)'
+            ];
+
+            const fundCtx = document.getElementById('fundChart').getContext('2d');
+            fundChart = new Chart(fundCtx, {
+                type: 'pie',
+                data: {
+                    labels: fundLabels,
+                    datasets: [{
+                        data: fundData,
+                        backgroundColor: colors.slice(0, fundLabels.length),
+                        borderColor: 'white',
+                        borderWidth: 2
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            position: 'right',
+                            labels: {
+                                boxWidth: 15,
+                                padding: 10,
+                                font: {
+                                    size: 11
+                                }
+                            }
+                        },
+                        tooltip: {
+                            callbacks: {
+                                label: function(context) {
+                                    const label = context.label || '';
+                                    const value = formatMoney(context.raw);
+                                    const total = context.dataset.data.reduce((a, b) => a + b, 0);
+                                    const percentage = ((context.raw / total) * 100).toFixed(1);
+                                    return label + ': ' + value + ' (' + percentage + '%)';
+                                }
+                            }
+                        }
+                    }
+                }
+            });
+        }
+
+        // Show proviso modal
+        function showProviso(provisoText, rowData) {
+            const modal = document.getElementById('provisoModal');
+            const content = document.getElementById('provisoContent');
+
+            let html = `
+                <div style="margin-bottom: 20px; padding: 15px; background: #ecf0f1; border-radius: 5px;">
+                    <strong>Agency:</strong> ${rowData.agency}<br>
+                    <strong>Department:</strong> ${rowData.department}<br>
+                    <strong>Account:</strong> ${rowData.account}<br>
+                    <strong>Amount:</strong> ${formatMoney(rowData.amount)}
+                </div>
+                <div style="white-space: pre-wrap;">${provisoText || 'No proviso text available.'}</div>
+            `;
+
+            content.innerHTML = html;
+            modal.style.display = 'block';
+        }
+
+        // Close modal
+        function closeModal() {
+            document.getElementById('provisoModal').style.display = 'none';
+        }
+
+        // Close modal on outside click
+        window.onclick = function(event) {
+            const modal = document.getElementById('provisoModal');
+            if (event.target === modal) {
+                modal.style.display = 'none';
+            }
+        }
+
+        // Export to CSV
+        function exportCSV() {
+            if (!table) return;
+
+            table.download("csv", "wa-budget-appropriations.csv");
+        }
+
+        // Clear all data
+        function clearData() {
+            document.getElementById('xmlInput').value = '';
+            appropriationsData = [];
+            document.getElementById('statsSection').style.display = 'none';
+            document.getElementById('exportBtn').disabled = true;
+
+            if (table) {
+                table.destroy();
+                table = null;
+            }
+
+            if (agencyChart) {
+                agencyChart.destroy();
+                agencyChart = null;
+            }
+
+            if (fundChart) {
+                fundChart.destroy();
+                fundChart = null;
+            }
+
+            hideMessages();
+        }
+
+        // Show error message
+        function showError(message) {
+            const errorDiv = document.getElementById('errorMessage');
+            errorDiv.textContent = message;
+            errorDiv.style.display = 'block';
+
+            setTimeout(() => {
+                errorDiv.style.display = 'none';
+            }, 5000);
+        }
+
+        // Show success message
+        function showSuccess(message) {
+            const successDiv = document.getElementById('successMessage');
+            successDiv.textContent = message;
+            successDiv.style.display = 'block';
+
+            setTimeout(() => {
+                successDiv.style.display = 'none';
+            }, 3000);
+        }
+
+        // Hide all messages
+        function hideMessages() {
+            document.getElementById('errorMessage').style.display = 'none';
+            document.getElementById('successMessage').style.display = 'none';
+        }
+
+        // Keyboard shortcuts
+        document.addEventListener('keydown', function(e) {
+            // Escape key to close modal
+            if (e.key === 'Escape') {
+                closeModal();
+            }
+        });
+    </script>
+</body>
+</html>

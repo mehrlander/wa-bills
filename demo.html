@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HB 5167-S Bill Data Explorer</title>
+
+    <!-- CDN Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f5f5;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px 0;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            opacity: 0.9;
+            font-size: 1.1em;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .stat-card {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .stat-value {
+            font-size: 2em;
+            font-weight: bold;
+            color: #667eea;
+            margin-bottom: 5px;
+        }
+
+        .stat-label {
+            color: #666;
+            font-size: 0.9em;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .section {
+            background: white;
+            padding: 25px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            color: #667eea;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #f0f0f0;
+        }
+
+        .query-box {
+            background: #f8f9fa;
+            border-left: 4px solid #667eea;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 4px;
+        }
+
+        .query-title {
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #667eea;
+        }
+
+        .query-code {
+            background: #2d2d2d;
+            color: #f8f8f2;
+            padding: 15px;
+            border-radius: 4px;
+            overflow-x: auto;
+            font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+            font-size: 0.9em;
+            margin: 10px 0;
+        }
+
+        .result {
+            background: #fff;
+            border: 1px solid #e0e0e0;
+            padding: 15px;
+            border-radius: 4px;
+            margin-top: 10px;
+            max-height: 400px;
+            overflow-y: auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 10px 0;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        th {
+            background: #f8f9fa;
+            font-weight: 600;
+            color: #667eea;
+        }
+
+        tr:hover {
+            background: #f8f9fa;
+        }
+
+        .btn {
+            background: #667eea;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 1em;
+            transition: background 0.3s;
+        }
+
+        .btn:hover {
+            background: #764ba2;
+        }
+
+        .search-box {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #e0e0e0;
+            border-radius: 4px;
+            font-size: 1em;
+            margin-bottom: 15px;
+        }
+
+        .search-box:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+
+        .chart-container {
+            position: relative;
+            height: 400px;
+            margin: 20px 0;
+        }
+
+        .tag {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-size: 0.85em;
+            margin-right: 5px;
+        }
+
+        .veto-tag {
+            background: #e74c3c;
+        }
+
+        pre {
+            background: #f8f9fa;
+            padding: 10px;
+            border-radius: 4px;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>📊 HB 5167-S: Operating Budget Explorer</h1>
+            <div class="subtitle">Washington State 2025-2027 Biennial Operating Budget</div>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- Statistics Overview -->
+        <div id="statsGrid" class="stats-grid"></div>
+
+        <!-- Query Examples -->
+        <div class="section">
+            <h2>🔍 Interactive Query Examples</h2>
+            <p style="margin-bottom: 20px;">These examples demonstrate how to query the bill data using Lodash. Click "Run Query" to see results.</p>
+
+            <!-- Query 1: Top Appropriations -->
+            <div class="query-box">
+                <div class="query-title">Query 1: Top 10 Largest Appropriations</div>
+                <div class="query-code">
+const top10 = _.chain(billData.appropriations)
+    .filter(a => !a.isTotal)
+    .orderBy(['amount'], ['desc'])
+    .take(10)
+    .value();
+                </div>
+                <button class="btn" onclick="runQuery1()">Run Query</button>
+                <div id="result1" class="result" style="display:none;"></div>
+            </div>
+
+            <!-- Query 2: Agency Total -->
+            <div class="query-box">
+                <div class="query-title">Query 2: Total Appropriations by Agency</div>
+                <div class="query-code">
+const byAgency = _.chain(billData.appropriations)
+    .filter(a => !a.isTotal && a.agency)
+    .groupBy('agency')
+    .map((items, agency) => ({
+        agency,
+        total: _.sumBy(items, 'amount'),
+        count: items.length
+    }))
+    .orderBy(['total'], ['desc'])
+    .take(10)
+    .value();
+                </div>
+                <button class="btn" onclick="runQuery2()">Run Query</button>
+                <div id="result2" class="result" style="display:none;"></div>
+            </div>
+
+            <!-- Query 3: Search Agency -->
+            <div class="query-box">
+                <div class="query-title">Query 3: Search for Specific Agency</div>
+                <input type="text" id="agencySearch" class="search-box" placeholder="Enter agency name (e.g., 'COMMERCE', 'EDUCATION')">
+                <div class="query-code">
+const results = _.chain(billData.appropriations)
+    .filter(a => a.agency &&
+        a.agency.toUpperCase().includes(searchTerm.toUpperCase()))
+    .value();
+                </div>
+                <button class="btn" onclick="runQuery3()">Search</button>
+                <div id="result3" class="result" style="display:none;"></div>
+            </div>
+
+            <!-- Query 4: Fiscal Year Comparison -->
+            <div class="query-box">
+                <div class="query-title">Query 4: Compare Fiscal Years 2026 vs 2027</div>
+                <div class="query-code">
+const byYear = _.chain(billData.appropriations)
+    .filter(a => !a.isTotal && a.fiscalYear)
+    .groupBy('fiscalYear')
+    .mapValues(items => ({
+        total: _.sumBy(items, 'amount'),
+        count: items.length
+    }))
+    .value();
+                </div>
+                <button class="btn" onclick="runQuery4()">Run Query</button>
+                <div id="result4" class="result" style="display:none;"></div>
+            </div>
+
+            <!-- Query 5: Vetoed Sections -->
+            <div class="query-box">
+                <div class="query-title">Query 5: Find All Vetoed Sections</div>
+                <div class="query-code">
+const vetoed = _.filter(billData.sections, { isVetoed: true });
+                </div>
+                <button class="btn" onclick="runQuery5()">Run Query</button>
+                <div id="result5" class="result" style="display:none;"></div>
+            </div>
+
+            <!-- Query 6: Account Type Breakdown -->
+            <div class="query-box">
+                <div class="query-title">Query 6: Appropriations by Account Type</div>
+                <div class="query-code">
+const byAccountType = _.chain(billData.appropriations)
+    .filter(a => !a.isTotal)
+    .groupBy(a => {
+        if (a.account.includes('General Fund')) return 'General Fund';
+        if (a.account.includes('Federal')) return 'Federal';
+        return 'Special Accounts';
+    })
+    .mapValues(items => _.sumBy(items, 'amount'))
+    .value();
+                </div>
+                <button class="btn" onclick="runQuery6()">Run Query</button>
+                <div id="result6" class="result" style="display:none;"></div>
+                <div class="chart-container">
+                    <canvas id="accountTypeChart"></canvas>
+                </div>
+            </div>
+
+            <!-- Query 7: RCW References -->
+            <div class="query-box">
+                <div class="query-title">Query 7: Search RCW References</div>
+                <input type="text" id="rcwSearch" class="search-box" placeholder="Enter RCW number (e.g., '43.79')">
+                <div class="query-code">
+const rcwMatches = _.filter(billData.statutoryReferences,
+    ref => ref.reference.includes(searchTerm));
+                </div>
+                <button class="btn" onclick="runQuery7()">Search RCW</button>
+                <div id="result7" class="result" style="display:none;"></div>
+            </div>
+
+            <!-- Query 8: Range Query -->
+            <div class="query-box">
+                <div class="query-title">Query 8: Appropriations in Range</div>
+                <div style="margin-bottom: 10px;">
+                    <label>Min: $<input type="number" id="minAmount" value="10000000" style="width: 150px; padding: 5px;"></label>
+                    <label style="margin-left: 20px;">Max: $<input type="number" id="maxAmount" value="50000000" style="width: 150px; padding: 5px;"></label>
+                </div>
+                <div class="query-code">
+const inRange = _.filter(billData.appropriations,
+    a => !a.isTotal && a.amount >= min && a.amount <= max);
+                </div>
+                <button class="btn" onclick="runQuery8()">Run Query</button>
+                <div id="result8" class="result" style="display:none;"></div>
+            </div>
+        </div>
+
+        <!-- Data Summary -->
+        <div class="section">
+            <h2>📋 Bill Structure</h2>
+            <div id="billStructure"></div>
+        </div>
+    </div>
+
+    <script>
+        // Load the bill data
+        let billData = null;
+
+        // Fetch data on page load
+        fetch('HB5167-S-data.json')
+            .then(response => response.json())
+            .then(data => {
+                billData = data;
+                initializePage();
+            })
+            .catch(error => {
+                console.error('Error loading data:', error);
+                alert('Error loading bill data. Please ensure HB5167-S-data.json is in the same directory.');
+            });
+
+        function initializePage() {
+            displayStats();
+            displayBillStructure();
+        }
+
+        function displayStats() {
+            const stats = [
+                { label: 'Total Sections', value: billData.summary.structure.totalSections },
+                { label: 'Agencies', value: billData.summary.structure.totalAgencies },
+                { label: 'Appropriations', value: billData.summary.appropriations.totalCount },
+                { label: 'Total Amount', value: billData.summary.appropriations.grandTotalFormatted },
+                { label: 'RCW References', value: billData.summary.references.rcwCount },
+                { label: 'Vetoed Sections', value: billData.summary.references.vetoedSections }
+            ];
+
+            const html = stats.map(stat => `
+                <div class="stat-card">
+                    <div class="stat-value">${stat.value}</div>
+                    <div class="stat-label">${stat.label}</div>
+                </div>
+            `).join('');
+
+            document.getElementById('statsGrid').innerHTML = html;
+        }
+
+        function displayBillStructure() {
+            const html = `
+                <p><strong>Bill ID:</strong> ${billData.metadata.shortId}</p>
+                <p><strong>Type:</strong> ${billData.metadata.billType}</p>
+                <p><strong>Description:</strong> ${billData.metadata.description}</p>
+                <p><strong>Legislature:</strong> ${billData.metadata.legislature}</p>
+                <p><strong>Session:</strong> ${billData.metadata.session}</p>
+                <p><strong>Chapter Law:</strong> ${billData.metadata.chapterLaw}</p>
+                <p><strong>Effective Date:</strong> ${billData.metadata.effectiveDate}</p>
+
+                <h3 style="margin-top: 20px;">Bill Parts</h3>
+                <ul>
+                    ${billData.structure.parts.map(part =>
+                        `<li><strong>${part.partNumber}:</strong> ${part.title}</li>`
+                    ).join('')}
+                </ul>
+            `;
+
+            document.getElementById('billStructure').innerHTML = html;
+        }
+
+        function runQuery1() {
+            const top10 = _.chain(billData.appropriations)
+                .filter(a => !a.isTotal)
+                .orderBy(['amount'], ['desc'])
+                .take(10)
+                .value();
+
+            const html = `
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Rank</th>
+                            <th>Agency</th>
+                            <th>Account</th>
+                            <th>Amount</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        ${top10.map((item, idx) => `
+                            <tr>
+                                <td>${idx + 1}</td>
+                                <td>${item.agency}</td>
+                                <td>${item.account}</td>
+                                <td style="text-align: right; font-weight: bold;">${item.amountFormatted}</td>
+                            </tr>
+                        `).join('')}
+                    </tbody>
+                </table>
+            `;
+
+            const resultDiv = document.getElementById('result1');
+            resultDiv.innerHTML = html;
+            resultDiv.style.display = 'block';
+        }
+
+        function runQuery2() {
+            const byAgency = _.chain(billData.appropriations)
+                .filter(a => !a.isTotal && a.agency)
+                .groupBy('agency')
+                .map((items, agency) => ({
+                    agency,
+                    total: _.sumBy(items, 'amount'),
+                    count: items.length
+                }))
+                .orderBy(['total'], ['desc'])
+                .take(10)
+                .value();
+
+            const html = `
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Rank</th>
+                            <th>Agency</th>
+                            <th>Count</th>
+                            <th>Total</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        ${byAgency.map((item, idx) => `
+                            <tr>
+                                <td>${idx + 1}</td>
+                                <td>${item.agency}</td>
+                                <td>${item.count}</td>
+                                <td style="text-align: right; font-weight: bold;">$${item.total.toLocaleString()}</td>
+                            </tr>
+                        `).join('')}
+                    </tbody>
+                </table>
+            `;
+
+            const resultDiv = document.getElementById('result2');
+            resultDiv.innerHTML = html;
+            resultDiv.style.display = 'block';
+        }
+
+        function runQuery3() {
+            const searchTerm = document.getElementById('agencySearch').value;
+            if (!searchTerm) {
+                alert('Please enter a search term');
+                return;
+            }
+
+            const results = _.chain(billData.appropriations)
+                .filter(a => a.agency && a.agency.toUpperCase().includes(searchTerm.toUpperCase()))
+                .value();
+
+            const total = _.sumBy(results, 'amount');
+
+            const html = `
+                <p><strong>Found ${results.length} appropriations matching "${searchTerm}"</strong></p>
+                <p><strong>Total: $${total.toLocaleString()}</strong></p>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Section</th>
+                            <th>Agency</th>
+                            <th>Account</th>
+                            <th>Amount</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        ${results.slice(0, 20).map(item => `
+                            <tr>
+                                <td>${item.sectionNumber}</td>
+                                <td>${item.agency}</td>
+                                <td>${item.account}</td>
+                                <td style="text-align: right;">${item.amountFormatted}</td>
+                            </tr>
+                        `).join('')}
+                    </tbody>
+                </table>
+                ${results.length > 20 ? `<p><em>Showing first 20 of ${results.length} results</em></p>` : ''}
+            `;
+
+            const resultDiv = document.getElementById('result3');
+            resultDiv.innerHTML = html;
+            resultDiv.style.display = 'block';
+        }
+
+        function runQuery4() {
+            const byYear = _.chain(billData.appropriations)
+                .filter(a => !a.isTotal && a.fiscalYear)
+                .groupBy('fiscalYear')
+                .mapValues(items => ({
+                    total: _.sumBy(items, 'amount'),
+                    count: items.length
+                }))
+                .value();
+
+            const html = `
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Fiscal Year</th>
+                            <th>Count</th>
+                            <th>Total</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        ${Object.entries(byYear).map(([year, data]) => `
+                            <tr>
+                                <td>FY ${year}</td>
+                                <td>${data.count}</td>
+                                <td style="text-align: right; font-weight: bold;">$${data.total.toLocaleString()}</td>
+                            </tr>
+                        `).join('')}
+                    </tbody>
+                </table>
+            `;
+
+            const resultDiv = document.getElementById('result4');
+            resultDiv.innerHTML = html;
+            resultDiv.style.display = 'block';
+        }
+
+        function runQuery5() {
+            const vetoed = _.filter(billData.sections, { isVetoed: true });
+
+            const html = `
+                <p><strong>Found ${vetoed.length} vetoed sections</strong></p>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Section</th>
+                            <th>Agency</th>
+                            <th>Veto Type</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        ${vetoed.map(item => `
+                            <tr>
+                                <td>${item.sectionNumber}</td>
+                                <td>${item.agency || 'N/A'}</td>
+                                <td><span class="tag veto-tag">${item.vetoType || 'N/A'}</span></td>
+                            </tr>
+                        `).join('')}
+                    </tbody>
+                </table>
+            `;
+
+            const resultDiv = document.getElementById('result5');
+            resultDiv.innerHTML = html;
+            resultDiv.style.display = 'block';
+        }
+
+        function runQuery6() {
+            const byAccountType = _.chain(billData.appropriations)
+                .filter(a => !a.isTotal)
+                .groupBy(a => {
+                    if (a.account.includes('General Fund')) return 'General Fund';
+                    if (a.account.includes('Federal')) return 'Federal';
+                    return 'Special Accounts';
+                })
+                .mapValues(items => _.sumBy(items, 'amount'))
+                .value();
+
+            const html = `
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Account Type</th>
+                            <th>Total</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        ${Object.entries(byAccountType).map(([type, total]) => `
+                            <tr>
+                                <td>${type}</td>
+                                <td style="text-align: right; font-weight: bold;">$${total.toLocaleString()}</td>
+                            </tr>
+                        `).join('')}
+                    </tbody>
+                </table>
+            `;
+
+            const resultDiv = document.getElementById('result6');
+            resultDiv.innerHTML = html;
+            resultDiv.style.display = 'block';
+
+            // Create chart
+            const ctx = document.getElementById('accountTypeChart').getContext('2d');
+            new Chart(ctx, {
+                type: 'pie',
+                data: {
+                    labels: Object.keys(byAccountType),
+                    datasets: [{
+                        data: Object.values(byAccountType),
+                        backgroundColor: ['#667eea', '#764ba2', '#f093fb']
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        title: {
+                            display: true,
+                            text: 'Appropriations by Account Type'
+                        },
+                        tooltip: {
+                            callbacks: {
+                                label: function(context) {
+                                    return context.label + ': $' + context.parsed.toLocaleString();
+                                }
+                            }
+                        }
+                    }
+                }
+            });
+        }
+
+        function runQuery7() {
+            const searchTerm = document.getElementById('rcwSearch').value;
+            if (!searchTerm) {
+                alert('Please enter an RCW number');
+                return;
+            }
+
+            const rcwMatches = _.filter(billData.statutoryReferences,
+                ref => ref.reference.includes(searchTerm));
+
+            const html = `
+                <p><strong>Found ${rcwMatches.length} RCW references matching "${searchTerm}"</strong></p>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Reference</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        ${rcwMatches.map((item, idx) => `
+                            <tr>
+                                <td>${idx + 1}</td>
+                                <td><span class="tag">${item.fullReference}</span></td>
+                            </tr>
+                        `).join('')}
+                    </tbody>
+                </table>
+            `;
+
+            const resultDiv = document.getElementById('result7');
+            resultDiv.innerHTML = html;
+            resultDiv.style.display = 'block';
+        }
+
+        function runQuery8() {
+            const min = parseInt(document.getElementById('minAmount').value);
+            const max = parseInt(document.getElementById('maxAmount').value);
+
+            const inRange = _.filter(billData.appropriations,
+                a => !a.isTotal && a.amount >= min && a.amount <= max);
+
+            const html = `
+                <p><strong>Found ${inRange.length} appropriations between $${min.toLocaleString()} and $${max.toLocaleString()}</strong></p>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Agency</th>
+                            <th>Account</th>
+                            <th>Amount</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        ${inRange.slice(0, 20).map(item => `
+                            <tr>
+                                <td>${item.agency}</td>
+                                <td>${item.account}</td>
+                                <td style="text-align: right;">${item.amountFormatted}</td>
+                            </tr>
+                        `).join('')}
+                    </tbody>
+                </table>
+                ${inRange.length > 20 ? `<p><em>Showing first 20 of ${inRange.length} results</em></p>` : ''}
+            `;
+
+            const resultDiv = document.getElementById('result8');
+            resultDiv.innerHTML = html;
+            resultDiv.style.display = 'block';
+        }
+    </script>
+</body>
+</html>

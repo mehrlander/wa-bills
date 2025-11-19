@@ -1,0 +1,22 @@
+{
+  "name": "wa-budget-bills",
+  "version": "1.0.0",
+  "description": "Repository for parsing and analyzing Washington State budget bills",
+  "main": "init-database.js",
+  "scripts": {
+    "init-db": "node init-database.js",
+    "query": "node query-database.js"
+  },
+  "keywords": [
+    "washington",
+    "state",
+    "budget",
+    "bills",
+    "legislature"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "sqlite3": "^5.1.7"
+  }
+}

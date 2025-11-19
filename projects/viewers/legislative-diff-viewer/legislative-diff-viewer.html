@@ -1,0 +1,1209 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legislative Text Diff Viewer</title>
+
+    <!-- Tailwind CSS + DaisyUI -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.4.19/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Alpine.js -->
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.13.3/dist/cdn.min.js"></script>
+
+    <!-- diff-match-patch -->
+    <script src="https://cdn.jsdelivr.net/npm/diff-match-patch@1.0.5/index.js"></script>
+
+    <!-- jsPDF for PDF export -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+    <style>
+        .diff-viewer {
+            font-family: 'Courier New', monospace;
+            font-size: 14px;
+            line-height: 1.6;
+        }
+
+        .diff-line {
+            padding: 2px 8px;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            border-left: 3px solid transparent;
+            transition: background-color 0.2s;
+        }
+
+        .diff-line:hover {
+            background-color: rgba(0, 0, 0, 0.05);
+        }
+
+        .diff-addition {
+            background-color: #d4edda;
+            border-left-color: #28a745;
+        }
+
+        .diff-deletion {
+            background-color: #f8d7da;
+            border-left-color: #dc3545;
+            text-decoration: line-through;
+        }
+
+        .diff-modification {
+            background-color: #fff3cd;
+            border-left-color: #ffc107;
+        }
+
+        .diff-equal {
+            background-color: transparent;
+        }
+
+        .diff-section-header {
+            background-color: #e7f3ff;
+            border-left: 4px solid #0066cc;
+            font-weight: bold;
+            padding: 8px 12px;
+            margin: 8px 0;
+        }
+
+        .diff-highlight {
+            background-color: #ffeb3b;
+            padding: 2px 4px;
+            border-radius: 2px;
+        }
+
+        .annotation-marker {
+            cursor: pointer;
+            border-bottom: 2px dotted #ff6b6b;
+            position: relative;
+        }
+
+        .annotation-popup {
+            position: absolute;
+            z-index: 1000;
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 12px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            min-width: 300px;
+        }
+
+        .sync-scroll {
+            overflow-y: scroll;
+            height: 600px;
+        }
+
+        .change-badge {
+            display: inline-block;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 11px;
+            font-weight: bold;
+            margin-left: 8px;
+        }
+
+        .major-change {
+            background-color: #ff6b6b;
+            color: white;
+        }
+
+        .minor-change {
+            background-color: #51cf66;
+            color: white;
+        }
+
+        .timeline-item {
+            position: relative;
+            padding-left: 30px;
+            padding-bottom: 20px;
+            border-left: 2px solid #ddd;
+        }
+
+        .timeline-item:last-child {
+            border-left: none;
+        }
+
+        .timeline-dot {
+            position: absolute;
+            left: -6px;
+            top: 0;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background-color: #0066cc;
+        }
+
+        .three-way-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 16px;
+        }
+
+        .export-preview {
+            border: 1px solid #ddd;
+            padding: 20px;
+            background: white;
+            margin-top: 20px;
+        }
+
+        .line-number {
+            display: inline-block;
+            width: 40px;
+            color: #999;
+            text-align: right;
+            margin-right: 12px;
+            user-select: none;
+        }
+
+        .current-change {
+            outline: 3px solid #0066cc;
+            outline-offset: 2px;
+        }
+
+        .stats-card {
+            transition: transform 0.2s;
+        }
+
+        .stats-card:hover {
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body class="bg-base-200">
+
+<div x-data="diffViewer()" x-init="init()" class="min-h-screen">
+
+    <!-- Header -->
+    <div class="navbar bg-primary text-primary-content shadow-lg">
+        <div class="flex-1">
+            <h1 class="text-2xl font-bold ml-4">Legislative Text Diff Viewer</h1>
+        </div>
+        <div class="flex-none gap-2">
+            <label class="swap swap-rotate">
+                <input type="checkbox" x-model="settings.darkMode" @change="toggleDarkMode()" />
+                <svg class="swap-on fill-current w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5.64,17l-.71.71a1,1,0,0,0,0,1.41,1,1,0,0,0,1.41,0l.71-.71A1,1,0,0,0,5.64,17ZM5,12a1,1,0,0,0-1-1H3a1,1,0,0,0,0,2H4A1,1,0,0,0,5,12Zm7-7a1,1,0,0,0,1-1V3a1,1,0,0,0-2,0V4A1,1,0,0,0,12,5ZM5.64,7.05a1,1,0,0,0,.7.29,1,1,0,0,0,.71-.29,1,1,0,0,0,0-1.41l-.71-.71A1,1,0,0,0,4.93,6.34Zm12,.29a1,1,0,0,0,.7-.29l.71-.71a1,1,0,1,0-1.41-1.41L17,5.64a1,1,0,0,0,0,1.41A1,1,0,0,0,17.66,7.34ZM21,11H20a1,1,0,0,0,0,2h1a1,1,0,0,0,0-2Zm-9,8a1,1,0,0,0-1,1v1a1,1,0,0,0,2,0V20A1,1,0,0,0,12,19ZM18.36,17A1,1,0,0,0,17,18.36l.71.71a1,1,0,0,0,1.41,0,1,1,0,0,0,0-1.41ZM12,6.5A5.5,5.5,0,1,0,17.5,12,5.51,5.51,0,0,0,12,6.5Zm0,9A3.5,3.5,0,1,1,15.5,12,3.5,3.5,0,0,1,12,15.5Z"/></svg>
+                <svg class="swap-off fill-current w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21.64,13a1,1,0,0,0-1.05-.14,8.05,8.05,0,0,1-3.37.73A8.15,8.15,0,0,1,9.08,5.49a8.59,8.59,0,0,1,.25-2A1,1,0,0,0,8,2.36,10.14,10.14,0,1,0,22,14.05,1,1,0,0,0,21.64,13Zm-9.5,6.69A8.14,8.14,0,0,1,7.08,5.22v.27A10.15,10.15,0,0,0,17.22,15.63a9.79,9.79,0,0,0,2.1-.22A8.11,8.11,0,0,1,12.14,19.73Z"/></svg>
+            </label>
+            <label for="settings-drawer" class="btn btn-ghost drawer-button">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                </svg>
+            </label>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="drawer drawer-end">
+        <input id="settings-drawer" type="checkbox" class="drawer-toggle" />
+        <div class="drawer-content">
+
+            <!-- Input Section -->
+            <div class="container mx-auto p-6">
+                <div class="card bg-base-100 shadow-xl mb-6">
+                    <div class="card-body">
+                        <h2 class="card-title">Input Legislative Texts</h2>
+
+                        <!-- Mode Selection -->
+                        <div class="tabs tabs-boxed mb-4">
+                            <a class="tab" :class="{'tab-active': viewMode === 'two-way'}" @click="viewMode = 'two-way'; computeDiff()">Two-Way Diff</a>
+                            <a class="tab" :class="{'tab-active': viewMode === 'three-way'}" @click="viewMode = 'three-way'; computeDiff()">Three-Way Merge</a>
+                            <a class="tab" :class="{'tab-active': viewMode === 'timeline'}" @click="viewMode = 'timeline'">Timeline</a>
+                        </div>
+
+                        <!-- Two-Way Input -->
+                        <div x-show="viewMode === 'two-way'" class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                            <div>
+                                <label class="label">
+                                    <span class="label-text font-semibold">Original Text</span>
+                                    <button @click="loadSampleOriginal()" class="btn btn-xs btn-outline">Load Sample</button>
+                                </label>
+                                <textarea x-model="originalText" @input="computeDiff()" class="textarea textarea-bordered w-full h-48 font-mono text-sm" placeholder="Paste original bill text here..."></textarea>
+                            </div>
+                            <div>
+                                <label class="label">
+                                    <span class="label-text font-semibold">Modified Text</span>
+                                    <button @click="loadSampleModified()" class="btn btn-xs btn-outline">Load Sample</button>
+                                </label>
+                                <textarea x-model="modifiedText" @input="computeDiff()" class="textarea textarea-bordered w-full h-48 font-mono text-sm" placeholder="Paste modified bill text here..."></textarea>
+                            </div>
+                        </div>
+
+                        <!-- Three-Way Input -->
+                        <div x-show="viewMode === 'three-way'" class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                            <div>
+                                <label class="label">
+                                    <span class="label-text font-semibold">Base Version</span>
+                                </label>
+                                <textarea x-model="baseText" @input="computeThreeWayDiff()" class="textarea textarea-bordered w-full h-48 font-mono text-sm" placeholder="Base version..."></textarea>
+                            </div>
+                            <div>
+                                <label class="label">
+                                    <span class="label-text font-semibold">House Version</span>
+                                </label>
+                                <textarea x-model="houseText" @input="computeThreeWayDiff()" class="textarea textarea-bordered w-full h-48 font-mono text-sm" placeholder="House version..."></textarea>
+                            </div>
+                            <div>
+                                <label class="label">
+                                    <span class="label-text font-semibold">Senate Version</span>
+                                </label>
+                                <textarea x-model="senateText" @input="computeThreeWayDiff()" class="textarea textarea-bordered w-full h-48 font-mono text-sm" placeholder="Senate version..."></textarea>
+                            </div>
+                        </div>
+
+                        <!-- Timeline Input -->
+                        <div x-show="viewMode === 'timeline'">
+                            <div class="mb-4">
+                                <button @click="addVersion()" class="btn btn-primary btn-sm">Add Version</button>
+                            </div>
+                            <template x-for="(version, index) in versions" :key="index">
+                                <div class="mb-4 p-4 border rounded-lg">
+                                    <div class="flex justify-between items-center mb-2">
+                                        <input x-model="version.label" class="input input-bordered input-sm" placeholder="Version label (e.g., 'First Reading')">
+                                        <button @click="removeVersion(index)" class="btn btn-error btn-xs">Remove</button>
+                                    </div>
+                                    <textarea x-model="version.text" @input="computeTimelineDiff()" class="textarea textarea-bordered w-full h-32 font-mono text-sm" placeholder="Version text..."></textarea>
+                                </div>
+                            </template>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Statistics Dashboard -->
+                <div x-show="diffResults.length > 0 || threeWayResults.base.length > 0" class="grid grid-cols-1 md:grid-cols-4 gap-4 mb-6">
+                    <div class="card bg-success text-success-content shadow-lg stats-card">
+                        <div class="card-body">
+                            <h3 class="card-title text-sm">Lines Added</h3>
+                            <p class="text-3xl font-bold" x-text="stats.linesAdded"></p>
+                            <div class="badge badge-success badge-outline" x-text="stats.additionPercent + '%'"></div>
+                        </div>
+                    </div>
+                    <div class="card bg-error text-error-content shadow-lg stats-card">
+                        <div class="card-body">
+                            <h3 class="card-title text-sm">Lines Removed</h3>
+                            <p class="text-3xl font-bold" x-text="stats.linesRemoved"></p>
+                            <div class="badge badge-error badge-outline" x-text="stats.deletionPercent + '%'"></div>
+                        </div>
+                    </div>
+                    <div class="card bg-warning text-warning-content shadow-lg stats-card">
+                        <div class="card-body">
+                            <h3 class="card-title text-sm">Sections Modified</h3>
+                            <p class="text-3xl font-bold" x-text="stats.sectionsModified"></p>
+                            <div class="flex gap-1 mt-2">
+                                <div class="badge major-change" x-text="stats.majorChanges + ' major'"></div>
+                                <div class="badge minor-change" x-text="stats.minorChanges + ' minor'"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card bg-info text-info-content shadow-lg stats-card">
+                        <div class="card-body">
+                            <h3 class="card-title text-sm">Total Changes</h3>
+                            <p class="text-3xl font-bold" x-text="stats.totalChanges"></p>
+                            <div class="badge badge-info badge-outline" x-text="stats.changePercent + '% changed'"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Control Bar -->
+                <div x-show="diffResults.length > 0 || threeWayResults.base.length > 0" class="card bg-base-100 shadow-xl mb-6">
+                    <div class="card-body">
+                        <div class="flex flex-wrap gap-4 items-center">
+                            <!-- Highlight Mode -->
+                            <div class="form-control">
+                                <label class="label">
+                                    <span class="label-text font-semibold">Highlight Mode</span>
+                                </label>
+                                <select x-model="highlightMode" class="select select-bordered select-sm">
+                                    <option value="all">All Changes</option>
+                                    <option value="additions">Additions Only</option>
+                                    <option value="deletions">Deletions Only</option>
+                                    <option value="modifications">Modifications Only</option>
+                                </select>
+                            </div>
+
+                            <!-- Semantic Cleanup -->
+                            <div class="form-control">
+                                <label class="label cursor-pointer gap-2">
+                                    <span class="label-text">Semantic Cleanup</span>
+                                    <input type="checkbox" x-model="settings.semanticCleanup" @change="computeDiff()" class="checkbox checkbox-sm" />
+                                </label>
+                            </div>
+
+                            <!-- Pretty Print -->
+                            <div class="form-control">
+                                <label class="label cursor-pointer gap-2">
+                                    <span class="label-text">Pretty Print</span>
+                                    <input type="checkbox" x-model="settings.prettyPrint" class="checkbox checkbox-sm" />
+                                </label>
+                            </div>
+
+                            <!-- Annotation Mode -->
+                            <div class="form-control">
+                                <label class="label cursor-pointer gap-2">
+                                    <span class="label-text">Annotation Mode</span>
+                                    <input type="checkbox" x-model="annotationMode" class="checkbox checkbox-sm" />
+                                </label>
+                            </div>
+
+                            <div class="divider divider-horizontal"></div>
+
+                            <!-- Navigation -->
+                            <div class="btn-group">
+                                <button @click="previousChange()" class="btn btn-sm" :disabled="currentChangeIndex <= 0">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+                                    </svg>
+                                    Prev
+                                </button>
+                                <button class="btn btn-sm no-animation" x-text="`${currentChangeIndex + 1} / ${changePositions.length}`"></button>
+                                <button @click="nextChange()" class="btn btn-sm" :disabled="currentChangeIndex >= changePositions.length - 1">
+                                    Next
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                                    </svg>
+                                </button>
+                            </div>
+
+                            <button @click="jumpToLargestChange()" class="btn btn-sm btn-outline">Jump to Largest Change</button>
+
+                            <div class="divider divider-horizontal"></div>
+
+                            <!-- Export -->
+                            <div class="dropdown dropdown-end">
+                                <label tabindex="0" class="btn btn-sm btn-primary">
+                                    Export
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+                                    </svg>
+                                </label>
+                                <ul tabindex="0" class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52">
+                                    <li><a @click="exportHTML()">Export as HTML</a></li>
+                                    <li><a @click="exportPDF()">Export as PDF-ready</a></li>
+                                    <li><a @click="exportAnnotations()">Export Annotations (JSON)</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Timeline View -->
+                <div x-show="viewMode === 'timeline' && versions.length > 1" class="card bg-base-100 shadow-xl mb-6">
+                    <div class="card-body">
+                        <h2 class="card-title">History Timeline</h2>
+                        <div class="timeline-container">
+                            <template x-for="(version, index) in versions" :key="index">
+                                <div class="timeline-item" @click="selectTimelineVersion(index)">
+                                    <div class="timeline-dot"></div>
+                                    <div class="cursor-pointer hover:bg-base-200 p-3 rounded">
+                                        <h4 class="font-bold" x-text="version.label || `Version ${index + 1}`"></h4>
+                                        <p class="text-sm text-gray-600" x-text="`${version.text.split('\n').length} lines`"></p>
+                                        <div x-show="index > 0" class="mt-2">
+                                            <span class="badge badge-success badge-sm" x-text="timelineStats[index]?.added + ' added'"></span>
+                                            <span class="badge badge-error badge-sm ml-2" x-text="timelineStats[index]?.removed + ' removed'"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </template>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Diff Display - Two-Way -->
+                <div x-show="viewMode === 'two-way' && diffResults.length > 0" class="card bg-base-100 shadow-xl">
+                    <div class="card-body">
+                        <h2 class="card-title">Side-by-Side Comparison</h2>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                            <div>
+                                <div class="bg-base-200 p-2 font-bold rounded-t">Original</div>
+                                <div class="sync-scroll diff-viewer border border-base-300 rounded-b"
+                                     x-ref="leftPane"
+                                     @scroll="syncScroll('left')"
+                                     x-html="renderDiffPane('original')"></div>
+                            </div>
+                            <div>
+                                <div class="bg-base-200 p-2 font-bold rounded-t">Modified</div>
+                                <div class="sync-scroll diff-viewer border border-base-300 rounded-b"
+                                     x-ref="rightPane"
+                                     @scroll="syncScroll('right')"
+                                     x-html="renderDiffPane('modified')"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Diff Display - Three-Way -->
+                <div x-show="viewMode === 'three-way' && threeWayResults.base.length > 0" class="card bg-base-100 shadow-xl">
+                    <div class="card-body">
+                        <h2 class="card-title">Three-Way Merge View</h2>
+                        <div class="three-way-container">
+                            <div>
+                                <div class="bg-base-200 p-2 font-bold rounded-t">Base</div>
+                                <div class="sync-scroll diff-viewer border border-base-300 rounded-b"
+                                     x-html="renderThreeWayPane('base')"></div>
+                            </div>
+                            <div>
+                                <div class="bg-primary text-primary-content p-2 font-bold rounded-t">House</div>
+                                <div class="sync-scroll diff-viewer border border-base-300 rounded-b"
+                                     x-html="renderThreeWayPane('house')"></div>
+                            </div>
+                            <div>
+                                <div class="bg-secondary text-secondary-content p-2 font-bold rounded-t">Senate</div>
+                                <div class="sync-scroll diff-viewer border border-base-300 rounded-b"
+                                     x-html="renderThreeWayPane('senate')"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Annotations Panel -->
+                <div x-show="annotations.length > 0" class="card bg-base-100 shadow-xl mt-6">
+                    <div class="card-body">
+                        <h2 class="card-title">Annotations (<span x-text="annotations.length"></span>)</h2>
+                        <div class="space-y-2">
+                            <template x-for="(annotation, index) in annotations" :key="index">
+                                <div class="alert shadow-lg">
+                                    <div class="flex-1">
+                                        <div class="font-mono text-sm bg-base-200 p-2 rounded mb-2" x-text="annotation.text"></div>
+                                        <p x-text="annotation.note"></p>
+                                        <p class="text-xs text-gray-500 mt-1">Line <span x-text="annotation.lineNumber"></span></p>
+                                    </div>
+                                    <div class="flex-none">
+                                        <button @click="removeAnnotation(index)" class="btn btn-sm btn-ghost">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </div>
+                            </template>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Settings Drawer -->
+        <div class="drawer-side">
+            <label for="settings-drawer" class="drawer-overlay"></label>
+            <div class="menu p-4 w-80 bg-base-100 text-base-content">
+                <h2 class="text-2xl font-bold mb-4">Settings</h2>
+
+                <div class="form-control mb-4">
+                    <label class="label">
+                        <span class="label-text">Diff Algorithm</span>
+                    </label>
+                    <select x-model="settings.diffAlgorithm" @change="computeDiff()" class="select select-bordered">
+                        <option value="word">Word-level</option>
+                        <option value="line">Line-level</option>
+                        <option value="character">Character-level</option>
+                    </select>
+                </div>
+
+                <div class="form-control mb-4">
+                    <label class="label">
+                        <span class="label-text">Context Lines</span>
+                    </label>
+                    <input type="range" x-model="settings.contextLines" min="0" max="10" class="range range-primary" @change="computeDiff()" />
+                    <div class="w-full flex justify-between text-xs px-2">
+                        <span>0</span>
+                        <span x-text="settings.contextLines"></span>
+                        <span>10</span>
+                    </div>
+                </div>
+
+                <div class="form-control mb-4">
+                    <label class="label cursor-pointer">
+                        <span class="label-text">Show Line Numbers</span>
+                        <input type="checkbox" x-model="settings.showLineNumbers" class="toggle toggle-primary" />
+                    </label>
+                </div>
+
+                <div class="form-control mb-4">
+                    <label class="label cursor-pointer">
+                        <span class="label-text">Ignore Whitespace</span>
+                        <input type="checkbox" x-model="settings.ignoreWhitespace" @change="computeDiff()" class="toggle toggle-primary" />
+                    </label>
+                </div>
+
+                <div class="form-control mb-4">
+                    <label class="label cursor-pointer">
+                        <span class="label-text">Ignore Case</span>
+                        <input type="checkbox" x-model="settings.ignoreCase" @change="computeDiff()" class="toggle toggle-primary" />
+                    </label>
+                </div>
+
+                <div class="divider"></div>
+
+                <div class="form-control mb-4">
+                    <label class="label">
+                        <span class="label-text">Major Change Threshold (lines)</span>
+                    </label>
+                    <input type="number" x-model="settings.majorChangeThreshold" min="1" class="input input-bordered" @change="computeStats()" />
+                </div>
+
+                <div class="divider"></div>
+
+                <button @click="resetSettings()" class="btn btn-outline btn-error">Reset to Defaults</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Annotation Modal -->
+    <div x-show="showAnnotationModal" class="modal modal-open" x-cloak>
+        <div class="modal-box">
+            <h3 class="font-bold text-lg mb-4">Add Annotation</h3>
+            <div class="mb-4">
+                <label class="label">
+                    <span class="label-text">Selected Text</span>
+                </label>
+                <div class="p-3 bg-base-200 rounded font-mono text-sm" x-text="currentAnnotation.text"></div>
+            </div>
+            <div class="mb-4">
+                <label class="label">
+                    <span class="label-text">Your Note</span>
+                </label>
+                <textarea x-model="currentAnnotation.note" class="textarea textarea-bordered w-full" placeholder="Add your note here..."></textarea>
+            </div>
+            <div class="modal-action">
+                <button @click="saveAnnotation()" class="btn btn-primary">Save</button>
+                <button @click="showAnnotationModal = false" class="btn">Cancel</button>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<script>
+function diffViewer() {
+    return {
+        // Texts
+        originalText: '',
+        modifiedText: '',
+        baseText: '',
+        houseText: '',
+        senateText: '',
+
+        // Versions for timeline
+        versions: [],
+        selectedVersionIndex: 0,
+        timelineStats: [],
+
+        // View mode
+        viewMode: 'two-way', // 'two-way', 'three-way', 'timeline'
+
+        // Diff results
+        diffResults: [],
+        threeWayResults: {
+            base: [],
+            house: [],
+            senate: []
+        },
+
+        // Settings
+        settings: {
+            diffAlgorithm: 'word',
+            contextLines: 3,
+            showLineNumbers: true,
+            ignoreWhitespace: false,
+            ignoreCase: false,
+            semanticCleanup: true,
+            prettyPrint: true,
+            darkMode: false,
+            majorChangeThreshold: 5
+        },
+
+        // Stats
+        stats: {
+            linesAdded: 0,
+            linesRemoved: 0,
+            sectionsModified: 0,
+            majorChanges: 0,
+            minorChanges: 0,
+            totalChanges: 0,
+            additionPercent: 0,
+            deletionPercent: 0,
+            changePercent: 0
+        },
+
+        // Navigation
+        changePositions: [],
+        currentChangeIndex: 0,
+
+        // Highlight mode
+        highlightMode: 'all',
+
+        // Annotations
+        annotationMode: false,
+        annotations: [],
+        showAnnotationModal: false,
+        currentAnnotation: {
+            text: '',
+            note: '',
+            lineNumber: 0
+        },
+
+        // Scroll sync
+        scrolling: false,
+
+        // diff-match-patch instance
+        dmp: null,
+
+        init() {
+            this.dmp = new diff_match_patch();
+            this.dmp.Diff_Timeout = 1.0;
+            this.dmp.Diff_EditCost = 4;
+
+            // Add click listener for annotations
+            document.addEventListener('click', (e) => {
+                if (this.annotationMode && e.target.classList.contains('diff-line')) {
+                    const text = e.target.textContent;
+                    const lineNumber = e.target.dataset.line || 0;
+                    this.openAnnotationModal(text, lineNumber);
+                }
+            });
+        },
+
+        computeDiff() {
+            if (this.viewMode !== 'two-way') return;
+            if (!this.originalText || !this.modifiedText) return;
+
+            let text1 = this.originalText;
+            let text2 = this.modifiedText;
+
+            if (this.settings.ignoreWhitespace) {
+                text1 = text1.replace(/\s+/g, ' ');
+                text2 = text2.replace(/\s+/g, ' ');
+            }
+
+            if (this.settings.ignoreCase) {
+                text1 = text1.toLowerCase();
+                text2 = text2.toLowerCase();
+            }
+
+            let diffs;
+            if (this.settings.diffAlgorithm === 'line') {
+                const a = this.dmp.diff_linesToChars_(text1, text2);
+                diffs = this.dmp.diff_main(a.chars1, a.chars2, false);
+                this.dmp.diff_charsToLines_(diffs, a.lineArray);
+            } else {
+                diffs = this.dmp.diff_main(text1, text2);
+            }
+
+            if (this.settings.semanticCleanup) {
+                this.dmp.diff_cleanupSemantic(diffs);
+            }
+
+            this.diffResults = this.processDiffs(diffs);
+            this.computeStats();
+            this.identifyChangePositions();
+        },
+
+        computeThreeWayDiff() {
+            if (this.viewMode !== 'three-way') return;
+            if (!this.baseText || !this.houseText || !this.senateText) return;
+
+            const baseHouseDiffs = this.dmp.diff_main(this.baseText, this.houseText);
+            const baseSenateDiffs = this.dmp.diff_main(this.baseText, this.senateText);
+
+            if (this.settings.semanticCleanup) {
+                this.dmp.diff_cleanupSemantic(baseHouseDiffs);
+                this.dmp.diff_cleanupSemantic(baseSenateDiffs);
+            }
+
+            this.threeWayResults = {
+                base: this.processDiffs(this.dmp.diff_main(this.baseText, this.baseText)),
+                house: this.processDiffs(baseHouseDiffs),
+                senate: this.processDiffs(baseSenateDiffs)
+            };
+
+            this.computeStats();
+        },
+
+        computeTimelineDiff() {
+            if (this.versions.length < 2) return;
+
+            this.timelineStats = this.versions.map((version, index) => {
+                if (index === 0) return { added: 0, removed: 0 };
+
+                const diffs = this.dmp.diff_main(this.versions[index - 1].text, version.text);
+                let added = 0, removed = 0;
+
+                diffs.forEach(diff => {
+                    if (diff[0] === 1) added += diff[1].split('\n').length;
+                    if (diff[0] === -1) removed += diff[1].split('\n').length;
+                });
+
+                return { added, removed };
+            });
+        },
+
+        processDiffs(diffs) {
+            const processed = [];
+            let lineNumber = 1;
+
+            diffs.forEach(diff => {
+                const [operation, text] = diff;
+                const lines = text.split('\n');
+
+                lines.forEach((line, index) => {
+                    if (index === lines.length - 1 && line === '') return;
+
+                    const section = this.detectSection(line);
+
+                    processed.push({
+                        operation, // -1 = delete, 0 = equal, 1 = insert
+                        text: line,
+                        lineNumber: lineNumber++,
+                        section,
+                        isSectionHeader: !!section
+                    });
+                });
+            });
+
+            return processed;
+        },
+
+        detectSection(line) {
+            // Detect legislative sections
+            const patterns = [
+                /^(SECTION|SEC\.|§)\s+(\d+)/i,
+                /^(Article|Chapter|Part|Title)\s+([IVX\d]+)/i,
+                /^\(([a-z0-9]+)\)\s*/i,
+                /^(\d+)\.\s+/
+            ];
+
+            for (let pattern of patterns) {
+                const match = line.match(pattern);
+                if (match) {
+                    return match[0];
+                }
+            }
+
+            return null;
+        },
+
+        computeStats() {
+            let added = 0, removed = 0, sectionsModified = new Set();
+            const changes = [];
+
+            const processResults = (results) => {
+                results.forEach(item => {
+                    if (item.operation === 1) {
+                        added++;
+                        if (item.section) sectionsModified.add(item.section);
+                    } else if (item.operation === -1) {
+                        removed++;
+                        if (item.section) sectionsModified.add(item.section);
+                    }
+
+                    if (item.operation !== 0) {
+                        changes.push(item);
+                    }
+                });
+            };
+
+            if (this.viewMode === 'two-way') {
+                processResults(this.diffResults);
+            } else if (this.viewMode === 'three-way') {
+                processResults(this.threeWayResults.house);
+                processResults(this.threeWayResults.senate);
+            }
+
+            // Categorize changes
+            let majorChanges = 0, minorChanges = 0;
+            const threshold = parseInt(this.settings.majorChangeThreshold);
+
+            // Group consecutive changes
+            let currentGroup = [];
+            changes.forEach((change, index) => {
+                currentGroup.push(change);
+
+                if (index === changes.length - 1 || changes[index + 1].lineNumber !== change.lineNumber + 1) {
+                    if (currentGroup.length >= threshold) {
+                        majorChanges++;
+                    } else {
+                        minorChanges++;
+                    }
+                    currentGroup = [];
+                }
+            });
+
+            const total = added + removed;
+
+            this.stats = {
+                linesAdded: added,
+                linesRemoved: removed,
+                sectionsModified: sectionsModified.size,
+                majorChanges,
+                minorChanges,
+                totalChanges: changes.length,
+                additionPercent: total > 0 ? Math.round((added / total) * 100) : 0,
+                deletionPercent: total > 0 ? Math.round((removed / total) * 100) : 0,
+                changePercent: this.diffResults.length > 0 ?
+                    Math.round((changes.length / this.diffResults.length) * 100) : 0
+            };
+        },
+
+        identifyChangePositions() {
+            this.changePositions = [];
+            this.diffResults.forEach((item, index) => {
+                if (item.operation !== 0) {
+                    this.changePositions.push(index);
+                }
+            });
+            this.currentChangeIndex = 0;
+        },
+
+        renderDiffPane(pane) {
+            const results = this.diffResults;
+            if (!results || results.length === 0) return '<div class="p-4 text-gray-500">No diff to display</div>';
+
+            let html = '';
+            const showOriginal = pane === 'original';
+
+            results.forEach((item, index) => {
+                // Filter based on highlight mode
+                if (this.highlightMode === 'additions' && item.operation !== 1) return;
+                if (this.highlightMode === 'deletions' && item.operation !== -1) return;
+                if (this.highlightMode === 'modifications' && item.operation === 0) return;
+
+                // Skip insertions in original pane
+                if (showOriginal && item.operation === 1) return;
+                // Skip deletions in modified pane
+                if (!showOriginal && item.operation === -1) return;
+
+                let cssClass = 'diff-line ';
+                if (item.operation === 1) cssClass += 'diff-addition';
+                else if (item.operation === -1) cssClass += 'diff-deletion';
+                else if (item.operation === 0) cssClass += 'diff-equal';
+
+                if (index === this.changePositions[this.currentChangeIndex]) {
+                    cssClass += ' current-change';
+                }
+
+                if (item.isSectionHeader) {
+                    html += `<div class="diff-section-header">${this.escapeHtml(item.text)}</div>`;
+                } else {
+                    let lineText = item.text;
+                    if (this.settings.prettyPrint) {
+                        lineText = this.prettyPrint(lineText);
+                    }
+
+                    const lineNum = this.settings.showLineNumbers ?
+                        `<span class="line-number">${item.lineNumber}</span>` : '';
+
+                    const isAnnotated = this.annotations.some(a => a.lineNumber === item.lineNumber);
+                    const annotationClass = isAnnotated ? 'annotation-marker' : '';
+
+                    html += `<div class="${cssClass} ${annotationClass}" data-line="${item.lineNumber}" data-index="${index}">
+                        ${lineNum}${this.escapeHtml(lineText)}
+                    </div>`;
+                }
+            });
+
+            return html || '<div class="p-4 text-gray-500">No changes to display with current filter</div>';
+        },
+
+        renderThreeWayPane(pane) {
+            const results = this.threeWayResults[pane];
+            if (!results || results.length === 0) return '<div class="p-4 text-gray-500">No diff to display</div>';
+
+            let html = '';
+
+            results.forEach((item, index) => {
+                let cssClass = 'diff-line ';
+                if (item.operation === 1) cssClass += 'diff-addition';
+                else if (item.operation === -1) cssClass += 'diff-deletion';
+                else cssClass += 'diff-equal';
+
+                if (item.isSectionHeader) {
+                    html += `<div class="diff-section-header">${this.escapeHtml(item.text)}</div>`;
+                } else {
+                    let lineText = item.text;
+                    if (this.settings.prettyPrint) {
+                        lineText = this.prettyPrint(lineText);
+                    }
+
+                    const lineNum = this.settings.showLineNumbers ?
+                        `<span class="line-number">${item.lineNumber}</span>` : '';
+
+                    html += `<div class="${cssClass}" data-line="${item.lineNumber}">
+                        ${lineNum}${this.escapeHtml(lineText)}
+                    </div>`;
+                }
+            });
+
+            return html;
+        },
+
+        prettyPrint(text) {
+            // Add proper indentation for legislative text
+            let indentLevel = 0;
+
+            if (text.match(/^\(([a-z0-9]+)\)/i)) indentLevel = 1;
+            if (text.match(/^\(\d+\)/)) indentLevel = 2;
+            if (text.match(/^[A-Z]\./)) indentLevel = 2;
+
+            return '  '.repeat(indentLevel) + text;
+        },
+
+        escapeHtml(text) {
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        },
+
+        syncScroll(source) {
+            if (this.scrolling) return;
+
+            this.scrolling = true;
+
+            if (source === 'left' && this.$refs.rightPane) {
+                this.$refs.rightPane.scrollTop = this.$refs.leftPane.scrollTop;
+            } else if (source === 'right' && this.$refs.leftPane) {
+                this.$refs.leftPane.scrollTop = this.$refs.rightPane.scrollTop;
+            }
+
+            setTimeout(() => { this.scrolling = false; }, 50);
+        },
+
+        previousChange() {
+            if (this.currentChangeIndex > 0) {
+                this.currentChangeIndex--;
+                this.scrollToCurrentChange();
+            }
+        },
+
+        nextChange() {
+            if (this.currentChangeIndex < this.changePositions.length - 1) {
+                this.currentChangeIndex++;
+                this.scrollToCurrentChange();
+            }
+        },
+
+        scrollToCurrentChange() {
+            setTimeout(() => {
+                const element = document.querySelector('.current-change');
+                if (element) {
+                    element.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                }
+            }, 100);
+        },
+
+        jumpToLargestChange() {
+            // Find the largest consecutive block of changes
+            let largestBlock = { start: 0, size: 0 };
+            let currentBlock = { start: 0, size: 0 };
+
+            this.changePositions.forEach((pos, index) => {
+                if (index === 0 || this.changePositions[index - 1] + 1 === pos) {
+                    currentBlock.size++;
+                } else {
+                    if (currentBlock.size > largestBlock.size) {
+                        largestBlock = { ...currentBlock };
+                    }
+                    currentBlock = { start: index, size: 1 };
+                }
+            });
+
+            if (currentBlock.size > largestBlock.size) {
+                largestBlock = currentBlock;
+            }
+
+            this.currentChangeIndex = largestBlock.start;
+            this.scrollToCurrentChange();
+        },
+
+        openAnnotationModal(text, lineNumber) {
+            this.currentAnnotation = {
+                text: text.replace(/^\s*\d+\s*/, '').trim(),
+                note: '',
+                lineNumber: parseInt(lineNumber)
+            };
+            this.showAnnotationModal = true;
+        },
+
+        saveAnnotation() {
+            if (this.currentAnnotation.note.trim()) {
+                this.annotations.push({ ...this.currentAnnotation });
+                this.showAnnotationModal = false;
+            }
+        },
+
+        removeAnnotation(index) {
+            this.annotations.splice(index, 1);
+        },
+
+        exportHTML() {
+            const html = `
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Legislative Diff Export</title>
+    <style>
+        body { font-family: 'Courier New', monospace; margin: 20px; }
+        .diff-addition { background-color: #d4edda; }
+        .diff-deletion { background-color: #f8d7da; text-decoration: line-through; }
+        .diff-section-header { background-color: #e7f3ff; font-weight: bold; padding: 8px; margin: 8px 0; }
+        .stats { background: #f0f0f0; padding: 15px; margin-bottom: 20px; }
+        .annotation { border-left: 3px solid #ff6b6b; padding-left: 10px; margin: 10px 0; background: #fff3cd; }
+    </style>
+</head>
+<body>
+    <h1>Legislative Text Comparison</h1>
+    <div class="stats">
+        <h2>Statistics</h2>
+        <p>Lines Added: ${this.stats.linesAdded}</p>
+        <p>Lines Removed: ${this.stats.linesRemoved}</p>
+        <p>Sections Modified: ${this.stats.sectionsModified}</p>
+        <p>Major Changes: ${this.stats.majorChanges}</p>
+        <p>Minor Changes: ${this.stats.minorChanges}</p>
+    </div>
+
+    <h2>Diff</h2>
+    <div class="diff-content">
+        ${this.renderDiffPane('modified')}
+    </div>
+
+    ${this.annotations.length > 0 ? `
+    <h2>Annotations</h2>
+    ${this.annotations.map(a => `
+        <div class="annotation">
+            <strong>Line ${a.lineNumber}:</strong> ${this.escapeHtml(a.text)}<br>
+            <em>${this.escapeHtml(a.note)}</em>
+        </div>
+    `).join('')}
+    ` : ''}
+</body>
+</html>`;
+
+            this.downloadFile('legislative-diff.html', html);
+        },
+
+        exportPDF() {
+            // Create a PDF-ready HTML version
+            this.exportHTML(); // For now, use HTML export
+            alert('PDF-ready HTML exported. Open in browser and use Print > Save as PDF');
+        },
+
+        exportAnnotations() {
+            const json = JSON.stringify(this.annotations, null, 2);
+            this.downloadFile('annotations.json', json);
+        },
+
+        downloadFile(filename, content) {
+            const blob = new Blob([content], { type: 'text/plain' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = filename;
+            a.click();
+            URL.revokeObjectURL(url);
+        },
+
+        addVersion() {
+            this.versions.push({ label: '', text: '' });
+        },
+
+        removeVersion(index) {
+            this.versions.splice(index, 1);
+            this.computeTimelineDiff();
+        },
+
+        selectTimelineVersion(index) {
+            if (index > 0) {
+                this.originalText = this.versions[index - 1].text;
+                this.modifiedText = this.versions[index].text;
+                this.viewMode = 'two-way';
+                this.computeDiff();
+            }
+        },
+
+        toggleDarkMode() {
+            document.documentElement.setAttribute('data-theme',
+                this.settings.darkMode ? 'dark' : 'light');
+        },
+
+        resetSettings() {
+            this.settings = {
+                diffAlgorithm: 'word',
+                contextLines: 3,
+                showLineNumbers: true,
+                ignoreWhitespace: false,
+                ignoreCase: false,
+                semanticCleanup: true,
+                prettyPrint: true,
+                darkMode: false,
+                majorChangeThreshold: 5
+            };
+            this.computeDiff();
+        },
+
+        loadSampleOriginal() {
+            this.originalText = `SECTION 1. Short Title.
+This Act may be cited as the "Washington Climate Protection Act of 2024".
+
+SECTION 2. Findings and Purpose.
+(a) FINDINGS.—The Legislature finds that:
+(1) Climate change poses significant risks to Washington State's environment, economy, and public health.
+(2) Immediate action is necessary to reduce greenhouse gas emissions.
+(3) Transitioning to clean energy will create jobs and economic opportunities.
+
+(b) PURPOSE.—The purpose of this Act is to:
+(1) Establish enforceable greenhouse gas emission reduction targets.
+(2) Promote the development of renewable energy sources.
+(3) Protect vulnerable communities from climate impacts.
+
+SECTION 3. Definitions.
+In this Act:
+(1) CLEAN ENERGY.—The term "clean energy" means energy produced from renewable sources including solar, wind, and hydroelectric power.
+(2) GREENHOUSE GAS.—The term "greenhouse gas" means carbon dioxide, methane, nitrous oxide, and other gases that contribute to climate change.
+
+SECTION 4. Emission Reduction Targets.
+(a) The State shall reduce greenhouse gas emissions by:
+(1) 45 percent below 1990 levels by 2030.
+(2) 70 percent below 1990 levels by 2040.
+(3) Net zero emissions by 2050.`;
+            this.computeDiff();
+        },
+
+        loadSampleModified() {
+            this.modifiedText = `SECTION 1. Short Title.
+This Act may be cited as the "Washington Climate Protection and Jobs Act of 2024".
+
+SECTION 2. Findings and Purpose.
+(a) FINDINGS.—The Legislature finds that:
+(1) Climate change poses significant and urgent risks to Washington State's environment, economy, public health, and infrastructure.
+(2) Immediate and sustained action is necessary to reduce greenhouse gas emissions.
+(3) Transitioning to clean energy will create high-quality jobs and economic opportunities across the state.
+(4) Environmental justice requires protecting frontline communities disproportionately impacted by pollution.
+
+(b) PURPOSE.—The purpose of this Act is to:
+(1) Establish enforceable and science-based greenhouse gas emission reduction targets.
+(2) Promote the rapid development of renewable energy sources.
+(3) Protect vulnerable communities from climate impacts through targeted investments.
+(4) Create a just transition for workers in fossil fuel industries.
+
+SECTION 3. Definitions.
+In this Act:
+(1) CLEAN ENERGY.—The term "clean energy" means energy produced from renewable sources including solar, wind, hydroelectric, and geothermal power, and energy storage systems.
+(2) GREENHOUSE GAS.—The term "greenhouse gas" means carbon dioxide, methane, nitrous oxide, hydrofluorocarbons, and other gases that contribute to global climate change.
+(3) ENVIRONMENTAL JUSTICE.—The term "environmental justice" means the fair treatment and meaningful involvement of all people regardless of race, color, national origin, or income.
+
+SECTION 4. Emission Reduction Targets.
+(a) MANDATORY TARGETS.—The State shall reduce greenhouse gas emissions by:
+(1) 50 percent below 1990 levels by 2030.
+(2) 75 percent below 1990 levels by 2040.
+(3) Net zero emissions by 2045.
+
+(b) INTERIM REPORTING.—The Department shall report annually on progress toward these targets.`;
+            this.computeDiff();
+        }
+    };
+}
+</script>
+
+</body>
+</html>

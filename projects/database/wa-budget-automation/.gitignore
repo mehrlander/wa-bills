@@ -1,0 +1,9 @@
+# Ignore bill files (large PDFs, XML, HTML)
+*.pdf
+*.xml
+*.htm
+*.html
+
+# Keep README files
+!README.md
+!*/README.md

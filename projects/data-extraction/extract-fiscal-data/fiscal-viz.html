@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WA Bills Fiscal Data Visualization</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #34495e;
+            margin-top: 40px;
+        }
+        .summary {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+        .summary-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .summary-item {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+        }
+        .summary-item h3 {
+            margin: 0 0 10px 0;
+            font-size: 14px;
+            opacity: 0.9;
+        }
+        .summary-item .value {
+            font-size: 28px;
+            font-weight: bold;
+        }
+        .chart-container {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+            position: relative;
+            height: 500px;
+        }
+        .chart-container.large {
+            height: 700px;
+        }
+        canvas {
+            max-height: 100%;
+        }
+        .bill-table {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #3498db;
+            color: white;
+            font-weight: 600;
+        }
+        tr:hover {
+            background-color: #f5f5f5;
+        }
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: #7f8c8d;
+        }
+    </style>
+</head>
+<body>
+    <h1>Washington State Bills - Fiscal Data Analysis</h1>
+
+    <div class="summary">
+        <h2>Summary Statistics</h2>
+        <div class="summary-grid">
+            <div class="summary-item">
+                <h3>Total Appropriations</h3>
+                <div class="value" id="totalAmount">Loading...</div>
+            </div>
+            <div class="summary-item">
+                <h3>Total Items</h3>
+                <div class="value" id="totalItems">Loading...</div>
+            </div>
+            <div class="summary-item">
+                <h3>Bills Analyzed</h3>
+                <div class="value" id="totalBills">Loading...</div>
+            </div>
+            <div class="summary-item">
+                <h3>Agencies</h3>
+                <div class="value" id="totalAgencies">Loading...</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bill-table">
+        <h2>Bills by Fiscal Impact</h2>
+        <table id="billsTable">
+            <thead>
+                <tr>
+                    <th>Bill</th>
+                    <th>Description</th>
+                    <th>Total Amount</th>
+                    <th>Items</th>
+                </tr>
+            </thead>
+            <tbody id="billsTableBody">
+                <tr><td colspan="4" class="loading">Loading...</td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="chart-container large">
+        <h2>Top 20 Agencies by Total Appropriations</h2>
+        <canvas id="agencyChart"></canvas>
+    </div>
+
+    <div class="chart-container">
+        <h2>Appropriations by Bill</h2>
+        <canvas id="billChart"></canvas>
+    </div>
+
+    <div class="chart-container">
+        <h2>Top 15 Fund Sources</h2>
+        <canvas id="fundChart"></canvas>
+    </div>
+
+    <div class="chart-container">
+        <h2>Appropriations by Fiscal Year</h2>
+        <canvas id="fiscalYearChart"></canvas>
+    </div>
+
+    <div class="chart-container">
+        <h2>Appropriations by Biennium</h2>
+        <canvas id="bienniumChart"></canvas>
+    </div>
+
+    <script>
+        // Load fiscal summary data
+        fetch('fiscal-summary.json')
+            .then(response => response.json())
+            .then(data => {
+                // Update summary statistics
+                document.getElementById('totalAmount').textContent =
+                    '$' + (data.totalAmount / 1e9).toFixed(1) + 'B';
+                document.getElementById('totalItems').textContent =
+                    data.totalItems.toLocaleString();
+                document.getElementById('totalBills').textContent =
+                    data.bills.filter(b => b.totalAmount > 0).length;
+                document.getElementById('totalAgencies').textContent =
+                    data.byAgency.length;
+
+                // Bills table
+                const tbody = document.getElementById('billsTableBody');
+                tbody.innerHTML = '';
+                data.bills
+                    .sort((a, b) => b.totalAmount - a.totalAmount)
+                    .forEach(bill => {
+                        const row = document.createElement('tr');
+                        row.innerHTML = `
+                            <td><strong>${bill.bill}</strong></td>
+                            <td>${bill.description || 'N/A'}</td>
+                            <td>$${(bill.totalAmount / 1e9).toFixed(2)}B</td>
+                            <td>${bill.totalItems.toLocaleString()}</td>
+                        `;
+                        tbody.appendChild(row);
+                    });
+
+                // Agency Chart (Horizontal Bar)
+                const top20Agencies = data.byAgency.slice(0, 20);
+                new Chart(document.getElementById('agencyChart'), {
+                    type: 'bar',
+                    data: {
+                        labels: top20Agencies.map(a => a.agency.length > 50 ?
+                            a.agency.substring(0, 47) + '...' : a.agency),
+                        datasets: [{
+                            label: 'Total Appropriations (Billions)',
+                            data: top20Agencies.map(a => a.totalAmount / 1e9),
+                            backgroundColor: 'rgba(52, 152, 219, 0.7)',
+                            borderColor: 'rgba(52, 152, 219, 1)',
+                            borderWidth: 1
+                        }]
+                    },
+                    options: {
+                        indexAxis: 'y',
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        plugins: {
+                            legend: { display: false },
+                            title: {
+                                display: true,
+                                text: 'Top 20 Agencies by Total Appropriations'
+                            },
+                            tooltip: {
+                                callbacks: {
+                                    label: function(context) {
+                                        return '$' + context.parsed.x.toFixed(2) + 'B';
+                                    }
+                                }
+                            }
+                        },
+                        scales: {
+                            x: {
+                                beginAtZero: true,
+                                title: {
+                                    display: true,
+                                    text: 'Billions ($)'
+                                }
+                            }
+                        }
+                    }
+                });
+
+                // Bill Chart (Pie)
+                const billsWithMoney = data.bills.filter(b => b.totalAmount > 0);
+                new Chart(document.getElementById('billChart'), {
+                    type: 'pie',
+                    data: {
+                        labels: billsWithMoney.map(b => b.bill),
+                        datasets: [{
+                            data: billsWithMoney.map(b => b.totalAmount / 1e9),
+                            backgroundColor: [
+                                'rgba(255, 99, 132, 0.7)',
+                                'rgba(54, 162, 235, 0.7)',
+                                'rgba(255, 206, 86, 0.7)',
+                                'rgba(75, 192, 192, 0.7)',
+                                'rgba(153, 102, 255, 0.7)',
+                                'rgba(255, 159, 64, 0.7)'
+                            ],
+                            borderWidth: 2
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        plugins: {
+                            legend: { position: 'right' },
+                            tooltip: {
+                                callbacks: {
+                                    label: function(context) {
+                                        const bill = billsWithMoney[context.dataIndex];
+                                        return bill.bill + ': $' + context.parsed.toFixed(1) + 'B';
+                                    }
+                                }
+                            }
+                        }
+                    }
+                });
+
+                // Fund Source Chart (Doughnut)
+                const top15Funds = data.byFundSource.slice(0, 15);
+                new Chart(document.getElementById('fundChart'), {
+                    type: 'doughnut',
+                    data: {
+                        labels: top15Funds.map(f => f.fundSource.length > 40 ?
+                            f.fundSource.substring(0, 37) + '...' : f.fundSource),
+                        datasets: [{
+                            data: top15Funds.map(f => f.totalAmount / 1e9),
+                            backgroundColor: [
+                                'rgba(255, 99, 132, 0.7)',
+                                'rgba(54, 162, 235, 0.7)',
+                                'rgba(255, 206, 86, 0.7)',
+                                'rgba(75, 192, 192, 0.7)',
+                                'rgba(153, 102, 255, 0.7)',
+                                'rgba(255, 159, 64, 0.7)',
+                                'rgba(231, 76, 60, 0.7)',
+                                'rgba(46, 204, 113, 0.7)',
+                                'rgba(52, 152, 219, 0.7)',
+                                'rgba(155, 89, 182, 0.7)',
+                                'rgba(241, 196, 15, 0.7)',
+                                'rgba(230, 126, 34, 0.7)',
+                                'rgba(149, 165, 166, 0.7)',
+                                'rgba(26, 188, 156, 0.7)',
+                                'rgba(192, 57, 43, 0.7)'
+                            ],
+                            borderWidth: 2
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        plugins: {
+                            legend: { position: 'right' },
+                            tooltip: {
+                                callbacks: {
+                                    label: function(context) {
+                                        const fund = top15Funds[context.dataIndex];
+                                        return fund.fundSource + ': $' + context.parsed.toFixed(1) + 'B';
+                                    }
+                                }
+                            }
+                        }
+                    }
+                });
+
+                // Fiscal Year Chart (Bar)
+                if (data.byFiscalYear && data.byFiscalYear.length > 0) {
+                    new Chart(document.getElementById('fiscalYearChart'), {
+                        type: 'bar',
+                        data: {
+                            labels: data.byFiscalYear.map(fy => 'FY ' + fy.fiscalYear),
+                            datasets: [{
+                                label: 'Appropriations (Billions)',
+                                data: data.byFiscalYear.map(fy => fy.totalAmount / 1e9),
+                                backgroundColor: 'rgba(46, 204, 113, 0.7)',
+                                borderColor: 'rgba(46, 204, 113, 1)',
+                                borderWidth: 1
+                            }]
+                        },
+                        options: {
+                            responsive: true,
+                            maintainAspectRatio: false,
+                            plugins: {
+                                legend: { display: false }
+                            },
+                            scales: {
+                                y: {
+                                    beginAtZero: true,
+                                    title: {
+                                        display: true,
+                                        text: 'Billions ($)'
+                                    }
+                                }
+                            }
+                        }
+                    });
+                }
+
+                // Biennium Chart (Bar)
+                if (data.byBiennium && data.byBiennium.length > 0) {
+                    new Chart(document.getElementById('bienniumChart'), {
+                        type: 'bar',
+                        data: {
+                            labels: data.byBiennium.map(b => b.biennium),
+                            datasets: [{
+                                label: 'Appropriations (Billions)',
+                                data: data.byBiennium.map(b => b.totalAmount / 1e9),
+                                backgroundColor: 'rgba(155, 89, 182, 0.7)',
+                                borderColor: 'rgba(155, 89, 182, 1)',
+                                borderWidth: 1
+                            }]
+                        },
+                        options: {
+                            responsive: true,
+                            maintainAspectRatio: false,
+                            plugins: {
+                                legend: { display: false }
+                            },
+                            scales: {
+                                y: {
+                                    beginAtZero: true,
+                                    title: {
+                                        display: true,
+                                        text: 'Billions ($)'
+                                    }
+                                }
+                            }
+                        }
+                    });
+                }
+            })
+            .catch(error => {
+                console.error('Error loading data:', error);
+                document.body.innerHTML = '<div class="loading"><h2>Error loading fiscal data</h2><p>' +
+                    error.message + '</p></div>';
+            });
+    </script>
+</body>
+</html>

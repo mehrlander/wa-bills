@@ -1,0 +1,19 @@
+{
+  "name": "wa-bills",
+  "version": "1.0.0",
+  "description": "Repository for parsing and analyzing Washington State budget bills.",
+  "main": "extract-provisos.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://local_proxy@127.0.0.1:41986/git/mehrlander/wa-bills"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "xml2js": "^0.6.2"
+  }
+}

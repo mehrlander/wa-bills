@@ -1,0 +1,436 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Washington State Bill Data Schema",
+  "description": "Schema for extracted Washington State legislative bill data, including appropriations, agencies, and statutory references",
+  "type": "object",
+  "properties": {
+    "_meta": {
+      "type": "object",
+      "description": "Metadata about the extraction",
+      "properties": {
+        "extractedAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "ISO 8601 timestamp of when data was extracted"
+        },
+        "sourceFile": {
+          "type": "string",
+          "description": "Name of the source file"
+        },
+        "extractor": {
+          "type": "string",
+          "description": "Version of the extraction tool used"
+        }
+      }
+    },
+    "summary": {
+      "type": "object",
+      "description": "High-level summary statistics",
+      "properties": {
+        "billInfo": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string",
+              "description": "Short bill identifier (e.g., 'ESSB 5167.SL')"
+            },
+            "type": {
+              "type": "string",
+              "description": "Bill type classification"
+            },
+            "description": {
+              "type": "string",
+              "description": "Brief description of the bill"
+            }
+          }
+        },
+        "structure": {
+          "type": "object",
+          "properties": {
+            "totalSections": {
+              "type": "integer",
+              "description": "Total number of bill sections"
+            },
+            "totalParts": {
+              "type": "integer",
+              "description": "Total number of parts in the bill"
+            },
+            "totalAgencies": {
+              "type": "integer",
+              "description": "Total number of unique agencies"
+            }
+          }
+        },
+        "appropriations": {
+          "type": "object",
+          "description": "Appropriations statistics",
+          "properties": {
+            "totalCount": {
+              "type": "integer"
+            },
+            "grandTotal": {
+              "type": "integer",
+              "description": "Sum of all appropriations in dollars"
+            },
+            "grandTotalFormatted": {
+              "type": "string"
+            },
+            "minAmount": {
+              "type": "integer"
+            },
+            "maxAmount": {
+              "type": "integer"
+            },
+            "averageAmount": {
+              "type": "integer"
+            },
+            "byFiscalYear": {
+              "type": "object",
+              "description": "Appropriations grouped by fiscal year"
+            },
+            "byAccount": {
+              "type": "object",
+              "description": "Appropriations grouped by account type"
+            }
+          }
+        }
+      }
+    },
+    "metadata": {
+      "type": "object",
+      "description": "Bill metadata",
+      "properties": {
+        "shortId": {
+          "type": "string",
+          "description": "Short bill identifier"
+        },
+        "longId": {
+          "type": "string",
+          "description": "Long bill identifier"
+        },
+        "title": {
+          "type": ["string", "null"]
+        },
+        "description": {
+          "type": "string",
+          "description": "Brief description of the bill's purpose"
+        },
+        "chapterLaw": {
+          "type": "string",
+          "description": "Chapter number in Washington Laws"
+        },
+        "legislature": {
+          "type": "string",
+          "description": "Legislature number (e.g., '69th Legislature')"
+        },
+        "session": {
+          "type": "string",
+          "description": "Legislative session"
+        },
+        "sponsors": {
+          "type": "string",
+          "description": "Bill sponsors"
+        },
+        "effectiveDate": {
+          "type": "string",
+          "description": "When the bill becomes effective"
+        },
+        "billType": {
+          "type": "string",
+          "description": "Type of bill"
+        },
+        "passageInfo": {
+          "type": "object",
+          "properties": {
+            "senate": {
+              "type": "object",
+              "properties": {
+                "date": {
+                  "type": "string"
+                },
+                "yeas": {
+                  "type": "integer"
+                },
+                "nays": {
+                  "type": "integer"
+                }
+              }
+            },
+            "house": {
+              "type": "object",
+              "properties": {
+                "date": {
+                  "type": "string"
+                },
+                "yeas": {
+                  "type": "integer"
+                },
+                "nays": {
+                  "type": "integer"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "structure": {
+      "type": "object",
+      "description": "Bill organizational structure",
+      "properties": {
+        "parts": {
+          "type": "array",
+          "description": "Major parts of the bill",
+          "items": {
+            "type": "object",
+            "properties": {
+              "partNumber": {
+                "type": "string",
+                "description": "Part number (e.g., 'PART I')"
+              },
+              "title": {
+                "type": "string",
+                "description": "Part title"
+              }
+            }
+          }
+        },
+        "totalSections": {
+          "type": "integer",
+          "description": "Total number of sections"
+        }
+      }
+    },
+    "appropriations": {
+      "type": "array",
+      "description": "All appropriations in the bill",
+      "items": {
+        "type": "object",
+        "properties": {
+          "sectionNumber": {
+            "type": "string",
+            "description": "Section number where appropriation appears"
+          },
+          "agency": {
+            "type": "string",
+            "description": "Agency receiving the appropriation"
+          },
+          "agencyCode": {
+            "type": ["string", "null"],
+            "description": "Numeric agency code"
+          },
+          "account": {
+            "type": "string",
+            "description": "Account name (e.g., 'General Fund—State Appropriation (FY 2026)')"
+          },
+          "fiscalYear": {
+            "type": ["string", "null"],
+            "description": "Fiscal year (e.g., '2026')"
+          },
+          "amount": {
+            "type": "integer",
+            "description": "Appropriation amount in dollars"
+          },
+          "amountFormatted": {
+            "type": "string",
+            "description": "Formatted currency string (e.g., '$1,234,567')"
+          },
+          "isTotal": {
+            "type": "boolean",
+            "description": "Whether this is a total appropriation line"
+          }
+        },
+        "required": ["sectionNumber", "agency", "account", "amount"]
+      }
+    },
+    "agencies": {
+      "type": "array",
+      "description": "All agencies mentioned in the bill",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "Agency name"
+          },
+          "code": {
+            "type": ["string", "null"],
+            "description": "Numeric agency code"
+          },
+          "sections": {
+            "type": "array",
+            "description": "Section numbers where this agency appears",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": ["name", "sections"]
+      }
+    },
+    "sections": {
+      "type": "array",
+      "description": "All bill sections",
+      "items": {
+        "type": "object",
+        "properties": {
+          "sectionNumber": {
+            "type": "string",
+            "description": "Section number"
+          },
+          "agency": {
+            "type": ["string", "null"],
+            "description": "Agency name if applicable"
+          },
+          "isVetoed": {
+            "type": "boolean",
+            "description": "Whether this section was vetoed"
+          },
+          "vetoType": {
+            "type": ["string", "null"],
+            "description": "Type of veto (e.g., 'line')"
+          },
+          "hasVetoNote": {
+            "type": "boolean",
+            "description": "Whether section has a veto note"
+          }
+        },
+        "required": ["sectionNumber", "isVetoed"]
+      }
+    },
+    "statutoryReferences": {
+      "type": "array",
+      "description": "All statutory references in the bill",
+      "items": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "string",
+            "description": "Type of reference (e.g., 'RCW')"
+          },
+          "reference": {
+            "type": "string",
+            "description": "Reference number (e.g., '43.79.195')"
+          },
+          "fullReference": {
+            "type": "string",
+            "description": "Full reference string (e.g., 'RCW 43.79.195')"
+          }
+        },
+        "required": ["type", "reference"]
+      }
+    },
+    "dates": {
+      "type": "array",
+      "description": "Important dates related to the bill",
+      "items": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "string",
+            "description": "Type of date (e.g., 'effective_date', 'senate_passage')"
+          },
+          "date": {
+            "type": "string",
+            "description": "Date value"
+          }
+        },
+        "required": ["type", "date"]
+      }
+    },
+    "fiscalNotes": {
+      "type": "object",
+      "description": "Fiscal note information",
+      "properties": {
+        "fiscalYears": {
+          "type": "array",
+          "description": "All fiscal years mentioned",
+          "items": {
+            "type": "string"
+          }
+        },
+        "biennia": {
+          "type": "array",
+          "description": "Fiscal biennia mentioned",
+          "items": {
+            "type": "object",
+            "properties": {
+              "startYear": {
+                "type": "string"
+              },
+              "endYear": {
+                "type": "string"
+              },
+              "description": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "vetoes": {
+      "type": "array",
+      "description": "All vetoed items",
+      "items": {
+        "type": "object",
+        "properties": {
+          "sectionNumber": {
+            "type": "string",
+            "description": "Section number"
+          },
+          "agency": {
+            "type": ["string", "null"],
+            "description": "Agency name"
+          },
+          "vetoType": {
+            "type": "string",
+            "description": "Type of veto"
+          },
+          "vetoNote": {
+            "type": ["string", "null"],
+            "description": "Veto note text"
+          },
+          "lineVetoes": {
+            "type": "array",
+            "description": "Specific line items vetoed",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "programs": {
+      "type": "array",
+      "description": "Programs and initiatives mentioned",
+      "items": {
+        "type": "object",
+        "properties": {
+          "description": {
+            "type": "string",
+            "description": "Program description"
+          }
+        }
+      }
+    },
+    "conditions": {
+      "type": "array",
+      "description": "Conditions and limitations on appropriations",
+      "items": {
+        "type": "object",
+        "properties": {
+          "number": {
+            "type": "string",
+            "description": "Condition number within section"
+          },
+          "text": {
+            "type": "string",
+            "description": "Condition text (truncated to 500 chars)"
+          }
+        }
+      }
+    }
+  },
+  "required": ["metadata", "structure", "appropriations", "agencies", "sections"]
+}

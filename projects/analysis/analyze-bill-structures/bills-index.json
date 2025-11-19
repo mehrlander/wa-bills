@@ -1,0 +1,523 @@
+{
+  "metadata": {
+    "generatedDate": "2025-11-19T00:00:00.000Z",
+    "totalBills": 10,
+    "totalFiles": 18,
+    "categories": {
+      "budget": 7,
+      "policy": 3,
+      "mixed": 0
+    },
+    "formats": {
+      "xml": 9,
+      "htm": 9,
+      "bothFormats": 8,
+      "xmlOnly": 1,
+      "htmOnly": 1
+    }
+  },
+  "bills": [
+    {
+      "billNumber": "1210-S2",
+      "billId": "2SHB 1210.SL",
+      "longBillId": "SECOND SUBSTITUTE HOUSE BILL 1210",
+      "category": "policy",
+      "legislature": "67th Legislature",
+      "session": "2022 Regular Session",
+      "chapterLaw": {
+        "year": "2022",
+        "number": "16"
+      },
+      "sessionLawCaption": "REPLACING \"MARIJUANA\" WITH \"CANNABIS\"",
+      "briefDescription": "Replacing the term \"marijuana\" with the term \"cannabis\" throughout the Revised Code of Washington.",
+      "sponsors": "House Commerce & Gaming (originally sponsored by Representatives Morgan, Peterson, Kloba, J. Johnson, Ryu, Santos, Ortiz-Self, Ormsby, Simmons, Gregerson, Riccelli, Macri, Frame, and Harris-Talley)",
+      "effectiveDate": "June 9, 2022—Except for sections 7, 51, and 116, which take effect July 1, 2022; sections 5, 9, 86, and 88, which take effect July 1, 2023; sections 65 and 68, which take effect July 1, 2024; and section 11, which takes effect July 1, 2030.",
+      "passages": [
+        {
+          "chamber": "h",
+          "date": "February 2, 2022",
+          "yeas": 83,
+          "nays": 13,
+          "signer": "LAURIE JINKINS"
+        },
+        {
+          "chamber": "s",
+          "date": "March 1, 2022",
+          "yeas": 41,
+          "nays": 8,
+          "signer": "DENNY HECK"
+        }
+      ],
+      "governor": "JAY INSLEE",
+      "approvedDate": "March 11, 2022 10:12 AM",
+      "filedDate": "March 11, 2022",
+      "vetoAction": null,
+      "files": {
+        "xml": {
+          "fileName": "1210-S2.xml",
+          "fileSize": 1152205
+        },
+        "htm": {
+          "fileName": "1210-S2.htm",
+          "fileSize": 1085481
+        }
+      },
+      "sectionCount": 172,
+      "appropriationCount": 0,
+      "notes": "Technical corrections bill replacing marijuana with cannabis across 150+ RCW sections. Multiple staged effective dates."
+    },
+    {
+      "billNumber": "1281-S",
+      "billId": "SHB 1281.SL",
+      "longBillId": "SUBSTITUTE HOUSE BILL 1281",
+      "category": "policy",
+      "legislature": "69th Legislature",
+      "session": "2025 Regular Session",
+      "chapterLaw": {
+        "year": "2025",
+        "number": "58"
+      },
+      "sessionLawCaption": "TECHNICAL CORRECTIONS",
+      "briefDescription": "Making technical corrections pursuant to RCW 1.08.025.",
+      "sponsors": "House Civil Rights & Judiciary (by request of Statute Law Committee)",
+      "effectiveDate": "July 27, 2025",
+      "passages": [
+        {
+          "chamber": "h",
+          "date": "March 5, 2025",
+          "yeas": 97,
+          "nays": 0,
+          "signer": "LAURIE JINKINS"
+        },
+        {
+          "chamber": "s",
+          "date": "April 5, 2025",
+          "yeas": 48,
+          "nays": 0,
+          "signer": "DENNY HECK"
+        }
+      ],
+      "governor": "BOB FERGUSON",
+      "approvedDate": "April 16, 2025 3:32 PM",
+      "filedDate": "April 17, 2025",
+      "vetoAction": null,
+      "files": {
+        "xml": {
+          "fileName": "1281-S.xml",
+          "fileSize": 1414844
+        },
+        "htm": {
+          "fileName": "1281-S.htm",
+          "fileSize": 1207421
+        }
+      },
+      "sectionCount": 251,
+      "appropriationCount": 0,
+      "notes": "Technical corrections pursuant to RCW 1.08.025. Removes obsolete language, corrects cross-references."
+    },
+    {
+      "billNumber": "1320-S2",
+      "billId": "E2SHB 1320.SL",
+      "longBillId": "ENGROSSED SECOND SUBSTITUTE HOUSE BILL 1320",
+      "category": "policy",
+      "legislature": "67th Legislature",
+      "session": "2021 Regular Session",
+      "chapterLaw": {
+        "year": "2021",
+        "number": "215"
+      },
+      "sessionLawCaption": "CIVIL PROTECTION ORDERS",
+      "briefDescription": "Concerning civil protection orders.",
+      "sponsors": "House Appropriations (originally sponsored by Representatives Goodman, Orwall, Davis, Thai, Simmons, Peterson, and Pollet; by request of Administrative Office of the Courts)",
+      "effectiveDate": "July 1, 2022",
+      "passages": [
+        {
+          "chamber": "h",
+          "date": "April 14, 2021",
+          "yeas": 55,
+          "nays": 42,
+          "signer": "LAURIE JINKINS"
+        },
+        {
+          "chamber": "s",
+          "date": "April 10, 2021",
+          "yeas": 27,
+          "nays": 20,
+          "signer": "DENNY HECK"
+        }
+      ],
+      "governor": "JAY INSLEE",
+      "approvedDate": "May 10, 2021 2:58 PM",
+      "filedDate": "May 11, 2021",
+      "vetoAction": null,
+      "files": {
+        "xml": {
+          "fileName": "1320-S2.xml",
+          "fileSize": 1147154
+        },
+        "htm": {
+          "fileName": "1320-S2.htm",
+          "fileSize": 1050046
+        }
+      },
+      "sectionCount": 88,
+      "appropriationCount": 0,
+      "notes": "Comprehensive reform of civil protection orders. Modernizes and harmonizes 6 types of protection orders, creates new chapter in Title 7 RCW."
+    },
+    {
+      "billNumber": "5092-S",
+      "billId": "ESSB 5092.SL",
+      "longBillId": "ENGROSSED SUBSTITUTE SENATE BILL 5092",
+      "category": "budget",
+      "legislature": "67th Legislature",
+      "session": "2021 Regular Session",
+      "chapterLaw": {
+        "year": "2021",
+        "number": "334"
+      },
+      "sessionLawCaption": "OPERATING BUDGET",
+      "briefDescription": "Making operating appropriations for the 2021-2023 biennium.",
+      "sponsors": "Senate Ways & Means (originally sponsored by Senators Rolfes, Wilson, L., Frockt, Braun, Carlyle, and Liias; by request of Office of the Governor)",
+      "effectiveDate": "May 18, 2021",
+      "passages": [
+        {
+          "chamber": "s",
+          "date": "April 25, 2021",
+          "yeas": 27,
+          "nays": 22,
+          "signer": "DENNY HECK"
+        },
+        {
+          "chamber": "h",
+          "date": "April 25, 2021",
+          "yeas": 57,
+          "nays": 40,
+          "signer": "LAURIE JINKINS"
+        }
+      ],
+      "governor": "JAY INSLEE",
+      "approvedDate": "May 18, 2021 11:29 AM with the exception of sections 127(18); 127(13); 308(18); 738; 1110(9); 955; and 1703, which are vetoed.",
+      "filedDate": "May 18, 2021",
+      "vetoAction": "(partial veto)",
+      "files": {
+        "htm": {
+          "fileName": "5092-S.htm",
+          "fileSize": 3730556
+        }
+      },
+      "sectionCount": null,
+      "appropriationCount": null,
+      "notes": "Operating budget for 2021-2023 biennium. HTM only - no XML version available."
+    },
+    {
+      "billNumber": "5167-S",
+      "billId": "ESSB 5167.SL",
+      "longBillId": "ENGROSSED SUBSTITUTE SENATE BILL 5167",
+      "category": "budget",
+      "legislature": "69th Legislature",
+      "session": "2025 Regular Session",
+      "chapterLaw": {
+        "year": "2025",
+        "number": "424"
+      },
+      "sessionLawCaption": "OPERATING BUDGET",
+      "briefDescription": "Making 2025-2027 fiscal biennium operating appropriations and 2023-2025 fiscal biennium second supplemental operating appropriations.",
+      "sponsors": "Senate Ways & Means (originally sponsored by Senators Dhingra, Wilson, L., Mullet, Braun, Carlyle, Conway, Hasegawa, Hunt, Keiser, Nguyen, Pedersen, Robinson, Stanford, and Wellman; by request of Office of Financial Management)",
+      "effectiveDate": "May 20, 2025",
+      "passages": [
+        {
+          "chamber": "s",
+          "date": "April 27, 2025",
+          "yeas": 28,
+          "nays": 19,
+          "signer": "DENNY HECK"
+        },
+        {
+          "chamber": "h",
+          "date": "April 27, 2025",
+          "yeas": 52,
+          "nays": 45,
+          "signer": "LAURIE JINKINS"
+        }
+      ],
+      "governor": "BOB FERGUSON",
+      "approvedDate": "May 20, 2025 2:36 PM with exceptions listed in veto message.",
+      "filedDate": "May 21, 2025",
+      "vetoAction": "(partial veto)",
+      "files": {
+        "xml": {
+          "fileName": "5167-S.xml",
+          "fileSize": 4212749
+        },
+        "htm": {
+          "fileName": "5167-S.htm",
+          "fileSize": 4615518
+        }
+      },
+      "sectionCount": 314,
+      "appropriationCount": 314,
+      "notes": "2025-2027 fiscal biennium operating appropriations and 2023-2025 second supplemental. Partial veto applied."
+    },
+    {
+      "billNumber": "5187-S",
+      "billId": "ESSB 5187.SL",
+      "longBillId": "ENGROSSED SUBSTITUTE SENATE BILL 5187",
+      "category": "budget",
+      "legislature": "68th Legislature",
+      "session": "2023 Regular Session",
+      "chapterLaw": {
+        "year": "2023",
+        "number": "475"
+      },
+      "sessionLawCaption": "OPERATING BUDGET",
+      "briefDescription": "Making 2023-2025 fiscal biennium operating appropriations and 2021-2023 fiscal biennium second supplemental operating appropriations.",
+      "sponsors": "Senate Ways & Means (originally sponsored by Senators Rolfes, Wilson, L., Mullet, Braun, Conway, Dhingra, Hunt, Keiser, Liias, Nguyen, Pedersen, Robinson, and Saldaña; by request of Office of Financial Management)",
+      "effectiveDate": "May 16, 2023",
+      "passages": [
+        {
+          "chamber": "s",
+          "date": "April 23, 2023",
+          "yeas": 37,
+          "nays": 12,
+          "signer": "DENNY HECK"
+        },
+        {
+          "chamber": "h",
+          "date": "April 23, 2023",
+          "yeas": 58,
+          "nays": 40,
+          "signer": "LAURIE JINKINS"
+        }
+      ],
+      "governor": "JAY INSLEE",
+      "approvedDate": "May 16, 2023",
+      "filedDate": "May 17, 2023",
+      "vetoAction": "(partial veto)",
+      "files": {
+        "xml": {
+          "fileName": "5187-S.xml",
+          "fileSize": 4098166
+        },
+        "htm": {
+          "fileName": "5187-S.htm",
+          "fileSize": 4489877
+        }
+      },
+      "sectionCount": 314,
+      "appropriationCount": 314,
+      "notes": "2023-2025 fiscal biennium operating appropriations and 2021-2023 second supplemental. Extensive partial veto list."
+    },
+    {
+      "billNumber": "5195-S",
+      "billId": "SSB 5195.SL",
+      "longBillId": "SUBSTITUTE SENATE BILL 5195",
+      "category": "budget",
+      "legislature": "69th Legislature",
+      "session": "2025 Regular Session",
+      "chapterLaw": {
+        "year": "2025",
+        "number": "414"
+      },
+      "sessionLawCaption": "CAPITAL BUDGET",
+      "briefDescription": "Concerning the capital budget.",
+      "sponsors": "Senate Ways & Means (originally sponsored by Senators Mullet, Wilson, L., and Nguyen; by request of Office of Financial Management)",
+      "effectiveDate": "May 20, 2025",
+      "passages": [
+        {
+          "chamber": "s",
+          "date": "April 27, 2025",
+          "yeas": 47,
+          "nays": 0,
+          "signer": "DENNY HECK"
+        },
+        {
+          "chamber": "h",
+          "date": "April 27, 2025",
+          "yeas": 98,
+          "nays": 0,
+          "signer": "LAURIE JINKINS"
+        }
+      ],
+      "governor": "BOB FERGUSON",
+      "approvedDate": "May 20, 2025 1:47 PM with exceptions listed in veto message.",
+      "filedDate": "May 21, 2025",
+      "vetoAction": "(partial veto)",
+      "files": {
+        "xml": {
+          "fileName": "5195-S.xml",
+          "fileSize": 2316800
+        },
+        "htm": {
+          "fileName": "5195-S.htm",
+          "fileSize": 2520946
+        }
+      },
+      "sectionCount": 2311,
+      "appropriationCount": 2311,
+      "notes": "Capital budget with infrastructure and construction appropriations. Unanimously passed. 2,311 appropriation entries."
+    },
+    {
+      "billNumber": "5200-S",
+      "billId": "ESSB 5200.SL",
+      "longBillId": "ENGROSSED SUBSTITUTE SENATE BILL 5200",
+      "category": "budget",
+      "legislature": "68th Legislature",
+      "session": "2023 Regular Session",
+      "chapterLaw": {
+        "year": "2023",
+        "number": "474"
+      },
+      "sessionLawCaption": "CAPITAL BUDGET",
+      "briefDescription": "Concerning the capital budget.",
+      "sponsors": "Senate Ways & Means (originally sponsored by Senators Mullet, Schoesler, and Nguyen; by request of Office of Financial Management)",
+      "effectiveDate": "May 16, 2023",
+      "passages": [
+        {
+          "chamber": "s",
+          "date": "April 22, 2023",
+          "yeas": 48,
+          "nays": 0,
+          "signer": "DENNY HECK"
+        },
+        {
+          "chamber": "h",
+          "date": "April 21, 2023",
+          "yeas": 96,
+          "nays": 0,
+          "signer": "LAURIE JINKINS"
+        }
+      ],
+      "governor": "JAY INSLEE",
+      "approvedDate": "May 16, 2023 11:47 AM with the exception of sections 5012, 5067, and 8038, which are vetoed.",
+      "filedDate": "May 17, 2023",
+      "vetoAction": "(partial veto)",
+      "files": {
+        "xml": {
+          "fileName": "5200-S.xml",
+          "fileSize": 2040832
+        }
+      },
+      "sectionCount": 2038,
+      "appropriationCount": 2038,
+      "notes": "Capital budget for 2023-2025 biennium. XML only - no HTM version available. 2,038 appropriation entries."
+    },
+    {
+      "billNumber": "5693-S",
+      "billId": "ESSB 5693.SL",
+      "longBillId": "ENGROSSED SUBSTITUTE SENATE BILL 5693",
+      "category": "budget",
+      "legislature": "67th Legislature",
+      "session": "2022 Regular Session",
+      "chapterLaw": {
+        "year": "2022",
+        "number": "297"
+      },
+      "sessionLawCaption": "SUPPLEMENTAL OPERATING APPROPRIATIONS",
+      "briefDescription": "Making 2021-2023 fiscal biennium supplemental operating appropriations.",
+      "sponsors": "Senate Ways & Means (originally sponsored by Senators Rolfes, Wilson, L., Frockt, Braun, Carlyle, Conway, Dhingra, Hunt, Keiser, Liias, Nguyen, Pedersen, Robinson, and Saldaña; by request of Office of Financial Management)",
+      "effectiveDate": "March 31, 2022",
+      "passages": [
+        {
+          "chamber": "s",
+          "date": "March 10, 2022",
+          "yeas": 29,
+          "nays": 19,
+          "signer": "DENNY HECK"
+        },
+        {
+          "chamber": "h",
+          "date": "March 10, 2022",
+          "yeas": 57,
+          "nays": 41,
+          "signer": "LAURIE JINKINS"
+        }
+      ],
+      "governor": "JAY INSLEE",
+      "approvedDate": "March 31, 2022",
+      "filedDate": "March 31, 2022",
+      "vetoAction": "(partial veto)",
+      "files": {
+        "xml": {
+          "fileName": "5693-S.xml",
+          "fileSize": 2717696
+        },
+        "htm": {
+          "fileName": "5693-S.htm",
+          "fileSize": 2982266
+        }
+      },
+      "sectionCount": 181,
+      "appropriationCount": 181,
+      "notes": "2021-2023 fiscal biennium supplemental operating appropriations. Partial veto applied."
+    },
+    {
+      "billNumber": "5950-S",
+      "billId": "ESSB 5950.SL",
+      "longBillId": "ENGROSSED SUBSTITUTE SENATE BILL 5950",
+      "category": "budget",
+      "legislature": "68th Legislature",
+      "session": "2024 Regular Session",
+      "chapterLaw": {
+        "year": "2024",
+        "number": "376"
+      },
+      "sessionLawCaption": "OPERATING BUDGET—2023-2025 SUPPLEMENTAL",
+      "briefDescription": "Making 2023-2025 fiscal biennium supplemental operating appropriations.",
+      "sponsors": "Senate Ways & Means (originally sponsored by Senators Rolfes, Wilson, L., Mullet, Braun, Conway, Dhingra, Hunt, Keiser, Nguyen, Pedersen, Robinson, and Saldaña; by request of Office of Financial Management)",
+      "effectiveDate": "March 29, 2024",
+      "passages": [
+        {
+          "chamber": "s",
+          "date": "March 7, 2024",
+          "yeas": 39,
+          "nays": 8,
+          "signer": "DENNY HECK"
+        },
+        {
+          "chamber": "h",
+          "date": "March 7, 2024",
+          "yeas": 58,
+          "nays": 39,
+          "signer": "LAURIE JINKINS"
+        }
+      ],
+      "governor": "JAY INSLEE",
+      "approvedDate": "March 29, 2024",
+      "filedDate": "March 29, 2024",
+      "vetoAction": "(partial veto)",
+      "files": {
+        "xml": {
+          "fileName": "5950-S.xml",
+          "fileSize": 2821120
+        },
+        "htm": {
+          "fileName": "5950-S.htm",
+          "fileSize": 3100390
+        }
+      },
+      "sectionCount": 176,
+      "appropriationCount": 176,
+      "notes": "2023-2025 fiscal biennium supplemental operating appropriations. Partial veto applied."
+    }
+  ],
+  "summary": {
+    "legislatures": {
+      "67th Legislature": 4,
+      "68th Legislature": 3,
+      "69th Legislature": 3
+    },
+    "sessions": {
+      "2021 Regular Session": 2,
+      "2022 Regular Session": 2,
+      "2023 Regular Session": 2,
+      "2024 Regular Session": 1,
+      "2025 Regular Session": 3
+    },
+    "governors": {
+      "JAY INSLEE": 7,
+      "BOB FERGUSON": 3
+    },
+    "vetoedBills": 7,
+    "unanimousPassage": 2
+  }
+}

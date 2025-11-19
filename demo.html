@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HB 1320-S2 Bill Data Explorer</title>
+
+    <!-- CDN Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.0/dist/axios.min.js"></script>
+
+    <!-- Styles -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f5f5;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+            color: white;
+            padding: 30px 0;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        header h1 {
+            text-align: center;
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            text-align: center;
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .stat-card {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            text-align: center;
+            transition: transform 0.2s;
+        }
+
+        .stat-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+        }
+
+        .stat-card h3 {
+            color: #1e3a8a;
+            font-size: 2em;
+            margin-bottom: 5px;
+        }
+
+        .stat-card p {
+            color: #666;
+            font-size: 0.9em;
+        }
+
+        .query-section {
+            background: white;
+            padding: 25px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .query-section h2 {
+            color: #1e3a8a;
+            margin-bottom: 20px;
+            font-size: 1.5em;
+            border-bottom: 2px solid #3b82f6;
+            padding-bottom: 10px;
+        }
+
+        .button-group {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        button {
+            background: #3b82f6;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: background 0.2s;
+        }
+
+        button:hover {
+            background: #2563eb;
+        }
+
+        button:active {
+            background: #1d4ed8;
+        }
+
+        .search-box {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        input[type="text"] {
+            flex: 1;
+            padding: 12px;
+            border: 2px solid #d1d5db;
+            border-radius: 6px;
+            font-size: 14px;
+        }
+
+        input[type="text"]:focus {
+            outline: none;
+            border-color: #3b82f6;
+        }
+
+        .results {
+            background: #f9fafb;
+            border: 1px solid #e5e7eb;
+            border-radius: 6px;
+            padding: 20px;
+            max-height: 600px;
+            overflow-y: auto;
+            font-family: 'Courier New', monospace;
+            font-size: 13px;
+            white-space: pre-wrap;
+        }
+
+        .results:empty::before {
+            content: 'Results will appear here...';
+            color: #9ca3af;
+            font-style: italic;
+        }
+
+        .code-block {
+            background: #1e293b;
+            color: #e2e8f0;
+            padding: 15px;
+            border-radius: 6px;
+            margin: 15px 0;
+            overflow-x: auto;
+        }
+
+        .code-block code {
+            font-family: 'Courier New', monospace;
+            font-size: 13px;
+        }
+
+        .section-item {
+            background: white;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 6px;
+            border-left: 4px solid #3b82f6;
+        }
+
+        .section-item h4 {
+            color: #1e3a8a;
+            margin-bottom: 8px;
+        }
+
+        .section-item p {
+            color: #666;
+            margin: 5px 0;
+        }
+
+        .highlight {
+            background: #fef3c7;
+            padding: 2px 4px;
+            border-radius: 3px;
+        }
+
+        .tabs {
+            display: flex;
+            gap: 5px;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #e5e7eb;
+        }
+
+        .tab {
+            padding: 12px 24px;
+            background: transparent;
+            border: none;
+            border-bottom: 3px solid transparent;
+            cursor: pointer;
+            font-size: 14px;
+            color: #6b7280;
+            transition: all 0.2s;
+        }
+
+        .tab:hover {
+            background: #f9fafb;
+            color: #1e3a8a;
+        }
+
+        .tab.active {
+            color: #1e3a8a;
+            border-bottom-color: #3b82f6;
+            background: transparent;
+        }
+
+        .tab-content {
+            display: none;
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: #6b7280;
+        }
+
+        .error {
+            background: #fee2e2;
+            color: #991b1b;
+            padding: 15px;
+            border-radius: 6px;
+            margin: 15px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>HB 1320-S2 Bill Data Explorer</h1>
+            <p>Interactive exploration of structured bill data using Lodash and browser APIs</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- Statistics Overview -->
+        <div class="stats-grid" id="stats">
+            <div class="stat-card">
+                <h3 id="totalSections">—</h3>
+                <p>Total Sections</p>
+            </div>
+            <div class="stat-card">
+                <h3 id="totalParts">—</h3>
+                <p>Bill Parts</p>
+            </div>
+            <div class="stat-card">
+                <h3 id="totalRCW">—</h3>
+                <p>RCW References</p>
+            </div>
+            <div class="stat-card">
+                <h3 id="totalDefs">—</h3>
+                <p>Definitions</p>
+            </div>
+            <div class="stat-card">
+                <h3 id="totalAgencies">—</h3>
+                <p>Agencies</p>
+            </div>
+            <div class="stat-card">
+                <h3 id="voteMargin">—</h3>
+                <p>Vote Margin (House)</p>
+            </div>
+        </div>
+
+        <!-- Tabs -->
+        <div class="query-section">
+            <div class="tabs">
+                <button class="tab active" onclick="switchTab('queries')">Pre-built Queries</button>
+                <button class="tab" onclick="switchTab('search')">Search</button>
+                <button class="tab" onclick="switchTab('custom')">Custom Queries</button>
+                <button class="tab" onclick="switchTab('code')">Code Examples</button>
+            </div>
+
+            <!-- Pre-built Queries Tab -->
+            <div id="queries" class="tab-content active">
+                <h2>Pre-built Queries</h2>
+                <p style="margin-bottom: 15px; color: #666;">Click any button to execute a query using Lodash:</p>
+
+                <div class="button-group">
+                    <button onclick="queryBillMetadata()">Bill Metadata</button>
+                    <button onclick="queryVotingRecords()">Voting Records</button>
+                    <button onclick="queryDefinitions()">All Definitions</button>
+                    <button onclick="queryAgencies()">Government Agencies</button>
+                    <button onclick="queryRCWReferences()">RCW Citations (First 20)</button>
+                    <button onclick="queryFederalLaw()">Federal Law References</button>
+                    <button onclick="queryAmendingSections()">Amending Sections</button>
+                    <button onclick="queryRepealingSections()">Repealing Sections</button>
+                    <button onclick="queryFirearmSections()">Firearm-Related Sections</button>
+                    <button onclick="queryFiscalInfo()">Fiscal Information</button>
+                </div>
+
+                <div class="results" id="queryResults"></div>
+            </div>
+
+            <!-- Search Tab -->
+            <div id="search" class="tab-content">
+                <h2>Full-Text Search</h2>
+                <p style="margin-bottom: 15px; color: #666;">Search across sections, definitions, and agencies:</p>
+
+                <div class="search-box">
+                    <input type="text" id="searchInput" placeholder="Enter search term (e.g., 'firearm', 'protection order', 'domestic violence')">
+                    <button onclick="performSearch()">Search</button>
+                </div>
+
+                <div class="results" id="searchResults"></div>
+            </div>
+
+            <!-- Custom Queries Tab -->
+            <div id="custom" class="tab-content">
+                <h2>Custom Lodash Queries</h2>
+                <p style="margin-bottom: 15px; color: #666;">Enter custom Lodash expressions to query the data:</p>
+
+                <div class="code-block">
+                    <code>
+// Available object: billData
+// Examples:
+_.get(billData, 'metadata.shortId')
+_.filter(billData.sections, s => s.type === 'new')
+_.map(billData.definitions, 'term')
+_.countBy(billData.sections, 'type')
+_.groupBy(billData.programs, 'type')
+                    </code>
+                </div>
+
+                <div class="search-box">
+                    <input type="text" id="customQuery" placeholder="Enter Lodash expression" value="_.get(billData, 'metadata.shortId')">
+                    <button onclick="executeCustomQuery()">Execute</button>
+                </div>
+
+                <div class="results" id="customResults"></div>
+            </div>
+
+            <!-- Code Examples Tab -->
+            <div id="code" class="tab-content">
+                <h2>Code Examples</h2>
+                <p style="margin-bottom: 15px; color: #666;">JavaScript examples for querying the bill data:</p>
+
+                <h3 style="color: #1e3a8a; margin: 20px 0 10px;">1. Basic Property Access</h3>
+                <div class="code-block">
+                    <code>// Get bill short ID
+const billId = billData.metadata.shortId;
+// Result: "E2SHB 1320.SL"
+
+// Get total sections
+const sectionCount = billData.statistics.totalSections;
+// Result: 172</code>
+                </div>
+
+                <h3 style="color: #1e3a8a; margin: 20px 0 10px;">2. Using Lodash Filters</h3>
+                <div class="code-block">
+                    <code>// Find all new sections (not amending existing law)
+const newSections = _.filter(billData.sections, { type: 'new' });
+
+// Find sections with "firearm" in content
+const firearmSections = _.filter(billData.sections,
+    s => s.content && s.content.toLowerCase().includes('firearm')
+);
+
+// Get agencies related to "health"
+const healthAgencies = _.filter(billData.agencies,
+    agency => agency.toLowerCase().includes('health')
+);</code>
+                </div>
+
+                <h3 style="color: #1e3a8a; margin: 20px 0 10px;">3. Mapping and Transformation</h3>
+                <div class="code-block">
+                    <code>// Get all definition terms
+const terms = _.map(billData.definitions, 'term');
+
+// Get all RCW full citations
+const rcwCitations = _.map(billData.statutoryReferences.rcw, 'fullCitation');
+
+// Extract section numbers and captions
+const sectionInfo = _.map(billData.sections, s => ({
+    number: s.number,
+    caption: s.caption
+}));</code>
+                </div>
+
+                <h3 style="color: #1e3a8a; margin: 20px 0 10px;">4. Grouping and Counting</h3>
+                <div class="code-block">
+                    <code>// Count sections by type
+const sectionsByType = _.countBy(billData.sections, 'type');
+// Result: { new: 84, amendatory: 88 }
+
+// Group programs by type
+const programsByType = _.groupBy(billData.programs, 'type');
+
+// Count legislative actions
+const actionCounts = {
+    amending: billData.legislativeActions.amending.length,
+    repealing: billData.legislativeActions.repealing.length,
+    adding: billData.legislativeActions.adding.length
+};</code>
+                </div>
+
+                <h3 style="color: #1e3a8a; margin: 20px 0 10px;">5. Advanced Queries</h3>
+                <div class="code-block">
+                    <code>// Find sections amending RCW Title 9 (Crimes)
+const title9Amendments = _.filter(billData.legislativeActions.amending,
+    action => action.citation && action.citation.title === '9'
+);
+
+// Get sorted list of unique RCW titles affected
+const titlesAffected = _.chain(billData.statutoryReferences.rcw)
+    .map('title')
+    .uniq()
+    .sortBy()
+    .value();
+
+// Find longest section by content length
+const longestSection = _.maxBy(billData.sections,
+    s => s.content ? s.content.length : 0
+);</code>
+                </div>
+
+                <h3 style="color: #1e3a8a; margin: 20px 0 10px;">6. Combining Multiple Operations</h3>
+                <div class="code-block">
+                    <code>// Get all amendatory sections related to firearms
+const firearmAmendments = _.chain(billData.sections)
+    .filter({ type: 'amendatory' })
+    .filter(s => s.content && s.content.toLowerCase().includes('firearm'))
+    .map(s => ({
+        section: s.number,
+        caption: s.caption,
+        citation: s.citation
+    }))
+    .value();
+
+// Count definitions by first letter of term
+const defsByLetter = _.chain(billData.definitions)
+    .countBy(def => def.term.charAt(0).toUpperCase())
+    .value();</code>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Global variable to store loaded bill data
+        let billData = null;
+
+        // Load the JSON data
+        async function loadBillData() {
+            try {
+                const response = await axios.get('HB-1320-S2-data.json');
+                billData = response.data;
+                console.log('Bill data loaded:', billData);
+                updateStatistics();
+            } catch (error) {
+                console.error('Error loading bill data:', error);
+                document.getElementById('queryResults').innerHTML =
+                    '<div class="error">Error loading bill data. Make sure HB-1320-S2-data.json is in the same directory.</div>';
+            }
+        }
+
+        // Update statistics display
+        function updateStatistics() {
+            if (!billData) return;
+
+            document.getElementById('totalSections').textContent = billData.statistics.totalSections;
+            document.getElementById('totalParts').textContent = billData.statistics.totalParts;
+            document.getElementById('totalRCW').textContent = billData.statutoryReferences.rcw.length;
+            document.getElementById('totalDefs').textContent = billData.definitions.length;
+            document.getElementById('totalAgencies').textContent = billData.agencies.length;
+
+            if (billData.votes.house) {
+                const margin = billData.votes.house.yeas - billData.votes.house.nays;
+                document.getElementById('voteMargin').textContent = `+${margin}`;
+            }
+        }
+
+        // Tab switching
+        function switchTab(tabName) {
+            // Hide all tab contents
+            document.querySelectorAll('.tab-content').forEach(tab => {
+                tab.classList.remove('active');
+            });
+
+            // Remove active class from all tabs
+            document.querySelectorAll('.tab').forEach(tab => {
+                tab.classList.remove('active');
+            });
+
+            // Show selected tab content
+            document.getElementById(tabName).classList.add('active');
+
+            // Mark tab as active
+            event.target.classList.add('active');
+        }
+
+        // Query functions
+        function queryBillMetadata() {
+            if (!billData) return;
+            const results = {
+                "Bill ID": billData.metadata.shortId,
+                "Title": billData.metadata.sessionLawCaption,
+                "Legislature": billData.metadata.legislature,
+                "Session": billData.metadata.session,
+                "Chapter": `Chapter ${billData.metadata.chapterLaw.number}, Laws of ${billData.metadata.chapterLaw.year}`,
+                "Brief Description": billData.metadata.briefDescription
+            };
+            displayResults(JSON.stringify(results, null, 2));
+        }
+
+        function queryVotingRecords() {
+            if (!billData) return;
+            displayResults(JSON.stringify(billData.votes, null, 2));
+        }
+
+        function queryDefinitions() {
+            if (!billData) return;
+            const defs = _.map(billData.definitions, def => ({
+                term: def.term,
+                definition: def.definition.substring(0, 100) + '...'
+            }));
+            displayResults(JSON.stringify(defs, null, 2));
+        }
+
+        function queryAgencies() {
+            if (!billData) return;
+            const agencies = billData.agencies;
+            displayResults(JSON.stringify(agencies, null, 2));
+        }
+
+        function queryRCWReferences() {
+            if (!billData) return;
+            const rcws = _.take(billData.statutoryReferences.rcw, 20);
+            displayResults(JSON.stringify(rcws, null, 2));
+        }
+
+        function queryFederalLaw() {
+            if (!billData) return;
+            displayResults(JSON.stringify(billData.statutoryReferences.federal, null, 2));
+        }
+
+        function queryAmendingSections() {
+            if (!billData) return;
+            const amending = _.take(billData.legislativeActions.amending, 10);
+            displayResults(JSON.stringify(amending, null, 2));
+        }
+
+        function queryRepealingSections() {
+            if (!billData) return;
+            displayResults(JSON.stringify(billData.legislativeActions.repealing, null, 2));
+        }
+
+        function queryFirearmSections() {
+            if (!billData) return;
+            const firearmSections = _.filter(billData.sections, s =>
+                s.content && s.content.toLowerCase().includes('firearm')
+            );
+            const results = _.map(firearmSections, s => ({
+                section: s.number,
+                caption: s.caption,
+                type: s.type
+            }));
+            displayResults(JSON.stringify(results, null, 2));
+        }
+
+        function queryFiscalInfo() {
+            if (!billData) return;
+            displayResults(JSON.stringify(billData.fiscal, null, 2));
+        }
+
+        function performSearch() {
+            if (!billData) return;
+            const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+            if (!searchTerm) return;
+
+            const results = {
+                sections: [],
+                definitions: [],
+                agencies: []
+            };
+
+            // Search sections
+            results.sections = _.filter(billData.sections, s =>
+                (s.caption && s.caption.toLowerCase().includes(searchTerm)) ||
+                (s.content && s.content.toLowerCase().includes(searchTerm))
+            ).slice(0, 10);
+
+            // Search definitions
+            results.definitions = _.filter(billData.definitions, d =>
+                (d.term && d.term.toLowerCase().includes(searchTerm)) ||
+                (d.definition && d.definition.toLowerCase().includes(searchTerm))
+            );
+
+            // Search agencies
+            results.agencies = _.filter(billData.agencies, a =>
+                a.toLowerCase().includes(searchTerm)
+            );
+
+            const summary = `Found ${results.sections.length} sections, ${results.definitions.length} definitions, ${results.agencies.length} agencies\n\n`;
+            displayResults(summary + JSON.stringify(results, null, 2), 'searchResults');
+        }
+
+        function executeCustomQuery() {
+            if (!billData) return;
+            const query = document.getElementById('customQuery').value;
+
+            try {
+                const result = eval(query);
+                displayResults(JSON.stringify(result, null, 2), 'customResults');
+            } catch (error) {
+                displayResults('Error: ' + error.message, 'customResults');
+            }
+        }
+
+        function displayResults(text, elementId = 'queryResults') {
+            document.getElementById(elementId).textContent = text;
+        }
+
+        // Load data on page load
+        window.addEventListener('DOMContentLoaded', loadBillData);
+
+        // Enable Enter key for search
+        document.addEventListener('DOMContentLoaded', () => {
+            document.getElementById('searchInput')?.addEventListener('keypress', (e) => {
+                if (e.key === 'Enter') performSearch();
+            });
+
+            document.getElementById('customQuery')?.addEventListener('keypress', (e) => {
+                if (e.key === 'Enter') executeCustomQuery();
+            });
+        });
+    </script>
+</body>
+</html>

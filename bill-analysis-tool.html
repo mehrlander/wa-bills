@@ -1,0 +1,855 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WA Bill Language Analysis Tool</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+
+        header {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            opacity: 0.9;
+            font-size: 1.1em;
+        }
+
+        .input-section {
+            padding: 30px;
+            background: #f8f9fa;
+            border-bottom: 2px solid #e9ecef;
+        }
+
+        textarea {
+            width: 100%;
+            height: 200px;
+            padding: 15px;
+            border: 2px solid #dee2e6;
+            border-radius: 8px;
+            font-family: 'Courier New', monospace;
+            font-size: 13px;
+            resize: vertical;
+        }
+
+        textarea:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+
+        .button-group {
+            margin-top: 15px;
+            display: flex;
+            gap: 10px;
+        }
+
+        button {
+            padding: 12px 24px;
+            border: none;
+            border-radius: 6px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-weight: 600;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+
+        .btn-secondary {
+            background: #6c757d;
+            color: white;
+        }
+
+        .btn-secondary:hover {
+            background: #5a6268;
+        }
+
+        .results {
+            padding: 30px;
+            display: none;
+        }
+
+        .results.active {
+            display: block;
+        }
+
+        .section {
+            margin-bottom: 40px;
+            padding: 25px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            border-left: 4px solid #667eea;
+        }
+
+        .section h2 {
+            color: #1e3c72;
+            margin-bottom: 20px;
+            font-size: 1.8em;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .section h3 {
+            color: #2a5298;
+            margin: 20px 0 10px 0;
+            font-size: 1.3em;
+        }
+
+        .metric-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+
+        .metric-card {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        .metric-value {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #667eea;
+            margin: 10px 0;
+        }
+
+        .metric-label {
+            color: #6c757d;
+            font-size: 0.9em;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .phrase-list {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            max-height: 400px;
+            overflow-y: auto;
+        }
+
+        .phrase-item {
+            padding: 10px;
+            margin: 5px 0;
+            background: #f8f9fa;
+            border-radius: 4px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .phrase-text {
+            flex: 1;
+            font-family: 'Courier New', monospace;
+            color: #2a5298;
+        }
+
+        .phrase-count {
+            background: #667eea;
+            color: white;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.9em;
+        }
+
+        .entity-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 15px;
+        }
+
+        .entity-category {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+        }
+
+        .entity-category h4 {
+            color: #1e3c72;
+            margin-bottom: 10px;
+            font-size: 1.1em;
+        }
+
+        .entity-tag {
+            display: inline-block;
+            background: #e9ecef;
+            padding: 5px 10px;
+            margin: 3px;
+            border-radius: 4px;
+            font-size: 0.9em;
+        }
+
+        .chart-container {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 20px;
+            position: relative;
+            height: 400px;
+        }
+
+        .similarity-item {
+            background: white;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 8px;
+            border-left: 4px solid #28a745;
+        }
+
+        .similarity-score {
+            display: inline-block;
+            background: #28a745;
+            color: white;
+            padding: 4px 12px;
+            border-radius: 4px;
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+
+        .loading {
+            display: none;
+            text-align: center;
+            padding: 40px;
+            font-size: 1.2em;
+            color: #667eea;
+        }
+
+        .loading.active {
+            display: block;
+        }
+
+        .spinner {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #667eea;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 20px auto;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .error {
+            background: #f8d7da;
+            color: #721c24;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+            border-left: 4px solid #dc3545;
+            display: none;
+        }
+
+        .error.active {
+            display: block;
+        }
+
+        .info-box {
+            background: #d1ecf1;
+            color: #0c5460;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 15px 0;
+            border-left: 4px solid #17a2b8;
+        }
+
+        .template-item {
+            background: white;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 8px;
+        }
+
+        .boilerplate-badge {
+            display: inline-block;
+            background: #ffc107;
+            color: #856404;
+            padding: 4px 12px;
+            border-radius: 4px;
+            font-weight: bold;
+            font-size: 0.85em;
+            margin-left: 10px;
+        }
+
+        .unique-badge {
+            display: inline-block;
+            background: #28a745;
+            color: white;
+            padding: 4px 12px;
+            border-radius: 4px;
+            font-weight: bold;
+            font-size: 0.85em;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>WA Bill Language Analysis Tool</h1>
+            <p class="subtitle">Advanced linguistic analysis for Washington State legislative bills</p>
+        </header>
+
+        <div class="input-section">
+            <textarea id="xmlInput" placeholder="Paste your bill XML content here..."></textarea>
+            <div class="button-group">
+                <button class="btn-primary" onclick="analyzeBill()">Analyze Bill</button>
+                <button class="btn-secondary" onclick="clearResults()">Clear</button>
+            </div>
+            <div class="error" id="errorMsg"></div>
+        </div>
+
+        <div class="loading" id="loading">
+            <div class="spinner"></div>
+            <p>Analyzing bill language...</p>
+        </div>
+
+        <div class="results" id="results">
+            <!-- Results will be dynamically inserted here -->
+        </div>
+    </div>
+
+    <script>
+        // Utility Functions
+        function tokenize(text) {
+            return text.toLowerCase()
+                .replace(/[^\w\s$,.-]/g, ' ')
+                .split(/\s+/)
+                .filter(word => word.length > 0);
+        }
+
+        function extractText(xmlDoc) {
+            const textElements = xmlDoc.querySelectorAll('P, Caption, BillTitle, BillSectionHeader');
+            let allText = '';
+            textElements.forEach(el => {
+                const text = el.textContent.trim();
+                if (text) allText += text + ' ';
+            });
+            return allText;
+        }
+
+        function extractProvisoText(xmlDoc) {
+            const provisos = [];
+            const paragraphs = xmlDoc.querySelectorAll('P');
+            paragraphs.forEach(p => {
+                const text = p.textContent;
+                if (text.toLowerCase().includes('provided solely') ||
+                    text.toLowerCase().includes('provided that')) {
+                    provisos.push(text.trim());
+                }
+            });
+            return provisos.join(' ');
+        }
+
+        // N-gram Analysis
+        function getNGrams(text, n) {
+            const words = tokenize(text);
+            const ngrams = {};
+
+            for (let i = 0; i <= words.length - n; i++) {
+                const ngram = words.slice(i, i + n).join(' ');
+                ngrams[ngram] = (ngrams[ngram] || 0) + 1;
+            }
+
+            return Object.entries(ngrams)
+                .sort((a, b) => b[1] - a[1])
+                .slice(0, 20);
+        }
+
+        // TF-IDF and Cosine Similarity
+        function calculateTFIDF(documents) {
+            const docCount = documents.length;
+            const tfidfVectors = [];
+
+            // Calculate document frequencies
+            const df = {};
+            documents.forEach(doc => {
+                const words = new Set(tokenize(doc));
+                words.forEach(word => {
+                    df[word] = (df[word] || 0) + 1;
+                });
+            });
+
+            // Calculate TF-IDF for each document
+            documents.forEach(doc => {
+                const words = tokenize(doc);
+                const tf = {};
+                words.forEach(word => {
+                    tf[word] = (tf[word] || 0) + 1;
+                });
+
+                const tfidf = {};
+                for (let word in tf) {
+                    const termFreq = tf[word] / words.length;
+                    const invDocFreq = Math.log(docCount / (df[word] || 1));
+                    tfidf[word] = termFreq * invDocFreq;
+                }
+                tfidfVectors.push(tfidf);
+            });
+
+            return tfidfVectors;
+        }
+
+        function cosineSimilarity(vec1, vec2) {
+            const allWords = new Set([...Object.keys(vec1), ...Object.keys(vec2)]);
+            let dotProduct = 0;
+            let mag1 = 0;
+            let mag2 = 0;
+
+            allWords.forEach(word => {
+                const v1 = vec1[word] || 0;
+                const v2 = vec2[word] || 0;
+                dotProduct += v1 * v2;
+                mag1 += v1 * v1;
+                mag2 += v2 * v2;
+            });
+
+            const magnitude = Math.sqrt(mag1) * Math.sqrt(mag2);
+            return magnitude === 0 ? 0 : dotProduct / magnitude;
+        }
+
+        // Entity Extraction
+        function extractEntities(text) {
+            const entities = {
+                amounts: [],
+                dates: [],
+                agencies: [],
+                programs: []
+            };
+
+            // Dollar amounts
+            const amountPattern = /\$[\d,]+(?:\.\d{2})?/g;
+            entities.amounts = [...new Set((text.match(amountPattern) || []))];
+
+            // Dates
+            const datePatterns = [
+                /(?:January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2},?\s+\d{4}/gi,
+                /\d{1,2}\/\d{1,2}\/\d{2,4}/g,
+                /(?:FY|fiscal year)\s*\d{4}/gi,
+                /June\s+30,?\s+\d{4}/gi,
+                /July\s+1,?\s+\d{4}/gi
+            ];
+            datePatterns.forEach(pattern => {
+                const matches = text.match(pattern);
+                if (matches) entities.dates.push(...matches);
+            });
+            entities.dates = [...new Set(entities.dates)];
+
+            // Agencies and Departments
+            const agencyPattern = /(?:department|office|commission|board|agency)\s+(?:of|for)\s+(?:the\s+)?(?:[A-Z][a-z]+(?:\s+[A-Z][a-z]+)*)/gi;
+            const agencyMatches = text.match(agencyPattern);
+            if (agencyMatches) {
+                entities.agencies = [...new Set(agencyMatches.map(a => a.trim()))];
+            }
+
+            // Programs (capitalized multi-word phrases)
+            const programPattern = /\b[A-Z][a-z]+(?:\s+[A-Z][a-z]+){1,4}\s+(?:Program|Initiative|Fund|Account|Project|Grant)\b/g;
+            const programMatches = text.match(programPattern);
+            if (programMatches) {
+                entities.programs = [...new Set(programMatches)].slice(0, 20);
+            }
+
+            return entities;
+        }
+
+        // Readability Metrics
+        function calculateReadability(text) {
+            const sentences = text.split(/[.!?]+/).filter(s => s.trim().length > 0);
+            const words = tokenize(text);
+
+            // Basic metrics
+            const avgSentenceLength = words.length / sentences.length;
+            const avgWordLength = words.reduce((sum, word) => sum + word.length, 0) / words.length;
+
+            // Syllable counting (approximation)
+            function countSyllables(word) {
+                word = word.toLowerCase();
+                if (word.length <= 3) return 1;
+                word = word.replace(/(?:[^laeiouy]es|ed|[^laeiouy]e)$/, '');
+                word = word.replace(/^y/, '');
+                const matches = word.match(/[aeiouy]{1,2}/g);
+                return matches ? matches.length : 1;
+            }
+
+            const syllableCounts = words.map(countSyllables);
+            const totalSyllables = syllableCounts.reduce((a, b) => a + b, 0);
+            const complexWords = words.filter(word => countSyllables(word) > 2).length;
+
+            // Flesch Reading Ease
+            const fleschScore = 206.835 - 1.015 * avgSentenceLength - 84.6 * (totalSyllables / words.length);
+
+            // Jargon density (legal/government terms)
+            const jargonTerms = [
+                'provided', 'solely', 'appropriation', 'pursuant', 'thereof', 'hereby',
+                'notwithstanding', 'subsection', 'aforementioned', 'whereas', 'fiscal',
+                'biennium', 'biennial', 'reappropriation', 'expenditure', 'allocated'
+            ];
+            const jargonCount = words.filter(word => jargonTerms.includes(word)).length;
+            const jargonDensity = (jargonCount / words.length) * 100;
+
+            return {
+                sentences: sentences.length,
+                words: words.length,
+                avgSentenceLength: avgSentenceLength.toFixed(1),
+                avgWordLength: avgWordLength.toFixed(1),
+                fleschScore: Math.max(0, Math.min(100, fleschScore)).toFixed(1),
+                complexWordRatio: ((complexWords / words.length) * 100).toFixed(1),
+                jargonDensity: jargonDensity.toFixed(1)
+            };
+        }
+
+        // Template/Boilerplate Detection
+        function detectTemplates(text) {
+            const sentences = text.split(/[.!?]+/).filter(s => s.trim().length > 20);
+            const sentenceFreq = {};
+
+            sentences.forEach(sentence => {
+                const normalized = sentence.trim().toLowerCase();
+                sentenceFreq[normalized] = (sentenceFreq[normalized] || 0) + 1;
+            });
+
+            const boilerplate = [];
+            const unique = [];
+
+            Object.entries(sentenceFreq).forEach(([sentence, count]) => {
+                if (count > 1) {
+                    boilerplate.push({ text: sentence, count });
+                } else {
+                    unique.push(sentence);
+                }
+            });
+
+            boilerplate.sort((a, b) => b.count - a.count);
+
+            const boilerplateRatio = (boilerplate.reduce((sum, item) => sum + item.count, 0) / sentences.length) * 100;
+
+            return {
+                boilerplate: boilerplate.slice(0, 10),
+                uniqueCount: unique.length,
+                boilerplateRatio: boilerplateRatio.toFixed(1),
+                totalSentences: sentences.length
+            };
+        }
+
+        // Main Analysis Function
+        function analyzeBill() {
+            const xmlInput = document.getElementById('xmlInput').value.trim();
+            const errorMsg = document.getElementById('errorMsg');
+            const loading = document.getElementById('loading');
+            const results = document.getElementById('results');
+
+            // Clear previous results
+            errorMsg.classList.remove('active');
+            results.classList.remove('active');
+
+            if (!xmlInput) {
+                errorMsg.textContent = 'Please paste XML content first.';
+                errorMsg.classList.add('active');
+                return;
+            }
+
+            loading.classList.add('active');
+
+            setTimeout(() => {
+                try {
+                    // Parse XML
+                    const parser = new DOMParser();
+                    const xmlDoc = parser.parseFromString(xmlInput, 'text/xml');
+
+                    // Check for parsing errors
+                    const parseError = xmlDoc.querySelector('parsererror');
+                    if (parseError) {
+                        throw new Error('Invalid XML format');
+                    }
+
+                    // Extract text
+                    const fullText = extractText(xmlDoc);
+                    const provisoText = extractProvisoText(xmlDoc);
+
+                    if (!fullText) {
+                        throw new Error('No text content found in XML');
+                    }
+
+                    // Perform analyses
+                    const bigrams = getNGrams(provisoText || fullText, 2);
+                    const trigrams = getNGrams(provisoText || fullText, 3);
+                    const fourgrams = getNGrams(provisoText || fullText, 4);
+
+                    const entities = extractEntities(fullText);
+                    const readability = calculateReadability(fullText);
+                    const templates = detectTemplates(fullText);
+
+                    // Analyze sections for similarity
+                    const sections = xmlDoc.querySelectorAll('BillSection');
+                    const sectionTexts = Array.from(sections).map(s => s.textContent.trim()).filter(t => t.length > 100);
+
+                    let similarities = [];
+                    if (sectionTexts.length > 1) {
+                        const tfidfVectors = calculateTFIDF(sectionTexts);
+
+                        for (let i = 0; i < Math.min(5, sectionTexts.length); i++) {
+                            for (let j = i + 1; j < Math.min(5, sectionTexts.length); j++) {
+                                const sim = cosineSimilarity(tfidfVectors[i], tfidfVectors[j]);
+                                if (sim > 0.3) {
+                                    similarities.push({
+                                        section1: i + 1,
+                                        section2: j + 1,
+                                        similarity: (sim * 100).toFixed(1),
+                                        preview1: sectionTexts[i].substring(0, 100) + '...',
+                                        preview2: sectionTexts[j].substring(0, 100) + '...'
+                                    });
+                                }
+                            }
+                        }
+                        similarities.sort((a, b) => b.similarity - a.similarity);
+                    }
+
+                    // Display results
+                    displayResults({
+                        bigrams,
+                        trigrams,
+                        fourgrams,
+                        entities,
+                        readability,
+                        templates,
+                        similarities,
+                        sectionCount: sections.length
+                    });
+
+                    loading.classList.remove('active');
+                    results.classList.add('active');
+
+                } catch (error) {
+                    loading.classList.remove('active');
+                    errorMsg.textContent = 'Error: ' + error.message;
+                    errorMsg.classList.add('active');
+                }
+            }, 100);
+        }
+
+        function displayResults(data) {
+            const results = document.getElementById('results');
+
+            let html = `
+                <div class="section">
+                    <h2>📊 Readability Metrics</h2>
+                    <div class="metric-grid">
+                        <div class="metric-card">
+                            <div class="metric-label">Flesch Score</div>
+                            <div class="metric-value">${data.readability.fleschScore}</div>
+                            <small>${getFleschInterpretation(data.readability.fleschScore)}</small>
+                        </div>
+                        <div class="metric-card">
+                            <div class="metric-label">Avg Sentence Length</div>
+                            <div class="metric-value">${data.readability.avgSentenceLength}</div>
+                            <small>words per sentence</small>
+                        </div>
+                        <div class="metric-card">
+                            <div class="metric-label">Complex Words</div>
+                            <div class="metric-value">${data.readability.complexWordRatio}%</div>
+                            <small>3+ syllables</small>
+                        </div>
+                        <div class="metric-card">
+                            <div class="metric-label">Jargon Density</div>
+                            <div class="metric-value">${data.readability.jargonDensity}%</div>
+                            <small>legal/govt terms</small>
+                        </div>
+                    </div>
+                    <div class="info-box">
+                        <strong>Document Statistics:</strong> ${data.readability.sentences} sentences, ${data.readability.words} words
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h2>🔍 Common Phrases (N-gram Analysis)</h2>
+                    <h3>Most Common Bigrams (2-word phrases)</h3>
+                    <div class="phrase-list">
+                        ${data.bigrams.map(([phrase, count]) => `
+                            <div class="phrase-item">
+                                <span class="phrase-text">${phrase}</span>
+                                <span class="phrase-count">${count}</span>
+                            </div>
+                        `).join('')}
+                    </div>
+
+                    <h3>Most Common Trigrams (3-word phrases)</h3>
+                    <div class="phrase-list">
+                        ${data.trigrams.slice(0, 15).map(([phrase, count]) => `
+                            <div class="phrase-item">
+                                <span class="phrase-text">${phrase}</span>
+                                <span class="phrase-count">${count}</span>
+                            </div>
+                        `).join('')}
+                    </div>
+
+                    <h3>Most Common 4-grams (4-word phrases)</h3>
+                    <div class="phrase-list">
+                        ${data.fourgrams.slice(0, 10).map(([phrase, count]) => `
+                            <div class="phrase-item">
+                                <span class="phrase-text">${phrase}</span>
+                                <span class="phrase-count">${count}</span>
+                            </div>
+                        `).join('')}
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h2>🏛️ Entity Extraction</h2>
+                    <div class="entity-grid">
+                        <div class="entity-category">
+                            <h4>💰 Dollar Amounts (${data.entities.amounts.length})</h4>
+                            ${data.entities.amounts.slice(0, 20).map(amount =>
+                                `<span class="entity-tag">${amount}</span>`
+                            ).join('')}
+                        </div>
+                        <div class="entity-category">
+                            <h4>📅 Dates & Fiscal Periods (${data.entities.dates.length})</h4>
+                            ${data.entities.dates.slice(0, 20).map(date =>
+                                `<span class="entity-tag">${date}</span>`
+                            ).join('')}
+                        </div>
+                        <div class="entity-category">
+                            <h4>🏢 Agencies & Departments (${data.entities.agencies.length})</h4>
+                            ${data.entities.agencies.slice(0, 15).map(agency =>
+                                `<span class="entity-tag">${agency}</span>`
+                            ).join('')}
+                        </div>
+                        <div class="entity-category">
+                            <h4>📋 Programs & Projects (${data.entities.programs.length})</h4>
+                            ${data.entities.programs.slice(0, 15).map(program =>
+                                `<span class="entity-tag">${program}</span>`
+                            ).join('')}
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h2>📝 Template & Boilerplate Detection</h2>
+                    <div class="metric-grid">
+                        <div class="metric-card">
+                            <div class="metric-label">Boilerplate Ratio</div>
+                            <div class="metric-value">${data.templates.boilerplateRatio}%</div>
+                            <small>repeated language</small>
+                        </div>
+                        <div class="metric-card">
+                            <div class="metric-label">Unique Sentences</div>
+                            <div class="metric-value">${data.templates.uniqueCount}</div>
+                            <small>of ${data.templates.totalSentences} total</small>
+                        </div>
+                    </div>
+
+                    ${data.templates.boilerplate.length > 0 ? `
+                        <h3>Most Common Boilerplate Phrases</h3>
+                        ${data.templates.boilerplate.map(item => `
+                            <div class="template-item">
+                                <span class="boilerplate-badge">×${item.count}</span>
+                                <p style="margin-top: 10px; color: #495057;">${item.text.substring(0, 200)}...</p>
+                            </div>
+                        `).join('')}
+                    ` : '<p>No significant boilerplate detected.</p>'}
+                </div>
+
+                ${data.similarities.length > 0 ? `
+                    <div class="section">
+                        <h2>🔗 Similar Sections (Cosine Similarity)</h2>
+                        <div class="info-box">
+                            Analyzed ${data.sectionCount} bill sections using TF-IDF vectorization and cosine similarity.
+                            Showing sections with similarity > 30%.
+                        </div>
+                        ${data.similarities.map(sim => `
+                            <div class="similarity-item">
+                                <span class="similarity-score">${sim.similarity}% similar</span>
+                                <h4>Section ${sim.section1} ↔ Section ${sim.section2}</h4>
+                                <p style="margin: 10px 0; color: #6c757d; font-size: 0.9em;">
+                                    <strong>Section ${sim.section1}:</strong> ${sim.preview1}
+                                </p>
+                                <p style="color: #6c757d; font-size: 0.9em;">
+                                    <strong>Section ${sim.section2}:</strong> ${sim.preview2}
+                                </p>
+                            </div>
+                        `).join('')}
+                    </div>
+                ` : `
+                    <div class="section">
+                        <h2>🔗 Similar Sections (Cosine Similarity)</h2>
+                        <div class="info-box">
+                            No highly similar sections found (similarity threshold: 30%). This suggests unique content across sections.
+                        </div>
+                    </div>
+                `}
+            `;
+
+            results.innerHTML = html;
+        }
+
+        function getFleschInterpretation(score) {
+            score = parseFloat(score);
+            if (score >= 90) return 'Very Easy';
+            if (score >= 80) return 'Easy';
+            if (score >= 70) return 'Fairly Easy';
+            if (score >= 60) return 'Standard';
+            if (score >= 50) return 'Fairly Difficult';
+            if (score >= 30) return 'Difficult';
+            return 'Very Difficult';
+        }
+
+        function clearResults() {
+            document.getElementById('xmlInput').value = '';
+            document.getElementById('results').classList.remove('active');
+            document.getElementById('errorMsg').classList.remove('active');
+        }
+
+        // Load sample on page load for testing
+        window.addEventListener('DOMContentLoaded', () => {
+            console.log('WA Bill Language Analysis Tool loaded');
+        });
+    </script>
+</body>
+</html>

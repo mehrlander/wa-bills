@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HB 5195-S Budget Data Explorer</title>
+  <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background: #f5f5f5;
+    }
+
+    .container {
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    header {
+      background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+      color: white;
+      padding: 30px 20px;
+      margin-bottom: 30px;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+
+    header h1 {
+      font-size: 2.2em;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.1em;
+      opacity: 0.9;
+    }
+
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      margin-bottom: 30px;
+    }
+
+    .stat-card {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    .stat-card h3 {
+      font-size: 0.9em;
+      color: #666;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 10px;
+    }
+
+    .stat-card .value {
+      font-size: 2em;
+      font-weight: bold;
+      color: #1e3a8a;
+    }
+
+    .section {
+      background: white;
+      padding: 25px;
+      margin-bottom: 25px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    .section h2 {
+      color: #1e3a8a;
+      margin-bottom: 20px;
+      padding-bottom: 10px;
+      border-bottom: 2px solid #3b82f6;
+    }
+
+    .query-box {
+      background: #f8fafc;
+      border-left: 4px solid #3b82f6;
+      padding: 15px;
+      margin: 15px 0;
+      border-radius: 4px;
+    }
+
+    .query-box h4 {
+      color: #1e3a8a;
+      margin-bottom: 10px;
+      font-size: 1em;
+    }
+
+    .query-box pre {
+      background: #1e293b;
+      color: #e2e8f0;
+      padding: 15px;
+      border-radius: 4px;
+      overflow-x: auto;
+      font-size: 0.9em;
+      line-height: 1.5;
+    }
+
+    .result {
+      margin-top: 10px;
+      padding: 15px;
+      background: white;
+      border: 1px solid #e5e7eb;
+      border-radius: 4px;
+      max-height: 400px;
+      overflow-y: auto;
+    }
+
+    .result pre {
+      font-size: 0.85em;
+      white-space: pre-wrap;
+      word-wrap: break-word;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 15px 0;
+    }
+
+    th, td {
+      padding: 12px;
+      text-align: left;
+      border-bottom: 1px solid #e5e7eb;
+    }
+
+    th {
+      background: #f8fafc;
+      color: #1e3a8a;
+      font-weight: 600;
+    }
+
+    tr:hover {
+      background: #f8fafc;
+    }
+
+    .chart-container {
+      position: relative;
+      height: 400px;
+      margin: 20px 0;
+    }
+
+    button {
+      background: #3b82f6;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 1em;
+      margin: 5px;
+      transition: background 0.3s;
+    }
+
+    button:hover {
+      background: #2563eb;
+    }
+
+    .tabs {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 20px;
+      border-bottom: 2px solid #e5e7eb;
+    }
+
+    .tab {
+      padding: 10px 20px;
+      cursor: pointer;
+      border: none;
+      background: none;
+      color: #666;
+      border-bottom: 3px solid transparent;
+      transition: all 0.3s;
+    }
+
+    .tab.active {
+      color: #1e3a8a;
+      border-bottom-color: #3b82f6;
+    }
+
+    .tab-content {
+      display: none;
+    }
+
+    .tab-content.active {
+      display: block;
+    }
+
+    .money {
+      color: #059669;
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>HB 5195-S Capital Budget Explorer</h1>
+      <p id="headerInfo">Washington State 2025-2027 Capital Budget</p>
+    </header>
+
+    <div class="stats" id="stats"></div>
+
+    <div class="section">
+      <h2>Interactive Query Examples</h2>
+      <div class="tabs">
+        <button class="tab active" onclick="switchTab('overview')">Overview</button>
+        <button class="tab" onclick="switchTab('projects')">Projects</button>
+        <button class="tab" onclick="switchTab('departments')">Departments</button>
+        <button class="tab" onclick="switchTab('accounts')">Accounts</button>
+        <button class="tab" onclick="switchTab('custom')">Custom Queries</button>
+      </div>
+
+      <div id="overview" class="tab-content active">
+        <div class="query-box">
+          <h4>Top 10 Most Expensive Projects</h4>
+          <button onclick="runQuery('top10Projects')">Run Query</button>
+          <pre>_.chain(billData.projects)
+  .orderBy(['fiscalSummary.currentBiennium'], ['desc'])
+  .take(10)
+  .value()</pre>
+          <div id="result-top10Projects" class="result" style="display:none;"></div>
+        </div>
+
+        <div class="query-box">
+          <h4>Budget by Department</h4>
+          <button onclick="runQuery('budgetByDept')">Run Query</button>
+          <pre>_.chain(billData.fiscalImpact.byDepartment)
+  .toPairs()
+  .map(([dept, data]) => ({ department: dept, ...data }))
+  .orderBy(['currentBiennium'], ['desc'])
+  .value()</pre>
+          <div id="result-budgetByDept" class="result" style="display:none;"></div>
+        </div>
+
+        <div class="chart-container">
+          <canvas id="deptChart"></canvas>
+        </div>
+      </div>
+
+      <div id="projects" class="tab-content">
+        <div class="query-box">
+          <h4>Search Projects by Keyword</h4>
+          <input type="text" id="projectSearch" placeholder="Enter keyword (e.g., 'school', 'park', 'bridge')" style="width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #e5e7eb; border-radius: 4px;">
+          <button onclick="runQuery('searchProjects')">Search</button>
+          <pre>const keyword = document.getElementById('projectSearch').value;
+_.filter(billData.projects, p =>
+  p.projectName.toLowerCase().includes(keyword.toLowerCase())
+)</pre>
+          <div id="result-searchProjects" class="result" style="display:none;"></div>
+        </div>
+
+        <div class="query-box">
+          <h4>Projects with Reappropriations (Carryover Funding)</h4>
+          <button onclick="runQuery('reappropProjects')">Run Query</button>
+          <pre>_.chain(billData.projects)
+  .filter(p => p.fiscalSummary.reappropriation > 0)
+  .orderBy(['fiscalSummary.reappropriation'], ['desc'])
+  .take(20)
+  .value()</pre>
+          <div id="result-reappropProjects" class="result" style="display:none;"></div>
+        </div>
+      </div>
+
+      <div id="departments" class="tab-content">
+        <div class="query-box">
+          <h4>All Departments and Project Counts</h4>
+          <button onclick="runQuery('deptList')">Run Query</button>
+          <pre>billData.agencies.departments</pre>
+          <div id="result-deptList" class="result" style="display:none;"></div>
+        </div>
+
+        <div class="query-box">
+          <h4>Department of Commerce Projects</h4>
+          <button onclick="runQuery('commerceProjects')">Run Query</button>
+          <pre>_.filter(billData.projects,
+  p => p.department === 'FOR THE DEPARTMENT OF COMMERCE'
+)</pre>
+          <div id="result-commerceProjects" class="result" style="display:none;"></div>
+        </div>
+      </div>
+
+      <div id="accounts" class="tab-content">
+        <div class="query-box">
+          <h4>Funding by Account</h4>
+          <button onclick="runQuery('accountTotals')">Run Query</button>
+          <pre>_.chain(billData.fiscalImpact.byAccount)
+  .toPairs()
+  .map(([account, amount]) => ({ account, amount }))
+  .orderBy(['amount'], ['desc'])
+  .value()</pre>
+          <div id="result-accountTotals" class="result" style="display:none;"></div>
+        </div>
+
+        <div class="query-box">
+          <h4>Climate Commitment Account Projects</h4>
+          <button onclick="runQuery('climateProjects')">Run Query</button>
+          <pre>_.chain(billData.projects)
+  .filter(p => _.some(p.appropriations.appropriation,
+    a => a.account.includes('Climate Commitment')))
+  .value()</pre>
+          <div id="result-climateProjects" class="result" style="display:none;"></div>
+        </div>
+      </div>
+
+      <div id="custom" class="tab-content">
+        <div class="query-box">
+          <h4>Custom Lodash Query</h4>
+          <p>Enter your own lodash query. The data is available as <code>billData</code>.</p>
+          <textarea id="customQuery" style="width: 100%; height: 150px; padding: 10px; font-family: monospace; margin: 10px 0; border: 1px solid #e5e7eb; border-radius: 4px;">// Example: Find all projects over $10M
+_.chain(billData.projects)
+  .filter(p => p.fiscalSummary.currentBiennium > 10000000)
+  .orderBy(['fiscalSummary.currentBiennium'], ['desc'])
+  .value()</textarea>
+          <button onclick="runCustomQuery()">Run Custom Query</button>
+          <div id="result-custom" class="result" style="display:none;"></div>
+        </div>
+
+        <div class="query-box">
+          <h4>Veto Information</h4>
+          <button onclick="runQuery('vetoInfo')">Show Vetoed Sections</button>
+          <pre>billData.vetos</pre>
+          <div id="result-vetoInfo" class="result" style="display:none;"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Schema Documentation</h2>
+      <p>The extracted data follows a structured JSON schema. Key entities:</p>
+      <ul style="line-height: 2; margin: 15px 0; padding-left: 30px;">
+        <li><strong>metadata</strong>: Bill information, sponsors, passage dates, veto status</li>
+        <li><strong>parts</strong>: Major divisions (General Government, K-12, Higher Ed, etc.)</li>
+        <li><strong>projects</strong>: 788 capital projects with funding details</li>
+        <li><strong>appropriations</strong>: Granular appropriation line items</li>
+        <li><strong>agencies</strong>: 40 departments and agency codes</li>
+        <li><strong>accounts</strong>: 83 unique funding accounts</li>
+        <li><strong>fiscalImpact</strong>: Aggregated fiscal summaries</li>
+        <li><strong>rcwReferences</strong>: Statutory citations</li>
+        <li><strong>vetos</strong>: Partial veto information</li>
+      </ul>
+      <p><a href="hb5195-schema.json" target="_blank" style="color: #3b82f6; text-decoration: none; font-weight: 600;">View Full JSON Schema →</a></p>
+    </div>
+  </div>
+
+  <script>
+    let billData = null;
+
+    // Load the JSON data
+    fetch('hb5195-data.json')
+      .then(response => response.json())
+      .then(data => {
+        billData = data;
+        initializePage();
+      })
+      .catch(error => {
+        console.error('Error loading data:', error);
+        alert('Error loading bill data. Please ensure hb5195-data.json is in the same directory.');
+      });
+
+    function initializePage() {
+      // Update header
+      document.getElementById('headerInfo').textContent =
+        `${billData.metadata.longBillId} - ${billData.metadata.legislature} - ${billData.metadata.session}`;
+
+      // Create stats
+      const statsHtml = `
+        <div class="stat-card">
+          <h3>Current Biennium</h3>
+          <div class="value money">$${(billData.fiscalImpact.totalCurrentBiennium / 1e9).toFixed(2)}B</div>
+        </div>
+        <div class="stat-card">
+          <h3>Reappropriations</h3>
+          <div class="value money">$${(billData.fiscalImpact.totalReappropriation / 1e9).toFixed(2)}B</div>
+        </div>
+        <div class="stat-card">
+          <h3>Total Projects</h3>
+          <div class="value">${billData.fiscalImpact.projectCount}</div>
+        </div>
+        <div class="stat-card">
+          <h3>Departments</h3>
+          <div class="value">${billData.agencies.departments.length}</div>
+        </div>
+        <div class="stat-card">
+          <h3>Funding Accounts</h3>
+          <div class="value">${billData.accounts.length}</div>
+        </div>
+        <div class="stat-card">
+          <h3>Vetoed Sections</h3>
+          <div class="value">${billData.vetos.vetoedSections.length}</div>
+        </div>
+      `;
+      document.getElementById('stats').innerHTML = statsHtml;
+
+      // Create department chart
+      createDepartmentChart();
+    }
+
+    function switchTab(tabName) {
+      // Update tab buttons
+      document.querySelectorAll('.tab').forEach(tab => tab.classList.remove('active'));
+      event.target.classList.add('active');
+
+      // Update tab content
+      document.querySelectorAll('.tab-content').forEach(content => content.classList.remove('active'));
+      document.getElementById(tabName).classList.add('active');
+    }
+
+    function runQuery(queryName) {
+      let result;
+
+      switch(queryName) {
+        case 'top10Projects':
+          result = _.chain(billData.projects)
+            .orderBy(['fiscalSummary.currentBiennium'], ['desc'])
+            .take(10)
+            .value();
+          displayTable(result, 'result-' + queryName, [
+            { key: 'projectName', label: 'Project Name' },
+            { key: 'department', label: 'Department' },
+            { key: 'fiscalSummary.currentBiennium', label: 'Current Biennium', format: 'money' }
+          ]);
+          break;
+
+        case 'budgetByDept':
+          result = _.chain(billData.fiscalImpact.byDepartment)
+            .toPairs()
+            .map(([dept, data]) => ({ department: dept, ...data }))
+            .orderBy(['currentBiennium'], ['desc'])
+            .value();
+          displayTable(result, 'result-' + queryName, [
+            { key: 'department', label: 'Department' },
+            { key: 'projectCount', label: 'Projects' },
+            { key: 'currentBiennium', label: 'Current Biennium', format: 'money' },
+            { key: 'reappropriation', label: 'Reappropriations', format: 'money' }
+          ]);
+          break;
+
+        case 'searchProjects':
+          const keyword = document.getElementById('projectSearch').value;
+          if (!keyword) {
+            alert('Please enter a search keyword');
+            return;
+          }
+          result = _.filter(billData.projects, p =>
+            p.projectName.toLowerCase().includes(keyword.toLowerCase())
+          );
+          displayTable(result, 'result-' + queryName, [
+            { key: 'projectName', label: 'Project Name' },
+            { key: 'department', label: 'Department' },
+            { key: 'fiscalSummary.currentBiennium', label: 'Current Biennium', format: 'money' }
+          ]);
+          break;
+
+        case 'reappropProjects':
+          result = _.chain(billData.projects)
+            .filter(p => p.fiscalSummary.reappropriation > 0)
+            .orderBy(['fiscalSummary.reappropriation'], ['desc'])
+            .take(20)
+            .value();
+          displayTable(result, 'result-' + queryName, [
+            { key: 'projectName', label: 'Project Name' },
+            { key: 'department', label: 'Department' },
+            { key: 'fiscalSummary.reappropriation', label: 'Reappropriation', format: 'money' }
+          ]);
+          break;
+
+        case 'deptList':
+          result = billData.agencies.departments;
+          displayJSON(result, 'result-' + queryName);
+          break;
+
+        case 'commerceProjects':
+          result = _.filter(billData.projects,
+            p => p.department === 'FOR THE DEPARTMENT OF COMMERCE'
+          );
+          displayTable(result, 'result-' + queryName, [
+            { key: 'projectName', label: 'Project Name' },
+            { key: 'fiscalSummary.currentBiennium', label: 'Current Biennium', format: 'money' }
+          ]);
+          break;
+
+        case 'accountTotals':
+          result = _.chain(billData.fiscalImpact.byAccount)
+            .toPairs()
+            .map(([account, amount]) => ({ account, amount }))
+            .orderBy(['amount'], ['desc'])
+            .value();
+          displayTable(result, 'result-' + queryName, [
+            { key: 'account', label: 'Account' },
+            { key: 'amount', label: 'Total Amount', format: 'money' }
+          ]);
+          break;
+
+        case 'climateProjects':
+          result = _.chain(billData.projects)
+            .filter(p => _.some(p.appropriations.appropriation,
+              a => a.account.includes('Climate Commitment')))
+            .value();
+          displayTable(result, 'result-' + queryName, [
+            { key: 'projectName', label: 'Project Name' },
+            { key: 'department', label: 'Department' },
+            { key: 'fiscalSummary.currentBiennium', label: 'Current Biennium', format: 'money' }
+          ]);
+          break;
+
+        case 'vetoInfo':
+          result = billData.vetos;
+          displayJSON(result, 'result-' + queryName);
+          break;
+      }
+    }
+
+    function runCustomQuery() {
+      const query = document.getElementById('customQuery').value;
+      try {
+        const result = eval(query);
+        displayJSON(result, 'result-custom');
+      } catch(error) {
+        document.getElementById('result-custom').innerHTML =
+          `<pre style="color: red;">Error: ${error.message}</pre>`;
+        document.getElementById('result-custom').style.display = 'block';
+      }
+    }
+
+    function displayTable(data, elementId, columns) {
+      if (!data || data.length === 0) {
+        document.getElementById(elementId).innerHTML = '<p>No results found.</p>';
+        document.getElementById(elementId).style.display = 'block';
+        return;
+      }
+
+      let html = '<table><thead><tr>';
+      columns.forEach(col => {
+        html += `<th>${col.label}</th>`;
+      });
+      html += '</tr></thead><tbody>';
+
+      data.forEach(row => {
+        html += '<tr>';
+        columns.forEach(col => {
+          let value = _.get(row, col.key);
+          if (col.format === 'money') {
+            value = `<span class="money">$${value.toLocaleString()}</span>`;
+          }
+          html += `<td>${value}</td>`;
+        });
+        html += '</tr>';
+      });
+
+      html += '</tbody></table>';
+      html += `<p style="margin-top: 10px; color: #666;"><strong>${data.length}</strong> results</p>`;
+
+      document.getElementById(elementId).innerHTML = html;
+      document.getElementById(elementId).style.display = 'block';
+    }
+
+    function displayJSON(data, elementId) {
+      const html = `<pre>${JSON.stringify(data, null, 2)}</pre>`;
+      document.getElementById(elementId).innerHTML = html;
+      document.getElementById(elementId).style.display = 'block';
+    }
+
+    function createDepartmentChart() {
+      const ctx = document.getElementById('deptChart');
+
+      const deptData = _.chain(billData.fiscalImpact.byDepartment)
+        .toPairs()
+        .map(([dept, data]) => ({
+          department: dept.replace('FOR THE DEPARTMENT OF ', '').replace('FOR THE ', ''),
+          amount: data.currentBiennium
+        }))
+        .orderBy(['amount'], ['desc'])
+        .take(15)
+        .value();
+
+      new Chart(ctx, {
+        type: 'bar',
+        data: {
+          labels: deptData.map(d => d.department),
+          datasets: [{
+            label: 'Current Biennium Appropriations',
+            data: deptData.map(d => d.amount / 1e6), // Convert to millions
+            backgroundColor: 'rgba(59, 130, 246, 0.7)',
+            borderColor: 'rgba(30, 58, 138, 1)',
+            borderWidth: 1
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: {
+            title: {
+              display: true,
+              text: 'Top 15 Departments by Current Biennium Appropriations',
+              font: { size: 16 }
+            },
+            legend: {
+              display: false
+            }
+          },
+          scales: {
+            y: {
+              beginAtZero: true,
+              title: {
+                display: true,
+                text: 'Amount (Millions $)'
+              },
+              ticks: {
+                callback: function(value) {
+                  return '$' + value + 'M';
+                }
+              }
+            },
+            x: {
+              ticks: {
+                maxRotation: 45,
+                minRotation: 45
+              }
+            }
+          }
+        }
+      });
+    }
+  </script>
+</body>
+</html>

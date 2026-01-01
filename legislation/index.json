@@ -1,0 +1,87 @@
+{
+  "description": "Washington State legislation data by biennium",
+  "source": "Washington State Legislature API",
+  "total_bills": 40160,
+  "bienniums": [
+    {
+      "biennium": "2009-10",
+      "file": "2009-10.jsonl",
+      "bill_count": 2318,
+      "file_size_bytes": 2190968
+    },
+    {
+      "biennium": "2011-12",
+      "file": "2011-12.jsonl",
+      "bill_count": 5003,
+      "file_size_bytes": 4750573
+    },
+    {
+      "biennium": "2013-14",
+      "file": "2013-14.jsonl",
+      "bill_count": 4906,
+      "file_size_bytes": 4669818
+    },
+    {
+      "biennium": "2015-16",
+      "file": "2015-16.jsonl",
+      "bill_count": 5216,
+      "file_size_bytes": 5045724
+    },
+    {
+      "biennium": "2017-18",
+      "file": "2017-18.jsonl",
+      "bill_count": 5577,
+      "file_size_bytes": 5313276
+    },
+    {
+      "biennium": "2019-20",
+      "file": "2019-20.jsonl",
+      "bill_count": 5766,
+      "file_size_bytes": 5396753
+    },
+    {
+      "biennium": "2021-22",
+      "file": "2021-22.jsonl",
+      "bill_count": 3390,
+      "file_size_bytes": 3200064
+    },
+    {
+      "biennium": "2023-24",
+      "file": "2023-24.jsonl",
+      "bill_count": 4800,
+      "file_size_bytes": 4474620
+    },
+    {
+      "biennium": "2025-26",
+      "file": "2025-26.jsonl",
+      "bill_count": 3184,
+      "file_size_bytes": 2970537
+    }
+  ],
+  "fields": [
+    "Biennium",
+    "BillId",
+    "BillNumber",
+    "SubstituteVersion",
+    "EngrossedVersion",
+    "ShortLegislationType",
+    "OriginalAgency",
+    "Active",
+    "StateFiscalNote",
+    "LocalFiscalNote",
+    "Appropriations",
+    "RequestedByGovernor",
+    "RequestedByBudgetCommittee",
+    "RequestedByDepartment",
+    "RequestedByOther",
+    "ShortDescription",
+    "Request",
+    "IntroducedDate",
+    "CurrentStatus",
+    "Sponsor",
+    "PrimeSponsorID",
+    "LongDescription",
+    "LegalTitle",
+    "Companions"
+  ]
+}

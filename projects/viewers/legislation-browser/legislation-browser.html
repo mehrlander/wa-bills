@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WA Legislation Browser</title>
+<script src="https://cdn.jsdelivr.net/combine/npm/@tailwindcss/browser@4,npm/jquery,npm/@phosphor-icons/web,npm/clipboard"></script>
+<link href="https://cdn.jsdelivr.net/combine/npm/@tailwindcss/typography@0.5/dist/typography.min.css,npm/daisyui@5/themes.css,npm/daisyui@5" rel="stylesheet" />
+</head>
+
+<body class="min-h-screen bg-base-100">
+<div class="max-w-7xl mx-auto px-4 py-4">
+
+  <div class="mb-6 flex items-center justify-between">
+    <div class="flex items-center gap-3">
+      <div class="flex items-center gap-2">
+        <i class="ph ph-scroll text-2xl text-primary"></i>
+        <h1 class="text-xl font-bold">WA Legislation</h1>
+      </div>
+      <div class="badge badge-ghost font-mono text-xs" id="repoInfo">mehrlander/wa-bills</div>
+    </div>
+    <div class="tooltip tooltip-left" id="authStatus">
+      <i class="ph ph-circle-notch animate-spin text-lg"></i>
+    </div>
+  </div>
+
+  <div class="card bg-base-200 shadow-sm mb-4">
+    <div class="card-body p-4">
+      <div class="flex flex-wrap items-end gap-4">
+        <div class="form-control">
+          <label class="label py-1"><span class="label-text font-semibold">Biennium</span></label>
+          <select id="bienniumSelect" class="select select-bordered select-sm w-40">
+            <option disabled selected>Select...</option>
+          </select>
+        </div>
+        <div id="statsDisplay" class="flex items-center gap-4 text-sm text-base-content/70"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card bg-base-200 shadow-sm">
+    <div class="card-body p-4">
+      <div class="flex items-center justify-between mb-3">
+        <div class="flex items-center gap-2">
+          <span class="font-semibold">Bill Data</span>
+          <span id="billCount" class="badge badge-sm badge-ghost font-mono"></span>
+        </div>
+        <div class="flex items-center gap-2">
+          <div class="form-control">
+            <input type="text" id="searchInput" placeholder="Filter bills..." class="input input-bordered input-sm w-48" disabled />
+          </div>
+          <button id="copyAllBtn" class="btn btn-sm btn-ghost" disabled title="Copy All">
+            <i class="ph ph-copy text-lg"></i>
+          </button>
+        </div>
+      </div>
+
+      <div id="dataContainer" class="bg-base-100 border border-base-300 rounded-lg overflow-hidden">
+        <div class="flex items-center justify-center h-64 text-base-content/50">
+          <div class="text-center">
+            <i class="ph ph-list-magnifying-glass text-4xl mb-2"></i>
+            <div>Select a biennium to load legislation data</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+const GH_TOKEN = '🎟️GitHubToken'
+const isAuth = !GH_TOKEN.includes('🎟️')
+const REPO = 'mehrlander/wa-bills'
+const INDEX_PATH = 'legislation/index.json'
+const CSV_PATH = 'legislation/csv'
+const getHeaders = () => isAuth ? { 'Authorization': `Bearer ${GH_TOKEN.trim()}` } : {}
+
+let currentData = []
+let indexData = null
+
+// CSV parser that handles quoted fields with commas
+function parseCSV(text) {
+  const lines = text.split('\n').filter(line => line.trim())
+  if (lines.length < 2) return []
+
+  const parseRow = (row) => {
+    const result = []
+    let current = ''
+    let inQuotes = false
+
+    for (let i = 0; i < row.length; i++) {
+      const char = row[i]
+      if (char === '"') {
+        if (inQuotes && row[i + 1] === '"') {
+          current += '"'
+          i++
+        } else {
+          inQuotes = !inQuotes
+        }
+      } else if (char === ',' && !inQuotes) {
+        result.push(current)
+        current = ''
+      } else {
+        current += char
+      }
+    }
+    result.push(current)
+    return result
+  }
+
+  const headers = parseRow(lines[0])
+  const data = []
+
+  for (let i = 1; i < lines.length; i++) {
+    const values = parseRow(lines[i])
+    const obj = {}
+    headers.forEach((header, idx) => {
+      obj[header] = values[idx] || ''
+    })
+    data.push(obj)
+  }
+
+  return data
+}
+
+async function fetchContent(path) {
+  const res = await fetch(`https://api.github.com/repos/${REPO}/contents/${path}`, { headers: getHeaders() })
+  if (!res.ok) throw { status: res.status }
+  const content = atob((await res.json()).content.replace(/\s/g, ''))
+  return content
+}
+
+async function loadIndex() {
+  try {
+    const content = await fetchContent(INDEX_PATH)
+    indexData = JSON.parse(content)
+
+    $('#bienniumSelect').html('<option disabled selected>Select...</option>' +
+      indexData.bienniums.map(b =>
+        `<option value="${b.biennium}">${b.biennium} (${b.bill_count.toLocaleString()} bills)</option>`
+      ).join(''))
+
+    $('#statsDisplay').html(`
+      <div class="flex items-center gap-1.5">
+        <i class="ph ph-files text-primary"></i>
+        <span><strong>${indexData.total_bills.toLocaleString()}</strong> total bills</span>
+      </div>
+      <div class="flex items-center gap-1.5">
+        <i class="ph ph-calendar-blank text-primary"></i>
+        <span><strong>${indexData.bienniums.length}</strong> bienniums</span>
+      </div>
+    `)
+
+    updateAuthStatus(true)
+  } catch (e) {
+    updateAuthStatus(false, e)
+    $('#bienniumSelect').html('<option disabled>Error loading data</option>')
+  }
+}
+
+async function loadBiennium(biennium) {
+  $('#dataContainer').html(`
+    <div class="flex items-center justify-center h-64 text-base-content/50">
+      <div class="text-center">
+        <i class="ph ph-circle-notch animate-spin text-4xl mb-2"></i>
+        <div>Loading ${biennium} legislation...</div>
+      </div>
+    </div>
+  `)
+  $('#searchInput').prop('disabled', true).val('')
+  $('#copyAllBtn').prop('disabled', true)
+
+  try {
+    const content = await fetchContent(`${CSV_PATH}/${biennium}.csv`)
+    currentData = parseCSV(content)
+
+    $('#billCount').text(`${currentData.length.toLocaleString()} bills`)
+    $('#searchInput').prop('disabled', false)
+    $('#copyAllBtn').prop('disabled', false)
+
+    renderData(currentData)
+  } catch (e) {
+    $('#dataContainer').html(`
+      <div class="flex items-center justify-center h-64 text-error">
+        <div class="text-center">
+          <i class="ph ph-warning text-4xl mb-2"></i>
+          <div>Failed to load data</div>
+          <div class="text-xs opacity-70 mt-1">HTTP ${e.status || 'Error'}</div>
+        </div>
+      </div>
+    `)
+  }
+}
+
+function renderData(data) {
+  if (!data.length) {
+    $('#dataContainer').html(`
+      <div class="flex items-center justify-center h-64 text-base-content/50">
+        <div class="text-center">
+          <i class="ph ph-magnifying-glass text-4xl mb-2"></i>
+          <div>No matching bills found</div>
+        </div>
+      </div>
+    `)
+    return
+  }
+
+  const displayData = data.slice(0, 500)
+  const truncated = data.length > 500
+
+  const jsonlContent = displayData.map(row => JSON.stringify(row)).join('\n')
+
+  $('#dataContainer').html(`
+    <div class="overflow-auto h-[60vh]">
+      <pre class="p-3 text-xs font-mono whitespace-pre leading-relaxed">${escapeHtml(jsonlContent)}</pre>
+    </div>
+    ${truncated ? `<div class="px-3 py-2 bg-base-200 border-t border-base-300 text-xs text-base-content/60">Showing first 500 of ${data.length.toLocaleString()} bills. Use filter to narrow results.</div>` : ''}
+  `)
+}
+
+function escapeHtml(text) {
+  const div = document.createElement('div')
+  div.textContent = text
+  return div.innerHTML
+}
+
+function filterData(query) {
+  if (!query.trim()) {
+    renderData(currentData)
+    $('#billCount').text(`${currentData.length.toLocaleString()} bills`)
+    return
+  }
+
+  const q = query.toLowerCase()
+  const filtered = currentData.filter(bill =>
+    (bill.BillId && bill.BillId.toLowerCase().includes(q)) ||
+    (bill.ShortDescription && bill.ShortDescription.toLowerCase().includes(q)) ||
+    (bill.LongDescription && bill.LongDescription.toLowerCase().includes(q)) ||
+    (bill.Sponsor && bill.Sponsor.toLowerCase().includes(q))
+  )
+
+  $('#billCount').text(`${filtered.length.toLocaleString()} of ${currentData.length.toLocaleString()}`)
+  renderData(filtered)
+}
+
+function updateAuthStatus(success, error) {
+  if (success) {
+    $('#authStatus')
+      .attr('data-tip', isAuth ? 'Authenticated' : 'Public Access')
+      .html(`<i class="ph ${isAuth ? 'ph-shield-check text-success' : 'ph-globe text-base-content/50'} text-xl"></i>`)
+  } else {
+    $('#authStatus')
+      .attr('data-tip', `Error: ${error?.status || 'Unknown'}`)
+      .html(`<i class="ph ph-warning text-error text-xl"></i>`)
+  }
+}
+
+let searchTimeout
+$('#searchInput').on('input', function() {
+  clearTimeout(searchTimeout)
+  searchTimeout = setTimeout(() => filterData($(this).val()), 200)
+})
+
+$('#bienniumSelect').on('change', function() {
+  loadBiennium($(this).val())
+})
+
+$('#copyAllBtn').on('click', function() {
+  const text = currentData.map(row => JSON.stringify(row)).join('\n')
+  navigator.clipboard.writeText(text).then(() => {
+    const btn = this
+    const orig = btn.innerHTML
+    btn.innerHTML = '<i class="ph ph-check text-success text-lg"></i>'
+    setTimeout(() => btn.innerHTML = orig, 1500)
+  })
+})
+
+$(() => loadIndex())
+</script>
+</body>
+</html>

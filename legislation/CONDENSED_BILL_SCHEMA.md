@@ -18,16 +18,19 @@ This document defines a condensed JSON schema for Washington State bill data, or
 
 ## Bill-Level vs Version-Level Fields
 
-Analysis of 2023-24 data (1,105 multi-version bills) determined field placement:
+Analysis of 2023-24 data (1,105 multi-version bills) determined field placement. See BILL_DATA_ANALYSIS.md Section 4 for full stability analysis.
 
-**Bill-Level (100% stable):** Biennium, BillNumber, OriginalAgency, PrimeSponsorID, Appropriations, RequestedBy flags, ShortDescription, LongDescription
+**Bill-Level (100% stable):** Biennium, BillNumber, OriginalAgency, PrimeSponsorID, Appropriations, RequestedBy flags
 
-**Version-Level (vary across versions):** BillId, SubstituteVersion, EngrossedVersion, Active, IntroducedDate, CurrentStatus fields, Fiscal note flags
+**Bill-Level (pragmatic, >90% stable):** ShortDescription (96.6%), LongDescription (91.1%) - use values from original version
+
+**Version-Level (vary across versions):** BillId, SubstituteVersion, EngrossedVersion, Active, IntroducedDate, CurrentStatus fields, Fiscal note flags, Sponsor text
 
 **Key findings:**
 - 380 of 2,826 bills have multiple active versions (no single "final" version)
-- 32% of multi-version bills have different fiscal notes across versions
+- 35% of multi-version bills have different fiscal notes across versions (386 of 1,105)
 - Veto flags only appear on versions that reached the governor
+- Sponsor text varies due to committee prefixes, but PrimeSponsorID is 100% stable
 
 ---
 
@@ -205,15 +208,26 @@ Multiple versions may have `Active=1`. This is valid and represents the bill bei
 
 ---
 
+## Data Quality Notes
+
+See BILL_DATA_ANALYSIS.md Section 7 for detailed analysis.
+
+- **Placeholder records:** Some records have `0001-01-01` action dates and empty status fields (~0.2% in completed bienniums, ~6% in active 2025-26)
+- **BillId uniqueness:** Unique in completed bienniums; 5 duplicate cases in 2025-26 due to placeholder records
+- **Deduplication:** For active bienniums, filter records with placeholder dates or prefer `Active=1`
+
+---
+
 ## Changelog
 
 ### Version 2 (Current)
 **Major changes:**
 - **Removed `final` object** - Multiple versions can be active; "final" version concept is misleading
-- **Moved `fn` to version level** - Fiscal notes vary across versions (32% of multi-version bills)
+- **Moved `fn` to version level** - Fiscal notes vary across versions (35% of multi-version bills)
 - **Added per-version fields** - `intro`, `action`, `outcome` now on each version
 - **Changed outcome encoding** - Single comma-delimited string instead of three booleans
 - **Data-driven field placement** - Analysis of 1,105 multi-version bills determined bill vs version level
+- **Clarified field stability** - Distinguished 100% stable fields from pragmatically stable (>90%)
 
 ### Version 1
 - Initial schema with bill-level `final` object and fiscal note

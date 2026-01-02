@@ -1,6 +1,6 @@
 (async () => {
   await new Promise(r => document.head.appendChild(Object.assign(document.createElement('script'), {
-    src: 'https://cdn.jsdelivr.net/combine/npm/jquery,npm/jszip,npm/tabulator-tables,npm/@tailwindcss/browser@4',
+    src: 'https://cdn.jsdelivr.net/combine/npm/jquery,npm/jszip,npm/tabulator-tables,npm/@tailwindcss/browser@4,npm/clipboard,npm/@phosphor-icons/web',
     onload: r
   })));
 
@@ -12,6 +12,7 @@
     import('https://cdn.jsdelivr.net/npm/flat/+esm')
   ]);
 
+  // --- Logic Helpers ---
   const cmMap = { APPROPRIATIONS: "APP", "WAYS & MEANS": "WM", FINANCE: "FIN", TRANSPORTATION: "TRAN", "HEALTH & LONG-TERM CARE": "HLTC", "HUMAN SERVICES": "HS", "LAW & JUSTICE": "L&J", "AGRICULTURE & NATURAL RESOURCES": "AGNR", "LABOR & COMMERCE": "L&C", "LABOR & WORKPLACE STANDARDS": "LWS", "COMMUNITY SAFETY": "CS", "POSTSECONDARY EDUCATION & WORKFORCE": "PEW", "STATE GOVERNMENT & TRIBAL RELATIONS": "SGTR", "CONSUMER PROTECTION & BUSINESS": "CPB", "ENVIRONMENT, ENERGY & TECHNOLOGY": "EET", "EARLY LEARNING & K-12 EDUCATION": "ELK12", "HIGHER EDUCATION & WORKFORCE DEVELOPMENT": "HEWD", "CAPITAL BUDGET": "CAP", "CIVIL RIGHTS & JUDICIARY": "CRJ", EDUCATION: "ED", "ENVIRONMENT & ENERGY": "E&E", "HEALTH CARE & WELLNESS": "HCW", HOUSING: "HSG", "LOCAL GOVERNMENT": "LG", "TECHNOLOGY, ECONOMIC DEVELOPMENT, & VETERANS": "TEDV", "BUSINESS, FINANCIAL SERVICES & TRADE": "BFST", "EARLY LEARNING & HUMAN SERVICES": "ELHS" };
   
   const pillStyle = cat => {
@@ -64,7 +65,8 @@
         return ay === nowYr || iy === nowYr || ((ay === nowYr - 1 || iy === nowYr - 1) && cat.includes('PREFILED'));
       }) ? 1 : 0;
       return vs.map(r => ({
-        group: pair, groupDesc: f.ShortDescription || '', passedId, num: Math.min(...vs.map(v => v.BillNumber)),
+        group: pair, groupDesc: f.ShortDescription || '', longDesc: r.LongDescription || f.ShortDescription || '',
+        passedId, num: Math.min(...vs.map(v => v.BillNumber)),
         ver: r.BillId || '', status: r['cs.Status'], actionLine: r['cs.HistoryLine'], active: r.Active == 1,
         sponsor: (r.Sponsor || '').match(/\(([^)]+)\)/)?.[1] || r.Sponsor,
         intro: dateStr(r.IntroducedDate), action: dateStr(r['cs.ActionDate']),
@@ -77,13 +79,17 @@
 
   const fmtJSON = x => x ? JSON.stringify(x, null, 2) : "// No record selected";
 
+  // --- UI Construction ---
   $('body').addClass('h-screen flex flex-col overflow-hidden font-sans bg-slate-100 text-slate-900');
   $('body').html(`
 <header id="hdr" class="flex-none shadow-md z-10">
   <div class="flex items-center gap-3 p-2 bg-slate-800 text-slate-100 border-b border-slate-900">
     <div class="flex items-center gap-1.5">
       <input type="date" id="d" value="2025-03-01" class="h-6 px-2 text-xs bg-slate-700 border border-slate-600 rounded outline-none text-white">
-      <button id="b" class="h-6 px-4 text-xs font-bold bg-blue-600 border border-blue-500 rounded hover:bg-blue-500 cursor-pointer text-white transition-colors">Load Data</button>
+      <button id="b" class="h-6 px-4 text-xs font-bold bg-blue-600 border border-blue-500 rounded hover:bg-blue-500 cursor-pointer text-white transition-colors">Load</button>
+      <button id="copy" class="h-6 px-4 text-xs font-bold bg-slate-600 border border-slate-500 rounded hover:bg-slate-500 cursor-pointer text-white transition-colors flex items-center gap-1">
+        <i class="ph ph-copy"></i><span>Copy</span>
+      </button>
     </div>
     <div id="view-toggle" class="hidden items-center ml-2">
       <button class="toggle-btn active px-3 h-6 text-xs bg-slate-700 border border-slate-600 rounded-l hover:bg-slate-600 [&.active]:bg-slate-100 [&.active]:text-slate-900 cursor-pointer transition-all" data-view="processed">Processed Bills</button>
@@ -92,9 +98,7 @@
     <span id="s" class="ml-auto text-[10px] text-slate-400 font-bold uppercase tracking-widest"></span>
   </div>
   <div id="filters" class="flex items-center gap-6 p-2 bg-white border-b border-slate-200">
-    <div class="flex items-center gap-2">
-      <input type="text" id="q" placeholder="Filter bills..." class="h-7 px-2 text-xs border border-slate-200 rounded w-64 outline-none focus:ring-1 focus:ring-blue-100 transition-all">
-    </div>
+    <input type="text" id="q" placeholder="Filter bills..." class="h-7 px-2 text-xs border border-slate-200 rounded w-64 outline-none focus:ring-1 focus:ring-blue-100 transition-all">
     <div class="flex items-center gap-2 border-l border-slate-200 pl-4">
       <label class="text-[10px] font-bold text-slate-400 uppercase">Action Since</label>
       <input type="date" id="fDate" class="h-7 px-2 text-xs border border-slate-200 rounded outline-none focus:ring-1 focus:ring-blue-100">
@@ -120,48 +124,51 @@
 </main>
 `);
 
-  // Initialize filter date to match loader date
-  $('#fDate').val($('#d').val());
-  // Update filter date when loader date changes
-  $('#d').on('change', function() { $('#fDate').val($(this).val()); });
+  let tableRaw, tableProc, fullRawData = [], fullProcData = [], currentView = 'processed';
 
-  let tableRaw, tableProc, fullRawData = [], fullProcData = [];
+  // --- Copy Logic ---
+  const copyBtn = document.querySelector("#copy"), copySpan = copyBtn.querySelector("span");
+  const flash = (ms=1200) => {
+    const old = copySpan.textContent;
+    copySpan.textContent = "Copied!";
+    copyBtn.classList.replace("bg-slate-600", "bg-green-600");
+    setTimeout(() => {
+      copyBtn.classList.replace("bg-green-600", "bg-slate-600");
+      copySpan.textContent = old;
+    }, ms);
+  };
 
+  new ClipboardJS(copyBtn, {
+    text: () => {
+      const activeTable = currentView === 'processed' ? tableProc : tableRaw;
+      if (!activeTable) return "[]";
+      return JSON.stringify(activeTable.getData("active"), null, 2);
+    }
+  }).on("success", () => flash());
+
+  // --- View Toggle ---
   $('.toggle-btn').on('click', function() {
-    const v = $(this).data('view');
+    currentView = $(this).data('view');
     $('.toggle-btn').removeClass('active'); $(this).addClass('active');
-    $('.view-pane').addClass('hidden').removeClass('flex'); $(`#${v}-view`).removeClass('hidden').addClass('flex');
-    if (v === 'raw' && tableRaw) tableRaw.redraw(); if (v === 'processed' && tableProc) tableProc.redraw();
+    $('.view-pane').addClass('hidden').removeClass('flex'); $(`#${currentView}-view`).removeClass('hidden').addClass('flex');
+    if (currentView === 'raw' && tableRaw) tableRaw.redraw(); if (currentView === 'processed' && tableProc) tableProc.redraw();
   });
 
-  const applyFilters = () => {
-    const q = $('#q').val().toLowerCase(), 
-          onlyA = $('#fApp').is(':checked'), 
-          onlyC = $('#fCur').is(':checked'),
-          since = $('#fDate').val();
+  $('#fDate').val($('#d').val());
+  $('#d').on('change', function() { $('#fDate').val($(this).val()); });
 
+  const applyFilters = () => {
+    const q = $('#q').val().toLowerCase(), onlyA = $('#fApp').is(':checked'), onlyC = $('#fCur').is(':checked'), since = $('#fDate').val();
     if (tableProc) {
       const validGroups = new Set(), gd = new Map();
       fullProcData.forEach(r => { if (!gd.has(r.group)) gd.set(r.group, []); gd.get(r.group).push(r); });
       for (let [gn, rows] of gd) {
-        const matchQ = !q || rows.some(r => (gn + r.groupDesc + r.status + r.sponsor + r.ver).toLowerCase().includes(q));
-        const matchA = !onlyA || rows.some(r => r.approp);
-        const matchC = !onlyC || rows.some(r => r.current);
-        const matchD = !since || rows.some(r => r.action >= since);
-        if (matchQ && matchA && matchC && matchD) validGroups.add(gn);
+        if ((!q || rows.some(r => (gn + r.groupDesc + r.status + r.sponsor + r.ver).toLowerCase().includes(q))) && (!onlyA || rows.some(r => r.approp)) && (!onlyC || rows.some(r => r.current)) && (!since || rows.some(r => r.action >= since))) validGroups.add(gn);
       }
       tableProc.setFilter(r => validGroups.has(r.group));
       $('#s').text(`${validGroups.size} GROUPS FOUND`);
     }
-    
-    if (tableRaw) {
-      tableRaw.setFilter(r => 
-        (!q || Object.values(r).some(v => String(v).toLowerCase().includes(q))) && 
-        (!onlyA || r.Appropriations == 1) && 
-        (!onlyC || r.Active == 1) &&
-        (!since || r['cs.ActionDate'] >= since)
-      );
-    }
+    if (tableRaw) tableRaw.setFilter(r => (!q || Object.values(r).some(v => String(v).toLowerCase().includes(q))) && (!onlyA || r.Appropriations == 1) && (!onlyC || r.Active == 1) && (!since || r['cs.ActionDate'] >= since));
   };
 
   $('#q, #fApp, #fCur, #fDate').on('input change', applyFilters);
@@ -184,8 +191,7 @@
       const eff = (a.match(/\d{1,2}\/\d{1,2}\/\d{4}/) || ['TBD'])[0];
       const pillTxt = cat === 'ENACTED' ? `Eff: ${eff}` : cat;
       const pill = cat === 'OTHER' ? '' : `<span style="background:${bg}; color:${fg}; border:1px solid ${border}; padding:1px 6px; border-radius:4px; font-size:.75rem; font-weight:500; margin-right:8px; text-transform:uppercase">${pillTxt}</span>`;
-      const txt = cat === 'ENACTED' ? a.replace(/Effective date\s+\d{1,2}\/\d{1,2}\/\d{4}\.?\s*/i, '').trim() : cat === 'OTHER' ? [s, a].filter(Boolean).join(' | ') : '';
-      return `<div class="flex items-center justify-center w-full h-full text-[.8rem] whitespace-nowrap overflow-hidden text-ellipsis">${pill}${txt}</div>`;
+      return `<div class="flex items-center justify-center w-full h-full text-[.8rem] whitespace-nowrap overflow-hidden text-ellipsis">${pill}${cat === 'ENACTED' ? a.replace(/Effective date\s+\d{1,2}\/\d{1,2}\/\d{4}\.?\s*/i, '').trim() : cat === 'OTHER' ? [s, a].filter(Boolean).join(' | ') : ''}</div>`;
     };
 
     const datePill = c => {
@@ -205,7 +211,8 @@
       groupHeader: (v, n, d) => {
         const passed = d[0].passedId;
         const links = v.split(' / ').map(num => `<a href="https://app.leg.wa.gov/billsummary?BillNumber=${num.trim()}&Year=2025" target="_blank" style="color:#2563eb; font-weight:bold; text-decoration:underline">${num.trim()}</a>${passed?.includes(num.trim()) ? ' ✓' : ''}`).join(' / ');
-        return `<span>${links}</span> - <span style="font-weight:normal; color:#475569">${d[0].groupDesc}</span> <span style="font-size:.7rem; color:#94a3b8; margin-left:4px">(${n})</span>`;
+        const tip = (d[0].longDesc || d[0].groupDesc).replace(/"/g, '&quot;');
+        return `<span>${links}</span> - <span title="${tip}" style="font-weight:normal; color:#475569; cursor:help; border-bottom: 1px dotted #94a3b8">${d[0].groupDesc}</span> <span style="font-size:.7rem; color:#94a3b8; margin-left:4px">(${n})</span>`;
       },
       rowFormatter: r => { if (!r.getData().active) { r.getElement().style.opacity = .5; r.getElement().style.color = '#777' } },
       columns: ['ver', 'status', 'sponsor', 'intro', 'action', 'fn', 'req', 'approp', 'current'].map(f => ({

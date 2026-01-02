@@ -9,136 +9,160 @@ This document defines a condensed JSON schema for Washington State bill data, or
 ## Design Goals
 
 1. **Group by BillNumber** - One record per unique bill number per biennium
-2. **Combine RequestedBy** - Single field instead of 4 booleans
-3. **Short field names** - Concise identifiers
-4. **Capture version history** - Array of versions with key info
-5. **Retain essential fields** - Drop redundant/derivable data
+2. **Bill-level stability** - Only truly stable fields at the bill level
+3. **Version-level completeness** - Each version carries its own status, outcome, and metadata
+4. **No synthesized "final"** - Let the versions array speak for itself
+5. **Concise field names** - Short identifiers throughout
+
+---
+
+## Bill-Level vs Version-Level Fields
+
+Analysis of 2023-24 data (1,105 multi-version bills) determined field placement:
+
+**Bill-Level (100% stable):** Biennium, BillNumber, OriginalAgency, PrimeSponsorID, Appropriations, RequestedBy flags, ShortDescription, LongDescription
+
+**Version-Level (vary across versions):** BillId, SubstituteVersion, EngrossedVersion, Active, IntroducedDate, CurrentStatus fields, Fiscal note flags
+
+**Key findings:**
+- 380 of 2,826 bills have multiple active versions (no single "final" version)
+- 32% of multi-version bills have different fiscal notes across versions
+- Veto flags only appear on versions that reached the governor
 
 ---
 
 ## Schema
 
-### Core Bill Record
+### Bill Record
 
 | Field | Type | Source | Description |
 |-------|------|--------|-------------|
 | `bien` | string | Biennium | e.g., "2023-24" |
 | `num` | int | BillNumber | e.g., 1009 |
 | `chamber` | char | OriginalAgency | H or S |
-| `intro` | date | IntroducedDate | First introduction date |
+| `intro` | date | IntroducedDate | First introduction date (from original version) |
 | `short` | string | ShortDescription | Topic summary |
 | `long` | string | LongDescription | Fuller description |
-| `sponsor` | string | Sponsor | Primary sponsor name |
+| `sponsor` | string | Sponsor | Primary sponsor name (extracted from parentheses) |
 | `sponsor_id` | int | PrimeSponsorID | Sponsor ID |
 | `req` | string | RequestedBy* | Combined: G/D/B/O or null |
-| `fn` | string | *FiscalNote | SWF, Loc, "SWF,Loc", or null |
 | `approp` | bool | Appropriations | Has appropriations |
 | `companion` | string | Companions.*.BillId | Companion bill ID or null |
 | `versions` | array | (aggregated) | Version history array |
-| `final` | object | (from active version) | Final status info |
 
 ### RequestedBy Encoding (`req`)
 
-Combine into single string with letter codes:
-- `G` = Governor
-- `D` = Department
-- `B` = BudgetCommittee
-- `O` = Other
-- `null` = None
+Combine boolean flags into single string:
+- `G` = RequestedByGovernor
+- `D` = RequestedByDepartment
+- `B` = RequestedByBudgetCommittee
+- `O` = RequestedByOther
+- `null` = None requested
 
-Examples: `"G"`, `"D"`, `"GO"`, `null`
+Examples: `"G"`, `"D"`, `"GO"`, `"GDB"`, `null`
 
-### Fiscal Note Encoding (`fn`)
+---
 
-- `SWF` = Statewide fiscal note only
-- `Loc` = Local fiscal note only
-- `"SWF,Loc"` = Both state and local
-- `null` = Neither
-
-### Versions Array
+### Version Record
 
 Each version in the bill's history:
 
-```json
-{
-  "id": "2SHB 1009",
-  "sub": 2,
-  "eng": 0,
-  "active": true,
-  "date": "2023-02-02",
-  "status": "C 165 L 23",
-  "amended": true,
-  "amendments": true
-}
-```
+| Field | Type | Source | Description |
+|-------|------|--------|-------------|
+| `id` | string | BillId | e.g., "2SHB 1009" |
+| `sub` | int | SubstituteVersion | 0, 1, 2, ... |
+| `eng` | int | EngrossedVersion | 0, 1, 2, ... |
+| `active` | bool | Active | Whether this version is marked active |
+| `intro` | date | IntroducedDate | When this version was introduced |
+| `status` | string | CurrentStatus.Status | Current status text |
+| `action` | string | CurrentStatus.HistoryLine | Action description |
+| `date` | date | CurrentStatus.ActionDate | Date of last action |
+| `fn` | string | *FiscalNote | Fiscal note encoding (see below) |
+| `outcome` | string | (derived) | Outcome encoding (see below) |
+| `amended` | bool | CurrentStatus.AmendedByOppositeBody | If amended by other chamber (optional) |
+| `amendments` | bool | CurrentStatus.AmendmentsExist | If amendments exist (optional) |
 
-### Final Status Object
+### Fiscal Note Encoding (`fn`)
 
-Extracted from the active (or highest) version:
+Indicates whether a fiscal note was completed for this version:
 
-```json
-{
-  "status": "C 165 L 23",
-  "action": "Effective date 7/23/2023*.",
-  "date": "2023-04-25",
-  "passed": true,
-  "vetoed": false,
-  "partial_veto": false
-}
-```
+- `"SWF"` = StateFiscalNote completed
+- `"Loc"` = LocalFiscalNote completed
+- `"SWF,Loc"` = Both completed
+- `null` = Neither completed
+
+### Outcome Encoding (`outcome`)
+
+Comma-delimited values indicating legislative outcomes:
+
+| Value | Meaning |
+|-------|---------|
+| `Passed` | Bill passed the legislature (status starts with "C " or "Chapter") |
+| `Vetoed` | Governor vetoed the bill (CurrentStatus.Veto = 1) |
+| `Partial Veto` | Governor partially vetoed sections (CurrentStatus.PartialVeto = 1) |
+
+**Examples:** `"Passed"`, `"Vetoed"`, `"Passed,Partial Veto"`, `null`
 
 ---
 
 ## Example Record
 
-**Original CSV rows for BillNumber 1009:**
-```csv
-HB 1009,  Active=0, Sub=0, Status="H subst for"
-SHB 1009, Active=0, Sub=1, Status="H subst for"
-2SHB 1009, Active=1, Sub=2, Status="C 165 L 23"
-```
+**Bill 1125** (transportation budget with partial veto):
 
-**Condensed to:**
 ```json
 {
   "bien": "2023-24",
-  "num": 1009,
+  "num": 1125,
   "chamber": "H",
   "intro": "2023-01-09",
-  "short": "Military spouse employment",
-  "long": "Concerning military spouse employment.",
-  "sponsor": "Leavitt",
-  "sponsor_id": 29102,
+  "short": "Transportation budget",
+  "long": "Making transportation appropriations for the 2023-2025 fiscal biennium.",
+  "sponsor": "Fey",
+  "sponsor_id": 28800,
   "req": null,
-  "fn": "SWF",
-  "approp": false,
+  "approp": true,
   "companion": null,
   "versions": [
-    {"id": "HB 1009", "sub": 0, "eng": 0, "active": false, "status": "H subst for"},
-    {"id": "SHB 1009", "sub": 1, "eng": 0, "active": false, "status": "H subst for"},
-    {"id": "2SHB 1009", "sub": 2, "eng": 0, "active": true, "status": "C 165 L 23"}
-  ],
-  "final": {
-    "status": "C 165 L 23",
-    "action": "Effective date 7/23/2023*.",
-    "date": "2023-04-25",
-    "passed": true,
-    "vetoed": false,
-    "partial_veto": false
-  }
+    {
+      "id": "HB 1125",
+      "sub": 0,
+      "eng": 0,
+      "active": false,
+      "intro": "2023-01-09",
+      "status": "H subst for",
+      "action": "Substitute bill substituted.",
+      "date": "2023-02-22",
+      "fn": "SWF",
+      "outcome": null
+    },
+    {
+      "id": "ESHB 1125",
+      "sub": 1,
+      "eng": 1,
+      "active": true,
+      "intro": "2023-02-22",
+      "status": "C 472 L 23",
+      "action": "Effective date 7/1/2023**.",
+      "date": "2023-05-15",
+      "fn": "SWF,Loc",
+      "outcome": "Passed,Partial Veto",
+      "amended": true,
+      "amendments": true
+    }
+  ]
 }
 ```
 
 ---
 
-## Dropped/Derived Fields
+## Dropped Fields
 
 | Original Field | Reason to Drop |
 |----------------|----------------|
 | `ShortLegislationType.*` | Bills only, no type needed |
 | `CurrentStatus.BillId` | Redundant (matches BillId) |
 | `LegalTitle` | Can derive from LongDescription if needed |
-| `Request` | Internal tracking, low value |
+| `Request` | Internal tracking code, low value |
 | `Companions` (container) | Empty wrapper |
 | `Companions.Companion.Biennium` | Always same as bill's biennium |
 | `Companions.Companion.Status` | Can look up if needed |
@@ -152,35 +176,45 @@ SHB 1009, Active=0, Sub=1, Status="H subst for"
 1. Filter to `ShortLegislationType.ShortLegislationType = "B"` only
 2. Group all rows by `(Biennium, BillNumber)`
 3. For each group:
-   - Use first row for stable fields (chamber, sponsor, etc.)
-   - Collect all versions sorted by (SubstituteVersion, EngrossedVersion)
-   - Identify active version for final status
-   - Combine RequestedBy and Fiscal booleans
+   - Sort versions by `(SubstituteVersion, EngrossedVersion)`
+   - Use first row for bill-level fields
+   - Build version array with per-version fields
+   - Extract sponsor name from format like `"APP(Leavitt)"` → `"Leavitt"`
 
-### Edge Cases
+### Outcome Determination
 
-1. **Multiple active versions** - Some bills show Active=1 for multiple versions (stalled in committee at different stages). Use highest version number.
+For each version:
+1. Does `CurrentStatus.Status` start with `"C "` or `"Chapter"`? → append `"Passed"`
+2. Is `CurrentStatus.Veto` = `"1"`? → append `"Vetoed"`
+3. Is `CurrentStatus.PartialVeto` = `"1"`? → append `"Partial Veto"`
+4. Join with commas, or return `null` if empty
 
-2. **No active version** - All versions superseded. Mark final as the last version.
+### Active Versions
 
-### Status Classification
-
-Parse `CurrentStatus.Status` to determine outcome:
-- Starts with `C ` → Passed into law
-- Contains `vetoed` → Vetoed
-- Contains `Rules X` → Dead in rules
-- Contains `subst for` → Superseded by substitute
-- Contains committee name → In committee
+Multiple versions may have `Active=1`. This is valid and represents the bill being active at different stages. Do not attempt to pick a single "final" version.
 
 ---
 
 ## Compression Estimates
 
-### Current Data (2023-24 Bills Only)
-- Bill rows: ~4,158 (excluding GA, R, JR, JM, CR, I)
-- Unique bill numbers: ~3,000
-- Compression ratio: ~1.4x (rows per bill)
+**2023-24 Bills:**
+- CSV rows: ~4,158 (type B only)
+- Unique bills: ~2,826
+- Average versions per bill: 1.47
+- Estimated size reduction: 25-35% (shorter field names, no redundancy)
 
-### Projected Condensed Size
-- Records: ~3,000 per biennium (one per bill number)
-- Estimated size reduction: 30-40% (fewer rows, shorter field names)
+---
+
+## Changelog
+
+### Version 2 (Current)
+**Major changes:**
+- **Removed `final` object** - Multiple versions can be active; "final" version concept is misleading
+- **Moved `fn` to version level** - Fiscal notes vary across versions (32% of multi-version bills)
+- **Added per-version fields** - `intro`, `action`, `outcome` now on each version
+- **Changed outcome encoding** - Single comma-delimited string instead of three booleans
+- **Data-driven field placement** - Analysis of 1,105 multi-version bills determined bill vs version level
+
+### Version 1
+- Initial schema with bill-level `final` object and fiscal note
+- Version array with basic fields only

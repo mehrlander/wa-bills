@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DB Cleaner</title>
+    <script src="https://cdn.jsdelivr.net/combine/npm/dexie@4,npm/@tailwindcss/browser@4,npm/@phosphor-icons/web"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5/themes.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" />
+    <script defer src="https://unpkg.com/alpinejs@3.14.1/dist/cdn.min.js"></script>
+</head>
+<body class="bg-base-200 h-screen flex items-center justify-center p-4">
+
+<div x-data="cleaner()" class="card bg-base-100 shadow-xl w-full max-w-lg">
+    <div class="card-body">
+        <h2 class="card-title flex justify-between">
+            <span><i class="ph ph-database"></i> SessionBills Manager</span>
+            <div class="badge badge-neutral font-mono text-xs" x-text="status">Connecting...</div>
+        </h2>
+
+        <div class="py-4 space-y-4">
+            <div class="stats shadow w-full border border-base-300">
+                <div class="stat p-4">
+                    <div class="stat-title text-xs">Database Version</div>
+                    <div class="stat-value text-lg" x-text="version || '-'"></div>
+                </div>
+                <div class="stat p-4">
+                    <div class="stat-title text-xs">Record Found</div>
+                    <div class="stat-value text-lg" :class="hasData ? 'text-success' : 'text-base-content/30'" x-text="hasData ? 'Yes' : 'No'"></div>
+                </div>
+            </div>
+
+            <div x-show="hasData">
+                <div class="label pb-1">
+                    <span class="label-text text-xs opacity-60 font-bold uppercase">Current Data Content</span>
+                </div>
+                <div class="mockup-code bg-gray-900 text-gray-100 text-xs h-48 overflow-auto">
+                    <pre class="px-4 py-2"><code x-text="preview"></code></pre>
+                </div>
+            </div>
+            
+            <div x-show="!hasData && version" class="alert alert-info text-xs">
+                <i class="ph ph-info"></i> Database exists but is empty.
+            </div>
+        </div>
+
+        <div class="card-actions justify-end mt-2">
+            <button @click="refresh()" class="btn btn-sm btn-ghost">Refresh</button>
+            <button @click="nukeDB()" class="btn btn-sm btn-error text-white">
+                <i class="ph ph-trash"></i> Delete Database
+            </button>
+        </div>
+    </div>
+</div>
+
+<script>
+document.addEventListener('alpine:init', () => {
+    Alpine.data('cleaner', () => ({
+        db: null,
+        status: 'Init...',
+        version: null,
+        hasData: false,
+        preview: '',
+
+        async init() {
+            await this.connect();
+        },
+
+        async connect() {
+            try {
+                // Try to open existing DB without specifying version (auto-open)
+                // Note: Dexie 4 usually requires schema, but we can try to detect or assume v2
+                this.db = new Dexie('SessionBills');
+                
+                // We define the schema that matched your last tool to read it
+                this.db.version(2).stores({
+                    data: 'key' 
+                });
+
+                await this.db.open();
+                this.version = `v${this.db.verno}`;
+                this.status = 'Connected';
+                await this.checkData();
+            } catch (e) {
+                this.status = 'Not Found / Error';
+                console.error(e);
+            }
+        },
+
+        async checkData() {
+            if(!this.db) return;
+            try {
+                const record = await this.db.data.get('bills');
+                if (record) {
+                    this.hasData = true;
+                    // Create a summary preview so we don't crash rendering 10MB text
+                    const summary = { ...record.value };
+                    if(summary.docs) summary.docs = `[Array(${summary.docs.length})]`;
+                    if(summary.inv) summary.inv = `[Array(${summary.inv.length})]`;
+                    if(summary.dict) summary.dict = `[Object keys: ${Object.keys(summary.dict).length}]`;
+                    
+                    this.preview = JSON.stringify(summary, null, 2);
+                } else {
+                    this.hasData = false;
+                    this.preview = '';
+                }
+            } catch (e) {
+                this.preview = "Error reading data: " + e.message;
+            }
+        },
+
+        async refresh() {
+            this.status = 'Refreshing...';
+            this.db.close();
+            await this.connect();
+        },
+
+        async nukeDB() {
+            if(!confirm("Are you sure? This will completely delete the 'SessionBills' database from this browser.")) return;
+            
+            try {
+                this.db.close();
+                await Dexie.delete('SessionBills');
+                this.status = 'Deleted';
+                this.version = null;
+                this.hasData = false;
+                this.preview = '';
+                alert("Database deleted successfully.");
+            } catch (e) {
+                alert("Delete failed: " + e.message);
+            }
+        }
+    }));
+});
+</script>
+</body>
+</html>

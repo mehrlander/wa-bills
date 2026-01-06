@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Bill Extractor v3 (Sidecar)</title>
+<title>Bill Extractor v3</title>
 <link href="https://cdn.jsdelivr.net/combine/npm/daisyui@5/themes.css,npm/daisyui@5,npm/tabulator-tables/dist/css/tabulator_simple.min.css" rel="stylesheet" />
 <script src="https://cdn.jsdelivr.net/combine/npm/tabulator-tables,npm/lodash,npm/@tailwindcss/browser@4,npm/@phosphor-icons/web,npm/dexie@4"></script>
 <script src="https://cdn.jsdelivr.net/npm/luxon@3.4.4/build/global/luxon.min.js"></script>
@@ -13,156 +13,162 @@
 </script>
 <script defer src="https://unpkg.com/alpinejs@3.14.1/dist/cdn.min.js"></script>
 </head>
-<body class="bg-base-100 text-base-content h-screen w-screen overflow-hidden font-sans">
+<body class="bg-base-100 text-base-content h-screen w-screen overflow-hidden font-sans antialiased">
 <div x-data="extractor()" class="flex flex-col md:flex-row h-full w-full">
-  <div class="w-full md:w-2/5 h-2/5 md:h-full flex flex-col border-b md:border-b-0 md:border-r border-base-300">
-      <div class="p-2 md:p-4 bg-base-200 border-b border-base-300 flex flex-col gap-2 shrink-0">
-          <div class="flex justify-between items-center">
-              <h1 class="font-bold text-sm md:text-lg flex items-center gap-2 truncate">
-                 <i class="ph ph-list-magnifying-glass"></i> Staging (v3)
+  
+  <div class="w-full md:w-2/5 h-full flex flex-col border-r border-base-300 bg-base-100 min-w-0">
+      <div class="p-2 bg-base-200 border-b border-base-300 flex flex-col gap-1.5">
+          <div class="flex justify-between items-end px-1">
+              <h1 class="font-bold text-[10px] uppercase tracking-widest opacity-70 flex items-center gap-1.5">
+                 <i class="ph ph-list-magnifying-glass text-primary"></i> Staging
               </h1>
-              <div class="text-[10px] opacity-60 font-mono text-right shrink-0" x-html="dbStatus"></div>
+              <div class="text-[9px] opacity-50 font-mono" x-html="dbStatus"></div>
           </div>
-          <div class="join w-full">
-              <input type="text" x-model="targetUrl" @keydown.enter="scanDirectory()" 
-                     class="input input-xs md:input-sm input-bordered join-item w-full font-mono text-[10px] md:text-xs" 
-                     placeholder="https://.../House%20Bills/" />
-              <button @click="scanDirectory()" class="btn btn-xs md:btn-sm btn-primary join-item shrink-0" :disabled="scanning || batchScanning">
-                  <span x-show="!scanning">List</span>
-                  <span x-show="scanning">...</span>
-              </button>
+          
+          <div class="join w-full shadow-sm">
+              <input type="text" x-model="targetUrl" @keydown.enter="scanDirectory()" class="input input-xs input-bordered join-item w-full font-mono text-[10px]" />
+              <button @click="scanDirectory()" class="btn btn-xs btn-primary join-item" :disabled="scanning || batchScanning">List</button>
           </div>
-          <div class="flex justify-between items-center px-1 mt-1">
-             <div class="text-[10px] opacity-60">
-                 <span x-text="files.length">0</span> files
+
+          <div class="flex justify-between items-start px-1 h-6">
+             <div class="flex flex-col leading-[1.1] text-[10px] opacity-70">
+                 <span x-text="`${files.length} files`"></span>
+                 <span x-show="files.length" class="text-success font-semibold" x-text="`${getStoredCount()} stored`"></span>
              </div>
-             <div class="flex gap-2" x-show="files.length > 0">
-                 <button @click="showIndex()" class="btn btn-xs btn-ghost border-base-content/20 text-[10px] px-1 h-6 min-h-0">Index</button>
-                 <button x-show="!batchScanning" @click="startBatchScan()" class="btn btn-xs btn-outline border-base-content/20 hover:bg-primary hover:text-white text-[10px] px-1 h-6 min-h-0">Import All</button>
-                 <button x-show="batchScanning" @click="stopBatchScan()" class="btn btn-xs btn-error text-white animate-pulse text-[10px] px-1 h-6 min-h-0">Stop</button>
+             <div class="flex gap-1" x-show="files.length">
+                 <button @click="batchScanning ? stopBatchScan() : startBatchScan()" 
+                         :class="batchScanning ? 'btn-error animate-pulse' : 'btn-outline border-base-content/10'" 
+                         class="btn btn-xs text-[9px] h-6 min-h-0" x-text="batchScanning ? 'Stop' : 'Import All'"></button>
+                 <button @click="smartScroll()" class="btn btn-xs btn-ghost bg-base-300/50 hover:bg-base-300 text-[9px] h-6 min-h-0 gap-1">
+                    <i class="ph ph-arrow-down"></i> Scroll
+                 </button>
              </div>
           </div>
-          <div x-show="errorMsg" x-text="errorMsg" class="text-xs text-error font-bold px-1 truncate"></div>
       </div>
-      <div id="fileTable" class="flex-grow bg-base-100 w-full min-h-0"></div>
+      <div id="fileTable" class="bg-base-100 focus:outline-none"></div>
   </div>
-  <div class="w-full md:w-3/5 h-3/5 md:h-full flex flex-col bg-base-100 relative min-h-0">
-      <div class="p-2 md:p-4 border-b border-base-300 bg-base-100 flex justify-between items-center h-12 md:h-16 shrink-0 overflow-x-auto gap-2">
-          <div class="flex items-center gap-2 shrink-0">
-              <div class="w-6 h-6 md:w-8 md:h-8 rounded bg-secondary/10 text-secondary flex items-center justify-center">
-                  <i class="ph ph-database text-sm md:text-lg"></i>
-              </div>
-              <div class="flex flex-col justify-center">
-                  <h2 class="font-bold text-xs md:text-sm uppercase tracking-wide whitespace-nowrap">SessionBills v3</h2>
-                  <div class="text-[10px] opacity-50 font-mono flex gap-1 items-center whitespace-nowrap">
-                      <span x-text="docCount">0</span> Docs
-                      <span x-text="termCount">0</span> Terms
-                  </div>
+
+  <div class="w-full md:w-3/5 h-full flex flex-col bg-base-100 border-l border-base-300 min-h-0">
+      <div class="p-2 border-b border-base-300 flex justify-between items-center h-10 shrink-0">
+          <div class="leading-none flex flex-col px-1">
+              <h2 class="font-bold text-[10px] uppercase tracking-widest opacity-60">SessionBills v3</h2>
+              <div class="text-[9px] font-mono flex gap-2 mt-0.5 opacity-40">
+                  <span x-text="`${docCount} Docs`"></span>
+                  <span x-text="`${termCount} Terms`"></span>
               </div>
           </div>
-          <div class="flex items-center gap-2 shrink-0">
-             <div x-show="analyzing || batchScanning" class="text-[9px] font-bold animate-pulse text-info whitespace-nowrap">BUSY...</div>
-             <button @click="copyData()" class="btn btn-xs btn-outline h-6 min-h-0 px-2 text-[10px] gap-1">
+          <div class="flex items-center gap-1.5 shrink-0">
+             <div x-show="analyzing || batchScanning" class="text-[9px] font-bold animate-pulse text-info mr-2">BUSY</div>
+             <button @click="showIndex()" class="btn btn-xs btn-ghost border-base-content/5 h-6 min-h-0 text-[10px] normal-case">Show Index</button>
+             <button @click="copyVisibleData()" class="btn btn-xs btn-outline border-base-content/20 h-6 min-h-0 gap-1 text-[10px]">
                  <span x-text="copyText">Copy</span>
-                 <i class="ph ph-copy opacity-50 text-[9px]"></i>
+                 <i class="ph ph-copy opacity-40 text-[9px]"></i>
              </button>
           </div>
       </div>
-      <div class="flex-grow overflow-hidden relative bg-base-200/30">
-          <template x-if="!currentDoc && !analyzing">
-              <div class="absolute inset-0 overflow-auto p-2 md:p-4">
-                   <div x-show="docCount === 0" class="h-full flex flex-col items-center justify-center opacity-30 gap-2">
-                       <i class="ph ph-database text-4xl"></i>
-                       <span class="text-xs text-center px-4">Database empty.</span>
-                   </div>
-                   <div x-show="docCount > 0">
-                       <div class="text-[10px] uppercase font-bold opacity-50 mb-1">Index Meta (Synced)</div>
-                       <div class="mockup-code bg-gray-900 text-gray-100 text-[10px] md:text-xs shadow-lg w-full h-full rounded-lg overflow-auto">
-                          <pre class="px-4 py-2"><code x-text="JSON.stringify({dictKeys: termCount, inv: masterIndex.inv.length}, null, 2)"></code></pre>
-                       </div>
-                   </div>
+      
+      <div class="flex-grow overflow-hidden p-2 bg-base-200/40">
+          <div x-show="docCount === 0 && !currentDoc" class="h-full flex flex-col items-center justify-center opacity-20 gap-2">
+              <i class="ph ph-database text-4xl"></i><span class="text-xs">Empty</span>
+          </div>
+          <div x-show="docCount > 0 || currentDoc" class="h-full">
+              <div class="mockup-code shadow-sm w-full h-full rounded-md overflow-auto border border-white/5 bg-gray-950"
+                   :class="currentDoc ? 'text-blue-300' : 'text-emerald-400'">
+                  <pre class="px-4 py-2 text-[10px]"><code x-text="currentDoc ? JSON.stringify(currentDoc, null, 2) : getIndexPreview()"></code></pre>
               </div>
-          </template>
-          <template x-if="currentDoc">
-              <div class="absolute inset-0 overflow-auto p-0 md:p-4">
-                  <div class="h-full w-full flex flex-col">
-                      <div class="mockup-code bg-gray-900 text-gray-100 text-[10px] md:text-xs shadow-none w-full flex-grow rounded-none md:rounded-lg overflow-auto">
-                          <pre class="px-4 py-2"><code x-text="JSON.stringify(currentDoc, null, 2)"></code></pre>
-                      </div>
-                  </div>
-              </div>
-          </template>
+          </div>
       </div>
   </div>
 </div>
+
 <script>
 document.addEventListener('alpine:init', () => {
   Alpine.data('extractor', () => ({
     targetUrl: 'https://lawfilesext.leg.wa.gov/Biennium/2025-26/Htm/Bills/House%20Bills/',
-    files: [],
-    masterIndex: { dict: {}, inv: [] },
-    docCount: 0,
-    termCount: 0,
-    processedUrls: new Set(),
-    currentDoc: null,
-    db: null,
-    dbStatus: '...',
-    scanning: false,
-    batchScanning: false,
-    analyzing: false,
-    errorMsg: '',
-    copyText: 'Copy Index',
-    table: null,
+    files: [], masterIndex: { dict: {}, inv: [] },
+    docCount: 0, termCount: 0, processedUrls: new Set(),
+    currentDoc: null, db: null, dbStatus: '...',
+    scanning: false, batchScanning: false, analyzing: false,
+    copyText: 'Copy', table: null, lastStoredUrl: null,
+
+    getStoredCount() { return this.files.filter(f => this.processedUrls.has(f.url)).length; },
+    showIndex() { this.currentDoc = null; },
+
+    getIndexPreview() {
+        return JSON.stringify({
+            dict: _.pick(this.masterIndex.dict, _.keys(this.masterIndex.dict).slice(0, 100)),
+            inv: `[${this.masterIndex.inv.length} items...]`,
+            _meta: { totalTerms: this.termCount, preview: "Summarized" }
+        }, null, 2);
+    },
 
     async init() {
         try {
             this.db = new Dexie('SessionBills');
-            this.db.version(3).stores({ 
-                documents: '++id, &url',
-                meta: ''
-            });
+            this.db.version(3).stores({ documents: '++id, &url', meta: '' });
             await this.db.open();
-            this.dbStatus = `<span class="text-success">✓</span> v${this.db.verno}`;
+            this.dbStatus = `v${this.db.verno}`;
             const meta = await this.db.meta.get('masterIndex');
-            if (meta) {
-                this.masterIndex = meta;
-                this.termCount = Object.keys(this.masterIndex.dict).length;
-            }
-            const urls = await this.db.documents.orderBy('url').keys();
-            urls.forEach(u => this.processedUrls.add(u));
+            if (meta) { this.masterIndex = meta; this.termCount = Object.keys(meta.dict).length; }
+            (await this.db.documents.orderBy('url').keys()).forEach(u => this.processedUrls.add(u));
             this.docCount = this.processedUrls.size;
-        } catch (e) {
-            console.error(e);
-            this.dbStatus = `<span class="text-error">✗ Schema Error</span>`;
-            alert("DB Error: You likely need to Nuke the v2 DB first.");
-        }
+        } catch (e) { this.dbStatus = 'Error'; }
         this.initTable();
     },
 
     initTable() {
         this.table = new Tabulator("#fileTable", {
-            data: [],
-            layout: "fitColumns",
-            height: "100%",
-            selectable: false,
-            columns: [
-                { 
-                    title: "Filename", field: "filename", widthGrow: 2, headerFilter:"input",
-                    formatter: (cell) => {
-                        const url = cell.getRow().getData().url;
-                        const isDone = this.processedUrls.has(url);
-                        const icon = isDone ? `<i class="ph ph-check-circle text-success"></i>` : `<i class="ph ph-file text-base-content/30"></i>`;
-                        const textClass = isDone ? "text-base-content font-semibold" : "text-primary font-bold";
-                        return `<div class="flex items-center gap-2 ${textClass} hover:underline cursor-pointer transition-colors">${icon} <span>${cell.getValue()}</span></div>`;
-                    },
-                    cellClick: (e, cell) => this.viewFile(cell.getRow().getData().url, cell.getRow())
+            data: [], layout: "fitColumns", height: "400", index: "url",
+            selectableRows: 1, 
+            columns: [{ 
+                title: "Filename", field: "filename", headerFilter:"input",
+                formatter: (cell) => {
+                    const isDone = this.processedUrls.has(cell.getRow().getData().url);
+                    const icon = isDone ? `<i class="ph ph-check-circle text-success"></i>` : `<i class="ph ph-file opacity-20"></i>`;
+                    return `<div class="flex items-center gap-2 py-0.5 cursor-pointer text-[11px]">${icon} <span class="${isDone ? 'opacity-100' : 'text-primary font-bold'}">${cell.getValue()}</span></div>`;
                 }
-            ]
+            }]
+        });
+
+        this.table.on("rowSelectionChanged", (data, rows) => {
+            if (rows[0]) this.viewFile(rows[0].getData().url, rows[0]);
+        });
+
+        this.table.on("tableBuilt", () => {
+            const el = this.table.element;
+            el.tabIndex = 0;
+            el.onkeydown = e => {
+                if (e.key === 'ArrowUp' || e.key === 'ArrowDown') {
+                    e.preventDefault();
+                    this.nav(e.key === 'ArrowUp');
+                }
+            };
         });
     },
 
-    showIndex() {
-        this.currentDoc = null;
+    nav(up) {
+        const s = this.table.getSelectedRows()[0];
+        const next = s ? (up ? s.getPrevRow() : s.getNextRow()) : this.table.getRows()[0];
+        if (next) {
+            this.table.deselectRow();
+            next.select();
+            // Scroll logic matches the AIC example
+            this.table.scrollToRow(next, 'nearest', false);
+        }
+    },
+
+    smartScroll() {
+        const row = this.table.getRow(this.lastStoredUrl) || 
+                    this.table.getRows("active").find(r => !this.processedUrls.has(r.getData().url));
+        if (row) {
+            this.table.deselectRow();
+            row.select();
+            this.table.scrollToRow(row, "center", true).then(() => {
+                const el = row.getElement();
+                el.style.backgroundColor = 'rgba(var(--p), 0.15)';
+                setTimeout(() => el.style.backgroundColor = '', 800);
+            });
+        }
     },
 
     async viewFile(url, row) {
@@ -170,180 +176,99 @@ document.addEventListener('alpine:init', () => {
         if (cached) {
             this.currentDoc = this.hydrateDoc(cached);
         } else {
-            this.extract(url).then(async (rawBill) => {
-                if(rawBill && !rawBill.error) {
-                    await this.ingestAndSave(rawBill);
-                    if(row) row.reformat();
-                    this.currentDoc = rawBill;
-                } else {
-                    alert("Failed to load");
-                }
-            });
+            const rawBill = await this.extract(url);
+            if(rawBill && !rawBill.error) {
+                await this.ingestAndSave(rawBill);
+                if(row) row.reformat();
+                this.currentDoc = rawBill;
+            }
         }
     },
 
     hydrateDoc(doc) {
         const idToTerm = [];
         Object.entries(this.masterIndex.dict).forEach(([t, id]) => idToTerm[id] = t);
-        const h = { ...doc };
-        if (h.terms) h.terms = h.terms.map(id => idToTerm[id]);
-        return h;
+        if (doc.terms) doc.terms = doc.terms.map(id => idToTerm[id]);
+        return doc;
     },
 
     async ingestAndSave(rawBill) {
         const termIds = [];
-        if (rawBill.terms) {
-            rawBill.terms.forEach(term => {
-                let tid = this.masterIndex.dict[term];
-                if (tid === undefined) {
-                    tid = Object.keys(this.masterIndex.dict).length;
-                    this.masterIndex.dict[term] = tid;
-                    this.masterIndex.inv[tid] = [];
-                }
-                termIds.push(tid);
-            });
-        }
-        const docToSave = { ...rawBill, terms: termIds };
-        const docId = await this.db.documents.add(docToSave);
-        const uniqueTermIds = [...new Set(termIds)];
-        uniqueTermIds.forEach(tid => {
-            this.masterIndex.inv[tid].push(docId);
+        (rawBill.terms || []).forEach(term => {
+            let tid = this.masterIndex.dict[term];
+            if (tid === undefined) {
+                tid = Object.keys(this.masterIndex.dict).length;
+                this.masterIndex.dict[term] = tid;
+                this.masterIndex.inv[tid] = [];
+            }
+            termIds.push(tid);
         });
+        const docId = await this.db.documents.add({ ...rawBill, terms: termIds });
+        [...new Set(termIds)].forEach(tid => this.masterIndex.inv[tid].push(docId));
         await this.db.meta.put(JSON.parse(JSON.stringify(this.masterIndex)), 'masterIndex');
         this.processedUrls.add(rawBill.url);
-        this.docCount++;
-        this.termCount = Object.keys(this.masterIndex.dict).length;
+        this.lastStoredUrl = rawBill.url; 
+        this.docCount++; this.termCount = Object.keys(this.masterIndex.dict).length;
     },
 
     async startBatchScan() {
-        if(this.batchScanning) return;
         this.batchScanning = true;
-        const rows = this.table.getRows();
-        const wait = (ms) => new Promise(r => setTimeout(r, ms));
-        for (const row of rows) {
+        for (const row of this.table.getRows("active")) {
             if (!this.batchScanning) break;
             const url = row.getData().url;
             if (this.processedUrls.has(url)) continue;
-            const rawBill = await this.extract(url);
-            if (rawBill && !rawBill.error) {
-                await this.ingestAndSave(rawBill);
-                row.reformat();
-            }
-            await wait(200);
+            const raw = await this.extract(url);
+            if (raw && !raw.error) { await this.ingestAndSave(raw); row.reformat(); }
+            await new Promise(r => setTimeout(r, 120));
         }
         this.batchScanning = false;
     },
 
     stopBatchScan() { this.batchScanning = false; },
 
-    copyData() {
-        const plain = JSON.parse(JSON.stringify(this.masterIndex));
-        navigator.clipboard.writeText(JSON.stringify(plain, null, 2)).then(() => {
+    copyVisibleData() {
+        navigator.clipboard.writeText(JSON.stringify(this.currentDoc || this.masterIndex, null, 2)).then(() => {
             this.copyText = "Done";
-            setTimeout(() => this.copyText = "Copy Index", 2000);
+            setTimeout(() => this.copyText = "Copy", 1200);
         });
     },
 
     async scanDirectory() {
-        this.scanning = true;
-        this.errorMsg = '';
-        this.files = [];
-        this.table.clearData();
+        this.scanning = true; this.files = []; this.lastStoredUrl = null; this.table.clearData();
         try {
             const res = await fetch(this.targetUrl);
-            if(!res.ok) throw new Error(`HTTP ${res.status}`);
-            const text = await res.text();
-            const parser = new DOMParser();
-            const doc = parser.parseFromString(text, 'text/html');
-            this.files = Array.from(doc.querySelectorAll('a'))
-                .map(a => ({
-                    filename: a.textContent.trim(),
-                    url: new URL(a.getAttribute('href'), this.targetUrl).href,
-                }))
-                .filter(f => f.filename.endsWith('.htm') || f.filename.endsWith('.pdf'));
+            const html = await res.text();
+            this.files = Array.from(new DOMParser().parseFromString(html, 'text/html').querySelectorAll('a'))
+                .map(a => ({ filename: a.textContent.trim(), url: new URL(a.getAttribute('href'), this.targetUrl).href }))
+                .filter(f => (f.filename.endsWith('.htm') || f.filename.endsWith('.pdf')) && !f.filename.includes('..'));
             this.table.replaceData(this.files);
-        } catch (e) {
-            this.errorMsg = e.message;
-        } finally {
-            this.scanning = false;
-        }
+        } catch (e) { console.error(e); }
+        this.scanning = false;
     },
 
     async extract(fileUrl) {
         this.analyzing = true;
         try {
             const htmUrl = fileUrl.replace(/\b(xml|pdf)\b/g, 'htm');
-            const xmlUrl = fileUrl.replace(/htm|pdf/gi, 'xml');
-            const [htmlResponse, xmlResponse] = await Promise.all([
-                fetch(htmUrl),
-                fetch(xmlUrl).then(res => res.ok ? res : null).catch(() => null)
-            ]);
-            if (!htmlResponse.ok) throw new Error("Fetch Failed");
-            const htmlText = await htmlResponse.text();
-            const xmlText = xmlResponse ? await xmlResponse.text() : null;
-            const doc = new DOMParser().parseFromString(htmlText, 'text/html');
-            const clean = (txt) => txt ? txt.trim() : 'N/A';
-            const getText = selector => clean(doc.querySelector(selector)?.textContent);
-            const getSponsors = () => {
-                const span = doc.querySelector('div[style="margin-top:0.1in;"] span[style*="font-weight:bold"]');
-                return span?.nextSibling ? clean(span.nextSibling.textContent) : 'N/A';
-            };
-            const getPrefiled = () => {
-                const readSpan = Array.from(doc.querySelectorAll('span')).find(s => s.textContent.trim().startsWith('Read first time'));
-                if (!readSpan) return {};
-                const container = readSpan.closest('div') || readSpan.parentElement;
-                const data = {};
-                container.querySelectorAll('span').forEach(s => {
-                    const t = s.textContent.trim();
-                    if (t.startsWith('Prefiled')) data.prefiled = t.replace('Prefiled ', '').trim();
-                    if (t.startsWith('Read first time')) data.firstRead = t.replace('Read first time ', '').trim();
-                    if (t.startsWith('Referred to')) data.referredTo = t.replace('Referred to ', '').trim();
-                });
-                return data;
-            };
-            const getTerms = () => {
-                const text = doc.body.textContent || '';
-                return [...new Set(text.toLowerCase().match(/[a-z]{3,}/g) || [])].sort();
-            };
-            const extractLinks = () => {
-                const rcws = new Set(), others = [];
-                doc.querySelectorAll('a[href]').forEach(a => {
-                    const text = a.textContent.trim();
-                    if (!text) return;
-                    if (a.href.includes('app.leg.wa.gov/RCW')) rcws.add(text);
-                    else others.push({ text, href: a.href });
-                });
-                return { rcwsLinked: Array.from(rcws).sort(), otherLinks: others };
-            };
-            let xmlHeadingObj = null;
-            if (xmlText && window.XMLParser) {
-                 const xmlDoc = new DOMParser().parseFromString(xmlText, "application/xml");
-                 ['indent', 'textAlign', 'width'].forEach(a => {
-                     Array.from(xmlDoc.getElementsByTagName("*")).forEach(el => el.removeAttribute(a));
-                 });
-                 const serializer = new XMLSerializer();
-                 const parser = new window.XMLParser({ ignoreAttributes: false, attributeNamePrefix: "@", ignoreDeclaration: true, removeNSPrefix: true });
-                 xmlHeadingObj = parser.parse(serializer.serializeToString(xmlDoc)).Bill?.BillHeading || null;
-            }
-            const fullBillNumber = getText('div[style="font-weight:bold;text-align:center;"]');
+            const res = await fetch(htmUrl);
+            const doc = new DOMParser().parseFromString(await res.text(), 'text/html');
+            const clean = (t) => t?.textContent.trim() || 'N/A';
+            const readSpan = Array.from(doc.querySelectorAll('span')).find(s => s.textContent.trim().startsWith('Read first time'));
+            const data = {};
+            if (readSpan) (readSpan.closest('div') || readSpan.parentElement).querySelectorAll('span').forEach(s => {
+                const t = s.textContent.trim();
+                if (t.startsWith('Prefiled')) data.prefiled = t.split('Prefiled ')[1];
+                if (t.startsWith('Read first time')) data.firstRead = t.split('Read first time ')[1];
+                if (t.startsWith('Referred to')) data.referredTo = t.split('Referred to ')[1];
+            });
+            const fullBill = clean(doc.querySelector('div[style*="bold;text-align:center;"]'));
             return {
-                url: htmUrl,
-                ...getPrefiled(),
-                billNumber: fullBillNumber,
-                billNo: fullBillNumber.match(/\d+/)?.[0] || 'N/A',
-                table: (doc.querySelector('table') ? 'Table Found' : 'N/A'),
-                sponsors: getSponsors(),
+                url: htmUrl, ...data, billNumber: fullBill, billNo: fullBill.match(/\d+/)?.[0] || 'N/A',
+                sponsors: doc.querySelector('span[style*="font-weight:bold"]')?.nextSibling?.textContent.trim() || 'N/A',
                 title: doc.querySelector('div[style*="text-indent:0.5in;margin-top:0.5in;"]')?.innerHTML.trim() || 'N/A',
-                terms: getTerms(),
-                ...extractLinks(),
-                xmlHeading: xmlHeadingObj
+                terms: [...new Set(doc.body.textContent.toLowerCase().match(/[a-z]{3,}/g) || [])].sort()
             };
-        } catch (e) {
-            console.error(e);
-            return { error: e.message };
-        } finally {
-            this.analyzing = false;
-        }
+        } catch (e) { return { error: e.message }; } finally { this.analyzing = false; }
     }
   }));
 });

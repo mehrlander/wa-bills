@@ -1,0 +1,223 @@
+{
+  "meta": {
+    "version": "1.0",
+    "updated": "2025-01-06"
+  },
+  "systems": {
+    "JRS": {
+      "ch": "2.10",
+      "name": "Judges 1971-1988; zero active members",
+      "wac": "415-100",
+      "tags": [
+        "judicial",
+        "legacy",
+        "closed"
+      ]
+    },
+    "JRF": {
+      "ch": "2.12",
+      "name": "Judges before 1971",
+      "wac": "415-100",
+      "tags": [
+        "judicial",
+        "legacy",
+        "closed"
+      ]
+    },
+    "JRA": {
+      "ch": "2.14",
+      "name": "DC supplement 1988-2007",
+      "wac": "415-100",
+      "tags": [
+        "judicial",
+        "defined-contribution",
+        "closed"
+      ]
+    },
+    "LEOFF": {
+      "ch": "41.26",
+      "name": "Law Enforcement Officers' and Fire Fighters'",
+      "wac": "415-104",
+      "plans": {
+        "1": [
+          40,
+          160
+        ],
+        "2": [
+          400,
+          560
+        ]
+      },
+      "tags": [
+        "public-safety",
+        "firefighters",
+        "law-enforcement"
+      ]
+    },
+    "TRS": {
+      "ch": "41.32",
+      "name": "Teachers' Retirement System",
+      "wac": "415-112",
+      "plans": {
+        "1": [
+          240,
+          530
+        ],
+        "2": [
+          700,
+          830
+        ],
+        "3": [
+          831,
+          920
+        ]
+      },
+      "tags": [
+        "teachers",
+        "education",
+        "certificated"
+      ]
+    },
+    "SERS": {
+      "ch": "41.35",
+      "name": "School Employees' Retirement System",
+      "wac": "415-110",
+      "plans": {
+        "2": [
+          30,
+          299
+        ],
+        "3": [
+          500,
+          650
+        ]
+      },
+      "tags": [
+        "school-employees",
+        "classified",
+        "education"
+      ]
+    },
+    "PSERS": {
+      "ch": "41.37",
+      "name": "Public Safety Employees' Retirement System",
+      "wac": "415-106",
+      "tags": [
+        "public-safety",
+        "corrections",
+        "911"
+      ]
+    },
+    "PERS": {
+      "ch": "41.40",
+      "name": "Public Employees' Retirement System",
+      "wac": "415-108",
+      "plans": {
+        "1": [
+          120,
+          370
+        ],
+        "2": [
+          600,
+          780
+        ],
+        "3": [
+          780,
+          920
+        ]
+      },
+      "tags": [
+        "state-employees",
+        "local-government"
+      ]
+    },
+    "WSPRS": {
+      "ch": "43.43",
+      "name": "Washington State Patrol Retirement System",
+      "wac": "415-103",
+      "plans": {
+        "1": [
+          120,
+          200
+        ],
+        "2": [
+          200,
+          320
+        ]
+      },
+      "tags": [
+        "public-safety",
+        "state-patrol",
+        "troopers"
+      ]
+    }
+  },
+  "general": {
+    "41.34": {
+      "label": "Plan 3 DC Component",
+      "wac": "415-111"
+    },
+    "41.45": {
+      "label": "Actuarial Funding"
+    },
+    "41.50": {
+      "label": "DRS Administration",
+      "wac": "415-02"
+    },
+    "41.54": {
+      "label": "Portability",
+      "wac": "415-113"
+    }
+  },
+  "governance": {
+    "41.04": {
+      "sections": {
+        "276": "SCPP Created",
+        "278": "SCPP Subcommittees",
+        "281": "SCPP Duties"
+      }
+    },
+    "43.33A": "State Investment Board",
+    "44.44": "State Actuary / SCPP"
+  },
+  "adjacent": {
+    "6.15": "Pension exemptions except child support",
+    "26.16": "Benefits earned during marriage divisible",
+    "26.18": "Can access otherwise-protected benefits",
+    "26.23": "Income withholding for support",
+    "34.05": "Governs DRS appeals process",
+    "41.28": "Locally administered; not DRS",
+    "41.44": "Optional city system; locally administered",
+    "74.20A": "Division of Child Support enforcement"
+  },
+  "special": {
+    "41.40.124": {
+      "note": "Judicial Benefit Multiplier",
+      "category": "judicial"
+    },
+    "41.40.761": {
+      "note": "Judicial Multiplier (Plan 2)",
+      "category": "judicial"
+    },
+    "41.45.0631": {
+      "note": "WSPRS Member Rates",
+      "category": "public safety systems"
+    },
+    "41.45.100": {
+      "note": "Pension Funding Council",
+      "category": "governance"
+    },
+    "41.45.200": {
+      "note": "Judicial Contribution Rates",
+      "category": "judicial"
+    },
+    "41.50.770": {
+      "note": "Deferred Compensation Program",
+      "system": "DCP"
+    },
+    "41.50.780": {
+      "note": "DCP Accounts",
+      "system": "DCP"
+    }
+  }
+}

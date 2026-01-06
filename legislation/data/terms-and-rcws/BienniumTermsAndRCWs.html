@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Session Scanner</title>
+<link href="https://cdn.jsdelivr.net/combine/npm/daisyui@5/themes.css,npm/daisyui@5" rel="stylesheet" />
+<script src="https://cdn.jsdelivr.net/combine/npm/@tailwindcss/browser@4,npm/lodash"></script>
+<script defer src="https://unpkg.com/alpinejs"></script>
+</head>
+<body class="bg-base-200 h-screen p-4 text-sm text-base-content">
+<div x-data="scanner()" class="h-full flex flex-col gap-4">
+  
+  <div class="flex gap-4 items-end">
+    <div class="flex flex-col gap-1">
+      <span class="text-xs font-bold uppercase opacity-70">Biennium</span>
+      <input type="text" x-model="biennium" class="input input-bordered input-sm w-32 font-mono" />
+    </div>
+    <div class="flex flex-col gap-1">
+      <span class="text-xs font-bold uppercase opacity-70">Chamber</span>
+      <select x-model="chamber" class="select select-bordered select-sm w-40">
+        <option value="House">House</option>
+        <option value="Senate">Senate</option>
+      </select>
+    </div>
+    <button @click="scanAndFetch()" :disabled="fetching" class="btn btn-primary btn-sm">
+      <span x-text="fetching ? 'Scanning...' : 'Scan'"></span>
+    </button>
+    <button @click="stop()" x-show="fetching" class="btn btn-error btn-sm">Stop</button>
+    <div class="flex-1"></div>
+    <div class="text-xs opacity-60 flex gap-4">
+      <span x-text="`${billUrls.length} bills found`"></span>
+      <span x-text="`${results.length} fetched`"></span>
+    </div>
+    <button @click="copyResults()" x-show="results.length" class="btn btn-outline btn-sm">Copy</button>
+  </div>
+
+  <div x-show="fetching" class="flex items-center gap-2 text-xs">
+    <span class="loading loading-spinner loading-xs"></span>
+    <span x-text="status"></span>
+  </div>
+
+  <div class="flex-1 min-h-0">
+    <div class="mockup-code bg-neutral text-neutral-content h-full overflow-auto text-xs">
+      <pre class="px-4"><code x-text="displayJson"></code></pre>
+    </div>
+  </div>
+
+</div>
+
+<script>
+document.addEventListener('alpine:init', () => {
+  Alpine.data('scanner', () => ({
+    biennium: '2025-26',
+    chamber: 'House',
+    billUrls: [],
+    results: [],
+    displayJson: '',
+    fetching: false,
+    stopped: false,
+    status: '',
+
+    directoryUrl() {
+      return `https://lawfilesext.leg.wa.gov/Biennium/${this.biennium}/Htm/Bills/${this.chamber}%20Bills/`;
+    },
+
+    async scanAndFetch() {
+      this.fetching = true;
+      this.stopped = false;
+      this.results = [];
+      this.billUrls = [];
+      this.displayJson = 'Scanning directory...';
+
+      // Get directory listing
+      try {
+        const res = await fetch(this.directoryUrl());
+        const html = await res.text();
+        const doc = new DOMParser().parseFromString(html, 'text/html');
+        
+        // Filter to canonical bills only (digits only, no -S, -E, etc.)
+        this.billUrls = Array.from(doc.querySelectorAll('a'))
+          .map(a => new URL(a.getAttribute('href'), this.directoryUrl()).href)
+          .filter(url => {
+            const filename = decodeURIComponent(url.split('/').pop());
+            return filename.endsWith('.htm') && /^\d+\.htm$/.test(filename);
+          });
+      } catch (e) {
+        this.displayJson = `Error scanning directory: ${e.message}`;
+        this.fetching = false;
+        return;
+      }
+
+      // Fetch each bill
+      for (let i = 0; i < this.billUrls.length; i++) {
+        if (this.stopped) break;
+        const url = this.billUrls[i];
+        this.status = `Fetching ${i + 1}/${this.billUrls.length}: ${url.split('/').pop()}`;
+        
+        const result = await this.extractBill(url);
+        this.results.push(result);
+        await new Promise(r => setTimeout(r, 200));
+      }
+
+      this.displayJson = JSON.stringify(this.results, null, 2);
+      this.status = '';
+      this.fetching = false;
+    },
+
+    stop() {
+      this.stopped = true;
+    },
+
+    async extractBill(url) {
+      try {
+        const res = await fetch(url);
+        if (!res.ok) return { url, error: `HTTP ${res.status}` };
+        const html = await res.text();
+        const doc = new DOMParser().parseFromString(html, 'text/html');
+
+        // RCWs linked
+        const rcws = new Set();
+        doc.querySelectorAll('a[href*="app.leg.wa.gov/RCW"]').forEach(a => {
+          const text = a.textContent.trim();
+          if (text) rcws.add(text);
+        });
+
+        // Term frequencies
+        const words = doc.body.textContent.toLowerCase().match(/[a-z]{3,}/g) || [];
+        const termFreq = {};
+        words.forEach(w => termFreq[w] = (termFreq[w] || 0) + 1);
+
+        return {
+          url,
+          rcwsLinked: [...rcws].sort(),
+          termFreq
+        };
+      } catch (e) {
+        return { url, error: e.message };
+      }
+    },
+
+    copyResults() {
+      navigator.clipboard.writeText(this.displayJson || JSON.stringify(this.results, null, 2));
+    }
+  }));
+});
+</script>
+</body>
+</html>

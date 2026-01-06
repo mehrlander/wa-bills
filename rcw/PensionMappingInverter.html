@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RCW Crosswalk Inverter</title>
+  <link href="https://cdn.jsdelivr.net/combine/npm/daisyui@5/themes.css,npm/daisyui@5" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/combine/npm/@tailwindcss/browser@4,npm/jquery"></script>
+</head>
+<body class="bg-base-200 min-h-screen p-4">
+  <div tabindex="0" id="paste" class="bg-base-100 border-2 border-dashed border-base-300 p-6 text-center cursor-pointer hover:border-primary focus:border-primary focus:outline-none">
+    <p class="opacity-50">Paste crosswalk JSON (Ctrl+V)</p>
+  </div>
+  <div id="buttons" class="mt-4 flex gap-4 hidden">
+    <button id="copy" class="btn btn-primary">Copy inverted</button>
+  </div>
+  <script>
+    let inverted;
+    
+    const invert = data => {
+      const { meta, titles, chapters, sections, ranges } = data;
+      
+      const systems = {};
+      const general = {};
+      const governance = {};
+      const adjacent = {};
+      const special = {};
+      
+      // Build systems object (excluding DCP which goes to special)
+      for (const [ch, info] of Object.entries(chapters)) {
+        const { system, category, label, wac, tags, notes } = info;
+        
+        if (system && system !== 'DCP' && !systems[system]) {
+          const entry = { ch };
+          if (notes) entry.name = notes;
+          if (wac) entry.wac = wac;
+          
+          if (ranges[ch]) {
+            entry.plans = {};
+            for (const r of ranges[ch]) {
+              entry.plans[r.plan] = [r.start, r.end];
+            }
+          }
+          
+          if (tags?.length) entry.tags = tags;
+          systems[system] = entry;
+        }
+        
+        // General chapters (DRS Core category, no system)
+        if (category === 'DRS Core' && !system) {
+          const entry = {};
+          if (label && label !== ch) entry.label = label;
+          if (wac) entry.wac = wac;
+          general[ch] = Object.keys(entry).length ? entry : label;
+        }
+        
+        // Governance
+        if (category === 'Governance' && !system) {
+          const entry = {};
+          if (label) entry.label = label;
+          if (wac) entry.wac = wac;
+          governance[ch] = Object.keys(entry).length === 1 ? label : entry;
+        }
+        
+        // Adjacent
+        if (category === 'Adjacent') {
+          adjacent[ch] = notes || label;
+        }
+      }
+      
+      // Build special: sections that break patterns OR have a system assigned within a general chapter
+      for (const [secKey, sec] of Object.entries(sections)) {
+        const ch = secKey.split('.').slice(0, 2).join('.');
+        const chInfo = chapters[ch];
+        
+        // DCP sections
+        if (sec.system === 'DCP') {
+          const entry = { note: sec.label, system: 'DCP' };
+          special[secKey] = entry;
+          continue;
+        }
+        
+        // Category exceptions
+        if (chInfo && sec.category && sec.category !== chInfo.category) {
+          const entry = { note: sec.label, category: sec.category.toLowerCase() };
+          special[secKey] = entry;
+          continue;
+        }
+        
+        // System exceptions (section has system different from chapter)
+        if (chInfo && sec.system && sec.system !== chInfo.system) {
+          const entry = { note: sec.label, system: sec.system };
+          special[secKey] = entry;
+        }
+      }
+      
+      // Build governance sections for 41.04 (SCPP)
+      const scppSections = Object.entries(sections)
+        .filter(([k]) => k.startsWith('41.04.'))
+        .reduce((acc, [k, v]) => {
+          acc[k.split('.')[2]] = v.label;
+          return acc;
+        }, {});
+      
+      if (Object.keys(scppSections).length) {
+        governance['41.04'] = { sections: scppSections };
+      }
+      
+      const result = {
+        meta: { version: meta.version, updated: meta.updated },
+        systems,
+        general,
+        governance,
+        adjacent
+      };
+      
+      if (Object.keys(special).length) result.special = special;
+      
+      return result;
+    };
+    
+    $('#paste').on('paste', e => {
+      e.preventDefault();
+      try {
+        const data = JSON.parse(e.originalEvent.clipboardData.getData('text'));
+        inverted = invert(data);
+        console.log(inverted);
+        console.log('Size comparison:');
+        console.log('  Original:', JSON.stringify(data).length, 'chars');
+        console.log('  Inverted:', JSON.stringify(inverted).length, 'chars');
+        console.log('  Reduction:', Math.round((1 - JSON.stringify(inverted).length / JSON.stringify(data).length) * 100) + '%');
+        $('#buttons').removeClass('hidden');
+      } catch(err) { alert('Parse error: ' + err.message); }
+    });
+    
+    $('#copy').on('click', () => navigator.clipboard.writeText(JSON.stringify(inverted, null, 2)));
+    
+    $('#paste').trigger('focus');
+  </script>
+</body>
+</html>

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Term Scorer</title>
+<link href="https://cdn.jsdelivr.net/combine/npm/daisyui@5/themes.css,npm/daisyui@5,npm/tabulator-tables/dist/css/tabulator_simple.min.css" rel="stylesheet" />
+<script src="https://cdn.jsdelivr.net/combine/npm/@tailwindcss/browser@4,npm/lodash,npm/tabulator-tables"></script>
+<script defer src="https://unpkg.com/alpinejs"></script>
+</head>
+<body class="bg-base-200 h-screen p-4 text-sm text-base-content">
+<div x-data="scorer()" class="h-full flex flex-col gap-4">
+  
+  <div class="flex gap-4 items-end flex-wrap">
+    <button @click="loadAndScore()" :disabled="loading" class="btn btn-primary btn-sm">
+      <span x-text="loading ? 'Loading...' : 'Load & Score'"></span>
+    </button>
+    <div class="flex flex-col gap-1">
+      <span class="text-xs opacity-60">Min Score</span>
+      <input type="number" x-model.number="cutoff" step="0.5" class="input input-bordered input-sm w-20 font-mono" />
+    </div>
+    <div class="flex flex-col gap-1">
+      <span class="text-xs opacity-60">Pension Since</span>
+      <input type="text" x-model="bienniumCutoff" class="input input-bordered input-sm w-24 font-mono" placeholder="2015-16" />
+    </div>
+    <div class="text-xs opacity-60 flex gap-4">
+      <span x-text="`Pension bills: ${pensionCount}`"></span>
+      <span x-text="`Background bills: ${bgCount}`"></span>
+      <span x-text="`Vocab: ${vocabSize}`"></span>
+      <span x-text="`Showing: ${filteredScores.length}`"></span>
+    </div>
+    <div class="flex-1"></div>
+    <button @click="copyResults()" x-show="filteredScores.length" class="btn btn-outline btn-sm">Copy JSON</button>
+  </div>
+
+  <div x-show="loading" class="flex items-center gap-2 text-xs">
+    <span class="loading loading-spinner loading-xs"></span>
+    <span x-text="status"></span>
+  </div>
+
+  <div class="flex gap-4 flex-1 min-h-0">
+    <div class="w-1/2 flex flex-col gap-2">
+      <span class="text-xs font-bold uppercase opacity-70">Scored Terms</span>
+      <div id="scoreTable" class="flex-1"></div>
+    </div>
+    <div class="w-1/2 flex flex-col gap-2">
+      <span class="text-xs font-bold uppercase opacity-70">JSON Output</span>
+      <div class="mockup-code bg-neutral text-neutral-content flex-1 overflow-auto text-xs">
+        <pre class="px-4"><code x-text="displayJson"></code></pre>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<script>
+document.addEventListener('alpine:init', () => {
+  Alpine.data('scorer', () => ({
+    loading: false,
+    status: '',
+    scores: [],
+    displayJson: '',
+    pensionCount: 0,
+    bgCount: 0,
+    vocabSize: 0,
+    cutoff: 1,
+    bienniumCutoff: '2015-16',
+    table: null,
+
+    get filteredScores() {
+      return this.scores.filter(s => s.score >= this.cutoff);
+    },
+
+    urls: {
+      pension: 'https://raw.githubusercontent.com/mehrlander/wa-bills/main/legislation/data/topic/retirement_and_pension_xml_terms.json',
+      house: 'https://raw.githubusercontent.com/mehrlander/wa-bills/main/legislation/data/terms-and-rcws/house_xml_2025-26.json',
+      senate: 'https://raw.githubusercontent.com/mehrlander/wa-bills/main/legislation/data/terms-and-rcws/senate_xml_2025-26.json'
+    },
+
+    init() {
+      this.$watch('cutoff', () => this.updateDisplay());
+      
+      this.table = new Tabulator("#scoreTable", {
+        data: [],
+        layout: "fitColumns",
+        height: "100%",
+        columns: [
+          { title: "Term", field: "term", widthGrow: 2, headerFilter: "input" },
+          { title: "Score", field: "score", width: 80, hozAlign: "right", 
+            formatter: c => `<span class="${c.getValue() > 0 ? 'text-success' : 'text-error'}">${c.getValue().toFixed(2)}</span>` },
+          { title: "Pension", field: "pensionCount", width: 90, hozAlign: "right", headerFilter: "number" },
+          { title: "Background", field: "bgCount", width: 100, hozAlign: "right", headerFilter: "number" }
+        ],
+        initialSort: [{ column: "score", dir: "desc" }]
+      });
+    },
+
+    async loadAndScore() {
+      this.loading = true;
+      this.status = 'Fetching pension bills...';
+      
+      try {
+        const [pensionData, houseData, senateData] = await Promise.all([
+          fetch(this.urls.pension).then(r => r.json()),
+          fetch(this.urls.house).then(r => r.json()),
+          fetch(this.urls.senate).then(r => r.json())
+        ]);
+
+        this.status = 'Processing...';
+        
+        // Filter pension bills by biennium
+        const bienniumStart = parseInt(this.bienniumCutoff.split('-')[0]);
+        const filteredPension = pensionData.filter(b => {
+          const billBiennium = parseInt((b.biennium || '').split('-')[0]);
+          return billBiennium >= bienniumStart;
+        });
+        
+        // Get pension bill URLs for exclusion
+        const pensionUrls = new Set(filteredPension.map(b => b.url));
+        this.pensionCount = filteredPension.length;
+
+        // Background = house + senate minus pension bills
+        const bgBills = [...houseData, ...senateData].filter(b => !pensionUrls.has(b.url));
+        this.bgCount = bgBills.length;
+
+        // Pool term frequencies
+        const pensionTerms = this.poolTermFreq(filteredPension);
+        const bgTerms = this.poolTermFreq(bgBills);
+
+        // Get totals
+        const pensionTotal = Object.values(pensionTerms).reduce((a, b) => a + b, 0);
+        const bgTotal = Object.values(bgTerms).reduce((a, b) => a + b, 0);
+
+        // All terms
+        const allTerms = new Set([...Object.keys(pensionTerms), ...Object.keys(bgTerms)]);
+        this.vocabSize = allTerms.size;
+
+        // Score each term (log-odds with add-1 smoothing)
+        this.scores = Array.from(allTerms).map(term => {
+          const pCount = pensionTerms[term] || 0;
+          const bCount = bgTerms[term] || 0;
+          const pRate = (pCount + 1) / (pensionTotal + this.vocabSize);
+          const bRate = (bCount + 1) / (bgTotal + this.vocabSize);
+          const score = Math.round(Math.log2(pRate / bRate) * 100) / 100;
+          
+          return {
+            term,
+            score,
+            pensionCount: pCount,
+            bgCount: bCount
+          };
+        }).sort((a, b) => b.score - a.score);
+
+        this.updateDisplay();
+
+      } catch (e) {
+        this.status = `Error: ${e.message}`;
+      }
+      
+      this.loading = false;
+      this.status = '';
+    },
+
+    poolTermFreq(bills) {
+      const pooled = {};
+      bills.forEach(bill => {
+        const tf = bill.termFreq || {};
+        Object.entries(tf).forEach(([term, count]) => {
+          pooled[term] = (pooled[term] || 0) + count;
+        });
+      });
+      return pooled;
+    },
+
+    updateDisplay() {
+      const filtered = this.filteredScores;
+      this.table.replaceData(filtered);
+      this.displayJson = JSON.stringify(filtered, null, 2);
+    },
+
+    copyResults() {
+      navigator.clipboard.writeText(this.displayJson);
+    }
+  }));
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clean Index</title>
+  <link href="https://cdn.jsdelivr.net/combine/npm/daisyui@5/themes.css,npm/daisyui@5" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/combine/npm/@tailwindcss/browser@4,npm/jquery"></script>
+</head>
+<body class="bg-base-200 min-h-screen p-4">
+  <div tabindex="0" id="paste" class="bg-base-100 border-2 border-dashed border-base-300 p-6 text-center cursor-pointer hover:border-primary focus:border-primary focus:outline-none">
+    <p class="opacity-50">Click here and paste (Ctrl+V) — accepts either format</p>
+  </div>
+  <div id="status" class="mt-2 text-sm opacity-70"></div>
+  <div id="buttons" class="mt-4 flex gap-4 hidden">
+    <button id="copy" class="btn btn-primary">Copy merged</button>
+  </div>
+  <script>
+    let merged = {};
+    
+    const stripHtml = str => $('<div>').html(str).text();
+    const stripFieldTags = str => str.replace(/<!--\s*field:\s*\w*\s*-->/gi, '').trim();
+    
+    const groupRcws = arr => arr.reduce((acc, rcw) => {
+      const parts = rcw.split('.');
+      const chapter = parts.slice(0, 2).join('.');
+      const section = parts[2];
+      acc[chapter] = acc[chapter] || [];
+      if (section) acc[chapter].push(section);
+      return acc;
+    }, {});
+    
+    const detectFormat = docs => docs[0]?.rcwsLinked ? 'rcws' : docs[0]?.RequestNumber ? 'meta' : null;
+    
+    const processRcws = docs => docs.map(({rcwsLinked, otherLinks, sponsors, table, ...d}) => ({
+      url: d.url,
+      billNo: d.billNo,
+      title: stripHtml(stripFieldTags(d.title)),
+      rcws: groupRcws(rcwsLinked)
+    }));
+    
+    const processMeta = docs => docs.map(d => ({
+      url: d.url,
+      requestNumber: d.RequestNumber,
+      shortBillId: d.ShortBillId,
+      sponsors: d.Sponsors,
+      prefiledDate: d.BillHistory?.PrefiledDate,
+      readDate: d.BillHistory?.ReadDate,
+      briefDescription: d.BriefDescription
+    }));
+    
+    const updateStatus = () => {
+      const parts = [];
+      if (merged.rcws) parts.push(`rcws: ${merged.rcws.length}`);
+      if (merged.meta) parts.push(`meta: ${merged.meta.length}`);
+      $('#status').text(parts.length ? `Loaded: ${parts.join(', ')}` : '');
+      $('#buttons').toggleClass('hidden', !merged.rcws || !merged.meta);
+    };
+    
+    const mergeData = () => {
+      const metaByUrl = Object.fromEntries(merged.meta.map(m => [m.url, m]));
+      return merged.rcws.map(r => ({ ...r, ...metaByUrl[r.url] }));
+    };
+    
+    $('#paste').on('paste', e => {
+      e.preventDefault();
+      try {
+        const docs = JSON.parse(e.originalEvent.clipboardData.getData('text'));
+        const format = detectFormat(docs);
+        
+        if (format === 'rcws') merged.rcws = processRcws(docs);
+        else if (format === 'meta') merged.meta = processMeta(docs);
+        else throw new Error('Unrecognized format');
+        
+        console.log(`Loaded ${format}:`, merged[format]);
+        updateStatus();
+      } catch(err) { alert('Parse error: ' + err.message); }
+    });
+    
+    $('#copy').on('click', () => {
+      const result = mergeData();
+      console.log('merged:', result);
+      navigator.clipboard.writeText(JSON.stringify(result, null, 2));
+    });
+    
+    $('#paste').trigger('focus');
+  </script>
+</body>
+</html>

@@ -5,76 +5,92 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Bill Extractor v3</title>
 <link href="https://cdn.jsdelivr.net/combine/npm/daisyui@5/themes.css,npm/daisyui@5,npm/tabulator-tables/dist/css/tabulator_simple.min.css" rel="stylesheet" />
-<script src="https://cdn.jsdelivr.net/combine/npm/tabulator-tables,npm/lodash,npm/@tailwindcss/browser@4,npm/@phosphor-icons/web,npm/dexie@4"></script>
-<script src="https://cdn.jsdelivr.net/npm/luxon@3.4.4/build/global/luxon.min.js"></script>
+<script src="https://cdn.jsdelivr.net/combine/npm/tabulator-tables,npm/lodash,npm/@tailwindcss/browser@4,npm/@phosphor-icons/web,npm/dexie@4,npm/luxon"></script>
 <script type="module">
     import { XMLParser } from 'https://cdn.jsdelivr.net/npm/fast-xml-parser@4.3.6/+esm';
     window.XMLParser = XMLParser;
 </script>
-<script defer src="https://unpkg.com/alpinejs@3.14.1/dist/cdn.min.js"></script>
+<script defer src="https://unpkg.com/alpinejs"></script>
 </head>
-<body class="bg-base-100 text-base-content h-screen w-screen overflow-hidden font-sans antialiased">
+<body class="bg-base-100 text-base-content h-screen w-screen overflow-hidden font-sans antialiased text-[11px]">
 <div x-data="extractor()" class="flex flex-col md:flex-row h-full w-full">
   
   <div class="w-full md:w-2/5 h-full flex flex-col border-r border-base-300 bg-base-100 min-w-0">
-      <div class="p-2 bg-base-200 border-b border-base-300 flex flex-col gap-1.5">
+      <div class="p-2 bg-base-200 border-b border-base-300 flex flex-col gap-1.5 shrink-0">
           <div class="flex justify-between items-end px-1">
-              <h1 class="font-bold text-[10px] uppercase tracking-widest opacity-70 flex items-center gap-1.5">
+              <h1 class="font-bold uppercase tracking-widest opacity-70 flex items-center gap-1.5 text-[10px]">
                  <i class="ph ph-list-magnifying-glass text-primary"></i> Staging
               </h1>
               <div class="text-[9px] opacity-50 font-mono" x-html="dbStatus"></div>
           </div>
           
           <div class="join w-full shadow-sm">
-              <input type="text" x-model="targetUrl" @keydown.enter="scanDirectory()" class="input input-xs input-bordered join-item w-full font-mono text-[10px]" />
+              <input type="text" x-model="targetUrl" @keydown.enter="scanDirectory()" class="input input-xs input-bordered join-item w-full font-mono text-[10px]" placeholder="URL..."/>
               <button @click="scanDirectory()" class="btn btn-xs btn-primary join-item" :disabled="scanning || batchScanning">List</button>
+              <button @click="viewCaptured()" class="btn btn-xs btn-neutral join-item border-l border-white/10">All</button>
           </div>
 
-          <div class="flex justify-between items-start px-1 h-6">
-             <div class="flex flex-col leading-[1.1] text-[10px] opacity-70">
-                 <span x-text="`${files.length} files`"></span>
-                 <span x-show="files.length" class="text-success font-semibold" x-text="`${getStoredCount()} stored`"></span>
-             </div>
-             <div class="flex gap-1" x-show="files.length">
-                 <button @click="batchScanning ? stopBatchScan() : startBatchScan()" 
-                         :class="batchScanning ? 'btn-error animate-pulse' : 'btn-outline border-base-content/10'" 
-                         class="btn btn-xs text-[9px] h-6 min-h-0" x-text="batchScanning ? 'Stop' : 'Import All'"></button>
-                 <button @click="smartScroll()" class="btn btn-xs btn-ghost bg-base-300/50 hover:bg-base-300 text-[9px] h-6 min-h-0 gap-1">
-                    <i class="ph ph-arrow-down"></i> Scroll
-                 </button>
-             </div>
+          <div x-show="storedSources.length" class="flex flex-wrap gap-1 px-1 max-h-20 overflow-y-auto py-1 border-t border-base-300/30 mt-0.5">
+              <template x-for="src in storedSources" :key="src.url">
+                  <button @click="targetUrl = decodeURI(src.url); scanDirectory()" 
+                          class="btn btn-[8px] h-4 min-h-0 px-2 py-0 bg-base-300/80 hover:bg-primary hover:text-white border-none normal-case font-medium opacity-90 truncate max-w-[150px]">
+                      <span x-text="src.label"></span> <span class="opacity-50 ml-1" x-text="`(${src.count})`"></span>
+                  </button>
+              </template>
+          </div>
+
+          <div class="flex justify-between items-start px-1 h-6 mt-1">
+              <div class="flex flex-col leading-[1.1] text-[10px] opacity-70">
+                  <span x-text="`${files.length} items`"></span>
+                  <span x-show="files.length" class="text-success font-semibold" x-text="`${getStoredCount()} stored`"></span>
+              </div>
+              <div class="flex gap-1" x-show="files.length">
+                  <button @click="batchScanning ? stopBatchScan() : startBatchScan()" 
+                          :class="batchScanning ? 'btn-error animate-pulse' : 'btn-outline border-base-content/10'" 
+                          class="btn btn-xs text-[9px] h-6 min-h-0" x-text="batchScanning ? 'Stop' : 'Import All'"></button>
+                  <button @click="smartScroll()" class="btn btn-xs btn-ghost bg-base-300/50 text-[9px] h-6 min-h-0 gap-1"><i class="ph ph-arrow-down"></i> Scroll</button>
+              </div>
           </div>
       </div>
-      <div id="fileTable" class="bg-base-100 focus:outline-none"></div>
+      
+			<div class="flex-grow flex flex-col overflow-hidden bg-base-100">
+					<div id="fileTable" class="focus:outline-none border-b border-base-300"></div>
+					
+					<div class="bg-base-200 p-1 border-b border-base-300 flex justify-between items-center shrink-0 cursor-pointer" 
+							 @click="statsCollapsed = !statsCollapsed; if (!statsCollapsed) calculateStats()">
+							<span class="text-[9px] uppercase font-bold opacity-50 tracking-wider px-1 flex items-center gap-1">
+									<i class="ph ph-caret-right" :class="!statsCollapsed && 'rotate-90'"></i> Property Distribution
+							</span>
+							<button x-show="selectedPropertySet && !statsCollapsed" @click.stop="deleteByPropertySet()" class="btn btn-error btn-xs h-5 min-h-0 text-[9px] px-2 text-white">Clear Set</button>
+					</div>
+					<div id="statsTable" x-show="!statsCollapsed" class="focus:outline-none flex-grow"></div>
+			</div>
   </div>
 
   <div class="w-full md:w-3/5 h-full flex flex-col bg-base-100 border-l border-base-300 min-h-0">
       <div class="p-2 border-b border-base-300 flex justify-between items-center h-10 shrink-0">
           <div class="leading-none flex flex-col px-1">
-              <h2 class="font-bold text-[10px] uppercase tracking-widest opacity-60">SessionBills v3</h2>
+              <h2 class="font-bold uppercase tracking-widest opacity-60 text-[10px]">SessionBills v3</h2>
               <div class="text-[9px] font-mono flex gap-2 mt-0.5 opacity-40">
-                  <span x-text="`${docCount} Docs`"></span>
-                  <span x-text="`${termCount} Terms`"></span>
+                  <span x-text="`${docCount} Docs`"></span> <span x-text="`${termCount} Terms`"></span>
               </div>
           </div>
-          <div class="flex items-center gap-1.5 shrink-0">
+          <div class="flex items-center gap-1 shrink-0">
              <div x-show="analyzing || batchScanning" class="text-[9px] font-bold animate-pulse text-info mr-2">BUSY</div>
-             <button @click="showIndex()" class="btn btn-xs btn-ghost border-base-content/5 h-6 min-h-0 text-[10px] normal-case">Show Index</button>
-             <button @click="copyVisibleData()" class="btn btn-xs btn-outline border-base-content/20 h-6 min-h-0 gap-1 text-[10px]">
-                 <span x-text="copyText">Copy</span>
-                 <i class="ph ph-copy opacity-40 text-[9px]"></i>
-             </button>
+             <div class="join">
+                <button @click="showIndex()" class="btn btn-xs btn-ghost join-item border-base-content/5 h-6 min-h-0 text-[10px] normal-case">Index</button>
+                <button @click="copyVisibleData()" class="btn btn-xs btn-outline join-item border-base-content/20 h-6 min-h-0 px-2 text-[10px] gap-1"><span x-text="copyText">Copy</span> <i class="ph ph-copy opacity-40 text-[9px]"></i></button>
+                <button @click="downloadFullExport()" class="btn btn-xs btn-outline join-item border-base-content/20 h-6 min-h-0 px-2 text-[10px] gap-1"><i class="ph ph-download-simple"></i></button>
+             </div>
           </div>
       </div>
-      
       <div class="flex-grow overflow-hidden p-2 bg-base-200/40">
           <div x-show="docCount === 0 && !currentDoc" class="h-full flex flex-col items-center justify-center opacity-20 gap-2">
               <i class="ph ph-database text-4xl"></i><span class="text-xs">Empty</span>
           </div>
           <div x-show="docCount > 0 || currentDoc" class="h-full">
-              <div class="mockup-code shadow-sm w-full h-full rounded-md overflow-auto border border-white/5 bg-gray-950"
-                   :class="currentDoc ? 'text-blue-300' : 'text-emerald-400'">
-                  <pre class="px-4 py-2 text-[10px]"><code x-text="currentDoc ? JSON.stringify(currentDoc, null, 2) : getIndexPreview()"></code></pre>
+              <div class="mockup-code shadow-sm w-full h-full rounded-md overflow-auto border border-white/5 bg-gray-950" :class="currentDoc ? 'text-blue-300' : 'text-emerald-400'">
+                  <pre class="px-4 py-2 text-[10px]"><code x-text="JSON.stringify(currentDoc || masterIndex.dict, null, 2)"></code></pre>
               </div>
           </div>
       </div>
@@ -85,22 +101,17 @@
 document.addEventListener('alpine:init', () => {
   Alpine.data('extractor', () => ({
     targetUrl: 'https://lawfilesext.leg.wa.gov/Biennium/2025-26/Htm/Bills/House%20Bills/',
-    files: [], masterIndex: { dict: {}, inv: [] },
+    files: [], masterIndex: { dict: {}, inv: [] }, storedSources: [],
     docCount: 0, termCount: 0, processedUrls: new Set(),
-    currentDoc: null, db: null, dbStatus: '...',
-    scanning: false, batchScanning: false, analyzing: false,
-    copyText: 'Copy', table: null, lastStoredUrl: null,
+    currentDoc: null, db: null, dbStatus: '...', scanning: false, batchScanning: false, analyzing: false,
+    copyText: 'Copy', table: null, statsTable: null, lastStoredUrl: null, selectedPropertySet: null, statsCollapsed: false,
 
     getStoredCount() { return this.files.filter(f => this.processedUrls.has(f.url)).length; },
     showIndex() { this.currentDoc = null; },
-
-    getIndexPreview() {
-        return JSON.stringify({
-            dict: _.pick(this.masterIndex.dict, _.keys(this.masterIndex.dict).slice(0, 100)),
-            inv: `[${this.masterIndex.inv.length} items...]`,
-            _meta: { totalTerms: this.termCount, preview: "Summarized" }
-        }, null, 2);
-    },
+    
+		getSignature(obj) {
+				return obj ? Object.keys(obj).filter(k => !['id','filename','folder','url','props','propCount'].includes(k)).sort().join(', ') : "";
+		},
 
     async init() {
         try {
@@ -110,77 +121,144 @@ document.addEventListener('alpine:init', () => {
             this.dbStatus = `v${this.db.verno}`;
             const meta = await this.db.meta.get('masterIndex');
             if (meta) { this.masterIndex = meta; this.termCount = Object.keys(meta.dict).length; }
-            (await this.db.documents.orderBy('url').keys()).forEach(u => this.processedUrls.add(u));
-            this.docCount = this.processedUrls.size;
+            await this.refreshLocalMeta();
         } catch (e) { this.dbStatus = 'Error'; }
-        this.initTable();
+        this.initTables();
     },
 
-    initTable() {
+		async refreshLocalMeta() {
+				const docs = await this.db.documents.toArray();
+				this.processedUrls = new Set(docs.map(d => d.url));
+				this.docCount = this.processedUrls.size;
+				const rawFolders = _.countBy(docs, d => d.url.split('/').slice(0, -1).join('/') + '/');
+				this.storedSources = Object.entries(rawFolders).map(([url, count]) => ({
+						url, label: decodeURI(url).split('/').slice(-2, -1)[0] || url, count
+				})).sort((a,b) => a.label.localeCompare(b.label));
+		},
+
+    initTables() {
         this.table = new Tabulator("#fileTable", {
-            data: [], layout: "fitColumns", height: "400", index: "url",
-            selectableRows: 1, 
-            columns: [{ 
-                title: "Filename", field: "filename", headerFilter:"input",
-                formatter: (cell) => {
-                    const isDone = this.processedUrls.has(cell.getRow().getData().url);
-                    const icon = isDone ? `<i class="ph ph-check-circle text-success"></i>` : `<i class="ph ph-file opacity-20"></i>`;
-                    return `<div class="flex items-center gap-2 py-0.5 cursor-pointer text-[11px]">${icon} <span class="${isDone ? 'opacity-100' : 'text-primary font-bold'}">${cell.getValue()}</span></div>`;
-                }
-            }]
+            data: [], layout: "fitColumns", height: "300px", index: "url", selectableRows: 1, 
+            columns: [
+                { title: "ID", field: "id", width: 45, hozAlign: "center", headerFilter: "input" },
+                { title: "Folder", field: "folder", widthGrow: 1, headerFilter: "input", formatter: (c) => `<span class="text-base-content/70 font-mono text-[9px]">${c.getValue()||''}</span>` },
+                { title: "Filename", field: "filename", widthGrow: 1.5, headerFilter: "input",
+                    formatter: (c) => {
+                        const isDone = this.processedUrls.has(c.getRow().getData().url);
+                        return `<div class="flex items-center gap-2 py-0.5 cursor-pointer text-[10px]">${isDone ? `<i class="ph ph-check-circle text-success"></i>` : `<i class="ph ph-file opacity-20"></i>`} <span class="${isDone ? 'opacity-100 font-normal' : 'text-primary font-bold'}">${c.getValue()}</span></div>`;
+                    }
+                },
+                { title: "Properties", field: "props", widthGrow: 2, headerFilter: "input", formatter: (c) => `<span class="text-[9px] opacity-60 truncate block">${c.getValue()||''}</span>` },
+                { title: "Cnt", field: "propCount", width: 45, hozAlign: "center", headerFilter: "input" }
+            ]
         });
 
-        this.table.on("rowSelectionChanged", (data, rows) => {
-            if (rows[0]) this.viewFile(rows[0].getData().url, rows[0]);
+        this.statsTable = new Tabulator("#statsTable", {
+            data: [], layout: "fitColumns", height: "calc(100% - 300px)", selectableRows: 1,
+            columns: [
+                { title: "Property Set", field: "props", widthGrow: 3, headerFilter: "input", formatter: (c) => `<span class="text-[9px] font-mono opacity-80">${c.getValue()}</span>` },
+                { title: "Count", field: "count", width: 60, hozAlign: "center", headerFilter: "number" }
+            ]
         });
+
+        this.table.on("rowSelectionChanged", (d, rows) => { if (rows[0]) this.viewFile(rows[0].getData().url, rows[0]); });
+        
+				this.statsTable.on("rowSelectionChanged", (data, rows) => { 
+						this.selectedPropertySet = rows.length ? rows[0].getData().props : null;
+						this.selectedPropertySet ? this.table.setFilter("props", "=", this.selectedPropertySet) : this.table.clearFilter();
+				});
 
         this.table.on("tableBuilt", () => {
-            const el = this.table.element;
-            el.tabIndex = 0;
-            el.onkeydown = e => {
-                if (e.key === 'ArrowUp' || e.key === 'ArrowDown') {
-                    e.preventDefault();
-                    this.nav(e.key === 'ArrowUp');
-                }
-            };
+            this.table.element.tabIndex = 0;
+            this.table.element.onkeydown = e => { if (['ArrowUp','ArrowDown'].includes(e.key)) { e.preventDefault(); this.nav(e.key==='ArrowUp'); } };
         });
+    },
+
+		calculateStats() {
+				if (this.statsCollapsed) return;
+				const counts = new Map();
+				this.table.getData().forEach(d => { 
+						const sig = d.props; 
+						if (sig && sig.trim() !== "") {
+								counts.set(sig, (counts.get(sig) || 0) + 1); 
+						}
+				});
+				this.statsTable.replaceData(Array.from(counts.entries()).map(([props, count]) => ({ props, count })));
+		},
+
+    async deleteByPropertySet() {
+        if (!confirm(`Delete all documents matching this signature?`)) return;
+        this.analyzing = true;
+        try {
+            const allDocs = await this.db.documents.toArray();
+            const targets = allDocs.filter(d => this.getSignature(d) === this.selectedPropertySet);
+            const targetIds = targets.map(d => d.id);
+            this.masterIndex.inv = this.masterIndex.inv.map(list => list.filter(id => !targetIds.includes(id)));
+            await this.db.documents.bulkDelete(targetIds);
+            await this.db.meta.put(JSON.parse(JSON.stringify(this.masterIndex)), 'masterIndex');
+            await this.refreshLocalMeta();
+            this.selectedPropertySet = null;
+            await (this.files.some(f => f.id) ? this.viewCaptured() : this.scanDirectory());
+        } catch (e) { alert("Delete error"); } finally { this.analyzing = false; }
     },
 
     nav(up) {
         const s = this.table.getSelectedRows()[0];
         const next = s ? (up ? s.getPrevRow() : s.getNextRow()) : this.table.getRows()[0];
-        if (next) {
-            this.table.deselectRow();
-            next.select();
-            // Scroll logic matches the AIC example
-            this.table.scrollToRow(next, 'nearest', false);
-        }
+        if (next) { this.table.deselectRow(); next.select(); this.table.scrollToRow(next, 'nearest', false); }
     },
 
     smartScroll() {
-        const row = this.table.getRow(this.lastStoredUrl) || 
-                    this.table.getRows("active").find(r => !this.processedUrls.has(r.getData().url));
+        const row = this.table.getRow(this.lastStoredUrl) || this.table.getRows("active").find(r => !this.processedUrls.has(r.getData().url));
         if (row) {
-            this.table.deselectRow();
-            row.select();
+            this.table.deselectRow(); row.select();
             this.table.scrollToRow(row, "center", true).then(() => {
-                const el = row.getElement();
-                el.style.backgroundColor = 'rgba(var(--p), 0.15)';
+                const el = row.getElement(); el.style.backgroundColor = 'rgba(var(--p), 0.15)';
                 setTimeout(() => el.style.backgroundColor = '', 800);
             });
         }
     },
 
+    async viewCaptured() {
+        this.scanning = true;
+        const docs = await this.db.documents.toArray();
+        this.files = docs.map(d => {
+            const urlParts = d.url.split('/'); 
+            const sig = this.getSignature(d);
+            return { 
+                id: d.id, 
+                filename: decodeURIComponent(urlParts.pop()), 
+                url: d.url, 
+                folder: decodeURIComponent(urlParts.slice(-2).join('/') + '/'), 
+                props: sig, 
+                propCount: sig ? sig.split(', ').length : 0 
+            };
+        });
+        await this.table.replaceData(this.files);
+        this.calculateStats();
+        this.scanning = false;
+    },
+
     async viewFile(url, row) {
         const cached = await this.db.documents.where('url').equals(url).first();
-        if (cached) {
-            this.currentDoc = this.hydrateDoc(cached);
-        } else {
-            const rawBill = await this.extract(url);
-            if(rawBill && !rawBill.error) {
-                await this.ingestAndSave(rawBill);
-                if(row) row.reformat();
-                this.currentDoc = rawBill;
+        if (cached) { this.currentDoc = this.hydrateDoc(cached); } 
+        else {
+            const raw = await this.extract(url);
+            if(raw && !raw.error) {
+                const newId = await this.ingestAndSave(raw);
+                if(row) {
+                    const sig = this.getSignature(raw);
+                    const urlParts = url.split('/');
+                    row.update({ 
+                        id: newId, 
+                        filename: decodeURIComponent(urlParts.pop()), 
+                        props: sig, 
+                        propCount: sig ? sig.split(', ').length : 0 
+                    });
+                    row.reformat();
+                    this.calculateStats();
+                }
+                this.currentDoc = raw;
             }
         }
     },
@@ -188,8 +266,7 @@ document.addEventListener('alpine:init', () => {
     hydrateDoc(doc) {
         const idToTerm = [];
         Object.entries(this.masterIndex.dict).forEach(([t, id]) => idToTerm[id] = t);
-        if (doc.terms) doc.terms = doc.terms.map(id => idToTerm[id]);
-        return doc;
+        const h = { ...doc }; if (h.terms) h.terms = h.terms.map(id => idToTerm[id]); return h;
     },
 
     async ingestAndSave(rawBill) {
@@ -198,61 +275,94 @@ document.addEventListener('alpine:init', () => {
             let tid = this.masterIndex.dict[term];
             if (tid === undefined) {
                 tid = Object.keys(this.masterIndex.dict).length;
-                this.masterIndex.dict[term] = tid;
-                this.masterIndex.inv[tid] = [];
+                this.masterIndex.dict[term] = tid; this.masterIndex.inv[tid] = [];
             }
             termIds.push(tid);
         });
         const docId = await this.db.documents.add({ ...rawBill, terms: termIds });
         [...new Set(termIds)].forEach(tid => this.masterIndex.inv[tid].push(docId));
         await this.db.meta.put(JSON.parse(JSON.stringify(this.masterIndex)), 'masterIndex');
-        this.processedUrls.add(rawBill.url);
+        await this.refreshLocalMeta();
         this.lastStoredUrl = rawBill.url; 
-        this.docCount++; this.termCount = Object.keys(this.masterIndex.dict).length;
+        this.termCount = Object.keys(this.masterIndex.dict).length;
+        return docId;
     },
 
     async startBatchScan() {
         this.batchScanning = true;
         for (const row of this.table.getRows("active")) {
-            if (!this.batchScanning) break;
+            if (!this.batchScanning || this.processedUrls.has(row.getData().url)) continue;
             const url = row.getData().url;
-            if (this.processedUrls.has(url)) continue;
             const raw = await this.extract(url);
-            if (raw && !raw.error) { await this.ingestAndSave(raw); row.reformat(); }
+            if (raw && !raw.error) { 
+                const newId = await this.ingestAndSave(raw); 
+                const sig = this.getSignature(raw);
+                const urlParts = url.split('/');
+                row.update({ 
+                    id: newId, 
+                    filename: decodeURIComponent(urlParts.pop()), 
+                    props: sig, 
+                    propCount: sig ? sig.split(', ').length : 0 
+                });
+                row.reformat();
+                this.calculateStats();
+            }
             await new Promise(r => setTimeout(r, 120));
         }
         this.batchScanning = false;
     },
 
     stopBatchScan() { this.batchScanning = false; },
-
-    copyVisibleData() {
-        navigator.clipboard.writeText(JSON.stringify(this.currentDoc || this.masterIndex, null, 2)).then(() => {
-            this.copyText = "Done";
-            setTimeout(() => this.copyText = "Copy", 1200);
-        });
+    copyVisibleData() { navigator.clipboard.writeText(JSON.stringify(this.currentDoc || this.masterIndex, null, 2)).then(() => { this.copyText = "Done"; setTimeout(() => this.copyText = "Copy", 1200); }); },
+    async downloadFullExport() {
+        const docs = await this.db.documents.toArray();
+        const blob = new Blob([JSON.stringify({ exportedAt: new Date().toISOString(), masterIndex: this.masterIndex, documents: docs }, null, 2)], { type: 'application/json' });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a'); a.href = url; a.download = `Export_${new Date().toISOString().split('T')[0]}.json`; a.click(); URL.revokeObjectURL(url);
     },
 
     async scanDirectory() {
-        this.scanning = true; this.files = []; this.lastStoredUrl = null; this.table.clearData();
+        this.scanning = true; this.files = []; this.table.clearData();
+        let normalized = this.targetUrl.trim();
+        try { normalized = encodeURI(decodeURI(normalized)); } catch(e) {}
         try {
-            const res = await fetch(this.targetUrl);
+            const res = await fetch(normalized);
             const html = await res.text();
             this.files = Array.from(new DOMParser().parseFromString(html, 'text/html').querySelectorAll('a'))
-                .map(a => ({ filename: a.textContent.trim(), url: new URL(a.getAttribute('href'), this.targetUrl).href }))
+                .map(a => {
+                    const fullUrl = new URL(a.getAttribute('href'), normalized).href;
+                    const urlParts = fullUrl.split('/'); 
+                    return { filename: decodeURIComponent(urlParts.pop()), url: fullUrl, folder: decodeURIComponent(urlParts.slice(-2).join('/') + '/'), props: '', propCount: '' }
+                })
                 .filter(f => (f.filename.endsWith('.htm') || f.filename.endsWith('.pdf')) && !f.filename.includes('..'));
-            this.table.replaceData(this.files);
+            
+            const docs = await this.db.documents.toArray();
+            this.files.forEach(f => {
+                const match = docs.find(d => d.url === f.url);
+                if (match) { 
+                    f.id = match.id; 
+                    const sig = this.getSignature(match);
+                    f.props = sig; 
+                    f.propCount = sig ? sig.split(', ').length : 0; 
+                }
+            });
+            await this.table.replaceData(this.files);
+            this.calculateStats();
         } catch (e) { console.error(e); }
         this.scanning = false;
     },
 
-    async extract(fileUrl) {
-        this.analyzing = true;
-        try {
-            const htmUrl = fileUrl.replace(/\b(xml|pdf)\b/g, 'htm');
-            const res = await fetch(htmUrl);
-            const doc = new DOMParser().parseFromString(await res.text(), 'text/html');
-            const clean = (t) => t?.textContent.trim() || 'N/A';
+async extract(fileUrl) {
+    this.analyzing = true;
+    try {
+        const htmUrl = fileUrl.replace(/\.(xml|pdf)$/i, '.htm');
+        const xmlUrl = fileUrl.replace(/\/Htm\//i, '/Xml/').replace(/\.(htm|pdf)$/i, '.xml');
+        const [hRes, xRes] = await Promise.all([fetch(htmUrl), fetch(xmlUrl).then(r => r.ok ? r : null).catch(() => null)]);
+        if (!hRes.ok) throw new Error("Fetch Failed");
+        const [hTxt, xTxt] = await Promise.all([hRes.text(), xRes ? xRes.text() : null]);
+        const doc = new DOMParser().parseFromString(hTxt, 'text/html');
+        const clean = (t) => t?.textContent.trim() || 'N/A';
+        const getPrefiled = () => {
             const readSpan = Array.from(doc.querySelectorAll('span')).find(s => s.textContent.trim().startsWith('Read first time'));
             const data = {};
             if (readSpan) (readSpan.closest('div') || readSpan.parentElement).querySelectorAll('span').forEach(s => {
@@ -261,15 +371,37 @@ document.addEventListener('alpine:init', () => {
                 if (t.startsWith('Read first time')) data.firstRead = t.split('Read first time ')[1];
                 if (t.startsWith('Referred to')) data.referredTo = t.split('Referred to ')[1];
             });
-            const fullBill = clean(doc.querySelector('div[style*="bold;text-align:center;"]'));
-            return {
-                url: htmUrl, ...data, billNumber: fullBill, billNo: fullBill.match(/\d+/)?.[0] || 'N/A',
-                sponsors: doc.querySelector('span[style*="font-weight:bold"]')?.nextSibling?.textContent.trim() || 'N/A',
-                title: doc.querySelector('div[style*="text-indent:0.5in;margin-top:0.5in;"]')?.innerHTML.trim() || 'N/A',
-                terms: [...new Set(doc.body.textContent.toLowerCase().match(/[a-z]{3,}/g) || [])].sort()
-            };
-        } catch (e) { return { error: e.message }; } finally { this.analyzing = false; }
-    }
+            return data;
+        };
+        const extractLinks = () => {
+            const rcws = new Set(), others = [];
+            doc.querySelectorAll('a[href]').forEach(a => {
+                const text = a.textContent.trim();
+                if (!text) return;
+                if (a.href.includes('app.leg.wa.gov/RCW')) rcws.add(text);
+                else others.push({ text, href: a.href });
+            });
+            return { rcwsLinked: [...rcws].sort(), otherLinks: others };
+        };
+        let xmlHeading = null;
+        if (xTxt && window.XMLParser) {
+            const xmlDoc = new DOMParser().parseFromString(xTxt, "application/xml");
+            ['indent', 'textAlign', 'width'].forEach(a => Array.from(xmlDoc.getElementsByTagName("*")).forEach(el => el.removeAttribute(a)));
+            const parser = new window.XMLParser({ ignoreAttributes: false, attributeNamePrefix: "@", removeNSPrefix: true });
+            xmlHeading = parser.parse(new XMLSerializer().serializeToString(xmlDoc)).Bill?.BillHeading || null;
+        }
+        const fullBill = clean(doc.querySelector('div[style*="bold;text-align:center;"]'));
+        return {
+            url: htmUrl, ...getPrefiled(), billNumber: fullBill, billNo: fullBill.match(/\d+/)?.[0] || 'N/A',
+            table: doc.querySelector('table') ? 'Table Found' : 'N/A',
+            sponsors: doc.querySelector('span[style*="font-weight:bold"]')?.nextSibling?.textContent.trim() || 'N/A',
+            title: doc.querySelector('div[style*="text-indent:0.5in;margin-top:0.5in;"]')?.innerHTML.trim() || 'N/A',
+            terms: [...new Set(doc.body.textContent.toLowerCase().match(/[a-z]{3,}/g) || [])].sort(),
+            ...extractLinks(),
+            xmlHeading
+        };
+    } catch (e) { return { error: e.message }; } finally { this.analyzing = false; }
+}
   }));
 });
 </script>

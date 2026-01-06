@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bill Document URLs</title>
+    <script src="https://cdn.jsdelivr.net/combine/npm/jquery,npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="p-8 bg-slate-100 font-sans">
+
+<div class="max-w-4xl mx-auto space-y-4">
+    <h1 class="text-xl font-bold text-slate-800">Bill Document URLs (2011-12 to present)</h1>
+    
+    <div class="flex items-center gap-4">
+        <button id="fetch" class="px-4 py-1 bg-blue-600 text-white rounded hover:bg-blue-500 text-sm font-medium">Fetch All</button>
+        <button id="copy" class="px-4 py-1 bg-slate-600 text-white rounded hover:bg-slate-500 text-sm font-medium hidden">Copy JSON</button>
+        <span id="status" class="text-sm text-slate-600 ml-auto"></span>
+    </div>
+
+    <div class="flex gap-2 flex-wrap" id="pills"></div>
+
+    <div class="flex flex-col gap-2">
+        <div>
+            <label class="text-sm font-medium text-slate-600">Filter JSON (optional):</label>
+            <span class="text-xs text-slate-400 ml-2">Array of objects with billNumber and biennium properties to filter results</span>
+        </div>
+        <textarea id="filter" class="h-28 p-2 border rounded text-xs font-mono" placeholder='[{"biennium":"2025-26","billNumber":"5835",...},...]'></textarea>
+        <div class="flex items-center gap-4">
+            <button id="apply" class="px-4 py-1 bg-slate-700 text-white rounded hover:bg-slate-600 text-sm font-medium">Apply Filter</button>
+            <label class="flex items-center gap-2 text-sm text-slate-600 cursor-pointer">
+                <input type="checkbox" id="append" class="w-4 h-4 accent-blue-600"> Append urls to filter data
+            </label>
+        </div>
+    </div>
+
+    <pre id="output" class="h-[40vh] overflow-auto p-4 bg-white border rounded text-xs"></pre>
+</div>
+
+<script type="module">
+    const parser = await import('https://cdn.jsdelivr.net/npm/fast-xml-parser/+esm').then(m => new m.XMLParser());
+
+    const biennia = ['2025-26','2023-24','2021-22','2019-20','2017-18','2015-16','2013-14','2011-12'];
+    let allDocs = [];
+    let allUrls = [];
+    let outputData = [];
+
+    const billNum = d => d.BillId?.match(/\d+/)?.[0];
+
+    $('#pills').html(biennia.map(b => `<span id="p-${b.slice(0,4)}" class="px-2 py-0.5 text-xs rounded bg-slate-200 text-slate-600">${b}</span>`).join(''));
+
+    $('#fetch').on('click', async () => {
+        allDocs = [];
+        allUrls = [];
+        $('#status').text('Fetching...');
+        $('#copy').addClass('hidden');
+        $('#pills span').removeClass('bg-green-100 text-green-700 bg-red-100 text-red-700').addClass('bg-slate-200 text-slate-600');
+
+        for (const b of biennia) {
+            $(`#p-${b.slice(0,4)}`).text('...');
+            try {
+                const xml = await $.get(`https://wslwebservices.leg.wa.gov/LegislativeDocumentService.asmx/GetAllDocumentsByClass?biennium=${b}&documentClass=Bills`);
+                const docs = parser.parse(new XMLSerializer().serializeToString(xml))?.ArrayOfLegislativeDocument?.LegislativeDocument || [];
+                const filtered = docs.filter(d => d.Type === 'House Bills' || d.Type === 'Senate Bills');
+                allDocs.push(...filtered);
+                const urls = filtered.map(d => d.HtmUrl.replace('http://lawfilesext.leg.wa.gov', ''));
+                allUrls.push(...urls);
+                $(`#p-${b.slice(0,4)}`).text(`${b} (${urls.length})`).removeClass('bg-slate-200 text-slate-600').addClass('bg-green-100 text-green-700');
+            } catch (e) {
+                $(`#p-${b.slice(0,4)}`).text(b).removeClass('bg-slate-200 text-slate-600').addClass('bg-red-100 text-red-700');
+            }
+        }
+
+        outputData = allUrls;
+        $('#status').text(`${allUrls.length} URLs`);
+        $('#output').text(JSON.stringify(outputData, null, 2));
+        $('#copy').removeClass('hidden');
+    });
+
+    const applyFilter = () => {
+        if (!allDocs.length) {
+            $('#status').text('Fetch data first');
+            return;
+        }
+
+        const filterText = $('#filter').val().trim();
+        if (!filterText) {
+            outputData = allUrls;
+            $('#status').text(`${allUrls.length} URLs`);
+            $('#output').text(JSON.stringify(outputData, null, 2));
+            return;
+        }
+
+        let filterData;
+        try {
+            filterData = JSON.parse(filterText);
+        } catch (e) {
+            $('#status').text('Invalid JSON');
+            return;
+        }
+
+        const append = $('#append').is(':checked');
+
+        if (append) {
+            outputData = filterData.map(f => {
+                const urls = allDocs
+                    .filter(d => d.Biennium === f.biennium && billNum(d) === f.billNumber)
+                    .map(d => d.HtmUrl.replace('http://lawfilesext.leg.wa.gov', ''));
+                return { ...f, urls };
+            });
+            $('#status').text(`${outputData.length} bills with urls (${outputData.reduce((s, o) => s + o.urls.length, 0)} total)`);
+        } else {
+            const keys = new Set(filterData.map(f => `${f.biennium}|${f.billNumber}`));
+            outputData = allDocs
+                .filter(d => keys.has(`${d.Biennium}|${billNum(d)}`))
+                .map(d => d.HtmUrl.replace('http://lawfilesext.leg.wa.gov', ''));
+            $('#status').text(`${outputData.length} URLs`);
+        }
+
+        $('#output').text(JSON.stringify(outputData, null, 2));
+        $('#copy').removeClass('hidden');
+    };
+
+    $('#apply').on('click', applyFilter);
+    $('#append').on('change', applyFilter);
+
+    $('#copy').on('click', function() {
+        navigator.clipboard.writeText(JSON.stringify(outputData, null, 2));
+        $(this).text('Copied!');
+        setTimeout(() => $(this).text('Copy JSON'), 1500);
+    });
+</script>
+</body>
+</html>

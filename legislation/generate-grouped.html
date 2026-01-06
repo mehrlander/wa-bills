@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legislation JSON</title>
+    <script src="https://cdn.jsdelivr.net/combine/npm/jquery,npm/@tailwindcss/browser@4,npm/clipboard,npm/@phosphor-icons/web"></script>
+</head>
+<body class="h-screen flex flex-col bg-slate-100 font-sans p-4 gap-4">
+
+<header class="flex items-center gap-3 shrink-0">
+    <input type="date" id="d" value="2025-01-01" class="h-8 px-3 text-sm border border-slate-300 rounded">
+    <button id="b" class="h-8 px-4 flex items-center gap-2 bg-blue-600 text-white rounded hover:bg-blue-500 cursor-pointer">
+        <i class="ph-bold ph-cloud-arrow-down"></i> Fetch
+    </button>
+    <button id="copy" class="h-8 px-4 flex items-center gap-2 bg-slate-600 text-white rounded hover:bg-slate-500 cursor-pointer">
+        <i class="ph-bold ph-copy"></i> Copy
+    </button>
+    <span id="s" class="text-sm text-slate-500"></span>
+</header>
+
+<pre id="out" class="flex-1 overflow-auto p-4 bg-white border border-slate-200 rounded text-xs"></pre>
+
+<script type="module">
+const [{ XMLParser }, { flatten }] = await Promise.all([
+    import('https://cdn.jsdelivr.net/npm/fast-xml-parser/+esm'),
+    import('https://cdn.jsdelivr.net/npm/flat/+esm')
+]);
+
+const cmMap = { APPROPRIATIONS: "APP", "WAYS & MEANS": "WM", FINANCE: "FIN", TRANSPORTATION: "TRAN", "HEALTH & LONG-TERM CARE": "HLTC", "HUMAN SERVICES": "HS", "LAW & JUSTICE": "L&J", "AGRICULTURE & NATURAL RESOURCES": "AGNR", "LABOR & COMMERCE": "L&C", "LABOR & WORKPLACE STANDARDS": "LWS", "COMMUNITY SAFETY": "CS", "POSTSECONDARY EDUCATION & WORKFORCE": "PEW", "STATE GOVERNMENT & TRIBAL RELATIONS": "SGTR", "CONSUMER PROTECTION & BUSINESS": "CPB", "ENVIRONMENT, ENERGY & TECHNOLOGY": "EET", "EARLY LEARNING & K-12 EDUCATION": "ELK12", "HIGHER EDUCATION & WORKFORCE DEVELOPMENT": "HEWD", "CAPITAL BUDGET": "CAP", "CIVIL RIGHTS & JUDICIARY": "CRJ", EDUCATION: "ED", "ENVIRONMENT & ENERGY": "E&E", "HEALTH CARE & WELLNESS": "HCW", HOUSING: "HSG", "LOCAL GOVERNMENT": "LG", "TECHNOLOGY, ECONOMIC DEVELOPMENT, & VETERANS": "TEDV", "BUSINESS, FINANCIAL SERVICES & TRADE": "BFST", "EARLY LEARNING & HUMAN SERVICES": "ELHS" };
+
+const categorize = (s = '', a = '') => {
+    const lc = (s + ' ' + a).toLowerCase(), ch = /^[HS]/.test(s) ? s[0] + '-' : '';
+    if (/vetoed/.test(lc)) return 'VETOED';
+    if (/^c |^chapter/.test(lc)) return 'ENACTED';
+    if (/substituted/.test(lc)) return 'SUBSTITUTED';
+    if (/confirmed/.test(lc)) return 'CONFIRMED';
+    if (/prefiled/.test(lc)) return ch + 'PREFILED';
+    if (/rules/.test(lc)) {
+        const rt = /rules 3/.test(lc) ? 'RULES 3' : /rules x/.test(lc) ? 'RULES X' : 'RULES 2';
+        const sub = /consideration/.test(lc) ? ' CON' : /review/.test(lc) ? ' REV' : /resolution/.test(lc) ? ' RES' : '';
+        return ch + rt + sub;
+    }
+    if (/referred to/.test(lc)) {
+        const nm = (a.match(/referred to ([^.]+)/i) || [])[1]?.trim().toUpperCase() || 'COMM';
+        return ch + (cmMap[nm] || nm) + (/first reading/.test(lc) ? ' 1' : '');
+    }
+    if (/reading/.test(lc)) return ch + 'FLOOR';
+    if (/passed 3rd/.test(lc)) return ch + 'PASSED';
+    return 'OTHER';
+};
+
+const dateStr = d => d?.split?.('T')[0] || d;
+const norm = t => t === true ? 1 : t === false ? 0 : typeof t === 'string' ? (t.startsWith('0001') ? null : t.trim().replace(/T00:00:00$/, '')) : t;
+const shorten = s => s.replace(/^CurrentStatus\./, 'cs.').replace(/^ShortLegislationType\./, 'slt.').replace(/^Companions\./, 'comp.');
+const findArray = o => Array.isArray(o) ? o : o && typeof o === 'object' ? Object.values(o).map(findArray).find(Boolean) : null;
+const yearOf = s => s ? +String(s).slice(0, 4) : null;
+
+const transform = recs => {
+    const groups = new Map();
+    recs.filter(r => r['slt.ShortLegislationType']?.trim() === 'B').forEach(r => {
+        const cId = r['comp.Companion.BillId'] || r['comp.Companion'], cNum = cId ? parseInt(cId.replace(/\D/g, '')) : null;
+        const pair = cNum ? [r.BillNumber, cNum].sort((a, b) => a - b).join(' / ') : String(r.BillNumber);
+        (groups.get(pair) || groups.set(pair, []).get(pair)).push(r);
+    });
+    return [...groups].flatMap(([pair, vs]) => {
+        vs.sort((a, b) => a.BillNumber - b.BillNumber || a.SubstituteVersion - b.SubstituteVersion || a.EngrossedVersion - b.EngrossedVersion);
+        const f = vs[0], passedId = vs.find(v => /^C |^Chapter/.test(v['cs.Status'] || ''))?.BillId, nowYr = new Date().getFullYear();
+        const current = vs.some(v => {
+            const cat = categorize(v['cs.Status'] || '', v['cs.HistoryLine'] || ''), ay = yearOf(v['cs.ActionDate']), iy = yearOf(v.IntroducedDate);
+            return ay === nowYr || iy === nowYr || ((ay === nowYr - 1 || iy === nowYr - 1) && cat.includes('PREFILED'));
+        }) ? 1 : 0;
+        return vs.map(r => ({
+            group: pair, groupDesc: f.ShortDescription || '', longDesc: r.LongDescription || f.ShortDescription || '',
+            passedId, num: Math.min(...vs.map(v => v.BillNumber)),
+            ver: r.BillId || '', status: r['cs.Status'], actionLine: r['cs.HistoryLine'], active: r.Active == 1,
+            sponsor: (r.Sponsor || '').match(/\(([^)]+)\)/)?.[1] || r.Sponsor,
+            intro: dateStr(r.IntroducedDate), action: dateStr(r['cs.ActionDate']),
+            fn: [r.StateFiscalNote && 'SFN', r.LocalFiscalNote && 'Loc'].filter(Boolean).join(',') || null,
+            req: ['G', 'D', 'B', 'O'].filter((_, i) => [r.RequestedByGovernor, r.RequestedByDepartment, r.RequestedByBudgetCommittee, r.RequestedByOther][i] == 1).join('') || null,
+            approp: r.Appropriations == 1 ? 1 : 0, current,
+            prefiled: categorize(r['cs.Status'] || '', r['cs.HistoryLine'] || '').includes('PREFILED') ? 1 : 0
+        }));
+    }).sort((a, b) => a.num - b.num);
+};
+
+let json = '';
+
+new ClipboardJS('#copy', { text: () => json }).on('success', () => {
+    const icon = $('#copy i')[0];
+    icon.className = 'ph-bold ph-check text-green-400';
+    setTimeout(() => icon.className = 'ph-bold ph-copy', 1200);
+});
+
+$('#b').on('click', async () => {
+    $('#s').text('Fetching...');
+    const dv = new Date($('#d').val()), ds = `${dv.getMonth() + 1}/${dv.getDate()}/${dv.getFullYear()}`;
+    const resps = await Promise.all([
+        `/LegislationService.asmx/GetLegislationIntroducedSince?sinceDate=${ds}`,
+        `/LegislationService.asmx/GetPrefiledLegislation`
+    ].map(u => fetch(u).then(r => r.text())));
+    
+    const parser = new XMLParser(), seen = new Set();
+    const raw = resps.flatMap(x => findArray(parser.parse(x)) || [])
+        .filter(r => !seen.has(r.BillId) && seen.add(r.BillId))
+        .map(o => Object.fromEntries(Object.entries(flatten(o)).map(([k, v]) => [shorten(k), norm(v)])));
+    
+    const data = transform(raw);
+    json = JSON.stringify(data, null, 2);
+    $('#out').text(json);
+    $('#s').text(`${data.length} records from ${new Set(data.map(d => d.group)).size} groups`);
+});
+</script>
+</body>
+</html>

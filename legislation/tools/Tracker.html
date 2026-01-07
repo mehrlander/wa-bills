@@ -1,0 +1,202 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head>   
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legislation & Pension Tracker</title>
+    <script src="https://cdn.jsdelivr.net/combine/npm/jquery,npm/tabulator-tables,npm/lodash,npm/@tailwindcss/browser@4,npm/clipboard,npm/@phosphor-icons/web"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tabulator-tables/dist/css/tabulator_simple.min.css">
+</head>
+<body class="h-screen flex flex-col overflow-hidden font-sans bg-slate-100 text-slate-900">
+
+<header class="flex-none shadow-md z-10 bg-slate-800">
+    <div class="flex items-center gap-3 p-2 border-b border-slate-900">
+        <button id="copy" title="Copy Selected" class="h-7 w-8 flex items-center justify-center bg-slate-600 border border-slate-500 rounded hover:bg-slate-500 cursor-pointer text-white"><i class="ph-bold ph-copy"></i></button>
+        <span class="text-white text-xs font-bold ml-2">DRS Bill Tracker</span>
+        <span id="s" class="ml-auto text-[10px] text-slate-400 font-bold uppercase tracking-widest px-2"></span>
+    </div>
+    <div id="filters" class="flex flex-nowrap items-center gap-4 p-2 bg-white border-b border-slate-300 overflow-x-auto whitespace-nowrap">
+        <div class="flex items-center gap-2 shrink-0">
+            <i class="ph ph-magnifying-glass text-slate-400 text-sm"></i>
+            <input type="text" id="q" placeholder="Search..." class="h-7 px-2 text-xs border border-slate-200 rounded w-32 outline-none focus:ring-1 focus:ring-blue-100">
+        </div>
+        <div id="toggles" class="flex items-center gap-4 shrink-0 border-l pl-4"></div>
+        <div class="flex items-center gap-4 shrink-0 border-l pl-4">
+            <label class="flex items-center gap-1.5 text-xs font-bold text-indigo-700 cursor-pointer"><input type="checkbox" id="fP" class="w-4 h-4 accent-indigo-600"> Pension</label>
+            <label class="flex items-center gap-1.5 text-xs font-bold text-amber-700 cursor-pointer"><input type="checkbox" id="fA" class="w-4 h-4 accent-amber-600"> Adjacent</label>
+            <label class="flex items-center gap-1.5 text-xs font-bold text-teal-700 cursor-pointer"><input type="checkbox" id="fL" class="w-4 h-4 accent-teal-600"> L&I</label>
+        </div>
+    </div>
+</header>
+
+<main class="flex-1 flex flex-col min-h-0">
+    <div id="t" class="flex-none bg-white"></div>
+    <div class="h-0.5 bg-slate-400 shrink-0"></div>
+    <div class="flex flex-col md:flex-row flex-1 min-h-0 p-2 gap-2 bg-slate-100">
+        <pre id="sel" class="flex-1 overflow-auto p-2 text-[11px] bg-white border border-slate-200 rounded shadow-sm"></pre>
+        <pre id="grp" class="flex-1 overflow-auto p-2 text-[11px] bg-white border border-slate-200 rounded shadow-sm"></pre>
+    </div>
+</main>
+
+<script type="module">
+const BASE = 'https://raw.githubusercontent.com/mehrlander/wa-bills/main';
+const [rawBills, rawContent, map] = await Promise.all([
+    `${BASE}/legislation/data/grouped_2025-26.json`,
+    `${BASE}/legislation/data/content/combined_2025-26.json`,
+    `${BASE}/rcw/pension-mapping-inverted.json`
+].map(u => fetch(u).then(r => r.json())));
+
+const rcwsByBill = Object.fromEntries(rawContent.map(c => [c.shortBillId, c.rcws || {}]));
+
+const colors = { ENACTED:'#166534', VETOED:'#991b1b', SUBSTITUTED:'#475569', CONFIRMED:'#075985', PREFILED:'#475569', PASSED:'#6b21a8', FLOOR:'#334155', RULES:'#1e40af', COMMITTEE:'#854d0e', OTHER:'#475569' };
+const rulesTierColor = { X:'#9f1239', '3':'#1e40af', '2':'#1e40af' };
+const catColors = { system: '#4f46e5', general: '#7c3aed', governance: '#6366f1', lni: '#0d9488' };
+
+const pill = (txt, color) => `<span style="background:${color}11;color:${color};border:1px solid ${color}33;padding:1px 6px;border-radius:4px;font-size:.7rem;font-weight:700;margin-right:4px;white-space:nowrap">${txt}</span>`;
+const check = v => v ? '<div style="color:#16a34a;font-weight:bold">✓</div>' : '';
+const rcwLink = rcw => `<a href="https://app.leg.wa.gov/RCW/default.aspx?cite=${rcw}" target="_blank" class="text-blue-600 hover:underline">${rcw}</a>`;
+const rcwLinks = list => list.map(rcwLink).join(', ');
+
+const statusLabel = st => {
+    if (!st?.cat) return '';
+    const { cat, chamber, tier, sub, comm, first, enacted } = st;
+    const ch = chamber ? chamber + '-' : '';
+    switch (cat) {
+        case 'ENACTED': return enacted || 'ENACTED';
+        case 'RULES': return ch + 'RULES ' + tier + (sub ? ' ' + sub : '');
+        case 'COMMITTEE': return ch + comm + (first ? ' 1' : '');
+        default: return ch + cat;
+    }
+};
+
+const statusPill = st => {
+    if (!st?.cat) return '';
+    const label = statusLabel(st);
+    let color = colors[st.cat] || colors.OTHER;
+    if (st.cat === 'RULES') color = rulesTierColor[st.tier] || color;
+    return pill(label, color);
+};
+
+const inRange = (sec, r) => !r || (r.length === 2 ? +sec >= r[0] && +sec <= r[1] : r.includes(+sec));
+
+const findInMap = (ch, sec) => {
+    const full = sec ? `${ch}.${sec}` : ch, m = [];
+    
+    if (map.special?.[full]) m.push({ cat: 'system', label: map.special[full].note, rcw: full });
+    (map.lni || []).forEach(c => c.rcws.includes(full) && m.push({ cat: 'lni', label: c.label, rcw: full }));
+    
+    Object.entries(map.systems || {}).forEach(([sys, d]) => {
+        if (d.ch !== ch || !inRange(sec, d.rcws)) return;
+        const plan = sec && d.plans && Object.entries(d.plans).find(([, r]) => +sec >= r[0] && +sec <= r[1]);
+        m.push({ cat: 'system', sys, plan: plan?.[0] || null, rcw: full });
+    });
+    
+    if (map.general?.[ch]) m.push({ cat: 'general', label: map.general[ch].label, rcw: full });
+    const g = map.governance?.[ch];
+    if (g && (typeof g === 'string' ? true : inRange(sec, g.rcws))) m.push({ cat: 'governance', label: g.label || g, rcw: full });
+    if (map.adjacent?.[ch]) m.push({ cat: 'adjacent', label: map.adjacent[ch], rcw: ch });
+    
+    return m;
+};
+
+const consolidateSystems = matches => {
+    const systems = {}, other = [];
+    matches.forEach(m => {
+        if (m.sys) {
+            systems[m.sys] = systems[m.sys] || { plans: new Set(), hasNonPlan: false };
+            if (m.plan) systems[m.sys].plans.add(m.plan);
+            else systems[m.sys].hasNonPlan = true;
+        } else other.push(m);
+    });
+    Object.entries(systems).forEach(([sys, { plans, hasNonPlan }]) => {
+        const sorted = [...plans].sort();
+        const label = sorted.length ? `${sys} ${sorted.join('|')}${hasNonPlan ? '+' : ''}` : sys;
+        other.push({ cat: 'system', label });
+    });
+    return other;
+};
+
+const fullData = rawBills.map(r => {
+    const rcws = rcwsByBill[r.ver] || {};
+    const pension = [], adjacent = [], lni = [], rcwsP = [], rcwsA = [], rcwsL = [];
+    
+    Object.entries(rcws).forEach(([ch, secs]) => {
+        (secs.length ? secs : [null]).forEach(sec => {
+            const full = sec ? `${ch}.${sec}` : ch;
+            findInMap(ch, sec).forEach(m => {
+                if (m.cat === 'system' || m.cat === 'general' || m.cat === 'governance') { pension.push(m); rcwsP.push(full); }
+                else if (m.cat === 'adjacent') { adjacent.push(m.label); rcwsA.push(m.rcw); }
+                else if (m.cat === 'lni') { lni.push(m.label); rcwsL.push(full); }
+            });
+        });
+    });
+    
+    const consolidated = consolidateSystems(pension);
+    const uniqP = _.uniqBy(consolidated, 'label'), uniqA = [...new Set(adjacent)], uniqL = [...new Set(lni)];
+    return { ...r,
+        pillsP: uniqP.map(x => pill(x.label, catColors[x.cat])).join(''),
+        pillsL: uniqL.map(x => pill(x, catColors.lni)).join(''),
+        rcwsP: rcwLinks([...new Set(rcwsP)].sort()),
+        rcwsA: rcwLinks([...new Set(rcwsA)].sort()),
+        rcwsL: rcwLinks([...new Set(rcwsL)].sort()),
+        hasP: uniqP.length > 0, hasA: uniqA.length > 0, hasL: uniqL.length > 0
+    };
+});
+
+$('#toggles').html(['App', 'Cur', 'Pre'].map(l => `<label class="flex items-center gap-1.5 text-xs font-bold text-slate-600 cursor-pointer"><input type="checkbox" id="f${l}" class="w-4 h-4 accent-blue-600"> ${l}</label>`).join(''));
+
+const applyFilters = () => {
+    const q = $('#q').val().toLowerCase(), fP = $('#fP').is(':checked'), fA = $('#fA').is(':checked'), fL = $('#fL').is(':checked'),
+          onlyApp = $('#fApp').is(':checked'), onlyCur = $('#fCur').is(':checked'), onlyPre = $('#fPre').is(':checked');
+    const validGroups = new Set(), gd = _.groupBy(fullData, 'group');
+    for (let [gn, rows] of Object.entries(gd)) {
+        if ((!q || rows.some(r => (gn + r.groupDesc + r.status?.cat + r.status?.comm + r.sponsor).toLowerCase().includes(q))) &&
+            (!fP || rows.some(r => r.hasP)) && (!fA || rows.some(r => r.hasA)) && (!fL || rows.some(r => r.hasL)) &&
+            (!onlyApp || rows.some(r => r.approp)) && (!onlyCur || rows.some(r => r.current)) && (!onlyPre || rows.some(r => r.prefiled))) validGroups.add(gn);
+    }
+    table.setFilter(r => validGroups.has(r.group));
+    $('#s').text(`${validGroups.size} GROUPS`);
+};
+
+const table = new Tabulator('#t', {
+    data: fullData, height: 450, layout: 'fitDataFill', groupBy: 'group', selectableRows: 1, headerFilterLiveFilterDelay: 300,
+    groupHeader: (v, n, d) => {
+        const passed = d[0].passedId;
+        const links = v.split(' / ').map(num => `<a href="https://app.leg.wa.gov/billsummary?BillNumber=${num.trim()}&Year=2025" target="_blank" class="text-blue-600 font-bold underline">${num.trim()}</a>${passed?.includes(num.trim()) ? ' ✓' : ''}`).join(' / ');
+        return `${links} - <span class="font-normal text-slate-500">${d[0].groupDesc}</span>`;
+    },
+    columns: [
+        { title: 'VER', field: 'ver', hozAlign: 'center', headerFilter: 'input' },
+        { title: 'STATUS', field: 'status', widthGrow: 2, headerFilter: 'input', headerFilterFunc: (term, val) => statusLabel(val).toLowerCase().includes(term.toLowerCase()), formatter: c => {
+            const r = c.getRow().getData();
+            return `<div class="flex items-center text-[.8rem]">${statusPill(r.status)}${r.status?.cat === 'OTHER' ? r.actionLine || '' : ''}</div>`;
+        }},
+        { title: 'SPONSOR', field: 'sponsor', headerFilter: 'input' },
+        { title: 'APP', field: 'approp', hozAlign: 'center', headerFilter: 'input', formatter: c => check(c.getValue()) },
+        { title: 'CUR', field: 'current', hozAlign: 'center', headerFilter: 'input', formatter: c => check(c.getValue()) },
+        { title: 'PENSION', field: 'pillsP', headerFilter: 'input', headerFilterFunc: (term, val) => val.toLowerCase().includes(term.toLowerCase()), formatter: 'html' },
+        { title: 'P RCWs', field: 'rcwsP', headerFilter: 'input', formatter: 'html' },
+        { title: 'A RCWs', field: 'rcwsA', headerFilter: 'input', formatter: 'html' },
+        { title: 'L&I', field: 'pillsL', headerFilter: 'input', headerFilterFunc: (term, val) => val.toLowerCase().includes(term.toLowerCase()), formatter: 'html' },
+        { title: 'L&I RCWs', field: 'rcwsL', headerFilter: 'input', formatter: 'html' }
+    ]
+});
+
+$('#q, #fP, #fA, #fL, #fApp, #fCur, #fPre').on('input change', applyFilters);
+table.on('rowSelectionChanged', d => {
+    $('#sel').text(JSON.stringify(d[0], null, 2));
+    if (d[0]) {
+        const grp = table.getGroups().find(g => g.getKey() === d[0].group);
+        $('#grp').text(JSON.stringify(grp ? grp.getRows().map(r => r.getData()) : null, null, 2));
+    }
+});
+
+new ClipboardJS('#copy', { text: () => JSON.stringify(table?.getData('active') || [], null, 2) }).on('success', () => {
+    const icon = $('#copy i')[0]; icon.className = 'ph-bold ph-check text-green-400';
+    setTimeout(() => icon.className = 'ph-bold ph-copy', 1200);
+});
+
+applyFilters();
+</script>
+</body>
+</html>

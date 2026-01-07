@@ -1,5 +1,5 @@
 {
-  "meta": { "version": "1.1", "updated": "2025-01-06" },
+  "meta": { "version": "1.2", "updated": "2025-01-06" },
   "systems": {
     "JRS": { "ch": "2.10", "name": "Judges 1971-1988", "wac": "415-100", "tags": ["judicial", "closed"] },
     "JRF": { "ch": "2.12", "name": "Judges pre-1971", "wac": "415-100", "tags": ["judicial", "closed"] },
@@ -9,7 +9,7 @@
     "SERS": { "ch": "41.35", "name": "School Employees", "wac": "415-110", "plans": { "2": [30, 299], "3": [500, 650] }, "tags": ["education"] },
     "PSERS": { "ch": "41.37", "name": "Public Safety Employees", "wac": "415-106", "tags": ["public-safety"] },
     "PERS": { "ch": "41.40", "name": "Public Employees", "wac": "415-108", "plans": { "1": [120, 370], "2": [600, 780], "3": [780, 920] }, "tags": ["state", "local"] },
-    "WSPRS": { "ch": "43.43", "name": "State Patrol", "wac": "415-103", "plans": { "1": [120, 200], "2": [200, 320] }, "tags": ["public-safety"] }
+    "WSPRS": { "ch": "43.43", "rcws": [120, 320], "name": "State Patrol", "wac": "415-103", "plans": { "1": [120, 200], "2": [200, 320] }, "tags": ["public-safety"] }
   },
   "general": {
     "41.34": { "label": "Plan 3 DC", "wac": "415-111" },

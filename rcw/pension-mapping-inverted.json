@@ -1,5 +1,5 @@
 {
-  "meta": { "version": "1.2", "updated": "2025-01-06" },
+  "meta": { "version": "1.3", "updated": "2025-01-06" },
   "systems": {
     "JRS": { "ch": "2.10", "name": "Judges 1971-1988", "wac": "415-100", "tags": ["judicial", "closed"] },
     "JRF": { "ch": "2.12", "name": "Judges pre-1971", "wac": "415-100", "tags": ["judicial", "closed"] },
@@ -27,7 +27,6 @@
     "26.16": "Marital property",
     "26.18": "Support access",
     "26.23": "Income withholding",
-    "34.05": "APA",
     "41.28": "Local fire (non-DRS)",
     "41.44": "Local city (non-DRS)",
     "74.20A": "DCS enforcement"
@@ -40,5 +39,10 @@
     "41.45.200": { "note": "Judicial Rates" },
     "41.50.770": { "note": "DCP" },
     "41.50.780": { "note": "DCP Accounts" }
-  }
+  },
+  "crosscuts": [
+    { "label": "L&I Disability Offsets", "rcws": ["41.26.130", "41.26.470", "41.37.230"] },
+    { "label": "L&I Service Credit", "rcws": ["41.40.038", "41.37.060", "41.26.473"] },
+    { "label": "Line of Duty Death", "rcws": ["51.32.050", "41.26.048"] }
+  ]
 }

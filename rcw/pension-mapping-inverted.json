@@ -40,9 +40,9 @@
     "41.50.770": { "note": "DCP" },
     "41.50.780": { "note": "DCP Accounts" }
   },
-  "crosscuts": [
-    { "label": "L&I Disability Offsets", "rcws": ["41.26.130", "41.26.470", "41.37.230"] },
-    { "label": "L&I Service Credit", "rcws": ["41.40.038", "41.37.060", "41.26.473"] },
+  "L&I": [
+    { "label": "Disability Offsets", "rcws": ["41.26.130", "41.26.470", "41.37.230"] },
+    { "label": "Service Credit", "rcws": ["41.40.038", "41.37.060", "41.26.473"] },
     { "label": "Line of Duty Death", "rcws": ["51.32.050", "41.26.048"] }
   ]
 }

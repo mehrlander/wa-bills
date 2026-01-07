@@ -8,7 +8,6 @@
 
 **Authentication:** None required
 
-
 ## Overview
 
 - **Services:** 9
@@ -38,7 +37,6 @@
 
 **Description:** Information on Amendments to legislation considered by the Washington State Legislature.
 
-
 ### Operations Summary
 
 | Operation | Description |
@@ -48,18 +46,10 @@
 ### Operation Details
 
 #### `GetAmendments`
-
 Returns list of amendments submitted to the rostrum during the year. 
 Exception thrown for invalid year.
 
-**Parameters:**
-
-| Name | Type | Required | Description |
-|------|------|----------|-------------|
-| `year` | `int` | Yes |  |
-
-**Returns:** `ArrayOfAmendment`
-
+`([int]year) => ArrayOfAmendment`
 
 ---
 
@@ -68,7 +58,6 @@ Exception thrown for invalid year.
 **Endpoint:** `https://wslwebservices.leg.wa.gov/CommitteeActionService.asmx`
 
 **Description:** Information on committee actions by the Washington State Legislature.
-
 
 ### Operations Summary
 
@@ -95,258 +84,89 @@ Exception thrown for invalid year.
 ### Operation Details
 
 #### `GetDoPassByCommittee`
+Returns summary legislation information on all bills with status do pass by committee.<br/><br/>CommitteeName is the Name Property returned in GetActiveHouseCommittees/GetActiveSenateCommittees.
 
-Returns summary legislation information on all bills with status do pass by committee.<br/>Exception thrown for invalid agency or committee name or biennium.<br/>Expects biennium to be in the format: 2005-06<br/>Agency should be House or Senate.<br/>CommitteeName is the Name Property returned in GetActiveHouseCommittees/GetActiveSenateCommittees.
-
-**Parameters:**
-
-| Name | Type | Required | Description |
-|------|------|----------|-------------|
-| `biennium` | `string` | No |  |
-| `agency` | `string` | No |  |
-| `committeeName` | `string` | No |  |
-
-**Returns:** `ArrayOfLegislationInfo`
-
+`([str]biennium?, [str]agency?, [str]committeeName?) => ArrayOfLegislationInfo`
 
 #### `GetDoPassWithAmendmentsByCommittee`
+Returns summary legislation information on all bills with status do pass with amendments by committee.<br/><br/>CommitteeName is the Name Property returned in GetActiveHouseCommittees/GetActiveSenateCommittees.
 
-Returns summary legislation information on all bills with status do pass with amendments by committee.<br/>Exception thrown for invalid agency or committee name or biennium.<br/>Expects biennium to be in the format: 2005-06<br/>Agency should be House or Senate.<br/>CommitteeName is the Name Property returned in GetActiveHouseCommittees/GetActiveSenateCommittees.
-
-**Parameters:**
-
-| Name | Type | Required | Description |
-|------|------|----------|-------------|
-| `biennium` | `string` | No |  |
-| `agency` | `string` | No |  |
-| `committeeName` | `string` | No |  |
-
-**Returns:** `ArrayOfLegislationInfo`
-
+`([str]biennium?, [str]agency?, [str]committeeName?) => ArrayOfLegislationInfo`
 
 #### `GetDoPassWithAmendmentsToSubByCommittee`
+Returns summary legislation information on all bills with status do pass with amendments to sub by committee.<br/><br/>CommitteeName is the Name Property returned in GetActiveHouseCommittees/GetActiveSenateCommittees.
 
-Returns summary legislation information on all bills with status do pass with amendments to sub by committee.<br/>Exception thrown for invalid agency or committee name or biennium.<br/>Expects biennium to be in the format: 2005-06<br/>Agency should be House or Senate.<br/>CommitteeName is the Name Property returned in GetActiveHouseCommittees/GetActiveSenateCommittees.
-
-**Parameters:**
-
-| Name | Type | Required | Description |
-|------|------|----------|-------------|
-| `biennium` | `string` | No |  |
-| `agency` | `string` | No |  |
-| `committeeName` | `string` | No |  |
-
-**Returns:** `ArrayOfLegislationInfo`
-
+`([str]biennium?, [str]agency?, [str]committeeName?) => ArrayOfLegislationInfo`
 
 #### `GetInCommittee`
+Returns summary legislation information on all bills with status in committee.<br/><br/>CommitteeName is the Name Property returned in GetActiveHouseCommittees/GetActiveSenateCommittees.
 
-Returns summary legislation information on all bills with status in committee.<br/>Exception thrown for invalid agency or committee name or biennium.<br/>Expects biennium to be in the format: 2005-06<br/>Agency should be House or Senate.<br/>CommitteeName is the Name Property returned in GetActiveHouseCommittees/GetActiveSenateCommittees.
-
-**Parameters:**
-
-| Name | Type | Required | Description |
-|------|------|----------|-------------|
-| `biennium` | `string` | No |  |
-| `agency` | `string` | No |  |
-| `committeeName` | `string` | No |  |
-
-**Returns:** `ArrayOfLegislationInfo`
-
+`([str]biennium?, [str]agency?, [str]committeeName?) => ArrayOfLegislationInfo`
 
 #### `GetMajorityReportByCommittee`
+Returns summary legislation information on all bills with status majority report by committee.<br/><br/>CommitteeName is the Name Property returned in GetActiveHouseCommittees/GetActiveSenateCommittees.
 
-Returns summary legislation information on all bills with status majority report by committee.<br/>Exception thrown for invalid agency or committee name or biennium.<br/>Expects biennium to be in the format: 2005-06<br/>Agency should be House or Senate.<br/>CommitteeName is the Name Property returned in GetActiveHouseCommittees/GetActiveSenateCommittees.
-
-**Parameters:**
-
-| Name | Type | Required | Description |
-|------|------|----------|-------------|
-| `biennium` | `string` | No |  |
-| `agency` | `string` | No |  |
-| `committeeName` | `string` | No |  |
-
-**Returns:** `ArrayOfLegislationInfo`
-
+`([str]biennium?, [str]agency?, [str]committeeName?) => ArrayOfLegislationInfo`
 
 #### `GetMinorityReportByCommittee`
+Returns summary legislation information on all bills with status minority report by committee.<br/><br/>CommitteeName is the Name Property returned in GetActiveHouseCommittees/GetActiveSenateCommittees.
 
-Returns summary legislation information on all bills with status minority report by committee.<br/>Exception thrown for invalid agency or committee name or biennium.<br/>Expects biennium to be in the format: 2005-06<br/>Agency should be House or Senate.<br/>CommitteeName is the Name Property returned in GetActiveHouseCommittees/GetActiveSenateCommittees.
-
-**Parameters:**
-
-| Name | Type | Required | Description |
-|------|------|----------|-------------|
-| `biennium` | `string` | No |  |
-| `agency` | `string` | No |  |
-| `committeeName` | `string` | No |  |
-
-**Returns:** `ArrayOfLegislationInfo`
-
+`([str]biennium?, [str]agency?, [str]committeeName?) => ArrayOfLegislationInfo`
 
 #### `GetReReferralByCommittee`
+Returns summary legislation information on all bills with status re-referral by committee.<br/><br/>CommitteeName is the Name Property returned in GetActiveHouseCommittees/GetActiveSenateCommittees.
 
-Returns summary legislation information on all bills with status re-referral by committee.<br/>Exception thrown for invalid agency or committee name or biennium.<br/>Expects biennium to be in the format: 2005-06<br/>Agency should be House or Senate.<br/>CommitteeName is the Name Property returned in GetActiveHouseCommittees/GetActiveSenateCommittees.
-
-**Parameters:**
-
-| Name | Type | Required | Description |
-|------|------|----------|-------------|
-| `biennium` | `string` | No |  |
-| `agency` | `string` | No |  |
-| `committeeName` | `string` | No |  |
-
-**Returns:** `ArrayOfLegislationInfo`
-
+`([str]biennium?, [str]agency?, [str]committeeName?) => ArrayOfLegislationInfo`
 
 #### `GetReferredToAnotherCommitteeByCommittee`
+Returns summary legislation information on all bills with status referred to another committee by committee.<br/><br/>CommitteeName is the Name Property returned in GetActiveHouseCommittees/GetActiveSenateCommittees.
 
-Returns summary legislation information on all bills with status referred to another committee by committee.<br/>Exception thrown for invalid agency or committee name or biennium.<br/>Expects biennium to be in the format: 2005-06<br/>Agency should be House or Senate.<br/>CommitteeName is the Name Property returned in GetActiveHouseCommittees/GetActiveSenateCommittees.
-
-**Parameters:**
-
-| Name | Type | Required | Description |
-|------|------|----------|-------------|
-| `biennium` | `string` | No |  |
-| `agency` | `string` | No |  |
-| `committeeName` | `string` | No |  |
-
-**Returns:** `ArrayOfLegislationInfo`
-
+`([str]biennium?, [str]agency?, [str]committeeName?) => ArrayOfLegislationInfo`
 
 #### `GetReferredToCommittee`
+Returns summary legislation information on all bills with status referred to committee.<br/><br/>CommitteeName is the Name Property returned in GetActiveHouseCommittees/GetActiveSenateCommittees.
 
-Returns summary legislation information on all bills with status referred to committee.<br/>Exception thrown for invalid agency or committee name or biennium.<br/>Expects biennium to be in the format: 2005-06<br/>Agency should be House or Senate.<br/>CommitteeName is the Name Property returned in GetActiveHouseCommittees/GetActiveSenateCommittees.
-
-**Parameters:**
-
-| Name | Type | Required | Description |
-|------|------|----------|-------------|
-| `biennium` | `string` | No |  |
-| `agency` | `string` | No |  |
-| `committeeName` | `string` | No |  |
-
-**Returns:** `ArrayOfLegislationInfo`
-
+`([str]biennium?, [str]agency?, [str]committeeName?) => ArrayOfLegislationInfo`
 
 #### `GetCommitteeReferralsByCommittee`
+Returns summary legislation information on all bills that have been referred to the committee by committee.<br/><br/>CommitteeName is the Name Property returned in GetActiveHouseCommittees/GetActiveSenateCommittees.
 
-Returns summary legislation information on all bills that have been referred to the committee by committee.<br/>Exception thrown for invalid agency or committee name or biennium.<br/>Expects biennium to be in the format: 2005-06<br/>Agency should be House or Senate.<br/>CommitteeName is the Name Property returned in GetActiveHouseCommittees/GetActiveSenateCommittees.
-
-**Parameters:**
-
-| Name | Type | Required | Description |
-|------|------|----------|-------------|
-| `biennium` | `string` | No |  |
-| `agency` | `string` | No |  |
-| `committeeName` | `string` | No |  |
-
-**Returns:** `ArrayOfCommitteeReferral`
-
+`([str]biennium?, [str]agency?, [str]committeeName?) => ArrayOfCommitteeReferral`
 
 #### `GetCommitteeReferralsByBill`
+Returns summary legislation information on all bills that have been referred to the committee by bill.<br/><br/>
 
-Returns summary legislation information on all bills that have been referred to the committee by bill.<br/>Exception thrown for invalid biennium.<br/>Expects biennium to be in the format: 2005-06
-
-**Parameters:**
-
-| Name | Type | Required | Description |
-|------|------|----------|-------------|
-| `biennium` | `string` | No |  |
-| `billNumber` | `int` | Yes |  |
-
-**Returns:** `ArrayOfCommitteeReferral`
-
+`([str]biennium?, [int]billNumber) => ArrayOfCommitteeReferral`
 
 #### `GetRemovedFromCommittee`
+Returns summary legislation information on all bills with status removed by committee.<br/><br/>CommitteeName is the Name Property returned in GetActiveHouseCommittees/GetActiveSenateCommittees.
 
-Returns summary legislation information on all bills with status removed by committee.<br/>Exception thrown for invalid agency or committee name or biennium.<br/>Expects biennium to be in the format: 2005-06<br/>Agency should be House or Senate.<br/>CommitteeName is the Name Property returned in GetActiveHouseCommittees/GetActiveSenateCommittees.
-
-**Parameters:**
-
-| Name | Type | Required | Description |
-|------|------|----------|-------------|
-| `biennium` | `string` | No |  |
-| `agency` | `string` | No |  |
-| `committeeName` | `string` | No |  |
-
-**Returns:** `ArrayOfLegislationInfo`
-
+`([str]biennium?, [str]agency?, [str]committeeName?) => ArrayOfLegislationInfo`
 
 #### `GetDoPassSubstituteByCommittee`
+Returns summary legislation information on all bills with status substitute do pass by committee.<br/><br/>CommitteeName is the Name Property returned in GetActiveHouseCommittees/GetActiveSenateCommittees.
 
-Returns summary legislation information on all bills with status substitute do pass by committee.<br/>Exception thrown for invalid agency or committee name or biennium.<br/>Expects biennium to be in the format: 2005-06<br/>Agency should be House or Senate.<br/>CommitteeName is the Name Property returned in GetActiveHouseCommittees/GetActiveSenateCommittees.
-
-**Parameters:**
-
-| Name | Type | Required | Description |
-|------|------|----------|-------------|
-| `biennium` | `string` | No |  |
-| `agency` | `string` | No |  |
-| `committeeName` | `string` | No |  |
-
-**Returns:** `ArrayOfLegislationInfo`
-
+`([str]biennium?, [str]agency?, [str]committeeName?) => ArrayOfLegislationInfo`
 
 #### `GetWithoutRecommendationByCommittee`
+Returns summary legislation information on all bills with status without recommendation by committee.<br/><br/>CommitteeName is the Name Property returned in GetActiveHouseCommittees/GetActiveSenateCommittees.
 
-Returns summary legislation information on all bills with status without recommendation by committee.<br/>Exception thrown for invalid agency or committee name or biennium.<br/>Expects biennium to be in the format: 2005-06<br/>Agency should be House or Senate.<br/>CommitteeName is the Name Property returned in GetActiveHouseCommittees/GetActiveSenateCommittees.
-
-**Parameters:**
-
-| Name | Type | Required | Description |
-|------|------|----------|-------------|
-| `biennium` | `string` | No |  |
-| `agency` | `string` | No |  |
-| `committeeName` | `string` | No |  |
-
-**Returns:** `ArrayOfLegislationInfo`
-
+`([str]biennium?, [str]agency?, [str]committeeName?) => ArrayOfLegislationInfo`
 
 #### `GetCommitteeExecutiveActionsByBill`
+Returns executive committee executive actions by bill.<br/><br/>
 
-Returns executive committee executive actions by bill.<br/>Exception thrown for invalid biennium.<br/>Expects biennium to be in the format: 2005-06
-
-**Parameters:**
-
-| Name | Type | Required | Description |
-|------|------|----------|-------------|
-| `biennium` | `string` | No |  |
-| `billNumber` | `int` | Yes |  |
-
-**Returns:** `ArrayOfCommitteeAction`
-
+`([str]biennium?, [int]billNumber) => ArrayOfCommitteeAction`
 
 #### `GetLegislationReportedOutOfCommittee`
-
 Returns summary legislation information on all bills that were reported out of the given committee between the begin and end date.
 
-**Parameters:**
-
-| Name | Type | Required | Description |
-|------|------|----------|-------------|
-| `committeeName` | `string` | No |  |
-| `agency` | `string` | No |  |
-| `beginDate` | `dateTime` | Yes |  |
-| `endDate` | `dateTime` | Yes |  |
-
-**Returns:** `ArrayOfLegislationInfo`
-
+`([str]committeeName?, [str]agency?, [dt]beginDate, [dt]endDate) => ArrayOfLegislationInfo`
 
 #### `GetLegislationScheduledHearingsByCommittee`
+Returns bills that have had a hearing scheduled in the committee.<br/><br/>CommitteeName is the Name Property returned in GetActiveHouseCommittees/GetActiveSenateCommittees.
 
-Returns bills that have had a hearing scheduled in the committee.<br/>Exception thrown for invalid agency or committee name or biennium.<br/>Expects biennium to be in the format: 2005-06<br/>Agency should be House or Senate.<br/>CommitteeName is the Name Property returned in GetActiveHouseCommittees/GetActiveSenateCommittees.
-
-**Parameters:**
-
-| Name | Type | Required | Description |
-|------|------|----------|-------------|
-| `biennium` | `string` | No |  |
-| `agency` | `string` | No |  |
-| `committeeName` | `string` | No |  |
-
-**Returns:** `ArrayOfLegislationFamily`
-
+`([str]biennium?, [str]agency?, [str]committeeName?) => ArrayOfLegislationFamily`
 
 ---
 
@@ -355,7 +175,6 @@ Returns bills that have had a hearing scheduled in the committee.<br/>Exception 
 **Endpoint:** `https://wslwebservices.leg.wa.gov/CommitteeMeetingService.asmx`
 
 **Description:** Information on committee meetings of the Washington State Legislature.
-
 
 ### Operations Summary
 
@@ -368,45 +187,20 @@ Returns bills that have had a hearing scheduled in the committee.<br/>Exception 
 ### Operation Details
 
 #### `GetCommitteeMeetings`
-
 Returns a list of Committee Meetings for a given date range. 
 Exception thrown for invalid date range.
 
-**Parameters:**
-
-| Name | Type | Required | Description |
-|------|------|----------|-------------|
-| `beginDate` | `dateTime` | Yes |  |
-| `endDate` | `dateTime` | Yes |  |
-
-**Returns:** `ArrayOfCommitteeMeeting`
-
+`([dt]beginDate, [dt]endDate) => ArrayOfCommitteeMeeting`
 
 #### `GetRevisedCommitteeMeetings`
-
 Returns a list of Committee Meetings that have been revised since a given date.
 
-**Parameters:**
-
-| Name | Type | Required | Description |
-|------|------|----------|-------------|
-| `changedSinceDate` | `dateTime` | Yes |  |
-
-**Returns:** `ArrayOfCommitteeMeeting`
-
+`([dt]changedSinceDate) => ArrayOfCommitteeMeeting`
 
 #### `GetCommitteeMeetingItems`
-
 Returns a list of meeting items for a specific Committee Meeting.
 
-**Parameters:**
-
-| Name | Type | Required | Description |
-|------|------|----------|-------------|
-| `agendaId` | `int` | Yes |  |
-
-**Returns:** `ArrayOfCommitteeMeetingItem`
-
+`([int]agendaId) => ArrayOfCommitteeMeetingItem`
 
 ---
 
@@ -415,7 +209,6 @@ Returns a list of meeting items for a specific Committee Meeting.
 **Endpoint:** `https://wslwebservices.leg.wa.gov/CommitteeService.asmx`
 
 **Description:** Information on committees of the Washington State Legislature.
-
 
 ### Operations Summary
 
@@ -433,109 +226,50 @@ Returns a list of meeting items for a specific Committee Meeting.
 ### Operation Details
 
 #### `GetCommittees`
-
 All House and Senate standing committees during the given biennium. 
-Exception thrown for invalid biennium. 
+ 
 Expects iennium to be in the format: 2005-06
 
-**Parameters:**
-
-| Name | Type | Required | Description |
-|------|------|----------|-------------|
-| `biennium` | `string` | No |  |
-
-**Returns:** `ArrayOfCommittee`
-
+`([str]biennium?) => ArrayOfCommittee`
 
 #### `GetHouseCommittees`
+All House standing committees during the given biennium.
 
-All House standing committees during the given biennium. 
-Exception thrown for invalid biennium. 
-Expects biennium to be in the format: 2005-06
-
-**Parameters:**
-
-| Name | Type | Required | Description |
-|------|------|----------|-------------|
-| `biennium` | `string` | No |  |
-
-**Returns:** `ArrayOfCommittee`
-
+`([str]biennium?) => ArrayOfCommittee`
 
 #### `GetSenateCommittees`
+All Senate standing committees during the given biennium.
 
-All Senate standing committees during the given biennium. 
-Exception thrown for invalid biennium. 
-Expects biennium to be in the format: 2005-06
-
-**Parameters:**
-
-| Name | Type | Required | Description |
-|------|------|----------|-------------|
-| `biennium` | `string` | No |  |
-
-**Returns:** `ArrayOfCommittee`
-
+`([str]biennium?) => ArrayOfCommittee`
 
 #### `GetCommitteeMembers`
-
 Lists committee members for the given standing committee. 
 Exception thrown for invalid biennium, agency, or committee name. 
-Expects biennium to be in the format: 2005-06. Agency should be House or Senate.  CommitteeName is the Name Property returned in GetHouseCommittees/GetSenateCommittees.
+. CommitteeName is the Name Property returned in GetHouseCommittees/GetSenateCommittees.
 
-**Parameters:**
-
-| Name | Type | Required | Description |
-|------|------|----------|-------------|
-| `biennium` | `string` | No |  |
-| `agency` | `string` | No |  |
-| `committeeName` | `string` | No |  |
-
-**Returns:** `ArrayOfMember`
-
+`([str]biennium?, [str]agency?, [str]committeeName?) => ArrayOfMember`
 
 #### `GetActiveCommittees`
-
 All active House and Senate standing committees.
 
-**Parameters:** None
-
-**Returns:** `ArrayOfCommittee`
-
+`() => ArrayOfCommittee`
 
 #### `GetActiveHouseCommittees`
-
 All active House standing committees.
 
-**Parameters:** None
-
-**Returns:** `ArrayOfCommittee`
-
+`() => ArrayOfCommittee`
 
 #### `GetActiveSenateCommittees`
-
 All active Senate standing committees.
 
-**Parameters:** None
-
-**Returns:** `ArrayOfCommittee`
-
+`() => ArrayOfCommittee`
 
 #### `GetActiveCommitteeMembers`
-
 Lists active committee members for the given standing committee. 
 Exception thrown for invalid agency or committee name. 
-Agency should be House or Senate.  CommitteeName is the Name Property returned in GetActiveHouseCommittees/GetActiveSenateCommittees.
+ CommitteeName is the Name Property returned in GetActiveHouseCommittees/GetActiveSenateCommittees.
 
-**Parameters:**
-
-| Name | Type | Required | Description |
-|------|------|----------|-------------|
-| `agency` | `string` | No |  |
-| `committeeName` | `string` | No |  |
-
-**Returns:** `ArrayOfMember`
-
+`([str]agency?, [str]committeeName?) => ArrayOfMember`
 
 ---
 
@@ -544,7 +278,6 @@ Agency should be House or Senate.  CommitteeName is the Name Property returned i
 **Endpoint:** `https://wslwebservices.leg.wa.gov/LegislationService.asmx`
 
 **Description:** Information on legislation being considered by the Washington State Legislature.
-
 
 ### Operations Summary
 
@@ -561,14 +294,14 @@ Agency should be House or Senate.  CommitteeName is the Name Property returned i
 | `GetCurrentStatus` | Returns the current status of the bill in the legislative process. ... |
 | `GetLegislationTypes` | Returns a list of all valid types of legislation. |
 | `GetTotalLegislationIntroducedByDateRange` | Returns legislation introduced in the given date range by the given legislation ... |
-| `GetLegislation` | Returns legislation information on the bill.  If substitutes to the bill have be... |
+| `GetLegislation` | Returns legislation information on the bill. If substitutes to the bill have be... |
 | `GetLegislationIntroducedSince` | Returns detailed legislation information on all bills introduced since the date ... |
 | `GetPrefiledLegislation` | Returns detailed legislation information on all prefiled bills (currently in pre... |
-| `GetLegislativeStatusChangesByBillNumber` |  |
-| `GetLegislativeStatusChangesByBillId` |  |
+| `GetLegislativeStatusChangesByBillNumber` | |
+| `GetLegislativeStatusChangesByBillId` | |
 | `GetLegislationHistoricalRecapCategoriesByLegislationNumber` | Returns the legislation historical recap (status) categories for the given bill ... |
-| `GetLegislativeStatusChangesByDateRange` |  |
-| `GetLegislationByYear` | Returns summary legislation information on all bills active during the year.  If... |
+| `GetLegislativeStatusChangesByDateRange` | |
+| `GetLegislationByYear` | Returns summary legislation information on all bills active during the year. If... |
 | `GetLegislationInfoIntroducedSince` | Returns summary legislation information on all bills introduced since the date g... |
 | `GetPreFiledLegislationInfo` | Returns summary legislation information on all prefiled bills (currently in pref... |
 | `GetHouseLegislationPassedHouse` | Returns summary legislation information on all House bills that have passed the ... |
@@ -588,540 +321,228 @@ Agency should be House or Senate.  CommitteeName is the Name Property returned i
 | `GetLegislationNotYetIntroducedInHouseOfOrigin` | Returns summary legislation information on bills that are active, have available... |
 | `GetLegislationPassedOriginalBodyAndNotIntroducedInOppositeBody` | Returns summary legislation information on bills that have passed the originatin... |
 | `GetLegislativeBillListFeatureData` | Returns a .net DataTable for the LegislativeBillList SharePoint Feature |
-| `DataTable` |  |
+| `DataTable` | |
 
 ### Operation Details
 
 #### `GetAmendmentsForYear`
-
 Returns a list of all pending and acted on amendments for the bill during the year. 
 Exception thrown for invalid year.
 
-**Parameters:**
-
-| Name | Type | Required | Description |
-|------|------|----------|-------------|
-| `year` | `int` | Yes |  |
-| `billNumber` | `int` | Yes |  |
-
-**Returns:** `ArrayOfAmendment`
-
+`([int]year, [int]billNumber) => ArrayOfAmendment`
 
 #### `GetAmendmentsForBiennium`
+Returns a list of all pending and acted on amendments for the bill during the biennium.
 
-Returns a list of all pending and acted on amendments for the bill during the biennium. 
-Exception thrown for invalid biennium. 
-Expects biennium to be in the format: 2005-06
-
-**Parameters:**
-
-| Name | Type | Required | Description |
-|------|------|----------|-------------|
-| `biennium` | `string` | No |  |
-| `billNumber` | `int` | Yes |  |
-
-**Returns:** `ArrayOfAmendment`
-
+`([str]biennium?, [int]billNumber) => ArrayOfAmendment`
 
 #### `GetHearings`
+Returns a list of committee hearings for the bill.
 
-Returns a list of committee hearings for the bill. 
-Exception thrown for invalid biennium. 
-Expects biennium to be in the format: 2005-06
-
-**Parameters:**
-
-| Name | Type | Required | Description |
-|------|------|----------|-------------|
-| `biennium` | `string` | No |  |
-| `billNumber` | `int` | Yes |  |
-
-**Returns:** `ArrayOfHearing`
-
+`([str]biennium?, [int]billNumber) => ArrayOfHearing`
 
 #### `GetLegislationByRequestNumber`
+Returns legislation information based on the original request number of the draft submitted.
 
-Returns legislation information based on the original request number of the draft submitted. 
-Exception thrown for invalid biennium or requestNumber or if no information found. 
-Expects biennium to be in the format: 2005-06
-
-**Parameters:**
-
-| Name | Type | Required | Description |
-|------|------|----------|-------------|
-| `biennium` | `string` | No |  |
-| `requestNumber` | `string` | No |  |
-
-**Returns:** `Legislation`
-
+`([str]biennium?, [str]requestNumber?) => Legislation`
 
 #### `GetRcwCitesAffected`
-
 Returns RCW Cites referenced within the legislation. 
-Exception thrown for invalid biennium or billId. 
-Expects biennium to be in the format: 2005-06
+Exception thrown for invalid biennium or billId.
 
-**Parameters:**
-
-| Name | Type | Required | Description |
-|------|------|----------|-------------|
-| `biennium` | `string` | No |  |
-| `billId` | `string` | No |  |
-
-**Returns:** `ArrayOfRcwCiteAffected`
-
+`([str]biennium?, [str]billId?) => ArrayOfRcwCiteAffected`
 
 #### `GetSessionLawChapter`
-
 Returns chapter and session law information on given bill. 
-Exception thrown for invalid biennium or billId. 
-Expects biennium to be in the format: 2005-06
+Exception thrown for invalid biennium or billId.
 
-**Parameters:**
-
-| Name | Type | Required | Description |
-|------|------|----------|-------------|
-| `biennium` | `string` | No |  |
-| `billId` | `string` | No |  |
-
-**Returns:** `SessionLaw`
-
+`([str]biennium?, [str]billId?) => SessionLaw`
 
 #### `GetSponsors`
-
 Returns list of bill sponsors. 
 Exception thrown for invalid biennium or billId. 
 Expects biennium in the format 2005-06.
 
-**Parameters:**
-
-| Name | Type | Required | Description |
-|------|------|----------|-------------|
-| `biennium` | `string` | No |  |
-| `billId` | `string` | No |  |
-
-**Returns:** `ArrayOfSponsor`
-
+`([str]biennium?, [str]billId?) => ArrayOfSponsor`
 
 #### `GetRollCalls`
-
 Returns list of roll calls taken on the bill. 
-Exception thrown for invalid biennium. 
+ 
 Expects biennium in the format 2005-06.
 
-**Parameters:**
-
-| Name | Type | Required | Description |
-|------|------|----------|-------------|
-| `biennium` | `string` | No |  |
-| `billNumber` | `int` | Yes |  |
-
-**Returns:** `ArrayOfRollCall`
-
+`([str]biennium?, [int]billNumber) => ArrayOfRollCall`
 
 #### `GetCurrentStatus`
-
 Returns the current status of the bill in the legislative process. 
-Exception thrown for invalid biennium or if no status found. 
-Expects biennium to be in the format: 2005-06
+Exception thrown for invalid biennium or if no status found.
 
-**Parameters:**
-
-| Name | Type | Required | Description |
-|------|------|----------|-------------|
-| `biennium` | `string` | No |  |
-| `billNumber` | `int` | Yes |  |
-
-**Returns:** `LegislativeStatus`
-
+`([str]biennium?, [int]billNumber) => LegislativeStatus`
 
 #### `GetLegislationTypes`
-
 Returns a list of all valid types of legislation.
 
-**Parameters:** None
-
-**Returns:** `ArrayOfLegislationType`
-
+`() => ArrayOfLegislationType`
 
 #### `GetTotalLegislationIntroducedByDateRange`
-
 Returns legislation introduced in the given date range by the given legislation type.
 
-**Parameters:**
-
-| Name | Type | Required | Description |
-|------|------|----------|-------------|
-| `beginDate` | `dateTime` | Yes |  |
-| `endDate` | `dateTime` | Yes |  |
-| `legTypeId` | `int` | Yes |  |
-| `agencyId` | `int` | Yes |  |
-| `allVersions` | `boolean` | Yes |  |
-
-**Returns:** `int`
-
+`([dt]beginDate, [dt]endDate, [int]legTypeId, [int]agencyId, [bool]allVersions) => int`
 
 #### `GetLegislation`
+Returns legislation information on the bill. If substitutes to the bill have been proposed, they will be listed separately. The active flag is true for versions that can be passed on the floor.
 
-Returns legislation information on the bill.  If substitutes to the bill have been proposed, they will be listed separately.  The active flag is true for versions that can be passed on the floor. 
-Exception thrown for invalid biennium. 
-Expects biennium to be in the format: 2005-06
-
-**Parameters:**
-
-| Name | Type | Required | Description |
-|------|------|----------|-------------|
-| `biennium` | `string` | No |  |
-| `billNumber` | `int` | Yes |  |
-
-**Returns:** `ArrayOfLegislation`
-
+`([str]biennium?, [int]billNumber) => ArrayOfLegislation`
 
 #### `GetLegislationIntroducedSince`
+Returns detailed legislation information on all bills introduced since the date given. If substitutes to the bill have been proposed, they will be listed separately. The active flag is true for versions that can be passed on the floor.
 
-Returns detailed legislation information on all bills introduced since the date given.  If substitutes to the bill have been proposed, they will be listed separately.  The active flag is true for versions that can be passed on the floor.
-
-**Parameters:**
-
-| Name | Type | Required | Description |
-|------|------|----------|-------------|
-| `sinceDate` | `dateTime` | Yes |  |
-
-**Returns:** `ArrayOfLegislation`
-
+`([dt]sinceDate) => ArrayOfLegislation`
 
 #### `GetPrefiledLegislation`
-
 Returns detailed legislation information on all prefiled bills (currently in prefiled status). 
 Once a bill is formally introduced, its information can be obtained by calling the GetLegislation method.
 
-**Parameters:** None
-
-**Returns:** `ArrayOfLegislation`
-
+`() => ArrayOfLegislation`
 
 #### `GetLegislativeStatusChangesByBillNumber`
-
 **Parameters:**
 
 | Name | Type | Required | Description |
 |------|------|----------|-------------|
-| `biennium` | `string` | No |  |
-| `billNumber` | `int` | Yes |  |
-| `beginDate` | `dateTime` | Yes |  |
-| `endDate` | `dateTime` | Yes |  |
+| `biennium` | `string` | No | |
+| `billNumber` | `int` | Yes | |
+| `beginDate` | `dateTime` | Yes | |
+| `endDate` | `dateTime` | Yes | |
 
 **Returns:** `ArrayOfLegislativeStatus`
-
 
 #### `GetLegislativeStatusChangesByBillId`
 
-**Parameters:**
-
-| Name | Type | Required | Description |
-|------|------|----------|-------------|
-| `biennium` | `string` | No |  |
-| `billId` | `string` | No |  |
-| `beginDate` | `dateTime` | Yes |  |
-| `endDate` | `dateTime` | Yes |  |
-
-**Returns:** `ArrayOfLegislativeStatus`
-
+`([str]biennium?, [str]billId?, [dt]beginDate, [dt]endDate) => ArrayOfLegislativeStatus`
 
 #### `GetLegislationHistoricalRecapCategoriesByLegislationNumber`
-
 Returns the legislation historical recap (status) categories for the given bill number. 
-Exception thrown for invalid biennium or date range. 
-Expects biennium to be in the format: 2005-06
+Exception thrown for invalid biennium or date range.
 
-**Parameters:**
-
-| Name | Type | Required | Description |
-|------|------|----------|-------------|
-| `biennium` | `string` | No |  |
-| `billNumber` | `int` | Yes |  |
-| `beginDate` | `dateTime` | Yes |  |
-| `endDate` | `dateTime` | Yes |  |
-
-**Returns:** `ArrayOfLegislationRecapCategories`
-
+`([str]biennium?, [int]billNumber, [dt]beginDate, [dt]endDate) => ArrayOfLegislationRecapCategories`
 
 #### `GetLegislativeStatusChangesByDateRange`
-
 **Parameters:**
 
 | Name | Type | Required | Description |
 |------|------|----------|-------------|
-| `biennium` | `string` | No |  |
-| `beginDate` | `dateTime` | Yes |  |
-| `endDate` | `dateTime` | Yes |  |
+| `biennium` | `string` | No | |
+| `beginDate` | `dateTime` | Yes | |
+| `endDate` | `dateTime` | Yes | |
 
 **Returns:** `ArrayOfLegislativeStatus`
-
 
 #### `GetLegislationByYear`
 
-Returns summary legislation information on all bills active during the year.  If substitutes to the bill have been proposed, they will be listed separately.  The active flag is true for versions that can be passed on the floor. 
-Exception thrown for invalid year. 
-Expects biennium to be in the format: 2005-06
+Returns summary legislation information on all bills active during the year. If substitutes to the bill have been proposed, they will be listed separately. The active flag is true for versions that can be passed on the floor. 
+Exception thrown for invalid year.
 
-**Parameters:**
-
-| Name | Type | Required | Description |
-|------|------|----------|-------------|
-| `year` | `int` | Yes |  |
-
-**Returns:** `ArrayOfLegislationInfo`
-
+`([int]year) => ArrayOfLegislationInfo`
 
 #### `GetLegislationInfoIntroducedSince`
+Returns summary legislation information on all bills introduced since the date given. If substitutes to the bill have been proposed, they will be listed separately. The active flag is true for versions that can be passed on the floor.
 
-Returns summary legislation information on all bills introduced since the date given.  If substitutes to the bill have been proposed, they will be listed separately.  The active flag is true for versions that can be passed on the floor.
-
-**Parameters:**
-
-| Name | Type | Required | Description |
-|------|------|----------|-------------|
-| `sinceDate` | `dateTime` | Yes |  |
-
-**Returns:** `ArrayOfLegislationInfo`
-
+`([dt]sinceDate) => ArrayOfLegislationInfo`
 
 #### `GetPreFiledLegislationInfo`
-
 Returns summary legislation information on all prefiled bills (currently in prefiled status). 
 Once a bill is formally introduced, its information can be obtained by calling the GetLegislation method.
 
-**Parameters:** None
-
-**Returns:** `ArrayOfLegislationInfo`
-
+`() => ArrayOfLegislationInfo`
 
 #### `GetHouseLegislationPassedHouse`
+Returns summary legislation information on all House bills that have passed the House.<br/><br/>
 
-Returns summary legislation information on all House bills that have passed the House.<br/>Exception thrown for invalid biennium.<br/>Expects biennium to be in the format: 2005-06
-
-**Parameters:**
-
-| Name | Type | Required | Description |
-|------|------|----------|-------------|
-| `biennium` | `string` | No |  |
-
-**Returns:** `ArrayOfLegislationInfo`
-
+`([str]biennium?) => ArrayOfLegislationInfo`
 
 #### `GetHouseLegislationPassedSenate`
+Returns summary legislation information on all House bills that have passed the Senate.<br/><br/>
 
-Returns summary legislation information on all House bills that have passed the Senate.<br/>Exception thrown for invalid biennium.<br/>Expects biennium to be in the format: 2005-06
-
-**Parameters:**
-
-| Name | Type | Required | Description |
-|------|------|----------|-------------|
-| `biennium` | `string` | No |  |
-
-**Returns:** `ArrayOfLegislationInfo`
-
+`([str]biennium?) => ArrayOfLegislationInfo`
 
 #### `GetSenateLegislationPassedSenate`
+Returns summary legislation information on all Senate bills that have passed the Senate.<br/><br/>
 
-Returns summary legislation information on all Senate bills that have passed the Senate.<br/>Exception thrown for invalid biennium.<br/>Expects biennium to be in the format: 2005-06
-
-**Parameters:**
-
-| Name | Type | Required | Description |
-|------|------|----------|-------------|
-| `biennium` | `string` | No |  |
-
-**Returns:** `ArrayOfLegislationInfo`
-
+`([str]biennium?) => ArrayOfLegislationInfo`
 
 #### `GetSenateLegislationPassedHouse`
+Returns summary legislation information on all Senate bills that have passed the House.<br/><br/>
 
-Returns summary legislation information on all Senate bills that have passed the House.<br/>Exception thrown for invalid biennium.<br/>Expects biennium to be in the format: 2005-06
-
-**Parameters:**
-
-| Name | Type | Required | Description |
-|------|------|----------|-------------|
-| `biennium` | `string` | No |  |
-
-**Returns:** `ArrayOfLegislationInfo`
-
+`([str]biennium?) => ArrayOfLegislationInfo`
 
 #### `GetLegislationPassedLegislature`
+Returns summary legislation information on all bills that have passed the legislature.<br/><br/>
 
-Returns summary legislation information on all bills that have passed the legislature.<br/>Exception thrown for invalid biennium.<br/>Expects biennium to be in the format: 2005-06
-
-**Parameters:**
-
-| Name | Type | Required | Description |
-|------|------|----------|-------------|
-| `biennium` | `string` | No |  |
-
-**Returns:** `ArrayOfLegislationInfo`
-
+`([str]biennium?) => ArrayOfLegislationInfo`
 
 #### `GetLegislationPassedLegislatureWithinTimeFrame`
-
 Returns summary legislation information on all bills that have passed the legislature within the begin and end date.
 
-**Parameters:**
-
-| Name | Type | Required | Description |
-|------|------|----------|-------------|
-| `beginDate` | `dateTime` | Yes |  |
-| `endDate` | `dateTime` | Yes |  |
-
-**Returns:** `ArrayOfLegislationInfo`
-
+`([dt]beginDate, [dt]endDate) => ArrayOfLegislationInfo`
 
 #### `GetLegislationPassedHouse`
+Returns summary legislation information on all bills that have passed the House.<br/><br/>
 
-Returns summary legislation information on all bills that have passed the House.<br/>Exception thrown for invalid biennium.<br/>Expects biennium to be in the format: 2005-06
-
-**Parameters:**
-
-| Name | Type | Required | Description |
-|------|------|----------|-------------|
-| `biennium` | `string` | No |  |
-
-**Returns:** `ArrayOfLegislationInfo`
-
+`([str]biennium?) => ArrayOfLegislationInfo`
 
 #### `GetLegislationPassedSenate`
+Returns summary legislation information on all bills that have passed the Senate.<br/><br/>
 
-Returns summary legislation information on all bills that have passed the Senate.<br/>Exception thrown for invalid biennium.<br/>Expects biennium to be in the format: 2005-06
-
-**Parameters:**
-
-| Name | Type | Required | Description |
-|------|------|----------|-------------|
-| `biennium` | `string` | No |  |
-
-**Returns:** `ArrayOfLegislationInfo`
-
+`([str]biennium?) => ArrayOfLegislationInfo`
 
 #### `GetLegislationGovernorSigned`
+Returns summary legislation information on all bills that have been signed by the governor.<br/>Exception thrown for invalid agency or biennium.<br/>
 
-Returns summary legislation information on all bills that have been signed by the governor.<br/>Exception thrown for invalid agency or biennium.<br/>Expects biennium to be in the format: 2005-06<br/>Agency should be House or Senate.
-
-**Parameters:**
-
-| Name | Type | Required | Description |
-|------|------|----------|-------------|
-| `biennium` | `string` | No |  |
-| `agency` | `string` | No |  |
-
-**Returns:** `ArrayOfLegislationInfo`
-
+`([str]biennium?, [str]agency?) => ArrayOfLegislationInfo`
 
 #### `GetLegislationGovernorVeto`
+Returns summary legislation information on all bills that have been vetoed by the governor.<br/>Exception thrown for invalid agency or biennium.<br/>
 
-Returns summary legislation information on all bills that have been vetoed by the governor.<br/>Exception thrown for invalid agency or biennium.<br/>Expects biennium to be in the format: 2005-06<br/>Agency should be House or Senate.
-
-**Parameters:**
-
-| Name | Type | Required | Description |
-|------|------|----------|-------------|
-| `biennium` | `string` | No |  |
-| `agency` | `string` | No |  |
-
-**Returns:** `ArrayOfLegislationInfo`
-
+`([str]biennium?, [str]agency?) => ArrayOfLegislationInfo`
 
 #### `GetLegislationGovernorPartialVeto`
+Returns summary legislation information on all bills that have been partially vetoed by the governor.<br/>Exception thrown for invalid agency or biennium.<br/>
 
-Returns summary legislation information on all bills that have been partially vetoed by the governor.<br/>Exception thrown for invalid agency or biennium.<br/>Expects biennium to be in the format: 2005-06<br/>Agency should be House or Senate.
-
-**Parameters:**
-
-| Name | Type | Required | Description |
-|------|------|----------|-------------|
-| `biennium` | `string` | No |  |
-| `agency` | `string` | No |  |
-
-**Returns:** `ArrayOfLegislationInfo`
-
+`([str]biennium?, [str]agency?) => ArrayOfLegislationInfo`
 
 #### `GetPublishedEnrolledLegislation`
+Returns summary legislation information on all bills that have been enrolled and published by the legislature.<br/><br/>
 
-Returns summary legislation information on all bills that have been enrolled and published by the legislature.<br/>Exception thrown for invalid biennium.<br/>Expects biennium to be in the format: 2005-06
-
-**Parameters:**
-
-| Name | Type | Required | Description |
-|------|------|----------|-------------|
-| `biennium` | `string` | No |  |
-
-**Returns:** `ArrayOfLegislationInfo`
-
+`([str]biennium?) => ArrayOfLegislationInfo`
 
 #### `GetLegislationPassedHouseWithinTimeFrame`
+Returns summary legislation information on all bills that House passed off the floor for the first time between the begin and end date (even if the bill is not currently passed the House - For example, a House bill that the House passed may have been amended in the Senate and the House has not passed the amended version of the bill. This bill would still be returned in this method. If you don't want that bill, use the GetLegislationPassedHouse.).
 
-Returns summary legislation information on all bills that House passed off the floor for the first time between the begin and end date (even if the bill is not currently passed the House - For example, a House bill that the House passed may have been amended in the Senate and the House has not passed the amended version of the bill.  This bill would still be returned in this method.  If you don't want that bill, use the GetLegislationPassedHouse.).
-
-**Parameters:**
-
-| Name | Type | Required | Description |
-|------|------|----------|-------------|
-| `beginDate` | `dateTime` | Yes |  |
-| `endDate` | `dateTime` | Yes |  |
-
-**Returns:** `ArrayOfLegislationInfo`
-
+`([dt]beginDate, [dt]endDate) => ArrayOfLegislationInfo`
 
 #### `GetLegislationPassedSenateWithinTimeFrame`
+Returns summary legislation information on all bills that Senate passed off the floor for the first time between the begin and end date (even if the bill is not currently passed the House - For example, a Senate bill that the Senate passed may have been amended in the House and the Senate has not passed the amended version of the bill. This bill would still be returned in this method. If you don't want that bill, use the GetLegislationPassedSenate.).
 
-Returns summary legislation information on all bills that Senate passed off the floor for the first time between the begin and end date (even if the bill is not currently passed the House - For example, a Senate bill that the Senate passed may have been amended in the House and the Senate has not passed the amended version of the bill.  This bill would still be returned in this method.  If you don't want that bill, use the GetLegislationPassedSenate.).
-
-**Parameters:**
-
-| Name | Type | Required | Description |
-|------|------|----------|-------------|
-| `beginDate` | `dateTime` | Yes |  |
-| `endDate` | `dateTime` | Yes |  |
-
-**Returns:** `ArrayOfLegislationInfo`
-
+`([dt]beginDate, [dt]endDate) => ArrayOfLegislationInfo`
 
 #### `GetLegislationNotYetIntroducedInHouseOfOrigin`
+Returns summary legislation information on bills that are active, have available bill text, and have not yet been introduced in the house of origin.<br/>
 
-Returns summary legislation information on bills that are active, have available bill text, and have not yet been introduced in the house of origin.<br/>Expects biennium to be in the format: 2005-06
-
-**Parameters:**
-
-| Name | Type | Required | Description |
-|------|------|----------|-------------|
-| `biennium` | `string` | No |  |
-
-**Returns:** `ArrayOfLegislationInfo`
-
+`([str]biennium?) => ArrayOfLegislationInfo`
 
 #### `GetLegislationPassedOriginalBodyAndNotIntroducedInOppositeBody`
+Returns summary legislation information on bills that have passed the originating body and not yet introduced in opposite body.<br/>
 
-Returns summary legislation information on bills that have passed the originating body and not yet introduced in opposite body.<br/>Expects biennium to be in the format: 2005-06
-
-**Parameters:**
-
-| Name | Type | Required | Description |
-|------|------|----------|-------------|
-| `biennium` | `string` | No |  |
-
-**Returns:** `ArrayOfLegislationInfo`
-
+`([str]biennium?) => ArrayOfLegislationInfo`
 
 #### `GetLegislativeBillListFeatureData`
-
 Returns a .net DataTable for the LegislativeBillList SharePoint Feature
 
 **Parameters:** None
 
-
 #### `DataTable`
 
 **Parameters:** None
-
 
 ---
 
@@ -1130,7 +551,6 @@ Returns a .net DataTable for the LegislativeBillList SharePoint Feature
 **Endpoint:** `https://wslwebservices.leg.wa.gov/LegislativeDocumentService.asmx`
 
 **Description:** Information on documents relating to legislation of the Washington State Legislature.
-
 
 ### Operations Summary
 
@@ -1147,67 +567,32 @@ Returns a .net DataTable for the LegislativeBillList SharePoint Feature
 
 Lists legislative documents of the given document class with names starting with the namedlike value. 
 Exception thrown for invalid biennium, documentClass or namedLike or when no documents found. 
-Expects the biennium in the format: 2005-06.  Information is available back to 1991-92. For Initiatives to the Legislature, enter the following in namedLike: Initiative. 
+Expects the biennium in the format: 2005-06. Information is available back to 1991-92. For Initiatives to the Legislature, enter the following in namedLike: Initiative. 
 The results will include URLs to PDF and HTM versions of each document.
 
-**Parameters:**
-
-| Name | Type | Required | Description |
-|------|------|----------|-------------|
-| `biennium` | `string` | No |  |
-| `documentClass` | `string` | No |  |
-| `namedLike` | `string` | No |  |
-
-**Returns:** `ArrayOfLegislativeDocument`
-
+`([str]biennium?, [str]documentClass?, [str]namedLike?) => ArrayOfLegislativeDocument`
 
 #### `GetDocuments`
-
 Lists legislative documents with names starting with the namedlike value. 
 Exception thrown for invalid biennium or namedLike or when no documents found. 
 Expects the biennium in the format: 2005-06. Information is available back to 1991-92.For Initiatives to the Legislature, enter the following in namedLike: Initiative.<br>The results will include URLs to PDF and HTM versions of each document.
 
-**Parameters:**
-
-| Name | Type | Required | Description |
-|------|------|----------|-------------|
-| `biennium` | `string` | No |  |
-| `namedLike` | `string` | No |  |
-
-**Returns:** `ArrayOfLegislativeDocument`
-
+`([str]biennium?, [str]namedLike?) => ArrayOfLegislativeDocument`
 
 #### `GetDocumentClasses`
-
 Returns available bill family document types for the given biennium. 
-Exception thrown for invalid biennium. 
-Expects biennium to be in the format: 2005-06.  Information is available back to 1991-92.
+ 
+. Information is available back to 1991-92.
 
-**Parameters:**
-
-| Name | Type | Required | Description |
-|------|------|----------|-------------|
-| `biennium` | `string` | No |  |
-
-**Returns:** `ArrayOfAnyType`
-
+`([str]biennium?) => ArrayOfAnyType`
 
 #### `GetAllDocumentsByClass`
-
 Lists all legislative documents of the given document class. 
 Exception thrown for invalid biennium or documentClass. 
-Expects the biennium in the format: 2005-06.  Information is available back to 1991-92. 
+Expects the biennium in the format: 2005-06. Information is available back to 1991-92. 
 The results will include URLs to PDF and HTM versions of each document.
 
-**Parameters:**
-
-| Name | Type | Required | Description |
-|------|------|----------|-------------|
-| `biennium` | `string` | No |  |
-| `documentClass` | `string` | No |  |
-
-**Returns:** `ArrayOfLegislativeDocument`
-
+`([str]biennium?, [str]documentClass?) => ArrayOfLegislativeDocument`
 
 ---
 
@@ -1216,7 +601,6 @@ The results will include URLs to PDF and HTM versions of each document.
 **Endpoint:** `https://wslwebservices.leg.wa.gov/RcwCiteAffectedService.asmx`
 
 **Description:** Information on RCW cites affected by legislation of the Washington State Legislature.
-
 
 ### Operations Summary
 
@@ -1228,36 +612,16 @@ The results will include URLs to PDF and HTM versions of each document.
 ### Operation Details
 
 #### `GetLegislationAffectingRcwCite`
-
 Returns legislation that affect the RCW Cite. 
-Exception thrown for invalid biennium or rcwCite. 
-Expects biennium to be in the format: 2005-06
+Exception thrown for invalid biennium or rcwCite.
 
-**Parameters:**
-
-| Name | Type | Required | Description |
-|------|------|----------|-------------|
-| `biennium` | `string` | No |  |
-| `rcwCite` | `string` | No |  |
-
-**Returns:** `ArrayOfLegislationInfo`
-
+`([str]biennium?, [str]rcwCite?) => ArrayOfLegislationInfo`
 
 #### `GetLegislationAffectingRcw`
-
 Returns legislation that affect the RCW within the title, chapter, or section. 
-Exception thrown for invalid biennium or rcwCite. 
-Expects biennium to be in the format: 2005-06
+Exception thrown for invalid biennium or rcwCite.
 
-**Parameters:**
-
-| Name | Type | Required | Description |
-|------|------|----------|-------------|
-| `biennium` | `string` | No |  |
-| `rcwCite` | `string` | No |  |
-
-**Returns:** `ArrayOfLegislationInfo`
-
+`([str]biennium?, [str]rcwCite?) => ArrayOfLegislationInfo`
 
 ---
 
@@ -1266,7 +630,6 @@ Expects biennium to be in the format: 2005-06
 **Endpoint:** `https://wslwebservices.leg.wa.gov/SessionLawService.asmx`
 
 **Description:** Information on legislation relating to session laws of the Washington State Legislature.
-
 
 ### Operations Summary
 
@@ -1281,82 +644,38 @@ Expects biennium to be in the format: 2005-06
 ### Operation Details
 
 #### `GetSessionLawByBill`
-
 Returns session law information for a bill. Note: This will not return information on Initiatives to the Legislature. 
 Exception thrown for invalid biennium or when no session law found. 
-Expects biennium to be in the format: 2005-06.
+.
 
-**Parameters:**
-
-| Name | Type | Required | Description |
-|------|------|----------|-------------|
-| `biennium` | `string` | No |  |
-| `billNumber` | `int` | Yes |  |
-
-**Returns:** `SessionLaw`
-
+`([str]biennium?, [int]billNumber) => SessionLaw`
 
 #### `GetBillByChapterNumber`
-
 Returns Bill information for a chapter. 
 Exception thrown for invalid year or when no legislation found. 
 Expects year in the format: YYYY. Session is the SessionCode (0=Regular Session, 1=1st Special Session, etc.).
 
-**Parameters:**
-
-| Name | Type | Required | Description |
-|------|------|----------|-------------|
-| `year` | `int` | Yes |  |
-| `session` | `int` | Yes |  |
-| `chapterNumber` | `int` | Yes |  |
-
-**Returns:** `Legislation`
-
+`([int]year, [int]session, [int]chapterNumber) => Legislation`
 
 #### `GetChapterNumbersByYear`
-
 Returns all Chapters for a year. 
 Exception thrown for invalid year. 
 Expects year in the format: YYYY.
 
-**Parameters:**
-
-| Name | Type | Required | Description |
-|------|------|----------|-------------|
-| `year` | `int` | Yes |  |
-
-**Returns:** `ArrayOfSessionLaw`
-
+`([int]year) => ArrayOfSessionLaw`
 
 #### `GetSessionLawByBillId`
-
 Returns session law information for a billId. 
 Exception thrown for invalid biennium or when no session law found. 
-Expects biennium to be in the format: 2005-06.
+.
 
-**Parameters:**
-
-| Name | Type | Required | Description |
-|------|------|----------|-------------|
-| `biennium` | `string` | No |  |
-| `billId` | `string` | No |  |
-
-**Returns:** `SessionLaw`
-
+`([str]biennium?, [str]billId?) => SessionLaw`
 
 #### `GetSessionLawByInitiativeNumber`
-
 Returns session law information for an Initiative to the Legislature. 
 Exception thrown when no session law found.
 
-**Parameters:**
-
-| Name | Type | Required | Description |
-|------|------|----------|-------------|
-| `initiativeNumber` | `int` | Yes |  |
-
-**Returns:** `SessionLaw`
-
+`([int]initiativeNumber) => SessionLaw`
 
 ---
 
@@ -1365,7 +684,6 @@ Exception thrown when no session law found.
 **Endpoint:** `https://wslwebservices.leg.wa.gov/SponsorService.asmx`
 
 **Description:** Information on sponsors of legislation in the Washington State Legislature.
-
 
 ### Operations Summary
 
@@ -1379,64 +697,24 @@ Exception thrown when no session law found.
 ### Operation Details
 
 #### `GetSponsors`
+All Representatives and Senators that have served during the given biennium.
 
-All Representatives and Senators that have served during the given biennium. 
-Exception thrown for invalid biennium. 
-Expects biennium to be in the format: 2005-06
-
-**Parameters:**
-
-| Name | Type | Required | Description |
-|------|------|----------|-------------|
-| `biennium` | `string` | No |  |
-
-**Returns:** `ArrayOfMember`
-
+`([str]biennium?) => ArrayOfMember`
 
 #### `GetHouseSponsors`
+All Representatives that have served during the given biennium.
 
-All Representatives that have served during the given biennium. 
-Exception thrown for invalid biennium. 
-Expects biennium to be in the format: 2005-06
-
-**Parameters:**
-
-| Name | Type | Required | Description |
-|------|------|----------|-------------|
-| `biennium` | `string` | No |  |
-
-**Returns:** `ArrayOfMember`
-
+`([str]biennium?) => ArrayOfMember`
 
 #### `GetSenateSponsors`
+All Senators that have served during the given biennium.
 
-All Senators that have served during the given biennium. 
-Exception thrown for invalid biennium. 
-Expects biennium to be in the format: 2005-06
-
-**Parameters:**
-
-| Name | Type | Required | Description |
-|------|------|----------|-------------|
-| `biennium` | `string` | No |  |
-
-**Returns:** `ArrayOfMember`
-
+`([str]biennium?) => ArrayOfMember`
 
 #### `GetRequesters`
+All entities that can request legislation for the given biennium.
 
-All entities that can request legislation for the given biennium. 
-Exception thrown for invalid biennium. 
-Expects biennium to be in the format: 2005-06
-
-**Parameters:**
-
-| Name | Type | Required | Description |
-|------|------|----------|-------------|
-| `biennium` | `string` | No |  |
-
-**Returns:** `ArrayOfLegislativeEntity`
-
+`([str]biennium?) => ArrayOfLegislativeEntity`
 
 ---
 
@@ -1444,471 +722,463 @@ Expects biennium to be in the format: 2005-06
 
 ### `Amendment`
 
-| Field | Type | Required | Description |
-|-------|------|----------|-------------|
-| `BillNumber` | `int` [1..1] | Yes | 3 or 4 digit number assigned to a piece of legisla |
-| `Name` | `string` [0..1] | No | Title of amendment, document, or entity name. Pair |
-| `BillId` | `string` [0..1] | No | Prefix and bill number of a piece of legislation.  |
-| `LegislativeSession` | `string` [0..1] | No | Session description. In the case of the amendment, |
-| `Type` | `string` [0..1] | No | Describes what body originally considered the amen |
-| `FloorNumber` | `int` [1..1] | Yes | Number assigned to a floor amendment when it is su |
-| `SponsorName` | `string` [0..1] | No | Primary sponsor of the amendment. |
-| `Description` | `string` [0..1] | No | Describes the content of the amendment or document |
-| `Drafter` | `string` [0..1] | No | Abbreviated designation of the amendment drafter a |
-| `FloorAction` | `string` [0..1] | No | Action taken by the legislative body during a floo |
-| `FloorActionDate` | `dateTime` [1..1] | Yes | Date of action taken by the legislative body durin |
-| `DocumentExists` | `boolean` [1..1] | Yes | True if the legislative document related to the ob |
-| `HtmUrl` | `string` [0..1] | No | URL path to HTML version of the legislative docume |
-| `PdfUrl` | `string` [0..1] | No | URL path to PDF version of the legislative documen |
-| `Agency` | `string` [0..1] | No | Legislative Body. |
+```ts
+interface Amendment {
+  BillNumber: int
+  Name?: string
+  BillId?: string
+  LegislativeSession?: string
+  Type?: string
+  FloorNumber: int
+  SponsorName?: string
+  Description?: string
+  Drafter?: string
+  FloorAction?: string
+  FloorActionDate: dateTime
+  DocumentExists: boolean
+  HtmUrl?: string
+  PdfUrl?: string
+  Agency?: string
+}
+```
 
 ### `ArrayOfAmendment`
 
-| Field | Type | Required | Description |
-|-------|------|----------|-------------|
-| `Amendment` | `Amendment` [0..∞] | No |  |
+`type ArrayOfAmendment = Amendment[]`
 
 ### `ArrayOfAnyType`
 
-| Field | Type | Required | Description |
-|-------|------|----------|-------------|
-| `anyType` | `None` [0..∞] | No |  |
+`type ArrayOfAnyType = None[]`
 
 ### `ArrayOfCommittee`
 
-| Field | Type | Required | Description |
-|-------|------|----------|-------------|
-| `Committee` | `Committee` [0..∞] | No |  |
+`type ArrayOfCommittee = Committee[]`
 
 ### `ArrayOfCommitteeAction`
 
-| Field | Type | Required | Description |
-|-------|------|----------|-------------|
-| `CommitteeAction` | `CommitteeAction` [0..∞] | No |  |
+`type ArrayOfCommitteeAction = CommitteeAction[]`
 
 ### `ArrayOfCommitteeMeeting`
 
-| Field | Type | Required | Description |
-|-------|------|----------|-------------|
-| `CommitteeMeeting` | `CommitteeMeeting` [0..∞] | No |  |
+`type ArrayOfCommitteeMeeting = CommitteeMeeting[]`
 
 ### `ArrayOfCommitteeMeetingItem`
 
-| Field | Type | Required | Description |
-|-------|------|----------|-------------|
-| `CommitteeMeetingItem` | `CommitteeMeetingItem` [0..∞] | No |  |
+`type ArrayOfCommitteeMeetingItem = CommitteeMeetingItem[]`
 
 ### `ArrayOfCommitteeRecommendation`
 
-| Field | Type | Required | Description |
-|-------|------|----------|-------------|
-| `CommitteeRecommendation` | `CommitteeRecommendation` [0..∞] | No |  |
+`type ArrayOfCommitteeRecommendation = CommitteeRecommendation[]`
 
 ### `ArrayOfCommitteeReferral`
 
-| Field | Type | Required | Description |
-|-------|------|----------|-------------|
-| `CommitteeReferral` | `CommitteeReferral` [0..∞] | No |  |
+`type ArrayOfCommitteeReferral = CommitteeReferral[]`
 
 ### `ArrayOfCompanion`
 
-| Field | Type | Required | Description |
-|-------|------|----------|-------------|
-| `Companion` | `Companion` [0..∞] | No |  |
+`type ArrayOfCompanion = Companion[]`
 
 ### `ArrayOfHearing`
 
-| Field | Type | Required | Description |
-|-------|------|----------|-------------|
-| `Hearing` | `Hearing` [0..∞] | No |  |
+`type ArrayOfHearing = Hearing[]`
 
 ### `ArrayOfLegislation`
 
-| Field | Type | Required | Description |
-|-------|------|----------|-------------|
-| `Legislation` | `Legislation` [0..∞] | No |  |
+`type ArrayOfLegislation = Legislation[]`
 
 ### `ArrayOfLegislationFamily`
 
-| Field | Type | Required | Description |
-|-------|------|----------|-------------|
-| `LegislationFamily` | `LegislationFamily` [0..∞] | No |  |
+`type ArrayOfLegislationFamily = LegislationFamily[]`
 
 ### `ArrayOfLegislationFamilyMeeting`
 
-| Field | Type | Required | Description |
-|-------|------|----------|-------------|
-| `LegislationFamilyMeeting` | `LegislationFamilyMeeting` [0..∞] | No |  |
+`type ArrayOfLegislationFamilyMeeting = LegislationFamilyMeeting[]`
 
 ### `ArrayOfLegislationInfo`
 
-| Field | Type | Required | Description |
-|-------|------|----------|-------------|
-| `LegislationInfo` | `LegislationInfo` [0..∞] | No |  |
+`type ArrayOfLegislationInfo = LegislationInfo[]`
 
 ### `ArrayOfLegislationRecapCategories`
 
-| Field | Type | Required | Description |
-|-------|------|----------|-------------|
-| `LegislationRecapCategories` | `LegislationRecapCategories` [0..∞] | No |  |
+`type ArrayOfLegislationRecapCategories = LegislationRecapCategories[]`
 
 ### `ArrayOfLegislationType`
 
-| Field | Type | Required | Description |
-|-------|------|----------|-------------|
-| `LegislationType` | `LegislationType` [0..∞] | No |  |
+`type ArrayOfLegislationType = LegislationType[]`
 
 ### `ArrayOfLegislativeDocument`
 
-| Field | Type | Required | Description |
-|-------|------|----------|-------------|
-| `LegislativeDocument` | `LegislativeDocument` [0..∞] | No |  |
+`type ArrayOfLegislativeDocument = LegislativeDocument[]`
 
 ### `ArrayOfLegislativeEntity`
 
-| Field | Type | Required | Description |
-|-------|------|----------|-------------|
-| `LegislativeEntity` | `LegislativeEntity` [0..∞] | No |  |
+`type ArrayOfLegislativeEntity = LegislativeEntity[]`
 
 ### `ArrayOfLegislativeStatus`
 
-| Field | Type | Required | Description |
-|-------|------|----------|-------------|
-| `LegislativeStatus` | `LegislativeStatus` [0..∞] | No |  |
+`type ArrayOfLegislativeStatus = LegislativeStatus[]`
 
 ### `ArrayOfMember`
 
-| Field | Type | Required | Description |
-|-------|------|----------|-------------|
-| `Member` | `Member` [0..∞] | No |  |
+`type ArrayOfMember = Member[]`
 
 ### `ArrayOfRcwCiteAffected`
 
-| Field | Type | Required | Description |
-|-------|------|----------|-------------|
-| `RcwCiteAffected` | `RcwCiteAffected` [0..∞] | No |  |
+`type ArrayOfRcwCiteAffected = RcwCiteAffected[]`
 
 ### `ArrayOfRollCall`
 
-| Field | Type | Required | Description |
-|-------|------|----------|-------------|
-| `RollCall` | `RollCall` [0..∞] | No |  |
+`type ArrayOfRollCall = RollCall[]`
 
 ### `ArrayOfSessionLaw`
 
-| Field | Type | Required | Description |
-|-------|------|----------|-------------|
-| `SessionLaw` | `SessionLaw` [0..∞] | No |  |
+`type ArrayOfSessionLaw = SessionLaw[]`
 
 ### `ArrayOfSignature`
 
-| Field | Type | Required | Description |
-|-------|------|----------|-------------|
-| `Signature` | `Signature` [0..∞] | No |  |
+`type ArrayOfSignature = Signature[]`
 
 ### `ArrayOfSponsor`
 
-| Field | Type | Required | Description |
-|-------|------|----------|-------------|
-| `Sponsor` | `Sponsor` [0..∞] | No | Common display string of sponsor name. If the bill |
+`type ArrayOfSponsor = Sponsor[]`
 
 ### `ArrayOfVote`
 
-| Field | Type | Required | Description |
-|-------|------|----------|-------------|
-| `Vote` | `Vote` [0..∞] | No |  |
+`type ArrayOfVote = Vote[]`
 
-### `Committee`
+### `Committee` Extends: `LegislativeEntity`
 
-*Extends: `LegislativeEntity`*
-
-| Field | Type | Required | Description |
-|-------|------|----------|-------------|
-| `Phone` | `string` [0..1] | No | Phone number. |
+```ts
+interface Committee {
+  Phone?: string
+}
+```
 
 ### `CommitteeAction`
 
-| Field | Type | Required | Description |
-|-------|------|----------|-------------|
-| `AgendaId` | `int` [1..1] | Yes | Unique integer for a standing committee meeting. |
-| `HearingDate` | `dateTime` [1..1] | Yes | The date the committee action occurred. |
-| `LegislationInfo` | `LegislationInfo` [0..1] | No |  |
-| `Committee` | `Committee` [0..1] | No |  |
-| `ReferredToCommittee` | `Committee` [0..1] | No |  |
-| `CommitteeRecommendations` | `ArrayOfCommitteeRecommendation` [0..1] | No |  |
+```ts
+interface CommitteeAction {
+  AgendaId: int
+  HearingDate: dateTime
+  LegislationInfo?: LegislationInfo
+  Committee?: Committee
+  ReferredToCommittee?: Committee
+  CommitteeRecommendations?: ArrayOfCommitteeRecommendation
+}
+```
 
 ### `CommitteeMeeting`
 
-| Field | Type | Required | Description |
-|-------|------|----------|-------------|
-| `AgendaId` | `int` [1..1] | Yes | Unique integer for a standing committee meeting. |
-| `Agency` | `string` [0..1] | No | Legislative Body. |
-| `Committees` | `ArrayOfCommittee` [0..1] | No |  |
-| `Room` | `string` [0..1] | No | Reference to a room in a building on the legislati |
-| `Building` | `string` [0..1] | No | Reference to building on the legislative campus. |
-| `Address` | `string` [0..1] | No | Street address. |
-| `City` | `string` [0..1] | No | City name. |
-| `State` | `string` [0..1] | No | State name. |
-| `ZipCode` | `int` [1..1] | Yes | Postal zip code. |
-| `Date` | `dateTime` [1..1] | Yes |  |
-| `Cancelled` | `boolean` [1..1] | Yes | True if the committee meeting has been cancelled. |
-| `RevisedDate` | `dateTime` [1..1] | Yes |  |
-| `ContactInformation` | `string` [0..1] | No | Contact information for the staff coordinating the |
-| `CommitteeType` | `string` [0..1] | No |  |
-| `Notes` | `string` [0..1] | No |  |
+```ts
+interface CommitteeMeeting {
+  AgendaId: int
+  Agency?: string
+  Committees?: ArrayOfCommittee
+  Room?: string
+  Building?: string
+  Address?: string
+  City?: string
+  State?: string
+  ZipCode: int
+  Date: dateTime
+  Cancelled: boolean
+  RevisedDate: dateTime
+  ContactInformation?: string
+  CommitteeType?: string
+  Notes?: string
+}
+```
 
 ### `CommitteeMeetingItem`
 
-| Field | Type | Required | Description |
-|-------|------|----------|-------------|
-| `AgendaId` | `int` [1..1] | Yes | Unique integer for a standing committee meeting. |
-| `HearingType` | `string` [0..1] | No | The type of activity that the standing committee w |
-| `HearingTypeDescription` | `string` [0..1] | No |  |
-| `BillId` | `string` [0..1] | No | Prefix and bill number of a piece of legislation.  |
-| `ItemDescription` | `string` [0..1] | No | Less than a sentence summary describing an item on |
-| `Order` | `int` [1..1] | Yes | Used to determine sort order. |
-| `Biennium` | `string` [0..1] | No | Two year time period beginning on odd years. Legis |
-| `SortOrderString` | `string` [0..1] | No |  |
+```ts
+interface CommitteeMeetingItem {
+  AgendaId: int
+  HearingType?: string
+  HearingTypeDescription?: string
+  BillId?: string
+  ItemDescription?: string
+  Order: int
+  Biennium?: string
+  SortOrderString?: string
+}
+```
 
 ### `CommitteeRecommendation`
 
-| Field | Type | Required | Description |
-|-------|------|----------|-------------|
-| `Recommendation` | `string` [0..1] | No | Committee recommendation. |
-| `LongRecommendation` | `string` [0..1] | No | A more descriptive version of Recommendation. |
-| `RecommendationType` | `RecommendationType` [1..1] | Yes | The type of committee recommendation. |
-| `MembersSigned` | `string` [0..1] | No |  |
-| `Signatures` | `ArrayOfSignature` [0..1] | No |  |
+```ts
+interface CommitteeRecommendation {
+  Recommendation?: string
+  LongRecommendation?: string
+  RecommendationType: RecommendationType
+  MembersSigned?: string
+  Signatures?: ArrayOfSignature
+}
+```
 
 ### `CommitteeReferral`
 
-| Field | Type | Required | Description |
-|-------|------|----------|-------------|
-| `LegislationInfo` | `LegislationInfo` [0..1] | No |  |
-| `Committee` | `Committee` [0..1] | No |  |
-| `ReferredDate` | `dateTime` [1..1] | Yes | Date the bill was referred to the committee. |
+```ts
+interface CommitteeReferral {
+  LegislationInfo?: LegislationInfo
+  Committee?: Committee
+  ReferredDate: dateTime
+}
+```
 
 ### `Companion`
 
-| Field | Type | Required | Description |
-|-------|------|----------|-------------|
-| `Biennium` | `string` [0..1] | No | Two year time period beginning on odd years. Legis |
-| `BillId` | `string` [0..1] | No | Prefix and bill number of a piece of legislation.  |
-| `Status` | `string` [0..1] | No | Abbreviated description of the status of a piece o |
+```ts
+interface Companion {
+  Biennium?: string
+  BillId?: string
+  Status?: string
+}
+```
 
 ### `Hearing`
 
-| Field | Type | Required | Description |
-|-------|------|----------|-------------|
-| `BillId` | `string` [0..1] | No | Prefix and bill number of a piece of legislation.  |
-| `Biennium` | `string` [0..1] | No | Two year time period beginning on odd years. Legis |
-| `CommitteeMeeting` | `CommitteeMeeting` [0..1] | No |  |
-| `HearingType` | `string` [0..1] | No | The type of activity that the standing committee w |
-| `HearingTypeDescription` | `string` [0..1] | No |  |
+```ts
+interface Hearing {
+  BillId?: string
+  Biennium?: string
+  CommitteeMeeting?: CommitteeMeeting
+  HearingType?: string
+  HearingTypeDescription?: string
+}
+```
 
-### `Legislation`
+### `Legislation` Extends: `LegislationInfo`
 
-*Extends: `LegislationInfo`*
-
-| Field | Type | Required | Description |
-|-------|------|----------|-------------|
-| `StateFiscalNote` | `boolean` [1..1] | Yes | True if legislation has one or more state fiscal n |
-| `LocalFiscalNote` | `boolean` [1..1] | Yes | True if legislation has one or more local fiscal n |
-| `Appropriations` | `boolean` [1..1] | Yes | True if the bill has appropriations. |
-| `RequestedByGovernor` | `boolean` [1..1] | Yes | True if the legislation is introduced by request o |
-| `RequestedByBudgetCommittee` | `boolean` [1..1] | Yes | True if the legislation is introduced by request o |
-| `RequestedByDepartment` | `boolean` [1..1] | Yes | True if the legislation is introduced by request o |
-| `RequestedByOther` | `boolean` [1..1] | Yes | True if the legislation is introduced by request o |
-| `ShortDescription` | `string` [0..1] | No | Brief description of the legislation. This is comm |
-| `Request` | `string` [0..1] | No | Request number and version created by the staff in |
-| `IntroducedDate` | `dateTime` [1..1] | Yes | Date that the bill was read first time on the floo |
-| `CurrentStatus` | `LegislativeStatus` [0..1] | No |  |
-| `Sponsor` | `string` [0..1] | No | Common display string of sponsor name. If the bill |
-| `PrimeSponsorID` | `int` [1..1] | Yes | Unique identifier for the primary sponsor of the l |
-| `LongDescription` | `string` [0..1] | No | Summary of legislation written by staff in the Cod |
-| `LegalTitle` | `string` [0..1] | No | Summary of legislation or jingle. |
-| `Companions` | `ArrayOfCompanion` [0..1] | No |  |
+```ts
+interface Legislation {
+  StateFiscalNote: boolean
+  LocalFiscalNote: boolean
+  Appropriations: boolean
+  RequestedByGovernor: boolean
+  RequestedByBudgetCommittee: boolean
+  RequestedByDepartment: boolean
+  RequestedByOther: boolean
+  ShortDescription?: string
+  Request?: string
+  IntroducedDate: dateTime
+  CurrentStatus?: LegislativeStatus
+  Sponsor?: string
+  PrimeSponsorID: int
+  LongDescription?: string
+  LegalTitle?: string
+  Companions?: ArrayOfCompanion
+}
+```
 
 ### `LegislationFamily`
 
-| Field | Type | Required | Description |
-|-------|------|----------|-------------|
-| `Biennium` | `string` [0..1] | No | Two year time period beginning on odd years. Legis |
-| `LegislationNumber` | `int` [1..1] | Yes |  |
-| `LegislationType` | `LegislationType` [0..1] | No |  |
-| `OriginalAgency` | `string` [0..1] | No | Legislative body that the legislation was original |
-| `ScheduledMeetings` | `ArrayOfLegislationFamilyMeeting` [0..1] | No |  |
+```ts
+interface LegislationFamily {
+  Biennium?: string
+  LegislationNumber: int
+  LegislationType?: LegislationType
+  OriginalAgency?: string
+  ScheduledMeetings?: ArrayOfLegislationFamilyMeeting
+}
+```
 
 ### `LegislationFamilyMeeting`
 
-| Field | Type | Required | Description |
-|-------|------|----------|-------------|
-| `MeetingTime` | `dateTime` [1..1] | Yes |  |
-| `Committees` | `ArrayOfCommittee` [0..1] | No |  |
-| `HearingType` | `string` [0..1] | No | The type of activity that the standing committee w |
+```ts
+interface LegislationFamilyMeeting {
+  MeetingTime: dateTime
+  Committees?: ArrayOfCommittee
+  HearingType?: string
+}
+```
 
 ### `LegislationInfo`
 
-| Field | Type | Required | Description |
-|-------|------|----------|-------------|
-| `Biennium` | `string` [0..1] | No | Two year time period beginning on odd years. Legis |
-| `BillId` | `string` [0..1] | No | Prefix and bill number of a piece of legislation.  |
-| `BillNumber` | `int` [1..1] | Yes | 3 or 4 digit number assigned to a piece of legisla |
-| `SubstituteVersion` | `int` [1..1] | Yes | Substitute version of the legislation. Standing co |
-| `EngrossedVersion` | `int` [1..1] | Yes | The engrossed version of the bill number. Each tim |
-| `ShortLegislationType` | `LegislationType` [0..1] | No | Abbreviated designation of the type of legislation |
-| `OriginalAgency` | `string` [0..1] | No | Legislative body that the legislation was original |
-| `Active` | `boolean` [1..1] | Yes |  |
-| `DisplayNumber` | `string` [0..1] | No |  |
+```ts
+interface LegislationInfo {
+  Biennium?: string
+  BillId?: string
+  BillNumber: int
+  SubstituteVersion: int
+  EngrossedVersion: int
+  ShortLegislationType?: LegislationType
+  OriginalAgency?: string
+  Active: boolean
+  DisplayNumber?: string
+}
+```
 
 ### `LegislationRecapCategories`
 
-| Field | Type | Required | Description |
-|-------|------|----------|-------------|
-| `BillNumber` | `int` [1..1] | Yes | 3 or 4 digit number assigned to a piece of legisla |
-| `HistoryText` | `string` [0..1] | No |  |
-| `ActionDate` | `dateTime` [1..1] | Yes | Date that action was taken on the legislation. |
-| `Category` | `string` [0..1] | No |  |
-| `Agency` | `string` [0..1] | No | Legislative Body. |
+```ts
+interface LegislationRecapCategories {
+  BillNumber: int
+  HistoryText?: string
+  ActionDate: dateTime
+  Category?: string
+  Agency?: string
+}
+```
 
 ### `LegislationType`
 
-| Field | Type | Required | Description |
-|-------|------|----------|-------------|
-| `ShortLegislationType` | `string` [0..1] | No | Abbreviated designation of the type of legislation |
-| `LongLegislationType` | `string` [0..1] | No | Descriptive designation of the type of legislation |
+```ts
+interface LegislationType {
+  ShortLegislationType?: string
+  LongLegislationType?: string
+}
+```
 
 ### `LegislativeDocument`
 
-| Field | Type | Required | Description |
-|-------|------|----------|-------------|
-| `Name` | `string` [0..1] | No | Title of amendment, document, or entity name. Pair |
-| `ShortFriendlyName` | `string` [0..1] | No | Short description of the document name. |
-| `Biennium` | `string` [0..1] | No | Two year time period beginning on odd years. Legis |
-| `LongFriendlyName` | `string` [0..1] | No | Long description of the document name. |
-| `Description` | `string` [0..1] | No | Describes the content of the amendment or document |
-| `Type` | `string` [0..1] | No | Describes what body originally considered the amen |
-| `Class` | `string` [0..1] | No | Category of legislative document. |
-| `HtmUrl` | `string` [0..1] | No | URL path to HTML version of the legislative docume |
-| `HtmCreateDate` | `dateTime` [1..1] | Yes | Date and time the HTM version was created. |
-| `HtmLastModifiedDate` | `dateTime` [1..1] | Yes | Date and time the HTML version of the document was |
-| `PdfUrl` | `string` [0..1] | No | URL path to PDF version of the legislative documen |
-| `PdfCreateDate` | `dateTime` [1..1] | Yes | Date and time the PDF version was created. Cannot  |
-| `PdfLastModifiedDate` | `dateTime` [1..1] | Yes | Date and time the PDF version was modified. Cannot |
-| `BillId` | `string` [0..1] | No | Prefix and bill number of a piece of legislation.  |
+```ts
+interface LegislativeDocument {
+  Name?: string
+  ShortFriendlyName?: string
+  Biennium?: string
+  LongFriendlyName?: string
+  Description?: string
+  Type?: string
+  Class?: string
+  HtmUrl?: string
+  HtmCreateDate: dateTime
+  HtmLastModifiedDate: dateTime
+  PdfUrl?: string
+  PdfCreateDate: dateTime
+  PdfLastModifiedDate: dateTime
+  BillId?: string
+}
+```
 
 ### `LegislativeEntity`
 
-| Field | Type | Required | Description |
-|-------|------|----------|-------------|
-| `Id` | `int` [1..1] | Yes | Unique integer for entity. |
-| `Name` | `string` [0..1] | No | Title of amendment, document, or entity name. Pair |
-| `LongName` | `string` [0..1] | No | In reference to legislative entities such as membe |
-| `Agency` | `string` [0..1] | No | Legislative Body. |
-| `Acronym` | `string` [0..1] | No | Abbreviation for Legislative Entity. Only unique w |
+```ts
+interface LegislativeEntity {
+  Id: int
+  Name?: string
+  LongName?: string
+  Agency?: string
+  Acronym?: string
+}
+```
 
 ### `LegislativeStatus`
 
-| Field | Type | Required | Description |
-|-------|------|----------|-------------|
-| `BillId` | `string` [0..1] | No | Prefix and bill number of a piece of legislation.  |
-| `HistoryLine` | `string` [0..1] | No | One line describing the action taken on the legisl |
-| `ActionDate` | `dateTime` [1..1] | Yes | Date that action was taken on the legislation. |
-| `AmendedByOppositeBody` | `boolean` [1..1] | Yes | True if the chamber that did not introduce the bil |
-| `PartialVeto` | `boolean` [1..1] | Yes | True if the governor has partially vetoed the bill |
-| `Veto` | `boolean` [1..1] | Yes | True if the governor has vetoed the legislation. |
-| `AmendmentsExist` | `boolean` [1..1] | Yes |  |
-| `Status` | `string` [0..1] | No | Abbreviated description of the status of a piece o |
+```ts
+interface LegislativeStatus {
+  BillId?: string
+  HistoryLine?: string
+  ActionDate: dateTime
+  AmendedByOppositeBody: boolean
+  PartialVeto: boolean
+  Veto: boolean
+  AmendmentsExist: boolean
+  Status?: string
+}
+```
 
-### `Member`
+### `Member` Extends: `LegislativeEntity`
 
-*Extends: `LegislativeEntity`*
-
-| Field | Type | Required | Description |
-|-------|------|----------|-------------|
-| `Party` | `string` [0..1] | No |  |
-| `District` | `string` [0..1] | No |  |
-| `Phone` | `string` [0..1] | No | Phone number. |
-| `Email` | `string` [0..1] | No | E-mail address. |
-| `FirstName` | `string` [0..1] | No | First name. |
-| `LastName` | `string` [0..1] | No | Last name. |
+```ts
+interface Member {
+  Party?: string
+  District?: string
+  Phone?: string
+  Email?: string
+  FirstName?: string
+  LastName?: string
+}
+```
 
 ### `RcwCiteAffected`
 
-| Field | Type | Required | Description |
-|-------|------|----------|-------------|
-| `RcwCite` | `string` [0..1] | No | Reference to a title, chapter, or section of the R |
-| `Action` | `string` [0..1] | No | The action the legislation is taking on the Revise |
+```ts
+interface RcwCiteAffected {
+  RcwCite?: string
+  Action?: string
+}
+```
 
 ### `RollCall`
 
-| Field | Type | Required | Description |
-|-------|------|----------|-------------|
-| `Agency` | `string` [0..1] | No | Legislative Body. |
-| `BillId` | `string` [0..1] | No | Prefix and bill number of a piece of legislation.  |
-| `Biennium` | `string` [0..1] | No | Two year time period beginning on odd years. Legis |
-| `Motion` | `string` [0..1] | No |  |
-| `SequenceNumber` | `int` [1..1] | Yes |  |
-| `VoteDate` | `dateTime` [1..1] | Yes |  |
-| `YeaVotes` | `RollCallType` [0..1] | No |  |
-| `NayVotes` | `RollCallType` [0..1] | No |  |
-| `AbsentVotes` | `RollCallType` [0..1] | No |  |
-| `ExcusedVotes` | `RollCallType` [0..1] | No |  |
-| `Votes` | `ArrayOfVote` [0..1] | No |  |
+```ts
+interface RollCall {
+  Agency?: string
+  BillId?: string
+  Biennium?: string
+  Motion?: string
+  SequenceNumber: int
+  VoteDate: dateTime
+  YeaVotes?: RollCallType
+  NayVotes?: RollCallType
+  AbsentVotes?: RollCallType
+  ExcusedVotes?: RollCallType
+  Votes?: ArrayOfVote
+}
+```
 
 ### `RollCallType`
 
-| Field | Type | Required | Description |
-|-------|------|----------|-------------|
-| `Count` | `int` [1..1] | Yes |  |
-| `MembersVoting` | `string` [0..1] | No |  |
+```ts
+interface RollCallType {
+  Count: int
+  MembersVoting?: string
+}
+```
 
 ### `SessionLaw`
 
-| Field | Type | Required | Description |
-|-------|------|----------|-------------|
-| `ChapterNumber` | `int` [1..1] | Yes | Session Law Chapter Number assigned to passed legi |
-| `Year` | `int` [1..1] | Yes | In the SessionLaw class, this refers to the year t |
-| `LegislativeSession` | `string` [0..1] | No | Session description. In the case of the amendment, |
-| `LegislatureNumber` | `int` [1..1] | Yes | Number of the Washington State legislative session |
-| `EffectiveDate` | `dateTime` [1..1] | Yes | Date the legislation will take effect. |
-| `MultipleEffectiveDates` | `boolean` [1..1] | Yes | True if there are multiple dates that the parts of |
-| `BillId` | `string` [0..1] | No | Prefix and bill number of a piece of legislation.  |
-| `Biennium` | `string` [0..1] | No | Two year time period beginning on odd years. Legis |
-| `BillTitle` | `string` [0..1] | No |  |
-| `PartialVeto` | `boolean` [1..1] | Yes | True if the governor has partially vetoed the bill |
-| `Veto` | `boolean` [1..1] | Yes | True if the governor has vetoed the legislation. |
-| `LegTypeId` | `int` [1..1] | Yes |  |
+```ts
+interface SessionLaw {
+  ChapterNumber: int
+  Year: int
+  LegislativeSession?: string
+  LegislatureNumber: int
+  EffectiveDate: dateTime
+  MultipleEffectiveDates: boolean
+  BillId?: string
+  Biennium?: string
+  BillTitle?: string
+  PartialVeto: boolean
+  Veto: boolean
+  LegTypeId: int
+}
+```
 
 ### `Signature`
 
-| Field | Type | Required | Description |
-|-------|------|----------|-------------|
-| `MemberId` | `int` [1..1] | Yes | Unique integer for a member. |
-| `Name` | `string` [0..1] | No | Title of amendment, document, or entity name. Pair |
-| `Position` | `string` [0..1] | No | A member's position on a committee. |
-| `PositionSort` | `int` [1..1] | Yes | Used for determining the proper order of members l |
+```ts
+interface Signature {
+  MemberId: int
+  Name?: string
+  Position?: string
+  PositionSort: int
+}
+```
 
-### `Sponsor`
+### `Sponsor` Extends: `LegislativeEntity`
 
-*Extends: `LegislativeEntity`*
-
-| Field | Type | Required | Description |
-|-------|------|----------|-------------|
-| `Type` | `string` [0..1] | No | Describes what body originally considered the amen |
-| `Order` | `int` [1..1] | Yes | Used to determine sort order. |
-| `Phone` | `string` [0..1] | No | Phone number. |
-| `Email` | `string` [0..1] | No | E-mail address. |
-| `FirstName` | `string` [0..1] | No | First name. |
-| `LastName` | `string` [0..1] | No | Last name. |
+```ts
+interface Sponsor {
+  Type?: string
+  Order: int
+  Phone?: string
+  Email?: string
+  FirstName?: string
+  LastName?: string
+}
+```
 
 ### `Vote`
 
-| Field | Type | Required | Description |
-|-------|------|----------|-------------|
-| `MemberId` | `int` [1..1] | Yes | Unique integer for a member. |
-| `Name` | `string` [0..1] | No | Title of amendment, document, or entity name. Pair |
-| `VOte` | `VoteType` [1..1] | Yes |  |
+```ts
+interface Vote {
+  MemberId: int
+  Name?: string
+  VOte: VoteType
+}
+```
 
 ---
 
@@ -1936,8 +1206,9 @@ Expects biennium to be in the format: 2005-06
 
 ## SOAP Notes
 
-### Biennium Format
+### Format
 The biennium parameter must be in the format `YYYY-YY` (e.g., `2023-24`).
+Agency should be House or Senate.
 
 ### Error Handling
 Invalid parameters will result in SOAP fault responses.

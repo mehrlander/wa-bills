@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="corporate">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DRS Bill Tracker</title>
+    <script src="https://cdn.jsdelivr.net/combine/npm/jquery,npm/tabulator-tables,npm/lodash,npm/@tailwindcss/browser@4,npm/clipboard,npm/@phosphor-icons/web"></script>
+    <link href="https://cdn.jsdelivr.net/combine/npm/daisyui@5/themes.css,npm/daisyui@5,npm/tabulator-tables/dist/css/tabulator_simple.min.css" rel="stylesheet" />
+</head>
+<body class="h-screen flex flex-col overflow-hidden">
+<header class="navbar bg-neutral text-neutral-content px-2 py-1 min-h-0">
+    <div class="navbar-start gap-2">
+        <button id="copy" class="btn btn-sm btn-square btn-ghost" title="Copy Selected"><i class="ph-bold ph-copy"></i></button>
+        <span class="text-xs font-bold">DRS Bill Tracker</span>
+    </div>
+    <div class="navbar-end">
+        <span id="s" class="text-[10px] opacity-60 font-bold uppercase tracking-widest"></span>
+    </div>
+</header>
+<div id="filters" class="flex items-center gap-4 px-3 py-2 bg-base-100 border-b border-base-300 overflow-x-auto">
+    <label class="input input-xs input-bordered flex items-center gap-2 w-36">
+        <i class="ph ph-magnifying-glass opacity-50"></i>
+        <input type="text" id="q" placeholder="Search..." class="grow bg-transparent outline-none">
+    </label>
+    <div class="divider divider-horizontal mx-0"></div>
+    <div id="toggles" class="flex items-center gap-3"></div>
+</div>
+<main class="flex-1 flex flex-col min-h-0">
+    <div id="t" class="flex-none bg-base-100"></div>
+    <div class="h-0.5 bg-base-300 shrink-0"></div>
+    <div class="flex flex-col md:flex-row flex-1 min-h-0 p-2 gap-2 bg-base-200">
+        <pre id="sel" class="flex-1 overflow-auto p-2 text-[11px] bg-base-100 border border-base-300 rounded-box"></pre>
+        <pre id="grp" class="flex-1 overflow-auto p-2 text-[11px] bg-base-100 border border-base-300 rounded-box"></pre>
+    </div>
+</main>
+<script type="module">
+const BASE = 'https://raw.githubusercontent.com/mehrlander/wa-bills/main';
+const [rawBills, rawContent, map] = await Promise.all([
+    `${BASE}/legislation/data/grouped_2025-26.json`,
+    `${BASE}/legislation/data/content/combined_2025-26.json`,
+    `${BASE}/rcw/pension-mapping-inverted.json`
+].map(u => fetch(u).then(r => r.json())));
+const rcwsByBill = Object.fromEntries(rawContent.map(c => [c.shortBillId, c.rcws || {}]));
+const colors = { ENACTED:'#166534', VETOED:'#991b1b', SUBSTITUTED:'#475569', CONFIRMED:'#075985', PREFILED:'#475569', PASSED:'#6b21a8', FLOOR:'#334155', RULES:'#1e40af', COMMITTEE:'#854d0e', OTHER:'#475569' };
+const rulesTierColor = { X:'#9f1239', '3':'#1e40af', '2':'#1e40af' };
+const catColors = { system:'#4f46e5', general:'#7c3aed', governance:'#6366f1', lni:'#0d9488' };
+const pill = (txt, color) => `<span class="badge badge-sm" style="background:${color}11;color:${color};border-color:${color}33">${txt}</span>`;
+const check = v => v ? '<span class="text-success font-bold">✓</span>' : '';
+const rcwLink = rcw => `<a href="https://app.leg.wa.gov/RCW/default.aspx?cite=${rcw}" target="_blank" class="link link-primary link-hover text-xs">${rcw}</a>`;
+const rcwLinks = list => list.map(rcwLink).join(', ');
+const statusLabel = st => {
+    if (!st?.cat) return '';
+    const { cat, chamber, tier, sub, comm, first, enacted } = st;
+    const ch = chamber ? chamber + '-' : '';
+    switch (cat) {
+        case 'ENACTED': return enacted || 'ENACTED';
+        case 'RULES': return ch + 'RULES ' + tier + (sub ? ' ' + sub : '');
+        case 'COMMITTEE': return ch + comm + (first ? ' 1' : '');
+        default: return ch + cat;
+    }
+};
+const statusPill = st => {
+    if (!st?.cat) return '';
+    let color = colors[st.cat] || colors.OTHER;
+    if (st.cat === 'RULES') color = rulesTierColor[st.tier] || color;
+    return pill(statusLabel(st), color);
+};
+const inRange = (sec, r) => !r || (r.length === 2 ? +sec >= r[0] && +sec <= r[1] : r.includes(+sec));
+const findInMap = (ch, sec) => {
+    const full = sec ? `${ch}.${sec}` : ch, m = [];
+    if (map.special?.[full]) m.push({ cat: 'system', label: map.special[full].note, rcw: full });
+    (map.lni || []).forEach(c => c.rcws.includes(full) && m.push({ cat: 'lni', label: c.label, rcw: full }));
+    Object.entries(map.systems || {}).forEach(([sys, d]) => {
+        if (d.ch !== ch || !inRange(sec, d.rcws)) return;
+        const plan = sec && d.plans && Object.entries(d.plans).find(([, r]) => +sec >= r[0] && +sec <= r[1]);
+        m.push({ cat: 'system', sys, plan: plan?.[0] || null, rcw: full });
+    });
+    if (map.general?.[ch]) m.push({ cat: 'general', label: map.general[ch].label, rcw: full });
+    const g = map.governance?.[ch];
+    if (g && (typeof g === 'string' ? true : inRange(sec, g.rcws))) m.push({ cat: 'governance', label: g.label || g, rcw: full });
+    if (map.adjacent?.[ch]) m.push({ cat: 'adjacent', label: map.adjacent[ch], rcw: ch });
+    return m;
+};
+const consolidateSystems = matches => {
+    const systems = {}, other = [];
+    matches.forEach(m => {
+        if (m.sys) {
+            systems[m.sys] = systems[m.sys] || { plans: new Set(), hasNonPlan: false };
+            m.plan ? systems[m.sys].plans.add(m.plan) : systems[m.sys].hasNonPlan = true;
+        } else other.push(m);
+    });
+    Object.entries(systems).forEach(([sys, { plans, hasNonPlan }]) => {
+        const sorted = [...plans].sort();
+        other.push({ cat: 'system', label: sorted.length ? `${sys} ${sorted.join('|')}${hasNonPlan ? '+' : ''}` : sys });
+    });
+    return other;
+};
+const fullData = rawBills.map(r => {
+    const rcws = rcwsByBill[r.ver] || {};
+    const pension = [], adjacent = [], lni = [], rcwsP = [], rcwsA = [], rcwsL = [];
+    Object.entries(rcws).forEach(([ch, secs]) => {
+        (secs.length ? secs : [null]).forEach(sec => {
+            const full = sec ? `${ch}.${sec}` : ch;
+            findInMap(ch, sec).forEach(m => {
+                if (m.cat === 'system' || m.cat === 'general' || m.cat === 'governance') { pension.push(m); rcwsP.push(full); }
+                else if (m.cat === 'adjacent') { adjacent.push(m.label); rcwsA.push(m.rcw); }
+                else if (m.cat === 'lni') { lni.push(m.label); rcwsL.push(full); }
+            });
+        });
+    });
+    const consolidated = consolidateSystems(pension);
+    const uniqP = _.uniqBy(consolidated, 'label'), uniqA = [...new Set(adjacent)], uniqL = [...new Set(lni)];
+    return { ...r,
+        pillsP: uniqP.map(x => pill(x.label, catColors[x.cat])).join(' '),
+        pillsL: uniqL.map(x => pill(x, catColors.lni)).join(' '),
+        rcwsP: rcwLinks([...new Set(rcwsP)].sort()),
+        rcwsA: rcwLinks([...new Set(rcwsA)].sort()),
+        rcwsL: rcwLinks([...new Set(rcwsL)].sort()),
+        hasP: uniqP.length > 0, hasA: uniqA.length > 0, hasL: uniqL.length > 0
+    };
+});
+const chk = (id, label) => `<label class="flex items-center gap-1.5 text-xs font-semibold cursor-pointer"><input type="checkbox" id="${id}" class="checkbox checkbox-xs"> ${label}</label>`;
+const chks = arr => arr.map(([id, l]) => chk(id, l)).join('');
+$('#toggles').html(
+    chks([['fApp','Approps'],['fCur','Current'],['fPre','Prefile']]) +
+    '<div class="divider divider-horizontal mx-0"></div>' +
+    chks([['fP','Pension'],['fA','Adjacent'],['fL','L&I']])
+);
+const applyFilters = () => {
+    const q = $('#q').val().toLowerCase(), fP = $('#fP').is(':checked'), fA = $('#fA').is(':checked'), fL = $('#fL').is(':checked'),
+          onlyApp = $('#fApp').is(':checked'), onlyCur = $('#fCur').is(':checked'), onlyPre = $('#fPre').is(':checked');
+    const validGroups = new Set(), gd = _.groupBy(fullData, 'group');
+    for (let [gn, rows] of Object.entries(gd)) {
+        if ((!q || rows.some(r => (gn + r.groupDesc + r.status?.cat + r.status?.comm + r.sponsor).toLowerCase().includes(q))) && 
+            (!fP || rows.some(r => r.hasP)) && (!fA || rows.some(r => r.hasA)) && (!fL || rows.some(r => r.hasL)) &&
+            (!onlyApp || rows.some(r => r.approp)) && (!onlyCur || rows.some(r => r.current)) && (!onlyPre || rows.some(r => r.prefiled))) validGroups.add(gn);
+    }
+    table.setFilter(r => validGroups.has(r.group));
+    $('#s').text(`${validGroups.size} GROUPS`);
+};
+const table = new Tabulator('#t', {
+    data: fullData, height: 800, layout: 'fitDataFill', groupBy: 'group', selectableRows: 1, headerFilterLiveFilterDelay: 300,
+    groupHeader: (v, n, d) => {
+        const passed = d[0].passedId;
+        const links = v.split(' / ').map(num => `<a href="https://app.leg.wa.gov/billsummary?BillNumber=${num.trim()}&Year=2025" target="_blank" class="link link-primary">${num.trim()}</a>${passed?.includes(num.trim()) ? '<i class="ph-bold ph-check ml-1"></i>' : ''}`).join('  /  ');
+        return `${links} <span class="ml-3">${d[0].groupDesc}</span>`;
+    },
+    columnDefaults: { headerFilter: 'input', formatter: 'html' },
+    columns: [
+        { title: 'VER', field: 'ver', hozAlign: 'center' },
+        { title: 'STATUS', field: 'status', widthGrow: 2, formatter: c => {
+            const r = c.getRow().getData();
+            return `<div class="flex items-center gap-1">${statusPill(r.status)}${r.status?.cat === 'OTHER' ? `<span class="text-xs opacity-70">${r.actionLine || ''}</span>` : ''}</div>`;
+        }},
+        { title: 'SPONSOR', field: 'sponsor' },
+        { title: 'APPROPS', field: 'approp', hozAlign: 'center', formatter: c => check(c.getValue()) },
+        { title: 'CURRENT', field: 'current', hozAlign: 'center', formatter: c => check(c.getValue()) },
+        { title: 'PENSION', field: 'pillsP' },
+        { title: 'PENSION RCWs', field: 'rcwsP' },
+        { title: 'ADJACENT RCWs', field: 'rcwsA' },
+        { title: 'L&I', field: 'pillsL' },
+        { title: 'L&I RCWs', field: 'rcwsL' }
+    ]
+});
+table.on("renderComplete", () => table.getGroups().forEach(g => {
+    const passed = !!g.getRows()[0]?.getData().passedId;
+    Object.assign(g.getElement().style, { backgroundColor: passed ? 'oklch(0.96 0.02 145)' : 'oklch(0.96 0.01 260)', borderLeft: `4px solid ${passed ? 'oklch(0.65 0.2 145)' : 'oklch(0.7 0.02 260)'}` });
+}));
+$('#q, #fP, #fA, #fL, #fApp, #fCur, #fPre').on('input change', applyFilters);
+table.on('rowSelectionChanged', d => {
+    $('#sel').text(JSON.stringify(d[0], null, 2));
+    if (d[0]) {
+        const grp = table.getGroups().find(g => g.getKey() === d[0].group);
+        $('#grp').text(JSON.stringify(grp ? grp.getRows().map(r => r.getData()) : null, null, 2));
+    }
+});
+new ClipboardJS('#copy', { text: () => JSON.stringify(table?.getData('active') || [], null, 2) }).on('success', () => {
+    const icon = $('#copy i')[0]; 
+    icon.className = 'ph-bold ph-check text-success';
+    setTimeout(() => icon.className = 'ph-bold ph-copy', 1200);
+});
+applyFilters();
+</script>
+</body>
+</html>

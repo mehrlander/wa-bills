@@ -18,7 +18,7 @@
     "41.54": { "label": "Portability", "wac": "415-113" }
   },
   "governance": {
-    "41.04": { "sections": { "276": "SCPP Created", "278": "SCPP Subcommittees", "281": "SCPP Duties" } },
+    "41.04": { "label": "SCPP", "rcws": [276, 278, 281] },
     "43.33A": "WSIB",
     "44.44": "OSA / SCPP"
   },

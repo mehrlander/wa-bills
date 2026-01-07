@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legislation Data Utility</title>
+    <script src="https://cdn.jsdelivr.net/combine/npm/jquery,npm/@tailwindcss/browser@4,npm/clipboard,npm/@phosphor-icons/web"></script>
+</head>
+<body class="h-screen flex flex-col bg-slate-100 font-sans p-4 gap-4">
+
+<header class="flex items-center gap-4 shrink-0 bg-white p-4 rounded-xl shadow-sm border border-slate-200">
+    <div class="flex flex-col">
+        <label class="text-[10px] uppercase font-bold text-slate-400 mb-1 tracking-widest">Delta Start Date</label>
+        <input type="date" id="d" class="h-9 px-3 text-sm border border-slate-300 rounded-lg outline-none focus:ring-2 focus:ring-blue-600">
+    </div>
+    
+    <button id="b" class="h-9 px-6 mt-5 flex items-center gap-2 bg-blue-600 text-white rounded-lg hover:bg-blue-500 cursor-pointer transition-all active:scale-95 shadow-md">
+        <i class="ph-bold ph-arrows-clockwise"></i> Sync Bills
+    </button>
+
+    <div class="flex mt-5 bg-slate-100 p-1 rounded-lg border border-slate-200 shadow-inner">
+        <button data-mode="json" class="mode-btn h-7 px-4 rounded-md text-[10px] font-bold uppercase transition-all cursor-pointer bg-white text-blue-600 shadow-sm border border-slate-200">JSON</button>
+        <button data-mode="csv" class="mode-btn h-7 px-4 rounded-md text-[10px] font-bold uppercase transition-all cursor-pointer text-slate-500 hover:text-slate-800">CSV</button>
+    </div>
+
+    <button id="copyBtn" class="h-9 px-4 mt-5 flex items-center gap-2 bg-slate-800 text-white rounded-lg hover:bg-slate-700 cursor-pointer transition-colors shadow-md">
+        <i class="ph-bold ph-copy"></i> Copy Current
+    </button>
+
+    <div class="mt-5 flex-1 text-right">
+        <div id="s" class="text-sm font-black text-slate-900 tracking-tight">Initializing...</div>
+        <div id="date-range" class="text-[10px] text-slate-500 font-mono tracking-tighter"></div>
+    </div>
+</header>
+
+<main class="flex-1 flex gap-4 min-h-0">
+    <section class="flex-1 flex flex-col min-w-0">
+        <div id="viewLabel" class="text-[9px] font-bold text-slate-400 uppercase tracking-widest mb-2 px-1">Master Dataset (JSON)</div>
+        <pre id="out" class="flex-1 overflow-auto p-4 bg-[#020617] text-sky-400 border border-slate-300 rounded-xl text-[10px] leading-tight font-mono shadow-inner"></pre>
+    </section>
+
+    <aside class="w-80 flex flex-col shrink-0">
+        <div class="text-[9px] font-bold text-slate-400 uppercase tracking-widest mb-2 ml-1">Delta Sync Log</div>
+        <div id="log" class="flex-1 overflow-auto p-4 bg-slate-50 border border-slate-200 rounded-xl text-[10px] font-mono flex flex-col gap-1.5 shadow-sm border-dashed">
+            <div class="text-slate-400 italic">Waiting for activity...</div>
+        </div>
+    </aside>
+</main>
+
+<script type="module">
+const [{ XMLParser }, { flatten }, { default: Papa }] = await Promise.all([
+    import('https://cdn.jsdelivr.net/npm/fast-xml-parser/+esm'),
+    import('https://cdn.jsdelivr.net/npm/flat/+esm'),
+    import('https://cdn.jsdelivr.net/npm/papaparse/+esm')
+]);
+
+const GITHUB_CSV = "https://raw.githubusercontent.com/mehrlander/wa-bills/refs/heads/main/legislation/data/LegislationSinceWithRcw.csv";
+const parser = new XMLParser({ ignoreNameSpace: true });
+const CM = { APPROPRIATIONS:"APP", "WAYS & MEANS":"WM", FINANCE:"FIN", TRANSPORTATION:"TRAN", "HEALTH & LONG-TERM CARE":"HLTC", "HUMAN SERVICES":"HS", "LAW & JUSTICE":"L&J", "AGRICULTURE & NATURAL RESOURCES":"AGNR", "LABOR & COMMERCE":"L&C", "LABOR & WORKPLACE STANDARDS":"LWS", "COMMUNITY SAFETY":"CS", "POSTSECONDARY EDUCATION & WORKFORCE":"PEW", "STATE GOVERNMENT & TRIBAL RELATIONS":"SGTR", "CONSUMER PROTECTION & BUSINESS":"CPB", "ENVIRONMENT, ENERGY & TECHNOLOGY":"EET", "EARLY LEARNING & K-12 EDUCATION":"ELK12", "HIGHER EDUCATION & WORKFORCE DEVELOPMENT":"HEWD", "CAPITAL BUDGET":"CAP", "CIVIL RIGHTS & JUDICIARY":"CRJ", EDUCATION:"ED", "ENVIRONMENT & ENERGY":"E&E", "HEALTH CARE & WELLNESS":"HCW", HOUSING:"HSG", "LOCAL GOVERNMENT":"LG", "TECHNOLOGY, ECONOMIC DEVELOPMENT, & VETERANS":"TEDV", "BUSINESS, FINANCIAL SERVICES & TRADE":"BFST", "EARLY LEARNING & HUMAN SERVICES":"ELHS" };
+
+let currentData = [], currentMode = 'json';
+
+const fmt = v => typeof v === 'string' ? (v.startsWith('0001') ? null : v.trim().replace(/T00:00:00$/, '')) : (v === true ? 1 : v === false ? 0 : v);
+const findArray = o => Array.isArray(o) ? o : (o && typeof o === 'object' ? Object.values(o).find(v => findArray(v)) : null);
+
+const categorize = (s='', a='') => {
+    const lc = `${s} ${a}`.toLowerCase(), ch = /^[HS]/.test(s) ? s[0] : '';
+    if (/vetoed/.test(lc)) return { cat: 'VETOED', chamber: ch };
+    if (/^c |^chapter/.test(lc)) return { cat: 'ENACTED', chamber: ch };
+    if (/referred to/.test(lc)) {
+        const comm = (a.match(/referred to ([^.]+)/i)?.[1] || 'COMM').toUpperCase();
+        return { cat: 'COMMITTEE', comm: CM[comm] || comm, chamber: ch };
+    }
+    return { cat: /prefiled/.test(lc) ? 'PREFILED' : 'OTHER', chamber: ch };
+};
+
+const transform = (recs, rcwLookup = {}) => {
+    const groups = recs.reduce((acc, r) => {
+        const cId = r['Companions.Companion.BillId'] || r['Companions.Companion'];
+        const pair = cId ? [r.BillNumber, parseInt(cId.replace(/\D/g, ''))].sort((a,b)=>a-b).join(' / ') : String(r.BillNumber);
+        (acc[pair] = acc[pair] || []).push(r);
+        return acc;
+    }, {});
+
+    return Object.entries(groups).flatMap(([pair, vs]) => {
+        vs.sort((a,b) => a.BillNumber - b.BillNumber || a.SubstituteVersion - b.SubstituteVersion);
+        return vs.map(r => {
+            const status = categorize(r['CurrentStatus.Status'], r['CurrentStatus.HistoryLine']);
+            return {
+                group: pair, groupDesc: r.ShortDescription || '', 
+                longDesc: (r.LongDescription || r.ShortDescription || '').replace(/\s+/g, ' ').trim(),
+                passedId: vs.find(v => /^C |^Chapter/.test(v['CurrentStatus.Status'] || ''))?.BillId || '',
+                num: Math.min(...vs.map(v => v.BillNumber)),
+                ver: r.BillId, status, 
+                actionLine: r['CurrentStatus.HistoryLine'] || '', active: r.Active == 1 ? 1 : 0,
+                sponsor: r.Sponsor?.match(/\(([^)]+)\)/)?.[1] || r.Sponsor || '',
+                intro: fmt(r.IntroducedDate), action: fmt(r['CurrentStatus.ActionDate']),
+                fn: [r.StateFiscalNote && 'SFN', r.LocalFiscalNote && 'Loc'].filter(Boolean).join(',') || null,
+                req: ['G', 'D', 'B', 'O'].filter((_, i) => [r.RequestedByGovernor, r.RequestedByDepartment, r.RequestedByBudgetCommittee, r.RequestedByOther][i] == 1).join('') || null,
+                approp: r.Appropriations == 1 ? 1 : 0, rcws: r.rcws || (rcwLookup[r.BillId] || []).join('|')
+            };
+        });
+    });
+};
+
+const render = () => {
+    const isJson = currentMode === 'json';
+    const output = isJson ? JSON.stringify(currentData, null, 2) : Papa.unparse(currentData.map(d => flatten(d)));
+    $('#out').text(output).toggleClass('text-sky-400', isJson).toggleClass('text-emerald-400', !isJson);
+    $('#viewLabel').text(`Master Dataset (${currentMode.toUpperCase()})`);
+};
+
+const updateUI = () => {
+    if (!currentData.length) return;
+    const dates = currentData.map(d => d.action).filter(Boolean).sort();
+    $('#s').text(`${currentData.length} bills synced.`);
+    $('#date-range').text(`${dates[0]} ➔ ${dates.at(-1)}`);
+    const nextDay = new Date(dates.at(-1));
+    nextDay.setDate(nextDay.getDate() + 1);
+    $('#d').val(nextDay.toISOString().split('T')[0]);
+};
+
+const addLog = (msg, type) => {
+    const cls = { add: 'text-green-600 font-bold', up: 'text-blue-500 font-bold' }[type] || 'text-slate-400';
+    $('#log').prepend(`<div class="${cls} py-0.5 border-b border-slate-100"><span class="opacity-40 text-[8px]">[${new Date().toLocaleTimeString()}]</span> ${msg}</div>`);
+};
+
+$('.mode-btn').on('click', function() {
+    currentMode = $(this).data('mode');
+    $('.mode-btn').removeClass('bg-white text-blue-600 shadow-sm border border-slate-200').addClass('text-slate-500');
+    $(this).addClass('bg-white text-blue-600 shadow-sm border border-slate-200').removeClass('text-slate-500');
+    render();
+});
+
+$('#b').on('click', async () => {
+    $('#log').empty();
+    addLog('Starting delta sync...', 'info');
+    const dv = new Date($('#d').val()), ds = `${dv.getMonth() + 1}/${dv.getDate()}/${dv.getFullYear()}`;
+    
+    const xmls = await Promise.all(['GetLegislationIntroducedSince?sinceDate='+ds, 'GetPrefiledLegislation'].map(u => fetch(`/LegislationService.asmx/${u}`).then(r => r.text())));
+    const incoming = xmls.flatMap(x => findArray(parser.parse(x)) || [])
+        .map(o => Object.fromEntries(Object.entries(flatten(o)).map(([k, v]) => [k.replace(/^(CurrentStatus|ShortLegislationType|Companions)\./, '$1.'), fmt(v)])))
+        .filter(r => r['ShortLegislationType.ShortLegislationType'] === 'B');
+
+    const exist = new Map(currentData.map(d => [d.ver, d]));
+    const toHydrate = incoming.filter(r => !exist.has(r.BillId));
+    const toUpdate = incoming.filter(r => {
+        const ex = exist.get(r.BillId);
+        return ex && (r['CurrentStatus.ActionDate'] > ex.action || (r.StateFiscalNote && !ex.fn?.includes('SFN')));
+    });
+
+    if (!toHydrate.length && !toUpdate.length) return addLog('No new data found.', 'info');
+
+    const rcwLookup = {};
+    for (const b of toHydrate) {
+        addLog(`Hydrating: ${b.BillId}...`, 'info');
+        const r = await fetch(`/LegislationService.asmx/GetRcwCitesAffected?biennium=2025-26&billId=${b.BillId}`);
+        const cites = findArray(parser.parse(await r.text())) || [];
+        rcwLookup[b.BillId] = (Array.isArray(cites) ? cites : [cites]).map(x => x?.RcwCite).filter(Boolean);
+    }
+
+    toUpdate.forEach(r => { r.rcws = exist.get(r.BillId).rcws; addLog(`UPDATED: ${r.BillId}`, 'up'); });
+    toHydrate.forEach(r => addLog(`ADDED: ${r.BillId}`, 'add'));
+
+    const newData = transform([...toUpdate, ...toHydrate], rcwLookup);
+    const newIds = new Set(newData.map(d => d.ver));
+    currentData = [...currentData.filter(d => !newIds.has(d.ver)), ...newData].sort((a,b) => a.num - b.num);
+
+    updateUI(); render();
+    addLog(`Finished. Total: ${currentData.length}`, 'info');
+});
+
+new ClipboardJS('#copyBtn', { text: () => $('#out').text() }).on('success', e => {
+    const $btn = $(e.trigger), old = $btn.html();
+    $btn.html('<i class="ph-bold ph-check"></i> Copied!').addClass('bg-green-600').removeClass('bg-slate-800');
+    setTimeout(() => $btn.html(old).addClass('bg-slate-800').removeClass('bg-green-600'), 1200);
+});
+
+(async () => {
+    try {
+        const resp = await fetch(GITHUB_CSV);
+        currentData = Papa.parse(await resp.text(), { header: true, dynamicTyping: true, skipEmptyLines: true }).data.map(r => {
+            const status = {};
+            Object.keys(r).forEach(k => k.startsWith('status.') && (status[k.split('.')[1]] = r[k]));
+            return { ...r, status };
+        });
+        updateUI(); render();
+    } catch (e) { $('#s').text("Init Failed."); }
+})();
+</script>
+</body>
+</html>

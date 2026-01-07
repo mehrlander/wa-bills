@@ -29,8 +29,6 @@
 9. [SponsorService](#sponsorservice)
 10. [Common Types](#common-types)
 11. [Enumerations](#enumerations)
-12. [Data Dictionary](#data-dictionary)
-13. [Type Mappings](#type-mappings)
 
 ---
 

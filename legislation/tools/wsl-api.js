@@ -49,7 +49,6 @@ const findInMap = (ch, sec) => {
     return m;
 };
 
-// ADDED EXPORT
 export const classifyPensionBill = (rcwList = []) => {
     const pension = [], adjacent = [], rcwsP = [], rcwsA = [];
     rcwList.forEach(cite => {
@@ -80,7 +79,6 @@ export const classifyPensionBill = (rcwList = []) => {
     };
 };
 
-// ADDED EXPORT
 export const sanitize = v => {
     if (v === null || v === undefined || String(v).trim() === '') return null;
     let val = String(v).trim();
@@ -95,7 +93,6 @@ export const sanitize = v => {
     return val;
 };
 
-// ADDED EXPORT
 export const transform = r => {
     if (!r) return null;
     const f = flatten(r), out = {};
@@ -110,7 +107,6 @@ export const transform = r => {
     return out;
 };
 
-// ADDED EXPORT
 export const consolidate = (recs, pk = 'BillId') => {
     const g = {};
     recs.forEach(r => { if (r?.[pk]) (g[r[pk]] = g[r[pk]] || []).push(r); });
@@ -138,7 +134,6 @@ const findArray = obj => {
     return null;
 };
 
-// ADDED EXPORT
 export const fetchAndParse = async (url) => {
     const res = await fetch(url);
     const xml = await res.text();
@@ -147,7 +142,6 @@ export const fetchAndParse = async (url) => {
     return arr.map(transform).filter(Boolean);
 };
 
-// ADDED EXPORTS
 export const getLegislation = (sinceDate) => fetchAndParse(`${BASE}/LegislationService.asmx/GetLegislationIntroducedSince?sinceDate=${sinceDate}`);
 export const getPrefiles = () => fetchAndParse(`${BASE}/LegislationService.asmx/GetPrefiledLegislation`);
 export const getSponsors = (biennium) => fetchAndParse(`${BASE}/SponsorService.asmx/GetSponsors?biennium=${biennium}`);

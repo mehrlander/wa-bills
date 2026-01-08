@@ -69,8 +69,6 @@ const findInMap = (ch, sec) => {
     return m;
 };
 
-
-
 export const classifyPensionBill = (rcwList = []) => {
     const pension = [], adjacent = [], rcwsP = [], rcwsA = [];
     
@@ -177,7 +175,7 @@ export const fetchAndParse = async (url) => {
     return arr.map(transform).filter(Boolean);
 };
 
-// Convenience fetchers
+// Convenience fetchers - ADDED EXPORT KEYWORD
 export const getLegislation = (sinceDate) => fetchAndParse(`${BASE}/LegislationService.asmx/GetLegislationIntroducedSince?sinceDate=${sinceDate}`);
 export const getPrefiles = () => fetchAndParse(`${BASE}/LegislationService.asmx/GetPrefiledLegislation`);
 export const getSponsors = (biennium) => fetchAndParse(`${BASE}/SponsorService.asmx/GetSponsors?biennium=${biennium}`);

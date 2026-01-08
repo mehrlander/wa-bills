@@ -5,10 +5,6 @@
  */
 
 window.xl = {
-    /**
-     * Standardizes values: handles nulls, booleans, and 
-     * the specific Excel 1900 leap-year date bug (+1 offset).
-     */
     sanitize: (v) => {
         if (v === null || v === undefined || String(v).trim() === "") return null;
         if (v === true || v === 'true' || v === 1 || v === '1') return "1";
@@ -34,9 +30,6 @@ window.xl = {
         return val;
     },
 
-    /**
-     * Converts Array of Objects to a Tab-Separated string.
-     */
     toTsv: (arr) => {
         if (!arr?.length) return "";
         const keys = [...new Set(arr.flatMap(Object.keys))];
@@ -46,9 +39,6 @@ window.xl = {
         ].join('\n');
     },
 
-    /**
-     * Converts a Tab-Separated string to an Array of Objects.
-     */
     fromTsv: (txt) => {
         const lines = txt.split(/\r?\n/).filter(l => l.trim() !== "");
         if (lines.length < 2) return [];
@@ -59,9 +49,6 @@ window.xl = {
         });
     },
 
-    /**
-     * Decompresses XLSX (Zip) and extracts data from internal XML tables.
-     */
     parseWorkbook: async (file) => {
         const D = new DOMParser();
         const X = (s, q, f = n => n) => [...D.parseFromString(s, "text/xml").querySelectorAll(q)].map(f);
@@ -101,9 +88,6 @@ window.xl = {
     }
 };
 
-/**
- * Event Dispatchers
- */
 const emitData = (source, name, rows) => {
     window.dispatchEvent(new CustomEvent('wsl-data-ready', { detail: { source, name, rows } }));
 };
@@ -112,9 +96,6 @@ const emitError = (msg) => {
     window.dispatchEvent(new CustomEvent('wsl-error', { detail: msg }));
 };
 
-/**
- * Global DOM Event Listeners
- */
 window.ondragover = e => { e.preventDefault(); $('#dropZone').css('opacity', 1); };
 window.ondragleave = e => { if (e.relatedTarget === null) $('#dropZone').css('opacity', 0); };
 
@@ -130,7 +111,6 @@ window.ondrop = async e => {
 };
 
 window.addEventListener('paste', e => {
-    // Only intercept paste if target isn't an input/textarea (unless we want broad interception)
     const txt = e.clipboardData.getData('text');
     if (!txt) return;
 

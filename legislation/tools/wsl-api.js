@@ -1,115 +1,28 @@
-// wsl-api.js - WSL Web Services API utilities & DRS Pension Mapping
 import { XMLParser } from 'https://cdn.jsdelivr.net/npm/fast-xml-parser@4.5.1/+esm';
 import { flatten } from 'https://cdn.jsdelivr.net/npm/flat@6.0.0/+esm';
+export { PENSION_MAP, classifyPensionBill } from 'https://cdn.jsdelivr.net/gh/mehrlander/wa-bills@main/legislation/tools/pension-rcw.js';
+import { classifyPensionBill } from 'https://cdn.jsdelivr.net/gh/mehrlander/wa-bills@main/legislation/tools/pension-rcw.js';
 
-const parser = new XMLParser({ ignoreNameSpace: true, parseAttributeValue: true });
+const parser = new XMLParser({ 
+    ignoreNameSpace: true, 
+    parseAttributeValue: true, 
+    isArray: (name) => ['RcwCiteAffected','LegislationInfo','CommitteeAction','CommitteeReferral','LegislativeStatus','CommitteeRecommendation'].includes(name) 
+});
 const BASE = 'https://wslwebservices.leg.wa.gov';
-
-/**
- * DRS PENSION MAPPING DATA
- */
-const PENSION_MAP = {
-    systems: {
-        "JRS": { ch: "2.10", name: "Judges 1971-1988" },
-        "JRF": { ch: "2.12", name: "Judges pre-1971" },
-        "JRA": { ch: "2.14", name: "Judicial DC 1988-2007" },
-        "LEOFF": { ch: "41.26", name: "Law Enforcement & Fire Fighters", plans: { "1": [40, 160], "2": [400, 560] } },
-        "TRS": { ch: "41.32", name: "Teachers", plans: { "1": [240, 530], "2": [700, 830], "3": [831, 920] } },
-        "SERS": { ch: "41.35", name: "School Employees", plans: { "2": [30, 299], "3": [500, 650] } },
-        "PSERS": { ch: "41.37", name: "Public Safety Employees" },
-        "PERS": { ch: "41.40", name: "Public Employees", plans: { "1": [120, 370], "2": [600, 780], "3": [780, 920] } },
-        "WSPRS": { ch: "43.43", name: "State Patrol", rcws: [120, 320], plans: { "1": [120, 200], "2": [200, 320] } }
-    },
-    general: { 
-        "41.34": "Plan 3 DC", "41.45": "Funding", "41.50": "DRS", "41.54": "Portability" 
-    },
-    governance: { 
-        "41.04": { label: "SCPP", rcws: [276, 278, 281] }, "43.33A": "WSIB", "44.44": "OSA / SCPP" 
-    },
-    adjacent: { 
-        "6.15": "Pension exemptions", "26.16": "Marital property", "26.18": "Support access", 
-        "41.28": "Local fire", "41.44": "Local city", "51.32": "Workers Comp Disability",
-        "74.20A": "DCS enforcement" 
-    },
-    special: { 
-        "41.40.124": "Judicial Multiplier", "41.40.761": "Judicial Multiplier P2", 
-        "41.45.0631": "WSPRS Rates", "41.50.770": "DCP", "41.50.780": "DCP Accounts",
-        "41.26.130": "Disability Offset", "41.26.470": "Disability Offset", "41.37.230": "Disability Offset",
-        "41.40.038": "L&I Service Credit", "41.37.060": "L&I Service Credit", "41.26.473": "L&I Service Credit",
-        "41.26.048": "Line of Duty Death"
-    }
-};
 
 export const ABBR = {
     'Companions.Companion.': 'c.',
     'CurrentStatus.': 'cs.',
-    'ShortLegislationType.': 'slt.',
-    'Sponsors.': 'ps.',
     'RCW.': 'r.'
 };
 
-/** CLASSIFICATION LOGIC **/
-const inRange = (sec, r) => !r || (r.length === 2 ? +sec >= r[0] && +sec <= r[1] : r.includes(+sec));
-
-const findInMap = (ch, sec) => {
-    const full = sec ? `${ch}.${sec}` : ch, m = [];
-    if (PENSION_MAP.special[full]) m.push({ cat: 'system', label: PENSION_MAP.special[full], rcw: full });
-    
-    Object.entries(PENSION_MAP.systems).forEach(([sys, d]) => {
-        if (d.ch !== ch || !inRange(sec, d.rcws)) return;
-        const plan = sec && d.plans && Object.entries(d.plans).find(([, r]) => +sec >= r[0] && +sec <= r[1]);
-        m.push({ cat: 'system', sys, plan: plan?.[0] || null, rcw: full });
-    });
-
-    if (PENSION_MAP.general[ch]) m.push({ cat: 'general', label: PENSION_MAP.general[ch], rcw: full });
-    const g = PENSION_MAP.governance[ch];
-    if (g && (typeof g === 'string' ? true : inRange(sec, g.rcws))) m.push({ cat: 'governance', label: g.label || g, rcw: full });
-    if (PENSION_MAP.adjacent[ch]) m.push({ cat: 'adjacent', label: PENSION_MAP.adjacent[ch], rcw: ch });
-    
-    return m;
+const REQUESTED_BY_MAP = {
+    'RequestedByGovernor': 'Governor',
+    'RequestedByBudgetCommittee': 'BudgetCommittee',
+    'RequestedByDepartment': 'Department',
+    'RequestedByOther': 'Other'
 };
 
-export const classifyPensionBill = (rcwList = []) => {
-    const pension = [], adjacent = [], rcwsP = [], rcwsA = [];
-    
-    rcwList.forEach(cite => {
-        const parts = cite.split('.');
-        const ch = parts.slice(0, 2).join('.');
-        const sec = parts[2] || null;
-
-        findInMap(ch, sec).forEach(m => {
-            if (['system', 'general', 'governance'].includes(m.cat)) { 
-                pension.push(m); rcwsP.push(cite); 
-            } else if (m.cat === 'adjacent') { 
-                adjacent.push(m.label); rcwsA.push(cite); 
-            }
-        });
-    });
-
-    const sysStore = {}, otherLabels = [];
-    pension.forEach(m => {
-        if (m.sys) {
-            sysStore[m.sys] = sysStore[m.sys] || { plans: new Set() };
-            if (m.plan) sysStore[m.sys].plans.add(m.plan);
-        } else { otherLabels.push(m.label); }
-    });
-
-    const sysLabels = Object.entries(sysStore).map(([sys, d]) => {
-        const plans = [...d.plans].sort();
-        return plans.length ? `${sys} ${plans.join('|')}` : sys;
-    });
-
-    return {
-        PensionLabels: [...new Set([...sysLabels, ...otherLabels])].sort(),
-        PensionRcws: [...new Set(rcwsP)].sort(),
-        AdjacentLabels: [...new Set(adjacent)].sort(),
-        AdjacentRcws: [...new Set(rcwsA)].sort(),
-        hasPension: (pension.length > 0),
-        hasAdjacent: (adjacent.length > 0)
-    };
-};
-
-/** WSL API CORE UTILITIES **/
 export const sanitize = v => {
     if (v === null || v === undefined || String(v).trim() === '') return null;
     let val = String(v).trim();
@@ -127,16 +40,31 @@ export const sanitize = v => {
 export const transform = r => {
     if (!r) return null;
     const f = flatten(r), out = {};
+    const requestedByActive = [];
+
     for (let k in f) {
         let key = k.trim();
-        if (['Companions', '', '\r', 'PK_Count'].includes(key)) continue;
+        
+        if (['Companions', '', '\r', 'PK_Count'].includes(key) || key.includes('LegislationType')) continue;
+
         let val = sanitize(f[key]);
         if (val === null) continue;
+
+        if (REQUESTED_BY_MAP[key]) {
+            if (val === '1') requestedByActive.push(REQUESTED_BY_MAP[key]);
+            continue;
+        }
+
         Object.entries(ABBR).forEach(([long, short]) => {
             if (key.startsWith(long)) key = key.replace(long, short);
         });
         out[key] = val;
     }
+
+    if (requestedByActive.length > 0) {
+        out['RequestedBy'] = requestedByActive.join(', ');
+    }
+
     return out;
 };
 
@@ -172,11 +100,155 @@ export const fetchAndParse = async (url) => {
     const xml = await res.text();
     const parsed = parser.parse(xml);
     const arr = findArray(parsed) || [parsed];
-    return arr.map(transform).filter(Boolean);
+    return arr
+        .filter(item => {
+            const type = item.ShortLegislationType || item.LegislationInfo?.ShortLegislationType;
+            return type === 'B';
+        })
+        .map(transform)
+        .filter(Boolean);
 };
 
-// Convenience fetchers
+const fetchRaw = async (url) => parser.parse(await (await fetch(url)).text());
+
+export const getBillNumber = (b) => b?.BillNumber || b?.BillId?.match(/\d+/)?.[0];
+
 export const getLegislation = (sinceDate) => fetchAndParse(`${BASE}/LegislationService.asmx/GetLegislationIntroducedSince?sinceDate=${sinceDate}`);
 export const getPrefiles = () => fetchAndParse(`${BASE}/LegislationService.asmx/GetPrefiledLegislation`);
 export const getSponsors = (biennium) => fetchAndParse(`${BASE}/SponsorService.asmx/GetSponsors?biennium=${biennium}`);
-export const getRcw = (biennium, billId) => fetchAndParse(`${BASE}/LegislationService.asmx/GetRcwCitesAffected?biennium=${biennium}&billId=${billId}`);
+
+export const getRcwFor = async (b, biennium = '2025-26') => {
+    const billId = b?.BillId || b;
+    if (!billId) return null;
+    const res = await fetchAndParse(`${BASE}/LegislationService.asmx/GetRcwCitesAffected?biennium=${biennium}&billId=${billId}`);
+    const rcws = res.map(r => r.RcwCite).filter(Boolean);
+    const cats = classifyPensionBill(rcws);
+    return {
+        BillId: billId,
+        Rcws: rcws.length ? rcws.join('|') : 'none',
+        PensionLabels: cats.PensionLabels.join('|'),
+        AdjacentLabels: cats.AdjacentLabels.join('|'),
+        PensionRcws: cats.PensionRcws.join('|'),
+        AdjacentRcws: cats.AdjacentRcws.join('|'),
+        isPension: cats.hasPension ? '1' : '0'
+    };
+};
+
+const flattenRecs = (recs = []) => {
+    const out = {}, maj = recs.find(r => r.RecommendationType === 'Majority'), min = recs.find(r => r.RecommendationType === 'Minority');
+    if (maj) { out['r.MajorityCode'] = maj.Recommendation; out['r.MajorityLong'] = maj.LongRecommendation; out['r.MajoritySigned'] = maj.MembersSigned; }
+    if (min) { out['r.MinorityCode'] = min.Recommendation; out['r.MinorityLong'] = min.LongRecommendation; out['r.MinoritySigned'] = min.MembersSigned; }
+    return out;
+};
+
+export const getActionsFor = async (b, biennium = '2025-26') => {
+    const bn = getBillNumber(b);
+    if (!bn) return [];
+    const p = await fetchRaw(`${BASE}/CommitteeActionService.asmx/GetCommitteeExecutiveActionsByBill?biennium=${biennium}&billNumber=${bn}`);
+    return (p.ArrayOfCommitteeAction?.CommitteeAction || []).map(a => ({
+        BillNumber: bn,
+        AgendaId: String(a.AgendaId), 
+        HearingDate: sanitize(a.HearingDate), 
+        BillId: a.LegislationInfo?.BillId,
+        DisplayNumber: String(a.LegislationInfo?.DisplayNumber || ''),
+        Committee: a.Committee?.Acronym, 
+        CommitteeLong: a.Committee?.LongName, 
+        Agency: a.Committee?.Agency,
+        ReferredTo: a.ReferredToCommittee?.Acronym || null, 
+        ReferredToLong: a.ReferredToCommittee?.LongName || null,
+        ...flattenRecs(a.CommitteeRecommendations?.CommitteeRecommendation)
+    }));
+};
+
+export const getReferralsFor = async (b, biennium = '2025-26') => {
+    const bn = getBillNumber(b);
+    if (!bn) return [];
+    const p = await fetchRaw(`${BASE}/CommitteeActionService.asmx/GetCommitteeReferralsByBill?biennium=${biennium}&billNumber=${bn}`);
+    return (p.ArrayOfCommitteeReferral?.CommitteeReferral || []).map(r => ({
+        BillNumber: bn,
+        BillId: r.LegislationInfo?.BillId,
+        DisplayNumber: String(r.LegislationInfo?.DisplayNumber || ''), 
+        Committee: r.Committee?.Acronym,
+        CommitteeLong: r.Committee?.LongName, 
+        Agency: r.Committee?.Agency, 
+        ReferredDate: sanitize(r.ReferredDate)
+    }));
+};
+
+export const getHistoryFor = async (b, biennium = '2025-26', beginDate = '1/1/2025', endDate = '12/31/2026') => {
+    const bn = getBillNumber(b);
+    if (!bn) return [];
+    const p = await fetchRaw(`${BASE}/LegislationService.asmx/GetLegislativeStatusChangesByBillNumber?biennium=${biennium}&billNumber=${bn}&beginDate=${beginDate}&endDate=${endDate}`);
+    return (p.ArrayOfLegislativeStatus?.LegislativeStatus || []).map(s => ({
+        BillNumber: bn,
+        BillId: s.BillId, 
+        ActionDate: sanitize(s.ActionDate), 
+        HistoryLine: s.HistoryLine,
+        Status: s.Status, 
+        AmendmentsExist: s.AmendmentsExist ? '1' : '0'
+    }));
+};
+
+export const joinRcw = (bill, rcwsMap) => {
+    const rcw = rcwsMap[bill.BillId];
+    if (rcw) {
+        bill['r.Rcws'] = rcw.Rcws;
+        bill['r.PensionLabels'] = rcw.PensionLabels;
+        bill['r.AdjacentLabels'] = rcw.AdjacentLabels;
+        bill['r.PensionRcws'] = rcw.PensionRcws;
+        bill['r.AdjacentRcws'] = rcw.AdjacentRcws;
+        bill['r.isPension'] = rcw.isPension;
+    }
+    return bill;
+};
+
+export const joinActions = (bill, actionsMap) => {
+    const bn = getBillNumber(bill);
+    const acts = actionsMap[bn];
+    if (acts?.length) {
+        const last = acts[acts.length - 1];
+        bill['a.Count'] = String(acts.length);
+        bill['a.LastDate'] = last.HearingDate;
+        bill['a.LastCommittee'] = last.Committee;
+        bill['a.LastMajorityCode'] = last['r.MajorityCode'] || '';
+        bill['a.LastMinorityCode'] = last['r.MinorityCode'] || '';
+        bill['a.Committees'] = [...new Set(acts.map(a => a.Committee))].join('|');
+    }
+    return bill;
+};
+
+export const joinReferrals = (bill, referralsMap) => {
+    const bn = getBillNumber(bill);
+    const refs = referralsMap[bn];
+    if (refs?.length) {
+        bill['ref.Count'] = String(refs.length);
+        bill['ref.Committees'] = [...new Set(refs.map(r => r.Committee))].join('|');
+        bill['ref.FirstDate'] = refs[0].ReferredDate;
+        bill['ref.LastDate'] = refs[refs.length - 1].ReferredDate;
+    }
+    return bill;
+};
+
+export const joinHistory = (bill, historyMap) => {
+    const bn = getBillNumber(bill);
+    const hist = historyMap[bn];
+    if (hist?.length) {
+        const last = hist[hist.length - 1];
+        bill['h.Count'] = String(hist.length);
+        bill['h.FirstDate'] = hist[0].ActionDate;
+        bill['h.LastDate'] = last.ActionDate;
+        bill['h.LastLine'] = last.HistoryLine;
+        bill['h.Status'] = last.Status;
+    }
+    return bill;
+};
+
+export const joinSponsors = (bill, sponsorsMap) => {
+    const sp = sponsorsMap[bill.PrimeSponsorID];
+    if (sp) {
+        bill['ps.LongName'] = sp.LongName;
+        bill['ps.Agency'] = sp.Agency;
+        bill['ps.Acronym'] = sp.Acronym;
+    }
+    return bill;
+};

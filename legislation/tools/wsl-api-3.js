@@ -1,4 +1,3 @@
-// wsl-api.js - WSL Web Services API utilities & DRS Pension Mapping
 import { XMLParser } from 'https://cdn.jsdelivr.net/npm/fast-xml-parser@4.5.1/+esm';
 import { flatten } from 'https://cdn.jsdelivr.net/npm/flat@6.0.0/+esm';
 

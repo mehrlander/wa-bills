@@ -1,156 +1,183 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="light">
+<html lang="en" data-theme="emerald">
 <head>
     <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WSL Sync Utility</title>
-    <script src="https://cdn.jsdelivr.net/combine/npm/jquery,npm/luxon,npm/@tailwindcss/browser@4,npm/clipboard,npm/@phosphor-icons/web,npm/jszip"></script>
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/combine/npm/daisyui@5/themes.css,npm/daisyui@5,npm/tabulator-tables/dist/css/tabulator_simple.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/combine/npm/jquery,npm/luxon,npm/@tailwindcss/browser@4,npm/clipboard,npm/@phosphor-icons/web,npm/jszip,npm/tabulator-tables"></script>
     <script type="module">
         import { diff } from 'https://cdn.jsdelivr.net/npm/jsondiffpatch@0.6.0/+esm';
         window.diffpatch = diff;
-        import 'https://cdn.jsdelivr.net/gh/mehrlander/wa-bills@main/legislation/tools/data-drop.js';
+        import 'https://cdn.jsdelivr.net/gh/mehrlander/wa-bills@main/legislation/tools/data-drop-2.js';
     </script>
 </head>
 <body class="h-screen flex flex-col bg-base-100 overflow-hidden text-[16px]">
 
-<div id="dropZone" class="fixed inset-0 z-50 bg-primary/90 text-primary-content flex flex-col items-center justify-center pointer-events-none opacity-0 transition-opacity">
-    <i class="ph-bold ph-file-xls text-9xl mb-4 animate-bounce"></i>
-    <h2 class="text-5xl font-black uppercase tracking-tighter">Harvesting Data...</h2>
-</div>
-
 <header id="h-main" class="flex items-center gap-8 px-6 h-16 border-b border-base-300 shrink-0"></header>
 
-<div class="drawer drawer-end flex-1 min-h-0">
-    <input id="log-drawer" type="checkbox" class="drawer-toggle">
-    <main class="drawer-content flex flex-col h-full min-h-0">
-        <div id="h-sub" class="flex items-center gap-3 px-4 h-14 border-b border-base-300 shrink-0"></div>
-        <div id="out-wrap" class="relative flex-1 bg-neutral min-h-0 overflow-hidden"></div>
-    </main>
-    <aside class="drawer-side z-20">
-        <label for="log-drawer" class="drawer-overlay"></label>
-        <div class="w-1/2 h-full bg-base-100 border-l border-base-300 flex flex-col">
-            <div class="flex items-center justify-between px-4 h-12 border-b border-base-300 shrink-0">
-                <span class="font-black text-xs text-base-content/40 uppercase tracking-widest">Traffic Log</span>
-                <label for="log-drawer" class="btn btn-ghost btn-xs btn-square cursor-pointer"><i class="text-xl ph-bold ph-x"></i></label>
-            </div>
-            <div id="log" class="flex-1 overflow-auto p-4 font-mono text-sm whitespace-nowrap leading-[1.2]"></div>
+<main class="flex-1 flex flex-col min-h-0">
+    <div id="h-sub" class="flex items-center gap-3 px-4 h-14 border-b border-base-300 shrink-0"></div>
+    
+    <div id="out-wrap" class="relative flex-1 bg-neutral min-h-0 flex flex-col overflow-hidden">
+        <div class="flex-1 border-b border-base-content/10 relative overflow-hidden bg-neutral">
+             <div id="sync-progress" class="hidden absolute inset-0 bg-black/60 z-50 flex items-center justify-center backdrop-blur-sm">
+                <div class="bg-base-100 p-8 rounded-2xl shadow-2xl flex flex-col items-center gap-4 border border-base-300">
+                    <span class="loading loading-spinner loading-lg text-primary"></span>
+                    <div class="text-center">
+                        <div class="font-black text-2xl tracking-tighter uppercase" id="sync-msg">Processing</div>
+                        <div class="font-mono text-sm opacity-60 mt-1" id="sync-count">0 / 0</div>
+                    </div>
+                </div>
+             </div>
+             <pre id="out" class="absolute inset-0 p-4 text-info font-mono text-[11px] overflow-auto outline-none selection:bg-info/10" tabindex="0"></pre>
         </div>
-    </aside>
-</div>
+        <div id="grid" class="bg-base-100 shrink-0 border-t border-base-300"></div>
+    </div>
+</main>
 
 <script type="module">
-import { getLegislation, getPrefiles, getSponsors, getRcw, transform, consolidate, ABBR } from 'https://cdn.jsdelivr.net/gh/mehrlander/wa-bills@main/legislation/tools/wsl-api.js';
+import { 
+    getLegislation, getPrefiles, getSponsors, getRcwFor, getActionsFor, getHistoryFor,
+    joinRcw, joinActions, joinHistory, joinSponsors, getBillNumber, transform, consolidate, ABBR 
+} from 'https://cdn.jsdelivr.net/gh/mehrlander/wa-bills@main/legislation/tools/wsl-api-01.js';
 
 const { DateTime } = luxon;
-const LEGEND = Object.entries(ABBR).map(([l, s]) => `${s.replace('.', '')}:${l.replace('.', '')}`).join(', ');
+const BIENNIUM = '2025-26';
 
-window.store = { legislation: [], prefiles: [], sponsors: [], rcws: {} };
+window.store = { legislation: [], prefiles: [], sponsors: [], rcws: {}, actions: {}, history: {} };
 window.view = { mode: 'legislation', format: 'json' };
-let syncing = false, stopSync = false;
+let syncing = false, table = null;
 
-const log = (m, c = 'text-base-content/50') => $('#log').prepend(`<div class="border-b border-base-200 py-1 ${c}"><span class="opacity-30 mr-3 font-bold">${DateTime.now().toFormat('HH:mm:ss')}</span>${m}</div>`);
-const btn = ({ t, m, c = '', i = '', d = false }) => `<button data-mode="${m}" ${d?'disabled':''} class="btn btn-sm font-bold gap-2 ${c}">${i ? `<i class="text-xl ph-bold ph-${i}"></i>` : ''}${t ? `<span>${t}</span>` : ''}</button>`;
-const stat = (l, v) => `<div class="flex flex-col items-end leading-none"><span class="text-[10px] text-base-content/40 uppercase font-black tracking-tighter mb-1">${l}</span><span class="font-mono text-primary font-bold">${v}</span></div>`;
-const sec = (l, content, cls = 'border-l border-base-300 pl-6 h-10') => `<div class="flex items-center gap-3 ${cls}"><span class="text-[10px] font-black opacity-30 uppercase tracking-widest leading-none">${l}</span><div class="flex items-center gap-2">${content}</div></div>`;
-const meta = (l, content) => `<div class="flex flex-col justify-center border-l border-base-300 pl-4 h-10 leading-none"><span class="text-[10px] font-black opacity-30 uppercase tracking-widest mb-1">${l}</span><div class="font-bold text-xs truncate max-w-xs">${content}</div></div>`;
+const getProfile = (rows) => {
+    if (!rows?.length) return [];
+    const keys = [...new Set(rows.flatMap(Object.keys))];
+    const total = rows.length;
+    return keys.map(k => {
+        const vals = rows.map(r => r[k]).filter(v => v != null && String(v).trim() !== "");
+        return { column: k, count: vals.length, unique: [...new Set(vals)].length, pct: ((vals.length / total) * 100).toFixed(0) + '%', sample: [...new Set(vals)].slice(0, 5).join(', ') };
+    });
+};
 
-window.render = () => {
-    const all = [...store.legislation, ...store.prefiles], rcwD = all.filter(b => store.rcws[b.BillId]).length;
-    const dts = all.map(b => b['cs.ActionDate'] || b.IntroducedDate).filter(d => d).map(d => DateTime.fromFormat(d, 'M/d/yyyy')).filter(d => d.isValid).sort((a,b) => a - b);
-    
-    const data = view.mode === 'join' ? [...new Map(all.map(b => [b.BillId, b])).values()].map(b => {
-        const rcw = store.rcws[b.BillId], sp = Object.fromEntries(store.sponsors.map(s => [s.Id, s]))[b.PrimeSponsorID];
-        if (rcw) b['r.Rcws'] = Array.isArray(rcw) ? rcw.join('|') : rcw;
-        if (sp) { b['ps.LongName'] = sp.LongName; b['ps.Agency'] = sp.Agency; b['ps.Acronym'] = sp.Acronym; }
-        return b;
-    }) : (view.mode === 'rcws' ? Object.entries(store.rcws).map(([BillId, v]) => ({ BillId, 'r.Rcws': Array.isArray(v) ? v.join('|') : v })) : store[view.mode]);
+const performRender = () => {
+    const all = [...store.legislation, ...store.prefiles];
+    let data;
+    if (view.mode === 'join') {
+        const spMap = Object.fromEntries(store.sponsors.map(s => [s.Id, s]));
+        data = all.map(b => { 
+            const j = {...b}; joinRcw(j, store.rcws); joinActions(j, store.actions); joinHistory(j, store.history); joinSponsors(j, spMap); return j; 
+        });
+    } else if (['rcws','actions','history'].includes(view.mode)) {
+        data = view.mode === 'rcws' ? Object.values(store.rcws) : Object.values(store[view.mode]).flat();
+    } else { data = store[view.mode]; }
 
-    const isRCW = view.mode === 'rcws', syncLbl = syncing ? (isRCW ? 'Stop Sync' : 'Syncing...') : 'Sync View';
-    const methods = { legislation:'GetLegislationIntroducedSince', prefiles:'GetPrefiledLegislation', rcws:'GetRcwCitesAffected', sponsors:'GetSponsors' };
-    const apiBase = view.mode === 'sponsors' ? 'SponsorService.asmx' : 'LegislationService.asmx';
-    const methodLink = `<a href="https://wslwebservices.leg.wa.gov/${apiBase}/${methods[view.mode]}" target="_blank" class="link text-primary">${methods[view.mode]}</a>`;
-
-    // Alert style logic: if total bills exist and lookups are incomplete, show warning.
-    const rcwStyle = view.mode === 'rcws' ? 'btn-primary' : (all.length > 0 && rcwD < all.length ? 'btn-warning' : 'btn-ghost');
+    const curSince = $('#sinceDate').val() || '2025-01-01';
+    const curIter = $('#maxIterations').val() || '10';
+    const curLimit = $('#limitEnabled').length ? $('#limitEnabled').is(':checked') : true;
 
     $('#h-main').html(`
-        ${sec('Sources', `<div class="join">${btn({t:`Legislation (${store.legislation.length})`, m:'legislation', c:`join-item ${view.mode==='legislation'?'btn-primary':'btn-ghost'}`})}${btn({t:`Prefiles (${store.prefiles.length})`, m:'prefiles', c:`join-item ${view.mode==='prefiles'?'btn-primary':'btn-ghost'}`})}</div>`)}
-        ${sec('Lookups', btn({t:`RCW (${rcwD}/${all.length})`, m:'rcws', c:rcwStyle}))}
-        ${sec('Other', btn({t:`Sponsors (${store.sponsors.length})`, m:'sponsors', c:view.mode==='sponsors'?'btn-primary':'btn-ghost'}))}
-        ${sec('Analysis', btn({t:'Join All', m:'join', c:view.mode==='join'?'btn-primary':'btn-ghost'}))}
-        <div class="flex items-center gap-8 ml-auto">${stat('Start', dts.length?dts[0].toFormat('M/d/yyyy'):'-')}${stat('End', dts.length?dts.at(-1).toFormat('M/d/yyyy'):'-')}${stat('Total Bills', all.length)}<label for="log-drawer" class="btn btn-ghost btn-sm btn-square cursor-pointer"><i class="text-xl ph-bold ph-list-bullets"></i></label></div>
+        <div class="flex items-center gap-3 h-10 border-l border-base-300 pl-6"><span class="text-[10px] font-black opacity-30 uppercase tracking-widest leading-none">Sources</span><div class="flex gap-0">
+            <button data-mode="legislation" class="btn btn-sm font-bold gap-2 rounded-r-none ${view.mode==='legislation'?'btn-primary':'btn-ghost'}">Legislation <span class="badge badge-xs">${store.legislation.length}</span></button>
+            <button data-mode="prefiles" class="btn btn-sm font-bold gap-2 rounded-l-none border-l-0 ${view.mode==='prefiles'?'btn-primary':'btn-ghost'}">Prefiles <span class="badge badge-xs">${store.prefiles.length}</span></button>
+        </div></div>
+        <div class="flex items-center gap-3 h-10 border-l border-base-300 pl-6"><span class="text-[10px] font-black opacity-30 uppercase tracking-widest leading-none">Lookups</span><div class="flex gap-2">
+            <button data-mode="rcws" class="btn btn-xs font-bold ${view.mode==='rcws'?'btn-primary':'btn-ghost'}">RCW <span class="opacity-50">${Object.keys(store.rcws).length}/${all.length}</span></button>
+            <button data-mode="actions" class="btn btn-xs font-bold ${view.mode==='actions'?'btn-primary':'btn-ghost'}">Act <span class="opacity-50">${Object.keys(store.actions).length}</span></button>
+            <button data-mode="history" class="btn btn-xs font-bold ${view.mode==='history'?'btn-primary':'btn-ghost'}">Hist <span class="opacity-50">${Object.keys(store.history).length}</span></button>
+            <button data-mode="sponsors" class="btn btn-xs font-bold ${view.mode==='sponsors'?'btn-primary':'btn-ghost'}">Sponsors <span class="badge badge-xs">${store.sponsors.length}</span></button>
+        </div></div>
+        <div class="ml-auto flex items-center gap-4"><button data-mode="join" class="btn btn-sm font-bold ${view.mode==='join'?'btn-primary':'btn-ghost'}">Join All</button></div>
     `);
 
     $('#h-sub').html(`
-        ${view.mode!=='join' ? `<div class="flex items-center gap-3">${btn({t:syncLbl, i:syncing && isRCW ?'stop-circle':'arrows-clockwise', c:syncing ? (isRCW ? 'btn-neutral' : 'btn-ghost text-base-content/30') : 'btn-primary', m:'sync', d:syncing && !isRCW})}<div class="h-8 w-px bg-base-300 mx-1"></div>${view.mode==='legislation'?sec('Since', `<input type="date" id="sinceDate" value="${$('#sinceDate').val()||'2025-01-01'}" class="grow bg-transparent border-none focus:ring-0">`, 'input input-sm input-bordered gap-2 h-10') : ''}${['rcws','sponsors'].includes(view.mode)?sec('Biennium', `<input type="text" id="biennium" value="${$('#biennium').val()||'2025-26'}" class="grow bg-transparent w-20 border-none focus:ring-0 font-mono">`, 'input input-sm input-bordered gap-2 h-10') : ''}${meta('Method', methodLink)}</div>` : ''}
-        ${meta('Key', `<span>${view.mode==='sponsors'?'Id':'BillId'}</span><span class="badge badge-xs ml-2 ${data.filter(r=>(r.PK_Count||"1")>1).length?'badge-warning':'badge-ghost'}">${data.filter(r=>(r.PK_Count||"1")>1).length} Conflicts</span>`)}
-        ${['legislation','prefiles','join'].includes(view.mode) ? meta('Abbr', LEGEND) : ''}
-        ${['rcws','sponsors','join'].includes(view.mode) ? meta('Join Fields', view.mode==='rcws'?'r.Rcws':'ps.LongName, ps.Agency, ps.Acronym') : ''}
-        <div class="flex items-center gap-1 ml-auto"><div class="join">${['json','tsv'].map(f=>`<button data-fmt="${f}" class="btn btn-sm join-item ${view.format===f?'btn-primary':'btn-ghost'} font-bold">${f.toUpperCase()}</button>`).join('')}</div>${btn({i:'copy', c:'btn-ghost btn-square', m:'copy'})}${view.mode!=='join'?btn({i:'trash', c:'btn-ghost btn-square', m:'clear'}):''}</div>
+        <div class="flex items-center gap-3">
+            <button data-mode="sync" ${syncing?'disabled':''} class="btn btn-sm font-bold gap-2 ${syncing?'btn-ghost opacity-30':'btn-primary'}"><i class="ph-bold ph-arrows-clockwise text-xl"></i><span>${syncing?'Syncing...':'Sync View'}</span></button>
+            ${view.mode==='legislation'?'<input type="date" id="sinceDate" class="input input-sm input-bordered h-10">':''}
+            ${['rcws','actions','history'].includes(view.mode)? `
+                <div class="flex items-center gap-2 h-10 px-3 border border-base-300 rounded-lg">
+                    <label class="flex items-center gap-2 cursor-pointer"><input type="checkbox" id="limitEnabled" class="checkbox checkbox-xs checkbox-primary"><span class="text-xs font-bold opacity-70">Limit</span></label>
+                    <input type="number" id="maxIterations" class="input input-xs w-16 text-center bg-transparent border-none focus:ring-0 font-mono">
+                </div>
+            ` : ''}
+            ${view.mode==='sponsors'?'<input type="text" id="biennium" value="2025-26" class="input input-sm input-bordered w-24 text-center font-mono">':''}
+        </div>
+        <div class="ml-auto flex items-center gap-1">
+            <div class="join">${['json','tsv'].map(f=>`<button data-fmt="${f}" class="btn btn-sm join-item ${view.format===f?'btn-primary':'btn-ghost'} font-bold">${f.toUpperCase()}</button>`).join('')}</div>
+            <button data-mode="copy" class="btn btn-ghost btn-sm btn-square"><i class="ph-bold ph-copy text-xl"></i></button>
+            <button data-mode="clear" class="btn btn-ghost btn-sm btn-square"><i class="ph-bold ph-trash text-xl"></i></button>
+        </div>
     `);
 
-    $('#out-wrap').html(`<pre id="out" class="absolute inset-0 p-6 text-info font-mono overflow-auto outline-none selection:bg-info/10" tabindex="0">${view.format==='json'?JSON.stringify(data,null,2):xl.toTsv(data)}</pre>${!data.length?`<div class="absolute inset-0 flex flex-col items-center justify-center opacity-10 pointer-events-none"><i class="ph ph-database text-6xl mb-2"></i><span class="font-black uppercase tracking-widest">Local Store Empty</span></div>`:''}`);
+    $('#sinceDate').val(curSince); $('#maxIterations').val(curIter); $('#limitEnabled').prop('checked', curLimit);
+    $('#out').text(view.format==='tsv' ? (window.xl?.toTsv(data)||JSON.stringify(data)) : JSON.stringify(data, null, 2));
+    if (!table) table = new Tabulator("#grid", { data: getProfile(data), layout: "fitColumns", columns: [{title:"Column", field:"column", headerFilter:"input"},{title:"Populated", field:"count"},{title:"Unique", field:"unique"},{title:"Fill", field:"pct"},{title:"Sample", field:"sample"}], height: 300 });
+    else table.setData(getProfile(data));
 };
 
 const runSync = async () => {
-    if (syncing && view.mode === 'rcws') { stopSync = true; return; }
-    if (syncing) return; syncing = true; stopSync = false; 
-    $('#log-drawer').prop('checked', true); render();
-    
-    if (view.mode === 'rcws') {
-        const miss = [...store.legislation, ...store.prefiles].filter(b => !store.rcws[b.BillId]);
-        log(`Syncing ${miss.length} RCWs...`, 'text-primary font-bold');
-        for (let b of miss) {
-            if (stopSync) { log('Batch Sync Halted.', 'text-warning font-black'); break; }
-            const res = await getRcw($('#biennium').val(), b.BillId);
-            store.rcws[b.BillId] = res.length ? res.map(r => r.RcwCite).filter(Boolean) : "none";
-            render();
-        }
-    } else {
-        const pk = view.mode === 'sponsors' ? 'Id' : 'BillId';
-        log(`Fetching ${view.mode}...`, 'italic opacity-60');
-        const raw = await (view.mode === 'legislation' ? getLegislation(DateTime.fromISO($('#sinceDate').val()).toFormat('M/d/yyyy')) : 
-                     view.mode === 'prefiles' ? getPrefiles() : getSponsors($('#biennium').val()));
-        
-        if (raw?.length) {
-            const filtered = view.mode === 'sponsors' ? raw : raw.filter(b => b['slt.ShortLegislationType'] === 'B' || b.ShortLegislationType === 'B');
-            log(`Fetched ${raw.length}, filtered to ${filtered.length} Bills.`, 'text-info italic');
-            
-            consolidate(filtered, pk).forEach(b => {
-                const idx = store[view.mode].findIndex(x => x[pk] === b[pk]);
-                if (idx === -1) { store[view.mode].push(b); log(`+ New: ${b[pk]}`, 'text-success'); }
-                else if (window.diffpatch(store[view.mode][idx], b)) { 
-                    store[view.mode][idx] = b; 
-                    log(`↻ Update ${b[pk]}`, 'text-warning'); 
+    const isLimited = $('#limitEnabled').length ? $('#limitEnabled').is(':checked') : false;
+    const iterCount = parseInt($('#maxIterations').val()) || 10;
+    const sinceDate = $('#sinceDate').val();
+    const biennium = $('#biennium').val() || BIENNIUM;
+
+    syncing = true; performRender();
+    const all = [...store.legislation, ...store.prefiles];
+
+    try {
+        if (['rcws','actions','history'].includes(view.mode)) {
+            let miss = [];
+            if (view.mode === 'rcws') miss = all.filter(b => !store.rcws[b.BillId]);
+            else {
+                const unique = [...new Map(all.map(b => [getBillNumber(b), b])).values()];
+                miss = unique.filter(b => !store[view.mode][getBillNumber(b)]);
+            }
+
+            if (isLimited) miss = miss.slice(0, iterCount);
+
+            if (miss.length > 0) {
+                // Show progress and update text directly
+                $('#sync-progress').removeClass('hidden');
+                $('#sync-msg').text(`Fetching ${view.mode.toUpperCase()}...`);
+                
+                for (let i = 0; i < miss.length; i++) {
+                    const b = miss[i];
+                    // Direct DOM update of counter (Performance optimal)
+                    $('#sync-count').text(`${i + 1} / ${miss.length} [${b.BillId || getBillNumber(b)}]`);
+                    
+                    if (view.mode === 'rcws') {
+                        const r = await getRcwFor(b, biennium);
+                        if (r) store.rcws[r.BillId] = r;
+                    } else {
+                        const bn = getBillNumber(b);
+                        const data = view.mode === 'actions' ? await getActionsFor(b, biennium) : await getHistoryFor(b, biennium);
+                        store[view.mode][bn] = data;
+                    }
                 }
-            });
+            }
+        } else if (view.mode === 'sponsors') {
+            store.sponsors = await getSponsors(biennium);
+        } else {
+            const raw = view.mode === 'legislation' ? await getLegislation(sinceDate) : await getPrefiles();
+            store[view.mode] = consolidate(raw);
         }
-    }
-    syncing = false; log('Sync Finished.', 'font-bold'); render();
+    } catch (e) { console.error(e); }
+
+    $('#sync-progress').addClass('hidden');
+    syncing = false; 
+    performRender(); // Final calculation and table draw
 };
 
-$(window)
-    .on('wsl-data-ready', e => {
-        const { source, name, rows } = e.detail;
-        let t = source === 'xlsx' ? Object.keys(store).find(k => name.toLowerCase().startsWith(k.substring(0,3))) : view.mode;
-        if (!t) return;
-        if (t === 'rcws') rows.forEach(r => { const v = r['r.Rcws']||r.Rcws; if(r.BillId) store.rcws[r.BillId] = (v==="none"||!v)?"none":String(v).split('|'); });
-        else store[t] = consolidate(rows.map(transform), t === 'sponsors' ? 'Id' : 'BillId');
-        log(`✓ Ingested ${rows.length} from ${source}`, 'text-success font-bold'); render();
-    })
-    .on('wsl-error', e => log(e.detail, 'text-error font-bold'));
+$(document).on('click', '[data-mode]', function() {
+    const m = $(this).data('mode');
+    if (m === 'sync') runSync();
+    else if (m === 'clear') { 
+        if(['rcws','actions','history'].includes(view.mode)) store[view.mode]={}; else store[view.mode]=[]; 
+        performRender(); 
+    }
+    else if (m === 'copy') navigator.clipboard.writeText($('#out').text());
+    else { view.mode = m; performRender(); }
+}).on('click', '[data-fmt]', function() { view.format = $(this).data('fmt'); performRender(); });
 
-$(document)
-    .on('click', '[data-mode]', function() { 
-        const m = $(this).data('mode'); 
-        if (['legislation','prefiles','rcws','sponsors','join'].includes(m)) { view.mode = m; render(); }
-        else if (m === 'clear') { store[view.mode] = view.mode === 'rcws' ? {} : []; log(`Cleared: ${view.mode}`, 'text-error italic'); render(); }
-        else if (m === 'sync') runSync();
-        else if (m === 'copy') navigator.clipboard.writeText($('#out').text());
-    })
-    .on('click', '[data-fmt]', function() { view.format = $(this).data('fmt'); render(); });
-
-render();
+performRender();
 </script>
 </body>
 </html>

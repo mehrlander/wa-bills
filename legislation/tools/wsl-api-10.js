@@ -7,11 +7,15 @@ export {
     preload,
     getChapterInfo,
     getTitleInfo,
+    getCiteInfo,
     linkifyList,
     linkifyTitles,
     chapterTooltip,
-    titleTooltip
-} from './rcw-utils-2.js';;
+    titleTooltip,
+    buildRcwPopup,
+    buildChapterPopup,
+    buildTitlePopup
+} from './rcw-utils-2.js';
 import { classifyPensionBill } from './rcw-utils-2.js';
 
 const parser = new XMLParser({ 

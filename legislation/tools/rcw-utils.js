@@ -150,14 +150,14 @@ export const linkifyTitles = titleStr => {
 
 export const chapterTooltip = (e) => {
     const ch = e.target?.dataset?.chapter;
-    if (!ch) return false;
+    if (!ch) return;
     const info = byChapter?.[ch];
     return info ? `${ch}: ${info.Description}` : ch;
 };
 
 export const titleTooltip = (e) => {
     const t = e.target?.dataset?.title;
-    if (!t) return false;
+    if (!t) return;
     const info = byTitle?.[t.toUpperCase()];
     return info ? `Title ${t}: ${info.name}` : t;
 };

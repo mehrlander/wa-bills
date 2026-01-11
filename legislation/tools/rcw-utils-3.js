@@ -153,6 +153,17 @@ const groupByTitle = (rcwList) => {
     return byTit;
 };
 
+const getChapterLabel = (ch) => {
+    for (const [sys, d] of Object.entries(PENSION_MAP.systems)) {
+        if (d.ch === ch) return { label: sys, type: 'system' };
+    }
+    if (PENSION_MAP.general[ch]) return { label: PENSION_MAP.general[ch], type: 'general' };
+    const g = PENSION_MAP.governance[ch];
+    if (g) return { label: typeof g === 'string' ? g : g.label, type: 'governance' };
+    if (PENSION_MAP.adjacent[ch]) return { label: PENSION_MAP.adjacent[ch], type: 'adjacent' };
+    return null;
+};
+
 export const linkifyList = (chapterStr, fullRcws) => {
     if (!chapterStr || !byChapter) return chapterStr || '';
     const byChap = groupByChapter(fullRcws);
@@ -197,60 +208,83 @@ export const titleTooltip = (e) => {
 // POPUP BUILDERS
 // ============================================================================
 
-export const buildRcwPopup = (rcwListStr) => {
+const buildChapterBlock = (ch, rcws, badgeClass = 'badge-secondary') => {
+    const chInfo = byCite?.[ch];
+    const chName = chInfo?.Name || byChapter?.[ch]?.Description || '';
+    const chMeta = getChapterLabel(ch);
+    const chBadge = chMeta ? `<span class="badge badge-sm ${badgeClass} ml-1">${chMeta.label}</span>` : '';
+    
+    const sectionHtml = rcws
+        .sort((a, b) => a.localeCompare(b, undefined, { numeric: true }))
+        .map(rcw => {
+            const secInfo = byCite?.[rcw];
+            const secName = secInfo?.Name || '';
+            const special = PENSION_MAP.special[rcw];
+            const secBadge = special ? `<span class="badge badge-xs badge-primary ml-1">${special}</span>` : '';
+            return `<div class="ml-4 py-0.5">
+                <a href="${rcwUrl(rcw)}" target="_blank" class="link link-primary text-sm">${rcw}</a>
+                <span class="text-base-content/60 text-sm">${secName}</span>${secBadge}
+            </div>`;
+        }).join('');
+    
+    return `<div class="mt-2">
+        <div class="font-medium">
+            <a href="${rcwUrl(ch)}" target="_blank" class="link link-secondary">${ch}</a>
+            <span class="text-base-content/70">${chName}</span>${chBadge}
+        </div>
+        ${sectionHtml}
+    </div>`;
+};
+
+const buildTitleBlock = (t, rcwsInTitle, badgeClass = 'badge-secondary') => {
+    const titleInfo = byCite?.[t];
+    const titleName = titleInfo?.Name || '';
+    
+    const byChap = {};
+    rcwsInTitle.forEach(r => {
+        const ch = r.split('.').slice(0, 2).join('.');
+        (byChap[ch] = byChap[ch] || []).push(r);
+    });
+    
+    const chapterHtml = Object.entries(byChap)
+        .sort(([a], [b]) => a.localeCompare(b, undefined, { numeric: true }))
+        .map(([ch, rcws]) => buildChapterBlock(ch, rcws, badgeClass))
+        .join('');
+    
+    return `<div class="mb-3">
+        <div class="font-bold border-b border-base-300 pb-1">
+            <a href="${rcwUrl(t)}" target="_blank" class="link">${t}</a>
+            <span class="text-base-content/80">${titleName}</span>
+        </div>
+        ${chapterHtml}
+    </div>`;
+};
+
+export const buildRcwPopup = (rcwListStr, options = {}) => {
+    const { emptyMessage = 'No RCWs', badgeClass = 'badge-secondary' } = options;
     const rcwList = (rcwListStr || '').split('|').filter(Boolean);
-    if (!rcwList.length) return '<div class="p-3 text-base-content/50">No RCWs</div>';
+    if (!rcwList.length) return `<div class="p-3 text-base-content/50">${emptyMessage}</div>`;
     
     const byTit = groupByTitle(rcwList);
     const titleNums = Object.keys(byTit).sort((a, b) => +a - +b);
     
-    const sections = titleNums.map(t => {
-        const titleInfo = byCite?.[t];
-        const titleName = titleInfo?.Name || 'Unknown';
-        const rcwsInTitle = byTit[t];
-        const byChap = {};
-        rcwsInTitle.forEach(r => {
-            const ch = r.split('.').slice(0, 2).join('.');
-            (byChap[ch] = byChap[ch] || []).push(r);
-        });
-        
-        const chapterHtml = Object.entries(byChap)
-            .sort(([a], [b]) => a.localeCompare(b, undefined, { numeric: true }))
-            .map(([ch, rcws]) => {
-                const chInfo = byCite?.[ch];
-                const chName = chInfo?.Name || byChapter?.[ch]?.Description || '';
-                const sectionHtml = rcws
-                    .sort((a, b) => a.localeCompare(b, undefined, { numeric: true }))
-                    .map(rcw => {
-                        const secInfo = byCite?.[rcw];
-                        const secName = secInfo?.Name || '';
-                        const special = PENSION_MAP.special[rcw];
-                        const badge = special ? `<span class="badge badge-xs badge-primary ml-1">${special}</span>` : '';
-                        return `<div class="ml-4">
-                            <a href="${rcwUrl(rcw)}" target="_blank" class="link link-primary text-sm">${rcw}</a>
-                            <span class="text-base-content/60 text-sm">${secName}</span>${badge}
-                        </div>`;
-                    }).join('');
-                
-                return `<div class="mt-2">
-                    <div class="font-medium">
-                        <a href="${rcwUrl(ch)}" target="_blank" class="link link-secondary">${ch}</a>
-                        <span class="text-base-content/70">${chName}</span>
-                    </div>
-                    ${sectionHtml}
-                </div>`;
-            }).join('');
-        
-        return `<div class="mb-3">
-            <div class="font-bold border-b border-base-300 pb-1">
-                <a href="${rcwUrl(t)}" target="_blank" class="link">${t}</a>
-                <span class="text-base-content/80">${titleName}</span>
-            </div>
-            ${chapterHtml}
-        </div>`;
-    }).join('');
+    const sections = titleNums.map(t => buildTitleBlock(t, byTit[t], badgeClass)).join('');
     
     return `<div class="p-3 max-w-md max-h-96 overflow-auto">${sections}</div>`;
+};
+
+export const buildPensionPopup = (rcwListStr) => {
+    return buildRcwPopup(rcwListStr, { 
+        emptyMessage: 'No pension RCWs', 
+        badgeClass: 'badge-secondary' 
+    });
+};
+
+export const buildAdjacentPopup = (rcwListStr) => {
+    return buildRcwPopup(rcwListStr, { 
+        emptyMessage: 'No adjacent RCWs', 
+        badgeClass: 'badge-accent' 
+    });
 };
 
 export const buildChapterPopup = (chapter, rcwListStr) => {
@@ -260,6 +294,8 @@ export const buildChapterPopup = (chapter, rcwListStr) => {
     
     const chInfo = byCite?.[chapter];
     const chName = chInfo?.Name || byChapter?.[chapter]?.Description || '';
+    const chMeta = getChapterLabel(chapter);
+    const chBadge = chMeta ? `<span class="badge badge-sm badge-secondary ml-1">${chMeta.label}</span>` : '';
     
     const sectionHtml = rcwList
         .sort((a, b) => a.localeCompare(b, undefined, { numeric: true }))
@@ -277,7 +313,7 @@ export const buildChapterPopup = (chapter, rcwListStr) => {
     return `<div class="p-3 max-w-md max-h-96 overflow-auto">
         <div class="font-bold border-b border-base-300 pb-1 mb-2">
             <a href="${rcwUrl(chapter)}" target="_blank" class="link">${chapter}</a>
-            <span class="text-base-content/80">${chName}</span>
+            <span class="text-base-content/80">${chName}</span>${chBadge}
         </div>
         ${sectionHtml}
     </div>`;
@@ -288,47 +324,5 @@ export const buildTitlePopup = (title, rcwListStr) => {
         .filter(r => r.split('.')[0] === title);
     if (!rcwList.length) return `<div class="p-3 text-base-content/50">No RCWs in Title ${title}</div>`;
     
-    const titleInfo = byCite?.[title];
-    const titleName = titleInfo?.Name || '';
-    
-    const byChap = {};
-    rcwList.forEach(r => {
-        const ch = r.split('.').slice(0, 2).join('.');
-        (byChap[ch] = byChap[ch] || []).push(r);
-    });
-    
-    const chapterHtml = Object.entries(byChap)
-        .sort(([a], [b]) => a.localeCompare(b, undefined, { numeric: true }))
-        .map(([ch, rcws]) => {
-            const chInfo = byCite?.[ch];
-            const chName = chInfo?.Name || byChapter?.[ch]?.Description || '';
-            const sectionHtml = rcws
-                .sort((a, b) => a.localeCompare(b, undefined, { numeric: true }))
-                .map(rcw => {
-                    const secInfo = byCite?.[rcw];
-                    const secName = secInfo?.Name || '';
-                    const special = PENSION_MAP.special[rcw];
-                    const badge = special ? `<span class="badge badge-xs badge-primary ml-1">${special}</span>` : '';
-                    return `<div class="ml-4 py-0.5">
-                        <a href="${rcwUrl(rcw)}" target="_blank" class="link link-primary text-sm">${rcw}</a>
-                        <span class="text-base-content/60 text-sm">${secName}</span>${badge}
-                    </div>`;
-                }).join('');
-            
-            return `<div class="mt-2">
-                <div class="font-medium">
-                    <a href="${rcwUrl(ch)}" target="_blank" class="link link-secondary">${ch}</a>
-                    <span class="text-base-content/70 text-sm">${chName}</span>
-                </div>
-                ${sectionHtml}
-            </div>`;
-        }).join('');
-    
-    return `<div class="p-3 max-w-md max-h-96 overflow-auto">
-        <div class="font-bold border-b border-base-300 pb-1">
-            <a href="${rcwUrl(title)}" target="_blank" class="link">${title}</a>
-            <span class="text-base-content/80">${titleName}</span>
-        </div>
-        ${chapterHtml}
-    </div>`;
+    return buildTitleBlock(title, rcwList);
 };

@@ -277,3 +277,36 @@ export const joinSponsors = (bill, sponsorsMap) => {
     }
     return bill;
 };
+
+export const groupWithCompanions = (bills) => {
+    const byNumber = {};
+    bills.forEach(b => {
+        const num = b.BillNumber;
+        if (!byNumber[num]) byNumber[num] = [];
+        byNumber[num].push(b);
+    });
+    
+    const groups = [];
+    const seen = new Set();
+    
+    Object.entries(byNumber).forEach(([num, bills]) => {
+        if (seen.has(num)) return;
+        seen.add(num);
+        
+        const group = { numbers: [num], bills: [...bills] };
+        
+        // Check for companion
+        for (const b of bills) {
+            const companionNum = b['c.BillId']?.replace(/[A-Z\s]/g, '');
+            if (companionNum && byNumber[companionNum] && !seen.has(companionNum)) {
+                seen.add(companionNum);
+                group.numbers.push(companionNum);
+                group.bills.push(...byNumber[companionNum]);
+            }
+        }
+        
+        groups.push(group);
+    });
+    
+    return groups;
+};

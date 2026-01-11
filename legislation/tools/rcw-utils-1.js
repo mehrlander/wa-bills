@@ -8,7 +8,7 @@ export const PENSION_MAP = {
     systems: {
         "JRS": { ch: "2.10", name: "Judges 1971-1988" },
         "JRF": { ch: "2.12", name: "Judges pre-1971" },
-        "JRA": { ch: "2.14", name: "Judicial DC 1988-2007" },
+        "JRA": { ch: "2.14", name: "Judicial DC 2007+" },
         "LEOFF": { ch: "41.26", name: "Law Enforcement & Fire Fighters", plans: { "1": [40, 160], "2": [400, 560] } },
         "TRS": { ch: "41.32", name: "Teachers", plans: { "1": [240, 530], "2": [700, 830], "3": [831, 920] } },
         "SERS": { ch: "41.35", name: "School Employees", plans: { "2": [30, 299], "3": [500, 650] } },
@@ -129,12 +129,25 @@ export const getTitleInfo = t => byTitle?.[t.toUpperCase()];
 // DISPLAY UTILITIES (linkification & tooltips)
 // ============================================================================
 
-export const linkifyList = chapterStr => {
+// Group full RCWs by chapter
+const groupByChapter = (fullRcws) => {
+    const byChap = {};
+    (fullRcws || '').split('|').filter(Boolean).forEach(r => {
+        const ch = r.split('.').slice(0, 2).join('.');
+        (byChap[ch] = byChap[ch] || []).push(r);
+    });
+    return byChap;
+};
+
+export const linkifyList = (chapterStr, fullRcws) => {
     if (!chapterStr || !byChapter) return chapterStr || '';
+    const byChap = groupByChapter(fullRcws);
+    
     return chapterStr.split(', ').filter(Boolean).map(ch => {
         const info = byChapter[ch];
+        const rcws = byChap[ch] || [];
         if (!info) return ch;
-        return `<a href="${info.URL}" target="_blank" rel="noopener" class="link link-primary" data-chapter="${ch}">${ch}</a>`;
+        return `<a href="${info.URL}" target="_blank" rel="noopener" class="link link-primary" data-chapter="${ch}" data-rcws="${rcws.join('|')}">${ch}</a>`;
     }).join(', ');
 };
 
@@ -152,7 +165,12 @@ export const chapterTooltip = (e) => {
     const ch = e.target?.dataset?.chapter;
     if (!ch) return;
     const info = byChapter?.[ch];
-    return info ? `${ch}: ${info.Description}` : ch;
+    if (!info) return ch;
+    
+    const rcws = (e.target?.dataset?.rcws || '').split('|').filter(Boolean);
+    const sections = rcws.map(r => r.split('.').slice(2).join('.')).filter(Boolean).sort((a, b) => +a - +b);
+    const detail = sections.length ? `\n§ ${sections.join(', ')}` : '';
+    return `${ch}: ${info.Description}${detail}`;
 };
 
 export const titleTooltip = (e) => {

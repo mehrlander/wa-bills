@@ -1,8 +1,8 @@
 // wsl-api.js - WSL Web Services API utilities
 import { XMLParser } from 'https://cdn.jsdelivr.net/npm/fast-xml-parser@4.5.1/+esm';
 import { flatten } from 'https://cdn.jsdelivr.net/npm/flat@6.0.0/+esm';
-export { PENSION_MAP, classifyPensionBill } from 'https://cdn.jsdelivr.net/gh/mehrlander/wa-bills@main/legislation/tools/pension-rcw.js';
-import { classifyPensionBill } from 'https://cdn.jsdelivr.net/gh/mehrlander/wa-bills@main/legislation/tools/pension-rcw.js';
+export { PENSION_MAP, classifyPensionBill } from '...rcw-utils.js';
+import { classifyPensionBill } from '...rcw-utils.js';
 
 const parser = new XMLParser({ 
     ignoreNameSpace: true, 

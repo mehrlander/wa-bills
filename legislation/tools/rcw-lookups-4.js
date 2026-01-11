@@ -1,19 +1,18 @@
 // rcw-lookups.js - RCW chapter lookup and linkification utilities
 const CHAPTERS_URL = 'https://raw.githubusercontent.com/mehrlander/wa-bills/main/legislation/tools/rcw-chapters.json';
+const TITLES_URL = 'https://raw.githubusercontent.com/mehrlander/wa-bills/main/legislation/tools/rcw-titles.json';
 
-let chapters = null;
-let byChapter = null;
-let byTitle = null;
+let chapters = null, titles = null;
+let byChapter = null, byTitle = null;
 
 const ensureLoaded = async () => {
     if (!chapters) {
-        chapters = await fetch(CHAPTERS_URL).then(r => r.json());
+        [chapters, titles] = await Promise.all([
+            fetch(CHAPTERS_URL).then(r => r.json()),
+            fetch(TITLES_URL).then(r => r.json())
+        ]);
         byChapter = Object.fromEntries(chapters.map(c => [c.Chapter, c]));
-        byTitle = {};
-        chapters.forEach(c => {
-            const t = c.Title.toLowerCase();
-            if (!byTitle[t]) byTitle[t] = c;
-        });
+        byTitle = Object.fromEntries(titles.map(t => [t.title.toUpperCase(), t]));
     }
 };
 
@@ -24,7 +23,7 @@ export const getChapterInfo = async ch => {
 
 export const getTitleInfo = async t => {
     await ensureLoaded();
-    return byTitle[t.toLowerCase()];
+    return byTitle[t.toUpperCase()];
 };
 
 const tip = (text, content) => `<span class="rcw-tip" data-tip="${text.replace(/"/g, '&quot;')}">${content}</span>`;
@@ -45,10 +44,10 @@ export const linkifyTitles = async titleStr => {
     if (!titleStr) return '';
     await ensureLoaded();
     return titleStr.split(', ').filter(Boolean).map(t => {
-        const info = byTitle[t.toLowerCase()];
+        const info = byTitle[t.toUpperCase()];
         if (!info) return t;
         const titleUrl = `https://app.leg.wa.gov/RCW/default.aspx?cite=${t}`;
-        return tip(info.Title_Name, `<a href="${titleUrl}" target="_blank" rel="noopener" class="link link-primary">${t}</a>`);
+        return tip(info.name, `<a href="${titleUrl}" target="_blank" rel="noopener" class="link link-primary">${t}</a>`);
     }).join(', ');
 };
 

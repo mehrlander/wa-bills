@@ -11,8 +11,8 @@ export {
     linkifyTitles,
     chapterTooltip,
     titleTooltip
-} from './rcw-utils-1.js';;
-import { classifyPensionBill } from './rcw-utils-1.js';
+} from './rcw-utils-2.js';;
+import { classifyPensionBill } from './rcw-utils-2.js';
 
 const parser = new XMLParser({ 
     ignoreNameSpace: true, 

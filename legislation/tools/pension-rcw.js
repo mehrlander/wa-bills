@@ -79,7 +79,7 @@ export const classifyPensionBill = (rcwList = []) => {
 
     const sysLabels = Object.entries(sysStore).map(([sys, d]) => {
         const plans = [...d.plans].sort();
-        return plans.length ? `${sys} ${plans.join('|')}` : sys;
+        return plans.length ? `${sys} ${plans.join('/')}` : sys;
     });
 
     return {

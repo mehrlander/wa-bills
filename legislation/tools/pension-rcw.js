@@ -19,9 +19,14 @@ export const PENSION_MAP = {
         "41.04": { label: "SCPP", rcws: [276, 278, 281] }, "43.33A": "WSIB", "44.44": "OSA / SCPP" 
     },
     adjacent: { 
-        "6.15": "Pension exemptions", "26.16": "Marital property", "26.18": "Support access", 
-        "41.28": "Local fire", "41.44": "Local city", "51.32": "Workers Comp Disability",
-        "74.20A": "DCS enforcement" 
+      "6.15": "Exempt",
+      "26.16": "Marital",
+      "26.18": "Support",
+      "41.28": "Local fire",
+      "41.44": "Local city",
+      "51.08": "L&I defs",
+      "51.32": "L&I ben",
+      "74.20A": "DCS"
     },
     special: { 
         "41.40.124": "Judicial Multiplier", "41.40.761": "Judicial Multiplier P2", 

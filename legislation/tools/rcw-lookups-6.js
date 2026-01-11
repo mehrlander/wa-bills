@@ -5,7 +5,7 @@ const TITLES_URL = 'https://raw.githubusercontent.com/mehrlander/wa-bills/main/l
 let chapters = null, titles = null;
 let byChapter = null, byTitle = null;
 
-const ensureLoaded = async () => {
+export const preload = async () => {
     if (!chapters) {
         [chapters, titles] = await Promise.all([
             fetch(CHAPTERS_URL).then(r => r.json()),
@@ -16,19 +16,11 @@ const ensureLoaded = async () => {
     }
 };
 
-export const getChapterInfo = async ch => {
-    await ensureLoaded();
-    return byChapter[ch];
-};
+export const getChapterInfo = ch => byChapter?.[ch];
+export const getTitleInfo = t => byTitle?.[t.toUpperCase()];
 
-export const getTitleInfo = async t => {
-    await ensureLoaded();
-    return byTitle[t.toUpperCase()];
-};
-
-export const linkifyList = async chapterStr => {
-    if (!chapterStr) return { html: '', tip: '' };
-    await ensureLoaded();
+export const linkifyList = chapterStr => {
+    if (!chapterStr || !byChapter) return { html: chapterStr || '', tip: '' };
     const parts = chapterStr.split(', ').filter(Boolean);
     const tips = [];
     const html = parts.map(ch => {
@@ -40,9 +32,8 @@ export const linkifyList = async chapterStr => {
     return { html, tip: tips.join('\n') };
 };
 
-export const linkifyTitles = async titleStr => {
-    if (!titleStr) return { html: '', tip: '' };
-    await ensureLoaded();
+export const linkifyTitles = titleStr => {
+    if (!titleStr || !byTitle) return { html: titleStr || '', tip: '' };
     const parts = titleStr.split(', ').filter(Boolean);
     const tips = [];
     const html = parts.map(t => {

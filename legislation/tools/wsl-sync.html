@@ -2,182 +2,348 @@
 <html lang="en" data-theme="emerald">
 <head>
     <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WSL Sync Utility</title>
+    <title>WSL Sync</title>
     <link href="https://cdn.jsdelivr.net/combine/npm/daisyui@5/themes.css,npm/daisyui@5,npm/tabulator-tables/dist/css/tabulator_simple.min.css" rel="stylesheet" />
-    <script src="https://cdn.jsdelivr.net/combine/npm/jquery,npm/luxon,npm/@tailwindcss/browser@4,npm/clipboard,npm/@phosphor-icons/web,npm/jszip,npm/tabulator-tables"></script>
-    <script type="module">
-        import { diff } from 'https://cdn.jsdelivr.net/npm/jsondiffpatch@0.6.0/+esm';
-        window.diffpatch = diff;
-        import 'https://cdn.jsdelivr.net/gh/mehrlander/wa-bills@main/legislation/tools/data-drop-2.js';
-    </script>
+    <script src="https://cdn.jsdelivr.net/combine/npm/jquery,npm/@tailwindcss/browser@4,npm/@phosphor-icons/web,npm/tabulator-tables"></script>
 </head>
 <body class="h-screen flex flex-col bg-base-100 overflow-hidden text-[16px]">
 
-<header id="h-main" class="flex items-center gap-8 px-6 h-16 border-b border-base-300 shrink-0"></header>
+<div id="sync-modal" class="hidden fixed inset-0 z-50 bg-black/60 flex items-center justify-center backdrop-blur-sm">
+    <div class="bg-base-100 p-8 rounded-2xl shadow-2xl flex flex-col items-center gap-4 border border-base-300">
+        <span class="loading loading-spinner loading-lg text-primary"></span>
+        <div class="text-center">
+            <div class="font-black text-2xl tracking-tighter uppercase" id="sync-msg">Processing</div>
+            <div class="font-mono text-sm opacity-60 mt-1" id="sync-count"></div>
+        </div>
+    </div>
+</div>
+
+<header class="flex items-center gap-6 px-6 h-14 border-b border-base-300 shrink-0 bg-base-100">
+    <div class="font-black text-lg tracking-tight">WSL Sync</div>
+    <div class="flex gap-1" id="nav"></div>
+    <div class="ml-auto flex items-center gap-3" id="stats"></div>
+</header>
 
 <main class="flex-1 flex flex-col min-h-0">
-    <div id="h-sub" class="flex items-center gap-3 px-4 h-14 border-b border-base-300 shrink-0"></div>
-    
-    <div id="out-wrap" class="relative flex-1 bg-neutral min-h-0 flex flex-col overflow-hidden">
-        <div class="flex-1 border-b border-base-content/10 relative overflow-hidden bg-neutral">
-             <div id="sync-progress" class="hidden absolute inset-0 bg-black/60 z-50 flex items-center justify-center backdrop-blur-sm">
-                <div class="bg-base-100 p-8 rounded-2xl shadow-2xl flex flex-col items-center gap-4 border border-base-300">
-                    <span class="loading loading-spinner loading-lg text-primary"></span>
-                    <div class="text-center">
-                        <div class="font-black text-2xl tracking-tighter uppercase" id="sync-msg">Processing</div>
-                        <div class="font-mono text-sm opacity-60 mt-1" id="sync-count">0 / 0</div>
-                    </div>
-                </div>
-             </div>
-             <pre id="out" class="absolute inset-0 p-4 text-info font-mono text-[11px] overflow-auto outline-none selection:bg-info/10" tabindex="0"></pre>
+    <div class="flex items-center gap-3 px-4 h-11 border-b border-base-300 shrink-0 bg-base-100" id="toolbar"></div>
+    <div class="flex-1 flex min-h-0">
+        <div class="flex-1 overflow-hidden relative">
+            <pre id="out" class="absolute inset-0 p-4 bg-base-200 text-base-content font-mono text-[11px] overflow-auto outline-none" tabindex="0"></pre>
+            <div id="summary-table" class="hidden absolute inset-0"></div>
         </div>
-        <div id="grid" class="bg-base-100 shrink-0 border-t border-base-300"></div>
+        <div id="grid" class="w-96 border-l border-base-300 bg-base-100"></div>
     </div>
 </main>
 
 <script type="module">
+import { get, set } from 'https://cdn.jsdelivr.net/npm/idb-keyval@6/+esm';
 import { 
-    getLegislation, getPrefiles, getSponsors, getRcwFor, getActionsFor, getHistoryFor,
-    joinRcw, joinActions, joinHistory, joinSponsors, getBillNumber, transform, consolidate, ABBR 
-} from 'https://cdn.jsdelivr.net/gh/mehrlander/wa-bills@main/legislation/tools/wsl-api-01.js';
+    getLegislation, getPrefiles, getSponsors, getRcwFor, getHistoryFor, getActionsFor, 
+    consolidate, groupWithCompanions,
+    classifyPensionBill, preload,
+    linkifyTitles, titleTooltip,
+    buildPensionPopup, buildAdjacentPopup
+} from 'https://cdn.jsdelivr.net/gh/mehrlander/wa-bills@main/legislation/tools/wsl-api-13.js';
 
-const { DateTime } = luxon;
-const BIENNIUM = '2025-26';
-
-window.store = { legislation: [], prefiles: [], sponsors: [], rcws: {}, actions: {}, history: {} };
-window.view = { mode: 'legislation', format: 'json' };
+const BIENNIUM = '2025-26', STORES = ['legislation','prefiles','rcws','sponsors','history','actions'];
+const store = { legislation: [], prefiles: [], rcws: {}, sponsors: [], history: {}, actions: {} };
+const view = { mode: 'legislation', format: 'json', limitSync: true, limitN: 20, showAllBills: false };
 let syncing = false, table = null;
 
-const getProfile = (rows) => {
-    if (!rows?.length) return [];
-    const keys = [...new Set(rows.flatMap(Object.keys))];
-    const total = rows.length;
-    return keys.map(k => {
-        const vals = rows.map(r => r[k]).filter(v => v != null && String(v).trim() !== "");
-        return { column: k, count: vals.length, unique: [...new Set(vals)].length, pct: ((vals.length / total) * 100).toFixed(0) + '%', sample: [...new Set(vals)].slice(0, 5).join(', ') };
-    });
+const dbKey = k => `wsl-${BIENNIUM}-${k}`;
+const save = async k => set(dbKey(k), store[k]);
+const load = async () => { for (const k of STORES) store[k] = await get(dbKey(k)) || (Array.isArray(store[k]) ? [] : {}); };
+
+const uniq = (arr, fn) => [...new Set(arr.map(fn))];
+const toChapters = rcws => uniq(rcws, r => r.split('.').slice(0,2).join('.')).join(', ');
+const toTitles = rcws => uniq(rcws, r => r.split('.')[0]).sort((a,b) => +a - +b).join(', ');
+const allBills = () => [...store.legislation, ...store.prefiles];
+
+const heatBadge = (val, min, max) => {
+    if (val === 0) return `<span class="text-[10px] font-mono opacity-30">0</span>`;
+    const pct = max === min ? 0 : (val - min) / (max - min);
+    const gray = Math.round(255 - pct * 180);
+    const textColor = pct > 0.4 ? 'white' : '#666';
+    return `<span class="text-[10px] font-mono px-1.5 py-0.5 rounded" style="background:rgb(${gray},${gray},${gray});color:${textColor}">${val}</span>`;
 };
 
-const performRender = () => {
-    const all = [...store.legislation, ...store.prefiles];
-    let data;
-    if (view.mode === 'join') {
-        const spMap = Object.fromEntries(store.sponsors.map(s => [s.Id, s]));
-        data = all.map(b => { 
-            const j = {...b}; joinRcw(j, store.rcws); joinActions(j, store.actions); joinHistory(j, store.history); joinSponsors(j, spMap); return j; 
+const FISCAL = ['WAYS', 'APP', 'APPRS', 'WM', 'CAP', 'CB', 'TR'], RULES = ['RULE', 'RULES'];
+const getCommitteeType = code => !code ? 'policy' : FISCAL.includes(code.toUpperCase()) ? 'fiscal' : RULES.includes(code.toUpperCase()) ? 'rules' : 'policy';
+const getOutcomeIcon = code => !code ? '' : ['DP', 'DPS', 'DPSA', 'DPA'].some(c => code.toUpperCase().startsWith(c)) ? '✓' : code.toUpperCase() === 'DNP' ? '✗' : ['W/OREC', 'WOREC'].includes(code.toUpperCase().replace(/\s/g, '')) ? '–' : '';
+const getOutcomeClass = code => !code ? '' : ['DP', 'DPS', 'DPSA', 'DPA'].some(c => code.toUpperCase().startsWith(c)) ? 'text-success' : code.toUpperCase() === 'DNP' ? 'text-error' : 'opacity-60';
+const getCommitteeColor = type => type === 'fiscal' ? 'bg-amber-100 border-amber-300 text-amber-800' : type === 'rules' ? 'bg-violet-100 border-violet-300 text-violet-800' : 'bg-base-200 border-base-300';
+
+const formatActionBadge = a => {
+    const committee = a?.Committee || '', code = a?.['r.MajorityCode'] || '';
+    const icon = getOutcomeIcon(code), outcomeClass = getOutcomeClass(code);
+    const colorClass = getCommitteeColor(getCommitteeType(committee));
+    const label = icon ? `${committee}<span class="${outcomeClass} ml-0.5">${icon}</span>` : committee || '?';
+    return `<span class="badge badge-xs border ${colorClass}">${label}</span>`;
+};
+
+const trimSigners = str => str ? str.replace(/^Signed by (Representatives?|Senators?)[,:]?\s*/i, '') : '';
+
+const buildActionsPopup = actions => {
+    if (!actions?.length) return '<div class="p-3 text-sm opacity-60">No committee actions</div>';
+    return `<div class="p-2 max-w-lg max-h-72 overflow-auto">${actions.map(a => {
+        const committee = a?.Committee || '', commLong = a?.CommitteeLong || '', date = a?.HearingDate || '';
+        const majCode = a?.['r.MajorityCode'] || '', majSigned = trimSigners(a?.['r.MajoritySigned'] || '');
+        const minCode = a?.['r.MinorityCode'] || '', minSigned = trimSigners(a?.['r.MinoritySigned'] || '');
+        const icon = getOutcomeIcon(majCode), outcomeClass = getOutcomeClass(majCode);
+        const colorClass = getCommitteeColor(getCommitteeType(committee));
+        let html = `<div class="py-2 border-b border-base-200 last:border-0">
+            <div class="flex items-center gap-2"><span class="badge badge-sm border ${colorClass}">${committee}</span><span class="text-sm opacity-70 flex-1">${commLong}</span><span class="text-xs opacity-50">${date}</span></div>`;
+        if (majCode) {
+            html += `<div class="mt-1 flex items-center gap-1"><span class="${outcomeClass} font-bold">${icon}</span>`;
+            if (majSigned) html += `<span class="text-xs opacity-60">${majSigned}</span>`;
+            html += '</div>';
+        }
+        if (minCode) {
+            html += `<div class="mt-1 flex items-center gap-1 opacity-70"><span class="${getOutcomeClass(minCode)}">${getOutcomeIcon(minCode) || '–'}</span>`;
+            if (minSigned) html += `<span class="text-xs opacity-50">${minSigned}</span>`;
+            html += '</div>';
+        }
+        return html + '</div>';
+    }).join('')}</div>`;
+};
+
+const getSummaryBills = () => {
+    const sponsorById = Object.fromEntries(store.sponsors.map(s => [s.SponsorId, s]));
+    return allBills().map(b => {
+        const rcwList = (store.rcws[b.BillId]?.Rcws || '').split('|').filter(Boolean);
+        const c = rcwList.length ? classifyPensionBill(rcwList) : {};
+        if (!view.showAllBills && !c.hasPension && !c.hasAdjacent) return null;
+        const hist = (store.history[b.BillNumber] || []).slice().sort((a,b) => new Date(b.ActionDate) - new Date(a.ActionDate));
+        const actions = store.actions[b.BillNumber] || [];
+        const other = rcwList.filter(r => !(c.PensionRcws||[]).includes(r) && !(c.AdjacentRcws||[]).includes(r));
+        const sp = sponsorById[b.PrimeSponsorID];
+        const latestDate = hist[0]?.ActionDate || '';
+        let isCurrent = false;
+        if (latestDate) {
+            const [m, day, y] = latestDate.split('/').map(Number);
+            isCurrent = new Date(y, m-1, day) > new Date(2025, 10, 1);
+        }
+        return {
+            BillId: b.BillId, BillNumber: b.BillNumber,
+            ShortDesc: b.ShortDescription || '', LongDesc: b.LongDescription || '', LegalTitle: b.LegalTitle || '',
+            PrimeSponsorID: b.PrimeSponsorID || '',
+            'ps.LongName': sp?.LongName || '', 'ps.Agency': sp?.Agency || '', 'ps.Acronym': sp?.Acronym || '',
+            Active: b.Active, Companion: b['c.BillId'] || '',
+            RcwCt: rcwList.length, AllRcws: rcwList,
+            HistCt: hist.length,
+            Actions: actions,
+            CommitteeList: [...new Set((actions || []).map(a => a.Committee).filter(Boolean))].join(', '),
+            IsPension: !!c.hasPension, IsAdjacent: !!c.hasAdjacent,
+            PensionArea: (c.PensionLabels||[]).join(', '), AdjacentArea: (c.AdjacentLabels||[]).join(', '),
+            IsCurrent: isCurrent,
+            LatestDate: latestDate, LatestAction: hist[0]?.HistoryLine || '',
+            PensionRcws: toChapters(c.PensionRcws||[]), PensionRcwsFull: (c.PensionRcws||[]).join('|'),
+            AdjacentRcws: toChapters(c.AdjacentRcws||[]), AdjacentRcwsFull: (c.AdjacentRcws||[]).join('|'),
+            OtherTitles: toTitles(other)
+        };
+    }).filter(Boolean).sort((a,b) => (+a.BillNumber||0) - (+b.BillNumber||0));
+};
+
+const parseMDY = s => {
+    if (!s) return null;
+    const [m, d, y] = s.split('/').map(Number);
+    return new Date(y, m-1, d);
+};
+const parseYMD = s => {
+    if (!s) return null;
+    const [y, m, d] = s.split('-').map(Number);
+    return new Date(y, m-1, d);
+};
+const sinceDateEditor = (cell, onRendered, success, cancel) => {
+    const i = document.createElement('input');
+    i.type = 'date';
+    i.value = cell.getValue() || '';
+    i.style.cssText = 'width:100%;padding:2px 4px';
+    const apply = () => success(i.value);
+    i.addEventListener('change', apply);
+    i.addEventListener('blur', apply);
+    i.addEventListener('keydown', e => e.key === 'Enter' ? apply() : e.key === 'Escape' ? cancel() : 0);
+    return i;
+};
+const sinceDateFunc = (headerValue, rowValue) => {
+    const since = parseYMD(headerValue);
+    if (!since) return true;
+    const r = parseMDY(rowValue);
+    return r && r >= since;
+};
+const getProfile = rows => rows?.length ? uniq(rows.flatMap(Object.keys), k=>k).map(k => {
+    const vals = rows.map(r => r[k]).filter(v => v != null && String(v).trim());
+    return { column: k, count: vals.length, unique: uniq(vals, v=>v).length, pct: ((vals.length/rows.length)*100).toFixed(0)+'%' };
+}) : [];
+
+const getData = () => view.mode === 'rcws' ? Object.values(store.rcws) : view.mode === 'summary' ? getSummaryBills() : store[view.mode];
+
+const render = () => {
+    const all = allBills(), rcwCount = Object.keys(store.rcws).length, summary = getSummaryBills();
+    const pensionCount = summary.filter(b => b.IsPension).length, adjCount = summary.filter(b => b.IsAdjacent && !b.IsPension).length;
+    const data = getData(), isSummary = view.mode === 'summary', isRcw = view.mode === 'rcws';
+
+    $('#nav').html(['legislation','prefiles','rcws','sponsors','summary'].map(m =>
+        `<button data-mode="${m}" class="btn btn-sm font-bold ${view.mode===m?'btn-primary':'btn-ghost'}">${m[0].toUpperCase()+m.slice(1)}</button>`
+    ).join(''));
+
+    $('#stats').html(`<span class="text-xs text-base-content/50">Bills: <b class="text-primary">${all.length}</b></span>
+        <span class="text-xs text-base-content/50">RCW: <b class="text-primary">${rcwCount}/${all.length}</b></span>
+        <span class="badge badge-primary badge-sm font-bold">${pensionCount} pension</span>`);
+
+    const maxDate = (arr, f) => arr.length ? arr.reduce((a,b) => b[f] > a ? b[f] : a, '') : '—';
+    const summaryNums = uniq(summary.filter(b => b.IsPension || b.IsAdjacent), b => b.BillNumber);
+    const missHist = summaryNums.filter(n => !store.history[n]).length, missAct = summaryNums.filter(n => !store.actions[n]).length;
+
+    $('#toolbar').html(`
+        <button data-action="sync" ${syncing?'disabled':''} class="btn btn-sm font-bold gap-2 ${syncing?'btn-disabled':'btn-primary'}"><i class="ph-bold ph-arrows-clockwise"></i> Sync</button>
+        ${view.mode === 'legislation' ? `<input type="date" id="sinceDate" value="2025-01-01" class="input input-sm input-bordered w-36">
+            <div class="flex flex-col text-[10px] leading-tight text-base-content/50"><span>Intro: <b>${maxDate(store.legislation,'IntroducedDate')}</b></span><span>Action: <b>${maxDate(store.legislation,'ActionDate')}</b></span></div>` : ''}
+        ${isRcw ? `<label class="flex items-center gap-2"><input type="checkbox" id="limitSync" class="checkbox checkbox-xs" ${view.limitSync?'checked':''}><span class="text-xs">Limit</span></label>
+            <input type="number" id="limitN" value="${view.limitN}" class="input input-sm input-bordered w-16 font-mono">
+            <span class="text-xs text-base-content/50">(${all.filter(b => !store.rcws[b.BillId]).length} missing)</span>` : ''}
+        ${isSummary ? `<label class="flex items-center gap-2"><input type="checkbox" id="showAllBills" class="checkbox checkbox-xs" ${view.showAllBills?'checked':''}><span class="text-xs">Show all bills</span></label>
+            <span class="text-xs text-base-content/50">Pension: ${pensionCount} · Adjacent: ${adjCount} · Showing: ${data.length} · Hist: ${missHist} missing · Act: ${missAct} missing</span>
+            <button id="open-dash" class="btn btn-sm btn-ghost gap-1"><i class="ph-bold ph-chart-line"></i> Dashboard</button>` : ''}
+        <div class="ml-auto flex gap-2">
+            ${!isSummary ? `<div class="join">${['json','tsv'].map(f => `<button data-fmt="${f}" class="btn btn-sm join-item font-bold ${view.format===f?'btn-primary':'btn-ghost'}">${f.toUpperCase()}</button>`).join('')}</div>` : ''}
+            <button data-action="copy" class="btn btn-ghost btn-sm gap-1 tooltip tooltip-bottom" data-tip="Copy to clipboard"><i class="ph-bold ph-copy"></i> Copy</button>
+            <button data-action="clear" class="btn btn-ghost btn-sm gap-1 tooltip tooltip-bottom" data-tip="Clear current dataset"><i class="ph-bold ph-trash"></i> Clear</button>
+        </div>`);
+
+    $('#out, #summary-table, #grid').addClass('hidden');
+    if (isSummary) {
+        $('#summary-table').removeClass('hidden');
+        
+        const groups = groupWithCompanions(allBills());
+        const summaryByBillId = Object.fromEntries(data.map(r => [r.BillId, r]));
+        
+        const grouped = [];
+        groups.forEach(g => {
+            const groupKey = g.numbers.sort((a,b) => +a - +b).join(' / ');
+            g.bills.forEach(b => { const s = summaryByBillId[b.BillId]; if (s) grouped.push({ ...s, _group: groupKey }); });
         });
-    } else if (['rcws','actions','history'].includes(view.mode)) {
-        data = view.mode === 'rcws' ? Object.values(store.rcws) : Object.values(store[view.mode]).flat();
-    } else { data = store[view.mode]; }
-
-    const curSince = $('#sinceDate').val() || '2025-01-01';
-    const curIter = $('#maxIterations').val() || '10';
-    const curLimit = $('#limitEnabled').length ? $('#limitEnabled').is(':checked') : true;
-
-    $('#h-main').html(`
-        <div class="flex items-center gap-3 h-10 border-l border-base-300 pl-6"><span class="text-[10px] font-black opacity-30 uppercase tracking-widest leading-none">Sources</span><div class="flex gap-0">
-            <button data-mode="legislation" class="btn btn-sm font-bold gap-2 rounded-r-none ${view.mode==='legislation'?'btn-primary':'btn-ghost'}">Legislation <span class="badge badge-xs">${store.legislation.length}</span></button>
-            <button data-mode="prefiles" class="btn btn-sm font-bold gap-2 rounded-l-none border-l-0 ${view.mode==='prefiles'?'btn-primary':'btn-ghost'}">Prefiles <span class="badge badge-xs">${store.prefiles.length}</span></button>
-        </div></div>
-        <div class="flex items-center gap-3 h-10 border-l border-base-300 pl-6"><span class="text-[10px] font-black opacity-30 uppercase tracking-widest leading-none">Lookups</span><div class="flex gap-2">
-            <button data-mode="rcws" class="btn btn-xs font-bold ${view.mode==='rcws'?'btn-primary':'btn-ghost'}">RCW <span class="opacity-50">${Object.keys(store.rcws).length}/${all.length}</span></button>
-            <button data-mode="actions" class="btn btn-xs font-bold ${view.mode==='actions'?'btn-primary':'btn-ghost'}">Act <span class="opacity-50">${Object.keys(store.actions).length}</span></button>
-            <button data-mode="history" class="btn btn-xs font-bold ${view.mode==='history'?'btn-primary':'btn-ghost'}">Hist <span class="opacity-50">${Object.keys(store.history).length}</span></button>
-            <button data-mode="sponsors" class="btn btn-xs font-bold ${view.mode==='sponsors'?'btn-primary':'btn-ghost'}">Sponsors <span class="badge badge-xs">${store.sponsors.length}</span></button>
-        </div></div>
-        <div class="ml-auto flex items-center gap-4"><button data-mode="join" class="btn btn-sm font-bold ${view.mode==='join'?'btn-primary':'btn-ghost'}">Join All</button></div>
-    `);
-
-    $('#h-sub').html(`
-        <div class="flex items-center gap-3">
-            <button data-mode="sync" ${syncing?'disabled':''} class="btn btn-sm font-bold gap-2 ${syncing?'btn-ghost opacity-30':'btn-primary'}"><i class="ph-bold ph-arrows-clockwise text-xl"></i><span>${syncing?'Syncing...':'Sync View'}</span></button>
-            ${view.mode==='legislation'?'<input type="date" id="sinceDate" class="input input-sm input-bordered h-10">':''}
-            ${['rcws','actions','history'].includes(view.mode)? `
-                <div class="flex items-center gap-2 h-10 px-3 border border-base-300 rounded-lg">
-                    <label class="flex items-center gap-2 cursor-pointer"><input type="checkbox" id="limitEnabled" class="checkbox checkbox-xs checkbox-primary"><span class="text-xs font-bold opacity-70">Limit</span></label>
-                    <input type="number" id="maxIterations" class="input input-xs w-16 text-center bg-transparent border-none focus:ring-0 font-mono">
-                </div>
-            ` : ''}
-            ${view.mode==='sponsors'?'<input type="text" id="biennium" value="2025-26" class="input input-sm input-bordered w-24 text-center font-mono">':''}
-        </div>
-        <div class="ml-auto flex items-center gap-1">
-            <div class="join">${['json','tsv'].map(f=>`<button data-fmt="${f}" class="btn btn-sm join-item ${view.format===f?'btn-primary':'btn-ghost'} font-bold">${f.toUpperCase()}</button>`).join('')}</div>
-            <button data-mode="copy" class="btn btn-ghost btn-sm btn-square"><i class="ph-bold ph-copy text-xl"></i></button>
-            <button data-mode="clear" class="btn btn-ghost btn-sm btn-square"><i class="ph-bold ph-trash text-xl"></i></button>
-        </div>
-    `);
-
-    $('#sinceDate').val(curSince); $('#maxIterations').val(curIter); $('#limitEnabled').prop('checked', curLimit);
-    $('#out').text(view.format==='tsv' ? (window.xl?.toTsv(data)||JSON.stringify(data)) : JSON.stringify(data, null, 2));
-    if (!table) table = new Tabulator("#grid", { data: getProfile(data), layout: "fitColumns", columns: [{title:"Column", field:"column", headerFilter:"input"},{title:"Populated", field:"count"},{title:"Unique", field:"unique"},{title:"Fill", field:"pct"},{title:"Sample", field:"sample"}], height: 300 });
-    else table.setData(getProfile(data));
+        
+        const rcwVals = grouped.map(r => r.RcwCt).filter(v => v > 0);
+        const rcwRange = { min: Math.min(...rcwVals, 1), max: Math.max(...rcwVals, 1) };
+        
+const cols = [
+    { title: 'BillId', field: 'BillId', width: 110,
+        formatter: cell => {
+            const r = cell.getRow().getData(), num = r.BillId.match(/\d+/)?.[0] || r.BillNumber;
+            return `<span class="pl-4"><a href="https://app.leg.wa.gov/billsummary?BillNumber=${num}&Year=2025" target="_blank" class="link link-primary">${r.BillId}</a></span>`;
+        }},
+ { title: 'Active', field: 'Active', width: 70, hozAlign: 'center', formatter: cell => cell.getValue() == 1 ? '<span class="text-success">●</span>' : '<span class="opacity-10">●</span>', headerFilter: 'tickCross', headerFilterParams: { tristate: true }, headerFilterEmptyCheck: v => v === null },
+    { title: 'Pension', field: 'IsPension', width: 70, hozAlign: 'center', formatter: cell => cell.getValue() ? '<span class="text-success">●</span>' : '<span class="opacity-10">●</span>', headerFilter: 'tickCross', headerFilterParams: { tristate: true }, headerFilterEmptyCheck: v => v === null },
+    { title: 'Adjacent', field: 'IsAdjacent', width: 70, hozAlign: 'center', formatter: cell => cell.getValue() ? '<span class="text-warning">●</span>' : '<span class="opacity-10">●</span>', headerFilter: 'tickCross', headerFilterParams: { tristate: true }, headerFilterEmptyCheck: v => v === null },
+    { title: 'Current', field: 'IsCurrent', width: 70, hozAlign: 'center', formatter: cell => cell.getValue() ? '<span class="text-success">●</span>' : '<span class="opacity-10">●</span>', headerFilter: 'tickCross', headerFilterParams: { tristate: true }, headerFilterEmptyCheck: v => v === null },
+{ title: 'Latest', field: 'LatestDate', width: 120, tooltip: cell => cell.getRow().getData().LatestAction, headerFilter: sinceDateEditor, headerFilterFunc: sinceDateFunc },
+    { title: 'Rcws', field: 'RcwCt', hozAlign: 'center', width: 55, headerFilter: false,
+        formatter: cell => heatBadge(cell.getValue(), rcwRange.min, rcwRange.max) },
+    { title: 'Committee', field: 'CommitteeList', minWidth: 150,
+        formatter: cell => (cell.getRow().getData().Actions || []).map(formatActionBadge).join(' '),
+        clickPopup: (e, cell) => buildActionsPopup(cell.getRow().getData().Actions) },
+    { title: 'PensionArea', field: 'PensionArea', clickPopup: (e, cell) => buildPensionPopup(cell.getRow().getData().PensionRcwsFull) },
+    { title: 'AdjacentArea', field: 'AdjacentArea', clickPopup: (e, cell) => buildAdjacentPopup(cell.getRow().getData().AdjacentRcwsFull) },
+    { title: 'OtherTitles', field: 'OtherTitles', minWidth: 120, formatter: cell => linkifyTitles(cell.getValue()), tooltip: titleTooltip }
+];
+        
+        const groupHeader = (value, count, data) => {
+            const nums = value.split(' / ');
+            const links = nums.map(num => {
+                const histCt = (store.history[num] || []).length;
+                const indicator = histCt ? `<span class="indicator-item text-[10px] font-mono opacity-70">${histCt}</span>` : '';
+                return `<span class="indicator mr-2">${indicator}<a href="https://app.leg.wa.gov/billsummary?BillNumber=${num}&Year=2025" target="_blank" class="link link-primary font-bold">${num}</a></span>`;
+            }).join(' / ');
+            const short = data[0]?.ShortDesc || '', long = data[0]?.LongDesc || '';
+            const desc = long && long !== short 
+                ? `<span class="font-medium">${short}</span><span class="ml-2 text-xs font-light">${long}</span>`
+                : `<span class="font-medium">${short}</span>`;
+            return `${links} <span class="ml-4">${desc}</span>`;
+        };
+        
+        if (!table || table._config !== 'summary') { 
+            table = new Tabulator('#summary-table', { data: grouped, layout: 'fitDataFill', height: '100%', columns: cols, columnDefaults: { headerFilter: 'input' }, groupBy: '_group', groupHeader, groupStartOpen: true }); 
+            table._config = 'summary';
+            table.on('renderComplete', () => table.getGroups().forEach(g => {
+                const d = g.getRows()[0]?.getData();
+                const color = d?.IsPension ? ['oklch(0.98 0.01 145)', 'oklch(0.65 0.2 145)'] : d?.IsAdjacent ? ['oklch(0.99 0.008 85)', 'oklch(0.7 0.15 85)'] : ['oklch(0.98 0.005 260)', 'oklch(0.7 0.02 260)'];
+                Object.assign(g.getElement().style, { backgroundColor: color[0], borderLeft: `4px solid ${color[1]}` });
+            }));
+        } else table.setData(grouped);
+    } else {
+        $('#out, #grid').removeClass('hidden');
+        const text = view.format === 'json' ? JSON.stringify(data, null, 2)
+            : data.length ? [Object.keys(data[0]).join('\t'), ...data.map(r => Object.values(r).map(v => Array.isArray(v) ? v.join('; ') : v).join('\t'))].join('\n') : '';
+        $('#out').text(text);
+        const profileCols = [{ title: 'Column', field: 'column', headerFilter: 'input' }, { title: '#', field: 'count', width: 60 }, { title: 'Uniq', field: 'unique', width: 60 }, { title: '%', field: 'pct', width: 60 }];
+        if (!table || table._config !== 'profile') { table = new Tabulator('#grid', { data: getProfile(data), layout: 'fitColumns', height: '100%', columns: profileCols }); table._config = 'profile'; }
+        else table.setData(getProfile(data));
+    }
 };
+
+const progress = (msg, count) => { $('#sync-modal').removeClass('hidden'); $('#sync-msg').text(msg); $('#sync-count').text(count || ''); };
 
 const runSync = async () => {
-    const isLimited = $('#limitEnabled').length ? $('#limitEnabled').is(':checked') : false;
-    const iterCount = parseInt($('#maxIterations').val()) || 10;
-    const sinceDate = $('#sinceDate').val();
-    const biennium = $('#biennium').val() || BIENNIUM;
-
-    syncing = true; performRender();
-    const all = [...store.legislation, ...store.prefiles];
-
+    syncing = true; render();
     try {
-        if (['rcws','actions','history'].includes(view.mode)) {
-            let miss = [];
-            if (view.mode === 'rcws') miss = all.filter(b => !store.rcws[b.BillId]);
-            else {
-                const unique = [...new Map(all.map(b => [getBillNumber(b), b])).values()];
-                miss = unique.filter(b => !store[view.mode][getBillNumber(b)]);
-            }
-
-            if (isLimited) miss = miss.slice(0, iterCount);
-
-            if (miss.length > 0) {
-                // Show progress and update text directly
-                $('#sync-progress').removeClass('hidden');
-                $('#sync-msg').text(`Fetching ${view.mode.toUpperCase()}...`);
-                
-                for (let i = 0; i < miss.length; i++) {
-                    const b = miss[i];
-                    // Direct DOM update of counter (Performance optimal)
-                    $('#sync-count').text(`${i + 1} / ${miss.length} [${b.BillId || getBillNumber(b)}]`);
-                    
-                    if (view.mode === 'rcws') {
-                        const r = await getRcwFor(b, biennium);
-                        if (r) store.rcws[r.BillId] = r;
-                    } else {
-                        const bn = getBillNumber(b);
-                        const data = view.mode === 'actions' ? await getActionsFor(b, biennium) : await getHistoryFor(b, biennium);
-                        store[view.mode][bn] = data;
-                    }
-                }
-            }
+        if (view.mode === 'legislation') {
+            progress('Fetching Legislation');
+            store.legislation = consolidate(await getLegislation($('#sinceDate').val()));
+            await save('legislation');
+        } else if (view.mode === 'prefiles') {
+            progress('Fetching Prefiles');
+            store.prefiles = consolidate(await getPrefiles());
+            await save('prefiles');
         } else if (view.mode === 'sponsors') {
-            store.sponsors = await getSponsors(biennium);
-        } else {
-            const raw = view.mode === 'legislation' ? await getLegislation(sinceDate) : await getPrefiles();
-            store[view.mode] = consolidate(raw);
+            progress('Fetching Sponsors');
+            store.sponsors = await getSponsors(BIENNIUM);
+            await save('sponsors');
+        } else if (view.mode === 'rcws') {
+            let miss = allBills().filter(b => !store.rcws[b.BillId]);
+            if (view.limitSync) miss = miss.slice(0, view.limitN);
+            const done = Object.keys(store.rcws).length, total = allBills().length;
+            for (let i = 0; i < miss.length; i++) {
+                progress('Fetching RCW', `${done+i+1}/${total} [${miss[i].BillId}]`);
+                const r = await getRcwFor(miss[i], BIENNIUM);
+                if (r) store.rcws[r.BillId] = r;
+            }
+            await save('rcws');
+        } else if (view.mode === 'summary') {
+            const nums = uniq(getSummaryBills().filter(b => b.IsPension || b.IsAdjacent), b => b.BillNumber);
+            const byNum = Object.fromEntries(allBills().map(b => [b.BillNumber, b]));
+            const needH = nums.filter(n => !store.history[n]), needA = nums.filter(n => !store.actions[n]);
+            let p = 0, total = needH.length + needA.length;
+            for (const n of needH) { progress('Fetching History', `${++p}/${total} [${n}]`); store.history[n] = await getHistoryFor(byNum[n], BIENNIUM) || []; }
+            await save('history');
+            for (const n of needA) { progress('Fetching Actions', `${++p}/${total} [${n}]`); store.actions[n] = await getActionsFor(byNum[n], BIENNIUM) || []; }
+            await save('actions');
         }
-    } catch (e) { console.error(e); }
-
-    $('#sync-progress').addClass('hidden');
-    syncing = false; 
-    performRender(); // Final calculation and table draw
+    } catch (e) { console.error(e); alert(e.message); }
+    $('#sync-modal').addClass('hidden'); syncing = false; render();
 };
 
-$(document).on('click', '[data-mode]', function() {
-    const m = $(this).data('mode');
-    if (m === 'sync') runSync();
-    else if (m === 'clear') { 
-        if(['rcws','actions','history'].includes(view.mode)) store[view.mode]={}; else store[view.mode]=[]; 
-        performRender(); 
-    }
-    else if (m === 'copy') navigator.clipboard.writeText($('#out').text());
-    else { view.mode = m; performRender(); }
-}).on('click', '[data-fmt]', function() { view.format = $(this).data('fmt'); performRender(); });
+$(document).on('click', '[data-mode]', e => { view.mode = $(e.currentTarget).data('mode'); render(); })
+    .on('click', '[data-fmt]', e => { view.format = $(e.currentTarget).data('fmt'); render(); })
+    .on('change', '#limitSync', e => { view.limitSync = e.target.checked; })
+    .on('change', '#limitN', e => { view.limitN = +e.target.value || 20; })
+    .on('change', '#showAllBills', e => { view.showAllBills = e.target.checked; render(); })
+    .on('click', '#open-dash', () => window.open('pension-dash.html', '_blank'))
+    .on('click', '[data-action]', async e => {
+        const a = $(e.currentTarget).data('action');
+        if (a === 'sync') runSync();
+        else if (a === 'copy') navigator.clipboard.writeText($('#out').text());
+        else if (a === 'clear') {
+            if (view.mode === 'rcws') store.rcws = {};
+            else if (view.mode === 'summary') { store.history = {}; store.actions = {}; await save('history'); }
+            else store[view.mode] = [];
+            await save(view.mode === 'summary' ? 'actions' : view.mode); render();
+        }
+    });
 
-performRender();
+await load(); 
+await preload();
+render();
 </script>
 </body>
 </html>

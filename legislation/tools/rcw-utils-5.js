@@ -251,7 +251,7 @@ const buildTitleBlock = (t, rcwsInTitle, badgeClass = 'badge-secondary') => {
         .map(([ch, rcws]) => buildChapterBlock(ch, rcws, badgeClass))
         .join('');
     
-    return `<div class="mb-3">
+    return `<div class="[&:not(:last-child)]:mb-3">        
         <div class="font-bold border-b border-base-300 pb-1">
             <a href="${rcwUrl(t)}" target="_blank" class="link">${t}</a>
             <span class="text-base-content/80">${titleName}</span>

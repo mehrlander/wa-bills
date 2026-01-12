@@ -212,7 +212,7 @@ const buildChapterBlock = (ch, rcws, badgeClass = 'badge-secondary') => {
     const chInfo = byCite?.[ch];
     const chName = chInfo?.Name || byChapter?.[ch]?.Description || '';
     const chMeta = getChapterLabel(ch);
-    const chBadge = chMeta ? `<span class="badge badge-sm ${badgeClass} ml-1">${chMeta.label}</span>` : '';
+    const chBadge = chMeta ? `<span class="badge badge-xs ${badgeClass} ml-1">${chMeta.label}</span>` : '';
     
     const sectionHtml = rcws
         .sort((a, b) => a.localeCompare(b, undefined, { numeric: true }))
@@ -283,7 +283,7 @@ export const buildPensionPopup = (rcwListStr) => {
 export const buildAdjacentPopup = (rcwListStr) => {
     return buildRcwPopup(rcwListStr, { 
         emptyMessage: 'No adjacent RCWs', 
-        badgeClass: 'badge-accent' 
+        badgeClass: 'badge-warning' 
     });
 };
 
@@ -295,7 +295,7 @@ export const buildChapterPopup = (chapter, rcwListStr) => {
     const chInfo = byCite?.[chapter];
     const chName = chInfo?.Name || byChapter?.[chapter]?.Description || '';
     const chMeta = getChapterLabel(chapter);
-    const chBadge = chMeta ? `<span class="badge badge-sm badge-secondary ml-1">${chMeta.label}</span>` : '';
+    const chBadge = chMeta ? `<span class="badge badge-xs badge-secondary ml-1">${chMeta.label}</span>` : '';
     
     const sectionHtml = rcwList
         .sort((a, b) => a.localeCompare(b, undefined, { numeric: true }))

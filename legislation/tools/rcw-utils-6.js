@@ -33,11 +33,7 @@ export const PENSION_MAP = {
         "74.20A": "DCS"
     },
     special: { 
-        "41.40.124": "Judicial Multiplier", "41.40.761": "Judicial Multiplier P2", 
-        "41.45.0631": "WSPRS Rates", "41.50.770": "DCP", "41.50.780": "DCP Accounts",
-        "41.26.130": "Disability Offset", "41.26.470": "Disability Offset", "41.37.230": "Disability Offset",
-        "41.40.038": "L&I Service Credit", "41.37.060": "L&I Service Credit", "41.26.473": "L&I Service Credit",
-        "41.26.048": "Line of Duty Death"
+        "41.50.770": "DCP", "41.50.780": "DCP Accounts"
     }
 };
 

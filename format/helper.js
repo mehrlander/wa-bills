@@ -22,6 +22,49 @@
     return s.includes('line-through') ? 'del' : s.includes('underline') ? 'ins' : null;
   };
 
+  const isolateDelParens = () => {
+    $$('span').filter(el => getComputedStyle(el).textDecoration.includes('line-through')).forEach(delSpan => {
+      const prev = delSpan.previousSibling;
+      if (prev?.nodeType === 3 && prev.textContent.endsWith('((')) {
+        const text = prev.textContent;
+        if (text === '((') {
+          const wrapper = document.createElement('span');
+          wrapper.dataset.delOpen = 'true';
+          wrapper.textContent = '((';
+          prev.replaceWith(wrapper);
+        } else {
+          prev.textContent = text.slice(0, -2);
+          const wrapper = document.createElement('span');
+          wrapper.dataset.delOpen = 'true';
+          wrapper.textContent = '((';
+          delSpan.before(wrapper);
+        }
+      }
+
+      const next = delSpan.nextSibling;
+      if (next?.nodeType === 3 && next.textContent.trimStart().startsWith('))')) {
+        const text = next.textContent;
+        const trimmed = text.trimStart();
+        const leadingWs = text.slice(0, text.length - trimmed.length);
+        
+        if (trimmed === '))') {
+          const wrapper = document.createElement('span');
+          wrapper.dataset.delClose = 'true';
+          wrapper.textContent = text;
+          next.replaceWith(wrapper);
+        } else {
+          const wrapper = document.createElement('span');
+          wrapper.dataset.delClose = 'true';
+          wrapper.textContent = leadingWs + '))';
+          next.textContent = trimmed.slice(2);
+          delSpan.after(wrapper);
+        }
+      }
+    });
+  };
+
+  isolateDelParens();
+
   const state = { pM: null, pL: null, path: [] };
   const getHier = (ms, isDel) => {
     if (!ms.length) return { level: 0, levelName: '', path: '', ms: '' };
@@ -61,22 +104,40 @@
     if (ms.length) divMap.set(div, getHier(ms, getComputedStyle(div).textDecoration.includes('line-through')));
   });
 
+  divMap.forEach((h, div) => {
+    div.dataset.level = h.level;
+    div.dataset.levelName = h.levelName;
+    div.dataset.path = h.path;
+    div.dataset.markers = h.ms;
+  });
+
   const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, n => n.textContent.trim() ? 1 : 2);
   const rows = [];
   let n;
   while (n = walker.nextNode()) {
     const p = n.parentElement;
     if (['SCRIPT', 'STYLE'].includes(p.tagName)) continue;
-    let type = getOwnDeco(p);
-    if (type === 'del') {
-      const b = p.previousSibling?.textContent?.trimEnd().endsWith('(('), a = p.nextSibling?.textContent?.trimStart().startsWith('))');
-      type = (b && a) ? 'del' : b ? 'del-start' : a ? 'del-end' : 'del-middle';
-    } else if (type === 'ins') type = n.textContent.trim() === 'NEW SECTION.' ? 'ins-new-section' : 'ins';
+    
+    let type = null;
+    if (p.dataset.delOpen) {
+      type = 'del-open';
+    } else if (p.dataset.delClose) {
+      type = 'del-close';
+    } else {
+      type = getOwnDeco(p);
+      if (type === 'del') {
+        const b = p.previousSibling?.textContent?.trimEnd().endsWith('((') || p.previousElementSibling?.dataset.delOpen;
+        const a = p.nextSibling?.textContent?.trimStart().startsWith('))') || p.nextElementSibling?.dataset.delClose;
+        type = (b && a) ? 'del' : b ? 'del-start' : a ? 'del-end' : 'del-middle';
+      } else if (type === 'ins') {
+        type = n.textContent.trim() === 'NEW SECTION.' ? 'ins-new-section' : 'ins';
+      }
+    }
     
     const h = divMap.get(p.closest('div:not([data-section])')) || { level: 0, levelName: '', path: '', ms: '' };
     const sec = p.closest('[data-section]');
     rows.push({ 
-      sec: sec?.dataset.section || '', 
+      sec: sec?.dataset.section ? parseInt(sec.dataset.section, 10) : null, 
       isNew: sec?.dataset.isNew === 'true', 
       type: type || '', 
       level: h.level,
@@ -85,6 +146,77 @@
       text: n.textContent.trim().slice(0, 80) 
     });
   }
+
+  const isDel = t => t && t.startsWith('del');
+  const isIns = t => t && t.startsWith('ins');
+  
+  let editIdx = 0;
+  let runType = null;
+  
+  for (let i = 0; i < rows.length; i++) {
+    const r = rows[i];
+    const curType = isDel(r.type) ? 'del' : isIns(r.type) ? 'ins' : null;
+    
+    if (curType) {
+      if (curType === runType) {
+        r._runIdx = editIdx;
+        r._runType = runType;
+      } else {
+        editIdx++;
+        runType = curType;
+        r._runIdx = editIdx;
+        r._runType = runType;
+      }
+    } else {
+      runType = null;
+    }
+  }
+
+  const runs = new Map();
+  rows.forEach((r, i) => {
+    if (r._runIdx) {
+      const existing = runs.get(r._runIdx);
+      if (existing) {
+        existing.endRow = i;
+      } else {
+        runs.set(r._runIdx, { type: r._runType, startRow: i, endRow: i });
+      }
+    }
+  });
+
+  const runList = [...runs.entries()].sort((a, b) => a[1].startRow - b[1].startRow);
+  
+  for (let i = 0; i < runList.length - 1; i++) {
+    const [delIdx, del] = runList[i];
+    const [insIdx, ins] = runList[i + 1];
+    if (del.type === 'del' && ins.type === 'ins' && ins.startRow === del.endRow + 1) {
+      rows.forEach(r => {
+        if (r._runIdx === insIdx) r._runIdx = delIdx;
+      });
+      runs.get(delIdx).type = 'sub';
+      runs.get(delIdx).endRow = ins.endRow;
+      runs.delete(insIdx);
+    }
+  }
+
+  const finalRuns = [...runs.entries()].sort((a, b) => a[1].startRow - b[1].startRow);
+  const runToFinalIdx = new Map();
+  finalRuns.forEach(([runIdx, run], i) => {
+    runToFinalIdx.set(runIdx, { editIndex: i + 1, editType: run.type });
+  });
+
+  rows.forEach(r => {
+    if (r._runIdx && runToFinalIdx.has(r._runIdx)) {
+      const { editIndex, editType } = runToFinalIdx.get(r._runIdx);
+      r.editType = editType;
+      r.editIndex = editIndex;
+    } else {
+      r.editType = '';
+      r.editIndex = null;
+    }
+    delete r._runIdx;
+    delete r._runType;
+  });
 
   console.table(rows);
   return rows;

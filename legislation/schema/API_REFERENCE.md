@@ -37,6 +37,8 @@ Amendments to legislation considered by the Washington State Legislature.
 |-----------|-----------|-------------|
 | `GetAmendments` | `([int]year) => ArrayOfAmendment` | Amendments submitted to the rostrum during the year. |
 
+> **Example:** [`GetAmendments?year=2025`](https://wslwebservices.leg.wa.gov/AmendmentService.asmx/GetAmendments?year=2025)
+
 ---
 
 ## CommitteeActionService
@@ -66,6 +68,8 @@ Returns legislation with the specified committee status. CommitteeName is the Na
 | `GetRemovedFromCommittee` | Removed from committee |
 | `GetWithoutRecommendationByCommittee` | Without recommendation |
 
+> **Example:** [`GetInCommittee?biennium=2025-26&agency=House&committeeName=Appropriations`](https://wslwebservices.leg.wa.gov/CommitteeActionService.asmx/GetInCommittee?biennium=2025-26&agency=House&committeeName=Appropriations)
+
 #### Other Operations
 
 | Operation | Signature | Description |
@@ -75,6 +79,10 @@ Returns legislation with the specified committee status. CommitteeName is the Na
 | `GetCommitteeExecutiveActionsByBill` | `([str]biennium?, [int]billNumber) => ArrayOfCommitteeAction` | Executive committee actions for a bill. |
 | `GetLegislationReportedOutOfCommittee` | `([str]committeeName?, [str]agency?, [dt]beginDate, [dt]endDate) => ArrayOfLegislationInfo` | Bills reported out of committee within a date range. |
 | `GetLegislationScheduledHearingsByCommittee` | `([str]biennium?, [str]agency?, [str]committeeName?) => ArrayOfLegislationFamily` | Bills with hearings scheduled in the committee. |
+
+> **Examples:**
+> [`GetCommitteeReferralsByBill?biennium=2025-26&billNumber=1000`](https://wslwebservices.leg.wa.gov/CommitteeActionService.asmx/GetCommitteeReferralsByBill?biennium=2025-26&billNumber=1000)
+> | [`GetLegislationReportedOutOfCommittee?committeeName=Appropriations&agency=House&beginDate=2025-01-01&endDate=2025-12-31`](https://wslwebservices.leg.wa.gov/CommitteeActionService.asmx/GetLegislationReportedOutOfCommittee?committeeName=Appropriations&agency=House&beginDate=2025-01-01&endDate=2025-12-31)
 
 ---
 
@@ -89,6 +97,10 @@ Committee meetings of the Washington State Legislature.
 | `GetCommitteeMeetings` | `([dt]beginDate, [dt]endDate) => ArrayOfCommitteeMeeting` | Meetings within a date range. |
 | `GetRevisedCommitteeMeetings` | `([dt]changedSinceDate) => ArrayOfCommitteeMeeting` | Meetings revised since a given date. |
 | `GetCommitteeMeetingItems` | `([int]agendaId) => ArrayOfCommitteeMeetingItem` | Items for a specific meeting. |
+
+> **Examples:**
+> [`GetCommitteeMeetings?beginDate=2025-01-01&endDate=2025-03-31`](https://wslwebservices.leg.wa.gov/CommitteeMeetingService.asmx/GetCommitteeMeetings?beginDate=2025-01-01&endDate=2025-03-31)
+> | [`GetRevisedCommitteeMeetings?changedSinceDate=2025-01-01`](https://wslwebservices.leg.wa.gov/CommitteeMeetingService.asmx/GetRevisedCommitteeMeetings?changedSinceDate=2025-01-01)
 
 ---
 
@@ -108,6 +120,8 @@ Committees of the Washington State Legislature.
 | `GetHouseCommittees` | House only |
 | `GetSenateCommittees` | Senate only |
 
+> **Example:** [`GetCommittees?biennium=2025-26`](https://wslwebservices.leg.wa.gov/CommitteeService.asmx/GetCommittees?biennium=2025-26)
+
 #### Active Standing Committees
 
 `() => ArrayOfCommittee`
@@ -118,12 +132,18 @@ Committees of the Washington State Legislature.
 | `GetActiveHouseCommittees` | House only |
 | `GetActiveSenateCommittees` | Senate only |
 
+> **Example:** [`GetActiveCommittees`](https://wslwebservices.leg.wa.gov/CommitteeService.asmx/GetActiveCommittees)
+
 #### Committee Members
 
 | Operation | Signature | Description |
 |-----------|-----------|-------------|
 | `GetCommitteeMembers` | `([str]biennium?, [str]agency?, [str]committeeName?) => ArrayOfMember` | Members for a biennium. CommitteeName from `GetHouseCommittees` / `GetSenateCommittees`. |
 | `GetActiveCommitteeMembers` | `([str]agency?, [str]committeeName?) => ArrayOfMember` | Current members. CommitteeName from `GetActiveHouseCommittees` / `GetActiveSenateCommittees`. |
+
+> **Examples:**
+> [`GetCommitteeMembers?biennium=2025-26&agency=House&committeeName=Appropriations`](https://wslwebservices.leg.wa.gov/CommitteeService.asmx/GetCommitteeMembers?biennium=2025-26&agency=House&committeeName=Appropriations)
+> | [`GetActiveCommitteeMembers?agency=Senate&committeeName=Ways%20%26%20Means`](https://wslwebservices.leg.wa.gov/CommitteeService.asmx/GetActiveCommitteeMembers?agency=Senate&committeeName=Ways%20%26%20Means)
 
 ---
 
@@ -148,6 +168,11 @@ Legislation being considered by the Washington State Legislature.
 | `GetRcwCitesAffected` | `([str]biennium?, [str]billId?) => ArrayOfRcwCiteAffected` | RCW cites referenced in the bill. |
 | `GetSessionLawChapter` | `([str]biennium?, [str]billId?) => SessionLaw` | Chapter and session law info for a bill. |
 
+> **Examples:**
+> [`GetLegislation?biennium=2025-26&billNumber=1000`](https://wslwebservices.leg.wa.gov/LegislationService.asmx/GetLegislation?biennium=2025-26&billNumber=1000)
+> | [`GetSponsors?biennium=2025-26&billId=HB%201000`](https://wslwebservices.leg.wa.gov/LegislationService.asmx/GetSponsors?biennium=2025-26&billId=HB%201000)
+> | [`GetRollCalls?biennium=2025-26&billNumber=1000`](https://wslwebservices.leg.wa.gov/LegislationService.asmx/GetRollCalls?biennium=2025-26&billNumber=1000)
+
 #### Status Changes
 
 | Operation | Signature | Description |
@@ -156,6 +181,8 @@ Legislation being considered by the Washington State Legislature.
 | `GetLegislativeStatusChangesByBillId` | `([str]biennium?, [str]billId?, [dt]beginDate, [dt]endDate) => ArrayOfLegislativeStatus` | By bill ID within a date range. |
 | `GetLegislativeStatusChangesByDateRange` | `([str]biennium?, [dt]beginDate, [dt]endDate) => ArrayOfLegislativeStatus` | All changes within a date range. |
 | `GetLegislationHistoricalRecapCategoriesByLegislationNumber` | `([str]biennium?, [int]billNumber, [dt]beginDate, [dt]endDate) => ArrayOfLegislationRecapCategories` | Historical recap (status) categories for a bill. |
+
+> **Example:** [`GetLegislativeStatusChangesByBillNumber?biennium=2025-26&billNumber=1000&beginDate=2025-01-01&endDate=2025-12-31`](https://wslwebservices.leg.wa.gov/LegislationService.asmx/GetLegislativeStatusChangesByBillNumber?biennium=2025-26&billNumber=1000&beginDate=2025-01-01&endDate=2025-12-31)
 
 #### Legislation Listings
 
@@ -170,6 +197,11 @@ Legislation being considered by the Washington State Legislature.
 | `GetPreFiledLegislationInfo` | `() => ArrayOfLegislationInfo` | Summary — prefiled bills. |
 | `GetLegislationTypes` | `() => ArrayOfLegislationType` | All valid legislation types. |
 | `GetTotalLegislationIntroducedByDateRange` | `([dt]beginDate, [dt]endDate, [int]legTypeId, [int]agencyId, [bool]allVersions) => int` | Count of legislation introduced in date range by type. |
+
+> **Examples:**
+> [`GetLegislationByYear?year=2025`](https://wslwebservices.leg.wa.gov/LegislationService.asmx/GetLegislationByYear?year=2025)
+> | [`GetLegislationIntroducedSince?sinceDate=2025-01-01`](https://wslwebservices.leg.wa.gov/LegislationService.asmx/GetLegislationIntroducedSince?sinceDate=2025-01-01)
+> | [`GetLegislationTypes`](https://wslwebservices.leg.wa.gov/LegislationService.asmx/GetLegislationTypes)
 
 #### Passed Legislation by Biennium
 
@@ -186,6 +218,8 @@ Legislation being considered by the Washington State Legislature.
 | `GetLegislationPassedLegislature` | All bills passed the legislature |
 | `GetPublishedEnrolledLegislation` | Bills enrolled and published |
 
+> **Example:** [`GetLegislationPassedHouse?biennium=2025-26`](https://wslwebservices.leg.wa.gov/LegislationService.asmx/GetLegislationPassedHouse?biennium=2025-26)
+
 #### Passed Legislation by Time Frame
 
 Returns bills that first passed the given body within the date range, even if no longer in passed status (e.g., amended by the opposite body). For current-status filtering, use the biennium variants above.
@@ -198,6 +232,8 @@ Returns bills that first passed the given body within the date range, even if no
 | `GetLegislationPassedSenateWithinTimeFrame` | Senate |
 | `GetLegislationPassedLegislatureWithinTimeFrame` | Legislature |
 
+> **Example:** [`GetLegislationPassedHouseWithinTimeFrame?beginDate=2025-01-01&endDate=2025-12-31`](https://wslwebservices.leg.wa.gov/LegislationService.asmx/GetLegislationPassedHouseWithinTimeFrame?beginDate=2025-01-01&endDate=2025-12-31)
+
 #### Governor Actions
 
 `([str]biennium?, [str]agency?) => ArrayOfLegislationInfo`
@@ -208,6 +244,8 @@ Returns bills that first passed the given body within the date range, even if no
 | `GetLegislationGovernorVeto` | Vetoed |
 | `GetLegislationGovernorPartialVeto` | Partially vetoed |
 
+> **Example:** [`GetLegislationGovernorSigned?biennium=2025-26&agency=House`](https://wslwebservices.leg.wa.gov/LegislationService.asmx/GetLegislationGovernorSigned?biennium=2025-26&agency=House)
+
 #### Other
 
 | Operation | Signature | Description |
@@ -215,6 +253,8 @@ Returns bills that first passed the given body within the date range, even if no
 | `GetLegislationNotYetIntroducedInHouseOfOrigin` | `([str]biennium?) => ArrayOfLegislationInfo` | Active bills with available text, not yet introduced in house of origin. |
 | `GetLegislationPassedOriginalBodyAndNotIntroducedInOppositeBody` | `([str]biennium?) => ArrayOfLegislationInfo` | Bills passed originating body, not yet introduced in opposite body. |
 | `GetLegislativeBillListFeatureData` | `() => DataTable` | Internal — .NET DataTable for the LegislativeBillList SharePoint feature. |
+
+> **Example:** [`GetLegislationNotYetIntroducedInHouseOfOrigin?biennium=2025-26`](https://wslwebservices.leg.wa.gov/LegislationService.asmx/GetLegislationNotYetIntroducedInHouseOfOrigin?biennium=2025-26)
 
 ---
 
@@ -231,6 +271,10 @@ Documents relating to legislation. Results include PDF and HTM URLs. Data availa
 | `GetAllDocumentsByClass` | `([str]biennium?, [str]documentClass?) => ArrayOfLegislativeDocument` | All documents of a given class. |
 | `GetDocumentClasses` | `([str]biennium?) => ArrayOfAnyType` | Available document types for the biennium. |
 
+> **Examples:**
+> [`GetDocumentClasses?biennium=2025-26`](https://wslwebservices.leg.wa.gov/LegislativeDocumentService.asmx/GetDocumentClasses?biennium=2025-26)
+> | [`GetDocumentsByClass?biennium=2025-26&documentClass=Bills&namedLike=1000`](https://wslwebservices.leg.wa.gov/LegislativeDocumentService.asmx/GetDocumentsByClass?biennium=2025-26&documentClass=Bills&namedLike=1000)
+
 ---
 
 ## RcwCiteAffectedService
@@ -243,6 +287,10 @@ RCW cites affected by legislation.
 |-----------|-----------|-------------|
 | `GetLegislationAffectingRcwCite` | `([str]biennium?, [str]rcwCite?) => ArrayOfLegislationInfo` | Legislation affecting a specific RCW cite. |
 | `GetLegislationAffectingRcw` | `([str]biennium?, [str]rcwCite?) => ArrayOfLegislationInfo` | Legislation affecting an RCW by title, chapter, or section. |
+
+> **Examples:**
+> [`GetLegislationAffectingRcwCite?biennium=2025-26&rcwCite=28A.150.220`](https://wslwebservices.leg.wa.gov/RcwCiteAffectedService.asmx/GetLegislationAffectingRcwCite?biennium=2025-26&rcwCite=28A.150.220)
+> | [`GetLegislationAffectingRcw?biennium=2025-26&rcwCite=28A`](https://wslwebservices.leg.wa.gov/RcwCiteAffectedService.asmx/GetLegislationAffectingRcw?biennium=2025-26&rcwCite=28A)
 
 ---
 
@@ -259,6 +307,10 @@ Session laws of the Washington State Legislature.
 | `GetSessionLawByInitiativeNumber` | `([int]initiativeNumber) => SessionLaw` | Session law for an Initiative to the Legislature. |
 | `GetBillByChapterNumber` | `([int]year, [int]session, [int]chapterNumber) => Legislation` | Bill for a chapter. Session: 0=Regular, 1=1st Special, etc. |
 | `GetChapterNumbersByYear` | `([int]year) => ArrayOfSessionLaw` | All chapters for a year. |
+
+> **Examples:**
+> [`GetChapterNumbersByYear?year=2025`](https://wslwebservices.leg.wa.gov/SessionLawService.asmx/GetChapterNumbersByYear?year=2025)
+> | [`GetSessionLawByBill?biennium=2025-26&billNumber=1000`](https://wslwebservices.leg.wa.gov/SessionLawService.asmx/GetSessionLawByBill?biennium=2025-26&billNumber=1000)
 
 ---
 
@@ -278,8 +330,12 @@ Sponsors of legislation in the Washington State Legislature.
 | `GetHouseSponsors` | Representatives only |
 | `GetSenateSponsors` | Senators only |
 
+> **Example:** [`GetSponsors?biennium=2025-26`](https://wslwebservices.leg.wa.gov/SponsorService.asmx/GetSponsors?biennium=2025-26)
+
 #### Other
 
 | Operation | Signature | Description |
 |-----------|-----------|-------------|
 | `GetRequesters` | `([str]biennium?) => ArrayOfLegislativeEntity` | Entities that can request legislation. |
+
+> **Example:** [`GetRequesters?biennium=2025-26`](https://wslwebservices.leg.wa.gov/SponsorService.asmx/GetRequesters?biennium=2025-26)

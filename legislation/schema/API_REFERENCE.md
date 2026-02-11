@@ -31,8 +31,6 @@
 
 https://wslwebservices.leg.wa.gov/AmendmentService.asmx
 
-Amendments to legislation considered by the Washington State Legislature.
-
 | Operation | Signature |
 |-----------|-----------|
 | `GetAmendments` | `([int]year) => ArrayOfAmendment` |
@@ -44,8 +42,6 @@ Amendments to legislation considered by the Washington State Legislature.
 ## CommitteeActionService
 
 https://wslwebservices.leg.wa.gov/CommitteeActionService.asmx
-
-Committee actions by the Washington State Legislature.
 
 #### Bills by Committee Status
 
@@ -88,8 +84,6 @@ Returns legislation with the specified committee status. CommitteeName is the Na
 
 https://wslwebservices.leg.wa.gov/CommitteeMeetingService.asmx
 
-Committee meetings of the Washington State Legislature.
-
 | Operation | Signature |
 |-----------|-----------|
 | `GetCommitteeMeetings` | `([dt]beginDate, [dt]endDate) => ArrayOfCommitteeMeeting` |
@@ -105,8 +99,6 @@ Committee meetings of the Washington State Legislature.
 ## CommitteeService
 
 https://wslwebservices.leg.wa.gov/CommitteeService.asmx
-
-Committees of the Washington State Legislature.
 
 #### Standing Committees by Biennium
 
@@ -146,8 +138,6 @@ Committees of the Washington State Legislature.
 ## LegislationService
 
 https://wslwebservices.leg.wa.gov/LegislationService.asmx
-
-Legislation being considered by the Washington State Legislature.
 
 #### Bill-Specific Queries
 
@@ -256,7 +246,7 @@ Returns bills that first passed the given body within the date range, even if no
 
 https://wslwebservices.leg.wa.gov/LegislativeDocumentService.asmx
 
-Documents relating to legislation. Results include PDF and HTM URLs. Data available back to 1991-92. For initiatives, use `namedLike: "Initiative"`.
+Data available back to 1991-92. For initiatives, use `namedLike: "Initiative"`.
 
 | Operation | Signature |
 |-----------|-----------|
@@ -292,8 +282,6 @@ RCW cites affected by legislation.
 
 https://wslwebservices.leg.wa.gov/SessionLawService.asmx
 
-Session laws of the Washington State Legislature.
-
 | Operation | Signature |
 |-----------|-----------|
 | `GetSessionLawByBill` (excludes initiatives) | `([str]biennium?, [int]billNumber) => SessionLaw` |
@@ -311,8 +299,6 @@ Session laws of the Washington State Legislature.
 ## SponsorService
 
 https://wslwebservices.leg.wa.gov/SponsorService.asmx
-
-Sponsors of legislation in the Washington State Legislature.
 
 #### Legislators by Biennium
 

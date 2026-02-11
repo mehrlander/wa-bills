@@ -31,9 +31,9 @@
 
 https://wslwebservices.leg.wa.gov/AmendmentService.asmx
 
-| Operation | Signature |
-|-----------|-----------|
-| `GetAmendments` | `([int]year) => ArrayOfAmendment` |
+| Operation (Returns) | Parameters |
+|---------------------|------------|
+| `GetAmendments` (ArrayOfAmendment) | `[int]year` |
 
 > **Example:** [`GetAmendments?year=2025`](https://wslwebservices.leg.wa.gov/AmendmentService.asmx/GetAmendments?year=2025)
 
@@ -66,13 +66,13 @@ Returns legislation with the specified committee status. CommitteeName is the Na
 
 #### Other Operations
 
-| Operation | Signature |
-|-----------|-----------|
-| `GetCommitteeReferralsByCommittee` | `([str]biennium?, [str]agency?, [str]committeeName?) => ArrayOfCommitteeReferral` |
-| `GetCommitteeReferralsByBill` | `([str]biennium?, [int]billNumber) => ArrayOfCommitteeReferral` |
-| `GetCommitteeExecutiveActionsByBill` | `([str]biennium?, [int]billNumber) => ArrayOfCommitteeAction` |
-| `GetLegislationReportedOutOfCommittee` | `([str]committeeName?, [str]agency?, [dt]beginDate, [dt]endDate) => ArrayOfLegislationInfo` |
-| `GetLegislationScheduledHearingsByCommittee` | `([str]biennium?, [str]agency?, [str]committeeName?) => ArrayOfLegislationFamily` |
+| Operation (Returns) | Parameters |
+|---------------------|------------|
+| `GetCommitteeReferralsByCommittee` (ArrayOfCommitteeReferral) | `[str]biennium?, [str]agency?, [str]committeeName?` |
+| `GetCommitteeReferralsByBill` (ArrayOfCommitteeReferral) | `[str]biennium?, [int]billNumber` |
+| `GetCommitteeExecutiveActionsByBill` (ArrayOfCommitteeAction) | `[str]biennium?, [int]billNumber` |
+| `GetLegislationReportedOutOfCommittee` (ArrayOfLegislationInfo) | `[str]committeeName?, [str]agency?, [dt]beginDate, [dt]endDate` |
+| `GetLegislationScheduledHearingsByCommittee` (ArrayOfLegislationFamily) | `[str]biennium?, [str]agency?, [str]committeeName?` |
 
 > **Examples:**
 > [`GetCommitteeReferralsByBill?biennium=2025-26&billNumber=1000`](https://wslwebservices.leg.wa.gov/CommitteeActionService.asmx/GetCommitteeReferralsByBill?biennium=2025-26&billNumber=1000)
@@ -84,11 +84,11 @@ Returns legislation with the specified committee status. CommitteeName is the Na
 
 https://wslwebservices.leg.wa.gov/CommitteeMeetingService.asmx
 
-| Operation | Signature |
-|-----------|-----------|
-| `GetCommitteeMeetings` | `([dt]beginDate, [dt]endDate) => ArrayOfCommitteeMeeting` |
-| `GetRevisedCommitteeMeetings` | `([dt]changedSinceDate) => ArrayOfCommitteeMeeting` |
-| `GetCommitteeMeetingItems` | `([int]agendaId) => ArrayOfCommitteeMeetingItem` |
+| Operation (Returns) | Parameters |
+|---------------------|------------|
+| `GetCommitteeMeetings` (ArrayOfCommitteeMeeting) | `[dt]beginDate, [dt]endDate` |
+| `GetRevisedCommitteeMeetings` (ArrayOfCommitteeMeeting) | `[dt]changedSinceDate` |
+| `GetCommitteeMeetingItems` (ArrayOfCommitteeMeetingItem) | `[int]agendaId` |
 
 > **Examples:**
 > [`GetCommitteeMeetings?beginDate=2025-01-01&endDate=2025-03-31`](https://wslwebservices.leg.wa.gov/CommitteeMeetingService.asmx/GetCommitteeMeetings?beginDate=2025-01-01&endDate=2025-03-31)
@@ -122,10 +122,10 @@ https://wslwebservices.leg.wa.gov/CommitteeService.asmx
 
 #### Committee Members
 
-| Operation | Signature |
-|-----------|-----------|
-| `GetCommitteeMembers` | `([str]biennium?, [str]agency?, [str]committeeName?) => ArrayOfMember` |
-| `GetActiveCommitteeMembers` | `([str]agency?, [str]committeeName?) => ArrayOfMember` |
+| Operation (Returns) | Parameters |
+|---------------------|------------|
+| `GetCommitteeMembers` (ArrayOfMember) | `[str]biennium?, [str]agency?, [str]committeeName?` |
+| `GetActiveCommitteeMembers` (ArrayOfMember) | `[str]agency?, [str]committeeName?` |
 
 **Note:** CommitteeName for `GetCommitteeMembers` from `GetHouseCommittees` / `GetSenateCommittees`. For `GetActiveCommitteeMembers` from `GetActiveHouseCommittees` / `GetActiveSenateCommittees`.
 
@@ -141,18 +141,18 @@ https://wslwebservices.leg.wa.gov/LegislationService.asmx
 
 #### Bill-Specific Queries
 
-| Operation | Signature |
-|-----------|-----------|
-| `GetLegislation` | `([str]biennium?, [int]billNumber) => ArrayOfLegislation` |
-| `GetLegislationByRequestNumber` | `([str]biennium?, [str]requestNumber?) => Legislation` |
-| `GetCurrentStatus` | `([str]biennium?, [int]billNumber) => LegislativeStatus` |
-| `GetSponsors` (format: `2005-06`) | `([str]biennium?, [str]billId?) => ArrayOfSponsor` |
-| `GetRollCalls` | `([str]biennium?, [int]billNumber) => ArrayOfRollCall` |
-| `GetHearings` | `([str]biennium?, [int]billNumber) => ArrayOfHearing` |
-| `GetAmendmentsForYear` (pending & acted-on) | `([int]year, [int]billNumber) => ArrayOfAmendment` |
-| `GetAmendmentsForBiennium` (pending & acted-on) | `([str]biennium?, [int]billNumber) => ArrayOfAmendment` |
-| `GetRcwCitesAffected` | `([str]biennium?, [str]billId?) => ArrayOfRcwCiteAffected` |
-| `GetSessionLawChapter` | `([str]biennium?, [str]billId?) => SessionLaw` |
+| Operation (Returns) | Parameters |
+|---------------------|------------|
+| `GetLegislation` (ArrayOfLegislation) | `[str]biennium?, [int]billNumber` |
+| `GetLegislationByRequestNumber` (Legislation) | `[str]biennium?, [str]requestNumber?` |
+| `GetCurrentStatus` (LegislativeStatus) | `[str]biennium?, [int]billNumber` |
+| `GetSponsors` (format: `2005-06`) (ArrayOfSponsor) | `[str]biennium?, [str]billId?` |
+| `GetRollCalls` (ArrayOfRollCall) | `[str]biennium?, [int]billNumber` |
+| `GetHearings` (ArrayOfHearing) | `[str]biennium?, [int]billNumber` |
+| `GetAmendmentsForYear` (pending & acted-on) (ArrayOfAmendment) | `[int]year, [int]billNumber` |
+| `GetAmendmentsForBiennium` (pending & acted-on) (ArrayOfAmendment) | `[str]biennium?, [int]billNumber` |
+| `GetRcwCitesAffected` (ArrayOfRcwCiteAffected) | `[str]biennium?, [str]billId?` |
+| `GetSessionLawChapter` (SessionLaw) | `[str]biennium?, [str]billId?` |
 
 **Note:** `GetLegislation` returns substitutes listed separately; active flag indicates passable on floor.
 
@@ -163,12 +163,12 @@ https://wslwebservices.leg.wa.gov/LegislationService.asmx
 
 #### Status Changes
 
-| Operation | Signature |
-|-----------|-----------|
-| `GetLegislativeStatusChangesByBillNumber` | `([str]biennium?, [int]billNumber, [dt]beginDate, [dt]endDate) => ArrayOfLegislativeStatus` |
-| `GetLegislativeStatusChangesByBillId` | `([str]biennium?, [str]billId?, [dt]beginDate, [dt]endDate) => ArrayOfLegislativeStatus` |
-| `GetLegislativeStatusChangesByDateRange` | `([str]biennium?, [dt]beginDate, [dt]endDate) => ArrayOfLegislativeStatus` |
-| `GetLegislationHistoricalRecapCategoriesByLegislationNumber` | `([str]biennium?, [int]billNumber, [dt]beginDate, [dt]endDate) => ArrayOfLegislationRecapCategories` |
+| Operation (Returns) | Parameters |
+|---------------------|------------|
+| `GetLegislativeStatusChangesByBillNumber` (ArrayOfLegislativeStatus) | `[str]biennium?, [int]billNumber, [dt]beginDate, [dt]endDate` |
+| `GetLegislativeStatusChangesByBillId` (ArrayOfLegislativeStatus) | `[str]biennium?, [str]billId?, [dt]beginDate, [dt]endDate` |
+| `GetLegislativeStatusChangesByDateRange` (ArrayOfLegislativeStatus) | `[str]biennium?, [dt]beginDate, [dt]endDate` |
+| `GetLegislationHistoricalRecapCategoriesByLegislationNumber` (ArrayOfLegislationRecapCategories) | `[str]biennium?, [int]billNumber, [dt]beginDate, [dt]endDate` |
 
 > **Example:** [`GetLegislativeStatusChangesByBillNumber?biennium=2025-26&billNumber=1000&beginDate=2025-01-01&endDate=2025-12-31`](https://wslwebservices.leg.wa.gov/LegislationService.asmx/GetLegislativeStatusChangesByBillNumber?biennium=2025-26&billNumber=1000&beginDate=2025-01-01&endDate=2025-12-31)
 
@@ -176,15 +176,15 @@ https://wslwebservices.leg.wa.gov/LegislationService.asmx
 
 `ArrayOfLegislation` returns detailed fields; `ArrayOfLegislationInfo` is a summary subset. Substitutes listed separately; active flag = passable on the floor.
 
-| Operation | Signature |
-|-----------|-----------|
-| `GetLegislationIntroducedSince` | `([dt]sinceDate) => ArrayOfLegislation` |
-| `GetPrefiledLegislation` | `() => ArrayOfLegislation` |
-| `GetLegislationByYear` | `([int]year) => ArrayOfLegislationInfo` |
-| `GetLegislationInfoIntroducedSince` | `([dt]sinceDate) => ArrayOfLegislationInfo` |
-| `GetPreFiledLegislationInfo` | `() => ArrayOfLegislationInfo` |
-| `GetLegislationTypes` | `() => ArrayOfLegislationType` |
-| `GetTotalLegislationIntroducedByDateRange` | `([dt]beginDate, [dt]endDate, [int]legTypeId, [int]agencyId, [bool]allVersions) => int` |
+| Operation (Returns) | Parameters |
+|---------------------|------------|
+| `GetLegislationIntroducedSince` (ArrayOfLegislation) | `[dt]sinceDate` |
+| `GetPrefiledLegislation` (ArrayOfLegislation) | |
+| `GetLegislationByYear` (ArrayOfLegislationInfo) | `[int]year` |
+| `GetLegislationInfoIntroducedSince` (ArrayOfLegislationInfo) | `[dt]sinceDate` |
+| `GetPreFiledLegislationInfo` (ArrayOfLegislationInfo) | |
+| `GetLegislationTypes` (ArrayOfLegislationType) | |
+| `GetTotalLegislationIntroducedByDateRange` (int) | `[dt]beginDate, [dt]endDate, [int]legTypeId, [int]agencyId, [bool]allVersions` |
 
 **Note:** Use `GetLegislation` instead of `GetPrefiledLegislation` after bill introduction.
 
@@ -232,11 +232,11 @@ Returns bills that first passed the given body within the date range, even if no
 
 #### Other
 
-| Operation | Signature |
-|-----------|-----------|
-| `GetLegislationNotYetIntroducedInHouseOfOrigin` (with available text) | `([str]biennium?) => ArrayOfLegislationInfo` |
-| `GetLegislationPassedOriginalBodyAndNotIntroducedInOppositeBody` | `([str]biennium?) => ArrayOfLegislationInfo` |
-| `GetLegislativeBillListFeatureData` (internal) | `() => DataTable` |
+| Operation (Returns) | Parameters |
+|---------------------|------------|
+| `GetLegislationNotYetIntroducedInHouseOfOrigin` (with available text) (ArrayOfLegislationInfo) | `[str]biennium?` |
+| `GetLegislationPassedOriginalBodyAndNotIntroducedInOppositeBody` (ArrayOfLegislationInfo) | `[str]biennium?` |
+| `GetLegislativeBillListFeatureData` (internal) (DataTable) | |
 
 > **Example:** [`GetLegislationNotYetIntroducedInHouseOfOrigin?biennium=2025-26`](https://wslwebservices.leg.wa.gov/LegislationService.asmx/GetLegislationNotYetIntroducedInHouseOfOrigin?biennium=2025-26)
 
@@ -248,12 +248,12 @@ https://wslwebservices.leg.wa.gov/LegislativeDocumentService.asmx
 
 Data available back to 1991-92. For initiatives, use `namedLike: "Initiative"`.
 
-| Operation | Signature |
-|-----------|-----------|
-| `GetDocumentsByClass` | `([str]biennium?, [str]documentClass?, [str]namedLike?) => ArrayOfLegislativeDocument` |
-| `GetDocuments` | `([str]biennium?, [str]namedLike?) => ArrayOfLegislativeDocument` |
-| `GetAllDocumentsByClass` | `([str]biennium?, [str]documentClass?) => ArrayOfLegislativeDocument` |
-| `GetDocumentClasses` | `([str]biennium?) => ArrayOfAnyType` |
+| Operation (Returns) | Parameters |
+|---------------------|------------|
+| `GetDocumentsByClass` (ArrayOfLegislativeDocument) | `[str]biennium?, [str]documentClass?, [str]namedLike?` |
+| `GetDocuments` (ArrayOfLegislativeDocument) | `[str]biennium?, [str]namedLike?` |
+| `GetAllDocumentsByClass` (ArrayOfLegislativeDocument) | `[str]biennium?, [str]documentClass?` |
+| `GetDocumentClasses` (ArrayOfAnyType) | `[str]biennium?` |
 
 > **Examples:**
 > [`GetDocumentClasses?biennium=2025-26`](https://wslwebservices.leg.wa.gov/LegislativeDocumentService.asmx/GetDocumentClasses?biennium=2025-26)
@@ -265,12 +265,10 @@ Data available back to 1991-92. For initiatives, use `namedLike: "Initiative"`.
 
 https://wslwebservices.leg.wa.gov/RcwCiteAffectedService.asmx
 
-RCW cites affected by legislation.
-
-| Operation | Signature |
-|-----------|-----------|
-| `GetLegislationAffectingRcwCite` (specific cite) | `([str]biennium?, [str]rcwCite?) => ArrayOfLegislationInfo` |
-| `GetLegislationAffectingRcw` (title, chapter, or section) | `([str]biennium?, [str]rcwCite?) => ArrayOfLegislationInfo` |
+| Operation (Returns) | Parameters |
+|---------------------|------------|
+| `GetLegislationAffectingRcwCite` (specific cite) (ArrayOfLegislationInfo) | `[str]biennium?, [str]rcwCite?` |
+| `GetLegislationAffectingRcw` (title, chapter, or section) (ArrayOfLegislationInfo) | `[str]biennium?, [str]rcwCite?` |
 
 > **Examples:**
 > [`GetLegislationAffectingRcwCite?biennium=2025-26&rcwCite=28A.150.220`](https://wslwebservices.leg.wa.gov/RcwCiteAffectedService.asmx/GetLegislationAffectingRcwCite?biennium=2025-26&rcwCite=28A.150.220)
@@ -282,13 +280,13 @@ RCW cites affected by legislation.
 
 https://wslwebservices.leg.wa.gov/SessionLawService.asmx
 
-| Operation | Signature |
-|-----------|-----------|
-| `GetSessionLawByBill` (excludes initiatives) | `([str]biennium?, [int]billNumber) => SessionLaw` |
-| `GetSessionLawByBillId` (excludes initiatives) | `([str]biennium?, [str]billId?) => SessionLaw` |
-| `GetSessionLawByInitiativeNumber` (Initiative to Legislature) | `([int]initiativeNumber) => SessionLaw` |
-| `GetBillByChapterNumber` (Session: 0=Regular, 1=1st Special, etc.) | `([int]year, [int]session, [int]chapterNumber) => Legislation` |
-| `GetChapterNumbersByYear` | `([int]year) => ArrayOfSessionLaw` |
+| Operation (Returns) | Parameters |
+|---------------------|------------|
+| `GetSessionLawByBill` (excludes initiatives) (SessionLaw) | `[str]biennium?, [int]billNumber` |
+| `GetSessionLawByBillId` (excludes initiatives) (SessionLaw) | `[str]biennium?, [str]billId?` |
+| `GetSessionLawByInitiativeNumber` (Initiative to Legislature) (SessionLaw) | `[int]initiativeNumber` |
+| `GetBillByChapterNumber` (Session: 0=Regular, 1=1st Special, etc.) (Legislation) | `[int]year, [int]session, [int]chapterNumber` |
+| `GetChapterNumbersByYear` (ArrayOfSessionLaw) | `[int]year` |
 
 > **Examples:**
 > [`GetChapterNumbersByYear?year=2025`](https://wslwebservices.leg.wa.gov/SessionLawService.asmx/GetChapterNumbersByYear?year=2025)
@@ -312,8 +310,8 @@ https://wslwebservices.leg.wa.gov/SponsorService.asmx
 
 #### Other
 
-| Operation | Signature |
-|-----------|-----------|
-| `GetRequesters` (entities that can request legislation) | `([str]biennium?) => ArrayOfLegislativeEntity` |
+| Operation (Returns) | Parameters |
+|---------------------|------------|
+| `GetRequesters` (entities that can request legislation) (ArrayOfLegislativeEntity) | `[str]biennium?` |
 
 > **Example:** [`GetRequesters?biennium=2025-26`](https://wslwebservices.leg.wa.gov/SponsorService.asmx/GetRequesters?biennium=2025-26)

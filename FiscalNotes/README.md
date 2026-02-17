@@ -1,6 +1,8 @@
 ### Logic and Functionality
 
-This tool processes raw OFM Fiscal Note data by normalizing its structure and merging it with legislative metadata (mainly because the fiscal note API doesn't give bill name).  We join by bill number not by bill ID with prefix.  Some bills don't join because the bill number on the fiscal note side is a draft or non-standard.  The prefixes could be matched to some extent but to get the bill title we don't need to.
+This tool processes raw OFM Fiscal Note data by normalizing its structure and merging it with legislative metadata (mainly because the fiscal note API doesn't give bill name).  We join by bill number not by bill ID with prefix.  
+
+Some bills don't join because the bill number on the fiscal note side is a draft or non-standard.  The prefixes could be matched to some extent but to get the bill title we don't need to.
 
 ### Sample Raw FN Reponse
 ```json

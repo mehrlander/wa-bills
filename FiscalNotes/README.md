@@ -1,6 +1,53 @@
 ### Logic and Functionality
 
-This tool processes raw OFM Fiscal Note data by normalizing its structure and merging it with legislative metadata.
+This tool processes raw OFM Fiscal Note data by normalizing its structure and merging it with legislative metadata (mainly because the fiscal note API doesn't give bill name).  We join by bill number not by bill ID with prefix.  Some bills don't join because the bill number on the fiscal note side is a draft or non-standard.  The prefixes could be matched to some extent but to get the bill title we don't need to.
+
+### Sample Raw FN Reponse
+```json
+[
+  {
+    "Agency": "014",
+    "AgencyName": "Joint Leg. Audit & Review Committee",
+    "BillNumber": "6303      ",
+    "BillPrefix": "SB",
+    "BillStatus": " ",
+    "FNStatus": "Distributed Revised ",
+    "StatusDateTime": "02/05/2024  9:16AM",
+    "CurrentBiennium": "2023-25",
+    "NextBiennium": "2025-27",
+    "CurrentBiennOperatingExpNGFS": "0",
+    "CurrentBiennOperatingExpTotal": "7",
+    "NextBiennOperatingExpNGFS": "0",
+    "NextBiennOperatingExpTotal": "17",
+    "NonZeroIndeterminateOperatingCost": "No ",
+    "AgencyContact": "Eric Thomas",
+    "OFMAnalyst": "Gaius Horton",
+    "LeadOFMAnalyst": "Amy Hatfield",
+    "LeadAgency": "140"
+  },
+  {
+    "Agency": "014",
+    "AgencyName": "Joint Leg. Audit & Review Committee",
+    "BillNumber": "S-3942.1  ",
+    "BillPrefix": "",
+    "BillStatus": " ",
+    "FNStatus": "Distributed Final ",
+    "StatusDateTime": "01/23/2024  1:13PM",
+    "CurrentBiennium": "2023-25",
+    "NextBiennium": "2025-27",
+    "CurrentBiennOperatingExpNGFS": "0",
+    "CurrentBiennOperatingExpTotal": "17",
+    "NextBiennOperatingExpNGFS": "0",
+    "NextBiennOperatingExpTotal": "10",
+    "NonZeroIndeterminateOperatingCost": "No ",
+    "AgencyContact": "Eric Thomas",
+    "OFMAnalyst": "Gaius Horton",
+    "LeadOFMAnalyst": "Amy Hatfield",
+    "LeadAgency": "140"
+  }
+]
+
+```
 
 ### Dependencies
 

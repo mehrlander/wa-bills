@@ -36,7 +36,7 @@ fetch('https://fnspublic.ofm.wa.gov/api/FNSPublicWebService/GetFNS075Data?sessio
 
 ### Library Coverage
 
-Covers biennia from 2011-12 through 2025-26.
+Covers biennia from 2011-12 through 2025-26.  Biennium 2009-10 gave messy joins for reasons not yet determined.
 
 ### Future Development
 

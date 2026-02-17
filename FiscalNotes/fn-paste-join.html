@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Policy Joiner v6 - Audit Mode</title>
+    <script src="https://cdn.jsdelivr.net/combine/npm/jquery,npm/tabulator-tables,npm/luxon,npm/@tailwindcss/browser@4,npm/@phosphor-icons/web"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tabulator-tables/dist/css/tabulator_simple.min.css">
+</head>
+<body class="h-screen flex flex-col bg-slate-50 text-slate-900 overflow-hidden font-sans text-xs">
+
+<header class="bg-slate-800 p-3 shadow-lg flex-none flex flex-wrap items-center gap-4 border-b border-slate-900">
+    <div class="flex items-center gap-2 text-white mr-4">
+        <i class="ph-bold ph-link text-blue-400 text-xl"></i>
+        <span class="font-bold uppercase tracking-wider text-[10px]">Policy Joiner v6 <span class="text-blue-400 ml-1">| Audit Ledger</span></span>
+    </div>
+
+    <div class="flex-1 min-w-[200px] relative">
+        <i class="ph ph-magnifying-glass absolute left-3 top-1/2 -translate-y-1/2 text-slate-400"></i>
+        <input type="text" id="global-search" placeholder="Search bills, titles, or companions..." 
+               class="w-full bg-slate-900 border border-slate-700 rounded-md py-1.5 pl-10 pr-4 text-white outline-none focus:ring-2 focus:ring-blue-500 placeholder:text-slate-500">
+    </div>
+
+    <div class="flex gap-2">
+        <button onclick="copyTableJson()" class="flex items-center gap-2 bg-slate-700 hover:bg-slate-600 text-white px-3 py-1 rounded border border-slate-600 transition-colors font-bold uppercase tracking-tighter cursor-pointer">
+            <i class="ph-bold ph-copy"></i> Copy JSON
+        </button>
+        <button id="show-joined" class="flex flex-col items-center bg-green-950 px-4 py-1 rounded border border-green-800 cursor-pointer ring-2 ring-green-400 transition-all">
+            <span class="text-[9px] text-green-500 uppercase font-bold text-nowrap">Matched</span>
+            <span id="match-count" class="font-mono text-green-400">0</span>
+        </button>
+        <button id="show-unmatched" class="flex flex-col items-center bg-red-950 px-4 py-1 rounded border border-red-900 cursor-pointer hover:bg-red-900 transition-all">
+            <span class="text-[9px] text-red-500 uppercase font-bold text-nowrap">Unmatched</span>
+            <span id="fail-count" class="font-mono text-red-400">0</span>
+        </button>
+    </div>
+</header>
+
+<main class="p-4 flex flex-col gap-6 overflow-y-auto">
+    <section class="flex flex-col gap-2">
+        <div class="flex justify-between items-center px-1">
+            <div id="view-label" class="text-[10px] font-bold text-slate-500 uppercase tracking-widest">Primary Audit Ledger</div>
+            <div class="text-[9px] font-bold uppercase text-slate-400 italic">Financial Comparison • Companion Sorting Active</div>
+        </div>
+        <div class="bg-white border border-slate-200 rounded shadow-sm overflow-hidden">
+            <div id="table-output"></div>
+        </div>
+    </section>
+
+    <section class="flex flex-col gap-2">
+        <div class="text-[10px] font-bold text-slate-500 uppercase tracking-widest px-1">Join Diagnostics</div>
+        <div class="bg-white border border-slate-200 rounded shadow-sm overflow-hidden">
+            <div id="table-matches"></div>
+        </div>
+    </section>
+</main>
+
+<script>
+let table, matchTable;
+let historicalPool = []; 
+let cumulativeFNs = [];  
+let currentView = 'joined';
+const BASE_URL = 'https://raw.githubusercontent.com/mehrlander/wa-bills/refs/heads/main/legislation/data/GetLegislationSinceHistorical/json/';
+   
+async function init() {
+    const files = [
+        '2009-10.json', '2011-12.json', '2013-14.json', 
+        '2015-16.json', '2017-18.json', '2019-20.json', 
+        '2021-22.json', '2023-24.json', '2025-26.json'
+    ];
+    try {
+        const results = await Promise.all(files.map(f => fetch(BASE_URL + f).then(r => r.json())));
+        historicalPool = results.flat();
+        createMatchTable([]); 
+    } catch (err) { console.error("Library Load Error", err); }
+}
+    
+const getDigits = (str) => str ? str.replace(/\D/g, '') : '';
+
+window.addEventListener('paste', (e) => {
+    const raw = e.clipboardData.getData('text');
+    if (!raw) return;
+    try {
+        const newJson = JSON.parse(raw);
+        const newItems = Array.isArray(newJson) ? newJson : [newJson];
+
+        const yearCounts = {};
+        newItems.forEach(item => {
+            const match = item.StatusDateTime?.match(/\d{4}/);
+            if (match) {
+                const yr = match[0];
+                yearCounts[yr] = (yearCounts[yr] || 0) + 1;
+            }
+        });
+        const sessionYear = parseInt(Object.keys(yearCounts).reduce((a, b) => yearCounts[a] > yearCounts[b] ? a : b, new Date().getFullYear().toString()));
+        const startYear = sessionYear % 2 === 0 ? sessionYear - 1 : sessionYear;
+        const bienString = `${startYear}-${(startYear + 1).toString().slice(-2)}`;
+
+        newItems.forEach(item => {
+            cumulativeFNs.push({
+                SessionYear: sessionYear,
+                Bien: bienString,
+                BillPrefix: item.BillPrefix?.trim() || "—",
+                BillNumber: item.BillNumber?.trim(),
+                AgencyName: item.AgencyName?.trim(),
+                Agy: item.Agency?.trim(),
+                LeadAgy: item.LeadAgency?.trim() || "—",
+                Contact: item.AgencyContact?.trim() || "—",
+                FNStatus: item.FNStatus?.trim(),
+                StatusDateTime: item.StatusDateTime?.trim(),
+                AnalystStack: [item.OFMAnalyst?.trim(), item.LeadOFMAnalyst?.trim()].filter(Boolean).join(' / ') || "—",
+                IsIndeterminate: item.NonZeroIndeterminateOperatingCost === "Yes",
+                cNGFS: parseFloat(item.CurrentBiennOperatingExpNGFS?.replace(/,/g, '')) || 0,
+                cTotal: parseFloat(item.CurrentBiennOperatingExpTotal?.replace(/,/g, '')) || 0,
+                nNGFS: parseFloat(item.NextBiennOperatingExpNGFS?.replace(/,/g, '')) || 0,
+                nTotal: parseFloat(item.NextBiennOperatingExpTotal?.replace(/,/g, '')) || 0
+            });
+        });
+        updateData();
+    } catch (err) { alert("Invalid JSON pasted."); }
+});
+
+function updateData() {
+    const legisMap = new Map();
+    historicalPool.forEach(item => legisMap.set(`${item.num}|${item.bien.split('-')[0]}`, item));
+
+    const diagnosticTracker = new Map();
+    const processedData = cumulativeFNs.map(fn => {
+        const key = `${fn.BillNumber}|${fn.Bien.split('-')[0]}`;
+        const match = legisMap.get(key);
+        
+        let companionKey = "—";
+        let cleanMatch = {};
+
+        if (match) {
+            // Drop versions, final, AND companion raw data
+            const { versions, final, companion, ...rest } = match;
+            cleanMatch = rest;
+            
+            if (companion) {
+                const bNum = parseInt(getDigits(fn.BillNumber));
+                const cNum = parseInt(getDigits(companion));
+                companionKey = [bNum, cNum].sort((a,b) => a - b).join("|");
+            }
+        }
+
+        if (!diagnosticTracker.has(key)) {
+            diagnosticTracker.set(key, {
+                MatchKey: key,
+                Bill: fn.BillNumber,
+                CompanionKey: companionKey,
+                Title: match ? match.short : "MISSING FROM LIBRARY",
+                Status: match ? "MATCHED" : "FAILED"
+            });
+        }
+
+        return { 
+            ...cleanMatch, 
+            ...fn, 
+            CompanionKey: companionKey,
+            Flags: fn.IsIndeterminate ? "indeterminate" : "",
+            isMatched: !!match
+        };
+    });
+
+    const joined = processedData.filter(d => d.isMatched);
+    const unmatched = processedData.filter(d => !d.isMatched);
+
+    $('#match-count').text(joined.length);
+    $('#fail-count').text(unmatched.length);
+
+    const activeData = (currentView === 'joined') ? joined : unmatched;
+    
+    if (!table) createTable(activeData); 
+    else {
+        table.setColumns(getColumns(currentView));
+        table.setData(activeData);
+    }
+    matchTable.setData(Array.from(diagnosticTracker.values()));
+}
+
+function getColumns(view) {
+    const moneyParams = {precision: 0};
+    const cols = [
+        {title: "Sess", field: "SessionYear", width: 55, hozAlign: "center", cssClass: "font-bold text-slate-500", frozen: true},
+        {title: "Comp Key", field: "CompanionKey", width: 85, hozAlign: "center", cssClass: "font-mono text-blue-500 font-bold", frozen: true},
+        {title: "Bill", field: "BillNumber", width: 70, headerFilter: "input", frozen: true},
+        {title: "Agency Name", field: "AgencyName", width: 180, headerFilter: "input"},
+        {
+            title: "Current Biennium",
+            columns: [
+                {title: "NGFS", field: "cNGFS", width: 95, hozAlign: "right", formatter: "money", formatterParams: moneyParams, bottomCalc: "sum", bottomCalcFormatter: "money"},
+                {title: "Total", field: "cTotal", width: 95, hozAlign: "right", formatter: "money", formatterParams: moneyParams, bottomCalc: "sum", bottomCalcFormatter: "money"}
+            ]
+        },
+        {
+            title: "Next Biennium",
+            columns: [
+                {title: "NGFS", field: "nNGFS", width: 95, hozAlign: "right", formatter: "money", formatterParams: moneyParams, bottomCalc: "sum", bottomCalcFormatter: "money"},
+                {title: "Total", field: "nTotal", width: 95, hozAlign: "right", formatter: "money", formatterParams: moneyParams, bottomCalc: "sum", bottomCalcFormatter: "money"}
+            ]
+        },
+        {title: "Contact", field: "Contact", width: 120, headerFilter: "input"},
+        {title: "Flags", field: "Flags", width: 90, cssClass: "text-slate-500 italic"},
+        {title: "FN Status", field: "FNStatus", width: 120, headerFilter: "input"}
+    ];
+    if (view === 'joined') {
+        cols.splice(4, 0, {title: "Legislation Title", field: "short", width: 200, headerFilter: "input"});
+    }
+    return cols;
+}
+
+function createTable(data) {
+    table = new Tabulator("#table-output", {
+        data: data,
+        height: 600,
+        layout: "fitDataFill",
+        placeholder: "Paste JSON to audit...",
+        columns: getColumns('joined'),
+        initialSort: [{column: "CompanionKey", dir: "asc"}, {column: "BillNumber", dir: "asc"}],
+        renderVertical: "virtual"
+    });
+}
+
+function createMatchTable(data) {
+    matchTable = new Tabulator("#table-matches", {
+        data: data,
+        height: 180,
+        layout: "fitColumns",
+        columns: [
+            {title: "Key Attempted", field: "MatchKey", width: 130, cssClass: "font-mono font-bold"},
+            {title: "Status", field: "Status", width: 110},
+            {title: "Companion Key", field: "CompanionKey", width: 120, cssClass: "font-mono font-bold text-blue-600"},
+            {title: "Library Title Result", field: "Title", width: 450}
+        ]
+    });
+}
+
+function copyTableJson() {
+    if (!table) return;
+    const json = JSON.stringify(table.getData("active"), null, 2);
+    navigator.clipboard.writeText(json).then(() => {
+        alert("JSON Copied to Clipboard");
+    });
+}
+
+$("#global-search").on("keyup", function() {
+    const val = $(this).val();
+    table.setFilter([
+        [{field: "BillNumber", type: "like", value: val}, {field: "CompanionKey", type: "like", value: val}, {field: "AgencyName", type: "like", value: val}]
+    ]);
+}); 
+ 
+function clearAllData() { if(confirm("Clear session?")) { cumulativeFNs = []; updateData(); } }
+ 
+init();
+</script>
+</body>
+</html>

@@ -54,7 +54,7 @@ Some bills don't join because the bill number on the fiscal note side is a draft
 ### Dependencies
 
 * **Source Data**: Relies on legislative metadata located in the `legislation/data/GetLegislationSinceHistorical/json/` directory.
-* **File Correspondence**: Each fiscal note file in `FiscalNotes/json` corresponds directly to a legislative JSON file for the same biennium (e.g., `2021-22.json`).
+* **File Correspondence**: Each fiscal note file in `fn/json` corresponds directly to a legislative JSON file for the same biennium (e.g., `2021-22.json`).
 * **Exclusions**: Data for the **2009-10** biennium is excluded due to unresolved data quality and join issues.
 
 ### The Mechanics
@@ -67,7 +67,7 @@ Some bills don't join because the bill number on the fiscal note side is a draft
 
 ### Data Population Workflow
 
-This tool was used to fill and verify the files in the `FiscalNotes/json` directory through the following process:
+This tool was used to fill and verify the files in the `fn/json` directory through the following process:
 
 1. **Fetch**: Raw session data is retrieved by running a fetch command in the browser console while on the OFM API domain:
 ```javascript

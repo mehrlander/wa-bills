@@ -41,5 +41,3 @@ Covers biennia from 2011-12 through 2025-26.
 ### Future Development
 
 A planned future step is to load this tool as a popup on the OFM domain. This would allow for built-in functionality to fetch data directly from the API, removing the need for manual console scripts and pasting.
-
-Would you like me to add a note about the specific consensus logic used to determine the session year in case you want to change it later?

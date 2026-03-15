@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html data-theme="light">
+<head>
+  <title>Law Hop</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/combine/npm/daisyui@5/themes.css,npm/daisyui@5" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <script defer src="https://unpkg.com/alpinejs"></script>
+</head>
+<body class="h-screen bg-base-200">
+
+<div x-data="lawHop()" x-init="init()" class="h-full flex flex-col">
+
+  <!-- Header -->
+  <div class="navbar bg-base-300 border-b border-base-content/10 min-h-12 px-4">
+    <div class="flex-1 flex items-baseline gap-2">
+      <span class="font-bold text-primary text-lg" x-text="billLabel"></span>
+      <span class="text-xs opacity-50" x-text="biennium"></span>
+      <span class="text-xs opacity-40" x-text="chamber"></span>
+    </div>
+    <div class="flex-none">
+      <span class="loading loading-spinner loading-xs text-primary" x-show="loading"></span>
+      <span class="text-xs text-error" x-show="error" x-text="error"></span>
+    </div>
+  </div>
+
+  <!-- Tabs -->
+  <div role="tablist" class="tabs tabs-border bg-base-100 px-4 pt-2">
+    <button role="tab" class="tab" :class="tab==='versions'?'tab-active':''" @click="tab='versions'">Versions</button>
+    <button role="tab" class="tab" :class="tab==='amendments'?'tab-active':''" @click="tab='amendments'">
+      Amendments
+      <span class="badge badge-xs badge-primary ml-1" x-show="amendments.length" x-text="amendments.length"></span>
+    </button>
+    <button role="tab" class="tab" :class="tab==='diff'?'tab-active':''" @click="tab='diff'">Diff</button>
+  </div>
+
+  <!-- Tab: Versions -->
+  <div class="flex-1 overflow-y-auto p-4" x-show="tab==='versions'">
+    <template x-if="versions.length === 0 && !loading">
+      <div class="text-sm opacity-50 text-center pt-8">No versions found.</div>
+    </template>
+    <div class="grid grid-cols-1 gap-3">
+      <template x-for="v in versions" :key="v.suffix">
+        <div class="card bg-base-100 shadow-sm border"
+             :class="v.suffix === currentSuffix ? 'border-primary' : 'border-base-200'">
+          <div class="card-body p-3 gap-2">
+            <div class="flex items-center gap-2">
+              <span class="font-semibold text-sm" x-text="v.label"></span>
+              <span class="badge badge-xs badge-primary" x-show="v.suffix === currentSuffix">current</span>
+            </div>
+            <div class="flex flex-wrap gap-1.5">
+              <template x-for="fmt in fmtOrder" :key="fmt">
+                <template x-if="v.fmts.includes(fmt)">
+                  <a :href="makeUrl(fmt, v.suffix)"
+                     @click.prevent="openVersion(fmt, v.suffix)"
+                     class="btn btn-xs"
+                     :class="fmt === currentFmt && v.suffix === currentSuffix ? 'btn-primary' : 'btn-soft'">
+                    <span x-text="fmtLabel[fmt]"></span>
+                  </a>
+                </template>
+              </template>
+            </div>
+          </div>
+        </div>
+      </template>
+    </div>
+  </div>
+
+  <!-- Tab: Amendments -->
+  <div class="flex-1 overflow-y-auto p-4" x-show="tab==='amendments'">
+    <template x-if="amendments.length === 0 && !loading">
+      <div class="text-sm opacity-50 text-center pt-8">No amendments found for this bill.</div>
+    </template>
+    <div class="flex flex-col gap-1.5">
+      <template x-for="a in amendments" :key="a.file">
+        <a :href="a.url" target="_blank"
+           class="btn btn-sm btn-ghost justify-start font-mono text-xs normal-case truncate">
+          <span x-text="a.label"></span>
+        </a>
+      </template>
+    </div>
+  </div>
+
+  <!-- Tab: Diff -->
+  <div class="flex-1 overflow-hidden flex flex-col p-4 gap-3" x-show="tab==='diff'">
+    <div class="flex items-center gap-2 flex-wrap">
+      <select class="select select-sm flex-1 min-w-28" x-model="diffA">
+        <template x-for="v in htmVersions" :key="v.suffix">
+          <option :value="v.suffix" x-text="v.label"></option>
+        </template>
+      </select>
+      <span class="text-base-content/40 text-xs">vs</span>
+      <select class="select select-sm flex-1 min-w-28" x-model="diffB">
+        <template x-for="v in htmVersions" :key="v.suffix">
+          <option :value="v.suffix" x-text="v.label"></option>
+        </template>
+      </select>
+      <button class="btn btn-sm btn-primary" @click="runDiff()" :disabled="diffRunning">
+        <span class="loading loading-spinner loading-xs" x-show="diffRunning"></span>
+        Compare
+      </button>
+    </div>
+    <div class="flex-1 overflow-y-auto rounded-lg bg-base-100 border border-base-200 p-3 font-mono text-xs leading-relaxed"
+         x-show="diffLines.length > 0" x-html="diffHtml">
+    </div>
+    <div class="text-sm opacity-50 text-center pt-8"
+         x-show="diffLines.length === 0 && !diffRunning">
+      Select two versions and click Compare.
+    </div>
+  </div>
+
+</div>
+
+<script>
+const $ = (s, ctx = document) => ctx.querySelector(s);
+const $$ = (s, ctx = document) => [...ctx.querySelectorAll(s)];
+
+const IDB = (() => {
+  const NAME = 'lawHop2', VER = 1, STORE = 'docs';
+  let _db = null;
+  const open = () => new Promise((res, rej) => {
+    if (_db) return res(_db);
+    const r = indexedDB.open(NAME, VER);
+    r.onupgradeneeded = e => e.target.result.createObjectStore(STORE, { keyPath: 'url' });
+    r.onsuccess = e => { _db = e.target.result; res(_db); };
+    r.onerror = e => rej(e.target.error);
+  });
+  const get = async (url) => {
+    const db = await open();
+    return new Promise((res, rej) => {
+      const r = db.transaction(STORE, 'readonly').objectStore(STORE).get(url);
+      r.onsuccess = e => res(e.target.result?.html || null);
+      r.onerror = e => rej(e.target.error);
+    });
+  };
+  const put = async (url, html) => {
+    const db = await open();
+    return new Promise((res, rej) => {
+      const tx = db.transaction(STORE, 'readwrite');
+      tx.objectStore(STORE).put({ url, html, ts: Date.now() });
+      tx.oncomplete = res;
+      tx.onerror = e => rej(e.target.error);
+    });
+  };
+  const fetchCached = async (url) => {
+    let html = await get(url);
+    if (!html) {
+      const r = await fetch(url);
+      if (!r.ok) return null;
+      html = await r.text();
+      await put(url, html);
+    }
+    return html;
+  };
+  return { fetchCached };
+})();
+
+const SFX_ORDER = ['', '-S', '-S2', '-S3', '.E', '-S.E', '-S2.E', '-S3.E', '-S.E2'];
+const VER_NAMES = {
+  '': 'Original', '-S': 'Substitute', '-S2': '2nd Substitute', '-S3': '3rd Substitute',
+  '.E': 'Engrossed', '-S.E': 'Sub Engrossed', '-S2.E': '2nd Sub Engrossed',
+  '-S3.E': '3rd Sub Engrossed', '-S.E2': 'Sub 2nd Engrossed'
+};
+const FMT_EXT = { Htm: 'htm', Xml: 'xml', Pdf: 'pdf', Docx: 'docx' };
+
+const parseSuffix = (filename) => {
+  const m = filename.match(/^[0-9]+((?:[-.](?!htm$|xml$|pdf$|docx$)[^./]*)*)(?:\.(htm|xml|pdf|docx))$/i);
+  return m ? m[1] : null;
+};
+
+const parseUrl = (href) => {
+  const path = decodeURIComponent(new URL(href).pathname);
+  const m = path.match(/\/Biennium\/([^/]+)\/(Htm|Xml|Pdf|Docx)\/Bills\/(House Bills|Senate Bills|House Passed Legislature|Senate Passed Legislature|Session Laws|Vetoes)\/([0-9]+)((?:[-.](?!htm$|xml$|pdf$|docx$)[^./]*)*)(?:\.(htm|xml|pdf|docx))$/i);
+  if (!m) return null;
+  const [, biennium, fmt, chamber, billNum, suffix] = m;
+  return { biennium, fmt, chamber, billNum, suffix };
+};
+
+const scanDir = async (url, billNum) => {
+  const html = await IDB.fetchCached(url);
+  if (!html) return [];
+  const doc = (new DOMParser()).parseFromString(html, 'text/html');
+  return $$('a[href]', doc)
+    .map(a => decodeURIComponent(a.getAttribute('href')).split('/').pop())
+    .filter(f => f.match(new RegExp('^' + billNum + '([\\s\\-\\.]|$)')));
+};
+
+const myersDiff = (a, b) => {
+  const m = a.length, n = b.length, max = m + n;
+  const v = new Array(2 * max + 1).fill(0), trace = [];
+  outer: for (let d = 0; d <= max; d++) {
+    trace.push([...v]);
+    for (let k = -d; k <= d; k += 2) {
+      const ki = k + max;
+      let x = (k === -d || (k !== d && v[ki-1] < v[ki+1])) ? v[ki+1] : v[ki-1]+1, y = x-k;
+      while (x < m && y < n && a[x] === b[y]) { x++; y++; }
+      v[ki] = x;
+      if (x >= m && y >= n) break outer;
+    }
+  }
+  let x = m, y = n;
+  const ops = [];
+  for (let d = trace.length-1; d >= 0; d--) {
+    const vd = trace[d], k = x-y, ki = k+max;
+    const kP = (k === -d || (k !== d && vd[ki-1] < vd[ki+1])) ? k+1 : k-1;
+    const xP = vd[kP+max], yP = xP-kP;
+    while (x > xP+1 && y > yP+1) { ops.unshift({t:'eq',a:a[x-1]}); x--; y--; }
+    if (d > 0) {
+      if (x > xP+1 || y > yP+1) ops.unshift({t:'eq',a:a[x-1]});
+      if (x > xP) { ops.unshift({t:'del',val:a[x-1]}); x--; }
+      else if (y > yP) { ops.unshift({t:'ins',val:b[y-1]}); y--; }
+    }
+    x = xP; y = yP;
+  }
+  return ops;
+};
+
+const extractLines = (html) => {
+  const doc = (new DOMParser()).parseFromString(html, 'text/html');
+  return [...doc.body.children]
+    .filter(el => el.tagName !== 'BUTTON')
+    .map(el => el.textContent.trim())
+    .filter(t => t.length > 0);
+};
+
+const esc = s => s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+
+const renderDiff = (ops, labelA, labelB) => {
+  const parts = [`<div class="mb-2 text-[11px] opacity-60"><span class="text-error">- ${esc(labelA)}</span> &nbsp; <span class="text-success">+ ${esc(labelB)}</span></div>`];
+  let eq = [];
+  const flush = () => {
+    if (eq.length > 6) {
+      eq.slice(0,2).forEach(l => parts.push(`<div class="text-base-content/70 px-1">${esc(l)}</div>`));
+      parts.push(`<div class="text-base-content/30 italic px-1">... ${eq.length-4} unchanged lines ...</div>`);
+      eq.slice(-2).forEach(l => parts.push(`<div class="text-base-content/70 px-1">${esc(l)}</div>`));
+    } else {
+      eq.forEach(l => parts.push(`<div class="text-base-content/70 px-1">${esc(l)}</div>`));
+    }
+    eq = [];
+  };
+  ops.forEach(op => {
+    if (op.t === 'eq') { eq.push(op.a); }
+    else {
+      flush();
+      if (op.t === 'del') parts.push(`<div class="text-error bg-error/10 rounded px-1">- ${esc(op.val)}</div>`);
+      else parts.push(`<div class="text-success bg-success/10 rounded px-1">+ ${esc(op.val)}</div>`);
+    }
+  });
+  flush();
+  return parts.join('');
+};
+
+function lawHop() {
+  return {
+    loading: true, error: '', tab: 'versions',
+    biennium: '', chamber: '', billNum: '', billLabel: '',
+    currentSuffix: '', currentFmt: '',
+    versions: [], amendments: [],
+    diffA: '', diffB: '', diffRunning: false, diffLines: [], diffHtml: '',
+    fmtOrder: ['Htm','Xml','Pdf','Docx'],
+    fmtLabel: { Htm:'HTML', Xml:'XML', Pdf:'PDF', Docx:'Word' },
+    get htmVersions() { return this.versions.filter(v => v.fmts.includes('Htm')); },
+
+    async init() {
+      const src = window.opener?.location.href || location.href;
+      const parsed = parseUrl(src);
+      if (!parsed) { this.error = 'Not on a bill page'; this.loading = false; return; }
+      const { biennium, fmt, chamber, billNum, suffix } = parsed;
+      this.biennium = biennium;
+      this.chamber = chamber.replace(' Bills','');
+      this.billNum = billNum;
+      this.currentSuffix = suffix;
+      this.currentFmt = fmt;
+      this.billLabel = (chamber.startsWith('House') ? 'HB ' : 'SB ') + billNum;
+      document.title = `Law Hop - ${this.billLabel}`;
+      try {
+        const fmts = ['Htm','Xml','Pdf','Docx'];
+        const [fmtResults, hAmends, sAmends] = await Promise.all([
+          Promise.all(fmts.map(f =>
+            scanDir(`/Biennium/${biennium}/${f}/Bills/${encodeURIComponent(chamber)}/`, billNum)
+              .then(files => ({ fmt: f, files }))
+          )),
+          scanDir(`/Biennium/${biennium}/Htm/Amendments/House/`, billNum)
+            .then(files => files.map(f => this.makeAmendment(f, biennium, 'House'))),
+          scanDir(`/Biennium/${biennium}/Htm/Amendments/Senate/`, billNum)
+            .then(files => files.map(f => this.makeAmendment(f, biennium, 'Senate')))
+        ]);
+        const vm = {};
+        fmtResults.forEach(({ fmt: f, files }) => {
+          files.forEach(file => {
+            const sfx = parseSuffix(file);
+            if (sfx === null) return;
+            if (!vm[sfx]) vm[sfx] = [];
+            vm[sfx].push(f);
+          });
+        });
+        this.versions = [
+          ...SFX_ORDER.filter(s => vm[s]).map(s => ({ suffix: s, label: VER_NAMES[s] || s || 'Original', fmts: vm[s] })),
+          ...Object.keys(vm).filter(s => !SFX_ORDER.includes(s)).map(s => ({ suffix: s, label: s, fmts: vm[s] }))
+        ];
+        this.amendments = [...hAmends, ...sAmends];
+        if (this.htmVersions.length >= 2) {
+          this.diffA = this.htmVersions[0].suffix;
+          this.diffB = suffix;
+          if (this.diffA === this.diffB) this.diffB = this.htmVersions[this.htmVersions.length-1].suffix;
+        }
+        if (this.amendments.length > 0 && this.versions.length <= 1) this.tab = 'amendments';
+      } catch(e) { this.error = e.message; }
+      this.loading = false;
+    },
+
+    makeAmendment(filename, biennium, house) {
+      const url = `/Biennium/${biennium}/Htm/Amendments/${house}/${encodeURIComponent(filename)}`;
+      const clean = filename.replace(/\.htm$/i,'').replace(/^\S+\s+/,'');
+      const m = clean.match(/^(AM[HS])\s+(\w+)\s+(\w+)\s+(.+)$/);
+      return { file: filename, url, label: m ? `${m[1]} - ${m[2]} (${m[4]})` : clean, house };
+    },
+
+    makeUrl(fmt, suffix) {
+      return `/Biennium/${this.biennium}/${fmt}/Bills/${encodeURIComponent(this.chamber + ' Bills')}/${this.billNum}${suffix}.${FMT_EXT[fmt]}`;
+    },
+
+    openVersion(fmt, suffix) {
+      const url = this.makeUrl(fmt, suffix);
+      if (fmt === 'Pdf') { window.open(url,'_blank'); }
+      else if (window.opener) { window.opener.location.href = url; }
+      else { location.href = url; }
+    },
+
+    async runDiff() {
+      if (this.diffA === this.diffB) return;
+      this.diffRunning = true; this.diffHtml = ''; this.diffLines = [];
+      try {
+        const [hA, hB] = await Promise.all([
+          IDB.fetchCached(this.makeUrl('Htm', this.diffA)),
+          IDB.fetchCached(this.makeUrl('Htm', this.diffB))
+        ]);
+        if (!hA || !hB) throw new Error('Could not load one or both versions');
+        const ops = myersDiff(extractLines(hA), extractLines(hB));
+        this.diffLines = ops;
+        this.diffHtml = renderDiff(ops, VER_NAMES[this.diffA]||this.diffA||'Original', VER_NAMES[this.diffB]||this.diffB||'Original');
+      } catch(e) { this.diffHtml = `<div class="text-error">${esc(e.message)}</div>`; }
+      this.diffRunning = false;
+    }
+  };
+}
+</script>
+</body>
+</html>

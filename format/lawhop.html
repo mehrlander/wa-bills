@@ -32,6 +32,7 @@
       <span class="badge badge-xs badge-primary ml-1" x-show="amendments.length" x-text="amendments.length"></span>
     </button>
     <button role="tab" class="tab" :class="tab==='diff'?'tab-active':''" @click="tab='diff'">Diff</button>
+    <button role="tab" class="tab" :class="tab==='bills'?'tab-active':''" @click="tab='bills';loadBillList()">Bills</button>
   </div>
 
   <!-- Tab: Versions -->
@@ -106,6 +107,33 @@
     <div class="text-sm opacity-50 text-center pt-8"
          x-show="diffLines.length === 0 && !diffRunning">
       Select two versions and click Compare.
+    </div>
+  </div>
+
+
+  <!-- Tab: Bills -->
+  <div class="flex-1 overflow-hidden flex flex-col p-4 gap-3" x-show="tab==='bills'">
+    <div class="flex items-center gap-2">
+      <div class="join">
+        <button class="btn btn-xs join-item" :class="billChamber==='House'?'btn-primary':'btn-soft'" @click="billChamber='House';billListLoaded=false;loadBillList()">House</button>
+        <button class="btn btn-xs join-item" :class="billChamber==='Senate'?'btn-primary':'btn-soft'" @click="billChamber='Senate';billListLoaded=false;loadBillList()">Senate</button>
+      </div>
+      <input type="text" class="input input-xs flex-1" placeholder="Filter bills..." x-model="billFilter">
+      <span class="text-xs opacity-40" x-text="filteredBills.length + ' bills'"></span>
+    </div>
+    <div class="flex-1 overflow-y-auto">
+      <div class="text-sm opacity-50 text-center pt-8" x-show="billListLoading">
+        <span class="loading loading-spinner loading-sm"></span>
+      </div>
+      <div class="grid grid-cols-4 gap-1" x-show="!billListLoading">
+        <template x-for="num in filteredBills" :key="num">
+          <button class="btn btn-xs font-mono"
+                  :class="num === billNum ? 'btn-primary' : 'btn-soft'"
+                  @click="jumpToBill(num)">
+            <span x-text="num"></span>
+          </button>
+        </template>
+      </div>
     </div>
   </div>
 
@@ -260,9 +288,14 @@ function lawHop() {
     currentSuffix: '', currentFmt: '',
     versions: [], amendments: [],
     diffA: '', diffB: '', diffRunning: false, diffLines: [], diffHtml: '',
-    fmtOrder: ['Htm','Xml','Pdf','Docx'],
-    fmtLabel: { Htm:'HTML', Xml:'XML', Pdf:'PDF', Docx:'Word' },
+    billChamber: '', billList: [], billFilter: '', billListLoading: false, billListLoaded: false,
+    fmtOrder: ['Htm','Xml','Pdf'],
+    fmtLabel: { Htm:'HTML', Xml:'XML', Pdf:'PDF' },
     get htmVersions() { return this.versions.filter(v => v.fmts.includes('Htm')); },
+    get filteredBills() {
+      if (!this.billFilter) return this.billList;
+      return this.billList.filter(n => n.startsWith(this.billFilter));
+    },
 
     async init() {
       const src = window.opener?.location.href || location.href;
@@ -271,13 +304,14 @@ function lawHop() {
       const { biennium, fmt, chamber, billNum, suffix } = parsed;
       this.biennium = biennium;
       this.chamber = chamber.replace(' Bills','');
+      this.billChamber = chamber.replace(' Bills','');
       this.billNum = billNum;
       this.currentSuffix = suffix;
       this.currentFmt = fmt;
       this.billLabel = (chamber.startsWith('House') ? 'HB ' : 'SB ') + billNum;
       document.title = `Law Hop - ${this.billLabel}`;
       try {
-        const fmts = ['Htm','Xml','Pdf','Docx'];
+        const fmts = ['Htm','Xml','Pdf'];
         const [fmtResults, hAmends, sAmends] = await Promise.all([
           Promise.all(fmts.map(f =>
             scanDir(`/Biennium/${biennium}/${f}/Bills/${encodeURIComponent(chamber)}/`, billNum)
@@ -325,9 +359,86 @@ function lawHop() {
 
     openVersion(fmt, suffix) {
       const url = this.makeUrl(fmt, suffix);
-      if (fmt === 'Pdf') { window.open(url,'_blank'); }
-      else if (window.opener) { window.opener.location.href = url; }
-      else { location.href = url; }
+      this.currentFmt = fmt;
+      this.currentSuffix = suffix;
+      if (window.opener) { window.opener.location.href = url; }
+      else { window.open(url, '_blank'); }
+    },
+
+    async loadBillList() {
+      if (this.billListLoaded) return;
+      this.billListLoading = true;
+      this.billList = [];
+      try {
+        const chamber = this.billChamber + ' Bills';
+        const url = `/Biennium/${this.biennium}/Htm/Bills/${encodeURIComponent(chamber)}/`;
+        const html = await IDB.fetchCached(url);
+        if (html) {
+          const doc = (new DOMParser()).parseFromString(html, 'text/html');
+          this.billList = [...new Set(
+            $('a[href]', doc)
+              .map(a => decodeURIComponent(a.getAttribute('href')).split('/').pop())
+              .filter(f => f.match(/^\d+.*\.htm$/i))
+              .map(f => f.match(/^(\d+)/)?.[1])
+              .filter(Boolean)
+          )].sort((a, b) => +a - +b);
+        }
+      } catch(e) { /* ignore */ }
+      this.billListLoading = false;
+      this.billListLoaded = true;
+    },
+
+    jumpToBill(num) {
+      this.billNum = num;
+      this.currentSuffix = '';
+      this.currentFmt = 'Htm';
+      this.chamber = this.billChamber;
+      this.billLabel = (this.billChamber === 'House' ? 'HB ' : 'SB ') + num;
+      document.title = `Law Hop - ${this.billLabel}`;
+      this.versions = []; this.amendments = [];
+      this.diffLines = []; this.diffHtml = '';
+      this.loading = true;
+      const url = `/Biennium/${this.biennium}/Htm/Bills/${encodeURIComponent(this.billChamber + ' Bills')}/${num}.htm`;
+      if (window.opener) window.opener.location.href = url;
+      else window.open(url, '_blank');
+      this._reloadBill(num, this.billChamber);
+      this.tab = 'versions';
+    },
+
+    async _reloadBill(billNum, chamberBase) {
+      const chamber = chamberBase + ' Bills';
+      try {
+        const fmts = ['Htm','Xml','Pdf'];
+        const [fmtResults, hAmends, sAmends] = await Promise.all([
+          Promise.all(fmts.map(f =>
+            scanDir(`/Biennium/${this.biennium}/${f}/Bills/${encodeURIComponent(chamber)}/`, billNum)
+              .then(files => ({ fmt: f, files }))
+          )),
+          scanDir(`/Biennium/${this.biennium}/Htm/Amendments/House/`, billNum)
+            .then(files => files.map(f => this.makeAmendment(f, this.biennium, 'House'))),
+          scanDir(`/Biennium/${this.biennium}/Htm/Amendments/Senate/`, billNum)
+            .then(files => files.map(f => this.makeAmendment(f, this.biennium, 'Senate')))
+        ]);
+        const vm = {};
+        fmtResults.forEach(({ fmt: f, files }) => {
+          files.forEach(file => {
+            const sfx = parseSuffix(file);
+            if (sfx === null) return;
+            if (!vm[sfx]) vm[sfx] = [];
+            vm[sfx].push(f);
+          });
+        });
+        this.versions = [
+          ...SFX_ORDER.filter(s => vm[s]).map(s => ({ suffix: s, label: VER_NAMES[s] || s || 'Original', fmts: vm[s] })),
+          ...Object.keys(vm).filter(s => !SFX_ORDER.includes(s)).map(s => ({ suffix: s, label: s, fmts: vm[s] }))
+        ];
+        this.amendments = [...hAmends, ...sAmends];
+        if (this.htmVersions.length >= 2) {
+          this.diffA = this.htmVersions[0].suffix;
+          this.diffB = this.htmVersions[this.htmVersions.length - 1].suffix;
+        }
+      } catch(e) { /* ignore */ }
+      this.loading = false;
     },
 
     async runDiff() {

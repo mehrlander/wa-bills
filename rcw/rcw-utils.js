@@ -101,9 +101,9 @@ export const classifyPensionBill = (rcwList = []) => {
 // RCW LOOKUPS (chapters, titles, and full hierarchy)
 // ============================================================================
 
-const CHAPTERS_URL = 'https://raw.githubusercontent.com/mehrlander/wa-bills/main/legislation/tools/rcw-chapters.json';
-const TITLES_URL = 'https://raw.githubusercontent.com/mehrlander/wa-bills/main/legislation/tools/rcw-titles.json';
-const FULL_URL = 'https://raw.githubusercontent.com/mehrlander/wa-bills/main/legislation/tools/rcw-full.json';
+const CHAPTERS_URL = 'https://raw.githubusercontent.com/mehrlander/wa-bills/main/rcw/rcw-chapters.json';
+const TITLES_URL = 'https://raw.githubusercontent.com/mehrlander/wa-bills/main/rcw/rcw-titles.json';
+const FULL_URL = 'https://raw.githubusercontent.com/mehrlander/wa-bills/main/rcw/rcw-full.json';
 
 let chapters = null, titles = null, full = null;
 let byChapter = null, byTitle = null, byCite = null;

@@ -1,6 +1,6 @@
 // rcw-lookups.js - RCW chapter lookup and linkification utilities
-const CHAPTERS_URL = 'https://raw.githubusercontent.com/mehrlander/wa-bills/main/legislation/tools/rcw-chapters.json';
-const TITLES_URL = 'https://raw.githubusercontent.com/mehrlander/wa-bills/main/legislation/tools/rcw-titles.json';
+const CHAPTERS_URL = 'https://raw.githubusercontent.com/mehrlander/wa-bills/main/rcw/rcw-chapters.json';
+const TITLES_URL = 'https://raw.githubusercontent.com/mehrlander/wa-bills/main/rcw/rcw-titles.json';
 
 let chapters = null, titles = null;
 let byChapter = null, byTitle = null;

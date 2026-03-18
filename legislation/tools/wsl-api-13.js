@@ -17,8 +17,8 @@ export {
     buildTitlePopup,
     buildPensionPopup,
     buildAdjacentPopup
-} from './rcw-utils-6.js';
-import { classifyPensionBill } from './rcw-utils-6.js';
+} from '../../rcw/rcw-utils.js';
+import { classifyPensionBill } from '../../rcw/rcw-utils.js';
 
 const parser = new XMLParser({ 
     ignoreNameSpace: true, 

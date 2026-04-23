@@ -18,9 +18,43 @@
     </div>
 </div>
 
+<div id="paste-modal" class="hidden fixed inset-0 z-50 bg-black/60 flex items-center justify-center backdrop-blur-sm">
+    <div class="bg-base-100 rounded-2xl shadow-2xl border border-base-300 p-6 max-w-4xl w-full mx-4 max-h-[90vh] flex flex-col gap-4">
+        <div class="flex items-start justify-between">
+            <div>
+                <div class="font-black text-lg tracking-tight">Paste-mode Sync (<span id="paste-mode-label"></span>)</div>
+                <div class="text-xs text-base-content/60 mt-1 max-w-2xl">
+                    Browsers block direct fetches from this page to <code>wslwebservices.leg.wa.gov</code> by CORS. Open that host in a new tab, run the snippet below in DevTools console (it will copy the response to your clipboard), then paste it here.
+                </div>
+            </div>
+            <button id="paste-close" class="btn btn-sm btn-ghost"><i class="ph-bold ph-x"></i></button>
+        </div>
+        <div>
+            <div class="flex items-center justify-between mb-1">
+                <span class="text-xs font-bold">1. Open <a href="https://wslwebservices.leg.wa.gov" target="_blank" class="link link-primary">wslwebservices.leg.wa.gov</a>, open DevTools console, paste &amp; run:</span>
+                <button id="paste-copy-snippet" class="btn btn-xs btn-outline gap-1"><i class="ph-bold ph-copy"></i> Copy snippet</button>
+            </div>
+            <pre id="paste-snippet" class="bg-base-200 p-3 rounded text-[11px] font-mono overflow-auto max-h-48 whitespace-pre-wrap"></pre>
+        </div>
+        <div class="flex-1 flex flex-col min-h-0">
+            <span class="text-xs font-bold mb-1">2. Paste response from clipboard:</span>
+            <textarea id="paste-input" class="textarea textarea-bordered flex-1 font-mono text-[11px] min-h-[150px]" placeholder="Paste XML or JSON response..."></textarea>
+        </div>
+        <div class="flex items-center justify-end gap-2">
+            <span id="paste-status" class="text-xs text-base-content/50 mr-auto"></span>
+            <button id="paste-cancel" class="btn btn-sm btn-ghost">Cancel</button>
+            <button id="paste-load" class="btn btn-sm btn-primary gap-1"><i class="ph-bold ph-arrow-down-to-bracket"></i> Load</button>
+        </div>
+    </div>
+</div>
+
 <header class="flex items-center gap-6 px-6 h-14 border-b border-base-300 shrink-0 bg-base-100">
     <div class="font-black text-lg tracking-tight">WSL Sync</div>
     <div class="flex gap-1" id="nav"></div>
+    <label class="flex items-center gap-1.5 text-xs font-bold cursor-pointer ml-2" title="Enable if direct fetches fail due to CORS">
+        <input type="checkbox" id="pasteMode" class="toggle toggle-xs toggle-warning">
+        <span>Paste mode</span>
+    </label>
     <div class="ml-auto flex items-center gap-3" id="stats"></div>
 </header>
 
@@ -37,17 +71,19 @@
 
 <script type="module">
 import { get, set } from 'https://cdn.jsdelivr.net/npm/idb-keyval@6/+esm';
-import { 
-    getLegislation, getPrefiles, getSponsors, getRcwFor, getHistoryFor, getActionsFor, 
+import {
+    getLegislation, getPrefiles, getSponsors, getRcwFor, getHistoryFor, getActionsFor,
+    parseLegislationXml, parsePrefilesXml, parseSponsorsXml,
+    parseRcwXml, parseHistoryXml, parseActionsXml,
     consolidate, groupWithCompanions,
     classifyPensionBill, preload,
     linkifyTitles, titleTooltip,
     buildPensionPopup, buildAdjacentPopup
-} from 'https://cdn.jsdelivr.net/gh/mehrlander/wa-bills@main/legislation/tools/wsl-api-13.js';
+} from './wsl-api.js';
 
 const BIENNIUM = '2025-26', STORES = ['legislation','prefiles','rcws','sponsors','history','actions'];
 const store = { legislation: [], prefiles: [], rcws: {}, sponsors: [], history: {}, actions: {} };
-const view = { mode: 'legislation', format: 'json', limitSync: true, limitN: 20, showAllBills: false };
+const view = { mode: 'legislation', format: 'json', limitSync: true, limitN: 20, showAllBills: false, pasteMode: false };
 let syncing = false, table = null;
 
 const dbKey = k => `wsl-${BIENNIUM}-${k}`;
@@ -284,7 +320,137 @@ const cols = [
 
 const progress = (msg, count) => { $('#sync-modal').removeClass('hidden'); $('#sync-msg').text(msg); $('#sync-count').text(count || ''); };
 
+// -----------------------------------------------------------------------------
+// Paste-mode: when direct fetch is blocked by CORS, user runs a console snippet
+// on wslwebservices.leg.wa.gov and pastes the response back here.
+// -----------------------------------------------------------------------------
+
+const getPasteContext = () => {
+    if (view.mode === 'rcws') {
+        let miss = allBills().filter(b => !store.rcws[b.BillId]);
+        if (view.limitSync) miss = miss.slice(0, view.limitN);
+        return { billIds: miss.map(b => b.BillId) };
+    }
+    if (view.mode === 'summary') {
+        const nums = uniq(getSummaryBills().filter(b => b.IsPension || b.IsAdjacent), b => b.BillNumber);
+        const needH = nums.filter(n => !store.history[n]);
+        const needA = nums.filter(n => !store.actions[n]);
+        return { history: needH, actions: needA };
+    }
+    if (view.mode === 'legislation') return { sinceDate: $('#sinceDate').val() };
+    return {};
+};
+
+const buildPasteSnippet = (mode, ctx) => {
+    const header = "// Run this at https://wslwebservices.leg.wa.gov in DevTools console.\n// 'copy' is a devtools helper that writes its argument to the clipboard.\n";
+    if (mode === 'legislation') return `${header}(async () => {
+    const r = await fetch('/LegislationService.asmx/GetLegislationIntroducedSince?sinceDate=${ctx.sinceDate}');
+    const text = await r.text();
+    copy(text);
+    console.log('Copied', text.length, 'chars. Paste into WSL Sync.');
+})();`;
+    if (mode === 'prefiles') return `${header}(async () => {
+    const r = await fetch('/LegislationService.asmx/GetPrefiledLegislation');
+    const text = await r.text();
+    copy(text);
+    console.log('Copied', text.length, 'chars. Paste into WSL Sync.');
+})();`;
+    if (mode === 'sponsors') return `${header}(async () => {
+    const r = await fetch('/SponsorService.asmx/GetSponsors?biennium=${BIENNIUM}');
+    const text = await r.text();
+    copy(text);
+    console.log('Copied', text.length, 'chars. Paste into WSL Sync.');
+})();`;
+    if (mode === 'rcws') return `${header}(async () => {
+    const ids = ${JSON.stringify(ctx.billIds)};
+    const out = {};
+    for (let i = 0; i < ids.length; i++) {
+        const r = await fetch('/LegislationService.asmx/GetRcwCitesAffected?biennium=${BIENNIUM}&billId=' + encodeURIComponent(ids[i]));
+        out[ids[i]] = await r.text();
+        if ((i + 1) % 10 === 0 || i === ids.length - 1) console.log(\`\${i + 1}/\${ids.length}\`);
+    }
+    copy(JSON.stringify(out));
+    console.log('Copied RCW XML for', ids.length, 'bills. Paste into WSL Sync.');
+})();`;
+    if (mode === 'summary') return `${header}(async () => {
+    const historyNums = ${JSON.stringify(ctx.history)};
+    const actionsNums = ${JSON.stringify(ctx.actions)};
+    const out = { history: {}, actions: {} };
+    for (let i = 0; i < historyNums.length; i++) {
+        const n = historyNums[i];
+        const r = await fetch('/LegislationService.asmx/GetLegislativeStatusChangesByBillNumber?biennium=${BIENNIUM}&billNumber=' + n + '&beginDate=1/1/2025&endDate=12/31/2026');
+        out.history[n] = await r.text();
+        if ((i + 1) % 10 === 0 || i === historyNums.length - 1) console.log('history', \`\${i + 1}/\${historyNums.length}\`);
+    }
+    for (let i = 0; i < actionsNums.length; i++) {
+        const n = actionsNums[i];
+        const r = await fetch('/CommitteeActionService.asmx/GetCommitteeExecutiveActionsByBill?biennium=${BIENNIUM}&billNumber=' + n);
+        out.actions[n] = await r.text();
+        if ((i + 1) % 10 === 0 || i === actionsNums.length - 1) console.log('actions', \`\${i + 1}/\${actionsNums.length}\`);
+    }
+    copy(JSON.stringify(out));
+    console.log('Copied history+actions. Paste into WSL Sync.');
+})();`;
+    return header + '// No paste snippet for this mode.';
+};
+
+const processPastedData = async (mode, text) => {
+    const trimmed = (text || '').trim();
+    if (!trimmed) throw new Error('Empty paste.');
+    if (mode === 'legislation') {
+        store.legislation = consolidate(parseLegislationXml(trimmed));
+        await save('legislation');
+        return `Loaded ${store.legislation.length} bills.`;
+    }
+    if (mode === 'prefiles') {
+        store.prefiles = consolidate(parsePrefilesXml(trimmed));
+        await save('prefiles');
+        return `Loaded ${store.prefiles.length} prefiles.`;
+    }
+    if (mode === 'sponsors') {
+        store.sponsors = parseSponsorsXml(trimmed);
+        await save('sponsors');
+        return `Loaded ${store.sponsors.length} sponsors.`;
+    }
+    if (mode === 'rcws') {
+        const obj = JSON.parse(trimmed);
+        let n = 0;
+        for (const [id, xml] of Object.entries(obj)) {
+            const r = parseRcwXml(xml, id);
+            if (r) { store.rcws[r.BillId] = r; n++; }
+        }
+        await save('rcws');
+        return `Loaded RCW data for ${n} bills.`;
+    }
+    if (mode === 'summary') {
+        const obj = JSON.parse(trimmed);
+        let h = 0, a = 0;
+        for (const [num, xml] of Object.entries(obj.history || {})) {
+            store.history[num] = parseHistoryXml(xml, num) || []; h++;
+        }
+        await save('history');
+        for (const [num, xml] of Object.entries(obj.actions || {})) {
+            store.actions[num] = parseActionsXml(xml, num) || []; a++;
+        }
+        await save('actions');
+        return `Loaded history for ${h} bills, actions for ${a} bills.`;
+    }
+    throw new Error(`No paste handler for mode '${mode}'.`);
+};
+
+const openPasteModal = () => {
+    const ctx = getPasteContext();
+    $('#paste-mode-label').text(view.mode);
+    $('#paste-snippet').text(buildPasteSnippet(view.mode, ctx));
+    $('#paste-input').val('');
+    $('#paste-status').text('');
+    $('#paste-modal').removeClass('hidden');
+};
+
+const closePasteModal = () => $('#paste-modal').addClass('hidden');
+
 const runSync = async () => {
+    if (view.pasteMode) { openPasteModal(); return; }
     syncing = true; render();
     try {
         if (view.mode === 'legislation') {
@@ -319,7 +485,10 @@ const runSync = async () => {
             for (const n of needA) { progress('Fetching Actions', `${++p}/${total} [${n}]`); store.actions[n] = await getActionsFor(byNum[n], BIENNIUM) || []; }
             await save('actions');
         }
-    } catch (e) { console.error(e); alert(e.message); }
+    } catch (e) {
+        console.error(e);
+        alert(`${e.message}\n\nIf this is a CORS error, enable "Paste mode" in the header to use the manual-fetch fallback.`);
+    }
     $('#sync-modal').addClass('hidden'); syncing = false; render();
 };
 
@@ -328,7 +497,25 @@ $(document).on('click', '[data-mode]', e => { view.mode = $(e.currentTarget).dat
     .on('change', '#limitSync', e => { view.limitSync = e.target.checked; })
     .on('change', '#limitN', e => { view.limitN = +e.target.value || 20; })
     .on('change', '#showAllBills', e => { view.showAllBills = e.target.checked; render(); })
+    .on('change', '#pasteMode', e => { view.pasteMode = e.target.checked; })
     .on('click', '#open-dash', () => window.open('pension-dash.html', '_blank'))
+    .on('click', '#paste-close, #paste-cancel', closePasteModal)
+    .on('click', '#paste-copy-snippet', async () => {
+        try { await navigator.clipboard.writeText($('#paste-snippet').text()); $('#paste-status').text('Snippet copied to clipboard.'); }
+        catch (e) { $('#paste-status').text('Copy failed: ' + e.message); }
+    })
+    .on('click', '#paste-load', async () => {
+        const text = $('#paste-input').val();
+        $('#paste-status').text('Parsing...');
+        try {
+            const msg = await processPastedData(view.mode, text);
+            $('#paste-status').text(msg);
+            setTimeout(() => { closePasteModal(); render(); }, 600);
+        } catch (e) {
+            console.error(e);
+            $('#paste-status').text('Error: ' + e.message);
+        }
+    })
     .on('click', '[data-action]', async e => {
         const a = $(e.currentTarget).data('action');
         if (a === 'sync') runSync();

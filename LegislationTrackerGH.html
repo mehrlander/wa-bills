@@ -39,11 +39,11 @@
 </main>
 
 <script type="module">
-const BASE = 'https://raw.githubusercontent.com/mehrlander/wa-bills/main';
-const [rawBills, rawContent, map] = await Promise.all([
-    `${BASE}/legislation/data/grouped_2025-26.json`,
-    `${BASE}/legislation/data/content/combined_2025-26.json`,
-    `${BASE}/rcw/pension-mapping-inverted.json`
+import { PENSION_MAP as map } from './pension-map.js';
+
+const [rawBills, rawContent] = await Promise.all([
+    './legislation/data/grouped_2025-26.json',
+    './legislation/data/content/combined_2025-26.json'
 ].map(u => fetch(u).then(r => r.json())));
 
 const rcwsByBill = Object.fromEntries(rawContent.map(c => [c.shortBillId, c.rcws || {}]));
@@ -79,23 +79,27 @@ const statusPill = st => {
 
 const inRange = (sec, r) => !r || (r.length === 2 ? +sec >= r[0] && +sec <= r[1] : r.includes(+sec));
 
+const L_AND_I_LABELS = new Set(['Disability Offset', 'L&I Service Credit', 'Line of Duty Death']);
+
 const findInMap = (ch, sec) => {
     const full = sec ? `${ch}.${sec}` : ch, m = [];
-    
-    if (map.special?.[full]) m.push({ cat: 'system', label: map.special[full].note, rcw: full });
-    (map.lni || []).forEach(c => c.rcws.includes(full) && m.push({ cat: 'lni', label: c.label, rcw: full }));
-    
+
+    if (map.special?.[full]) {
+        const label = map.special[full];
+        m.push({ cat: L_AND_I_LABELS.has(label) ? 'lni' : 'system', label, rcw: full });
+    }
+
     Object.entries(map.systems || {}).forEach(([sys, d]) => {
         if (d.ch !== ch || !inRange(sec, d.rcws)) return;
         const plan = sec && d.plans && Object.entries(d.plans).find(([, r]) => +sec >= r[0] && +sec <= r[1]);
         m.push({ cat: 'system', sys, plan: plan?.[0] || null, rcw: full });
     });
-    
-    if (map.general?.[ch]) m.push({ cat: 'general', label: map.general[ch].label, rcw: full });
+
+    if (map.general?.[ch]) m.push({ cat: 'general', label: map.general[ch], rcw: full });
     const g = map.governance?.[ch];
     if (g && (typeof g === 'string' ? true : inRange(sec, g.rcws))) m.push({ cat: 'governance', label: g.label || g, rcw: full });
     if (map.adjacent?.[ch]) m.push({ cat: 'adjacent', label: map.adjacent[ch], rcw: ch });
-    
+
     return m;
 };
 

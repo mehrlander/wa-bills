@@ -22,49 +22,35 @@
     return s.includes('line-through') ? 'del' : s.includes('underline') ? 'ins' : null;
   };
 
-  const isolateDelParens = () => {
-    $$('span').filter(el => getComputedStyle(el).textDecoration.includes('line-through')).forEach(delSpan => {
-      const prev = delSpan.previousSibling;
-      if (prev?.nodeType === 3 && prev.textContent.endsWith('((')) {
-        const text = prev.textContent;
-        if (text === '((') {
-          const wrapper = document.createElement('span');
-          wrapper.dataset.delOpen = 'true';
-          wrapper.textContent = '((';
-          prev.replaceWith(wrapper);
-        } else {
-          prev.textContent = text.slice(0, -2);
-          const wrapper = document.createElement('span');
-          wrapper.dataset.delOpen = 'true';
-          wrapper.textContent = '((';
-          delSpan.before(wrapper);
-        }
-      }
+  // 1. Splinter Inline Subsections
+  $$('div').forEach(div => {
+    const tgt = [...div.childNodes].find(n => n.nodeType === 1 && n.style.textIndent && /^\(\d+\)/.test(n.textContent.trim()));
+    if (!tgt) return;
+    const nxt = document.createElement('div');
+    nxt.style.textIndent = "0.5in";
+    while (tgt.firstChild) nxt.append(tgt.firstChild);
+    while (tgt.nextSibling) nxt.append(tgt.nextSibling);
+    tgt.remove();
+    div.after(nxt);
+    if (div.lastChild?.nodeType === 3) div.lastChild.textContent = div.lastChild.textContent.trimEnd();
+  });
 
-      const next = delSpan.nextSibling;
-      if (next?.nodeType === 3 && next.textContent.trimStart().startsWith('))')) {
-        const text = next.textContent;
-        const trimmed = text.trimStart();
-        const leadingWs = text.slice(0, text.length - trimmed.length);
-        
-        if (trimmed === '))') {
-          const wrapper = document.createElement('span');
-          wrapper.dataset.delClose = 'true';
-          wrapper.textContent = text;
-          next.replaceWith(wrapper);
-        } else {
-          const wrapper = document.createElement('span');
-          wrapper.dataset.delClose = 'true';
-          wrapper.textContent = leadingWs + '))';
-          next.textContent = trimmed.slice(2);
-          delSpan.after(wrapper);
-        }
-      }
-    });
-  };
+  // 2. Isolate Deletion Parentheses
+  $$('span').filter(el => getComputedStyle(el).textDecoration.includes('line-through')).forEach(del => {
+    const p = del.previousSibling, n = del.nextSibling;
+    if (p?.nodeType === 3 && p.textContent.endsWith('((')) {
+      const w = document.createElement('span');
+      w.dataset.delOpen = 'true'; w.textContent = '((';
+      p.textContent === '((' ? p.replaceWith(w) : (p.textContent = p.textContent.slice(0, -2), del.before(w));
+    }
+    if (n?.nodeType === 3 && n.textContent.trimStart().startsWith('))')) {
+      const t = n.textContent, tr = t.trimStart(), w = document.createElement('span');
+      w.dataset.delClose = 'true'; w.textContent = t.slice(0, t.length - tr.length) + '))';
+      tr === '))' ? n.replaceWith(w) : (n.textContent = tr.slice(2), del.after(w));
+    }
+  });
 
-  isolateDelParens();
-
+  // 3. Hierarchical State Tracking
   const state = { pM: null, pL: null, path: [] };
   const getHier = (ms, isDel) => {
     if (!ms.length) return { level: 0, levelName: '', path: '', ms: '' };
@@ -81,6 +67,7 @@
     return { level: deep, levelName: LN[deep] || '', path: state.path.map(p => `(${p.m})`).join(''), ms: ms.map(m => `(${m})`).join('') };
   };
 
+  // 4. Wrap Sections
   $$('span[style*="font-weight:bold"]').filter(s => /^Sec\.\s+\d+\./.test(s.textContent.trim()) && !s.closest('[data-section]')).forEach(sec => {
     const start = sec.closest('div');
     if (!start) return;
@@ -96,42 +83,32 @@
     wrap.append(...nodes);
   });
 
+  // 5. Apply Hierarchy Metadata
   const divMap = new Map();
   $$('div:not([data-section])').forEach(div => {
     if (div.querySelector('div')) return;
-    const mMatch = (div.textContent || '').trim().match(/^\s*(?:\(\([^)]+\)\))?((?:\([^)]+\))+)/);
-    const ms = mMatch?.[1]?.match(/\(([^()]+)\)/g)?.map(x => x.replace(/[()]/g, '')) || [];
+    const ms = (div.textContent || '').trim().match(/^\s*(?:\(\([^)]+\)\))?((?:\([^)]+\))+)/)?.[1]?.match(/\(([^()]+)\)/g)?.map(x => x.replace(/[()]/g, '')) || [];
     if (ms.length) divMap.set(div, getHier(ms, getComputedStyle(div).textDecoration.includes('line-through')));
   });
 
-  divMap.forEach((h, div) => {
-    div.dataset.level = h.level;
-    div.dataset.levelName = h.levelName;
-    div.dataset.path = h.path;
-    div.dataset.markers = h.ms;
-  });
+  divMap.forEach((h, div) => Object.assign(div.dataset, { level: h.level, levelName: h.levelName, path: h.path, markers: h.ms }));
 
+  // 6. Generate Row Data
   const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, n => n.textContent.trim() ? 1 : 2);
   const rows = [];
-  let n;
-  while (n = walker.nextNode()) {
-    const p = n.parentElement;
+  let nNode;
+  
+  while (nNode = walker.nextNode()) {
+    const p = nNode.parentElement;
     if (['SCRIPT', 'STYLE'].includes(p.tagName)) continue;
     
-    let type = null;
-    if (p.dataset.delOpen) {
-      type = 'del-open';
-    } else if (p.dataset.delClose) {
-      type = 'del-close';
-    } else {
-      type = getOwnDeco(p);
-      if (type === 'del') {
-        const b = p.previousSibling?.textContent?.trimEnd().endsWith('((') || p.previousElementSibling?.dataset.delOpen;
-        const a = p.nextSibling?.textContent?.trimStart().startsWith('))') || p.nextElementSibling?.dataset.delClose;
-        type = (b && a) ? 'del' : b ? 'del-start' : a ? 'del-end' : 'del-middle';
-      } else if (type === 'ins') {
-        type = n.textContent.trim() === 'NEW SECTION.' ? 'ins-new-section' : 'ins';
-      }
+    let type = p.dataset.delOpen ? 'del-open' : p.dataset.delClose ? 'del-close' : getOwnDeco(p) || '';
+    if (type === 'del') {
+      const b = p.previousSibling?.textContent?.trimEnd().endsWith('((') || p.previousElementSibling?.dataset.delOpen;
+      const a = p.nextSibling?.textContent?.trimStart().startsWith('))') || p.nextElementSibling?.dataset.delClose;
+      type = (b && a) ? 'del' : b ? 'del-start' : a ? 'del-end' : 'del-middle';
+    } else if (type === 'ins') {
+      type = nNode.textContent.trim() === 'NEW SECTION.' ? 'ins-new-section' : 'ins';
     }
     
     const h = divMap.get(p.closest('div:not([data-section])')) || { level: 0, levelName: '', path: '', ms: '' };
@@ -139,83 +116,44 @@
     rows.push({ 
       sec: sec?.dataset.section ? parseInt(sec.dataset.section, 10) : null, 
       isNew: sec?.dataset.isNew === 'true', 
-      type: type || '', 
-      level: h.level,
-      levelName: h.levelName,
-      path: h.path, 
-      text: n.textContent.trim().slice(0, 80) 
+      type, 
+      level: h.level, levelName: h.levelName, path: h.path, 
+      text: nNode.textContent.trim().slice(0, 80) 
     });
   }
 
-  const isDel = t => t && t.startsWith('del');
-  const isIns = t => t && t.startsWith('ins');
-  
-  let editIdx = 0;
-  let runType = null;
-  
-  for (let i = 0; i < rows.length; i++) {
-    const r = rows[i];
-    const curType = isDel(r.type) ? 'del' : isIns(r.type) ? 'ins' : null;
-    
-    if (curType) {
-      if (curType === runType) {
-        r._runIdx = editIdx;
-        r._runType = runType;
-      } else {
-        editIdx++;
-        runType = curType;
-        r._runIdx = editIdx;
-        r._runType = runType;
-      }
-    } else {
-      runType = null;
-    }
-  }
+  // 7. Calculate Edit Runs
+  let editIdx = 0, runType = null;
+  rows.forEach(r => {
+    const cur = r.type?.startsWith('del') ? 'del' : r.type?.startsWith('ins') ? 'ins' : null;
+    if (cur) {
+      if (cur !== runType) { editIdx++; runType = cur; }
+      r._rI = editIdx; r._rT = runType;
+    } else runType = null;
+  });
 
   const runs = new Map();
   rows.forEach((r, i) => {
-    if (r._runIdx) {
-      const existing = runs.get(r._runIdx);
-      if (existing) {
-        existing.endRow = i;
-      } else {
-        runs.set(r._runIdx, { type: r._runType, startRow: i, endRow: i });
-      }
-    }
+    if (r._rI) runs.has(r._rI) ? (runs.get(r._rI).end = i) : runs.set(r._rI, { t: r._rT, start: i, end: i });
   });
 
-  const runList = [...runs.entries()].sort((a, b) => a[1].startRow - b[1].startRow);
-  
-  for (let i = 0; i < runList.length - 1; i++) {
-    const [delIdx, del] = runList[i];
-    const [insIdx, ins] = runList[i + 1];
-    if (del.type === 'del' && ins.type === 'ins' && ins.startRow === del.endRow + 1) {
-      rows.forEach(r => {
-        if (r._runIdx === insIdx) r._runIdx = delIdx;
-      });
-      runs.get(delIdx).type = 'sub';
-      runs.get(delIdx).endRow = ins.endRow;
-      runs.delete(insIdx);
+  const rL = [...runs.entries()].sort((a, b) => a[1].start - b[1].start);
+  for (let i = 0; i < rL.length - 1; i++) {
+    const [dI, d] = rL[i], [iI, ins] = rL[i + 1];
+    if (d.t === 'del' && ins.t === 'ins' && ins.start === d.end + 1) {
+      rows.forEach(r => { if (r._rI === iI) r._rI = dI; });
+      d.t = 'sub'; d.end = ins.end; runs.delete(iI);
     }
   }
 
-  const finalRuns = [...runs.entries()].sort((a, b) => a[1].startRow - b[1].startRow);
-  const runToFinalIdx = new Map();
-  finalRuns.forEach(([runIdx, run], i) => {
-    runToFinalIdx.set(runIdx, { editIndex: i + 1, editType: run.type });
-  });
-
+  const fMap = new Map([...runs.entries()].sort((a, b) => a[1].start - b[1].start).map(([id, r], i) => [id, { i: i + 1, t: r.t }]));
+  
   rows.forEach(r => {
-    if (r._runIdx && runToFinalIdx.has(r._runIdx)) {
-      const { editIndex, editType } = runToFinalIdx.get(r._runIdx);
-      r.editType = editType;
-      r.editIndex = editIndex;
-    } else {
-      r.editType = '';
-      r.editIndex = null;
-    }
-    delete r._runIdx;
-    delete r._runType;
+    if (r._rI && fMap.has(r._rI)) {
+      const f = fMap.get(r._rI);
+      r.editType = f.t; r.editIndex = f.i;
+    } else { r.editType = ''; r.editIndex = null; }
+    delete r._rI; delete r._rT;
   });
 
   console.table(rows);

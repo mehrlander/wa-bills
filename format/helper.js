@@ -159,3 +159,125 @@
   console.table(rows);
   return rows;
 })();
+
+(function() {
+  const ea = (s, cb, ctx = document) => ctx.querySelectorAll(s).forEach(cb);
+
+  const hasOwnDeco = (el, type) => {
+    const has = e => (window.getComputedStyle(e).textDecoration || '').includes(type);
+    return has(el) && (!el.parentElement || !has(el.parentElement));
+  };
+
+  const wrapRange = (start, end, wrapper) => {
+    start.before(wrapper);
+    for (let n = start; n;) {
+      const next = n.nextSibling;
+      wrapper.append(n);
+      if (n === end) break;
+      n = next;
+    }
+    return wrapper;
+  };
+
+  const addTags = (el, tag, isIns) => {
+    const markerClass = isIns ? 'tag-marker-ins' : 'tag-marker-del';
+    const marker = (text) => `<span class="tag-marker ${markerClass}">&lt;${text}&gt;</span>`;
+    el.insertAdjacentHTML('afterbegin', marker(tag));
+    el.insertAdjacentHTML('beforeend', marker('/' + tag));
+  };
+
+  const contentNode = document.body;
+
+  // Single-pass DOM scan using ea()
+  ea('*', el => {
+    if (['SCRIPT', 'STYLE'].includes(el.tagName) || !el.offsetParent || !el.textContent.trim() || el.closest('a')) return;
+
+    if (hasOwnDeco(el, 'line-through')) el.setAttribute('data-src-del', '');
+    if (hasOwnDeco(el, 'underline')) el.setAttribute('data-src-ins', '');
+  }, contentNode);
+
+  const findNextSrc = (el, attr) => {
+    for (let n = el.nextSibling; n; n = n.nextSibling) {
+      if (n.nodeType === 3 && /^\s*$/.test(n.textContent)) continue;
+      if (n.nodeType === 3) return null;
+      if (n.nodeType === 1) return n.hasAttribute(attr) ? n : null;
+    }
+    return null;
+  };
+
+  const findNextIns = el => {
+    for (let n = el.nextSibling; n; n = n.nextSibling) {
+      if (n.nodeType === 3 && !/^[\s\(\)\[\],.]*$/.test(n.textContent)) return null;
+      if (n.nodeType === 1) {
+        if (n.hasAttribute('data-src-ins')) return n;
+        if (n.hasAttribute('data-src-del')) return null;
+      }
+    }
+    return null;
+  };
+
+  const processed = new Set();
+  const chains = [];
+
+  ea('[data-src-del]', del => {
+    if (processed.has(del)) return;
+    const ins = findNextIns(del);
+    if (ins) {
+      processed.add(del); processed.add(ins);
+      chains.push({ type: 'sub', elements: [del], insElements: [ins] });
+      return;
+    }
+
+    const chain = [del];
+    processed.add(del);
+    for (let next = findNextSrc(del, 'data-src-del'); next && !processed.has(next) && !findNextIns(next); next = findNextSrc(next, 'data-src-del')) {
+      chain.push(next);
+      processed.add(next);
+    }
+    chains.push({ type: 'del', elements: chain });
+  }, contentNode);
+
+  ea('[data-src-ins]', ins => {
+    if (processed.has(ins)) return;
+    const chain = [ins];
+    processed.add(ins);
+    for (let next = findNextSrc(ins, 'data-src-ins'); next && !processed.has(next); next = findNextSrc(ins, 'data-src-ins')) {
+      chain.push(next);
+      processed.add(next);
+    }
+    chains.push({ type: 'ins', elements: chain });
+  }, contentNode);
+
+  chains.forEach(chain => {
+    const mkWrapper = type => {
+      const w = document.createElement('span');
+      w.setAttribute('data-edit', type);
+      return w;
+    };
+
+    if (chain.type === 'sub') {
+      const [del, ins] = [chain.elements[0], chain.insElements[0]];
+
+      addTags(del, 'del', false);
+      addTags(ins, 'ins', true);
+
+      // Flag for IIFE 2 so it can override standard red/green backgrounds
+      del.setAttribute('data-sub-part', '');
+      ins.setAttribute('data-sub-part', '');
+
+      if (del.parentElement === ins.parentElement) {
+        wrapRange(del, ins, mkWrapper('sub'));
+      } else {
+        [del, ins].forEach(e => {
+          const w = mkWrapper('sub');
+          e.before(w); w.append(e);
+        });
+      }
+    } else {
+      chain.elements.forEach(e => {
+        addTags(e, chain.type, chain.type === 'ins');
+        wrapRange(e, e, mkWrapper(chain.type));
+      });
+    }
+  });
+})();

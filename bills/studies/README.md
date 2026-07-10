@@ -204,9 +204,9 @@ Most bills include schema documentation:
 
 ## Related Resources
 
-- **Projects:** See `../projects/PROJECT_INVENTORY.md` for analysis tools and viewers
-- **Database:** See `../projects/database/wa-budget-bills-database/` for metadata database
-- **Viewers:** See `../projects/viewers/` for comparison and search tools
+- **Projects:** See `../../projects/PROJECT_INVENTORY.md` for analysis tools and viewers
+- **Database:** See `../../projects/database/wa-budget-bills-database/` for metadata database
+- **Viewers:** See `../../projects/viewers/` for comparison and search tools
 
 ---
 

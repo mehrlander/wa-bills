@@ -36,8 +36,8 @@
 <script type="module">
 const BASE = 'https://raw.githubusercontent.com/mehrlander/wa-bills/main';
 const [rawBills, rawContent, map] = await Promise.all([
-    `${BASE}/legislation/data/grouped_2025-26.json`,
-    `${BASE}/legislation/data/content/combined_2025-26.json`,
+    `${BASE}/wsl-api/data/grouped_2025-26.json`,
+    `${BASE}/bills/content/combined_2025-26.json`,
     `${BASE}/rcw/pension-mapping-inverted.json`
 ].map(u => fetch(u).then(r => r.json())));
 const rcwsByBill = Object.fromEntries(rawContent.map(c => [c.shortBillId, c.rcws || {}]));

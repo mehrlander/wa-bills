@@ -1,76 +1,64 @@
-# Washington State Legislation Data
+# wsl-api/
 
-This folder contains Washington State Legislature API documentation and bill data.
+Everything from and around the Washington State Legislature web services
+(`wslwebservices.leg.wa.gov`): the API's documentation, raw endpoint pulls,
+derived joins, and the live per-biennium snapshots consumed by the
+[web-tools wsl pages](https://github.com/mehrlander/web-tools/tree/main/pages/wsl-sync).
 
-## Folder Structure
+## Layout
 
 ```
-legislation/
-├── schema/              # API documentation and specifications
-│   ├── API_CATALOG.json # Machine-readable API catalog (all endpoints, types, operations)
-│   ├── API_REFERENCE.md # Developer reference documentation
-│   ├── specs/           # Official WSDL files and data dictionary
-│   └── archive/         # Historical research (prior-research.tar.gz)
-│
-├── data/                # Bill data by biennium (40,160 bills total)
-│   ├── json/            # Full bill records as JSON arrays
-│   ├── csv/             # Flattened tabular format for spreadsheets
-│   ├── index.json       # Metadata catalog with bill counts and file sizes
-│   ├── BILL_DATA_ANALYSIS.md
-│   └── CONDENSED_BILL_SCHEMA.md
-│
-└── tools/               # Utility scripts
-    ├── transform_bills.py  # Data transformation between formats
-    └── bookmarklet.js      # Browser helper for WA Legislature site
+wsl-api/
+├── schema/          API documentation: API_CATALOG.json (machine-readable),
+│                    API_REFERENCE.md, data dictionary, types/enums, WSDL specs
+├── data/            Endpoint pulls, named by API method, plus derived joins
+│   ├── GetLegislationSinceHistorical/   json/ + csv/, 9 biennia, 40K+ bills
+│   ├── GetAllDocumentsByClass/          per-biennium document catalogs (URLs
+│   │                                    into lawfilesext.leg.wa.gov)
+│   ├── GetLegislationIntroducedSince.json, GetRcwCitesAffected.json
+│   ├── LegislationSinceWithRcw.{json,csv} + scanner page (derived join)
+│   ├── grouped_2025-26.json + generate-grouped.html (derived grouping)
+│   └── index.json   metadata catalog with bill counts and file sizes
+├── tools/           fetch/transform helpers, including the wsl-api.js
+│                    kit lineage under tools/archive/
+├── snapshots/       live per-biennium stores (see below)
+└── fetch-data.mjs   the snapshot fetcher (see below)
 ```
 
-## Quick Start
+Document-derived scans (content extracts, term indexes, topic sets) live in
+[`../bills/`](../bills/), not here: this folder is API records and their
+joins, `bills/` is what came out of the documents themselves.
 
-### API Documentation
-- **[schema/API_REFERENCE.md](schema/API_REFERENCE.md)** - Human-readable API reference
-- **[schema/API_CATALOG.json](schema/API_CATALOG.json)** - Machine-readable catalog for tooling
+## Historical pulls
 
-### Bill Data
-Load bill data for a specific biennium:
+`data/GetLegislationSinceHistorical/` holds full bill records by biennium:
 
-```python
-import json
-with open('data/json/2025-26.json') as f:
-    bills = json.load(f)
-print(f"Loaded {len(bills)} bills")
-```
+| Biennium | Bills | | Biennium | Bills |
+|---|---|---|---|---|
+| 2009-10 | 2,318 | | 2019-20 | 5,766 |
+| 2011-12 | 5,003 | | 2021-22 | 3,390 |
+| 2013-14 | 4,906 | | 2023-24 | 4,800 |
+| 2015-16 | 5,216 | | 2025-26 | 3,184 |
+| 2017-18 | 5,577 | | **Total** | **40,160** |
 
-Or use CSV for spreadsheet analysis:
-```bash
-# View in terminal
-head data/csv/2025-26.csv
+These are point-in-time pulls. For the open biennium, the fresh data is in
+`snapshots/`, not here.
 
-# Open in spreadsheet application
-open data/csv/2025-26.csv
-```
+## Snapshots
 
-## Data Formats
+`snapshots/<biennium>/` holds the six stores the web-tools pages load at
+boot: `legislation`, `prefiles`, `sponsors`, `rcws` (RCW cites affected per
+bill, including the pension classification), `history`, `actions` (the last
+two fetched only for pension/adjacent bills). `meta.json` records when the
+snapshot was fetched and its counts.
 
-| Format | Location | Best For |
-|--------|----------|----------|
-| JSON | `data/json/` | Programmatic access, full bill records |
-| CSV | `data/csv/` | Spreadsheets, SQL import, quick exploration |
+[`fetch-data.mjs`](fetch-data.mjs) produces them (`npm run wsl-fetch`; see
+its header for flags). Parsing is not implemented here: the script fetches
+web-tools' dependency-free `lib/kits/wsl-core.js` at run time and executes
+it exactly as the browser pages do, so both runtimes always run identical
+transform and classification code.
 
-## Bienniums Available
-
-| Biennium | Bills | JSON Size |
-|----------|-------|-----------|
-| 2009-10 | 2,318 | 1.3 MB |
-| 2011-12 | 5,003 | 2.8 MB |
-| 2013-14 | 4,906 | 2.8 MB |
-| 2015-16 | 5,216 | 3.0 MB |
-| 2017-18 | 5,577 | 3.0 MB |
-| 2019-20 | 5,766 | 3.0 MB |
-| 2021-22 | 3,390 | 1.8 MB |
-| 2023-24 | 4,800 | 2.3 MB |
-| 2025-26 | 3,184 | 1.6 MB |
-| **Total** | **40,160** | **22 MB** |
-
-## Source
-
-Data retrieved from the [Washington State Legislature Web Services](https://wslwebservices.leg.wa.gov/).
+The [`WSL fetch` Action](../.github/workflows/wsl-fetch.yml) runs it on a
+session-aware schedule (daily December through April, monthly heartbeat
+otherwise) and commits the result. Manual dispatch from the Actions tab
+takes a biennium, a per-bill fetch cap, and a --full flag.

@@ -54,7 +54,7 @@ const [{ XMLParser }, { flatten }, { default: Papa }] = await Promise.all([
     import('https://cdn.jsdelivr.net/npm/papaparse/+esm')
 ]);
 
-const GITHUB_CSV = "https://raw.githubusercontent.com/mehrlander/wa-bills/refs/heads/main/legislation/data/LegislationSinceWithRcw.csv";
+const GITHUB_CSV = "https://raw.githubusercontent.com/mehrlander/wa-bills/refs/heads/main/wsl-api/data/LegislationSinceWithRcw.csv";
 const parser = new XMLParser({ ignoreNameSpace: true });
 const CM = { APPROPRIATIONS:"APP", "WAYS & MEANS":"WM", FINANCE:"FIN", TRANSPORTATION:"TRAN", "HEALTH & LONG-TERM CARE":"HLTC", "HUMAN SERVICES":"HS", "LAW & JUSTICE":"L&J", "AGRICULTURE & NATURAL RESOURCES":"AGNR", "LABOR & COMMERCE":"L&C", "LABOR & WORKPLACE STANDARDS":"LWS", "COMMUNITY SAFETY":"CS", "POSTSECONDARY EDUCATION & WORKFORCE":"PEW", "STATE GOVERNMENT & TRIBAL RELATIONS":"SGTR", "CONSUMER PROTECTION & BUSINESS":"CPB", "ENVIRONMENT, ENERGY & TECHNOLOGY":"EET", "EARLY LEARNING & K-12 EDUCATION":"ELK12", "HIGHER EDUCATION & WORKFORCE DEVELOPMENT":"HEWD", "CAPITAL BUDGET":"CAP", "CIVIL RIGHTS & JUDICIARY":"CRJ", EDUCATION:"ED", "ENVIRONMENT & ENERGY":"E&E", "HEALTH CARE & WELLNESS":"HCW", HOUSING:"HSG", "LOCAL GOVERNMENT":"LG", "TECHNOLOGY, ECONOMIC DEVELOPMENT, & VETERANS":"TEDV", "BUSINESS, FINANCIAL SERVICES & TRADE":"BFST", "EARLY LEARNING & HUMAN SERVICES":"ELHS" };
 

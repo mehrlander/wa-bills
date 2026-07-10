@@ -11,8 +11,7 @@ package-lock.json
 *.sqlite
 *.sqlite3
 
-# Bill documents (will be large)
-bills/
+# Bill documents (large). Deliberate guard: adding raw bill files requires git add -f.
 *.xml
 *.htm
 *.pdf

@@ -1,0 +1,11 @@
+{
+  "name": "wa-bills",
+  "private": true,
+  "scripts": {
+    "wsl-fetch": "node wsl-api/fetch-data.mjs"
+  },
+  "devDependencies": {
+    "fast-xml-parser": "^4.5.1",
+    "flat": "^6.0.0"
+  }
+}

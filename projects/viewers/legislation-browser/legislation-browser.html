@@ -71,8 +71,8 @@
 const GH_TOKEN = '🎟️GitHubToken'
 const isAuth = !GH_TOKEN.includes('🎟️')
 const REPO = 'mehrlander/wa-bills'
-const INDEX_PATH = 'legislation/index.json'
-const CSV_PATH = 'legislation/csv'
+const INDEX_PATH = 'wsl-api/data/index.json'
+const CSV_PATH = 'wsl-api/data/GetLegislationSinceHistorical/csv'
 const getHeaders = () => isAuth ? { 'Authorization': `Bearer ${GH_TOKEN.trim()}` } : {}
 
 let currentData = []

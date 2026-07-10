@@ -53,7 +53,7 @@ Some bills don't join because the bill number on the fiscal note side is a draft
 
 ### Dependencies
 
-* **Source Data**: Relies on legislative metadata located in the `legislation/data/GetLegislationSinceHistorical/json/` directory.
+* **Source Data**: Relies on legislative metadata located in the `wsl-api/data/GetLegislationSinceHistorical/json/` directory.
 * **File Correspondence**: Each fiscal note file in `FiscalNotes/json` corresponds directly to a legislative JSON file for the same biennium (e.g., `2021-22.json`).
 * **Exclusions**: Data for the **2009-10** biennium is excluded due to unresolved data quality and join issues.
 

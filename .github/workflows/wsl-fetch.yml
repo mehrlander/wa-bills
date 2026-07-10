@@ -1,0 +1,88 @@
+name: WSL fetch
+
+# Refreshes the WSL snapshot stores under wsl-api/snapshots/<biennium>/.
+# This repo is the data home; the pages that display the snapshot live in
+# mehrlander/web-tools and fetch it from here. Runners have open egress, so
+# this reaches wslwebservices.leg.wa.gov directly (sandboxed sessions can't).
+#
+# Schedule is session-aware. Regular sessions convene the second Monday of
+# January and run 105 days in odd years (into late April) and 60 days in
+# even years (into mid March); prefiling starts in early December. So:
+# daily December through April, monthly heartbeat otherwise. Special
+# sessions are covered by manual dispatch (or temporarily widening the
+# daily window).
+#
+# Scheduled runs always commit: real data changes when there are any, and a
+# meta.json-only "heartbeat" commit when there are none. The heartbeat is
+# deliberate. It records "checked the API on this date, nothing changed" in
+# the history, and it keeps the repo active so GitHub's 60-day-inactivity
+# rule never silently disables this schedule during the off-season.
+
+on:
+  schedule:
+    - cron: '0 9 * 1-4,12 *'   # daily 09:00 UTC, Dec-Apr (prefiling + session)
+    - cron: '0 9 1 5-11 *'     # monthly heartbeat, 1st of May-Nov
+  workflow_dispatch:
+    inputs:
+      biennium:
+        description: 'Which biennium to fetch (e.g. 2025-26, 2023-24). Output lands in wsl-api/snapshots/<biennium>/.'
+        required: false
+        default: '2025-26'
+      limit:
+        description: 'Cap per-bill fetches (--limit). Blank = fetch all (default). Enter e.g. 5 to smoke-test.'
+        required: false
+        default: ''
+      full:
+        description: 'Refetch everything, including cached rcws (--full). Use for an open biennium.'
+        type: boolean
+        required: false
+        default: false
+
+# Commit the snapshot back to the branch this was dispatched against.
+permissions:
+  contents: write
+
+# Don't let two runs race to push the same branch.
+concurrency:
+  group: wsl-fetch-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      # package-lock.json is gitignored in this repo, so there's no lockfile
+      # to `npm ci` against — install from package.json.
+      - run: npm install
+
+      - name: Fetch bill data
+        run: |
+          # On a scheduled run `inputs` is empty: the biennium falls back to
+          # the script's default (the open biennium) and --full is forced.
+          ARGS=()
+          if [ -n "${{ inputs.biennium }}" ]; then ARGS+=(--biennium "${{ inputs.biennium }}"); fi
+          if [ -n "${{ inputs.limit }}" ]; then ARGS+=(--limit "${{ inputs.limit }}"); fi
+          if [ "${{ inputs.full }}" = "true" ] || [ "${{ github.event_name }}" = "schedule" ]; then ARGS+=(--full); fi
+          echo "Running: npm run wsl-fetch -- ${ARGS[*]}"
+          npm run wsl-fetch -- "${ARGS[@]}"
+
+      - name: Commit snapshot
+        run: |
+          git config user.name  'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add wsl-api/snapshots
+          if git diff --cached --quiet; then
+            echo 'Nothing changed at all (not even meta.json); skipping commit.'
+          elif git diff --cached --quiet -- ':!wsl-api/snapshots/*/meta.json'; then
+            git commit -m "WSL heartbeat $(date -u +%Y-%m-%d): no data changes"
+            git push origin HEAD:${{ github.ref_name }}
+          else
+            git commit -m "WSL data snapshot $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push origin HEAD:${{ github.ref_name }}
+          fi

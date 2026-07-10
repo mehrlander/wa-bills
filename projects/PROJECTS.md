@@ -1,6 +1,6 @@
 # Projects Overview
 
-This folder contains 15 projects organized into 4 categories for analyzing Washington State legislative budget bills.
+This folder contains 26 projects organized into 5 categories for analyzing Washington State legislative budget bills.
 
 ## Quick Navigation
 
@@ -10,26 +10,45 @@ This folder contains 15 projects organized into 4 categories for analyzing Washi
 | [database/](./database/) | 2 | Normalized SQL databases for cross-bill queries |
 | [specialized/](./specialized/) | 5 | Targeted tools for specific research questions |
 | [viewers/](./viewers/) | 4 | Interactive web-based exploration tools |
+| Data Extraction | 11 | Single-bill extraction tools (see PROJECT_INVENTORY.md) |
 
-## All Projects
+## All Projects (26 Total)
 
-| Project | Category | Purpose | Output |
-|---------|----------|---------|--------|
-| [analyze-bill-patterns-2](./analysis/analyze-bill-patterns-2/) | analysis | Production-ready extraction system | Web + Data |
-| [analyze-bill-patterns-1](./analysis/analyze-bill-patterns-1/) | analysis | Comprehensive bill extraction (historical) | Web + Data |
-| [analyze-bill-structures](./analysis/analyze-bill-structures/) | analysis | Format documentation and parsing guides | Documentation |
-| [bill-language-analysis-tool](./analysis/bill-language-analysis-tool/) | analysis | Quick terminology analysis | Web Tool |
-| [wa-budget-automation](./database/wa-budget-automation/) | database | Normalized SQLite database with parsers | SQLite + Scripts |
-| [wa-budget-bills-database](./database/wa-budget-bills-database/) | database | Historical metadata catalog (27 bills) | SQLite + Docs |
-| [appropriations-timeline](./specialized/appropriations-timeline/) | specialized | Longitudinal funding trend analysis | Web + Data |
-| [budget-appropriations-explorer](./specialized/budget-appropriations-explorer/) | specialized | Instant XML exploration (no setup) | Web Tool |
-| [parse-statutory-references](./specialized/parse-statutory-references/) | specialized | RCW cross-reference network | Data + Viz |
-| [map-agencies-programs](./specialized/map-agencies-programs/) | specialized | Inter-agency relationship mapping | Python + Viz |
-| [map-wa-legal-site](./specialized/map-wa-legal-site/) | specialized | Automated bill downloads | Python Script |
-| [budget-bill-comparison](./viewers/budget-bill-comparison/) | viewers | Side-by-side budget version comparison | Web Tool |
-| [proviso-search-tool](./viewers/proviso-search-tool/) | viewers | Full-text proviso search | Web Tool |
-| [legislative-diff-viewer](./viewers/legislative-diff-viewer/) | viewers | Multi-mode text diff (2-way, 3-way) | Web Tool |
-| [xml-bill-inspector](./viewers/xml-bill-inspector/) | viewers | Interactive XML structure analysis | Web Tool |
+See **[PROJECT_INVENTORY.md](./PROJECT_INVENTORY.md)** for comprehensive documentation of all 26 projects.
+
+### Analysis (4)
+| Project | Purpose | Output |
+|---------|---------|--------|
+| [analyze-bill-patterns-2](./analysis/analyze-bill-patterns-2/) | Production-ready extraction system | Web + Data |
+| [analyze-bill-patterns-1](./analysis/analyze-bill-patterns-1/) | Comprehensive bill extraction (historical) | Web + Data |
+| [analyze-bill-structures](./analysis/analyze-bill-structures/) | Format documentation and parsing guides | Documentation |
+| [bill-language-analysis-tool](./analysis/bill-language-analysis-tool/) | Quick terminology analysis | Web Tool |
+
+### Database (2)
+| Project | Purpose | Output |
+|---------|---------|--------|
+| [wa-budget-automation](./database/wa-budget-automation/) | Normalized SQLite database with parsers | SQLite + Scripts |
+| [wa-budget-bills-database](./database/wa-budget-bills-database/) | Historical metadata catalog (27 bills) | SQLite + Docs |
+
+### Specialized (5)
+| Project | Purpose | Output |
+|---------|---------|--------|
+| [appropriations-timeline](./specialized/appropriations-timeline/) | Longitudinal funding trend analysis | Web + Data |
+| [budget-appropriations-explorer](./specialized/budget-appropriations-explorer/) | Instant XML exploration (no setup) | Web Tool |
+| [parse-statutory-references](./specialized/parse-statutory-references/) | RCW cross-reference network | Data + Viz |
+| [map-agencies-programs](./specialized/map-agencies-programs/) | Inter-agency relationship mapping | Python + Viz |
+| [map-wa-legal-site](./specialized/map-wa-legal-site/) | Automated bill downloads | Python Script |
+
+### Viewers (4)
+| Project | Purpose | Output |
+|---------|---------|--------|
+| [budget-bill-comparison](./viewers/budget-bill-comparison/) | Side-by-side budget version comparison | Web Tool |
+| [proviso-search-tool](./viewers/proviso-search-tool/) | Full-text proviso search | Web Tool |
+| [legislative-diff-viewer](./viewers/legislative-diff-viewer/) | Multi-mode text diff (2-way, 3-way) | Web Tool |
+| [xml-bill-inspector](./viewers/xml-bill-inspector/) | Interactive XML structure analysis | Web Tool |
+
+### Data Extraction (11)
+Individual bill extraction tools stored in project subdirectories. See [PROJECT_INVENTORY.md](./PROJECT_INVENTORY.md) for complete list.
 
 ## Start Here
 

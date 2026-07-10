@@ -10,6 +10,25 @@ kit) lives in web-tools; this repo's fetcher pulls it at run time. Domain
 reference docs (like the bill hierarchy guide) are canonical here, and
 web-tools points to them.
 
+## Quick start
+
+### I want to explore bills interactively
+- **Budget Bill Comparison:** [`projects/viewers/budget-bill-comparison/`](projects/viewers/budget-bill-comparison/)
+- **Proviso Search Tool:** [`projects/viewers/proviso-search-tool/`](projects/viewers/proviso-search-tool/)
+- **Legislation Tracker:** [`LegislationTrackerGH.html`](LegislationTrackerGH.html)
+
+### I want to query bill data
+- **WA Budget Automation Database:** [`projects/database/wa-budget-automation/`](projects/database/wa-budget-automation/)
+- **Budget Bills Database:** [`projects/database/wa-budget-bills-database/`](projects/database/wa-budget-bills-database/)
+- **Per-bill extracted data:** [`bills/studies/`](bills/studies/)
+
+### I want to understand the repository
+- **Project inventory:** [`projects/PROJECT_INVENTORY.md`](projects/PROJECT_INVENTORY.md)
+- **Projects overview:** [`projects/PROJECTS.md`](projects/PROJECTS.md)
+- **WSL corpus guide:** [`wsl-api/README.md`](wsl-api/README.md)
+- **Bill corpus guide:** [`bills/README.md`](bills/README.md)
+- **Bill hierarchy reference:** [`docs/hierarchy.md`](docs/hierarchy.md)
+
 ## The map
 
 | Folder | What it is |

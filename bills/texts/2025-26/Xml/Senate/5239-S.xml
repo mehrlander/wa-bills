@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-0833.1</RequestNumber><ShortBillId>SSB 5239</ShortBillId><LongBillId>SUBSTITUTE SENATE BILL 5239</LongBillId><Legislature>69th Legislature</Legislature><Session>2025 Regular Session</Session><Sponsors>Senate Health &amp; Long-Term Care (originally sponsored by Senators Slatter, Nobles, and C. Wilson)</Sponsors><BillHistory><ReadDate>READ FIRST TIME 01/27/25.</ReadDate></BillHistory><BriefDescription>Concerning the retention of hospital medical records.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to the retention of hospital medical records; and amending RCW 70.41.190.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>70</TitleNumber><TextRun>.</TextRun><ChapterNumber>41</ChapterNumber><TextRun>.</TextRun><SectionNumber>190</SectionNumber></SectionCite> and 1985 c 213 s 27 are each amended to read as follows:<Caption>Medical records of patients<TextRun fontFamily="Times New Roman">—</TextRun>Retention and preservation.</Caption></BillSectionHeader>
+<P><TextRun amendingStyle="strike">Unless specified otherwise by the department, a hospital shall retain and preserve all medical records which relate directly to the care and treatment of a patient for a period of no less than ten years following the most recent discharge of the patient; except the records of minors, which shall be retained and preserved for a period of no less than three years following attainment of the age of eighteen years, or ten years following such discharge, whichever is longer.</TextRun></P>
+<P><TextRun amendingStyle="add">(1) A hospital shall retain and preserve all medical records for a minimum period of 26 years from the date the record was created. A hospital may retain medical records on paper, microfilm, electronically, or on other media.</TextRun></P>
+<P><TextRun amendingStyle="add">(a) This subsection applies to:</TextRun></P>
+<P><TextRun amendingStyle="add">(i) Medical records created prior to the effective date of this section and retained or preserved by the hospital on the effective date of this section; and</TextRun></P>
+<P><TextRun amendingStyle="add">(ii) Medical records created on or after the effective date of this section.</TextRun></P>
+<P><TextRun amendingStyle="add">(b) This subsection does not apply to medical records no longer retained and preserved by the hospital on the effective date of this section if the hospital complied with this section as it existed prior to the effective date of this section when it destroyed or otherwise disposed of the records.</TextRun></P>
+<P><TextRun amendingStyle="add">(c) This subsection does not exempt hospitals from compliance with any other record retention requirements.</TextRun></P>
+<P><TextRun amendingStyle="add">(2) All information collected at each unique visit is considered a medical record for the purposes of this section.</TextRun></P>
+<P><TextRun amendingStyle="add">(3)</TextRun> If a hospital ceases operations, it shall make immediate arrangements, as approved by the department, for preservation of its records.</P>
+<P><TextRun amendingStyle="add">(4)</TextRun> The department shall by regulation define the type of records and the information required to be included in the medical records to be retained and preserved under this section; which records may be retained in photographic form pursuant to chapter 5.46 RCW.</P>
+<History>1985 c 213 s 27; 1975 1st ex.s. c 175 s 1.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Savings<TextRun fontFamily="Times New Roman">—</TextRun>Effective date<TextRun fontFamily="Times New Roman">—</TextRun>1985 c 213:</TextRun> See notes following RCW 43.20.050.</NoteP></AnnNote>
+<CrossRefNote><NoteP>Medical records, disclosure: Chapter 70.02 RCW.</NoteP></CrossRefNote>
+</RCWNoteSection>
+</BillSection>
+</BillBody>
+</Bill>

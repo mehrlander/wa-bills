@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document" correctedCopy="true">
+<BillHeading><ShortBillId>ESSB 5993</ShortBillId><LongBillId>ENGROSSED SUBSTITUTE SENATE BILL 5993</LongBillId><Legislature>69th Legislature</Legislature><Session>2026 Regular Session</Session><Sponsors>Senate Law &amp; Justice (originally sponsored by Senators Alvarado, Riccelli, Bateman, Conway, Frame, Hasegawa, Liias, Lovelett, Lovick, Nobles, Orwall, Slatter, Stanford, Trudeau, Valdez, and C. Wilson)</Sponsors><BillHistory><ReadDate>READ FIRST TIME 01/23/26.</ReadDate></BillHistory><BriefDescription>Concerning lowering the interest rate for medical debt.</BriefDescription></BillHeading>
+<BillBody>
+<BillTitle>AN ACT Relating to lowering the interest rate for medical debt; and amending RCW 19.52.010.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>19</TitleNumber><TextRun>.</TextRun><ChapterNumber>52</ChapterNumber><TextRun>.</TextRun><SectionNumber>010</SectionNumber></SectionCite> and 2019 c 227 s 5 are each amended to read as follows:<Caption>Rate in absence of agreement<TextRun fontFamily="Times New Roman">—</TextRun>Exception for prejudgment interest<TextRun fontFamily="Times New Roman">—</TextRun>Application to consumer leases.</Caption></BillSectionHeader>
+<P>(1) Except as provided in subsection (2) of this section, every loan or forbearance of money, goods, or thing in action shall bear interest at the rate of twelve percent per annum where no different rate is agreed to in writing between the parties: PROVIDED, That with regard to any transaction heretofore or hereafter entered into subject to this section, if an agreement in writing between the parties evidencing such transaction provides for the payment of money at the end of an agreed period of time or in installments over an agreed period of time, then such agreement shall constitute a writing for purposes of this section and satisfy the requirements thereof. The discounting of commercial paper, where the borrower makes himself or herself liable as maker, guarantor, or indorser, shall be considered as a loan for the purposes of this chapter.</P>
+<P>(2)(a) <TextRun amendingStyle="strike">Prejudgment</TextRun> <TextRun amendingStyle="add">For any medical debt accrued after December 31, 2026,</TextRun> interest <TextRun amendingStyle="add">may not be</TextRun> charged or collected <TextRun amendingStyle="strike">on</TextRun> <TextRun amendingStyle="add">in excess of a simple interest rate of one percent per year on new</TextRun> medical debt, as defined in RCW 19.16.100, <TextRun amendingStyle="strike">must not exceed nine percent</TextRun> <TextRun amendingStyle="add">whether before or after entry of judgment</TextRun>.</P>
+<P>(b) <TextRun amendingStyle="strike">For any medical debt for which prejudgment interest has accrued or may be accruing as of July 28, 2019, no prejudgment interest in excess of nine percent shall accrue thereafter</TextRun> <TextRun amendingStyle="add">Notwithstanding subsection (a) of this section, interest may not be charged or collected on medical debt during any period in which:</TextRun></P>
+<P><TextRun amendingStyle="add">(i) The hospital has not completed any required charity care screening and initial determination conducted in compliance with chapter 70.170 RCW;</TextRun></P>
+<P><TextRun amendingStyle="add">(ii) The medical debt is later determined to be invalid or not lawfully owed; or</TextRun></P>
+<P><TextRun amendingStyle="add">(iii) The medical debt is later determined by a court of competent jurisdiction or by operation of law to be not legally enforceable</TextRun><TextRun amendingStyle="add">.</TextRun></P>
+<P><TextRun amendingStyle="add">(c) If a medical debt is later reduced or eliminated under chapter 70.170 RCW, or is later determined to be invalid, not lawfully owed, or not legally enforceable, any interest charged or collected on or after the effective date of this section on the portion of the medical debt reduced or eliminated is void and must be refunded</TextRun>.</P>
+<P>(3) A lease shall not be considered a loan or forbearance for the purposes of this chapter if:</P>
+<P>(a) It constitutes a "consumer lease" as defined in RCW 63.10.020;</P>
+<P>(b) It constitutes a lease-purchase agreement under chapter 63.19 RCW; or</P>
+<P>(c) It would constitute such "consumer lease" but for the fact that:</P>
+<P>(i) The lessee was not a natural person;</P>
+<P>(ii) The lease was not primarily for personal, family, or household purposes; or</P>
+<P>(iii) The total contractual obligation exceeded twenty-five thousand dollars.</P>
+<History>2019 c 227 s 5; 2011 c 336 s 542; 1992 c 134 s 13. Prior: 1983 c 309 s 1; 1983 c 158 s 6; 1981 c 80 s 1; 1899 c 80 s 1; RRS s 7299; prior: 1895 c 136 s 1; 1893 c 20 s 1; Code 1881 s 2368; 1863 p 433 s 1; 1854 p 380 s 1.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Short title<TextRun fontFamily="Times New Roman">—</TextRun>1992 c 134:</TextRun> See RCW 63.19.900.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+</BillBody>
+</Bill>

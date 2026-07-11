@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-3424.3</RequestNumber><ShortBillId>SB 5893</ShortBillId><LongBillId>SENATE BILL 5893</LongBillId><Legislature>69th Legislature</Legislature><Session>2026 Regular Session</Session><Sponsors>Senators Short, Dozier, Holy, Shewmake, and J. Wilson</Sponsors><BillHistory><PrefiledDate>Prefiled 12/16/25.</PrefiledDate><ReadDate>Read first time 01/12/26.</ReadDate><ReferredCommittee>Referred to Committee on Ways &amp; Means.</ReferredCommittee></BillHistory><BriefDescription>Addressing appropriations for long-term forest health and wildfire reduction.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to appropriations for long-term forest health and wildfire reduction; creating a new section; and making an appropriation.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature finds that policies enacted in chapter 298, Laws of 2021, concerning long-term forest health and the reduction of wildfire dangers, are just as relevant today as they were in 2021. The full effect of that act has not been realized, primarily due to insufficient funds being appropriated for the purposes specified in that act. The omnibus operating budget for the 2025-2027 fiscal biennium provided $60,000,000 in the first fiscal year, whereas the needed appropriation is $125,000,000 for the fiscal biennium. Therefore, it is the intent of this act to fulfill the amounts needed for the 2025-2027 fiscal biennium.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="approp" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>The sum of $65,000,000, or as much thereof as may be necessary, is appropriated for the fiscal year ending June 30, 2026, from the natural climate solutions account to the wildfire response, forest restoration, and community resilience account.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

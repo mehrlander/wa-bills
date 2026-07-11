@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-1800.1</RequestNumber><ShortBillId>SSB 5432</ShortBillId><LongBillId>SUBSTITUTE SENATE BILL 5432</LongBillId><Legislature>69th Legislature</Legislature><Session>2025 Regular Session</Session><Sponsors>Senate Transportation (originally sponsored by Senators Liias, J. Wilson, Conway, Chapman, C. Wilson, Shewmake, Goehner, MacEwen, Nobles, and Riccelli)</Sponsors><BillHistory><ReadDate>READ FIRST TIME 02/21/25.</ReadDate></BillHistory><BriefDescription>Addressing license plate production issues.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to addressing license plate production issues; amending RCW 46.16A.305; and adding a new section to chapter 72.60 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>46</TitleNumber><TextRun>.</TextRun><ChapterNumber>16A</ChapterNumber><TextRun>.</TextRun><SectionNumber>305</SectionNumber></SectionCite> and 2022 c 132 s 5 are each amended to read as follows:<Caption>Temporary license plates<TextRun fontFamily="Times New Roman">—</TextRun>Application form and contents<TextRun fontFamily="Times New Roman">—</TextRun>Display and duration<TextRun fontFamily="Times New Roman">—</TextRun>Application fee<TextRun fontFamily="Times New Roman">—</TextRun>Department may adopt rules.</Caption></BillSectionHeader>
+<P>(1) The department, county auditor or other agent, or subagent appointed by the director may grant a temporary license plate to operate a vehicle for which an application for registration has been made. The application for a temporary license plate must be made by the owner or the owner's representative to the department, county auditor or other agent, or subagent appointed by the director on a form furnished by the department and must contain:</P>
+<P>(a) A full description of the vehicle, including its make, model, vehicle identification number, and type of body;</P>
+<P>(b) The name and address of the applicant;</P>
+<P>(c) The date of application; and</P>
+<P>(d) Other information that the department may require.</P>
+<P>(2) Temporary license plates must:</P>
+<P>(a) Be consecutively numbered;</P>
+<P>(b) Be displayed as described for permanent license plates in RCW 46.16A.200(5)(a);</P>
+<P>(c) Be composed of material that must be durable and remain unaltered in field conditions for a minimum of four months; and</P>
+<P>(d) Remain on the vehicle only until the receipt of permanent license plates.</P>
+<P>(3) The application must be accompanied by the fee required under RCW 46.17.400(1)(b).</P>
+<P>(4) Pursuant to subsection (2) of this section, the department may adopt rules for the design and display of temporary license plates.</P>
+<P><TextRun amendingStyle="add">(5) By December 1, 2025, the department must adopt rules implementing contingency extensions of the expiration date for department temporary license plates in cases of shortages of permanent license plates. The rules must prioritize reducing customer return trips for department temporary license plates, and include a communication plan with state and local law enforcement agencies regarding the implementation of the contingency extensions.</TextRun></P>
+<History>2022 c 132 s 5. Prior: 2010 c 161 s 416; 2010 c 8 s 9011; 1961 c 12 s 46.16.047; prior: 1959 c 66 s 2. Formerly RCW 46.16.047.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2022 c 132:</TextRun> See note following RCW 46.04.2701.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>Intent<TextRun fontFamily="Times New Roman">—</TextRun>Legislation to reconcile chapter 161, Laws of 2010 and other amendments made during the 2010 legislative session<TextRun fontFamily="Times New Roman">—</TextRun>2010 c 161:</TextRun> See notes following RCW 46.04.013.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>72</TitleNumber><TextRun>.</TextRun><ChapterNumber>60</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>When the department of corrections, in conjunction with the department of licensing, anticipates a projected license plate shortage statewide or in particular locations, the department of licensing must promptly communicate such shortage to the county auditors or other agents, and subagents appointed by the director of the department of licensing. The department of corrections, in conjunction with the department of licensing, must also develop and implement a mitigation plan to address the shortage that may include the contracting with a third-party vendor for production of license plates until such time as the shortage is eliminated and a sufficient license plate inventory is available for the subsequent 90-day period. Use of a third-party vendor may thereafter be initiated by the department of corrections, the department of licensing, or jointly by the two agencies.</P>
+</BillSection>
+</BillBody>
+</Bill>

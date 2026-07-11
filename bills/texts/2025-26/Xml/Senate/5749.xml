@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-1343.1</RequestNumber><ShortBillId>SB 5749</ShortBillId><LongBillId>SENATE BILL 5749</LongBillId><Legislature>69th Legislature</Legislature><Session>2025 Regular Session</Session><Sponsors>Senators J. Wilson, Fortunato, Short, Christian, Torres, Dozier, Boehnke, Holy, Wagoner, and McCune</Sponsors><BillHistory><ReadDate>Read first time 02/13/25.</ReadDate><ReferredCommittee>Referred to Committee on Housing.</ReferredCommittee></BillHistory><BriefDescription>Concerning housing development opportunity zones.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to housing development opportunity zones; adding a new section to chapter 35.21 RCW; adding a new section to chapter 35A.21 RCW; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature recognizes that the state of Washington is experiencing a housing supply crisis, and while the 10-year comprehensive review and zoning review processes typically ensure sustainable and inclusive growth, these processes may not always be necessary in instances where development has already occurred. Therefore, it is the intent of the legislature to create opportunities for localities to designate zones for residential and mixed-use residential development, between zoning and code cycles, in underutilized areas where land development has already occurred.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>35</TitleNumber><TextRun>.</TextRun><ChapterNumber>21</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) A city may designate, by resolution or ordinance, a geographic area within its jurisdiction as a housing development opportunity zone which encompasses areas characterized by large commercial development such as shopping malls, vacant department stores, and vacant grocery stores.</P>
+<P>(2) The housing development opportunity zone project site area must be defined by existing improvements on the parcel, including but not limited to parking and landscape areas.</P>
+<P>(3) Within the housing development opportunity zone, residential development must be prioritized.</P>
+<P>(4)(a) Housing development within the opportunity zone must utilize:</P>
+<P>(i) Any existing stormwater permits, existing facilities and services, and any existing infrastructure as a method for reducing development costs; and</P>
+<P>(ii) The existing project site area for development or redevelopment.</P>
+<P>(b) Any development or redevelopment must be done within the setbacks required at the time of initial development.</P>
+<P>(5) The city may waive any impact fees associated with development or redevelopment within the opportunity zone.</P>
+<P>(6) Resolutions or ordinances made to implement a housing development opportunity zone are exempt from the requirements of RCW 36.70A.130 and may be implemented at any time within the planning period under the condition that the next comprehensive plan update incorporate such changes.</P>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>35A</TitleNumber><TextRun>.</TextRun><ChapterNumber>21</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) A code city may designate, by resolution or ordinance, a geographic area within its jurisdiction as a housing development opportunity zone which encompasses areas characterized by large commercial development such as shopping malls, vacant department stores, and vacant grocery stores.</P>
+<P>(2) The housing development opportunity zone project site area must be defined by existing improvements on the parcel, including but not limited to parking and landscape areas.</P>
+<P>(3) Within the housing development opportunity zone, residential development must be prioritized.</P>
+<P>(4)(a) Housing development within the opportunity zone must utilize:</P>
+<P>(i) Any existing stormwater permits, existing facilities and services, and any existing infrastructure as a method for reducing development costs; and</P>
+<P>(ii) The existing project site area for development or redevelopment.</P>
+<P>(b) Any development or redevelopment must be done within the setbacks required at the time of initial development.</P>
+<P>(5) The code city may waive any impact fees associated with development or redevelopment within the opportunity zone.</P>
+<P>(6) Resolutions or ordinances made to implement a housing development opportunity zone are exempt from the requirements of RCW 36.70A.130 and may be implemented at any time within the planning period under the condition that the next comprehensive plan update incorporate such changes.</P>
+</BillSection>
+</BillBody>
+</Bill>

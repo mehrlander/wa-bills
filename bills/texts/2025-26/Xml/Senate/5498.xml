@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-0838.1</RequestNumber><ShortBillId>SB 5498</ShortBillId><LongBillId>SENATE BILL 5498</LongBillId><Legislature>69th Legislature</Legislature><Session>2025 Regular Session</Session><Sponsors>Senators Alvarado, Slatter, Bateman, Cleveland, Frame, Liias, Lovelett, Nobles, Pedersen, Saldaña, Salomon, Stanford, Trudeau, Valdez, and C. Wilson</Sponsors><BillHistory><ReadDate>Read first time 01/27/25.</ReadDate><ReferredCommittee>Referred to Committee on Health &amp; Long-Term Care.</ReferredCommittee></BillHistory><BriefDescription>Concerning contraceptive coverage.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to contraceptive coverage; amending RCW 48.43.195; and providing an effective date.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>48</TitleNumber><TextRun>.</TextRun><ChapterNumber>43</ChapterNumber><TextRun>.</TextRun><SectionNumber>195</SectionNumber></SectionCite> and 2017 c 293 s 2 are each amended to read as follows:<Caption>Contraceptive drugs<TextRun fontFamily="Times New Roman">—</TextRun>Twelve-month refill coverage.</Caption></BillSectionHeader>
+<P>(1) A health benefit plan issued or renewed on or after January 1, <TextRun amendingStyle="strike">2018</TextRun> <TextRun amendingStyle="add">2026</TextRun>, that includes coverage for contraceptive drugs must provide reimbursement for a <TextRun amendingStyle="strike">twelve-month refill</TextRun> <TextRun amendingStyle="add">12-month supply</TextRun> of contraceptive drugs obtained at one time by the enrollee, unless the enrollee requests a smaller supply or the prescribing provider instructs that the enrollee must receive a smaller supply. The health plan must allow enrollees to receive the contraceptive drugs on-site at the provider's office, if available. Any dispensing practices required by the plan must follow clinical guidelines for appropriate prescribing and dispensing to ensure the health of the patient while maximizing access to effective contraceptive drugs.</P>
+<P>(2) Nothing in this section prohibits a health plan from limiting refills that may be obtained in the last quarter of the plan year if a <TextRun amendingStyle="strike">twelve-month</TextRun> <TextRun amendingStyle="add">12-month</TextRun> supply of the contraceptive drug has already been dispensed during the plan year.</P>
+<P>(3) For purposes of this section, "contraceptive drugs" means all drugs approved by the United States food and drug administration that are used to prevent pregnancy, including, but not limited to, hormonal drugs administered orally, transdermally, and intravaginally.</P>
+<History>2017 c 293 s 2.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Finding<TextRun fontFamily="Times New Roman">—</TextRun>Intent<TextRun fontFamily="Times New Roman">—</TextRun>2017 c 293:</TextRun> "The legislature finds that a significant percentage of pregnancies are unintended and could be averted with broader access to health care and effective contraception. Research suggests that moving from twenty-eight day dispensing of contraceptive drugs to twelve-month dispensing improves adherence to maintenance of the drugs and effective use of the contraceptives. It is therefore the intent of the legislature to require private health insurers to require dispensing of contraceptive drugs with up to a twelve-month supply provided at one time." [2017 c 293 s 1.]</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="new" action="effdate">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act takes effect January 1, 2026.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

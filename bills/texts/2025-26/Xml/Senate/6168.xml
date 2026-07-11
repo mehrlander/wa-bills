@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-3764.1</RequestNumber><ShortBillId>SB 6168</ShortBillId><LongBillId>SENATE BILL 6168</LongBillId><Legislature>69th Legislature</Legislature><Session>2026 Regular Session</Session><Sponsors>Senators Boehnke and Dozier</Sponsors><BillHistory><ReadDate>Read first time 01/15/26.</ReadDate><ReferredCommittee>Referred to Committee on Environment, Energy &amp; Technology.</ReferredCommittee></BillHistory><BriefDescription>Providing cost relief to Washingtonians by suspending certain requirements in the climate commitment act.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to providing cost relief to Washingtonians by suspending certain requirements in the climate commitment act; adding a new section to chapter 70A.65 RCW; creating a new section; and declaring an emergency.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) The legislature finds that Washington households are experiencing significant increases in the cost of living, including higher prices for gasoline and diesel fuel, utilities, groceries, and other essential goods and services. Moreover, higher fuel prices increase the price of several other goods and services by raising transportation and delivery costs.</P></BillSectionHeader>
+<P>(2) The legislature further finds that the costs of compliance with the climate commitment act are being passed on to Washingtonians by directly increasing fuel prices, and indirectly, by increasing the prices of other essential goods and services, upon which Washington households rely. These increased prices, along with the cost of compliance with other Washington programs and inflation, disproportionately affect working families, individuals on fixed incomes, rural residents, small businesses, and other vulnerable individuals.</P>
+<P>(3) Therefore, the legislature intends to suspend the implementation of certain components of the climate commitment act to provide partial relief to Washington households from increased prices of fuel and other essential goods and services.</P>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>70A</TitleNumber><TextRun>.</TextRun><ChapterNumber>65</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>RCW 70A.65.060 through 70A.65.210, 70A.65.310, 70A.65.320, and any rules adopted by the department to implement the program established under those sections, are suspended on the effective date of this section through December 31, 2027.</P>
+</BillSection>
+<BillSection type="new" action="emerg" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act is necessary for the immediate preservation of the public peace, health, or safety, or support of the state government and its existing public institutions, and takes effect immediately.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

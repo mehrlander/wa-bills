@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-4001.1</RequestNumber><ShortBillId>SB 6215</ShortBillId><LongBillId>SENATE BILL 6215</LongBillId><Legislature>69th Legislature</Legislature><Session>2026 Regular Session</Session><Sponsors>Senators Hansen, Boehnke, and Valdez</Sponsors><BillHistory><ReadDate>Read first time 01/19/26.</ReadDate><ReferredCommittee>Referred to Committee on State Government, Tribal Affairs &amp; Elections.</ReferredCommittee></BillHistory><BriefDescription>Concerning fraud prevention.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to fraud prevention; adding a new section to chapter 43.09 RCW; and creating new sections.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) The legislature finds that:</P></BillSectionHeader>
+<P>(a) Washington state administers a wide range of programs that distribute public funds, deliver critical services, and rely on partnerships with local governments, nonprofits, and private entities. Maintaining strong public trust in these programs requires proactive oversight and effective risk management practices that evolve as programs, technology, and service delivery models change.</P>
+<P>(b) Recent national attention on fraud in publicly funded programs underscores the importance of regularly assessing areas of risk before problems become systemic. While Washington has existing audit and accountability mechanisms, the legislature recognizes the value of a coordinated, statewide, risk-based assessment to identify common vulnerabilities, highlight effective practices, and strengthen prevention and early detection efforts across agencies.</P>
+<P>(c) In 1990, the United States government accountability office began reporting to congress with a "high-risk" list, which identifies and helps resolve serious weaknesses in areas that involve substantial public funds and critical services to the public. The "high-risk" list provides congress with accessible and actionable information and recommendations that have been used to improve programs and yield financial and other benefits.</P>
+<P>(2)(a) It is the intent of the legislature to promote transparency and efficient use of oversight resources by directing the Washington state auditor to develop a program like the United States government accountability office's "high-risk" list and to report to the legislature annually on risk across state agencies, focusing on identifying program characteristics associated with elevated risk, assessing the effectiveness of existing internal controls, and recommending improvements that support ongoing risk mitigation.</P>
+<P>(b) The legislature further intends that the results of this work support practical, scalable strategies that enhance accountability while preserving timely access to services for eligible individuals and communities. By taking a proactive approach, the state can strengthen stewardship of public funds, reduce the likelihood of future fraud, and reinforce public confidence in state government.</P>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>09</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) By July 1, 2026, the Washington state auditor shall prepare and submit to the appropriate committees of the legislature a comprehensive inventory of state programs that have been subject to audit by the state auditor within the preceding 10 years. The inventory must include for each identified program:</P>
+<P>(a) A brief description of the program's purpose, scope, and administering agency;</P>
+<P>(b) The amount of funds expended by the program during the most recently completed fiscal year, including the primary sources of those funds, such as state general fund appropriations, federal funds, local funds, or other revenue sources;</P>
+<P>(c) A summary description of the program's key internal controls and safeguards intended to prevent, detect, or mitigate fraud, waste, abuse, or mismanagement;</P>
+<P>(d) A summary of relevant findings, recommendations, or management letters from prior audits conducted by the state auditor, including whether significant findings have been resolved or remain open; and</P>
+<P>(e) Any other contextual information the state auditor determines would assist the legislature in understanding the program's risk profile and existing accountability structure.</P>
+<P>(2) Beginning July 1, 2027, and annually thereafter, the state auditor shall prepare and submit to the legislature a statewide high-risk list that identifies state programs, functions, or activities determined by the auditor to present elevated risk to the state.</P>
+<P>(3) In developing the high-risk list under subsection (2) of this section, the state auditor shall use a risk-based methodology and may consider factors including, but not limited to:</P>
+<P>(a) The size, complexity, and growth of a program;</P>
+<P>(b) The degree of reliance on third parties, including local governments, contractors, or nonprofit organizations;</P>
+<P>(c) The adequacy and maturity of internal controls;</P>
+<P>(d) The significance of prior audit findings, including repeat or unresolved issues;</P>
+<P>(e) Susceptibility to fraud, improper payments, or misuse of funds; and</P>
+<P>(f) The potential impact on public trust, service delivery, or state finances.</P>
+<P>(4) For each program or area included on the high-risk list, the report must include:</P>
+<P>(a) An explanation of the factors contributing to its high-risk designation;</P>
+<P>(b) A summary of existing internal controls and oversight mechanisms;</P>
+<P>(c) Identification of gaps or weaknesses contributing to elevated risk; and</P>
+<P>(d) Recommendations for risk mitigation, improved controls, or enhanced oversight.</P>
+<P>(5) The state auditor shall present the reports required under this section in a manner that promotes transparency and public understanding, including the use of plain language, clear organization, and explanatory context sufficient for readers without technical or auditing backgrounds.</P>
+<P>(6) The state auditor may withhold or summarize information in the reports required under this section if the auditor determines that disclosure of such information would create a risk of fraud, misuse of funds, circumvention of internal controls, or other harm to a state program.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act may be known and cited as the fraud prevention act.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

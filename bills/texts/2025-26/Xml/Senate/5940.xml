@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-3680.2</RequestNumber><ShortBillId>SB 5940</ShortBillId><LongBillId>SENATE BILL 5940</LongBillId><Legislature>69th Legislature</Legislature><Session>2026 Regular Session</Session><Sponsors>Senators C. Wilson, Alvarado, Cleveland, Dhingra, Hasegawa, Nobles, Riccelli, Shewmake, Slatter, Valdez, and Wellman</Sponsors><BillHistory><PrefiledDate>Prefiled 12/24/25.</PrefiledDate><ReadDate>Read first time 01/12/26.</ReadDate><ReferredCommittee>Referred to Committee on Human Services.</ReferredCommittee></BillHistory><BriefDescription>Creating a housing assistance pilot program for youth enrolled in extended foster care.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to creating a housing assistance pilot program for youth enrolled in extended foster care; adding a new section to chapter 74.13 RCW; adding a new section to chapter 13.34 RCW; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature finds that approximately 13 percent of young people in extended foster care experienced homelessness in state fiscal year 2024. To obtain housing, many young people who are dependent at age 18 are required to exit extended foster care to access certain federal housing vouchers and thereby lose the support of extended foster care.</P></BillSectionHeader>
+<P>Accordingly, the state is unable to leverage existing resources, including federal benefits, as young people use up their eligibility for time-limited federal programs while they simultaneously decline other programs needed for long-term success. Statutory changes are required to ensure dependent young people in extended foster care are stably housed as they prepare for independence.</P>
+<P>It is the intent of the legislature to create a housing pilot program which provides a benefit to dependent young people in extended foster care that is equivalent to the benefit provided by the federal foster youth to independence program, such that young people in extended foster care can receive housing assistance while they are dependent and still benefit from the federal program when they turn 21.</P>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>74</TitleNumber><TextRun>.</TextRun><ChapterNumber>13</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) The extended foster care housing pilot program is established for a period of two years, effective January 1, 2027, to provide rental assistance and associated housing fees to eligible youth. The extended foster care housing pilot program is intended to prevent and alleviate homelessness among youth enrolled in extended foster care.</P>
+<P>(2) Up to 50 youth are eligible for the extended foster care housing pilot program if they are:</P>
+<P>(a) Receiving extended foster care services pursuant to RCW 13.34.267; and</P>
+<P>(b)(i) Experiencing homelessness as defined in RCW 13.34.030; or</P>
+<P>(ii) Subject to appropriations, at imminent risk of experiencing homelessness.</P>
+<P>(3) The department shall conduct a competitive procurement process to identify an entity or entities to contract with for operation of the extended foster care housing pilot program. The contractors must have a demonstrated understanding of the importance of stable housing for youth involved with the child welfare system. If no outside entity or entities are available to operate the pilot program or specific parts of the pilot program, the department may operate the pilot program or the specific parts that are not operated by an outside entity.</P>
+<P>(4) The extended foster care housing pilot program shall provide rental assistance based on the following criteria:</P>
+<P>(a) Rental assistance is provided to eligible dependent youth for up to 24 months not to extend for any young person beyond age 21;</P>
+<P>(b) The amount of rental assistance must be based on the fair market rent in the eligible youth's location;</P>
+<P>(c) Eligible youth shall pay no more than 30 percent of their adjusted gross income toward rent, including the extended foster care subsidy; and</P>
+<P>(d) If the youth's rent and utilities exceed the fair market rent for that location, the youth's contribution may not exceed 40 percent of their monthly adjusted gross income, including the extended foster care subsidy.</P>
+<P>(5) The department shall ensure that the 50 eligible youth identified in subsection (2) of this section receive access to rental housing assistance.</P>
+<P>(6) By June 30, 2029, in compliance with RCW 43.01.036, the department shall provide a report to the appropriate committees of the legislature that includes the following information:</P>
+<P>(a) The number of youth served by the extended foster care housing pilot program;</P>
+<P>(b) The number of months each youth received assistance from the pilot program;</P>
+<P>(c) The total amount of assistance provided to each youth;</P>
+<P>(d) The age of the youth assisted by the pilot program;</P>
+<P>(e) The gender and race or ethnicity of youth assisted by the pilot program;</P>
+<P>(f) The cost of the rental assistance provided to each youth, by county;</P>
+<P>(g) The counties represented by the pilot program participants;</P>
+<P>(h) The number of youth on the waitlist for the pilot program, if any; and</P>
+<P>(i) Any other information the department deems useful for the legislature's consideration.</P>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>13</TitleNumber><TextRun>.</TextRun><ChapterNumber>34</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>The department shall conduct a transition planning process with youth enrolled in extended foster care at least three months prior to their 21st birthday. The transition planning process must include, but is not limited to:</P>
+<P>(1) Assessing the youth's continued housing and financial stability;</P>
+<P>(2) Supporting the youth to apply to a federally funded housing voucher program, when available, and if applicable;</P>
+<P>(3) Providing referrals to housing assistance; and</P>
+<P>(4) Providing referrals to benefits and services that support the financial stability of the youth including education, employment, physical and behavioral health care, and other available public benefits.</P>
+</BillSection>
+</BillBody>
+</Bill>

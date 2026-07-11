@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-4129.1</RequestNumber><ShortBillId>SSB 5961</ShortBillId><LongBillId>SUBSTITUTE SENATE BILL 5961</LongBillId><Legislature>69th Legislature</Legislature><Session>2026 Regular Session</Session><Sponsors>Senate Early Learning &amp; K-12 Education (originally sponsored by Senators C. Wilson, Dhingra, Frame, Nobles, Shewmake, and Wellman; by request of Superintendent of Public Instruction)</Sponsors><BillHistory><ReadDate>READ FIRST TIME 01/22/26.</ReadDate></BillHistory><BriefDescription>Transferring early literacy programs from the department of children, youth, and families to the office of the superintendent of public instruction.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to transferring early literacy programs from the department of children, youth, and families to the office of the superintendent of public instruction; amending RCW 43.216.200; adding new sections to chapter 28A.300 RCW; and recodifying RCW 43.216.200.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>216</ChapterNumber><TextRun>.</TextRun><SectionNumber>200</SectionNumber></SectionCite> and 2022 c 39 s 1 are each amended to read as follows:<Caption>Imagination library of Washington program.</Caption></BillSectionHeader>
+<P>(1) The following definitions apply to this section:</P>
+<P>(a) "Eligible children" means children from birth to age five;</P>
+<P>(b) "National nonprofit foundation" means a national nonprofit foundation that exists for the purpose of working with local entities to identify eligible children and mail age-appropriate, high quality books each month to those children at no cost to families; and</P>
+<P>(c) "Program" means the imagination library of Washington program created under subsection (2) of this section.</P>
+<P>(2) Subject to the amounts appropriated for this specific purpose, the <TextRun amendingStyle="strike">department, in coordination with the</TextRun> office of the superintendent of public instruction<TextRun amendingStyle="strike">,</TextRun> shall select a Washington state-based qualified 501(c)(3) nonprofit organization physically located in Washington state to create and operate the program. The nonprofit organization selected under this subsection shall:</P>
+<P>(a) Manage the daily operations of the program;</P>
+<P>(b) Establish affiliate programs across the state;</P>
+<P>(c) Advance and strengthen the affiliate programs with the goal of increasing enrollment in those programs;</P>
+<P>(d) Develop, promote, and coordinate a public awareness campaign to make donors aware of the opportunity to donate to affiliate programs and make the public aware of the opportunity to register eligible children to receive books through the program; and</P>
+<P>(e) Contract with a national nonprofit foundation to provide age-appropriate, high quality books each month to eligible children at no cost to families.</P>
+<P>(3)(a) By November 1, <TextRun amendingStyle="strike">2022</TextRun> <TextRun amendingStyle="add">2026</TextRun>, and annually thereafter, the nonprofit organization selected to operate the program under subsection (2) of this section shall submit a report to the relevant committees of the legislature and the governor describing:</P>
+<P>(i) The number of affiliate programs established by the program;</P>
+<P>(ii) The number of children enrolled in each affiliate program; and</P>
+<P>(iii) The number of children statewide enrolled in the program.</P>
+<P>(b) The report in this subsection must be submitted in compliance with RCW 43.01.036.</P>
+<P>(4)(a) The nonprofit organization selected to operate the program under subsection (2) of this section shall provide payment to the national nonprofit foundation under subsection (2)(e) of this section that equals 50 percent of the cost to provide books to eligible children enrolled in the program.</P>
+<P>(b) Each affiliate program shall provide payment to the program under subsection (2) of this section that equals the remaining cost to provide books to eligible children enrolled in the program.</P>
+<P>(c) Nothing in this section requires that state funding be provided to the nonprofit organization selected under this subsection or to the program except as provided in subsection (5) of this section.</P>
+<P>(5) The <TextRun amendingStyle="strike">department</TextRun> <TextRun amendingStyle="add">office of the superintendent of public instruction</TextRun> may seek and accept gifts, grants, or endowments from public or private sources for the program and may spend any gifts, grants, or endowments or income from public or private sources on the program according to their terms.</P>
+<History>2022 c 39 s 1.</History>
+</BillSection>
+<BillSection type="new" action="recod">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P><SectionCite><TextRun>RCW </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>216</ChapterNumber><TextRun>.</TextRun><SectionNumber>200</SectionNumber></SectionCite> is recodified as a section in chapter 28A.300 RCW.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>28A</TitleNumber><TextRun>.</TextRun><ChapterNumber>300</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>Subject to the availability of amounts appropriated for this specific purpose, the office of the superintendent of public instruction shall contract with a nonprofit entity experienced in the provision of promoting early literacy for children through pediatric office visits.</P>
+</BillSection>
+</BillBody>
+</Bill>

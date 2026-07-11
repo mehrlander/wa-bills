@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-0762.1</RequestNumber><ShortBillId>SB 5501</ShortBillId><LongBillId>SENATE BILL 5501</LongBillId><Legislature>69th Legislature</Legislature><Session>2025 Regular Session</Session><Sponsors>Senators Stanford, Saldaña, Hasegawa, and Nobles</Sponsors><BillHistory><ReadDate>Read first time 01/27/25.</ReadDate><ReferredCommittee>Referred to Committee on Labor &amp; Commerce.</ReferredCommittee></BillHistory><BriefDescription>Concerning employer requirements for driving.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to employer requirements for driving; amending RCW 49.58.090; adding a new section to chapter 49.58 RCW; and prescribing penalties.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>49</TitleNumber><TextRun>.</TextRun><ChapterNumber>58</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) Unless an employer reasonably expects driving to be one of the essential job functions for a position, it is unlawful for an employer to:</P>
+<P>(a) Require a valid driver's license as a condition of employment; or</P>
+<P>(b) Include a statement in a posting for a job opening for the position that an applicant must have a valid driver's license.</P>
+<P>(2)(a) The director must investigate complaints regarding compliance with this section and any related rules adopted under this chapter. The director may require the testimony of witnesses and production of documents as part of an investigation.</P>
+<P>(b) If the director determines a violation occurred, the director may issue a citation and notice of assessment and order the employer to pay to the complainant actual damages; statutory damages equal to the actual damages or $5,000, whichever is greater; interest of one percent per month on all compensation owed; payment to the department of the costs of investigation and enforcement; and any other appropriate relief.</P>
+<P>(c) In addition to the citation and notice of assessment, the director may order payment to the department of a civil penalty.</P>
+<P>(i) For a first violation, the civil penalty may not exceed $500.</P>
+<P>(ii) For a repeat violation, the civil penalty may not exceed $1,000 or 10 percent of the damages, whichever is greater.</P>
+<P>(d) If the investigation finds that the complainant's allegation cannot be substantiated, the department shall issue a closure letter to the complainant and the employer detailing such finding.</P>
+<P>(3) An appeal from the director's determination may be taken in accordance with chapter 34.05 RCW. An employee who prevails is entitled to costs and reasonable attorneys' fees.</P>
+<P>(4) The department must deposit civil penalties paid under this section in the supplemental pension fund established under RCW 51.44.033.</P>
+<P>(5) Any wages and interest owed must be calculated from four years from the last violation before the complaint.</P>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>49</TitleNumber><TextRun>.</TextRun><ChapterNumber>58</ChapterNumber><TextRun>.</TextRun><SectionNumber>090</SectionNumber></SectionCite> and 2018 c 116 s 11 are each amended to read as follows:<Caption>Rules.</Caption></BillSectionHeader>
+<P>The department may adopt rules to implement <TextRun amendingStyle="strike">RCW 49.58.005 and 49.58.020 through 49.58.060</TextRun> <TextRun amendingStyle="add">this chapter</TextRun>.</P>
+<History>2018 c 116 s 11.</History>
+</BillSection>
+</BillBody>
+</Bill>

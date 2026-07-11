@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>Z-0482.1</RequestNumber><ShortBillId>SB 5838</ShortBillId><LongBillId>SENATE BILL 5838</LongBillId><Legislature>69th Legislature</Legislature><Session>2026 Regular Session</Session><Sponsors>Senators Kauffman, Saldaña, Alvarado, Conway, Frame, Hasegawa, Liias, Lovelett, Nobles, Pedersen, Riccelli, Shewmake, Stanford, Trudeau, Valdez, and C. Wilson; by request of Department of Natural Resources</Sponsors><BillHistory><PrefiledDate>Prefiled 12/05/25.</PrefiledDate><ReadDate>Read first time 01/12/26.</ReadDate><ReferredCommittee>Referred to Committee on Agriculture &amp; Natural Resources.</ReferredCommittee></BillHistory><BriefDescription>Adding a tribal member to the board of natural resources.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to adding a tribal member to the board of natural resources; amending RCW 43.30.205; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature finds that inclusion of a tribal member on the board of natural resources will provide crucial perspective and expertise that will be invaluable as it makes decisions that serve the public.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>30</ChapterNumber><TextRun>.</TextRun><SectionNumber>205</SectionNumber></SectionCite> and 2025 c 94 s 1 are each amended to read as follows:<Caption>Board of natural resources<TextRun fontFamily="Times New Roman">—</TextRun>Composition.</Caption></BillSectionHeader>
+<P>(1) The board shall consist of <TextRun amendingStyle="strike">six</TextRun> <TextRun amendingStyle="add">seven</TextRun> members:</P>
+<P>(a) The governor or the governor's designee;</P>
+<P>(b) The superintendent of public instruction or the superintendent's designee from the office of the superintendent of public instruction;</P>
+<P>(c) The commissioner;</P>
+<P>(d) The director of the University of Washington school of forest resources;</P>
+<P>(e) The dean of the Washington State University college of agricultural, human, and natural resource sciences; <TextRun amendingStyle="strike">and</TextRun></P>
+<P>(f) A representative of those counties that contain state forestlands acquired or transferred under RCW 79.22.010, 79.22.040, and 79.22.020<TextRun amendingStyle="add">; and</TextRun></P>
+<P><TextRun amendingStyle="add">(g) A tribal representative</TextRun>.</P>
+<P>(2)(a) The county representative on the board shall be selected by the legislative authorities of those counties that contain state forestlands acquired or transferred under RCW 79.22.010, 79.22.040, and 79.22.020. In the selection of the county representative, each participating county shall have one vote. The Washington state association of counties shall convene a meeting for the purpose of making the selection and shall notify the board of the selection.</P>
+<P>(b) The county representative must be a duly elected member of a county legislative authority who shall serve a term of four years unless the representative should leave office for any reason. The initial term shall begin on July 1, 1986.</P>
+<P><TextRun amendingStyle="add">(3)(a) The tribal representative shall be appointed by the governor and must be a member of a federally recognized Indian tribe who shall serve a term of four years unless the representative should leave office for any reason. The initial term shall begin on July 1, 2026.</TextRun></P>
+<P><TextRun amendingStyle="add">(b) When appointing a tribal representative, the governor shall solicit and consider nominees from each of the federally recognized tribes in Washington state. The governor shall collaborate with federally recognized tribes on the selection of the tribal representative.</TextRun></P>
+<History>2025 c 94 s 1; 2010 c 189 s 1; 2003 c 334 s 104; 1986 c 227 s 1; 1979 ex.s. c 57 s 9; 1965 c 8 s 43.30.040. Prior: 1957 c 38 s 4. Formerly RCW 43.30.040.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Intent<TextRun fontFamily="Times New Roman">—</TextRun>2003 c 334:</TextRun> See note following RCW 79.02.010.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+</BillBody>
+</Bill>

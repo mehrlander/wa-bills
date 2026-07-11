@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-3459.1</RequestNumber><ShortBillId>SB 5857</ShortBillId><LongBillId>SENATE BILL 5857</LongBillId><Legislature>69th Legislature</Legislature><Session>2026 Regular Session</Session><Sponsors>Senators Schoesler, Dozier, and Wagoner</Sponsors><BillHistory><PrefiledDate>Prefiled 12/08/25.</PrefiledDate><ReadDate>Read first time 01/12/26.</ReadDate><ReferredCommittee>Referred to Committee on Ways &amp; Means.</ReferredCommittee></BillHistory><BriefDescription>Concerning architectural and engineering fee funding assistance limits for school district construction and modernization projects.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to architectural and engineering fee funding assistance limits for school district construction and modernization projects; and adding a new section to chapter 28A.525 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>28A</TitleNumber><TextRun>.</TextRun><ChapterNumber>525</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) School districts shall select their architectural and engineering consultants in accordance with chapter 39.80 RCW. As required by RCW 39.80.050, the district shall negotiate a contract with the most qualified consultants at a price which the school district determines is fair and reasonable. In making its determination, the district must take into account the estimated value of the services to be rendered based upon the scope and complexity of the project.</P>
+<P>(2) The state maximum allowable cost for architectural and engineering services must be based on the latest edition of the American institute of architect's handbook of professional practice and calculated by the percentage of construction cost in relation to the square foot area of construction and project type, as set forth in this subsection.</P>
+<P>(a) For new construction projects the limits of state funding assistance are as follows:</P>
+<Table align="center" width="243.0pt" pubwidth="narrow">
+<Col width="45pt" />
+<Col width="45pt" />
+<Col width="30pt" />
+<Col width="30pt" />
+<Col width="19pt" />
+<Col width="74pt" />
+<TR>
+<TD><P indent="0" /></TD>
+<TD colspan="2"><P textAlign="center" indent="0">Square Feet of</P><P textAlign="center" indent="0">Construction</P></TD>
+<TD colspan="3"><P textAlign="center" indent="0">Percent of</P><P textAlign="center" indent="0">Construction Cost</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="right" indent="0">0</P></TD>
+<TD><P textAlign="center" indent="0">-</P></TD>
+<TD colspan="2"><P textAlign="center" indent="0">3,699</P></TD>
+<TD><P textAlign="center" indent="0" /></TD>
+<TD><P indent="0">5.0</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="right" indent="0">3,700</P></TD>
+<TD><P textAlign="center" indent="0">-</P></TD>
+<TD colspan="2"><P textAlign="center" indent="0">7,349</P></TD>
+<TD><P textAlign="center" indent="0" /></TD>
+<TD><P indent="0">4.5</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="right" indent="0">7,350</P></TD>
+<TD><P textAlign="center" indent="0">-</P></TD>
+<TD colspan="2"><P textAlign="center" indent="0">10,999</P></TD>
+<TD><P textAlign="center" indent="0" /></TD>
+<TD><P indent="0">4.375</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="right" indent="0">11,000</P></TD>
+<TD><P textAlign="center" indent="0">-</P></TD>
+<TD colspan="2"><P textAlign="center" indent="0">14,649</P></TD>
+<TD><P textAlign="center" indent="0" /></TD>
+<TD><P indent="0">4.25</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="right" indent="0">14,650</P></TD>
+<TD><P textAlign="center" indent="0">-</P></TD>
+<TD colspan="2"><P textAlign="center" indent="0">18,299</P></TD>
+<TD><P textAlign="center" indent="0" /></TD>
+<TD><P indent="0">4.125</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="right" indent="0">18,300</P></TD>
+<TD><P textAlign="center" indent="0">-</P></TD>
+<TD colspan="2"><P textAlign="center" indent="0">25,699</P></TD>
+<TD><P textAlign="center" indent="0" /></TD>
+<TD><P indent="0">4.0</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="right" indent="0">25,700</P></TD>
+<TD><P textAlign="center" indent="0">-</P></TD>
+<TD colspan="2"><P textAlign="center" indent="0">36,699</P></TD>
+<TD><P textAlign="center" indent="0" /></TD>
+<TD><P indent="0">3.875</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="right" indent="0">36,700</P></TD>
+<TD><P textAlign="center" indent="0">-</P></TD>
+<TD colspan="2"><P textAlign="center" indent="0">54,999</P></TD>
+<TD><P textAlign="center" indent="0" /></TD>
+<TD><P indent="0">3.75</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="right" indent="0">55,000</P></TD>
+<TD><P textAlign="center" indent="0">-</P></TD>
+<TD colspan="2"><P textAlign="center" indent="0">73,399</P></TD>
+<TD><P textAlign="center" indent="0" /></TD>
+<TD><P indent="0">3.625</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="right" indent="0">73,400</P></TD>
+<TD><P textAlign="center" indent="0">-</P></TD>
+<TD colspan="2"><P textAlign="center" indent="0">100,999</P></TD>
+<TD><P textAlign="center" indent="0" /></TD>
+<TD><P indent="0">3.5</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="right" indent="0">101,000</P></TD>
+<TD><P textAlign="center" indent="0">-</P></TD>
+<TD colspan="2"><P textAlign="center" indent="0">128,449</P></TD>
+<TD><P textAlign="center" indent="0" /></TD>
+<TD><P indent="0">3.375</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="right" indent="0">128,450</P></TD>
+<TD><P textAlign="center" indent="0">-</P></TD>
+<TD colspan="2"><P textAlign="center" indent="0">155,999</P></TD>
+<TD><P textAlign="center" indent="0" /></TD>
+<TD><P indent="0">3.25</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="right" indent="0">156,000</P></TD>
+<TD><P textAlign="center" indent="0">-</P></TD>
+<TD colspan="2"><P textAlign="center" indent="0">183,499</P></TD>
+<TD><P textAlign="center" indent="0" /></TD>
+<TD><P indent="0">3.125</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="right" indent="0">183,500</P></TD>
+<TD colspan="3"><P textAlign="right" indent="0">&amp; above</P></TD>
+<TD><P textAlign="center" indent="0" /></TD>
+<TD><P indent="0">3.0</P></TD>
+</TR>
+</Table>
+<P>(b) For modernization projects the limits of state funding assistance is 1.5 times the amount calculated for new construction.</P>
+<P>(c) For those projects which include a combination of new construction and modernization, the limits of state participation must be prorated as set forth in (a) and (b) of this subsection.</P>
+</BillSection>
+</BillBody>
+</Bill>

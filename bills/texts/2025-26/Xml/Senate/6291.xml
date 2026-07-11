@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-4123.1</RequestNumber><ShortBillId>SB 6291</ShortBillId><LongBillId>SENATE BILL 6291</LongBillId><Legislature>69th Legislature</Legislature><Session>2026 Regular Session</Session><Sponsors>Senators Lovelett and Shewmake</Sponsors><BillHistory><ReadDate>Read first time 01/22/26.</ReadDate><ReferredCommittee>Referred to Committee on Local Government.</ReferredCommittee></BillHistory><BriefDescription>Concerning on-site wastewater treatment system inspections.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to on-site wastewater treatment system inspections; and amending RCW 70A.105.110.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>70A</TitleNumber><TextRun>.</TextRun><ChapterNumber>105</ChapterNumber><TextRun>.</TextRun><SectionNumber>110</SectionNumber></SectionCite> and 2019 c 442 s 20 are each amended to read as follows:<Caption>Inspectors<TextRun fontFamily="Times New Roman">—</TextRun>Certificate of competency.</Caption></BillSectionHeader>
+<P>(1) The local board of health shall ensure that individuals who conduct inspections of on-site wastewater treatment systems or who otherwise conduct reviews of such systems are qualified in the technology and application of on-site sewage treatment principles. A certificate of competency issued by the state board of registration for professional engineers and land surveyors is adequate demonstration that an individual is competent in the engineering aspects of on-site wastewater treatment system technology.</P>
+<P>(2) A local board of health may allow noncertified individuals to review designs of, and conduct inspections of, on-site wastewater treatment systems <TextRun amendingStyle="strike">for a maximum of two years after the date of hire, if a certified individual reviews or supervises the work during that time</TextRun> <TextRun amendingStyle="add">pursuant to this section under the supervision of a certified individual. Such supervised practice may continue for a maximum of four years after the date of hire</TextRun>.</P>
+<History>2019 c 442 s 20; 1999 c 263 s 22. Formerly RCW 70.118.120.</History>
+</BillSection>
+</BillBody>
+</Bill>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-3855.1</RequestNumber><ShortBillId>SB 6110</ShortBillId><LongBillId>SENATE BILL 6110</LongBillId><Legislature>69th Legislature</Legislature><Session>2026 Regular Session</Session><Sponsors>Senators Shewmake, Liias, Dhingra, and Nobles</Sponsors><BillHistory><ReadDate>Read first time 01/14/26.</ReadDate><ReferredCommittee>Referred to Committee on Transportation.</ReferredCommittee></BillHistory><BriefDescription>Addressing electric-assisted bicycles and electric motorcycles.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to addressing electric-assisted bicycles and electric motorcycles; amending RCW 46.04.169; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>46</TitleNumber><TextRun>.</TextRun><ChapterNumber>04</ChapterNumber><TextRun>.</TextRun><SectionNumber>169</SectionNumber></SectionCite> and 2018 c 60 s 1 are each amended to read as follows:<Caption>Electric-assisted bicycle<TextRun fontFamily="Times New Roman">—</TextRun>Class 1 electric-assisted bicycle<TextRun fontFamily="Times New Roman">—</TextRun>Class 2 electric-assisted bicycle<TextRun fontFamily="Times New Roman">—</TextRun>Class 3 electric-assisted bicycle.</Caption></BillSectionHeader>
+<P><TextRun amendingStyle="add">(1)</TextRun> "Electric-assisted bicycle" means a bicycle with two or three wheels, a saddle, fully operative pedals for human propulsion, and an electric motor. The electric-assisted bicycle's electric motor must have a power output of no more than <TextRun amendingStyle="strike">seven hundred fifty</TextRun> <TextRun amendingStyle="add">750</TextRun> watts. The electric-assisted bicycle must meet the requirements of one of the following three classifications:</P>
+<P><TextRun amendingStyle="strike">(1)</TextRun> <TextRun amendingStyle="add">(a)</TextRun> "Class 1 electric-assisted bicycle" means an electric-assisted bicycle in which the motor provides assistance only when the rider is pedaling and ceases to provide assistance when the bicycle reaches the speed of <TextRun amendingStyle="strike">twenty</TextRun> <TextRun amendingStyle="add">20</TextRun> miles per hour;</P>
+<P><TextRun amendingStyle="strike">(2)</TextRun> <TextRun amendingStyle="add">(b)</TextRun> "Class 2 electric-assisted bicycle" means an electric-assisted bicycle in which the motor may be used exclusively to propel the bicycle and is not capable of providing assistance when the bicycle reaches the speed of <TextRun amendingStyle="strike">twenty</TextRun> <TextRun amendingStyle="add">20</TextRun> miles per hour; or</P>
+<P><TextRun amendingStyle="strike">(3)</TextRun> <TextRun amendingStyle="add">(c)</TextRun> "Class 3 electric-assisted bicycle" means an electric-assisted bicycle in which the motor provides assistance only when the rider is pedaling and ceases to provide assistance when the bicycle reaches the speed of <TextRun amendingStyle="strike">twenty-eight</TextRun> <TextRun amendingStyle="add">28</TextRun> miles per hour and is equipped with a speedometer.</P>
+<P><TextRun amendingStyle="add">(2) "Electric-assisted bicycle" does not include</TextRun><TextRun amendingStyle="add"> (a) any vehicle capable of exceeding 20 miles per hour on solely its electric motor or</TextRun><TextRun amendingStyle="add"> (b) any vehicle that is modified or designed to be easily modified to exceed the limitations described in subsection (1) of this section.</TextRun></P>
+<History>2018 c 60 s 1; 1997 c 328 s 1.</History>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) The legislature recognizes the recent proliferation of electric motorcycle use statewide, especially among teenagers and young adults. The legislature also recognizes that there is currently no state regulatory framework for such vehicles.</P></BillSectionHeader>
+<P>(2)(a) The department of licensing must convene a work group to study and recommend a new statutory framework for electric motorcycles. The department may contract with a third-party consultant for work group support and drafting the new statutory framework.</P>
+<P>(b) The work group must consist of, but is not limited to, the following members:</P>
+<P>(i) The secretary of the department of transportation or the secretary's designee;</P>
+<P>(ii) The executive director of the Washington traffic safety commission or the executive director's designee;</P>
+<P>(iii) The chief of the Washington state patrol or the chief's designee;</P>
+<P>(iv) A representative from the Cooper Jones active transportation safety council;</P>
+<P>(v) A representative of the association of Washington cities;</P>
+<P>(vi) A representative of the Washington state association of counties;</P>
+<P>(vii) A representative of a nonprofit organization specializing in active transportation or electric bicycle safety;</P>
+<P>(viii) A representative of a statewide association representing parks and recreation; and</P>
+<P>(ix) Any other representative deemed necessary by the department of licensing.</P>
+<P>(c) The work group must address the following framework components:</P>
+<P>(i) How electric motorcycles should be defined or classified, and any new definitions for or modifications needed to other similarly defined vehicle or mobility types;</P>
+<P>(ii) If electric motorcycles should be subject to annual registration and license fees, and if driver licensing examinations should include an electric bicycle or motorcycle component;</P>
+<P>(iii) If the operation of an electric motorcycle should be subject to mandatory driver education requirements, driver's license or permit requirements, or a minimum age requirement;</P>
+<P>(iv) Appropriate rules of the road or equipment requirements for electric motorcycles;</P>
+<P>(v) Appropriate penalties for deceptive electric bicycle marketing practices and electric bicycle tampering;</P>
+<P>(vi) If electric bicycle manufacturers and vendors should provide disclosure statements or notices to consumers regarding the type of vehicle being purchased; and</P>
+<P>(vii) Any other study component deemed necessary by the work group.</P>
+<P>(d) The work group must submit a final report, including any recommendations or draft legislation, to the office of the governor and transportation committees of the legislature by December 15, 2026.</P>
+</BillSection>
+</BillBody>
+</Bill>

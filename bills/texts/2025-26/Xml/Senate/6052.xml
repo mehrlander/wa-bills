@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-3774.2</RequestNumber><ShortBillId>SB 6052</ShortBillId><LongBillId>SENATE BILL 6052</LongBillId><Legislature>69th Legislature</Legislature><Session>2026 Regular Session</Session><Sponsors>Senators Boehnke and Nobles</Sponsors><BillHistory><PrefiledDate>Prefiled 01/09/26.</PrefiledDate><ReadDate>Read first time 01/12/26.</ReadDate><ReferredCommittee>Referred to Committee on Early Learning &amp; K-12 Education.</ReferredCommittee></BillHistory><BriefDescription>Establishing a statewide digital transcript data-sharing environment.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to establishing a statewide digital transcript data-sharing environment; and adding a new section to chapter 28A.310 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>28A</TitleNumber><TextRun>.</TextRun><ChapterNumber>310</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) The school information processing cooperative of Washington's educational service districts established under this chapter is authorized to develop, maintain, and govern a statewide digital transcript file standard and a secure, platform-independent environment for the exchange of transcript data between school districts, charter schools, state-tribal education compact schools, and postsecondary institutions. The digital transcript data-sharing environment must support a secure, two-way exchange of transcript information.</P>
+<P>(a) Disclosure of digital transcript data may occur only with express permission of the student, or the student's parent or legal guardian when required by law, and such permission must be revocable.</P>
+<P>(b) Participation under this section by school districts, charter schools, state-tribal education compact schools, and postsecondary institutions satisfies data-sharing authorization requirements between participating entities for purposes covered by this section and eliminates the need for individual bilateral data-sharing agreements.</P>
+<P>(c) The cooperative shall establish governance to oversee transcript content, compliance, and ongoing evolution of the digital transcript standard.</P>
+<P>(2) School districts, charter schools, state-tribal education compact schools, and public institutions of higher education as defined in RCW 28B.10.016 must participate in the statewide digital transcript data-sharing environment. Private four-year not-for-profit institutions of higher education in Washington as defined in RCW 28B.92.030(4)(b) may participate in the statewide digital transcript data-sharing environment.</P>
+</BillSection>
+</BillBody>
+</Bill>

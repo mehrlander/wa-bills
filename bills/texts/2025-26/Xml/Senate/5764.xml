@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-1572.1</RequestNumber><ShortBillId>SB 5764</ShortBillId><LongBillId>SENATE BILL 5764</LongBillId><Legislature>69th Legislature</Legislature><Session>2025 Regular Session</Session><Sponsors>Senators Gildon, Dozier, and Robinson</Sponsors><BillHistory><ReadDate>Read first time 02/18/25.</ReadDate><ReferredCommittee>Referred to Committee on Ways &amp; Means.</ReferredCommittee></BillHistory><BriefDescription>Repealing the expiration date for the ambulance transport fund.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to repealing the expiration date for the ambulance transport fund; and repealing RCW 74.70.901.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="repeal">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P><SectionCite><TextRun>RCW </TextRun><TitleNumber>74</TitleNumber><TextRun>.</TextRun><ChapterNumber>70</ChapterNumber><TextRun>.</TextRun><SectionNumber>901</SectionNumber></SectionCite> (Expiration date<TextRun fontFamily="Times New Roman">—</TextRun>2020 c 354) and 2023 c 11 s 1 &amp; 2020 c 354 s 13 are each repealed.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

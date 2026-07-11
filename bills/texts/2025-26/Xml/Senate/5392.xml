@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>Z-0228.2</RequestNumber><ShortBillId>SB 5392</ShortBillId><LongBillId>SENATE BILL 5392</LongBillId><Legislature>69th Legislature</Legislature><Session>2025 Regular Session</Session><Sponsors>Senators Robinson and Nobles; by request of Office of Financial Management</Sponsors><BillHistory><ReadDate>Read first time 01/21/25.</ReadDate><ReferredCommittee>Referred to Committee on Ways &amp; Means.</ReferredCommittee></BillHistory><BriefDescription>Concerning budget stabilization account transfers.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to budget stabilization account transfers; adding a new section to chapter 43.79 RCW; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) The legislature finds that due to the increasing cost and utilization of services, additional fiscal resources are required to maintain critical services supporting the health, general welfare, and public safety of Washingtonians.</P></BillSectionHeader>
+<P>(2) Therefore, the intent of this act is to transfer funds from the budget stabilization account to the state general fund to support state services in fiscal year 2026. In addition, the intent of this act is for those funds transferred in fiscal year 2026 to be repaid from the state general fund to the budget stabilization account by the end of fiscal year 2029.</P>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>79</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) By June 15, 2026, the state treasurer shall transfer the sum of $1,632,500,000 from the budget stabilization account to the state general fund.</P>
+<P>(2) To repay the budget stabilization account for the transfer in subsection (1) of this section, the state treasurer shall transfer the following sums from the state general fund to the budget stabilization account on the dates indicated:</P>
+<P>(a) $816,250,000 from the state general fund to the budget stabilization account on June 30, 2028; and</P>
+<P>(b) $816,250,000 from the state general fund to the budget stabilization account on June 30, 2029.</P>
+<P>(3) For purposes of RCW 43.88.055(4), the transfers in this section do not alter the requirement to balance in ensuing biennia.</P>
+</BillSection>
+</BillBody>
+</Bill>

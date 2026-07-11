@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-0248.2</RequestNumber><ShortBillId>SB 5060</ShortBillId><LongBillId>SENATE BILL 5060</LongBillId><Legislature>69th Legislature</Legislature><Session>2025 Regular Session</Session><Sponsors>Senators Holy, Dhingra, Chapman, Christian, Cortes, Gildon, Krishnadasan, Liias, Orwall, Short, Slatter, Wagoner, and Wellman</Sponsors><BillHistory><PrefiledDate>Prefiled 12/16/24.</PrefiledDate><ReadDate>Read first time 01/13/25.</ReadDate><ReferredCommittee>Referred to Committee on Law &amp; Justice.</ReferredCommittee></BillHistory><BriefDescription>Creating a law enforcement hiring grant program.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to the creation of a law enforcement hiring grant program; adding a new section to chapter 43.101 RCW; and making an appropriation.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>101</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) Subject to the availability of amounts appropriated for this specific purpose, the commission shall develop and implement a law enforcement hiring grant program for the purpose of providing direct support to local and tribal law enforcement agencies in hiring law enforcement officers to increase community policing and public safety.</P>
+<P>(2) Grants provide up to 75 percent of the entry-level salaries and fringe benefits of full-time local or tribal law enforcement officers for a maximum of 36 months, with a minimum 25 percent local cash match requirement and a maximum state share of $125,000 per law enforcement officer position. Any additional costs for salaries and benefits higher than entry level are the responsibility of the grant recipient agency. The grants cannot be used for any costs other than salaries and benefits. These grants are intended for the purpose of increasing the number of filled local and tribal law enforcement officer positions in Washington state. Grants shall not be awarded for any local or tribal law enforcement position if the applicant is, or has been within the previous 12 calendar months, employed by a local or tribal law enforcement agency in Washington state.</P>
+<P>(3) Grants must be awarded to local and tribal law enforcement agencies based on local and tribal law enforcement agency submittals to the commission. Under this section the commission shall:</P>
+<P>(a) Establish policies for applications;</P>
+<P>(b) Establish and publish on the commission website the application requirements;</P>
+<P>(c) Establish and publish on the commission website the criteria for evaluating and selecting grant recipients;</P>
+<P>(d) Create a grant application form that local and tribal law enforcement agencies must use to apply for grant funding; and</P>
+<P>(e) Require reports from grant recipients that must include at least how the funding impacted retention rates and improved vacancy rates, and the estimated time the applying agency took from recruitment to hiring in the last closed fiscal year.</P>
+<P>(4) Effective July 31, 2025, and annually thereafter on July 31st, the commission must report to the appropriate committees of the legislature on:</P>
+<P>(a) The total count of law enforcement grant applications received by the commission by fiscal year;</P>
+<P>(b) The total count of law enforcement officer positions applied for by fiscal year;</P>
+<P>(c) The total count of grant funding requested by fiscal year;</P>
+<P>(d) The name of each law enforcement entity that applied for the grant, how many officers they requested funding for, and how much state funding they requested by fiscal year; and</P>
+<P>(e) The count of grants awarded, to include the name of each law enforcement entity that was an award recipient for the grant, how many officers they received funding for, and how much state funding they were awarded by fiscal year.</P>
+</BillSection>
+<BillSection type="new" action="approp">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>The sum of $100,000,000, or as much thereof as may be necessary, is appropriated for the fiscal year ending June 30, 2026, from the general fund to the criminal justice training commission for the purposes of this act.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

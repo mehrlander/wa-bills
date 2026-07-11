@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-4465.2</RequestNumber><ShortBillId>SSB 6050</ShortBillId><LongBillId>SUBSTITUTE SENATE BILL 6050</LongBillId><Legislature>69th Legislature</Legislature><Session>2026 Regular Session</Session><Sponsors>Senate Environment, Energy &amp; Technology (originally sponsored by Senators Liias, Short, Lovelett, Shewmake, Wellman, and J. Wilson)</Sponsors><BillHistory><ReadDate>READ FIRST TIME 02/02/26.</ReadDate></BillHistory><BriefDescription>Expanding the use of distributed energy resources.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to expanding the use of distributed energy resources; amending RCW 64.38.055 and 64.90.510; reenacting and amending RCW 80.60.010; adding new sections to chapter 80.60 RCW; adding a new section to chapter 80.28 RCW; creating a new section; providing an effective date; and providing an expiration date.</BillTitle>
+<EnactedClause />
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature finds that electricity is an essential resource, the rising cost of electricity is a barrier to basic necessities, interconnection fees and processes can add substantial costs and time to the adoption of solar energy systems, and upgrading electrical panels can be cost-prohibitive for some customers seeking to embrace additional electrification in their homes.</P></BillSectionHeader>
+<P>The legislature also finds that grid reliability and safety is of the utmost importance. The legislature recognizes that underwriters laboratories launched UL 3700, the testing and certification program for safer plug-in solar systems, in January 2026, and the existing UL 1741 and IEEE 1547 further provide safeguards for these systems. The IEEE 1547 standards provide uniform requirements for the safe interconnection of distributed energy resources to the grid, and specifically to the part of the grid that delivers power to homes and other buildings. UL 1741 specifies the testing methods to ensure safety for inverters and other utility interconnected distributed generation equipment to enable smarter, safer, and reactive grid interconnection. Together, these standards ensure that, if the grid goes down, a customer's solar system will also shut down, ensuring the customer's electricity lines are deenergized. Furthermore, the legislature intends to ensure that portable solar generation devices meet the national electrical code standards, and that any such device that is coupled with storage also complies with UL 3141.</P>
+<P>Regarding meter-mounted devices, the legislature finds that these devices can provide a safe and cost-effective option for enabling electric vehicle charging, solar generation, emergency generation, and more, without an expensive electrical panel upgrade.</P>
+<P>Therefore, the legislature intends to reduce barriers to small-scale solar systems and home electricity upgrades, and to further promote distributed energy resources.</P>
+<P>Electrical and natural gas companies maintain programs offering incentives for single-family and multifamily housing owners to have conservation and energy efficiency measures financed and installed at their premises. The owners of single-family and multifamily rental housing may be reluctant to participate in such programs when they are required to financially supplement the company's incentive to fully fund cost-effective conservation and energy efficiency measures. By not participating in an electrical or natural gas company's programs, single-family and multifamily rental housing owners expose tenants to higher energy bills and deny electrical and natural gas companies from being able to achieve greater reductions in energy consumption.</P>
+<P>Therefore, the legislature intends to incentivize and enable electrical and natural gas companies to access conservation and energy efficiency opportunities in single-family and multifamily rental housing in a manner that reduces the energy burden of customers, especially low-income customers, vulnerable populations, and customers in highly impacted communities; benefit the premises owner by enhancing the value of their property; and treat capital investments in conservation and energy efficiency comparably to capital investment in generation resources.</P>
+</BillSection>
+<Part>
+<P>Part I</P>
+<P>Addressing Balcony Solar</P>
+</Part>
+<BillSection type="amendatory" action="remd">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value fixed="true">101</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>80</TitleNumber><TextRun>.</TextRun><ChapterNumber>60</ChapterNumber><TextRun>.</TextRun><SectionNumber>010</SectionNumber></SectionCite> and 2019 c 235 s 1 are each reenacted and amended to read as follows:<Caption>Definitions.</Caption></BillSectionHeader>
+<P>The definitions in this section apply throughout this chapter unless the context clearly indicates otherwise.</P>
+<P>(1) "Aggregated meter" means an electric service meter measuring electric energy consumption that is eligible to receive credits under a meter aggregation arrangement as described in RCW 80.60.030.</P>
+<P>(2) "Commission" means the utilities and transportation commission.</P>
+<P>(3) "Consumer-owned utility" means a municipal electric utility formed under Title 35 RCW, a public utility district formed under Title 54 RCW, an irrigation district formed under chapter 87.03 RCW, a cooperative formed under chapter 23.86 RCW, or a mutual corporation or association formed under chapter 24.06 RCW, that is engaged in the business of distributing electricity to more than one retail electric customer in the state.</P>
+<P>(4) "Customer-generator" means a user of a net metering system.</P>
+<P>(5) "Designated meter" means an electric service meter at the service of a net metering system that is interconnected to the utility distribution system.</P>
+<P>(6) "Electric cooperative" means a cooperative or association organized under chapter 23.86 or 24.06 RCW.</P>
+<P>(7) "Electric utility" means any electrical company, public utility district, irrigation district, port district, electric cooperative, or municipal electric utility that is engaged in the business of distributing electricity to retail electric customers in the state.</P>
+<P>(8) "Electrical company" means a company owned by investors that meets the definition of RCW 80.04.010.</P>
+<P>(9) "Irrigation district" means an irrigation district under chapter 87.03 RCW.</P>
+<P>(10) "Meter aggregation" means the administrative combination of billing net energy consumption from a designated net meter and eligible aggregated meter.</P>
+<P>(11) "Municipal electric utility" means a city or town that owns or operates an electric utility authorized by chapter 35.92 RCW.</P>
+<P>(12) "Net metering" means measuring the difference between the electricity supplied by an electric utility and the excess electricity generated by a customer-generator's net metering system over the applicable billing period.</P>
+<P>(13) "Net metering system" means a fuel cell, a facility that produces electricity and used and useful thermal energy from a common fuel source, or a facility for the production of electrical energy that generates renewable energy, and that:</P>
+<P>(a) Has an electrical generating AC capacity of not more than one hundred kilowatts;</P>
+<P>(b) Is located on the customer-generator's premises;</P>
+<P>(c) Operates in parallel with the electric utility's transmission and distribution facilities and is connected to the electric utility's distribution system; <TextRun amendingStyle="strike">and</TextRun></P>
+<P>(d) Is intended primarily to offset part or all of the customer-generator's requirements for electricity<TextRun amendingStyle="add">;</TextRun><TextRun amendingStyle="add"> and</TextRun></P>
+<P><TextRun amendingStyle="add">(e) Does not include a portable solar generation device</TextRun>.</P>
+<P>(14) <TextRun amendingStyle="add">"Portable solar generation device" means a moveable photovoltaic generation device that:</TextRun></P>
+<P><TextRun amendingStyle="add">(a) Is designed to be connected to a building's electrical system through a standard 120-volt alternating current outlet;</TextRun></P>
+<P><TextRun amendingStyle="add">(b) Is intended primarily to offset part of the customer's electricity consumption;</TextRun></P>
+<P><TextRun amendingStyle="add">(c) Meets the standards of the most recent version of the national electrical code;</TextRun></P>
+<P><TextRun amendingStyle="add">(d) Is not combined with any other portable solar generation device on the same premises;</TextRun></P>
+<P><TextRun amendingStyle="add">(e) Includes integrated functionality that complies with UL 1741 or IEEE 1547 standards as they existed as of January 1, 2026, or equivalent standards, including anti-islanding protection and rapid shutdown that prevents the system from energizing the building's electrical system during a power outage;</TextRun></P>
+<P><TextRun amendingStyle="add">(f) Is certified by underwriters laboratories under UL 3700 as the standard existed as of January 1, 2026;</TextRun></P>
+<P><TextRun amendingStyle="add">(g) Has a maximum power output of not more than 1,200 watts behind the common point of coupling with the electric utility; and</TextRun></P>
+<P><TextRun amendingStyle="add">(h) If coupled with storage, is certified by underwriters laboratories under UL 3141 as the standard existed as of January 1, 2026.</TextRun></P>
+<P><TextRun amendingStyle="add">(15)</TextRun> "Port district" means a port district within which an industrial development district has been established as authorized by Title 53 RCW.</P>
+<P><TextRun amendingStyle="strike">(15)</TextRun> <TextRun amendingStyle="add">(16)</TextRun> "Premises" means any residential property, commercial real estate, or lands, owned or leased by a customer-generator within the service area of a single electric utility.</P>
+<P><TextRun amendingStyle="strike">(16)</TextRun> <TextRun amendingStyle="add">(17)</TextRun> "Public utility district" means a district authorized by chapter 54.04 RCW.</P>
+<P><TextRun amendingStyle="strike">(17)</TextRun> <TextRun amendingStyle="add">(18)</TextRun> "Renewable energy" means energy generated by a facility that uses water, wind, solar energy, or biogas as a fuel.</P>
+<P><TextRun amendingStyle="strike">(18)</TextRun> <TextRun amendingStyle="add">(19)</TextRun> "Retail electric customer" includes an individual, organization, group, association, partnership, corporation, agency, unit of state government, or entity that is connected to the electric utility's distribution system and purchases electricity for ultimate consumption and not for resale.</P>
+<History>2019 c 235 s 1; 2007 c 323 s 1; 2006 c 201 s 1; 2000 c 158 s 1; 1998 c 318 s 2.</History>
+<RCWNoteSection>
+<RevNote><NoteP><TextRun fontWeight="bold">Reviser's note: </TextRun>The definitions in this section have been alphabetized pursuant to RCW 1.08.015(2)(k).</NoteP></RevNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>102</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>80</TitleNumber><TextRun>.</TextRun><ChapterNumber>60</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) A portable solar generation device:</P>
+<P>(a) Is exempt from the interconnection requirements described in RCW 80.60.020;</P>
+<P>(b) Is not required to be the subject of an interconnection agreement under this chapter; and</P>
+<P>(c) Is not subject to the net metering program requirements under this chapter.</P>
+<P>(2) A customer must notify their electric utility prior to installing a portable solar generation device.</P>
+<P>(3) Except as provided in subsection (4) of this section, an electric utility, city, or county in which the customer is located, or landlord as defined in RCW 59.18.030:</P>
+<P>(a) May not require a customer using a portable solar generation device to:</P>
+<P>(i) Obtain the approval of the electric utility, the city or county, or the landlord before installing or using the device;</P>
+<P>(ii) Pay any fee or charge related to the device; or</P>
+<P>(iii) Install any additional controls or equipment beyond what is integrated into a device compliant with all provisions of RCW 80.60.010(14); and</P>
+<P>(b) Is not liable for any damage or injury caused by a portable solar generation device.</P>
+<P>(4) An electric utility with fewer than 25,000 customers may prohibit portable solar generation devices.</P>
+<P>(5) It is a per se violation of chapter 19.86 RCW and is considered a deceptive practice to:</P>
+<P>(a) Sell a portable solar generation device that is not in compliance with the provisions of RCW 80.60.010(14); or</P>
+<P>(b) Advertise or otherwise communicate or imply that a portable solar generation device that is not in compliance with the provisions of RCW 80.60.010(14) as being capable of integration into electrical systems without installation by a licensed electrician.</P>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>103</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>64</TitleNumber><TextRun>.</TextRun><ChapterNumber>38</ChapterNumber><TextRun>.</TextRun><SectionNumber>055</SectionNumber></SectionCite> and 2009 c 51 s 1 are each amended to read as follows:<Caption>Governing documents<TextRun fontFamily="Times New Roman">—</TextRun>Solar panels. <TextRun fontStyle="italic">(Effective until January 1, 2028.)</TextRun></Caption></BillSectionHeader>
+<P>(1) The governing documents may not prohibit the installation of a solar energy panel by an owner or resident on the owner's or resident's property as long as the solar energy panel:</P>
+<P>(a) Meets applicable health and safety standards and requirements imposed by state and local permitting authorities;</P>
+<P>(b) If used to heat water, is certified by the solar rating certification corporation or another nationally recognized certification agency. Certification must be for the solar energy panel and for installation; and</P>
+<P>(c) If used to produce electricity, meets all applicable safety and performance standards established by the national electric code, the institute of electrical and electronics engineers, accredited testing laboratories, such as underwriters laboratories, and, where applicable, rules of the utilities and transportation commission regarding safety and reliability.</P>
+<P>(2) The governing documents may:</P>
+<P>(a) Prohibit the visibility of any part of a roof-mounted solar energy panel above the roofline;</P>
+<P>(b) Permit the attachment of a solar energy panel to the slope of a roof facing a street only if:</P>
+<P>(i) The solar energy panel conforms to the slope of the roof; and</P>
+<P>(ii) The top edge of the solar energy panel is parallel to the roof ridge; or</P>
+<P>(c) Require:</P>
+<P>(i) A solar energy panel frame, a support bracket, or any visible piping or wiring to be painted to coordinate with the roofing material;</P>
+<P>(ii) An owner or resident to shield a ground-mounted solar energy panel if shielding the panel does not prohibit economic installation of the solar energy panel or degrade the operational performance quality of the solar energy panel by more than ten percent; or</P>
+<P>(iii) Owners or residents who install solar energy panels <TextRun amendingStyle="add">or portable solar generation devices</TextRun> to indemnify or reimburse the association or its members for loss or damage caused by the installation, maintenance, or use of a solar energy panel <TextRun amendingStyle="add">or portable solar generation device</TextRun>.</P>
+<P>(3) The governing documents may include other reasonable rules regarding the placement and manner of a solar energy panel.</P>
+<P>(4) <TextRun amendingStyle="add">The governing documents may not prohibit the placement or use of a portable solar generation device by an owner or resident on the owner's or resident's property.</TextRun></P>
+<P><TextRun amendingStyle="add">(5)(a)</TextRun> For purposes of this section, "solar energy panel" means a panel device or system or combination of panel devices or systems that relies on direct sunlight as an energy source, including a panel device or system or combination of panel devices or systems that collects sunlight for use in:</P>
+<P><TextRun amendingStyle="strike">(a)</TextRun> <TextRun amendingStyle="add">(i)</TextRun> The heating or cooling of a structure or building;</P>
+<P><TextRun amendingStyle="strike">(b)</TextRun> <TextRun amendingStyle="add">(ii)</TextRun> The heating or pumping of water;</P>
+<P><TextRun amendingStyle="strike">(c)</TextRun> <TextRun amendingStyle="add">(iii)</TextRun> Industrial, commercial, or agricultural processes; or</P>
+<P><TextRun amendingStyle="strike">(d)</TextRun> <TextRun amendingStyle="add">(iv)</TextRun> The generation of electricity.</P>
+<P><TextRun amendingStyle="strike">(5)</TextRun> <TextRun amendingStyle="add">(b) "Solar energy panel" does not include a portable solar generation device, as defined in RCW 80.60.010.</TextRun></P>
+<P><TextRun amendingStyle="add">(6)</TextRun> This section does not apply to common areas as defined in RCW 64.38.010.</P>
+<P><TextRun amendingStyle="strike">(6)</TextRun> <TextRun amendingStyle="add">(7)</TextRun> This section applies retroactively to a governing document in effect on July 26, 2009. A provision in a governing document in effect on July 26, 2009, that is inconsistent with this section is void and unenforceable.</P>
+<History>2009 c 51 s 1.</History>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>104</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>64</TitleNumber><TextRun>.</TextRun><ChapterNumber>90</ChapterNumber><TextRun>.</TextRun><SectionNumber>510</SectionNumber></SectionCite> and 2024 c 321 s 322 are each amended to read as follows:<Caption>Regulatory authority<TextRun fontFamily="Times New Roman">—</TextRun>Limitations<TextRun fontFamily="Times New Roman">—</TextRun>Governing documents<TextRun fontFamily="Times New Roman">—</TextRun>Association may adopt certain rules.</Caption></BillSectionHeader>
+<P>(1)(a) An association may not prohibit display of the flag of the United States, or the flag of Washington state, on or within a unit or a limited common element, except that an association may adopt reasonable restrictions pertaining to the time, place, or manner of displaying the flag of the United States necessary to protect a substantial interest of the association.</P>
+<P>(b) The association may not prohibit the installation of a flagpole for the display of the flag of the United States, or the flag of Washington state, on or within a unit or a limited common element, except that an association may adopt reasonable rules and regulations pertaining to the location and the size of the flagpole.</P>
+<P>(c) For purposes of this section, "flag of the United States" means the flag of the United States as described in 4 U.S.C. Sec. 1 et seq. that is made of fabric, cloth, or paper. "Flag of the United States" does not mean a flag, depiction, or emblem made of lights, paint, roofing, siding, paving materials, flora, or balloons, or of any similar building, landscaping, or decorative components.</P>
+<P>(2) An association may not prohibit display of signs, including outdoor signs, regarding candidates for public or association office, or ballot issues, on or within a unit or limited common element, but an association may adopt reasonable rules pertaining to the placement and manner of those displays.</P>
+<P>(3) The association may not prohibit the installation of a solar energy panel on or within a unit so long as the solar panel:</P>
+<P>(a) Meets applicable health and safety standards and requirements imposed by state and local permitting authorities;</P>
+<P>(b) If used to heat water, is certified by the solar rating certification corporation or another nationally recognized certification agency. Certification must be for the solar energy panel and for installation; and</P>
+<P>(c) If used to produce electricity, meets all applicable safety and performance standards established by the national electric code, the institute of electrical and electronics engineers, accredited testing laboratories, such as underwriters laboratories, and, where applicable, rules of the utilities and transportation commission regarding safety and reliability.</P>
+<P>(4) The association may not prohibit a unit owner from storing containers for municipal or private collection, such as compost, garbage, and recycling receptacles, in any private garage, side yard, or backyard reserved for the exclusive use of a unit. However, the association may adopt and enforce rules requiring that such receptacles be screened from view and establishing acceptable dates and times that such receptacles may be presented for collection.</P>
+<P>(5) The governing documents may:</P>
+<P>(a) Prohibit the visibility of any part of a roof-mounted solar energy panel above the roof line;</P>
+<P>(b) Permit the attachment of a solar energy panel to the slope of a roof facing a street only if:</P>
+<P>(i) The solar energy panel conforms to the slope of the roof; and</P>
+<P>(ii) The top edge of the solar energy panel is parallel to the roof ridge; and</P>
+<P>(c) Require:</P>
+<P>(i) A solar energy panel frame, a support bracket, or any visible piping or wiring to be painted to coordinate with the roofing material;</P>
+<P>(ii) A unit owner or resident to shield a ground-mounted solar energy panel if shielding the panel does not prohibit economic installation of the solar energy panel or degrade the operational performance quality of the solar energy panel by more than 10 percent; and</P>
+<P>(iii) Unit owners or residents who install solar energy panels <TextRun amendingStyle="add">or portable solar generation devices</TextRun> to indemnify or reimburse the association or its members for loss or damage caused by the installation, maintenance, or use of a solar energy panel <TextRun amendingStyle="add">or portable solar generation device</TextRun>.</P>
+<P>(6) The governing documents may include other reasonable rules regarding the placement and manner of a solar energy panel.</P>
+<P>(7) <TextRun amendingStyle="add">The governing documents may not prohibit the placement or use of a portable solar generation device by an owner or resident on the owner's or resident's property.</TextRun></P>
+<P><TextRun amendingStyle="add">(8)(a)</TextRun> For purposes of this section, "solar energy panel" means a panel device or system or combination of panel devices or systems that relies on direct sunlight as an energy source, including a panel device or system or combination of panel devices or systems that collects sunlight for use in:</P>
+<P><TextRun amendingStyle="strike">(a)</TextRun> <TextRun amendingStyle="add">(i)</TextRun> The heating or cooling of a structure or building;</P>
+<P><TextRun amendingStyle="strike">(b)</TextRun> <TextRun amendingStyle="add">(ii)</TextRun> The heating or pumping of water;</P>
+<P><TextRun amendingStyle="strike">(c)</TextRun> <TextRun amendingStyle="add">(iii)</TextRun> Industrial, commercial, or agricultural processes; or</P>
+<P><TextRun amendingStyle="strike">(d)</TextRun> <TextRun amendingStyle="add">(iv)</TextRun> The generation of electricity.</P>
+<P><TextRun amendingStyle="add">(b) "Solar energy panel" does not include a portable solar generation device, as defined in RCW 80.60.010.</TextRun></P>
+<P><TextRun amendingStyle="strike">(8)</TextRun> <TextRun amendingStyle="add">(9)</TextRun> This section must not be construed to permit installation by a unit owner of a solar panel on or in common elements without approval of the board.</P>
+<P><TextRun amendingStyle="strike">(9)</TextRun> <TextRun amendingStyle="add">(10)</TextRun> Unit owners may peacefully assemble on the common elements to consider matters related to the common interest community, but the association may adopt rules governing the time, place, and manner of those assemblies.</P>
+<P><TextRun amendingStyle="strike">(10)</TextRun> <TextRun amendingStyle="add">(11)</TextRun> An association may adopt rules that affect the use or occupancy of or behavior in units that may be used for residential purposes, only to:</P>
+<P>(a) Implement a provision of the declaration;</P>
+<P>(b) Regulate any behavior in or occupancy of a unit that violates the declaration or adversely affects the use and enjoyment of other units or the common elements by other occupants; and</P>
+<P>(c) Restrict the leasing of residential units to the extent those rules are reasonably designed to meet underwriting requirements of institutional lenders that regularly make loans secured by first mortgages on units in comparable common interest communities or that regularly purchase those mortgages.</P>
+<History>2024 c 321 s 322; 2018 c 277 s 323.</History>
+</BillSection>
+<Part>
+<P>Part II</P>
+<P>Addressing Meter-Mounted Devices</P>
+</Part>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value fixed="true">201</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>80</TitleNumber><TextRun>.</TextRun><ChapterNumber>60</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) Each electric utility must allow the installation and operation of no more than one customer-owned meter-mounted device between a retail electric customer's meter and meter socket, provided the retail electric customer ensures the conditions outlined in subsection (2) of this section are met and the meter-mounted device meets the conditions outlined in subsection (3) of this section.</P>
+<P>(2) A meter-mounted device must be installed in accordance with the national electrical code by a licensed electrical contractor and the installation must be approved by the local permitting authority. After a retail electric customer has identified a licensed electrical contractor to install a meter-mounted device, the retail electric customer must work with the servicing electric utility to schedule a mutually agreeable time for an electric utility representative to remove and then reconnect the utility's meter to allow for the licensed electrical contractor to install the customer's meter-mounted device.</P>
+<P>(3) An installed meter-mounted device must:</P>
+<P>(a) Be qualified to be connected to the supply side of the service disconnect pursuant to the applicable provisions of the national electric code;</P>
+<P>(b) Be approved or listed by a nationally recognized testing laboratory and is suitable, according to the device's approval or listing documentation, for use in meter sockets that are rated up to 200 amperes;</P>
+<P>(c) Be certified to meet all applicable standards, as determined by a nationally recognized testing laboratory;</P>
+<P>(d) Not impede or interfere with the functions of analog, digital, or advanced electric meters or measurement devices used by the utility, including current and future systems, network communications, hardware, and firmware;</P>
+<P>(e) Not impede access to the sealed meter socket compartment or the pull section of the service section of the electric meter or switchboard, as applicable; and</P>
+<P>(f) Be approved by the electric utility in accordance with subsection (4) of this section.</P>
+<P>(4) An electric utility must approve or disapprove a request from a manufacturer for approval of a specific model of meter-mounted device for installation in its service area based on the requirements in subsection (3) of this section. Upon receiving such a request for approval, an electric utility with more than 25,000 customers must make an approval decision within 90 days, and an electric utility with 25,000 customers or fewer must make an approval decision within 180 days. An electric utility must maintain an annually updated public list of all approved models of meter-mounted devices, including by posting the information on the utility's website.</P>
+<P>(5) An electric utility may remove any customer-owned meter-mounted device that does not meet the requirements of subsection (3) of this section.</P>
+<P>(6) An electric utility may recover the cost of service work on any customer-owned meter-mounted device, or the cost of maintenance, repair, removal, or reinstalling work on any electric utility-owned equipment necessary due to the installation of a customer-owned meter-mounted device, by charging the customer directly.</P>
+<P>(7) Each electric utility must implement the provisions of this section no later than six months after the effective date of this section.</P>
+<P>(8) An electric utility may not be held liable for damage, attributable to a customer-owned meter-mounted device installed pursuant to this section, to any person or property.</P>
+<P>(9) An electric utility may inspect and maintain the point of common connection without prior notice to the customer for reasons of safety, maintenance, or power quality. If the removal of a customer-owned meter-mounted device is necessary for such inspection or maintenance, either:</P>
+<P>(a) The customer is responsible for hiring a licensed electrician to remove and reinstall the device; or</P>
+<P>(b) The electric utility is held harmless for removing and reinstalling the device.</P>
+<P>(10) A city, county, or other local jurisdiction may not prohibit the installation and operation of a meter-mounted device as described in this section.</P>
+</BillSection>
+<Part>
+<P>Part III</P>
+<P>Incentivizing Investment in Energy Conservation and Efficiency Measures</P>
+</Part>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value fixed="true">301</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>80</TitleNumber><TextRun>.</TextRun><ChapterNumber>28</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) The commission must allow an electrical or natural gas company to invest in programs that achieve energy conservation and improve the efficiency of energy end use of single-family and multifamily rental housing in lieu of requiring a contribution from the premises owner to finance measures that would be cost-effective in the aggregate. The commission shall allow the company to earn a return on cost-effective investments made under this section over a duration of time that reduces the customer's energy burden and minimizes the investment's impact on the customer's bill, while providing a return on equity that incentivizes the company to make such an investment.</P>
+<P>(2) The electrical or natural gas company shall prioritize investments made under this section on single-family and multifamily rental housing to reduce the energy burden of low-income customers, vulnerable populations, and customers in highly impacted communities while meeting the customer's comfort and productivity needs.</P>
+<P>(3) Investments made under this section must be secured through the meter and recovered through the regular billing paid by the tenant, including any successor tenant, or owner of the premises. If the bill is paid by the premises' owner, the company's investment must be recovered pursuant to a site-specific services agreement. The investment must be recovered as any other energy charge, including being subject to collection, until the authorized return on the investment has been fully recovered. An investment made under this section must be designated as an "energy savings charge" as a line item on the regular customer billing.</P>
+<P>(4) The electrical or natural gas company shall provide the premises owner sufficient information for the owner to provide a tenant who is responsible for paying the electric or gas bill as required under this subsection. At least 30 days prior to the commencement of work to install conservation measures at the premises, the premises owner shall notify a tenant of the owner's authorization for an electrical or gas company to install conservation measures at the premises inhabited by the tenant under a financial arrangement provided under this section. The notice must include a description of the work to be performed and the expected benefits of the conservation measures.</P>
+<P>(5) The commission may not incur administrative costs under this section until January 1, 2029.</P>
+<P>(6) The definitions in this subsection apply throughout this section unless the context clearly requires otherwise.</P>
+<P>(a) "Cost-effective" has the same meaning as defined in RCW 80.52.030.</P>
+<P>(b) "Energy burden" has the same meaning as defined in RCW 19.405.020.</P>
+<P>(c) "Highly impacted communities" has the same meaning as defined in RCW 19.405.020.</P>
+<P>(d) "Low-income" has the same meaning as defined in RCW 19.405.020.</P>
+<P>(e) "Vulnerable populations" has the same meaning as defined in RCW 19.405.020.</P>
+</BillSection>
+<Part>
+<P>Part IV</P>
+<P>Miscellaneous</P>
+<P />
+</Part>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value fixed="true">401</Value><TextRun>.  </TextRun></BillSectionNumber><P>If any provision of this act or its application to any person or circumstance is held invalid, the remainder of the act or the application of the provision to other persons or circumstances is not affected.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="expdate">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>402</Value><TextRun>.  </TextRun></BillSectionNumber><P>Section 103 of this act expires January 1, 2028.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="effdate">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>403</Value><TextRun>.  </TextRun></BillSectionNumber><P>Section 301 of this act takes effect January 1, 2029.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-1210.2</RequestNumber><ShortBillId>SSB 5225</ShortBillId><LongBillId>SUBSTITUTE SENATE BILL 5225</LongBillId><Legislature>69th Legislature</Legislature><Session>2025 Regular Session</Session><Sponsors>Senate State Government, Tribal Affairs &amp; Elections (originally sponsored by Senators MacEwen, Liias, Nobles, Riccelli, and Shewmake)</Sponsors><BillHistory><ReadDate>READ FIRST TIME 02/13/25.</ReadDate></BillHistory><BriefDescription>Providing clarity where candidates for the same office have similar names.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to providing clarity where candidates for the same office have similar names; reenacting and amending RCW 29A.84.320; and adding a new section to chapter 29A.36 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="remd">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>29A</TitleNumber><TextRun>.</TextRun><ChapterNumber>84</ChapterNumber><TextRun>.</TextRun><SectionNumber>320</SectionNumber></SectionCite> and 2003 c 111 s 2118 and 2003 c 53 s 177 are each reenacted and amended to read as follows:<Caption>Duplicate, nonexistent, untrue names<TextRun fontFamily="Times New Roman">—</TextRun>Penalty.</Caption></BillSectionHeader>
+<P>A person is guilty of a class B felony punishable according to chapter 9A.20 RCW who files a declaration of candidacy for any public office of:</P>
+<P>(1) A nonexistent or fictitious person; or</P>
+<P>(2) The name of any person not his or her true name; or</P>
+<P>(3) A name similar to that of an incumbent seeking reelection to the same office with intent to confuse and mislead the electors by taking advantage of the public reputation of the incumbent; or</P>
+<P>(4) A surname similar to one who has already filed for the same office, and whose political reputation is widely known, with intent to confuse and mislead the electors by capitalizing on the public reputation of the candidate <TextRun amendingStyle="strike">who had previously filed</TextRun><TextRun amendingStyle="add">, regardless of whether the declaration of candidacy is filed before or after such person</TextRun>.</P>
+<History>2003 c 111 s 2118; 2003 c 53 s 177; 1965 c 9 s 29.18.070. Prior: (i) 1943 c 198 s 2; Rem. Supp. 1943 s 5213-11. (ii) 1943 c 198 s 3; Rem. Supp. 1943 s 5213-12. Formerly RCW 29.15.100, 29.18.070.</History>
+<RCWNoteSection>
+<RevNote><NoteP><TextRun fontWeight="bold">Reviser's note:</TextRun> This section was amended by 2003 c 53 s 177 and by 2003 c 111 s 2118, each without reference to the other. Both amendments are incorporated in the publication of this section under RCW 1.12.025(2). For rule of construction, see RCW 1.12.025(1).</NoteP></RevNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Intent<TextRun fontFamily="Times New Roman">—</TextRun>Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2003 c 53:</TextRun> See notes following RCW 2.48.180.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>29A</TitleNumber><TextRun>.</TextRun><ChapterNumber>36</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>Whenever, in the judgment of the filing officer, two or more candidates have filed for the same office whose names are so similar as to be confusing to voters, the filing officer shall list such candidates on the ballot in consecutive order and differentiate between the candidates by the inclusion of additional information in connection with the name as it appears on the ballot. Such differentiation may be made by the inclusion of the candidate's occupation, status as incumbent or challenger, or by any other means which, in the judgment of the filing officer, fairly and impartially distinguishes the candidates. The filing officer may solicit suggestions and input from the candidates involved in order to resolve the situation.</P>
+</BillSection>
+</BillBody>
+</Bill>

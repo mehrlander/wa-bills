@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-4253.1</RequestNumber><ShortBillId>SB 6305</ShortBillId><LongBillId>SENATE BILL 6305</LongBillId><Legislature>69th Legislature</Legislature><Session>2026 Regular Session</Session><Sponsors>Senators Riccelli, Chapman, Hasegawa, Nobles, Saldaña, and C. Wilson</Sponsors><BillHistory><ReadDate>Read first time 01/26/26.</ReadDate><ReferredCommittee>Referred to Committee on Health &amp; Long-Term Care.</ReferredCommittee></BillHistory><BriefDescription>Concerning the truth in mental health coverage act.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to the truth in mental health coverage act; adding a new section to chapter 48.43 RCW; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature finds:</P></BillSectionHeader>
+<P>(1) Analyses by Milliman in 2017 and 2019 and RTI International in 2024 demonstrate that, over multiple years, Washington residents have experienced substantially greater difficulty accessing in-network mental health and substance use services than accessing medical and surgical services.</P>
+<P>(2) In 2021, Washington residents were 7.1 times more likely to receive outpatient behavioral health services out-of-network than outpatient medical and surgical services; 12.1 times more likely for outpatient facility services; and 16.7 times more likely for inpatient behavioral health services.</P>
+<P>(3) In Washington, average in-network reimbursement in 2021 for medical and surgical clinicians was 41 percent higher than for behavioral health clinicians, indexed to medicare reimbursement. This gap discourages behavioral health clinicians from joining insurance networks and further limits access to care for enrollees. More recent Washington-specific data is unavailable due to the absence of standardized public reporting requirements.</P>
+<P>(4) Federal regulators have cited the RTI data as evidence of the need for greater accountability and transparency by health plans and issuers.</P>
+<P>(5) Youth face even greater barriers to access due to health benefit plans' narrow networks that lack sufficient child and adolescent behavioral health providers.</P>
+<P>(6) Independent economic analyses by McKinsey and Company show that individuals with behavioral health diagnoses incur two to four times higher total medical costs than those without such diagnoses, largely because untreated behavioral health conditions worsen physical health outcomes. The same analyses by Milliman show that individuals with behavioral health diagnoses incur between 3.2 and 6.2 times higher medical costs. Earlier access to effective treatment reduces these downstream costs.</P>
+<P>(7) Transparent, comparable information on coverage and access, including information maintained on a public dashboard, is an essential regulatory function necessary to effectuate compliance with state insurance laws, protect consumers and employers as informed purchasers, and reduce the higher downstream medical costs associated with untreated mental health and substance use disorders.</P>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>48</TitleNumber><TextRun>.</TextRun><ChapterNumber>43</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1)(a) Each carrier shall annually submit completed templates to the commissioner, as specified by the commissioner pursuant to this section, with carrier-level coverage and access data, and coverage and access data at any subcarrier level specified by the commissioner in rule, in the form, manner, and time prescribed by the commissioner, but no later than July 1st of each year for data from the previous calendar year.</P>
+<P>(b) The data submitted by the carrier must be sufficient to support an independent technical evaluation and to enable meaningful public understanding, by geographic area as specified by the commissioner, of access to and coverage by facility type and professional provider type of:</P>
+<P>(i) Mental health disorder services;</P>
+<P>(ii) Substance use disorder services;</P>
+<P>(iii) Medical and surgical services;</P>
+<P>(iv) Youth and adult services, separately and combined; and</P>
+<P>(v) In-person and telehealth services, separately and combined.</P>
+<P>(c) The data submitted by the carrier must indicate whether the facility or professional provider is affiliated with, owned by, or under common control with the carrier, as specified by the commissioner.</P>
+<P>(2) The commissioner shall adopt uniform templates, definitions, audit procedures, and correction protocols to ensure comparability of data submitted by carriers under this section across carriers and over time. In specifying reporting templates and data elements for purposes of this section, the commissioner may refine, group, stratify, or not include diagnostic categories or conditions within mental health and substance use disorder services in specified metrics or analyses to ensure meaningful, accurate, and comparable public reporting.</P>
+<P>(3)(a) Each carrier shall report, disaggregated by facility type, professional provider type, youth services, adult services, in-person services, and telehealth services:</P>
+<P>(i) Utilization reviews, including the number and percentage of approvals, modified approvals, denials, and partial denials, using both utilization review and claims data, average decision time frames, top denial reasons, and other measures specified by the commissioner to assess the effects of utilization review on access to timely, clinically appropriate care;</P>
+<P>(ii) Out-of-network utilization rates using allowed claims data;</P>
+<P>(iii) In-network reimbursement including average allowed amounts and allowed amounts at the 50th, 75th, and 95th percentiles, each indexed to medicare;</P>
+<P>(iv) The number of unique enrollees served by listed in-network professional providers;</P>
+<P>(v) The percentage of listed in-network providers relative to state-licensed providers of the same type;</P>
+<P>(vi) Network admission evaluations including the average time from completed application to network admission for each facility and professional provider type;</P>
+<P>(vii) Psychiatric collaborative care models including number of enrollees, including pediatric and adult collaborative care separately, penetration rate per 100,000 covered lives with a behavioral health diagnosis, and reimbursement indexed to medicare;</P>
+<P>(viii) Appeals and external reviews including counts and outcomes of adverse benefit determinations and independent review decisions; and</P>
+<P>(ix) Additional metrics the commissioner determines necessary for public comparison or oversight.</P>
+<P>(b) Any data cell containing fewer than 11 enrollees must be suppressed consistent with centers for medicare and medicaid services cell suppression standards.</P>
+<P>(4) In developing and specifying the templates, the commissioner shall consider formats that are:</P>
+<P>(a) Utilized by state insurance regulators;</P>
+<P>(b) Endorsed and utilized by one or more employer coalitions, human resources associations, or mental health nonprofit organizations; and</P>
+<P>(c) Cited by the United States department of labor or the United States department of health and human services.</P>
+<P>(5)(a) The commissioner shall post, in an easily accessible, consumer-friendly manner and on a public website, all underlying data and data files reported under this section no later than three months after receipt.</P>
+<P>(b) Posts must include raw data and downloadable files to permit public analysis, research, and independent comparison.</P>
+<P>(c) Data must be posted separately at the carrier level and any subcarrier level specified by the commissioner in rule.</P>
+<P>(d) Information collected under this section is not considered to be proprietary or confidential and must be publicly disclosed, subject only to cell suppression standards.</P>
+<P>(6)(a) The commissioner shall maintain an interactive public dashboard that visually presents the posted data, including separate displays of youth and adult outcomes, and allows comparison across carriers and any subcarrier level specified by the commissioner.</P>
+<P>(b) The dashboard must allow users to view metrics for mental health services, substance use services, and medical and surgical services.</P>
+<P>(c) The dashboard must be updated no later than nine months after receipt of the data.</P>
+<P>(7) Each carrier shall submit a certification, in a form and manner specified by the commissioner, signed by the chief financial officer of the carrier or another officer designated by the commissioner with responsibility for the accuracy and completeness of the reported data, stating that the reported data, to the best of the officer's knowledge and belief, is complete and accurate and follows template definitions and instructions, and that the carrier made a good-faith effort, through reasonable policies, procedures, and oversight, to ensure that the data was prepared and submitted in accordance with this section and the commissioner's instructions. The commissioner may require a carrier to submit additional or clarifying information related to the reported data or the processes used to prepare the data.</P>
+<P>(8) The commissioner may adopt rules necessary to implement this section.</P>
+<P>(9) Each carrier shall retain all data relating to the information reported under this section for three years and make such records available to the commissioner upon request.</P>
+<P>(10) This section applies to health plans issued or renewed on or after January 1, 2027.</P>
+<P>(11) For purposes of this section:</P>
+<P>(a) "Adult" means individuals age 18 and older.</P>
+<P>(b) "Facility type" means a category of facilities and levels of care in which mental health disorder services, substance use disorder services, or medical and surgical services are delivered.</P>
+<P>(c) "Medical and surgical services" means all other health care services or benefits that are not mental health and substance use disorder services as defined in RCW 48.43.766.</P>
+<P>(d) "Mental health disorder services" are services or benefits for the diagnosis or treatment of mental disorders other than substance use disorders, as classified in the mental and behavioral disorders chapters of the international classification of diseases and the mental disorder diagnostic categories of the diagnostic and statistical manual of mental disorders.</P>
+<P>(e) "Out-of-network allowed claims" means claims which are allowed at the out-of-network plan benefits level, with corresponding enrollee out-of-pocket expenses, rather than the in-network plan benefits level.</P>
+<P>(f) "Professional provider type" means categories of health care professionals that furnish mental health disorder services, substance use disorder services, or medical and surgical services in an office setting.</P>
+<P>(g) "Substance use disorder services" are services or benefits for the diagnosis or treatment of substance use disorders as classified in the substance-related and addictive disorders chapters of the most current version of the international classification of diseases and the substance-related and addictive disorders diagnostic categories of the most current version of the diagnostic and statistical manual of mental disorders.</P>
+<P>(h) "Templates" means documents containing embedded formulae for quantitative data using definitions and instructions specified by the commissioner.</P>
+<P>(i) "Youth" means individuals under age 18.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>If any provision of this act or its application to any person or circumstance is held invalid, the remainder of the act or the application of the provision to other persons or circumstances is not affected.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

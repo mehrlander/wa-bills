@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-3640.1</RequestNumber><ShortBillId>SB 5903</ShortBillId><LongBillId>SENATE BILL 5903</LongBillId><Legislature>69th Legislature</Legislature><Session>2026 Regular Session</Session><Sponsors>Senators Cortes, Riccelli, and Shewmake</Sponsors><BillHistory><PrefiledDate>Prefiled 12/16/25.</PrefiledDate><ReadDate>Read first time 01/12/26.</ReadDate><ReferredCommittee>Referred to Committee on Local Government.</ReferredCommittee></BillHistory><BriefDescription>Concerning cemetery district elections.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to cemetery district elections; and amending RCW 68.52.155.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>68</TitleNumber><TextRun>.</TextRun><ChapterNumber>52</ChapterNumber><TextRun>.</TextRun><SectionNumber>155</SectionNumber></SectionCite> and 1996 c 324 s 4 are each amended to read as follows:<Caption>Conformity with election laws<TextRun fontFamily="Times New Roman">—</TextRun>Exception<TextRun fontFamily="Times New Roman">—</TextRun>Vacancies.</Caption></BillSectionHeader>
+<P><TextRun amendingStyle="add">(1)</TextRun> Cemetery district elections shall conform with general election laws, except that there shall be no primary to nominate candidates.</P>
+<P><TextRun amendingStyle="add">(2)</TextRun> All persons filing and qualifying shall appear on the general election ballot and the person receiving the largest number of votes for each position shall be elected<TextRun amendingStyle="add">, except that if only one person files and qualifies as a candidate for a specific commissioner position then that person shall be deemed elected and that commissioner position shall not appear on the ballot</TextRun>.</P>
+<P><TextRun amendingStyle="add">(3)</TextRun> A vacancy on a board of cemetery district commissioners shall occur and shall be filled as provided in chapter 42.12 RCW.</P>
+<History>1996 c 324 s 4; 1994 c 223 s 73.</History>
+</BillSection>
+</BillBody>
+</Bill>

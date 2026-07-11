@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-4145.1</RequestNumber><ShortBillId>SB 6273</ShortBillId><LongBillId>SENATE BILL 6273</LongBillId><Legislature>69th Legislature</Legislature><Session>2026 Regular Session</Session><Sponsors>Senators Dozier and Torres</Sponsors><BillHistory><ReadDate>Read first time 01/22/26.</ReadDate><ReferredCommittee>Referred to Committee on Environment, Energy &amp; Technology.</ReferredCommittee></BillHistory><BriefDescription>Concerning accountability for waste tire removal funds.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to accountability for waste tire removal funds; amending RCW 70A.205.420; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature finds that the waste tire fee levied on the retail sale of new replacement vehicle tires was increased from $1 to $5 per tire sold in chapter 417, Laws of 2025 (ESSB 5801). The legislature finds that to effectively allocate these resources and prioritize cleanup efforts, the public and the legislature must understand the scope and magnitude of the waste tire problem in Washington. Therefore, it is the intent of the legislature to require the department of ecology to publish and maintain a publicly accessible inventory of known, unauthorized tire piles.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>70A</TitleNumber><TextRun>.</TextRun><ChapterNumber>205</ChapterNumber><TextRun>.</TextRun><SectionNumber>420</SectionNumber></SectionCite> and 2020 c 20 s 1191 are each amended to read as follows:<Caption>Waste tire removal account<TextRun fontFamily="Times New Roman">—</TextRun>Use<TextRun fontFamily="Times New Roman">—</TextRun>Information required to be posted to department's website.</Caption></BillSectionHeader>
+<P>(1) Moneys in the waste tire removal account may be appropriated to the department of ecology:</P>
+<P>(a) To provide for funding to state and local governments for the removal of discarded vehicle tires from unauthorized tire dump sites; and</P>
+<P>(b) To accomplish the other purposes of RCW 70A.205.010 as they relate to waste tire cleanup under this chapter.</P>
+<P>(2) In spending funds in the account under this section, the department shall identify communities with the most severe problems with waste tires and provide funds first to those communities to remove accumulations of waste tires.</P>
+<P>(3) The department shall provide on its website <TextRun amendingStyle="strike">a</TextRun><TextRun amendingStyle="add">:</TextRun></P>
+<P><TextRun amendingStyle="add">(a) A</TextRun> summary of state and local government efforts funded using the waste tire removal account<TextRun amendingStyle="strike">, a</TextRun><TextRun amendingStyle="add">;</TextRun></P>
+<P><TextRun amendingStyle="add">(b) A</TextRun> list of authorized waste tire storage sites and transporters<TextRun amendingStyle="strike">, and tire</TextRun><TextRun amendingStyle="add">;</TextRun></P>
+<P><TextRun amendingStyle="add">(c) Tire</TextRun> recycling and reuse rates in the state for each calendar year<TextRun amendingStyle="add">; and</TextRun></P>
+<P><TextRun amendingStyle="add">(d) To the extent the information is readily available and accessible to the department, an inventory of all known unauthorized waste tire piles in the state. This subsection shall not be construed to require the department to gather more information than it has in its possession. In publishing information on its website, the department must include the following information about each unauthorized waste tire pile:</TextRun></P>
+<P><TextRun amendingStyle="add">(i) The location of the pile;</TextRun></P>
+<P><TextRun amendingStyle="add">(ii) The approximate duration the pile has existed;</TextRun></P>
+<P><TextRun amendingStyle="add">(iii) The estimated quantity of tires in the pile, expressed either by weight or number of tires;</TextRun></P>
+<P><TextRun amendingStyle="add">(iv) A summary of known public health or environmental risks associated with the pile; and</TextRun></P>
+<P><TextRun amendingStyle="add">(v) The estimated timeline for cleanup of the pile, based on current appropriations and estimated funding availability</TextRun>.</P>
+<History>2020 c 20 s 1191; 2014 c 76 s 6; 2009 c 261 s 5; 2005 c 354 s 5; 1988 c 250 s 1; 1985 c 345 s 7. Formerly RCW 70.95.530.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Intent<TextRun fontFamily="Times New Roman">—</TextRun>2009 c 261:</TextRun> See note following RCW 70A.205.405.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Finding<TextRun fontFamily="Times New Roman">—</TextRun>Intent<TextRun fontFamily="Times New Roman">—</TextRun>Severability<TextRun fontFamily="Times New Roman">—</TextRun>Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2005 c 354:</TextRun> See notes following RCW 70A.205.405.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+</BillBody>
+</Bill>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-0079.1</RequestNumber><ShortBillId>SB 5048</ShortBillId><LongBillId>SENATE BILL 5048</LongBillId><Legislature>69th Legislature</Legislature><Session>2025 Regular Session</Session><Sponsors>Senators J. Wilson, McCune, Christian, and Holy</Sponsors><BillHistory><PrefiledDate>Prefiled 12/13/24.</PrefiledDate></BillHistory><BriefDescription>Notifying legislators of initiative signature challenges.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to notifying legislators of initiative signature challenges; and amending RCW 29A.72.240.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>29A</TitleNumber><TextRun>.</TextRun><ChapterNumber>72</ChapterNumber><TextRun>.</TextRun><SectionNumber>240</SectionNumber></SectionCite> and 2003 c 111 s 1824 are each amended to read as follows:<Caption>Count of signatures<TextRun fontFamily="Times New Roman">—</TextRun>Review.</Caption></BillSectionHeader>
+<P><TextRun amendingStyle="add">(1)(a)</TextRun> Any citizen dissatisfied with the determination of the secretary of state that an initiative or referendum petition contains or does not contain the requisite number of signatures of legal voters may, within five days after such determination, apply to the superior court of Thurston county for a citation requiring the secretary of state to submit the petition to said court for examination, and for a writ of mandate compelling the certification of the measure and petition, or for an injunction to prevent the certification thereof to the legislature, as the case may be. Such application and all proceedings had thereunder shall take precedence over other cases and shall be speedily heard and determined.</P>
+<P><TextRun amendingStyle="add">(b)</TextRun> The decision of the superior court granting or refusing to grant the writ of mandate or injunction may be reviewed by the supreme court within five days after the decision of the superior court, and if the supreme court decides that a writ of mandate or injunction, as the case may be, should issue, it shall issue the writ directed to the secretary of state; otherwise, it shall dismiss the proceedings. The clerk of the supreme court shall forthwith notify the secretary of state of the decision of the supreme court.</P>
+<P><TextRun amendingStyle="add">(2) The secretary of state must notify the chair and ranking member of appropriate legislative committees within five days of any challenge to the sufficiency of the number of signatures for any initiative.</TextRun></P>
+<History>2003 c 111 s 1824. Prior: 1988 c 202 s 29; 1965 c 9 s 29.79.210; prior: 1913 c 138 s 17; RRS s 5413. Formerly RCW 29.79.210.</History>
+<RCWNoteSection>
+<CrossRefNote><NoteP><TextRun fontWeight="bold">Rules of court: </TextRun>Writ procedure superseded by RAP 2.1(b), 2.2, 18.22.</NoteP></CrossRefNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Severability<TextRun fontFamily="Times New Roman">—</TextRun>1988 c 202:</TextRun> See note following RCW 2.24.050.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+</BillBody>
+</Bill>

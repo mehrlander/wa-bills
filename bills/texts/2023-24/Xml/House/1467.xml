@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-0552.1</RequestNumber><ShortBillId>HB 1467</ShortBillId><LongBillId>HOUSE BILL 1467</LongBillId><Legislature>68th Legislature</Legislature><Session>2023 Regular Session</Session><Sponsors>Representatives Barkis, Goehner, and Christian</Sponsors><BillHistory><ReadDate>Read first time 01/20/23.</ReadDate><ReferredCommittee>Referred to Committee on Local Government.</ReferredCommittee></BillHistory><BriefDescription>Concerning infill for properties uniquely situated between boundaries and existing development.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to infill for properties uniquely situated between boundaries and existing development; adding a new section to chapter 36.70A RCW; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature realizes that there is a shortage of land for development throughout the state. The growth management act authorizes rural infill development and directs rural counties to have the flexibility to create opportunities for business development and jobs. This act offers a small, equitable fix to property owners that are surrounded by developed properties while being prevented from building in a like manner due to restrictive interpretations of the growth management act. This act directs limited growth in areas where development currently exists in rural areas.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>36</TitleNumber><TextRun>.</TextRun><ChapterNumber>70A</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P><TextRun fontWeight="bold" /><TextRun fontWeight="bold" />Rural infill development authorized in RCW 36.70A.070(5) includes, but is not limited to: Properties situated between a boundary of a limited area of more intensive rural development and commercial or industrial development that exists outside of the boundary. Any such property that is surrounded on two or more sides by existing commercial or industrial development with access to a state highway as defined in RCW 46.04.560 and able to connect to existing public facilities may also be developed in a manner that is comparable to the adjacent properties so long as the property to be developed is not designated agricultural, forest, or mineral resource lands.</P>
+</BillSection>
+</BillBody>
+</Bill>

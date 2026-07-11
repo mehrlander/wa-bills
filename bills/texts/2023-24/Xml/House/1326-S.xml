@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-0920.1</RequestNumber><ShortBillId>SHB 1326</ShortBillId><LongBillId>SUBSTITUTE HOUSE BILL 1326</LongBillId><Legislature>68th Legislature</Legislature><Session>2023 Regular Session</Session><Sponsors>House Local Government (originally sponsored by Representatives Cortes, Chopp, Berry, Duerr, Farivar, Morgan, Peterson, Ramel, Ryu, Senn, Simmons, Walen, Mena, Reed, Doglio, Pollet, Springer, and Macri)</Sponsors><BillHistory><ReadDate>READ FIRST TIME 01/31/23.</ReadDate></BillHistory><BriefDescription>Waiving municipal utility connection charges for certain properties.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to waiving municipal utility connection charges for certain properties; amending RCW 35.92.380; and adding a new section to chapter 35.92 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>35</TitleNumber><TextRun>.</TextRun><ChapterNumber>92</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) Municipal utilities formed under this chapter may waive connection charges for properties owned or developed by, or on the behalf of, a nonprofit organization, public development authority, housing authority, or local agency that provides emergency shelter, transitional housing, permanent supportive housing, or affordable housing, including a limited partnership as described in RCW 84.36.560(7)(f)(ii) and a limited liability company as described in RCW 84.36.560(7)(f)(iii).</P>
+<P>(2) Connection charges waived under this chapter shall be funded using general funds, grant dollars, or other identified revenue stream.</P>
+<P>(3) At such time as a property receiving a waiver under subsection (1) of this section is no longer operating under the eligibility requirements under subsection (1) of this section:</P>
+<P>(a) The waiver of connection charges required under subsection (1) of this section is no longer required; and</P>
+<P>(b) Any connection charges waived under subsection (1) of this section are immediately due and payable to the utility as a condition of continued service.</P>
+<P>(4) For the purposes of this section:</P>
+<P>(a) "Affordable housing" has the same meaning as in RCW 36.70A.030.</P>
+<P>(b) "Connection charges" means the one-time capital and administrative charges imposed by a utility on a building or facility owner for a new utility service and costs borne or assessed by a utility for the labor, materials, and services necessary to physically connect a designated facility to the respective utility service.</P>
+<P>(c) "Emergency shelter" means any facility that has, as its sole purpose, the provision of a temporary shelter for the homeless and that does not require occupants to sign a lease or occupancy agreement.</P>
+<P>(d) "Permanent supportive housing" has the same meaning as in RCW 36.70A.030.</P>
+<P>(e) "Transitional housing" has the same meaning as in RCW 84.36.043.</P>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>35</TitleNumber><TextRun>.</TextRun><ChapterNumber>92</ChapterNumber><TextRun>.</TextRun><SectionNumber>380</SectionNumber></SectionCite> and 1980 c 150 s 1 are each amended to read as follows:<Caption>Waiver or delay of collection of tap-in charges, connection or hookup fees for low income persons.</Caption></BillSectionHeader>
+<P>Whenever a city or town waives or delays collection of tap-in charges, connection fees, or hookup fees for <TextRun amendingStyle="strike">low income</TextRun> <TextRun amendingStyle="add">low-income</TextRun> persons, <TextRun amendingStyle="strike">or</TextRun> <TextRun amendingStyle="add">a</TextRun> class of <TextRun amendingStyle="strike">low income</TextRun> <TextRun amendingStyle="add">low-income</TextRun> persons, <TextRun amendingStyle="add">or a nonprofit organization, public development authority, housing authority, or local agency that provides emergency shelter, transitional housing, permanent supportive housing, or affordable housing as defined in section 1 of this act</TextRun> to connect to lines or pipes used by the city or town to provide utility service, the waiver or delay shall be pursuant to a program established by ordinance. As used in this section, the provision of "utility service" includes, but is not limited to, water, sanitary or storm sewer service, electricity, gas, other means of power, and heat.</P>
+<History>1980 c 150 § 1.</History>
+</BillSection>
+</BillBody>
+</Bill>

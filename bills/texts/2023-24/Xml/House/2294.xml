@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-2094.2</RequestNumber><ShortBillId>HB 2294</ShortBillId><LongBillId>HOUSE BILL 2294</LongBillId><Legislature>68th Legislature</Legislature><Session>2024 Regular Session</Session><Sponsors>Representatives Wilcox, Chapman, Kretz, and Barnard</Sponsors><BillHistory><ReadDate>Read first time 01/10/24.</ReadDate><ReferredCommittee>Referred to Committee on Appropriations.</ReferredCommittee></BillHistory><BriefDescription>Concerning the salmon recovery account.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to the salmon recovery account; amending RCW 77.85.170; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature finds that state funding for salmon recovery is spread across numerous agencies and multiple state budgets, is dependent on many individual budget decisions, and has generally lacked a dedicated fund source. A salmon recovery account was created by the legislature in 1999, but was largely unused in recent years until one-time funding was provided during the 2022 legislative session. The legislature intends to provide ongoing, stable funding for the salmon recovery account. The legislature intends the funding from this act to be in addition to existing salmon recovery funding.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>77</TitleNumber><TextRun>.</TextRun><ChapterNumber>85</ChapterNumber><TextRun>.</TextRun><SectionNumber>170</SectionNumber></SectionCite> and 1999 sp.s. c 13 s 16 are each amended to read as follows:<Caption>Salmon recovery account.</Caption></BillSectionHeader>
+<P>The salmon recovery account is created in the state treasury. <TextRun amendingStyle="add">Beginning July 1, 2024, and each July 1st thereafter, the state treasurer must transfer $50,000,000 from the state general fund to the salmon recovery account.</TextRun> To the account shall be deposited such funds as the legislature directs or appropriates to the account. Moneys in the account may be spent only after appropriation. Expenditures from the account may be used for salmon recovery <TextRun amendingStyle="add">including, but not limited to, salmon recovery plan implementation, hatchery production, harvest management, habitat restoration, and salmon predator management</TextRun>.</P>
+<History>1999 sp.s. c 13 § 16. Formerly RCW 75.46.210.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Severability<TextRun fontFamily="Times New Roman">—</TextRun>Effective date<TextRun fontFamily="Times New Roman">—</TextRun>1999 sp.s. c 13:</TextRun> See notes following RCW 77.85.005.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+</BillBody>
+</Bill>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-0230.2</RequestNumber><ShortBillId>HB 1054</ShortBillId><LongBillId>HOUSE BILL 1054</LongBillId><Legislature>68th Legislature</Legislature><Session>2023 Regular Session</Session><Sponsors>Representatives Walen, Simmons, Ryu, Bateman, Ramel, Doglio, Macri, Gregerson, Springer, Thai, Kloba, and Donaghy</Sponsors><BillHistory><PrefiledDate>Prefiled 12/20/22.</PrefiledDate><ReadDate>Read first time 01/09/23.</ReadDate><ReferredCommittee>Referred to Committee on Housing.</ReferredCommittee></BillHistory><BriefDescription>Addressing the authority of owners' associations in common interest communities to regulate or limit occupancy by unrelated persons.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to the authority of owners' associations in common interest communities to regulate or limit occupancy by unrelated persons; adding a new section to chapter 64.32 RCW; adding a new section to chapter 64.34 RCW; adding a new section to chapter 64.38 RCW; and adding a new section to chapter 64.90 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>64</TitleNumber><TextRun>.</TextRun><ChapterNumber>32</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>Except for occupancy limits on short-term rentals as defined in RCW 64.37.010, an association of apartment owners may not adopt or enforce a restriction, covenant, condition, bylaw, rule, regulation, provision of a governing document, or master that regulates or limits the number of unrelated persons that may occupy an apartment.</P>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>64</TitleNumber><TextRun>.</TextRun><ChapterNumber>34</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>Except for occupancy limits on short-term rentals as defined in RCW 64.37.010, a unit owners' association may not adopt or enforce a restriction, covenant, condition, bylaw, rule, regulation, provision of a governing document, or master that regulates or limits the number of unrelated persons that may occupy a unit.</P>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>64</TitleNumber><TextRun>.</TextRun><ChapterNumber>38</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>Except for occupancy limits on short-term rentals as defined in RCW 64.37.010, a homeowners' association may not adopt or enforce a restriction, covenant, condition, bylaw, rule, regulation, provision of a governing document, or master that regulates or limits the number of unrelated persons that may occupy a lot.</P>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>64</TitleNumber><TextRun>.</TextRun><ChapterNumber>90</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>Except for occupancy limits on short-term rentals as defined in RCW 64.37.010, a unit owners association may not adopt or enforce a restriction, covenant, condition, bylaw, rule, regulation, provision of a governing document, or master that regulates or limits the number of unrelated persons that may occupy a unit.</P>
+</BillSection>
+</BillBody>
+</Bill>

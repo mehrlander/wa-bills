@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-0887.1</RequestNumber><ShortBillId>HB 1702</ShortBillId><LongBillId>HOUSE BILL 1702</LongBillId><Legislature>68th Legislature</Legislature><Session>2023 Regular Session</Session><Sponsors>Representatives Orcutt, Abbarno, Volz, and Jacobsen</Sponsors><BillHistory><ReadDate>Read first time 02/01/23.</ReadDate><ReferredCommittee>Referred to Committee on Local Government.</ReferredCommittee></BillHistory><BriefDescription>Imposing a local sales tax wholly credited against the state sales tax to support programs for senior citizens.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to imposing a local sales tax wholly credited against the state sales tax to support programs for senior citizens; adding a new section to chapter 82.14 RCW; providing an effective date; and declaring an emergency.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>82</TitleNumber><TextRun>.</TextRun><ChapterNumber>14</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) The legislative authority of a rural county may impose a sales and use tax.</P>
+<P>(a) The rate of the tax imposed must be 0.01 percent of the selling price in the case of a sales tax, or value of the article used, in the case of a use tax.</P>
+<P>(b) The tax authorized under this section must be deducted from the amount of tax otherwise required to be collected or paid to the department under chapter 82.08 or 82.12 RCW. The department must perform the collection of the taxes on behalf of the county at no cost to the county.</P>
+<P>(2) Moneys collected under this section must be used solely for the purpose of administering senior citizens programs established in accordance with RCW 36.39.060.</P>
+<P>(3) For purposes of this section, "rural county" has the same meaning as in RCW 82.14.370.</P>
+</BillSection>
+<BillSection type="new" action="emerg" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act is necessary for the immediate preservation of the public peace, health, or safety, or support of the state government and its existing public institutions, and takes effect July 1, 2023.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

@@ -1,0 +1,795 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-0484.1</RequestNumber><ShortBillId>HB 1325</ShortBillId><LongBillId>HOUSE BILL 1325</LongBillId><Legislature>68th Legislature</Legislature><Session>2023 Regular Session</Session><Sponsors>Representatives Hackney, Fitzgibbon, Simmons, Walen, Lekanoff, Doglio, Pollet, and Macri</Sponsors><BillHistory><ReadDate>Read first time 01/16/23.</ReadDate><ReferredCommittee>Referred to Committee on Community Safety, Justice, &amp; Reentry.</ReferredCommittee></BillHistory><BriefDescription>Allowing qualifying persons serving long sentences committed prior to reaching 25 years of age to seek review for possible release from incarceration.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to allowing qualifying persons serving long sentences committed prior to reaching 25 years of age to seek review for possible release from incarceration; amending RCW 9.94A.510, 9.94A.540, 9.94A.570, 9.94A.730, and 10.95.030; reenacting and amending RCW 9.94A.728; adding a new section to chapter 10.95 RCW; and creating new sections.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>9</TitleNumber><TextRun>.</TextRun><ChapterNumber>94A</ChapterNumber><TextRun>.</TextRun><SectionNumber>510</SectionNumber></SectionCite> and 2014 c 130 s 1 are each amended to read as follows:<Caption>Table 1<TextRun fontFamily="Times New Roman">—</TextRun>Sentencing grid.</Caption></BillSectionHeader>
+<P textAlign="center" prePadding="halfline">TABLE 1</P>
+<P textAlign="center" postPadding="halfline">Sentencing Grid</P>
+<Table width="243.0pt" align="center" fontSize="7pt" pubwidth="narrow" hCellPadding="none">
+<Col width="14.0pt" />
+<Col width="24pt" />
+<Col width="23pt" />
+<Col width="23pt" />
+<Col width="22pt" />
+<Col width="24pt" />
+<Col width="23pt" />
+<Col width="22pt" />
+<Col width="23pt" />
+<Col width="23pt" />
+<Col width="22pt" />
+<TR>
+<TD colspan="5" textAlign="left" valign="top"><P>SERIOUSNESS</P><P prePadding="halfline">LEVEL</P></TD>
+<TD colspan="6" textAlign="justify" valign="bottom"><P /><P>OFFENDER SCORE</P></TD>
+</TR>
+<TR>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P /></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P /><P>0</P></TD>
+<TD border-bottom="solid" textAlign="left" valign="top"><P /><P>1</P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P /><P>2</P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P /><P>3</P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P /><P>4</P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P /><P>5</P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P /><P>6</P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P /><P>7</P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P /><P>8</P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>9 or</P><P>more</P></TD>
+</TR>
+<TR>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>XVI</P></TD>
+<TD colspan="10" border-bottom="solid" textAlign="justify" valign="top"><P> Life sentence without parole/death penalty for offenders at or over the age of <TextRun amendingStyle="strike">eighteen</TextRun> <TextRun amendingStyle="add">25</TextRun>. For offenders under the age of <TextRun amendingStyle="strike">eighteen</TextRun> <TextRun amendingStyle="add">25</TextRun>, a term of <TextRun amendingStyle="strike">twenty-five</TextRun> <TextRun amendingStyle="add">25</TextRun> years to life.</P></TD>
+</TR>
+<TR>
+<TD textAlign="justify" valign="top"><P>XV</P></TD>
+<TD textAlign="justify" valign="top"><P>23y4m</P></TD>
+<TD textAlign="justify" valign="top"><P>24y4m</P></TD>
+<TD textAlign="justify" valign="top"><P>25y4m</P></TD>
+<TD textAlign="left" valign="top"><P>26y4m</P></TD>
+<TD textAlign="justify" valign="top"><P>27y4m</P></TD>
+<TD textAlign="justify" valign="top"><P>28y4m</P></TD>
+<TD textAlign="justify" valign="top"><P>30y4m</P></TD>
+<TD textAlign="justify" valign="top"><P>32y10m</P></TD>
+<TD textAlign="justify" valign="top"><P>36y</P></TD>
+<TD textAlign="justify" valign="top"><P>40y</P></TD>
+</TR>
+<TR>
+<TD textAlign="justify" valign="top"><P /></TD>
+<TD textAlign="justify" valign="top"><P>240-</P></TD>
+<TD textAlign="justify" valign="top"><P>250-</P></TD>
+<TD textAlign="justify" valign="top"><P>261-</P></TD>
+<TD textAlign="justify" valign="top"><P>271-</P></TD>
+<TD textAlign="justify" valign="top"><P>281-</P></TD>
+<TD textAlign="justify" valign="top"><P>291-</P></TD>
+<TD textAlign="justify" valign="top"><P>312-</P></TD>
+<TD textAlign="justify" valign="top"><P>338-</P></TD>
+<TD textAlign="justify" valign="top"><P>370-</P></TD>
+<TD textAlign="justify" valign="top"><P>411-</P></TD>
+</TR>
+<TR>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P /></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>320 </P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>333 </P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>347 </P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>361 </P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>374 </P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>388 </P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>416 </P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>450 </P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>493</P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>548</P></TD>
+</TR>
+<TR>
+<TD textAlign="justify" valign="top"><P>XIV</P></TD>
+<TD textAlign="justify" valign="top"><P>14y4m</P></TD>
+<TD textAlign="justify" valign="top"><P>15y4m</P></TD>
+<TD textAlign="justify" valign="top"><P>16y2m</P></TD>
+<TD textAlign="left" valign="top"><P>17y</P></TD>
+<TD textAlign="justify" valign="top"><P>17y11m</P></TD>
+<TD textAlign="justify" valign="top"><P>18y9m</P></TD>
+<TD textAlign="justify" valign="top"><P>20y5m</P></TD>
+<TD textAlign="justify" valign="top"><P>22y2m</P></TD>
+<TD textAlign="justify" valign="top"><P>25y7m</P></TD>
+<TD textAlign="justify" valign="top"><P>29y</P></TD>
+</TR>
+<TR>
+<TD textAlign="justify" valign="top"><P /></TD>
+<TD textAlign="justify" valign="top"><P>123-</P></TD>
+<TD textAlign="justify" valign="top"><P>134-</P></TD>
+<TD textAlign="justify" valign="top"><P>144-</P></TD>
+<TD textAlign="justify" valign="top"><P>154-</P></TD>
+<TD textAlign="justify" valign="top"><P>165-</P></TD>
+<TD textAlign="justify" valign="top"><P>175-</P></TD>
+<TD textAlign="justify" valign="top"><P>195-</P></TD>
+<TD textAlign="justify" valign="top"><P>216-</P></TD>
+<TD textAlign="justify" valign="top"><P>257-</P></TD>
+<TD textAlign="justify" valign="top"><P>298-</P></TD>
+</TR>
+<TR>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P /></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>220</P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>234</P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>244</P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>254</P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>265</P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>275</P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>295</P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>316</P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>357</P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>397</P></TD>
+</TR>
+<TR>
+<TD textAlign="justify" valign="top"><P>XIII</P></TD>
+<TD textAlign="justify" valign="top"><P>12y</P></TD>
+<TD textAlign="justify" valign="top"><P>13y</P></TD>
+<TD textAlign="justify" valign="top"><P>14y</P></TD>
+<TD textAlign="justify" valign="top"><P>15y</P></TD>
+<TD textAlign="justify" valign="top"><P>16y</P></TD>
+<TD textAlign="justify" valign="top"><P>17y</P></TD>
+<TD textAlign="justify" valign="top"><P>19y</P></TD>
+<TD textAlign="justify" valign="top"><P>21y</P></TD>
+<TD textAlign="justify" valign="top"><P>25y</P></TD>
+<TD textAlign="justify" valign="top"><P>29y</P></TD>
+</TR>
+<TR>
+<TD textAlign="justify" valign="top"><P /></TD>
+<TD textAlign="justify" valign="top"><P>123-</P></TD>
+<TD textAlign="justify" valign="top"><P>134-</P></TD>
+<TD textAlign="justify" valign="top"><P>144-</P></TD>
+<TD textAlign="justify" valign="top"><P>154-</P></TD>
+<TD textAlign="justify" valign="top"><P>165-</P></TD>
+<TD textAlign="justify" valign="top"><P>175-</P></TD>
+<TD textAlign="justify" valign="top"><P>195-</P></TD>
+<TD textAlign="justify" valign="top"><P>216-</P></TD>
+<TD textAlign="justify" valign="top"><P>257-</P></TD>
+<TD textAlign="justify" valign="top"><P>298-</P></TD>
+</TR>
+<TR>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P /></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>164</P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>178</P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>192</P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>205</P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>219</P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>233</P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>260</P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>288</P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>342</P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>397</P></TD>
+</TR>
+<TR>
+<TD textAlign="justify" valign="top"><P>XII</P></TD>
+<TD textAlign="justify" valign="top"><P>9y</P></TD>
+<TD textAlign="justify" valign="top"><P>9y11m</P></TD>
+<TD textAlign="justify" valign="top"><P>10y9m</P></TD>
+<TD textAlign="justify" valign="top"><P>11y8m</P></TD>
+<TD textAlign="justify" valign="top"><P>12y6m</P></TD>
+<TD textAlign="justify" valign="top"><P>13y5m</P></TD>
+<TD textAlign="justify" valign="top"><P>15y9m</P></TD>
+<TD textAlign="justify" valign="top"><P>17y3m</P></TD>
+<TD textAlign="justify" valign="top"><P>20y3m</P></TD>
+<TD textAlign="justify" valign="top"><P>23y3m</P></TD>
+</TR>
+<TR>
+<TD textAlign="justify" valign="top"><P /></TD>
+<TD textAlign="justify" valign="top"><P>93-</P></TD>
+<TD textAlign="justify" valign="top"><P>102-</P></TD>
+<TD textAlign="justify" valign="top"><P>111-</P></TD>
+<TD textAlign="justify" valign="top"><P>120-</P></TD>
+<TD textAlign="justify" valign="top"><P>129-</P></TD>
+<TD textAlign="justify" valign="top"><P>138-</P></TD>
+<TD textAlign="justify" valign="top"><P>162-</P></TD>
+<TD textAlign="justify" valign="top"><P>178-</P></TD>
+<TD textAlign="justify" valign="top"><P>209-</P></TD>
+<TD textAlign="justify" valign="top"><P>240-</P></TD>
+</TR>
+<TR>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P /></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>123</P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>136 </P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>147 </P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>160 </P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>171 </P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>184 </P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>216 </P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>236 </P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>277 </P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>318</P></TD>
+</TR>
+<TR>
+<TD textAlign="justify" valign="top"><P>XI</P></TD>
+<TD textAlign="justify" valign="top"><P>7y6m</P></TD>
+<TD textAlign="justify" valign="top"><P>8y4m</P></TD>
+<TD textAlign="justify" valign="top"><P>9y2m</P></TD>
+<TD textAlign="justify" valign="top"><P>9y11m</P></TD>
+<TD textAlign="justify" valign="top"><P>10y9m</P></TD>
+<TD textAlign="justify" valign="top"><P>11y7m</P></TD>
+<TD textAlign="justify" valign="top"><P>14y2m</P></TD>
+<TD textAlign="justify" valign="top"><P>15y5m</P></TD>
+<TD textAlign="justify" valign="top"><P>17y11m</P></TD>
+<TD textAlign="justify" valign="top"><P>20y5m</P></TD>
+</TR>
+<TR>
+<TD textAlign="justify" valign="top"><P /></TD>
+<TD textAlign="justify" valign="top"><P>78-</P></TD>
+<TD textAlign="justify" valign="top"><P>86-</P></TD>
+<TD textAlign="justify" valign="top"><P>95-</P></TD>
+<TD textAlign="justify" valign="top"><P>102-</P></TD>
+<TD textAlign="justify" valign="top"><P>111-</P></TD>
+<TD textAlign="justify" valign="top"><P>120-</P></TD>
+<TD textAlign="justify" valign="top"><P>146-</P></TD>
+<TD textAlign="justify" valign="top"><P>159-</P></TD>
+<TD textAlign="justify" valign="top"><P>185-</P></TD>
+<TD textAlign="justify" valign="top"><P>210-</P></TD>
+</TR>
+<TR>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P /></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>102 </P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>114 </P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>125 </P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>136 </P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>147 </P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>158 </P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>194 </P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>211 </P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>245 </P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>280</P></TD>
+</TR>
+<TR>
+<TD textAlign="justify" valign="top"><P>X</P></TD>
+<TD textAlign="justify" valign="top"><P>5y</P></TD>
+<TD textAlign="justify" valign="top"><P>5y6m</P></TD>
+<TD textAlign="justify" valign="top"><P>6y</P></TD>
+<TD textAlign="justify" valign="top"><P>6y6m</P></TD>
+<TD textAlign="justify" valign="top"><P>7y</P></TD>
+<TD textAlign="justify" valign="top"><P>7y6m</P></TD>
+<TD textAlign="justify" valign="top"><P>9y6m</P></TD>
+<TD textAlign="justify" valign="top"><P>10y6m</P></TD>
+<TD textAlign="justify" valign="top"><P>12y6m</P></TD>
+<TD textAlign="justify" valign="top"><P>14y6m</P></TD>
+</TR>
+<TR>
+<TD textAlign="justify" valign="top"><P /></TD>
+<TD textAlign="justify" valign="top"><P>51-</P></TD>
+<TD textAlign="justify" valign="top"><P>57-</P></TD>
+<TD textAlign="justify" valign="top"><P>62-</P></TD>
+<TD textAlign="justify" valign="top"><P>67-</P></TD>
+<TD textAlign="justify" valign="top"><P>72-</P></TD>
+<TD textAlign="justify" valign="top"><P>77-</P></TD>
+<TD textAlign="justify" valign="top"><P>98-</P></TD>
+<TD textAlign="justify" valign="top"><P>108-</P></TD>
+<TD textAlign="justify" valign="top"><P>129-</P></TD>
+<TD textAlign="justify" valign="top"><P>149-</P></TD>
+</TR>
+<TR>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P /></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>68</P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>75</P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>82</P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>89</P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>96</P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>102</P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>130</P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>144</P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>171</P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>198</P></TD>
+</TR>
+<TR>
+<TD textAlign="justify" valign="top"><P>IX</P></TD>
+<TD textAlign="justify" valign="top"><P>3y</P></TD>
+<TD textAlign="justify" valign="top"><P>3y6m</P></TD>
+<TD textAlign="justify" valign="top"><P>4y</P></TD>
+<TD textAlign="justify" valign="top"><P>4y6m</P></TD>
+<TD textAlign="justify" valign="top"><P>5y</P></TD>
+<TD textAlign="justify" valign="top"><P>5y6m</P></TD>
+<TD textAlign="justify" valign="top"><P>7y6m</P></TD>
+<TD textAlign="justify" valign="top"><P>8y6m</P></TD>
+<TD textAlign="justify" valign="top"><P>10y6m</P></TD>
+<TD textAlign="justify" valign="top"><P>12y6m</P></TD>
+</TR>
+<TR>
+<TD textAlign="justify" valign="top"><P /></TD>
+<TD textAlign="justify" valign="top"><P>31-</P></TD>
+<TD textAlign="justify" valign="top"><P>36-</P></TD>
+<TD textAlign="justify" valign="top"><P>41-</P></TD>
+<TD textAlign="justify" valign="top"><P>46-</P></TD>
+<TD textAlign="justify" valign="top"><P>51-</P></TD>
+<TD textAlign="justify" valign="top"><P>57-</P></TD>
+<TD textAlign="justify" valign="top"><P>77-</P></TD>
+<TD textAlign="justify" valign="top"><P>87-</P></TD>
+<TD textAlign="justify" valign="top"><P>108-</P></TD>
+<TD textAlign="justify" valign="top"><P>129-</P></TD>
+</TR>
+<TR>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P /></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>41</P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>48</P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>54</P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>61</P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>68</P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>75</P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>102</P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>116</P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>144</P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>171</P></TD>
+</TR>
+<TR>
+<TD textAlign="justify" valign="top"><P>VIII</P></TD>
+<TD textAlign="justify" valign="top"><P>2y</P></TD>
+<TD textAlign="justify" valign="top"><P>2y6m</P></TD>
+<TD textAlign="justify" valign="top"><P>3y</P></TD>
+<TD textAlign="justify" valign="top"><P>3y6m</P></TD>
+<TD textAlign="justify" valign="top"><P>4y</P></TD>
+<TD textAlign="justify" valign="top"><P>4y6m</P></TD>
+<TD textAlign="justify" valign="top"><P>6y6m</P></TD>
+<TD textAlign="justify" valign="top"><P>7y6m</P></TD>
+<TD textAlign="justify" valign="top"><P>8y6m</P></TD>
+<TD textAlign="justify" valign="top"><P>10y6m</P></TD>
+</TR>
+<TR>
+<TD textAlign="justify" valign="top"><P /></TD>
+<TD textAlign="justify" valign="top"><P>21-</P></TD>
+<TD textAlign="justify" valign="top"><P>26-</P></TD>
+<TD textAlign="justify" valign="top"><P>31-</P></TD>
+<TD textAlign="justify" valign="top"><P>36-</P></TD>
+<TD textAlign="justify" valign="top"><P>41-</P></TD>
+<TD textAlign="justify" valign="top"><P>46-</P></TD>
+<TD textAlign="justify" valign="top"><P>67-</P></TD>
+<TD textAlign="justify" valign="top"><P>77-</P></TD>
+<TD textAlign="justify" valign="top"><P>87-</P></TD>
+<TD textAlign="justify" valign="top"><P>108-</P></TD>
+</TR>
+<TR>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P /></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>27</P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>34</P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>41</P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>48</P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>54</P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>61</P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>89</P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>102</P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>116</P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>144</P></TD>
+</TR>
+<TR>
+<TD textAlign="justify" valign="top"><P>VII</P></TD>
+<TD textAlign="justify" valign="top"><P>18m</P></TD>
+<TD textAlign="justify" valign="top"><P>2y</P></TD>
+<TD textAlign="justify" valign="top"><P>2y6m</P></TD>
+<TD textAlign="justify" valign="top"><P>3y</P></TD>
+<TD textAlign="justify" valign="top"><P>3y6m</P></TD>
+<TD textAlign="justify" valign="top"><P>4y</P></TD>
+<TD textAlign="justify" valign="top"><P>5y6m</P></TD>
+<TD textAlign="justify" valign="top"><P>6y6m</P></TD>
+<TD textAlign="justify" valign="top"><P>7y6m</P></TD>
+<TD textAlign="justify" valign="top"><P>8y6m</P></TD>
+</TR>
+<TR>
+<TD textAlign="justify" valign="top"><P /></TD>
+<TD textAlign="justify" valign="top"><P>15-</P></TD>
+<TD textAlign="justify" valign="top"><P>21-</P></TD>
+<TD textAlign="justify" valign="top"><P>26-</P></TD>
+<TD textAlign="justify" valign="top"><P>31-</P></TD>
+<TD textAlign="justify" valign="top"><P>36-</P></TD>
+<TD textAlign="justify" valign="top"><P>41-</P></TD>
+<TD textAlign="justify" valign="top"><P>57-</P></TD>
+<TD textAlign="justify" valign="top"><P>67-</P></TD>
+<TD textAlign="justify" valign="top"><P>77-</P></TD>
+<TD textAlign="justify" valign="top"><P>87-</P></TD>
+</TR>
+<TR>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P /></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>20</P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>27</P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>34</P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>41</P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>48</P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>54</P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>75</P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>89</P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>102</P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>116</P></TD>
+</TR>
+<TR>
+<TD textAlign="justify" valign="top"><P>VI</P></TD>
+<TD textAlign="justify" valign="top"><P>13m</P></TD>
+<TD textAlign="justify" valign="top"><P>18m</P></TD>
+<TD textAlign="justify" valign="top"><P>2y</P></TD>
+<TD textAlign="justify" valign="top"><P>2y6m</P></TD>
+<TD textAlign="justify" valign="top"><P>3y</P></TD>
+<TD textAlign="justify" valign="top"><P>3y6m</P></TD>
+<TD textAlign="justify" valign="top"><P>4y6m</P></TD>
+<TD textAlign="justify" valign="top"><P>5y6m</P></TD>
+<TD textAlign="justify" valign="top"><P>6y6m</P></TD>
+<TD textAlign="justify" valign="top"><P>7y6m</P></TD>
+</TR>
+<TR>
+<TD textAlign="justify" valign="top"><P /></TD>
+<TD textAlign="justify" valign="top"><P>12+-</P></TD>
+<TD textAlign="justify" valign="top"><P>15-</P></TD>
+<TD textAlign="justify" valign="top"><P>21-</P></TD>
+<TD textAlign="justify" valign="top"><P>26-</P></TD>
+<TD textAlign="justify" valign="top"><P>31-</P></TD>
+<TD textAlign="justify" valign="top"><P>36-</P></TD>
+<TD textAlign="justify" valign="top"><P>46-</P></TD>
+<TD textAlign="justify" valign="top"><P>57-</P></TD>
+<TD textAlign="justify" valign="top"><P>67-</P></TD>
+<TD textAlign="justify" valign="top"><P>77-</P></TD>
+</TR>
+<TR>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P /></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>14  </P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>20</P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>27</P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>34</P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>41</P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>48</P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>61</P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>75</P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>89</P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>102</P></TD>
+</TR>
+<TR>
+<TD textAlign="justify" valign="top"><P>V</P></TD>
+<TD textAlign="justify" valign="top"><P>9m</P></TD>
+<TD textAlign="justify" valign="top"><P>13m</P></TD>
+<TD textAlign="justify" valign="top"><P>15m</P></TD>
+<TD textAlign="justify" valign="top"><P>18m</P></TD>
+<TD textAlign="justify" valign="top"><P>2y2m</P></TD>
+<TD textAlign="justify" valign="top"><P>3y2m</P></TD>
+<TD textAlign="justify" valign="top"><P>4y</P></TD>
+<TD textAlign="justify" valign="top"><P>5y</P></TD>
+<TD textAlign="justify" valign="top"><P>6y</P></TD>
+<TD textAlign="justify" valign="top"><P>7y</P></TD>
+</TR>
+<TR>
+<TD textAlign="justify" valign="top"><P /></TD>
+<TD textAlign="justify" valign="top"><P>6-</P></TD>
+<TD textAlign="justify" valign="top"><P>12+-</P></TD>
+<TD textAlign="justify" valign="top"><P>13-</P></TD>
+<TD textAlign="justify" valign="top"><P>15-</P></TD>
+<TD textAlign="justify" valign="top"><P>22-</P></TD>
+<TD textAlign="justify" valign="top"><P>33-</P></TD>
+<TD textAlign="justify" valign="top"><P>41-</P></TD>
+<TD textAlign="justify" valign="top"><P>51-</P></TD>
+<TD textAlign="justify" valign="top"><P>62-</P></TD>
+<TD textAlign="justify" valign="top"><P>72-</P></TD>
+</TR>
+<TR>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P /></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>12</P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>14</P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>17</P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>20</P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>29</P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>43</P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>54</P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>68</P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>82</P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>96</P></TD>
+</TR>
+<TR>
+<TD textAlign="justify" valign="top"><P>IV</P></TD>
+<TD textAlign="justify" valign="top"><P>6m</P></TD>
+<TD textAlign="justify" valign="top"><P>9m</P></TD>
+<TD textAlign="justify" valign="top"><P>13m</P></TD>
+<TD textAlign="justify" valign="top"><P>15m</P></TD>
+<TD textAlign="justify" valign="top"><P>18m</P></TD>
+<TD textAlign="justify" valign="top"><P>2y2m</P></TD>
+<TD textAlign="justify" valign="top"><P>3y2m</P></TD>
+<TD textAlign="justify" valign="top"><P>4y2m</P></TD>
+<TD textAlign="justify" valign="top"><P>5y2m</P></TD>
+<TD textAlign="justify" valign="top"><P>6y2m</P></TD>
+</TR>
+<TR>
+<TD textAlign="justify" valign="top"><P /></TD>
+<TD textAlign="justify" valign="top"><P>3-</P></TD>
+<TD textAlign="justify" valign="top"><P>6-</P></TD>
+<TD textAlign="justify" valign="top"><P>12+-</P></TD>
+<TD textAlign="justify" valign="top"><P>13-</P></TD>
+<TD textAlign="justify" valign="top"><P>15-</P></TD>
+<TD textAlign="justify" valign="top"><P>22-</P></TD>
+<TD textAlign="justify" valign="top"><P>33-</P></TD>
+<TD textAlign="justify" valign="top"><P>43-</P></TD>
+<TD textAlign="justify" valign="top"><P>53-</P></TD>
+<TD textAlign="justify" valign="top"><P>63-</P></TD>
+</TR>
+<TR>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P /></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>9</P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>12</P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>14</P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>17</P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>20</P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>29</P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>43</P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>57</P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>70</P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>84</P></TD>
+</TR>
+<TR>
+<TD textAlign="justify" valign="top"><P>III</P></TD>
+<TD textAlign="justify" valign="top"><P>2m</P></TD>
+<TD textAlign="justify" valign="top"><P>5m</P></TD>
+<TD textAlign="justify" valign="top"><P>8m</P></TD>
+<TD textAlign="justify" valign="top"><P>11m</P></TD>
+<TD textAlign="justify" valign="top"><P>14m</P></TD>
+<TD textAlign="justify" valign="top"><P>20m</P></TD>
+<TD textAlign="justify" valign="top"><P>2y2m</P></TD>
+<TD textAlign="justify" valign="top"><P>3y2m</P></TD>
+<TD textAlign="justify" valign="top"><P>4y2m</P></TD>
+<TD textAlign="justify" valign="top"><P>5y</P></TD>
+</TR>
+<TR>
+<TD textAlign="justify" valign="top"><P /></TD>
+<TD textAlign="justify" valign="top"><P>1-</P></TD>
+<TD textAlign="justify" valign="top"><P>3-</P></TD>
+<TD textAlign="justify" valign="top"><P>4-</P></TD>
+<TD textAlign="justify" valign="top"><P>9-</P></TD>
+<TD textAlign="justify" valign="top"><P>12+-</P></TD>
+<TD textAlign="justify" valign="top"><P>17-</P></TD>
+<TD textAlign="justify" valign="top"><P>22-</P></TD>
+<TD textAlign="justify" valign="top"><P>33-</P></TD>
+<TD textAlign="justify" valign="top"><P>43-</P></TD>
+<TD textAlign="justify" valign="top"><P>51-</P></TD>
+</TR>
+<TR>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P /></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>3 </P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>8 </P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>12</P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>12</P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>16</P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>22</P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>29</P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>43</P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>57</P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>68</P></TD>
+</TR>
+<TR>
+<TD textAlign="justify" valign="top"><P>II</P></TD>
+<TD textAlign="justify" valign="top"><P /></TD>
+<TD textAlign="justify" valign="top"><P>4m</P></TD>
+<TD textAlign="justify" valign="top"><P>6m</P></TD>
+<TD textAlign="justify" valign="top"><P>8m</P></TD>
+<TD textAlign="justify" valign="top"><P>13m</P></TD>
+<TD textAlign="justify" valign="top"><P>16m</P></TD>
+<TD textAlign="justify" valign="top"><P>20m</P></TD>
+<TD textAlign="justify" valign="top"><P>2y2m</P></TD>
+<TD textAlign="justify" valign="top"><P>3y2m</P></TD>
+<TD textAlign="justify" valign="top"><P>4y2m</P></TD>
+</TR>
+<TR>
+<TD textAlign="justify" valign="top"><P /></TD>
+<TD textAlign="justify" valign="top"><P>0-90</P></TD>
+<TD textAlign="justify" valign="top"><P>2-</P></TD>
+<TD textAlign="justify" valign="top"><P>3-</P></TD>
+<TD textAlign="justify" valign="top"><P>4-</P></TD>
+<TD textAlign="justify" valign="top"><P>12+-</P></TD>
+<TD textAlign="justify" valign="top"><P>14-</P></TD>
+<TD textAlign="justify" valign="top"><P>17-</P></TD>
+<TD textAlign="justify" valign="top"><P>22-</P></TD>
+<TD textAlign="justify" valign="top"><P>33-</P></TD>
+<TD textAlign="justify" valign="top"><P>43-</P></TD>
+</TR>
+<TR>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P /></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>Days</P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>6 </P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>9 </P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>12</P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>14</P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>18</P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>22</P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>29</P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>43</P></TD>
+<TD border-bottom="solid" textAlign="justify" valign="top"><P>57</P></TD>
+</TR>
+<TR>
+<TD textAlign="justify" valign="top"><P>I</P></TD>
+<TD textAlign="justify" valign="top"><P /></TD>
+<TD textAlign="justify" valign="top"><P /></TD>
+<TD textAlign="justify" valign="top"><P>3m</P></TD>
+<TD textAlign="justify" valign="top"><P>4m</P></TD>
+<TD textAlign="justify" valign="top"><P>5m</P></TD>
+<TD textAlign="justify" valign="top"><P>8m</P></TD>
+<TD textAlign="justify" valign="top"><P>13m</P></TD>
+<TD textAlign="justify" valign="top"><P>16m</P></TD>
+<TD textAlign="justify" valign="top"><P>20m</P></TD>
+<TD textAlign="justify" valign="top"><P>2y2m</P></TD>
+</TR>
+<TR>
+<TD textAlign="justify" valign="top"><P /></TD>
+<TD textAlign="justify" valign="top"><P>0-60</P></TD>
+<TD textAlign="justify" valign="top"><P>0-90</P></TD>
+<TD textAlign="justify" valign="top"><P>2-</P></TD>
+<TD textAlign="justify" valign="top"><P>2-</P></TD>
+<TD textAlign="justify" valign="top"><P>3-</P></TD>
+<TD textAlign="justify" valign="top"><P>4-</P></TD>
+<TD textAlign="justify" valign="top"><P>12+-</P></TD>
+<TD textAlign="justify" valign="top"><P>14-</P></TD>
+<TD textAlign="justify" valign="top"><P>17-</P></TD>
+<TD textAlign="justify" valign="top"><P>22-</P></TD>
+</TR>
+<TR>
+<TD textAlign="justify" valign="top" border-bottom="solid"><P /></TD>
+<TD textAlign="justify" valign="top" border-bottom="solid"><P>Days</P></TD>
+<TD textAlign="justify" valign="top" border-bottom="solid"><P>Days</P></TD>
+<TD textAlign="justify" valign="top" border-bottom="solid"><P>5 </P></TD>
+<TD textAlign="justify" valign="top" border-bottom="solid"><P>6 </P></TD>
+<TD textAlign="justify" valign="top" border-bottom="solid"><P>8 </P></TD>
+<TD textAlign="justify" valign="top" border-bottom="solid"><P>12</P></TD>
+<TD textAlign="justify" valign="top" border-bottom="solid"><P>14  </P></TD>
+<TD textAlign="justify" valign="top" border-bottom="solid"><P>18</P></TD>
+<TD textAlign="justify" valign="top" border-bottom="solid"><P>22</P></TD>
+<TD textAlign="justify" valign="top" border-bottom="solid"><P>29</P></TD>
+</TR>
+</Table>
+<P indent="0" prePadding="halfline">Numbers in the first horizontal row of each seriousness category represent sentencing midpoints in years(y) and months(m). Numbers in the second and third rows represent standard sentence ranges in months, or in days if so designated. 12+ equals one year and one day.</P>
+<History>2014 c 130 § 1; 2002 c 290 § 10. Prior: 2000 c 132 § 2; 2000 c 28 § 11; prior: 1999 c 352 § 2; 1999 c 324 § 3; prior: 1998 c 235 § 1; 1998 c 211 § 3; prior: 1997 c 365 § 3; 1997 c 338 § 50; 1996 c 205 § 5; 1995 c 129 § 2 (Initiative Measure No. 159); (1994 sp.s. c 7 § 512 repealed by 1995 c 129 § 19 (Initiative Measure No. 159)); 1992 c 145 § 9; 1991 c 32 § 2; 1990 c 3 § 701; prior: 1989 c 271 § 101; 1989 c 124 § 1; 1988 c 218 § 1; 1986 c 257 § 22; 1984 c 209 § 16; 1983 c 115 § 2. Formerly RCW 9.94A.310.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Application<TextRun fontFamily="Times New Roman">—</TextRun>2014 c 130:</TextRun> "Sections 1 through 9 of this act apply to all sentencing hearings conducted on or after June 1, 2014, regardless of the date of an offender's underlying offense." [2014 c 130 § 12.]</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2014 c 130:</TextRun> "This act is necessary for the immediate preservation of the public peace, health, or safety, or support of the state government and its existing public institutions, and takes effect June 1, 2014." [2014 c 130 § 16.]</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2002 c 290 §§ 7-11 and 14-23:</TextRun> See note following RCW 9.94A.515.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Intent<TextRun fontFamily="Times New Roman">—</TextRun>2002 c 290:</TextRun> See note following RCW 9.94A.517.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Technical correction bill<TextRun fontFamily="Times New Roman">—</TextRun>2000 c 28:</TextRun> See note following RCW 9.94A.015.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>1998 c 211:</TextRun> See note following RCW 46.61.5055.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Finding<TextRun fontFamily="Times New Roman">—</TextRun>Evaluation<TextRun fontFamily="Times New Roman">—</TextRun>Report<TextRun fontFamily="Times New Roman">—</TextRun>1997 c 338:</TextRun> See note following RCW 13.40.0357.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Severability<TextRun fontFamily="Times New Roman">—</TextRun>Effective dates<TextRun fontFamily="Times New Roman">—</TextRun>1997 c 338:</TextRun> See notes following RCW 5.60.060.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Findings and intent<TextRun fontFamily="Times New Roman">—</TextRun>1995 c 129:</TextRun> "(1) The people of the state of Washington find and declare that:</NoteP><NoteP>(a) Armed criminals pose an increasing and major threat to public safety and can turn any crime into serious injury or death.</NoteP><NoteP>(b) Criminals carry deadly weapons for several key reasons including: Forcing the victim to comply with their demands; injuring or killing anyone who tries to stop the criminal acts; and aiding the criminal in escaping.</NoteP><NoteP>(c) Current law does not sufficiently stigmatize the carrying and use of deadly weapons by criminals, and far too often there are no deadly weapon enhancements provided for many felonies, including murder, arson, manslaughter, and child molestation and many other sex offenses including child luring.</NoteP><NoteP>(d) Current law also fails to distinguish between gun-carrying criminals and criminals carrying knives or clubs.</NoteP><NoteP>(2) By increasing the penalties for carrying and using deadly weapons by criminals and closing loopholes involving armed criminals, the people intend to:</NoteP><NoteP>(a) Stigmatize the carrying and use of any deadly weapons for all felonies with proper deadly weapon enhancements.</NoteP><NoteP>(b) Reduce the number of armed offenders by making the carrying and use of the deadly weapon not worth the sentence received upon conviction.</NoteP><NoteP>(c) Distinguish between the gun predators and criminals carrying other deadly weapons and provide greatly increased penalties for gun predators and for those offenders committing crimes to acquire firearms.</NoteP><NoteP>(d) Bring accountability and certainty into the sentencing system by tracking individual judges and holding them accountable for their sentencing practices in relation to the state's sentencing guidelines for serious crimes." [1995 c 129 § 1 (Initiative Measure No. 159).]</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Short title<TextRun fontFamily="Times New Roman">—</TextRun>1995 c 129:</TextRun> "This act shall be known and cited as the hard time for armed crime act." [1995 c 129 § 21 (Initiative Measure No. 159).]</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Severability<TextRun fontFamily="Times New Roman">—</TextRun>1995 c 129:</TextRun> "If any provision of this act or its application to any person or circumstance is held invalid, the remainder of the act or the application of the provision to other persons or circumstances is not affected." [1995 c 129 § 22 (Initiative Measure No. 159).]</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Captions not law<TextRun fontFamily="Times New Roman">—</TextRun>1995 c 129:</TextRun> "Captions as used in this act do not constitute any part of the law." [1995 c 129 § 23 (Initiative Measure No. 159).]</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Finding<TextRun fontFamily="Times New Roman">—</TextRun>Intent<TextRun fontFamily="Times New Roman">—</TextRun>Severability<TextRun fontFamily="Times New Roman">—</TextRun>Effective dates<TextRun fontFamily="Times New Roman">—</TextRun>Contingent expiration date<TextRun fontFamily="Times New Roman">—</TextRun>1994 sp.s. c 7:</TextRun> See notes following RCW 43.70.540.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Application<TextRun fontFamily="Times New Roman">—</TextRun>1989 c 271 §§ 101-111:</TextRun> "Sections 101-111 of this act apply to crimes committed on or after July 1, 1989." [1989 c 271 § 114.]</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Severability<TextRun fontFamily="Times New Roman">—</TextRun>1989 c 271:</TextRun> "If any provision of this act or its application to any person or circumstance is held invalid, the remainder of the act or the application of the provision to other persons or circumstances is not affected." [1989 c 271 § 606.]</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Severability<TextRun fontFamily="Times New Roman">—</TextRun>1986 c 257:</TextRun> See note following RCW 9A.56.010.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>1986 c 257 §§ 17-35:</TextRun> See note following RCW 9.94A.030.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective dates<TextRun fontFamily="Times New Roman">—</TextRun>1984 c 209:</TextRun> See note following RCW 9.94A.030.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>9</TitleNumber><TextRun>.</TextRun><ChapterNumber>94A</ChapterNumber><TextRun>.</TextRun><SectionNumber>540</SectionNumber></SectionCite> and 2014 c 130 s 2 are each amended to read as follows:<Caption>Mandatory minimum terms.</Caption></BillSectionHeader>
+<P>(1) Except to the extent provided in subsection (3) of this section, the following minimum terms of total confinement are mandatory and shall not be varied or modified under RCW 9.94A.535:</P>
+<P>(a) An offender convicted of the crime of murder in the first degree shall be sentenced to a term of total confinement not less than <TextRun amendingStyle="strike">twenty</TextRun> <TextRun amendingStyle="add">20</TextRun> years.</P>
+<P>(b) An offender convicted of the crime of assault in the first degree or assault of a child in the first degree where the offender used force or means likely to result in death or intended to kill the victim shall be sentenced to a term of total confinement not less than five years.</P>
+<P>(c) An offender convicted of the crime of rape in the first degree shall be sentenced to a term of total confinement not less than five years.</P>
+<P>(d) An offender convicted of the crime of sexually violent predator escape shall be sentenced to a minimum term of total confinement not less than <TextRun amendingStyle="strike">sixty</TextRun> <TextRun amendingStyle="add">60</TextRun> months.</P>
+<P>(e) An offender convicted of the crime of aggravated first degree murder for a murder that was committed prior to the offender's <TextRun amendingStyle="strike">eighteenth</TextRun> <TextRun amendingStyle="add">25th</TextRun> birthday shall be sentenced to a term of total confinement not less than <TextRun amendingStyle="strike">twenty-five</TextRun> <TextRun amendingStyle="add">25</TextRun> years.</P>
+<P>(2) During such minimum terms of total confinement, no offender subject to the provisions of this section is eligible for community custody, earned release time, furlough, home detention, partial confinement, work crew, work release, or any other form of early release authorized under RCW 9.94A.728, or any other form of authorized leave of absence from the correctional facility while not in the direct custody of a corrections officer. The provisions of this subsection shall not apply: (a) In the case of an offender in need of emergency medical treatment; (b) for the purpose of commitment to an inpatient treatment facility in the case of an offender convicted of the crime of rape in the first degree; <TextRun amendingStyle="strike">or</TextRun> (c) for an extraordinary medical placement when authorized under RCW 9.94A.728<TextRun amendingStyle="strike">(3)</TextRun> <TextRun amendingStyle="add">(1)(c); or (d) for release approved by the board under RCW 9.94A.730</TextRun>.</P>
+<P>(3)(a) Subsection (1)(a) through (d) of this section shall not be applied in sentencing of juveniles tried as adults pursuant to RCW 13.04.030(1)(e)(i).</P>
+<P>(b) This subsection (3) applies only to crimes committed on or after July 24, 2005.</P>
+<History>2014 c 130 § 2; 2005 c 437 § 2; 2001 2nd sp.s. c 12 § 315; 2000 c 28 § 7. Formerly RCW 9.94A.590.</History>
+<RCWNoteSection>
+<RevNote><NoteP><TextRun fontWeight="bold">*Reviser's note: </TextRun>RCW 9.94A.728 was amended by 2015 c 156 § 1, changing subsection (3) to subsection (1)(c).</NoteP></RevNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Application<TextRun fontFamily="Times New Roman">—</TextRun>Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2014 c 130:</TextRun> See notes following RCW 9.94A.510.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Findings<TextRun fontFamily="Times New Roman">—</TextRun>Intent<TextRun fontFamily="Times New Roman">—</TextRun>2005 c 437:</TextRun> "(1) The legislature finds that emerging research on brain development indicates that adolescent brains, and thus adolescent intellectual and emotional capabilities, differ significantly from those of mature adults. It is appropriate to take these differences into consideration when sentencing juveniles tried as adults. The legislature further finds that applying mandatory minimum sentences for juveniles tried as adults prevents trial court judges from taking these differences into consideration in appropriate circumstances.</NoteP><NoteP>(2) The legislature intends to eliminate the application of mandatory minimum sentences under RCW 9.94A.540 to juveniles tried as adults, and to continue to apply all other adult sentencing provisions to juveniles tried as adults." [2005 c 437 § 1.]</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Intent<TextRun fontFamily="Times New Roman">—</TextRun>Severability<TextRun fontFamily="Times New Roman">—</TextRun>Effective dates<TextRun fontFamily="Times New Roman">—</TextRun>2001 2nd sp.s. c 12:</TextRun> See notes following RCW 71.09.250.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Application<TextRun fontFamily="Times New Roman">—</TextRun>2001 2nd sp.s. c 12 §§ 301-363:</TextRun> See note following RCW 9.94A.030.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Technical correction bill<TextRun fontFamily="Times New Roman">—</TextRun>2000 c 28:</TextRun> See note following RCW 9.94A.015.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>9</TitleNumber><TextRun>.</TextRun><ChapterNumber>94A</ChapterNumber><TextRun>.</TextRun><SectionNumber>570</SectionNumber></SectionCite> and 2000 c 28 s 6 are each amended to read as follows:<Caption>Persistent offenders.</Caption></BillSectionHeader>
+<P><TextRun amendingStyle="add">(1)</TextRun> Notwithstanding the statutory maximum sentence or any other provision of this chapter, a persistent offender shall be sentenced to a term of total confinement for life without the possibility of release or, when authorized by RCW 10.95.030 for the crime of aggravated murder in the first degree, sentenced to death. <TextRun amendingStyle="strike">In addition, no offender subject to this section may be</TextRun></P>
+<P><TextRun amendingStyle="add">(2) A persistent offender is not</TextRun> eligible for community custody, earned release time, furlough, home detention, partial confinement, work crew, work release, or any other form of release as defined under RCW 9.94A.728(1)<TextRun amendingStyle="strike">, (2), (3), (4), (6), (8), or (9)</TextRun> <TextRun amendingStyle="add">(b), (c), (e), (h), and (i)</TextRun>, or any other form of authorized leave from a correctional facility while not in the direct custody of a corrections officer or officers, except: (1) In the case of an offender in need of emergency medical treatment; or (2) for the purpose of commitment to an inpatient treatment facility in the case of an offender convicted of the crime of rape in the first degree.</P>
+<P><TextRun amendingStyle="add">(3) A persistent offender may be released from confinement by the board under RCW 9.94A.730 or 10.95.030(3).</TextRun></P>
+<History>2000 c 28 § 6. Formerly RCW 9.94A.560.</History>
+<RCWNoteSection>
+<RevNote><NoteP><TextRun fontWeight="bold">*Reviser's note:</TextRun> RCW 9.94A.728 was amended by 2009 c 455 § 2, deleting subsections (1) and (2) and changing subsections (3), (4), (6), (8), and (9) to subsections (2), (3), (5), (7), and (8), respectively. RCW 9.94A.728 was subsequently amended by 2015 c 156 § 1, changing subsections (2), (3), (5), (7), and (8) to subsection (1)(b), (c), (e), (g), and (h), respectively. RCW 9.94A.728 was subsequently amended by 2018 c 166 § 2, changing subsection (1)(g) and (h) to subsection (1)(h) and (i), respectively.</NoteP></RevNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Technical correction bill<TextRun fontFamily="Times New Roman">—</TextRun>2000 c 28:</TextRun> See note following RCW 9.94A.015.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="amendatory" action="remd">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>9</TitleNumber><TextRun>.</TextRun><ChapterNumber>94A</ChapterNumber><TextRun>.</TextRun><SectionNumber>728</SectionNumber></SectionCite> and 2021 c 311 s 19 and 2021 c 266 s 2 are each reenacted and amended to read as follows:<Caption>Release prior to expiration of sentence.</Caption></BillSectionHeader>
+<P>(1) No person serving a sentence imposed pursuant to this chapter and committed to the custody of the department shall leave the confines of the correctional facility or be released prior to the expiration of the sentence except as follows:</P>
+<P>(a) An offender may earn early release time as authorized by RCW 9.94A.729;</P>
+<P>(b) An offender may leave a correctional facility pursuant to an authorized furlough or leave of absence. In addition, offenders may leave a correctional facility when in the custody of a corrections officer or officers;</P>
+<P>(c)(i) The secretary may authorize an extraordinary medical placement for an offender when all of the following conditions exist:</P>
+<P>(A) The offender has a medical condition that is serious and is expected to require costly care or treatment;</P>
+<P>(B) The offender poses a low risk to the community because he or she is currently physically incapacitated due to age or the medical condition or is expected to be so at the time of release; and</P>
+<P>(C) It is expected that granting the extraordinary medical placement will result in a cost savings to the state.</P>
+<P>(ii) An offender sentenced to death or to life imprisonment without the possibility of release or parole is not eligible for an extraordinary medical placement.</P>
+<P>(iii) The secretary shall require electronic monitoring for all offenders in extraordinary medical placement unless the electronic monitoring equipment interferes with the function of the offender's medical equipment or results in the loss of funding for the offender's medical care, in which case, an alternative type of monitoring shall be utilized. The secretary shall specify who shall provide the monitoring services and the terms under which the monitoring shall be performed.</P>
+<P>(iv) The secretary may revoke an extraordinary medical placement under this subsection (1)(c) at any time.</P>
+<P>(v) Persistent offenders are not eligible for extraordinary medical placement;</P>
+<P>(d) The governor, upon recommendation from the clemency and pardons board, may grant an extraordinary release for reasons of serious health problems, senility, advanced age, extraordinary meritorious acts, or other extraordinary circumstances;</P>
+<P>(e) No more than the final <TextRun amendingStyle="strike">twelve</TextRun> <TextRun amendingStyle="add">12</TextRun> months of the offender's term of confinement may be served in partial confinement for aiding the offender with: Finding work as part of the work release program under chapter 72.65 RCW; or reestablishing himself or herself in the community as part of the parenting program in RCW 9.94A.6551. This is in addition to that period of earned early release time that may be exchanged for partial confinement pursuant to RCW 9.94A.729(5)(d);</P>
+<P>(f)(i) No more than the final five months of the offender's term of confinement may be served in partial confinement as home detention as part of the graduated reentry program developed by the department under RCW 9.94A.733(1)(a);</P>
+<P>(ii) For eligible offenders under RCW 9.94A.733(1)(b), after serving at least four months in total confinement in a state correctional facility, an offender may serve no more than the final 18 months of the offender's term of confinement in partial confinement as home detention as part of the graduated reentry program developed by the department;</P>
+<P>(g) The governor may pardon any offender;</P>
+<P>(h) The department may release an offender from confinement any time within <TextRun amendingStyle="strike">ten</TextRun> <TextRun amendingStyle="add">10</TextRun> days before a release date calculated under this section;</P>
+<P>(i) An offender may leave a correctional facility prior to completion of his or her sentence if the sentence has been reduced as provided in RCW 9.94A.870;</P>
+<P>(j) Notwithstanding any other provisions of this section, an offender sentenced for a felony crime listed in RCW 9.94A.540 as subject to a mandatory minimum sentence of total confinement shall not be released from total confinement before the completion of the listed mandatory minimum sentence for that felony crime of conviction unless allowed under RCW 9.94A.540; and</P>
+<P>(k) Any person convicted of one or more crimes committed prior to the person's <TextRun amendingStyle="strike">eighteenth</TextRun> <TextRun amendingStyle="add">25th</TextRun> birthday may be released from confinement pursuant to RCW 9.94A.730.</P>
+<P>(2) Notwithstanding any other provision of this section, an offender entitled to vacation of a conviction or the recalculation of his or her offender score pursuant to <TextRun fontStyle="italic">State v. Blake</TextRun>, No. 96873-0 (Feb. 25, 2021), may be released from confinement pursuant to a court order if the offender has already served a period of confinement that exceeds his or her new standard range. This provision does not create an independent right to release from confinement prior to resentencing.</P>
+<P>(3) Offenders residing in a juvenile correctional facility placement pursuant to RCW 72.01.410(1)(a) are not subject to the limitations in this section.</P>
+<History>2021 c 311 § 19; 2021 c 266 § 2; 2018 c 166 § 2. Prior: 2015 c 156 § 1; 2015 c 134 § 3; 2010 c 224 § 6; prior: 2009 c 455 § 2; (2009 c 455 § 1 expired August 1, 2009); 2009 c 441 § 1; 2009 c 399 § 1; 2008 c 231 § 34; 2007 c 483 § 304; 2004 c 176 § 6; 2003 c 379 § 1; prior: 2002 c 290 § 21; 2002 c 50 § 2; 2000 c 28 § 28; prior: 1999 c 324 § 1; 1999 c 37 § 1; 1996 c 199 § 2; 1995 c 129 § 7 (Initiative Measure No. 159); 1992 c 145 § 8; 1990 c 3 § 202; 1989 c 248 § 2; prior: 1988 c 153 § 3; 1988 c 3 § 1; 1984 c 209 § 8; 1982 c 192 § 6; 1981 c 137 § 15. Formerly RCW 9.94A.150.</History>
+<RCWNoteSection>
+<RevNote><NoteP><TextRun fontWeight="bold" readOnly="yes">Reviser's note:</TextRun><TextRun> This section was amended by 2021 c 266 § 2 and by 2021 c 311 § 19, each without reference to the other. Both amendments are incorporated in the publication of this section under RCW 1.12.025(2). For rule of construction, see RCW 1.12.025(1).</TextRun></NoteP></RevNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2021 c 311 §§ 1-11 and 13-21:</TextRun> See note following RCW 71.24.115.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Retroactive application<TextRun fontFamily="Times New Roman">—</TextRun>2021 c 266:</TextRun> See note following RCW 9.94A.733.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2015 c 134:</TextRun> See note following RCW 9.94A.501.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2009 c 455 § 2:</TextRun> "Section 2 of this act takes effect August 1, 2009." [2009 c 455 § 5.]</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Expiration date<TextRun fontFamily="Times New Roman">—</TextRun>2009 c 455 § 1:</TextRun> "Section 1 of this act expires August 1, 2009." [2009 c 455 § 6.]</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2009 c 441:</TextRun> "This act takes effect August 1, 2009." [2009 c 441 § 2.]</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2009 c 399:</TextRun> "This act takes effect August 1, 2009." [2009 c 399 § 2.]</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Intent<TextRun fontFamily="Times New Roman">—</TextRun>Application<TextRun fontFamily="Times New Roman">—</TextRun>Application of repealers<TextRun fontFamily="Times New Roman">—</TextRun>Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2008 c 231:</TextRun> See notes following RCW 9.94A.701.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Severability<TextRun fontFamily="Times New Roman">—</TextRun>2008 c 231:</TextRun> See note following RCW 9.94A.500.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Findings<TextRun fontFamily="Times New Roman">—</TextRun>2007 c 483:</TextRun> See RCW 72.78.005.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Severability<TextRun fontFamily="Times New Roman">—</TextRun>Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2004 c 176:</TextRun> See notes following RCW 9.94A.515.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Severability<TextRun fontFamily="Times New Roman">—</TextRun>2003 c 379:</TextRun> "If any provision of this act or its application to any person or circumstance is held invalid, the remainder of the act or the application of the provision to other persons or circumstances is not affected." [2003 c 379 § 28.]</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective dates<TextRun fontFamily="Times New Roman">—</TextRun>2003 c 379:</TextRun> "(1) Sections 1 through 12, 20, and 28 of this act are necessary for the immediate preservation of the public peace, health, or safety, or support of the state government and its existing public institutions, and take effect July 1, 2003.</NoteP><NoteP>(2) Sections 13 through 19 and 21 through 27 of this act take effect October 1, 2003." [2003 c 379 § 29.]</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2002 c 290 §§ 7-11 and 14-23:</TextRun> See note following RCW 9.94A.515.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Intent<TextRun fontFamily="Times New Roman">—</TextRun>2002 c 290:</TextRun> See note following RCW 9.94A.517.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Intent<TextRun fontFamily="Times New Roman">—</TextRun>2002 c 50:</TextRun> "The legislature has determined in RCW 9.94A.728(2) that the department of corrections may transfer offenders to community custody status in lieu of earned release time in accordance with a program developed by the department of corrections. It is the legislature's intent, in response to: <TextRun fontStyle="italic">In re: Capello 106 Wn.App. 576 (2001)</TextRun>, to clarify the law to reflect that the secretary of the department has, and has had since enactment of the community placement act of 1988, the authority to require all offenders, eligible for release to community custody status in lieu of earned release, to provide a release plan that includes an approved residence and living arrangement prior to any transfer to the community." [2002 c 50 § 1.]</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Application<TextRun fontFamily="Times New Roman">—</TextRun>2002 c 50:</TextRun> "This act applies to all offenders with community placement or community custody terms currently incarcerated either before, on, or after March 14, 2002." [2002 c 50 § 3.]</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Severability<TextRun fontFamily="Times New Roman">—</TextRun>2002 c 50:</TextRun> "If any provision of this act or its application to any person or circumstance is held invalid, the remainder of the act or the application of the provision to other persons or circumstances is not affected." [2002 c 50 § 4.]</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2002 c 50:</TextRun> "This act is necessary for the immediate preservation of the public peace, health, or safety, or support of the state government and its existing public institutions, and takes effect immediately [March 14, 2002]." [2002 c 50 § 5.]</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Technical correction bill<TextRun fontFamily="Times New Roman">—</TextRun>2000 c 28:</TextRun> See note following RCW 9.94A.015.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Severability<TextRun fontFamily="Times New Roman">—</TextRun>1996 c 199:</TextRun> See note following RCW 9.94A.505.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Findings and intent<TextRun fontFamily="Times New Roman">—</TextRun>Short title<TextRun fontFamily="Times New Roman">—</TextRun>Severability<TextRun fontFamily="Times New Roman">—</TextRun>Captions not law<TextRun fontFamily="Times New Roman">—</TextRun>1995 c 129:</TextRun> See notes following RCW 9.94A.510.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Application<TextRun fontFamily="Times New Roman">—</TextRun>1989 c 248:</TextRun> See note following RCW 9.92.151.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>Application of increased sanctions<TextRun fontFamily="Times New Roman">—</TextRun>1988 c 153:</TextRun> See notes following RCW 9.94A.030.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective dates<TextRun fontFamily="Times New Roman">—</TextRun>1984 c 209:</TextRun> See note following RCW 9.94A.030.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>1981 c 137:</TextRun> See RCW 9.94A.905.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>5</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>9</TitleNumber><TextRun>.</TextRun><ChapterNumber>94A</ChapterNumber><TextRun>.</TextRun><SectionNumber>730</SectionNumber></SectionCite> and 2015 c 134 s 6 are each amended to read as follows:<Caption>Early release for persons convicted of one or more crimes committed prior to eighteenth birthday<TextRun fontFamily="Times New Roman">—</TextRun>Petition to indeterminate sentence review board<TextRun fontFamily="Times New Roman">—</TextRun>Conditions<TextRun fontFamily="Times New Roman">—</TextRun>Assessment, programming, and services<TextRun fontFamily="Times New Roman">—</TextRun>Examination<TextRun fontFamily="Times New Roman">—</TextRun>Hearing<TextRun fontFamily="Times New Roman">—</TextRun>Supervision<TextRun fontFamily="Times New Roman">—</TextRun>Denial of petition.</Caption></BillSectionHeader>
+<P>(1) Notwithstanding any other provision of this chapter, any person convicted of one or more crimes committed prior to the person's <TextRun amendingStyle="strike">eighteenth</TextRun> <TextRun amendingStyle="add">25th</TextRun> birthday may petition the indeterminate sentence review board for early release after serving no less than <TextRun amendingStyle="strike">twenty</TextRun> <TextRun amendingStyle="add">15</TextRun> years of total confinement, provided the person has not been convicted for any crime committed subsequent to the person's <TextRun amendingStyle="strike">eighteenth</TextRun> <TextRun amendingStyle="add">25th</TextRun> birthday, the person has not committed a disqualifying serious infraction as defined by the department in the <TextRun amendingStyle="strike">twelve</TextRun> <TextRun amendingStyle="add">12</TextRun> months prior to filing the petition for early release, and the current sentence was not imposed under RCW 10.95.030 or 9.94A.507.</P>
+<P>(2) No later than five years prior to the date the offender will be eligible to petition for release, the department shall conduct an assessment of the offender and identify programming and services that would be appropriate to prepare the offender for return to the community. To the extent possible, the department shall make programming available as identified by the assessment.</P>
+<P>(3) No later than <TextRun amendingStyle="strike">one hundred eighty</TextRun> <TextRun amendingStyle="add">180</TextRun> days from receipt of the petition for early release, the department shall conduct, and the offender shall participate in, an examination of the person, incorporating methodologies that are recognized by experts in the prediction of dangerousness, and including a prediction of the probability that the person will engage in future criminal behavior if released on conditions to be set by the board. The board may consider a person's failure to participate in an evaluation under this subsection in determining whether to release the person. The board shall order the person released under such affirmative and other conditions as the board determines appropriate, unless the board determines by a preponderance of the evidence that, despite such conditions, it is more likely than not that the person will commit new criminal law violations if released. The board shall give public safety considerations the highest priority when making all discretionary decisions regarding the ability for release and conditions of release.</P>
+<P>(4) In a hearing conducted under subsection (3) of this section, the board shall provide opportunities for victims and survivors of victims of any crimes for which the offender has been convicted to present statements as set forth in RCW 7.69.032. The procedures for victim and survivor of victim input shall be provided by rule. To facilitate victim and survivor of victim involvement, county prosecutor's offices shall ensure that any victim impact statements and known contact information for victims of record and survivors of victims are forwarded as part of the judgment and sentence.</P>
+<P>(5) An offender released by the board is subject to the supervision of the department for a period of time to be determined by the board, up to the length of the court-imposed term of incarceration. The department shall monitor the offender's compliance with conditions of community custody imposed by the court or board and promptly report any violations to the board. Any violation of conditions of community custody established or modified by the board are subject to the provisions of RCW 9.95.425 through 9.95.440.</P>
+<P>(6) An offender whose petition for release is denied may file a new petition for release five years from the date of denial or at an earlier date as may be set by the board.</P>
+<P>(7) An offender released under the provisions of this section may be returned to the institution at the discretion of the board if the offender is found to have violated a condition of community custody. The offender is entitled to a hearing pursuant to RCW 9.95.435. If the board finds that the offender has committed a new violation, the board may return the offender to the institution for up to the remainder of the court-imposed term of incarceration. The offender may file a new petition for release five years from the date of return to the institution or at an earlier date as may be set by the board.</P>
+<History>2015 c 134 § 6; 2014 c 130 § 10.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2015 c 134:</TextRun> See note following RCW 9.94A.501.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2014 c 130:</TextRun> See note following RCW 9.94A.510.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>6</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>10</TitleNumber><TextRun>.</TextRun><ChapterNumber>95</ChapterNumber><TextRun>.</TextRun><SectionNumber>030</SectionNumber></SectionCite> and 2015 c 134 s 5 are each amended to read as follows:<Caption>Sentences for aggravated first degree murder.</Caption></BillSectionHeader>
+<P>(1) Except as provided in subsections (2) and (3) of this section, any person convicted of the crime of aggravated first degree murder shall be sentenced to life imprisonment without possibility of release or parole. A person sentenced to life imprisonment under this section shall not have that sentence suspended, deferred, or commuted by any judicial officer and the indeterminate sentence review board or its successor may not parole such prisoner nor reduce the period of confinement in any manner whatsoever including but not limited to any sort of good<Hyphen type="nobreak" />time calculation. The department of social and health services or its successor or any executive official may not permit such prisoner to participate in any sort of release or furlough program.</P>
+<P>(2) If, pursuant to a special sentencing proceeding held under RCW 10.95.050, the trier of fact finds that there are not sufficient mitigating circumstances to merit leniency, the sentence shall be death. In no case, however, shall a person be sentenced to death if the person had an intellectual disability at the time the crime was committed, under the definition of intellectual disability set forth in (a) of this subsection. A diagnosis of intellectual disability shall be documented by a licensed psychiatrist or licensed psychologist designated by the court, who is an expert in the diagnosis and evaluation of intellectual disabilities. The defense must establish an intellectual disability by a preponderance of the evidence and the court must make a finding as to the existence of an intellectual disability.</P>
+<P>(a) "Intellectual disability" means the individual has: (i) Significantly subaverage general intellectual functioning; (ii) existing concurrently with deficits in adaptive behavior; and (iii) both significantly subaverage general intellectual functioning and deficits in adaptive behavior were manifested during the developmental period.</P>
+<P>(b) "General intellectual functioning" means the results obtained by assessment with one or more of the individually administered general intelligence tests developed for the purpose of assessing intellectual functioning.</P>
+<P>(c) "Significantly subaverage general intellectual functioning" means intelligence quotient seventy or below.</P>
+<P>(d) "Adaptive behavior" means the effectiveness or degree with which individuals meet the standards of personal independence and social responsibility expected for his or her age.</P>
+<P>(e) "Developmental period" means the period of time between conception and the <TextRun amendingStyle="strike">eighteenth</TextRun> <TextRun amendingStyle="add">18th</TextRun> birthday.</P>
+<P>(3)(a)<TextRun amendingStyle="strike">(i)</TextRun> Any person convicted of the crime of aggravated first degree murder for an offense committed prior to the person's <TextRun amendingStyle="strike">sixteenth</TextRun> <TextRun amendingStyle="add">25th</TextRun> birthday shall be sentenced to a maximum term of life imprisonment and a minimum term of total confinement of <TextRun amendingStyle="strike">twenty-five</TextRun> <TextRun amendingStyle="add">25</TextRun> years.</P>
+<P><TextRun amendingStyle="strikemarkleft">(ii) Any person convicted of the crime of aggravated first degree murder for an offense committed when the person is at least sixteen years old but less than eighteen years old shall be sentenced to a maximum term of life imprisonment and a minimum term of total confinement of no less than twenty-five years. A minimum term of life may be imposed, in which case the person will be ineligible for parole or early release.</TextRun></P>
+<P><TextRun amendingStyle="strikemarknone">(b) In setting a minimum term, the court must take into account mitigating factors that account for the diminished culpability of youth as provided in </TextRun><TextRun amendingStyle="strikemarknone"><TextRun fontStyle="italic">Miller v. Alabama</TextRun></TextRun><TextRun amendingStyle="strikemarknone">, 132 S.Ct. 2455 (2012) including, but not limited to, the age of the individual, the youth's childhood and life experience, the degree of responsibility the youth was capable of exercising, and the youth's chances of becoming rehabilitated.</TextRun></P>
+<P><TextRun amendingStyle="strikemarkright">(c)</TextRun> <TextRun amendingStyle="add">(b)</TextRun> A person sentenced under this subsection shall serve the sentence in a facility or institution operated, or utilized under contract, by the state. During the minimum term of total confinement, the person shall not be eligible for community custody, earned release time, furlough, home detention, partial confinement, work crew, work release, or any other form of early release authorized under RCW 9.94A.728, or any other form of authorized leave or absence from the correctional facility while not in the direct custody of a corrections officer. The provisions of this subsection shall not apply: (i) In the case of an offender in need of emergency medical treatment; or (ii) for an extraordinary medical placement when authorized under RCW 9.94A.728<TextRun amendingStyle="strike">(3)</TextRun> <TextRun amendingStyle="add">(1)(c)</TextRun>.</P>
+<P><TextRun amendingStyle="strike">(d)</TextRun> <TextRun amendingStyle="add">(c)</TextRun> Any person sentenced pursuant to this subsection shall be subject to community custody under the supervision of the department of corrections and the authority of the indeterminate sentence review board. As part of any sentence under this subsection, the court shall require the person to comply with any conditions imposed by the board.</P>
+<P><TextRun amendingStyle="strike">(e)</TextRun> <TextRun amendingStyle="add">(d)</TextRun> No later than five years prior to the expiration of the person's minimum term, the department of corrections shall conduct an assessment of the offender and identify programming and services that would be appropriate to prepare the offender for return to the community. To the extent possible, the department shall make programming available as identified by the assessment.</P>
+<P><TextRun amendingStyle="strike">(f)</TextRun> <TextRun amendingStyle="add">(e)</TextRun> No later than <TextRun amendingStyle="strike">one hundred eighty</TextRun> <TextRun amendingStyle="add">180</TextRun> days prior to the expiration of the person's minimum term, the department of corrections shall conduct, and the offender shall participate in, an examination of the person, incorporating methodologies that are recognized by experts in the prediction of dangerousness, and including a prediction of the probability that the person will engage in future criminal behavior if released on conditions to be set by the board. The board may consider a person's failure to participate in an evaluation under this subsection in determining whether to release the person. The board shall order the person released, under such affirmative and other conditions as the board determines appropriate, unless the board determines by a preponderance of the evidence that, despite such conditions, it is more likely than not that the person will commit new criminal law violations if released. If the board does not order the person released, the board shall set a new minimum term not to exceed five additional years. The board shall give public safety considerations the highest priority when making all discretionary decisions regarding the ability for release and conditions of release.</P>
+<P><TextRun amendingStyle="strike">(g)</TextRun> <TextRun amendingStyle="add">(f)</TextRun> In a hearing conducted under <TextRun amendingStyle="strike">(f)</TextRun> <TextRun amendingStyle="add">(e)</TextRun> of this subsection, the board shall provide opportunities for victims and survivors of victims of any crimes for which the offender has been convicted to present statements as set forth in RCW 7.69.032. The procedures for victim and survivor of victim input shall be provided by rule. To facilitate victim and survivor of victim involvement, county prosecutor's offices shall ensure that any victim impact statements and known contact information for victims of record and survivors of victims are forwarded as part of the judgment and sentence.</P>
+<P><TextRun amendingStyle="strike">(h)</TextRun> <TextRun amendingStyle="add">(g)</TextRun> An offender released by the board is subject to the supervision of the department of corrections for a period of time to be determined by the board. The department shall monitor the offender's compliance with conditions of community custody imposed by the court or board and promptly report any violations to the board. Any violation of conditions of community custody established or modified by the board are subject to the provisions of RCW 9.95.425 through 9.95.440.</P>
+<P><TextRun amendingStyle="strike">(i)</TextRun> <TextRun amendingStyle="add">(h)</TextRun> An offender released or discharged under this section may be returned to the institution at the discretion of the board if the offender is found to have violated a condition of community custody. The offender is entitled to a hearing pursuant to RCW 9.95.435. The board shall set a new minimum term of incarceration not to exceed five years.</P>
+<History>2015 c 134 § 5; 2014 c 130 § 9; 2010 c 94 § 3; 1993 c 479 § 1; 1981 c 138 § 3.</History>
+<RCWNoteSection>
+<RevNote><NoteP><TextRun fontWeight="bold">*Reviser's note: </TextRun>RCW 9.94A.728 was amended by 2015 c 156 § 1, changing subsection (3) to subsection (1)(c).</NoteP></RevNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2015 c 134:</TextRun> See note following RCW 9.94A.501.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Application<TextRun fontFamily="Times New Roman">—</TextRun>Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2014 c 130:</TextRun> See notes following RCW 9.94A.510.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Purpose<TextRun fontFamily="Times New Roman">—</TextRun>2010 c 94:</TextRun> See note following RCW 44.04.280.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>7</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>10</TitleNumber><TextRun>.</TextRun><ChapterNumber>95</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) A person, who was sentenced prior to the effective date of this section, under this chapter or any prior law, to a term of life without the possibility of parole for an offense committed on or after his or her 16th birthday and prior to his or her 25th birthday, shall be returned to the sentencing court or the sentencing court's successor for sentencing consistent with RCW 10.95.030. Release and supervision of a person resentenced under this section is governed by RCW 10.95.030.</P>
+<P>(2) The court shall provide an opportunity for victims and survivors of victims of any crimes for which the offender has been convicted to present a statement personally or by representation.</P>
+<P>(3) The court's order setting a minimum term is subject to review to the same extent as a minimum term decision by the parole board before July 1, 1986.</P>
+<P>(4) A resentencing under this section shall not reopen the defendant's conviction to challenges that would otherwise be barred by RCW 10.73.090, 10.73.100, 10.73.140, or other procedural barriers.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>8</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act applies retroactively to persons incarcerated on the effective date of this section, regardless of the date of the offense or conviction.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>9</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act does not create any right or entitlement to release from incarceration before the end of a term of incarceration imposed by the court.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

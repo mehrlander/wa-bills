@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-0432.1</RequestNumber><ShortBillId>HB 1237</ShortBillId><LongBillId>HOUSE BILL 1237</LongBillId><Legislature>68th Legislature</Legislature><Session>2023 Regular Session</Session><Sponsors>Representatives Robertson and Fey</Sponsors><BillHistory><ReadDate>Read first time 01/11/23.</ReadDate><ReferredCommittee>Referred to Committee on Transportation.</ReferredCommittee></BillHistory><BriefDescription>Redistributing the vehicle identification number inspection fee.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to distribution of the vehicle identification number inspection fee; amending RCW 46.17.130 and 46.68.410; providing an effective date; and declaring an emergency.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>46</TitleNumber><TextRun>.</TextRun><ChapterNumber>17</ChapterNumber><TextRun>.</TextRun><SectionNumber>130</SectionNumber></SectionCite> and 2010 c 161 s 514 are each amended to read as follows:<Caption>Vehicle identification number inspection fee.</Caption></BillSectionHeader>
+<P>Before accepting an application for a certificate of title, the department, county auditor or other agent, or subagent appointed by the director shall require an applicant to pay a <TextRun amendingStyle="strike">sixty-five dollar</TextRun> <TextRun amendingStyle="add">$65</TextRun> inspection fee if an inspection of the vehicle was completed by the Washington state patrol. The inspection fee must be distributed under RCW <TextRun amendingStyle="strike">46.68.020</TextRun> <TextRun amendingStyle="add">46.68.410</TextRun>.</P>
+<History>2010 c 161 § 514.</History>
+<RCWNoteSection>
+<RevNote><NoteP><TextRun fontWeight="bold">*Reviser's note:</TextRun> The reference to RCW 46.68.020 appears to be erroneous. RCW 46.68.410 was apparently intended.</NoteP></RevNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>Intent<TextRun fontFamily="Times New Roman">—</TextRun>Legislation to reconcile chapter 161, Laws of 2010 and other amendments made during the 2010 legislative session<TextRun fontFamily="Times New Roman">—</TextRun>2010 c 161:</TextRun> See notes following RCW 46.04.013.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>46</TitleNumber><TextRun>.</TextRun><ChapterNumber>68</ChapterNumber><TextRun>.</TextRun><SectionNumber>410</SectionNumber></SectionCite> and 2022 c 186 s 706 are each amended to read as follows:<Caption>Vehicle identification number inspection fee<TextRun fontFamily="Times New Roman">—</TextRun>Distribution.</Caption></BillSectionHeader>
+<P><TextRun amendingStyle="strike">(1)</TextRun> The vehicle identification number inspection fee collected under RCW 46.17.130 must be distributed <TextRun amendingStyle="strikemarkleft">as follows:</TextRun></P>
+<P><TextRun amendingStyle="strikemarkright">(a) $15</TextRun> to the state patrol highway account created in RCW 46.68.030<TextRun amendingStyle="strikemarkleft">; and</TextRun></P>
+<P><TextRun amendingStyle="strikemarknone">(b) $50 to the motor vehicle fund created in RCW 46.68.070.</TextRun></P>
+<P><TextRun amendingStyle="strikemarkright">(2) During the 2021-2023 fiscal biennium, the entire vehicle identification number inspection fee collected under RCW 46.17.130 must be distributed to the state patrol highway account created in RCW 46.68.030</TextRun>.</P>
+<History>2022 c 186 § 706; 2010 c 161 § 812.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Contingent effective date<TextRun fontFamily="Times New Roman">—</TextRun>2022 c 186 § 706:</TextRun> "Section 706 of this act takes effect only if chapter . . . (Substitute Senate Bill No. 5778), Laws of 2022 (addressing the current backlog of vehicle inspections) is not enacted by June 30, 2022." [2022 c 186 § 711.]</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2022 c 186:</TextRun> See note following RCW 47.01.071.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>Intent<TextRun fontFamily="Times New Roman">—</TextRun>Legislation to reconcile chapter 161, Laws of 2010 and other amendments made during the 2010 legislative session<TextRun fontFamily="Times New Roman">—</TextRun>2010 c 161:</TextRun> See notes following RCW 46.04.013.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="new" action="emerg">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act is necessary for the immediate preservation of the public peace, health, or safety, or support of the state government and its existing public institutions, and takes effect July 1, 2023.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

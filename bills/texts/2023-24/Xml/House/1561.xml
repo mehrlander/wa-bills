@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-0687.1</RequestNumber><ShortBillId>HB 1561</ShortBillId><LongBillId>HOUSE BILL 1561</LongBillId><Legislature>68th Legislature</Legislature><Session>2023 Regular Session</Session><Sponsors>Representatives Jacobsen, Griffey, Schmidt, Riccelli, Eslick, and Ryu</Sponsors><BillHistory><ReadDate>Read first time 01/24/23.</ReadDate><ReferredCommittee>Referred to Committee on Finance.</ReferredCommittee></BillHistory><BriefDescription>Increasing the public utility tax exemption threshold and annually adjusting the threshold for inflation.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to increasing the public utility tax exemption threshold and annually adjusting the threshold for inflation; amending RCW 82.16.040; providing an effective date; and declaring an emergency.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>82</TitleNumber><TextRun>.</TextRun><ChapterNumber>16</ChapterNumber><TextRun>.</TextRun><SectionNumber>040</SectionNumber></SectionCite> and 1996 c 111 s 4 are each amended to read as follows:<Caption>Exemption.</Caption></BillSectionHeader>
+<P><TextRun amendingStyle="add">(1)</TextRun> The provisions of this chapter <TextRun amendingStyle="strike">shall</TextRun> <TextRun amendingStyle="add">do</TextRun> not apply to persons engaging in one or more businesses taxable under this chapter whose total gross income is less than <TextRun amendingStyle="strike">two thousand dollars</TextRun> <TextRun amendingStyle="add">$4,000</TextRun> for a monthly period or portion thereof.</P>
+<P><TextRun amendingStyle="add">(2)</TextRun> Any person claiming exemption under this section may be required to file returns even though no tax may be due. If the total gross income for a taxable monthly period is <TextRun amendingStyle="strike">two thousand dollars</TextRun> <TextRun amendingStyle="add">$4,000</TextRun>, or more, no exemption or deductions from the gross operating revenue is allowed by this provision.</P>
+<P><TextRun amendingStyle="add">(3) The gross income in this section must be adjusted for inflation every year beginning January 1, 2024, based upon changes in the consumer price index that are published by November 15th of the previous year for the most recent 12-month period.</TextRun></P>
+<P><TextRun amendingStyle="add">(4) For purposes of this section, "consumer price index" means, for any 12-month period, the average consumer price index for that 12-month period for the Seattle, Washington area for urban wage earners and clerical workers, all items, compiled by the bureau of labor statistics, United States department of labor.</TextRun></P>
+<History>1996 c 111 § 4; 1961 c 15 § 82.16.040. Prior: 1959 ex.s. c 3 § 17; 1959 c 197 § 27; 1935 c 180 § 39; RRS § 8370-39.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Findings<TextRun fontFamily="Times New Roman">—</TextRun>Purpose<TextRun fontFamily="Times New Roman">—</TextRun>Effective date<TextRun fontFamily="Times New Roman">—</TextRun>1996 c 111:</TextRun> See notes following RCW 82.32.030.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="new" action="emerg">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act is necessary for the immediate preservation of the public peace, health, or safety, or support of the state government and its existing public institutions, and takes effect July 1, 2023.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

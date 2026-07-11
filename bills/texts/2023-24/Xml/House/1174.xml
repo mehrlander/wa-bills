@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-0381.1</RequestNumber><ShortBillId>HB 1174</ShortBillId><LongBillId>HOUSE BILL 1174</LongBillId><Legislature>68th Legislature</Legislature><Session>2023 Regular Session</Session><Sponsors>Representatives Simmons, Farivar, Reed, Street, Bateman, Ramel, Macri, Reeves, Lekanoff, Davis, and Ormsby</Sponsors><BillHistory><PrefiledDate>Prefiled 01/06/23.</PrefiledDate><ReadDate>Read first time 01/09/23.</ReadDate><ReferredCommittee>Referred to Committee on State Government &amp; Tribal Relations.</ReferredCommittee></BillHistory><BriefDescription>Improving access and removing barriers to jail-based voting.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to improving access and removing barriers to jail-based voting; adding a new section to chapter 29A.04 RCW; and adding a new chapter to Title 29A RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>29A</TitleNumber><TextRun>.</TextRun><ChapterNumber>04</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>"Jail" means a county, city, or tribal jail located in Washington.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) Each county auditor's office must designate one employee as the jail voting coordinator for the county.</P></BillSectionHeader>
+<P>(2) Each jail must designate one employee as the jail voting coordinator for the jail.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) Each county auditor must create a jail voting plan for each jail within the county. The plan must be created in consultation with the jail voting coordinator at each jail and with the office of the secretary of state.</P></BillSectionHeader>
+<P>(2) The jail voting plan must include, at a minimum, details about how the jail will help people who are incarcerated to:</P>
+<P>(a) Register to vote or update their voter registration information;</P>
+<P>(b) Access proof of their identification or residency as may be necessary to register to vote;</P>
+<P>(c) Access information about, and materials necessary for, eligibility for voting and voting rights restoration;</P>
+<P>(d) Access information about candidates and other nonpartisan voter education materials, including the relevant voters' pamphlets;</P>
+<P>(e) Access the necessary writing materials to fill out ballots; and</P>
+<P>(f) Complete their ballots in secret.</P>
+<P>(3) The jail voting plans must also include, at a minimum, details about how the jail will:</P>
+<P>(a) Provide visible information regarding registering to vote and accessing a ballot for people who are incarcerated;</P>
+<P>(b) Ensure that all people who are incarcerated are made aware of key dates for registering to vote and returning a ballot; and</P>
+<P>(c) Accommodate people with disabilities to register to vote and fill out ballots.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) Jails must provide people who are incarcerated with access to voter registration information, ballot-related information, and ballots in accordance with their jail voting plan developed under section 3 of this act. Ballots must be made accessible to registered voters starting at least 18 days before a primary or election.</P></BillSectionHeader>
+<P>(2) Jails must permit election officials from the county auditor's office and the secretary of state's office to enter the jail at least 30 days in advance of each primary and election in order to provide voter registration outreach and education to people who are incarcerated.</P>
+<P>(3) Jails must provide information about, and materials necessary for, registering to vote to all people who are released from the jail's custody at the time of their release.</P>
+<P>(4) Jails must document all voting-related requests and complaints made by people who are incarcerated.</P>
+<P>(5) County auditors and jails must collect data related to voter registration and ballot return from people who are incarcerated.</P>
+</BillSection>
+<BillSection type="new" action="addchap" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>5</Value><TextRun>.  </TextRun></BillSectionNumber>Sections 2 through 4 of this act constitute a new chapter in Title 29A RCW.</BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-1140.1</RequestNumber><ShortBillId>HB 1816</ShortBillId><LongBillId>HOUSE BILL 1816</LongBillId><Legislature>68th Legislature</Legislature><Session>2023 Regular Session</Session><Sponsors>Representatives Cheney, McClintock, Robertson, Schmidt, Waters, Klicker, Graham, and Connors</Sponsors><BillHistory><ReadDate>Read first time 02/10/23.</ReadDate><ReferredCommittee>Referred to Committee on State Government &amp; Tribal Relations.</ReferredCommittee></BillHistory><BriefDescription>Prohibiting the forwarding of election ballots.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to prohibiting the forwarding of election ballots; and adding a new section to chapter 29A.40 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>29A</TitleNumber><TextRun>.</TextRun><ChapterNumber>40</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) Except as provided under subsection (2) of this section, a county auditor may not use any postal service endorsements that would allow ballots to be forwarded. A county auditor must use the proper endorsement to instruct the postal service to not forward a ballot to any other address and to return to the auditor any ballot that is not deliverable. Upon receipt of a returned ballot that was not deliverable, if no updated address information was received from the voter, a county auditor must immediately place the voter on inactive status and send the voter a confirmation notice to all known addresses.</P>
+<P>(2) A county auditor must use the appropriate postal service endorsements that would allow ballots to be forwarded for service and overseas voters.</P>
+<P>(3) The secretary of state must include in the state voters' pamphlet, and county auditors must include in the local voters' pamphlet, information providing notice to voters that, in accordance with this section, their ballots will no longer be forwarded by the postal service unless they are a service or overseas voter.</P>
+</BillSection>
+</BillBody>
+</Bill>

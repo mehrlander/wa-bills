@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-0648.1</RequestNumber><ShortBillId>HB 1500</ShortBillId><LongBillId>HOUSE BILL 1500</LongBillId><Legislature>68th Legislature</Legislature><Session>2023 Regular Session</Session><Sponsors>Representatives Eslick, Chapman, Jacobsen, Ramel, Leavitt, Walen, Peterson, Couture, Paul, Doglio, and Macri</Sponsors><BillHistory><ReadDate>Read first time 01/23/23.</ReadDate><ReferredCommittee>Referred to Committee on Agriculture and Natural Resources.</ReferredCommittee></BillHistory><BriefDescription>Increasing the cap on gross sales for cottage food operations.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to increasing the cap on gross sales for cottage food operations; amending RCW 69.22.050; and adding a new section to chapter 69.22 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>69</TitleNumber><TextRun>.</TextRun><ChapterNumber>22</ChapterNumber><TextRun>.</TextRun><SectionNumber>050</SectionNumber></SectionCite> and 2015 c 196 s 1 are each amended to read as follows:<Caption>Annual gross sales.</Caption></BillSectionHeader>
+<P>(1) <TextRun amendingStyle="strike">The</TextRun> <TextRun amendingStyle="add">(a) Except as provided in (b) of this subsection, the</TextRun> annual gross sales of cottage food products may not exceed <TextRun amendingStyle="strike">twenty-five thousand dollars</TextRun> <TextRun amendingStyle="add">$50,000</TextRun>. The determination of the maximum annual gross sales must be computed on the basis of the amount of gross sales within or at a particular domestic residence and may not be computed on a per person basis within or at an individual domestic residence.</P>
+<P><TextRun amendingStyle="add">(b) Every two years, the department shall review the cap on annual gross sales established in (a) of this subsection and increase the cap by expedited rule making, in accordance with RCW 34.05.353, based on that year's average consumer price index for the Seattle, Washington area for urban wage earners and clerical workers, all items, compiled by the bureau of labor statistics, United States department of labor.</TextRun></P>
+<P>(2) If gross sales exceed the maximum allowable annual gross sales amount <TextRun amendingStyle="add">established under subsection (1) of this section</TextRun>, the cottage food operation must either obtain a food processing plant license under chapter 69.07 RCW or cease operations.</P>
+<P>(3) A cottage food operation exceeding the maximum allowable annual gross sales amount <TextRun amendingStyle="add">established under subsection (1) of this section</TextRun> is not entitled to a full or partial refund of any fees paid under RCW 69.22.030 or 69.22.040.</P>
+<P>(4) The director may request in writing documentation to verify the annual gross sales figure.</P>
+<History>2015 c 196 § 1; 2011 c 281 § 5.</History>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>69</TitleNumber><TextRun>.</TextRun><ChapterNumber>22</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>The department shall maintain sufficient full-time equivalent staff to ensure timely processing of permits required under this chapter and provide improved service levels to cottage food operations.</P>
+</BillSection>
+</BillBody>
+</Bill>

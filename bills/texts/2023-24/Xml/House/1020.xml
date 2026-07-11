@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-0117.1</RequestNumber><ShortBillId>HB 1020</ShortBillId><LongBillId>HOUSE BILL 1020</LongBillId><Legislature>68th Legislature</Legislature><Session>2023 Regular Session</Session><Sponsors>Representatives Morgan, Callan, Ryu, Simmons, Reed, Gregerson, Thai, and Ormsby</Sponsors><BillHistory><PrefiledDate>Prefiled 12/08/22.</PrefiledDate><ReadDate>Read first time 01/09/23.</ReadDate><ReferredCommittee>Referred to Committee on State Government &amp; Tribal Relations.</ReferredCommittee></BillHistory><BriefDescription>Designating the Suciasaurus rex as the official dinosaur of the state of Washington.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to the state dinosaur; adding a new section to chapter 1.20 RCW; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature finds that the Suciasaurus rex, the first and, as of the effective date of this section, only dinosaur discovered in Washington state, should be designated as the state dinosaur. In May 2012, paleontologists discovered a portion of a left femur of a therapod dinosaur at Sucia Island state park in the San Juan Islands. Therapods are bipedal carnivorous dinosaurs that include Tyrannosaurus and Velociraptor. While scientists are unsure exactly what type of therapod the fossil belongs to, evidence suggests it may be a species similar to Daspletosaurus. The dinosaur has been nicknamed Suciasaurus rex.</P></BillSectionHeader>
+<P>Dinosaurs are not usually found in Washington because of its proximity to an active tectonic plate boundary and the high degree of human development. Some scientists believe the Suciasaurus rex lived somewhere between Baja California, Mexico, and northern California, and its fossil traveled to Washington along with a portion of the western edge of North America that was displaced to British Columbia in the Late Cretaceous period, but the fossil's exact location of origin remains controversial.</P>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>1</TitleNumber><TextRun>.</TextRun><ChapterNumber>20</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>The Suciasaurus rex is hereby designated as the official dinosaur of the state of Washington.</P>
+</BillSection>
+</BillBody>
+</Bill>

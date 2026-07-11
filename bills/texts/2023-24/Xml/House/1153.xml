@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-0321.1</RequestNumber><ShortBillId>HB 1153</ShortBillId><LongBillId>HOUSE BILL 1153</LongBillId><Legislature>68th Legislature</Legislature><Session>2023 Regular Session</Session><Sponsors>Representatives Peterson, Fitzgibbon, Berry, Walen, Bateman, Goodman, Leavitt, Macri, Gregerson, Stonier, Pollet, and Fosse</Sponsors><BillHistory><PrefiledDate>Prefiled 01/05/23.</PrefiledDate><ReadDate>Read first time 01/09/23.</ReadDate><ReferredCommittee>Referred to Committee on Agriculture and Natural Resources.</ReferredCommittee></BillHistory><BriefDescription>Prohibiting octopus farming.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to prohibiting octopus farming; and amending RCW 15.85.020.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>15</TitleNumber><TextRun>.</TextRun><ChapterNumber>85</ChapterNumber><TextRun>.</TextRun><SectionNumber>020</SectionNumber></SectionCite> and 2003 c 39 s 7 are each amended to read as follows:<Caption>Definitions.</Caption></BillSectionHeader>
+<P><TextRun amendingStyle="strike">Unless the context clearly requires otherwise, the</TextRun> <TextRun amendingStyle="add">The</TextRun> definitions in this section apply throughout this chapter <TextRun amendingStyle="add">unless the context clearly requires otherwise</TextRun>.</P>
+<P>(1) "Aquaculture" means the process of growing, farming, or cultivating private sector cultured aquatic products in marine or fresh waters and includes management by an aquatic farmer.</P>
+<P>(2) "Aquatic farmer" is a private sector person who commercially farms and manages the cultivating of private sector cultured aquatic products on the person's own land or on land in which the person has a present right of possession.</P>
+<P>(3)<TextRun amendingStyle="add">(a)</TextRun> "Private sector cultured aquatic products" are native, nonnative, or hybrids of marine or freshwater plants and animals that are propagated, farmed, or cultivated on aquatic farms under the supervision and management of a private sector aquatic farmer or that are naturally set on aquatic farms which at the time of setting are under the active supervision and management of a private sector aquatic farmer. When produced under such supervision and management, private sector cultured aquatic products include, but are not limited to, the following plants and animals:</P>
+<Table width="243.0pt" align="center" fontSize="10pt" pubwidth="narrow" vCellPadding="none">
+<Col width="104.0pt" />
+<Col width="139pt" />
+<TR>
+<TD valign="top"><P><TextRun fontWeight="bold">Scientific Name</TextRun></P></TD>
+<TD valign="top"><P postPadding="halfline"><TextRun fontWeight="bold">Common Name</TextRun></P></TD>
+</TR>
+<TR>
+<TD valign="top"><P>Enteromorpha</P></TD>
+<TD valign="top"><P>green nori</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P>Monostroma</P></TD>
+<TD valign="top"><P>awo-nori</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P>Ulva</P></TD>
+<TD valign="top"><P>sea lettuce</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P>Laminaria</P></TD>
+<TD valign="top"><P>konbu</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P>Nereocystis</P></TD>
+<TD valign="top"><P>bull kelp</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P>Porphyra</P></TD>
+<TD valign="top"><P>nori</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P>Iridaea</P></TD>
+<TD valign="top"><P /></TD>
+</TR>
+<TR>
+<TD valign="top"><P>Haliotis</P></TD>
+<TD valign="top"><P>abalone</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P>Zhlamys</P></TD>
+<TD valign="top"><P>pink scallop</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P>Hinnites</P></TD>
+<TD valign="top"><P>rock scallop</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P>Tatinopecten</P></TD>
+<TD valign="top"><P>Japanese or weathervane scallop</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P>Protothaca</P></TD>
+<TD valign="top"><P>native littleneck clam</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P>Tapes</P></TD>
+<TD valign="top"><P>manila clam</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P>Saxidomus</P></TD>
+<TD valign="top"><P>butter clam</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P>Mytilus</P></TD>
+<TD valign="top"><P>mussels</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P>Crassostrea</P></TD>
+<TD valign="top"><P>Pacific oysters</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P>Ostrea</P></TD>
+<TD valign="top"><P>Olympia and European oysters</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P>Pacifasticus</P></TD>
+<TD valign="top"><P>crayfish</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P>Macrobrachium</P></TD>
+<TD valign="top"><P>freshwater prawn</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P>Salmo and Salvelinus</P></TD>
+<TD valign="top"><P>trout, char, and Atlantic salmon</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P>Oncorhynchus</P></TD>
+<TD valign="top"><P>salmon</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P>Ictalurus</P></TD>
+<TD valign="top"><P>catfish</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P>Cyprinus</P></TD>
+<TD valign="top"><P>carp</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P>Acipenseridae</P></TD>
+<TD valign="top"><P>Sturgeon</P></TD>
+</TR>
+</Table>
+<P prePadding="halfline"><TextRun amendingStyle="add">(b)</TextRun> Private sector cultured aquatic products do not include herring spawn on kelp and other products harvested under a herring spawn on kelp permit issued in accordance with RCW 77.70.210.</P>
+<P><TextRun amendingStyle="add">(c) Private sector cultured aquatic products do not include octopus and a person may not participate in octopus aquaculture in Washington.</TextRun></P>
+<P>(4) "Department" means the department of agriculture.</P>
+<P>(5) "Director" means the director of agriculture.</P>
+<History>2003 c 39 § 7; 1989 c 176 § 3; 1985 c 457 § 2.</History>
+</BillSection>
+</BillBody>
+</Bill>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-2203.2</RequestNumber><ShortBillId>HB 1994</ShortBillId><LongBillId>HOUSE BILL 1994</LongBillId><Legislature>68th Legislature</Legislature><Session>2024 Regular Session</Session><Sponsors>Representatives Farivar, Goodman, Reed, Alvarado, Ramos, Cortes, Morgan, Reeves, Simmons, Ormsby, Macri, Street, Fosse, and Pollet</Sponsors><BillHistory><PrefiledDate>Prefiled 12/20/23.</PrefiledDate><ReadDate>Read first time 01/08/24.</ReadDate><ReferredCommittee>Referred to Committee on Community Safety, Justice, &amp; Reentry.</ReferredCommittee></BillHistory><BriefDescription>Concerning judicial dismissal of a misdemeanor following completion of court-ordered conditions.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to judicial dismissal of a misdemeanor following completion of court-ordered conditions; and adding a new chapter to Title 10 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) The court may, in its discretion, or upon motion of either party, offer to dismiss a defendant's simple misdemeanor or gross misdemeanor charge pursuant to the following:</P></BillSectionHeader>
+<P>(a) The court may continue a case pursuant to a defendant's agreement to waive speedy trial in anticipation of dismissal following court-ordered conditions for a period not to exceed 12 months and order the defendant to comply with terms, conditions, or programs that the court deems appropriate based on the defendant's specific situation.</P>
+<P>(b)(i) If the defendant has made meaningful progress towards complying with the imposed terms and conditions, either at the end of or at any point during the continuance period, the court shall dismiss the charges pending against the defendant.</P>
+<P>(ii) Full restitution must be a required condition for the dismissal of charges. However, a defendant's inability to pay restitution due to indigence may not be grounds for denial of this dismissal following progress towards complying with court-ordered conditions or as a basis for finding that the defendant has failed to make meaningful progress in complying with the court's conditions.</P>
+<P>(c) If it appears to the prosecuting attorney that the defendant is not meaningfully engaged with the terms and conditions, after providing the defendant with written notice of the alleged violations and disclosure of all evidence to be offered against the defendant, the court shall hold a hearing to determine whether the defendant has, by clear and convincing evidence, willfully failed to meaningfully engage with the terms and conditions set by the court. At that hearing:</P>
+<P>(i) The rules of evidence do not apply, but the defendant must be afforded the due process rights required for the revocation of probation, including the right to confront and cross-examine all witnesses;</P>
+<P>(ii) The defendant must have the opportunity to be heard in person and to present evidence;</P>
+<P>(iii) To protect both service providers' efficacy and the privacy of provider-client relationships, service providers may not be subpoenaed by the prosecution or the court to provide records or testimony in any revocation proceeding; and</P>
+<P>(iv) If the court finds by clear and convincing evidence that the defendant is willfully failing to meaningfully engage with the terms and conditions, the court may continue the hearing to provide additional time for meaningful engagement or may end the period of continuance pending dismissal.</P>
+<P>(2) A charge may not be dismissed with court-ordered conditions pursuant to this section for any of the following offenses:</P>
+<P>(a) A violation of RCW 46.61.502 where a person has a previous conviction under RCW 46.61.502 or the person has one or more prior offenses within 10 years as described in RCW 46.61.5055(4), or the person has ever previously been convicted of:</P>
+<P>(i) Vehicular homicide while under the influence of intoxicating liquor or any drug, RCW 46.61.520(1)(a); or</P>
+<P>(ii) Vehicular assault while under the influence of intoxicating liquor or any drug, RCW 46.61.522(1)(b); or</P>
+<P>(b) A domestic violence offense involving an intimate partner as defined in RCW 7.105.010.</P>
+</BillSection>
+<BillSection type="new" action="addchap" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>Section 1 of this act constitutes a new chapter in <TitleCite><TextRun>Title </TextRun><TitleNumber>10</TitleNumber><TextRun> RCW</TextRun></TitleCite>.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

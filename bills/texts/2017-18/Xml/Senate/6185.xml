@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-3551.1</RequestNumber><ShortBillId>SB 6185</ShortBillId><LongBillId>SENATE BILL 6185</LongBillId><Legislature>65th Legislature</Legislature><Session>2018 Regular Session</Session><Sponsors>Senator Wellman</Sponsors><BillHistory /><BriefDescription>Removing an expiration date regarding postretirement employment options.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to removing an expiration date regarding postretirement employment options; amending RCW 41.32.068; and repealing 2016 c 233 s 19 (uncodified).</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>41</TitleNumber><TextRun>.</TextRun><ChapterNumber>32</ChapterNumber><TextRun>.</TextRun><SectionNumber>068</SectionNumber></SectionCite> and 2016 c 233 s 7 are each amended to read as follows:<Caption>Postretirement employment options. <TextRun fontStyle="italic">(Expires July 1, 2021.)</TextRun></Caption></BillSectionHeader>
+<P>In addition to the postretirement employment options available in RCW 41.32.802 or 41.32.862, <TextRun amendingStyle="strike">and only until August 1, 2020,</TextRun> a teacher in plan 2 or plan 3 who has retired under the alternate early retirement provisions of RCW 41.32.765(3)(b) or 41.32.875(3)(b) may be employed with an employer for up to eight hundred sixty-seven hours per calendar year without suspension of his or her benefit, provided that: (1) The retired teacher reenters employment more than one calendar month after his or her accrual date and after June 9, 2016; (2) <TextRun amendingStyle="strike">[the retired teacher]</TextRun> <TextRun amendingStyle="add">the retired teacher</TextRun> is employed exclusively as <TextRun amendingStyle="strike">either</TextRun> a substitute teacher as defined in RCW 41.32.010(48)(a) in an instructional capacity, as opposed to other capacities identified in RCW 41.32.010(49); and (3) the employing school district compensates the district's substitute teachers at a rate that is at least eighty-five percent of the full daily amount allocated by the state to the district for substitute teacher compensation.</P>
+<History>2016 c 233 § 7.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Expiration date<TextRun fontFamily="Times New Roman">—</TextRun>2016 c 233 § 7:</TextRun> "Section 7 of this act expires July 1, 2021." [2016 c 233 § 19.]</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="new" action="repealuncod">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P><UncodCite>2016 c 233 s 19</UncodCite> (uncodified) is repealed.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

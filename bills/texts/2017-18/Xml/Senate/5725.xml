@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-1236.1</RequestNumber><ShortBillId>SB 5725</ShortBillId><LongBillId>SENATE BILL 5725</LongBillId><Legislature>65th Legislature</Legislature><Session>2017 Regular Session</Session><Sponsors>Senators Hasegawa and Chase</Sponsors><BillHistory><ReadDate>Read first time 02/06/17.</ReadDate><ReferredCommittee>Referred to Committee on Local Government.</ReferredCommittee></BillHistory><BriefDescription>Concerning the mitigation of public facilities in certain cities.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to local government responsibility and accountability in mitigating impacts of public facilities on certain surrounding neighborhoods with high poverty or concentrations of persons of color; and adding a new section to chapter 35.21 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>35</TitleNumber><TextRun>.</TextRun><ChapterNumber>21</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) A city with a population of more than five hundred fifty thousand that permits, constructs, or operates a public facility in a neighborhood with a high poverty level or a high rate of ethnic diversity must assume the responsibility for the negative impacts that facility has had or might have on the surrounding neighborhood. The city must consider the potential or actual disparate racial, social, and economic impacts of the public facility on residents nearby and develop a mitigation plan, which keeps the residents of the impacted neighborhood whole for the costs of the mitigation strategy. The city may negotiate with other political subdivisions who have a direct interest in having created the negative impacts, but the residents must be held harmless.</P>
+<P>(2) For purposes of this section, neighborhood boundaries are defined by the boundaries of community reporting areas, as established in the most recent United States census.</P>
+<P>(3) For purposes of this section:</P>
+<P>(a) A neighborhood has a high poverty level if twelve percent or more of the population is below the poverty level according to the most recent American community survey's five-year estimate.</P>
+<P>(b) A neighborhood has a high rate of ethnic diversity if forty percent or more of the population identifies as persons of color according to the most recent American community survey's five-year estimate.</P>
+</BillSection>
+</BillBody>
+</Bill>

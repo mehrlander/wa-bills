@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-3796.1</RequestNumber><ShortBillId>SB 6409</ShortBillId><LongBillId>SENATE BILL 6409</LongBillId><Legislature>65th Legislature</Legislature><Session>2018 Regular Session</Session><Sponsors>Senator Ericksen</Sponsors><BillHistory /><BriefDescription>Concerning public utility district authority to acquire electrical distribution properties.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to public utility district authority to acquire electrical distribution properties; adding a new section to chapter 54.32 RCW; and making an appropriation.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>54</TitleNumber><TextRun>.</TextRun><ChapterNumber>32</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) After the formation of a public utility district, such a district has the right, in addition to any other rights provided by law, to acquire by purchase or condemnation any electrical distribution properties in western Washington from any investor-owned utility.</P>
+<P>(2) Purchase or condemnation of any electrical distribution properties under subsection (1) of this section may be initiated only upon petition and election by the registered voters residing in the district. If the petition is approved by the majority of the registered voters in the public utility district to purchase or condemn any electrical distribution properties under subsection (1) of this section, the area purchased or condemned shall cease to be a part of the investor-owned utility service area at the same time that it becomes a part of the public utility district.</P>
+<P>(3) The utilities and transportation commission must determine the value of the investor-owned utility property under subsection (1) of this section and provide the commission's analysis to the board of commissioners of the public utility district.</P>
+<P>(4) The definitions in this subsection apply throughout this section unless the context clearly requires otherwise. </P>
+<P>(a) "Investor-owned utility" means a corporation owned by investors that meets the definition of "corporation" as defined in RCW 80.04.010 and is engaged in distributing either electricity or natural gas, or both, to more than one retail electric customer in the state.</P>
+<P>(b) "Western Washington" means that portion of the state lying west of the Cascade mountain range.</P>
+</BillSection>
+<BillSection type="new" action="approp" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>The sum of one hundred million dollars, or as much thereof as may be necessary, is appropriated for the fiscal year ending June 30, 2019, from the carbon pollution reduction account created in section 107, chapter . . . (Senate Bill No. 6203), Laws of 2018, to the department of commerce for the purposes of providing assistance to public utility districts purchasing or condemning any electrical distribution properties under section 1 of this act.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

@@ -1,0 +1,717 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>Z-0014.2</RequestNumber><ShortBillId>SB 5081</ShortBillId><LongBillId>SENATE BILL 5081</LongBillId><Legislature>65th Legislature</Legislature><Session>2017 Regular Session</Session><Sponsors>Senators Pedersen and Miloscia; by request of Uniform Law Commission</Sponsors><BillHistory><ReadDate>Read first time 01/12/17.</ReadDate><ReferredCommittee>Referred to Committee on Law &amp; Justice.</ReferredCommittee></BillHistory><BriefDescription>Adopting the revised uniform law on notarial acts.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to adoption of the revised uniform law on notarial acts; amending RCW 9.97.020, 18.235.010, 18.235.020, 19.34.340, 19.154.060, 43.24.150, 64.08.060, and 64.08.070; adding a new chapter to Title 42 RCW; repealing RCW 42.44.010, 42.44.020, 42.44.030, 42.44.050, 42.44.060, 42.44.070, 42.44.080, 42.44.090, 42.44.100, 42.44.110, 42.44.120, 42.44.130, 42.44.140, 42.44.150, 42.44.160, 42.44.170, 42.44.180, 42.44.190, 42.44.200, 42.44.210, 42.44.220, 42.44.221, 42.44.900, 42.44.901, and 42.44.903; and providing an effective date.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>SHORT TITLE.</SectionCaption><P>This chapter may be known and cited as the revised uniform law on notarial acts.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>DEFINITIONS.</SectionCaption><P>In this chapter:</P></BillSectionHeader>
+<P>(1) "Acknowledgment" means a declaration by an individual in the presence of a notarial officer stating that the individual has signed a record of the individual's free will for the purpose stated in the record and, if the record is signed in a representative capacity, the individual also declares that he or she signed the record with proper authority and signed it as the act of the individual or entity identified in the record.</P>
+<P>(2) "Department" means the department of licensing.</P>
+<P>(3) "Director" means the director of licensing or the director's designee.</P>
+<P>(4) "Electronic" means relating to technology having electrical, digital, magnetic, wireless, optical, electromagnetic, or similar capabilities.</P>
+<P>(5) "Electronic records notary public" means an individual commissioned by the director to perform a notarial act with respect to electronic records.</P>
+<P>(6) "Electronic signature" means an electronic symbol, sound, or process attached to or logically associated with a record and executed or adopted by an individual with the intent to sign the record.</P>
+<P>(7) "In a representative capacity" means acting as:</P>
+<P>(a) An authorized officer, agent, partner, trustee, or other representative for a person other than an individual;</P>
+<P>(b) A public officer, personal representative, guardian, or other representative, in the capacity stated in a record;</P>
+<P>(c) An agent or attorney-in-fact for a principal; or</P>
+<P>(d) An authorized representative of another in any other capacity.</P>
+<P>(8) "Notarial act" means an act, whether performed with respect to a tangible or electronic record, that a notarial officer may perform under the law of this state. The term includes taking an acknowledgment, administering an oath or affirmation, taking a verification on oath or affirmation, witnessing or attesting a signature, certifying or attesting a copy, and noting a protest of a negotiable instrument if the protest was prepared under the authority of an attorney licensed to practice law in this or another state, or was prepared under the authority of a financial institution that is regulated by this state, another state, or the federal government.</P>
+<P>(9) "Notarial officer" means a notary public or other individual authorized to perform a notarial act.</P>
+<P>(10) "Notary public" means an individual commissioned to perform a notarial act by the director.</P>
+<P>(11) "Official stamp" means a physical image affixed to or embossed on a tangible record or an electronic image attached to or logically associated with an electronic record.</P>
+<P>(12) "Person" means an individual, corporation, business trust, statutory trust, estate, trust, partnership, limited liability company, association, joint venture, public corporation, government or governmental subdivision, agency, or instrumentality, or any other legal or commercial entity.</P>
+<P>(13) "Record" means information that is inscribed on a tangible medium or that is stored in an electronic or other medium and is retrievable in human perceivable form.</P>
+<P>(14) "Sign" means, with present intent to authenticate or adopt a record:</P>
+<P>(a) To execute or adopt a tangible symbol; or</P>
+<P>(b) To attach to or logically associate with the record an electronic symbol, sound, or process.</P>
+<P>(15) "Signature" means a tangible symbol or an electronic signature that evidences the signing of a record.</P>
+<P>(16) "Stamping device" means:</P>
+<P>(a) A physical device capable of affixing to or embossing on a tangible record an official stamp; or</P>
+<P>(b) An electronic device or process capable of attaching to or logically associating with an electronic record an official stamp.</P>
+<P>(17) "State" means a state of the United States, the District of Columbia, Puerto Rico, the United States Virgin Islands, or any territory or insular possession subject to the jurisdiction of the United States.</P>
+<P>(18) "Verification on oath or affirmation" means a declaration, made by an individual on oath or affirmation before a notarial officer, that a statement in a record is true.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>APPLICABILITY.</SectionCaption><P>This chapter applies to a notarial act performed on or after the effective date of this section.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>AUTHORITY TO PERFORM NOTARIAL ACT.</SectionCaption><P>(1) A notarial officer may perform a notarial act authorized by this chapter or by law of this state other than this chapter.</P></BillSectionHeader>
+<P>(2)(a) A notarial officer may not perform a notarial act with respect to a record to which the officer or the officer's spouse, domestic partner, parent, stepparent, parent-in-law, child, or stepchild is a party, or in which any of the above have a direct beneficial interest.</P>
+<P>(b) A notarial officer may not notarize the notarial officer's own signature.</P>
+<P>(c) A notarial act performed in violation of this subsection (2) is voidable.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>5</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>REQUIREMENTS FOR CERTAIN NOTARIAL ACTS.</SectionCaption><P>(1) A notarial officer who takes an acknowledgment of a record shall determine, from personal knowledge or satisfactory evidence of the identity of the individual, that the individual appearing before the officer and making the acknowledgment has the identity claimed and that the signature on the record is the signature of the individual.</P></BillSectionHeader>
+<P>(2) A notarial officer who takes a verification of a statement on oath or affirmation shall determine, from personal knowledge or satisfactory evidence of the identity of the individual, that the individual appearing before the officer and making the verification has the identity claimed and that the signature on the statement verified is the signature of the individual.</P>
+<P>(3) A notarial officer who witnesses or attests to a signature shall determine, from personal knowledge or satisfactory evidence of the identity of the individual, that the individual appearing before the officer and signing the record has the identity claimed.</P>
+<P>(4) A notarial officer who certifies or attests a copy of a record or an item that was copied shall compare the copy with the original record or item and determine that the copy is a full, true, and accurate transcription or reproduction of the record or item.</P>
+<P>(5) A notarial officer may make or note a protest of a negotiable instrument only if the notarial officer is licensed to practice law in this state, acting under the authority of an attorney who is licensed to practice law in this or another state, or acting under the authority of a financial institution regulated by this state, another state, or the federal government. In making or noting a protest of a negotiable instrument the notarial officer or licensed attorney shall determine the matters set forth in RCW 62A.3-505(b).</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>6</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>PERSONAL APPEARANCE REQUIRED. Notarial officers must take reasonable steps to assure the integrity of the notarial process.</SectionCaption><P>If a notarial act relates to a statement made in or a signature executed on a record, the individual making the statement or executing the signature must make the statement or execute the signature in the presence of the notarial officer. The act of being in the presence of the notarial officer may be described by the director in rule.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>7</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>IDENTIFICATION OF INDIVIDUAL.</SectionCaption><P>(1) A notarial officer has personal knowledge of the identity of an individual appearing before the officer if the individual is personally known to the officer through dealings sufficient to provide reasonable certainty that the individual has the identity claimed.</P></BillSectionHeader>
+<P>(2) A notarial officer has satisfactory evidence of the identity of an individual appearing before the officer if the officer can identify the individual:</P>
+<P>(a) By means of:</P>
+<P>(i) A passport, driver's license, or government-issued nondriver identification card, which is current or expired not more than three years before performance of the notarial act; or</P>
+<P>(ii) Another form of government identification issued to an individual, which is current or expired not more than three years before performance of the notarial act, contains the signature or a photograph of the individual, and is satisfactory to the officer; or</P>
+<P>(b) By a verification on oath or affirmation of a credible witness personally appearing before the officer and personally known to the officer and who provides satisfactory evidence of his or her identity as described in (a) of this subsection.</P>
+<P>(3) A notarial officer may require an individual to provide additional information or identification credentials necessary to assure the officer of the identity of the individual.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>8</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>AUTHORITY TO REFUSE TO PERFORM NOTARIAL ACT.</SectionCaption><P>(1) A notarial officer has the authority to refuse to perform a notarial act if the officer is not satisfied that:</P></BillSectionHeader>
+<P>(a) The individual executing the record is competent or has the capacity to execute the record; or</P>
+<P>(b) The individual's signature is knowingly and voluntarily made.</P>
+<P>(2) A notarial officer has the authority to refuse to perform a notarial act unless refusal is prohibited by law other than this chapter.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>9</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>SIGNATURE IF INDIVIDUAL UNABLE TO SIGN.</SectionCaption><P>If an individual is physically unable to sign a record, the individual may direct an individual other than the notarial officer to sign the individual's name on the record. The notarial officer shall insert "signature affixed by (name of other individual) at the direction of (name of individual)" or words of similar import.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>10</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>NOTARIAL ACT IN THIS STATE.</SectionCaption><P>(1) A notarial act may be performed in this state by:</P></BillSectionHeader>
+<P>(a) A notary public of this state;</P>
+<P>(b) A judge, clerk, or deputy clerk of a court of this state; or</P>
+<P>(c) Any other individual authorized to perform the specific act by the law of this state.</P>
+<P>(2) The signature and title of an individual authorized by this act to perform a notarial act in this state are prima facie evidence that the signature is genuine and that the individual holds the designated title.</P>
+<P>(3) The signature and title of a notarial officer described in subsection (1)(a) or (b) of this section conclusively establishes the authority of the officer to perform the notarial act.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>11</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>NOTARIAL ACT IN ANOTHER STATE.</SectionCaption><P>(1) A notarial act performed in another state has the same effect under the law of this state as if performed by a notarial officer of this state, if the act performed in that state is performed by:</P></BillSectionHeader>
+<P>(a) A notary public of that state;</P>
+<P>(b) A judge, clerk, or deputy clerk of a court of that state; or</P>
+<P>(c) Any other individual authorized by the law of that state to perform the notarial act.</P>
+<P>(2) The signature and title of an individual performing a notarial act in another state are prima facie evidence that the signature is genuine and that the individual holds the designated title.</P>
+<P>(3) The signature and title of a notarial officer described in subsection (1)(a) through (c) of this section conclusively establishes the authority of the officer to perform the notarial act.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>12</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>NOTARIAL ACT UNDER AUTHORITY OF FEDERALLY RECOGNIZED INDIAN TRIBE.</SectionCaption><P>(1) A notarial act performed under the authority and in the jurisdiction of a federally recognized Indian tribe has the same effect as if performed by a notarial officer of this state, if the act performed in the jurisdiction of the tribe is performed by:</P></BillSectionHeader>
+<P>(a) A notary public of the tribe;</P>
+<P>(b) A judge, clerk, or deputy clerk of a court of the tribe; or</P>
+<P>(c) Any other individual authorized by the law of the tribe to perform the notarial act.</P>
+<P>(2) The signature and title of an individual performing a notarial act under the authority of and in the jurisdiction of a federally recognized Indian tribe are prima facie evidence that the signature is genuine and that the individual holds the designated title.</P>
+<P>(3) The signature and title of a notarial officer described in subsection (1)(a) through (c) of this section conclusively establishes the authority of the officer to perform the notarial act.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>13</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>NOTARIAL ACT UNDER FEDERAL AUTHORITY.</SectionCaption><P>(1) A notarial act performed under federal law has the same effect under the law of this state as if performed by a notarial officer of this state, if the act performed under federal law is performed by:</P></BillSectionHeader>
+<P>(a) A judge, clerk, or deputy clerk of a court;</P>
+<P>(b) An individual in military service or performing duties under the authority of military service who is authorized to perform notarial acts under federal law;</P>
+<P>(c) An individual designated a notarizing officer by the United States department of state for performing notarial acts overseas; or</P>
+<P>(d) Any other individual authorized by federal law to perform the notarial act.</P>
+<P>(2) The signature and title of an individual acting under federal authority and performing a notarial act are prima facie evidence that the signature is genuine and that the individual holds the designated title.</P>
+<P>(3) The signature and title of an officer described in subsection (1)(a), (b), or (c) of this section conclusively establishes the authority of the officer to perform the notarial act.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>14</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>FOREIGN NOTARIAL ACT.</SectionCaption><P>(1) In this section, "foreign state" means a government other than the United States, a state, or a federally recognized Indian tribe.</P></BillSectionHeader>
+<P>(2) If a notarial act is performed under the authority and in the jurisdiction of a foreign state or constituent unit of the foreign state or is performed under the authority of a multinational or international governmental organization, the act has the same effect under the law of this state as if performed by a notarial officer of this state.</P>
+<P>(3) If the title of office and indication of authority to perform notarial acts in a foreign state appears in a digest of foreign law or in a list customarily used as a source for that information, the authority of an officer with that title to perform notarial acts is conclusively established.</P>
+<P>(4) The signature and official stamp of an individual holding an office described in subsection (3) of this section are prima facie evidence that the signature is genuine and the individual holds the designated title.</P>
+<P>(5) An apostille in the form prescribed by the Hague Convention of October 5, 1961, and issued by a foreign state party to the Hague Convention conclusively establishes that the signature of the notarial officer is genuine and that the officer holds the indicated office.</P>
+<P>(6) A consular authentication issued by an individual designated by the United States department of state as a notarizing officer for performing notarial acts overseas and attached to the record with respect to which the notarial act is performed conclusively establishes that the signature of the notarial officer is genuine and that the officer holds the indicated office.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>15</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>CERTIFICATE OF NOTARIAL ACT.</SectionCaption><P>(1) A notarial act must be evidenced by a certificate. The certificate must:</P></BillSectionHeader>
+<P>(a) Be executed contemporaneously with the performance of the notarial act;</P>
+<P>(b) Be signed and dated by the notarial officer and, if the notarial officer is a notary public, be signed in the same manner as on file with the department;</P>
+<P>(c) Identify the jurisdiction in which the notarial act is performed;</P>
+<P>(d) Contain the title of office of the notarial officer;</P>
+<P>(e) Be written in English or in dual languages, one of which must be English; and</P>
+<P>(f) If the notarial officer is a notary public, indicate the date of expiration, if any, of the officer's commission.</P>
+<P>(2) Regarding notarial act certificates on a tangible record:</P>
+<P>(a) If a notarial act regarding a tangible record is performed by a notary public, an official stamp must be affixed to or embossed on the certificate.</P>
+<P>(b) If a notarial act regarding a tangible record is performed by a notarial officer other than a notary public and the certificate contains the information specified in subsection (1)(b), (c), and (d) of this section, an official stamp may be affixed to or embossed on the certificate.</P>
+<P>(3) Regarding notarial act certificates on an electronic record:</P>
+<P>(a) If a notarial act regarding an electronic record is performed by an electronic records notary public, an official stamp must be attached to or logically associated with the certificate.</P>
+<P>(b) If a notarial act regarding an electronic record is performed by a notarial officer other than a notary public and the certificate contains the information specified in subsection (1)(b), (c), and (d) of this section, an official stamp may be attached to or logically associated with the certificate.</P>
+<P>(4) A certificate of a notarial act is sufficient if it meets the requirements of subsections (1) through (3) of this section and:</P>
+<P>(a) Is in a short form set forth in section 16 of this act;</P>
+<P>(b) Is in a form otherwise permitted by the law of this state;</P>
+<P>(c) Is in a form permitted by the law applicable in the jurisdiction in which the notarial act was performed; or</P>
+<P>(d) Sets forth the actions of the notarial officer and the actions are sufficient to meet the requirements of the notarial act as provided in sections 5, 6, and 7 of this act or law of this state other than this chapter.</P>
+<P>(5) By executing a certificate of a notarial act, a notarial officer certifies that the officer has complied with the requirements and made the determinations specified in sections 5, 6, and 7 of this act.</P>
+<P>(6) A notarial officer may not affix the officer's signature to, or logically associate it with, a certificate until the notarial act has been performed.</P>
+<P>(7) If a notarial act is performed regarding a tangible record, a certificate must be part of, or securely attached to, the record. If a notarial act is performed regarding an electronic record, the certificate must be affixed to, or logically associated with, the electronic record. If the director has established standards pursuant to section 28 of this act for attaching, affixing, or logically associating the certificate, the process must conform to the standards.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>16</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>SHORT FORM CERTIFICATES.</SectionCaption>The following short form certificates of notarial acts are sufficient for the purposes indicated, if completed with the information required by section 15 (1) through (4) of this act:</BillSectionHeader>
+<P>(1) For an acknowledgment in an individual capacity:</P>
+<P>State of .......</P>
+<P>County of .......</P>
+<P>This record was acknowledged before me on <TextRun amendingStyle="add">(date)</TextRun> by <TextRun amendingStyle="add">(name(s) of individuals)</TextRun>.</P>
+<Table width="243.0pt" align="center" fontSize="10pt" pubwidth="narrow" vCellPadding="none">
+<Col width="121pt" />
+<Col width="14.0pt" />
+<Col width="108pt" />
+<TR>
+<TD valign="top"><P /></TD>
+<TD colspan="2" valign="top"><P><Leader character="dot" /></P></TD>
+</TR>
+<TR>
+<TD valign="top"><P /></TD>
+<TD colspan="2" valign="top"><P postPadding="halfline">(Signature of notary public)</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P postPadding="halfline">(Stamp)</P></TD>
+<TD colspan="2" valign="top"><P /></TD>
+</TR>
+<TR>
+<TD valign="top"><P /></TD>
+<TD colspan="2" valign="top"><P><Leader character="dot" /></P></TD>
+</TR>
+<TR>
+<TD valign="top"><P /></TD>
+<TD colspan="2" valign="top"><P>(Title of office)</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P /></TD>
+<TD colspan="2" valign="top"><P>My commission expires:</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P /></TD>
+<TD valign="top"><P /></TD>
+<TD valign="top"><P postPadding="halfline"><Leader character="dot" /></P></TD>
+</TR>
+<TR>
+<TD valign="top"><P /></TD>
+<TD valign="top"><P /></TD>
+<TD valign="top"><P postPadding="halfline">(date)</P></TD>
+</TR>
+</Table>
+<P>(2) For an acknowledgment in a representative capacity:</P>
+<P>State of .......</P>
+<P>County of .......</P>
+<P>This record was acknowledged before me on <TextRun amendingStyle="add">(date)</TextRun> by <TextRun amendingStyle="add">(name(s) of individuals)</TextRun> as <TextRun amendingStyle="add">(type of authority, such as officer or trustee)</TextRun> of <TextRun amendingStyle="add">(name of party on behalf of whom record was executed)</TextRun>.</P>
+<Table width="243.0pt" align="center" fontSize="10pt" pubwidth="narrow" vCellPadding="none">
+<Col width="121pt" />
+<Col width="14.0pt" />
+<Col width="108pt" />
+<TR>
+<TD valign="top"><P /></TD>
+<TD colspan="2" valign="top"><P><Leader character="dot" /></P></TD>
+</TR>
+<TR>
+<TD valign="top"><P /></TD>
+<TD colspan="2" valign="top"><P postPadding="halfline">(Signature of notary public)</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P postPadding="halfline">(Stamp)</P></TD>
+<TD colspan="2" valign="top"><P /></TD>
+</TR>
+<TR>
+<TD valign="top"><P /></TD>
+<TD colspan="2" valign="top"><P><Leader character="dot" /></P></TD>
+</TR>
+<TR>
+<TD valign="top"><P /></TD>
+<TD colspan="2" valign="top"><P>(Title of office)</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P /></TD>
+<TD colspan="2" valign="top"><P>My commission expires:</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P /></TD>
+<TD valign="top"><P /></TD>
+<TD valign="top"><P postPadding="halfline"><Leader character="dot" /></P></TD>
+</TR>
+<TR>
+<TD valign="top"><P /></TD>
+<TD valign="top"><P /></TD>
+<TD valign="top"><P postPadding="halfline">(date)</P></TD>
+</TR>
+</Table>
+<P>(3) For verification on oath or affirmation:</P>
+<P>State of .......</P>
+<P>County of .......</P>
+<P>Signed and sworn to (or affirmed) before me on <TextRun amendingStyle="add">(date)</TextRun> by <TextRun amendingStyle="add">(name(s) of individuals making statement)</TextRun>.</P>
+<Table width="243.0pt" align="center" fontSize="10pt" pubwidth="narrow" vCellPadding="none">
+<Col width="121pt" />
+<Col width="14.0pt" />
+<Col width="108pt" />
+<TR>
+<TD valign="top"><P /></TD>
+<TD colspan="2" valign="top"><P><Leader character="dot" /></P></TD>
+</TR>
+<TR>
+<TD valign="top"><P /></TD>
+<TD colspan="2" valign="top"><P postPadding="halfline">(Signature of notary public)</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P postPadding="halfline">(Stamp)</P></TD>
+<TD colspan="2" valign="top"><P /></TD>
+</TR>
+<TR>
+<TD valign="top"><P /></TD>
+<TD colspan="2" valign="top"><P><Leader character="dot" /></P></TD>
+</TR>
+<TR>
+<TD valign="top"><P /></TD>
+<TD colspan="2" valign="top"><P>(Title of office)</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P /></TD>
+<TD colspan="2" valign="top"><P>My commission expires:</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P /></TD>
+<TD valign="top"><P /></TD>
+<TD valign="top"><P postPadding="halfline"><Leader character="dot" /></P></TD>
+</TR>
+<TR>
+<TD valign="top"><P /></TD>
+<TD valign="top"><P /></TD>
+<TD valign="top"><P postPadding="halfline">(date)</P></TD>
+</TR>
+</Table>
+<P>(4) For witnessing or attesting a signature:</P>
+<P>State of .......</P>
+<P>County of .......</P>
+<P>Signed or attested before me on <TextRun amendingStyle="add">(date)</TextRun> by <TextRun amendingStyle="add">(name(s) of individuals)</TextRun>.</P>
+<Table width="243.0pt" align="center" fontSize="10pt" pubwidth="narrow" vCellPadding="none">
+<Col width="121pt" />
+<Col width="14.0pt" />
+<Col width="108pt" />
+<TR>
+<TD valign="top"><P /></TD>
+<TD colspan="2" valign="top"><P><Leader character="dot" /></P></TD>
+</TR>
+<TR>
+<TD valign="top"><P /></TD>
+<TD colspan="2" valign="top"><P postPadding="halfline">(Signature of notary public)</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P postPadding="halfline">(Stamp)</P></TD>
+<TD colspan="2" valign="top"><P /></TD>
+</TR>
+<TR>
+<TD valign="top"><P /></TD>
+<TD colspan="2" valign="top"><P><Leader character="dot" /></P></TD>
+</TR>
+<TR>
+<TD valign="top"><P /></TD>
+<TD colspan="2" valign="top"><P>(Title of office)</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P /></TD>
+<TD colspan="2" valign="top"><P>My commission expires:</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P /></TD>
+<TD valign="top"><P /></TD>
+<TD valign="top"><P postPadding="halfline"><Leader character="dot" /></P></TD>
+</TR>
+<TR>
+<TD valign="top"><P /></TD>
+<TD valign="top"><P /></TD>
+<TD valign="top"><P postPadding="halfline">(date)</P></TD>
+</TR>
+</Table>
+<P>(5) For certifying or attesting a copy of a record:</P>
+<P>State of .......</P>
+<P>County of .......</P>
+<P>I certify that this is a true and correct copy of a record in the possession of ........</P>
+<Table width="243.0pt" align="center" fontSize="10pt" pubwidth="narrow" vCellPadding="none">
+<Col width="121pt" />
+<Col width="14.0pt" />
+<Col width="108pt" />
+<TR>
+<TD valign="top"><P postPadding="halfline">Dated:</P></TD>
+<TD colspan="2" valign="top"><P><Leader character="dot" /></P></TD>
+</TR>
+<TR>
+<TD valign="top"><P /></TD>
+<TD colspan="2" valign="top"><P><Leader character="dot" /></P></TD>
+</TR>
+<TR>
+<TD valign="top"><P /></TD>
+<TD colspan="2" valign="top"><P postPadding="halfline">(Signature of notary public)</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P postPadding="halfline">(Stamp)</P></TD>
+<TD colspan="2" valign="top"><P /></TD>
+</TR>
+<TR>
+<TD valign="top"><P /></TD>
+<TD colspan="2" valign="top"><P><Leader character="dot" /></P></TD>
+</TR>
+<TR>
+<TD valign="top"><P /></TD>
+<TD colspan="2" valign="top"><P>(Title of office)</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P /></TD>
+<TD colspan="2" valign="top"><P>My commission expires:</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P /></TD>
+<TD valign="top"><P /></TD>
+<TD valign="top"><P postPadding="halfline"><Leader character="dot" /></P></TD>
+</TR>
+<TR>
+<TD valign="top"><P /></TD>
+<TD valign="top"><P /></TD>
+<TD valign="top"><P postPadding="halfline">(date)</P></TD>
+</TR>
+</Table>
+<History>[Signature of notary public]</History>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>17</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>OFFICIAL STAMP.</SectionCaption><P>(1) It is unlawful for any person intentionally to manufacture, give, sell, procure, or possess a seal or stamp evidencing the current appointment of a person as a notary public until the director has issued a notary commission. The official seal or stamp of a notary public must include:</P></BillSectionHeader>
+<P>(a) The words "notary public;"</P>
+<P>(b) The words "state of Washington;"</P>
+<P>(c) The notary public's name as commissioned;</P>
+<P>(d) The notary public's commission expiration date; and</P>
+<P>(e) Any other information required by the director.</P>
+<P>(2) The size and form or forms of the seal or stamp shall be prescribed by the director in rule.</P>
+<P>(3) The seal or stamp must be capable of being copied together with the record to which it is affixed or attached or with which it is logically associated.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>18</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>STAMPING DEVICE.</SectionCaption><P>(1) A notary public is responsible for the security of the notary public's stamping device and may not allow another individual to use the device to perform a notarial act. On resignation from, or the revocation or expiration of, the notary public's commission, or on the expiration of the date set forth in the stamping device, the notary public shall disable the stamping device by destroying, defacing, damaging, erasing, or securing it against use in a manner that renders it unusable. On the death or adjudication of incompetency of a notary public, the notary public's personal representative or guardian or any other person knowingly in possession of the stamping device shall render it unusable by destroying, defacing, damaging, erasing, or securing it against use in a manner that renders it unusable.</P></BillSectionHeader>
+<P>(2) If a notary public's stamping device is lost or stolen, the notary public or the notary public's personal representative or guardian shall notify promptly the commissioning officer or agency on discovering that the device is lost or stolen.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>19</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>FEES.</SectionCaption><P />(1) The director may establish by rule the maximum fees that may be charged by notaries public for various notarial services.</BillSectionHeader>
+<P>(2) A notary public need not charge fees for notarial acts.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>20</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>JOURNAL.</SectionCaption><P>(1) A notary public shall maintain a journal in which the notary public chronicles all notarial acts that the notary public performs. The notary public shall retain the journal for ten years after the performance of the last notarial act chronicled in the journal.</P> The journal is to be destroyed as required by the director in rule upon completion of the ten-year period.</BillSectionHeader>
+<P>(2) Notwithstanding any other provision of this chapter requiring a notary public to maintain a journal, a notary public who is an attorney licensed to practice law in this state is not required to chronicle a notarial act in a journal if documentation of the notarial act is otherwise maintained by professional practice.</P>
+<P>(3) A notary public shall maintain only one tangible journal at a time to chronicle notarial acts, whether those notarial acts are performed regarding tangible or electronic records. The journal must be a permanent, bound register with numbered pages. An electronic records notary public may also maintain an electronic format journal, which can be kept concurrently with the tangible journal. The electronic journal must be in a permanent, tamper-evident electronic format complying with the rules of the director.</P>
+<P>(4) An entry in a journal must be made contemporaneously with performance of the notarial act and contain the following information:</P>
+<P>(a) The date and time of the notarial act;</P>
+<P>(b) A description of the record, if any, and type of notarial act;</P>
+<P>(c) The full name and address of each individual for whom the notarial act is performed; and</P>
+<P>(d) Any additional information as required by the director in rule.</P>
+<P>(5) The journal shall be kept in a locked and secured area, under the direct and exclusive control of the notary public. Failure to secure the journal may be cause for the director to take administrative action against the commission held by the notary public. If a notary public's journal is lost or stolen, the notary public promptly shall notify the department on discovering that the journal is lost or stolen.</P>
+<P>(6) On resignation from, or the revocation or suspension of, a notary public's commission, the notary public shall retain the notary public's journal in accordance with subsection (1) of this section and inform the department where the journal is located.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>21</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>NOTIFICATION REGARDING PERFORMANCE OF NOTARIAL ACT ON ELECTRONIC RECORD<TextRun fontFamily="Times New Roman">—</TextRun>SELECTION OF TECHNOLOGY.</SectionCaption><P>(1) A notary public may not perform notarial acts with respect to electronic records unless the notary public holds a commission as an electronic records notary public.</P></BillSectionHeader>
+<P>(2) An electronic records notary public may select one or more tamper-evident technologies to perform notarial acts with respect to electronic records that meet the standards provided in subsection (4) of this section. A person cannot require an electronic records notary public to perform a notarial act with respect to an electronic record with a technology that the notary public has not selected.</P>
+<P>(3) Before an electronic records notary public performs the notary public's initial notarial act with respect to an electronic record, an electronic records notary public shall notify the department that he or she will be performing notarial acts with respect to electronic records and identify the technology the electronic records notary public intends to use.</P>
+<P>(4) The director shall establish standards for approval of technology in rule. If the technology conforms to the standards, the director shall approve the use of the technology.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>22</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>COMMISSION AS NOTARY PUBLIC<TextRun fontFamily="Times New Roman">—</TextRun>QUALIFICATIONS<TextRun fontFamily="Times New Roman">—</TextRun>NO IMMUNITY OR BENEFIT.</SectionCaption><P>(1) An individual qualified under subsection (2) of this section may apply to the director for a commission as a notary public. The applicant shall comply with and provide the information required by rules established by the director and pay any application fee.</P></BillSectionHeader>
+<P>(2) An applicant for a commission as a notary public must:</P>
+<P>(a) Be at least eighteen years of age;</P>
+<P>(b) Be a citizen or permanent legal resident of the United States;</P>
+<P>(c) Be a resident of or have a place of employment or practice in this state;</P>
+<P>(d) Be able to read and write English;</P>
+<P>(e) Not be disqualified to receive a commission under section 24 of this act; and</P>
+<P>(f) Have successfully completed a course or passed an examination required under section 23 of this act.</P>
+<P>(3) Before issuance of a commission as a notary public, an applicant for the commission shall execute an oath of office and submit it to the department in the format prescribed by the director in rule.</P>
+<P>(4) Before issuance of a commission as a notary public, the applicant for a commission shall submit to the director an assurance in the form of a surety bond in the amount established by the director in rule. The assurance must be issued by a surety or other entity licensed or authorized to write surety bonds in this state. The assurance must be effective for a four-year term or for a term that expires on the date the notary public's commission expires. The assurance must cover acts performed during the term of the notary public's commission and must be in the form prescribed by the director. If a notary public violates law with respect to notaries public in this state, the surety or issuing entity is liable under the assurance. The surety or issuing entity shall give at least thirty days notice to the department before canceling the assurance. The surety or issuing entity shall notify the department not later than thirty days after making a payment to a claimant under the assurance. A notary public may perform notarial acts in this state only during the period that a valid assurance is on file with the department.</P>
+<P>(5) On compliance with this section, the director shall issue a commission as a notary public to an applicant for a term of four years or for a term that expires on the date of expiration of the assurance, whichever comes first.</P>
+<P>(6) A commission to act as a notary public authorizes the notary public to perform notarial acts. The commission does not provide the notary public any immunity or benefit conferred by law of this state on public officials or employees.</P>
+<P>(7) An individual qualified under (a) of this subsection may apply to the director for a commission as an electronic records notary public. The applicant shall comply with and provide the information required by rules established by the director and pay the relevant application fee.</P>
+<P>(a) An applicant for a commission as an electronic records notary public must hold a commission as notary public.</P>
+<P>(b) An electronic records notary public commission may take the form of an endorsement to the notary public commission if deemed appropriate by the director.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>23</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>EXAMINATION OF NOTARY PUBLIC.</SectionCaption>The director may require an applicant for a commission or renewal of a commission as a notary public, including an applicant for a commission as an electronic records notary public, to successfully pass a course or an examination, as prescribed by the director in rule.</BillSectionHeader>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>24</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>GROUNDS TO DENY, REFUSE TO RENEW, REVOKE, SUSPEND, OR CONDITION COMMISSION OF NOTARY PUBLIC.</SectionCaption><P>(1) In addition to conduct defined as unprofessional under RCW 18.235.130, the director may take action as provided for in RCW 18.235.110 against a commission as notary public for any act or omission that demonstrates the individual lacks the honesty, integrity, competence, or reliability to act as a notary public, including:</P></BillSectionHeader>
+<P>(a) Failure to comply with this chapter;</P>
+<P>(b) A fraudulent, dishonest, or deceitful misstatement or omission in the application for a commission as a notary public submitted to the department;</P>
+<P>(c) A conviction of the applicant or notary public of any felony or crime involving fraud, dishonesty, or deceit;</P>
+<P>(d) A finding against, or admission of liability by, the applicant or notary public in any legal proceeding or disciplinary action based on the applicant's or notary public's fraud, dishonesty, or deceit;</P>
+<P>(e) Failure by the notary public to discharge any duty required of a notary public, whether by this chapter, rules of the director, or any federal or state law;</P>
+<P>(f) Use of false or misleading advertising or representation by the notary public representing that the notary public has a duty, right, or privilege that the notary public does not have;</P>
+<P>(g) Violation by the notary public of a rule of the director regarding a notary public;</P>
+<P>(h) Denial, refusal to renew, revocation, suspension, or conditioning of a notary public commission in another state;</P>
+<P>(i) Failure of the notary public to maintain an assurance as provided in section 22(4) of this act; or</P>
+<P>(j) Making or noting a protest of a negotiable instrument without being a person authorized by section 5(5) of this act.</P>
+<P>(2) If the director denies, refuses to renew, revokes, suspends, imposes conditions, or otherwise sanctions, a commission as a notary public, the applicant or notary public is entitled to timely notice and hearing in accordance with chapter 34.05 RCW.</P>
+<P>(3) The authority of the director to take disciplinary action on a commission as a notary public does not prevent a person from seeking and obtaining other criminal or civil remedies provided by law.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>25</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>DATABASE OF NOTARIES PUBLIC.</SectionCaption><P>The director shall maintain an electronic database of notaries public:</P></BillSectionHeader>
+<P>(1) Through which a person may verify the authority of a notary public to perform notarial acts; and</P>
+<P>(2) Which indicates whether a notary public has notified the director that the notary public will be performing notarial acts on electronic records.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>26</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>PROHIBITED ACTS.</SectionCaption><P>(1) A commission as a notary public does not authorize an individual to:</P></BillSectionHeader>
+<P>(a) Assist persons in drafting legal records, give legal advice, or otherwise practice law;</P>
+<P>(b) Act as an immigration consultant or an expert on immigration matters;</P>
+<P>(c) Represent a person in a judicial or administrative proceeding relating to immigration to the United States, United States citizenship, or related matters; or</P>
+<P>(d) Receive compensation for performing any of the activities listed in this subsection.</P>
+<P>(2) A notary public may not engage in false or deceptive advertising.</P>
+<P>(3) A notary public, other than an attorney licensed to practice law in this state, may not use the term "notario" or "notario publico."</P>
+<P>(4) A notary public, other than an attorney licensed to practice law in this state, may not assist another person in selecting the appropriate certificate required by section 15 of this act.</P>
+<P>(5) A notary public, other than an attorney licensed to practice law in this state, may not advertise or represent that the notary public may assist persons in drafting legal records, give legal advice, or otherwise practice law. If a notary public who is not an attorney licensed to practice law in this state in any manner advertises or represents that the notary public offers notarial services, whether orally or in a record, including broadcast media, print media, and the internet, the notary public shall include the following statement, or an alternate statement authorized or required by the director, in the advertisement or representation, prominently and in each language used in the advertisement or representation: "I am not an attorney licensed to practice law in this state. I am not allowed to draft legal records, give advice on legal matters, including immigration, or charge a fee for those activities." If the form of advertisement or representation is not broadcast media, print media, or the internet and does not permit inclusion of the statement required by this subsection because of size, it must be displayed prominently or provided at the place of performance of the notarial act before the notarial act is performed.</P>
+<P>(6) Except as otherwise allowed by law, a notary public may not withhold access to or possession of an original record provided by a person that seeks performance of a notarial act by the notary public. A notary public may not maintain copies or electronic images of documents notarized unless the copies or images are maintained by an attorney for the performance of legal services or for other services performed for the client and the copies or images are not maintained solely as part of the notary transaction.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>27</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>VALIDITY OF NOTARIAL ACTS.</SectionCaption><P>Except as otherwise provided in section 4(2) of this act, the failure of a notarial officer to perform a duty or meet a requirement specified in this chapter does not invalidate a notarial act performed by the notarial officer. The validity of a notarial act under this chapter does not prevent an aggrieved person from seeking to invalidate the record or transaction that is the subject of the notarial act or from seeking other remedies based on law of this state other than this chapter or law of the United States. This section does not validate a purported notarial act performed by an individual who does not have the authority to perform notarial acts.</P> Nothing in this act gives the director authority to invalidate a notarial act.</BillSectionHeader>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>28</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>RULES.</SectionCaption><P>(1) The director may adopt rules necessary to implement this chapter.</P></BillSectionHeader>
+<P>(2) In adopting, amending, or repealing rules about notarial acts with respect to electronic records, the director shall consider standards, practices, and customs of other jurisdictions that substantially enact this chapter.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>29</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>NOTARY PUBLIC COMMISSION IN EFFECT.</SectionCaption><P>A commission as a notary public in effect on the effective date of this section continues until its date of expiration. A notary public who applies to renew a commission as a notary public on or after the effective date of this section is subject to and shall comply with this chapter. A notary public, in performing notarial acts after the effective date of this section, shall comply with this chapter.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>30</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>SAVINGS CLAUSE.</SectionCaption><P>This chapter does not affect the validity or effect of a notarial act performed before the effective date of this section.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>31</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>UNIFORMITY OF APPLICATION AND CONSTRUCTION.</SectionCaption><P>In applying and construing this uniform act, consideration must be given to the need to promote uniformity of the law with respect to its subject matter among states that enact it.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>32</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>RELATION TO ELECTRONIC SIGNATURES IN GLOBAL AND NATIONAL COMMERCE ACT.</SectionCaption><P>This chapter modifies, limits, and supersedes the electronic signatures in global and national commerce act, 15 U.S.C. Sec. 7001 et seq., but does not modify, limit, or supersede section 101(c) of that act, 15 U.S.C. Sec. 7001(c), or authorize electronic delivery of any of the notices described in section 103(b) of that act, 15 U.S.C. Sec. 7003(b).</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>33</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>UNIFORM REGULATION OF BUSINESS AND PROFESSIONS ACT.</SectionCaption><P />The uniform regulation of business and professions act, chapter 18.235 RCW, governs unlicensed practice, the issuance and denial of licenses, and the discipline of licensees under this chapter.</BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addchap" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>34</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>NEW CHAPTER.</SectionCaption><P>Sections 1 through 33 and 45 of this act constitute a new chapter in <TitleCite><TextRun>Title </TextRun><TitleNumber>42</TitleNumber><TextRun> RCW</TextRun></TitleCite>.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="repeal">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>35</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>REPEALS.</SectionCaption><P>The following acts or parts of acts are each repealed:</P></BillSectionHeader>
+<P><RepealNumber>1</RepealNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>42</TitleNumber><TextRun>.</TextRun><ChapterNumber>44</ChapterNumber><TextRun>.</TextRun><SectionNumber>010</SectionNumber></SectionCite> (Definitions) and 1985 c 156 s 1;</P>
+<P><RepealNumber>2</RepealNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>42</TitleNumber><TextRun>.</TextRun><ChapterNumber>44</ChapterNumber><TextRun>.</TextRun><SectionNumber>020</SectionNumber></SectionCite> (Qualifications<TextRun fontFamily="Times New Roman">—</TextRun>Application<TextRun fontFamily="Times New Roman">—</TextRun>Bond) and 1985 c 156 s 2;</P>
+<P><RepealNumber>3</RepealNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>42</TitleNumber><TextRun>.</TextRun><ChapterNumber>44</ChapterNumber><TextRun>.</TextRun><SectionNumber>030</SectionNumber></SectionCite> (Appointment<TextRun fontFamily="Times New Roman">—</TextRun>Denial for unprofessional conduct<TextRun fontFamily="Times New Roman">—</TextRun>Certificate of appointment) and 2011 c 244 s 6, 2002 c 86 s 287, &amp; 1985 c 156 s 3;</P>
+<P><RepealNumber>4</RepealNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>42</TitleNumber><TextRun>.</TextRun><ChapterNumber>44</ChapterNumber><TextRun>.</TextRun><SectionNumber>050</SectionNumber></SectionCite> (Seal or stamp) and 1985 c 156 s 5;</P>
+<P><RepealNumber>5</RepealNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>42</TitleNumber><TextRun>.</TextRun><ChapterNumber>44</ChapterNumber><TextRun>.</TextRun><SectionNumber>060</SectionNumber></SectionCite> (Term) and 2002 c 86 s 288 &amp; 1985 c 156 s 6;</P>
+<P><RepealNumber>6</RepealNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>42</TitleNumber><TextRun>.</TextRun><ChapterNumber>44</ChapterNumber><TextRun>.</TextRun><SectionNumber>070</SectionNumber></SectionCite> (Reappointment without endorsements) and 1985 c 156 s 7;</P>
+<P><RepealNumber>7</RepealNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>42</TitleNumber><TextRun>.</TextRun><ChapterNumber>44</ChapterNumber><TextRun>.</TextRun><SectionNumber>080</SectionNumber></SectionCite> (Standards for notarial acts) and 1987 c 76 s 3 &amp; 1985 c 156 s 8;</P>
+<P><RepealNumber>8</RepealNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>42</TitleNumber><TextRun>.</TextRun><ChapterNumber>44</ChapterNumber><TextRun>.</TextRun><SectionNumber>090</SectionNumber></SectionCite> (Form of certificate<TextRun fontFamily="Times New Roman">—</TextRun>General<TextRun fontFamily="Times New Roman">—</TextRun>Seal or stamp as exclusive property) and 1985 c 156 s 9;</P>
+<P><RepealNumber>9</RepealNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>42</TitleNumber><TextRun>.</TextRun><ChapterNumber>44</ChapterNumber><TextRun>.</TextRun><SectionNumber>100</SectionNumber></SectionCite> (Short forms of certificate) and 1988 c 69 s 4 &amp; 1985 c 156 s 10;</P>
+<P><RepealNumber>10</RepealNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>42</TitleNumber><TextRun>.</TextRun><ChapterNumber>44</ChapterNumber><TextRun>.</TextRun><SectionNumber>110</SectionNumber></SectionCite> (Illegible writing) and 1985 c 156 s 11;</P>
+<P><RepealNumber>11</RepealNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>42</TitleNumber><TextRun>.</TextRun><ChapterNumber>44</ChapterNumber><TextRun>.</TextRun><SectionNumber>120</SectionNumber></SectionCite> (Fees) and 1985 c 156 s 12;</P>
+<P><RepealNumber>12</RepealNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>42</TitleNumber><TextRun>.</TextRun><ChapterNumber>44</ChapterNumber><TextRun>.</TextRun><SectionNumber>130</SectionNumber></SectionCite> (Notarial acts by officials of other jurisdictions) and 1985 c 156 s 13;</P>
+<P><RepealNumber>13</RepealNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>42</TitleNumber><TextRun>.</TextRun><ChapterNumber>44</ChapterNumber><TextRun>.</TextRun><SectionNumber>140</SectionNumber></SectionCite> (Notarial acts by federal authorities) and 1985 c 156 s 14;</P>
+<P><RepealNumber>14</RepealNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>42</TitleNumber><TextRun>.</TextRun><ChapterNumber>44</ChapterNumber><TextRun>.</TextRun><SectionNumber>150</SectionNumber></SectionCite> (Notarial acts by foreign authorities) and 1985 c 156 s 15;</P>
+<P><RepealNumber>15</RepealNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>42</TitleNumber><TextRun>.</TextRun><ChapterNumber>44</ChapterNumber><TextRun>.</TextRun><SectionNumber>160</SectionNumber></SectionCite> (Official misconduct<TextRun fontFamily="Times New Roman">—</TextRun>Penalty) and 2002 c 86 s 289 &amp; 1985 c 156 s 16;</P>
+<P><RepealNumber>16</RepealNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>42</TitleNumber><TextRun>.</TextRun><ChapterNumber>44</ChapterNumber><TextRun>.</TextRun><SectionNumber>170</SectionNumber></SectionCite> (Revocation of appointment<TextRun fontFamily="Times New Roman">—</TextRun>Resignation) and 2002 c 86 s 290 &amp; 1985 c 156 s 17;</P>
+<P><RepealNumber>17</RepealNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>42</TitleNumber><TextRun>.</TextRun><ChapterNumber>44</ChapterNumber><TextRun>.</TextRun><SectionNumber>180</SectionNumber></SectionCite> (Evidence of authenticity of notarial seal and signature) and 1985 c 156 s 18;</P>
+<P><RepealNumber>18</RepealNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>42</TitleNumber><TextRun>.</TextRun><ChapterNumber>44</ChapterNumber><TextRun>.</TextRun><SectionNumber>190</SectionNumber></SectionCite> (Rules) and 2002 c 86 s 291 &amp; 1985 c 156 s 20;</P>
+<P><RepealNumber>19</RepealNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>42</TitleNumber><TextRun>.</TextRun><ChapterNumber>44</ChapterNumber><TextRun>.</TextRun><SectionNumber>200</SectionNumber></SectionCite> (Transfer of records) and 1985 c 156 s 22;</P>
+<P><RepealNumber>20</RepealNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>42</TitleNumber><TextRun>.</TextRun><ChapterNumber>44</ChapterNumber><TextRun>.</TextRun><SectionNumber>210</SectionNumber></SectionCite> (Uniform regulation of business and professions act) and 2002 c 86 s 292;</P>
+<P><RepealNumber>21</RepealNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>42</TitleNumber><TextRun>.</TextRun><ChapterNumber>44</ChapterNumber><TextRun>.</TextRun><SectionNumber>220</SectionNumber></SectionCite> (Military training or experience) and 2011 c 351 s 18;</P>
+<P><RepealNumber>22</RepealNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>42</TitleNumber><TextRun>.</TextRun><ChapterNumber>44</ChapterNumber><TextRun>.</TextRun><SectionNumber>221</SectionNumber></SectionCite> (Spouses of military personnel<TextRun fontFamily="Times New Roman">—</TextRun>Appointment) and 2011 2nd sp.s. c 5 s 7;</P>
+<P><RepealNumber>23</RepealNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>42</TitleNumber><TextRun>.</TextRun><ChapterNumber>44</ChapterNumber><TextRun>.</TextRun><SectionNumber>900</SectionNumber></SectionCite> (Savings<TextRun fontFamily="Times New Roman">—</TextRun>1985 c 156) and 1985 c 156 s 21;</P>
+<P><RepealNumber>24</RepealNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>42</TitleNumber><TextRun>.</TextRun><ChapterNumber>44</ChapterNumber><TextRun>.</TextRun><SectionNumber>901</SectionNumber></SectionCite> (Construction) and 1985 c 156 s 23; and</P>
+<P><RepealNumber>25</RepealNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>42</TitleNumber><TextRun>.</TextRun><ChapterNumber>44</ChapterNumber><TextRun>.</TextRun><SectionNumber>903</SectionNumber></SectionCite> (Effective date<TextRun fontFamily="Times New Roman">—</TextRun>1985 c 156) and 1985 c 156 s 27.</P>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>36</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>9</TitleNumber><TextRun>.</TextRun><ChapterNumber>97</ChapterNumber><TextRun>.</TextRun><SectionNumber>020</SectionNumber></SectionCite> and 2016 c 81 s 3 are each amended to read as follows:<Caption>Certificate of restoration of opportunity<TextRun fontFamily="Times New Roman">—</TextRun>Qualified applicants<TextRun fontFamily="Times New Roman">—</TextRun>States, counties, municipal departments, boards, officers, or agencies authorized may not disqualify<TextRun fontFamily="Times New Roman">—</TextRun>Exceptions<TextRun fontFamily="Times New Roman">—</TextRun>Immunity<TextRun fontFamily="Times New Roman">—</TextRun>Qualified courts have jurisdiction to issue certificates<TextRun fontFamily="Times New Roman">—</TextRun>Employers, housing providers<TextRun fontFamily="Times New Roman">—</TextRun>Department of social and health services<TextRun fontFamily="Times New Roman">—</TextRun>Washington state patrol<TextRun fontFamily="Times New Roman">—</TextRun>Court records<TextRun fontFamily="Times New Roman">—</TextRun>Judicial proceedings<TextRun fontFamily="Times New Roman">—</TextRun>Department of health<TextRun fontFamily="Times New Roman">—</TextRun>Notice by applicant<TextRun fontFamily="Times New Roman">—</TextRun>Certain superior courts may decline to consider applications<TextRun fontFamily="Times New Roman">—</TextRun>Certificate transmittal<TextRun fontFamily="Times New Roman">—</TextRun>Duties of administrative office of the courts.</Caption></BillSectionHeader>
+<P>(1) Except as provided in this section, no state, county, or municipal department, board, officer, or agency authorized to assess the qualifications of any applicant for a license, certificate of authority, qualification to engage in the practice of a profession or business, or for admission to an examination to qualify for such a license or certificate may disqualify a qualified applicant, solely based on the applicant's criminal history, if the qualified applicant has obtained a certificate of restoration of opportunity and the applicant meets all other statutory and regulatory requirements, except as required by federal law or exempted under this subsection. Nothing in this section is interpreted as restoring or creating a means to restore any firearms rights or eligibility to obtain a firearm dealer license pursuant to RCW 9.41.110 or requiring the removal of a protection order.</P>
+<P>(a)(i) Criminal justice agencies, as defined in RCW 10.97.030, and the Washington state bar association are exempt from this section.</P>
+<P>(ii) This section does not apply to the licensing, certification, or qualification of the following professionals: Accountants, RCW 18.04.295; assisted living facilities employees, RCW 18.20.125; bail bond agents, RCW 18.185.020; escrow agents, RCW 18.44.241; long-term care workers, RCW 18.88B.080; nursing home administrators, RCW 18.52.071; nursing, chapter 18.79 RCW; physicians and physician assistants, chapters 18.71 and 18.71A RCW; private investigators, RCW 18.165.030; receivers, RCW 7.60.035; teachers, chapters 28A.405 and 28A.410 RCW; notaries public, chapter <TextRun amendingStyle="strike">42.44 RCW</TextRun> <TextRun amendingStyle="add">42.--- RCW (the new chapter created in section 34 of this act)</TextRun>; private investigators, chapter 18.165 RCW; real estate brokers and salespersons, chapters 18.85 and 18.86 RCW; security guards, chapter 18.170 RCW; and vulnerable adult care providers, RCW 43.43.842.</P>
+<P>(iii) To the extent this section conflicts with the requirements for receipt of federal funding under the adoption and safe families act, 42 U.S.C. Sec. 671, this section does not apply.</P>
+<P>(b) Unless otherwise addressed in statute, in cases where an applicant would be disqualified under RCW 43.20A.710, and the applicant has obtained a certificate of restoration of opportunity, the department of social and health services may, after review of relevant factors, including the nature and seriousness of the offense, time that has passed since conviction, changed circumstances since the offense occurred, and the nature of the employment or license sought, at its discretion:</P>
+<P>(i) Allow the applicant to have unsupervised access to children, vulnerable adults, or individuals with mental illness or developmental disabilities if the applicant is otherwise qualified and suitable; or</P>
+<P>(ii) Disqualify the applicant solely based on the applicant's criminal history.</P>
+<P>(c) If the practice of a profession or business involves unsupervised contact with vulnerable adults, children, or individuals with mental illness or developmental disabilities, or populations otherwise defined by statute as vulnerable, the department of health may, after review of relevant factors, including the nature and seriousness of the offense, time that has passed since conviction, changed circumstances since the offense occurred, and the nature of the employment or license sought, at its discretion:</P>
+<P>(i) Disqualify an applicant who has obtained a certificate of restoration of opportunity, for a license, certification, or registration to engage in the practice of a health care profession or business solely based on the applicant's criminal history; or</P>
+<P>(ii) If such applicant is otherwise qualified and suitable, credential or credential with conditions an applicant who has obtained a certificate of restoration of opportunity for a license, certification, or registration to engage in the practice of a health care profession or business.</P>
+<P>(d) The state of Washington, any of its counties, cities, towns, municipal corporations, or quasi-municipal corporations, the department of health, and its officers, employees, contractors, and agents are immune from suit in law, equity, or any action under the administrative procedure act based upon its exercise of discretion under this section. This section does not create a protected class; private right of action; any right, privilege, or duty; or change to any right, privilege, or duty existing under law. This section does not modify a licensing or certification applicant's right to a review of an agency's decision under the administrative procedure act or other applicable statute or agency rule. A certificate of restoration of opportunity does not remove or alter citizenship or legal residency requirements already in place for state agencies and employers.</P>
+<P>(2) A qualified court has jurisdiction to issue a certificate of restoration of opportunity to a qualified applicant. </P>
+<P>(a) A court must determine, in its discretion whether the certificate:</P>
+<P>(i) Applies to all past criminal history; or</P>
+<P>(ii) Applies only to the convictions or adjudications in the jurisdiction of the court.</P>
+<P>(b) The certificate does not apply to any future criminal justice involvement that occurs after the certificate is issued.</P>
+<P>(c) A court must determine whether to issue a certificate by determining whether the applicant is a qualified applicant as defined in RCW 9.97.010.</P>
+<P>(3) An employer or housing provider may, in its sole discretion, determine whether to consider a certificate of restoration of opportunity issued under this chapter in making employment or rental decisions. An employer or housing provider is immune from suit in law, equity, or under the administrative procedure act for damages based upon its exercise of discretion under this section or the refusal to exercise such discretion. In any action at law against an employer or housing provider arising out of the employment of or provision of housing to the recipient of a certificate of restoration of opportunity, evidence of the crime for which a certificate of restoration of opportunity has been issued may not be introduced as evidence of negligence or intentionally tortious conduct on the part of the employer or housing provider. This subsection does not create a protected class, private right of action, any right, privilege, or duty, or to change any right, privilege, or duty existing under law related to employment or housing except as provided in RCW 7.60.035.</P>
+<P>(4)(a) Department of social and health services: A certificate of restoration of opportunity does not apply to the state abuse and neglect registry. No finding of abuse, neglect, or misappropriation of property may be removed from the registry based solely on a certificate. The department must include such certificates as part of its criminal history record reports, qualifying letters, or other assessments pursuant to RCW 43.43.830 through 43.43.838. The department shall adopt rules to implement this subsection.</P>
+<P>(b) Washington state patrol: The Washington state patrol is not required to remove any records based solely on a certificate of restoration of opportunity. The state patrol must include a certificate as part of its criminal history record report.</P>
+<P>(c) Court records:</P>
+<P>(i) A certificate of restoration of opportunity has no effect on any other court records, including records in the judicial information system. The court records related to a certificate of restoration of opportunity must be processed and recorded in the same manner as any other record.</P>
+<P>(ii) The qualified court where the applicant seeks the certificate of restoration of opportunity must administer the court records regarding the certificate in the same manner as it does regarding all other proceedings.</P>
+<P>(d) Effect in other judicial proceedings: A certificate of restoration of opportunity may only be submitted to a court to demonstrate that the individual met the specific requirements of this section and not for any other procedure, including evidence of character, reputation, or conduct. A certificate is not an equivalent procedure under Rule of Evidence 609(c).</P>
+<P>(e) Department of health: The department of health must include a certificate of restoration of opportunity on its public web site if:</P>
+<P>(i) Its web site includes an order, stipulation to informal disposition, or notice of decision related to the conviction identified in the certificate of restoration of opportunity; and</P>
+<P>(ii) The credential holder has provided a certified copy of the certificate of restoration of opportunity to the department of health.</P>
+<P>(5) In all cases, an applicant must provide notice to the prosecutor in the county where he or she seeks a certificate of restoration of opportunity of the pendency of such application. If the applicant has been sentenced by any other jurisdiction in the five years preceding the application for a certificate, the applicant must also notify the prosecuting attorney in those jurisdictions. The prosecutor in the county where an applicant applies for a certificate shall provide the court with a report of the applicant's criminal history.</P>
+<P>(6) Application for a certificate of restoration of opportunity must be filed as a civil action.</P>
+<P>(7) A superior court in the county in which the applicant resides may decline to consider the application for certificate of restoration of opportunity. If the superior court in which the applicant resides declines to consider the application, the court must dismiss the application without prejudice and the applicant may refile the application in another qualified court. The court must state the reason for the dismissal on the order. If the court determines that the applicant does not meet the required qualifications, then the court must dismiss the application without prejudice and state the reason(s) on the order. The superior court in the county of the applicant's conviction or adjudication may not decline to consider the application.</P>
+<P>(8) Unless the qualified court determines that a hearing on an application for certificate of restoration is necessary, the court must decide without a hearing whether to grant the certificate of restoration of opportunity based on a review of the application filed by the applicant and pleadings filed by the prosecuting attorney.</P>
+<P>(9) The clerk of the court in which the certificate of restoration of opportunity is granted shall transmit the certificate of restoration of opportunity to the Washington state patrol identification section, which holds criminal history information for the person who is the subject of the conviction. The Washington state patrol shall update its records to reflect the certificate of restoration of opportunity.</P>
+<P>(10)(a) The administrative office of the courts shall develop and prepare instructions, forms, and an informational brochure designed to assist applicants applying for a certificate of restoration of opportunity.</P>
+<P>(b) The instructions must include, at least, a sample of a standard application and a form order for a certificate of restoration of opportunity.</P>
+<P>(c) The administrative office of the courts shall distribute a master copy of the instructions, informational brochure, and sample application and form order to all county clerks and a master copy of the application and order to all superior courts by January 1, 2017.</P>
+<P>(d) The administrative office of the courts shall determine the significant non-English-speaking or limited English-speaking populations in the state. The administrator shall then arrange for translation of the instructions, which shall contain a sample of the standard application and order, and the informational brochure into languages spoken by those significant non-English-speaking populations and shall distribute a master copy of the translated instructions and informational brochures to the county clerks by January 1, 2017.</P>
+<P>(e) The administrative office of the courts shall update the instructions, brochures, standard application and order, and translations when changes in the law make an update necessary.</P>
+<History>2016 c 81 § 3.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Finding<TextRun fontFamily="Times New Roman">—</TextRun>Conflict with federal requirements<TextRun fontFamily="Times New Roman">—</TextRun>2016 c 81:</TextRun> See notes following RCW 9.97.010.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>37</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>18</TitleNumber><TextRun>.</TextRun><ChapterNumber>235</ChapterNumber><TextRun>.</TextRun><SectionNumber>010</SectionNumber></SectionCite> and 2007 c 256 s 11 are each amended to read as follows:<Caption>Definitions.</Caption></BillSectionHeader>
+<P>The definitions in this section apply throughout this chapter unless the context clearly requires otherwise.</P>
+<P>(1) "Board" means those boards specified in RCW 18.235.020(2)(b).</P>
+<P>(2) "Department" means the department of licensing.</P>
+<P>(3) "Director" means the director of the department or director's designee.</P>
+<P>(4) "Disciplinary action" means sanctions identified in RCW 18.235.110.</P>
+<P>(5) "Disciplinary authority" means the director, board, or commission having the authority to take disciplinary action against a holder of, or applicant for, a professional or business license upon a finding of a violation of this chapter or a chapter specified under RCW 18.235.020.</P>
+<P>(6) "License," "licensing," and "licensure" are deemed equivalent to the terms "license," "licensing," "licensure," "certificate," "certification," and "registration" as those terms are defined in RCW 18.118.020. Each of these terms, and the term <TextRun amendingStyle="strike">"appointment"</TextRun> <TextRun amendingStyle="add">"commission"</TextRun> under chapter <TextRun amendingStyle="strike">42.44 RCW</TextRun> <TextRun amendingStyle="add">42.--- RCW (the new chapter created in section 34 of this act)</TextRun>, are interchangeable under the provisions of this chapter.</P>
+<P>(7) "Unlicensed practice" means:</P>
+<P>(a) Practicing a profession or operating a business identified in RCW 18.235.020 without holding a valid, unexpired, unrevoked, and unsuspended license to do so; or</P>
+<P>(b) Representing to a person, through offerings, advertisements, or use of a professional title or designation, that the individual or business is qualified to practice a profession or operate a business identified in RCW 18.235.020 without holding a valid, unexpired, unrevoked, and unsuspended license to do so.</P>
+<History>2007 c 256 § 11; 2002 c 86 § 102.</History>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>38</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>18</TitleNumber><TextRun>.</TextRun><ChapterNumber>235</ChapterNumber><TextRun>.</TextRun><SectionNumber>020</SectionNumber></SectionCite> and 2013 c 322 s 29 are each amended to read as follows:<Caption>Application of chapter<TextRun fontFamily="Times New Roman">—</TextRun>Director's authority<TextRun fontFamily="Times New Roman">—</TextRun>Disciplinary authority.</Caption></BillSectionHeader>
+<P>(1) This chapter applies only to the director and the boards and commissions having jurisdiction in relation to the businesses and professions licensed under the chapters specified in this section. This chapter does not apply to any business or profession not licensed under the chapters specified in this section.</P>
+<P>(2)(a) The director has authority under this chapter in relation to the following businesses and professions:</P>
+<P>(i) Auctioneers under chapter 18.11 RCW;</P>
+<P>(ii) Bail bond agents and bail bond recovery agents under chapter 18.185 RCW;</P>
+<P>(iii) Camping resorts' operators and salespersons under chapter 19.105 RCW;</P>
+<P>(iv) Commercial telephone solicitors under chapter 19.158 RCW;</P>
+<P>(v) Cosmetologists, barbers, manicurists, and estheticians under chapter 18.16 RCW;</P>
+<P>(vi) Court reporters under chapter 18.145 RCW;</P>
+<P>(vii) Driver training schools and instructors under chapter 46.82 RCW;</P>
+<P>(viii) Employment agencies under chapter 19.31 RCW;</P>
+<P>(ix) For hire vehicle operators under chapter 46.72 RCW;</P>
+<P>(x) Limousines under chapter 46.72A RCW;</P>
+<P>(xi) Notaries public under chapter <TextRun amendingStyle="strike">42.44 RCW</TextRun> <TextRun amendingStyle="add">42.--- RCW (the new chapter created in section 34 of this act)</TextRun>;</P>
+<P>(xii) Private investigators under chapter 18.165 RCW;</P>
+<P>(xiii) Professional boxing, martial arts, and wrestling under chapter 67.08 RCW;</P>
+<P>(xiv) Real estate appraisers under chapter 18.140 RCW;</P>
+<P>(xv) Real estate brokers and salespersons under chapters 18.85 and 18.86 RCW;</P>
+<P>(xvi) Scrap metal processors, scrap metal recyclers, and scrap metal suppliers under chapter 19.290 RCW;</P>
+<P>(xvii) Security guards under chapter 18.170 RCW;</P>
+<P>(xviii) Sellers of travel under chapter 19.138 RCW;</P>
+<P>(xix) Timeshares and timeshare salespersons under chapter 64.36 RCW;</P>
+<P>(xx) Whitewater river outfitters under chapter 79A.60 RCW;</P>
+<P>(xxi) Home inspectors under chapter 18.280 RCW;</P>
+<P>(xxii) Body artists, body piercers, and tattoo artists, and body art, body piercing, and tattooing shops and businesses, under chapter 18.300 RCW; and</P>
+<P>(xxiii) Appraisal management companies under chapter 18.310 RCW.</P>
+<P>(b) The boards and commissions having authority under this chapter are as follows:</P>
+<P>(i) The state board for architects established in chapter 18.08 RCW;</P>
+<P>(ii) The Washington state collection agency board established in chapter 19.16 RCW;</P>
+<P>(iii) The state board of registration for professional engineers and land surveyors established in chapter 18.43 RCW governing licenses issued under chapters 18.43 and 18.210 RCW;</P>
+<P>(iv) The funeral and cemetery board established in chapter 18.39 RCW governing licenses issued under chapters 18.39 and 68.05 RCW;</P>
+<P>(v) The state board of licensure for landscape architects established in chapter 18.96 RCW; and</P>
+<P>(vi) The state geologist licensing board established in chapter 18.220 RCW.</P>
+<P>(3) In addition to the authority to discipline license holders, the disciplinary authority may grant or deny licenses based on the conditions and criteria established in this chapter and the chapters specified in subsection (2) of this section. This chapter also governs any investigation, hearing, or proceeding relating to denial of licensure or issuance of a license conditioned on the applicant's compliance with an order entered under RCW 18.235.110 by the disciplinary authority.</P>
+<History>2013 c 322 § 29; 2010 c 179 § 18. Prior: 2009 c 412 § 22; 2009 c 370 § 20; 2009 c 102 § 5; 2008 c 119 § 21; 2007 c 256 § 12; 2006 c 219 § 13; 2002 c 86 § 103.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2010 c 179:</TextRun> See RCW 18.310.901.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Short title<TextRun fontFamily="Times New Roman">—</TextRun>Implementation<TextRun fontFamily="Times New Roman">—</TextRun>2009 c 412:</TextRun> See RCW 18.300.900 and 18.300.902.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2009 c 370 §§ 1-16, 18, 20, and 21:</TextRun> See note following RCW 18.96.010.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Finding<TextRun fontFamily="Times New Roman">—</TextRun>2009 c 370:</TextRun> See note following RCW 18.96.010.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Funeral directors and embalmers account and cemetery account abolished, moneys transferred to funeral and cemetery account<TextRun fontFamily="Times New Roman">—</TextRun>2009 c 102:</TextRun> See note following RCW 18.39.810.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2006 c 219:</TextRun> See note following RCW 46.82.285.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>39</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>19</TitleNumber><TextRun>.</TextRun><ChapterNumber>34</ChapterNumber><TextRun>.</TextRun><SectionNumber>340</SectionNumber></SectionCite> and 1997 c 27 s 21 are each amended to read as follows:<Caption>Certificate as acknowledgment<TextRun fontFamily="Times New Roman">—</TextRun>Requirements<TextRun fontFamily="Times New Roman">—</TextRun>Exception<TextRun fontFamily="Times New Roman">—</TextRun>Responsibility of certification authority.</Caption></BillSectionHeader>
+<P>(1) Unless otherwise provided by law or contract, if so provided in the certificate issued by a licensed certification authority, a digital signature verified by reference to the public key listed in a valid certificate issued by a licensed certification authority satisfies the requirements for an acknowledgment under <TextRun amendingStyle="strike">RCW 42.44.010(4)</TextRun> <TextRun amendingStyle="add">section 2(1) of this act</TextRun> and for acknowledgment of deeds and other real property conveyances under RCW 64.04.020 if words of an express acknowledgment appear with the digital signature regardless of whether the signer personally appeared before either the certification authority or some other person authorized to take acknowledgments of deeds, mortgages, or other conveyance instruments under RCW 64.08.010 when the digital signature was created, if that digital signature is:</P>
+<P>(a) Verifiable by that certificate; and</P>
+<P>(b) Affixed when that certificate was valid.</P>
+<P>(2) If the digital signature is used as an acknowledgment, then the certification authority is responsible to the same extent as a notary up to the recommended reliance limit for failure to satisfy the requirements for an acknowledgment. The certification authority may not disclaim or limit, other than as provided in RCW 19.34.280, the effect of this section.</P>
+<History>1997 c 27 § 21; 1996 c 250 § 405.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>Severability<TextRun fontFamily="Times New Roman">—</TextRun>1997 c 27:</TextRun> See notes following RCW 19.34.030.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>40</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>19</TitleNumber><TextRun>.</TextRun><ChapterNumber>154</ChapterNumber><TextRun>.</TextRun><SectionNumber>060</SectionNumber></SectionCite> and 2011 c 244 s 3 are each amended to read as follows:<Caption>Prohibited practices<TextRun fontFamily="Times New Roman">—</TextRun>Assistance with immigration matters.</Caption></BillSectionHeader>
+<P>(1) Persons, other than those licensed to practice law in this state or otherwise permitted to practice law or represent others under federal law in an immigration matter, are prohibited from engaging in the practice of law in an immigration matter for compensation.</P>
+<P>(2) Persons, other than those licensed to practice law in this state or otherwise permitted to practice law or represent others under federal law in an immigration matter, are prohibited from engaging in the following acts or practices, for compensation:</P>
+<P>(a) Advising or assisting another person in determining the person's legal or illegal status for the purpose of an immigration matter;</P>
+<P>(b) Selecting or assisting another in selecting, or advising another as to his or her answers on, a government agency form or document in an immigration matter;</P>
+<P>(c) Selecting or assisting another in selecting, or advising another in selecting, a benefit, visa, or program to apply for in an immigration matter;</P>
+<P>(d) Soliciting to prepare documents for, or otherwise representing the interests of, another in a judicial or administrative proceeding in an immigration matter;</P>
+<P>(e) Explaining, advising, or otherwise interpreting the meaning or intent of a question on a government agency form in an immigration matter;</P>
+<P>(f) Charging a fee for referring another to a person licensed to practice law;</P>
+<P>(g) Selecting, drafting, or completing legal documents affecting the legal rights of another in an immigration matter.</P>
+<P>(3) Persons, other than those holding an active license to practice law issued by the Washington state bar association or otherwise permitted to practice law or represent others under federal law in an immigration matter, are prohibited from engaging in the following acts or practices, regardless of whether compensation is sought:</P>
+<P>(a) Representing, either orally or in any document, letterhead, advertisement, stationery, business card, web site, or other comparable written material, that he or she is a notario publico, notario, immigration assistant, immigration consultant, immigration specialist, or using any other designation or title, in any language, that conveys or implies that he or she possesses professional legal skills in the area of immigration law;</P>
+<P>(b) Representing, in any language, either orally or in any document, letterhead, advertisement, stationery, business card, web site, or other comparable written material, that he or she can or is willing to provide services in an immigration matter, if such services would constitute the practice of law.</P>
+<P>(4)(a) The prohibitions of subsections (1) through (3) of this section shall not apply to the activities of nonlawyer assistants acting under the supervision of a person holding an active license to practice law issued by the Washington state bar association or otherwise permitted to practice law or represent others under federal law in an immigration matter.</P>
+<P>(b) This section does not prohibit a person from offering translation services, regardless of whether compensation is sought. Translating words contained on a government form from English to another language and translating a person's words from another language to English does not constitute the unauthorized practice of law.</P>
+<P>(5) In addition to complying with the prohibitions of subsections (1) through (3) of this section, persons licensed as a notary public under chapter <TextRun amendingStyle="strike">42.44 RCW</TextRun> <TextRun amendingStyle="add">42.--- RCW (the new chapter created in section 34 of this act)</TextRun> who do not hold an active license to practice law issued by the Washington state bar association shall not use the term notario publico, notario, immigration assistant, immigration consultant, immigration specialist, or any other designation or title, in any language, that conveys or implies that he or she possesses professional legal skills in the areas of immigration law, when advertising notary public services in the conduct of their business. A violation of any provision of this chapter by a person licensed as a notary public under chapter <TextRun amendingStyle="strike">42.44 RCW</TextRun> <TextRun amendingStyle="add">42.--- RCW (the new chapter created in section 34 of this act)</TextRun> shall constitute unprofessional conduct under the uniform regulation of business and professions act, chapter 18.235 RCW.</P>
+<History>2011 c 244 § 3; 1989 c 117 § 6.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2011 c 244:</TextRun> See note following RCW 19.154.010.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>41</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>24</ChapterNumber><TextRun>.</TextRun><SectionNumber>150</SectionNumber></SectionCite> and 2013 2nd sp.s. c 4 s 978 are each amended to read as follows:<Caption>Business and professions account.</Caption></BillSectionHeader>
+<P>(1) The business and professions account is created in the state treasury. All receipts from business or professional licenses, registrations, certifications, renewals, examinations, or civil penalties assessed and collected by the department from the following chapters must be deposited into the account:</P>
+<P>(a) Chapter 18.11 RCW, auctioneers;</P>
+<P>(b) Chapter 18.16 RCW, cosmetologists, barbers, and manicurists;</P>
+<P>(c) Chapter 18.145 RCW, court reporters;</P>
+<P>(d) Chapter 18.165 RCW, private investigators;</P>
+<P>(e) Chapter 18.170 RCW, security guards;</P>
+<P>(f) Chapter 18.185 RCW, bail bond agents;</P>
+<P>(g) Chapter 18.280 RCW, home inspectors;</P>
+<P>(h) Chapter 19.16 RCW, collection agencies;</P>
+<P>(i) Chapter 19.31 RCW, employment agencies;</P>
+<P>(j) Chapter 19.105 RCW, camping resorts;</P>
+<P>(k) Chapter 19.138 RCW, sellers of travel;</P>
+<P>(l) Chapter <TextRun amendingStyle="strike">42.44 RCW</TextRun> <TextRun amendingStyle="add">42.--- RCW (the new chapter created in section 34 of this act)</TextRun>, notaries public;</P>
+<P>(m) Chapter 64.36 RCW, timeshares;</P>
+<P>(n) Chapter 67.08 RCW, boxing, martial arts, and wrestling;</P>
+<P>(o) Chapter 18.300 RCW, body art, body piercing, and tattooing;</P>
+<P>(p) Chapter 79A.60 RCW, whitewater river outfitters;</P>
+<P>(q) Chapter 19.158 RCW, commercial telephone solicitation; and</P>
+<P>(r) Chapter 19.290 RCW, scrap metal businesses.</P>
+<P>Moneys in the account may be spent only after appropriation. Expenditures from the account may be used only for expenses incurred in carrying out these business and professions licensing activities of the department. Any residue in the account must be accumulated and may not revert to the general fund at the end of the biennium. However, during the 2013-2015 fiscal biennium the legislature may transfer to the state general fund such amounts as reflect the excess fund balance in the account.</P>
+<P>(2) The director must biennially prepare a budget request based on the anticipated costs of administering the business and professions licensing activities listed in subsection (1) of this section, which must include the estimated income from these business and professions fees.</P>
+<History>2013 2nd sp.s. c 4 § 978; 2013 2nd sp.s. c 4 § 977; 2013 c 322 § 30; 2011 c 298 § 25. Prior: 2009 c 429 § 4; 2009 c 412 § 21; 2009 c 370 § 19; 2008 c 119 § 22; 2005 c 25 § 1.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective dates<TextRun fontFamily="Times New Roman">—</TextRun>2013 2nd sp.s. c 4:</TextRun> See note following RCW 2.68.020.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Purpose<TextRun fontFamily="Times New Roman">—</TextRun>Intent<TextRun fontFamily="Times New Roman">—</TextRun>Agency transfer<TextRun fontFamily="Times New Roman">—</TextRun>Contracting<TextRun fontFamily="Times New Roman">—</TextRun>Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2011 c 289:</TextRun> See notes following RCW 19.02.020.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2009 c 412 §§ 1-21:</TextRun> See RCW 18.300.901.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Short title<TextRun fontFamily="Times New Roman">—</TextRun>Implementation<TextRun fontFamily="Times New Roman">—</TextRun>2009 c 412:</TextRun> See RCW 18.300.900 and 18.300.902.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2009 c 370 §§ 17 and 19:</TextRun> See note following RCW 18.96.210.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Finding<TextRun fontFamily="Times New Roman">—</TextRun>2009 c 370:</TextRun> See note following RCW 18.96.010.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2005 c 25:</TextRun> "This act is necessary for the immediate preservation of the public peace, health, or safety, or support of the state government and its existing public institutions, and takes effect July 1, 2005." [2005 c 25 § 5.]</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>42</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>64</TitleNumber><TextRun>.</TextRun><ChapterNumber>08</ChapterNumber><TextRun>.</TextRun><SectionNumber>060</SectionNumber></SectionCite> and 2016 c 202 s 40 are each amended to read as follows:<Caption>Form of certificate for individual.</Caption></BillSectionHeader>
+<P>A certificate of acknowledgment for an individual, substantially in the following form or, after December 31, 1985, substantially in the form set forth in <TextRun amendingStyle="strike">RCW 42.44.100(1)</TextRun> <TextRun amendingStyle="add">section 16(1) of this act</TextRun>, shall be sufficient for the purposes of this chapter and for any acknowledgment required to be taken in accordance with this chapter:</P>
+<Table width="243.0pt" align="center" fontSize="10pt" pubwidth="narrow" vCellPadding="none">
+<Col width="54pt" />
+<Col width="118.0pt" />
+<Col width="22pt" />
+<Col width="49pt" />
+<TR>
+<TD valign="middle"><P>State of</P><P /><P>County of</P></TD>
+<TD valign="middle"><P><Leader character="dot" /></P><P /><P><Leader character="dot" /></P></TD>
+<TD textAlign="center" valign="middle"><P><TextRun fontFamily="Symbol"></TextRun></P><P><TextRun fontFamily="Symbol"></TextRun></P><P><TextRun fontFamily="Symbol"></TextRun></P><P><TextRun fontFamily="Symbol"></TextRun></P><P><TextRun fontFamily="Symbol"></TextRun></P></TD>
+<TD valign="middle"><P prePadding="halfline">ss.</P></TD>
+</TR>
+</Table>
+<P>On this day personally appeared before me (here insert the name of grantor or grantors) to me known to be the individual, or individuals described in and who executed the within and foregoing instrument, and acknowledged that he (she or they) signed the same as his (her or their) free and voluntary act and deed, for the uses and purposes therein mentioned. Given under my hand and official seal this . . . . day of . . . . . ., (year) . . . . (Signature of officer and official seal)</P>
+<P>If acknowledgment is taken before a notary public of this state the signature shall be followed by substantially the following: Notary Public in and for the state of Washington, residing at . . . . . . . . ., (giving place of residence).</P>
+<History>2016 c 202 § 40; 1988 c 69 § 2; 1929 c 33 § 13; RRS § 10566. Prior: 1888 p 51 § 2; 1886 p 179 § 7.</History>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>43</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>64</TitleNumber><TextRun>.</TextRun><ChapterNumber>08</ChapterNumber><TextRun>.</TextRun><SectionNumber>070</SectionNumber></SectionCite> and 2016 c 202 s 41 are each amended to read as follows:<Caption>Form of certificate for corporation.</Caption></BillSectionHeader>
+<P postPadding="halfline">A certificate of acknowledgment for a corporation, substantially in the following form or, after December 31, 1985, substantially in the form set forth in <TextRun amendingStyle="strike">RCW 42.44.100(2)</TextRun> <TextRun amendingStyle="add">section 16(2) of this act</TextRun>, shall be sufficient for the purposes of this chapter and for any acknowledgment required to be taken in accordance with this chapter:</P>
+<Table width="243.0pt" align="center" fontSize="10pt" pubwidth="narrow" vCellPadding="none">
+<Col width="54pt" />
+<Col width="95.0pt" />
+<Col width="27pt" />
+<Col width="67pt" />
+<TR>
+<TD valign="middle"><P>State of</P><P /><P>County of</P></TD>
+<TD valign="middle"><P><Leader character="dot" /></P><P /><P><Leader character="dot" /></P></TD>
+<TD textAlign="center" valign="middle"><P><TextRun fontFamily="Symbol"></TextRun></P><P><TextRun fontFamily="Symbol"></TextRun></P><P><TextRun fontFamily="Symbol"></TextRun></P><P><TextRun fontFamily="Symbol"></TextRun></P><P><TextRun fontFamily="Symbol"></TextRun></P></TD>
+<TD valign="middle"><P prePadding="halfline">ss.</P></TD>
+</TR>
+</Table>
+<P prePadding="halfline">On this . . . . day of . . . . . ., (year) . . . ., before me personally appeared . . . . . ., to me known to be the (president, vice president, secretary, treasurer, or other authorized officer or agent, as the case may be) of the corporation that executed the within and foregoing instrument, and acknowledged said instrument to be the free and voluntary act and deed of said corporation, for the uses and purposes therein mentioned, and on oath stated that he or she was authorized to execute said instrument and that the seal affixed is the corporate seal of said corporation.</P>
+<P>In Witness Whereof I have hereunto set my hand and affixed my official seal the day and year first above written. (Signature and title of officer with place of residence of notary public.)</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>44</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>SEVERABILITY.</SectionCaption><P>If any provision of this act or its application to any person or circumstance is held invalid, the remainder of the act or the application of the provision to other persons or circumstances is not affected.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="effdate" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>45</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>EFFECTIVE DATE.</SectionCaption><P>This act takes effect July 1, 2018.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

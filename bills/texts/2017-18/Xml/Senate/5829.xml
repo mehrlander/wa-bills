@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-1502.1</RequestNumber><ShortBillId>SB 5829</ShortBillId><LongBillId>SENATE BILL 5829</LongBillId><Legislature>65th Legislature</Legislature><Session>2017 Regular Session</Session><Sponsors>Senators Fain, Keiser, Conway, and Hunt</Sponsors><BillHistory><ReadDate>Read first time 02/16/17.</ReadDate><ReferredCommittee>Referred to Committee on Commerce, Labor &amp; Sports.</ReferredCommittee></BillHistory><BriefDescription>Addressing paid family leave.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to paid family leave; and amending RCW 49.78.010.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>49</TitleNumber><TextRun>.</TextRun><ChapterNumber>78</ChapterNumber><TextRun>.</TextRun><SectionNumber>010</SectionNumber></SectionCite> and 2006 c 59 s 1 are each amended to read as follows:<Caption>Legislative findings.</Caption></BillSectionHeader>
+<P>The legislature finds that the demands of the workplace and of families need to be balanced to promote family stability and economic security. Workplace leave policies are desirable to accommodate changes in the workforce such as rising numbers of dual-career couples, working single parents, and an aging population. In addition, given the mobility of American society, many people no longer have available community or family support networks and therefore need additional flexibility in the workplace. The legislature declares it to be in the public interest to provide reasonable <TextRun amendingStyle="add">paid family</TextRun> leave for medical reasons, for the birth or placement of a child <TextRun amendingStyle="add">for adoption or foster care with the employee</TextRun>, <TextRun amendingStyle="strike">and</TextRun> for the care of a family member who has a serious health condition<TextRun amendingStyle="add">, and for a qualifying exigency under the federal family and medical leave act</TextRun>.</P>
+<History>2006 c 59 § 1; 1989 1st ex.s. c 11 § 1.</History>
+</BillSection>
+</BillBody>
+</Bill>

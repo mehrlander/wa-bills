@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-2124.1</RequestNumber><ShortBillId>SB 5897</ShortBillId><LongBillId>SENATE BILL 5897</LongBillId><Legislature>65th Legislature</Legislature><Session>2017 Regular Session</Session><Sponsors>Senators Rossi, Brown, Braun, Becker, Walsh, Schoesler, Honeyford, and Zeiger</Sponsors><BillHistory><ReadDate>Read first time 03/21/17.</ReadDate><ReferredCommittee>Referred to Committee on Ways &amp; Means.</ReferredCommittee></BillHistory><BriefDescription>Prohibiting the purchase of certain foods under food assistance programs.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to food assistance programs; amending RCW 74.08A.120; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>74</TitleNumber><TextRun>.</TextRun><ChapterNumber>08A</ChapterNumber><TextRun>.</TextRun><SectionNumber>120</SectionNumber></SectionCite> and 1999 c 120 s 4 are each amended to read as follows:<Caption>Immigrants<TextRun fontFamily="Times New Roman">—</TextRun>Food assistance.</Caption></BillSectionHeader>
+<P>(1) The department may establish a food assistance program for legal immigrants who are ineligible for the federal food stamp program.</P>
+<P>(2) The rules for the state food assistance program shall follow exactly the rules of the federal food stamp program except for the provisions pertaining to immigrant status <TextRun amendingStyle="add">and subsection (6) of this section</TextRun>.</P>
+<P>(3) The benefit under the state food assistance program shall be established by the legislature in the biennial operating budget.</P>
+<P>(4) The department may enter into a contract with the United States department of agriculture to use the existing federal food stamp program coupon system for the purposes of administering the state food assistance program.</P>
+<P>(5) In the event the department is unable to enter into a contract with the United States department of agriculture, the department may issue vouchers to eligible households for the purchase of eligible foods at participating retailers.</P>
+<P><TextRun amendingStyle="add">(6) For the purposes of this section, "eligible foods" does not include sweetened beverages, desserts, and candy.</TextRun></P>
+<History>1999 c 120 § 4; 1997 c 57 § 3.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Captions not law<TextRun fontFamily="Times New Roman">—</TextRun>1997 c 57:</TextRun> See note following RCW 74.08A.100.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>The department of social and health services shall seek all necessary exemptions and waivers from and amendments to federal statutes, rules, and regulations to authorize Washington state to prohibit the purchase of sweetened beverages, desserts, and candy with supplemental nutrition assistance program benefits.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

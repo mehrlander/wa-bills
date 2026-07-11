@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-2129.1</RequestNumber><ShortBillId>SB 5909</ShortBillId><LongBillId>SENATE BILL 5909</LongBillId><Legislature>65th Legislature</Legislature><Session>2017 Regular Session</Session><Sponsors>Senators Palumbo, Mullet, Hobbs, Darneille, Liias, and Keiser</Sponsors><BillHistory><ReadDate>Read first time 03/22/17.</ReadDate><ReferredCommittee>Referred to Committee on Transportation.</ReferredCommittee></BillHistory><BriefDescription>Requiring a taxpayer accountability statement to be included with regional transit authority property taxes.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to requiring a taxpayer accountability statement to be included with regional transit authority property taxes; adding a new section to chapter 36.29 RCW; creating a new section; and declaring an emergency.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>In November 2016, the voters within the sound transit district approved a fifty-four billion dollar, taxpayer-funded light rail, heavy rail, and bus expansion in the Puget Sound region. Ensuring that taxpayers understand how funds collected by sound transit are used is critical to achieving trust between the agency and the public. The legislature finds that the opportunities to provide transparency and understanding regarding the use of taxpayer dollars should be maximized. To achieve this end, a sound transit taxpayer accountability statement will be placed on the property tax notifications provided by the counties, which will contain easy-to-access and easy-to-understand information on sound transit project status and financial audits.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>36</TitleNumber><TextRun>.</TextRun><ChapterNumber>29</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) The county treasurer or, in the case of a home rule county, the county official designated by county charter and ordinance as the official with custody over the collection of countywide tax revenues, shall include a taxpayer accountability statement regarding the appropriate regional transit authority when notification is sent to any person regarding the amount of tax levied under RCW 81.104.175 by the regional transit authority.</P>
+<P>(2) For purposes of this section, a taxpayer accountability statement must include the following:</P>
+<P>(a) A statement indicating which of the regional transit authority's projects are in scope, on time, and on budget and which are not;</P>
+<P>(b) A link or web site address to audited financial statements for the regional transit authority;</P>
+<P>(c) A link or web site address to fiscal information on the regional transit authority's projects; and</P>
+<P>(d) The number of a hotline to be provided by the department of licensing to expedite contact with the appropriate regional transit authority.</P>
+</BillSection>
+<BillSection type="new" action="emerg" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act is necessary for the immediate preservation of the public peace, health, or safety, or support of the state government and its existing public institutions, and takes effect immediately.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

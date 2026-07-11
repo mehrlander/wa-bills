@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-0304.2</RequestNumber><ShortBillId>SB 5108</ShortBillId><LongBillId>SENATE BILL 5108</LongBillId><Legislature>65th Legislature</Legislature><Session>2017 Regular Session</Session><Sponsors>Senators Billig, Miloscia, Hunt, Palumbo, Liias, Fain, Saldaña, Pedersen, Carlyle, Keiser, Cleveland, Mullet, Conway, and Kuderer</Sponsors><BillHistory><ReadDate>Read first time 01/12/17.</ReadDate><ReferredCommittee>Referred to Committee on State Government.</ReferredCommittee></BillHistory><BriefDescription>Concerning contributions from political committees to other political committees.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to contributions from political committees to other political committees; amending RCW 42.17A.442; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P indent="0">The legislature finds that the public has the right to know who is contributing to election campaigns in Washington state and that campaign finance disclosure deters corruption, increases public confidence in Washington state elections, raises the level of debate, and strengthens our representative democracy.</P></BillSectionHeader>
+<P indent="1">The legislature finds that campaign finance disclosure is overwhelmingly supported by the citizens of Washington state as evidenced by the two initiatives that largely established Washington's current system. Both passed with more than seventy-two percent of the popular vote, as well as winning margins in every county in the state.</P>
+<P indent="1">One of the cornerstones of Washington state's campaign finance disclosure laws is the requirement that political advertisements disclose the sponsor and the sponsor's top five donors. Many political action committees have avoided this important transparency requirement by funneling money from political action committee to political action committee so the top five donors listed are deceptive political action committee names rather than the real donors. The legislature finds that this practice, sometimes called "gray money" or "donor washing," undermines the intent of Washington state's campaign finance laws and impairs the transparency required for fair elections and a healthy democracy.</P>
+<P indent="1">Therefore, the legislature intends to close this disclosure loophole, increase transparency and accountability, raise the level of discourse, deter corruption, and strengthen confidence in the election process by prohibiting political committees from receiving an overwhelming majority of its funds from one or a combination of political committees.</P>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>42</TitleNumber><TextRun>.</TextRun><ChapterNumber>17A</ChapterNumber><TextRun>.</TextRun><SectionNumber>442</SectionNumber></SectionCite> and 2011 c 145 s 5 are each amended to read as follows:<Caption>Contributions by political committees to political committees.</Caption></BillSectionHeader>
+<P><TextRun amendingStyle="add">(1)</TextRun> A political committee may make a contribution to another political committee only when the contributing political committee has received contributions of ten dollars or more each from at least ten persons registered to vote in Washington state.</P>
+<P><TextRun amendingStyle="add">(2) A political committee may not receive seventy percent or more of its aggregate contributions from a single political committee, directly, or through any combination of other political committees.</TextRun></P>
+<History>2011 c 145 § 5.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Findings<TextRun fontFamily="Times New Roman">—</TextRun>Intent<TextRun fontFamily="Times New Roman">—</TextRun>Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2011 c 145:</TextRun> See notes following RCW 42.17A.005.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+</BillBody>
+</Bill>

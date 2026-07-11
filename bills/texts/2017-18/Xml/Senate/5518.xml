@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-0654.1</RequestNumber><ShortBillId>SB 5518</ShortBillId><LongBillId>SENATE BILL 5518</LongBillId><Legislature>65th Legislature</Legislature><Session>2017 Regular Session</Session><Sponsors>Senators Miloscia, Cleveland, Keiser, O'Ban, and Fortunato</Sponsors><BillHistory><ReadDate>Read first time 01/26/17.</ReadDate><ReferredCommittee>Referred to Committee on Health Care.</ReferredCommittee></BillHistory><BriefDescription>Requiring fair reimbursement for chiropractic services.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to fair reimbursement for chiropractic services; amending RCW 48.43.190; creating a new section; and providing an effective date.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>48</TitleNumber><TextRun>.</TextRun><ChapterNumber>43</ChapterNumber><TextRun>.</TextRun><SectionNumber>190</SectionNumber></SectionCite> and 2008 c 304 s 1 are each amended to read as follows:<Caption>Payment of chiropractic services<TextRun fontFamily="Times New Roman">—</TextRun>Parity.</Caption></BillSectionHeader>
+<P>(1)(a) A health carrier may not pay a chiropractor less for a service or procedure identified under a particular physical medicine and rehabilitation code <TextRun amendingStyle="strike">or</TextRun><TextRun amendingStyle="add">,</TextRun> evaluation and management code, <TextRun amendingStyle="add">or spinal manipulation code,</TextRun> as listed in a nationally recognized services and procedures code book such as the American medical association current procedural terminology code book, than it pays any other type of provider licensed under Title 18 RCW for a service or procedure under the same code, except as provided in (b) of this subsection. A carrier may not circumvent this requirement by creating a chiropractor-specific code not listed in the nationally recognized code book otherwise used by the carrier for provider payment.</P>
+<P>(b) This section does not affect a health carrier's:</P>
+<P>(i) Implementation of a health care quality improvement program to promote cost-effective and clinically efficacious health care services, including but not limited to pay-for-performance payment methodologies and other programs fairly applied to all health care providers licensed under Title 18 RCW that are designed to promote evidence-based and research-based practices;</P>
+<P>(ii) Health care provider contracting to comply with the network adequacy standards;</P>
+<P>(iii) Authority to pay in-network providers differently than out-of-network providers; and</P>
+<P>(iv) Authority to pay a chiropractor less than another provider for procedures or services under the same <TextRun amendingStyle="add">or an equivalent</TextRun> code based upon <TextRun amendingStyle="strike">geographic</TextRun> differences in the cost of maintaining a practice <TextRun amendingStyle="add">or carrying malpractice insurance, as recognized by a nationally accepted reimbursement methodology</TextRun>.</P>
+<P>(c) This section does not, and may not be construed to:</P>
+<P>(i) Require the payment of provider billings that do not meet the definition of a clean claim as set forth in rules adopted by the commissioner;</P>
+<P>(ii) Require any health plan to include coverage of any condition; or</P>
+<P>(iii) Expand the scope of practice for any health care provider.</P>
+<P>(2) This section applies only to payments made on or after January 1, 2009.</P>
+<History>2008 c 304 § 1.</History>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>The office of the insurance commissioner may adopt any rules necessary to implement section 1 of this act.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="effdate">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>Section 1 of this act takes effect January 1, 2018.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-4437.2</RequestNumber><ShortBillId>SB 6591</ShortBillId><LongBillId>SENATE BILL 6591</LongBillId><Legislature>65th Legislature</Legislature><Session>2018 Regular Session</Session><Sponsors>Senator Becker</Sponsors><BillHistory><ReadDate>Read first time 02/01/18.</ReadDate><ReferredCommittee>Referred to Committee on Early Learning &amp; K-12 Education.</ReferredCommittee></BillHistory><BriefDescription>Revising regionalization factors for certain school districts.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to revising regionalization factors; and amending RCW 28A.150.412.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>28A</TitleNumber><TextRun>.</TextRun><ChapterNumber>150</ChapterNumber><TextRun>.</TextRun><SectionNumber>412</SectionNumber></SectionCite> and 2017 3rd sp.s. c 13 s 104 are each amended to read as follows:<Caption>Basic education compensation allocations<TextRun fontFamily="Times New Roman">—</TextRun>Rebase and review<TextRun fontFamily="Times New Roman">—</TextRun>Revision of minimum allocations and regionalization factors<TextRun fontFamily="Times New Roman">—</TextRun>Regionalization factors<TextRun fontFamily="Times New Roman">—</TextRun>Definitions.</Caption></BillSectionHeader>
+<P>(1) Beginning with the 2023 regular legislative session, and every six years thereafter, the legislature shall review and rebase state basic education compensation allocations compared to school district compensation data, regionalization factors, and other economic information. The legislature shall revise the minimum allocations and regionalization factors if necessary to ensure that state basic education allocations continue to provide market-rate salaries and that regionalization adjustments reflect actual economic differences between school districts.</P>
+<P>(2)(a) For school districts with single-family residential values above the statewide median residential value, regionalization factors for school years 2018-19 through school year 2022-23 are as follows:</P>
+<P>(i) For school districts in tercile 1, state salary allocations for school district employees are regionalized by six percent;</P>
+<P>(ii) For school districts in tercile 2, state salary allocations for school district employees are regionalized by twelve percent; and</P>
+<P>(iii) For school districts in tercile 3, state salary allocations for school district employees are regionalized by eighteen percent.</P>
+<P>(b) Additional school district adjustments are identified in the omnibus appropriations act, and these adjustments are partially reduced or eliminated by the 2022-23 school year as follows:</P>
+<P>(i) Adjustments that increase the regionalization factor to a value that is greater than the tercile 3 regionalization factor must be reduced by two percentage points each school year beginning with school year 2020-21, through 2022-23.</P>
+<P>(ii) Adjustments that increase the regionalization factor to a value that is less than or equal to the tercile 3 regionalization factor must be reduced by one percentage point each school year beginning with school year 2020-21, through 2022-23.</P>
+<P><TextRun amendingStyle="add">(c) Notwithstanding (a) of this subsection (2), the regionalization factor f</TextRun><TextRun amendingStyle="add">or the Bethel, Eatonville, Rainier, and Yelm school districts is six percent.</TextRun></P>
+<P>(3) To aid the legislature in reviewing and rebasing regionalization factors, the department of revenue shall, by November 1, 2022, and by November 1st every six years thereafter, determine the median single-family residential value of each school district as well as the median value of proximate districts within fifteen miles of the boundary of the school district for which the median residential value is being calculated.</P>
+<P>(4) No district may receive less state funding for the minimum state salary allocation as compared to its prior school year salary allocation as a result of adjustments that reflect updated regionalized salaries.</P>
+<P>(5) The definitions in this subsection apply throughout this section unless the context clearly requires otherwise.</P>
+<P>(a) "Median residential value of each school district" means the median value of all single-family residential parcels included within a school district and any other school district that is proximate to the school district.</P>
+<P>(b) "Proximate to the school district" means within fifteen miles of the boundary of the school district for which the median residential value is being calculated.</P>
+<P>(c) "School district employees" means state-funded certificated instructional staff, certificated administrative staff, and classified staff.</P>
+<P>(d) "School districts in tercile 1" means school districts with median single-family residential values in the first tercile of districts with single-family residential values above the statewide median residential value.</P>
+<P>(e) "School districts in tercile 2" means school districts with median single-family residential values in the second tercile of districts with single-family residential values above the statewide median residential value.</P>
+<P>(f) "School districts in tercile 3" means school districts with median single-family residential values in the third tercile of districts with single-family residential values above the statewide median residential value.</P>
+<P>(g) "Statewide median residential value" means the median value of single-family residential parcels located within all school districts, reduced by five percent.</P>
+<History>2017 3rd sp.s. c 13 § 104.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Intent<TextRun fontFamily="Times New Roman">—</TextRun>2017 3rd sp.s. c 13:</TextRun> See note following RCW 28A.150.410.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+</BillBody>
+</Bill>

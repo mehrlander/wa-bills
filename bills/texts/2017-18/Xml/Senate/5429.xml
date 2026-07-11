@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-0564.1</RequestNumber><ShortBillId>SB 5429</ShortBillId><LongBillId>SENATE BILL 5429</LongBillId><Legislature>65th Legislature</Legislature><Session>2017 Regular Session</Session><Sponsors>Senators Pearson and Hasegawa</Sponsors><BillHistory><ReadDate>Read first time 01/24/17.</ReadDate><ReferredCommittee>Referred to Committee on Law &amp; Justice.</ReferredCommittee></BillHistory><BriefDescription>Reducing the number of violent interactions between law enforcement officers and members of the public.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to reducing the number of violent interactions between law enforcement officers and members of the public; adding a new section to chapter 43.101 RCW; and adding a new section to chapter 36.28A RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>101</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>Subject to the availability of amounts appropriated for this specific purpose, the commission shall:</P>
+<P>(1) Review, update, and provide basic and in-service training for peace officers and corrections officers that:</P>
+<P>(a) Emphasizes de-escalation in patrol tactics and interpersonal communication training; and</P>
+<P>(b) Includes "shoot/don't shoot" scenario training;</P>
+<P>(2) Incorporate a training component that requires cadets to meet with local minority advisory boards in each jurisdiction;</P>
+<P>(3) Pairs cadets with seasoned veteran officers to patrol minority communities in order to observe a working positive example of how that officer interacts with members of the community in the course of his or her duties.</P>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>36</TitleNumber><TextRun>.</TextRun><ChapterNumber>28A</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>Subject to the availability of amounts appropriated for this specific purpose, the Washington association of sheriffs and police chiefs shall establish minority advisory boards comprised of communities of color in each jurisdiction whose officers are trained by the criminal justice training commission.</P>
+</BillSection>
+</BillBody>
+</Bill>

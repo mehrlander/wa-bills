@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-1339.2</RequestNumber><ShortBillId>SB 5787</ShortBillId><LongBillId>SENATE BILL 5787</LongBillId><Legislature>65th Legislature</Legislature><Session>2017 Regular Session</Session><Sponsors>Senator Miloscia</Sponsors><BillHistory><ReadDate>Read first time 02/10/17.</ReadDate><ReferredCommittee>Referred to Committee on State Government.</ReferredCommittee></BillHistory><BriefDescription>Concerning state agency and state university medical school electronic health record systems, and the actions of the technology services board related to these systems.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to state agency and state university medical school electronic health record systems, and the actions of the technology services board related to these systems; adding a new section to chapter 39.26 RCW; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature recognizes that electronic medical record systems are a key component to making our health care systems more efficient, and increasing our quality of care. While most electronic medical record systems in our state are operated by private and nonprofit health care systems, the state of Washington has developed electronic medical record systems within some of its state agencies and within the University of Washington medical school health care system, and there are plans for additional state agencies to also develop systems. It is the intent of this act to ensure that all future electronic medical record systems purchased by state agencies or public university medical schools, with taxpayer dollars, are developed to maximize cost savings, functionality, and system interoperability among state, federal, nonprofit, and private electronic health care systems.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>39</TitleNumber><TextRun>.</TextRun><ChapterNumber>26</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) After the effective date of this section, any state agency or public university medical school that purchases a new electronic medical record system, or upgrades their electronic medical system, with an estimated cost exceeding five million dollars, shall notify the following entities of their intent to purchase or upgrade an electronic medical record system:</P>
+<P>(a) The consolidated technology services agency created in RCW 43.105.025;</P>
+<P>(b) The technology services board within the consolidated technology services agency;</P>
+<P>(c) The department of enterprise services;</P>
+<P>(d) The state health care authority;</P>
+<P>(e) The health information exchange office of the department of health;</P>
+<P>(f) The Washington state department of veterans affairs;</P>
+<P>(g) The United States department of defense military health system, office of electronic health records;</P>
+<P>(h) The Washington state medical association; and</P>
+<P>(i) The Washington state hospital association.</P>
+<P>(2) The notice to the entities listed in subsection (1) of this section must be provided no less than one hundred twenty days prior to the release of a request for proposal, or signing of a sole source contract for an electronic medical record system. The notice must include a statement explaining the general objectives of the agency's or medical school's electronic medical record system plans, and invite the recipient of the notice to provide written comments on issues that include, at a minimum, interoperability, cost savings opportunities, and functionality.</P>
+<P>(3) If an entity listed in subsection (1) of this section responds to the notice provided by a state agency or public university medical school, the state agency or public university medical school shall review the response and consider the input prior to moving forward with the release of a request for proposal, or signing of a sole source contract.</P>
+<P>(4) Any purchase of an electronic medical record system by a state agency or public university medical school with an estimated value over forty million dollars:</P>
+<P>(a) Is a major information technology project under RCW 43.105.287, and subject to technology services board approval prior to moving forward; and</P>
+<P>(b) Is not eligible for any exemption to a public bid process provided under Washington state law, unless approved by the technology services board.</P>
+<P>(5) Nothing in this act supersedes any obligations under existing law that a state agency or public university medical school has to the consolidated technology services agency created in RCW 43.105.025 prior to moving forward on technology projects.</P>
+</BillSection>
+</BillBody>
+</Bill>

@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-0808.1</RequestNumber><ShortBillId>SB 5401</ShortBillId><LongBillId>SENATE BILL 5401</LongBillId><Legislature>65th Legislature</Legislature><Session>2017 Regular Session</Session><Sponsors>Senators Rivers, Cleveland, Miloscia, Keiser, Conway, Hasegawa, Carlyle, Rolfes, Pedersen, Kuderer, Wellman, and Saldaña</Sponsors><BillHistory><ReadDate>Read first time 01/23/17.</ReadDate><ReferredCommittee>Referred to Committee on Health Care.</ReferredCommittee></BillHistory><BriefDescription>Addressing prescription drug cost transparency.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to prescription drug cost transparency; adding a new chapter to Title 43 RCW; creating a new section; and prescribing penalties.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature finds that:</P></BillSectionHeader>
+<P>(1) The cost of prescription drugs has been increasing dramatically, and this increase impacts consumer access to prescription drugs.</P>
+<P>(2) Containing health care costs requires containing prescription drug costs.</P>
+<P>(3) To contain prescription drug costs, it is essential to understand the drivers and impacts of those costs, as transparency is typically the first step toward cost containment and greater consumer access to needed prescription drugs.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) "Covered manufacturer" means a person, corporation, or other entity engaged in the manufacture of prescription drugs sold in or into Washington state.</P></BillSectionHeader>
+<P indent="1">(2) "Data organization" means an organization selected by the office under section 3 of this act to collect, verify, and summarize prescription drug pricing data.</P>
+<P>(3) "Health care provider," "health plan," and "issuer" mean the same as in RCW 48.43.005.</P>
+<P>(4) "Office" means the office of financial management.</P>
+<P>(5) "Pharmacy benefit manager" means the same as in RCW 19.340.010.</P>
+<P>(6) "Prescription drug" means a drug regulated under chapter 69.41 or 69.50 RCW. It includes generic, brand name, and specialty drugs, as well as biological products.</P>
+<P>(7) "Wholesale acquisition cost" or "price" mean, with respect to a prescription drug, the manufacturer's list price for the drug to wholesalers or direct purchasers in the United States, excluding any discounts, rebates, or reductions in price, for the most recent month for which the information is available, as reported in wholesale price guides or other publications of prescription drug pricing.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>The office shall use a competitive procurement process in accordance with chapter 39.26 RCW to select a data organization to collect, verify, and summarize the prescription drug pricing data provided by issuers and manufacturers under sections 4 and 5 of this act.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) By March 1st of each year, an issuer must submit to the data organization the following prescription drug cost and utilization data for the previous calendar year: </P></BillSectionHeader>
+<P>(a) The twenty-five prescription drugs most frequently prescribed by health care providers participating in the issuer's network;</P>
+<P>(b) The twenty-five costliest prescription drugs by total health plan spending, and the issuer's total spend for each of these prescription drugs;</P>
+<P>(c) The twenty-five drugs with the highest year-over-year increase in prescription drug spending, and the percentages of the increases for each of these prescription drugs; and</P>
+<P>(d) A summary analysis of the impact of prescription drug costs on health plan premiums or on spending per medical assistance enrollee under chapter 74.09 RCW, as applicable, disaggregated by the state medicaid program, public employees' benefits board programs, and the individual, small group, and large group markets.</P>
+<P>(2) An employer-sponsored self-funded health plan or a Taft-Hartley trust health plan may voluntarily provide the data described in subsection (1) of this section to the data organization.</P>
+<P>(3) The office may assess a fine of up to one thousand dollars per day for failure to comply with the requirements of this section. The assessment of a fine under this subsection is subject to review under the administrative procedure act, chapter 34.05 RCW. Fines collected under this section must be deposited in the medicaid fraud penalty account created in RCW 74.09.215.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>5</Value><TextRun>.  </TextRun></BillSectionNumber>(1) <P>For purposes of this section:</P></BillSectionHeader>
+<P indent="1">(a) "Covered drug" means any prescription drug that: (i) A covered manufacturer intends to introduce to the market at a wholesale acquisition cost of ten thousand dollars or more for a course of treatment or a twelve-month period, whichever period is longer; (ii) increases in price by ten percent or ten thousand dollars, whichever is less, over a twelve-month period; or (iii) increases in price by twenty-five percent or twenty-five thousand dollars, whichever is less, over a thirty-six-month period.</P>
+<P>(b) "Qualifying price increase" means a price increase described in (a)(ii) or (iii) of this subsection.</P>
+<P>(2) Beginning October 1, 2017, a covered manufacturer must report the following data for each covered drug to the data organization:</P>
+<P>(a) The itemized cost for production and sales, including annual manufacturing costs, annual marketing and advertising costs, total research and development costs, total costs of clinical trials and regulation, and total cost for acquisition for the drug;</P>
+<P>(b) The covered drug's pricing history in the United States and Canada for the previous five years, if applicable. The covered drug's pricing history in Canada must include, if applicable, the manufacturer's price for the drug to wholesalers or direct purchasers in Canada, excluding any discounts, rebates, or reductions in price, as published in prescription drug pricing publications;</P>
+<P>(c) The total financial assistance given by the manufacturer through assistance programs, rebates, and coupons;</P>
+<P>(d) The covered manufacturer's total profit attributable to the covered drug; and</P>
+<P>(e) A justification of the price level for a covered drug identified under subsection (1)(a)(i) of this section or a price increase for a covered drug identified under subsection (1)(a)(ii) or (iii) of this section.</P>
+<P>(3) A covered manufacturer must report the information required by subsection (2) of this section no later than sixty days in advance of: (a) The introduction of a covered drug, as defined in subsection (1)(a)(i) of this section, to the market; or (b) a qualifying price increase for a covered drug, as defined in subsection (1)(a)(ii) or (iii) of this section.</P>
+<P>(4) The data submitted under this section must be made publicly available on the office's web site.</P>
+<P>(5) The office may assess a fine of up to one thousand dollars per day for failure to comply with the requirements of this section. The assessment of a fine under this subsection is subject to review under the administrative procedure act, chapter 34.05 RCW. Fines collected under this section must be deposited in the medicaid fraud penalty account created in RCW 74.09.215.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>6</Value><TextRun>.  </TextRun></BillSectionNumber><P>The data organization must compile the data submitted by issuers and manufacturers under sections 4 and 5 of this act and prepare an annual report for the public and the legislature summarizing the data.</P></BillSectionHeader>
+<P indent="1">(1) The report must:</P>
+<P>(a) Identify overall spending on prescription drugs and prescription drug spending by issuer;</P>
+<P>(b) Identify the twenty-five most frequently prescribed prescription drugs;</P>
+<P>(c) Identify the twenty-five costliest prescription drugs, as reported by issuers under section 4 of this act, with the information disaggregated by the state medicaid program, public employees' benefits board programs, and the individual, small group, and large group markets;</P>
+<P>(d) Indicate, for the prescription drugs identified under subsections (1)(b) and (c) of this section, which of those prescription drugs were reported to the data organization under section 5 of this act;</P>
+<P>(e) Identify the twenty-five prescription drugs with the greatest price increases during the previous calendar year;</P>
+<P>(f) Identify the minimum, maximum, and average price increases for the prescription drugs identified under sections 4 and 5 of this act, expressed as a percentage;</P>
+<P>(g) Summarize the following data reported under section 5 of this act: The manufacturer name, prescription drug name, price increase or introduced price, pricing history in Canada, cost for acquisition of the prescription drug, and total profit attributable to the prescription drug; and</P>
+<P>(h) Demonstrate the impact of prescription drug costs on health insurance premiums, both overall and separately for the state medicaid program, public employees' benefits board programs, and the individual, small group, and large group markets.</P>
+<P>(2) By November 15, 2018, and November 15th annually thereafter, the data organization must provide the report to the office and the joint select committee on health care oversight established in RCW 44.82.010. The office must also post the report on its web site. Within three months of receiving the data organization's report, the joint select committee on health care oversight must hold a public meeting to receive a briefing from the data organization and to consider the reasons for changes in rates, benefits, and cost-sharing in the health insurance market. Following the expiration of the joint select committee, the health care committees of the legislature must receive the report from the data organization and hold the required public meeting.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>7</Value><TextRun>.  </TextRun></BillSectionNumber><P>The office may adopt any rules necessary to implement the requirements of this chapter.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addchap" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>8</Value><TextRun>.  </TextRun></BillSectionNumber><P>Sections 2 through 7 of this act constitute a new chapter in <TitleCite><TextRun>Title </TextRun><TitleNumber>43</TitleNumber><TextRun> RCW</TextRun></TitleCite>.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

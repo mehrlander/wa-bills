@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-4797.2</RequestNumber><ShortBillId>2SSB 6236</ShortBillId><LongBillId>SECOND SUBSTITUTE SENATE BILL 6236</LongBillId><Legislature>65th Legislature</Legislature><Session>2018 Regular Session</Session><Sponsors>Senate Ways &amp; Means (originally sponsored by Senators Chase, Hasegawa, and Palumbo)</Sponsors><BillHistory><ReadDate>READ FIRST TIME 02/06/18.</ReadDate></BillHistory><BriefDescription>Establishing the Washington state economic growth commission.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to establishing the Washington state economic growth commission; adding a new chapter to Title 43 RCW; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) Subject to the availability of amounts appropriated for this specific purpose, the Washington state economic growth commission is established to:</P></BillSectionHeader>
+<P>(a) Develop a state economic growth strategy related to accelerating technology innovation to increase the number of high-paying jobs in the state's economy; and</P>
+<P>(b) Establish the feasibility and devise a plan for establishing a manufacturing innovation institute.</P>
+<P>(2)(a) The Washington state economic growth commission shall consist of sixteen voting members appointed by the governor as follows: One representative from the department of commerce, four representatives from academia, three representatives from private industry or trade associations, three representatives from a labor organization, one senior economist with expertise in manufacturing and technology, one representative from Impact Washington, two representatives from the workforce training and education coordinating board, and one representative from the state board for community and technical colleges.</P>
+<P>(b) The chair of the commission is a voting member selected by the governor, and serves at the pleasure of the governor.</P>
+<P>(3) The commission may adopt rules for its own governance and hire staff as needed to perform functions under this chapter.</P>
+<P>(4) The commission may establish committees as it desires, and may invite people who are not members of the commission to serve as committee members.</P>
+<P>(5) The commission may meet as often as it deems appropriate, but not more than six times per year.</P>
+</BillSection>
+<BillSection type="new" action="addchap" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>Section 1 of this act constitutes a new chapter in <TitleCite><TextRun>Title </TextRun><TitleNumber>43</TitleNumber><TextRun> RCW</TextRun></TitleCite>.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>The department of commerce may contract with the state's manufacturing extension partnership for the purposes of this act.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

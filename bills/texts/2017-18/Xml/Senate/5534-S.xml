@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-1362.3</RequestNumber><ShortBillId>SSB 5534</ShortBillId><LongBillId>SUBSTITUTE SENATE BILL 5534</LongBillId><Legislature>65th Legislature</Legislature><Session>2017 Regular Session</Session><Sponsors>Senate Ways &amp; Means (originally sponsored by Senators Fortunato, Rossi, Zeiger, Braun, Bailey, Sheldon, Fain, Angel, Warnick, and Becker)</Sponsors><BillHistory><ReadDate>READ FIRST TIME 02/10/17.</ReadDate></BillHistory><BriefDescription>Providing a housing allowance for certificated and classified school staff in school districts with above average residential housing costs.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to providing a housing allowance for certificated and classified school staff in school districts with above average residential housing costs; and adding a new section to chapter 28A.400 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>28A</TitleNumber><TextRun>.</TextRun><ChapterNumber>400</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) The legislature recognizes that homeowners and renters spend a significant portion of their incomes on housing costs. The legislature further recognizes that housing costs vary considerably throughout the state. As a consequence, the legislature further recognizes that the costs of delivering comparable education services varies from place to place. Therefore, the legislature intends, through the housing allowance in this section, to provide an additional allocation to adjust for regional cost differences.</P>
+<P>(2) Beginning with the 2018-19 school year, in addition to other compensation provided to public school employees, state-funded certificated administrative, certificated instructional, and classified staff teaching full or part-time in eligible school districts shall receive an annual housing allowance, as provided in this section.</P>
+<P>(3) The amount of the housing allowance for each full-time employee employed by the school district is equal to ten thousand dollars multiplied by the regional cost factor. The amount of the allowance for part-time staff is adjusted proportionally.</P>
+<P>(4)(a) After the 2018-19 school year, the housing allowance authorized under this section must be annually adjusted for inflation.</P>
+<P>(b) For the purpose of this subsection, "inflation" means the percentage change in the implicit price deflator for personal consumption expenditures for the United States as published for the most recent calendar year by the bureau of economic analysis of the federal department of commerce.</P>
+<P>(5) The office of the superintendent of public instruction shall administer the housing allowance program and adopt rules for its implementation.</P>
+<P>(6) The department of revenue must provide the necessary property tax information to the office of the superintendent of public instruction by March 1st of each year. The department shall use the most recent property tax data provided by the county assessors. County assessors must provide updated parcel information to the department in a form and manner required by the department; however, the assessors must provide updated data at least every two years.</P>
+<P>(7) The housing allowance authorized under this section is not considered part of the definition or funding of the instructional program of basic education under Article IX of the state Constitution; and it is not considered earnable compensation as defined in RCW 41.32.010 and compensation earnable as defined in RCW 41.40.010 and 41.35.010.</P>
+<P>(8) The definitions in this subsection apply throughout this section.</P>
+<P>(a) "Eligible school district" means a school district where the average equalized assessed value per residential parcel within the school district is above the statewide average equalized assessed value per residential parcel.</P>
+<P>(b) "Excess residential value" means the amount by which the average equalized assessed value per residential parcel in the school district exceeds the statewide average equalized assessed per residential parcel.</P>
+<P>(c) "Highest district excess residential value" means the school district with the largest excess residential value.</P>
+<P>(d) "Regional cost factor" means the quotient of the school district excess residential value and the highest district excess residential value.</P>
+<P>(e) "Residential parcel" means a parcel with a land use code of 11, 12, 13, 14, 18, or 19 as provided in the parcel extract compiled by the department of revenue.</P>
+<P>(f) "School district excess residential value" means the excess residential value of an eligible school district.</P>
+</BillSection>
+</BillBody>
+</Bill>

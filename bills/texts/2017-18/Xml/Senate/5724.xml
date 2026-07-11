@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-1237.1</RequestNumber><ShortBillId>SB 5724</ShortBillId><LongBillId>SENATE BILL 5724</LongBillId><Legislature>65th Legislature</Legislature><Session>2017 Regular Session</Session><Sponsors>Senators Hasegawa, Chase, Hunt, and Palumbo</Sponsors><BillHistory><ReadDate>Read first time 02/06/17.</ReadDate><ReferredCommittee>Referred to Committee on Law &amp; Justice.</ReferredCommittee></BillHistory><BriefDescription>Concerning federal orders that violate the United States Constitution, Washington Constitution, or judicial precedent.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to acknowledging Washington state's constitutional rights, including state sovereignty, as guaranteed by the United States Constitution and Washington Constitution to ensure that no state resources are expended enforcing any federal order that violates the United States Constitution, Washington Constitution, or judicial precedent; adding new sections to chapter 43.01 RCW; creating new sections; and declaring an emergency.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature finds that it is incumbent upon the state of Washington to protect Washingtonians from unconstitutional federal action. The legislature also finds that federal executive orders that are unconstitutional and violate legal standards should not be followed. The legislature, therefore, intends to ensure no state official or employee will be required to act in violation of the United States Constitution or Washington Constitution, and that the state will seek to recover any costs associated with fighting for the rights of the citizens of Washington.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>01</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>No state or local official or employee, agent of the state of Washington, employee of a corporation providing services for the state of Washington, or member of the national guard or state defense forces acting in his or her capacity as a state or local official or employee, is required to act in an official capacity to follow any federal executive order which does not comply with the United States Constitution, the Washington Constitution, or judicial precedent.</P>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>01</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>Any state or local agency, including law enforcement and emergency services agencies, that incurs costs as a result of protecting the rights of citizens under the First Amendment to the United States Constitution to protest any federal executive order which does not comply with the United States Constitution, the Washington Constitution, or judicial precedent may submit an invoice to the United States department of the treasury allocating those costs and seeking reimbursement.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act may be known and cited as the Washington sovereignty act.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="emerg" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>5</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act is necessary for the immediate preservation of the public peace, health, or safety, or support of the state government and its existing public institutions, and takes effect immediately.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

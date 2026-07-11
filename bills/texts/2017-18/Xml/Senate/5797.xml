@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-1388.1</RequestNumber><ShortBillId>SB 5797</ShortBillId><LongBillId>SENATE BILL 5797</LongBillId><Legislature>65th Legislature</Legislature><Session>2017 Regular Session</Session><Sponsors>Senators Mullet, Fain, and Hobbs</Sponsors><BillHistory><ReadDate>Read first time 02/10/17.</ReadDate><ReferredCommittee>Referred to Committee on Financial Institutions &amp; Insurance.</ReferredCommittee></BillHistory><BriefDescription>Concerning services and processes available when residential real property is abandoned or in foreclosure.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to the services and processes available when residential real property is abandoned or in foreclosure; adding a new section to chapter 43.180 RCW; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature finds that there are issues that should be addressed with respect to residential property, and the services and processes available when such property is abandoned or in foreclosure. One issue concerns making changes to the law in order that services such as housing counseling, mediation, legal services, and consumer protection remain available and that the provision of these services is financially viable. Another issue concerns what processes and procedures should be put in place to address abandoned properties in order to avoid, or remediate in a timely manner, problems caused by events, such as extreme weather conditions and vandalism, while continuing to respect the rights of the homeowner.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>180</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>The commission must create a process by which entities, such as servicers, may apply to obtain a certificate of abandonment for properties that meet the definition of abandoned.</P>
+</BillSection>
+</BillBody>
+</Bill>

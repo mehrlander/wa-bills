@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-4207.1</RequestNumber><ShortBillId>SB 6551</ShortBillId><LongBillId>SENATE BILL 6551</LongBillId><Legislature>65th Legislature</Legislature><Session>2018 Regular Session</Session><Sponsors>Senators Hobbs, Rolfes, O'Ban, Brown, and Wilson</Sponsors><BillHistory /><BriefDescription>Modifying vehicular assault provisions.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to vehicular assault; amending RCW 46.61.522; creating a new section; and prescribing penalties.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>46</TitleNumber><TextRun>.</TextRun><ChapterNumber>61</ChapterNumber><TextRun>.</TextRun><SectionNumber>522</SectionNumber></SectionCite> and 2001 c 300 s 1 are each amended to read as follows:<Caption>Vehicular assault<TextRun fontFamily="Times New Roman">—</TextRun>Penalty.</Caption></BillSectionHeader>
+<P>(1) A person is guilty of vehicular assault if he or she operates or drives any vehicle:</P>
+<P>(a) In a reckless manner and causes substantial bodily harm to another; or</P>
+<P>(b) While under the influence of intoxicating liquor or any drug, as defined by RCW 46.61.502, and causes substantial bodily harm to another; or</P>
+<P>(c) With disregard for the safety of others and causes substantial bodily harm to another<TextRun amendingStyle="add">; or</TextRun></P>
+<P><TextRun amendingStyle="add">(d) With the disregard for the safety of others and causes substantial bodily harm to a vulnerable user of a public way</TextRun>.</P>
+<P>(2) Vehicular assault is a class B felony punishable under chapter 9A.20 RCW.</P>
+<P>(3) As used in this section<TextRun amendingStyle="strike">,</TextRun><TextRun amendingStyle="add">:</TextRun></P>
+<P><TextRun amendingStyle="add">(a)</TextRun> "<TextRun amendingStyle="add">S</TextRun>ubstantial bodily harm" has the same meaning as in RCW 9A.04.110.</P>
+<P><TextRun amendingStyle="add">(b) "Vulnerable user of a public way" has the same meaning as in RCW 46.61.526.</TextRun></P>
+<History>2001 c 300 § 1; 1996 c 199 § 8; 1983 c 164 § 2.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Severability<TextRun fontFamily="Times New Roman">—</TextRun>1996 c 199:</TextRun> See note following RCW 9.94A.505.</NoteP></AnnNote>
+<CrossRefNote><NoteP>Criminal history and driving record: RCW 46.61.513.</NoteP></CrossRefNote>
+<CrossRefNote><NoteP>Ignition interlocks, biological, technical devices: RCW 46.20.710 through 46.20.750.</NoteP></CrossRefNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act may be known and cited as the Leprechaun Cain act.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

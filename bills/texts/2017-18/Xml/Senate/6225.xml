@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-3548.1</RequestNumber><ShortBillId>SB 6225</ShortBillId><LongBillId>SENATE BILL 6225</LongBillId><Legislature>65th Legislature</Legislature><Session>2018 Regular Session</Session><Sponsors>Senators Keiser, Conway, Saldaña, Kuderer, Hasegawa, Hunt, and Liias</Sponsors><BillHistory><ReadDate>Read first time 01/10/18.</ReadDate><ReferredCommittee>Referred to Committee on Health &amp; Long Term Care.</ReferredCommittee></BillHistory><BriefDescription>Providing health coverage for young adults.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to health coverage for young adults; and adding a new section to chapter 74.09 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>74</TitleNumber><TextRun>.</TextRun><ChapterNumber>09</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) The authority shall provide health coverage to individuals who:</P>
+<P>(a) Are at least nineteen years old and no older than twenty-six years old;</P>
+<P>(b) Have an income that is at or below one hundred thirty-three percent of the federal poverty level;</P>
+<P>(c) Are not incarcerated; and</P>
+<P>(d) Are not eligible for categorically needy medical assistance as defined in the social security Title XIX state plan.</P>
+<P>(2) The amount, scope, and duration of health care services provided to individuals under this section must be the same as that provided to individuals eligible for categorically needy medical assistance.</P>
+<P>(3) The authority shall seek federal funding, as available, to defray state costs associated with providing coverage to persons under this section.</P>
+</BillSection>
+</BillBody>
+</Bill>

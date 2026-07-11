@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-3736.1</RequestNumber><ShortBillId>SB 6370</ShortBillId><LongBillId>SENATE BILL 6370</LongBillId><Legislature>65th Legislature</Legislature><Session>2018 Regular Session</Session><Sponsors>Senators Hobbs and Conway</Sponsors><BillHistory><ReadDate>Read first time 01/15/18.</ReadDate><ReferredCommittee>Referred to Committee on Ways &amp; Means.</ReferredCommittee></BillHistory><BriefDescription>Concerning unreduced retirement age for members of the public safety employees' retirement system.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to unreduced retirement age for members of the public safety employees' retirement system; amending RCW 41.37.210; creating a new section; and providing an effective date.</BillTitle>
+<EnactedClause />
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature finds that in 2004 when the public safety employees' retirement system was created the retirement age was five years earlier than the retirement age of members of the public employees' retirement system plan 2. The legislature further finds that in 2013 the alternate early retirement age that a member of the public employees' retirement system plan 2 could retire without a reduction to their benefit was reduced from 65 to 62. Therefore, it is the intent of the legislature to change the unreduced retirement age for members of the public safety employees' retirement system that became members prior to May 1, 2013, from 60 to 57 to reinstate the five year age between the systems.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>41</TitleNumber><TextRun>.</TextRun><ChapterNumber>37</ChapterNumber><TextRun>.</TextRun><SectionNumber>210</SectionNumber></SectionCite> and 2004 c 242 s 27 are each amended to read as follows:<Caption>Retirement eligibility.</Caption></BillSectionHeader>
+<P>(1) NORMAL RETIREMENT. Any member with at least five service credit years who has attained at least age sixty-five shall be eligible to retire and to receive a retirement allowance computed according to RCW 41.37.190.</P>
+<P>(2) UNREDUCED RETIREMENT. <TextRun amendingStyle="add">(a)</TextRun> Any member who<TextRun amendingStyle="add">: (i) H</TextRun>as completed at least ten service credit years in the public safety employees' retirement system<TextRun amendingStyle="add">; (ii) first became employed by an employer in an eligible position on or after May 1, 2013;</TextRun> and <TextRun amendingStyle="add">(iii)</TextRun> has attained age sixty<TextRun amendingStyle="add">,</TextRun> shall be eligible to retire and to receive a retirement allowance computed according to RCW 41.37.190.</P>
+<P><TextRun amendingStyle="add">(b) Any member who: (i) Has completed at least ten service credit years in the public safety employees' retirement system; (ii) first became employed by an employer in an eligible position prior to May 1, 2013; and (iii) has attained age fifty-seven, shall be eligible to retire and to receive a retirement allowance computed according to RCW 41.37.190.</TextRun></P>
+<P>(3) EARLY RETIREMENT. Any member who has completed at least twenty service credit years and has attained age fifty-three shall be eligible to retire and to receive a retirement allowance computed according to RCW 41.37.190, except that a member retiring pursuant to this subsection shall have the retirement allowance reduced by three percent per year to reflect the difference in the number of years between age at retirement and the attainment of age sixty.</P>
+<History>2004 c 242 § 27.</History>
+</BillSection>
+<BillSection type="new" action="effdate">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act takes effect July 1, 2019.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

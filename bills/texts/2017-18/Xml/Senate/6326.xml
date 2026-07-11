@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-3703.1</RequestNumber><ShortBillId>SB 6326</ShortBillId><LongBillId>SENATE BILL 6326</LongBillId><Legislature>65th Legislature</Legislature><Session>2018 Regular Session</Session><Sponsors>Senators Conway, Keiser, and Saldaña</Sponsors><BillHistory><ReadDate>Read first time 01/12/18.</ReadDate><ReferredCommittee>Referred to Committee on Labor &amp; Commerce.</ReferredCommittee></BillHistory><BriefDescription>Establishing maritime Puget Sound regional prevailing wages.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to establishing maritime Puget Sound regional prevailing wages; amending RCW 39.12.026; adding a new section to chapter 39.12 RCW; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature finds that the state of Washington amended the prevailing wage statute in 2003 to require that the prevailing rate of wage be determined on a county basis. After the 2003 legislation, prevailing wage data collected by the department of labor and industries may be used only in the county for which the work was performed.</P></BillSectionHeader>
+<P>This standard is appropriate for land-based public works construction projects; however, it is not suitable for determining the shipbuilding and ship repair rates. The performance of shipbuilding and ship repair public works is not site-specific. Vessels may be built or repaired in a shipyard in one county and put into service in another county. The maritime industry was an oversight when RCW 39.12.026 was enacted. In fact, the last prevailing wage survey for shipbuilding and ship repair was conducted in 1996, which predated the 2003 changes.</P>
+<P>The legislature further finds that this methodology is not appropriate and that a regional maritime prevailing wage rate, instead of a county rate, is the most proper standard for the two categories of shipbuilding and ship repair.</P>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>39</TitleNumber><TextRun>.</TextRun><ChapterNumber>12</ChapterNumber><TextRun>.</TextRun><SectionNumber>026</SectionNumber></SectionCite> and 2015 3rd sp.s. c 40 s 2 are each amended to read as follows:<Caption>Surveys<TextRun fontFamily="Times New Roman">—</TextRun>Applicability by county<TextRun fontFamily="Times New Roman">—</TextRun>Electronic option.</Caption></BillSectionHeader>
+<P>(1) In establishing the prevailing rate of wage under RCW 39.12.010, 39.12.015, and 39.12.020, all data collected by the department of labor and industries may be used only in the county for which the work was performed<TextRun amendingStyle="add">, except as is provided in subsection (3) of this section</TextRun>.</P>
+<P>(2) The department of labor and industries must provide registered contractors with the option of completing a wage survey electronically.</P>
+<P><TextRun amendingStyle="add">(3) For establishing the shipbuilding and ship repair prevailing rate of wage under RCW 39.12.010, 39.12.015, and 39.12.020, all data collected by the department of labor and industries in Clallam, Jefferson, Kitsap, Mason, Thurston, Pierce, King, Snohomish, Skagit, Whatcom, Island, and San Juan counties must be used to establish the maritime Puget Sound regional rate using the collective data from these counties and shall be calculated as follows:</TextRun></P>
+<P><TextRun amendingStyle="add">(a) If the majority of hours reported is paid at the same wage rate, then that rate shall be established as the prevailing wage rate.</TextRun></P>
+<P><TextRun amendingStyle="add">(b) If the same wage rate is not reported to have been paid for the majority of hours for the Puget Sound regional rate, then the average wage rate shall be established as the prevailing wage rate based on a weighted average of the hours, wages, and benefits.</TextRun></P>
+<History>2015 3rd sp.s. c 40 § 2; 2003 c 363 § 206.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2015 3rd sp.s. c 40:</TextRun> See note following RCW 39.04.320.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Findings<TextRun fontFamily="Times New Roman">—</TextRun>Intent<TextRun fontFamily="Times New Roman">—</TextRun>2003 c 363 §§ 201-206:</TextRun> See note following RCW 49.04.041.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Part headings not law<TextRun fontFamily="Times New Roman">—</TextRun>Severability<TextRun fontFamily="Times New Roman">—</TextRun>2003 c 363:</TextRun> See notes following RCW 47.28.241.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>39</TitleNumber><TextRun>.</TextRun><ChapterNumber>12</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) For any newly established rates for shipbuilding and ship repair established prior to the effective date of this section, the survey data will be recalculated in accordance with section 2 of this act and republished in the next semiannual wage publication.</P>
+<P>(2) Beginning on the effective date of this section, the shipbuilding and ship repair rates shall be surveyed and recalculated on a biennial basis.</P>
+</BillSection>
+</BillBody>
+</Bill>

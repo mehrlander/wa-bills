@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-2783.2</RequestNumber><ShortBillId>HB 2553</ShortBillId><LongBillId>HOUSE BILL 2553</LongBillId><Legislature>69th Legislature</Legislature><Session>2026 Regular Session</Session><Sponsors>Representatives Duerr and Reed</Sponsors><BillHistory><ReadDate>Read first time 01/19/26.</ReadDate><ReferredCommittee>Referred to Committee on Consumer Protection &amp; Business.</ReferredCommittee></BillHistory><BriefDescription>Concerning mortgagee clauses.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to mortgagee clauses; adding a new section to chapter 48.30 RCW; adding a new chapter to Title 61 RCW; and providing an effective date.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>48</TitleNumber><TextRun>.</TextRun><ChapterNumber>30</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>This section applies to property insurance claims on residential properties in which the insurance contract includes a mortgagee clause with a loss payee and for which the property is not a total loss and considered repairable.</P>
+<P>(1) An insurer who recommends a contractor to the insured shall require the preferred contractor to agree to begin repairs on the property without first requiring an upfront payment that exceeds:</P>
+<P>(a) An insured's deductible; and</P>
+<P>(b) The insurance proceeds that the mortgagee or assignee has released to the insured.</P>
+<P>(2)(a) Unless the conditions in (b) of this subsection are met, the insurer shall pay at least 50 percent of property insurance proceeds directly to the insured, whereas the remaining proceeds may be paid to the insured and the mortgagee or assignee.</P>
+<P>(b) If a mortgagee or assignee listed as a loss payee on a property insurance contract holds a loan on the residential property that is less than or equal to 25 percent of the property's assessed value and the loan is in good standing, then the insurer shall only make the insurance proceeds payable to the insured.</P>
+<P>(3) The requirement in subsection (2) of this section applies prospectively only to residential mortgage loans with a mortgagee clause executed on or after January 1, 2027.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>This section applies to residential mortgage loans held by a mortgagee or assignee that includes a mortgagee clause.</P></BillSectionHeader>
+<P>(1) Insurance proceeds received by a mortgagee or assignee for contents insurance coverage or for additional living expenses in which the mortgagee or assignee does not have a security interest in the contents must be promptly distributed to the insured.</P>
+<P>(2) A mortgagee or assignee holding insurance proceeds from a property insurance claim in which property repairs have been partially or fully completed and for which an inspection of such repairs has been completed and approved is required to issue the applicable partial or full payment to the insured within two business days.</P>
+</BillSection>
+<BillSection type="new" action="addchap" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>Section 2 of this act constitutes a new chapter in <TitleCite><TextRun>Title </TextRun><TitleNumber>61</TitleNumber><TextRun> RCW</TextRun></TitleCite>.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="effdate">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber><P>Section 1 of this act takes effect January 1, 2027.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

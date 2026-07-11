@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-2875.3</RequestNumber><ShortBillId>HB 2574</ShortBillId><LongBillId>HOUSE BILL 2574</LongBillId><Legislature>69th Legislature</Legislature><Session>2026 Regular Session</Session><Sponsors>Representatives Abbarno and Walsh</Sponsors><BillHistory><ReadDate>Read first time 01/19/26.</ReadDate><ReferredCommittee>Referred to Committee on State Government &amp; Tribal Relations.</ReferredCommittee></BillHistory><BriefDescription>Concerning the removal of deceased candidates for nonpartisan office from ballots.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to the removal of deceased candidates for nonpartisan office from ballots; and adding a new section to chapter 29A.36 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>29A</TitleNumber><TextRun>.</TextRun><ChapterNumber>36</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>This section applies if a county auditor receives a copy of a death certification issued pursuant to chapter 70.58A RCW for a candidate for an elective office of a city, town, or special purpose district.</P>
+<P>(1) In a case in which a primary is conducted for the office:</P>
+<P>(a) If ballots for the general election for the office have not been ordered by the county auditor, the candidate who received the third greatest number of votes for the office at the primary shall qualify as a candidate for general election and that candidate's name shall be printed on the ballot for the office in lieu of the name of the deceased candidate.</P>
+<P>(b) If general election ballots for the office have been so ordered, votes cast for the deceased candidate at the general election for the office shall not be counted for that office.</P>
+<P>(2) In a case in which a primary is not conducted for the office:</P>
+<P>(a) If ballots for the general election for the office have not been ordered by the county auditor, the name of the deceased candidate shall not appear on the general election ballot for the office.</P>
+<P>(b) If general election ballots for the office have been so ordered, votes cast for the deceased candidate at the general election for the office shall not be counted for that office.</P>
+<P>(3) If the deceased candidate is the only candidate to have filed for the office during a regular or special filing period for the office, a void in candidacy for the office exists.</P>
+</BillSection>
+</BillBody>
+</Bill>

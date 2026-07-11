@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-0347.1</RequestNumber><ShortBillId>HB 1230</ShortBillId><LongBillId>HOUSE BILL 1230</LongBillId><Legislature>69th Legislature</Legislature><Session>2025 Regular Session</Session><Sponsors>Representative Hackney</Sponsors><BillHistory><PrefiledDate>Prefiled 01/09/25.</PrefiledDate><ReadDate>Read first time 01/13/25.</ReadDate><ReferredCommittee>Referred to Committee on Consumer Protection &amp; Business.</ReferredCommittee></BillHistory><BriefDescription>Requiring that experience-rated group disability income insurers include all applicable rating factors and credibility formulas in rate manual filings with the insurance commissioner.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to requiring that experience-rated group disability income insurers include all applicable rating factors and credibility formulas in rate manual filings with the insurance commissioner; and amending RCW 48.19.010.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>48</TitleNumber><TextRun>.</TextRun><ChapterNumber>19</ChapterNumber><TextRun>.</TextRun><SectionNumber>010</SectionNumber></SectionCite> and 2015 c 19 s 4 are each amended to read as follows:<Caption>Scope of chapter.</Caption></BillSectionHeader>
+<P>(1) Except as is otherwise expressly provided the provisions of this chapter apply to all insurances upon subjects located, resident or to be performed in this state except:</P>
+<P>(a) Life insurance;</P>
+<P>(b) Disability insurance;</P>
+<P>(c) Reinsurance except as to joint reinsurance as provided in RCW 48.19.360;</P>
+<P>(d) Insurance against loss of or damage to aircraft, their hulls, accessories, and equipment, or against liability, other than workers' compensation and employers' liability, arising out of the ownership, maintenance<TextRun amendingStyle="strike">[,]</TextRun><TextRun amendingStyle="add">,</TextRun> or use of aircraft;</P>
+<P>(e) Insurance of vessels or craft, their cargoes, marine builders' risks, marine protection<TextRun amendingStyle="strike">[,]</TextRun><TextRun amendingStyle="add">,</TextRun> and indemnity; and such other risks commonly insured under marine, as distinguished from inland marine, insurance contracts as may be defined by ruling of the commissioner for the purposes of this provision;</P>
+<P>(f) Title insurance.</P>
+<P>(2) Except, that every insurer shall, as to disability insurance, before using file with the commissioner its manual of classification, manual of rules and rates, and any modifications thereof except as provided under RCW 48.43.733 or rate filing requirements established by a specific statute or federal law. <TextRun amendingStyle="add">In the case of experience-rated group disability income insurance, insurers shall include in such filings their experience rating formulas including all applicable rating factors and credibility formulas as part of the rate manual. Such filings must be detailed enough to confirm that a group is fully or partially credible and to allow the commissioner to replicate the premium rates for the experience-rated group if given the experience and demographics of the group.</TextRun></P>
+<History>2015 c 19 s 4; 1987 c 185 s 24; 1947 c 79 s .19.01; Rem. Supp. 1947 s 45.19.01.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Intent<TextRun fontFamily="Times New Roman">—</TextRun>2015 c 19:</TextRun> See note following RCW 48.18.100.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Intent<TextRun fontFamily="Times New Roman">—</TextRun>Severability<TextRun fontFamily="Times New Roman">—</TextRun>1987 c 185:</TextRun> See notes following RCW 51.12.130.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+</BillBody>
+</Bill>

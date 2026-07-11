@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-2580.1</RequestNumber><ShortBillId>HB 2230</ShortBillId><LongBillId>HOUSE BILL 2230</LongBillId><Legislature>69th Legislature</Legislature><Session>2026 Regular Session</Session><Sponsors>Representatives Zahn, Barnard, Ryu, Eslick, Leavitt, Tharinger, Parshley, Lekanoff, Reed, Duerr, Taylor, Macri, and Bernbaum</Sponsors><BillHistory><PrefiledDate>Prefiled 12/31/25.</PrefiledDate><ReadDate>Read first time 01/12/26.</ReadDate><ReferredCommittee>Referred to Committee on Early Learning &amp; Human Services.</ReferredCommittee></BillHistory><BriefDescription>Streamlining monitoring and oversight activities related to community residential service business providers.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to improving the efficient delivery of services to persons with developmental disabilities by streamlining monitoring and oversight activities related to community residential service business  providers; adding a new section to chapter 74.39A RCW; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature finds that community residential service business providers, who serve over 87 percent of clients in residential services, play a vital role in ensuring that individuals with intellectual and developmental disabilities can live safely and independently in their communities. These providers are subject to multiple audits, reviews, and reporting requirements from various divisions within the department of social and health services and other state and federal oversight entities. While accountability and quality oversight are essential, duplicative and overlapping requirements divert limited administrative resources away from direct client support and create inefficiencies across the system.</P></BillSectionHeader>
+<P>It is the intent of the legislature to streamline, align, and modernize reporting and audit processes for community residential service business providers. The legislature intends that the department of social and health services identify and eliminate redundant or conflicting audit and reporting requirements, consolidate similar reviews where possible, and improve data sharing across and within the department's divisions to reduce administrative burden.</P>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>74</TitleNumber><TextRun>.</TextRun><ChapterNumber>39A</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1)(a) Except as provided in (b) of this subsection, the department may conduct no more than one annual routine review per community residential service business provider in each of the following subject areas, and shall combine review activities in multiple subject areas where possible:</P>
+<P>(i) Client finances;</P>
+<P>(ii) Client service plans;</P>
+<P>(iii) Federal compliance reviews;</P>
+<P>(iv) Client community integration;</P>
+<P>(v) Provider finances; and</P>
+<P>(vi) General quality assurance.</P>
+<P>(b) The limitation on routine reviews as described in (a) of this subsection does not apply to activities related to incident reports, complaint investigations, citation follow-up activities, or mortality reviews, or to monitoring and oversight activities that are otherwise required by federal or state law.</P>
+<P>(2) The department shall adopt administrative rules or department policies that require document and record sharing between and within department divisions when performing monitoring and oversight activities in order to minimize multiple requests for documents or records that have already been provided by a community residential service business provider based on a previous request by the department. The rules or policies may identify exceptions to this requirement for ongoing investigations and other circumstances in which document or record sharing is not possible due to confidentiality requirements.</P>
+</BillSection>
+</BillBody>
+</Bill>

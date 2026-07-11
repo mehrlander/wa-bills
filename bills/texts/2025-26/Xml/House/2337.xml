@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-2614.3</RequestNumber><ShortBillId>HB 2337</ShortBillId><LongBillId>HOUSE BILL 2337</LongBillId><Legislature>69th Legislature</Legislature><Session>2026 Regular Session</Session><Sponsors>Representative Barnard</Sponsors><BillHistory><PrefiledDate>Prefiled 01/08/26.</PrefiledDate><ReadDate>Read first time 01/12/26.</ReadDate><ReferredCommittee>Referred to Committee on Postsecondary Education &amp; Workforce.</ReferredCommittee></BillHistory><BriefDescription>Concerning training requirements for individual providers caring for a family member.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to training requirements for individual providers caring for a family member; creating a new section; repealing 2024 c 322 s 4; and repealing 2024 c 322 ss 7 and 8 (uncodified).</BillTitle>
+<EnactedClause />
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature intends to maintain current law as it relates to individual provider training requirements for individual providers caring only for their family members and repeal the requirement for those individual providers to complete certain training requirements that would otherwise take effect January 1, 2027.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="repealuncod" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>The following acts or parts of acts are each repealed:</P></BillSectionHeader>
+<P><RepealNumber>1</RepealNumber>2024 c 322 s 4;</P>
+<P><RepealNumber>2</RepealNumber><UncodCite>2024 c 322 s 7 (uncodified); and</UncodCite></P>
+<P><UncodCite>(3) 2024 c 322 s 8 (uncodified).</UncodCite></P>
+</BillSection>
+</BillBody>
+</Bill>

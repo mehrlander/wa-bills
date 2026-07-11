@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-3026.1</RequestNumber><ShortBillId>HB 2618</ShortBillId><LongBillId>HOUSE BILL 2618</LongBillId><Legislature>69th Legislature</Legislature><Session>2026 Regular Session</Session><Sponsors>Representative Shavers</Sponsors><BillHistory><ReadDate>Read first time 01/22/26.</ReadDate><ReferredCommittee>Referred to Committee on Health Care &amp; Wellness.</ReferredCommittee></BillHistory><BriefDescription>Protecting the clinical autonomy of audiologists.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to protecting the clinical autonomy of audiologists; amending RCW 18.35.161; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) Telehealth, including teleaudiology, is an increasingly vital modality for delivering cost-effective, patient-centered health care services that increase quality and expand access to care, as recognized by industry leaders such as the United States department of health and human services, the veterans administration, the American academy of audiology, the American speech-language-hearing association, and the Washington state department of health.</P></BillSectionHeader>
+<P>(2) As a growing number of Washingtonians come to rely upon telehealth to access essential health care services, regulatory frameworks should support the clinical judgment and autonomy of licensed professionals to determine whether telehealth or in-person treatment is the best solution for a specific patient.</P>
+<P>(3) Regulation of professional health care services should not create different professional practice standards for telehealth and in-person services. Instead, efforts to regulate professional services should be modality-agnostic and focus on ensuring the applicable standard of care is met.</P>
+<P>(4) Therefore, it is the legislature's intent to ensure audiologists maintain autonomy in clinical decision making and determining the appropriate modality for care.</P>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>18</TitleNumber><TextRun>.</TextRun><ChapterNumber>35</ChapterNumber><TextRun>.</TextRun><SectionNumber>161</SectionNumber></SectionCite> and 2014 c 189 s 13 are each amended to read as follows:<Caption>Board<TextRun fontFamily="Times New Roman">—</TextRun>Powers and duties.</Caption></BillSectionHeader>
+<P>The board shall have the following powers and duties:</P>
+<P>(1) To establish by rule such minimum standards and procedures in the fitting and dispensing of hearing instruments as deemed appropriate and in the public interest<TextRun amendingStyle="add">, and ensuring that such standards are applied consistently across different modalities of care and not in a manner which infringes upon the clinical autonomy of licensed practitioners</TextRun>;</P>
+<P>(2) To adopt any other rules necessary to implement this chapter and which are not inconsistent with it;</P>
+<P>(3) To develop, approve, and administer or supervise the administration of examinations to applicants for licensure under this chapter;</P>
+<P>(4) To require a licensee or interim permit holder to make restitution to any individual injured by a violation of this chapter or chapter 18.130 RCW, the uniform disciplinary act. The authority to require restitution does not limit the board's authority to take other action deemed appropriate and provided for in this chapter or chapter 18.130 RCW;</P>
+<P>(5) To pass upon the qualifications of applicants for licensure or interim permits and to certify to the secretary;</P>
+<P>(6) To recommend requirements for continuing education and continuing competency requirements as a prerequisite to renewing a license or certification under this chapter;</P>
+<P>(7) To keep an official record of all its proceedings. The record is evidence of all proceedings of the board that are set forth in this record;</P>
+<P>(8) To adopt rules, if the board finds it appropriate, in response to questions put to it by professional health associations, hearing aid specialists, audiologists, speech-language pathologists, interim permit holders, and consumers in this state; and</P>
+<P>(9) To adopt rules relating to standards of care relating to hearing aid specialists or audiologists, including the dispensing of hearing instruments, and relating to speech-language pathologists, including dispensing of communication devices<TextRun amendingStyle="add">, while respecting the clinical decision making and clinical autonomy of licensed practitioners to determine the most appropriate modality or method of treatment to meet such standards of care</TextRun>.</P>
+<History>2014 c 189 s 13; 2010 c 65 s 4; 2002 c 310 s 16; 1998 c 142 s 11; 1996 c 200 s 20; 1993 c 313 s 7; 1987 c 150 s 23; 1983 c 39 s 13.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Work group<TextRun fontFamily="Times New Roman">—</TextRun>2014 c 189:</TextRun> See note following RCW 18.35.010.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2002 c 310:</TextRun> See note following RCW 18.35.010.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>1998 c 142 ss 1-14 and 16-20:</TextRun> See note following RCW 18.35.010.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Severability<TextRun fontFamily="Times New Roman">—</TextRun>1987 c 150:</TextRun> See RCW 18.122.901.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+</BillBody>
+</Bill>

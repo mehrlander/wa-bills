@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-3543.1</RequestNumber><ShortBillId>HB 2736</ShortBillId><LongBillId>HOUSE BILL 2736</LongBillId><Legislature>69th Legislature</Legislature><Session>2026 Regular Session</Session><Sponsors>Representatives Springer and Fitzgibbon</Sponsors><BillHistory /><BriefDescription>Reinstating estate tax rates that applied immediately before May 20, 2025, for estates of decedents dying on or after July 1, 2026.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to reinstating estate tax rates that applied immediately before May 20, 2025, for estates of decedents dying on or after July 1, 2026; and amending RCW 83.100.040.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>83</TitleNumber><TextRun>.</TextRun><ChapterNumber>100</ChapterNumber><TextRun>.</TextRun><SectionNumber>040</SectionNumber></SectionCite> and 2025 c 421 s 202 are each amended to read as follows:<Caption>Estate tax imposed<TextRun fontFamily="Times New Roman">—</TextRun>Amount of tax.</Caption></BillSectionHeader>
+<P pubwidth="wide">(1) A tax in an amount computed as provided in this section is imposed on every transfer of property located in Washington. For the purposes of this section, any intangible property owned by a resident is located in Washington.</P>
+<P postPadding="halfline" pubwidth="wide">(2)(a)(i) For estates of decedents dying before July 1, 2025, except as provided in (b) of this subsection, the amount of tax is the amount provided in the following table:</P>
+<Table width="508.0pt" align="center" fontSize="10pt" pubwidth="wide">
+<Col width="101pt" />
+<Col width="102pt" />
+<Col width="102pt" />
+<Col width="102pt" />
+<Col width="101pt" />
+<TR>
+<TD colspan="2" valign="bottom"><P /><P>If Washington Taxable</P></TD>
+<TD colspan="2" valign="bottom"><P /><P>The amount of Tax Equals</P></TD>
+<TD rowspan="2" valign="top"><P>Of Washington Taxable Estate Value Greater than</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P>Estate is at least</P></TD>
+<TD valign="top"><P>But Less Than</P></TD>
+<TD valign="top"><P>Initial Tax Amount</P></TD>
+<TD valign="top"><P>Plus Tax Rate %</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P>$0</P></TD>
+<TD valign="top"><P>$1,000,000</P></TD>
+<TD valign="top"><P>$0</P></TD>
+<TD valign="top"><P>10.00%</P></TD>
+<TD valign="top"><P>$0</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P>$1,000,000</P></TD>
+<TD valign="top"><P>$2,000,000</P></TD>
+<TD valign="top"><P>$100,000</P></TD>
+<TD valign="top"><P>14.00%</P></TD>
+<TD valign="top"><P>$1,000,000</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P>$2,000,000</P></TD>
+<TD valign="top"><P>$3,000,000</P></TD>
+<TD valign="top"><P>$240,000</P></TD>
+<TD valign="top"><P>15.00%</P></TD>
+<TD valign="top"><P>$2,000,000</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P>$3,000,000</P></TD>
+<TD valign="top"><P>$4,000,000</P></TD>
+<TD valign="top"><P>$390,000</P></TD>
+<TD valign="top"><P>16.00%</P></TD>
+<TD valign="top"><P>$3,000,000</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P>$4,000,000</P></TD>
+<TD valign="top"><P>$6,000,000</P></TD>
+<TD valign="top"><P>$550,000</P></TD>
+<TD valign="top"><P>18.00%</P></TD>
+<TD valign="top"><P>$4,000,000</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P>$6,000,000</P></TD>
+<TD valign="top"><P>$7,000,000</P></TD>
+<TD valign="top"><P>$910,000</P></TD>
+<TD valign="top"><P>19.00%</P></TD>
+<TD valign="top"><P>$6,000,000</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P>$7,000,000</P></TD>
+<TD valign="top"><P>$9,000,000</P></TD>
+<TD valign="top"><P>$1,100,000</P></TD>
+<TD valign="top"><P>19.50%</P></TD>
+<TD valign="top"><P>$7,000,000</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P>$9,000,000</P></TD>
+<TD valign="top"><P /></TD>
+<TD valign="top"><P>$1,490,000</P></TD>
+<TD valign="top"><P>20.00%</P></TD>
+<TD valign="top"><P>$9,000,000</P></TD>
+</TR>
+</Table>
+<P pubwidth="wide">(ii) For estates of decedents dying on or after July 1, 2025, <TextRun amendingStyle="add">but before July 1, 2026,</TextRun> except as provided in (b) of this subsection, the amount of tax is the amount provided in the following table:</P>
+<Table align="center" width="508.0pt" pubwidth="wide">
+<Col width="101.0pt" />
+<Col width="102pt" />
+<Col width="102pt" />
+<Col width="102pt" />
+<Col width="101pt" />
+<TR>
+<TD colspan="2" valign="bottom"><P /><P>If Washington Taxable</P></TD>
+<TD colspan="2" valign="bottom"><P /><P>The amount of Tax Equals</P></TD>
+<TD rowspan="2"><P>Of Washington Taxable Estate Value Greater than</P></TD>
+</TR>
+<TR>
+<TD><P>Estate is at least</P></TD>
+<TD><P>But Less Than</P></TD>
+<TD><P>Initial Tax Amount</P></TD>
+<TD><P>Plus Tax Rate %</P></TD>
+</TR>
+<TR>
+<TD><P>$0</P></TD>
+<TD><P>$1,000,000</P></TD>
+<TD><P>$0</P></TD>
+<TD><P>10.00%</P></TD>
+<TD><P>$0</P></TD>
+</TR>
+<TR>
+<TD><P>$1,000,000</P></TD>
+<TD><P>$2,000,000</P></TD>
+<TD><P>$100,000</P></TD>
+<TD><P>15.00%</P></TD>
+<TD><P>$1,000,000</P></TD>
+</TR>
+<TR>
+<TD><P>$2,000,000</P></TD>
+<TD><P>$3,000,000</P></TD>
+<TD><P>$250,000</P></TD>
+<TD><P>17.00%</P></TD>
+<TD><P>$2,000,000</P></TD>
+</TR>
+<TR>
+<TD><P>$3,000,000</P></TD>
+<TD><P>$4,000,000</P></TD>
+<TD><P>$420,000</P></TD>
+<TD><P>19.00%</P></TD>
+<TD><P>$3,000,000</P></TD>
+</TR>
+<TR>
+<TD><P>$4,000,000</P></TD>
+<TD><P>$6,000,000</P></TD>
+<TD><P>$610,000</P></TD>
+<TD><P>23.00%</P></TD>
+<TD><P>$4,000,000</P></TD>
+</TR>
+<TR>
+<TD><P>$6,000,000</P></TD>
+<TD><P>$7,000,000</P></TD>
+<TD><P>$1,070,000</P></TD>
+<TD><P>26.00%</P></TD>
+<TD><P>$6,000,000</P></TD>
+</TR>
+<TR>
+<TD><P>$7,000,000</P></TD>
+<TD><P>$9,000,000</P></TD>
+<TD><P>$1,330,000</P></TD>
+<TD><P>30.00%</P></TD>
+<TD><P>$7,000,000</P></TD>
+</TR>
+<TR>
+<TD><P>$9,000,000</P></TD>
+<TD><P /></TD>
+<TD><P>$1,930,000</P></TD>
+<TD><P>35.00%</P></TD>
+<TD><P>$9,000,000</P></TD>
+</TR>
+</Table>
+<P prePadding="halfline" pubwidth="wide"><TextRun amendingStyle="add">(iii) For estates of decedents dying on or after July 1, 2026, except as provided in (b) of this subsection, the amount of tax is the amount provided in the following table:</TextRun></P>
+<Table align="center" width="508.0pt" pubwidth="wide" prePadding="halfline">
+<Col width="101pt" />
+<Col width="102pt" />
+<Col width="102pt" />
+<Col width="102pt" />
+<Col width="101pt" />
+<TR>
+<TD colspan="2" valign="bottom"><P /><P indent="0"><TextRun amendingStyle="add">If Washington Taxable</TextRun></P></TD>
+<TD colspan="2" valign="bottom"><P /><P indent="0"><TextRun amendingStyle="add">The amount of Tax Equals</TextRun></P></TD>
+<TD rowspan="2"><P indent="0"><TextRun amendingStyle="add">Of Washington Taxable Estate Value Greater than</TextRun></P></TD>
+</TR>
+<TR>
+<TD><P indent="0"><TextRun amendingStyle="add">Estate is at least</TextRun></P></TD>
+<TD><P indent="0"><TextRun amendingStyle="add">But Less Than</TextRun></P></TD>
+<TD><P indent="0"><TextRun amendingStyle="add">Initial Tax Amount</TextRun></P></TD>
+<TD><P indent="0"><TextRun amendingStyle="add">Plus Tax Rate %</TextRun></P></TD>
+</TR>
+<TR>
+<TD><P indent="0"><TextRun amendingStyle="add">$0</TextRun></P></TD>
+<TD><P indent="0"><TextRun amendingStyle="add">$1,000,000</TextRun></P></TD>
+<TD><P indent="0"><TextRun amendingStyle="add">$0</TextRun></P></TD>
+<TD><P indent="0"><TextRun amendingStyle="add">10.00%</TextRun></P></TD>
+<TD><P indent="0"><TextRun amendingStyle="add">$0</TextRun></P></TD>
+</TR>
+<TR>
+<TD><P indent="0"><TextRun amendingStyle="add">$1,000,000</TextRun></P></TD>
+<TD><P indent="0"><TextRun amendingStyle="add">$2,000,000</TextRun></P></TD>
+<TD><P indent="0"><TextRun amendingStyle="add">$100,000</TextRun></P></TD>
+<TD><P indent="0"><TextRun amendingStyle="add">14.00%</TextRun></P></TD>
+<TD><P indent="0"><TextRun amendingStyle="add">$1,000,000</TextRun></P></TD>
+</TR>
+<TR>
+<TD><P indent="0"><TextRun amendingStyle="add">$2,000,000</TextRun></P></TD>
+<TD><P indent="0"><TextRun amendingStyle="add">$3,000,000</TextRun></P></TD>
+<TD><P indent="0"><TextRun amendingStyle="add">$240,000</TextRun></P></TD>
+<TD><P indent="0"><TextRun amendingStyle="add">15.00%</TextRun></P></TD>
+<TD><P indent="0"><TextRun amendingStyle="add">$2,000,000</TextRun></P></TD>
+</TR>
+<TR>
+<TD><P indent="0"><TextRun amendingStyle="add">$3,000,000</TextRun></P></TD>
+<TD><P indent="0"><TextRun amendingStyle="add">$4,000,000</TextRun></P></TD>
+<TD><P indent="0"><TextRun amendingStyle="add">$390,000</TextRun></P></TD>
+<TD><P indent="0"><TextRun amendingStyle="add">16.00%</TextRun></P></TD>
+<TD><P indent="0"><TextRun amendingStyle="add">$3,000,000</TextRun></P></TD>
+</TR>
+<TR>
+<TD><P indent="0"><TextRun amendingStyle="add">$4,000,000</TextRun></P></TD>
+<TD><P indent="0"><TextRun amendingStyle="add">$6,000,000</TextRun></P></TD>
+<TD><P indent="0"><TextRun amendingStyle="add">$550,000</TextRun></P></TD>
+<TD><P indent="0"><TextRun amendingStyle="add">18.00%</TextRun></P></TD>
+<TD><P indent="0"><TextRun amendingStyle="add">$4,000,000</TextRun></P></TD>
+</TR>
+<TR>
+<TD><P indent="0"><TextRun amendingStyle="add">$6,000,000</TextRun></P></TD>
+<TD><P indent="0"><TextRun amendingStyle="add">$7,000,000</TextRun></P></TD>
+<TD><P indent="0"><TextRun amendingStyle="add">$910,000</TextRun></P></TD>
+<TD><P indent="0"><TextRun amendingStyle="add">19.00%</TextRun></P></TD>
+<TD><P indent="0"><TextRun amendingStyle="add">$6,000,000</TextRun></P></TD>
+</TR>
+<TR>
+<TD><P indent="0"><TextRun amendingStyle="add">$7,000,000</TextRun></P></TD>
+<TD><P indent="0"><TextRun amendingStyle="add">$9,000,000</TextRun></P></TD>
+<TD><P indent="0"><TextRun amendingStyle="add">$1,100,000</TextRun></P></TD>
+<TD><P indent="0"><TextRun amendingStyle="add">19.50%</TextRun></P></TD>
+<TD><P indent="0"><TextRun amendingStyle="add">$7,000,000</TextRun></P></TD>
+</TR>
+<TR>
+<TD><P indent="0"><TextRun amendingStyle="add">$9,000,000</TextRun></P></TD>
+<TD><P /></TD>
+<TD><P indent="0"><TextRun amendingStyle="add">$1,490,000</TextRun></P></TD>
+<TD><P indent="0"><TextRun amendingStyle="add">20.00%</TextRun></P></TD>
+<TD><P indent="0"><TextRun amendingStyle="add">$9,000,000</TextRun></P></TD>
+</TR>
+</Table>
+<P prePadding="halfline" pubwidth="wide">(b) If any property in the decedent's estate is located outside of Washington, the amount of tax is the amount determined in (a) of this subsection multiplied by a fraction. The numerator of the fraction is the value of the property located in Washington. The denominator of the fraction is the value of the decedent's gross estate. Property qualifying for a deduction under RCW 83.100.046 must be excluded from the numerator and denominator of the fraction.</P>
+<P pubwidth="wide">(3) The tax imposed under this section is a stand-alone estate tax that incorporates only those provisions of the internal revenue code as amended or renumbered as of January 1, 2005, that do not conflict with the provisions of this chapter. The tax imposed under this chapter is independent of any federal estate tax obligation and is not affected by termination of the federal estate tax.</P>
+<History>2025 c 421 s 202; 2013 2nd sp.s. c 2 s 4; 2010 c 106 s 234; 2005 c 516 s 3; 1988 c 64 s 4; 1981 2nd ex.s. c 7 s 83.100.040 (Initiative Measure No. 402, approved November 3, 1981).</History>
+<RCWNoteSection>
+<AnnNote><NoteP pubwidth="wide"><TextRun fontWeight="bold">Application<TextRun fontFamily="Times New Roman">—</TextRun>2025 c 421 ss 201-204:</TextRun> "Sections 201 through 204 of this act apply to estates of decedents dying on or after July 1, 2025." [2025 c 421 s 302.]</NoteP></AnnNote>
+<AnnNote><NoteP pubwidth="wide"><TextRun fontWeight="bold">Findings<TextRun fontFamily="Times New Roman">—</TextRun>Intent<TextRun fontFamily="Times New Roman">—</TextRun>Savings<TextRun fontFamily="Times New Roman">—</TextRun>Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2025 c 421:</TextRun> See notes following RCW 82.87.040.</NoteP></AnnNote>
+<AnnNote><NoteP pubwidth="wide"><TextRun fontWeight="bold">Application<TextRun fontFamily="Times New Roman">—</TextRun>2013 2nd sp.s. c 2 s 4:</TextRun> "Section 4 of this act applies to estates of decedents dying on or after January 1, 2014." [2013 2nd sp.s. c 2 s 11.]</NoteP></AnnNote>
+<AnnNote><NoteP pubwidth="wide"><TextRun fontWeight="bold">Findings<TextRun fontFamily="Times New Roman">—</TextRun>Intent<TextRun fontFamily="Times New Roman">—</TextRun>Final judgment<TextRun fontFamily="Times New Roman">—</TextRun>Affect<TextRun fontFamily="Times New Roman">—</TextRun>Effective dates<TextRun fontFamily="Times New Roman">—</TextRun>2013 2nd sp.s. c 2:</TextRun> See notes following RCW 83.100.048.</NoteP></AnnNote>
+<AnnNote><NoteP pubwidth="wide"><TextRun fontWeight="bold">Retroactive application<TextRun fontFamily="Times New Roman">—</TextRun>2010 c 106 ss 234 and 235:</TextRun> "Sections 234 and 235 of this act apply both retroactively and prospectively to estates of decedents dying on or after May 17, 2005." [2010 c 106 s 404.]</NoteP></AnnNote>
+<AnnNote><NoteP pubwidth="wide"><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2010 c 106:</TextRun> See note following RCW 35.102.145.</NoteP></AnnNote>
+<AnnNote><NoteP pubwidth="wide"><TextRun fontWeight="bold">Finding<TextRun fontFamily="Times New Roman">—</TextRun>Intent<TextRun fontFamily="Times New Roman">—</TextRun>2005 c 516:</TextRun> "The legislature recognizes that on February 3, 2005, the Washington state supreme court decided in <TextRun fontStyle="italic">Estate of Hemphill v. Dep't of Rev.</TextRun>, Docket No. 74974-4, that Washington's estate tax is tied to the current federal Internal Revenue Code. The legislature finds that the revenue loss resulting from the <TextRun fontStyle="italic">Hemphill</TextRun> decision will severely affect the legislature's ability to fund programs vital to the peace, health, safety, and support of the citizens of this state. The legislature intends to address the adverse fiscal impact of the <TextRun fontStyle="italic">Hemphill</TextRun> decision and provide funding for education by creating a stand-alone state estate tax." [2005 c 516 s 1.]</NoteP></AnnNote>
+<AnnNote><NoteP pubwidth="wide"><TextRun fontWeight="bold">Application<TextRun fontFamily="Times New Roman">—</TextRun>2005 c 516:</TextRun> "This act applies prospectively only and not retroactively. Sections 2 through 17 of this act apply only to estates of decedents dying on or after May 17, 2005." [2005 c 516 s 20.]</NoteP></AnnNote>
+<AnnNote><NoteP pubwidth="wide"><TextRun fontWeight="bold">Severability<TextRun fontFamily="Times New Roman">—</TextRun>2005 c 516:</TextRun> "If any provision of this act or its application to any person or circumstance is held invalid, the remainder of the act or the application of the provision to other persons or circumstances is not affected." [2005 c 516 s 21.]</NoteP></AnnNote>
+<AnnNote><NoteP pubwidth="wide"><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2005 c 516:</TextRun> "This act is necessary for the immediate preservation of the public peace, health, or safety, or support of the state government and its existing public institutions, and takes effect immediately [May 17, 2005]." [2005 c 516 s 22.]</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+</BillBody>
+</Bill>

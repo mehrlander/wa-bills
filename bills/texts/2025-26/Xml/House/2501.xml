@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-2630.1</RequestNumber><ShortBillId>HB 2501</ShortBillId><LongBillId>HOUSE BILL 2501</LongBillId><Legislature>69th Legislature</Legislature><Session>2026 Regular Session</Session><Sponsors>Representatives Klicker, Fey, Ryu, Stuebe, Barkis, Barnard, Dufault, Ramel, and Reed</Sponsors><BillHistory><ReadDate>Read first time 01/15/26.</ReadDate><ReferredCommittee>Referred to Committee on Consumer Protection &amp; Business.</ReferredCommittee></BillHistory><BriefDescription>Revising the real estate seller disclosure notice to reflect changes in the pollution liability insurance agency's home heating oil tank insurance program.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to revising the real estate seller disclosure notice to reflect changes in the pollution liability insurance agency's home heating oil tank insurance program; amending RCW 64.06.090; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>64</TitleNumber><TextRun>.</TextRun><ChapterNumber>06</ChapterNumber><TextRun>.</TextRun><SectionNumber>090</SectionNumber></SectionCite> and 2018 c 289 s 1 are each amended to read as follows:<Caption>Oil tank for heating<TextRun fontFamily="Times New Roman">—</TextRun>No cost insurance<TextRun fontFamily="Times New Roman">—</TextRun>Seller's notice.</Caption></BillSectionHeader>
+<P>A seller of residential real property shall make available to the buyer the following statement: "This notice is to inform you that if the real property you are considering for purchase utilizes an oil tank for heating purposes, <TextRun amendingStyle="strike">no cost insurance may be available from the pollution liability insurance agency</TextRun> <TextRun amendingStyle="add">remediation assistance for heating oil contamination may be available. Contact the Washington State Pollution Liability Insurance Agency for more information</TextRun>."</P>
+<History>2018 c 289 s 1.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2018 c 289:</TextRun> "This act takes effect January 1, 2020." [2018 c 289 s 2.]</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act applies prospectively only and not retroactively. It applies only to sales of property that arise on or after January 1, 2027.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-2397.2</RequestNumber><ShortBillId>HB 2093</ShortBillId><LongBillId>HOUSE BILL 2093</LongBillId><Legislature>69th Legislature</Legislature><Session>2026 Regular Session</Session><Sponsors>Representatives Dufault, Corry, Jacobsen, Marshall, Chase, Schmidt, Abbarno, Barnard, Griffey, Mendoza, Graham, Valdez, Couture, and Schmick</Sponsors><BillHistory><PrefiledDate>Prefiled 12/02/25.</PrefiledDate><ReadDate>Read first time 01/12/26.</ReadDate><ReferredCommittee>Referred to Committee on Finance.</ReferredCommittee></BillHistory><BriefDescription>Reinstating the tax exemptions for the sale of precious metals and bullion.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to reinstating the tax exemptions for the sale of precious metals and bullion; adding a new section to chapter 82.04 RCW; creating a new section; and providing an effective date. </BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>82</TitleNumber><TextRun>.</TextRun><ChapterNumber>04</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) For purposes of this chapter, "wholesale sale," "sale at wholesale," "retail sale," and "sale at retail" do not include the sale of precious metal bullion or monetized bullion.</P>
+<P>(2) In computing tax under this chapter on the business of making sales of precious metal bullion or monetized bullion, the tax must be imposed on the amounts received as commissions upon transactions for the accounts of customers over and above the amount paid to other dealers associated in such transactions, but no deduction or offset is allowed on account of salaries or commissions paid to salesmen or other employees.</P>
+<P>(3) For purposes of this section:</P>
+<P>(a) "Monetized bullion" means coins or other forms of money manufactured from gold, silver, or other metals and heretofore, now, or hereafter used as a medium of exchange under the laws of this state, the United States, or any foreign nation, but does not include coins or money sold to be manufactured into jewelry or works of art.</P>
+<P>(b) "Precious metal bullion" means any precious metal which has been put through a process of smelting or refining including, but not limited to, gold, silver, platinum, rhodium, and palladium, and which is in such state or condition that its value depends primarily upon its contents and not upon its form.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>RCW 82.32.805 and 82.32.808 do not apply to this act.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="effdate" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act takes effect July 1, 2026.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

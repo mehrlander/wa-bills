@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-1313.1</RequestNumber><ShortBillId>HB 1953</ShortBillId><LongBillId>HOUSE BILL 1953</LongBillId><Legislature>69th Legislature</Legislature><Session>2025 Regular Session</Session><Sponsors>Representative Walen</Sponsors><BillHistory><PrefiledDate>Prefiled 02/11/25.</PrefiledDate><ReadDate>Read first time 02/12/25.</ReadDate><ReferredCommittee>Referred to Committee on Finance.</ReferredCommittee></BillHistory><BriefDescription>Regarding the distribution of unclaimed property to local governments.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to the distribution of unclaimed property to local governments; amending RCW 63.30.530; and providing an effective date.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>63</TitleNumber><TextRun>.</TextRun><ChapterNumber>30</ChapterNumber><TextRun>.</TextRun><SectionNumber>530</SectionNumber></SectionCite> and 2022 c 225 s 903 are each amended to read as follows:<Caption>Claim for property by person claiming to be owner.</Caption></BillSectionHeader>
+<P>(1) A person claiming to be the owner of property held under this chapter by the administrator may file a claim for the property on a form prescribed by the administrator. The claimant must verify the claim as to its completeness and accuracy.</P>
+<P>(2) The administrator may waive the requirement in subsection (1) of this section and may pay or deliver property directly to a person if:</P>
+<P>(a) The person receiving the property or payment is shown to be the apparent owner included on a report filed under RCW 63.30.220; and</P>
+<P>(b) The administrator reasonably believes the person is entitled to receive the property or payment.</P>
+<P><TextRun amendingStyle="add">(3) The administrator may waive the requirement in subsection (1) of this section and may pay or deliver property directly to a person if:</TextRun></P>
+<P><TextRun amendingStyle="add">(a) The administrator determines that the apparent owner is a local government; and</TextRun></P>
+<P><TextRun amendingStyle="add">(b) The administrator reasonably believes the local government is entitled to receive the property or payment.</TextRun></P>
+<P><TextRun amendingStyle="add">(4) If the administrator determines that the apparent owner is a local government and potentially eligible for waiver under subsection (3) of this section, the administrator must annually notify the appropriate local government of the existence of such property identified by the administrator, including a description of the property, the value of the property, and any associated conditions or restrictions.</TextRun></P>
+<P><TextRun amendingStyle="add">(5) The administrator may request additional documentation from a local government to establish that the local government is entitled to the property.</TextRun></P>
+<History>2022 c 225 s 903.</History>
+</BillSection>
+<BillSection type="new" action="effdate">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act takes effect January 1, 2026.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

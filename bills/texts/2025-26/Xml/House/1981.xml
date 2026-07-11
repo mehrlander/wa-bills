@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-1310.1</RequestNumber><ShortBillId>HB 1981</ShortBillId><LongBillId>HOUSE BILL 1981</LongBillId><Legislature>69th Legislature</Legislature><Session>2025 Regular Session</Session><Sponsors>Representatives Dye and Klicker</Sponsors><BillHistory><ReadDate>Read first time 02/14/25.</ReadDate><ReferredCommittee>Referred to Committee on Finance.</ReferredCommittee></BillHistory><BriefDescription>Imposing a local option tax on the sale or transfer of renewable energy facilities.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to imposing a local option tax on the sale or transfer of renewable energy facilities; adding a new section to chapter 82.46 RCW; creating a new section; and providing an effective date.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature finds that wind and solar energy production companies often generate substantial revenue from operations in rural communities without reinvesting those funds locally. These companies frequently transfer earnings out-of-state, leaving limited opportunities for economic development within the regions where they operate.</P></BillSectionHeader>
+<P>The legislature finds that the lack of retained revenue from renewable energy projects exacerbates economic challenges in rural areas, including underfunded infrastructure, limited access to education and health care resources, and diminished prospects for local business growth. As a result, the economic benefits of hosting renewable energy facilities are not equitably shared with the communities that support their operations.</P>
+<P>Therefore, the legislature intends to enact legislation that secures a new revenue option that would be supported by wind and solar production companies for rural communities to reinvest. By doing so, the legislature aims to create a more equitable distribution of benefits and foster long-term prosperity in these regions.</P>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>82</TitleNumber><TextRun>.</TextRun><ChapterNumber>46</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) The legislative authority of any county may impose an additional excise tax on the purchase and sale or transfer of a controlling interest of a renewable energy facility. The tax must be imposed if approved by a majority of the voters of the taxing district voting on the proposition at a general election held within the county or at a special election within the county called by the county for the purpose of submitting such proposition to the voters.</P>
+<P>(2) The tax rate is three percent of the selling price of the renewable energy facility and must be assessed on the seller. The proceeds of this tax must be considered general county revenues.</P>
+<P>(3) For the purposes of this section, "renewable energy" has the same meaning as in RCW 82.96.010.</P>
+</BillSection>
+<BillSection type="new" action="effdate" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act takes effect January 1, 2026.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-2481.2</RequestNumber><ShortBillId>HB 2130</ShortBillId><LongBillId>HOUSE BILL 2130</LongBillId><Legislature>69th Legislature</Legislature><Session>2026 Regular Session</Session><Sponsors>Representatives Orcutt, Dufault, Abell, Marshall, Jacobsen, Chase, Ley, Engell, Leavitt, Abbarno, Barnard, Graham, Keaton, Couture, Connors, Klicker, Dye, McClintock, Dent, Mendoza, Valdez, and Manjarrez</Sponsors><BillHistory><PrefiledDate>Prefiled 12/10/25.</PrefiledDate><ReadDate>Read first time 01/12/26.</ReadDate><ReferredCommittee>Referred to Committee on Finance.</ReferredCommittee></BillHistory><BriefDescription>Repealing new taxes imposed by Engrossed Substitute Senate Bill No. 5814 during the 2025 regular legislative session.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to repealing new taxes imposed by Engrossed Substitute Senate Bill No. 5814 during the 2025 regular legislative session; repealing 2025 c 422 ss 101, 201, and 301; repealing 2025 c 422 ss 1, 401, 402, 403, and 404 (uncodified); creating a new section; providing an effective date; and declaring an emergency.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="repealuncod" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The following acts or parts of acts are each repealed:</P></BillSectionHeader>
+<P><RepealNumber>1</RepealNumber><UncodCite>2025 c 422 s 1</UncodCite> (uncodified);</P>
+<P><RepealNumber>2</RepealNumber><UncodCite>2025 c 422 s 101</UncodCite>;</P>
+<P><RepealNumber>3</RepealNumber><UncodCite>2025 c 422 s 2</UncodCite>01;</P>
+<P><RepealNumber>4</RepealNumber><UncodCite>2025 c 422 s 301</UncodCite>;</P>
+<P><RepealNumber>5</RepealNumber><UncodCite>2025 c 422 s 401</UncodCite> (uncodified);</P>
+<P><RepealNumber>6</RepealNumber><UncodCite>2025 c 422 s 402</UncodCite> (uncodified);</P>
+<P><RepealNumber>7</RepealNumber><UncodCite>2025 c 422 s 403</UncodCite> (uncodified); and</P>
+<P><RepealNumber>8</RepealNumber><UncodCite>2025 c 422 s 404</UncodCite> (uncodified).</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>RCW 82.32.805 and 82.32.808 do not apply to this act.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="emerg">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act is necessary for the immediate preservation of the public peace, health, or safety, or support of the state government and its existing public institutions, and takes effect April 1, 2026.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-0374.2</RequestNumber><ShortBillId>HB 1175</ShortBillId><LongBillId>HOUSE BILL 1175</LongBillId><Legislature>69th Legislature</Legislature><Session>2025 Regular Session</Session><Sponsors>Representatives Klicker, Leavitt, Taylor, Parshley, Richards, Ryu, Thai, Barkis, Fitzgibbon, Dye, Macri, Doglio, Wylie, Kloba, Nance, and Bernbaum</Sponsors><BillHistory><PrefiledDate>Prefiled 01/07/25.</PrefiledDate><ReadDate>Read first time 01/13/25.</ReadDate><ReferredCommittee>Referred to Committee on Local Government.</ReferredCommittee></BillHistory><BriefDescription>Allowing small business establishments in residential zones.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to allowing small business establishments in residential zones; adding a new section to chapter 35.21 RCW; and adding a new section to chapter 35A.21 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>35</TitleNumber><TextRun>.</TextRun><ChapterNumber>21</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) A city or town must allow neighborhood stores and neighborhood cafés to be permitted in any zone allowing residential uses provided that a café must offer food if alcoholic drinks are offered.</P>
+<P>(2) Cities and towns may regulate parking provided that the regulations are not infeasible.</P>
+<P>(3) Hours of operation may be limited by the city or town provided that neighborhood cafés are permitted to operate for at least 12 consecutive hours.</P>
+<P>(4) Cities may establish additional regulations as necessary, including maximum square footage requirements.</P>
+<P>(5) For the purposes of this section, "neighborhood café" means an establishment that serves a limited menu of food items and has at least 500 square feet of gross floor area.</P>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>35A</TitleNumber><TextRun>.</TextRun><ChapterNumber>21</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) A code city or town must allow neighborhood stores and neighborhood cafés to be permitted in any zone allowing residential uses provided that a café must offer food if alcoholic drinks are offered.</P>
+<P>(2) Cities and towns may regulate parking provided that the regulations are not infeasible.</P>
+<P>(3) Hours of operation may be limited by the city or town provided that neighborhood cafés are permitted to operate for at least 12 consecutive hours.</P>
+<P>(4) Code cities may establish additional regulations as necessary, including maximum square footage requirements.</P>
+<P>(5) For the purposes of this section:</P>
+<P>(a) "Neighborhood café" means an establishment that serves a limited menu of food items and has at least 500 square feet of gross floor area; and</P>
+<P>(b) "Neighborhood store" means a convenience grocery store or mini-market that provides a variety of convenience items that may include, but are not limited to, food, beverages, and household items. A neighborhood store must be at least 500 square feet of gross floor area.</P>
+</BillSection>
+</BillBody>
+</Bill>

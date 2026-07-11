@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-0145.1</RequestNumber><ShortBillId>HB 1219</ShortBillId><LongBillId>HOUSE BILL 1219</LongBillId><Legislature>69th Legislature</Legislature><Session>2025 Regular Session</Session><Sponsors>Representatives Taylor, Farivar, and Simmons</Sponsors><BillHistory><PrefiledDate>Prefiled 01/09/25.</PrefiledDate><ReadDate>Read first time 01/13/25.</ReadDate><ReferredCommittee>Referred to Committee on State Government &amp; Tribal Relations.</ReferredCommittee></BillHistory><BriefDescription>Concerning the interbranch advisory committee.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to the interbranch advisory committee; adding a new section to chapter 2.76 RCW; and repealing RCW 2.76.800 and 2.76.900.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>2</TitleNumber><TextRun>.</TextRun><ChapterNumber>76</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) The interbranch advisory committee may set its own meeting schedule. The committee shall discuss issues of mutual concern between the branches. Examples include, but are not limited to:</P>
+<P>(a) Funding legislative mandates;</P>
+<P>(b) Initiatives related to access to justice;</P>
+<P>(c) Issues of local concern;</P>
+<P>(d) Courthouse security; and</P>
+<P>(e) Court technology infrastructure.</P>
+<P>(2) Staff support for the committee will be provided by the administrative office of the courts.</P>
+</BillSection>
+<BillSection type="new" action="repeal">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>The following acts or parts of acts are each repealed:</P></BillSectionHeader>
+<P><RepealNumber>1</RepealNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>2</TitleNumber><TextRun>.</TextRun><ChapterNumber>76</ChapterNumber><TextRun>.</TextRun><SectionNumber>800</SectionNumber></SectionCite> (Recommendations to legislature) and 2022 c 284 s 4; and</P>
+<P><RepealNumber>2</RepealNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>2</TitleNumber><TextRun>.</TextRun><ChapterNumber>76</ChapterNumber><TextRun>.</TextRun><SectionNumber>900</SectionNumber></SectionCite> (Expiration date) and 2022 c 284 s 5.</P>
+</BillSection>
+</BillBody>
+</Bill>

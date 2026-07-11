@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-0642.1</RequestNumber><ShortBillId>HB 1506</ShortBillId><LongBillId>HOUSE BILL 1506</LongBillId><Legislature>69th Legislature</Legislature><Session>2025 Regular Session</Session><Sponsors>Representatives Walen, Ormsby, and Scott</Sponsors><BillHistory><ReadDate>Read first time 01/22/25.</ReadDate><ReferredCommittee>Referred to Committee on Finance.</ReferredCommittee></BillHistory><BriefDescription>Imposing a business and occupation tax on state-chartered credit unions that merge with a commercial bank.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to imposing a business and occupation tax on state-chartered credit unions that merge with a commercial bank; and amending RCW 82.04.405.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>82</TitleNumber><TextRun>.</TextRun><ChapterNumber>04</ChapterNumber><TextRun>.</TextRun><SectionNumber>405</SectionNumber></SectionCite> and 1998 c 311 s 4 are each amended to read as follows:<Caption>Exemptions<TextRun fontFamily="Times New Roman">—</TextRun>Credit unions.</Caption></BillSectionHeader>
+<P><TextRun amendingStyle="strike">This</TextRun> <TextRun amendingStyle="add">(1) Except as provided in subsection (2) of this section, this</TextRun> chapter shall not apply to the gross income of credit unions organized under the laws of this state, any other state, or the United States.</P>
+<P><TextRun amendingStyle="add">(2) Beginning October 1, 2025, if a credit union organized under the laws of this state merges or acquires a bank that is regulated by the department of financial institutions, the credit union no longer qualifies for the exemption from business and occupation tax in subsection (1) of this section and is subject to tax equal to the gross income of the credit union, multiplied by 1.2 percent.</TextRun></P>
+<History>1998 c 311 s 4; 1970 ex.s. c 101 s 3.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Severability<TextRun fontFamily="Times New Roman">—</TextRun>Effective date<TextRun fontFamily="Times New Roman">—</TextRun>1970 ex.s. c 101:</TextRun> See notes following RCW 33.28.040.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+</BillBody>
+</Bill>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-3387.1</RequestNumber><ShortBillId>HB 2727</ShortBillId><LongBillId>HOUSE BILL 2727</LongBillId><Legislature>69th Legislature</Legislature><Session>2026 Regular Session</Session><Sponsors>Representatives Taylor, Entenman, Parshley, Lekanoff, Gregerson, Ryu, Ortiz-Self, Zahn, Morgan, Reed, Thomas, Scott, Pollet, Obras, and Fosse</Sponsors><BillHistory><ReadDate>Read first time 02/04/26.</ReadDate><ReferredCommittee>Referred to Committee on Transportation.</ReferredCommittee></BillHistory><BriefDescription>Creating the educational transit access grant program to reduce the cost of public transportation for community and technical college students.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to creating the educational transit access grant program to reduce the cost of public transportation for community and technical college students; adding a new section to chapter 47.66 RCW; creating a new section; and providing an effective date.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature believes that reducing the cost of transportation for community and technical college students is essential to their educational success. It is the intent of the legislature to assist public transit agencies to develop partnerships with local community and technical colleges defined in RCW 28B.50.030, in order to establish pilot programs to assist in lowering this cost of transportation.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>47</TitleNumber><TextRun>.</TextRun><ChapterNumber>66</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) The department shall establish an educational transit access grant program to provide funds to public transit agencies for pilot programs with local community or technical colleges, as defined in RCW 28B.50.030. The pilot programs must provide free or reduced transit fares for, at minimum, students enrolled in a degree-seeking or certificate-seeking program at these institutions.</P>
+<P>(2) To be eligible to receive a grant, the transit agency must submit a written proposal to the department that provides, at minimum:</P>
+<P>(a) The pilot program's goals and objectives, with measurable metrics;</P>
+<P>(b) A description of how the pilot program will lower the cost of public transit for students;</P>
+<P>(c) A written commitment to participate in the pilot program from the partnering community or technical college; and</P>
+<P>(d) A preliminary plan, in collaboration with the partnering community or technical college, detailing how the program will be sustained, once the pilot program is complete.</P>
+<P>(3) The department shall conduct a call for proposals no later than 60 days after the effective date of this section.</P>
+<P>(4) The department shall submit a report, in partnership with the relevant transit agency, to the transportation committees of the legislature, within six months of the completion of a pilot project funded under this section, detailing the outcomes of the particular pilot project, including methods by which future pilot projects could be improved.</P>
+<P>(5) For the purposes of this section, "transit agency" or "agency" means a city transit system under RCW 35.58.2721 or chapter 35.95A RCW, a county public transportation authority under chapter 36.57 RCW, a metropolitan municipal corporation transit system under chapter 36.56 RCW, a public transportation benefit area under chapter 36.57A RCW, an unincorporated transportation benefit area under RCW 36.57.100, or any special purpose district formed to operate a public transportation system.</P>
+</BillSection>
+<BillSection type="new" action="effdate" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act takes effect July 1, 2026.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

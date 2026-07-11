@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-1235.1</RequestNumber><ShortBillId>HB 1928</ShortBillId><LongBillId>HOUSE BILL 1928</LongBillId><Legislature>69th Legislature</Legislature><Session>2025 Regular Session</Session><Sponsors>Representatives Abell, Couture, Marshall, Chase, Barnard, Keaton, and Griffey</Sponsors><BillHistory><ReadDate>Read first time 02/10/25.</ReadDate><ReferredCommittee>Referred to Committee on Civil Rights &amp; Judiciary.</ReferredCommittee></BillHistory><BriefDescription>Requiring senate confirmation of gubernatorial appointments to vacancies on the supreme court.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to requiring senate confirmation of gubernatorial appointments to vacancies on the supreme court; amending RCW 2.04.100, 43.06.092, and 43.06.094; and providing a contingent effective date.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>2</TitleNumber><TextRun>.</TextRun><ChapterNumber>04</ChapterNumber><TextRun>.</TextRun><SectionNumber>100</SectionNumber></SectionCite> and 1971 c 81 s 3 are each amended to read as follows:<Caption>Vacancy, how filled.</Caption></BillSectionHeader>
+<P><TextRun amendingStyle="add">(1)</TextRun> If a vacancy occurs in the office of a justice of the supreme court, the governor shall appoint a person to <TextRun amendingStyle="strike">hold</TextRun> the office <TextRun amendingStyle="add">subject to confirmation by the senate as provided in this section.</TextRun></P>
+<P><TextRun amendingStyle="add">(2) If the appointment is made during a regular legislative session, the senate must hold the vote to confirm or reject the appointment prior to the adjournment of the session.</TextRun></P>
+<P><TextRun amendingStyle="add">(3) If the appointment is made during a special session or while the legislature is not in session, the senate must hold the vote to confirm or reject the appointment at the earlier of either a special session convened for the purpose of holding the vote or the next regularly scheduled legislative session following the appointment.</TextRun></P>
+<P><TextRun amendingStyle="add">(4) An affirmative vote by at least two-thirds of all members elected to the senate is required to confirm an appointee.</TextRun></P>
+<P><TextRun amendingStyle="add">(5) An appointee who is confirmed by the senate shall hold the office</TextRun> until the election and qualification of a justice to fill the vacancy, which election shall take place at the next succeeding general election, and the justice so elected shall hold the office for the remainder of the unexpired term.</P>
+<P><TextRun amendingStyle="add">(6) An appointee who is rejected by the vote of the senate may not be reappointed to the same office for a period of at least two calendar years from the date of the senate vote.</TextRun></P>
+<History>1971 c 81 s 3; 1955 c 38 s 2. Prior: 1937 c 15 s 1; 1893 c 5 s 2; 1890 p 321 s 3; RRS s 11044.</History>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>06</ChapterNumber><TextRun>.</TextRun><SectionNumber>092</SectionNumber></SectionCite> and 1981 c 338 s 2 are each amended to read as follows:<Caption>Gubernatorial appointees<TextRun fontFamily="Times New Roman">—</TextRun>Continuation of service<TextRun fontFamily="Times New Roman">—</TextRun>Appointments to fill vacancies.</Caption></BillSectionHeader>
+<P>(1) <TextRun amendingStyle="strike">Any</TextRun> <TextRun amendingStyle="add">Except as otherwise provided in subsection (3) of this section, any</TextRun> gubernatorial appointee subject to senate confirmation shall continue to serve unless rejected by a vote of the senate. An appointee who is rejected by a vote of the senate shall not be reappointed to the same position for a period of one year from termination of service.</P>
+<P>(2) Any person appointed by the governor to fill the unexpired term of an appointment subject to senate confirmation must also be confirmed by the senate.</P>
+<P><TextRun amendingStyle="add">(3) This section does not apply to gubernatorial appointees to fill judicial vacancies as provided for in RCW 2.04.100.</TextRun></P>
+<History>1981 c 338 s 2.</History>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>06</ChapterNumber><TextRun>.</TextRun><SectionNumber>094</SectionNumber></SectionCite> and 1981 c 338 s 1 are each amended to read as follows:<Caption>Gubernatorial appointees<TextRun fontFamily="Times New Roman">—</TextRun>Removal prior to confirmation.</Caption></BillSectionHeader>
+<P>Gubernatorial appointees subject to senate confirmation, other than those who serve at the governor's pleasure <TextRun amendingStyle="add">and other than those appointed to fill judicial vacancies as provided for in RCW 2.04.100</TextRun>, may not be removed from office without cause by the governor prior to confirmation except upon consent of the senate as provided for by the rules of the senate.</P>
+<History>1981 c 338 s 1.</History>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act takes effect January 1, 2026, if the proposed amendment to Article IV, section 3 of the state Constitution providing for senate confirmation of gubernatorial appointments to vacancies on the supreme court (House Joint Resolution No. . . . . (H-1236/25)) is validly submitted to and is approved and ratified by the voters at the next general election. If the proposed amendment is not approved and ratified, this act is void in its entirety.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-2581.1</RequestNumber><ShortBillId>HB 2219</ShortBillId><LongBillId>HOUSE BILL 2219</LongBillId><Legislature>69th Legislature</Legislature><Session>2026 Regular Session</Session><Sponsors>Representatives Ortiz-Self, Cortes, Simmons, Berry, Eslick, Santos, Zahn, Nance, Callan, Kloba, Stonier, Goodman, Reeves, Macri, Fosse, Bergquist, Hill, Bernbaum, and Salahuddin</Sponsors><BillHistory><PrefiledDate>Prefiled 12/30/25.</PrefiledDate><ReadDate>Read first time 01/12/26.</ReadDate><ReferredCommittee>Referred to Committee on Early Learning &amp; Human Services.</ReferredCommittee></BillHistory><BriefDescription>Enhancing the operational efficiency of child care providers.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to enhancing the operational efficiency of child care providers; amending RCW 43.216.255; and adding a new section to chapter 43.216 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>216</ChapterNumber><TextRun>.</TextRun><SectionNumber>255</SectionNumber></SectionCite> and 2021 c 304 s 10 are each amended to read as follows:<Caption>Licensing standards.</Caption></BillSectionHeader>
+<P>(1) No later than November 1, 2016, the department shall implement a single set of licensing standards for child care and the early childhood education and assistance program. The department shall produce the single set of licensing standards within the department's available appropriations. The new licensing standards must:</P>
+<P>(a) Provide minimum licensing requirements for child care and preschool programs<TextRun amendingStyle="add">, subject to subsection (2) of this section</TextRun>;</P>
+<P>(b) Rely on the standards established in the early achievers program to address quality issues in participating early childhood programs;</P>
+<P>(c) Take into account the separate needs of family care providers, outdoor nature-based child care providers, and child care centers; and</P>
+<P>(d) Promote the continued safety of child care settings.</P>
+<P>(2) <TextRun amendingStyle="add">In establishing the maximum group sizes and staff-to-child ratios for child care centers, the licensing standards established and implemented by the department must allow for the following periods of mixed-ratio time in which children of different age groups may be combined, provided the staff-to-child ratio and group size designated for the youngest child in the mixed group are maintained:</TextRun></P>
+<P><TextRun amendingStyle="add">(a) Except as provided in (b) of this subsection, up to 2.5 hours per day, to be used on a schedule established by the center; and</TextRun></P>
+<P><TextRun amendingStyle="add">(b) Up to four hours per day, to be used on a schedule established by the center, if at least 90 minutes of that time is reserved for allowing meal and rest breaks for center staff.</TextRun></P>
+<P><TextRun amendingStyle="add">(3)</TextRun> Private schools that operate early learning programs and do not receive state subsidy payments shall be subject to the minimum health and safety standards as defined in RCW 43.216.395(2)(b), the health and safety requirements under chapter 28A.195 RCW, and the requirements necessary to assure a sufficient early childhood education to meet usual requirements needed for transition into elementary school. The state, and any agency thereof, shall not restrict or dictate any specific educational or other programs for early learning programs operated by private schools except for programs that receive state subsidy payments.</P>
+<History>2021 c 304 s 10; 2015 3rd sp.s. c 7 s 3. Formerly RCW 43.215.201.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Finding<TextRun fontFamily="Times New Roman">—</TextRun>Intent<TextRun fontFamily="Times New Roman">—</TextRun>2015 3rd sp.s. c 7:</TextRun> See note following RCW 43.216.085.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>216</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> under the subchapter heading "licensing" to read as follows:</BillSectionHeader>
+<P>The department must waive the early learning program preservice requirement to complete a department-provided orientation for any individual who has previously completed the applicable orientation.</P>
+</BillSection>
+</BillBody>
+</Bill>

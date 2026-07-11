@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-3021.2</RequestNumber><ShortBillId>SHB 1735</ShortBillId><LongBillId>SUBSTITUTE HOUSE BILL 1735</LongBillId><Legislature>69th Legislature</Legislature><Session>2026 Regular Session</Session><Sponsors>House Agriculture &amp; Natural Resources (originally sponsored by Representatives Parshley, Leavitt, Fitzgibbon, Berg, Rude, Fosse, Shavers, Reed, Ormsby, Thai, Farivar, Hill, Scott, Bernbaum, Pollet, Macri, Ryu, and Ramel)</Sponsors><BillHistory><ReadDate>READ FIRST TIME 02/04/26.</ReadDate></BillHistory><BriefDescription>Prohibiting the force-feeding of birds.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to the force-feeding of birds; adding a new chapter to Title 16 RCW; prescribing penalties; and providing an effective date.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The definitions in this section apply throughout this chapter unless the context clearly requires otherwise.</P></BillSectionHeader>
+<P>(1) "Bird" includes, but is not limited to, any species of domestic poultry including chicken, turkey, goose, or duck.</P>
+<P>(2) "Department" means the department of agriculture.</P>
+<P>(3) "Director" means the director of the department or his or her duly authorized representative.</P>
+<P>(4) "Foie gras" means the liver of a bird that has been specifically fed to produce a large, fatty liver.</P>
+<P>(5) "Force-feeding" means any process, whether implemented by hand or machine, of feeding a bird that causes the bird to ingest more food than a typical bird of the same species would consume voluntarily. Force-feeding methods include, but are not limited to, delivering feed through a tube or other device inserted into the bird's esophagus.</P>
+<P>(6) "Person" includes, but is not limited to, individuals, partnerships, corporations, associations, and retail and restaurant establishments.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>A person may not force-feed a bird, or hire another person to force-feed a bird. This section does not apply if a person force-feeds a bird as directed by a veterinarian for the purpose of improving the bird's health.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>A person may not knowingly sell, possess, transport, or distribute any foie gras or any product that has been produced using the practice of force-feeding.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber><P>When the director determines that a person has violated any provisions of this chapter, the director may assess a civil penalty of up to $1,000 for each violation, and up to $1,000 per day each day the violation continues. Moneys collected under this section must be deposited into the state general fund.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>5</Value><TextRun>.  </TextRun></BillSectionNumber><P>The director has authority to administer and enforce this chapter, and may adopt rules as necessary consistent with chapter 34.05 RCW.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addchap" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>6</Value><TextRun>.  </TextRun></BillSectionNumber><P>Sections 1 through 5 and 7 of this act constitute a new chapter in <TitleCite><TextRun>Title </TextRun><TitleNumber>16</TitleNumber><TextRun> RCW</TextRun></TitleCite>.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="effdate">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>7</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act takes effect January 1, 2028.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-3164.1</RequestNumber><ShortBillId>HB 2672</ShortBillId><LongBillId>HOUSE BILL 2672</LongBillId><Legislature>69th Legislature</Legislature><Session>2026 Regular Session</Session><Sponsors>Representatives Couture, Walen, Dufault, and Stuebe</Sponsors><BillHistory><ReadDate>Read first time 01/27/26.</ReadDate><ReferredCommittee>Referred to Committee on Technology, Economic Development, &amp; Veterans.</ReferredCommittee></BillHistory><BriefDescription>Requiring certain disclosures from private entities that receive state funding.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to requiring certain disclosures from private entities that receive state funding; and adding a new chapter to Title 19 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) All private entities that seek, either as a grantee or a subgrantee, a grant that is funded in whole or in part by state funds must disclose on a form approved by the office of financial management as part of their application for grant funding or upon renewal of grant funding the following information:</P></BillSectionHeader>
+<P>(a) The name and total compensation of each employee of the private entity whose total compensation exceeds $100,000 annually;</P>
+<P>(b) The name of each employee who currently or within the past five years has held public office within Washington state regardless of compensation amount;</P>
+<P>(c) The name of each board member of the private entity and any compensation paid to each board member;</P>
+<P>(d) Any political contributions made by the private entity in the previous four election cycles reportable under Title 29B RCW; and</P>
+<P>(e) An accounting of how the grant money will be spent by the private entity.</P>
+<P>(2) Any agency that awards, either directly or as pass-through funding, a grant that is funded in whole or in part by state funds must:</P>
+<P>(a) Provide applicants with the disclosure form approved by the office of financial management as part of the application or renewal process;</P>
+<P>(b) Ensure that grantees and subgrantees are fully in compliance with subsection (1) of this section; and</P>
+<P>(c) Immediately upon awarding or renewing a grant, transmit all completed disclosure forms, including those from unsuccessful applicants, required under subsection (1) of this section to the office of financial management.</P>
+<P>(3) Noncompliance with subsection (1) of this section must result in forfeiture of the award and the noncompliant private entity shall reimburse the grantor the complete amount of the funds awarded to, and received by, the entity.</P>
+<P>(4) The office of financial management shall maintain a publicly searchable database on its website for all completed disclosure forms.</P>
+<P>(5) The following definitions apply throughout this section unless the context clearly requires otherwise:</P>
+<P>(a)(i) "Agency" includes all state agencies and all local agencies.</P>
+<P>(ii) "State agency" includes every state office, department, division, bureau, board, commission, or other state agency.</P>
+<P>(iii) "Local agency" includes every county, city, town, municipal corporation, quasi-municipal corporation, or special purpose district, or any office, department, division, bureau, board, commission, or agency thereof, or other local public agency.</P>
+<P>(b) "Private entity" means any nonpublic entity organized under 26 U.S.C. Sec. 501(c).</P>
+<P>(c) "Public office" has the meaning defined in RCW 29B.10.440.</P>
+</BillSection>
+<BillSection type="new" action="addchap" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>Section 1 of this act constitutes a new chapter in <TitleCite><TextRun>Title </TextRun><TitleNumber>19</TitleNumber><TextRun> RCW</TextRun></TitleCite>.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-1251.1</RequestNumber><ShortBillId>HB 1913</ShortBillId><LongBillId>HOUSE BILL 1913</LongBillId><Legislature>69th Legislature</Legislature><Session>2025 Regular Session</Session><Sponsors>Representative Berg</Sponsors><BillHistory><ReadDate>Read first time 02/10/25.</ReadDate><ReferredCommittee>Referred to Committee on Finance.</ReferredCommittee></BillHistory><BriefDescription>Repealing the public utility tax credit for home energy assistance.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to repealing the public utility tax credit for home energy assistance; repealing RCW 82.16.0497; and providing an effective date.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="repeal">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P><SectionCite><TextRun>RCW </TextRun><TitleNumber>82</TitleNumber><TextRun>.</TextRun><ChapterNumber>16</ChapterNumber><TextRun>.</TextRun><SectionNumber>0497</SectionNumber></SectionCite> (Credit<TextRun fontFamily="Times New Roman">—</TextRun>Light and power business, gas distribution business) and 2020 c 139 s 26, 2006 c 213 s 1, &amp; 2001 c 214 s 13 are each repealed.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="effdate">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act takes effect January 1, 2026.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

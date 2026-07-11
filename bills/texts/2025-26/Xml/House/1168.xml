@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-0302.1</RequestNumber><ShortBillId>HB 1168</ShortBillId><LongBillId>HOUSE BILL 1168</LongBillId><Legislature>69th Legislature</Legislature><Session>2025 Regular Session</Session><Sponsors>Representatives Shavers, Taylor, Ryu, and Fosse</Sponsors><BillHistory><PrefiledDate>Prefiled 01/06/25.</PrefiledDate><ReadDate>Read first time 01/13/25.</ReadDate><ReferredCommittee>Referred to Committee on Technology, Economic Development, &amp; Veterans.</ReferredCommittee></BillHistory><BriefDescription>Increasing transparency in artificial intelligence.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to increasing transparency in artificial intelligence; adding a new chapter to Title 19 RCW; and prescribing penalties.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The definitions in this section apply throughout this chapter unless the context clearly requires otherwise.</P></BillSectionHeader>
+<P>(1) "Aggregate consumer information" means information that relates to a group or category of consumers, from which individual consumer identities have been removed, that is not linked or reasonably linkable to any consumer or household, including via a device. "Aggregate consumer information" does not mean one or more individual consumer records that have been identified.</P>
+<P>(2) "Artificial intelligence" means an engineered or machine-based system that varies in its level of autonomy and that can, for explicit or implicit objectives, infer from the input it receives how to generate outputs that can influence physical or virtual environments.</P>
+<P>(3) "Developer" means a person, partnership, state or local government agency, or corporation that designs, codes, produces, or substantially modifies an artificial intelligence system or service for use by members of the public. For the purposes of this definition, "members of the public" does not include an affiliate as defined in RCW 19.146.010 or a hospital's medical staff member.</P>
+<P>(4) "Generative artificial intelligence" means artificial intelligence that can generate derived synthetic content, such as text, images, video, and audio, that emulates the structure and characteristics of the artificial intelligence's training data.</P>
+<P>(5) "Security and integrity" means the ability of:</P>
+<P>(a) Networks or information systems to detect security incidents that compromise the availability, authenticity, integrity, and confidentiality of stored or transmitted personal information;</P>
+<P>(b) Developers, users, or businesses to detect security incidents, resist malicious, deceptive, fraudulent, or illegal actions and to help prosecute those responsible for those actions; and</P>
+<P>(c) Developers, users, or businesses to ensure the physical safety of natural persons.</P>
+<P>(6) "Substantially modifies" or "substantial modification" means a new version, new release, or other update to a generative artificial intelligence system or service that materially changes its functionality or performance, including the results of retraining or fine tuning.</P>
+<P>(7) "Synthetic data generation" means a process in which seed data are used to create artificial data that have some of the statistical characteristics of the seed data.</P>
+<P>(8) "Train a generative artificial intelligence system or service" includes testing, validating, or fine tuning by the developer of the artificial intelligence system or service.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) On or before January 1, 2026, and before each time thereafter that a generative artificial intelligence system or service, or a substantial modification to a generative artificial intelligence system or service, released on or after January 1, 2022, is made publicly available to Washingtonians for use, regardless of whether the terms of that use include compensation, the developer of the system or service shall post on the developer's internet website documentation regarding the data used by the developer to train the generative artificial intelligence system or service including, but not limited to:</P></BillSectionHeader>
+<P>(a) A high-level summary of the datasets used in the development of the generative artificial intelligence system or service including, but not limited to:</P>
+<P>(i) The sources or owners of the datasets;</P>
+<P>(ii) A description of how the datasets further the intended purpose of the artificial intelligence system or service;</P>
+<P>(iii) The number of data points included in the datasets, which may be in general ranges, and with estimated figures for dynamic datasets;</P>
+<P>(iv) A description of the types of data points within the datasets;</P>
+<P>(v) Whether the datasets include any data protected by copyright, trademark, or patent, or whether the datasets are entirely in the public domain;</P>
+<P>(vi) Whether the datasets were purchased or licensed by the developer;</P>
+<P>(vii) Whether the datasets include personal information, as defined in RCW 19.255.005;</P>
+<P>(viii) Whether the datasets include aggregate consumer information;</P>
+<P>(ix) Whether there was any cleaning, processing, or other modification to the datasets by the developer, including the intended purpose of those efforts in relation to the artificial intelligence system or service;</P>
+<P>(x) The time period during which the data in the datasets were collected, including a notice if the data collection is ongoing;</P>
+<P>(xi) The dates the datasets were first used during the development of the artificial intelligence system or service; and</P>
+<P>(xii) Whether the generative artificial intelligence system or service used or continuously uses synthetic data generation in its development. A developer may include a description of the functional need or desired purpose of the synthetic data in relation to the intended purpose of the system or service.</P>
+<P>(b) For purposes of this subsection, the following definitions apply:</P>
+<P>(i) As applied to datasets that include labels, "types of data points" means the types of labels used; and</P>
+<P>(ii) As applied to datasets without labeling, "types of data points" refers to the general characteristics.</P>
+<P>(2) A developer is not required to post documentation regarding the data used to train a generative artificial intelligence system or service for any of the following:</P>
+<P>(a) A generative artificial intelligence system or service whose sole purpose is to help ensure security and integrity;</P>
+<P>(b) A generative artificial intelligence system or service whose sole purpose is the operation of aircraft in the national airspace; and</P>
+<P>(c) A generative artificial intelligence system or service developed for national security, military, or defense purposes that is made available only to a federal entity.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>The attorney general shall enforce this chapter, and a developer who is found in violation of this chapter is liable for a civil penalty in the amount of $5,000 per violation to be collected in a civil action filed by the attorney general. Each day that a developer is in violation of this chapter is a discrete violation.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addchap" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber><P>Sections 1 through 3 of this act constitute a new chapter in <TitleCite><TextRun>Title </TextRun><TitleNumber>19</TitleNumber><TextRun> RCW</TextRun></TitleCite>.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-2554.1</RequestNumber><ShortBillId>SHB 2105</ShortBillId><LongBillId>SUBSTITUTE HOUSE BILL 2105</LongBillId><Legislature>67th Legislature</Legislature><Session>2022 Regular Session</Session><Sponsors>House Housing, Human Services &amp; Veterans (originally sponsored by Representatives Gilday, Chapman, Walen, Barkis, and Sutherland)</Sponsors><BillHistory><ReadDate>READ FIRST TIME 02/03/22.</ReadDate></BillHistory><BriefDescription>Concerning service of notice on landlords and tenants.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to service of notice on landlords and tenants; and amending RCW 59.20.150.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>59</TitleNumber><TextRun>.</TextRun><ChapterNumber>20</ChapterNumber><TextRun>.</TextRun><SectionNumber>150</SectionNumber></SectionCite> and 1999 c 359 s 14 are each amended to read as follows:<Caption>Service of notice on landlord or tenant.</Caption></BillSectionHeader>
+<P>(1) Any notice required by this chapter to be given to a tenant shall be served on behalf of the landlord: </P>
+<P>(a) By delivering a copy personally to the tenant; <TextRun amendingStyle="strike">or</TextRun></P>
+<P>(b) <TextRun amendingStyle="strike">if</TextRun> <TextRun amendingStyle="add">By sending a copy by email to the email address provided by the tenant and also sending a copy through the mail addressed to the tenant at the tenant's last known address so long as the following conditions are met:</TextRun></P>
+<P><TextRun amendingStyle="add">(i) The rental agreement or other signed document executed by the tenant specifies in bold type that notices will be given to the tenant by email and sent by mail to the tenant's last known address;</TextRun></P>
+<P><TextRun amendingStyle="add">(ii) The tenant expressly agrees to receive notices by email and mail to the tenant's last known address;</TextRun></P>
+<P><TextRun amendingStyle="add">(iii) The landlord provides the tenant with the email address from which notices will be sent and directs the tenant to modify his or her email settings to allow email from that address to avoid any filtration systems;</TextRun></P>
+<P><TextRun amendingStyle="add">(iv) The landlord notifies the tenant of any change in the email address from which notices will be sent prior to the address change; and</TextRun></P>
+<P><TextRun amendingStyle="add">(v) The landlord continues or resumes personal delivery to the tenant if the:</TextRun></P>
+<P><TextRun amendingStyle="add">(A) Tenant requests by email, in writing, or verbally to receive notices delivered personally;</TextRun></P>
+<P><TextRun amendingStyle="add">(B) Landlord receives at least two returned or undeliverable emails;</TextRun></P>
+<P><TextRun amendingStyle="add">(C) Landlord does not receive an email or written response within two weeks of any email asking for a written response; or</TextRun></P>
+<P><TextRun amendingStyle="add">(D) Landlord is aware of any extended internet outages that may interfere with email delivery; or</TextRun></P>
+<P><TextRun amendingStyle="add">(c) If</TextRun> the tenant is absent from the mobile home, manufactured home, or park model by affixing a copy of the notice in a conspicuous place on the mobile home, manufactured home, or park model and also sending a copy through the mail addressed to the tenant at the tenant's last known address.</P>
+<P>(2) Any notice required by this chapter to be given to the landlord shall be served by the tenant in the same manner as provided for in subsection (1) of this section, <TextRun amendingStyle="strike">or</TextRun> by mail to the landlord at such place as shall be expressly provided in the rental agreement<TextRun amendingStyle="add">, or by sending a copy by email to the email address provided by the landlord so long as the landlord expressly agrees to receive notices by email</TextRun>.</P>
+<P>(3) The landlord shall state in any notice of eviction required by RCW 59.20.080(1) as now or hereafter amended the specific reason for eviction in a clear and concise manner.</P>
+<History>1999 c 359 § 14; 1979 ex.s. c 186 § 10.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Severability<TextRun fontFamily="Times New Roman">—</TextRun>1979 ex.s. c 186:</TextRun> See note following RCW 59.20.030.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+</BillBody>
+</Bill>

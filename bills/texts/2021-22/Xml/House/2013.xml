@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-2118.1</RequestNumber><ShortBillId>HB 2013</ShortBillId><LongBillId>HOUSE BILL 2013</LongBillId><Legislature>67th Legislature</Legislature><Session>2022 Regular Session</Session><Sponsors>Representatives Young, Boehnke, Graham, Leavitt, Sutherland, and Walsh</Sponsors><BillHistory><ReadDate>Read first time 01/17/22.</ReadDate><ReferredCommittee>Referred to Committee on Transportation.</ReferredCommittee></BillHistory><BriefDescription>Protecting personal and identity information held by the department of licensing.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to protecting personal and identity information held by the department of licensing; adding a new section to chapter 46.08 RCW; and prescribing penalties.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>46</TitleNumber><TextRun>.</TextRun><ChapterNumber>08</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) The department is prohibited from releasing personal or identity information associated with vehicle or vessel records, driver's license or identicard records, or driving records, for which the sale or sharing of that information is not explicitly authorized in chapter 46.12 or 46.52 RCW, or otherwise authorized under state law. This prohibition extends to all persons, as defined in RCW 46.04.405. The prohibition applies to anonymized data from which personal and identity information has been removed, but that retains unique identifiers which could enable the anonymized data to be reassociated with personal or identity information that state law permits be sold or shared.</P>
+<P>(2) A person may bring a legal action for damages for a violation of this section if the violation has injured his or her business, his or her person, or his or her reputation. A person injured in this manner shall be entitled to actual damages, including mental pain and suffering endured by him or her on account of violation of the provisions of this chapter, or liquidated damages computed at the rate of $100 a day for each day of violation, not to exceed $1,000, and a reasonable attorneys' fee and other costs of litigation.</P>
+<P>(3) If any application of this section is found to be in conflict with federal law, that application is exempted from the requirements of this section solely to the extent of the conflict.</P>
+<P>(4) For the purposes of this section:</P>
+<P>(a) "Identity information" means information that identifies an individual, or may be used to determine the identity of an individual, including:</P>
+<P>(i) Federal tax identification number or employer identification number;</P>
+<P>(ii) Residential and mailing address, but not the five-digit zip code;</P>
+<P>(iii) Email address;</P>
+<P>(iv) Telephone number;</P>
+<P>(v) Registered and legal vehicle owner name;</P>
+<P>(vi) Gender;</P>
+<P>(vii) Place of birth;</P>
+<P>(viii) Voter information status; and</P>
+<P>(ix) Selective service information.</P>
+<P>(b) "Personal information" has the same meaning as in RCW 42.56.590.</P>
+<P>(c) "Unique identifier" means an identifier that marks a particular record as unique from every other record.</P>
+</BillSection>
+</BillBody>
+</Bill>

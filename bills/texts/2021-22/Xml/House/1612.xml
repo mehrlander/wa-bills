@@ -1,0 +1,407 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>Z-0387.1</RequestNumber><ShortBillId>HB 1612</ShortBillId><LongBillId>HOUSE BILL 1612</LongBillId><Legislature>67th Legislature</Legislature><Session>2022 Regular Session</Session><Sponsors>Representatives Sells, Berry, Wicks, Simmons, and Harris-Talley; by request of Employment Security Department</Sponsors><BillHistory><PrefiledDate>Prefiled 12/07/21.</PrefiledDate><ReadDate>Read first time 01/10/22.</ReadDate><ReferredCommittee>Referred to Committee on Labor &amp; Workplace Standards.</ReferredCommittee></BillHistory><BriefDescription>Making technical cross-reference corrections in statutes governing unemployment insurance.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to making technical cross-reference corrections in statutes governing unemployment insurance; and amending RCW 50.29.025 and 50.29.070.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>50</TitleNumber><TextRun>.</TextRun><ChapterNumber>29</ChapterNumber><TextRun>.</TextRun><SectionNumber>025</SectionNumber></SectionCite> and 2021 c 2 s 17 are each amended to read as follows:<Caption>Contribution rates.</Caption></BillSectionHeader>
+<P>(1) The contribution rate for each employer subject to contributions under RCW 50.24.010 shall be the sum of the array calculation factor rate and the graduated social cost factor rate determined under this subsection, and the solvency surcharge determined under RCW 50.29.041, if any.</P>
+<P>(a) The array calculation factor rate shall be determined as follows:</P>
+<P>(i) An array shall be prepared, listing all qualified employers in ascending order of their benefit ratios. The array shall show for each qualified employer: (A) Identification number; (B) benefit ratio; and (C) taxable payrolls for the four consecutive calendar quarters immediately preceding the computation date and reported to the employment security department by the cut-off date.</P>
+<P>(ii) Each employer in the array shall be assigned to one of forty rate classes according to his or her benefit ratio as follows, and, except as provided in RCW 50.29.026, the array calculation factor rate for each employer in the array shall be the rate specified in the rate class to which the employer has been assigned:</P>
+<Table width="243.0pt" align="center" fontSize="10pt" pubwidth="narrow" preview="yes">
+<Col width="61pt" />
+<Col width="69pt" />
+<Col width="52pt" />
+<Col width="61pt" />
+<TR>
+<TD colspan="2" textAlign="center" valign="top"><P>Benefit Ratio</P></TD>
+<TD rowspan="2" valign="top"><P>Rate</P><P>Class</P></TD>
+<TD rowspan="2" valign="top"><P>Rate</P><P>(percent)</P></TD>
+</TR>
+<TR>
+<TD valign="bottom"><P>At least</P></TD>
+<TD valign="bottom"><P>Less than</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P /></TD>
+<TD valign="top"><P>0.000001</P></TD>
+<TD valign="top"><P>1</P></TD>
+<TD valign="top"><P>0.00</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P>0.000001</P></TD>
+<TD valign="top"><P>0.001250</P></TD>
+<TD valign="top"><P>2</P></TD>
+<TD valign="top"><P>0.11</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P>0.001250</P></TD>
+<TD valign="top"><P>0.002500</P></TD>
+<TD valign="top"><P>3</P></TD>
+<TD valign="top"><P>0.22</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P>0.002500</P></TD>
+<TD valign="top"><P>0.003750</P></TD>
+<TD valign="top"><P>4</P></TD>
+<TD valign="top"><P>0.33</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P>0.003750</P></TD>
+<TD valign="top"><P>0.005000</P></TD>
+<TD valign="top"><P>5</P></TD>
+<TD valign="top"><P>0.43</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P>0.005000</P></TD>
+<TD valign="top"><P>0.006250</P></TD>
+<TD valign="top"><P>6</P></TD>
+<TD valign="top"><P>0.54</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P>0.006250</P></TD>
+<TD valign="top"><P>0.007500</P></TD>
+<TD valign="top"><P>7</P></TD>
+<TD valign="top"><P>0.65</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P>0.007500</P></TD>
+<TD valign="top"><P>0.008750</P></TD>
+<TD valign="top"><P>8</P></TD>
+<TD valign="top"><P>0.76</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P>0.008750</P></TD>
+<TD valign="top"><P>0.010000</P></TD>
+<TD valign="top"><P>9</P></TD>
+<TD valign="top"><P>0.88</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P>0.010000</P></TD>
+<TD valign="top"><P>0.011250</P></TD>
+<TD valign="top"><P>10</P></TD>
+<TD valign="top"><P>1.01</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P>0.011250</P></TD>
+<TD valign="top"><P>0.012500</P></TD>
+<TD valign="top"><P>11</P></TD>
+<TD valign="top"><P>1.14</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P>0.012500</P></TD>
+<TD valign="top"><P>0.013750</P></TD>
+<TD valign="top"><P>12</P></TD>
+<TD valign="top"><P>1.28</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P>0.013750</P></TD>
+<TD valign="top"><P>0.015000</P></TD>
+<TD valign="top"><P>13</P></TD>
+<TD valign="top"><P>1.41</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P>0.015000</P></TD>
+<TD valign="top"><P>0.016250</P></TD>
+<TD valign="top"><P>14</P></TD>
+<TD valign="top"><P>1.54</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P>0.016250</P></TD>
+<TD valign="top"><P>0.017500</P></TD>
+<TD valign="top"><P>15</P></TD>
+<TD valign="top"><P>1.67</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P>0.017500</P></TD>
+<TD valign="top"><P>0.018750</P></TD>
+<TD valign="top"><P>16</P></TD>
+<TD valign="top"><P>1.80</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P>0.018750</P></TD>
+<TD valign="top"><P>0.020000</P></TD>
+<TD valign="top"><P>17</P></TD>
+<TD valign="top"><P>1.94</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P>0.020000</P></TD>
+<TD valign="top"><P>0.021250</P></TD>
+<TD valign="top"><P>18</P></TD>
+<TD valign="top"><P>2.07</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P>0.021250</P></TD>
+<TD valign="top"><P>0.022500</P></TD>
+<TD valign="top"><P>19</P></TD>
+<TD valign="top"><P>2.20</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P>0.022500</P></TD>
+<TD valign="top"><P>0.023750</P></TD>
+<TD valign="top"><P>20</P></TD>
+<TD valign="top"><P>2.38</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P>0.023750</P></TD>
+<TD valign="top"><P>0.025000</P></TD>
+<TD valign="top"><P>21</P></TD>
+<TD valign="top"><P>2.50</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P>0.025000</P></TD>
+<TD valign="top"><P>0.026250</P></TD>
+<TD valign="top"><P>22</P></TD>
+<TD valign="top"><P>2.63</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P>0.026250</P></TD>
+<TD valign="top"><P>0.027500</P></TD>
+<TD valign="top"><P>23</P></TD>
+<TD valign="top"><P>2.75</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P>0.027500</P></TD>
+<TD valign="top"><P>0.028750</P></TD>
+<TD valign="top"><P>24</P></TD>
+<TD valign="top"><P>2.88</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P>0.028750</P></TD>
+<TD valign="top"><P>0.030000</P></TD>
+<TD valign="top"><P>25</P></TD>
+<TD valign="top"><P>3.00</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P>0.030000</P></TD>
+<TD valign="top"><P>0.031250</P></TD>
+<TD valign="top"><P>26</P></TD>
+<TD valign="top"><P>3.13</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P>0.031250</P></TD>
+<TD valign="top"><P>0.032500</P></TD>
+<TD valign="top"><P>27</P></TD>
+<TD valign="top"><P>3.25</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P>0.032500</P></TD>
+<TD valign="top"><P>0.033750</P></TD>
+<TD valign="top"><P>28</P></TD>
+<TD valign="top"><P>3.38</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P>0.033750</P></TD>
+<TD valign="top"><P>0.035000</P></TD>
+<TD valign="top"><P>29</P></TD>
+<TD valign="top"><P>3.50</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P>0.035000</P></TD>
+<TD valign="top"><P>0.036250</P></TD>
+<TD valign="top"><P>30</P></TD>
+<TD valign="top"><P>3.63</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P>0.036250</P></TD>
+<TD valign="top"><P>0.037500</P></TD>
+<TD valign="top"><P>31</P></TD>
+<TD valign="top"><P>3.75</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P>0.037500</P></TD>
+<TD valign="top"><P>0.040000</P></TD>
+<TD valign="top"><P>32</P></TD>
+<TD valign="top"><P>4.00</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P>0.040000</P></TD>
+<TD valign="top"><P>0.042500</P></TD>
+<TD valign="top"><P>33</P></TD>
+<TD valign="top"><P>4.25</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P>0.042500</P></TD>
+<TD valign="top"><P>0.045000</P></TD>
+<TD valign="top"><P>34</P></TD>
+<TD valign="top"><P>4.50</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P>0.045000</P></TD>
+<TD valign="top"><P>0.047500</P></TD>
+<TD valign="top"><P>35</P></TD>
+<TD valign="top"><P>4.75</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P>0.047500</P></TD>
+<TD valign="top"><P>0.050000</P></TD>
+<TD valign="top"><P>36</P></TD>
+<TD valign="top"><P>5.00</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P>0.050000</P></TD>
+<TD valign="top"><P>0.052500</P></TD>
+<TD valign="top"><P>37</P></TD>
+<TD valign="top"><P>5.15</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P>0.052500</P></TD>
+<TD valign="top"><P>0.055000</P></TD>
+<TD valign="top"><P>38</P></TD>
+<TD valign="top"><P>5.25</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P>0.055000</P></TD>
+<TD valign="top"><P>0.057500</P></TD>
+<TD valign="top"><P>39</P></TD>
+<TD valign="top"><P>5.30</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P>0.057500</P></TD>
+<TD valign="top"><P /></TD>
+<TD valign="top"><P>40</P></TD>
+<TD valign="top"><P>5.40</P></TD>
+</TR>
+</Table>
+<P prePadding="halfline">(b) The graduated social cost factor rate shall be determined as follows:</P>
+<P>(i)(A) Except as provided in (b)(i)(B) and (C) of this subsection, the commissioner shall calculate the flat social cost factor for a rate year by dividing the total social cost by the total taxable payroll. The division shall be carried to the second decimal place with the remaining fraction disregarded unless it amounts to five hundredths or more, in which case the second decimal place shall be rounded to the next higher digit. The flat social cost factor shall be expressed as a percentage.</P>
+<P>(B)(I) If, on the cut-off date, the balance in the unemployment compensation fund is determined by the commissioner to be an amount that will provide more than ten months of unemployment benefits, the commissioner shall calculate the flat social cost factor for the rate year immediately following the cut-off date by reducing the total social cost by the dollar amount that represents the number of months for which the balance in the unemployment compensation fund on the cut-off date will provide benefits above ten months and dividing the result by the total taxable payroll. However, the calculation under this subsection (1)(b)(i)(B) for a rate year may not result in a flat social cost factor that is more than four-tenths lower than the calculation under (b)(i)(A) of this subsection for that rate year. For rate year 2011 and thereafter, the calculation may not result in a flat social cost factor that is more than one and twenty-two one-hundredths percent except for rate year 2021 the calculation may not result in a flat social cost factor that is more than five-tenths percent, for rate year 2022 the calculation may not result in a flat social cost factor that is more than seventy-five one-hundredths percent, for rate year 2023 the calculation may not result in a flat social cost factor that is more than eight-tenths percent, for rate year 2024 the calculation may not result in a flat social cost factor that is more than eighty-five one-hundredths percent, and for rate year 2025 the calculation may not result in a flat social cost factor that is more than nine-tenths percent.</P>
+<P>(II) If, on the cut-off date, the balance in the unemployment compensation fund is determined by the commissioner to be an amount that will provide ten months of unemployment benefits or less, the flat social cost factor for the rate year immediately following the cut-off date may not increase by more than fifty percent over the previous rate year or may not exceed one and twenty-two one-hundredths percent, whichever is greater.</P>
+<P>(III) For the purposes of this subsection (1)(b), the commissioner shall determine the number of months of unemployment benefits in the unemployment compensation fund using the benefit cost rate for the average of the three highest calendar benefit cost rates in the twenty consecutive completed calendar years immediately preceding the cut-off date or a period of consecutive calendar years immediately preceding the cut-off date that includes three recessions, if longer.</P>
+<P>(C) The minimum flat social cost factor calculated under this subsection (1)(b) shall be six-tenths of one percent, except that if the balance in the unemployment compensation fund is determined by the commissioner to be an amount that will provide:</P>
+<P>(I) At least ten months but less than eleven months of unemployment benefits, the minimum shall be five-tenths of one percent; or</P>
+<P>(II) At least eleven months but less than twelve months of unemployment benefits, the minimum shall be forty-five hundredths of one percent; or</P>
+<P>(III) At least twelve months but less than thirteen months of unemployment benefits, the minimum shall be four-tenths of one percent; or</P>
+<P>(IV) At least thirteen months but less than fifteen months of unemployment benefits, the minimum shall be thirty-five hundredths of one percent; or</P>
+<P>(V) At least fifteen months but less than seventeen months of unemployment benefits, the minimum shall be twenty-five hundredths of one percent; or</P>
+<P>(VI) At least seventeen months but less than eighteen months of unemployment benefits, the minimum shall be fifteen hundredths of one percent; or</P>
+<P>(VII) At least eighteen months of unemployment benefits, the minimum shall be fifteen hundredths of one percent through rate year 2011 and shall be zero thereafter.</P>
+<P>(ii) The graduated social cost factor rate for each employer in the array is the flat social cost factor multiplied by the percentage specified as follows for the rate class to which the employer has been assigned in (a)(ii) of this subsection, except that the sum of an employer's array calculation factor rate and the graduated social cost factor rate may not exceed six percent or, for employers whose North American industry classification system code is within "111," "112," "1141," "115," "3114," "3117," "42448," or "49312," may not exceed five and four-tenths percent:</P>
+<P>(A) Rate class 1 - 40 percent;</P>
+<P>(B) Rate class 2 - 44 percent;</P>
+<P>(C) Rate class 3 - 48 percent;</P>
+<P>(D) Rate class 4 - 52 percent;</P>
+<P>(E) Rate class 5 - 56 percent;</P>
+<P>(F) Rate class 6 - 60 percent;</P>
+<P>(G) Rate class 7 - 64 percent;</P>
+<P>(H) Rate class 8 - 68 percent;</P>
+<P>(I) Rate class 9 - 72 percent;</P>
+<P>(J) Rate class 10 - 76 percent;</P>
+<P>(K) Rate class 11 - 80 percent;</P>
+<P>(L) Rate class 12 - 84 percent;</P>
+<P>(M) Rate class 13 - 88 percent;</P>
+<P>(N) Rate class 14 - 92 percent;</P>
+<P>(O) Rate class 15 - 96 percent;</P>
+<P>(P) Rate class 16 - 100 percent;</P>
+<P>(Q) Rate class 17 - 104 percent;</P>
+<P>(R) Rate class 18 - 108 percent;</P>
+<P>(S) Rate class 19 - 112 percent;</P>
+<P>(T) Rate class 20 - 116 percent; and</P>
+<P>(U) Rate classes 21 through 40 - 120 percent.</P>
+<P>(iii) For the purposes of this section:</P>
+<P>(A) "Total social cost" means the amount calculated by subtracting the array calculation factor contributions paid by all employers with respect to the four consecutive calendar quarters immediately preceding the computation date and paid to the employment security department by the cut-off date from the total unemployment benefits paid to claimants in the same four consecutive calendar quarters.</P>
+<P>(B) "Total taxable payroll" means the total amount of wages subject to tax, as determined under RCW 50.24.010, for all employers in the four consecutive calendar quarters immediately preceding the computation date and reported to the employment security department by the cut-off date.</P>
+<P>(c) For employers who do not meet the definition of "qualified employer" by reason of failure to pay contributions when due:</P>
+<P>(i)(A) For an employer who does not enter into an approved agency-deferred payment contract as described in (c)(i)(B) or (C) of this subsection, the array calculation factor rate shall be the rate it would have been if the employer had not been delinquent in payment plus an additional one percent or, if the employer is delinquent in payment for a second or more consecutive year, an additional two percent;</P>
+<P>(B) For an employer who enters an approved agency-deferred payment contract by September 30th of the previous rate year, the array calculation factor rate shall be the rate it would have been if the employer had not been delinquent in payment;</P>
+<P>(C) For an employer who enters an approved agency-deferred payment contract after September 30th of the previous rate year, but within thirty days of the date the department sent its first tax rate notice, the array calculation factor rate shall be the rate it would have been had the employer not been delinquent in payment plus an additional one-half of one percent or, if the employer is delinquent in payment for a second or more consecutive year, an additional one and one-half percent;</P>
+<P>(D) For an employer who enters an approved agency-deferred payment contract as described in (c)(i)(B) or (C) of this subsection, but who fails to make any one of the succeeding deferred payments or fails to submit any succeeding tax report and payment in a timely manner, the array calculation factor rate shall immediately revert to the applicable array calculation factor rate under (c)(i)(A) of this subsection; and</P>
+<P>(ii) The social cost factor rate shall be the social cost factor rate assigned to rate class 40 under (b)(ii)<TextRun amendingStyle="strike">(A)</TextRun> of this subsection.</P>
+<P>(d) For all other employers not qualified to be in the array:</P>
+<P>(i) The array calculation factor rate shall be a rate equal to the average industry array calculation factor rate as determined by the commissioner, multiplied by the history factor, but not less than one percent or more than the array calculation factor rate in rate class 40;</P>
+<P>(ii) The social cost factor rate shall be a rate equal to the average industry social cost factor rate as determined by the commissioner, multiplied by the history factor, but not more than the social cost factor rate assigned to rate class 40 under (b)(ii) of this subsection; and</P>
+<P>(iii) The history factor shall be based on the total amounts of benefits charged and contributions paid in the three fiscal years ending prior to the computation date by employers not qualified to be in the array, other than employers in (c) of this subsection, who were first subject to contributions in the calendar year ending three years prior to the computation date. The commissioner shall calculate the history ratio by dividing the total amount of benefits charged by the total amount of contributions paid in this three-year period by these employers. The division shall be carried to the second decimal place with the remaining fraction disregarded unless it amounts to five one<Hyphen type="nobreak" />hundredths or more, in which case the second decimal place shall be rounded to the next higher digit. The commissioner shall determine the history factor according to the history ratio as follows:</P>
+<Table width="243.0pt" align="center" fontSize="10pt" pubwidth="narrow">
+<Col width="61pt" />
+<Col width="61pt" />
+<Col width="60.5pt" />
+<Col width="60.5pt" />
+<THead>
+<TR>
+<TD textAlign="center" valign="top"><P /><P /></TD>
+<TD textAlign="center" valign="top"><P>History</P><P>Ratio</P></TD>
+<TD textAlign="left" valign="top"><P /></TD>
+<TD textAlign="center" valign="top"><P>History</P><P>Factor</P><P>(percent)</P></TD>
+</TR>
+</THead>
+<TR>
+<TD textAlign="center" valign="top"><P /></TD>
+<TD textAlign="center" valign="top"><P>At least</P></TD>
+<TD textAlign="center" valign="top"><P>Less than</P></TD>
+<TD textAlign="center" valign="top"><P /></TD>
+</TR>
+<TR>
+<TD textAlign="center" valign="top"><P>(A)</P></TD>
+<TD textAlign="center" valign="top"><P /></TD>
+<TD textAlign="center" valign="top"><P>.95</P></TD>
+<TD textAlign="center" valign="top"><P>90</P></TD>
+</TR>
+<TR>
+<TD textAlign="center" valign="top"><P>(B)</P></TD>
+<TD textAlign="center" valign="top"><P>.95</P></TD>
+<TD textAlign="center" valign="top"><P>1.05</P></TD>
+<TD textAlign="center" valign="top"><P>100</P></TD>
+</TR>
+<TR>
+<TD textAlign="center" valign="top"><P>(C)</P></TD>
+<TD textAlign="center" valign="top"><P>1.05</P></TD>
+<TD textAlign="center" valign="top"><P /></TD>
+<TD textAlign="center" valign="top"><P>115</P></TD>
+</TR>
+</Table>
+<P prePadding="halfline">(2) Assignment of employers by the commissioner to industrial classification, for purposes of this section, shall be in accordance with established classification practices found in the North American industry classification system code.</P>
+<History>2021 c 2 § 17. Prior: 2011 c 4 § 16; 2011 c 3 § 3; 2010 c 72 § 1; prior: 2009 c 493 § 2; 2009 c 3 § 14; 2007 c 51 § 1; 2006 c 13 § 4; 2005 c 133 § 5; 2003 2nd sp.s. c 4 § 14; 2003 c 4 § 1; 2000 c 2 § 4; 1995 c 4 § 2; (1995 c 4 § 1 expired January 1, 1998); prior: 1993 c 483 § 21; 1993 c 226 § 14; 1993 c 226 § 13; 1990 c 245 § 7; 1989 c 380 § 79; 1987 c 171 § 3; 1985 ex.s. c 5 § 7; 1984 c 205 § 5.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Intent<TextRun fontFamily="Times New Roman">—</TextRun>Conflict with federal requirements<TextRun fontFamily="Times New Roman">—</TextRun>Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2021 c 2:</TextRun> See notes following RCW 50.04.323.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2011 c 4 §§ 1-6 and 16-21:</TextRun> See note following RCW 50.20.120.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Conflict with federal requirements<TextRun fontFamily="Times New Roman">—</TextRun>2011 c 4:</TextRun> See note following RCW 50.29.021.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Conflict with federal requirements<TextRun fontFamily="Times New Roman">—</TextRun>Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2011 c 3:</TextRun> See notes following RCW 50.22.010.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Conflict with federal requirements<TextRun fontFamily="Times New Roman">—</TextRun>2010 c 72:</TextRun> "If any part of this act is found to be in conflict with federal requirements that are a prescribed condition to the allocation of federal funds to the state or the eligibility of employers in this state for federal unemployment tax credits, the conflicting part of this act is inoperative solely to the extent of the conflict, and the finding or determination does not affect the operation of the remainder of this act. Rules adopted under this act must meet federal requirements that are a necessary condition to the  receipt of federal funds by the state or the granting of federal unemployment tax credits to employers in this state." [2010 c 72 § 3.]</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Conflict with federal requirements<TextRun fontFamily="Times New Roman">—</TextRun>2009 c 493:</TextRun> See note following RCW 50.29.021.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Short title<TextRun fontFamily="Times New Roman">—</TextRun>Effective date<TextRun fontFamily="Times New Roman">—</TextRun>Conflict with federal requirements<TextRun fontFamily="Times New Roman">—</TextRun>2009 c 3:</TextRun> See notes following RCW 50.20.120.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Conflict with federal requirements<TextRun fontFamily="Times New Roman">—</TextRun>2007 c 51:</TextRun> "If any part of this act is found to be in conflict with federal requirements that are a prescribed condition to the allocation of federal funds to the state or the eligibility of employers in this state for federal unemployment tax credits, the conflicting part of this act is inoperative solely to the extent of the conflict, and the finding or determination does not affect the operation of the remainder of this act. Rules adopted under this act must meet federal requirements that are a necessary condition to the receipt of federal funds by the state or the granting of federal unemployment tax credits to employers in this state." [2007 c 51 § 2.]</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Severability<TextRun fontFamily="Times New Roman">—</TextRun>2007 c 51:</TextRun> "If any provision of this act or its application to any person or circumstance is held invalid, the remainder of the act or the application of the provision to other persons or circumstances is not affected." [2007 c 51 § 3.]</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Application<TextRun fontFamily="Times New Roman">—</TextRun>2007 c 51:</TextRun> "This act applies for rate years beginning on or after January 1, 2008." [2007 c 51 § 4.]</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Application<TextRun fontFamily="Times New Roman">—</TextRun>2006 c 13 §§ 4 and 5:</TextRun> "Sections 4 and 5 of this act apply to rate years beginning on or after January 1, 2007." [2006 c 13 § 26.]</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Conflict with federal requirements<TextRun fontFamily="Times New Roman">—</TextRun>Part headings not law<TextRun fontFamily="Times New Roman">—</TextRun>Severability<TextRun fontFamily="Times New Roman">—</TextRun>2006 c 13:</TextRun> See notes following RCW 50.20.120.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Findings<TextRun fontFamily="Times New Roman">—</TextRun>Intent<TextRun fontFamily="Times New Roman">—</TextRun>Conflict with federal requirements<TextRun fontFamily="Times New Roman">—</TextRun>Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2005 c 133:</TextRun> See notes following RCW 50.20.120.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Additional employees authorized<TextRun fontFamily="Times New Roman">—</TextRun>2005 c 133:</TextRun> See note following RCW 50.01.010.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Conflict with federal requirements<TextRun fontFamily="Times New Roman">—</TextRun>Severability<TextRun fontFamily="Times New Roman">—</TextRun>Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2003 2nd sp.s. c 4:</TextRun> See notes following RCW 50.01.010.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Application<TextRun fontFamily="Times New Roman">—</TextRun>2003 c 4 § 1:</TextRun> "Section 1 of this act applies to rate years beginning on or after January 1, 2003." [2003 c 4 § 2.]</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2003 c 4:</TextRun> "This act is necessary for the immediate preservation of the public peace, health, or safety, or support of the state government and its existing public institutions, and takes effect immediately [March 12, 2003]." [2003 c 4 § 3.]</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Application<TextRun fontFamily="Times New Roman">—</TextRun>2000 c 2 §§ 1, 2, 4, 5, 8, and 12-15:</TextRun> See note following RCW 50.22.150.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Conflict with federal requirements<TextRun fontFamily="Times New Roman">—</TextRun>Severability<TextRun fontFamily="Times New Roman">—</TextRun>Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2000 c 2:</TextRun> See notes following RCW 50.04.355.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective dates<TextRun fontFamily="Times New Roman">—</TextRun>1995 c 4:</TextRun> "(1) Section 1 of this act is necessary for the immediate preservation of the public peace, health, or safety, or support of the state government and its existing public institutions, and shall take effect immediately [March 16, 1995].</NoteP><NoteP>(2) Section 2 of this act shall take effect January 1, 1998." [1995 c 4 § 4.]</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Expiration date<TextRun fontFamily="Times New Roman">—</TextRun>1995 c 4 § 1:</TextRun> "Section 1 of this act shall expire January 1, 1998." [1995 c 4 § 5.]</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective dates, applicability<TextRun fontFamily="Times New Roman">—</TextRun>Conflict with federal requirements<TextRun fontFamily="Times New Roman">—</TextRun>Severability<TextRun fontFamily="Times New Roman">—</TextRun>1993 c 483:</TextRun> See notes following RCW 50.04.293.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Elevation of employer contribution rates<TextRun fontFamily="Times New Roman">—</TextRun>Report by commissioner<TextRun fontFamily="Times New Roman">—</TextRun>1993 c 226:</TextRun> "Prior to any increase in the employer tax schedule as provided in section 13, chapter 226, Laws of 1993, the commissioner shall provide a report to the appropriate committees of the legislature specifying to what extent the workforce training expenditures in chapter 226, Laws of 1993 elevated employer contribution rates for the effective tax schedule." [1993 c 226 § 16.]</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective dates<TextRun fontFamily="Times New Roman">—</TextRun>1993 c 226 §§ 10, 12, and 14:</TextRun> See note following RCW 50.16.010.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Conflict with federal requirements<TextRun fontFamily="Times New Roman">—</TextRun>Severability<TextRun fontFamily="Times New Roman">—</TextRun>Application<TextRun fontFamily="Times New Roman">—</TextRun>1993 c 226:</TextRun> See notes following RCW 50.16.010.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Conflict with federal requirements<TextRun fontFamily="Times New Roman">—</TextRun>Effective dates<TextRun fontFamily="Times New Roman">—</TextRun>1990 c 245:</TextRun> See notes following RCW 50.04.030.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>1989 c 380 §§ 78-81:</TextRun> See note following RCW 50.04.150.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Conflict with federal requirements<TextRun fontFamily="Times New Roman">—</TextRun>1989 c 380:</TextRun> See note following RCW 50.04.150.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Conflict with federal requirements<TextRun fontFamily="Times New Roman">—</TextRun>Severability<TextRun fontFamily="Times New Roman">—</TextRun>1987 c 171:</TextRun> See notes following RCW 50.62.010.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Conflict with federal requirements<TextRun fontFamily="Times New Roman">—</TextRun>Severability<TextRun fontFamily="Times New Roman">—</TextRun>1985 ex.s. c 5:</TextRun> See notes following RCW 50.62.010.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Conflict with federal requirements<TextRun fontFamily="Times New Roman">—</TextRun>Severability<TextRun fontFamily="Times New Roman">—</TextRun>Effective dates<TextRun fontFamily="Times New Roman">—</TextRun>1984 c 205:</TextRun> See notes following RCW 50.20.120.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>50</TitleNumber><TextRun>.</TextRun><ChapterNumber>29</ChapterNumber><TextRun>.</TextRun><SectionNumber>070</SectionNumber></SectionCite> and 2003 2nd sp.s. c 4 s 19 are each amended to read as follows:<Caption>Notice of employer benefit charges and rate of contribution<TextRun fontFamily="Times New Roman">—</TextRun>Review and appeal.</Caption></BillSectionHeader>
+<P>(1) Within a reasonable time after the computation date each employer shall be notified of the employer's rate of contribution as determined for the succeeding rate year and factors used in the calculation. Beginning with rate year 2005, the notice must include the amount of the contribution rate that is attributable to each component of the rate under RCW 50.29.025<TextRun amendingStyle="strike">(2)</TextRun> <TextRun amendingStyle="add">(1)</TextRun>.</P>
+<P>(2) Any employer dissatisfied with the benefit charges made to the employer's account for the twelve-month period immediately preceding the computation date or with his or her determined rate may file a request for review and redetermination with the commissioner within thirty days of the mailing of the notice to the employer, showing the reason for such request. Should such request for review and redetermination be denied, the employer may, within thirty days of the mailing of such notice of denial, file with the appeal tribunal a petition for hearing which shall be heard in the same manner as a petition for denial of refund. The appellate procedure prescribed by this title for further appeal shall apply to all denials of review and redetermination under this section.</P>
+<History>2003 2nd sp.s. c 4 § 19; 1990 c 245 § 8; 1983 1st ex.s. c 23 § 19; 1973 1st ex.s. c 158 § 14; 1970 ex.s. c 2 § 16.</History>
+<RCWNoteSection>
+<RevNote><NoteP><TextRun fontWeight="bold">*Reviser's note:</TextRun> RCW 50.29.025 was amended by 2011 c 4 § 16, 2011 c 3 § 3, 2009 c 3 § 14, and 2009 c 493 § 2, changing the subsection numbering.</NoteP></RevNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Conflict with federal requirements<TextRun fontFamily="Times New Roman">—</TextRun>Severability<TextRun fontFamily="Times New Roman">—</TextRun>Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2003 2nd sp.s. c 4:</TextRun> See notes following RCW 50.01.010.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Conflict with federal requirements<TextRun fontFamily="Times New Roman">—</TextRun>Effective dates<TextRun fontFamily="Times New Roman">—</TextRun>1990 c 245:</TextRun> See notes following RCW 50.04.030.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Conflict with federal requirements<TextRun fontFamily="Times New Roman">—</TextRun>Effective dates<TextRun fontFamily="Times New Roman">—</TextRun>Construction<TextRun fontFamily="Times New Roman">—</TextRun>1983 1st ex.s. c 23:</TextRun> See notes following RCW 50.04.073.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>1973 1st ex.s. c 158:</TextRun> See note following RCW 50.08.020.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>1970 ex.s. c 2:</TextRun> See note following RCW 50.04.020.</NoteP></AnnNote>
+<CrossRefNote><NoteP>Appeal on denial of refund: RCW 50.32.030, 50.32.050.</NoteP></CrossRefNote>
+<CrossRefNote><NoteP>Appeal to the courts: RCW 50.32.120.</NoteP></CrossRefNote>
+<CrossRefNote><NoteP>Review by commissioner: RCW 50.32.070.</NoteP></CrossRefNote>
+</RCWNoteSection>
+</BillSection>
+</BillBody>
+</Bill>

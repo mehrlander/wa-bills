@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-1612.1</RequestNumber><ShortBillId>HB 1581</ShortBillId><LongBillId>HOUSE BILL 1581</LongBillId><Legislature>67th Legislature</Legislature><Session>2021 Regular Session</Session><Sponsors>Representatives Walsh and Dufault</Sponsors><BillHistory><ReadDate>Read first time 04/21/21.</ReadDate><ReferredCommittee>Referred to Committee on Finance.</ReferredCommittee></BillHistory><BriefDescription>Modifying the allowable language used to refer to the state property tax levy on property tax statements or notices.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to modifying the allowable language used to refer to the state property tax levy on property tax statements or notices; adding a new section to chapter 84.56 RCW; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature finds that many Washington property taxpayers are confused about precisely how those funds are spent by state and local governments. This confusion is caused, in many cases, by confusing language included on property tax statements, bills, and other related documents. So, the legislature intends to ease the confusion by requiring simplicity and clarity in property tax documents.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>84</TitleNumber><TextRun>.</TextRun><ChapterNumber>56</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>Any tax statement or notice of taxes due, required to be provided to a taxpayer under this chapter, may not contain language that in any way refers to the state property tax levied under RCW 84.52.065 or 84.52.067 using the phrase "school tax" or any substantially similar phrase.</P>
+</BillSection>
+</BillBody>
+</Bill>

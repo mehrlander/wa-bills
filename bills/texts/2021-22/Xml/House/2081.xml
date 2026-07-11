@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-2250.1</RequestNumber><ShortBillId>HB 2081</ShortBillId><LongBillId>HOUSE BILL 2081</LongBillId><Legislature>67th Legislature</Legislature><Session>2022 Regular Session</Session><Sponsors>Representatives Young, Chase, Sutherland, and Graham</Sponsors><BillHistory><ReadDate>Read first time 01/24/22.</ReadDate><ReferredCommittee>Referred to Committee on State Government &amp; Tribal Relations.</ReferredCommittee></BillHistory><BriefDescription>Expanding voter registration and elections access.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to expanding voter registration and elections access; amending RCW 29A.08.350; adding a new section to chapter 29A.08 RCW; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) The legislature finds that:</P></BillSectionHeader>
+<P>(a) The right to vote is enshrined as one of the greatest virtues of our constitutional republic, and an engaged citizenry is essential at each level of government to ensure that all voices are heard; and</P>
+<P>(b) State and local governments should take every step possible to make it easier to vote in Washington state and to ensure that the fundamental values of true democratic elections with full participation remains one of our most important functions. Providing additional opportunities for people to register to vote and helping them make their own choices about who represents them and about important issues that are central to their lives and communities is essential to upholding these values.</P>
+<P>(2) Therefore, the legislature intends to increase the opportunity to register to vote for persons qualified under Article VI of the Washington state Constitution by expanding the streamlined voter registration process, which will increase opportunities for voter registration without placing new undue burdens on government agencies.</P>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>29A</TitleNumber><TextRun>.</TextRun><ChapterNumber>08</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) A person may register to vote or update their voter registration when purchasing a firearm by indicating an intent to do so on the firearm transfer application submitted to the department of licensing.</P>
+<P>(2) To register to vote or update a registration, the applicant must provide the information required by RCW 29A.08.010. The firearm transfer application must be designed such that the applicant can provide this information on the form.</P>
+<P>(3) The department of licensing must record when an applicant has requested to register to vote or to update a voter registration.</P>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>29A</TitleNumber><TextRun>.</TextRun><ChapterNumber>08</ChapterNumber><TextRun>.</TextRun><SectionNumber>350</SectionNumber></SectionCite> and 2018 c 110 s 106 are each amended to read as follows:<Caption>Duties of department of licensing, secretary of state.</Caption></BillSectionHeader>
+<P>The department of licensing shall produce and transmit to the secretary of state the following information from the records of each individual who requested a voter registration or update at a driver's license facility <TextRun amendingStyle="add">or on a firearm transfer application</TextRun>: The name, address, date of birth, gender of the applicant, the driver's license number, signature image, and the date on which the application for voter registration or update was submitted. The secretary of state shall process the registrations and updates as an electronic application.</P>
+<History>2018 c 110 § 106; 2013 c 11 § 18; 2009 c 369 § 21; 2004 c 267 § 120; 2003 c 111 § 226; 1994 c 57 § 22; 1990 c 143 § 2. Formerly RCW 29.07.270.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2018 c 110 §§ 101-107:</TextRun> See note following RCW 29A.08.355.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Short title<TextRun fontFamily="Times New Roman">—</TextRun>Findings<TextRun fontFamily="Times New Roman">—</TextRun>Intent<TextRun fontFamily="Times New Roman">—</TextRun>2018 c 110:</TextRun> See notes following RCW 29A.08.355.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective dates<TextRun fontFamily="Times New Roman">—</TextRun>2004 c 267:</TextRun> See note following RCW 29A.08.010.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Severability<TextRun fontFamily="Times New Roman">—</TextRun>Effective date<TextRun fontFamily="Times New Roman">—</TextRun>1994 c 57:</TextRun> See notes following RCW 29A.16.040.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>1990 c 143 §§ 1-8:</TextRun> See note following RCW 29A.08.340.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+</BillBody>
+</Bill>

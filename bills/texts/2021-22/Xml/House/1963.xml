@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-2023.1</RequestNumber><ShortBillId>HB 1963</ShortBillId><LongBillId>HOUSE BILL 1963</LongBillId><Legislature>67th Legislature</Legislature><Session>2022 Regular Session</Session><Sponsors>Representatives McCaslin, McEntire, Eslick, Volz, Graham, Barkis, Young, and Sutherland</Sponsors><BillHistory><ReadDate>Read first time 01/13/22.</ReadDate><ReferredCommittee>Referred to Committee on Health Care &amp; Wellness.</ReferredCommittee></BillHistory><BriefDescription>Improving safety and preservation by allowing the Washington state department of transportation to either hire or rehire maintenance and preservation employees that have acquired immunities to COVID-19.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to improving safety and preservation by allowing the Washington state department of transportation to either hire or rehire maintenance and preservation employees that have acquired immunities to COVID-19; adding a new section to chapter 47.04 RCW; and declaring an emergency.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>47</TitleNumber><TextRun>.</TextRun><ChapterNumber>04</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) Notwithstanding any provision to the contrary and when necessary to improve either the safety of the public or the preservation of the state transportation system, which are prioritized in the state transportation system policy goals established in RCW 47.04.280, the department may hire new maintenance and preservation employees and rehire former department maintenance and preservation employees, who have acquired immunities to COVID-19. The department may presume the employee has acquired immunities to COVID-19 if the person either signs a declaration stating that the person had contracted COVID-19 or has proof of a positive COVID-19 test.</P>
+<P>(2) To the extent possible, such rehired employees must be restored to their previous level of seniority.</P>
+</BillSection>
+<BillSection type="new" action="emerg" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act is necessary for the immediate preservation of the public peace, health, or safety, or support of the state government and its existing public institutions, and takes effect immediately.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

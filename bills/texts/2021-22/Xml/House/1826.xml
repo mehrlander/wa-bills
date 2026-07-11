@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-2001.1</RequestNumber><ShortBillId>HB 1826</ShortBillId><LongBillId>HOUSE BILL 1826</LongBillId><Legislature>67th Legislature</Legislature><Session>2022 Regular Session</Session><Sponsors>Representatives Young and Graham</Sponsors><BillHistory><PrefiledDate>Prefiled 01/06/22.</PrefiledDate><ReadDate>Read first time 01/10/22.</ReadDate><ReferredCommittee>Referred to Committee on Public Safety.</ReferredCommittee></BillHistory><BriefDescription>Creating the crime of interfering with a firefighter or emergency medical services provider.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to creating the crime of interfering with a firefighter or emergency medical services provider; adding a new section to chapter 9A.84 RCW; and prescribing penalties.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>9A</TitleNumber><TextRun>.</TextRun><ChapterNumber>84</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) A person is guilty of interfering with a firefighter or emergency medical services provider if the person, with knowledge that another person is a firefighter or emergency medical services provider, intentionally prevents or attempts to prevent that firefighter or emergency medical services provider from performing his or her official duties.</P>
+<P>(2) Interfering with a firefighter or emergency medical services provider is a gross misdemeanor.</P>
+<P>(3) As used in this section:</P>
+<P>(a) "Emergency medical services provider" includes a person who is an emergency medical technician or a first responder as defined in RCW 18.73.030.</P>
+<P>(b) "Firefighter" includes a paid or volunteer firefighter or other employee of a fire department, county fire marshal's office, county fire prevention bureau, or fire protection district.</P>
+</BillSection>
+</BillBody>
+</Bill>

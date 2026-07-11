@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-0113.3</RequestNumber><ShortBillId>HB 1165</ShortBillId><LongBillId>HOUSE BILL 1165</LongBillId><Legislature>67th Legislature</Legislature><Session>2021 Regular Session</Session><Sponsors>Representatives Ryu, Vick, Santos, Hoff, and Harris-Talley</Sponsors><BillHistory><ReadDate>Read first time 01/12/21.</ReadDate><ReferredCommittee>Referred to Committee on Consumer Protection &amp; Business.</ReferredCommittee></BillHistory><BriefDescription>Concerning the Washington credit union act.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to the Washington credit union act; and amending RCW 31.12.005, 31.12.402, 31.12.404, 31.12.436, and 31.12.438.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>31</TitleNumber><TextRun>.</TextRun><ChapterNumber>12</ChapterNumber><TextRun>.</TextRun><SectionNumber>005</SectionNumber></SectionCite> and 2017 c 61 s 1 are each amended to read as follows:<Caption>Definitions.</Caption></BillSectionHeader>
+<P>Unless the context clearly requires otherwise, as used in this chapter:</P>
+<P>(1) "Board" means the board of directors of a credit union.</P>
+<P>(2) "Board officer" means an officer of the board elected under RCW 31.12.265(1).</P>
+<P>(3) "Branch" of a credit union, out-of-state credit union, or foreign credit union means any facility that meets all of the following criteria:</P>
+<P>(a) The facility is a staffed physical facility;</P>
+<P>(b) The facility is owned or leased in whole or part by the credit union or its credit union service organization; and</P>
+<P>(c) Deposits and withdrawals may be made at the facility.</P>
+<P>(4) "Capital" means a credit union's reserves, undivided earnings, and allowance for loan and lease losses, and other items that may be included under RCW 31.12.413 or by rule or order of the director.</P>
+<P>(5) "Credit union" means a credit union organized and operating under this chapter.</P>
+<P>(6) "Credit union service organization" means an organization that a credit union has invested in pursuant to RCW 31.12.436(1)(h), or a credit union service organization invested in by an out-of-state, federal, or foreign credit union.</P>
+<P>(7) "Department" means the department of financial institutions.</P>
+<P>(8) "Director" means the director of financial institutions.</P>
+<P>(9) "Federal credit union" means a credit union organized and operating under the laws of the United States.</P>
+<P>(10) "Financial institution" means any commercial bank, trust company, savings bank, or savings and loan association, whether state or federally chartered, and any credit union, out-of-state credit union, or federal credit union.</P>
+<P>(11) "Foreign credit union" means a credit union organized and operating under the laws of another country or other foreign jurisdiction.</P>
+<P>(12) "Insolvency" means:</P>
+<P>(a) If, under United States generally accepted accounting principles, the recorded value of the credit union's assets are less than its obligations to its share account holders, depositors, creditors, and others; or</P>
+<P>(b) If it is likely that the credit union will be unable to pay its obligations or meet its share account holders' and depositors' demands in the normal course of business.</P>
+<P>(13) "Loan" means any loan, overdraft line of credit, extension of credit, or lease, in whole or in part.</P>
+<P>(14) "Low-income member" means a member whose family income is not more than eighty percent of the median family income for the metropolitan statistical area where the member lives or for the national metropolitan area where the member lives, whichever is greater, or a member or potential member who earns not more than eighty percent of the total median earnings for individuals for the metropolitan statistical area where the member lives or for the national metropolitan area where the member lives, whichever is greater. For members living outside of a metropolitan statistical area, the department must apply the statewide or national nonmetropolitan area median family income or total median earnings for individuals.</P>
+<P>(15) "Material violation of law" means:</P>
+<P>(a) If the credit union or person has violated a material provision of:</P>
+<P>(i) Law;</P>
+<P>(ii) Any cease and desist order issued by the director;</P>
+<P>(iii) Any condition imposed in writing by the director in connection with the approval of any application or other request of the credit union; or</P>
+<P>(iv) Any supervisory agreement, or any other written agreement entered into with the director;</P>
+<P>(b) If the credit union or person has concealed any of the credit union's books, papers, records, or assets, or refused to submit the credit union's books, papers, records, or affairs for inspection to any examiner of the state or, as appropriate, to any examiner of the national credit union administration; or</P>
+<P>(c) If a member of a credit union board of directors or supervisory committee, or an officer of a credit union, has breached his or her fiduciary duty to the credit union.</P>
+<P>(16) "Net worth" means a credit union's capital, less the allowance for loan and lease losses.</P>
+<P>(17) "Operating officer" means an employee of a credit union designated as an officer pursuant to RCW 31.12.265(2).</P>
+<P>(18) "Organization" means a corporation, partnership, association, limited liability company, trust, or other organization or entity.</P>
+<P>(19) "Out-of-state credit union" means a credit union organized and operating under the laws of another state or United States territory or possession.</P>
+<P>(20) "Person" means an organization or a natural person including, but not limited to, a sole proprietorship.</P>
+<P>(21) "Principally" or "primarily" means more than one-half.</P>
+<P>(22) "Senior operating officer" includes:</P>
+<P>(a) An operating officer who is a vice president or above; and</P>
+<P>(b) Any employee who has policy-making authority.</P>
+<P>(23) "Significantly undercapitalized" means a net worth to total assets ratio of less than four percent.</P>
+<P>(24) "Small credit union" means a credit union with up to ten million dollars in total assets <TextRun amendingStyle="add">for the purposes of RCW 31.12.569.  In any rule providing relief for small credit unions in RCW 31.12.516, the director shall determine an appropriate definition for the term based on the subject matter of the rule and shall include such definition in such rule</TextRun>.</P>
+<P>(25) "Unsafe or unsound condition" means, but is not limited to:</P>
+<P>(a) If the credit union is insolvent;</P>
+<P>(b) If the credit union has incurred or is likely to incur losses that will deplete all or substantially all of its net worth;</P>
+<P>(c) If the credit union is in imminent danger of losing its share and deposit insurance or guarantee; or</P>
+<P>(d) If the credit union is significantly undercapitalized.</P>
+<P>(26) "Unsafe or unsound practice" means any action, or lack of action, which is contrary to generally accepted standards of prudent operation, the likely consequences of which, if continued, would be abnormal risk of loss or danger to a credit union, its members, or an organization insuring or guaranteeing its shares and deposits.</P>
+<History>2017 c 61 § 1. Prior: 2015 c 114 § 1; 2013 c 34 § 1; 2010 c 87 § 1; 2001 c 83 § 1; 1997 c 397 § 2; prior: 1994 c 256 § 68; 1994 c 92 § 175; 1984 c 31 § 2.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Findings<TextRun fontFamily="Times New Roman">—</TextRun>Construction<TextRun fontFamily="Times New Roman">—</TextRun>1994 c 256:</TextRun> See RCW 43.320.007.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>31</TitleNumber><TextRun>.</TextRun><ChapterNumber>12</ChapterNumber><TextRun>.</TextRun><SectionNumber>402</SectionNumber></SectionCite> and 2011 c 303 s 6 are each amended to read as follows:<Caption>Powers.</Caption></BillSectionHeader>
+<P>A credit union may:</P>
+<P>(1) Issue shares to and receive deposits from its members in accordance with RCW 31.12.416;</P>
+<P>(2) Make loans to its members in accordance with RCW 31.12.426 and 31.12.428;</P>
+<P>(3) Pay dividends and interest to its members in accordance with RCW 31.12.418;</P>
+<P>(4) Impose reasonable charges for the services it provides <TextRun amendingStyle="strike">to its members</TextRun>;</P>
+<P>(5) Impose financing charges and reasonable late charges in the event of default on loans, subject to applicable law, and recover reasonable costs and expenses, including, but not limited to, collection costs, and reasonable attorneys' fees incurred both before and after judgment, incurred in the collection of sums due, if provided for in the note or agreement signed by the borrower;</P>
+<P>(6) Acquire, lease, hold, assign, pledge, sell, or otherwise dispose of interests in personal property and in real property in accordance with RCW 31.12.438;</P>
+<P>(7) Deposit and invest funds in accordance with RCW 31.12.436;</P>
+<P>(8) Borrow money, up to a maximum of fifty percent of its total shares, deposits, and net worth;</P>
+<P>(9) Discount or sell any of its assets, or purchase any or all of the assets of another credit union, out-of-state credit union, or federal credit union. However, a credit union may not discount or sell all, or substantially all, of its assets without the approval of the director;</P>
+<P>(10) Accept deposits of deferred compensation of its members;</P>
+<P>(11) Act as fiscal agent for and receive payments on shares and deposits from the federal government or this state, and any agency or political subdivision thereof;</P>
+<P>(12) Engage in activities and programs as requested by the federal government, this state, and any agency or political subdivision thereof, when the activities or programs are not inconsistent with this chapter;</P>
+<P>(13) Hold membership in credit unions, out-of-state credit unions, or federal credit unions and in organizations controlled by or fostering the interests of credit unions, including, but not limited to, a central liquidity facility organized under state or federal law;</P>
+<P>(14) Pay additional dividends and interest to members, or an interest rate refund to borrowers;</P>
+<P>(15) Enter into lease agreements, lease contracts, and lease<Hyphen type="nobreak" />purchase agreements with members;</P>
+<P>(16) Act as insurance agent or broker for the sale to members of:</P>
+<P>(a) Group life, accident, health, and credit life and disability insurance; and</P>
+<P>(b) Other insurance that other types of Washington state-chartered financial institutions are permitted to sell, on the same terms and conditions that these institutions are permitted to sell such insurance;</P>
+<P>(17) Impose a reasonable service charge for the administration and processing of accounts that remain dormant for a period of time specified by the credit union;</P>
+<P>(18) Establish and operate on-premises or off-premises electronic facilities;</P>
+<P>(19) Enter into formal or informal agreements with another credit union for the purpose of fostering the development of the other credit union;</P>
+<P>(20) Work with community leaders to develop and prioritize efforts to improve the areas where their members reside by making investments in the community through contributions to organizations that primarily serve either a charitable, social, welfare, or educational purpose, or are exempt from taxation pursuant to section 501(c)(3) of the internal revenue code;</P>
+<P>(21) Limit the personal liability of its directors in accordance with provisions of its articles of incorporation that conform with RCW 23B.08.320;</P>
+<P>(22) Indemnify its directors, supervisory committee members, officers, employees, and others in accordance with provisions of its articles of incorporation or bylaws that conform with RCW 23B.08.500 through 23B.08.600;</P>
+<P>(23) Conduct a promotional contest of chance as authorized in RCW 9.46.0356(1)(b), as long as the conditions of RCW 9.46.0356(5) and <TextRun amendingStyle="strike">30.22.260</TextRun> <TextRun amendingStyle="add">30A.22.260</TextRun> are complied with to the satisfaction of the director; <TextRun amendingStyle="strike">and</TextRun></P>
+<P>(24) <TextRun amendingStyle="add">Cash checks, money orders, and other payment instruments for members and persons who are eligible for membership in the credit union; and</TextRun></P>
+<P><TextRun amendingStyle="add">(25)</TextRun> Exercise such incidental powers as are necessary or convenient to enable it to conduct the business of a credit union.</P>
+<History>2011 c 303 § 6; 2001 c 83 § 14; 1997 c 397 § 30. Prior: 1994 c 256 § 74; 1994 c 92 § 186; 1990 c 33 § 564; 1984 c 31 § 14. Formerly RCW 31.12.125.</History>
+<RCWNoteSection>
+<RevNote><NoteP><TextRun fontWeight="bold">*Reviser's note:</TextRun> RCW 30.22.260 was recodified as RCW 30A.22.260 pursuant to 2014 c 37 § 4, effective January 5, 2015.</NoteP></RevNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Findings<TextRun fontFamily="Times New Roman">—</TextRun>Intent<TextRun fontFamily="Times New Roman">—</TextRun>2011 c 303:</TextRun> See note following RCW 9.46.0356.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Findings<TextRun fontFamily="Times New Roman">—</TextRun>Construction<TextRun fontFamily="Times New Roman">—</TextRun>1994 c 256:</TextRun> See RCW 43.320.007.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Purpose<TextRun fontFamily="Times New Roman">—</TextRun>Statutory references<TextRun fontFamily="Times New Roman">—</TextRun>Severability<TextRun fontFamily="Times New Roman">—</TextRun>1990 c 33:</TextRun> See RCW 28A.900.100 through 28A.900.102.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>31</TitleNumber><TextRun>.</TextRun><ChapterNumber>12</ChapterNumber><TextRun>.</TextRun><SectionNumber>404</SectionNumber></SectionCite> and 2019 c 19 s 5 are each amended to read as follows:<Caption>Additional powers<TextRun fontFamily="Times New Roman">—</TextRun>Authority of director.</Caption></BillSectionHeader>
+<P>(1) Notwithstanding any other provision of law, and in addition to all powers and authorities, express or implied, that a credit union has under the laws of this state, a credit union has the powers and authorities that a federal credit union had on December 31, 1993, or a subsequent date <TextRun amendingStyle="strike">not later than July 28, 2019</TextRun> <TextRun amendingStyle="add">by the effective date of this section</TextRun>.</P>
+<P>(2) Notwithstanding any other provision of law, and in addition to the powers and authorities, express or implied, that a credit union has under subsection (1) of this section, a credit union has the powers and authorities that a federal credit union has subsequent to <TextRun amendingStyle="strike">July 28, 2019</TextRun> <TextRun amendingStyle="add">the effective date of this section</TextRun>, if the director finds that the exercise of the power and authority serves the convenience and advantage of members of credit unions, and maintains the fairness of competition and parity between credit unions and federal credit unions. However, a credit union must comply with RCW 31.12.408.</P>
+<P>(3) Notwithstanding any other provision of law, and in addition to the powers and authorities, express or implied, that a credit union has under subsections (1) and (2) of this section, a credit union may exercise the powers and authorities that it would have if it were an out-of-state credit union. Any such power or authority is subject to regulation by the director. In exercising such power or authority, a credit union:</P>
+<P>(a) Must comply with RCW 31.12.408;</P>
+<P>(b) Is not granted the field of membership powers or authorities of any out-of-state credit union; and</P>
+<P>(c) Must be able to exercise such power or authority consistent with the purposes of this chapter.</P>
+<P>(4) Before exercising any power or authority afforded under subsection (3) of this section, a credit union must first notify the director of its intent to do so. This notice must be sent to the director by United States mail or by electronic means if the director accepts electronic delivery. If the director takes no action on the request within thirty days of delivery of the notice, the right to exercise the power or authority is deemed granted, subject to the restrictions in subsection (3)(a) and (b) of this section. In order to grant the request, the director must find that:</P>
+<P>(a) The request complies with subsection (3)(a), (b), and (c) of this section; and</P>
+<P>(b) The exercise of such power or authority serves the convenience and advantage of members of credit unions and maintains the fairness of competition and parity between credit unions and out-of-state credit unions.</P>
+<P>(5) The restrictions, limitations, and requirements applicable to specific powers or authorities of federal or out-of-state credit unions apply to credit unions exercising those powers or authorities permitted under this section but only insofar as the restrictions, limitations, and requirements relate to the specific exercise of the powers or authorities granted credit unions solely under this section.</P>
+<P>(6) As used in this section, "powers and authorities" include, but are not limited to, powers and authorities in corporate governance matters.</P>
+<History>2019 c 19 § 5; 2017 c 61 § 10; 2015 c 114 § 9; 2001 c 83 § 15; 1997 c 397 § 31. Prior: 1994 c 256 § 75; 1994 c 92 § 187; 1987 c 338 § 1; 1984 c 31 § 15. Formerly RCW 31.12.136.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Findings<TextRun fontFamily="Times New Roman">—</TextRun>Construction<TextRun fontFamily="Times New Roman">—</TextRun>1994 c 256:</TextRun> See RCW 43.320.007.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>31</TitleNumber><TextRun>.</TextRun><ChapterNumber>12</ChapterNumber><TextRun>.</TextRun><SectionNumber>436</SectionNumber></SectionCite> and 2019 c 19 s 6 are each amended to read as follows:<Caption>Investment of funds<TextRun fontFamily="Times New Roman">—</TextRun>When investment later becomes impermissible.</Caption></BillSectionHeader>
+<P>(1) A credit union may invest its funds in any of the following, as long as the investments are deemed prudent by the board:</P>
+<P>(a) Loans held by credit unions, out-of-state credit unions, or federal credit unions; loans to members held by other lenders; and loans to nonmembers held by other lenders, with the approval of the director;</P>
+<P>(b) Bonds, securities, or other investments that are fully guaranteed as to principal and interest by the United States government, and general obligations of this state and its political subdivisions;</P>
+<P>(c) Obligations issued by corporations designated under 31 U.S.C. Sec. 9101, or obligations, participations or other instruments issued and guaranteed by the federal national mortgage association, federal home loan mortgage corporation, government national mortgage association, or other government-sponsored enterprise;</P>
+<P>(d) Participations or obligations which have been subjected by one or more government agencies to a trust or trusts for which an executive department, agency, or instrumentality of the United States has been named to act as trustee;</P>
+<P>(e) Share or deposit accounts of other financial institutions, the accounts of which are federally insured or insured or guaranteed by another insurer or guarantor approved by the director. The shares and deposits made by a credit union under this subsection (1)(e) may exceed the insurance or guarantee limits established by the organization insuring or guaranteeing the institution into which the shares or deposits are made;</P>
+<P>(f) Common trust or mutual funds whose investment portfolios consist of securities issued or guaranteed by the federal government or an agency of the government;</P>
+<P>(g) Up to five percent of the capital of the credit union, in debt or equity issued by an organization owned by the Northwest credit union association or its successor credit union association;</P>
+<P>(h) Shares, stocks, loans, or other obligations of organizations whose primary purpose is to strengthen, advance, or provide services to the credit union industry or credit union members. A credit union may invest in or make loans to organizations under this subsection (1)(h) in an aggregate amount not to exceed ten percent of its assets. This limit does not apply to investments in, and loans to, an organization:</P>
+<P>(i) That is wholly owned by one or more credit unions or federal or out-of-state credit unions; and</P>
+<P>(ii) Whose activities are limited exclusively to those authorized by this chapter for a credit union;</P>
+<P>(i) Loans to credit unions, out-of-state credit unions, or federal credit unions. However, the aggregate of loans issued under this subsection (1)(i) is limited to twenty-five percent of the total shares and deposits of the credit union making the loans;</P>
+<P>(j) Key person insurance policies and investment products related to employee benefits, the proceeds of which inure exclusively to the benefit of the credit union;</P>
+<P>(k) A registered investment company or collective investment fund, as long as the prospectus of the company or fund restricts the investment portfolio to investments and investment transactions that are permissible for credit unions;</P>
+<P>(l) For credit unions that are approved public depositaries, any securities listed in RCW 39.58.050 as eligible collateral for public deposits;</P>
+<P>(m) Investments of the type in which the state treasurer may invest state funds pursuant to RCW 43.84.080; or</P>
+<P>(n) Other investments approved by the director by rule or upon written application.</P>
+<P>(2) <TextRun amendingStyle="add">To aid in achieving its business or operational objectives, a credit union may invest in equity interests in corporations or other limited liability entities, whether or not the principal business of such other corporation or entity is related to the credit union's business. An "equity interest" is an interest such as stock in a corporation or membership in a limited liability company or a limited partnership interest in which the credit union's liability is limited to the amount of its investment and the credit union does not take on general liability.</TextRun></P>
+<P><TextRun amendingStyle="add">(a) The entity in which the credit union invests must be engaged in or planning or developing activity that is incidental to or complementary to the credit union's operations. Activity is incidental or complementary to the credit union's operations if it would be performed for or provided to the credit union, or if it would be performed for or provided to the credit union's members in relationship to products, services, or activities that the credit union performs for or provides to its members. Such activity may not pose a risk to the safety and soundness of the credit union or the credit union industry. The entity may be engaged in other activity that is not incidental to or complementary to the credit union's operations.</TextRun></P>
+<P><TextRun amendingStyle="add">(b) A credit union may not invest in:</TextRun></P>
+<P><TextRun amendingStyle="add">(i) A federal depository institution or state depository institution as those terms are defined in the federal deposit insurance act, 12 U.S.C. Sec. 1813; or</TextRun></P>
+<P><TextRun amendingStyle="add">(ii) A bank holding company or savings bank holding company as those terms are defined in the federal bank holding company act, 12 U.S.C. Sec. 1841.</TextRun></P>
+<P><TextRun amendingStyle="add">(c) The aggregate amount of funds invested under this subsection (2) shall not exceed 50 percent of the net worth of the credit union, and when combined with the amount of funds invested in organizations described in subsection (1)(h) of this section, shall not exceed 10 percent of the assets of the credit union, whichever is less.</TextRun></P>
+<P><TextRun amendingStyle="add">(d) A credit union may engage in an activity permitted under this section only with the prior authorization of the director and subject to such requirements, restrictions, or other conditions as the director may adopt by rule, order, directive, standard, policy, memorandum, or other written communication with regard to the activity. In approving or denying a proposed activity, the director shall consider the financial and management strength of the credit union and the relationship of the activity to the credit union's operations.</TextRun></P>
+<P><TextRun amendingStyle="add">(3)</TextRun> If a credit union has lawfully made an investment that later becomes impermissible because of a change in circumstances or law, and the director finds that this investment will have an adverse effect on the safety and soundness of the credit union, then the director may require that the credit union develop a reasonable plan for the divestiture of the investment.</P>
+<History>2019 c 19 § 6; 2017 c 61 § 12. Prior: 2015 c 123 § 4; 2015 c 114 § 11; 2013 c 34 § 8; 2001 c 83 § 19; 1997 c 397 § 36; prior: 1994 c 256 § 86; 1994 c 92 § 197; 1987 c 338 § 7; 1984 c 31 § 44. Formerly RCW 31.12.425.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Findings<TextRun fontFamily="Times New Roman">—</TextRun>Construction<TextRun fontFamily="Times New Roman">—</TextRun>1994 c 256:</TextRun> See RCW 43.320.007.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>5</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>31</TitleNumber><TextRun>.</TextRun><ChapterNumber>12</ChapterNumber><TextRun>.</TextRun><SectionNumber>438</SectionNumber></SectionCite> and 2013 c 34 s 9 are each amended to read as follows:<Caption>Investment in real property or leasehold interests<TextRun fontFamily="Times New Roman">—</TextRun>Limitations<TextRun fontFamily="Times New Roman">—</TextRun>Future expansion<TextRun fontFamily="Times New Roman">—</TextRun>Rules.</Caption></BillSectionHeader>
+<P>(1) A credit union may invest in real property or leasehold interests <TextRun amendingStyle="strike">primarily for its own use or the use of a credit union service organization in conducting business,</TextRun> including, but not limited to, structures and fixtures attached to real property <TextRun amendingStyle="add">for use in conducting its business or the business of a credit union service organization</TextRun>, subject to the following limitations:</P>
+<P>(a) The credit union's net worth equals at least five percent of the total of its share and deposit accounts;</P>
+<P>(b) The board approves the investment; and</P>
+<P>(c) The aggregate of all such investments does not exceed seven and one-half percent of the total of its share and deposit accounts.</P>
+<P>(2) <TextRun amendingStyle="strikemarkleft">If the real property or leasehold interest is acquired for future expansion, the credit union must partially occupy the premises within three years after the credit union makes the investment, if the premises are improved at the time of acquisition, or within six years after the credit union makes the investment, if the premises are unimproved at the time of acquisition.</TextRun></P>
+<P><TextRun amendingStyle="strikemarkright">(3)</TextRun> The director may, upon written application, waive any of the limitations listed in subsection (1) <TextRun amendingStyle="strike">or (2)</TextRun> of this section, and the director may adopt rules to interpret this section.</P>
+<History>2013 c 34 § 9; 2001 c 83 § 20; 1997 c 397 § 37. Prior: 1994 c 256 § 87; 1994 c 92 § 198; 1984 c 31 § 45. Formerly RCW 31.12.435.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Findings<TextRun fontFamily="Times New Roman">—</TextRun>Construction<TextRun fontFamily="Times New Roman">—</TextRun>1994 c 256:</TextRun> See RCW 43.320.007.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+</BillBody>
+</Bill>

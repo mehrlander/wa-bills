@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-0336.1</RequestNumber><ShortBillId>HB 1200</ShortBillId><LongBillId>HOUSE BILL 1200</LongBillId><Legislature>67th Legislature</Legislature><Session>2021 Regular Session</Session><Sponsors>Representatives Caldier, Stokesbary, and Eslick</Sponsors><BillHistory><ReadDate>Read first time 01/14/21.</ReadDate><ReferredCommittee>Referred to Committee on Environment &amp; Energy.</ReferredCommittee></BillHistory><BriefDescription>Requiring private operation of publicly owned sewerage systems that fail to achieve minimum water quality performance.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to requiring private operation of publicly owned sewerage systems that fail to achieve minimum water quality performance; and adding a new section to chapter 90.48 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>90</TitleNumber><TextRun>.</TextRun><ChapterNumber>48</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>A public entity required to obtain a permit under RCW 90.48.162 for the disposal of waste material into the waters of the state must contract, after competitive solicitation, for the operation and maintenance of the public entity's waste disposal system within 12 months of events satisfying either of the following criteria:</P>
+<P>(1) Sewage, sewage-contaminated wastewater, or sewage-contaminated stormwater are discharged in violation of the permit issued under this chapter in a volume that exceeds 500,000 gallons in a single discharge event; or</P>
+<P>(2) Sewage, sewage-contaminated wastewater, or sewage-contaminated stormwater are discharged in violation of the permit issued under this chapter in a volume that exceeds 50,000 gallons in a single discharge event five or more times during any continuous 24-month period.</P>
+</BillSection>
+</BillBody>
+</Bill>

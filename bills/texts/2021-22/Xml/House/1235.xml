@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-0373.1</RequestNumber><ShortBillId>HB 1235</ShortBillId><LongBillId>HOUSE BILL 1235</LongBillId><Legislature>67th Legislature</Legislature><Session>2021 Regular Session</Session><Sponsors>Representatives Young, Santos, Dolan, Ryu, Leavitt, Caldier, Eslick, Thai, Callan, Rule, Wicks, and Pollet</Sponsors><BillHistory><ReadDate>Read first time 01/18/21.</ReadDate><ReferredCommittee>Referred to Committee on Finance.</ReferredCommittee></BillHistory><BriefDescription>Exempting school districts from the state portion of sales and use taxes on school construction.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to exempting school districts from the state portion of sales and use taxes on school construction; adding a new section to chapter 82.08 RCW; adding a new section to chapter 82.12 RCW; creating new sections; and providing an effective date.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>82</TitleNumber><TextRun>.</TextRun><ChapterNumber>08</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) School districts are eligible for an exemption from sales tax in the form of a remittance as provided in this section. The school district must have paid the tax levied by RCW 82.08.020 on the sale of or charge made for labor and materials used for qualifying construction. The amount of the remittance is computed under subsection (2) of this section and is based on the state share of sales tax.</P>
+<P>(2)(a) A person claiming an exemption from state tax in the form of a remittance under this section must pay the tax imposed by RCW 82.08.020. The school district may then apply to the department for remittance of all the tax paid under RCW 82.08.020. </P>
+<P>(b) The department must determine eligibility under this section based on information provided by the district and through audit and other administrative records. The district may on a quarterly basis submit an information sheet, in a form and manner as required by the department by rule, specifying the amount of exempted tax claimed and the qualifying construction for which the exemption is claimed.</P>
+<P>(c) The department must on a quarterly basis remit exempted amounts to qualifying districts submitting applications during the previous quarter.</P>
+<P>(3) The definitions in this subsection apply throughout this section unless the context clearly requires otherwise.</P>
+<P>(a) "Qualifying construction" means clearing land, moving earth, site preparation, constructing, repairing, decorating, renovating, expanding, or improving of new or existing buildings, structures, facilities, or any other school ground improvement under, upon, or above real property.</P>
+<P>(b) "School district" or "district" has the meaning provided in RCW 28A.315.025.</P>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>82</TitleNumber><TextRun>.</TextRun><ChapterNumber>12</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) School districts are eligible for an exemption from use tax in the form of a remittance as provided in this section. The district must have paid the tax levied under this chapter on the use of labor or materials, or both, for qualifying construction.</P>
+<P>(2) The definitions and requirements of section 1 of this act apply to this section.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber>This act applies to the sale of, charge made, or use of labor and materials for qualifying construction that occurs on or after August 1, 2021.</BillSectionHeader>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber><P>The provisions of RCW 82.32.805 and 82.32.808 do not apply to this act.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="emerg" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>5</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act takes effect August 1, 2021.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

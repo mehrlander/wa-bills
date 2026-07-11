@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-0845.1</RequestNumber><ShortBillId>HB 1519</ShortBillId><LongBillId>HOUSE BILL 1519</LongBillId><Legislature>67th Legislature</Legislature><Session>2021 Regular Session</Session><Sponsors>Representative Paul</Sponsors><BillHistory><ReadDate>Read first time 02/10/21.</ReadDate><ReferredCommittee>Referred to Committee on Finance.</ReferredCommittee></BillHistory><BriefDescription>Addressing levy shifts resulting from court rulings.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to levy shifts resulting from court rulings; adding a new section to chapter 84.36 RCW; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>84</TitleNumber><TextRun>.</TextRun><ChapterNumber>36</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>When, as a result of a court ruling, a taxing district loses taxable value within its district, the levies that would have been imposed by the taxing district on that portion of property shall be deducted from future levies as follows: </P>
+<P>(1) In the year in which the district loses taxable value as a result of a court ruling, 25 percent of the value shall shift to the total levy;</P>
+<P>(2) In the year after the district loses taxable value as a result of a court ruling, 50 percent of the value shall shift to the total levy;</P>
+<P>(3) In the second year after the district loses taxable value as a result of a court ruling, 75 percent of the value shall shift to the total levy; and</P>
+<P>(4) In the third year after the district loses taxable value as a result of a court ruling, 100 percent of the value shall shift to the total levy.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act applies to taxes levied for collection in 2022 and thereafter.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

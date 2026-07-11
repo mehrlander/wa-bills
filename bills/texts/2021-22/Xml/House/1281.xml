@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-0361.1</RequestNumber><ShortBillId>HB 1281</ShortBillId><LongBillId>HOUSE BILL 1281</LongBillId><Legislature>67th Legislature</Legislature><Session>2021 Regular Session</Session><Sponsors>Representatives Walsh and Santos</Sponsors><BillHistory><ReadDate>Read first time 01/19/21.</ReadDate><ReferredCommittee>Referred to Committee on Health Care &amp; Wellness.</ReferredCommittee></BillHistory><BriefDescription>Protecting continuity in the community behavioral health system.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to protecting continuity in the community behavioral health system; adding a new section to chapter 71.24 RCW; providing an expiration date; and declaring an emergency.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>71</TitleNumber><TextRun>.</TextRun><ChapterNumber>24</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) To maintain continuity in the community behavioral health system, any managed care organization which contracts with the state to provide integrated managed care services in a region shall contract with any licensed or certified behavioral health agency which provided behavioral health services for the region's former behavioral health organization during its final year of operation as the community behavioral health network administrator in the region. The managed care organization must contract with the community behavioral health agency until at least four years have elapsed following the end of the administration of the community behavioral health network by the former behavioral health organization. The managed care organization must contract with the behavioral health agency for services which are, at a minimum, equally as extensive as the services which the behavioral health agency provided for the former behavioral health organization unless the parties agree to a more limited contract. Such contract shall not be terminated by the managed care organization within the term of the contract except for malfeasance or breach of contract.</P>
+<P>(2) To qualify, the licensed or certified behavioral health agency must:</P>
+<P>(a) Request to form a contract with the managed care organization within 24 months following the end of the behavioral health organization's administration of the community behavioral health network in its region;</P>
+<P>(b) Hold and maintain a license in good standing from the department to perform the services for which the contract is requested; and</P>
+<P>(c) Agree to a reasonable rate of compensation for its services, subject to review by the director if the behavioral health agency and managed care organization cannot reach an agreement through arms-length negotiations.</P>
+<P>(3) Contracts between behavioral health agencies and managed care organizations under this section may include provisions for adjustments to contract terms at reasonable intervals, including costs and payments for services, as agreed by the parties.</P>
+<P>(4) In order to minimize disruption to the community behavioral health system, managed care organizations must respond to requests to form a contract under this section in good faith and without undue delay.</P>
+<P>(5) This section expires January 1, 2025.</P>
+</BillSection>
+<BillSection type="new" action="emerg" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act is necessary for the immediate preservation of the public peace, health, or safety, or support of the state government and its existing public institutions, and takes effect immediately.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

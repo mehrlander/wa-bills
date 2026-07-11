@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-1867.1</RequestNumber><ShortBillId>HB 1690</ShortBillId><LongBillId>HOUSE BILL 1690</LongBillId><Legislature>67th Legislature</Legislature><Session>2022 Regular Session</Session><Sponsors>Representatives Peterson, Macri, Ryu, Simmons, Gregerson, Dolan, Valdez, Fitzgibbon, Berg, Bateman, Kloba, and Frame</Sponsors><BillHistory><PrefiledDate>Prefiled 12/22/21.</PrefiledDate><ReadDate>Read first time 01/10/22.</ReadDate><ReferredCommittee>Referred to Committee on Public Safety.</ReferredCommittee></BillHistory><BriefDescription>Concerning the use of deception by law enforcement officers during custodial interrogations.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to the use of deception by law enforcement officers during custodial interrogations; and adding a new chapter to Title 10 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The definitions in this section apply throughout this chapter unless the context clearly requires otherwise.</P></BillSectionHeader>
+<P>(1) "Custodial interrogation" means express questioning or other actions or words by a law enforcement officer which are reasonably likely to elicit an incriminating response from an individual and occurs when reasonable individuals in the same circumstances would consider themselves in custody.</P>
+<P>(2) "Deception" means the knowing communication of false facts about evidence or unauthorized statements regarding leniency by a law enforcement officer to a person who is the subject of custodial interrogation.</P>
+<P>(3) "Law enforcement officer" means a general authority Washington peace officer or limited authority Washington peace officer as defined in RCW 10.93.020.</P>
+<P>(4) "Person" means an individual, corporation, business trust, statutory trust, estate, trust, partnership, limited liability company, association, joint venture, public corporation, or government; governmental subdivision, agency, or instrumentality; or any other legal or commercial entity.</P>
+<P>(5) "Statement" means a communication whether oral, written, electronic, or nonverbal.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) A statement made by a person during a custodial interrogation conducted by a law enforcement officer is presumed to be inadmissible if the court determines that the officer intentionally engaged in deception in obtaining the statement and the statement was made in relation to an investigation of a misdemeanor or a felony, or, in the case of a juvenile, an allegation that the person being interrogated committed an act that would constitute a misdemeanor or a felony if committed by an adult.</P></BillSectionHeader>
+<P>(2) The prosecution may overcome the presumption of inadmissibility if it proves by clear and convincing evidence that the person's statement was voluntary and not made in response to the officer's use of deception.</P>
+</BillSection>
+<BillSection type="new" action="addchap" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>Sections 1 and 2 of this act constitute a new chapter in <TitleCite><TextRun>Title </TextRun><TitleNumber>10</TitleNumber><TextRun> RCW</TextRun></TitleCite>.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

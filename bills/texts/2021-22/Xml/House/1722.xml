@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-1893.1</RequestNumber><ShortBillId>HB 1722</ShortBillId><LongBillId>HOUSE BILL 1722</LongBillId><Legislature>67th Legislature</Legislature><Session>2022 Regular Session</Session><Sponsors>Representatives Boehnke, Paul, Leavitt, Dye, Taylor, Chase, McCaslin, Klicker, Goehner, Rule, Sutherland, Chambers, Eslick, Gilday, Wylie, and Bergquist</Sponsors><BillHistory><PrefiledDate>Prefiled 12/30/21.</PrefiledDate><ReadDate>Read first time 01/10/22.</ReadDate><ReferredCommittee>Referred to Committee on Local Government.</ReferredCommittee></BillHistory><BriefDescription>Concerning the acceleration of broadband deployment. </BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to the acceleration of broadband deployment; amending RCW 35.99.010; adding a new section to chapter 35.99 RCW; adding a new chapter to Title 36 RCW; and creating a new section. </BillTitle>
+<EnactedClause />
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature finds and declares that:</P></BillSectionHeader>
+<P>(1) Washingtonians need improved access to high-speed internet now more than ever to meet a variety of demands including, but not limited to, remote work, distance learning, telehealth, emergency response and public safety, agriculture, innovation, and commerce;</P>
+<P>(2) High-speed internet is delivered to Washingtonians through wireline and wireless broadband infrastructure that is installed either aerially or underground. Wireless broadband service relies on wireline facilities, especially fiber backhaul lines;</P>
+<P>(3) Deployment of fiber is critical to connect more Washingtonians to broadband;</P>
+<P>(4) Quick and cost-effective ways to install fiber include trenching, boring, and microtrenching; and </P>
+<P>(5) By expediting fiber deployment, cities, towns, and counties will help expedite the availability of broadband access across Washington.</P>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>35</TitleNumber><TextRun>.</TextRun><ChapterNumber>99</ChapterNumber><TextRun>.</TextRun><SectionNumber>010</SectionNumber></SectionCite> and 2000 c 83 s 1 are each amended to read as follows:<Caption>Definitions.</Caption></BillSectionHeader>
+<P>The definitions in this section apply throughout this chapter unless the context clearly requires otherwise.</P>
+<P>(1) "Cable television service" means the one-way transmission to subscribers of video programming and other programming service and subscriber interaction, if any, that is required for the selection or use of the video programming or other programming service.</P>
+<P>(2) "Facilities" means all of the plant, equipment, fixtures, appurtenances, antennas, and other facilities necessary to furnish and deliver telecommunications services and cable television services, including but not limited to poles with crossarms, poles without crossarms, wires, lines, conduits, cables, communication and signal lines and equipment, braces, guys, anchors, vaults, and all attachments, appurtenances, and appliances necessary or incidental to the distribution and use of telecommunications services and cable television services.</P>
+<P>(3) <TextRun amendingStyle="add">"Fiber" means fiber optic cables, hand holes, vaults, and terminals.</TextRun></P>
+<P><TextRun amendingStyle="add">(4)</TextRun> "Master permit" means the agreement in whatever form whereby a city or town may grant general permission to a service provider to enter, use, and occupy the right<Hyphen type="nobreak" />of<Hyphen type="nobreak" />way for the purpose of locating facilities. This definition is not intended to limit, alter, or change the extent of the existing authority of a city or town to require a franchise nor does it change the status of a service provider asserting an existing statewide grant based on a predecessor telephone or telegraph company's existence at the time of the adoption of the Washington state Constitution to occupy the right<Hyphen type="nobreak" />of<Hyphen type="nobreak" />way. For the purposes of this subsection, a franchise, except for a cable television franchise, is a master permit. A master permit does not include cable television franchises.</P>
+<P><TextRun amendingStyle="strike">(4)</TextRun> <TextRun amendingStyle="add">(5) "Microtrench" means a narrow open excavation trench that is less than or equal to four inches in width and not less than 12 inches in depth and not more than 26 inches in depth and that is created for the purpose of installing a subsurface pipe or conduit.</TextRun></P>
+<P><TextRun amendingStyle="add">(6) "Microtrenching" means excavation of a microtrench.</TextRun></P>
+<P><TextRun amendingStyle="add">(7)</TextRun> "Personal wireless services" means commercial mobile services, unlicensed wireless services, and common carrier wireless exchange access services, as defined by federal laws and regulations.</P>
+<P><TextRun amendingStyle="strike">(5)</TextRun> <TextRun amendingStyle="add">(8)</TextRun> "Right<Hyphen type="nobreak" />of<Hyphen type="nobreak" />way" means land acquired or dedicated for public roads and streets, but does not include:</P>
+<P>(a) State highways;</P>
+<P>(b) Land dedicated for roads, streets, and highways not opened and not improved for motor vehicle use by the public;</P>
+<P>(c) Structures, including poles and conduits, located within the right<Hyphen type="nobreak" />of<Hyphen type="nobreak" />way;</P>
+<P>(d) Federally granted trust lands or forest board trust lands;</P>
+<P>(e) Lands owned or managed by the state parks and recreation commission; or</P>
+<P>(f) Federally granted railroad rights<Hyphen type="nobreak" />of<Hyphen type="nobreak" />way acquired under 43 U.S.C. Sec. 912 and related provisions of federal law that are not open for motor vehicle use.</P>
+<P><TextRun amendingStyle="strike">(6)</TextRun> <TextRun amendingStyle="add">(9)</TextRun> "Service provider" means every corporation, company, association, joint stock association, firm, partnership, person, city, or town owning, operating, or managing any facilities used to provide and providing telecommunications or cable television service for hire, sale, or resale to the general public. Service provider includes the legal successor to any such corporation, company, association, joint stock association, firm, partnership, person, city, or town.</P>
+<P><TextRun amendingStyle="strike">(7)</TextRun> <TextRun amendingStyle="add">(10)</TextRun> "Telecommunications service" means the transmission of information by wire, radio, optical cable, electromagnetic, or other similar means for hire, sale, or resale to the general public. For the purpose of this subsection, "information" means knowledge or intelligence represented by any form of writing, signs, signals, pictures, sounds, or any other symbols. For the purpose of this chapter, telecommunications service excludes the over-the-air transmission of broadcast television or broadcast radio signals.</P>
+<P><TextRun amendingStyle="strike">(8)</TextRun> <TextRun amendingStyle="add">(11)</TextRun> "Use permit" means the authorization in whatever form whereby a city or town may grant permission to a service provider to enter and use the specified right<Hyphen type="nobreak" />of<Hyphen type="nobreak" />way for the purpose of installing, maintaining, repairing, or removing identified facilities.</P>
+<History>2000 c 83 § 1.</History>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>35</TitleNumber><TextRun>.</TextRun><ChapterNumber>99</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) A city or town shall, consistent with this chapter, allow microtrenching for the installation of underground fiber if the installation in the microtrench is limited to fiber, unless the city or town makes a written finding that allowing microtrenching for a fiber installation would inconvenience the public use of the right-of-way or adversely affect the public health, safety, and welfare.</P>
+<P>(2) Upon mutual agreement, a microtrench may be placed shallower than 12 inches in depth.</P>
+<P>(3) To the extent necessary to comply with this section, a city or town shall adopt or amend existing policies, ordinances, codes, or construction rules to allow for microtrenching.</P>
+<P>(4) Nothing in this section shall supersede, nullify, or otherwise alter the requirements to comply with local safety standards.</P>
+<P>(5) Restoration requirements for microtrenching must be commensurate with the impact to the local right-of-way.</P>
+<P>(6) A city or town may impose a fee on an application for a permit to install fiber. The reasonable costs of providing the service for which the fee is charged must be limited to the reasonable costs of the city or town to process and issue the permit and inspect the installation that is the subject of the permit, including any costs incurred if the applicant elects to expedite processing and review.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber><P>The definitions in this section apply throughout this chapter unless the context clearly requires otherwise.</P></BillSectionHeader>
+<P>(1) "Fiber" means fiber optic cables, hand holes, vaults, and terminals.</P>
+<P>(2) "Microtrench" means a narrow open excavation trench that is less than or equal to four inches in width and not less than 12 inches in depth and not more than 26 inches in depth and that is created for the purpose of installing a subsurface pipe or conduit.</P>
+<P>(3) "Microtrenching" means excavation of a microtrench.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>5</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) A county shall allow microtrenching for the installation of underground fiber if the installation in the microtrench is limited to fiber, unless the county makes a written finding that allowing microtrenching for a fiber installation would inconvenience the public use of the right-of-way or adversely affect the public health, safety, and welfare.</P></BillSectionHeader>
+<P>(2) Upon mutual agreement, a microtrench may be placed shallower than 12 inches in depth.</P>
+<P>(3) To the extent necessary to comply with this chapter, a county shall adopt or amend existing policies, ordinances, codes, or construction rules to allow for microtrenching.</P>
+<P>(4) Nothing in this chapter shall supersede, nullify, or otherwise alter the requirements to comply with local safety standards.</P>
+<P>(5) Restoration requirements for microtrenching must be commensurate with the impact to the local right-of-way.</P>
+<P>(6) A county may impose a fee on an application for a permit to install fiber. The reasonable costs of providing the service for which the fee is charged must be limited to the reasonable costs of the county to process and issue the permit and inspect the installation that is the subject of the permit, including any costs incurred if the applicant elects to expedite processing and review.</P>
+</BillSection>
+<BillSection type="new" action="addchap">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>6</Value><TextRun>.  </TextRun></BillSectionNumber>Sections 4 and 5 of this act constitute a new chapter in Title 36 RCW.</BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

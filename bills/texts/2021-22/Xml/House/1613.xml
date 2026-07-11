@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>Z-0312.2</RequestNumber><ShortBillId>HB 1613</ShortBillId><LongBillId>HOUSE BILL 1613</LongBillId><Legislature>67th Legislature</Legislature><Session>2022 Regular Session</Session><Sponsors>Representatives Sells, Berry, Ryu, Wicks, Taylor, Simmons, Kloba, and Harris-Talley; by request of Employment Security Department</Sponsors><BillHistory><PrefiledDate>Prefiled 12/07/21.</PrefiledDate><ReadDate>Read first time 01/10/22.</ReadDate><ReferredCommittee>Referred to Committee on Labor &amp; Workplace Standards.</ReferredCommittee></BillHistory><BriefDescription>Concerning shared reporting responsibilities for both the paid family and medical leave and the long-term services and supports trust programs to clarify that information collected from employer reports shall remain private.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to shared reporting responsibilities for both the paid family and medical leave and the long-term services and supports trust programs to clarify that information collected from employer reports shall remain private; amending RCW 50A.25.070 and 50A.25.110; and adding a new section to chapter 50B.04 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>50B</TitleNumber><TextRun>.</TextRun><ChapterNumber>04</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) Any information or records concerning an individual or employer obtained by the employment security department for the purposes of collecting and assessing employee premiums under RCW 50B.04.080 and determining qualified individuals under RCW 50B.04.050 will be considered private and confidential in the same manner provided in chapter 50A.25 RCW.</P>
+<P>(2) This section does not create a rule of evidence.</P>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>50A</TitleNumber><TextRun>.</TextRun><ChapterNumber>25</ChapterNumber><TextRun>.</TextRun><SectionNumber>070</SectionNumber></SectionCite> and 2020 c 125 s 8 are each amended to read as follows:<Caption>Data-sharing contracts<TextRun fontFamily="Times New Roman">—</TextRun>When authorized<TextRun fontFamily="Times New Roman">—</TextRun>Disclosure to state or local government agencies.</Caption></BillSectionHeader>
+<P>(1) The department may enter into data-sharing contracts and may disclose records and information deemed confidential to state or local government agencies under this chapter only if permitted under subsection (2) of this section and RCW 50A.25.090. A state or local government agency must need the records or information for an official purpose and must also provide:</P>
+<P>(a) An application in writing to the department for the records or information containing a statement of the official purposes for which the state or local government agency needs the information or records and specifically identify the records or information sought from the department; and</P>
+<P>(b) A written verification of the need for the specific information from the director, commissioner, chief executive, or other official of the requesting state or local government agency either on the application or on a separate document.</P>
+<P>(2) The department may disclose information or records deemed confidential under this chapter to the following state or local government agencies:</P>
+<P>(a) To the department of social and health services to identify child support obligations as defined in RCW 50A.15.080 <TextRun amendingStyle="add">and for the purposes of administering the department's responsibilities under Title 50B RCW</TextRun>;</P>
+<P>(b) To the department of revenue to determine potential tax liability or employer compliance with registration and licensing requirements;</P>
+<P>(c) To the department of labor and industries to compare records or information to detect improper or fraudulent claims;</P>
+<P>(d) To the office of financial management for the purpose of conducting periodic salary or fringe benefit studies pursuant to law;</P>
+<P>(e) To the office of the state treasurer and any financial or banking institutions deemed necessary by the office of the state treasurer and the department for the proper administration of funds;</P>
+<P>(f) To the office of the attorney general for purposes of legal representation;</P>
+<P>(g) To a county clerk for the purpose of RCW 9.94A.760 if requested by the county clerk's office;</P>
+<P>(h) To the office of administrative hearings for the purpose of administering the administrative appeal process;</P>
+<P>(i) To the department of enterprise services for the purpose of agency administration and operations; <TextRun amendingStyle="strike">and</TextRun></P>
+<P>(j) To the consolidated technology services agency for the purpose of enterprise technology support<TextRun amendingStyle="add">; and</TextRun></P>
+<P><TextRun amendingStyle="add">(k) To the health care authority and the office of the state actuary for the purposes of administering the department's responsibilities under Title 50B RCW.</TextRun></P>
+<P><TextRun amendingStyle="add">(3) The department may also enter into data-sharing agreements with other state or local government agencies solely for the purposes of program evaluation under this title or Title 50B RCW</TextRun>.</P>
+<History>2020 c 125 § 8; 2019 c 13 § 76.</History>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>50A</TitleNumber><TextRun>.</TextRun><ChapterNumber>25</ChapterNumber><TextRun>.</TextRun><SectionNumber>110</SectionNumber></SectionCite> and 2019 c 13 s 80 are each amended to read as follows:<Caption>Disclosure by the family and medical leave program of the department<TextRun fontFamily="Times New Roman">—</TextRun>When authorized.</Caption></BillSectionHeader>
+<P>The <TextRun amendingStyle="add">paid</TextRun> family and medical leave program of the department <TextRun amendingStyle="add">and the long-term services and supports trust administering agencies</TextRun> may disclose information or records deemed private and confidential under this chapter to any private person or organization, and by extension, the agents of any private person or organization, when the disclosure is necessary to permit private contracting parties to assist in the operation, management, and implementation of the program in instances where certain departmental functions may be delegated to private parties to increase the department's efficiency or quality of service to the public. The private person or organization shall use the information or records solely for the purpose for which the information was disclosed and shall be bound by the same rules of privacy and confidentiality as department employees.</P>
+<History>2019 c 13 § 80.</History>
+</BillSection>
+</BillBody>
+</Bill>

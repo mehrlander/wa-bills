@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-1485.1</RequestNumber><ShortBillId>HB 1570</ShortBillId><LongBillId>HOUSE BILL 1570</LongBillId><Legislature>67th Legislature</Legislature><Session>2021 Regular Session</Session><Sponsors>Representatives Walsh, Volz, Abbarno, Boehnke, Caldier, Dent, Dufault, Graham, Jacobsen, Rude, Ybarra, Schmick, Orcutt, Klippert, Chase, Eslick, Klicker, McEntire, McCaslin, and Chambers</Sponsors><BillHistory><ReadDate>Read first time 04/05/21.</ReadDate><ReferredCommittee>Referred to Committee on Health Care &amp; Wellness.</ReferredCommittee></BillHistory><BriefDescription>Prohibiting the government from requiring proof of vaccination to access public places.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to prohibiting the government from requiring proof of vaccination to access public places; adding a new section to chapter 70.01 RCW; and declaring an emergency.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>70</TitleNumber><TextRun>.</TextRun><ChapterNumber>01</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) A governmental entity may not require a person to present proof that the person has received a vaccine for the novel coronavirus (COVID-19) or any variant thereof in order to be permitted to access a public place.</P>
+<P>(2) As used in this section:</P>
+<P>(a) "Governmental entity" means any unit of state or local government including, but not limited to, the governor, state agencies, counties, cities, towns, and special districts.</P>
+<P>(b) "Public place" means any site accessible to the general public for business, entertainment, or another lawful purpose. A "public place" includes, but is not limited to, the front, immediate area, or parking lot of any store, shop, restaurant, tavern, shopping center, or other place of business; any public building, its grounds, or surrounding area; or any public parking lot, street, right-of-way, sidewalk, public park, or other public grounds.</P>
+</BillSection>
+<BillSection type="new" action="emerg">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act is necessary for the immediate preservation of the public peace, health, or safety, or support of the state government and its existing public institutions, and takes effect immediately.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-0022.2</RequestNumber><ShortBillId>HB 1000</ShortBillId><LongBillId>HOUSE BILL 1000</LongBillId><Legislature>67th Legislature</Legislature><Session>2021 Regular Session</Session><Sponsors>Representatives Maycumber, Lovick, Ryu, Leavitt, Boehnke, Eslick, Shewmake, Lekanoff, Fitzgibbon, J. Johnson, Slatter, Wylie, Tharinger, Goodman, Bronoske, Valdez, Callan, Young, Graham, Cody, Robertson, Ormsby, Dent, Stonier, Fey, Macri, Jacobsen, Schmick, Davis, Pollet, and Bergquist</Sponsors><BillHistory><PrefiledDate>Prefiled 12/07/20.</PrefiledDate><ReadDate>Read first time 01/11/21.</ReadDate><ReferredCommittee>Referred to Committee on Appropriations.</ReferredCommittee></BillHistory><BriefDescription>Expanding mental health support for law enforcement officers.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to establishing and expanding wellness, resiliency, and mental health support for law enforcement officers; adding new sections to chapter 36.28A RCW; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) The legislature finds that it took specific action in the 2020 regular session to establish three pilot projects to support behavioral health and suicide prevention efforts for law enforcement officers. Due to the impacts of COVID-19 and financial uncertainties facing the state, the governor made the difficult decision to veto section 3, chapter 327, Laws of 2020 and the associated funding in the operating budget.</P></BillSectionHeader>
+<P>(2) The legislature further finds that law enforcement officers who are not well do not serve the public well, and declares that the pilot projects established in section 3, chapter 327, Laws of 2020 are worthy, especially in light of the impacts of COVID-19.</P>
+<P>(3) The legislature intends to again pass legislation to establish behavioral health supports and suicide prevention efforts for law enforcement officers.</P>
+<P>(4) The legislature further intends to appropriate sufficient funding to the Washington association of sheriffs and police chiefs to establish a program to support behavioral health supports and suicide prevention efforts for law enforcement officers, including awarding grants for three pilot projects for behavioral health supports and suicide prevention efforts for law enforcement officers.</P>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>36</TitleNumber><TextRun>.</TextRun><ChapterNumber>28A</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>Subject to the availability of amounts appropriated for this specific purpose, the Washington association of sheriffs and police chiefs shall establish a program to support behavioral health improvement and suicide prevention efforts for law enforcement officers.</P>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>36</TitleNumber><TextRun>.</TextRun><ChapterNumber>28A</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) Subject to the availability of the amounts appropriated for this specific purpose, the Washington association of sheriffs and police chiefs shall establish three pilot projects to support behavioral health improvement and suicide prevention efforts for law enforcement officers.</P>
+<P>(2) The association shall establish a competitive grant program to award funding for the three pilot projects by September 1, 2021.</P>
+<P>(3) Law enforcement associations and agencies are eligible to compete for grant funding.</P>
+<P>(4) The following programs and activities are eligible for grant funding:</P>
+<P>(a) Public information and wellness promotion campaign;</P>
+<P>(b) Embedded mental health professionals;</P>
+<P>(c) Peer support programs;</P>
+<P>(d) Resiliency training programs; and</P>
+<P>(e) Critical incident stress management programs.</P>
+<P>(5) Grantees must provide a report to the association on the results of their program by October 1, 2022. The association must provide a report on the three pilot projects to the governor and appropriate committees of the legislature by December 1, 2022.</P>
+</BillSection>
+</BillBody>
+</Bill>

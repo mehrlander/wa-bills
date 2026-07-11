@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-2324.1</RequestNumber><ShortBillId>HB 2098</ShortBillId><LongBillId>HOUSE BILL 2098</LongBillId><Legislature>67th Legislature</Legislature><Session>2022 Regular Session</Session><Sponsors>Representatives Shewmake, Ramel, Frame, and Sutherland</Sponsors><BillHistory><ReadDate>Read first time 01/26/22.</ReadDate><ReferredCommittee>Referred to Committee on Capital Budget.</ReferredCommittee></BillHistory><BriefDescription>Modifying the interest rate for the low-income home rehabilitation revolving loan program.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to modifying the interest rate for the low-income home rehabilitation revolving loan program; amending RCW 43.330.482; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>330</ChapterNumber><TextRun>.</TextRun><SectionNumber>482</SectionNumber></SectionCite> and 2017 c 285 s 2 are each amended to read as follows:<Caption>Low-income home rehabilitation revolving loan program.</Caption></BillSectionHeader>
+<P>(1) Subject to availability of amounts appropriated for this specific purpose, the low-income home rehabilitation revolving loan program is created within the department.</P>
+<P>(2) The program must include the following elements:</P>
+<P>(a) Eligible homeowners must be low-income and live in rural areas.</P>
+<P>(b) Homeowners who are senior citizens, persons with disabilities, families with children five years old and younger, and veterans must receive priority for loans.</P>
+<P>(c) The cost of the home rehabilitation must be the lesser of eighty percent of the assessed value of the property post rehabilitation or <TextRun amendingStyle="strike">forty thousand dollars</TextRun> <TextRun amendingStyle="add">$40,000</TextRun>.</P>
+<P>(d) The maximum amount that may be loaned under this program may not exceed the cost of the home rehabilitation as provided in (c) of this subsection, and must not result in total loans borrowed against the property equaling more than <TextRun amendingStyle="strike">eighty</TextRun> <TextRun amendingStyle="add">80</TextRun> percent of the assessed value.</P>
+<P>(e) The interest rate of the loan must be equal to <TextRun amendingStyle="add">the lesser of</TextRun> the previous calendar year's annual average consumer price index compiled by the bureau of labor statistics, United States department of labor <TextRun amendingStyle="add">or one and one-half percent</TextRun>.</P>
+<P>(f) The department must allow participating homeowners to defer repayment of the loan principal and interest and any fees related to the administration or issuance of the loan. Any amounts deferred pursuant to this section become a lien in favor of the state. The lien is subordinate to liens for general taxes, amounts deferred under chapter 84.37 or 84.38 RCW, or special assessments as defined in RCW 84.38.020. The lien is also subordinate to the first deed of trust or the first mortgage on the real property but has priority over all other privileges, liens, monetary encumbrances, or other security interests affecting the real property, whenever incurred, filed, or recorded. The department must take such necessary action to file and perfect the state's lien. All amounts due under the loan become due and payable upon the sale of the home or upon change in ownership of the home.</P>
+<P>(3) All moneys from repayments must be deposited into the low-income home rehabilitation revolving loan program account created in RCW 43.330.488.</P>
+<P>(4) The department must adopt rules for implementation of this program.</P>
+<History>2017 c 285 § 2.</History>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act is remedial, curative, and retroactive, and it applies to all loans issued on or after January 1, 2022. To this extent, this act applies retroactively, but in all other respects applies prospectively.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

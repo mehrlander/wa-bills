@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-0375.1</RequestNumber><ShortBillId>HB 1225</ShortBillId><LongBillId>HOUSE BILL 1225</LongBillId><Legislature>67th Legislature</Legislature><Session>2021 Regular Session</Session><Sponsors>Representatives Stonier, Bateman, Lekanoff, J. Johnson, Davis, Cody, Santos, Thai, Ortiz-Self, Ormsby, Valdez, Riccelli, and Tharinger</Sponsors><BillHistory><ReadDate>Read first time 01/15/21.</ReadDate><ReferredCommittee>Referred to Committee on Health Care &amp; Wellness.</ReferredCommittee></BillHistory><BriefDescription>Concerning school-based health centers.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to supporting school-based health centers; adding a new section to chapter 43.70 RCW; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) The legislature finds that:</P></BillSectionHeader>
+<P>(a) Research shows that school-based health centers provide a crucial link between health and education, improving outcomes for students in both areas;</P>
+<P>(b) Health and academic disparities are increasing during the COVID-19 pandemic, particularly for students of color;</P>
+<P>(c) School-based health centers advance equity by providing health care access and support at schools;</P>
+<P>(d) Local control and decision making for school-based health centers is important; and</P>
+<P>(e) In 2016, the legislature created the Washington integrated student supports protocol as a strategy to close educational opportunity gaps through school-based coordination of academic and nonacademic supports for students.</P>
+<P>(2) Therefore, the legislature intends to create a school-based health center program office within the department of health to award grants and coordinate with other agencies and entities to provide support, training, and technical assistance to school-based health centers.</P>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>70</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) The school-based health center program office is established within the department.</P>
+<P>(2) Subject to the availability of amounts appropriated for this specific purpose, the school-based health center program office shall:</P>
+<P>(a) Award grant funding to school-based health centers. The department may grant funding for the following purposes:</P>
+<P>(i) Planning a school-based health center;</P>
+<P>(ii) Start-up costs associated with setting up a school-based health center; and</P>
+<P>(iii) Ongoing costs of operating a school-based health center;</P>
+<P>(b) Monitor and evaluate school-based health centers that receive grant funding from the program office;</P>
+<P>(c) Partner with a statewide nonprofit organization to provide training and technical assistance to school-based health centers; and</P>
+<P>(d) Coordinate with the statewide nonprofit organization providing training and technical assistance, educational service districts, the health care authority, hosting school districts, and the office of the insurance commissioner, to provide support to school-based health centers.</P>
+<P>(3) For purposes of this section, a "school-based health center" means a collaboration between the community, the school, and a sponsoring agency that operates the school-based health center, which is a student-focused health center located in or adjacent to a school that provides integrated medical, behavioral health, and other health care services such as dental care.</P>
+</BillSection>
+</BillBody>
+</Bill>

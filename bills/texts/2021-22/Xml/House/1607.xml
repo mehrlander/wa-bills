@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-1692.1</RequestNumber><ShortBillId>HB 1607</ShortBillId><LongBillId>HOUSE BILL 1607</LongBillId><Legislature>67th Legislature</Legislature><Session>2022 Regular Session</Session><Sponsors>Representatives Rude, Abbarno, Caldier, Eslick, Shewmake, Robertson, J. Johnson, Corry, Barkis, Leavitt, Callan, Taylor, Jacobsen, Slatter, Bergquist, Tharinger, Kloba, Griffey, Riccelli, Chambers, and Young</Sponsors><BillHistory><PrefiledDate>Prefiled 12/07/21.</PrefiledDate><ReadDate>Read first time 01/10/22.</ReadDate><ReferredCommittee>Referred to Committee on Appropriations.</ReferredCommittee></BillHistory><BriefDescription>Concerning the safe routes to schools program.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to the safe routes to schools program; amending RCW 47.04.300; adding a new section to chapter 43.79 RCW; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>79</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>From and after July 1, 2025, state appropriations for the safe routes to school program established in RCW 47.04.300 shall be paid out of the general fund. Some program funding may be coordinated with new school construction to provide connecting routes from nearby residential areas to new schools.</P>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>47</TitleNumber><TextRun>.</TextRun><ChapterNumber>04</ChapterNumber><TextRun>.</TextRun><SectionNumber>300</SectionNumber></SectionCite> and 2009 c 392 s 1 are each amended to read as follows:<Caption>Safe routes to school program.</Caption></BillSectionHeader>
+<P><TextRun amendingStyle="strike">Concurrent with</TextRun> <TextRun amendingStyle="add">In coordination with the program created in</TextRun> the federal safe, accountable, flexible, efficient transportation equity act of 2005, a safe routes to school program is established within the department. The purpose of the program is to:</P>
+<P>(1) Enable and encourage children, including those with disabilities, to walk and bicycle to school;</P>
+<P>(2) Make bicycling and walking to school a safer and more appealing transportation alternative, encouraging a healthy and active lifestyle from an early age; <TextRun amendingStyle="strike">and</TextRun></P>
+<P>(3) Facilitate the planning, development, and implementation of projects and activities that will improve safety and reduce traffic, fuel consumption, and air pollution in the vicinity of schools<TextRun amendingStyle="add">; and</TextRun></P>
+<P><TextRun amendingStyle="add">(4) Enable the planning, development, and installation of safe routes to new schools at the time the schools are constructed</TextRun>.</P>
+<History>2009 c 392 § 1.</History>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>The secretary of transportation and the superintendent of public instruction must consult and analyze the safe routes to school program to determine whether this program would be better suited to be administered by the office of the superintendent of public instruction. The department of transportation and the office of the superintendent of public instruction must issue a report to the legislature with their findings with recommendations on a transition procedure, if any, by December 30, 2023. The analysis must consider options that would satisfy federal requirements, such as the department of transportation being a pass-through entity for federal funding or have the secretary of transportation have the final approval for federal funding distribution as recommended by the superintendent of public instruction.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

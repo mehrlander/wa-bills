@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-4041.1</RequestNumber><ShortBillId>SB 6263</ShortBillId><LongBillId>SENATE BILL 6263</LongBillId><Legislature>68th Legislature</Legislature><Session>2024 Regular Session</Session><Sponsors>Senators L. Wilson, Boehnke, Cleveland, Conway, Keiser, Lovelett, Lovick, Rivers, Schoesler, Torres, and Wellman</Sponsors><BillHistory><ReadDate>Read first time 01/17/24.</ReadDate><ReferredCommittee>Referred to Committee on Ways &amp; Means.</ReferredCommittee></BillHistory><BriefDescription>Concerning death benefits provided by the 1955 act for firefighters' relief and pensions.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to death benefits provided by the 1955 act for firefighters' relief and pensions; and amending RCW 41.18.140.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>41</TitleNumber><TextRun>.</TextRun><ChapterNumber>18</ChapterNumber><TextRun>.</TextRun><SectionNumber>140</SectionNumber></SectionCite> and 2007 c 218 s 54 are each amended to read as follows:<Caption>Funeral expenses.</Caption></BillSectionHeader>
+<P>The board shall pay from the firefighters' pension fund upon the death of any active or retired firefighter the sum of <TextRun amendingStyle="strike">five hundred dollars</TextRun> <TextRun amendingStyle="add">$1,000</TextRun>, to assist in defraying the funeral expenses of such firefighter.</P>
+<History>2007 c 218 § 54; 1961 c 255 § 7; 1955 c 382 § 13.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Intent<TextRun fontFamily="Times New Roman">—</TextRun>Finding<TextRun fontFamily="Times New Roman">—</TextRun>2007 c 218:</TextRun> See note following RCW 41.08.020.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+</BillBody>
+</Bill>

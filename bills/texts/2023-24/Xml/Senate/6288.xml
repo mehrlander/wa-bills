@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-4088.2</RequestNumber><ShortBillId>SB 6288</ShortBillId><LongBillId>SENATE BILL 6288</LongBillId><Legislature>68th Legislature</Legislature><Session>2024 Regular Session</Session><Sponsors>Senators Lovick, Hunt, Nobles, and J. Wilson</Sponsors><BillHistory><ReadDate>Read first time 01/22/24.</ReadDate><ReferredCommittee>Referred to Committee on Transportation.</ReferredCommittee></BillHistory><BriefDescription>Requiring headlight use on motor vehicles at all times.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to requiring headlight use on motor vehicles at all times; amending RCW 46.37.020; and repealing RCW 47.04.180.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>46</TitleNumber><TextRun>.</TextRun><ChapterNumber>37</ChapterNumber><TextRun>.</TextRun><SectionNumber>020</SectionNumber></SectionCite> and 1977 ex.s. c 355 s 2 are each amended to read as follows:<Caption>When lighted lamps and signaling devices are required.</Caption></BillSectionHeader>
+<P><TextRun amendingStyle="strike">Every</TextRun> <TextRun amendingStyle="add">(1) Except as provided in subsection (2) of this section, every</TextRun> vehicle upon a highway within this state at any time from a half hour after sunset to a half hour before sunrise and at any other time when, due to insufficient light or unfavorable atmospheric conditions, persons and vehicles on the highway are not clearly discernible at a distance of <TextRun amendingStyle="strike">one thousand</TextRun> <TextRun amendingStyle="add">1,000</TextRun> feet ahead shall display lighted headlights, other lights, and illuminating devices as hereinafter respectively required for different classes of vehicles, subject to exceptions with respect to parked vehicles, and such stop lights, turn signals, and other signaling devices shall be lighted as prescribed for the use of such devices.</P>
+<P><TextRun amendingStyle="add">(2) Every motor vehicle upon a highway within this state at any time shall display lighted headlights as required in this chapter.</TextRun></P>
+<History>1977 ex.s. c 355 § 2; 1974 ex.s. c 124 § 2; 1963 c 154 § 2; 1961 c 12 § 46.37.020. Prior: 1955 c 269 § 2; prior: 1937 c 189 § 14, part; RRS § 6360-14, part; RCW 46.40.010, part; 1929 c 178 § 2; 1927 c 309 § 19; 1921 c 96 § 22, part; 1919 c 59 § 10, part; 1917 c 155 § 15, part; 1915 c 142 § 21, part; RRS § 6362-19.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Severability<TextRun fontFamily="Times New Roman">—</TextRun>1977 ex.s. c 355:</TextRun> See note following RCW 46.37.010.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>1963 c 154:</TextRun> See note following RCW 46.37.010.</NoteP></AnnNote>
+<CrossRefNote><NoteP>Local twenty-four hour headlight policy: RCW 47.04.180.</NoteP></CrossRefNote>
+<CrossRefNote><NoteP>Motorcycles and motor-driven cycles<TextRun fontFamily="Times New Roman">—</TextRun>When headlamps and tail lamps to be lighted: RCW 46.37.522.</NoteP></CrossRefNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="new" action="repeal">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P><SectionCite><TextRun>RCW </TextRun><TitleNumber>47</TitleNumber><TextRun>.</TextRun><ChapterNumber>04</ChapterNumber><TextRun>.</TextRun><SectionNumber>180</SectionNumber></SectionCite> (Twenty-four hour headlight policy) and 1998 c 245 s 94 &amp; 1989 c 195 s 1 are each repealed.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

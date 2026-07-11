@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-0594.2</RequestNumber><ShortBillId>SB 5646</ShortBillId><LongBillId>SENATE BILL 5646</LongBillId><Legislature>68th Legislature</Legislature><Session>2023 Regular Session</Session><Sponsors>Senators Muzzall and Lovick</Sponsors><BillHistory /><BriefDescription>Concerning leaving a child unattended in a motor vehicle.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to leaving a child unattended in a motor vehicle; adding a new section to chapter 9.91 RCW; prescribing penalties; and making an appropriation.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>9</TitleNumber><TextRun>.</TextRun><ChapterNumber>91</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>A person who has the care and custody, whether temporary or permanent, of a minor child under the age of nine years, and knowingly leaves the child unattended by an adult in a parked automobile, shall be guilty of a misdemeanor.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>The sum of $100,000, or as much thereof as may be necessary, is appropriated for the fiscal biennium ending June 30, 2025, from the general fund to the department of health, for the purposes of promoting awareness of this act and the dangers inherent in leaving young children unattended in a vehicle.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-0496.1</RequestNumber><ShortBillId>SB 5216</ShortBillId><LongBillId>SENATE BILL 5216</LongBillId><Legislature>68th Legislature</Legislature><Session>2023 Regular Session</Session><Sponsors>Senators Frame, Liias, Billig, Hasegawa, Nobles, and C. Wilson</Sponsors><BillHistory><ReadDate>Read first time 01/10/23.</ReadDate><ReferredCommittee>Referred to Committee on Transportation.</ReferredCommittee></BillHistory><BriefDescription>Addressing collision reporting criteria triggering driver's license reexamination.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to collision reporting criteria triggering driver's license reexamination; and amending RCW 46.52.070.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>46</TitleNumber><TextRun>.</TextRun><ChapterNumber>52</ChapterNumber><TextRun>.</TextRun><SectionNumber>070</SectionNumber></SectionCite> and 2010 c 8 s 9060 are each amended to read as follows:<Caption>Police officer's report.</Caption></BillSectionHeader>
+<P>(1) Any police officer of the state of Washington or of any county, city, town, or other political subdivision, present at the scene of any accident or in possession of any facts concerning any accident whether by way of official investigation or otherwise shall make report thereof in the same manner as required of the parties to such accident and as fully as the facts in his or her possession concerning such accident will permit.</P>
+<P>(2) The police officer shall report to the department, on a form prescribed by the director: (a) When a collision has occurred that results in a fatality; and (b) the identity of the operator of a vehicle involved in the collision when the officer has reasonable grounds to believe the operator caused the collision.</P>
+<P>(3) The police officer shall report to the department, on a form prescribed by the director: (a) When a collision has occurred that results in <TextRun amendingStyle="strike">a serious injury</TextRun> <TextRun amendingStyle="add">substantial bodily harm as defined in RCW 9A.04.110(4)(b)</TextRun>; (b) the identity of the operator of a vehicle involved in the collision when the officer has reasonable grounds to believe the operator who caused the <TextRun amendingStyle="strike">serious injury</TextRun> <TextRun amendingStyle="add">substantial bodily harm</TextRun> may not be competent to operate a motor vehicle; and (c) the reason or reasons for the officer's belief.</P>
+<History>2010 c 8 § 9060; 1999 c 351 § 2; 1998 c 165 § 8; 1967 c 32 § 57; 1961 c 12 § 46.52.070. Prior: 1937 c 189 § 139; RRS § 6360-139.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>1998 c 165 §§ 8-14:</TextRun> "Sections 8 through 14 of this act take effect January 1, 1999." [1998 c 165 § 15.]</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Short title<TextRun fontFamily="Times New Roman">—</TextRun>1998 c 165:</TextRun> See note following RCW 43.59.010.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+</BillBody>
+</Bill>

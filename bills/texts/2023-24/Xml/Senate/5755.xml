@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-1525.1</RequestNumber><ShortBillId>SB 5755</ShortBillId><LongBillId>SENATE BILL 5755</LongBillId><Legislature>68th Legislature</Legislature><Session>2023 Regular Session</Session><Sponsors>Senators Boehnke, Lovick, and Dozier</Sponsors><BillHistory><ReadDate>Read first time 02/22/23.</ReadDate><ReferredCommittee>Referred to Committee on Law &amp; Justice.</ReferredCommittee></BillHistory><BriefDescription>Concerning unmanned aircraft or unmanned aircraft system use by state and local agencies.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to unmanned aircraft or unmanned aircraft system use by state and local agencies; adding a new section to chapter 43.17 RCW; and providing an effective date.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>17</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) No state or local agency, including any law enforcement agency, shall purchase, acquire, or otherwise use an unmanned aircraft or unmanned aircraft system produced by a manufacturer of covered equipment, systems, or services pursuant to section 889 of the John S. McCain national defense authorization act for fiscal year 2019 (P.L. 115–232).</P>
+<P>(2) For purposes of this section:</P>
+<P>(a) "Local agency" includes every county, city, town, municipal corporation, quasi-municipal corporation, or special purpose district, or any office, department, division, bureau, board, commission, or agency thereof, or other local public agency.</P>
+<P>(b) "State agency" includes every state office, department, division, bureau, board, commission, or other state agency.</P>
+<P>(c) "Unmanned aircraft" means an aircraft that is operated without the possibility of direct human intervention from within or on the aircraft, a remote piloted aircraft, or drone.</P>
+<P>(d) "Unmanned aircraft system" means an unmanned aircraft and associated elements including, but not limited to, communication links and the components that control the unmanned aircraft that are required for the pilot in command to operate safely and efficiently in the national airspace system.</P>
+</BillSection>
+<BillSection type="new" action="effdate" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act takes effect January 1, 2025.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

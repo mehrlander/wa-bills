@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-3637.2</RequestNumber><ShortBillId>SB 6017</ShortBillId><LongBillId>SENATE BILL 6017</LongBillId><Legislature>68th Legislature</Legislature><Session>2024 Regular Session</Session><Sponsors>Senators Shewmake, King, Liias, and Nobles</Sponsors><BillHistory><PrefiledDate>Prefiled 01/05/24.</PrefiledDate><ReadDate>Read first time 01/08/24.</ReadDate><ReferredCommittee>Referred to Committee on Transportation.</ReferredCommittee></BillHistory><BriefDescription>Expanding the use of the border area fuel tax.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to expanding the use of the border area fuel tax; amending RCW 82.47.030; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature recognizes that the border area fuel tax is not the state gas tax, but rather a local option, voter-approved transportation tax collected locally to be used for local transportation purposes. The legislature finds that because this local option tax is not collected by the state of Washington, it is not subject to the 18th amendment to the Washington state Constitution and is therefore not required to be used exclusively for highway purposes. The legislature further finds that during the global COVID-19 pandemic, border areas were disproportionately hurt economically due to border closures and experienced significant reductions in tax revenues. The legislature further recognizes that current law significantly restricts the use of the border area fuel tax to street maintenance and construction. For example, the Point Roberts area has over $1,000,000 of border area fuel tax revenue that remains unused due to the restrictive nature of the current law. Therefore, the legislature intends with this act to expand the use of the border area fuel tax to include transportation improvements more broadly to provide border areas the flexibility to use this local funding source to best meet the jurisdiction's local transportation needs.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>82</TitleNumber><TextRun>.</TextRun><ChapterNumber>47</ChapterNumber><TextRun>.</TextRun><SectionNumber>030</SectionNumber></SectionCite> and 1991 c 173 s 3 are each amended to read as follows:<Caption>Proceeds.</Caption></BillSectionHeader>
+<P>The entire proceeds of the tax imposed under this chapter, less refunds authorized by the resolution imposing such tax and less amounts deducted by the border area jurisdiction for administration and collection expenses, shall be used solely for the purposes of border area jurisdiction street maintenance and construction. <TextRun amendingStyle="add">However, a border area jurisdiction not directly connected to the continental United States may use the proceeds of the tax imposed under this chapter for transportation improvements as defined in RCW 36.73.015.</TextRun></P>
+<History>1991 c 173 § 3.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>1991 c 173:</TextRun> See note following RCW 82.47.010.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+</BillBody>
+</Bill>

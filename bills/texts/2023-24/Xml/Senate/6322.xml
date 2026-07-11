@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-5704.1</RequestNumber><ShortBillId>SB 6322</ShortBillId><LongBillId>SENATE BILL 6322</LongBillId><Legislature>68th Legislature</Legislature><Session>2024 Regular Session</Session><Sponsors>Senators Cleveland and Braun</Sponsors><BillHistory><ReadDate>Read first time 03/07/24.</ReadDate><ReferredCommittee>Referred to Committee on Labor &amp; Commerce.</ReferredCommittee></BillHistory><BriefDescription>Concerning unemployment benefit delays.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to unemployment benefit delays; adding a new section to chapter 50.20 RCW; creating a new section; and providing an expiration date.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) The employment security department shall conduct a comprehensive study to examine the link between delays in receiving unemployment benefits and homelessness.</P></BillSectionHeader>
+<P>(2)(a) The study must include the evaluation of relevant unemployment benefit timeliness factors such as:</P>
+<P>(i) Annual average call wait times for claimants to reach an agent since 2019;</P>
+<P>(ii) Average call abandonment statistics since 2019;</P>
+<P>(iii) Average backlog of unemployment claims since 2019;</P>
+<P>(iv) First payment timeliness statistics since 2019;</P>
+<P>(v) Nonmonetary determination timeliness statistics since 2019; and</P>
+<P>(vi) Average high call volume message output since 2019.</P>
+<P>(b) Based on the study findings, the employment security department shall propose actionable recommendations to reduce benefit wait times. Recommendations may include process improvements, resource allocation, and technology upgrades.</P>
+<P>(3) The employment security department shall analyze data collected under section 2(3) of this act regarding claimants' housing security status and how many times the department connected claimants to services to determine the impact of benefit delays on housing stability. The analysis must:</P>
+<P>(a) Examine the vulnerable populations disproportionally affected;</P>
+<P>(b) Evaluate existing processes for benefit disbursement and identify bottlenecks causing delays;</P>
+<P>(c) Analyze the correlation between benefit delays and housing insecurity, specifically examining if a delay in receiving benefits was a contributing factor to the individual becoming homeless;</P>
+<P>(d) Explore best practices from other states or jurisdictions to expedite benefit delivery; and</P>
+<P>(e) Consider and recommend technological enhancements, staffing levels, and administrative reforms to streamline processes.</P>
+<P>(4) In conducting the study, the employment security department shall consult with the existing unemployment insurance advisory committee as well as housing and homelessness nonprofit organizations.</P>
+<P>(5) The employment security department must submit an initial report to the legislature with the findings and recommendations from the study by December 1, 2025, and a final report to the legislature with the analysis and any recommendations by December 1, 2028.</P>
+<P>(6) This section expires July 1, 2029.</P>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>50</TitleNumber><TextRun>.</TextRun><ChapterNumber>20</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) On the effective date of this section, the department shall establish an escalation pathway for individuals facing prolonged benefit delays due to exceptional circumstances.</P>
+<P>(a) Such circumstances may include imminent housing insecurity or other critical needs.</P>
+<P>(b) The pathway must prioritize expedited review and resolution of claims to prevent homelessness.</P>
+<P>(2) The department shall ask each unemployment claimant about their housing security status at the time of the initial claim and in any follow-up written or verbal communications. If the claimant identifies themselves as housing insecure, the department shall connect them directly to services in their area including, but not limited to:</P>
+<P>(a) Housing voucher provider programs;</P>
+<P>(b) Nonprofit housing charity programs; or</P>
+<P>(c) Rental assistance programs.</P>
+<P>(3) The department shall maintain data for claimants' reported housing insecurity and how many times the department connected claimants to services.</P>
+</BillSection>
+</BillBody>
+</Bill>

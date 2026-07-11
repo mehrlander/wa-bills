@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-3985.1</RequestNumber><ShortBillId>SB 6225</ShortBillId><LongBillId>SENATE BILL 6225</LongBillId><Legislature>68th Legislature</Legislature><Session>2024 Regular Session</Session><Sponsors>Senators Boehnke, Dozier, and Lovick</Sponsors><BillHistory><ReadDate>Read first time 01/15/24.</ReadDate><ReferredCommittee>Referred to Committee on Environment, Energy &amp; Technology.</ReferredCommittee></BillHistory><BriefDescription>Concerning siting wind energy facilities to avoid interference with military installations. </BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to siting wind energy facilities to avoid interference with military installations; adding a new section to chapter 80.50 RCW; and adding a new section to chapter 36.70B RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>80</TitleNumber><TextRun>.</TextRun><ChapterNumber>50</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) The council may not recommend approval of an application for certification of a utility-scale wind energy facility, as defined in RCW 70A.550.010, if any part of the facility is located closer than 15 miles to a military installation.</P>
+<P>(2) This section does not apply to any facility that received approval of certification before the effective date of this section.</P>
+<P>(3) A facility that received approval of certification consistent with this section may not have its certification revoked if a new military installation is established and located closer than 15 miles to the facility after the facility received approval of certification.</P>
+<P>(4)(a) For purposes of this section, "military installation" means a base, camp, post, station, yard, center, homeport facility for any ship, or other activity under the jurisdiction of the United States department of defense, including any leased facility, which is located within the state of Washington.</P>
+<P>(b) "Military installation" does not include any facility used primarily for civil works, rivers and harbors projects, or flood control projects.</P>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>36</TitleNumber><TextRun>.</TextRun><ChapterNumber>70B</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) A local government may not approve a project permit application for a utility-scale wind energy facility, as defined in RCW 70A.550.010, if any part of the facility is located closer than 15 miles to a military installation.</P>
+<P>(2) This section does not apply to any utility-scale wind energy facility that was approved before the effective date of this section.</P>
+<P>(3)(a) For purposes of this section, "military installation" means a base, camp, post, station, yard, center, homeport facility for any ship, or other activity under the jurisdiction of the United States department of defense, including any leased facility, which is located within the state of Washington.</P>
+<P>(b) "Military installation" does not include any facility used primarily for civil works, rivers and harbors projects, or flood control projects.</P>
+</BillSection>
+</BillBody>
+</Bill>

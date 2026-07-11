@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-0288.1</RequestNumber><ShortBillId>SB 5110</ShortBillId><LongBillId>SENATE BILL 5110</LongBillId><Legislature>68th Legislature</Legislature><Session>2023 Regular Session</Session><Sponsors>Senators Keiser and Kuderer</Sponsors><BillHistory><PrefiledDate>Prefiled 12/29/22.</PrefiledDate><ReadDate>Read first time 01/09/23.</ReadDate><ReferredCommittee>Referred to Committee on Labor &amp; Commerce.</ReferredCommittee></BillHistory><BriefDescription>Adding penalties for certain prohibited practices in chapter 49.44 RCW.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to adding penalties for certain prohibited practices in chapter 49.44 RCW; adding a new section to chapter 49.44 RCW; and prescribing penalties.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>49</TitleNumber><TextRun>.</TextRun><ChapterNumber>44</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>Unless a criminal or civil penalty is otherwise specified for a violation in this chapter, a person aggrieved by a violation of a provision in this chapter may bring a civil action in a court of competent jurisdiction. The court may:</P>
+<P>(1) Award any prevailing party bringing an action injunctive relief, actual damages, a penalty of no less than $500 and no more than $1,000, and reasonable attorneys' fees; and</P>
+<P>(2) Pursuant to RCW 4.84.185, award any prevailing party against whom an action has been brought for a violation of this chapter reasonable expenses and attorneys' fees upon final judgment and written findings by the trial judge that the action was frivolous and advanced without reasonable cause.</P>
+</BillSection>
+</BillBody>
+</Bill>

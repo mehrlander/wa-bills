@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-3781.1</RequestNumber><ShortBillId>SB 5996</ShortBillId><LongBillId>SENATE BILL 5996</LongBillId><Legislature>68th Legislature</Legislature><Session>2024 Regular Session</Session><Sponsors>Senators Saldaña, Valdez, Hunt, Shewmake, Trudeau, Kauffman, Conway, Dhingra, Hasegawa, Keiser, Nguyen, Nobles, Stanford, and C. Wilson</Sponsors><BillHistory><PrefiledDate>Prefiled 01/04/24.</PrefiledDate><ReadDate>Read first time 01/08/24.</ReadDate><ReferredCommittee>Referred to Committee on Labor &amp; Commerce.</ReferredCommittee></BillHistory><BriefDescription>Concerning collecting data on the H-2A worker program and from certain hand harvesters.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to collecting data on the H-2A worker program and from certain hand harvesters; amending RCW 50.75.020; and adding new sections to chapter 50.75 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>50</TitleNumber><TextRun>.</TextRun><ChapterNumber>75</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) Whenever the department conducts a field check or field visit of an employer, the department must collect the following information:</P>
+<P>(a) The number of H-2A workers the employer has at each work site; and</P>
+<P>(b) The actual geographic location of where the H-2A workers are living during their employment with the employer.</P>
+<P>(2) The department must compile the information and compare the number of workers sought by an employer on the employer's H-2A application with the number of H-2A workers actually working for the employer.</P>
+<P>(3) The office must make the information available to the advisory committee appointed under RCW 50.75.040 on a quarterly basis.</P>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>50</TitleNumber><TextRun>.</TextRun><ChapterNumber>75</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) The office must conduct, or cause to be conducted, a comprehensive annual wage survey of workers hand harvesting apples, cherries, pears, and blueberries.</P>
+<P>(2) At a minimum, the surveys must:</P>
+<P>(a) Gather information on wage rates received for harvesting activities;</P>
+<P>(b) Include a question concerning whether the survey respondent made an unemployment insurance claim in the survey period; and</P>
+<P>(c) Gather information on the respondent's age, gender, and whether the respondent was born in the United States or the number of years the respondent has lived in the United States.</P>
+<P>(3) The office must:</P>
+<P>(a) Utilize a phone survey designed to receive responses from a minimum of 850 total fruit harvesters;</P>
+<P>(b) Beginning fiscal year 2024, include field surveys designed to receive responses from a minimum of:</P>
+<P>(i) 1,200 apple harvesters;</P>
+<P>(ii) 200 pear harvesters; and</P>
+<P>(iii) 200 blueberry harvesters; and</P>
+<P>(c) Beginning fiscal year 2025, include a field survey of cherry harvesters designed to receive responses from a minimum of 350 cherry harvesters.</P>
+<P>(4) The office must provide $25 incentive payments for survey respondents who are eligible to respond to the survey.</P>
+<P>(5) The office must submit a report to the appropriate committees of the legislature annually by May 1st on surveys conducted under this section. The report must include:</P>
+<P>(a) Information about the number of responses; and</P>
+<P>(b) Individual responses, without names, by age, gender, United States birth or number of years in the United States, and whether the respondent filed an unemployment insurance claim.</P>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>50</TitleNumber><TextRun>.</TextRun><ChapterNumber>75</ChapterNumber><TextRun>.</TextRun><SectionNumber>020</SectionNumber></SectionCite> and 2019 c 441 s 3 are each amended to read as follows:<Caption>Office of agricultural and seasonal workforce services<TextRun fontFamily="Times New Roman">—</TextRun>Creation<TextRun fontFamily="Times New Roman">—</TextRun>Duties.</Caption></BillSectionHeader>
+<P>(1) The office of agricultural and seasonal workforce services is established within the department.</P>
+<P>(2) The duties of the office are:</P>
+<P>(a) Processing and adjudicating foreign labor certification applications from employers;</P>
+<P>(b) Processing complaints consistent with 20 C.F.R. Part 658, Subpart E;</P>
+<P>(c) Conducting field checks and field visits, as required by the United States department of labor. When conducting a field check, the office shall coordinate, to the extent possible, with the department of labor and industries, department of health, and department of agriculture in order to limit disruption to agricultural employers and efficiently use government resources;</P>
+<P>(d) Administering the discontinuation and reinstatement of services process pursuant to 20 C.F.R. Part 658, Subpart F; <TextRun amendingStyle="strike">and</TextRun></P>
+<P>(e) Conducting training and outreach activities to employers who are using agricultural and seasonal workforce services and programs within the employment security department<TextRun amendingStyle="add">; and</TextRun></P>
+<P><TextRun amendingStyle="add">(f) Conducting surveys of agricultural workers in Washington state under section 2 of this act</TextRun>.</P>
+<History>2019 c 441 § 3.</History>
+</BillSection>
+</BillBody>
+</Bill>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>Z-0121.1</RequestNumber><ShortBillId>SB 5163</ShortBillId><LongBillId>SENATE BILL 5163</LongBillId><Legislature>68th Legislature</Legislature><Session>2023 Regular Session</Session><Sponsors>Senators Rivers, Dhingra, Hasegawa, Keiser, Kuderer, Mullet, and Muzzall; by request of Attorney General</Sponsors><BillHistory><PrefiledDate>Prefiled 01/05/23.</PrefiledDate><ReadDate>Read first time 01/09/23.</ReadDate><ReferredCommittee>Referred to Committee on Law &amp; Justice.</ReferredCommittee></BillHistory><BriefDescription>Removing the sunset provisions on the medicaid fraud false claims act.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to the medicaid fraud false claims act; repealing RCW 43.131.419 and 43.131.420; and declaring an emergency.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="repeal">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The following acts or parts of acts are each repealed:</P></BillSectionHeader>
+<P><RepealNumber>1</RepealNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>131</ChapterNumber><TextRun>.</TextRun><SectionNumber>419</SectionNumber></SectionCite> (Medicaid fraud false claims act<TextRun fontFamily="Times New Roman">—</TextRun>Termination) and 2016 c 147 s 1 &amp; 2012 c 241 s 216; and</P>
+<P><RepealNumber>2</RepealNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>131</ChapterNumber><TextRun>.</TextRun><SectionNumber>420</SectionNumber></SectionCite> (Medicaid fraud false claims act<TextRun fontFamily="Times New Roman">—</TextRun>Repeal) and 2016 c 147 s 2 &amp; 2012 c 241 s 217.</P>
+</BillSection>
+<BillSection type="new" action="emerg">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act is necessary for the immediate preservation of the public peace, health, or safety, or support of the state government and its existing public institutions, and takes effect immediately.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

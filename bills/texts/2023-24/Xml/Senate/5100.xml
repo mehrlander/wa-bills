@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-0334.1</RequestNumber><ShortBillId>SB 5100</ShortBillId><LongBillId>SENATE BILL 5100</LongBillId><Legislature>68th Legislature</Legislature><Session>2023 Regular Session</Session><Sponsors>Senators Wellman, Rivers, Dhingra, and C. Wilson</Sponsors><BillHistory><PrefiledDate>Prefiled 12/27/22.</PrefiledDate><ReadDate>Read first time 01/09/23.</ReadDate><ReferredCommittee>Referred to Committee on Health &amp; Long Term Care.</ReferredCommittee></BillHistory><BriefDescription>Concerning breast or chest wall reconstruction surgery.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to breast or chest wall reconstruction surgery; adding a new section to chapter 48.43 RCW; adding a new section to chapter 43.70 RCW; and repealing RCW 48.44.330, 48.46.280, 48.20.395, and 48.21.230.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>48</TitleNumber><TextRun>.</TextRun><ChapterNumber>43</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) A health plan shall provide coverage for breast reconstruction surgery after a mastectomy or partial mastectomy for all stages of reconstruction of the breast on which the mastectomy or partial mastectomy has been performed and surgery and reconstruction of the other breast to produce a symmetrical appearance.</P>
+<P>(2) A health plan issued or renewed on or after January 1, 2024, shall provide coverage for chest wall reconstruction surgery after a mastectomy or partial mastectomy for all stages of reconstruction of the chest wall on which the mastectomy or partial mastectomy has been performed and surgery and reconstruction of the other chest wall to produce a symmetrical appearance.</P>
+<P>(3) Coverage for chest wall reconstruction surgery shall include aesthetic flat closure as defined by the national cancer institute.</P>
+<P>(4) Coverage for breast or chest wall reconstructive surgery shall be provided without prior authorization.</P>
+<P>(5) Coverage may be subject to annual deductibles or other cost-sharing requirements.</P>
+<P>(6) Written notice of the availability of coverage shall be provided to the enrollee upon enrollment and annually thereafter.</P>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>70</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) The department shall develop a standardized written summary explaining the medically viable methods of treating breast cancer, including but not limited to hormonal, radiological, chemotherapeutic or surgical treatments, or combinations thereof. The summary shall contain information on breast or chest wall reconstructive surgery, including but not limited to the use of breast implants, their side effects, risks, and other pertinent information to aid a person in deciding on a course of treatment. Chest wall reconstructive information shall include information on aesthetic flat closure as defined by the national cancer institute.</P>
+<P>(2) Physicians licensed under chapter 18.71 RCW or osteopathic physicians licensed under chapter 18.57 RCW shall make the information prepared by the department available to their patients who they are treating for breast cancer.</P>
+</BillSection>
+<BillSection type="new" action="repeal">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>The following acts or parts of acts are each repealed:</P></BillSectionHeader>
+<P><RepealNumber>1</RepealNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>48</TitleNumber><TextRun>.</TextRun><ChapterNumber>44</ChapterNumber><TextRun>.</TextRun><SectionNumber>330</SectionNumber></SectionCite> (Reconstructive breast surgery) and 1985 c 54 s 7 &amp; 1983 c 113 s 3;</P>
+<P><RepealNumber>2</RepealNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>48</TitleNumber><TextRun>.</TextRun><ChapterNumber>46</ChapterNumber><TextRun>.</TextRun><SectionNumber>280</SectionNumber></SectionCite> (Reconstructive breast surgery) and 1985 c 54 s 8 &amp; 1983 c 113 s 4;</P>
+<P><RepealNumber>3</RepealNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>48</TitleNumber><TextRun>.</TextRun><ChapterNumber>20</ChapterNumber><TextRun>.</TextRun><SectionNumber>395</SectionNumber></SectionCite> (Reconstructive breast surgery) and 1985 c 54 s 5 &amp; 1983 c 113 s 1; and</P>
+<P><RepealNumber>4</RepealNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>48</TitleNumber><TextRun>.</TextRun><ChapterNumber>21</ChapterNumber><TextRun>.</TextRun><SectionNumber>230</SectionNumber></SectionCite> (Reconstructive breast surgery) and 1985 c 54 s 6 &amp; 1983 c 113 s 2.</P>
+</BillSection>
+</BillBody>
+</Bill>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>Z-0563.2</RequestNumber><ShortBillId>SB 5982</ShortBillId><LongBillId>SENATE BILL 5982</LongBillId><Legislature>68th Legislature</Legislature><Session>2024 Regular Session</Session><Sponsors>Senators Cleveland, Robinson, Keiser, Dhingra, Van De Wege, Conway, Frame, Kuderer, Liias, Mullet, Nobles, Salomon, Trudeau, Valdez, and Wellman; by request of Department of Health</Sponsors><BillHistory><PrefiledDate>Prefiled 01/04/24.</PrefiledDate><ReadDate>Read first time 01/08/24.</ReadDate><ReferredCommittee>Referred to Committee on Health &amp; Long Term Care.</ReferredCommittee></BillHistory><BriefDescription>Updating the definition of "vaccine" in RCW 70.290.010 to include all federal food and drug administration-approved immunizations recommended by the centers for disease control and prevention.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to updating the definition of "vaccine" in RCW 70.290.010 to include all federal food and drug administration-approved immunizations recommended by the centers for disease control and prevention; amending RCW 70.290.010; and declaring an emergency.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>70</TitleNumber><TextRun>.</TextRun><ChapterNumber>290</ChapterNumber><TextRun>.</TextRun><SectionNumber>010</SectionNumber></SectionCite> and 2010 c 174 s 1 are each amended to read as follows:<Caption>Definitions.</Caption></BillSectionHeader>
+<P>The definitions in this section apply throughout this chapter unless the context clearly requires otherwise.</P>
+<P>(1) "Association" means the Washington vaccine association.</P>
+<P>(2) "Covered lives" means all persons under the age of nineteen in Washington state who are:</P>
+<P>(a) Covered under an individual or group health benefit plan issued or delivered in Washington state or an individual or group health benefit plan that otherwise provides benefits to Washington residents; or</P>
+<P>(b) Enrolled in a group health benefit plan administered by a third-party administrator. Persons under the age of nineteen for whom federal funding is used to purchase vaccines or who are enrolled in state purchased health care programs covering low-income children including, but not limited to, apple health for kids under RCW 74.09.470 and the basic health plan under chapter 70.47 RCW are not considered "covered lives" under this chapter.</P>
+<P>(3) "Estimated vaccine cost" means the estimated cost to the state over the course of a state fiscal year for the purchase and distribution of vaccines purchased at the federal discount rate by the department of health.</P>
+<P>(4) "Health benefit plan" has the same meaning as defined in RCW 48.43.005 and also includes health benefit plans administered by a third-party administrator.</P>
+<P>(5) "Health carrier" has the same meaning as defined in RCW 48.43.005.</P>
+<P>(6) "Secretary" means the secretary of the department of health.</P>
+<P>(7) "State supplied vaccine" means vaccine purchased by the state department of health for covered lives for whom the state is purchasing vaccine using state funds raised via assessments on health carriers and third-party administrators as provided in this chapter.</P>
+<P>(8) "Third-party administrator" means any person or entity who, on behalf of a health insurer or health care purchaser, receives or collects charges, contributions, or premiums for, or adjusts or settles claims on or for, residents of Washington state or Washington health care providers and facilities.</P>
+<P>(9) "Total nonfederal program cost" means the estimated vaccine cost less the amount of federal revenue available to the state for the purchase and distribution of vaccines.</P>
+<P>(10) "Vaccine" means <TextRun amendingStyle="strike">a preparation of killed or attenuated living microorganisms, or fraction thereof, that upon administration stimulates immunity that protects against disease and is</TextRun> <TextRun amendingStyle="add">an immunization</TextRun> approved by the federal food and drug administration as safe and effective and recommended by the advisory committee on immunization practices of the centers for disease control and prevention for administration to children under the age of nineteen years.</P>
+<History>2010 c 174 § 1.</History>
+</BillSection>
+<BillSection type="new" action="emerg">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act is necessary for the immediate preservation of the public peace, health, or safety, or support of the state government and its existing public institutions, and takes effect immediately.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-3984.1</RequestNumber><ShortBillId>SSB 6060</ShortBillId><LongBillId>SUBSTITUTE SENATE BILL 6060</LongBillId><Legislature>68th Legislature</Legislature><Session>2024 Regular Session</Session><Sponsors>Senate Labor &amp; Commerce (originally sponsored by Senators Nguyen, Hasegawa, Keiser, Saldaña, Stanford, Valdez, and C. Wilson)</Sponsors><BillHistory><ReadDate>READ FIRST TIME 01/24/24.</ReadDate></BillHistory><BriefDescription>Concerning the acceptance of electronic signatures by the public employment relations commission for new organizing petitions.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to the acceptance of electronic signatures by the public employment relations commission for new organizing petitions; amending RCW 41.56.060; and adding a new section to chapter 41.58 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>41</TitleNumber><TextRun>.</TextRun><ChapterNumber>58</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) For any new organizing petition to form a new bargaining unit of currently unrepresented workers or to add unrepresented workers to an existing bargaining unit, regardless of whether the election is by mail ballot or cross-check, the public employment relations commission must accept electronic signatures, subject to the requirements set forth in this section and by rules adopted by the commission.</P>
+<P>(2) At a minimum, electronic signature submissions must include:</P>
+<P>(a) The name of the signer;</P>
+<P>(b) The phone number, email address, or social media account of the signer;</P>
+<P>(c) The exact authorization language to which the signer assents;</P>
+<P>(d) The date of submission of the electronic signature; and</P>
+<P>(e) The name of the signer's employer.</P>
+<P>(3) The petitioning party must provide a declaration that:</P>
+<P>(a) Identifies the technology used to obtain and verify the signature;</P>
+<P>(b) Provides the methods used to ensure the authenticity of the signature; and</P>
+<P>(c) Confirms the information transmitted to the signer was the same information to which the signer assented.</P>
+<P>(4) The public employment relations commission must adopt rules to implement this section.</P>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>41</TitleNumber><TextRun>.</TextRun><ChapterNumber>56</ChapterNumber><TextRun>.</TextRun><SectionNumber>060</SectionNumber></SectionCite> and 2019 c 230 s 7 are each amended to read as follows:<Caption>Determination of bargaining unit<TextRun fontFamily="Times New Roman">—</TextRun>Bargaining representative.</Caption></BillSectionHeader>
+<P>(1) The commission, after hearing upon reasonable notice, shall decide in each application for certification as an exclusive bargaining representative, the unit appropriate for the purpose of collective bargaining. In determining, modifying, or combining the bargaining unit, the commission shall consider the duties, skills, and working conditions of the public employees; the history of collective bargaining by the public employees and their bargaining representatives; the extent of organization among the public employees; and the desire of the public employees. The commission shall determine the bargaining representative by: (a) Examination of organization membership rolls; <TextRun amendingStyle="add">or</TextRun> (b) <TextRun amendingStyle="strike">comparison of signatures on organization bargaining authorization cards, as provided under RCW 41.56.095; or (c)</TextRun> conducting an election <TextRun amendingStyle="strike">specifically therefor</TextRun> <TextRun amendingStyle="add">as provided under RCW 41.56.070 or 41.56.095</TextRun>.</P>
+<P>(2) For classified employees of school districts and educational service districts:</P>
+<P>(a) Appropriate bargaining units existing on July 24, 2005, may not be divided into more than one unit without the agreement of the public employer and the certified bargaining representative of the unit; and</P>
+<P>(b) In making bargaining unit determinations under this section, the commission must consider, in addition to the factors listed in subsection (1) of this section, the avoidance of excessive fragmentation.</P>
+<History>2019 c 230 § 7; 2005 c 232 § 1; 1975 1st ex.s. c 296 § 17; 1967 ex.s. c 108 § 6.</History>
+</BillSection>
+</BillBody>
+</Bill>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-0408.1</RequestNumber><ShortBillId>SB 5169</ShortBillId><LongBillId>SENATE BILL 5169</LongBillId><Legislature>68th Legislature</Legislature><Session>2023 Regular Session</Session><Sponsors>Senators Hunt and C. Wilson</Sponsors><BillHistory><PrefiledDate>Prefiled 01/05/23.</PrefiledDate><ReadDate>Read first time 01/09/23.</ReadDate><ReferredCommittee>Referred to Committee on Health &amp; Long Term Care.</ReferredCommittee></BillHistory><BriefDescription>Concerning health care plans administered by the health care authority that are available to medicare eligible retirees.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to health care plans administered by the health care authority that are available to medicare eligible retirees; adding a new section to chapter 41.05 RCW; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>41</TitleNumber><TextRun>.</TextRun><ChapterNumber>05</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>The public employees' benefits board must allow medicare eligible retirees access to the uniform medical plan classic medicare.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) The legislature recognizes that the health care authority, consistent with the public employees' benefits board resolution 2022-16, will consult with active employees and retirees, by conducting listening sessions and facilitating public forums, to gather feedback about member needs and to explore more affordable government self-insured plans with benefits that are equal to or richer than uniform medical plan classic medicare. As such, the legislature intends that the results of stakeholder engagements will be used to inform future health care plan selection.</P></BillSectionHeader>
+<P>(2) By December 1, 2023, the authority must report to the legislature with its findings of the stakeholder engagements in subsection (1) of this section.</P>
+</BillSection>
+</BillBody>
+</Bill>

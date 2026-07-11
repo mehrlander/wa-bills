@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-1582.2</RequestNumber><ShortBillId>SB 5763</ShortBillId><LongBillId>SENATE BILL 5763</LongBillId><Legislature>68th Legislature</Legislature><Session>2023 Regular Session</Session><Sponsors>Senators Liias, King, Shewmake, and Holy</Sponsors><BillHistory /><BriefDescription>Increasing existing bond authority for 2015 connecting Washington projects and improvements.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to increasing existing bond authority for 2015 connecting Washington projects and improvements; amending RCW 47.10.889; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>It is the intent of the legislature, despite inflationary conditions and workforce challenges, to complete the majority of the 2015 connecting Washington projects and improvements within the original 16-year time frame. To provide future legislatures additional tools to complete this task, the legislature intends to increase existing bond authority relative to those projects and improvements. However, bonds may only be sold when pledged revenues are deemed sufficient to pay the associated debt service.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>47</TitleNumber><TextRun>.</TextRun><ChapterNumber>10</ChapterNumber><TextRun>.</TextRun><SectionNumber>889</SectionNumber></SectionCite> and 2015 3rd sp.s. c 45 s 1 are each amended to read as follows:<Caption>Bond issue authorized.</Caption></BillSectionHeader>
+<P>In order to provide funds necessary for the location, design, right-of-way, and construction of selected projects or improvements that are identified as connecting Washington projects or improvements in an omnibus transportation appropriations act, there shall be issued and sold upon the request of the department of transportation a total of <TextRun amendingStyle="strike">five billion three hundred million dollars</TextRun> <TextRun amendingStyle="add">$9,600,000,000</TextRun> of general obligation bonds of the state of Washington.</P>
+<History>2015 3rd sp.s. c 45 § 1.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2015 3rd sp.s. c 45:</TextRun> "Except for sections 8 through 10 of this act, this act is necessary for the immediate preservation of the public peace, health, or safety, or support of the state government and its existing public institutions, and takes effect immediately [July 15, 2015]." [2015 3rd sp.s. c 45 § 12.]</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+</BillBody>
+</Bill>

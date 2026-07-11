@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-3696.1</RequestNumber><ShortBillId>SB 5868</ShortBillId><LongBillId>SENATE BILL 5868</LongBillId><Legislature>68th Legislature</Legislature><Session>2024 Regular Session</Session><Sponsors>Senators Fortunato and Torres</Sponsors><BillHistory><PrefiledDate>Prefiled 12/18/23.</PrefiledDate><ReadDate>Read first time 01/08/24.</ReadDate><ReferredCommittee>Referred to Committee on Law &amp; Justice.</ReferredCommittee></BillHistory><BriefDescription>Providing information on reporting domestic violence and other unlawful conduct in family court proceedings.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to providing information on reporting domestic violence and other unlawful conduct in family court proceedings; amending RCW 2.56.180; and adding a new section to chapter 26.12 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>2</TitleNumber><TextRun>.</TextRun><ChapterNumber>56</ChapterNumber><TextRun>.</TextRun><SectionNumber>180</SectionNumber></SectionCite> and 2007 c 496 s 202 are each amended to read as follows:<Caption>Family law handbook.</Caption></BillSectionHeader>
+<P>(1) The administrative office of the courts shall create a handbook explaining the sections of Washington law pertaining to the rights and responsibilities of marital partners to each other and to any children during a marriage and a dissolution of marriage. The handbook may also be provided in videotape or other electronic form.</P>
+<P>(2) The handbook created under subsection (1) of this section shall be provided by the county auditor when an individual applies for a marriage license under RCW 26.04.140.</P>
+<P>(3) The handbook created under subsection (1) of this section shall also be provided to the petitioner when he or she files a petition for dissolution, and to the respondent, unless the respondent did not file a response, notice of appearance, or any other paper in the case or did not appear in court. The administrative office of the courts shall on an annual basis reimburse the counties for each copy of the handbook that is distributed directly to family law parties under this section, provided that the county submits documentation of the number of handbooks distributed on an annual basis.</P>
+<P>(4) The information contained in the handbook created under subsection (1) of this section shall be reviewed and updated annually. The handbook must contain the following information:</P>
+<P>(a) Information on prenuptial agreements as contracts and as a means of structuring financial arrangements and other aspects of the marital relationship;</P>
+<P>(b) Information on shared parental responsibility for children, including establishing a residential schedule for the child in the event of the dissolution of the marriage;</P>
+<P>(c) Information on notice requirements and standards for parental relocation;</P>
+<P>(d) Information on child support for minor children;</P>
+<P>(e) Information on property rights, including equitable distribution of assets and premarital and postmarital property rights;</P>
+<P>(f) Information on spousal maintenance;</P>
+<P>(g) Information on domestic violence, child abuse, and neglect, including penalties;</P>
+<P>(h) <TextRun amendingStyle="add">Information on reporting domestic violence and other unlawful conduct to law enforcement;</TextRun></P>
+<P><TextRun amendingStyle="add">(i)</TextRun> Information on the court process for dissolution;</P>
+<P><TextRun amendingStyle="strike">(i)</TextRun> <TextRun amendingStyle="add">(j)</TextRun> Information on the effects of dissolution on children;</P>
+<P><TextRun amendingStyle="strike">(j)</TextRun> <TextRun amendingStyle="add">(k)</TextRun> Information on community resources that are available to separating or divorcing persons and their children.</P>
+<P><TextRun amendingStyle="add">(5) The information described under subsection (4)(h) of this section must be printed on colored paper if a paper copy of the handbook created under subsection (1) of this section is provided to an individual.</TextRun></P>
+<History>2007 c 496 § 202; 2005 c 282 § 10; 2003 c 225 § 1; 2002 c 49 § 3.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective dates<TextRun fontFamily="Times New Roman">—</TextRun>2007 c 496 §§ 201, 202, 204, and 501:</TextRun> See note following RCW 26.12.260.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Part headings not law<TextRun fontFamily="Times New Roman">—</TextRun>2007 c 496:</TextRun> See note following RCW 26.09.002.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Declaration<TextRun fontFamily="Times New Roman">—</TextRun>2002 c 49:</TextRun> "The legislature declares that:</NoteP><NoteP>(1) Strong marital relationships result in stronger families, children, and ultimately, stronger communities and place less of a fiscal burden on the state; and</NoteP><NoteP>(2) The state has a compelling interest in providing couples, applying for a marriage license, information with regard to marriage and, if contemplated, the effects of divorce." [2002 c 49 § 1.]</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>26</TitleNumber><TextRun>.</TextRun><ChapterNumber>12</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>In any proceeding where a family court has exercised jurisdiction under RCW 26.12.010, a family court must provide the information described under RCW 2.56.180(4)(h) to a party that alleges domestic violence or other unlawful conduct. The information must be printed on colored paper that is distinguishable from any other written document provided to the party alleging domestic violence or other unlawful conduct during a proceeding.</P>
+</BillSection>
+</BillBody>
+</Bill>

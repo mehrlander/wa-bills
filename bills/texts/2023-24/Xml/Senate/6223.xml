@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>Z-0646.1</RequestNumber><ShortBillId>SB 6223</ShortBillId><LongBillId>SENATE BILL 6223</LongBillId><Legislature>68th Legislature</Legislature><Session>2024 Regular Session</Session><Sponsors>Senators Nguyen, Frame, Kuderer, Lovick, Mullet, and Nobles; by request of Superintendent of Public Instruction</Sponsors><BillHistory><ReadDate>Read first time 01/15/24.</ReadDate><ReferredCommittee>Referred to Committee on Early Learning &amp; K-12 Education.</ReferredCommittee></BillHistory><BriefDescription>Updating school district director compensation. </BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to updating school district director compensation through the development of a state-funded compensation structure; adding new sections to chapter 28A.343 RCW; creating a new section; repealing RCW 28A.343.400; and providing effective dates. </BillTitle>
+<EnactedClause />
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>School director compensation has not changed in 38 years. The legislature declares it is the policy of the state to: (1) Ensure, for the sake of educational excellence, that the electorate has the broadest and most diverse possible field in which to choose qualified candidates for its school boards; (2) ensure that the opportunity to serve on school boards is open to all, regardless of financial circumstances; and (3) ensure that the time-consuming and demanding service as directors is not limited to those able or willing to make substantial personal and financial sacrifices.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>28A</TitleNumber><TextRun>.</TextRun><ChapterNumber>343</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) Each member of the board of directors of a school district may receive compensation in an annual amount not to exceed the combined total of $500 per month plus 50 cents per student enrolled in the school district based on prior year actual enrollments as published by the office of the superintendent of public instruction.</P>
+<P>(2) A board of directors may adopt a compensation amount less than the maximum allowable, but every board of directors shall adopt a compensation policy by September 1, 2026, in an open public meeting. Boards of directors may adopt a per-meeting amount of compensation or any combination of per-meeting monthly compensation, and per student provided that total annual compensation per director does not exceed the amounts provided in subsection (1) of this section.</P>
+<P>(3) By July 1st of each year, the office of the superintendent of public instruction shall publish an annual update to the monthly and per-student amounts authorized in this section using the implicit price deflator from the previous calendar year as an inflation index.</P>
+<P>(4) As used in this section, "per student" means per full-time equivalent student.</P>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>28A</TitleNumber><TextRun>.</TextRun><ChapterNumber>343</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) The office of the superintendent of public instruction shall submit, each biennium, a maintenance-level budget request to the office of financial management and the legislature with an amount of state funds necessary to fully fund school director compensation for all school districts that have adopted a school director compensation model authorized by section 2 of this act.</P>
+<P>(2) The office of the superintendent of public instruction shall provide a state-funded school director compensation amount in apportionment payments to each school district that adopts a compensation model authorized by section 2 of this act.</P>
+</BillSection>
+<BillSection type="new" action="repeal">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber><P><SectionCite><TextRun>RCW </TextRun><TitleNumber>28A</TitleNumber><TextRun>.</TextRun><ChapterNumber>343</ChapterNumber><TextRun>.</TextRun><SectionNumber>400</SectionNumber></SectionCite> (Compensation<TextRun fontFamily="Times New Roman">—</TextRun>Waiver) and 1987 c 307 s 2 are each repealed, effective July 1, 2025.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="effdate">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>5</Value><TextRun>.  </TextRun></BillSectionNumber><P>Sections 2 and 3 of this act take effect July 1, 2025.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-3583.1</RequestNumber><ShortBillId>SB 5829</ShortBillId><LongBillId>SENATE BILL 5829</LongBillId><Legislature>68th Legislature</Legislature><Session>2024 Regular Session</Session><Sponsors>Senators Frame, Rivers, Shewmake, Trudeau, Lovelett, Dhingra, Hasegawa, Kuderer, Liias, Nobles, Valdez, and C. Wilson</Sponsors><BillHistory><PrefiledDate>Prefiled 12/11/23.</PrefiledDate><ReadDate>Read first time 01/08/24.</ReadDate><ReferredCommittee>Referred to Committee on Health &amp; Long Term Care.</ReferredCommittee></BillHistory><BriefDescription>Screening newborn infants for congenital cytomegalovirus.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to screening newborn infants for congenital cytomegalovirus; and amending RCW 70.83.020.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>70</TitleNumber><TextRun>.</TextRun><ChapterNumber>83</ChapterNumber><TextRun>.</TextRun><SectionNumber>020</SectionNumber></SectionCite> and 2014 c 18 s 1 are each amended to read as follows:<Caption>Screening tests of newborn infants.</Caption></BillSectionHeader>
+<P>(1) It shall be the duty of the department of health to require screening tests of all newborn infants born in any setting. Each hospital or health care provider attending a birth outside of a hospital shall collect and submit a sample blood specimen for all newborns no more than <TextRun amendingStyle="strike">forty-eight</TextRun> <TextRun amendingStyle="add">48</TextRun> hours following birth. The department of health shall conduct screening tests of samples for the detection of phenylketonuria and other heritable or metabolic disorders leading to intellectual disabilities or physical defects as defined by the state board of health: PROVIDED, That no such tests shall be given to any newborn infant whose parents or guardian object thereto on the grounds that such tests conflict with their religious tenets and practices.</P>
+<P>(2) The sample required in subsection (1) of this section must be received by the department <TextRun amendingStyle="strike">[of health]</TextRun> <TextRun amendingStyle="add">of health</TextRun> within <TextRun amendingStyle="strike">seventy-two</TextRun> <TextRun amendingStyle="add">72</TextRun> hours of the collection of the sample, excluding any day that the Washington state public health laboratory is closed.</P>
+<P><TextRun amendingStyle="add">(3)(a) The department of health may conduct screening tests of the sample required in subsection (1) of this section for congenital cytomegalovirus if the department has obtained informed consent from the parents or guardians of the newborn infant for this optional testing. This testing may only occur after all tests required by the department in rule are complete.</TextRun></P>
+<P><TextRun amendingStyle="add">(b) The department shall design, prepare, and make available written material to inform health care providers and parents or guardians of newborn infants about the nature and consequences of congenital cytomegalovirus.</TextRun></P>
+<History>2014 c 18 § 1; 2010 c 94 § 18; 1991 c 3 § 348; 1975<Hyphen type="nobreak" />'76 2nd ex.s. c 27 § 1; 1967 c 82 § 2.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Purpose<TextRun fontFamily="Times New Roman">—</TextRun>2010 c 94:</TextRun> See note following RCW 44.04.280.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+</BillBody>
+</Bill>

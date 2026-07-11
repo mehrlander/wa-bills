@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-0417.3</RequestNumber><ShortBillId>SB 5213</ShortBillId><LongBillId>SENATE BILL 5213</LongBillId><Legislature>68th Legislature</Legislature><Session>2023 Regular Session</Session><Sponsors>Senators Kuderer, Short, Cleveland, Conway, Dhingra, Rolfes, Wellman, and C. Wilson</Sponsors><BillHistory><ReadDate>Read first time 01/10/23.</ReadDate><ReferredCommittee>Referred to Committee on Health &amp; Long Term Care.</ReferredCommittee></BillHistory><BriefDescription>Concerning pharmacy benefit managers.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to pharmacy benefit managers; amending RCW 48.200.020, 48.200.210, and 48.200.280; adding a new chapter to Title 48 RCW; recodifying RCW 48.200.210, 48.200.220, 48.200.230, 48.200.240, 48.200.250, 48.200.260, 48.200.270, 48.200.280, and 48.200.290; and providing an effective date.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>48</TitleNumber><TextRun>.</TextRun><ChapterNumber>200</ChapterNumber><TextRun>.</TextRun><SectionNumber>020</SectionNumber></SectionCite> and 2020 c 240 s 2 are each amended to read as follows:<Caption>Definitions.</Caption></BillSectionHeader>
+<P>The definitions in this section apply throughout this chapter unless the context clearly requires otherwise.</P>
+<P>(1) "Affiliate" or "affiliated employer" means a person who directly or indirectly through one or more intermediaries, controls or is controlled by, or is under common control with, another specified person.</P>
+<P>(2) "Certification" has the same meaning as in RCW 48.43.005.</P>
+<P>(3) "Employee benefits programs" means programs under both the public employees' benefits board established in RCW 41.05.055 and the school employees' benefits board established in RCW 41.05.740.</P>
+<P>(4)(a) "Health care benefit manager" means a person or entity providing services to, or acting on behalf of, a health carrier or employee benefits programs, that directly or indirectly impacts the determination or utilization of benefits for, or patient access to, health care services, drugs, and supplies including, but not limited to:</P>
+<P>(i) Prior authorization or preauthorization of benefits or care;</P>
+<P>(ii) Certification of benefits or care;</P>
+<P>(iii) Medical necessity determinations;</P>
+<P>(iv) Utilization review;</P>
+<P>(v) Benefit determinations;</P>
+<P>(vi) Claims processing and repricing for services and procedures;</P>
+<P>(vii) Outcome management;</P>
+<P>(viii) Provider credentialing and recredentialing;</P>
+<P>(ix) Payment or authorization of payment to providers and facilities for services or procedures;</P>
+<P textAlign="left">(x) Dispute resolution, grievances, or appeals relating to determinations or utilization of benefits;</P>
+<P>(xi) Provider network management; or</P>
+<P>(xii) Disease management.</P>
+<P>(b) "Health care benefit manager" includes, but is not limited to, health care benefit managers that specialize in specific types of health care benefit management such as <TextRun amendingStyle="strike">pharmacy benefit managers,</TextRun> radiology benefit managers, laboratory benefit managers, and mental health benefit managers.</P>
+<P>(c) "Health care benefit manager" does not include:</P>
+<P>(i) Health care service contractors as defined in RCW 48.44.010;</P>
+<P>(ii) Health maintenance organizations as defined in RCW 48.46.020;</P>
+<P>(iii) Issuers as defined in RCW 48.01.053;</P>
+<P>(iv) The public employees' benefits board established in RCW 41.05.055;</P>
+<P>(v) The school employees' benefits board established in RCW 41.05.740;</P>
+<P>(vi) Discount plans as defined in RCW 48.155.010;</P>
+<P>(vii) Direct patient-provider primary care practices as defined in RCW 48.150.010;</P>
+<P>(viii) An employer administering its employee benefit plan or the employee benefit plan of an affiliated employer under common management and control;</P>
+<P>(ix) A union administering a benefit plan on behalf of its members;</P>
+<P>(x) An insurance producer selling insurance or engaged in related activities within the scope of the producer's license;</P>
+<P>(xi) A creditor acting on behalf of its debtors with respect to insurance, covering a debt between the creditor and its debtors;</P>
+<P>(xii) A behavioral health administrative services organization or other county-managed entity that has been approved by the state health care authority to perform delegated functions on behalf of a carrier;</P>
+<P>(xiii) A hospital licensed under chapter 70.41 RCW or ambulatory surgical facility licensed under chapter 70.230 RCW;</P>
+<P>(xiv) The Robert Bree collaborative under chapter 70.250 RCW;</P>
+<P>(xv) The health technology clinical committee established under RCW 70.14.090; <TextRun amendingStyle="strike">or</TextRun></P>
+<P>(xvi) <TextRun amendingStyle="add">Pharmacy benefit managers; or</TextRun></P>
+<P><TextRun amendingStyle="add">(xvii)</TextRun> The prescription drug purchasing consortium established under RCW 70.14.060.</P>
+<P>(5) "Health care provider" or "provider" has the same meaning as in RCW 48.43.005.</P>
+<P>(6) "Health care service" has the same meaning as in RCW 48.43.005.</P>
+<P>(7) "Health carrier" or "carrier" has the same meaning as in RCW 48.43.005.</P>
+<P>(8) "Laboratory benefit manager" means a person or entity providing service to, or acting on behalf of, a health carrier, employee benefits programs, or another entity under contract with a carrier, that directly or indirectly impacts the determination or utilization of benefits for, or patient access to, health care services, drugs, and supplies relating to the use of clinical laboratory services and includes any requirement for a health care provider to submit a notification of an order for such services.</P>
+<P>(9) "Mental health benefit manager" means a person or entity providing service to, or acting on behalf of, a health carrier, employee benefits programs, or another entity under contract with a carrier, that directly or indirectly impacts the determination of utilization of benefits for, or patient access to, health care services, drugs, and supplies relating to the use of mental health services and includes any requirement for a health care provider to submit a notification of an order for such services.</P>
+<P>(10) "Network" means the group of participating providers, pharmacies, and suppliers providing health care services, drugs, or supplies to beneficiaries of a particular carrier or plan.</P>
+<P>(11) "Person" includes, as applicable, natural persons, licensed health care providers, carriers, corporations, companies, trusts, unincorporated associations, and partnerships.</P>
+<P>(12)(a) <TextRun amendingStyle="strikemarkleft">"Pharmacy benefit manager" means a person that contracts with pharmacies on behalf of an insurer, a third-party payor, or the prescription drug purchasing consortium established under RCW 70.14.060 to:</TextRun></P>
+<P><TextRun amendingStyle="strikemarknone">(i) Process claims for prescription drugs or medical supplies or provide retail network management for pharmacies or pharmacists;</TextRun></P>
+<P><TextRun amendingStyle="strikemarknone">(ii) Pay pharmacies or pharmacists for prescription drugs or medical supplies;</TextRun></P>
+<P><TextRun amendingStyle="strikemarknone">(iii) Negotiate rebates with manufacturers for drugs paid for or procured as described in this subsection;</TextRun></P>
+<P><TextRun amendingStyle="strikemarknone">(iv) Manage pharmacy networks; or</TextRun></P>
+<P><TextRun amendingStyle="strikemarknone">(v) Make credentialing determinations.</TextRun></P>
+<P><TextRun amendingStyle="strikemarknone">(b) "Pharmacy benefit manager" does not include a health care service contractor as defined in RCW 48.44.010.</TextRun></P>
+<P><TextRun amendingStyle="strikemarkright">(13)(a)</TextRun> "Radiology benefit manager" means any person or entity providing service to, or acting on behalf of, a health carrier, employee benefits programs, or another entity under contract with a carrier, that directly or indirectly impacts the determination or utilization of benefits for, or patient access to, the services of a licensed radiologist or to advanced diagnostic imaging services including, but not limited to:</P>
+<P>(i) Processing claims for services and procedures performed by a licensed radiologist or advanced diagnostic imaging service provider; or</P>
+<P>(ii) Providing payment or payment authorization to radiology clinics, radiologists, or advanced diagnostic imaging service providers for services or procedures.</P>
+<P>(b) "Radiology benefit manager" does not include a health care service contractor as defined in RCW 48.44.010, a health maintenance organization as defined in RCW 48.46.020, or an issuer as defined in RCW 48.01.053.</P>
+<P><TextRun amendingStyle="strike">(14)</TextRun> <TextRun amendingStyle="add">(13)</TextRun> "Utilization review" has the same meaning as in RCW 48.43.005.</P>
+<History>2020 c 240 § 2.</History>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>48</TitleNumber><TextRun>.</TextRun><ChapterNumber>200</ChapterNumber><TextRun>.</TextRun><SectionNumber>210</SectionNumber></SectionCite> and 2020 c 240 s 10 are each amended to read as follows:<Caption>Definitions applicable to RCW 48.200.220 through 48.200.290.</Caption></BillSectionHeader>
+<P>The definitions in this section apply throughout this section and RCW 48.200.220 through 48.200.290 <TextRun amendingStyle="add">(as recodified by this act)</TextRun> unless the context clearly requires otherwise.</P>
+<P>(1) "Audit" means an on-site or remote review of the records of a pharmacy by or on behalf of an entity.</P>
+<P>(2) "Claim" means a request from a pharmacy or pharmacist to be reimbursed for the cost of filling or refilling a prescription for a drug or for providing a medical supply or service.</P>
+<P>(3) "Clerical error" means a minor error:</P>
+<P>(a) In the keeping, recording, or transcribing of records or documents or in the handling of electronic or hard copies of correspondence;</P>
+<P>(b) That does not result in financial harm to an entity; and</P>
+<P>(c) That does not involve dispensing an incorrect dose, amount, or type of medication, <TextRun amendingStyle="add">failing to dispense a medication,</TextRun> or dispensing a prescription drug to the wrong person.</P>
+<P>(4) "Entity" includes:</P>
+<P>(a) A pharmacy benefit manager;</P>
+<P>(b) An insurer;</P>
+<P>(c) A third-party payor;</P>
+<P>(d) A state agency; or</P>
+<P>(e) A person that represents or is employed by one of the entities described in this subsection.</P>
+<P>(5) "Fraud" means knowingly and willfully executing or attempting to execute a scheme, in connection with the delivery of or payment for health care benefits, items, or services, that uses false or misleading pretenses, representations, or promises to obtain any money or property owned by or under the custody or control of any person.</P>
+<P>(6) "Pharmacist" has the same meaning as in RCW 18.64.011.</P>
+<P>(7) "Pharmacy" has the same meaning as in RCW 18.64.011.</P>
+<P>(8) <TextRun amendingStyle="strike">"Third-party payor" means a person licensed under RCW 48.39.005.</TextRun> <TextRun amendingStyle="add">"Affiliate" or "affiliated employer" means a person who, through one or more intermediaries, controls or is controlled by, or is under common control with, another specified person.</TextRun></P>
+<P><TextRun amendingStyle="add">(9) "Affiliated pharmacy" means a pharmacy that through one or more intermediaries is owned by, controlled by, or is under common ownership or control of a pharmacy benefit manager, or where the pharmacy benefit manager has financial interest in the pharmacy.</TextRun></P>
+<P><TextRun amendingStyle="add">(10) "Certification" has the same meaning as in RCW 48.43.005.</TextRun></P>
+<P><TextRun amendingStyle="add">(11) "Covered person" means a person directly or indirectly covered by a pharmacy benefit plan or program.</TextRun></P>
+<P><TextRun amendingStyle="add">(12) "List" means the list of drugs for which predetermined reimbursement costs have been established, such as a maximum allowable cost, maximum allowable cost list, or any other benchmark prices utilized by the pharmacy benefit manager and must include the basis of the methodology and sources utilized to determine drug reimbursement amounts.</TextRun></P>
+<P><TextRun amendingStyle="add">(13) "Mail order pharmacy" means a pharmacy not open to the public which dispenses prescription drugs to patients through the mail or common carrier.</TextRun></P>
+<P><TextRun amendingStyle="add">(14) "Multiple source drug" means any covered outpatient prescription drug for which there is at least one other drug product that is rated as therapeutically equivalent under the food and drug administration's most recent publication of "Approved Drug Products with Therapeutic Equivalence Evaluations;" is pharmaceutically equivalent or bioequivalent, as determined by the food and drug administration; and is sold or marketed in the state.</TextRun></P>
+<P><TextRun amendingStyle="add">(15) "Network pharmacy" means a pharmacy that contracts with a pharmacy benefit manager to dispense prescription drugs to covered persons.</TextRun></P>
+<P><TextRun amendingStyle="add">(16) "Person" includes, as applicable, natural persons, licensed health care providers, carriers, corporations, companies, trusts, unincorporated associations, and partnerships.</TextRun></P>
+<P><TextRun amendingStyle="add">(17) "Pharmacy benefit manager" means a person that administers or manages a pharmacy benefits plan or program under a contractual obligation.</TextRun></P>
+<P><TextRun amendingStyle="add">(18) "Pharmacy benefits plan or program" means a plan or program that pays for, reimburses, covers the cost of, or otherwise provides for pharmacist services to individuals who reside in or are employed in this state.</TextRun></P>
+<P><TextRun amendingStyle="add">(19) "Pharmacy network" means the pharmacies located in the state and contracted by the pharmacy benefit manager to dispense prescription drugs to covered persons.</TextRun></P>
+<P><TextRun amendingStyle="add">(20) "Provider administered drug" means any prescription drug that requires administration by a provider as defined in RCW 48.43.005.</TextRun></P>
+<P><TextRun amendingStyle="add">(21) "Specialty drug" means a drug that:</TextRun></P>
+<P><TextRun amendingStyle="add">(a) Is subject to restricted distribution by the United States food and drug administration; or</TextRun></P>
+<P><TextRun amendingStyle="add">(b) Requires special handling, provider coordination, or patient education that cannot be provided by a retail pharmacy.</TextRun></P>
+<P><TextRun amendingStyle="add">(22) "Therapeutically equivalent" has the same meaning as in RCW 69.41.110.</TextRun></P>
+<History>2020 c 240 § 10; 2014 c 213 § 3. Formerly RCW 19.340.020.</History>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) To conduct business in this state, a pharmacy benefit manager shall register with the commissioner and annually renew the registration.</P></BillSectionHeader>
+<P>(2) To apply for registration under this section, a pharmacy benefit manager shall:</P>
+<P>(a) Submit an application on forms and in a manner prescribed by the commissioner and verified by the applicant by affidavit or declaration under chapter 5.50 RCW. Applications shall contain at least the following information:</P>
+<P>(i) The identity of the pharmacy benefit manager and persons with any ownership or controlling interest in the applicant, including relevant business licenses and tax identification numbers, and the identity of any person that the pharmacy benefit manager has a controlling interest in;</P>
+<P>(ii) The business name, address, phone number, and contact person for the pharmacy benefit manager;</P>
+<P>(iii) An attestation that they have the capacity to comply with, and have designated a person responsible for, compliance with state and federal laws; and</P>
+<P>(iv) Any other information as the commissioner may reasonably require; and</P>
+<P>(b) Pay an initial registration fee and annual renewal registration fee as established in rule by the commissioner. The fees for each registration must be set by the commissioner in an amount that ensures the registration, renewal, rule-making, oversight, and enforcement activities related to the requirements established under this act are self-supporting.</P>
+<P>(3) All receipts from fees collected by the commissioner under this section shall be deposited into the insurance commissioner's regulatory account created in RCW 48.02.190.</P>
+<P>(4) The commissioner may deny a registration or renewal of a registration of a pharmacy benefit manager if:</P>
+<P>(a) There is evidence of a previous or current violation of this chapter;</P>
+<P>(b) The pharmacy benefit manager has not paid the required fees; or</P>
+<P>(c) The pharmacy benefit manager does not have the capacity to comply with, or has not designated a person responsible for compliance with, applicable state and federal laws.</P>
+<P>(5) Any material change in the information provided to obtain or renew a registration shall be filed with the commissioner within 30 days of the change.</P>
+<P>(6) Every registered pharmacy benefit manager shall retain a record of all transactions completed for a period of not less than seven years from the date of their creation. All such records as to any particular transaction must be kept available and open to inspection by the commissioner upon request during the seven years after the date of completion of such transaction.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) A pharmacy benefit manager may not administer a pharmacy benefits plan or program without a written agreement describing the rights and responsibilities of the parties to the contract conforming to the provisions of this chapter and any rules adopted by the commissioner to implement or enforce this chapter including rules governing contract content.</P></BillSectionHeader>
+<P>(2) A pharmacy benefit manager shall file with the commissioner, in the form and manner prescribed by the commissioner, every pharmacy benefits plan or program contract and every contract amendment between the pharmacy benefit manager and an entity, provider, pharmacy, pharmacy services administration organization, or other health care benefit manager, entered into directly or indirectly in support of a pharmacy benefits plan or program management contract with a health carrier or employee benefits program within 30 days following the effective date of the contract or contract amendment.</P>
+<P>(3) Contracts filed under this section are confidential and not subject to public inspection under RCW 48.02.120(2), or public disclosure under chapter 42.56 RCW, if filed in accordance with the procedures for submitting confidential filings through the system for electronic rate and form filings and the general filing instructions as set forth by the commissioner. In the event the referenced filing fails to comply with the filing instructions setting forth the process to withhold the contract from public inspection, and the pharmacy benefit manager indicates that the contract is to be withheld from public inspection, the commissioner shall reject the filing and notify the pharmacy benefit manager through the system for electronic rate and form filings to amend its filing to comply with the confidentiality filing instructions.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>5</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) Upon receipt of an inquiry from the commissioner, a pharmacy benefit manager shall provide to the commissioner within 15 business days, in the form and manner required by the commissioner, a complete response to that inquiry including, but not limited to, providing a statement or testimony, producing its accounts, records, and files, responding to complaints, or responding to surveys and general requests. Failure to make a complete or timely response constitutes a violation of this chapter.</P></BillSectionHeader>
+<P>(2) Subject to chapter 48.04 RCW, the commissioner may take action against a pharmacy benefit manager if the commissioner finds that a pharmacy benefit manager has:</P>
+<P>(a) Violated any provision of this chapter, or violated any rule adopted by the commissioner that is applicable to pharmacy benefit managers, subpoena, or order of the commissioner or of another state's insurance commissioner;</P>
+<P>(b) Failed to renew the pharmacy benefit manager's registration;</P>
+<P>(c) Failed to pay the registration or renewal fees;</P>
+<P>(d) Provided incorrect, misleading, incomplete, or materially untrue information to the commissioner or to a covered person;</P>
+<P>(e) Used fraudulent, coercive, or dishonest practices, or demonstrated incompetence or financial irresponsibility in this state or elsewhere; or</P>
+<P>(f) Had a pharmacy benefit manager registration, or its equivalent, denied, suspended, or revoked by the federal government or in any other state, province, district, or territory.</P>
+<P>(3) If the commissioner finds that a pharmacy benefit manager performed any of the actions listed in subsection (2) of this section, the commissioner may take any combination of the following actions against the pharmacy benefit manager, other than an employee benefits program:</P>
+<P>(a) Place on probation, suspend, revoke, or refuse to issue or renew the pharmacy benefit manager's registration;</P>
+<P>(b) Issue a cease and desist order against the pharmacy benefit manager;</P>
+<P>(c) Fine the pharmacy benefit manager up to $5,000 per violation;</P>
+<P>(d) Issue an order requiring corrective action against the pharmacy benefit manager; and</P>
+<P>(e) Temporarily suspend the pharmacy benefit manager's registration by an order served by mail or by personal service upon the pharmacy benefit manager not less than three days prior to the suspension effective date. The order shall include a notice of revocation and a finding that the public safety or welfare requires emergency action. A temporary suspension under this subsection (3)(e) continues until proceedings for revocation are concluded.</P>
+<P>(4) A pharmacy benefit manager is not exempt from any requirement or provision of the chapter because it relied upon a third-party vendor or subcontracting arrangement for administration of any aspect of its pharmacy benefits plan or program. The duties established in this chapter cannot be delegated to a third-party vendor, subcontractor, or other person.</P>
+<P>(5) Notwithstanding RCW 48.04.020, a stay of action is not available for actions the commissioner takes by cease and desist order, order on hearing, or temporary suspension.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>6</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) A pharmacy benefit manager may not:</P></BillSectionHeader>
+<P>(a) Require a covered person to obtain prescriptions from a mail order pharmacy unless the prescription drug is a specialty drug, and must receive affirmative authorization from a covered person before filling a prescription drug through a mail order pharmacy;</P>
+<P>(b) Reimburse a network pharmacy an amount less than the contract price between the pharmacy benefit manager and the person the pharmacy benefit manager has contracted with to provide a pharmacy benefits plan or program;</P>
+<P>(c) Condition, deny, restrict, refuse to authorize or approve, or reduce payment to a participating provider or facility for a provider administered drug when all criteria for medical necessity are met, because the participating provider or facility obtains the drug from a wholesaler or pharmacy;</P>
+<P>(d) Exclude a pharmacy from their pharmacy network based solely on the pharmacy being new, open less than a defined amount of time, or a license or location transfer;</P>
+<P>(e) Require a covered person to pay more for their medications than the pharmacy benefit manager pays the pharmacy for the medication and the dispensing fee; or</P>
+<P>(f) Use information obtained through claim adjudication to solicit, coerce, or incentivize a patient to use their owned or affiliated pharmacies.</P>
+<P>(2) A pharmacy benefit manager shall:</P>
+<P>(a) Include a provision in contracts with participating pharmacies and pharmacy services administrative organizations that authorizes the pharmacy to decline to fill a prescription if the pharmacy benefit manager refuses to reimburse the pharmacy at a rate that is at least equal to the pharmacy's acquisition cost of the drug plus a dispensing fee;</P>
+<P>(b) Regardless of the participating pharmacy, including mail order pharmacies, where the covered person obtains the prescription drug, apply the same copays, fees, days allowance, and other conditions upon the covered person;</P>
+<P>(c) Permit the covered person to receive delivery or mail order of a medication through any network pharmacy; and</P>
+<P>(d) Pay for patient specific assistive hardware related to dispensed prescriptions including but not limited to audible prescription labels for covered persons with visual impairment to understand prescription label content.</P>
+<P>(3) If a covered person is using a mail order pharmacy, the pharmacy benefit manager shall:</P>
+<P>(a) Allow for dispensing at local network pharmacies under the following circumstances to ensure patient access to prescription drugs:</P>
+<P>(i) If the mail order prescription is delayed more than one day; or</P>
+<P>(ii) If the prescription drug arrives in an unusable condition; and</P>
+<P>(b) Ensure patients have easy and timely access to prescription counseling by a pharmacist.</P>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>7</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>48</TitleNumber><TextRun>.</TextRun><ChapterNumber>200</ChapterNumber><TextRun>.</TextRun><SectionNumber>280</SectionNumber></SectionCite> and 2020 c 240 s 15 are each amended to read as follows:<Caption>Predetermination of reimbursement costs<TextRun fontFamily="Times New Roman">—</TextRun>Appeals<TextRun fontFamily="Times New Roman">—</TextRun>Review by commissioner.</Caption></BillSectionHeader>
+<P>(1) <TextRun amendingStyle="strikemarkleft">The definitions in this subsection apply throughout this section unless the context clearly requires otherwise.</TextRun></P>
+<P><TextRun amendingStyle="strikemarknone">(a) "List" means the list of drugs for which predetermined reimbursement costs have been established, such as a maximum allowable cost or maximum allowable cost list or any other benchmark prices utilized by the pharmacy benefit manager and must include the basis of the methodology and sources utilized to determine multisource generic drug reimbursement amounts.</TextRun></P>
+<P><TextRun amendingStyle="strikemarknone">(b) "Multiple source drug" means a therapeutically equivalent drug that is available from at least two manufacturers.</TextRun></P>
+<P><TextRun amendingStyle="strikemarknone">(c) "Multisource generic drug" means any covered outpatient prescription drug for which there is at least one other drug product that is rated as therapeutically equivalent under the food and drug administration's most recent publication of "Approved Drug Products with Therapeutic Equivalence Evaluations;" is pharmaceutically equivalent or bioequivalent, as determined by the food and drug administration; and is sold or marketed in the state during the period.</TextRun></P>
+<P><TextRun amendingStyle="strikemarknone">(d) "Network pharmacy" means a retail drug outlet licensed as a pharmacy under RCW 18.64.043 that contracts with a pharmacy benefit manager.</TextRun></P>
+<P><TextRun amendingStyle="strikemarknone">(e) "Therapeutically equivalent" has the same meaning as in RCW 69.41.110.</TextRun></P>
+<P><TextRun amendingStyle="strikemarkright">(2)</TextRun> A pharmacy benefit manager:</P>
+<P>(a) May not place a drug on a list unless there are at least two therapeutically equivalent multiple source drugs, or at least one generic drug available from only one manufacturer, generally available for purchase by network pharmacies from national or regional wholesalers;</P>
+<P>(b) Shall ensure that all drugs on a list are readily available for purchase by pharmacies in this state from national or regional wholesalers that serve pharmacies in Washington;</P>
+<P>(c) Shall ensure that all drugs on a list are not obsolete;</P>
+<P>(d) Shall make available to each network pharmacy at the beginning of the term of a contract, and upon renewal of a contract, the sources utilized to determine the predetermined reimbursement costs for <TextRun amendingStyle="strike">multisource generic</TextRun> <TextRun amendingStyle="add">multiple source</TextRun> drugs of the pharmacy benefit manager;</P>
+<P>(e) Shall make a list available to a network pharmacy upon request in a format that is readily accessible to and usable by the network pharmacy;</P>
+<P>(f) Shall update each list maintained by the pharmacy benefit manager every seven business days and make the updated lists, including all changes in the price of drugs, available to network pharmacies in a readily accessible and usable format;</P>
+<P>(g) Shall ensure that dispensing fees are not included in the calculation of the predetermined reimbursement costs for <TextRun amendingStyle="strike">multisource generic</TextRun> <TextRun amendingStyle="add">multiple source</TextRun> drugs;</P>
+<P>(h) May not cause or knowingly permit the use of any advertisement, promotion, solicitation, representation, proposal, or offer that is untrue, deceptive, or misleading;</P>
+<P>(i) May not charge a pharmacy a fee related to the adjudication of a claim, credentialing, participation, certification, accreditation, or enrollment in a network including, but not limited to, a fee for the receipt and processing of a pharmacy claim, for the development or management of claims processing services in a pharmacy benefit manager network, or for participating in a pharmacy benefit manager network;</P>
+<P>(j) May not require accreditation standards inconsistent with or more stringent than accreditation standards established by a national accreditation organization;</P>
+<P>(k) May not reimburse a pharmacy in the state an amount less than the amount the pharmacy benefit manager reimburses an affiliate for providing the same pharmacy services; and</P>
+<P>(l) May not directly or indirectly retroactively deny or reduce a claim or aggregate of claims after the claim or aggregate of claims has been adjudicated, unless:</P>
+<P>(i) The original claim was submitted fraudulently; or</P>
+<P>(ii) The denial or reduction is the result of a pharmacy audit conducted in accordance with RCW 48.200.220 <TextRun amendingStyle="add">(as recodified by this act)</TextRun>.</P>
+<P><TextRun amendingStyle="strike">(3)</TextRun> <TextRun amendingStyle="add">(2)</TextRun> A pharmacy benefit manager must establish a process by which a network pharmacy<TextRun amendingStyle="add">, or its representative,</TextRun> may appeal its reimbursement for a drug <TextRun amendingStyle="strike">subject to predetermined reimbursement costs for multisource generic drugs</TextRun>. A network pharmacy may appeal a <TextRun amendingStyle="strike">predetermined</TextRun> reimbursement cost for a <TextRun amendingStyle="strike">multisource generic</TextRun> drug if the reimbursement for the drug is less than the net amount that the network pharmacy paid to the supplier of the drug. An appeal requested under this section must be completed within thirty calendar days of the pharmacy submitting the appeal. If after thirty days the network pharmacy has not received the decision on the appeal from the pharmacy benefit manager, then the appeal is considered denied.</P>
+<P>The pharmacy benefit manager shall uphold the appeal of a pharmacy with fewer than fifteen retail outlets, within the state of Washington, under its corporate umbrella if the pharmacy or pharmacist can demonstrate that it is unable to purchase a therapeutically equivalent interchangeable product from a supplier doing business in Washington at the pharmacy benefit manager's <TextRun amendingStyle="strike">list</TextRun> <TextRun amendingStyle="add">paid</TextRun> price.</P>
+<P><TextRun amendingStyle="strike">(4)</TextRun> <TextRun amendingStyle="add">(3)</TextRun> A pharmacy benefit manager must provide as part of the appeals process established under subsection <TextRun amendingStyle="strike">(3)</TextRun> <TextRun amendingStyle="add">(2)</TextRun> of this section:</P>
+<P>(a) A telephone number at which a network pharmacy may contact the pharmacy benefit manager and speak with an individual who is responsible for processing appeals; and</P>
+<P>(b) If the appeal is denied, the reason for the denial and the national drug code of a drug that has been purchased by other network pharmacies located in Washington at a price that is equal to or less than the <TextRun amendingStyle="strike">predetermined</TextRun> <TextRun amendingStyle="add">paid</TextRun> reimbursement cost for the <TextRun amendingStyle="strike">multisource generic</TextRun> drug. A pharmacy with fifteen or more retail outlets, within the state of Washington, under its corporate umbrella may submit information to the commissioner about an appeal under subsection <TextRun amendingStyle="strike">(3)</TextRun> <TextRun amendingStyle="add">(2)</TextRun> of this section for purposes of information collection and analysis.</P>
+<P><TextRun amendingStyle="strike">(5)</TextRun> <TextRun amendingStyle="add">(4)</TextRun>(a) If an appeal is upheld under this section, the pharmacy benefit manager shall make a reasonable adjustment on a date no later than one day after the date of determination.</P>
+<P>(b) If the request for an adjustment has come from a critical access pharmacy, as defined by the state health care authority by rule for purposes related to the prescription drug purchasing consortium established under RCW 70.14.060, the adjustment approved under (a) of this subsection shall apply only to critical access pharmacies.</P>
+<P><TextRun amendingStyle="strike">(6)</TextRun> <TextRun amendingStyle="add">(5)</TextRun> Beginning July 1, 2017, if a network pharmacy appeal to the pharmacy benefit manager is denied, or if the network pharmacy is unsatisfied with the outcome of the appeal, the pharmacy or pharmacist may dispute the decision and request review by the commissioner within thirty calendar days of receiving the decision.</P>
+<P>(a) All relevant information from the parties may be presented to the commissioner, and the commissioner may enter an order directing the pharmacy benefit manager to make an adjustment to the disputed claim, deny the pharmacy appeal, or take other actions deemed fair and equitable. An appeal requested under this section must be completed within thirty calendar days of the request.</P>
+<P>(b) Upon resolution of the dispute, the commissioner shall provide a copy of the decision to both parties within seven calendar days.</P>
+<P>(c) The commissioner may authorize the office of administrative hearings, as provided in chapter 34.12 RCW, to conduct appeals under this subsection <TextRun amendingStyle="strike">(6)</TextRun> <TextRun amendingStyle="add">(5)</TextRun>.</P>
+<P>(d) A pharmacy benefit manager may not retaliate against a pharmacy for pursuing an appeal under this subsection <TextRun amendingStyle="strike">(6)</TextRun> <TextRun amendingStyle="add">(5)</TextRun>.</P>
+<P>(e) This subsection <TextRun amendingStyle="strike">(6)</TextRun> <TextRun amendingStyle="add">(5)</TextRun> applies only to a pharmacy with fewer than fifteen retail outlets, within the state of Washington, under its corporate umbrella.</P>
+<P><TextRun amendingStyle="strike">(7)</TextRun> <TextRun amendingStyle="add">(6)</TextRun> This section does not apply to the state medical assistance program.</P>
+<History>2020 c 240 § 15; 2016 c 210 § 4; 2014 c 213 § 10. Formerly RCW 19.340.100.</History>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>8</Value><TextRun>.  </TextRun></BillSectionNumber><P>The commissioner may adopt any rules necessary to implement this act.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addchap">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>9</Value><TextRun>.  </TextRun></BillSectionNumber><P>Sections 3 through 6 and 8 of this act constitute a new chapter in <TitleCite><TextRun>Title </TextRun><TitleNumber>48</TitleNumber><TextRun> RCW</TextRun></TitleCite>.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="recod">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>10</Value><TextRun>.  </TextRun></BillSectionNumber><P><SectionCite><TextRun>RCW </TextRun><TitleNumber>48</TitleNumber><TextRun>.</TextRun><ChapterNumber>200</ChapterNumber><TextRun>.</TextRun><SectionNumber>210</SectionNumber></SectionCite>, <SectionCite><TitleNumber>48</TitleNumber><TextRun>.</TextRun><ChapterNumber>200</ChapterNumber><TextRun>.</TextRun><SectionNumber>220</SectionNumber></SectionCite>, <SectionCite><TitleNumber>48</TitleNumber><TextRun>.</TextRun><ChapterNumber>200</ChapterNumber><TextRun>.</TextRun><SectionNumber>230</SectionNumber></SectionCite>, <SectionCite><TitleNumber>48</TitleNumber><TextRun>.</TextRun><ChapterNumber>200</ChapterNumber><TextRun>.</TextRun><SectionNumber>240</SectionNumber></SectionCite>, <SectionCite><TitleNumber>48</TitleNumber><TextRun>.</TextRun><ChapterNumber>200</ChapterNumber><TextRun>.</TextRun><SectionNumber>250</SectionNumber></SectionCite>, <SectionCite><TitleNumber>48</TitleNumber><TextRun>.</TextRun><ChapterNumber>200</ChapterNumber><TextRun>.</TextRun><SectionNumber>260</SectionNumber></SectionCite>, <SectionCite><TitleNumber>48</TitleNumber><TextRun>.</TextRun><ChapterNumber>200</ChapterNumber><TextRun>.</TextRun><SectionNumber>270</SectionNumber></SectionCite>, <SectionCite><TitleNumber>48</TitleNumber><TextRun>.</TextRun><ChapterNumber>200</ChapterNumber><TextRun>.</TextRun><SectionNumber>280</SectionNumber></SectionCite>, and <SectionCite><TitleNumber>48</TitleNumber><TextRun>.</TextRun><ChapterNumber>200</ChapterNumber><TextRun>.</TextRun><SectionNumber>290</SectionNumber></SectionCite> are each recodified as sections in chapter 48.--- RCW (the new chapter created in section 9 of this act).</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>11</Value><TextRun>.  </TextRun></BillSectionNumber><P>If any provision of this act or its application to any person or circumstance is held invalid, the remainder of the act or the application of the provision to other persons or circumstances is not affected.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="effdate">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>12</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act takes effect January 1, 2025.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

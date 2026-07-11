@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-4240.1</RequestNumber><ShortBillId>SB 6299</ShortBillId><LongBillId>SENATE BILL 6299</LongBillId><Legislature>68th Legislature</Legislature><Session>2024 Regular Session</Session><Sponsors>Senators Stanford, Keiser, Conway, Hasegawa, Kuderer, Nobles, and Valdez</Sponsors><BillHistory><ReadDate>Read first time 01/24/24.</ReadDate><ReferredCommittee>Referred to Committee on Labor &amp; Commerce.</ReferredCommittee></BillHistory><BriefDescription>Protecting employee rights in the workplace with regards to the use of digital technology.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to protecting employee rights in the workplace with regards to the use of digital technology; and adding a new section to chapter 49.44 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>49</TitleNumber><TextRun>.</TextRun><ChapterNumber>44</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) It is unlawful for any employer to use a replica of an employee's voice or likeness without the explicit consent of the employee for a specific use. The consent must be at the time of use, not the employee's initial hire, and the employer must provide a reasonably specific description of the intended use.</P>
+<P>(2) It is unlawful for any employer to utilize artificial intelligence or generative artificial intelligence to evaluate or otherwise make employment decisions regarding current employees without written disclosure of the employer's use of such technology at the time of the employee's initial hire, or within 30 calendar days of the employer starting to use such technology for such purpose. The written disclosure must be understandable, in plain language, and in the employee's preferred language.</P>
+<P>(3) For the purposes of this section, the following definitions apply:</P>
+<P>(a) "Artificial intelligence" means technologies that enable machines, particularly computer software, to simulate human intelligence.</P>
+<P>(b) "Generative artificial intelligence" means technology that can mimic human ability to learn patterns from substantial amounts of data and create content based on the underlying training data, guided by a user or prompt.</P>
+</BillSection>
+</BillBody>
+</Bill>

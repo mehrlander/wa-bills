@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-3968.1</RequestNumber><ShortBillId>SB 6202</ShortBillId><LongBillId>SENATE BILL 6202</LongBillId><Legislature>68th Legislature</Legislature><Session>2024 Regular Session</Session><Sponsors>Senators Kauffman and Lovelett</Sponsors><BillHistory /><BriefDescription>Concerning technical changes to allowable exemptions for tourism promotion area assessments.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to technical changes to allowable exemptions from charges for tourism promotion area assessments; amending RCW 35.101.055; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>35</TitleNumber><TextRun>.</TextRun><ChapterNumber>101</ChapterNumber><TextRun>.</TextRun><SectionNumber>055</SectionNumber></SectionCite> and 2008 c 137 s 6 are each amended to read as follows:<Caption>Lodging charge<TextRun fontFamily="Times New Roman">—</TextRun>Exemption for temporary medical housing.</Caption></BillSectionHeader>
+<P>The lodging charge authorized in RCW 35.101.050 does not apply to temporary medical housing exempt under RCW 82.08.997<TextRun amendingStyle="add">, or any lodging business, lodging unit, or lodging guest so designated by the legislative authority</TextRun>.</P>
+<History>2008 c 137 § 6.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2008 c 137:</TextRun> See note following RCW 82.08.997.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act applies to any tourism promotion area established before, on, or after the effective date of this section.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

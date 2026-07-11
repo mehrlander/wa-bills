@@ -28,8 +28,8 @@ from pathlib import Path
 REPO = Path(__file__).resolve().parents[2]
 TEXTS = REPO / "bills" / "texts"
 BASE = "https://lawfilesext.leg.wa.gov/Biennium"
-WORKERS = 3
-PAUSE = 0.15  # seconds per worker between requests; ~4-6 req/s aggregate
+WORKERS = int(os.environ.get("FETCH_WORKERS", "3"))
+PAUSE = float(os.environ.get("FETCH_PAUSE", "0.15"))  # seconds per worker between requests
 
 BIENNIA = ["2025-26", "2023-24", "2021-22", "2019-20", "2017-18",
            "2015-16", "2013-14", "2011-12", "2009-10", "2007-08",

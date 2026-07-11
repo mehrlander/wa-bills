@@ -29,9 +29,11 @@ words across tag boundaries.
 ## Full texts
 
 Stored, as of 2026-07-11, in [`texts/`](texts/): every House and Senate
-bill document on `lawfilesext.leg.wa.gov` for the nine biennia 2009-10
-through 2025-26, in both HTM and XML. 90,864 files, 3.3 GB, verified
+bill document on `lawfilesext.leg.wa.gov` for the eleven biennia 2005-06
+through 2025-26, in both HTM and XML. 116,207 files, 3.9 GB, verified
 file-by-file against the server's directory listings (`texts/manifest.json`).
+The manifest additionally covers 2001-02 and 2003-04 (16,953 files), a
+planned follow-up import.
 See [`texts/README.md`](texts/README.md) for layout and provenance. The
 `.gitignore` guard on `*.xml`/`*.htm` remains in force outside `texts/`.
 The URL catalog in

@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>Z-0510.1</RequestNumber><ShortBillId>SSB 5810</ShortBillId><LongBillId>SUBSTITUTE SENATE BILL 5810</LongBillId><Legislature>64th Legislature</Legislature><Session>2015 Regular Session</Session><Sponsors>Senate Government Operations &amp; Security (originally sponsored by Senators Roach, Liias, and Chase; by request of Office of Financial Management)</Sponsors><BillHistory><ReadDate>READ FIRST TIME 02/17/15.</ReadDate></BillHistory><BriefDescription>Promoting the use, acceptance, and removal of barriers to the use and acceptance of electronic signatures.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to the use, acceptance, and removal of barriers to the use and acceptance of electronic signatures; amending RCW 18.25.020, 18.32.100, and 29A.72.010; reenacting and amending RCW 19.34.231; adding a new section to chapter 19.34 RCW; adding a new chapter to Title 19 RCW; creating a new section; and repealing RCW 39.04.390.</BillTitle>
+<EnactedClause />
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature recognizes that the electronic signatures in global and national commerce act, 15 U.S.C. Sec. 7001 et seq., applies to federal and state transactions, including certain governmental transactions, in or affecting interstate or foreign commerce relating to this state. In part I of this act, the legislature, to the extent not already authorized by federal or state law, authorizes electronic dealings for governmental affairs and establishes the implementation framework for electronic governmental affairs and governmental transactions. In part II of this act, the legislature expands uniformity for all transactions, including governmental, commercial, and consumer transactions, by applying provisions of ESIGN to any state law aspects of interstate or foreign transactions and to intrastate transactions. Part III of this act is intended to promote electronic transactions and remove barriers that might prevent electronic transactions with governmental entities.</P></BillSectionHeader>
+</BillSection>
+<Part>
+<P>PART I</P>
+</Part>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) Unless specifically provided otherwise by law or agency rule adopted after the effective date of this section, whenever the use of a written signature is authorized or required by this code with a state agency, an electronic signature may be used with the same force and effect as the use of a signature affixed by hand, as long as the electronic signature conforms to the definition in section 3 of this act and the writing conforms to section 4 of this act.</P></BillSectionHeader>
+<P>(2) Each state agency may determine whether, and to what extent, the agency will send and accept electronic records and electronic signatures to and from other persons and otherwise create, generate, communicate, store, process, use, and rely upon electronic records and electronic signatures. Nothing in this act requires a state agency to send or accept electronic records or electronic signatures when a writing or signature is required by statute.</P>
+<P>(3) For governmental affairs and governmental transactions with state agencies, the state agency shall establish the method that must be used for electronic submissions and electronic signatures. The method and process for electronic submissions and the use of electronic signatures must be established by policy or rule and be consistent with the policies, standards, or guidance established by the chief information officer required in subsection (4) of this section.</P>
+<P>(4)(a) The chief information officer, in coordination with state agencies, must establish standards, guidelines, or policies for the electronic submittal and receipt of electronic records and electronic signatures for governmental affairs and governmental transactions. The standards, policies, or guidelines must take into account reasonable access by and ability of persons to participate in governmental affairs or governmental transactions and be able to rely on transactions that are conducted electronically with agencies. Through the standards, policies, or guidelines, the chief information officer should encourage and promote consistency and interoperability among state agencies.</P>
+<P>(b) In order to provide a single point of access, the chief information officer must establish a web site that maintains or links to the agency rules and policies established pursuant to subsection (3) of this section.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) Unless specifically provided otherwise by law or rule adopted after the effective date of this section or unless the context clearly indicates otherwise, whenever the term "signature" is used in this code for governmental affairs and is authorized by agency rule or policy pursuant to section 2 of this act, the term includes an electronic signature as defined in subsection (2) of this section.</P></BillSectionHeader>
+<P>(2) "Electronic signature" means an electronic sound, symbol, or process attached to or logically associated with a contract or other record and executed or adopted by a person with the intent to sign the record.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) Unless specifically provided otherwise by law or rule adopted after the effective date of this section or unless the context clearly indicates otherwise, whenever the term "writing" is used in this code for governmental affairs and is authorized by agency rule or policy pursuant to section 2 of this act, the term means a record.</P></BillSectionHeader>
+<P>(2) "Record," as used in subsection (1) of this section, has the meaning set forth in section 9(8) of this act.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>5</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) Unless specifically provided otherwise by law or rule adopted after the effective date of this section or unless the context clearly indicates otherwise, whenever the term "mail" is used in this code and authorized by agency rule or policy pursuant to section 2 of this act to transmit a writing with a state agency, the term includes the use of mail delivered through an electronic system such as email or secure mail transfer if authorized by the state agency in rule.</P></BillSectionHeader>
+<P>(2) For the purposes of this section, "electronic" means relating to technology having electrical, digital, magnetic, wireless, optical, electromagnetic, or similar capabilities.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>6</Value><TextRun>.  </TextRun></BillSectionNumber><P>For purposes of sections 2 through 5 of this act, "state agency" means any state board, commission, bureau, committee, department, institution, division, or tribunal in the executive branch of state government, including statewide elected offices and institutions of higher education created and supported by the state government.</P></BillSectionHeader>
+</BillSection>
+<Part>
+<P>PART II</P>
+</Part>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>7</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) To any extent ESIGN does not already apply in this state and subject to ESIGN restrictions on states or state regulatory agencies, the following provisions of ESIGN are adopted as laws of this state, including with respect to intrastate transactions and with respect to state law aspects of interstate transactions: Sections 7001, general rule of validity; 7003, specific exceptions; 7004, applicability to federal and state governments; and 7021, transferable records.</P></BillSectionHeader>
+<P>(2) Those contracts, records, transactions, documents, or matters specifically excepted from coverage of ESIGN under section 7003 of ESIGN are unaffected by and excepted from this act. This act neither precludes nor authorizes the use of electronic records or signatures for the excepted matters set out in section 7003 of ESIGN.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>8</Value><TextRun>.  </TextRun></BillSectionNumber><P>Chapter 19.34 RCW addresses a particular technology that is used for the creation and transmission of an electronic signature, which technology is not required for the implementation or application of this act. To the extent that chapter 19.34 RCW is in conflict with this act, this act supersedes the provisions of chapter 19.34 RCW regarding the same subject matter.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>9</Value><TextRun>.  </TextRun></BillSectionNumber><P>The definitions in this section apply throughout this chapter unless the context clearly requires otherwise.</P></BillSectionHeader>
+<P>(1) "Consumer" means an individual who obtains, through a transaction, products or services which are used primarily for personal, family, or household purposes, and includes the legal representative of such an individual.</P>
+<P>(2) "Electronic" means relating to technology having electrical, digital, magnetic, wireless, optical, electromagnetic, or similar capabilities.</P>
+<P>(3) "Electronic record" means a contract or other record created, generated, sent, communicated, received, or stored by electronic means.</P>
+<P>(4) "Electronic signature" means an electronic sound, symbol, or process attached to or logically associated with a contract or other record and executed or adopted by a person with the intent to sign the record.</P>
+<P>(5) "ESIGN" means the electronic signatures in global and national commerce act, 15 U.S.C. Sec. 7001 et seq., as in effect on June 13, 2002.</P>
+<P>(6) "Information" means data, text, images, sounds, codes, computer programs, software, databases, or the like.</P>
+<P>(7) "Person" means an individual, corporation, business trust, estate, trust, partnership, limited liability company, association, joint venture, governmental agency, public corporation, or any other legal or commercial entity.</P>
+<P>(8) "Record" means information that is inscribed on a tangible medium or that is stored in an electronic or other medium and is retrievable in perceivable form, except as otherwise defined for the purpose of state agency record retention, preservation, or disclosure.</P>
+<P>(9) "Requirement" includes a prohibition.</P>
+<P>(10) "Transaction" means an action or set of actions relating to the conduct of business, governmental, consumer, or commercial affairs between two or more persons, including any of the following types of conduct:</P>
+<P>(a) The sale, lease, exchange, licensing, or other disposition, including governmental or other procurement and aspects thereof such as competitive bidding, of: (i) Personal property, including goods and intangibles; (ii) services; or (iii) any combination thereof; and</P>
+<P>(b) The sale, lease, exchange, or other disposition of any interest in real property, or any combination thereof.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>10</Value><TextRun>.  </TextRun></BillSectionNumber><P>Nothing in this act is intended to be inconsistent with the federal electronic signatures in global and national commerce act and compliance with the federal act satisfies compliance with this act.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>11</Value><TextRun>.  </TextRun></BillSectionNumber><P>Sections 1 through 10 of this act may be known and cited as the Washington electronic commerce and governmental affairs act.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addchap">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>12</Value><TextRun>.  </TextRun></BillSectionNumber><P>Sections 1 through 10 of this act constitute a new chapter in <TitleCite><TextRun>Title </TextRun><TitleNumber>19</TitleNumber><TextRun> RCW</TextRun></TitleCite>.</P></BillSectionHeader>
+</BillSection>
+<Part>
+<P>PART III</P>
+</Part>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>13</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>18</TitleNumber><TextRun>.</TextRun><ChapterNumber>25</ChapterNumber><TextRun>.</TextRun><SectionNumber>020</SectionNumber></SectionCite> and 1996 c 191 s 8 are each amended to read as follows:<Caption>Applications<TextRun fontFamily="Times New Roman">—</TextRun>Qualifications<TextRun fontFamily="Times New Roman">—</TextRun>Fees.</Caption></BillSectionHeader>
+<P>(1) Any person not now licensed to practice chiropractic in this state and who desires to practice chiropractic in this state, before it shall be lawful for him or her to do so, shall make application therefor to the secretary, upon such form and in such manner as may be adopted and directed by the secretary. Each applicant who matriculates to a chiropractic college <TextRun amendingStyle="strike">after January 1, 1975</TextRun>, shall have completed not less than one-half of the requirements for a baccalaureate degree at an accredited and approved college or university and shall be a graduate of a chiropractic school or college accredited and approved by the commission and shall show satisfactory evidence of completion by each applicant of a resident course of study of not less than four thousand classroom hours of instruction in such school or college. Applications shall be in writing and shall be signed by the applicant <TextRun amendingStyle="strike">in his or her own handwriting and shall be sworn to before some officer authorized to administer oaths</TextRun>, and shall recite the history of the applicant as to his or her educational advantages, his or her experience in matters pertaining to a knowledge of the care of the sick, how long he or she has studied chiropractic, under what teachers, what collateral branches, if any, he or she has studied, the length of time he or she has engaged in clinical practice; accompanying the same by reference therein, with any proof thereof in the shape of diplomas, certificates, and shall accompany said application with satisfactory evidence of good character and reputation.</P>
+<P>(2) Applicants shall follow administrative procedures and administrative requirements and pay fees as provided in RCW 43.70.250 and 43.70.280.</P>
+<History>1996 c 191 § 8; 1994 sp.s. c 9 § 109; 1991 c 3 § 38; 1989 c 258 § 3; 1985 c 7 § 14; 1975 1st ex.s. c 30 § 19; 1974 ex.s. c 97 § 9; 1959 c 53 § 3; 1919 c 5 § 5; RRS § 10100.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Severability<TextRun fontFamily="Times New Roman">—</TextRun>1974 ex.s. c 97:</TextRun> See note following RCW 18.25.0192.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>14</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>18</TitleNumber><TextRun>.</TextRun><ChapterNumber>32</ChapterNumber><TextRun>.</TextRun><SectionNumber>100</SectionNumber></SectionCite> and 1994 sp.s. c 9 s 213 are each amended to read as follows:<Caption>Applications.</Caption></BillSectionHeader>
+<P>The applicant for a dentistry license shall file an application on a form furnished by the secretary, stating the applicant's name, age, place of residence, the name of the school or schools attended by the applicant, the period of such attendance, the date of the applicant's graduation, whether the applicant has ever been the subject of any disciplinary action related to the practice of dentistry, and shall include a statement of all of the applicant's dental activities. This shall include any other information deemed necessary by the commission.</P>
+<P>The application shall be signed by the applicant <TextRun amendingStyle="strike">and sworn to by the applicant before some person authorized to administer oaths,</TextRun> and shall be accompanied by proof of the applicant's school attendance and graduation.</P>
+<History>1994 sp.s. c 9 § 213; 1991 c 3 § 62; 1989 c 202 § 18; 1957 c 52 § 28; 1953 c 93 § 4; 1951 c 130 § 2; 1941 c 92 § 2; 1935 c 112 § 4; Rem. Supp. 1941 § 10031<Hyphen type="nobreak" />4, part. Prior: 1923 c 16 §§ 2, 3, 6, 7; 1901 c 152 § 1; 1893 c 55 § 4.</History>
+</BillSection>
+<BillSection type="amendatory" action="remd">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>15</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>19</TitleNumber><TextRun>.</TextRun><ChapterNumber>34</ChapterNumber><TextRun>.</TextRun><SectionNumber>231</SectionNumber></SectionCite> and 2011 1st sp.s. c 43 s 809 and 2011 c 183 s 2 are each reenacted and amended to read as follows:<Caption>Signature of a unit of government required<TextRun fontFamily="Times New Roman">—</TextRun>City or county as certification authority<TextRun fontFamily="Times New Roman">—</TextRun>Unit of state government prohibited from being certification authority<TextRun fontFamily="Times New Roman">—</TextRun>Exceptions.</Caption></BillSectionHeader>
+<P><TextRun amendingStyle="strikemarkleft">(1) If a signature of a unit of state or local government, including its appropriate officers or employees, is required by statute, administrative rule, court rule, or requirement of the office of financial management, that unit of state or local government may become a subscriber to a certificate issued by a licensed certification authority for purposes of conducting official public business with electronic records.</TextRun></P>
+<P><TextRun amendingStyle="strikemarkright">(2)</TextRun> A city or county may become a licensed certification authority under RCW 19.34.100 for purposes of providing services to local government, if authorized by ordinance adopted by the city or county legislative authority.</P>
+<P><TextRun amendingStyle="strike">(3) A unit of state government, except the secretary, may not act as a certification authority.</TextRun></P>
+<History>2011 1st sp.s. c 43 § 809; 2011 c 183 § 2; 1999 c 287 § 12; 1997 c 27 § 10.</History>
+<RCWNoteSection>
+<RevNote><NoteP><TextRun fontWeight="bold">Reviser's note:</TextRun> This section was amended by 2011 c 183 § 2 and by 2011 1st sp.s. c 43 § 809, each without reference to the other. Both amendments are incorporated in the publication of this section under RCW 1.12.025(2). For rule of construction, see RCW 1.12.025(1).</NoteP></RevNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>Purpose<TextRun fontFamily="Times New Roman">—</TextRun>2011 1st sp.s. c 43:</TextRun> See notes following RCW 43.19.003.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>1999 c 287:</TextRun> See note following RCW 19.34.010.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>Severability<TextRun fontFamily="Times New Roman">—</TextRun>1997 c 27:</TextRun> See notes following RCW 19.34.030.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>16</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>29A</TitleNumber><TextRun>.</TextRun><ChapterNumber>72</ChapterNumber><TextRun>.</TextRun><SectionNumber>010</SectionNumber></SectionCite> and 2003 c 111 s 1802 are each amended to read as follows:<Caption>Filing proposed measures with secretary of state.</Caption></BillSectionHeader>
+<P>If any legal voter of the state, either individually or on behalf of an organization, desires to petition the legislature to enact a proposed measure, or submit a proposed initiative measure to the people, or order that a referendum of all or part of any act, bill, or law, passed by the legislature be submitted to the people, he or she shall file with the secretary of state<TextRun amendingStyle="add">:</TextRun></P>
+<P><TextRun amendingStyle="add">(1) A</TextRun> legible copy of the measure proposed, or the act or part of such act on which a referendum is desired<TextRun amendingStyle="strike">, accompanied by an</TextRun><TextRun amendingStyle="add">;</TextRun></P>
+<P><TextRun amendingStyle="add">(2) A signed</TextRun> affidavit<TextRun amendingStyle="add">, or electronic submission,</TextRun> that the sponsor is a <TextRun amendingStyle="strike">legal</TextRun> <TextRun amendingStyle="add">registered</TextRun> voter<TextRun amendingStyle="add">;</TextRun> and</P>
+<P><TextRun amendingStyle="add">(3) A</TextRun> filing fee prescribed under RCW 43.07.120.</P>
+<History>2003 c 111 § 1802; 1982 c 116 § 1; 1965 c 9 § 29.79.010. Prior: 1913 c 138 § 1, part; RRS § 5397, part. Formerly RCW 29.79.010.</History>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>17</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>19</TitleNumber><TextRun>.</TextRun><ChapterNumber>34</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>To the extent that this chapter is in conflict with this act, this act supersedes the provisions of this chapter regarding the same subject matter.</P>
+</BillSection>
+<BillSection type="new" action="repeal">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>18</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>39</TitleNumber><TextRun>.</TextRun><ChapterNumber>04</ChapterNumber><TextRun>.</TextRun><SectionNumber>390</SectionNumber></SectionCite> (Electronic competitive bidding) and 2014 c 151 s 1 are each repealed.</BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

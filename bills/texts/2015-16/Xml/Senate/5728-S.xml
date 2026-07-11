@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-2008.1</RequestNumber><ShortBillId>SSB 5728</ShortBillId><LongBillId>SUBSTITUTE SENATE BILL 5728</LongBillId><Legislature>64th Legislature</Legislature><Session>2015 Regular Session</Session><Sponsors>Senate Ways &amp; Means (originally sponsored by Senators Darneille, Rivers, Rolfes, Ranker, Keiser, Parlette, Hasegawa, Chase, and Jayapal)</Sponsors><BillHistory><ReadDate>READ FIRST TIME 02/27/15.</ReadDate></BillHistory><BriefDescription>Concerning screening for HIV infection.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to permitting opt-out screening for HIV infection; amending RCW 70.24.330; adding a new section to chapter 70.24 RCW; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature finds that the scientific community's understanding of the human immunodeficiency virus has changed significantly since the virus was first identified. With that change has come increased awareness of the value of incorporating HIV testing into routine health screenings. The legislature also finds that since 2006, the United States centers for disease control has recommended one-time screening of adolescent and adult patients to identify persons who are already HIV-positive, making HIV testing a regular part of the medical care provided by a primary care provider and on the same voluntary basis as other diagnostic and screening tests. In that same recommendation, the centers for disease control formally adopted its current recommendations for an opt-out model of HIV screening for all individuals ages thirteen to sixty-four and for all pregnant women. The legislature finds further that it is appropriate to update the state's HIV screening policy by adopting these recommendations.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>70</TitleNumber><TextRun>.</TextRun><ChapterNumber>24</ChapterNumber><TextRun>.</TextRun><SectionNumber>330</SectionNumber></SectionCite> and 1988 c 206 s 702 are each amended to read as follows:<Caption>HIV testing<TextRun fontFamily="Times New Roman">—</TextRun>Consent, exceptions.</Caption></BillSectionHeader>
+<P>No person may undergo HIV testing without the person's consent except:</P>
+<P>(1) Pursuant to RCW 7.70.065 for incompetent persons;</P>
+<P>(2) In seroprevalence studies where neither the persons whose blood is being tested know the test results nor the persons conducting the tests know who is undergoing testing;</P>
+<P>(3) If the department of labor and industries determines that it is relevant, in which case payments made under Title 51 RCW may be conditioned on the taking of an HIV antibody test; or</P>
+<P>(4) As otherwise expressly authorized by this chapter <TextRun amendingStyle="add">and section 3 of this act</TextRun>.</P>
+<History>1988 c 206 § 702.</History>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>70</TitleNumber><TextRun>.</TextRun><ChapterNumber>24</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) Screening for HIV infection must be offered by clinicians consistent with the United States preventive services task force recommendations for all patients age thirteen through sixty-four years and for all pregnant women. Screening is voluntary and may be undertaken only after the patient or the patient's authorized representative has been told that HIV testing is planned and that HIV testing will be performed unless the patient declines.</P>
+<P>(2) If a health care provider offers to perform an HIV test, and the patient or patient's authorized representative declines the HIV test, the health care provider may not use the fact that the person declined an HIV test as a basis for denying services or treatment, other than an HIV test, to the person.</P>
+</BillSection>
+</BillBody>
+</Bill>

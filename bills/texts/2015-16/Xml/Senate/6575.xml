@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-4046.1</RequestNumber><ShortBillId>SB 6575</ShortBillId><LongBillId>SENATE BILL 6575</LongBillId><Legislature>64th Legislature</Legislature><Session>2016 Regular Session</Session><Sponsors>Senators Conway, Hasegawa, Chase, Keiser, Fraser, and Frockt</Sponsors><BillHistory><ReadDate>Read first time 01/27/16.</ReadDate><ReferredCommittee>Referred to Committee on Commerce &amp; Labor.</ReferredCommittee></BillHistory><BriefDescription>Addressing the time period for workers to recover wages under prevailing wage laws.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to the time period for workers to recover wages under prevailing wage laws; and amending RCW 39.12.015.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>39</TitleNumber><TextRun>.</TextRun><ChapterNumber>12</ChapterNumber><TextRun>.</TextRun><SectionNumber>015</SectionNumber></SectionCite> and 1965 ex.s. c 133 s 2 are each amended to read as follows:<Caption>Industrial statistician to make determinations of prevailing rate.</Caption></BillSectionHeader>
+<P><TextRun amendingStyle="add">(1)</TextRun> All determinations of the prevailing rate of wage shall be made by the industrial statistician of the department of labor and industries.</P>
+<P><TextRun amendingStyle="add">(2) The time period for recovery of any wages owed to a worker affected by the determination is tolled until the prevailing wage determination is final.</TextRun></P>
+<History>1965 ex.s. c 133 § 2.</History>
+</BillSection>
+</BillBody>
+</Bill>

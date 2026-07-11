@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-1706.1</RequestNumber><ShortBillId>SB 6017</ShortBillId><LongBillId>SENATE BILL 6017</LongBillId><Legislature>64th Legislature</Legislature><Session>2015 Regular Session</Session><Sponsors>Senators Liias, Conway, Fraser, McAuliffe, Chase, Kohl-Welles, and Darneille</Sponsors><BillHistory><ReadDate>Read first time 02/17/15.</ReadDate><ReferredCommittee>Referred to Committee on Ways &amp; Means.</ReferredCommittee></BillHistory><BriefDescription>Providing cost-of-living adjustments for plan 1 retirees of the teachers' retirement system and public employees' retirement system.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to cost-of-living adjustments for plan 1 retirees of the teachers' retirement system and public employees' retirement system; adding a new section to chapter 41.32 RCW; adding a new section to chapter 41.40 RCW; creating a new section; and declaring an emergency.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P />The legislature finds that providing a cost-of-living adjustment to retirement benefits will help retirees manage rising costs over time by ensuring that benefits keep pace with inflation. The legislature finds that plan 2 and plan 3 retirees in the teachers' retirement system and the public employees' retirement system receive an annual cost-of-living adjustment to retirement benefits. However, plan 1 retirees in these systems do not receive an annual cost-of-living adjustment. It is the legislature's intent to provide the same annual cost-of-living adjustment for plan 1 retirees as is provided for plan 2 and plan 3 members.</BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>41</TitleNumber><TextRun>.</TextRun><ChapterNumber>32</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>Beginning July 1, 2015, and every year thereafter, the department shall determine the following information for each plan 1 retired member or beneficiary whose retirement allowance has been in effect for at least one year:</P>
+<P>(1) The original dollar amount of the retirement allowance as of June 30, 2015, or the effective date of retirement, whichever is later;</P>
+<P>(2) The index for the calendar year prior to July 1, 2014, or the effective date of the retirement allowance, whichever is later, to be known as "index A";</P>
+<P>(3) The index for the calendar year prior to the date of determination, to be known as "index B"; and</P>
+<P>(4) The ratio obtained when index B is divided by index A.</P>
+<P>The value of the ratio obtained is the annual adjustment to the original retirement allowance and must be applied beginning with the July payment. In no event, however, may the annual adjustment:</P>
+<P>(a) Produce a retirement allowance which is lower than the original retirement allowance;</P>
+<P>(b) Exceed three percent in the initial annual adjustment; or</P>
+<P>(c) Differ from the previous year's annual adjustment by more than three percent.</P>
+<P>For the purposes of this section, "index" means, for any calendar year, that year's average consumer price index <TextRun fontFamily="Times New Roman">—</TextRun> Seattle, Washington area for urban wage earners and clerical workers, all items, compiled by the bureau of labor statistics, United States department of labor.</P>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>41</TitleNumber><TextRun>.</TextRun><ChapterNumber>40</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>Beginning July 1, 2015, and every year thereafter, the department shall determine the following information for each plan 1 retired member or beneficiary whose retirement allowance has been in effect for at least one year:</P>
+<P>(1) The original dollar amount of the retirement allowance as of June 30, 2015, or the effective date of retirement, whichever is later;</P>
+<P>(2) The index for the calendar year prior to July 1, 2014, or the effective date of the retirement allowance, whichever is later, to be known as "index A";</P>
+<P>(3) The index for the calendar year prior to the date of determination, to be known as "index B"; and</P>
+<P>(4) The ratio obtained when index B is divided by index A.</P>
+<P>The value of the ratio obtained is the annual adjustment to the original retirement allowance and must be applied beginning with the July payment. In no event, however, may the annual adjustment:</P>
+<P>(a) Produce a retirement allowance which is lower than the original retirement allowance;</P>
+<P>(b) Exceed three percent in the initial annual adjustment; or</P>
+<P>(c) Differ from the previous year's annual adjustment by more than three percent.</P>
+<P>For the purposes of this section, "index" means, for any calendar year, that year's average consumer price index <TextRun fontFamily="Times New Roman">—</TextRun> Seattle, Washington area for urban wage earners and clerical workers, all items, compiled by the bureau of labor statistics, United States department of labor.</P>
+</BillSection>
+<BillSection type="new" action="emerg" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act is necessary for the immediate preservation of the public peace, health, or safety, or support of the state government and its existing public institutions, and takes effect immediately.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

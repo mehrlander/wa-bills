@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-3739.1</RequestNumber><ShortBillId>SB 6471</ShortBillId><LongBillId>SENATE BILL 6471</LongBillId><Legislature>64th Legislature</Legislature><Session>2016 Regular Session</Session><Sponsors>Senators Ranker, Jayapal, Darneille, Hargrove, Keiser, Rolfes, Hasegawa, Conway, and Chase</Sponsors><BillHistory><ReadDate>Read first time 01/21/16.</ReadDate><ReferredCommittee>Referred to Committee on Health Care.</ReferredCommittee></BillHistory><BriefDescription>Promoting transparency of prescription drug pricing and costs.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to promoting transparency of prescription drug pricing and costs; adding a new section to chapter 41.05 RCW; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature finds that annual cost reporting on the most expensive prescription drugs will be of use to policymakers, government agencies, and other purchasers seeking to understand the pricing and value of these important products. The legislature intends to make pharmaceutical pricing as transparent as the pricing in other sectors of the health care industry by making information available to the public about the costs of ultrahigh-priced pharmaceuticals.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>41</TitleNumber><TextRun>.</TextRun><ChapterNumber>05</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) Each manufacturer of a prescription drug made available in Washington that has a wholesale acquisition cost of ten thousand dollars or more annually or per course of treatment shall file a report with the authority pursuant to this section on the costs for each qualifying drug.</P>
+<P>(2) The report required pursuant to subsection (1) of this section must include the following information for each drug:</P>
+<P>(a) The total costs for the production of the drug, including:</P>
+<P>(i) The total research and development costs paid by the manufacturer and, separately, the total research and development costs paid by any predecessor in the development of the drug;</P>
+<P indent="1">(ii) The total costs of clinical trials and other regulatory costs paid by the manufacturer and, separately, the total costs of clinical trials and other regulatory costs paid by any predecessor in the development of the drug;</P>
+<P indent="1">(iii) The total costs for materials, manufacturing, and administration attributable to the drug;</P>
+<P indent="1">(iv) The total costs paid by any entity other than the manufacturer or predecessor for research and development, including any amount from federal, state, or other governmental programs or any form of subsidies, grants, or other support;</P>
+<P indent="1">(v) Any other costs to acquire the drug, including costs for the purchase of patents, and the licensing or acquisition of any corporate entity owning any rights to the drug while in development;</P>
+<P indent="1">(vi) The total marketing and advertising costs for the promotion of the drug directly to consumers, including costs associated with direct to consumer coupons and amounts redeemed, total marketing and advertising costs for promotion of the drug directly or indirectly to prescribers, and any other advertising for the drug;</P>
+<P>(b) A cumulative annual history of average wholesale price and wholesale acquisition cost increases for the drug, expressed as a percentage, including the months in which each increase in each category, average wholesale price, and wholesale acquisition cost took effect;</P>
+<P>(c) The total profit attributable to the drug, represented in total dollars and as a percentage of the total company profits derived from the sale of the drug;</P>
+<P>(d) The total amount of financial assistance the manufacturer has provided through patient prescription assistance programs.</P>
+<P>(3) The information required in subsection (2) of this section must be itemized and documented by the manufacturer, and audited by a fully independent third-party auditor prior to filing.</P>
+<P>(4) The information required by this section shall be filed annually with the authority on a form prescribed by the authority and shall be submitted no later than June 1st each year.</P>
+<P>(5) The authority shall submit an annual report to the legislature outlining the information submitted pursuant to subsection (2) of this section, and shall post the report on its  publicly available web site not later than October 31st each year.</P>
+<P>(6) The authority shall convene an advisory panel to develop the form required by this section. The panel must include representatives from the pharmaceutical industry, health care service plans and insurers, pharmacy benefit managers, governmental agencies, consumer advocates, and health care providers with prescribing authority.</P>
+</BillSection>
+</BillBody>
+</Bill>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-4184.2</RequestNumber><ShortBillId>SSB 6272</ShortBillId><LongBillId>SUBSTITUTE SENATE BILL 6272</LongBillId><Legislature>64th Legislature</Legislature><Session>2016 Regular Session</Session><Sponsors>Senate Health Care (originally sponsored by Senators Becker, Bailey, Dammeier, Parlette, Brown, O'Ban, Cleveland, Frockt, Keiser, Conway, Warnick, Carlyle, Darneille, Rolfes, and Chase)</Sponsors><BillHistory><ReadDate>READ FIRST TIME 02/05/16.</ReadDate></BillHistory><BriefDescription>Concerning the reimbursement rate primary care providers receive to participate in medicaid.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to ensuring access to primary care services for medicaid beneficiaries by applying the medicare payment rate floor to primary care services furnished under medicaid by providers of primary care services; adding a new section to chapter 74.09 RCW; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P indent="0">The legislature finds as follows:</P></BillSectionHeader>
+<P>(1) Access to primary care services is essential to ensure quality of life and lower health care costs for Washingtonians.</P>
+<P>(2) In particular, access for medicaid patients to primary care services is critical.</P>
+<P>(3) Primary care for any population is critical to ensuring continuity of care, as well as to providing necessary preventive care, which improves overall health and can reduce health care costs and emergency room admissions.</P>
+<P>(4) The availability of primary care is particularly important for medicaid beneficiaries, to establish a regular source of care and to provide services to a group that is more prone to chronic health conditions that can be appropriately managed by primary care physicians.</P>
+<P>(5) Primary care physicians also perform the vital function of coordinating care, including specialty care.</P>
+<P>(6) In Washington, medicaid provides coverage for over one million eight hundred thousand people, including forty-six percent of Washington's children. Without medicaid coverage, many enrollees would be uninsured or lack coverage for services they need.</P>
+<P>(7) Historically, inadequate physician reimbursement rates have proven to be a barrier to access to care for the medicaid population. In Washington, medicaid pays sixty-six percent less than medicare for the same primary care services.</P>
+<P>(8) A recent Washington state primary care medicaid survey found that more than three-quarters of primary care physicians in Washington that are not in large health care organizations would stop or limit their acceptance of new medicaid patients or stop or limit care for current medicaid patients if the fair medicaid payments at medicare rates were not maintained.</P>
+<P>(9) According to a study published in 2015 in the New England Journal of Medicine, higher medicaid payment rates have significantly increased appointment availability for medicaid enrollees.</P>
+<P>(10) It is critical that primary care providers receive sufficient reimbursement to participate in medicaid. Applying medicare rates encourages greater provider participation by primary care physicians in medicaid, thereby increasing access to primary care health services by medicaid beneficiaries, particularly in underserved areas.</P>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>74</TitleNumber><TextRun>.</TextRun><ChapterNumber>09</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) Medicaid payment for primary care services furnished by a nurse practitioner, a physician assistant, a physician with a primary specialty designation of family medicine, general internal medicine, or pediatric medicine or provided by subspecialists within these primary specialties as recognized in accordance with the American board of medical specialties, the American board of physician specialties, and the American osteopathic association, on a fee-for-service basis as well as through managed health care systems, must be at a rate not less than one hundred percent of the payment rate that applies to those services and providers under medicare.</P>
+<P>(2) The impacted primary care providers must continue to seek restoration of federal funding for the rate increase, and notify the legislature when the funding is secured.</P>
+</BillSection>
+</BillBody>
+</Bill>

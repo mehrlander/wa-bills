@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-4271.1</RequestNumber><ShortBillId>SSB 6528</ShortBillId><LongBillId>SUBSTITUTE SENATE BILL 6528</LongBillId><Legislature>64th Legislature</Legislature><Session>2016 Regular Session</Session><Sponsors>Senate Trade &amp; Economic Development (originally sponsored by Senators Brown, Sheldon, Dammeier, Parlette, Schoesler, Warnick, Honeyford, Braun, Angel, Hewitt, Miloscia, O'Ban, Becker, Rivers, and Rolfes)</Sponsors><BillHistory><ReadDate>READ FIRST TIME 01/28/16.</ReadDate></BillHistory><BriefDescription>Enacting the cybersecurity jobs act.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to promoting economic development through protection of information technology resources; amending RCW 43.105.054; reenacting and amending RCW 43.105.020; and creating new sections.</BillTitle>
+<EnactedClause />
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) Communication and information resources in the various public agencies of the state are strategic and vital assets belonging to the people of Washington and are an important component of maintaining a vibrant economy. Coordinated efforts and a sense of urgency are necessary to protect these assets against unauthorized access, disclosure, use, and modification or destruction, whether accidental or deliberate, as well as to assure the confidentiality, integrity, and availability of information.</P></BillSectionHeader>
+<P>(2) State government has a duty to Washington citizens to ensure that the information entrusted to public agencies is safe, secure, and protected from unauthorized access, unauthorized use, or destruction.</P>
+<P>(3) Securing the state's communication and information resources is a statewide imperative requiring a coordinated and shared effort from all departments, agencies, and political subdivisions of the state and a long-term commitment to state funding that ensures the success of such efforts.</P>
+<P>(4) Risks to communication and information resources must be managed, and the integrity of data and the source, destination, and processes applied to data must be assured.</P>
+<P>(5) Information security standards, policies, and guidelines must be adopted and implemented throughout public agencies to ensure the development and maintenance of minimum information security controls to protect communication and information resources that support the operations and assets of those agencies.</P>
+<P>(6) Washington state must build upon its existing expertise in information technology including research and development facilities and workforce to become a national leader in cybersecurity.</P>
+</BillSection>
+<BillSection type="amendatory" action="remd">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>105</ChapterNumber><TextRun>.</TextRun><SectionNumber>020</SectionNumber></SectionCite> and 2015 3rd sp.s. c 1 s 102 are each reenacted and amended to read as follows:<Caption>Definitions.</Caption></BillSectionHeader>
+<P>The definitions in this section apply throughout this chapter unless the context clearly requires otherwise.</P>
+<P>(1) "Agency" means the consolidated technology services agency.</P>
+<P>(2) "Board" means the technology services board.</P>
+<P>(3) "Customer agencies" means all entities that purchase or use information technology resources, telecommunications, or services from the consolidated technology services agency.</P>
+<P>(4) "Director" means the state chief information officer, who is the director of the consolidated technology services agency.</P>
+<P>(5) "Enterprise architecture" means an ongoing activity for translating business vision and strategy into effective enterprise change. It is a continuous activity. Enterprise architecture creates, communicates, and improves the key principles and models that describe the enterprise's future state and enable its evolution.</P>
+<P>(6) "Equipment" means the machines, devices, and transmission facilities used in information processing, including but not limited to computers, terminals, telephones, wireless communications system facilities, cables, and any physical facility necessary for the operation of such equipment.</P>
+<P>(7) "Information" includes, but is not limited to, data, text, voice, and video.</P>
+<P>(8) <TextRun amendingStyle="add">"Information security" means the protection of communication and information resources from unauthorized access, use, disclosure, disruption, modification, or destruction in order to:</TextRun></P>
+<P><TextRun amendingStyle="add">(a) Prevent improper information modification or destruction;</TextRun></P>
+<P><TextRun amendingStyle="add">(b) Preserve authorized restrictions on information access and disclosure;</TextRun></P>
+<P><TextRun amendingStyle="add">(c) Ensure timely and reliable access to and use of information; and</TextRun></P>
+<P><TextRun amendingStyle="add">(d) Maintain the confidentiality, integrity, and availability of information.</TextRun></P>
+<P><TextRun amendingStyle="add">(9)</TextRun> "Information technology" includes, but is not limited to, all electronic technology systems and services, automated information handling, system design and analysis, conversion of data, computer programming, information storage and retrieval, telecommunications, requisite system controls, simulation, electronic commerce, radio technologies, and all related interactions between people and machines.</P>
+<P><TextRun amendingStyle="strike">(9)</TextRun> <TextRun amendingStyle="add">(10)</TextRun> "Information technology portfolio" or "portfolio" means a strategic management process documenting relationships between agency missions and information technology and telecommunications investments.</P>
+<P><TextRun amendingStyle="strike">(10)</TextRun> <TextRun amendingStyle="add">(11)</TextRun> "K<Hyphen type="nobreak" />20 network" means the network established in RCW 43.41.391.</P>
+<P><TextRun amendingStyle="strike">(11)</TextRun> <TextRun amendingStyle="add">(12)</TextRun> "Local governments" includes all municipal and quasi-municipal corporations and political subdivisions, and all agencies of such corporations and subdivisions authorized to contract separately.</P>
+<P><TextRun amendingStyle="strike">(12)</TextRun> <TextRun amendingStyle="add">(13)</TextRun> "Office" means the office of the state chief information officer within the consolidated technology services agency.</P>
+<P><TextRun amendingStyle="strike">(13)</TextRun> <TextRun amendingStyle="add">(14)</TextRun> "Oversight" means a process of comprehensive risk analysis and management designed to ensure optimum use of information technology resources and telecommunications.</P>
+<P><TextRun amendingStyle="strike">(14)</TextRun> <TextRun amendingStyle="add">(15)</TextRun> "Proprietary software" means that software offered for sale or license.</P>
+<P><TextRun amendingStyle="strike">(15)</TextRun> <TextRun amendingStyle="add">(16)</TextRun> "Public agency" means any agency of this state or another state; any political subdivision or unit of local government of this state or another state including, but not limited to, municipal corporations, quasi-municipal corporations, special purpose districts, and local service districts; any public benefit nonprofit corporation; any agency of the United States; and any Indian tribe recognized as such by the federal government.</P>
+<P><TextRun amendingStyle="strike">(16)</TextRun> <TextRun amendingStyle="add">(17)</TextRun> "Public benefit nonprofit corporation" means a public benefit nonprofit corporation as defined in RCW 24.03.005 that is receiving local, state, or federal funds either directly or through a public agency other than an Indian tribe or political subdivision of another state.</P>
+<P><TextRun amendingStyle="strike">(17)</TextRun> <TextRun amendingStyle="add">(18)</TextRun> "Public record" has the definitions in RCW 42.56.010 and chapter 40.14 RCW and includes legislative records and court records that are available for public inspection.</P>
+<P><TextRun amendingStyle="strike">(18)</TextRun> <TextRun amendingStyle="add">(19) "Security incident" means an accidental or deliberative event that results in or constitutes an imminent threat of the unauthorized access, loss, disclosure, modification, disruption, or destruction of communication and information resources.</TextRun></P>
+<P><TextRun amendingStyle="add">(20)</TextRun> "State agency" means every state office, department, division, bureau, board, commission, or other state agency, including offices headed by a statewide elected official.</P>
+<P><TextRun amendingStyle="strike">(19)</TextRun> <TextRun amendingStyle="add">(21)</TextRun> "Telecommunications" includes, but is not limited to, wireless or wired systems for transport of voice, video, and data communications, network systems, requisite facilities, equipment, system controls, simulation, electronic commerce, and all related interactions between people and machines.</P>
+<P><TextRun amendingStyle="strike">(20)</TextRun> <TextRun amendingStyle="add">(22)</TextRun> "Utility-based infrastructure services" includes personal computer and portable device support, servers and server administration, security administration, network administration, telephony, email, and other information technology services commonly used by state agencies.</P>
+<History>2015 3rd sp.s. c 1 § 102; 2011 1st sp.s. c 43 § 802; 2010 1st sp.s. c 7 § 64. Prior: 2009 c 565 § 32; 2009 c 509 § 7; 2009 c 486 § 14; 2003 c 18 § 2; prior: 1999 c 285 § 1; 1999 c 80 § 1; 1993 c 280 § 78; 1990 c 208 § 3; 1987 c 504 § 3; 1973 1st ex.s. c 219 § 3; 1967 ex.s. c 115 § 2.</History>
+<RCWNoteSection>
+<RevNote><NoteP><TextRun fontWeight="bold">Reviser's note: </TextRun>The definitions in this section have been alphabetized pursuant to RCW 1.08.015(2)(k).</NoteP></RevNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2015 3rd sp.s. c 1 §§ 101-109, 201-224, 406-408, 410, 501-507, 601, and 602:</TextRun> See note following RCW 43.105.007.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>Purpose<TextRun fontFamily="Times New Roman">—</TextRun>2011 1st sp.s. c 43:</TextRun> See notes following RCW 43.19.003.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2010 1st sp.s. c 26; 2010 1st sp.s. c 7:</TextRun> See note following RCW 43.330.400.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Findings<TextRun fontFamily="Times New Roman">—</TextRun>Intent<TextRun fontFamily="Times New Roman">—</TextRun>Purpose<TextRun fontFamily="Times New Roman">—</TextRun>Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2009 c 509:</TextRun> See notes following RCW 43.105.370.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Conflict with federal requirements<TextRun fontFamily="Times New Roman">—</TextRun>Intent<TextRun fontFamily="Times New Roman">—</TextRun>2009 c 486:</TextRun> See notes following RCW 28B.30.530.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Intent<TextRun fontFamily="Times New Roman">—</TextRun>Finding<TextRun fontFamily="Times New Roman">—</TextRun>2003 c 18:</TextRun> "It is the intent of the legislature to ensure that the state's considerable investment in radio communications facilities, and the radio spectrum that is licensed to government entities in the state, are managed in a way that promotes to the maximum extent the health and safety of the state's citizens and the economic efficiencies of coordinated planning, development, management, maintenance, accountability, and performance. The legislature finds that such coordination is essential for disaster preparedness, emergency management, and public safety, and that such coordination will result in more cost-effective use of state resources and improved government services." [2003 c 18 § 1.]</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2003 c 18:</TextRun> "This act is necessary for the immediate preservation of the public peace, health, or safety, or support of the state government and its existing public institutions, and takes effect July 1, 2003." [2003 c 18 § 6.]</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>Severability<TextRun fontFamily="Times New Roman">—</TextRun>1993 c 280:</TextRun> See RCW 43.330.902 and 43.330.903.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>1967 ex.s. c 115:</TextRun> "This act is necessary for the immediate preservation of the public peace, health and safety, the support of the state government and its existing public institutions, and shall take effect July 1, 1967." [1967 ex.s. c 115 § 8.]</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>105</ChapterNumber><TextRun>.</TextRun><SectionNumber>054</SectionNumber></SectionCite> and 2015 3rd sp.s. c 1 s 108 are each amended to read as follows:<Caption>Governing information technology<TextRun fontFamily="Times New Roman">—</TextRun>Standards and policies<TextRun fontFamily="Times New Roman">—</TextRun>Powers and duties of office.</Caption></BillSectionHeader>
+<P>(1) The director shall establish standards and policies to govern information technology in the state of Washington.</P>
+<P>(2) The office shall have the following powers and duties related to information services:</P>
+<P>(a) To develop statewide standards and policies governing the:</P>
+<P>(i) Acquisition of equipment, software, and technology-related services;</P>
+<P>(ii) Disposition of equipment;</P>
+<P>(iii) Licensing of the radio spectrum by or on behalf of state agencies; and</P>
+<P>(iv) Confidentiality of computerized data;</P>
+<P>(b) To develop statewide and interagency technical policies, standards, and procedures;</P>
+<P>(c) To review and approve standards and common specifications for new or expanded telecommunications networks proposed by agencies, public postsecondary education institutions, educational service districts, or statewide or regional providers of K-12 information technology services;</P>
+<P>(d) With input from the legislature and the judiciary, <TextRun amendingStyle="strike">[to]</TextRun> <TextRun amendingStyle="add">to</TextRun> provide direction concerning strategic planning goals and objectives for the state;</P>
+<P>(e) To establish policies for the periodic review by the director of state agency performance which may include but are not limited to analysis of:</P>
+<P>(i) Planning, management, control, and use of information services;</P>
+<P>(ii) Training and education;</P>
+<P>(iii) Project management; and</P>
+<P>(iv) Cybersecurity;</P>
+<P>(f) To coordinate with state agencies with an annual information technology expenditure that exceeds ten million dollars to implement a technology business management program to identify opportunities for savings and efficiencies in information technology expenditures and to monitor ongoing financial performance of technology investments; <TextRun amendingStyle="strike">and</TextRun></P>
+<P>(g) In conjunction with the consolidated technology services agency, to develop statewide standards for agency purchases of technology networking equipment and services<TextRun amendingStyle="add">;</TextRun></P>
+<P><TextRun amendingStyle="add">(h) To implement a process for detecting, reporting, and responding to security incidents consistent with the information security standards, policies, and guidelines adopted by the director;</TextRun></P>
+<P><TextRun amendingStyle="add">(i) To develop plans and procedures to ensure the continuity of commerce for information resources that support the operations and assets of state agencies in the event of a security incident; and</TextRun></P>
+<P><TextRun amendingStyle="add">(j) To work with the department of commerce and other economic development stakeholders to facilitate the development of Washington as a national leader in cybersecurity</TextRun>.</P>
+<P>(3) Statewide technical standards to promote and facilitate electronic information sharing and access are an essential component of acceptable and reliable public access service and complement content-related standards designed to meet those goals. The office shall:</P>
+<P>(a) Establish technical standards to facilitate electronic access to government information and interoperability of information systems, including wireless communications systems; and</P>
+<P>(b) Require agencies to include an evaluation of electronic public access needs when planning new information systems or major upgrades of systems.</P>
+<P>In developing these standards, the office is encouraged to include the state library, state archives, and appropriate representatives of state and local government.</P>
+<History>2015 3rd sp.s. c 1 § 108; 2013 2nd sp.s. c 33 § 1; 2011 1st sp.s. c 43 § 706. Formerly RCW 43.41A.025.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2015 3rd sp.s. c 1 §§ 101-109, 201-224, 406-408, 410, 501-507, 601, and 602:</TextRun> See note following RCW 43.105.007.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>Purpose<TextRun fontFamily="Times New Roman">—</TextRun>2011 1st sp.s. c 43:</TextRun> See notes following RCW 43.19.003.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act may be known and cited as the cybersecurity jobs act.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

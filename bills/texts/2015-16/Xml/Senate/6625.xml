@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-4251.1</RequestNumber><ShortBillId>SB 6625</ShortBillId><LongBillId>SENATE BILL 6625</LongBillId><Legislature>64th Legislature</Legislature><Session>2016 Regular Session</Session><Sponsors>Senators Conway, Hasegawa, Keiser, and Chase</Sponsors><BillHistory><ReadDate>Read first time 02/01/16.</ReadDate><ReferredCommittee>Referred to Committee on Commerce &amp; Labor.</ReferredCommittee></BillHistory><BriefDescription>Restricting the use of employment noncompetition agreements.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to employment noncompetition agreements; and adding a new section to chapter 49.44 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>49</TitleNumber><TextRun>.</TextRun><ChapterNumber>44</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) A noncompetition agreement is void and unenforceable if the individual subject to the noncompetition agreement:</P>
+<P>(a) Works for an hourly wage and is not a salaried employee; and</P>
+<P>(b) Is restricted from competing for an unreasonable length of time. A rebuttable presumption is created that an agreement not to compete for six months or longer is unreasonable.</P>
+<P>(2) In any cause of action by an employer to enforce a noncompetition agreement, to prevail the employer must prove by a preponderance of the evidence that the employer has a protectable interest and that a noncompetition agreement is reasonable.</P>
+<P>(3) Upon complaint by an interested party, the director of labor and industries shall cause an investigation to be made to determine whether there has been compliance with this section and the rules adopted under this section and if the investigation indicates that a violation may have occurred, a hearing shall be held in accordance with chapter 34.05 RCW. The director shall issue a written determination including his or her findings after the hearing. A judicial appeal from the director's determination may be taken in accordance with chapter 34.05 RCW, with the prevailing party entitled to recover reasonable costs and attorneys' fees.</P>
+<P>(4) For purposes of this section:</P>
+<P>(a) "Employee" means an employee of an employer.</P>
+<P>(b) "Employer" means any person, firm, corporation, partnership, business trust, legal representative, or other entity which engages in any business, industry, profession, or activity in this state and employs one or more employees, and includes the state, counties, cities, and all municipal corporations, public corporations, political subdivisions of the state, and charitable organizations.</P>
+<P>(c) "Noncompetition agreement" means an agreement between an employer and employee that is specifically designed to impede the ability of an employee to compete with an employer upon the termination of the employment relationship.</P>
+<P>(5) This section applies to noncompetition agreements entered into on or after the effective date of this section.</P>
+</BillSection>
+</BillBody>
+</Bill>

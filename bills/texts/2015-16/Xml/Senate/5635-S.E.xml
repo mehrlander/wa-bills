@@ -1,0 +1,826 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><ShortBillId>ESSB 5635</ShortBillId><LongBillId>ENGROSSED SUBSTITUTE SENATE BILL 5635</LongBillId><Legislature>64th Legislature</Legislature><Session>2016 Regular Session</Session><Sponsors>Senate Law &amp; Justice (originally sponsored by Senators Pedersen and O'Ban; by request of Uniform Law Commission)</Sponsors><BillHistory><ReadDate>READ FIRST TIME 02/05/16.</ReadDate></BillHistory><BriefDescription>Enacting the uniform power of attorney act.</BriefDescription></BillHeading><BillBody><BillTitle>AN ACT Relating to the uniform power of attorney act; amending RCW 11.88.080, 11.86.021, 11.88.010, 11.103.030, 30A.22.170, 70.122.130, 71.32.020, 71.32.050, 71.32.060, 71.32.100, 71.32.180, 71.32.200, and 71.32.260; adding a new chapter to Title 11 RCW; creating a new section; repealing RCW 11.94.010, 11.94.020, 11.94.030, 11.94.040, 11.94.043, 11.94.046, 11.94.050, 11.94.060, 11.94.070, 11.94.080, 11.94.090, 11.94.100, 11.94.110, 11.94.120, 11.94.130, 11.94.140, 11.94.150, 11.94.900, and 11.94.901; and providing an effective date.</BillTitle><EnactedClause />
+<Part>
+<P>PART I</P>
+</Part><BillSection type="new"><BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value fixed="true">101</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act may be known and cited as the uniform power of attorney act.</P></BillSectionHeader></BillSection><BillSection type="new"><BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>102</Value><TextRun>.  </TextRun></BillSectionNumber><P>The definitions in this section apply throughout this chapter unless the context clearly requires otherwise.</P></BillSectionHeader><P>(1) "Agent" means a person granted authority to act for a principal under a power of attorney, whether denominated an agent, attorney-in-fact, or otherwise. The term includes an original agent, coagent, successor agent, and a person to which an agent's authority is delegated.</P><P>(2) "Durable," with respect to a power of attorney, means not terminated by the principal's incapacity.</P><P>(3) "Electronic" means relating to technology having electrical, digital, magnetic, wireless, optical, electromagnetic, or similar capabilities.</P><P>(4) "Good faith" means honesty in fact.</P><P>(5) "Incapacity" means inability of an individual to manage property, business, personal, or health care affairs because the individual:</P><P>(a) Has an impairment in the ability to receive and evaluate information or make or communicate decisions even with the use of technological assistance; or</P><P>(b) Is:</P><P>(i) An absentee, as defined in chapter 11.80 RCW; or</P><P>(ii) Outside the United States and unable to return.</P><P>(6) "Person" means an individual, corporation, business trust, estate, trust, partnership, limited liability company, association, joint venture, public corporation, government or governmental subdivision, agency, or instrumentality, or any other legal or commercial entity.</P><P>(7) "Power of attorney" means a writing that uses the term "power of attorney" and grants authority to an agent to act in the place of the principal.</P><P>(8) "Presently exercisable general power of appointment," with respect to property or a property interest subject to a power of appointment, means power exercisable at the time in question to vest absolute ownership in the principal individually, the principal's estate, the principal's creditors, or the creditors of the principal's estate. The term includes a power of appointment not exercisable until the occurrence of a specified event, the satisfaction of an ascertainable standard, or the passage of a specified period only after the occurrence of the specified event, the satisfaction of the ascertainable standard, or the passage of the specified period. The term does not include a power exercisable in a fiduciary capacity or only by will.</P><P>(9) "Principal" means an individual who grants authority to an agent in a power of attorney.</P><P>(10) "Property" means anything that may be the subject of ownership, whether real or personal, legal or equitable, tangible or intangible, or any interest or right therein.</P><P>(11) "State" means a state of the United States, the District of Columbia, Puerto Rico, the United States Virgin Islands, or any territory or insular possession subject to the jurisdiction of the United States.</P><P>(12) "Stocks, bonds, and financial instruments" means stocks, bonds, mutual funds, and all other types of securities and financial instruments, whether held directly, indirectly, or in any other manner. The term shall also include but not be limited to commodity futures contracts, call or put options on stocks or stock indexes, derivatives, and margin accounts.</P></BillSection><BillSection type="new"><BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>103</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) This chapter applies to all powers of attorney except:</P></BillSectionHeader><P>(a) A power to the extent it is coupled with an interest in the subject of the power, including a power given to or for the benefit of a creditor in connection with a credit transaction;</P><P>(b) A proxy or other delegation to exercise voting rights or management rights with respect to an entity; and</P><P>(c) A power created on a form prescribed by a government or governmental subdivision, agency, or instrumentality for a governmental purpose.</P><P>(2) Notwithstanding subsection (1) of this section, section 117 of this act shall not apply to a power to make health care decisions under sections 217 and 218 of this act, nor shall it apply to the power to nominate a guardian for a minor child under section 218 of this act.</P></BillSection><BillSection type="new"><BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>104</Value><TextRun>.  </TextRun></BillSectionNumber><P>The authority conferred under a power of attorney created prior to the effective date of this section, and also for a power of attorney created on or after the effective date of this section, terminates upon the incapacity of the principal unless the writing contains the words "This power of attorney shall not be affected by disability of the principal," or "This power of attorney shall become effective upon the disability of the principal," or similar words showing the intent of the principal that the authority conferred shall be exercisable notwithstanding the principal's incapacity.</P></BillSectionHeader></BillSection><BillSection type="new"><BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>105</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) A power of attorney must be signed and dated by the principal, and the signature must be either acknowledged before a notary public or other individual authorized by law to take acknowledgments, or attested by two or more competent witnesses who are neither home care providers for the principal nor care providers at an adult family home or long-term care facility in which the principal resides, and who are unrelated to the principal or agent by blood, marriage, or state registered domestic partnership, by subscribing their names to the power of attorney, while in the presence of the principal and at the principal's direction or request.</P></BillSectionHeader><P>(2) A power of attorney shall be considered signed in accordance with this section if, in the case of a principal who is physically unable to sign his or her name, the principal makes a mark in accordance with RCW 11.12.030, or in the case of a principal who is physically unable to make a mark, the power of attorney is executed in accordance with RCW 64.08.100.</P><P>(3) A signature on a power of attorney is presumed to be genuine if the principal acknowledges the signature before a notary public or other individual authorized by law to take acknowledgments.</P></BillSection><BillSection type="new"><BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>106</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) A power of attorney executed in this state on or after the effective date of this section is valid if its execution complies with section 105 of this act.</P></BillSectionHeader><P>(2) A power of attorney executed in this state before the effective date of this section is valid if its execution complied with the law of this state as it existed at the time of execution.</P><P>(3) A power of attorney executed other than in this state is valid in this state if, when the power of attorney was executed, the execution complied with:</P><P>(a) The law of the jurisdiction that determines the meaning and effect of the power of attorney pursuant to section 107 of this act; or</P><P>(b) The requirements for a military power of attorney pursuant to 10 U.S.C. Sec. 1044b, as amended.</P><P>(4) Except as otherwise provided by statute other than this act, a photocopy or electronically transmitted copy of an original power of attorney has the same effect as the original.</P></BillSection><BillSection type="new"><BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>107</Value><TextRun>.  </TextRun></BillSectionNumber><P>The meaning and effect of a power of attorney is determined by the law of the jurisdiction indicated in the power of attorney and, in the absence of an indication of jurisdiction, by the law of the jurisdiction in which the power of attorney was executed.</P></BillSectionHeader></BillSection><BillSection type="new"><BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>108</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) In a power of attorney, a principal may nominate a guardian of the principal's estate or guardian of the principal's person for consideration by the court if protective proceedings for the principal's estate or person are begun after the principal executes the power of attorney. Except for good cause shown or disqualification, the court shall make its appointment in accordance with the principal's most recent nomination.</P></BillSectionHeader><P>(2) If, after a principal executes a power of attorney, a court appoints a guardian of the principal's estate or other fiduciary charged with the management of all of the principal's property, the power of attorney is terminated and the agent's authority does not continue unless continued by the court.</P><P>(3) If, after a principal executes a power of attorney, a court appoints a guardian of the principal's estate or other fiduciary charged with the management of some but not all of the principal's property, the power of attorney shall not terminate or be modified, except to the extent ordered by the court.</P></BillSection><BillSection type="new"><BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>109</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) A power of attorney is effective when executed unless the principal provides in the power of attorney that it becomes effective at a future date or upon the occurrence of a future event or contingency.</P></BillSectionHeader><P>(2) If a power of attorney becomes effective upon the occurrence of a future event or contingency, the principal, in the power of attorney, may authorize one or more persons to determine in a writing that the event or contingency has occurred.</P><P>(3) If a power of attorney becomes effective upon the principal's incapacity and the principal has not authorized a person to determine whether the principal is incapacitated, or the person authorized is unable or unwilling to make the determination, the power of attorney becomes effective upon a determination in a writing by:</P><P>(a) A physician or licensed psychologist, unrelated to the principal or agent by blood or marriage, who has personally examined the principal, that the principal is incapacitated within the meaning of section 102(5)(a) of this act; or</P><P>(b) A judge or an appropriate governmental official that the principal is incapacitated within the meaning of section 102(5)(b) of this act.</P><P>(4) A person authorized by the principal in the power of attorney to determine that the principal is incapacitated may act as the principal's personal representative pursuant to the health insurance portability and accountability act, sections 1171 through 1179 of the social security act, 42 U.S.C. Sec. 1320d, as amended, and applicable regulations, to obtain access to the principal's health care information and communicate with the principal's health care provider.</P></BillSection><BillSection type="new"><BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>110</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) A power of attorney terminates when:</P></BillSectionHeader><P>(a) The principal dies;</P><P>(b) The principal becomes incapacitated, if the power of attorney is not durable;</P><P>(c) The principal revokes the power of attorney;</P><P>(d) The power of attorney provides that it terminates;</P><P>(e) The purpose of the power of attorney is accomplished; or</P><P>(f) The principal revokes the agent's authority or the agent dies, becomes incapacitated, or resigns, and the power of attorney does not provide for another agent to act under the power of attorney.</P><P>(2) An agent's authority terminates when:</P><P>(a) The principal revokes the authority;</P><P>(b) The agent dies, becomes incapacitated, or resigns;</P><P>(c) An action is filed for the dissolution or annulment of the agent's marriage to the principal or for their legal separation, or an action is filed for dissolution or annulment of the agent's state registered domestic partnership with the principal or for their legal separation, unless the power of attorney otherwise provides; or</P><P>(d) The power of attorney terminates.</P><P>(3) An agent's authority which has been terminated under subsection (2)(c) of this section shall be reinstated effective immediately in the event that such action is dismissed with the consent of both parties or the petition for dissolution, annulment, or legal separation is withdrawn.</P><P>(4) Unless the power of attorney otherwise provides, an agent's authority is exercisable until the authority terminates under subsection (2) of this section, notwithstanding a lapse of time since the execution of the power of attorney.</P><P>(5) Termination of an agent's authority or of a power of attorney is not effective as to the agent or another person that, without actual knowledge of the termination, acts in good faith under the power of attorney. An act so performed, unless otherwise invalid or unenforceable, binds the principal and the principal's successors in interest.</P><P>(6) Incapacity of the principal of a power of attorney that is not durable does not revoke or terminate the power of attorney as to an agent or other person that, without actual knowledge of the incapacity, acts in good faith under the power of attorney. An act so performed, unless otherwise invalid or unenforceable, binds the principal and the principal's successors in interest.</P><P>(7) The execution of a power of attorney does not revoke a power of attorney previously executed by the principal unless the subsequent power of attorney provides that the previous power of attorney is revoked or that all other powers of attorney are revoked.</P></BillSection><BillSection type="new"><BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>111</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) A principal may designate in a power of attorney two or more persons to act as coagents. Unless the power of attorney otherwise provides, all coagents must exercise their authority jointly; provided, however, a coagent may delegate that coagent's authority to another coagent.</P></BillSectionHeader><P>(2) A principal may designate one or more successor agents to act if an agent resigns, dies, becomes incapacitated, is not qualified to serve, or declines to serve. A principal may grant authority to designate one or more successor agents to an agent or other person designated by name, office, or function. Unless the power of attorney otherwise provides, a successor agent:</P><P>(a) Has the same authority as that granted to the original agent; and</P><P>(b) May not act until all predecessor agents have resigned, died, become incapacitated, are no longer qualified to serve, or have declined to serve.</P><P>(3) Except as otherwise provided in the power of attorney and subsection (4) of this section, an agent that does not participate in or conceal a breach of fiduciary duty committed by another agent, including a predecessor agent, is not liable for the actions of the other agent.</P><P>(4) An agent that has actual knowledge of a breach or imminent breach of fiduciary duty by another agent shall notify the principal and, if the principal is incapacitated, take any action reasonably appropriate in the circumstances to safeguard the principal's best interest. An agent that fails to notify the principal or take action as required by this subsection is liable for the reasonably foreseeable damages that could have been avoided if the agent had notified the principal or taken such action.</P></BillSection><BillSection type="new"><BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>112</Value><TextRun>.  </TextRun></BillSectionNumber><P>Unless the power of attorney otherwise provides, an agent is entitled to reimbursement of expenses reasonably incurred on behalf of the principal and to reasonable compensation.</P></BillSectionHeader></BillSection><BillSection type="new"><BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>113</Value><TextRun>.  </TextRun></BillSectionNumber><P>Except as otherwise provided in the power of attorney, a person accepts appointment as an agent under a power of attorney by exercising authority or performing duties as an agent or by any other assertion or conduct indicating acceptance.</P></BillSectionHeader></BillSection><BillSection type="new"><BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>114</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) Notwithstanding provisions in the power of attorney, an agent that has accepted appointment shall:</P></BillSectionHeader><P>(a) Act in accordance with the principal's reasonable expectations to the extent actually known by the agent and, otherwise, in the principal's best interest;</P><P>(b) Act in good faith; and</P><P>(c) Act only within the scope of authority granted in the power of attorney.</P><P>(2) Except as otherwise provided in the power of attorney, an agent that has accepted appointment shall:</P><P>(a) Act loyally for the principal's benefit;</P><P>(b) Act so as not to create a conflict of interest that impairs the agent's ability to act impartially in the principal's best interest;</P><P>(c) Act with the care, competence, and diligence ordinarily exercised by agents in similar circumstances;</P><P>(d) Keep a record of all receipts, disbursements, and transactions made on behalf of the principal;</P><P>(e) Cooperate with a person that has authority to make health care decisions for the principal to carry out the principal's reasonable expectations to the extent actually known by the agent and, otherwise, act in the principal's best interest; and</P><P>(f) Attempt to preserve the principal's estate plan, to the extent actually known by the agent, if preserving the plan is consistent with the principal's best interest based on all relevant factors, including:</P><P>(i) The value and nature of the principal's property;</P><P>(ii) The principal's foreseeable obligations and need for maintenance;</P><P>(iii) Minimization of taxes, including income, estate, inheritance, generation-skipping transfer, and gift taxes; and</P><P>(iv) Eligibility for a benefit, a program, or assistance under a statute or rule.</P><P>(3) An agent that acts in good faith is not liable to any beneficiary of the principal's estate plan for failure to preserve the plan.</P><P>(4) An agent that acts with care, competence, and diligence for the best interest of the principal is not liable solely because the agent also benefits from the act or has an individual or conflicting interest in relation to the property or affairs of the principal.</P><P>(5) If an agent is selected by the principal because of special skills or expertise possessed by the agent or in reliance on the agent's representation that the agent has special skills or expertise, the special skills or expertise must be considered in determining whether the agent has acted with care, competence, and diligence under the circumstances.</P><P>(6) Absent a breach of duty to the principal, an agent is not liable if the value of the principal's property declines.</P><P>(7) An agent that engages another person on behalf of the principal is not liable for an act, error of judgment, or default of that person if the agent exercises care, competence, and diligence in selecting and monitoring the person, provided however that the agent shall not be relieved of liability for such person's discretionary acts, that, if done by the agent, would result in liability to the agent.</P><P>(8) Unless section 111(1) of this act applies, an agent may only delegate authority to another person if expressly authorized to do so in the power of attorney and may delegate some, but not all, of the authority granted by the principal. An agent that exercises authority to delegate to another person the authority granted by the principal is not liable for an act, error of judgment, or default of that person if the agent exercises care, competence, and diligence in selecting and monitoring the person, provided however that the agent shall not be relieved of liability for such person's discretionary acts, that, if done by the agent, would result in liability to the agent.</P><P>(9) Except as otherwise provided in the power of attorney, an agent is not required to disclose receipts, disbursements, or transactions conducted on behalf of the principal unless ordered by a court or requested in writing by the principal, a guardian, a conservator, another fiduciary acting for the principal, a governmental agency having authority to protect the welfare of the principal, or, upon the death of the principal, by the personal representative or successor in interest of the principal's estate. Such request by a guardian, conservator, or another fiduciary acting for the principal must be limited to information reasonably related to that guardian, conservator, or fiduciary's duties. If so requested, within thirty days the agent shall comply with the request or provide a writing or other record substantiating why additional time is needed and shall comply with the request within an additional thirty days.</P></BillSection><BillSection type="new"><BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>115</Value><TextRun>.  </TextRun></BillSectionNumber><P>A provision in a power of attorney relieving an agent of liability for breach of duty is binding on the principal and the principal's successors in interest except to the extent the provision:</P></BillSectionHeader><P>(1) Relieves the agent of liability for breach of duty committed dishonestly, with an improper motive, or with gross negligence to the purposes of the power of attorney or the best interest of the principal; or</P><P>(2) Was inserted as a result of an abuse of a confidential or fiduciary relationship with the principal.</P></BillSection><BillSection type="new"><BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>116</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) Except as otherwise provided in the power of attorney, the following persons may bring a petition described in subsection (2) of this section:</P></BillSectionHeader><P>(a) The principal or the agent;</P><P>(b) The spouse or state registered domestic partner of the principal;</P><P>(c) The guardian of the estate or person of the principal;</P><P>(d) Any other interested person, as long as the person demonstrates to the court's satisfaction that the person is interested in the welfare of the principal and has a good faith belief that the court's intervention is necessary, and that the principal is incapacitated at the time of filing the petition or otherwise unable to protect his or her own interests; and</P><P>(e) A person asked to accept the power of attorney.</P><P>(2) A person designated in subsection (1) of this section may file a petition requesting the court to construe a power of attorney or grant any other appropriate relief, including but not limited to:</P><P>(a) Determination of whether the power of attorney is in effect or has terminated;</P><P>(b) Compelling the agent to submit the agent's accounts or report the agent's acts as agent to the principal, the spouse or state registered domestic partner of the principal, the guardian of the person or the estate of the principal, or to any other person required by the court in its discretion, if the agent has not timely complied with a request under section 114(9) of this act. However, a government agency having authority to protect the welfare of the principal may file a petition upon the agent's refusal or failure to submit an accounting upon written request and shall not be required to wait sixty days;</P><P>(c) Ratification of past acts or approval of proposed acts of the agent;</P><P>(d) Issuance of an order directing the agent to exercise or refrain from exercising authority in a power of attorney in a particular manner or for a particular purpose;</P><P>(e) Modification of the authority of an agent under a power of attorney;</P><P>(f) Removal of the agent on a determination by the court of both of the following:</P><P>(i) Determination that the agent has violated or is unfit to perform the fiduciary duties under the power of attorney; and</P><P>(ii) Determination that the removal of the agent is in the best interest of the principal;</P><P>(g) Approval of the resignation of the agent and approval of the final accountings of the resigning agent if submitted, subject to any orders the court determines are necessary to protect the principal's interests;</P><P>(h) Confirmation of the authority of a successor agent to act under a power of attorney upon removal or resignation of the previous agent;</P><P>(i) Compelling a third person to honor the authority of an agent, provided that a third person may not be compelled to honor the agent's authority if the principal could not compel the third person to act in the same circumstances;</P><P>(j) Order the agent to furnish a bond in an amount the court determines to be appropriate.</P><P>(3) Any action commenced under this section shall be subject to the notice requirements of chapter 11.96A RCW.</P><P>(4) Upon motion by the principal, the court shall dismiss a petition filed under this section, unless the court finds that the principal lacks capacity to revoke the agent's authority or the power of attorney.</P><P>(5) Except as otherwise provided in section 120(3)(b) of this act, any action commenced under this section shall be subject to the provisions of RCW 11.96A.150.</P></BillSection><BillSection type="new"><BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>117</Value><TextRun>.  </TextRun></BillSectionNumber><P>An agent that violates this chapter is liable to the principal or the principal's successors in interest for the amount required to restore the value of the principal's property to what it would have been had the violation not occurred.</P></BillSectionHeader></BillSection><BillSection type="new"><BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>118</Value><TextRun>.  </TextRun></BillSectionNumber><P>Unless the power of attorney has been terminated in accordance with section 108 of this act, or the power of attorney provides a different method for an agent's resignation, an agent may resign by giving notice to the principal and, if the principal is incapacitated:</P></BillSectionHeader><P>(1) To the conservator or guardian, if one has been appointed for the principal, and a coagent or successor agent, if designated; or</P><P>(2) If there is no person described in subsection (1) of this section:</P><P>(a) To any person reasonably believed by the agent to have sufficient interest in the principal's welfare;</P><P>(b) To a governmental agency having authority to protect the welfare of the principal; or</P><P>(c) By filing notice with the county recorder's office in the county where the principal resides.</P></BillSection><BillSection type="new"><BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>119</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) For purposes of this section and section 120 of this act, "acknowledged" means purportedly verified before a notary public or other individual authorized to take acknowledgments.</P></BillSectionHeader><P>(2) A person that in good faith accepts an acknowledged power of attorney without actual knowledge that the signature is not genuine may rely upon the presumption under section 105 of this act that the signature is genuine.</P><P>(3) A person that in good faith accepts an acknowledged power of attorney without actual knowledge that the power of attorney is void, invalid, or terminated, that the purported agent's authority is void, invalid, or terminated, or that the agent is exceeding or improperly exercising the agent's authority may rely upon the power of attorney as if the power of attorney were genuine, valid and still in effect, the agent's authority were genuine, valid and still in effect, and the agent had not exceeded and had properly exercised the authority.</P><P>(4) A person that is asked to accept an acknowledged power of attorney may request, and rely upon, without further investigation:</P><P>(a) An agent's certification given under penalty of perjury meeting the requirements of subsection (5) of this section; and</P><P>(b) An English translation of the power of attorney if the power of attorney contains, in whole or in part, language other than English.</P><P>(5) A certification presented pursuant to subsection (4) of this section or pursuant to section 120 of this act shall state that:</P><P>(a) The person presenting himself or herself as the agent and signing the affidavit or declaration is the person so named in the power of attorney;</P><P>(b) If the agent is named in the power of attorney as a successor agent, the circumstances or conditions stated in the power of attorney that would cause that person to become the acting agent have occurred;</P><P>(c) To the best of the agent's knowledge, the principal is still alive;</P><P>(d) To the best of the agent's knowledge, at the time the power of attorney was signed, the principal was competent to execute the document and was not under undue influence to sign the document;</P><P>(e) All events necessary to making the power of attorney effective have occurred;</P><P>(f) The agent does not have actual knowledge of the revocation, termination, limitation, or modification of the power of attorney or of the agent's authority;</P><P>(g) The agent does not have actual knowledge of the existence of other circumstances that would limit, modify, revoke, or terminate the power of attorney or the agent's authority to take the proposed action;</P><P>(h) If the agent was married to or in a state registered domestic partnership with the principal at the time of execution of the power of attorney, then at the time of signing the affidavit or declaration, the marriage or state registered domestic partnership of the principal and the agent has not been dissolved or declared invalid; and</P><P>(i) The agent is acting in good faith pursuant to the authority given under the power of attorney.</P><P>(6) An English translation requested under this section must be provided at the principal's expense unless the request is made more than seven business days after the power of attorney is presented for acceptance.</P><P>(7) For purposes of this section and section 120 of this act, a person that conducts activities through employees is without actual knowledge of a fact relating to a power of attorney, a principal, or an agent if the employee conducting the transaction involving the power of attorney is without actual knowledge of the fact.</P></BillSection><BillSection type="new"><BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>120</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) Except as otherwise provided in subsection (2) of this section:</P></BillSectionHeader><P>(a) A person shall either accept an acknowledged power of attorney or request a certification or a translation no later than seven business days after presentation of the power of attorney for acceptance;</P><P>(b) If a person requests a certification or a translation, the person shall accept the power of attorney no later than five business days after receipt of the certification or translation; and</P><P>(c) A person may not require an additional or different form of power of attorney for authority granted in the power of attorney presented.</P><P>(2) A person is not required to accept an acknowledged power of attorney if:</P><P>(a) The person is not otherwise required to engage in a transaction with the principal in the same circumstances;</P><P>(b) Engaging in a transaction with the agent or the principal in the same circumstances would be inconsistent with federal law;</P><P>(c) The person has actual knowledge of the termination of the agent's authority or of the power of attorney before exercise of the power;</P><P>(d) A request for a certification or a translation is refused;</P><P>(e) The person in good faith believes that the power is not valid or that the agent does not have the authority to perform the act requested, whether or not a certification or a translation has been requested or provided; or</P><P>(f) The person makes, or has actual knowledge that another person has made, a report to the department of social and health services stating a good faith belief that the principal may be subject to physical or financial abuse, neglect, exploitation, or abandonment by the agent or a person acting for or with the agent.</P><P>(3) A person that refuses in violation of this section to accept an acknowledged power of attorney is subject to:</P><P>(a) A court order mandating acceptance of the power of attorney; and</P><P>(b) Liability for reasonable attorneys' fees and costs incurred in any action or proceeding that confirms the validity of the power of attorney or mandates acceptance of the power of attorney.</P></BillSection><BillSection type="new"><BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>121</Value><TextRun>.  </TextRun></BillSectionNumber><P>Unless displaced by a provision of this chapter, the principles of law and equity supplement this chapter.</P></BillSectionHeader></BillSection><BillSection type="new"><BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>122</Value><TextRun>.  </TextRun></BillSectionNumber><P>This chapter does not supersede any other law applicable to financial institutions or other entities, and the other law controls if inconsistent with this chapter.</P></BillSectionHeader></BillSection><BillSection type="new"><BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>123</Value><TextRun>.  </TextRun></BillSectionNumber><P>The remedies under this chapter are not exclusive and do not abrogate any right or remedy under the law of this state other than this chapter.</P></BillSectionHeader></BillSection>
+<Part>
+<P>PART II</P>
+</Part><BillSection type="new"><BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value fixed="true">201</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) An agent under a power of attorney may, subject to the requirements of section 114 of this act, and in particular section 114(2)(f) of this act, do the following on behalf of the principal or with the principal's property only if the power of attorney expressly grants the agent the authority and exercise of the authority is not otherwise prohibited by another agreement or instrument to which the authority or property is subject:</P></BillSectionHeader><P>(a) Create, amend, revoke, or terminate an inter vivos trust;</P><P>(b) Make a gift;</P><P>(c) Create or change rights of survivorship;</P><P>(d) Create or change a beneficiary designation;</P><P>(e) Delegate some but not all of the authority granted under the power of attorney, except as otherwise provided in section 111(1) of this act;</P><P>(f) Waive the principal's right to be a beneficiary of a joint and survivor annuity, including a survivor benefit under a retirement plan;</P><P>(g) Exercise fiduciary powers that the principal has authority to delegate;</P><P>(h) Exercise any power of appointment in favor of anyone other than the principal;</P><P>(i) Create, amend, or revoke a community property agreement;</P><P>(j) Cause a trustee to make distributions of property held in trust under the same conditions that the principal could;</P><P>(k) Make any other provisions for nonprobate transfer at death contained in nontestamentary instruments described in RCW 11.02.091;</P>
+<P>(l) Make health care decisions for the principal, or give informed consent to health care decisions on the principal's behalf.</P><P>(2) Notwithstanding the provisions of subsection (1)(a) of this section, an agent may, even in the absence of a specific grant of authority, make transfers of property to any trust that benefits the principal alone and does not have dispositive provisions that are different from those that would have governed the property had it not been transferred into such trust.</P><P>(3) Notwithstanding the provisions of subsection (1)(b) of this section, an agent may, even in the absence of a specific grant of authority, make any transfer of resources not prohibited under chapter 74.09 RCW when the transfer is for the purpose of qualifying the principal for medical assistance or the limited casualty program for the medically needy.</P><P>(4) Notwithstanding a grant of authority to do an act described in subsection (1) of this section, unless the power of attorney otherwise provides, an agent that is not an ancestor, spouse, state registered domestic partner, or descendant of the principal, may not exercise authority under a power of attorney to create in the agent, or in an individual to whom the agent owes a legal obligation of support, an interest in the principal's property, whether by gift, right of survivorship, beneficiary designation, disclaimer, or otherwise.</P><P>(5) Unless the power of attorney otherwise provides, a grant of authority to make a gift is subject to section 216 of this act.</P><P>(6) Subject to subsections (1) through (5) of this section, if the subjects over which authority is granted in a power of attorney are similar or overlap, the broadest authority controls.</P><P>(7) Authority granted in a power of attorney is exercisable with respect to property that the principal has when the power of attorney is executed or acquires later, whether or not the property is located in this state and whether or not the authority is exercised or the power of attorney is executed in this state.</P><P>(8) An act performed by an agent pursuant to a power of attorney has the same effect and inures to the benefit of and binds the principal and the principal's successors in interest as if the principal had performed the act.</P></BillSection><BillSection type="new"><BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>202</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) Subject to the provisions of section 201 of this act, if a power of attorney grants to an agent authority to do all acts that a principal could do or contains words of similar effect, the agent has the general authority described in sections 203 through 218 of this act.</P></BillSectionHeader><P>(2) An agent has authority described in this act if the power of attorney refers to general authority with respect to the descriptive term for the subjects stated in sections 204 through 218 of this act or cites the section in which the authority is described.</P><P>(3) A reference in a power of attorney to general authority with respect to the descriptive term for a subject in sections 204 through 218 of this act or a citation to a section of sections 204 through 218 of this act incorporates the entire section as if it were set out in full in the power of attorney.</P><P>(4) A principal may modify authority incorporated by reference.</P></BillSection><BillSection type="new"><BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>203</Value><TextRun>.  </TextRun></BillSectionNumber><P>Except as otherwise provided in the power of attorney, by executing a power of attorney that incorporates by reference a subject described in sections 204 through 218 of this act or that grants to an agent authority to do all acts that a principal could do pursuant to section 202(1) of this act, a principal authorizes the agent, with respect to that subject, to:</P></BillSectionHeader><P>(1) Demand, receive, and obtain by litigation or otherwise, declaratory or injunctive relief, money, or another thing of value to which the principal is, may become, or claims to be entitled, and conserve, invest, disburse, or use anything so received or obtained for the purposes intended;</P><P>(2) Contract in any manner with any person, on terms agreeable to the agent, to accomplish a purpose of a transaction and perform, rescind, cancel, terminate, reform, restate, release, or modify the contract or another contract made by or on behalf of the principal;</P><P>(3) Execute, acknowledge, seal, deliver, file, or record any instrument or communication the agent considers desirable to accomplish a purpose of a transaction, including creating at any time a schedule listing some or all of the principal's property and attaching it to the power of attorney;</P><P>(4) Initiate, participate in, submit to alternative dispute resolution, settle, oppose, or propose or accept a compromise with respect to a claim existing in favor of or against the principal or intervene in litigation relating to the claim;</P><P>(5) Seek on the principal's behalf the assistance of a court or other governmental agency to carry out an act authorized in the power of attorney;</P><P>(6) Engage, compensate, and discharge an attorney, accountant, investment manager, expert witness, or other advisor;</P><P>(7) Prepare, execute, and file a record, report, or other document to safeguard or promote the principal's interest under a statute or regulation;</P><P>(8) Communicate with any representative or employee of a government or governmental subdivision, agency, or instrumentality, on behalf of the principal;</P><P>(9) Access communications intended for, and communicate on behalf of the principal, whether by mail, electronic transmission, telephone, or other means; and</P><P>(10) Do any lawful act with respect to the subject and all property related to the subject.</P></BillSection><BillSection type="new"><BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>204</Value><TextRun>.  </TextRun></BillSectionNumber><P>Unless the power of attorney otherwise provides, language in a power of attorney granting general authority with respect to real property authorizes the agent to:</P></BillSectionHeader><P>(1) Demand; buy; sublease; license; receive; accept as a gift or as security for an extension of credit; or otherwise acquire or reject an interest in real property or a right incident to real property;</P><P>(2) Sell; exchange; convey with or without reservations, covenants, representations, or warranties; quitclaim; release; surrender; retain title for security; encumber; partition; consent to partitioning; subject to an easement or covenant, common interest regime; subdivide; apply for zoning or other governmental permits; plat or consent to platting; develop; grant an option concerning; lease; sublease; license; contribute to an entity in exchange for an interest in that entity; or, subject to section 201 of this act, otherwise grant or dispose of an interest in real property or a right incident to real property;</P><P>(3) Pledge or mortgage an interest in real property or right incident to real property as security to borrow money or pay, renew, extend the time of payment of a debt of the principal or a debt guaranteed by the principal, or as security for a nonmonetary obligation;</P><P>(4) Release, assign, satisfy, or enforce by litigation or otherwise a mortgage, deed of trust, conditional sale contract, encumbrance, lien, or other claim to real property which exists or is asserted;</P><P>(5) Manage or conserve an interest in real property or a right incident to real property owned or claimed to be owned by the principal, including:</P><P>(a) Insuring against liability or casualty or other loss;</P><P>(b) Obtaining or regaining possession of or protecting the interest or right by litigation or otherwise;</P><P>(c) Paying, assessing, compromising, or contesting taxes or assessments or applying for and receiving refunds in connection with them; and</P><P>(d) Purchasing supplies, hiring assistance or labor, and making repairs or alterations to the real property;</P><P>(6) Use, develop, alter, replace, remove, erect, or install structures or other improvements upon real property in or incident to which the principal has, or claims to have, an interest or right;</P><P>(7) Participate in a reorganization with respect to real property or an entity that owns an interest in or right incident to real property and receive, and hold, and act with respect to stocks and bonds or other property received in a plan of reorganization, including:</P><P>(a) Selling or otherwise disposing of them;</P><P>(b) Exercising or selling an option, right of conversion, or similar right with respect to them; and</P><P>(c) Exercising any voting rights in person or by proxy;</P><P>(8) Change the form of title of an interest in or right incident to real property; and</P><P>(9) Dedicate to public use, with or without consideration, easements or other real property in which the principal has, or claims to have, an interest.</P></BillSection><BillSection type="new"><BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>205</Value><TextRun>.  </TextRun></BillSectionNumber><P>Unless the power of attorney otherwise provides, language in a power of attorney granting general authority with respect to tangible personal property authorizes the agent to:</P></BillSectionHeader><P>(1) Demand, buy, receive, accept as a gift or as security for an extension of credit, or otherwise acquire or reject ownership or possession of tangible personal property or an interest in tangible personal property;</P><P>(2) Sell; exchange; convey with or without covenants, representations, or warranties; quitclaim; release; surrender; create a security interest in; grant options concerning; lease; sublease; or, otherwise dispose of tangible personal property or an interest in tangible personal property;</P><P>(3) Grant a security interest in tangible personal property or an interest in tangible personal property as security to borrow money or pay, renew, or extend the time of payment of a debt of the principal or a debt guaranteed by the principal;</P><P>(4) Release, assign, satisfy, or enforce by litigation or otherwise, a security interest, lien, or other claim on behalf of the principal, with respect to tangible personal property or an interest in tangible personal property;</P><P>(5) Manage or conserve tangible personal property or an interest in tangible personal property on behalf of the principal, including:</P><P>(a) Insuring against liability or casualty or other loss;</P><P>(b) Obtaining or regaining possession of or protecting the property or interest, by litigation or otherwise;</P><P>(c) Paying, assessing, compromising, or contesting taxes or assessments or applying for and receiving refunds in connection with taxes or assessments;</P><P>(d) Moving the property from place to place;</P><P>(e) Storing the property for hire or on a gratuitous bailment; and</P><P>(f) Using and making repairs, alterations, or improvements to the property; and</P><P>(6) Change the form of title of an interest in tangible personal property.</P></BillSection><BillSection type="new"><BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>206</Value><TextRun>.  </TextRun></BillSectionNumber><P>Unless the power of attorney otherwise provides, language in a power of attorney granting general authority with respect to stocks, bonds, and financial instruments authorizes the agent to:</P></BillSectionHeader><P>(1) Buy, sell, and exchange stocks, bonds, and financial instruments;</P><P>(2) Establish, continue, modify, or terminate an account with respect to stocks, bonds, and financial instruments;</P><P>(3) Pledge stocks, bonds, and financial instruments as security to borrow, pay, renew, or extend the time of payment of a debt of the principal;</P><P>(4) Receive certificates and other evidences of ownership with respect to stocks, bonds, and financial instruments;</P><P>(5) Exercise voting rights with respect to stocks, bonds, and financial instruments in person or by proxy, enter into voting trusts, and consent to limitations on the right to vote;</P><P>(6) Buy, sell, exchange, assign, settle, and exercise commodity futures contracts and call or put options on stocks or stock indexes traded on a regulated option exchange; and</P><P>(7) Establish, continue, modify, and terminate option accounts.</P></BillSection><BillSection type="new"><BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>207</Value><TextRun>.  </TextRun></BillSectionNumber><P>Except as otherwise expressly provided in this act and in chapter 30A.22 RCW, unless the power of attorney otherwise provides, language in a power of attorney granting general authority with respect to banks and other financial institutions authorizes the agent to:</P></BillSectionHeader><P>(1) Continue, modify, and terminate an account or other banking arrangement made by or on behalf of the principal;</P><P>(2) Establish, modify, and terminate an account or other banking arrangement with a bank, trust company, savings and loan association, credit union, thrift company, brokerage firm, or other financial institution selected by the agent;</P><P>(3) Contract for services available from a financial institution, including renting a safe deposit box or space in a vault;</P><P>(4) Withdraw, by check, order, electronic funds transfer, or otherwise, money or property of the principal deposited with or left in the custody of a financial institution;</P><P>(5) Receive statements of account, vouchers, notices, and similar documents from a financial institution and act with respect to them;</P><P>(6) Enter a safe deposit box or vault and withdraw or add to the contents;</P><P>(7) Borrow money and pledge as security personal property of the principal necessary to borrow money or pay, renew, or extend the time of payment of a debt of the principal or a debt guaranteed by the principal;</P><P>(8) Make, assign, draw, endorse, discount, guarantee, and negotiate promissory notes, checks, drafts, and other negotiable or nonnegotiable paper of the principal or payable to the principal or the principal's order, transfer money, receive the cash or other proceeds of those transactions, and accept a draft drawn by a person upon the principal and pay it when due;</P><P>(9) Receive for the principal and act upon a sight draft, warehouse receipt, or other document of title whether tangible or electronic, or other negotiable or nonnegotiable instrument;</P><P>(10) Apply for, receive, and use letters of credit, credit and debit cards, electronic transaction authorizations, and traveler's checks from a financial institution and give an indemnity or other agreement in connection with letters of credit; and</P><P>(11) Consent to an extension of the time of payment with respect to commercial paper or a financial transaction with a financial institution.</P></BillSection><BillSection type="new"><BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>208</Value><TextRun>.  </TextRun></BillSectionNumber><P>Subject to the terms of a document or an agreement governing an entity or an entity ownership interest, and unless the power of attorney otherwise provides, language in a power of attorney granting general authority with respect to operation of an entity or business authorizes the agent to:</P></BillSectionHeader><P>(1) Operate, buy, sell, enlarge, reduce, or terminate an ownership interest;</P><P>(2) Perform a duty or discharge a liability and exercise in person or by proxy a right, power, privilege, or option that the principal has, may have, or claims to have;</P><P>(3) Enforce the terms of an ownership agreement;</P><P>(4) Initiate, participate in, submit to alternative dispute resolution, settle, oppose, or propose or accept a compromise with respect to litigation to which the principal is a party because of an ownership interest;</P><P>(5) Exercise in person or by proxy, or enforce by litigation or otherwise, a right, power, privilege, or option the principal has or claims to have as the holder of stocks, bonds, and financial instruments;</P><P>(6) Initiate, participate in, submit to alternative dispute resolution, settle, oppose, or propose or accept a compromise with respect to litigation to which the principal is a party concerning stocks, bonds, and financial instruments;</P><P>(7) With respect to an entity or business owned solely by the principal:</P><P>(a) Continue, modify, renegotiate, extend, and terminate a contract made by or on behalf of the principal with respect to the entity or business before execution of the power of attorney;</P><P>(b) Determine:</P><P>(i) The location of its operation;</P><P>(ii) The nature and extent of its business;</P><P>(iii) The methods of manufacturing, selling, merchandising, financing, accounting, and advertising employed in its operation;</P><P>(iv) The amount and types of insurance carried; and</P><P>(v) The mode of engaging, compensating, and dealing with its employees and accountants, attorneys, or other advisors;</P><P>(c) Change the name or form of organization under which the entity or business is operated and enter into an ownership agreement with other persons to take over all or part of the operation of the entity or business; and</P><P>(d) Demand and receive money due or claimed by the principal or on the principal's behalf in the operation of the entity or business and control and disburse the money in the operation of the entity or business;</P><P>(8) Put additional capital into an entity or business in which the principal has an interest;</P><P>(9) Join in a plan of reorganization, consolidation, conversion, domestication, or merger of the entity or business;</P><P>(10) Sell or liquidate all or part of an entity or business;</P><P>(11) Establish through agreement or independent appraisal the value of an entity or business to which the principal is a party;</P><P>(12) Prepare, sign, file, and deliver reports, compilations of information, returns, or other papers with respect to an entity or business and make related payments; and</P><P>(13) Pay, compromise, or contest taxes, assessments, fines, or penalties and perform any other act to protect the principal from illegal or unnecessary taxation, assessments, fines, or penalties, with respect to an entity or business, including attempts to recover, in any manner permitted by law, money paid before or after the execution of the power of attorney.</P></BillSection><BillSection type="new"><BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>209</Value><TextRun>.  </TextRun></BillSectionNumber><P>Unless the power of attorney otherwise provides, language in a power of attorney granting general authority with respect to insurance and annuities authorizes the agent to:</P></BillSectionHeader><P>(1) Continue, pay the premium or make a contribution on, modify, exchange, sell, rescind, release, or terminate a contract procured by or on behalf of the principal which insures or provides an annuity to either the principal or another person, whether or not the principal is a beneficiary under the contract;</P><P>(2) Procure new, different, and additional contracts of insurance and annuities for the benefit of the principal and the principal's spouse, state registered domestic partner, children, and other dependents, and select the amount, type of insurance or annuity, and mode of payment;</P><P>(3) Pay the premium or make a contribution on, modify, exchange, rescind, release, or terminate a contract of insurance or annuity procured by the agent;</P><P>(4) Apply for and receive a loan secured by a contract of insurance or annuity;</P><P>(5) Surrender and receive the cash surrender value on a contract of insurance or annuity;</P><P>(6) Exercise an election;</P><P>(7) Exercise investment powers available under a contract of insurance or annuity;</P><P>(8) Change the manner of paying premiums on a contract of insurance or annuity;</P><P>(9) Change or convert the type of insurance or annuity with respect to which the principal has or claims to have authority described in this section;</P><P>(10) Apply for and procure a benefit or assistance under a statute or regulation to guarantee or pay premiums of a contract of insurance on the life of the principal;</P><P>(11) Collect, sell, assign, hypothecate, borrow against, or pledge the interest of the principal in a contract of insurance or annuity;</P><P>(12) Select the form and timing of the payment of proceeds from a contract of insurance or annuity; and</P><P>(13) Pay, from proceeds or otherwise, compromise or contest, and apply for refunds in connection with, a tax or assessment levied by a taxing authority with respect to a contract of insurance or annuity or its proceeds or liability accruing by reason of the tax or assessment.</P></BillSection><BillSection type="new"><BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>210</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) In this section, "estates, trusts, and other beneficial interests" means a trust, probate estate, guardianship, conservatorship, escrow, or custodianship or a fund from which the principal is, may become, or claims to be, entitled to a share or payment.</P></BillSectionHeader><P>(2) Unless the power of attorney otherwise provides, language in a power of attorney granting general authority with respect to estates, trusts, and other beneficial interests authorizes the agent to:</P><P>(a) Accept, receive, receipt for, sell, assign, pledge, or exchange a share in or payment from the fund;</P><P>(b) Demand or obtain money or another thing of value to which the principal is, may become, or claims to be, entitled by reason of the fund, by litigation or otherwise;</P><P>(c) Exercise for the benefit of the principal a presently exercisable general power of appointment held by the principal;</P><P>(d) Exercise for the benefit of the principal a presently exercisable limited power of appointment held by the principal;</P><P>(e) Initiate, participate in, submit to alternative dispute resolution, settle, oppose, or propose or accept a compromise with respect to litigation to ascertain the meaning, validity, or effect of a deed, will, declaration of trust, or other instrument or transaction affecting the interest of the principal;</P><P>(f) Initiate, participate in, submit to alternative dispute resolution, settle, oppose, or propose or accept a compromise with respect to litigation to remove, substitute, or surcharge a fiduciary, and any other matter as defined under RCW 11.96A.030;</P><P>(g) Conserve, invest, disburse, or use anything received for an authorized purpose;</P><P>(h) Transfer an interest of the principal in real property, stocks, bonds, and financial instruments, accounts with financial institutions or securities intermediaries, insurance, annuities, and other property to the trustee of a revocable trust created by the principal as settlor, subject to the limitations in section 201(1) of this section; and</P><P>(i) Reject, renounce, disclaim, release, or consent to a reduction in or modification of a share in or payment from the fund.</P></BillSection><BillSection type="new"><BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>211</Value><TextRun>.  </TextRun></BillSectionNumber><P>Unless the power of attorney otherwise provides, language in a power of attorney granting general authority with respect to claims and litigation authorizes the agent, without the need for appointment of a guardian or guardian ad litem under Title 4 RCW, to:</P></BillSectionHeader><P>(1) Assert and maintain before a court or administrative agency a claim, claim for relief, cause of action, counterclaim, offset, recoupment, or defense, including an action to recover property or other thing of value, recover damages sustained by the principal, eliminate or modify tax liability, or seek an injunction, specific performance, or other relief;</P><P>(2) Bring or defend an action to determine adverse claims or intervene or otherwise participate in litigation;</P><P>(3) Seek an attachment, garnishment, order of arrest, or other preliminary, provisional, or intermediate relief and use an available procedure to effect or satisfy a judgment, order, or decree;</P><P>(4) Make or accept a tender, offer of judgment, or admission of facts, submit a controversy on an agreed statement of facts, consent to examination, and bind the principal in litigation;</P><P>(5) Submit to alternative dispute resolution, settle, and propose or accept a compromise, subject to special proceeding rule 98.16W;</P><P>(6) Waive the issuance and service of process upon the principal, accept service of process, appear for the principal, designate persons upon which process directed to the principal may be served, execute, and file or deliver stipulations on the principal's behalf, verify pleadings, seek appellate review, procure and give surety and indemnity bonds, contract and pay for the preparation and printing of records and briefs, receive, execute, and file or deliver a consent, waiver, release, confession of judgment, satisfaction of judgment, notice, agreement, or other instrument in connection with the prosecution, settlement, or defense of a claim or litigation;</P><P>(7) Act for the principal with respect to bankruptcy or insolvency, whether voluntary or involuntary, concerning the principal or some other person, or with respect to a reorganization, receivership, or application for the appointment of a receiver or trustee which affects an interest of the principal in property or other thing of value;</P><P>(8) Pay a judgment, award, or order against the principal or a settlement made in connection with a claim or litigation; and</P><P>(9) Receive money or other thing of value paid in settlement of or as proceeds of a claim or litigation.</P></BillSection><BillSection type="new"><BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>212</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) Unless the power of attorney otherwise provides, language in a power of attorney granting general authority with respect to personal and family maintenance authorizes the agent to:</P></BillSectionHeader><P>(a) Perform the acts necessary to maintain the customary standard of living of the principal, the principal's spouse or state registered domestic partner, and the following individuals, whether living when the power of attorney is executed or later born:</P><P>(i) The principal's children;</P><P>(ii) Other individuals legally entitled to be supported by the principal; and</P><P>(iii) The individuals whom the principal has customarily supported or indicated the intent to support;</P><P>(b) Make periodic payments of child support and other family maintenance required by a court or governmental agency or an agreement to which the principal is a party;</P><P>(c) Provide living quarters for the individuals described in subsection (1) of this section by:</P><P>(i) Purchase, lease, or other contract; or</P><P>(ii) Paying the operating costs, including interest, amortization payments, repairs, improvements, and taxes, for premises owned by the principal or occupied by those individuals;</P><P>(d) Provide reasonable domestic help, usual vacations and travel expenses, and funds for shelter, clothing, food, appropriate education, including postsecondary and vocational education, and other current living costs for the individuals described in subsection (1) of this section;</P><P>(e) Pay expenses for necessary health care and custodial care on behalf of the individuals described in subsection (1) of this section;</P><P>(f) Act as the principal's personal representative pursuant to the health insurance portability and accountability act, sections 1171 through 1179 of the social security act, 42 U.S.C. Sec. 1320d, as amended, and applicable regulations, for the limited purpose of making decisions regarding the payment of costs and expenses arising from past, present, or future health care provided to the principal which was consented to by the principal or anyone authorized under the law of this state to consent to health care on behalf of the principal;</P><P>(g) Continue any provision made by the principal for automobiles or other means of transportation, including registering, licensing, insuring, and replacing them, for the individuals described in subsection (1) of this section;</P><P>(h) Maintain credit and debit accounts for the convenience of the individuals described in subsection (1) of this section and open new accounts; and</P><P>(i) Continue payments incidental to the membership or affiliation of the principal in a religious institution, club, society, order, or other organization or to continue contributions to those organizations.</P><P>(2) Authority with respect to personal and family maintenance is neither dependent upon, nor limited by, authority that an agent may or may not have with respect to gifts under this act.</P></BillSection><BillSection type="new"><BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>213</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) In this section, "benefits from governmental programs or civil or military service" means any benefit, program or assistance provided under a statute or regulation including social security, medicare, and medicaid.</P></BillSectionHeader><P>(2) Unless the power of attorney otherwise provides, language in a power of attorney granting general authority with respect to benefits from governmental programs or civil or military service authorizes the agent to:</P><P>(a) Execute vouchers in the name of the principal for allowances and reimbursements payable by the United States or a foreign government or by a state or subdivision of a state to the principal, including allowances and reimbursements for transportation of the individuals described in section 212(1)(a) of this act, and for shipment of their household effects;</P><P>(b) Take possession and order the removal and shipment of property of the principal from a post, warehouse, depot, dock, or other place of storage or safekeeping, either governmental or private, and execute and deliver a release, voucher, receipt, bill of lading, shipping ticket, certificate, or other instrument for that purpose;</P><P>(c) Enroll in, apply for, select, reject, change, amend, or discontinue, on the principal's behalf, a benefit or program;</P><P>(d) Prepare, file, and maintain a claim of the principal for a benefit or assistance, financial or otherwise, to which the principal may be entitled under a statute or regulation;</P><P>(e) Initiate, participate in, submit to alternative dispute resolution, settle, oppose, or propose or accept a compromise with respect to litigation concerning any benefit or assistance the principal may be entitled to receive under a statute or regulation; and</P><P>(f) Receive the financial proceeds of a claim described in (d) of this subsection and conserve, invest, disburse, or use for a lawful purpose anything so received.</P></BillSection><BillSection type="new"><BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>214</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) In this section, "retirement plan" means a plan or account created by an employer, the principal, or another individual to provide retirement benefits or deferred compensation of which the principal is a participant, beneficiary, or owner, including but not limited to a plan or account under the following sections of the internal revenue code:</P></BillSectionHeader><P>(a) An individual retirement account under internal revenue code section 408, 26 U.S.C. Sec. 408, as amended;</P><P>(b) A roth individual retirement account under internal revenue code section 408A, 26 U.S.C. Sec. 408A, as amended;</P><P>(c) A deemed individual retirement account under internal revenue code section 408(q), 26 U.S.C. Sec. 408(q), as amended;</P><P>(d) An annuity or mutual fund custodial account under internal revenue code section 403(b), 26 U.S.C. Sec. 403(b), as amended;</P><P>(e) A pension, profit-sharing, stock bonus, or other retirement plan qualified under internal revenue code section 401(a), 26 U.S.C. Sec. 401(a), as amended;</P><P>(f) A plan under internal revenue code section 457(b), 26 U.S.C. Sec. 457(b), as amended; and</P><P>(g) A nonqualified deferred compensation plan under internal revenue code section 409A, 26 U.S.C. Sec. 409A, as amended.</P><P>(2) Unless the power of attorney otherwise provides, language in a power of attorney granting general authority with respect to retirement plans authorizes the agent to:</P><P>(a) Select the form and timing of payments under a retirement plan and withdraw benefits from a plan;</P><P>(b) Make a rollover, including a direct trustee-to-trustee rollover, of benefits from one retirement plan to another;</P><P>(c) Establish a retirement plan in the principal's name;</P><P>(d) Make contributions to a retirement plan;</P><P>(e) Exercise investment powers available under a retirement plan; and</P><P>(f) Borrow from, sell assets to, or purchase assets from a retirement plan.</P></BillSection><BillSection type="new"><BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>215</Value><TextRun>.  </TextRun></BillSectionNumber><P>Unless the power of attorney otherwise provides, language in a power of attorney granting general authority with respect to taxes authorizes the agent to:</P></BillSectionHeader><P>(1) Prepare, sign, and file federal, state, local, and foreign income, gift, payroll, property, federal insurance contributions act, and other tax returns, claims for refunds, requests for extension of time, petitions regarding tax matters, and any other tax-related documents, including receipts, offers, waivers, consents, including consents and agreements under internal revenue code section 2032A, 26 U.S.C. Sec. 2032A, as amended, closing agreements, and any power of attorney required by the internal revenue service or other taxing authority including, but not limited to, an internal revenue service form 2848 in favor of any third party with respect to a tax year upon which the statute of limitations has not run and the following twenty-five tax years;</P><P>(2) Pay taxes due, collect refunds, post bonds, receive confidential information, and contest deficiencies determined by the internal revenue service or other taxing authority;</P><P>(3) Exercise any election available to the principal under federal, state, local, or foreign tax law; and</P><P>(4) Act for the principal in all tax matters for all periods before the internal revenue service, or other taxing authority.</P></BillSection><BillSection type="new"><BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>216</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) In this section, a gift "for the benefit of" a person includes but is not limited to a gift to a trust, an account under the uniform transfers to minors act of any jurisdiction, and a tuition savings account or prepaid tuition plan as defined under internal revenue code section 529, 26 U.S.C. Sec. 529, as amended. Notwithstanding the terms of section 201(1)(a) of this act, the power to make a gift pursuant to section 201(1)(b) of this act shall include the power to create a trust, an account under the uniform transfers to minors act, or a tuition savings account or prepaid tuition plan as defined under internal revenue code section 529, 26 U.S.C. Sec. 529, as amended, into which a gift is to be made.</P></BillSectionHeader><P>(2) Unless the power of attorney otherwise provides, language in a power of attorney granting general authority with respect to gifts authorizes the agent only to:</P><P>(a) Make outright to, or for the benefit of, a person, a gift of any of the principal's property, including by the exercise of a presently exercisable general power of appointment held by the principal, in an amount per donee not to exceed the annual dollar limits of the federal gift tax exclusion under internal revenue code section 2503(b), 26 U.S.C. Sec. 2503(b), as amended, without regard to whether the federal gift tax exclusion applies to the gift, or if the principal's spouse agrees to consent to a split gift pursuant to internal revenue code section 2513, 26 U.S.C. Sec. 2513, as amended, in an amount per donee not to exceed twice the annual federal gift tax exclusion limit; and</P><P>(b) Consent, pursuant to internal revenue code section 2513, 26 U.S.C. Sec. 2513, as amended, to the splitting of a gift made by the principal's spouse in an amount per donee not to exceed the aggregate annual gift tax exclusions for both spouses.</P><P>(3) An agent may make a gift outright to, or for the benefit of, a person of the principal's property only as the agent determines is consistent with the principal's objectives if actually known by the agent and, if unknown, as the agent determines is consistent with the principal's best interest based on all relevant factors, including but not limited to:</P><P>(a) The value and nature of the principal's property;</P><P>(b) The principal's foreseeable obligations and need for maintenance;</P><P>(c) Minimization of taxes, including income, estate, inheritance, generation-skipping transfer, and gift taxes;</P><P>(d) Eligibility for a benefit, a program, or assistance under a statute or rule; and</P><P>(e) The principal's personal history of making or joining in making gifts.</P></BillSection><BillSection type="new"><BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>217</Value><TextRun>.  </TextRun></BillSectionNumber><P>Unless the power of attorney otherwise provides, where language in a power of attorney grants general authority with respect to health care matters:</P></BillSectionHeader><P>(1) The agent shall be authorized to act as the principal's personal representative pursuant to the health insurance portability and accountability act, sections 1171 through 1179 of the social security act, 42 U.S.C. Sec. 1320d, as amended, and applicable regulations for all purposes thereunder, including but not limited to accessing and acquiring the principal's health care related information.</P><P>(2) The agent shall be authorized to provide informed consent for health care decisions on the principal's behalf. If a principal has appointed more than one agent with authority to make mental health treatment decisions in accordance with a directive under chapter 71.32 RCW, to the extent of any conflict, the most recently appointed agent shall be treated as the principal's agent for mental health treatment decisions unless provided otherwise in either appointment.</P><P>(3) Unless he or she is the spouse, state registered domestic partner, father or mother, or adult child or brother or sister of the principal, none of the following persons may act as the agent for the principal: Any of the principal's physicians, the physicians' employees, or the owners, administrators, or employees of the health care facility or long-term care facility as defined in RCW 43.190.020 where the principal resides or receives care. Except when the principal has consented in a mental health advance directive executed under chapter 71.32 RCW to inpatient admission or electroconvulsive therapy, this authorization is subject to the same limitations as those that apply to a guardian under RCW 11.92.043(5) (a) through (c) and 11.92.190.</P></BillSection><BillSection type="new"><BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>218</Value><TextRun>.  </TextRun></BillSectionNumber><P>Unless the power of attorney otherwise provides, the following general provisions shall apply to any power of attorney making reference to the care of the principal's minor children:</P></BillSectionHeader><P>(1) A parent or guardian, through a power of attorney, may authorize an agent to make health care decisions on behalf of one or more of his or her children, or children for whom he or she is the legal guardian, who are under the age of majority as defined in RCW 26.28.015, to be effective if the child has no other parent or legal representative readily available and authorized to give such consent.</P><P>(2) A principal may further nominate a guardian or guardians of the person, or of the estate or both, of a minor child, whether born at the time of making the durable power of attorney or afterwards, to continue during the disability of the principal, during the minority of the child or for any less time by including such a provision in his or her power of attorney.</P><P>(3) The authority of any guardian of the person of any minor child shall supersede the authority of a designated agent to make health care decisions for the minor only after such designated guardian has been appointed by the court.</P><P>(4) In the event a conflict between the provisions of a will nominating a testamentary guardian under the authority of RCW 11.88.080 and the nomination of a guardian under the authority of this statute, the most recent designation shall control.</P></BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>219</Value><TextRun>.  </TextRun></BillSectionNumber><P>Notwithstanding any provision in this act, or any provision in a power of attorney, no rights under Washington's death with dignity act, chapter 70.245 RCW, may be exercised through a power of attorney.</P></BillSectionHeader>
+</BillSection>
+<Part>
+<P>PART III</P>
+</Part><BillSection type="new"><BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value fixed="true">301</Value><TextRun>.  </TextRun></BillSectionNumber><P postPadding="halfline">The following optional form may be used by an agent to certify facts concerning a power of attorney.</P></BillSectionHeader><Table align="center" width="508.0pt" pubwidth="wide">
+<Col width="254pt" />
+<Col width="254pt" />
+<TR>
+<TD colspan="2"><P textAlign="center"><TextRun fontWeight="bold">AGENT'S CERTIFICATION AS TO THE VALIDITY OF POWER OF ATTORNEY</TextRun></P><P textAlign="center"><TextRun fontWeight="bold">AND AGENT'S AUTHORITY</TextRun></P></TD>
+</TR>
+<TR>
+<TD><P>State of <Leader character="underscore" /></P></TD>
+<TD><P indent="0" /></TD>
+</TR>
+<TR>
+<TD><P>[County] of <Leader character="underscore" />]</P></TD>
+<TD><P indent="0" /></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0">I, <TextRun amendingStyle="add">                                                  </TextRun> (Name of Agent), [certify] under penalty of perjury that <TextRun amendingStyle="add">                                              </TextRun> (Name of Principal) granted me authority as an agent or successor agent in a power of attorney dated <TextRun amendingStyle="add">                      </TextRun>.</P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0">I further [certify] that to my knowledge:</P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="2">(1) I am acting in good faith pursuant to the authority given under the power of attorney;</P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="2">(2) The principal is alive and has not terminated, revoked, limited, or modified the power of attorney or my authority to act under the power of attorney; nor has the power of attorney or my authority to act under the power of attorney been terminated, revoked, limited, or modified by any other circumstances;</P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="2">(3) When the power of attorney was signed, the principal was competent to execute it and was not under undue influence to sign;</P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="2">(4) All events necessary to making the power of attorney effective have occurred;</P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="2">(5) If I was married or a registered domestic partner of the principal when the power of attorney was executed, there has been no subsequent dissolution, annulment, or legal separation;</P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="2">(6) If the power of attorney was drafted to become effective upon the happening of an event or contingency, the event or contingency has occurred;</P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="2">(7) If I was named as a successor agent, the prior agent is no longer able or willing to serve, or the conditions stated in the power of attorney that cause me to become the acting agent have occurred; and</P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="2">(8) <Leader character="underscore" /></P><P prePadding="halfline"><Leader character="underscore" /></P><P prePadding="halfline"><Leader character="underscore" /></P><P prePadding="halfline"><Leader character="underscore" /></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P textAlign="center">(Insert other relevant statements)</P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P textAlign="center"><TextRun fontWeight="bold">SIGNATURE AND ACKNOWLEDGMENT</TextRun></P></TD>
+</TR>
+<TR>
+<TD><P indent="0"><Leader character="underscore" /></P><P indent="0">Agent's Signature</P></TD>
+<TD><P indent="0"><Leader character="underscore" /></P><P indent="0">Date</P></TD>
+</TR>
+<TR>
+<TD><P indent="0"><Leader character="underscore" /></P><P indent="0">Agent's Name Printed</P></TD>
+<TD><P indent="0" /></TD>
+</TR>
+<TR>
+<TD><P indent="0"><Leader character="underscore" /></P><P indent="0" prePadding="oneline"><Leader character="underscore" /></P><P indent="0">Agent's Address</P></TD>
+<TD><P indent="0" /></TD>
+</TR>
+<TR>
+<TD><P indent="0"><Leader character="underscore" /></P><P indent="0">Agent's Telephone Number</P></TD>
+<TD><P indent="0" /></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0">This document was acknowledged before me on <Leader character="underscore" />,</P></TD>
+</TR>
+<TR>
+<TD><P indent="0" /></TD>
+<TD><P indent="0">          (Date)</P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0">by <Leader character="underscore" /></P><P indent="0">                (Name of Agent)</P></TD>
+</TR>
+<TR>
+<TD><P indent="0"><Leader character="underscore" /></P><P indent="0">Signature of Notary</P></TD>
+<TD><P>(Seal, if any)</P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0">My commission expires: <Leader character="underscore" /></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0">[This document prepared by:</P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P><Leader character="underscore" />]</P></TD>
+</TR>
+</Table></BillSection>
+<Part>
+<P>PART IV</P>
+</Part><BillSection type="amendatory" action="amend"><BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value fixed="true">401</Value><TextRun>.  </TextRun></BillSectionNumber>RCW <SectionCite><TitleNumber>11</TitleNumber><TextRun>.</TextRun><ChapterNumber>88</ChapterNumber><TextRun>.</TextRun><SectionNumber>080</SectionNumber></SectionCite> and 2005 c 97 s 11 are each amended to read as follows:</BillSectionHeader><P>When either parent is deceased, the surviving parent of any minor child or a sole parent of a minor child, may by last will or durable power of attorney nominate a guardian or guardians of the person, or of the estate or both, of a minor child, whether born at the time of executing the instrument or afterwards, to continue during the minority of such child or for any less time. This nomination shall be effective in the event of the death or incapacity of such parent. Every guardian of the estate of a child shall give bond in like manner and with like conditions as required by RCW 11.88.100 and 11.88.110, and he or she shall have the same powers and perform the same duties with regard to the person and estate of the minor as a guardian appointed under this chapter. The court shall confirm the parent's nomination unless the court finds, based upon evidence presented at a hearing on the matter, that the individual nominated in the surviving parent's will or durable power of attorney is not qualified to serve. <TextRun amendingStyle="add">In the event of a conflict between the provisions of a will nominating a testamentary guardian under the authority of this section and the nomination of a guardian under section 218 of this act, the most recent designation shall control. This section applies to actions commenced under section 116 of this act.</TextRun></P></BillSection><BillSection type="amendatory" action="amend"><BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>402</Value><TextRun>.  </TextRun></BillSectionNumber>RCW <SectionCite><TitleNumber>11</TitleNumber><TextRun>.</TextRun><ChapterNumber>86</ChapterNumber><TextRun>.</TextRun><SectionNumber>021</SectionNumber></SectionCite> and 1989 c 34 s 2 are each amended to read as follows:</BillSectionHeader><P>(1) A beneficiary may disclaim an interest in whole or in part, or with reference to specific parts, shares or assets, in the manner provided in RCW 11.86.031.</P><P>(2) Likewise, a beneficiary may so disclaim through an agent or attorney so authorized by written instrument.</P><P>(3) A personal representative, guardian, attorney-in-fact if authorized under a durable power of attorney under chapter ((<TextRun amendingStyle="strikemarknone">11.94</TextRun>)) <TextRun amendingStyle="add">11.--</TextRun> RCW <TextRun amendingStyle="add">(the new chapter created in section 505 of this act)</TextRun>, or other legal representative of the estate of a minor, incompetent, or deceased beneficiary, may so disclaim on behalf of the beneficiary, with or without court order, if:</P><P>(a) The legal representative deems the disclaimer to be in the best interests of those interested in the estate of the beneficiary and of those who take the disclaimed interest because of the disclaimer, and not detrimental to the best interests of the beneficiary; and</P><P>(b) In the case of a guardian, no order has been issued under RCW 11.92.140 determining that the disclaimer is not in the best interests of the beneficiary.</P></BillSection><BillSection type="amendatory" action="amend"><BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>403</Value><TextRun>.  </TextRun></BillSectionNumber>RCW <SectionCite><TitleNumber>11</TitleNumber><TextRun>.</TextRun><ChapterNumber>88</ChapterNumber><TextRun>.</TextRun><SectionNumber>010</SectionNumber></SectionCite> and 2008 c 6 s 802 are each amended to read as follows:</BillSectionHeader><P>(1) The superior court of each county shall have power to appoint guardians for the persons and/or estates of incapacitated persons, and guardians for the estates of nonresidents of the state who have property in the county needing care and attention.</P><P>(a) For purposes of this chapter, a person may be deemed incapacitated as to person when the superior court determines the individual has a significant risk of personal harm based upon a demonstrated inability to adequately provide for nutrition, health, housing, or physical safety.</P><P>(b) For purposes of this chapter, a person may be deemed incapacitated as to the person's estate when the superior court determines the individual is at significant risk of financial harm based upon a demonstrated inability to adequately manage property or financial affairs.</P><P>(c) A determination of incapacity is a legal not a medical decision, based upon a demonstration of management insufficiencies over time in the area of person or estate. Age, eccentricity, poverty, or medical diagnosis alone shall not be sufficient to justify a finding of incapacity.</P><P>(d) A person may also be determined incapacitated if he or she is under the age of majority as defined in RCW 26.28.010.</P><P>(e) For purposes of giving informed consent for health care pursuant to RCW 7.70.050 and 7.70.065, an "incompetent" person is any person who is (i) incompetent by reason of mental illness, developmental disability, senility, habitual drunkenness, excessive use of drugs, or other mental incapacity, of either managing his or her property or caring for himself or herself, or both, or (ii) incapacitated as defined in (a), (b), or (d) of this subsection.</P><P>(f) For purposes of the terms "incompetent," "disabled," or "not legally competent," as those terms are used in the Revised Code of Washington to apply to persons incapacitated under this chapter, those terms shall be interpreted to mean "incapacitated" persons for purposes of this chapter.</P><P>(2) The superior court for each county shall have power to appoint limited guardians for the persons and estates, or either thereof, of incapacitated persons, who by reason of their incapacity have need for protection and assistance, but who are capable of managing some of their personal and financial affairs. After considering all evidence presented as a result of such investigation, the court shall impose, by order, only such specific limitations and restrictions on an incapacitated person to be placed under a limited guardianship as the court finds necessary for such person's protection and assistance. A person shall not be presumed to be incapacitated nor shall a person lose any legal rights or suffer any legal disabilities as the result of being placed under a limited guardianship, except as to those rights and disabilities specifically set forth in the court order establishing such a limited guardianship. In addition, the court order shall state the period of time for which it shall be applicable.</P><P>(3) Venue for petitions for guardianship or limited guardianship shall lie in the county wherein the alleged incapacitated person is domiciled, or if such person resides in a facility supported in whole or in part by local, state, or federal funding sources, in either the county where the facility is located, the county of domicile prior to residence in the supported facility, or the county where a parent or spouse or domestic partner of the alleged incapacitated person is domiciled.</P><P>If the alleged incapacitated person's residency has changed within one year of the filing of the petition, any interested person may move for a change of venue for any proceedings seeking the appointment of a guardian or a limited guardian under this chapter to the county of the alleged incapacitated person's last place of residence of one year or more. The motion shall be granted when it appears to the court that such venue would be in the best interests of the alleged incapacitated person and would promote more complete consideration of all relevant matters.</P><P>(4) Under ((<TextRun amendingStyle="strikemarknone">RCW 11.94.010</TextRun>)) <TextRun amendingStyle="add">section 108 of this act</TextRun>, a principal may nominate, by a durable power of attorney, the guardian or limited guardian of his or her estate or person for consideration by the court if guardianship proceedings for the principal's person or estate are thereafter commenced. The court shall make its appointment in accordance with the principal's most recent nomination in a durable power of attorney except for good cause or disqualification.</P><P>(5) Imposition of a guardianship for an incapacitated person shall not result in the loss of the right to vote unless the court determines that the person is incompetent for purposes of rationally exercising the franchise in that the individual lacks the capacity to understand the nature and effect of voting such that she or he cannot make an individual choice. The court order establishing guardianship shall specify whether or not the individual retains voting rights. When a court determines that the person is incompetent for the purpose of rationally exercising the right to vote, the court shall notify the appropriate county auditor.</P></BillSection><BillSection type="amendatory" action="amend"><BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>404</Value><TextRun>.  </TextRun></BillSectionNumber>RCW <SectionCite><TitleNumber>11</TitleNumber><TextRun>.</TextRun><ChapterNumber>103</ChapterNumber><TextRun>.</TextRun><SectionNumber>030</SectionNumber></SectionCite> and 2013 c 272 s 24 are each amended to read as follows:</BillSectionHeader><P>(1) Unless the terms of a trust expressly provide that the trust is revocable, the trustor may not revoke or amend the trust.</P><P>(2) If a revocable trust is created or funded by more than one trustor and unless the trust agreement provides otherwise:</P><P>(a) To the extent the trust consists of community property, the trust may be revoked by either spouse or either domestic partner acting alone but may be amended only by joint action of both spouses or both domestic partners;</P><P>(b) To the extent the trust consists of property other than community property, each trustor may revoke or amend the trust with regard to the portion of the trust property attributable to that trustor's contribution;</P><P>(c) The character of community property or separate property is unaffected by its transfer to and from a revocable trust; and</P><P>(d) Upon the revocation or amendment of the trust by fewer than all of the trustors, the trustee must promptly notify the other trustors of the revocation or amendment.</P><P>(3) The trustor may revoke or amend a revocable trust:</P><P>(a) By substantial compliance with a method provided in the terms of the trust; or</P><P>(b)(i) If the terms of the trust do not provide a method or the method provided in the terms is not expressly made exclusive, by:</P><P>(A) A later will or codicil that expressly refers to the trust or specifically devises property that would otherwise have passed according to the terms of the trust; or</P><P>(B) A written instrument signed by the trustor evidencing intent to revoke or amend.</P><P>(ii) The requirements of chapter 11.11 RCW do not apply to revocation or amendment of a revocable trust under (b)(i) of this subsection.</P><P>(4) Upon revocation of a revocable trust, the trustee must deliver the trust property as the trustor directs.</P><P>(5) A trustor's powers with respect to the revocation or amendment of a trust or distribution of the property of a trust((<TextRun amendingStyle="strikemarknone">,</TextRun>)) may be exercised by the trustor's agent under a power of attorney only to the extent specified in the power of attorney document, as provided in ((<TextRun amendingStyle="strikemarknone">RCW 11.94.050(1)</TextRun>)) <TextRun amendingStyle="add">section 201 of this act</TextRun> and to the extent consistent with or expressly authorized by the trust agreement.</P><P>(6) A guardian of the trustor may exercise a trustor's powers with respect to revocation, amendment, or distribution of trust property only with the approval of the court supervising the guardianship pursuant to RCW 11.92.140.</P><P>(7) A trustee who does not know that a trust has been revoked or amended is not liable to the trustor or trustor's successors in interest for distributions made and other actions taken on the assumption that the trust had not been amended or revoked.</P><P>(8) This section does not limit or affect operation of RCW 11.96A.220 through 11.96A.240.</P></BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>405</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>30A</TitleNumber><TextRun>.</TextRun><ChapterNumber>22</ChapterNumber><TextRun>.</TextRun><SectionNumber>170</SectionNumber></SectionCite> and 1981 c 192 s 17 are each amended to read as follows:<Caption>Payment to agents of depositors. <TextRun fontStyle="italic">(Effective January 5, 2015.)</TextRun></Caption></BillSectionHeader>
+<P>Any funds on deposit in an account may be paid by a financial institution to or upon the order of any agent of any depositor. The contract of deposit or other document creating such agency <TextRun amendingStyle="add">on or after the effective date of this section, and in accordance with chapter 11.-- RCW (the new chapter created in section 505 of this act), is not affected by the incapacity of the depositor unless otherwise specified. The contract of deposit or other document creating the agency prior to the effective date of this section</TextRun> may provide<TextRun amendingStyle="strike">, in accordance with chapter 11.94 RCW,</TextRun> that any such agent's powers to receive payments and make withdrawals from an account continues in spite of, or arises by virtue of, the incompetency of a depositor, in which event the agent's powers to make payments and withdrawals from an account on behalf of a depositor is not affected by the incompetency of a depositor. Except as provided in this section, <TextRun amendingStyle="add">if the authority was created prior to the effective date of this section</TextRun> the authority of an agent to receive payments or make withdrawals from an account terminates with the death or incompetency of the agent's principal: PROVIDED, That a financial institution is not liable for any payment or withdrawal made to or by an agent for a deceased or incompetent depositor unless the financial institution making the payment or permitting the withdrawal had actual knowledge of the incompetency or death at the time payment was made.</P>
+<History>1981 c 192 § 17. Formerly RCW 30.22.170.</History>
+</BillSection><BillSection type="amendatory" action="amend"><BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>406</Value><TextRun>.  </TextRun></BillSectionNumber>RCW <SectionCite><TitleNumber>70</TitleNumber><TextRun>.</TextRun><ChapterNumber>122</ChapterNumber><TextRun>.</TextRun><SectionNumber>130</SectionNumber></SectionCite> and 2013 c 251 s 12 are each amended to read as follows:</BillSectionHeader><P>(1) The department of health shall establish and maintain a statewide health care declarations registry containing the health care declarations identified in subsection (2) of this section as submitted by residents of Washington. The department shall digitally reproduce and store health care declarations in the registry. The department may establish standards for individuals to submit digitally reproduced health care declarations directly to the registry, but is not required to review the health care declarations that it receives to ensure they comply with the particular statutory requirements applicable to the document. The department may contract with an organization that meets the standards identified in this section.</P><P>(2)(a) An individual may submit any of the following health care declarations to the department of health to be digitally reproduced and stored in the registry:</P><P>(i) A directive, as defined by this chapter;</P><P>(ii) A durable power of attorney for health care, as authorized in chapter ((<TextRun amendingStyle="strikemarknone">11.94</TextRun>)) <TextRun amendingStyle="add">11.--</TextRun> RCW <TextRun amendingStyle="add">(the new chapter created in section 505 of this act)</TextRun>;</P><P>(iii) A mental health advance directive, as defined by chapter 71.32 RCW; or</P><P>(iv) A form adopted pursuant to the department of health's authority in RCW 43.70.480.</P><P>(b) Failure to submit a health care declaration to the department of health does not affect the validity of the declaration.</P><P>(c) Failure to notify the department of health of a valid revocation of a health care declaration does not affect the validity of the revocation.</P><P>(d) The entry of a health care directive in the registry under this section does not:</P><P>(i) Affect the validity of the document;</P><P>(ii) Take the place of any requirements in law necessary to make the submitted document legal; or</P><P>(iii) Create a presumption regarding the validity of the document.</P><P>(3) The department of health shall prescribe a procedure for an individual to revoke a health care declaration contained in the registry.</P><P>(4) The registry must:</P><P>(a) Be maintained in a secure database that is accessible through a web site maintained by the department of health;</P><P>(b) Send annual electronic messages to individuals that have submitted health care declarations to request that they review the registry materials to ensure that it is current;</P><P>(c) Provide individuals who have submitted one or more health care declarations with access to their documents and the ability to revoke their documents at all times; and</P><P>(d) Provide the personal representatives of individuals who have submitted one or more health care declarations to the registry, attending physicians, advanced registered nurse practitioners, health care providers licensed by a disciplining authority identified in RCW 18.130.040 who is acting under the direction of a physician or an advanced registered nurse practitioner, and health care facilities, as defined in this chapter or in chapter 71.32 RCW, access to the registry at all times.</P><P>(5) In designing the registry and web site, the department of health shall ensure compliance with state and federal requirements related to patient confidentiality.</P><P>(6) The department shall provide information to health care providers and health care facilities on the registry web site regarding the different federal and Washington state requirements to ascertain and document whether a patient has an advance directive.</P><P>(7) The department of health may accept donations, grants, gifts, or other forms of voluntary contributions to support activities related to the creation and maintenance of the health care declarations registry and statewide public education campaigns related to the existence of the registry. All receipts from donations made under this section, and other contributions and appropriations specifically made for the purposes of creating and maintaining the registry established under this section and statewide public education campaigns related to the existence of the registry, shall be deposited into the general fund. These moneys in the general fund may be spent only after appropriation.</P><P>(8) The department of health may adopt rules as necessary to implement chapter 108, Laws of 2006.</P><P>(9) By December 1, 2008, the department shall report to the house and senate committees on health care the following information:</P><P>(a) Number of participants in the registry;</P><P>(b) Number of health care declarations submitted by type of declaration as defined in this section;</P><P>(c) Number of health care declarations revoked and the method of revocation;</P><P>(d) Number of providers and facilities, by type, that have been provided access to the registry;</P><P>(e) Actual costs of operation of the registry.</P></BillSection><BillSection type="amendatory" action="amend"><BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>407</Value><TextRun>.  </TextRun></BillSectionNumber>RCW <SectionCite><TitleNumber>71</TitleNumber><TextRun>.</TextRun><ChapterNumber>32</ChapterNumber><TextRun>.</TextRun><SectionNumber>020</SectionNumber></SectionCite> and 2011 c 89 s 15 are each amended to read as follows:</BillSectionHeader><P>The definitions in this section apply throughout this chapter unless the context clearly requires otherwise.</P><P>(1) "Adult" means any individual who has attained the age of majority or is an emancipated minor.</P><P>(2) "Agent" has the same meaning as an attorney-in-fact or agent as provided in chapter ((<TextRun amendingStyle="strikemarknone">11.94</TextRun>)) <TextRun amendingStyle="add">11.--</TextRun> RCW <TextRun amendingStyle="add">(the new chapter created in section 505 of this act)</TextRun>.</P><P>(3) "Capacity" means that an adult has not been found to be incapacitated pursuant to this chapter or RCW 11.88.010(1)(e).</P><P>(4) "Court" means a superior court under chapter 2.08 RCW.</P><P>(5) "Health care facility" means a hospital, as defined in RCW 70.41.020; an institution, as defined in RCW 71.12.455; a state hospital, as defined in RCW 72.23.010; a nursing home, as defined in RCW 18.51.010; or a clinic that is part of a community mental health service delivery system, as defined in RCW 71.24.025.</P><P>(6) "Health care provider" means an osteopathic physician or osteopathic physician's assistant licensed under chapter 18.57 or 18.57A RCW, a physician or physician's assistant licensed under chapter 18.71 or 18.71A RCW, or an advanced registered nurse practitioner licensed under RCW 18.79.050.</P><P>(7) "Incapacitated" means an adult who: (a) Is unable to understand the nature, character, and anticipated results of proposed treatment or alternatives; understand the recognized serious possible risks, complications, and anticipated benefits in treatments and alternatives, including nontreatment; or communicate his or her understanding or treatment decisions; or (b) has been found to be incompetent pursuant to RCW 11.88.010(1)(e).</P><P>(8) "Informed consent" means consent that is given after the person: (a) Is provided with a description of the nature, character, and anticipated results of proposed treatments and alternatives, and the recognized serious possible risks, complications, and anticipated benefits in the treatments and alternatives, including nontreatment, in language that the person can reasonably be expected to understand; or (b) elects not to be given the information included in (a) of this subsection.</P><P>(9) "Long-term care facility" has the same meaning as defined in RCW 43.190.020.</P><P>(10) "Mental disorder" means any organic, mental, or emotional impairment which has substantial adverse effects on an individual's cognitive or volitional functions.</P><P>(11) "Mental health advance directive" or "directive" means a written document in which the principal makes a declaration of instructions or preferences or appoints an agent to make decisions on behalf of the principal regarding the principal's mental health treatment, or both, and that is consistent with the provisions of this chapter.</P><P>(12) "Mental health professional" means a psychiatrist, psychologist, psychiatric nurse, or social worker, and such other mental health professionals as may be defined by rules adopted by the secretary pursuant to the provisions of chapter 71.05 RCW.</P><P>(13) "Principal" means an adult who has executed a mental health advance directive.</P><P>(14) "Professional person" means a mental health professional and shall also mean a physician, registered nurse, and such others as may be defined by rules adopted by the secretary pursuant to the provisions of chapter 71.05 RCW.</P><P>(15) "Social worker" means a person with a master's or further advanced degree from a social work educational program accredited and approved as provided in RCW 18.320.010.</P></BillSection><BillSection type="amendatory" action="amend"><BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>408</Value><TextRun>.  </TextRun></BillSectionNumber>RCW <SectionCite><TitleNumber>71</TitleNumber><TextRun>.</TextRun><ChapterNumber>32</ChapterNumber><TextRun>.</TextRun><SectionNumber>050</SectionNumber></SectionCite> and 2003 c 283 s 5 are each amended to read as follows:</BillSectionHeader><P>(1) An adult with capacity may execute a mental health advance directive.</P><P>(2) A directive executed in accordance with this chapter is presumed to be valid. The inability to honor one or more provisions of a directive does not affect the validity of the remaining provisions.</P><P>(3) A directive may include any provision relating to mental health treatment or the care of the principal or the principal's personal affairs. Without limitation, a directive may include:</P><P>(a) The principal's preferences and instructions for mental health treatment;</P><P>(b) Consent to specific types of mental health treatment;</P><P>(c) Refusal to consent to specific types of mental health treatment;</P><P>(d) Consent to admission to and retention in a facility for mental health treatment for up to fourteen days;</P><P>(e) Descriptions of situations that may cause the principal to experience a mental health crisis;</P><P>(f) Suggested alternative responses that may supplement or be in lieu of direct mental health treatment, such as treatment approaches from other providers;</P><P>(g) Appointment of an agent pursuant to chapter ((<TextRun amendingStyle="strikemarknone">11.94</TextRun>)) <TextRun amendingStyle="add">11.--</TextRun> RCW <TextRun amendingStyle="add">(the new chapter created in section 505 of this act)</TextRun> to make mental health treatment decisions on the principal's behalf, including authorizing the agent to provide consent on the principal's behalf to voluntary admission to inpatient mental health treatment; and</P><P>(h) The principal's nomination of a guardian or limited guardian as provided in ((<TextRun amendingStyle="strikemarknone">RCW 11.94.010</TextRun>)) <TextRun amendingStyle="add">section 108 of this act</TextRun> for consideration by the court if guardianship proceedings are commenced.</P><P>(4) A directive may be combined with or be independent of a nomination of a guardian or other durable power of attorney under chapter ((<TextRun amendingStyle="strikemarknone">11.94</TextRun>)) <TextRun amendingStyle="add">11.--</TextRun> RCW <TextRun amendingStyle="add">(the new chapter created in section 505 of this act)</TextRun>, so long as the processes for each are executed in accordance with its own statutes.</P></BillSection><BillSection type="amendatory" action="amend"><BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>409</Value><TextRun>.  </TextRun></BillSectionNumber>RCW <SectionCite><TitleNumber>71</TitleNumber><TextRun>.</TextRun><ChapterNumber>32</ChapterNumber><TextRun>.</TextRun><SectionNumber>060</SectionNumber></SectionCite> and 2003 c 283 s 6 are each amended to read as follows:</BillSectionHeader><P>(1) A directive shall:</P><P>(a) Be in writing;</P><P>(b) Contain language that clearly indicates that the principal intends to create a directive;</P><P>(c) Be dated and signed by the principal or at the principal's direction in the principal's presence if the principal is unable to sign;</P><P>(d) Designate whether the principal wishes to be able to revoke the directive during any period of incapacity or wishes to be unable to revoke the directive during any period of incapacity; and</P><P>(e) Be witnessed in writing by at least two adults, each of whom shall declare that he or she personally knows the principal, was present when the principal dated and signed the directive, and that the principal did not appear to be incapacitated or acting under fraud, undue influence, or duress.</P><P>(2) A directive <TextRun amendingStyle="add">executed prior to the effective date of this section</TextRun> that includes the appointment of an agent <TextRun amendingStyle="add">pursuant to a power of attorney</TextRun> under chapter <TextRun amendingStyle="strike">11.94</TextRun> <TextRun amendingStyle="add">11.--</TextRun> RCW <TextRun amendingStyle="add">(the new chapter created in section 505 of this act)</TextRun> shall contain the words "This power of attorney shall not be affected by the incapacity of the principal," or "This power of attorney shall become effective upon the incapacity of the principal," or similar words showing the principal's intent that the authority conferred shall be exercisable notwithstanding the principal's incapacity.</P><P>(3) A directive is valid upon execution, but all or part of the directive may take effect at a later time as designated by the principal in the directive.</P><P>(4) A directive may:</P><P>(a) Be revoked, in whole or in part, pursuant to the provisions of RCW 71.32.080; or</P><P>(b) Expire under its own terms.</P></BillSection><BillSection type="amendatory" action="amend"><BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>410</Value><TextRun>.  </TextRun></BillSectionNumber>RCW <SectionCite><TitleNumber>71</TitleNumber><TextRun>.</TextRun><ChapterNumber>32</ChapterNumber><TextRun>.</TextRun><SectionNumber>100</SectionNumber></SectionCite> and 2003 c 283 s 10 are each amended to read as follows:</BillSectionHeader><P>(1) If a directive authorizes the appointment of an agent, the provisions of chapter ((<TextRun amendingStyle="strikemarknone">11.94</TextRun>)) <TextRun amendingStyle="add">11.--</TextRun> RCW <TextRun amendingStyle="add">(the new chapter created in section 505 of this act)</TextRun> and RCW 7.70.065 shall apply unless otherwise stated in this chapter.</P><P>(2) The principal who appoints an agent must notify the agent in writing of the appointment.</P><P>(3) An agent must act in good faith.</P><P>(4) An agent may make decisions on behalf of the principal. Unless the principal has revoked the directive, the decisions must be consistent with the instructions and preferences the principal has expressed in the directive, or if not expressed, as otherwise known to the agent. If the principal's instructions or preferences are not known, the agent shall make a decision he or she determines is in the best interest of the principal.</P><P>(5) Except to the extent the right is limited by the appointment or any federal or state law, the agent has the same right as the principal to receive, review, and authorize the use and disclosure of the principal's health care information when the agent is acting on behalf of the principal and to the extent required for the agent to carry out his or her duties. This subsection shall be construed to be consistent with chapters 70.02, 70.24, 70.96A, 71.05, and 71.34 RCW, and with federal law regarding health care information.</P><P>(6) Unless otherwise provided in the appointment and agreed to in writing by the agent, the agent is not, as a result of acting in the capacity of agent, personally liable for the cost of treatment provided to the principal.</P><P>(7) An agent may resign or withdraw at any time by giving written notice to the principal. The agent must also give written notice to any health care provider, professional person, or health care facility providing treatment to the principal. The resignation or withdrawal is effective upon receipt unless otherwise specified in the resignation or withdrawal.</P><P>(8) If the directive gives the agent authority to act while the principal has capacity, the decisions of the principal supersede those of the agent at any time the principal has capacity.</P><P>(9) Unless otherwise provided in the durable power of attorney, the principal may revoke the agent's appointment as provided under other state law.</P></BillSection><BillSection type="amendatory" action="amend"><BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>411</Value><TextRun>.  </TextRun></BillSectionNumber>RCW <SectionCite><TitleNumber>71</TitleNumber><TextRun>.</TextRun><ChapterNumber>32</ChapterNumber><TextRun>.</TextRun><SectionNumber>180</SectionNumber></SectionCite> and 2003 c 283 s 18 are each amended to read as follows:</BillSectionHeader><P>(1) Where an incapacitated principal has executed more than one valid directive and has not revoked any of the directives:</P><P>(a) The directive most recently created shall be treated as the principal's mental health treatment preferences and instructions as to any inconsistent or conflicting provisions, unless provided otherwise in either document.</P><P>(b) Where a directive executed under this chapter is inconsistent with a directive executed under any other chapter, the most recently created directive controls as to the inconsistent provisions.</P><P>(2) Where an incapacitated principal has appointed more than one agent under chapter ((<TextRun amendingStyle="strikemarknone">11.94</TextRun>)) <TextRun amendingStyle="add">11.--</TextRun> RCW <TextRun amendingStyle="add">(the new chapter created in section 505 of this act)</TextRun> with authority to make mental health treatment decisions, ((<TextRun amendingStyle="strikemarknone">RCW 11.94.010</TextRun>)) <TextRun amendingStyle="add">section 217 of this act</TextRun> controls.</P><P>(3) The treatment provider shall inquire of a principal whether the principal is subject to any court orders that would affect the implementation of his or her directive.</P></BillSection><BillSection type="amendatory" action="amend"><BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>412</Value><TextRun>.  </TextRun></BillSectionNumber>RCW <SectionCite><TitleNumber>71</TitleNumber><TextRun>.</TextRun><ChapterNumber>32</ChapterNumber><TextRun>.</TextRun><SectionNumber>200</SectionNumber></SectionCite> and 2003 c 283 s 20 are each amended to read as follows:</BillSectionHeader><P>Any person with reasonable cause to believe that a directive has been created or revoked under circumstances amounting to fraud, duress, or undue influence may petition the court for appointment of a guardian for the person or to review the actions of the agent or person alleged to be involved in improper conduct under ((<TextRun amendingStyle="strikemarknone">RCW 11.94.090</TextRun>)) <TextRun amendingStyle="add">section 116 of this act</TextRun> or <TextRun amendingStyle="add">RCW</TextRun> 74.34.110.</P></BillSection><BillSection type="amendatory" action="amend"><BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>413</Value><TextRun>.  </TextRun></BillSectionNumber>RCW <SectionCite><TitleNumber>71</TitleNumber><TextRun>.</TextRun><ChapterNumber>32</ChapterNumber><TextRun>.</TextRun><SectionNumber>260</SectionNumber></SectionCite> and 2009 c 217 s 14 are each amended to read as follows:</BillSectionHeader><P postPadding="halfline">The directive shall be in substantially the following form:</P><Table align="center" width="508.0pt" pubwidth="wide" preview="yes">
+<Col width="218pt" />
+<Col width="290pt" />
+<TR>
+<TD colspan="2"><P textAlign="center">Mental Health Advance Directive</P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P textAlign="center"><TextRun fontWeight="bold">NOTICE TO PERSONS</TextRun></P><P textAlign="center"><TextRun fontWeight="bold">CREATING A MENTAL HEALTH ADVANCE DIRECTIVE</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0">This is an important legal document. It creates an advance directive for mental health treatment. Before signing this document you should know these important facts:</P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0">(1) This document is called an advance directive and allows you to make decisions in advance about your mental health treatment, including medications, short-term admission to inpatient treatment and electroconvulsive therapy.</P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P textAlign="center"><TextRun fontWeight="bold">YOU DO NOT HAVE TO FILL OUT OR SIGN THIS FORM.</TextRun></P><P textAlign="center"><TextRun fontWeight="bold">IF YOU DO NOT SIGN THIS FORM, IT WILL NOT TAKE EFFECT.</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P>If you choose to complete and sign this document, you may still decide to leave some items blank.</P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0">(2) You have the right to appoint a person as your agent to make treatment decisions for you. You must notify your agent that you have appointed him or her as an agent. The person you appoint has a duty to act consistently with your wishes made known by you. If your agent does not know what your wishes are, he or she has a duty to act in your best interest. Your agent has the right to withdraw from the appointment at any time.</P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0">(3) The instructions you include with this advance directive and the authority you give your agent to act will only become effective under the conditions you select in this document. You may choose to limit this directive and your agent's authority to times when you are incapacitated or to times when you are exhibiting symptoms or behavior that you specify. You may also make this directive effective immediately. No matter when you choose to make this directive effective, your treatment providers must still seek your informed consent at all times that you have capacity to give informed consent.</P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0">(4) You have the right to revoke this document in writing at any time you have capacity.</P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P><TextRun fontWeight="bold">YOU MAY NOT REVOKE THIS DIRECTIVE WHEN YOU HAVE BEEN FOUND TO BE</TextRun></P><P><TextRun fontWeight="bold">INCAPACITATED UNLESS YOU HAVE SPECIFICALLY STATED IN THIS DIRECTIVE THAT</TextRun></P><P><TextRun fontWeight="bold">YOU WANT IT TO BE REVOCABLE WHEN YOU ARE INCAPACITATED.</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0">(5) This directive will stay in effect until you revoke it unless you specify an expiration date. If you specify an expiration date and you are incapacitated at the time it expires, it will remain in effect until you have capacity to make treatment decisions again unless you chose to be able to revoke it while you are incapacitated and you revoke the directive.</P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0">(6) You cannot use your advance directive to consent to civil commitment. The procedures that apply to your advance directive are different than those provided for in the Involuntary Treatment Act. Involuntary treatment is a different process.</P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0">(7) If there is anything in this directive that you do not understand, you should ask a lawyer to explain it to you.</P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0">(8) You should be aware that there are some circumstances where your provider may not have to follow your directive.</P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0">(9) You should discuss any treatment decisions in your directive with your provider.</P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0">(10) You may ask the court to rule on the validity of your directive.</P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P textAlign="center" /><P textAlign="center"><TextRun fontWeight="bold">PART I.</TextRun></P><P textAlign="center"><TextRun fontWeight="bold">STATEMENT OF INTENT TO CREATE A</TextRun></P><P textAlign="center"><TextRun fontWeight="bold">MENTAL HEALTH ADVANCE DIRECTIVE</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P>I, . . . . . . . . . . being a person with capacity, willfully and voluntarily execute this mental health advance directive so that my choices regarding my mental health care will be carried out in circumstances when I am unable to express my instructions and preferences regarding my mental health care. If a guardian is appointed by a court to make mental health decisions for me, I intend this document to take precedence over all other means of ascertaining my intent.</P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P>The fact that I may have left blanks in this directive does not affect its validity in any way. I intend that all completed sections be followed. If I have not expressed a choice, my agent should make the decision that he or she determines is in my best interest. I intend this directive to take precedence over any other directives I have previously executed, to the extent that they are inconsistent with this document, or unless I expressly state otherwise in either document.</P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P>I understand that I may revoke this directive in whole or in part if I am a person with capacity. I understand that I cannot revoke this directive if a court, two health care providers, or one mental health professional and one health care provider find that I am an incapacitated person, unless, when I executed this directive, I chose to be able to revoke this directive while incapacitated.</P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P>I understand that, except as otherwise provided in law, revocation must be in writing. I understand that nothing in this directive, or in my refusal of treatment to which I consent in this directive, authorizes any health care provider, professional person, health care facility, or agent appointed in this directive to use or threaten to use abuse, neglect, financial exploitation, or abandonment to carry out my directive.</P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P>I understand that there are some circumstances where my provider may not have to follow my directive.</P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P textAlign="center" /><P textAlign="center"><TextRun fontWeight="bold">PART II.</TextRun></P><P textAlign="center"><TextRun fontWeight="bold">WHEN THIS DIRECTIVE IS EFFECTIVE</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P textAlign="center"><TextRun fontStyle="italic">YOU MUST COMPLETE THIS PART FOR YOUR DIRECTIVE TO BE VALID.</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0">I intend that this directive become effective (<TextRun fontStyle="italic">YOU MUST CHOOSE ONLY ONE</TextRun>):</P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0">. . . . . . Immediately upon my signing of this directive.</P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0">. . . . . . If I become incapacitated.</P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P>. . . . . . When the following circumstances, symptoms, or behaviors occur:<Leader character="dot" /></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P><Leader character="dot" /></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P><Leader character="dot" /></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P textAlign="center" /><P textAlign="center"><TextRun fontWeight="bold">PART III.</TextRun></P><P textAlign="center"><TextRun fontWeight="bold">DURATION OF THIS DIRECTIVE</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P textAlign="center"><TextRun fontStyle="italic">YOU MUST COMPLETE THIS PART FOR YOUR DIRECTIVE TO BE VALID.</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0">I want this directive to (<TextRun fontStyle="italic">YOU MUST CHOOSE ONLY ONE</TextRun>):</P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0">. . . . . . Remain valid and in effect for an indefinite period of time.</P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0">. . . . . . Automatically expire . . . . . . years from the date it was created.</P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P textAlign="center" /><P textAlign="center"><TextRun fontWeight="bold">PART IV.</TextRun></P><P textAlign="center"><TextRun fontWeight="bold">WHEN I MAY REVOKE THIS DIRECTIVE</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P textAlign="center"><TextRun fontStyle="italic">YOU MUST COMPLETE THIS PART FOR THIS DIRECTIVE TO BE VALID.</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0">I intend that I be able to revoke this directive (<TextRun fontStyle="italic">YOU MUST CHOOSE ONLY ONE</TextRun>):</P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0">. . . . . . Only when I have capacity.</P><P>I understand that choosing this option means I may only revoke this directive if I have capacity. I further understand that if I choose this option and become incapacitated while this directive is in effect, I may receive treatment that I specify in this directive, even if I object at the time.</P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0">. . . . . . Even if I am incapacitated.</P><P>I understand that choosing this option means that I may revoke this directive even if I am incapacitated. I further understand that if I choose this option and revoke this directive while I am incapacitated I may not receive treatment that I specify in this directive, even if I want the treatment.</P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P textAlign="center" /><P textAlign="center"><TextRun fontWeight="bold">PART V.</TextRun></P><P textAlign="center"><TextRun fontWeight="bold">PREFERENCES AND INSTRUCTIONS ABOUT TREATMENT, FACILITIES, AND PHYSICIANS OR PSYCHIATRIC ADVANCED REGISTERED NURSE PRACTITIONERS</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun fontWeight="bold">A. Preferences and Instructions About Physician(s) or Psychiatric Advanced Registered Nurse Practitioner(s) to be Involved in My Treatment</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0">I would like the physician(s) or psychiatric advanced registered nurse practitioner(s) named below to be involved in my treatment decisions:</P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P>Dr. or PARNP . . . . . . . . . . . . . . . .  Contact information:<Leader character="dot" /></P><P>Dr. or PARNP . . . . . . . . . . . . . . . .  Contact information:<Leader character="dot" /></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P>I do not wish to be treated by Dr. or PARNP<Leader character="dot" /></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun fontWeight="bold">B. Preferences and Instructions About Other Providers</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0">I am receiving other treatment or care from providers who I feel have an impact on my mental health care. I would like the following treatment provider(s) to be contacted when this directive is effective:</P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P>Name . . . . . . . . . . . . . . . . . . . . Profession . . . . . . . . . . . . . . . . . . . . Contact information<Leader character="dot" /></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P>Name . . . . . . . . . . . . . . . . . . . . Profession . . . . . . . . . . . . . . . . . . . . Contact information<Leader character="dot" /></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun fontWeight="bold">C. Preferences and Instructions About Medications for Psychiatric Treatment</TextRun> (<TextRun fontStyle="italic">initial and complete all that apply</TextRun>)</P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0">. . . . . . I consent, and authorize my agent (if appointed) to consent, to the following</P><P>medications:<Leader character="dot" /></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P>. . . . . . I do not consent, and I do not authorize my agent (if appointed) to consent, to the administration of the following medications:<Leader character="dot" /></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P>. . . . . . I am willing to take the medications excluded above if my only reason for excluding them is the side effects which include<Leader character="dot" /></P><P indent="0">and these side effects can be eliminated by dosage adjustment or other means</P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0">. . . . . . I am willing to try any other medication the hospital doctor or psychiatric advanced registered nurse practitioner recommends</P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0">. . . . . . I am willing to try any other medications my outpatient doctor or psychiatric advanced registered nurse practitioner recommends</P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0">. . . . . . I do not want to try any other medications.</P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P textAlign="center"><TextRun fontWeight="bold">Medication Allergies</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P>I have allergies to, or severe side effects from, the following:<Leader character="dot" /></P><P /></TD>
+</TR>
+<TR>
+<TD colspan="2"><P textAlign="center"><TextRun fontWeight="bold">Other Medication Preferences or Instructions</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P>. . . . . . I have the following other preferences or instructions about medications<Leader character="dot" /></P><P /></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun fontWeight="bold">D. Preferences and Instructions About Hospitalization and Alternatives</TextRun></P><P indent="0">(<TextRun fontStyle="italic">initial all that apply and, if desired, rank "1" for first choice, "2" for second choice, and so on</TextRun>)</P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0">. . . . . . In the event my psychiatric condition is serious enough to require 24-hour care and I have no physical conditions that require immediate access to emergency medical care, I prefer to receive this care in programs/facilities designed as alternatives to psychiatric hospitalizations.</P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0">. . . . . . I would also like the interventions below to be tried before hospitalization is considered:</P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0">. . . . . . Calling someone or having someone call me when needed.</P></TD>
+</TR>
+<TR>
+<TD><P>Name: <Leader character="dot" /></P></TD>
+<TD><P>Telephone: <Leader character="dot" /></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0">. . . . . . Staying overnight with someone</P></TD>
+</TR>
+<TR>
+<TD><P>Name: <Leader character="dot" /></P></TD>
+<TD><P>Telephone: <Leader character="dot" /></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0">. . . . . . Having a mental health service provider come to see me</P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0">. . . . . . Going to a crisis triage center or emergency room</P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0">. . . . . . Staying overnight at a crisis respite (temporary) bed</P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0">. . . . . . Seeing a service provider for help with psychiatric medications</P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P>. . . . . . Other, specify: <Leader character="dot" /></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P textAlign="center"><TextRun fontWeight="bold">Authority to Consent to Inpatient Treatment</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0">I consent, and authorize my agent (if appointed) to consent, to voluntary admission to inpatient mental health treatment for . . . . . . days (<TextRun fontStyle="italic">not to exceed 14 days</TextRun>)</P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0">(Sign one):</P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0">. . . . . . If deemed appropriate by my agent (if appointed) and treating physician or psychiatric advanced registered nurse practitioner</P></TD>
+</TR>
+<TR>
+<TD><P indent="2"><Leader character="dot" /></P><P>(Signature)</P></TD>
+<TD><P indent="0" /></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0">or</P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P>. . . . . . Under the following circumstances (specify symptoms, behaviors, or circumstances that indicate the need for hospitalization) <Leader character="dot" /></P></TD>
+</TR>
+<TR>
+<TD><P indent="2"><Leader character="dot" /></P><P>(Signature)</P></TD>
+<TD><P indent="0" /></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0">. . . . . . I do <TextRun fontWeight="bold">not</TextRun> consent, or authorize my agent (if appointed) to consent, to inpatient treatment</P></TD>
+</TR>
+<TR>
+<TD><P indent="2"><Leader character="dot" /></P><P>(Signature)</P></TD>
+<TD><P indent="0" /></TD>
+</TR>
+<TR>
+<TD colspan="2"><P textAlign="center"><TextRun fontWeight="bold">Hospital Preferences and Instructions</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P>If hospitalization is required, I prefer the following hospitals: <Leader character="dot" /></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P>I do not consent to be admitted to the following hospitals: <Leader character="dot" /></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun fontWeight="bold">E. Preferences and Instructions About Preemergency</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0">I would like the interventions below to be tried before use of seclusion or restraint is considered </P><P indent="0">(<TextRun fontStyle="italic">initial all that apply</TextRun>):</P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0">. . . . . . "Talk me down" one-on-one</P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0">. . . . . . More medication</P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0">. . . . . . Time out/privacy</P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0">. . . . . . Show of authority/force</P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0">. . . . . . Shift my attention to something else</P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0">. . . . . . Set firm limits on my behavior</P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0">. . . . . . Help me to discuss/vent feelings</P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0">. . . . . . Decrease stimulation</P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0">. . . . . . Offer to have neutral person settle dispute</P></TD>
+</TR>
+<TR>
+<TD><P>. . . . . . Other, specify <Leader character="dot" /></P></TD>
+<TD><P indent="0" /></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun fontWeight="bold">F. Preferences and Instructions About Seclusion, Restraint, and Emergency Medications</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0">If it is determined that I am engaging in behavior that requires seclusion, physical restraint, and/or emergency use of medication, I prefer these interventions in the order I have chosen (<TextRun fontStyle="italic">choose "1" for first choice, "2" for second choice, and so on</TextRun>):</P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0">. . . . . . Seclusion</P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0">. . . . . . Seclusion and physical restraint (combined)</P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0">. . . . . . Medication by injection</P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0">. . . . . . Medication in pill or liquid form</P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0">In the event that my attending physician or psychiatric advanced registered nurse practitioner decides to use medication in response to an emergency situation after due consideration of my preferences and instructions for emergency treatments stated above, I expect the choice of medication to reflect any preferences and instructions I have expressed in Part III C of this form. The preferences and instructions I express in this section regarding medication in emergency situations do not constitute consent to use of the medication for nonemergency treatment.</P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun fontWeight="bold">G. Preferences and Instructions About Electroconvulsive Therapy</TextRun></P><P indent="0"><TextRun fontWeight="bold">(ECT or Shock Therapy)</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0">My wishes regarding electroconvulsive therapy are (<TextRun fontStyle="italic">sign one</TextRun>):</P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0">. . . . . . I do not consent, nor authorize my agent (if appointed) to consent, to the administration of electroconvulsive therapy</P></TD>
+</TR>
+<TR>
+<TD><P indent="2"><Leader character="dot" /></P><P>(Signature)</P></TD>
+<TD><P indent="0" /></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0">. . . . . . I consent, and authorize my agent (if appointed) to consent, to the administration of electroconvulsive therapy</P></TD>
+</TR>
+<TR>
+<TD><P indent="2"><Leader character="dot" /></P><P>(Signature)</P></TD>
+<TD><P indent="0" /></TD>
+</TR>
+<TR>
+<TD colspan="2"><P>. . . . . . I consent, and authorize my agent (if appointed) to consent, to the administration of electroconvulsive therapy, but only under the following conditions: <Leader character="dot" /></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P /></TD>
+</TR>
+<TR>
+<TD><P indent="2" /><P>(Signature)</P></TD>
+<TD><P indent="0" /></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun fontWeight="bold">H. Preferences and Instructions About Who is Permitted to Visit</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0">If I have been admitted to a mental health treatment facility, the following people are not permitted to visit me there:</P></TD>
+</TR>
+<TR>
+<TD><P>Name: <Leader character="dot" /></P></TD>
+<TD><P indent="0" /></TD>
+</TR>
+<TR>
+<TD><P>Name: <Leader character="dot" /></P></TD>
+<TD><P indent="0" /></TD>
+</TR>
+<TR>
+<TD><P>Name: <Leader character="dot" /></P></TD>
+<TD><P indent="0" /></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0">I understand that persons not listed above may be permitted to visit me.</P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun fontWeight="bold">I. Additional Instructions About My Mental Health Care</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P>Other instructions about my mental health care: <Leader character="dot" /></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P><Leader character="dot" /></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0">In case of emergency, please contact:</P></TD>
+</TR>
+<TR>
+<TD><P>Name: <Leader character="dot" /></P></TD>
+<TD><P>Address: <Leader character="dot" /></P></TD>
+</TR>
+<TR>
+<TD><P>Work telephone: <Leader character="dot" /></P></TD>
+<TD><P>Home telephone: <Leader character="dot" /></P></TD>
+</TR>
+<TR>
+<TD><P>Physician or Psychiatric Advanced Registered Nurse Practitioner: <Leader character="dot" /></P></TD>
+<TD><P>Address: <Leader character="dot" /></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P>Telephone: <Leader character="dot" /></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P>The following may help me to avoid a hospitalization: <Leader character="dot" /></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P><Leader character="dot" /></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P>I generally react to being hospitalized as follows: <Leader character="dot" /></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P><Leader character="dot" /></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P>Staff of the hospital or crisis unit can help me by doing the following: <Leader character="dot" /></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P><Leader character="dot" /></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P><Leader character="dot" /></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun fontWeight="bold">J. Refusal of Treatment</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0">I do not consent to any mental health treatment.</P></TD>
+</TR>
+<TR>
+<TD><P indent="0"><Leader character="dot" /></P><P>(Signature)</P></TD>
+<TD><P indent="0" /></TD>
+</TR>
+<TR>
+<TD colspan="2"><P textAlign="center" /><P textAlign="center"><TextRun fontWeight="bold">PART VI. </TextRun></P><P textAlign="center"><TextRun fontWeight="bold">DURABLE POWER OF ATTORNEY (APPOINTMENT OF MY AGENT)</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P textAlign="center">(<TextRun fontStyle="italic">Fill out this part only if you wish to appoint an agent or nominate a guardian.</TextRun>)</P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P>I authorize an agent to make mental health treatment decisions on my behalf. The authority granted to my agent includes the right to consent, refuse consent, or withdraw consent to any mental health care, treatment, service, or procedure, consistent with any instructions and/or limitations I have set forth in this directive. I intend that those decisions should be made in accordance with my expressed wishes as set forth in this document. If I have not expressed a choice in this document <TextRun fontWeight="bold">and my agent does not otherwise know my wishes</TextRun>, I authorize my agent to make the decision that my agent determines is in my best interest. This agency shall not be affected by my incapacity. Unless I state otherwise in this durable power of attorney, I may revoke it unless prohibited by other state law.</P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun fontWeight="bold">A. Designation of an Agent</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P>I appoint the following person as my agent to make mental health treatment decisions for me as authorized in this document and request that this person be notified immediately when this directive becomes effective:</P></TD>
+</TR>
+<TR>
+<TD><P>Name: <Leader character="dot" /></P></TD>
+<TD><P>Address: <Leader character="dot" /></P></TD>
+</TR>
+<TR>
+<TD><P>Work telephone: <Leader character="dot" /></P></TD>
+<TD><P>Home telephone: <Leader character="dot" /></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P>Relationship: <Leader character="dot" /></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun fontWeight="bold">B. Designation of Alternate Agent</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0">If the person named above is unavailable, unable, or refuses to serve as my agent, or I revoke that person's authority to serve as my agent, I hereby appoint the following person as my alternate agent and request that this person be notified immediately when this directive becomes effective or when my original agent is no longer my agent:</P></TD>
+</TR>
+<TR>
+<TD><P>Name: <Leader character="dot" /></P></TD>
+<TD><P>Address: <Leader character="dot" /></P></TD>
+</TR>
+<TR>
+<TD><P>Work telephone: <Leader character="dot" /></P></TD>
+<TD><P>Home telephone: <Leader character="dot" /></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P>Relationship: <Leader character="dot" /></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun fontWeight="bold">C. When My Spouse is My Agent</TextRun> (<TextRun fontStyle="italic">initial if desired</TextRun>)</P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0">. . . . . . If my spouse is my agent, that person shall remain my agent even if we become legally separated or our marriage is dissolved, unless there is a court order to the contrary or I have remarried.</P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun fontWeight="bold">D. Limitations on My Agent's Authority</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0">I do not grant my agent the authority to consent on my behalf to the following:</P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P><Leader character="dot" /></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P><Leader character="dot" /></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun fontWeight="bold">E. Limitations on My Ability to Revoke this Durable Power of Attorney</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0">I choose to limit my ability to revoke this durable power of attorney as follows:</P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P><Leader character="dot" /></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P><Leader character="dot" /></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun fontWeight="bold">F. Preference as to Court-Appointed Guardian</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0">In the event a court appoints a guardian who will make decisions regarding my mental health treatment, I <TextRun fontWeight="bold">nominate</TextRun> the following person <TextRun fontWeight="bold">as my guardian</TextRun>:</P></TD>
+</TR>
+<TR>
+<TD><P>Name: <Leader character="dot" /></P></TD>
+<TD><P>Address: <Leader character="dot" /></P></TD>
+</TR>
+<TR>
+<TD><P>Work telephone: <Leader character="dot" /></P></TD>
+<TD><P>Home telephone: <Leader character="dot" /></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P>Relationship: <Leader character="dot" /></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0">The appointment of a guardian of my estate or my person or any other decision maker shall not give the guardian or decision maker the power to revoke, suspend, or terminate this directive or the powers of my agent, except as authorized by law.</P></TD>
+</TR>
+<TR>
+<TD><P indent="0"><Leader character="dot" /></P><P indent="0">   (Signature required if nomination is made)</P></TD>
+<TD><P indent="0" /></TD>
+</TR>
+<TR>
+<TD colspan="2"><P textAlign="center" /><P textAlign="center"><TextRun fontWeight="bold">PART VII. </TextRun></P><P textAlign="center"><TextRun fontWeight="bold">OTHER DOCUMENTS</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0">(<TextRun fontStyle="italic">Initial all that apply</TextRun>)</P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0">I have executed the following documents that include the power to make decisions regarding health care services for myself:</P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0">. . . . . . Health care power of attorney (chapter ((<TextRun amendingStyle="strikemarknone">11.94</TextRun>)) <TextRun amendingStyle="add">11.—</TextRun> RCW <TextRun amendingStyle="add">(the new chapter created in section 505 of this act)</TextRun>)</P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0">. . . . . . "Living will" (Health care directive; chapter 70.122 RCW)</P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0">. . . . . . I have appointed more than one agent. I understand that the most recently appointed agent controls except as stated below:</P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P><Leader character="dot" /></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P textAlign="center" /><P textAlign="center"><TextRun fontWeight="bold">PART VIII. </TextRun></P><P textAlign="center"><TextRun fontWeight="bold">NOTIFICATION OF OTHERS AND CARE OF PERSONAL AFFAIRS</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P textAlign="center">(<TextRun fontStyle="italic">Fill out this part only if you wish to provide nontreatment instructions.</TextRun>)</P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0">I understand the preferences and instructions in this part are <TextRun amendingStyle="add"><TextRun fontWeight="bold">NOT</TextRun></TextRun> the responsibility of my treatment provider and that no treatment provider is required to act on them.</P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun fontWeight="bold">A. Who Should Be Notified</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0">I desire my agent to notify the following individuals as soon as possible when this directive becomes effective:</P></TD>
+</TR>
+<TR>
+<TD><P>Name: <Leader character="dot" /></P></TD>
+<TD><P>Address: <Leader character="dot" /></P></TD>
+</TR>
+<TR>
+<TD><P>Day telephone: <Leader character="dot" /></P></TD>
+<TD><P>Evening telephone: <Leader character="dot" /></P></TD>
+</TR>
+<TR>
+<TD><P>Name: <Leader character="dot" /></P></TD>
+<TD><P>Address: <Leader character="dot" /></P></TD>
+</TR>
+<TR>
+<TD><P>Day telephone: <Leader character="dot" /></P></TD>
+<TD><P>Evening telephone: <Leader character="dot" /></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun fontWeight="bold">B. Preferences or Instructions About Personal Affairs</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0">I have the following preferences or instructions about my personal affairs (e.g., care of dependents, pets, household) if I am admitted to a mental health treatment facility:</P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P><Leader character="dot" /></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P><Leader character="dot" /></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun fontWeight="bold">C. Additional Preferences and Instructions:</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P><Leader character="dot" /></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P><Leader character="dot" /></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P><Leader character="dot" /></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P><Leader character="dot" /></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P textAlign="center" /><P textAlign="center"><TextRun fontWeight="bold">PART IX.</TextRun></P><P textAlign="center"><TextRun fontWeight="bold">SIGNATURE</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P>By signing here, I indicate that I understand the purpose and effect of this document and that I am giving my informed consent to the treatments and/or admission to which I have consented or authorized my agent to consent in this directive. I intend that my consent in this directive be construed as being consistent with the elements of informed consent under chapter 7.70 RCW.</P></TD>
+</TR>
+<TR>
+<TD><P>Signature: <Leader character="dot" /></P></TD>
+<TD><P>Date: <Leader character="dot" /></P></TD>
+</TR>
+<TR>
+<TD><P>Printed Name: <Leader character="dot" /></P></TD>
+<TD><P indent="0" /></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0">This directive was signed and declared by the "Principal," to be his or her directive, in our presence who, at his or her request, have signed our names below as witnesses. We declare that, at the time of the creation of this instrument, the Principal is personally known to us, and, according to our best knowledge and belief, has capacity at this time and does not appear to be acting under duress, undue influence, or fraud. We further declare that none of us is:</P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P>(A) A person designated to make medical decisions on the principal's behalf;</P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P>(B) A health care provider or professional person directly involved with the provision of care to the principal at the time the directive is executed;</P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P>(C) An owner, operator, employee, or relative of an owner or operator of a health care facility or long-term care facility in which the principal is a patient or resident;</P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P>(D) A person who is related by blood, marriage, or adoption to the person, or with whom the principal has a dating relationship as defined in RCW 26.50.010;</P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P>(E) An incapacitated person;</P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P>(F) A person who would benefit financially if the principal undergoes mental health treatment; or</P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P>(G) A minor.</P></TD>
+</TR>
+<TR>
+<TD><P>Witness 1: Signature: <Leader character="dot" /></P></TD>
+<TD><P>Date: <Leader character="dot" /></P></TD>
+</TR>
+<TR>
+<TD><P>Printed Name: <Leader character="dot" /></P></TD>
+<TD><P indent="0" /></TD>
+</TR>
+<TR>
+<TD><P indent="2">Telephone: <Leader character="dot" /></P></TD>
+<TD><P>Address: <Leader character="dot" /></P></TD>
+</TR>
+<TR>
+<TD><P>Witness 2: Signature: <Leader character="dot" /></P></TD>
+<TD><P>Date: <Leader character="dot" /></P></TD>
+</TR>
+<TR>
+<TD><P>Printed Name: <Leader character="dot" /></P></TD>
+<TD><P indent="0" /></TD>
+</TR>
+<TR>
+<TD><P indent="2">Telephone: <Leader character="dot" /></P></TD>
+<TD><P>Address: <Leader character="dot" /></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P textAlign="center" /><P textAlign="center"><TextRun fontWeight="bold">PART X.</TextRun></P><P textAlign="center"><TextRun fontWeight="bold">RECORD OF DIRECTIVE</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P>I have given a copy of this directive to the following persons: <Leader character="dot" /></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P><Leader character="dot" /></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P textAlign="center">DO NOT FILL OUT PART XI UNLESS YOU INTEND TO REVOKE</P><P textAlign="center">THIS DIRECTIVE IN PART OR IN WHOLE</P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P textAlign="center" /><P textAlign="center"><TextRun fontWeight="bold">PART XI.</TextRun></P><P textAlign="center"><TextRun fontWeight="bold">REVOCATION OF THIS DIRECTIVE</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0">(<TextRun fontStyle="italic">Initial any that apply</TextRun>):</P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P>. . . . . . I am revoking the following part(s) of this directive (specify): <Leader character="dot" /></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P><Leader character="dot" /></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0">. . . . . . I am revoking all of this directive.</P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0">By signing here, I indicate that I understand the purpose and effect of my revocation and that no person is bound by any revoked provision(s). I intend this revocation to be interpreted as if I had never completed the revoked provision(s).</P></TD>
+</TR>
+<TR>
+<TD><P>Signature: <Leader character="dot" /></P></TD>
+<TD><P>Date: <Leader character="dot" /></P></TD>
+</TR>
+<TR>
+<TD><P>Printed Name: <Leader character="dot" /></P></TD>
+<TD><P indent="0" /></TD>
+</TR>
+<TR>
+<TD colspan="2"><P textAlign="center"><TextRun fontWeight="bold">DO NOT SIGN THIS PART UNLESS YOU INTEND TO REVOKE THIS</TextRun></P><P textAlign="center"><TextRun fontWeight="bold">DIRECTIVE IN PART OR IN WHOLE</TextRun></P></TD>
+</TR>
+</Table></BillSection>
+<Part>
+<P>PART V</P>
+</Part><BillSection type="new"><BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value fixed="true">501</Value><TextRun>.  </TextRun></BillSectionNumber><P>In applying and construing this uniform act, consideration must be given to the need to promote uniformity of the law with respect to its subject matter among the states that enact it.</P></BillSectionHeader></BillSection><BillSection type="new"><BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>502</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act modifies, limits, and supersedes the federal electronic signatures in global and national commerce act, 15 U.S.C. Sec. 7001 et seq., but does not modify, limit, or supersede section 101(c) of that act, 15 U.S.C. Sec. 7001(c), or authorize electronic delivery of any of the notices described in section 103(b) of that act, 15 U.S.C. Sec. 7003(b).</P></BillSectionHeader></BillSection><BillSection type="new"><BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>503</Value><TextRun>.  </TextRun></BillSectionNumber><P>Except as otherwise provided in this act, on the effective date of this section:</P></BillSectionHeader><P>(1) This act applies to a power of attorney created before, on, or after the effective date of this section;</P><P>(2) This act applies to a judicial proceeding concerning a power of attorney commenced on or after the effective date of this section;</P><P>(3) This act applies to a judicial proceeding concerning a power of attorney commenced before the effective date of this section unless the court finds that application of a provision of this act would substantially interfere with the effective conduct of the judicial proceeding or prejudice the rights of a party, in which case that provision does not apply and the superseded law applies; and</P><P>(4) An act done before the effective date of this section is not affected by this act.</P></BillSection><BillSection type="new" action="repeal"><BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>504</Value><TextRun>.  </TextRun></BillSectionNumber>The following acts or parts of acts are each repealed:</BillSectionHeader><P><RepealNumber>1</RepealNumber>RCW 11.94.010 (Designation—Authority—Effect of acts done—Appointment of guardian, effect—Accounting—Reliance on instrument) and 2007 c 156 s 31, 2005 c 97 s 12, 2003 c 283 s 27, 1995 c 297 s 9, 1989 c 211 s 1, &amp; 1985 c 30 s 25;</P><P><RepealNumber>2</RepealNumber>RCW 11.94.020 (Effect of death, disability, or incompetence of principal—Acts without knowledge) and 1985 c 30 s 26;</P><P><RepealNumber>3</RepealNumber>RCW 11.94.030 (Banking transactions) and 1985 c 30 s 27;</P><P><RepealNumber>4</RepealNumber>RCW 11.94.040 (Liability for reliance on power of attorney document) and 2001 c 203 s 2 &amp; 1985 c 30 s 28;</P><P><RepealNumber>5</RepealNumber>RCW 11.94.043 (Durable power of attorney—Revocation or termination) and 1989 c 211 s 2;</P><P><RepealNumber>6</RepealNumber>RCW 11.94.046 (Durable power of attorney—Validity) and 1989 c 211 s 3;</P><P><RepealNumber>7</RepealNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>11</TitleNumber><TextRun>.</TextRun><ChapterNumber>94</ChapterNumber><TextRun>.</TextRun><SectionNumber>050</SectionNumber></SectionCite> (Attorney or agent granted principal's powers<TextRun fontFamily="Times New Roman">—</TextRun>Powers to be specifically provided for<TextRun fontFamily="Times New Roman">—</TextRun>Transfer of resources by principal's attorney or agent) and 2014 c 58 s 23, 2011 c 327 s 4, 2001 c 203 s 12, 1989 c 87 s 1, &amp; 1985 c 30 s 29;</P><P><RepealNumber>8</RepealNumber>RCW 11.94.060 (Conveyance or encumbrance of homestead) and 1985 c 30 s 30;</P><P><RepealNumber>9</RepealNumber>RCW 11.94.070 (Limitations on powers to benefit attorneys-in-fact) and 1994 c 221 s 67;</P><P><RepealNumber>10</RepealNumber>RCW 11.94.080 (Termination of marriage or state registered domestic partnership) and 2007 c 156 s 14 &amp; 2001 c 203 s 1;</P><P><RepealNumber>11</RepealNumber>RCW 11.94.090 (Court petition) and 2008 c 6 s 808 &amp; 2001 c 203 s 3;</P><P><RepealNumber>12</RepealNumber>RCW 11.94.100 (Persons allowed to file court petition) and 2008 c 6 s 809 &amp; 2001 c 203 s 4;</P><P><RepealNumber>13</RepealNumber>RCW 11.94.110 (Ruling on court petition) and 2001 c 203 s 5;</P><P><RepealNumber>14</RepealNumber>RCW 11.94.120 (Award of costs on court petition) and 2001 c 203 s 6;</P><P><RepealNumber>15</RepealNumber>RCW 11.94.130 (Applicability of dispute resolution provisions to court petition) and 2001 c 203 s 7;</P><P><RepealNumber>16</RepealNumber>RCW 11.94.140 (Notice of hearing on court petition) and 2008 c 6 s 810 &amp; 2001 c 203 s 8;</P><P><RepealNumber>17</RepealNumber>RCW 11.94.150 (Mental health treatment decisions—Compensation of agent prohibited—Reimbursement of expenses allowed) and 2003 c 283 s 28;</P><P><RepealNumber>18</RepealNumber>RCW 11.94.900 (Application of 1984 c 149 §§ 26-31 as of January 1, 1985) and 1985 c 30 s 140; and</P><P><RepealNumber>19</RepealNumber>RCW 11.94.901 (Construction—Chapter applicable to state registered domestic partnerships—2009 c 521) and 2009 c 521 s 37.</P></BillSection><BillSection type="new" action="addchap"><BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>505</Value><TextRun>.  </TextRun></BillSectionNumber><P>Sections 101 through 301 and 501 through 503 of this act constitute a new chapter in Title 11 RCW.</P></BillSectionHeader></BillSection>
+<BillSection type="new" action="effdate">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>506</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act takes effect January 1, 2017.</P></BillSectionHeader>
+</BillSection></BillBody></Bill>

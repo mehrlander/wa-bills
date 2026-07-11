@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-1636.1</RequestNumber><ShortBillId>SB 5949</ShortBillId><LongBillId>SENATE BILL 5949</LongBillId><Legislature>64th Legislature</Legislature><Session>2015 Regular Session</Session><Sponsors>Senators Baumgartner, Padden, Sheldon, Benton, Dansel, Brown, Braun, Angel, Bailey, Warnick, Miloscia, Honeyford, Roach, Pearson, and Hewitt</Sponsors><BillHistory><ReadDate>Read first time 02/12/15.</ReadDate><ReferredCommittee>Referred to Committee on Transportation.</ReferredCommittee></BillHistory><BriefDescription>Limiting the expenditure of funds on the Alaskan Way viaduct replacement project.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to the Alaskan Way viaduct replacement project taxpayer protection act; adding a new section to chapter 47.01 RCW; providing an effective date; and declaring an emergency.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>47</TitleNumber><TextRun>.</TextRun><ChapterNumber>01</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>If a new revenue package is passed by the legislature after January 1, 2015, the department may not expend any funds from the new revenue package on the state route number 99 Alaskan Way viaduct replacement project. The department may not expend more than the maximum amount for the state contribution provided in RCW 47.01.402(6)(b).</P>
+</BillSection>
+<BillSection type="new" action="emerg">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act is necessary for the immediate preservation of the public peace, health, or safety, or support of the state government and its existing public institutions, and takes effect July 1, 2015.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

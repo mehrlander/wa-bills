@@ -1,8 +1,11 @@
 # bills/texts/
 
-Full bill texts, House and Senate, HTM and XML, for the nine biennia
-2009-10 through 2025-26. Fetched from the Legislature's static file
-server (`lawfilesext.leg.wa.gov/Biennium/<biennium>/<Htm|Xml>/Bills/`)
+Full bill texts, House and Senate, for the thirteen biennia 2001-02
+through 2025-26. HTM for all thirteen; XML from 2003-04 forward (the
+server's XML archive starts there; 2001-02 exists only as HTM, and
+1999-00 HTM exists on the server but is not imported). Fetched from the
+Legislature's static file server
+(`lawfilesext.leg.wa.gov/Biennium/<biennium>/<Htm|Xml>/Bills/`)
 on 2026-07-11. Layout mirrors the source:
 
 ```

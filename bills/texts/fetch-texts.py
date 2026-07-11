@@ -32,7 +32,8 @@ WORKERS = 3
 PAUSE = 0.15  # seconds per worker between requests; ~4-6 req/s aggregate
 
 BIENNIA = ["2025-26", "2023-24", "2021-22", "2019-20", "2017-18",
-           "2015-16", "2013-14", "2011-12", "2009-10"]
+           "2015-16", "2013-14", "2011-12", "2009-10", "2007-08",
+           "2005-06", "2003-04", "2001-02"]
 FORMATS = ["Xml", "Htm"]
 CHAMBERS = ["House", "Senate"]
 

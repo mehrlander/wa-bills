@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-3595.1</RequestNumber><ShortBillId>SB 5893</ShortBillId><LongBillId>SENATE BILL 5893</LongBillId><Legislature>67th Legislature</Legislature><Session>2022 Regular Session</Session><Sponsors>Senator Padden</Sponsors><BillHistory /><BriefDescription>Concerning tort modernization.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to tort modernization; amending RCW 4.24.005; and adding new sections to chapter 4.24 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>4</TitleNumber><TextRun>.</TextRun><ChapterNumber>24</ChapterNumber><TextRun>.</TextRun><SectionNumber>005</SectionNumber></SectionCite> and 1987 c 212 s 1601 are each amended to read as follows:<Caption>Tort actions<TextRun fontFamily="Times New Roman">—</TextRun>Attorneys' fees<TextRun fontFamily="Times New Roman">—</TextRun>Determination of reasonableness.</Caption></BillSectionHeader>
+<P><TextRun amendingStyle="add">(1)</TextRun> Any party charged with the payment of attorney's fees <TextRun amendingStyle="add">in addition to damages</TextRun> in any tort action may petition the court not later than forty-five days of receipt of a final billing or accounting for a determination of the reasonableness of that party's attorneys' fees. The court shall make such a determination and shall take into consideration the following:</P>
+<P><TextRun amendingStyle="strike">(1)</TextRun> <TextRun amendingStyle="add">(a)</TextRun> The time and labor required, the novelty and difficulty of the questions involved, and the skill requisite to perform the legal service properly;</P>
+<P><TextRun amendingStyle="strike">(2)</TextRun> <TextRun amendingStyle="add">(b)</TextRun> The likelihood, if apparent to the client, that the acceptance of the particular employment will preclude other employment by the lawyer;</P>
+<P><TextRun amendingStyle="strike">(3)</TextRun> <TextRun amendingStyle="add">(c)</TextRun> The fee customarily charged in the locality for similar legal services;</P>
+<P><TextRun amendingStyle="strike">(4)</TextRun> <TextRun amendingStyle="add">(d)</TextRun> The amount involved and the results obtained;</P>
+<P><TextRun amendingStyle="strike">(5)</TextRun> <TextRun amendingStyle="add">(e)</TextRun> The time limitations imposed by the client or by the circumstances;</P>
+<P><TextRun amendingStyle="strike">(6)</TextRun> <TextRun amendingStyle="add">(f)</TextRun> The nature and length of the professional relationship with the client;</P>
+<P><TextRun amendingStyle="strike">(7)</TextRun> <TextRun amendingStyle="add">(g)</TextRun> The experience, reputation, and ability of the lawyer or lawyers performing the services;</P>
+<P><TextRun amendingStyle="strike">(8)</TextRun> <TextRun amendingStyle="add">(h)</TextRun> Whether the fee is fixed or contingent;</P>
+<P><TextRun amendingStyle="strike">(9)</TextRun> <TextRun amendingStyle="add">(i)</TextRun> Whether the fixed or contingent fee agreement was in writing and whether the client was aware of his or her right to petition the court under this section;</P>
+<P><TextRun amendingStyle="strike">(10)</TextRun> <TextRun amendingStyle="add">(j)</TextRun> The terms of the fee agreement.</P>
+<P><TextRun amendingStyle="add">(2) In any tort action arising under Washington law in which an attorneys' fee is paid from a common fund recovery, the court shall award an attorneys' fee equal to 35 percent of the value of the common fund actually delivered to and received by beneficiaries, without regard to any other factors, including but not limited to the factors recited in subsection (1) of this section.</TextRun></P>
+<History>1987 c 212 § 1601; 1986 c 305 § 201.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Application<TextRun fontFamily="Times New Roman">—</TextRun>1987 c 212 § 1601:</TextRun> "Section 1601 of this act applies to agreements for attorneys' fees entered into after April 29, 1987." [1987 c 212 § 1602.]</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Application<TextRun fontFamily="Times New Roman">—</TextRun>1986 c 305 § 201:</TextRun> "Section 201 of this act applies to agreements for attorney's fees entered into after June 11, 1986." [1986 c 305 § 202.]</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Preamble<TextRun fontFamily="Times New Roman">—</TextRun>Report to legislature<TextRun fontFamily="Times New Roman">—</TextRun>Severability<TextRun fontFamily="Times New Roman">—</TextRun>1986 c 305:</TextRun> See notes following RCW 4.16.160.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>4</TitleNumber><TextRun>.</TextRun><ChapterNumber>24</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>Notwithstanding any other provision of law, for any statute the violation of which is remediable by an award of statutory damages, a party alleging a violation of the statute thereby alleges injury sufficient to confer standing on that complainant.</P>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>4</TitleNumber><TextRun>.</TextRun><ChapterNumber>24</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>Notwithstanding any other provision of law, when a court orders an award of statutory damages, the court shall multiply the statutory award by the percent change in the consumer price index for all urban consumers as published by the United States department of labor, bureau of labor statistics from December 31st of the year in which the statutory damages were enacted into law through December 31st of the year prior to the date of the award. This section applies to all final judgments entered on or after the effective date of this section.</P>
+</BillSection>
+</BillBody>
+</Bill>

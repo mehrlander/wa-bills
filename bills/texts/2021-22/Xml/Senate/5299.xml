@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-0478.1</RequestNumber><ShortBillId>SB 5299</ShortBillId><LongBillId>SENATE BILL 5299</LongBillId><Legislature>67th Legislature</Legislature><Session>2021 Regular Session</Session><Sponsors>Senators Wellman, Kuderer, Hunt, Mullet, Nguyen, and Wilson, C.</Sponsors><BillHistory><ReadDate>Read first time 01/20/21.</ReadDate><ReferredCommittee>Referred to Committee on Early Learning &amp; K-12 Education.</ReferredCommittee></BillHistory><BriefDescription>Allowing the use of computer science credits for the purpose of graduation requirements.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to the use of computer science credits for the purpose of graduation requirements; and amending RCW 28A.230.300.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>28A</TitleNumber><TextRun>.</TextRun><ChapterNumber>230</ChapterNumber><TextRun>.</TextRun><SectionNumber>300</SectionNumber></SectionCite> and 2019 c 180 s 2 are each amended to read as follows:<Caption>Computer science.</Caption></BillSectionHeader>
+<P>(1) Beginning no later than the 2022-23 school year, each school district that operates a high school must, at a minimum, provide an opportunity to access an elective computer science course that is available to all high school students. School districts are encouraged to consider community-based or public-private partnerships in establishing and administering a course, but any course offered in accordance with this section must be aligned to the state learning standards for computer science or mathematics.</P>
+<P>(2) In accordance with the requirements of this section, beginning in the 2019-20 school year, school districts may award academic credit for computer science to students based on student completion of a competency examination that is aligned with the state learning standards for computer science or mathematics and course equivalency requirements adopted by the office of the superintendent of public instruction to implement this section. Each school district board of directors in districts that award credit under this subsection shall develop a written policy for awarding such credit that includes:</P>
+<P>(a) A course equivalency approval procedure;</P>
+<P>(b) Procedures for awarding competency-based credit for skills learned partially or wholly outside of a course; and</P>
+<P>(c) An approval process for computer science courses taken before attending high school under RCW 28A.230.090 (4) and (5).</P>
+<P>(3) Prior to the use of any competency examination under this section that may be used to award academic credit to students, the office of the superintendent of public instruction must review the examination to ensure its alignment with:</P>
+<P>(a) The state learning standards for computer science or mathematics; and</P>
+<P>(b) Course equivalency requirements adopted by the office of the superintendent of public instruction to implement this section.</P>
+<P><TextRun amendingStyle="add">(4)(a) Upon agreement of the student's parent or guardian or agreement of the school counselor or principal, a student may substitute an approved computer science course for a third year mathematics or science course for the purposes of graduation requirements under RCW 28A.230.090.</TextRun></P>
+<P><TextRun amendingStyle="add">(b) An approved computer science course substituted by a student for a third year mathematics or science course under (a) of this subsection must be aligned with the student's high school and beyond plan.</TextRun></P>
+<History>2019 c 180 § 2.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Findings<TextRun fontFamily="Times New Roman">—</TextRun>2019 c 180:</TextRun> "The legislature recognizes the benefit of computer science and computational thinking in education, not only with respect to educational development, but also in cultivating the skills needed to compete and excel in our state's career landscape. By providing more opportunities to take courses and earn credit in computer science, Washington can better prepare students to excel both in school and after graduation." [2019 c 180 § 1.]</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+</BillBody>
+</Bill>

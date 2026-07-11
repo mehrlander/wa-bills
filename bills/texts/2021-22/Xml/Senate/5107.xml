@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-0267.1</RequestNumber><ShortBillId>SB 5107</ShortBillId><LongBillId>SENATE BILL 5107</LongBillId><Legislature>67th Legislature</Legislature><Session>2021 Regular Session</Session><Sponsors>Senator Fortunato</Sponsors><BillHistory><PrefiledDate>Prefiled 01/07/21.</PrefiledDate><ReadDate>Read first time 01/11/21.</ReadDate><ReferredCommittee>Referred to Committee on Housing &amp; Local Government.</ReferredCommittee></BillHistory><BriefDescription>Addressing homelessness.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to compassionate and effective strategies to address the homelessness crisis; adding a new section to chapter 36.01 RCW; adding a new section to chapter 9A.84 RCW; creating new sections; and prescribing penalties.</BillTitle>
+<EnactedClause />
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature finds that after the ninth circuit court of appeals finding in <TextRun fontStyle="italic">Martin v. City of Boise</TextRun>, it is imperative that cities and counties of a certain size provide shelter to the homeless population. The provision of mental health and substance abuse treatment options must be part of the shelter model as well as security for the residents, staff, and counselors. Whereas the state has allocated money for housing assistance in the housing trust fund, the legislature also finds that such shelters should be funded utilizing that money. Cities and counties are struggling to cope with unauthorized camping and the negative environmental and social impacts of such camping. By establishing a shelter, local governments may then be allowed to manage the potential environmental hazards that accompany sporadic camping.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>36</TitleNumber><TextRun>.</TextRun><ChapterNumber>01</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) Every county and each city with a population over 50,000 must establish and operate at least one emergency overnight shelter site in its respective jurisdiction. Counties and each eligible city with the county's geographic boundary must coordinate to ensure that there are enough cumulative shelter beds to accommodate, at a minimum, the sheltered and unsheltered portions of the county's most recent point-in-time homeless count. Each shelter must prohibit the possession and use of alcohol and unprescribed drugs on its premises contingent upon evaluation for and compliance with treatment as recommended. Each shelter must also provide for a police presence during the shelter's operating hours. Counties and each eligible city shall require and make available employment, mental health, and drug counseling services at each shelter location.</P>
+<P>(2) Any shelter established under this section is eligible for assistance under the housing trust fund pursuant to RCW 43.185.050.</P>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>9A</TitleNumber><TextRun>.</TextRun><ChapterNumber>84</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) A person is guilty of unauthorized camping if he or she camps or stores personal property, including camp paraphernalia, on any publicly owned or maintained land, whether improved or unimproved, unless the land has been specifically designated by the controlling jurisdiction as an area allowing recreational camping.</P>
+<P>(a) "Camp paraphernalia" includes, but is not limited to, tents, tarps, cots, beds, hammocks, mattresses, blankets, sleeping bags, cooking equipment, and other items commonly associated with sleeping or remaining outdoors overnight.</P>
+<P>(b) "Camping" means the erection of a tent or other temporary shelter or to assemble personal property on public land that to a reasonable person indicates a person has remained or intends to remain on the land overnight without proper permits or lawful authority or when the land is not open to the public.</P>
+<P>(2) Unauthorized camping is a misdemeanor.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act shall be known and cited as the serious homelessness engagement leads to effective results (SHELTER) act.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

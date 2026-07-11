@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-0224.1</RequestNumber><ShortBillId>SB 5041</ShortBillId><LongBillId>SENATE BILL 5041</LongBillId><Legislature>67th Legislature</Legislature><Session>2021 Regular Session</Session><Sponsors>Senators Fortunato, Brown, and Gildon</Sponsors><BillHistory><PrefiledDate>Prefiled 12/28/20.</PrefiledDate><ReadDate>Read first time 01/11/21.</ReadDate><ReferredCommittee>Referred to Committee on Environment, Energy &amp; Technology.</ReferredCommittee></BillHistory><BriefDescription>Reducing unnecessary paperwork to promote development.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to reducing unnecessary paperwork to promote development; adding a new section to chapter 43.21C RCW; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature finds that requiring additional paperwork for projects that meet the prima facie requirements of the categorical exemptions in chapter 43.21C RCW is unnecessary and adds costs to important projects, such as housing. Therefore, it is the intent of the legislature to provide relief from superfluous paperwork for applicants whose actions are categorically exempt from the requirements of chapter 43.21C RCW.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>21C</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>An applicant whose project, action, or project decision is described as being exempt or categorically exempt under this chapter is not required to file a checklist or any other paperwork to prove the categorical exemption if the initial application contains sufficient information showing that the project, action, or project decision is exempt or categorically exempt.</P>
+</BillSection>
+</BillBody>
+</Bill>

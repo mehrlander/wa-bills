@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-1879.1</RequestNumber><ShortBillId>SB 5472</ShortBillId><LongBillId>SENATE BILL 5472</LongBillId><Legislature>67th Legislature</Legislature><Session>2021 Regular Session</Session><Sponsors>Senators Van De Wege, Sheldon, Hasegawa, and Nobles</Sponsors><BillHistory><ReadDate>Read first time 03/05/21.</ReadDate><ReferredCommittee>Referred to Committee on Environment, Energy &amp; Technology.</ReferredCommittee></BillHistory><BriefDescription>Providing support for utility customers impacted by COVID-19 through payment plans, including partial forgiveness of arrearages and a credit against the public utility tax.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to providing support for utility customers impacted by COVID-19 through payment plans, including partial forgiveness of arrearages and a credit against the public utility tax; and adding a new section to chapter 82.16 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>82</TitleNumber><TextRun>.</TextRun><ChapterNumber>16</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) The definitions in this subsection apply throughout this section unless the context clearly requires otherwise.</P>
+<P>(a) "COVID-19 customer support program" means a utility developed and administered program with the following provisions:</P>
+<P>(i) A review process to determine that a customer's arrearages relate to an economic hardship caused by COVID-19;</P>
+<P>(ii) Eligible customers must include residential customers, and may include business customers;</P>
+<P>(iii) Eligible customers must agree to a payment plan by October 31, 2021, providing repayment of the remaining arrearage amount within 24 months;</P>
+<P>(iv) As part of the payment plan, the utility agrees to forgive 50 percent of the total amount of the utility customer's arrearages;</P>
+<P>(v) As part of the payment plan, the utility must make reasonable efforts to apply any available local, state, or federal utility customer assistance funds to reduce the arrearage amount; and</P>
+<P>(vi) The COVID-19 customer support program may include provisions to reinstate forgiven arrearages if the utility customer fails to complete the repayment plan.</P>
+<P>(b) "Credit" means the credit against the tax imposed by this chapter that each light and power, water distribution, gas distribution, or sewerage business may take each fiscal year as calculated by the department. The base credit is equal to 50 percent of the amount of arrearages written off by a utility under (a)(iii) of this subsection through a COVID-19 customer support program.</P>
+<P>(2) Subject to the limitations in this section, a light and power, water distribution, gas distribution, or sewerage business may take a credit in 2021, 2022, and 2023 against the tax imposed under this chapter.</P>
+<P>(a) The credit may be apportioned among monthly taxes owed through December 31, 2023.</P>
+<P>(b) The total amount of the credit may not exceed the total taxes owed through December 31, 2023.</P>
+<P>(c) If a utility reinstates forgiven arrearages for a customer that does not fulfill a payment plan for which a credit was previously taken by the utility, that credited amount must be corrected by the utility at the end of the calendar year in which the arrearages are reinstated.</P>
+</BillSection>
+</BillBody>
+</Bill>

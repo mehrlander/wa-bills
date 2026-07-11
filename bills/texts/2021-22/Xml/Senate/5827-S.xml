@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-4038.1</RequestNumber><ShortBillId>SSB 5827</ShortBillId><LongBillId>SUBSTITUTE SENATE BILL 5827</LongBillId><Legislature>67th Legislature</Legislature><Session>2022 Regular Session</Session><Sponsors>Senate Human Services, Reentry &amp; Rehabilitation (originally sponsored by Senators Dozier, Gildon, Rivers, Wagoner, C. Wilson, and L. Wilson)</Sponsors><BillHistory><ReadDate>READ FIRST TIME 01/31/22.</ReadDate></BillHistory><BriefDescription>Concerning offender management network information and electronic health records systems at the department of corrections.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to offender management network information and electronic health records systems at the department of corrections; amending RCW 70.48.520; adding a new section to chapter 72.09 RCW; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>72</TitleNumber><TextRun>.</TextRun><ChapterNumber>09</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1)(a) The department shall replace the offender management network information system at the department with a more efficient and technologically advanced system.</P>
+<P>(b) The department shall conduct a feasibility study on replacing or modernizing the offender management network information system, and identify the sequence of steps and schedule for replacing or modernizing the system, including replacing or modernizing a particular module or function of the system as an initial step to replacing or modernizing the entire offender management network information system. The department shall update business and technical requirements and use a competitive request for a proposal process to replace the offender management network information system under this section.</P>
+<P>(c) The department shall leverage existing resources, development plans, and funding to continue to advance any progress already made in replacing or modernizing the offender management network information system.</P>
+<P>(2)(a) The department shall update business and technical requirements and use a competitive request for proposal process to implement a comprehensive electronic health records system at the department.</P>
+<P>(b) The comprehensive electronic health records system implemented by the department shall be able to communicate with information and data systems used by managed care organizations, the department of health, and local jails for purposes of care coordination activities. The comprehensive electronic health records system implemented by the department shall be available for local jails to use in lieu of a jail electronic health records system if a local jail chooses to use the department's comprehensive electronic health records system.</P>
+<P>(c) The department shall leverage existing resources, development plans, and funding to continue to advance any progress already made in implementing a comprehensive electronic health records system.</P>
+<P>(3) By December 1st each year, in compliance with RCW 43.01.036, the department shall submit a report to the governor and the appropriate committees of the legislature with updates on progress made towards replacing the offender management network information system and implementing a comprehensive electronic health records system.</P>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>70</TitleNumber><TextRun>.</TextRun><ChapterNumber>48</ChapterNumber><TextRun>.</TextRun><SectionNumber>520</SectionNumber></SectionCite> and 2021 c 166 s 3 are each amended to read as follows:<Caption>Collaboration with managed care organizations.</Caption></BillSectionHeader>
+<P><TextRun amendingStyle="add">(1)</TextRun> A department of corrections or chief law enforcement officer responsible for the operation of a jail shall make reasonable efforts to collaborate with managed care organizations, as defined in RCW 71.24.025, for the purposes of care coordination activities and improving health care delivery and release planning for persons confined in the jail.</P>
+<P><TextRun amendingStyle="add">(2) A department of corrections or chief law enforcement officer responsible for the operation of a jail may use the comprehensive electronic health records system developed by the department of corrections under section 1 of this act in lieu of maintaining a jail electronic health record system.</TextRun></P>
+<History>2021 c 166 § 3.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Findings<TextRun fontFamily="Times New Roman">—</TextRun>Intent<TextRun fontFamily="Times New Roman">—</TextRun>Conflict with federal requirements<TextRun fontFamily="Times New Roman">—</TextRun>2021 c 166:</TextRun> See notes following RCW 74.09.670.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>If specific funding for the purposes of this act, referencing this act by bill or chapter number, is not provided by June 30, 2022, in the omnibus appropriations act, this act is null and void.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

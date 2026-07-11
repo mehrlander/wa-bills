@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-0385.3</RequestNumber><ShortBillId>SB 5364</ShortBillId><LongBillId>SENATE BILL 5364</LongBillId><Legislature>67th Legislature</Legislature><Session>2021 Regular Session</Session><Sponsors>Senator Fortunato</Sponsors><BillHistory /><BriefDescription>Concerning equine industry support.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to equine industry support; adding a new section to chapter 82.08 RCW; adding a new section to chapter 67.16 RCW; and declaring an emergency.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>82</TitleNumber><TextRun>.</TextRun><ChapterNumber>08</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) By July 1, 2021, and by July 1st of each year thereafter, the state treasurer, based upon information provided by the department, must transfer from the general fund to the Washington equine industry reinvestment account created in section 2 of this act, an amount equal to half of the estimated revenues deposited into the general fund for the previous fiscal year derived from the imposition of state sales and use taxes on the following equine-related products:</P>
+<P>(a) Equines;</P>
+<P>(b) Equine feed;</P>
+<P>(c) Prescription drugs, over-the-counter drugs, or dietary supplements dispensed or to be dispensed to equines;</P>
+<P>(d) Equine tack which includes, but is not limited to, equipment used to ride or care for an equine such as saddles, driving harnesses, girths, cinches, bridles, martingales, halters, lead ropes, whips, long reins, wraps, and other items used in handling and caring for equines;</P>
+<P>(e) Horse bedding and grooming supplies; and</P>
+<P>(f) Other taxable sales directly related to equine ownership, riding, or boarding.</P>
+<P>(2) For purposes of this section, "equine" and "equines" have the same meaning as in RCW 4.24.530(1).</P>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>67</TitleNumber><TextRun>.</TextRun><ChapterNumber>16</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) The Washington equine industry reinvestment account is created in the state treasury. Revenues in the account consist of moneys transferred to the account pursuant to section 1 of this act and any other revenue appropriated or transferred to the account pursuant to legislative directive. Moneys in the account may be spent only after appropriation.</P>
+<P>(2) Beginning with the 2022 fiscal year, the legislature must annually appropriate moneys in the account as follows:</P>
+<P>(a) Seven and one-half percent to the Washington horse racing commission operating account in RCW 67.16.280;</P>
+<P>(b) Seven and one-half percent to the Washington horse racing commission for breeder awards to be deposited into the Washington bred owners' bonus fund and breeder awards account in RCW 67.16.275; and</P>
+<P>(c) The remaining 85 percent to the Washington horse racing commission to be allocated for the following dedicated purposes:</P>
+<P>(i) Ten percent to support nonprofit race meets as defined in RCW 67.16.130 based on a per approved live race day allocation, not to exceed $60,000 per approved race day;</P>
+<P>(ii) Fifteen percent to be awarded as grants to support equine activities as defined in RCW 4.24.530(2) and to support equine breeding and racing industries; and</P>
+<P>(iii) Sixty percent to the class 1 racing associations licensed by the commission of which 75 percent shall be designated for purses and the remainder for equine health and safety programs and research and facility improvements and maintenance.</P>
+</BillSection>
+<BillSection type="new" action="emerg" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act is necessary for the immediate preservation of the public peace, health, or safety, or support of the state government and its existing public institutions, and takes effect immediately.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-3338.2</RequestNumber><ShortBillId>SB 5926</ShortBillId><LongBillId>SENATE BILL 5926</LongBillId><Legislature>67th Legislature</Legislature><Session>2022 Regular Session</Session><Sponsors>Senators Robinson and Nguyen</Sponsors><BillHistory><ReadDate>Read first time 01/21/22.</ReadDate><ReferredCommittee>Referred to Committee on Ways &amp; Means.</ReferredCommittee></BillHistory><BriefDescription>Concerning capital gains taxation of certain investment management services provided to a partnership or similar entity.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to capital gains taxation of certain investment management services provided to a partnership or similar entity; amending RCW 82.87.020 and 82.87.040; and providing an effective date.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>82</TitleNumber><TextRun>.</TextRun><ChapterNumber>87</ChapterNumber><TextRun>.</TextRun><SectionNumber>020</SectionNumber></SectionCite> and 2021 c 196 s 4 are each amended to read as follows:<Caption>Definitions.</Caption></BillSectionHeader>
+<P>The definitions in this section apply throughout this chapter unless the context clearly requires otherwise.</P>
+<P>(1) "Adjusted capital gain" means federal net long-term capital gain:</P>
+<P>(a) Plus any amount of long-term capital loss from a sale or exchange that is exempt from the tax imposed in this chapter, to the extent such loss was included in calculating federal net long-term capital gain;</P>
+<P>(b) Plus any amount of long-term capital loss from a sale or exchange that is not allocated to Washington under RCW 82.87.100, to the extent such loss was included in calculating federal net long-term capital gain;</P>
+<P>(c) Plus any amount of loss carryforward from a sale or exchange that is not allocated to Washington under RCW 82.87.100, to the extent such loss was included in calculating federal net long-term capital gain;</P>
+<P>(d) Less any amount of long-term capital gain from a sale or exchange that is not allocated to Washington under RCW 82.87.100, to the extent such gain was included in calculating federal net long-term capital gain; and</P>
+<P>(e) Less any amount of long-term capital gain from a sale or exchange that is exempt from the tax imposed in this chapter, to the extent such gain was included in calculating federal net long-term capital gain.</P>
+<P>(2) "Capital asset" has the same meaning as provided by Title 26 U.S.C. Sec. 1221 of the internal revenue code and also includes any other property if the sale or exchange of the property results in a gain that is treated as a long-term capital gain under Title 26 U.S.C. Sec. 1231 or any other provision of the internal revenue code.</P>
+<P>(3) "Federal net long-term capital gain" means the net long-term capital gain reportable for federal income tax purposes determined as if Title 26 U.S.C. Secs. 55 through 59, 1400Z-1, and 1400Z-2 of the internal revenue code did not exist.</P>
+<P>(4) "Individual" means a natural person.</P>
+<P>(5) "Internal revenue code" means the United States internal revenue code of 1986, as amended, as of July 25, 2021, or such subsequent date as the department may provide by rule consistent with the purpose of this chapter.</P>
+<P>(6) <TextRun amendingStyle="add">"Investment management services" means providing a substantial quantity of any of the following services to a partnership, S corporation, or other entity as a partner thereto:</TextRun></P>
+<P><TextRun amendingStyle="add">(a) Advising as to the advisability of investing in, purchasing, or selling a specified asset;</TextRun></P>
+<P><TextRun amendingStyle="add">(b) Managing, acquiring, or disposing of a specified asset;</TextRun></P>
+<P><TextRun amendingStyle="add">(c) Arranging financing with respect to acquiring specified assets; or</TextRun></P>
+<P><TextRun amendingStyle="add">(d) Any activity in support of any of the services described in (a) through (c) of this subsection.</TextRun></P>
+<P><TextRun amendingStyle="add">(7)</TextRun> "Long-term capital asset" means a capital asset that is held for more than one year.</P>
+<P><TextRun amendingStyle="strike">(7)</TextRun> <TextRun amendingStyle="add">(8)</TextRun> "Long-term capital gain" means gain from the sale or exchange of a long-term capital asset.</P>
+<P><TextRun amendingStyle="strike">(8)</TextRun> <TextRun amendingStyle="add">(9)</TextRun> "Long-term capital loss" means a loss from the sale or exchange of a long-term capital asset.</P>
+<P><TextRun amendingStyle="strike">(9)</TextRun> <TextRun amendingStyle="add">(10)</TextRun> "Real estate" means land and fixtures affixed to land. "Real estate" also includes used mobile homes, used park model trailers, used floating homes, and improvements constructed upon leased land.</P>
+<P><TextRun amendingStyle="strike">(10)</TextRun> <TextRun amendingStyle="add">(11)</TextRun>(a) "Resident" means an individual:</P>
+<P>(i) Who is domiciled in this state during the taxable year, unless the individual (A) maintained no permanent place of abode in this state during the entire taxable year, (B) maintained a permanent place of abode outside of this state during the entire taxable year, and (C) spent in the aggregate not more than 30 days of the taxable year in this state; or</P>
+<P>(ii) Who is not domiciled in this state during the taxable year, but maintained a place of abode and was physically present in this state for more than 183 days during the taxable year.</P>
+<P>(b) For purposes of this subsection, "day" means a calendar day or any portion of a calendar day.</P>
+<P>(c) An individual who is a resident under (a) of this subsection is a resident for that portion of a taxable year in which the individual was domiciled in this state or maintained a place of abode in this state.</P>
+<P><TextRun amendingStyle="strike">(11)</TextRun> <TextRun amendingStyle="add">(12) "Specified asset" means certain securities, interests in partnerships, commodities, or options or derivatives contracts.</TextRun></P>
+<P><TextRun amendingStyle="add">(13)</TextRun> "Taxable year" means the taxpayer's taxable year as determined under the internal revenue code.</P>
+<P><TextRun amendingStyle="strike">(12)</TextRun> <TextRun amendingStyle="add">(14)</TextRun> "Taxpayer" means an individual subject to tax under this chapter.</P>
+<P><TextRun amendingStyle="strike">(13)</TextRun> <TextRun amendingStyle="add">(15)</TextRun> "Washington capital gains" means an individual's adjusted capital gain, as modified in RCW 82.87.060, for each return filed under this chapter.</P>
+<History>2021 c 196 § 4.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Automatic expiration date and tax preference performance statement exemption<TextRun fontFamily="Times New Roman">—</TextRun>2021 c 196:</TextRun> See note following RCW 82.87.010.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>82</TitleNumber><TextRun>.</TextRun><ChapterNumber>87</ChapterNumber><TextRun>.</TextRun><SectionNumber>040</SectionNumber></SectionCite> and 2021 c 196 s 5 are each amended to read as follows:<Caption>Tax imposed<TextRun fontFamily="Times New Roman">—</TextRun>Long-term capital assets.</Caption></BillSectionHeader>
+<P>(1)<TextRun amendingStyle="add">(a)</TextRun> Beginning January 1, 2022, an excise tax is imposed on the sale or exchange of long-term capital assets. Only individuals are subject to payment of the tax, which equals seven percent multiplied by an individual's Washington capital gains<TextRun amendingStyle="add">, except as provided in (b) of this subsection (1)</TextRun>.</P>
+<P><TextRun amendingStyle="add">(b) The tax on an individual's Washington capital gains derived primarily as compensation for investment management services is subject to a rate of 14 percent.</TextRun></P>
+<P>(2) The tax levied in subsection (1) of this section is necessary for the support of the state government and its existing public institutions.</P>
+<P>(3) If an individual's Washington capital gains are less than zero for a taxable year, no tax is due under this section and no such amount is allowed as a carryover for use in the calculation of that individual's adjusted capital gain, as defined in RCW 82.87.020(1), for any taxable year. To the extent that a loss carryforward is included in the calculation of an individual's federal net long-term capital gain and that loss carryforward is directly attributable to losses from sales or exchanges allocated to this state under RCW 82.87.100, the loss carryforward is included in the calculation of that individual's adjusted capital gain for the purposes of this chapter. An individual may not include any losses carried back for federal income tax purposes in the calculation of that individual's adjusted capital gain for any taxable year.</P>
+<P>(4)(a) The tax imposed in this section applies to the sale or exchange of long-term capital assets owned by the taxpayer, whether the taxpayer was the legal or beneficial owner of such assets at the time of the sale or exchange. The tax applies when the Washington capital gains are recognized by the taxpayer in accordance with this chapter.</P>
+<P>(b) For purposes of this chapter:</P>
+<P>(i) An individual is considered to be a beneficial owner of long-term capital assets held by an entity that is a pass-through or disregarded entity for federal tax purposes, such as a partnership, limited liability company, S corporation, or grantor trust, to the extent of the individual's ownership interest in the entity as reported for federal income tax purposes.</P>
+<P>(ii) A nongrantor trust is deemed to be a grantor trust if the trust does not qualify as a grantor trust for federal tax purposes, and the grantor's transfer of assets to the trust is treated as an incomplete gift under Title 26 U.S.C. Sec. 2511 of the internal revenue code and its accompanying regulations. A grantor of such trust is considered the beneficial owner of the capital assets of the trust for purposes of the tax imposed in this section and must include any long-term capital gain or loss from the sale or exchange of a capital asset by the trust in the calculation of that individual's adjusted capital gain, if such gain or loss is allocated to this state under RCW 82.87.100.</P>
+<History>2021 c 196 § 5.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Contingency<TextRun fontFamily="Times New Roman">—</TextRun>2021 c 196 §§ 5 and 16:</TextRun> "(1) If a court of competent jurisdiction, in a final judgment not subject to appeal, adjudges section 5 of this act unconstitutional, or otherwise invalid, in its entirety, section 16 of this act is null and void in its entirety. Any credits previously claimed under section 16 of this act must be repaid within 30 days of the department of revenue's notice to the taxpayer of the amount due.</NoteP><NoteP>(2) If the taxpayer fails to repay the credit by the due date, interest and penalties as provided in chapter 82.32 RCW apply to the deficiency." [2021 c 196 § 20.]</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Automatic expiration date and tax preference performance statement exemption<TextRun fontFamily="Times New Roman">—</TextRun>2021 c 196:</TextRun> See note following RCW 82.87.010.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="new" action="effdate">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act takes effect January 1, 2023.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

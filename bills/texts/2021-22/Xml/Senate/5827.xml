@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-3524.1</RequestNumber><ShortBillId>SB 5827</ShortBillId><LongBillId>SENATE BILL 5827</LongBillId><Legislature>67th Legislature</Legislature><Session>2022 Regular Session</Session><Sponsors>Senators Dozier, Gildon, Rivers, Wagoner, C. Wilson, and L. Wilson</Sponsors><BillHistory><ReadDate>Read first time 01/12/22.</ReadDate><ReferredCommittee>Referred to Committee on Human Services, Reentry &amp; Rehabilitation.</ReferredCommittee></BillHistory><BriefDescription>Concerning offender management network information and electronic health records systems at the department of corrections.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to offender management network information and electronic health records systems at the department of corrections; adding a new section to chapter 72.09 RCW; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>72</TitleNumber><TextRun>.</TextRun><ChapterNumber>09</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1)(a) The department shall replace the offender management network information system at the department with a more efficient and technologically advanced system.</P>
+<P>(b) The department shall use a competitive request for a proposal process to replace the offender management network information system under this section.</P>
+<P>(c) The department shall leverage existing resources, development plans, and funding.</P>
+<P>(2)(a) The department shall implement a comprehensive electronic health records system at the department.</P>
+<P>(b) The comprehensive electronic health records system implemented by the department shall be able to communicate with information and data systems used by managed care organizations for purposes of care coordination activities.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>If specific funding for the purposes of this act, referencing this act by bill or chapter number, is not provided by June 30, 2022, in the omnibus appropriations act, this act is null and void.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

@@ -1,0 +1,1356 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><ShortBillId>ESSB 5370</ShortBillId><LongBillId>ENGROSSED SUBSTITUTE SENATE BILL 5370</LongBillId><Legislature>67th Legislature</Legislature><Session>2021 Regular Session</Session><Sponsors>Senate Behavioral Health Subcommittee to Health &amp; Long Term Care (originally sponsored by Senators Keiser, Dhingra, Saldaña, and Wilson, C.)</Sponsors><BillHistory><ReadDate>READ FIRST TIME 02/15/21.</ReadDate></BillHistory><BriefDescription>Updating mental health advance directive laws.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to updating mental health advance directive laws; amending RCW 71.32.010, 71.32.020, 71.32.020, 71.32.030, 71.32.040, 71.32.050, 71.32.060, 71.32.070, 71.32.100, 71.32.110, 71.32.130, 71.32.170, 71.32.180, 71.32.210, 71.32.220, 71.32.250, and 71.34.755; reenacting and amending RCW 71.32.020, 71.32.140, and 71.32.260; adding a new section to chapter 71.32 RCW; providing effective dates; and providing expiration dates.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>71</TitleNumber><TextRun>.</TextRun><ChapterNumber>32</ChapterNumber><TextRun>.</TextRun><SectionNumber>010</SectionNumber></SectionCite> and 2003 c 283 s 1 are each amended to read as follows:<Caption>Legislative declaration<TextRun fontFamily="Times New Roman">—</TextRun>Findings.</Caption></BillSectionHeader>
+<P>(1) The legislature declares that an individual with capacity has the ability to control decisions relating to his or her own <TextRun amendingStyle="strike">mental</TextRun> <TextRun amendingStyle="add">behavioral</TextRun> health care. The legislature finds that:</P>
+<P>(a) Some <TextRun amendingStyle="strike">mental illnesses</TextRun> <TextRun amendingStyle="add">behavioral health disorders</TextRun> cause individuals to fluctuate between capacity and incapacity;</P>
+<P>(b) During periods when an individual's capacity is unclear, the individual may be unable to access needed treatment because the individual may be unable to give informed consent;</P>
+<P>(c) Early treatment may prevent an individual from becoming so ill that involuntary treatment is necessary; and</P>
+<P>(d) <TextRun amendingStyle="strike">Mentally ill individuals</TextRun> <TextRun amendingStyle="add">Individuals with behavioral health disorders</TextRun> need some method of expressing their instructions and preferences for treatment and providing advance consent to or refusal of treatment.</P>
+<P><TextRun amendingStyle="add">(2)</TextRun> The legislature recognizes that a mental health advance directive can be an essential tool for an individual to express his or her choices at a time when the effects of <TextRun amendingStyle="strike">mental illness</TextRun> <TextRun amendingStyle="add">a behavioral health disorder</TextRun> have not deprived him or her of the power to express his or her instructions or preferences.</P>
+<P><TextRun amendingStyle="strike">(2)</TextRun> <TextRun amendingStyle="add">(3)</TextRun> The legislature further finds that:</P>
+<P>(a) A mental health advance directive must provide the individual with a full range of choices;</P>
+<P>(b) <TextRun amendingStyle="strike">Mentally ill individuals</TextRun> <TextRun amendingStyle="add">Individuals with behavioral health disorders</TextRun> have varying perspectives on whether they want to be able to revoke a directive during periods of incapacity;</P>
+<P>(c) For a mental health advance directive to be an effective tool, individuals must be able to choose how they want their directives treated during periods of incapacity; and</P>
+<P>(d) There must be clear standards so that treatment providers can readily discern an individual's treatment choices.</P>
+<P>Consequently, the legislature affirms that, pursuant to other provisions of law, a validly executed mental health advance directive is to be respected by agents, guardians, and other surrogate decision makers, health care providers, professional persons, and health care facilities.</P>
+<History>2003 c 283 § 1.</History>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>71</TitleNumber><TextRun>.</TextRun><ChapterNumber>32</ChapterNumber><TextRun>.</TextRun><SectionNumber>020</SectionNumber></SectionCite> and 2016 c 209 s 407 are each amended to read as follows:<Caption>Definitions. <TextRun fontStyle="italic">(Effective until January 1, 2022.)</TextRun></Caption></BillSectionHeader>
+<P>The definitions in this section apply throughout this chapter unless the context clearly requires otherwise.</P>
+<P>(1) "Adult" means any individual who has attained the age of majority or is an emancipated minor.</P>
+<P>(2) "Agent" has the same meaning as an attorney-in-fact or agent as provided in chapter 11.125 RCW.</P>
+<P>(3) "Capacity" means that <TextRun amendingStyle="strike">an adult</TextRun> <TextRun amendingStyle="add">a person</TextRun> has not been found to be incapacitated pursuant to this chapter or RCW 11.88.010(1)(e).</P>
+<P>(4) "Court" means a superior court under chapter 2.08 RCW.</P>
+<P>(5) "Health care facility" means a hospital, as defined in RCW 70.41.020; an institution, as defined in RCW 71.12.455; a state hospital, as defined in RCW 72.23.010; a nursing home, as defined in RCW 18.51.010; or a clinic that is part of a community mental health service delivery system, as defined in RCW 71.24.025.</P>
+<P>(6) "Health care provider" means an osteopathic physician or osteopathic physician's assistant licensed under chapter 18.57 or 18.57A RCW, a physician or physician's assistant licensed under chapter 18.71 or 18.71A RCW, or an advanced registered nurse practitioner licensed under RCW 18.79.050.</P>
+<P>(7) "Incapacitated" means <TextRun amendingStyle="strike">an adult</TextRun> <TextRun amendingStyle="add">a person</TextRun> who: (a) Is unable to understand the nature, character, and anticipated results of proposed treatment or alternatives; understand the recognized serious possible risks, complications, and anticipated benefits in treatments and alternatives, including nontreatment; or communicate his or her understanding or treatment decisions; or (b) has been found to be incompetent pursuant to RCW 11.88.010(1)(e).</P>
+<P>(8) "Informed consent" means consent that is given after <TextRun amendingStyle="strike">the</TextRun> <TextRun amendingStyle="add">a</TextRun> person: (a) Is provided with a description of the nature, character, and anticipated results of proposed treatments and alternatives, and the recognized serious possible risks, complications, and anticipated benefits in the treatments and alternatives, including nontreatment, in language that the person can reasonably be expected to understand; or (b) elects not to be given the information included in (a) of this subsection.</P>
+<P>(9) "Long-term care facility" has the same meaning as defined in RCW 43.190.020.</P>
+<P>(10) "Mental disorder" means any organic, mental, or emotional impairment which has substantial adverse effects on an individual's cognitive or volitional functions.</P>
+<P>(11) "Mental health advance directive" or "directive" means a written document in which the principal makes a declaration of instructions or preferences or appoints an agent to make decisions on behalf of the principal regarding the principal's mental health treatment, or both, and that is consistent with the provisions of this chapter.</P>
+<P>(12) "Mental health professional" means a psychiatrist, psychologist, psychiatric nurse, or social worker, and such other mental health professionals as may be defined by rules adopted by the secretary pursuant to the provisions of chapter 71.05 RCW.</P>
+<P>(13) "Principal" means <TextRun amendingStyle="strike">an adult</TextRun> <TextRun amendingStyle="add">a person</TextRun> who has executed a mental health advance directive.</P>
+<P>(14) "Professional person" means a mental health professional and shall also mean a physician, registered nurse, and such others as may be defined by rules adopted by the secretary pursuant to the provisions of chapter 71.05 RCW.</P>
+<P>(15) "Social worker" means a person with a master's or further advanced degree from a social work educational program accredited and approved as provided in RCW 18.320.010.</P>
+<P><TextRun amendingStyle="add">(16) "Behavioral health disorder" means a mental disorder, a substance use disorder, or a co-occurring mental health and substance use disorder.</TextRun></P>
+<P><TextRun amendingStyle="add">(17) "Substance use disorder" means a cluster of cognitive, behavioral, and physiological symptoms indicating that an individual continues using the substance despite significant substance-related problems. The diagnosis of a substance use disorder is based on a pathological pattern of behaviors related to the use of the substances.</TextRun></P>
+<History>2016 c 209 § 407; 2011 c 89 § 15; 2003 c 283 § 2.</History>
+<RCWNoteSection>
+<RevNote><NoteP><TextRun fontWeight="bold">*Reviser's note: </TextRun>Chapter 11.88 RCW was repealed in its entirety by 2020 c 312 § 904, effective January 1, 2022.</NoteP></RevNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Short title<TextRun fontFamily="Times New Roman">—</TextRun>Application<TextRun fontFamily="Times New Roman">—</TextRun>Uniformity<TextRun fontFamily="Times New Roman">—</TextRun>Federal law application<TextRun fontFamily="Times New Roman">—</TextRun>Federal electronic signatures in global and national commerce act<TextRun fontFamily="Times New Roman">—</TextRun>Application<TextRun fontFamily="Times New Roman">—</TextRun>Dates<TextRun fontFamily="Times New Roman">—</TextRun>Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2016 c 209:</TextRun> See RCW 11.125.010 and 11.125.900 through 11.125.903.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2011 c 89:</TextRun> See note following RCW 18.320.005.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Findings<TextRun fontFamily="Times New Roman">—</TextRun>2011 c 89:</TextRun> See RCW 18.320.005.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>71</TitleNumber><TextRun>.</TextRun><ChapterNumber>32</ChapterNumber><TextRun>.</TextRun><SectionNumber>020</SectionNumber></SectionCite> and 2020 c 312 s 732 are each amended to read as follows:<Caption>Definitions. <TextRun fontStyle="italic">(Effective January 1, 2022, until July 1, 2022.)</TextRun></Caption></BillSectionHeader>
+<P>The definitions in this section apply throughout this chapter unless the context clearly requires otherwise.</P>
+<P>(1) "Adult" means any individual who has attained the age of majority or is an emancipated minor.</P>
+<P>(2) "Agent" has the same meaning as an attorney-in-fact or agent as provided in chapter 11.125 RCW.</P>
+<P>(3) "Capacity" means that <TextRun amendingStyle="strike">an adult</TextRun> <TextRun amendingStyle="add">a person</TextRun> has not been found to be incapacitated pursuant to this chapter or subject to a guardianship under RCW 11.130.265.</P>
+<P>(4) "Court" means a superior court under chapter 2.08 RCW.</P>
+<P>(5) "Health care facility" means a hospital, as defined in RCW 70.41.020; an institution, as defined in RCW 71.12.455; a state hospital, as defined in RCW 72.23.010; a nursing home, as defined in RCW 18.51.010; or a clinic that is part of a community <TextRun amendingStyle="strike">mental</TextRun> <TextRun amendingStyle="add">behavioral</TextRun> health service delivery system, as defined in RCW 71.24.025.</P>
+<P>(6) "Health care provider" means an osteopathic physician or osteopathic physician's assistant licensed under chapter 18.57 or 18.57A RCW, a physician or physician's assistant licensed under chapter 18.71 or 18.71A RCW, or an advanced registered nurse practitioner licensed under RCW 18.79.050.</P>
+<P>(7) "Incapacitated" means <TextRun amendingStyle="strike">an adult</TextRun> <TextRun amendingStyle="add">a person</TextRun> who: (a) Is unable to understand the nature, character, and anticipated results of proposed treatment or alternatives; understand the recognized serious possible risks, complications, and anticipated benefits in treatments and alternatives, including nontreatment; or communicate his or her understanding or treatment decisions; or (b) has been found to be subject to a guardianship under RCW 11.130.265.</P>
+<P>(8) "Informed consent" means consent that is given after <TextRun amendingStyle="strike">the</TextRun> <TextRun amendingStyle="add">(a)</TextRun> person: (a) Is provided with a description of the nature, character, and anticipated results of proposed treatments and alternatives, and the recognized serious possible risks, complications, and anticipated benefits in the treatments and alternatives, including nontreatment, in language that the person can reasonably be expected to understand; or (b) elects not to be given the information included in (a) of this subsection.</P>
+<P>(9) "Long-term care facility" has the same meaning as defined in RCW 43.190.020.</P>
+<P>(10) "Mental disorder" means any organic, mental, or emotional impairment which has substantial adverse effects on an individual's cognitive or volitional functions.</P>
+<P>(11) "Mental health advance directive" or "directive" means a written document in which the principal makes a declaration of instructions or preferences or appoints an agent to make decisions on behalf of the principal regarding the principal's mental health treatment, or both, and that is consistent with the provisions of this chapter.</P>
+<P>(12) "Mental health professional" means a psychiatrist, psychologist, psychiatric nurse, or social worker, and such other mental health professionals as may be defined by rules adopted by the secretary pursuant to the provisions of chapter 71.05 RCW.</P>
+<P>(13) "Principal" means <TextRun amendingStyle="strike">an adult</TextRun> <TextRun amendingStyle="add">a person</TextRun> who has executed a mental health advance directive.</P>
+<P>(14) "Professional person" means a mental health professional and shall also mean a physician, registered nurse, and such others as may be defined by rules adopted by the secretary pursuant to the provisions of chapter 71.05 RCW.</P>
+<P>(15) "Social worker" means a person with a master's or further advanced degree from a social work educational program accredited and approved as provided in RCW 18.320.010.</P>
+<P><TextRun amendingStyle="add">(16) "Behavioral health disorder" means a mental disorder, a substance use disorder, or a co-occurring mental health and substance use disorder.</TextRun></P>
+<P><TextRun amendingStyle="add">(17) "Substance use disorder" means a cluster of cognitive, behavioral, and physiological symptoms indicating that an individual continues using the substance despite significant substance-related problems. The diagnosis of a substance use disorder is based on a pathological pattern of behaviors related to the use of the substances.</TextRun></P>
+<History>2020 c 312 § 732; 2016 c 209 § 407; 2011 c 89 § 15; 2003 c 283 § 2.</History>
+<RCWNoteSection>
+<RevNote><NoteP><TextRun fontWeight="bold">Reviser's note: </TextRun>*(1) RCW 71.24.025 was amended by 2019 c 325 § 1004, changing "community mental health service delivery system" to "community behavioral health service delivery system."</NoteP><NoteP>**(2) Chapter 18.57A RCW was repealed by 2020 c 80 § 59, effective July 1, 2022.</NoteP></RevNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective dates<TextRun fontFamily="Times New Roman">—</TextRun>2020 c 312:</TextRun> See note following RCW 11.130.915.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Short title<TextRun fontFamily="Times New Roman">—</TextRun>Application<TextRun fontFamily="Times New Roman">—</TextRun>Uniformity<TextRun fontFamily="Times New Roman">—</TextRun>Federal law application<TextRun fontFamily="Times New Roman">—</TextRun>Federal electronic signatures in global and national commerce act<TextRun fontFamily="Times New Roman">—</TextRun>Application<TextRun fontFamily="Times New Roman">—</TextRun>Dates<TextRun fontFamily="Times New Roman">—</TextRun>Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2016 c 209:</TextRun> See RCW 11.125.010 and 11.125.900 through 11.125.903.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2011 c 89:</TextRun> See note following RCW 18.320.005.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Findings<TextRun fontFamily="Times New Roman">—</TextRun>2011 c 89:</TextRun> See RCW 18.320.005.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="amendatory" action="remd">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>71</TitleNumber><TextRun>.</TextRun><ChapterNumber>32</ChapterNumber><TextRun>.</TextRun><SectionNumber>020</SectionNumber></SectionCite> and 2020 c 312 s 732 and 2020 c 80 s 53 are each reenacted and amended to read as follows:<Caption>Definitions. <TextRun fontStyle="italic">(Effective July 1, 2022.)</TextRun></Caption></BillSectionHeader>
+<P>The definitions in this section apply throughout this chapter unless the context clearly requires otherwise.</P>
+<P>(1) "Adult" means any individual who has attained the age of majority or is an emancipated minor.</P>
+<P>(2) "Agent" has the same meaning as an attorney-in-fact or agent as provided in chapter 11.125 RCW.</P>
+<P>(3) "Capacity" means that <TextRun amendingStyle="strike">an adult</TextRun> <TextRun amendingStyle="add">a person</TextRun> has not been found to be incapacitated pursuant to this chapter or subject to a guardianship under RCW 11.130.265.</P>
+<P>(4) "Court" means a superior court under chapter 2.08 RCW.</P>
+<P>(5) "Health care facility" means a hospital, as defined in RCW 70.41.020; an institution, as defined in RCW 71.12.455; a state hospital, as defined in RCW 72.23.010; a nursing home, as defined in RCW 18.51.010; or a clinic that is part of a community <TextRun amendingStyle="strike">mental [behavioral]</TextRun> <TextRun amendingStyle="add">behavioral</TextRun> health service delivery system, as defined in RCW 71.24.025.</P>
+<P>(6) "Health care provider" means an osteopathic physician licensed under chapter 18.57 RCW, a physician or physician's assistant licensed under chapter 18.71 or 18.71A RCW, or an advanced registered nurse practitioner licensed under RCW 18.79.050.</P>
+<P>(7) "Incapacitated" means <TextRun amendingStyle="strike">an adult</TextRun> <TextRun amendingStyle="add">a person</TextRun> who: (a) Is unable to understand the nature, character, and anticipated results of proposed treatment or alternatives; understand the recognized serious possible risks, complications, and anticipated benefits in treatments and alternatives, including nontreatment; or communicate his or her understanding or treatment decisions; or (b) has been found to be subject to a guardianship under RCW 11.130.265.</P>
+<P>(8) "Informed consent" means consent that is given after <TextRun amendingStyle="strike">the</TextRun> <TextRun amendingStyle="add">a</TextRun> person: (a) Is provided with a description of the nature, character, and anticipated results of proposed treatments and alternatives, and the recognized serious possible risks, complications, and anticipated benefits in the treatments and alternatives, including nontreatment, in language that the person can reasonably be expected to understand; or (b) elects not to be given the information included in (a) of this subsection.</P>
+<P>(9) "Long-term care facility" has the same meaning as defined in RCW 43.190.020.</P>
+<P>(10) "Mental disorder" means any organic, mental, or emotional impairment which has substantial adverse effects on an individual's cognitive or volitional functions.</P>
+<P>(11) "Mental health advance directive" or "directive" means a written document in which the principal makes a declaration of instructions or preferences or appoints an agent to make decisions on behalf of the principal regarding the principal's mental health treatment, or both, and that is consistent with the provisions of this chapter.</P>
+<P>(12) "Mental health professional" means a psychiatrist, psychologist, psychiatric nurse, or social worker, and such other mental health professionals as may be defined by rules adopted by the secretary pursuant to the provisions of chapter 71.05 RCW.</P>
+<P>(13) "Principal" means <TextRun amendingStyle="strike">an adult</TextRun> <TextRun amendingStyle="add">a person</TextRun> who has executed a mental health advance directive.</P>
+<P>(14) "Professional person" means a mental health professional and shall also mean a physician, registered nurse, and such others as may be defined by rules adopted by the secretary pursuant to the provisions of chapter 71.05 RCW.</P>
+<P>(15) "Social worker" means a person with a master's or further advanced degree from a social work educational program accredited and approved as provided in RCW 18.320.010.</P>
+<P><TextRun amendingStyle="add">(16) "Behavioral health disorder" means a mental disorder, a substance use disorder, or a co-occurring mental health and substance use disorder.</TextRun></P>
+<P><TextRun amendingStyle="add">(17) "Substance use disorder" means a cluster of cognitive, behavioral, and physiological symptoms indicating that an individual continues using the substance despite significant substance-related problems. The diagnosis of a substance use disorder is based on a pathological pattern of behaviors related to the use of the substances.</TextRun></P>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>5</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>71</TitleNumber><TextRun>.</TextRun><ChapterNumber>32</ChapterNumber><TextRun>.</TextRun><SectionNumber>030</SectionNumber></SectionCite> and 2003 c 283 s 3 are each amended to read as follows:<Caption>Construction of definitions.</Caption></BillSectionHeader>
+<P>(1) The definition of informed consent is to be construed to be consistent with that term as it is used in chapter 7.70 RCW.</P>
+<P>(2) The definitions of mental disorder, <TextRun amendingStyle="add">behavioral health disorder,</TextRun> mental health professional, and professional person are to be construed to be consistent with those terms as they are defined in RCW 71.05.020.</P>
+<History>2003 c 283 § 3.</History>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>6</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>71</TitleNumber><TextRun>.</TextRun><ChapterNumber>32</ChapterNumber><TextRun>.</TextRun><SectionNumber>040</SectionNumber></SectionCite> and 2003 c 283 s 4 are each amended to read as follows:<Caption>Adult presumed to have capacity.</Caption></BillSectionHeader>
+<P>For the purposes of this chapter, an adult is presumed to have capacity. <TextRun amendingStyle="add">A person who is at least 13 years of age but under the age of majority is considered to have capacity for the purpose of executing a mental health advance directive if the person is able to demonstrate that they are capable of making informed decisions related to behavioral health care.</TextRun></P>
+<History>2003 c 283 § 4.</History>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>7</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>71</TitleNumber><TextRun>.</TextRun><ChapterNumber>32</ChapterNumber><TextRun>.</TextRun><SectionNumber>050</SectionNumber></SectionCite> and 2016 c 209 s 408 are each amended to read as follows:<Caption>Execution of directive<TextRun fontFamily="Times New Roman">—</TextRun>Scope.</Caption></BillSectionHeader>
+<P>(1) <TextRun amendingStyle="strike">An adult</TextRun> <TextRun amendingStyle="add">A person</TextRun> with capacity may execute a mental health advance directive.</P>
+<P>(2) A directive executed in accordance with this chapter is presumed to be valid. The inability to honor one or more provisions of a directive does not affect the validity of the remaining provisions.</P>
+<P>(3) A directive may include any provision relating to <TextRun amendingStyle="strike">mental</TextRun> <TextRun amendingStyle="add">behavioral</TextRun> health treatment or the care of the principal or the principal's personal affairs. Without limitation, a directive may include:</P>
+<P>(a) The principal's preferences and instructions for <TextRun amendingStyle="strike">mental</TextRun> <TextRun amendingStyle="add">behavioral</TextRun> health treatment;</P>
+<P>(b) Consent to specific types of <TextRun amendingStyle="strike">mental</TextRun> <TextRun amendingStyle="add">behavioral</TextRun> health treatment;</P>
+<P>(c) Refusal to consent to specific types of <TextRun amendingStyle="strike">mental</TextRun> <TextRun amendingStyle="add">behavioral</TextRun> health treatment;</P>
+<P>(d) Consent to admission to and retention in a facility for <TextRun amendingStyle="strike">mental</TextRun> <TextRun amendingStyle="add">behavioral</TextRun> health treatment for up to <TextRun amendingStyle="strike">fourteen</TextRun> <TextRun amendingStyle="add">14</TextRun> days;</P>
+<P>(e) Descriptions of situations that may cause the principal to experience a <TextRun amendingStyle="strike">mental</TextRun> <TextRun amendingStyle="add">behavioral</TextRun> health crisis;</P>
+<P>(f) Suggested alternative responses that may supplement or be in lieu of direct <TextRun amendingStyle="strike">mental</TextRun> <TextRun amendingStyle="add">behavioral</TextRun> health treatment, such as treatment approaches from other providers;</P>
+<P>(g) Appointment of an agent pursuant to chapter 11.125 RCW to make <TextRun amendingStyle="strike">mental</TextRun> <TextRun amendingStyle="add">behavioral</TextRun> health treatment decisions on the principal's behalf, including authorizing the agent to provide consent on the principal's behalf to voluntary admission to inpatient <TextRun amendingStyle="strike">mental</TextRun> <TextRun amendingStyle="add">behavioral</TextRun> health treatment; and</P>
+<P>(h) The principal's nomination of a guardian or limited guardian as provided in RCW 11.125.080 for consideration by the court if guardianship proceedings are commenced.</P>
+<P>(4) A directive may be combined with or be independent of a nomination of a guardian or other durable power of attorney under chapter 11.125 RCW, so long as the processes for each are executed in accordance with its own statutes.</P>
+<History>2016 c 209 § 408; 2003 c 283 § 5.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Short title<TextRun fontFamily="Times New Roman">—</TextRun>Application<TextRun fontFamily="Times New Roman">—</TextRun>Uniformity<TextRun fontFamily="Times New Roman">—</TextRun>Federal law application<TextRun fontFamily="Times New Roman">—</TextRun>Federal electronic signatures in global and national commerce act<TextRun fontFamily="Times New Roman">—</TextRun>Application<TextRun fontFamily="Times New Roman">—</TextRun>Dates<TextRun fontFamily="Times New Roman">—</TextRun>Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2016 c 209:</TextRun> See RCW 11.125.010 and 11.125.900 through 11.125.903.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>8</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>71</TitleNumber><TextRun>.</TextRun><ChapterNumber>32</ChapterNumber><TextRun>.</TextRun><SectionNumber>060</SectionNumber></SectionCite> and 2016 c 209 s 409 are each amended to read as follows:<Caption>Execution of directive<TextRun fontFamily="Times New Roman">—</TextRun>Elements<TextRun fontFamily="Times New Roman">—</TextRun>Effective date<TextRun fontFamily="Times New Roman">—</TextRun>Expiration.</Caption></BillSectionHeader>
+<P>(1) A directive shall:</P>
+<P>(a) Be in writing;</P>
+<P>(b) Contain language that clearly indicates that the principal intends to create a directive;</P>
+<P>(c) Be dated and signed by the principal or at the principal's direction in the principal's presence if the principal is unable to sign;</P>
+<P>(d) Designate whether the principal wishes to be able to revoke the directive during any period of incapacity or wishes to be unable to revoke the directive during any period of incapacity; and</P>
+<P>(e) <TextRun amendingStyle="strike">Be</TextRun> <TextRun amendingStyle="add">Have the signature acknowledged before a notary public or other individual authorized by law to take acknowledgments, or be</TextRun> witnessed in writing by at least two adults, each of whom shall declare that he or she personally knows the principal, was present when the principal dated and signed the directive, and that the principal did not appear to be incapacitated or acting under fraud, undue influence, or duress.</P>
+<P>(2) A directive that includes the appointment of an agent pursuant to a power of attorney under chapter 11.125 RCW shall contain the words "This power of attorney shall not be affected by the incapacity of the principal," or "This power of attorney shall become effective upon the incapacity of the principal," or similar words showing the principal's intent that the authority conferred shall be exercisable notwithstanding the principal's incapacity.</P>
+<P>(3) A directive is valid upon execution, but all or part of the directive may take effect at a later time as designated by the principal in the directive.</P>
+<P>(4) A directive may:</P>
+<P>(a) Be revoked, in whole or in part, pursuant to the provisions of RCW 71.32.080; or</P>
+<P>(b) Expire under its own terms.</P>
+<History>2016 c 209 § 409; 2003 c 283 § 6.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Short title<TextRun fontFamily="Times New Roman">—</TextRun>Application<TextRun fontFamily="Times New Roman">—</TextRun>Uniformity<TextRun fontFamily="Times New Roman">—</TextRun>Federal law application<TextRun fontFamily="Times New Roman">—</TextRun>Federal electronic signatures in global and national commerce act<TextRun fontFamily="Times New Roman">—</TextRun>Application<TextRun fontFamily="Times New Roman">—</TextRun>Dates<TextRun fontFamily="Times New Roman">—</TextRun>Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2016 c 209:</TextRun> See RCW 11.125.010 and 11.125.900 through 11.125.903.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>9</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>71</TitleNumber><TextRun>.</TextRun><ChapterNumber>32</ChapterNumber><TextRun>.</TextRun><SectionNumber>070</SectionNumber></SectionCite> and 2003 c 283 s 7 are each amended to read as follows:<Caption>Prohibited elements.</Caption></BillSectionHeader>
+<P>A directive may not:</P>
+<P>(1) Create an entitlement to <TextRun amendingStyle="strike">mental</TextRun> <TextRun amendingStyle="add">behavioral</TextRun> health or medical treatment or supersede a determination of medical necessity;</P>
+<P>(2) Obligate any health care provider, professional person, or health care facility to pay the costs associated with the treatment requested;</P>
+<P>(3) Obligate any health care provider, professional person, or health care facility to be responsible for the nontreatment personal care of the principal or the principal's personal affairs outside the scope of services the facility normally provides;</P>
+<P>(4) Replace or supersede the provisions of any will or testamentary document or supersede the provisions of intestate succession;</P>
+<P>(5) Be revoked by an incapacitated principal unless that principal selected the option to permit revocation while incapacitated at the time his or her directive was executed; or</P>
+<P>(6) Be used as the authority for inpatient admission for more than <TextRun amendingStyle="strike">fourteen</TextRun> <TextRun amendingStyle="add">14</TextRun> days in any <TextRun amendingStyle="strike">twenty-one</TextRun> <TextRun amendingStyle="add">21</TextRun> day period.</P>
+<History>2003 c 283 § 7.</History>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>10</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>71</TitleNumber><TextRun>.</TextRun><ChapterNumber>32</ChapterNumber><TextRun>.</TextRun><SectionNumber>100</SectionNumber></SectionCite> and 2016 c 209 s 410 are each amended to read as follows:<Caption>Appointment of agent.</Caption></BillSectionHeader>
+<P>(1) If a directive authorizes the appointment of an agent, the provisions of chapter 11.125 RCW and RCW 7.70.065 shall apply unless otherwise stated in this chapter.</P>
+<P>(2) The principal who appoints an agent must notify the agent in writing of the appointment.</P>
+<P>(3) An agent must act in good faith.</P>
+<P>(4) An agent may make decisions on behalf of the principal. Unless the principal has revoked the directive, the decisions must be consistent with the instructions and preferences the principal has expressed in the directive, or if not expressed, as otherwise known to the agent. If the principal's instructions or preferences are not known, the agent shall make a decision he or she determines is in the best interest of the principal.</P>
+<P>(5) <TextRun amendingStyle="strike">Except to the extent the right is limited by the appointment or any federal or state law, the agent has the same right as the principal to receive, review, and authorize the use and disclosure of the principal's health care information when the agent is acting on behalf of the principal and to the extent required for the agent to carry out his or her duties.</TextRun> <TextRun amendingStyle="add">A person authorized to act as an agent during periods when the principal is incapacitated may act as the principal's personal representative pursuant to the health insurance portability and accountability act, sections 1171 through 1179 of the social security act, 42 U.S.C. Sec. 1320d, as amended, and applicable regulations, to obtain access to the principal's health care information and communicate with the principal's health care provider.</TextRun> This subsection shall be construed to be consistent with chapters 70.02, 70.24, <TextRun amendingStyle="strike">70.96A,</TextRun> 71.05, and 71.34 RCW, and with federal law regarding health care information.</P>
+<P>(6) Unless otherwise provided in the appointment and agreed to in writing by the agent, the agent is not, as a result of acting in the capacity of agent, personally liable for the cost of treatment provided to the principal.</P>
+<P>(7) An agent may resign or withdraw at any time by giving written notice to the principal. The agent must also give written notice to any health care provider, professional person, or health care facility providing treatment to the principal. The resignation or withdrawal is effective upon receipt unless otherwise specified in the resignation or withdrawal.</P>
+<P>(8) If the directive gives the agent authority to act while the principal has capacity, the decisions of the principal supersede those of the agent at any time the principal has capacity.</P>
+<P>(9) Unless otherwise provided in the durable power of attorney, the principal may revoke the agent's appointment as provided under other state law.</P>
+<History>2016 c 209 § 410; 2003 c 283 § 10.</History>
+<RCWNoteSection>
+<RevNote><NoteP><TextRun fontWeight="bold">*Reviser's note: </TextRun>Chapter 70.96A RCW was repealed and/or recodified in its entirety pursuant to 2016 sp.s. c 29 §§ 301, 601, and 701.</NoteP></RevNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Short title<TextRun fontFamily="Times New Roman">—</TextRun>Application<TextRun fontFamily="Times New Roman">—</TextRun>Uniformity<TextRun fontFamily="Times New Roman">—</TextRun>Federal law application<TextRun fontFamily="Times New Roman">—</TextRun>Federal electronic signatures in global and national commerce act<TextRun fontFamily="Times New Roman">—</TextRun>Application<TextRun fontFamily="Times New Roman">—</TextRun>Dates<TextRun fontFamily="Times New Roman">—</TextRun>Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2016 c 209:</TextRun> See RCW 11.125.010 and 11.125.900 through 11.125.903.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>11</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>71</TitleNumber><TextRun>.</TextRun><ChapterNumber>32</ChapterNumber><TextRun>.</TextRun><SectionNumber>110</SectionNumber></SectionCite> and 2016 c 155 s 13 are each amended to read as follows:<Caption>Determination of capacity.</Caption></BillSectionHeader>
+<P>(1) For the purposes of this chapter, a principal, agent, professional person, or health care provider may seek a determination whether the principal is incapacitated or has regained capacity.</P>
+<P>(2)(a) For the purposes of this chapter, no adult may be declared an incapacitated person except by:</P>
+<P>(i) A court, if the request is made by the principal or the principal's agent;</P>
+<P>(ii) One mental health professional <TextRun amendingStyle="add">or substance use disorder professional</TextRun> and one health care provider; or</P>
+<P>(iii) Two health care providers.</P>
+<P>(b) One of the persons making the determination under (a)(ii) or (iii) of this subsection must be a psychiatrist, physician assistant working with a supervising psychiatrist, psychologist, or a psychiatric advanced registered nurse practitioner.</P>
+<P>(3) When a professional person or health care provider requests a capacity determination, he or she shall promptly inform the principal that:</P>
+<P>(a) A request for capacity determination has been made; and</P>
+<P>(b) The principal may request that the determination be made by a court.</P>
+<P>(4) At least one mental health professional<TextRun amendingStyle="add">, substance use disorder professional,</TextRun> or health care provider must personally examine the principal prior to making a capacity determination.</P>
+<P>(5)(a) When a court makes a determination whether a principal has capacity, the court shall, at a minimum, be informed by the testimony of one mental health professional <TextRun amendingStyle="add">or substance use disorder professional</TextRun> familiar with the principal and shall, except for good cause, give the principal an opportunity to appear in court prior to the court making its determination.</P>
+<P>(b) To the extent that local court rules permit, any party or witness may testify telephonically.</P>
+<P>(6) When a court has made a determination regarding a principal's capacity and there is a subsequent change in the principal's condition, subsequent determinations whether the principal is incapacitated may be made in accordance with any of the provisions of subsection (2) of this section.</P>
+<History>2016 c 155 § 13; 2003 c 283 § 11.</History>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>12</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>71</TitleNumber><TextRun>.</TextRun><ChapterNumber>32</ChapterNumber><TextRun>.</TextRun><SectionNumber>130</SectionNumber></SectionCite> and 2003 c 283 s 13 are each amended to read as follows:<Caption>Determination of capacity<TextRun fontFamily="Times New Roman">—</TextRun>Reevaluations of capacity.</Caption></BillSectionHeader>
+<P>(1) An initial determination of capacity must be completed within <TextRun amendingStyle="strike">forty-eight</TextRun> <TextRun amendingStyle="add">48</TextRun> hours of a request made by a person authorized in RCW 71.32.110. During the period between the request for an initial determination of the principal's capacity and completion of that determination, the principal may not be treated unless he or she consents at the time or treatment is otherwise authorized by state or federal law.</P>
+<P>(2)(a)(i) When an incapacitated principal is admitted to inpatient treatment pursuant to the provisions of his or her directive, his or her capacity must be reevaluated within <TextRun amendingStyle="strike">seventy-two</TextRun> <TextRun amendingStyle="add">120</TextRun> hours or when there has been a change in the principal's condition that indicates that he or she appears to have regained capacity, whichever occurs first.</P>
+<P>(ii) When an incapacitated principal has been admitted to and remains in inpatient treatment for more than <TextRun amendingStyle="strike">seventy-two</TextRun> <TextRun amendingStyle="add">120</TextRun> hours pursuant to the provisions of his or her directive, the principal's capacity must be reevaluated when there has been a change in his or her condition that indicates that he or she appears to have regained capacity.</P>
+<P>(iii) When a principal who is being treated on an inpatient basis and has been determined to be incapacitated requests, or his or her agent requests, a redetermination of the principal's capacity the redetermination must be made within <TextRun amendingStyle="strike">seventy-two</TextRun> <TextRun amendingStyle="add">120</TextRun> hours.</P>
+<P>(b) When a principal who has been determined to be incapacitated is being treated on an outpatient basis and there is a request for a redetermination of his or her capacity, the redetermination must be made within five days of the first request following a determination.</P>
+<P>(3)(a) When a principal who has appointed an agent for <TextRun amendingStyle="strike">mental</TextRun> <TextRun amendingStyle="add">behavioral</TextRun> health treatment decisions requests a determination or redetermination of capacity, the agent must make reasonable efforts to obtain the determination or redetermination.</P>
+<P>(b) When a principal who does not have an agent for <TextRun amendingStyle="strike">mental</TextRun> <TextRun amendingStyle="add">behavioral</TextRun> health treatment decisions is being treated in an inpatient facility and requests a determination or redetermination of capacity, the mental health professional or health care provider must complete the determination or, if the principal is seeking a determination from a court, must make reasonable efforts to notify the person authorized to make decisions for the principal under RCW 7.70.065 of the principal's request.</P>
+<P>(c) When a principal who does not have an agent for <TextRun amendingStyle="strike">mental</TextRun> <TextRun amendingStyle="add">behavioral</TextRun> health treatment decisions is being treated on an outpatient basis, the person requesting a capacity determination must arrange for the determination.</P>
+<P>(4) If no determination has been made within the time frames established in subsection (1) or (2) of this section, the principal shall be considered to have capacity.</P>
+<P>(5) When an incapacitated principal is being treated pursuant to his or her directive, a request for a redetermination of capacity does not prevent treatment.</P>
+<History>2003 c 283 § 13.</History>
+</BillSection>
+<BillSection type="amendatory" action="remd">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>13</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>71</TitleNumber><TextRun>.</TextRun><ChapterNumber>32</ChapterNumber><TextRun>.</TextRun><SectionNumber>140</SectionNumber></SectionCite> and 2016 sp.s. c 29 s 424 and 2016 c 155 s 14 are each reenacted and amended to read as follows:<Caption>Refusal of admission to inpatient treatment<TextRun fontFamily="Times New Roman">—</TextRun>Effect of directive.</Caption></BillSectionHeader>
+<P>(1) A principal who:</P>
+<P>(a) Chose not to be able to revoke his or her directive during any period of incapacity;</P>
+<P>(b) Consented to voluntary admission to inpatient <TextRun amendingStyle="strike">mental</TextRun> <TextRun amendingStyle="add">behavioral</TextRun> health treatment, or authorized an agent to consent on the principal's behalf; and</P>
+<P>(c) At the time of admission to inpatient treatment, refuses to be admitted,</P>
+<P indent="0">may only be admitted into inpatient <TextRun amendingStyle="strike">mental</TextRun> <TextRun amendingStyle="add">behavioral</TextRun> health treatment under subsection (2) of this section.</P>
+<P>(2) A principal may only be admitted to inpatient <TextRun amendingStyle="strike">mental</TextRun> <TextRun amendingStyle="add">behavioral</TextRun> health treatment under his or her directive if, prior to admission, a member of the treating facility's professional staff who is a physician, physician assistant, or psychiatric advanced registered nurse practitioner:</P>
+<P>(a) Evaluates the principal's mental condition, including a review of reasonably available psychiatric and psychological history, diagnosis, and treatment needs, and determines, in conjunction with another health care provider <TextRun amendingStyle="strike">or</TextRun><TextRun amendingStyle="add">,</TextRun> mental health professional, <TextRun amendingStyle="add">or substance use disorder professional,</TextRun> that the principal is incapacitated;</P>
+<P>(b) Obtains the informed consent of the agent, if any, designated in the directive;</P>
+<P>(c) Makes a written determination that the principal needs an inpatient evaluation or is in need of inpatient treatment and that the evaluation or treatment cannot be accomplished in a less restrictive setting; and</P>
+<P>(d) Documents in the principal's medical record a summary of the physician's, physician assistant's, or psychiatric advanced registered nurse practitioner's findings and recommendations for treatment or evaluation.</P>
+<P>(3) In the event the admitting physician is not a psychiatrist, the admitting physician assistant is not supervised by a psychiatrist, or the advanced registered nurse practitioner is not a psychiatric advanced registered nurse practitioner, the principal shall receive a complete <TextRun amendingStyle="strike">psychological</TextRun> <TextRun amendingStyle="add">behavioral health</TextRun> assessment by a mental health professional <TextRun amendingStyle="add">or substance use disorder professional</TextRun> within <TextRun amendingStyle="strike">twenty-four</TextRun> <TextRun amendingStyle="add">24</TextRun> hours of admission to determine the continued need for inpatient evaluation or treatment.</P>
+<P>(4)(a) If it is determined that the principal has capacity, then the principal may only be admitted to, or remain in, inpatient treatment if he or she consents at the time<TextRun amendingStyle="add">, is admitted for family-initiated treatment under chapter 71.34 RCW,</TextRun> or is detained under the involuntary treatment provisions of chapter 71.05 or 71.34 RCW.</P>
+<P>(b) If a principal who is determined by two health care providers or one mental health professional <TextRun amendingStyle="add">or substance use disorder professional</TextRun> and one health care provider to be incapacitated continues to refuse inpatient treatment, the principal may immediately seek injunctive relief for release from the facility.</P>
+<P>(5) If, at the end of the period of time that the principal or the principal's agent, if any, has consented to voluntary inpatient treatment, but no more than <TextRun amendingStyle="strike">fourteen</TextRun> <TextRun amendingStyle="add">14</TextRun> days after admission, the principal has not regained capacity or has regained capacity but refuses to consent to remain for additional treatment, the principal must be released during reasonable daylight hours, unless detained under chapter 71.05 or 71.34 RCW.</P>
+<P>(6)(a) Except as provided in (b) of this subsection, any principal who is voluntarily admitted to inpatient <TextRun amendingStyle="strike">mental</TextRun> <TextRun amendingStyle="add">behavioral</TextRun> health treatment under this chapter shall have all the rights provided to individuals who are voluntarily admitted to inpatient treatment under chapter 71.05, 71.34, or 72.23 RCW.</P>
+<P>(b) Notwithstanding RCW 71.05.050 regarding consent to inpatient treatment for a specified length of time, the choices an incapacitated principal expressed in his or her directive shall control, provided, however, that a principal who takes action demonstrating a desire to be discharged, in addition to making statements requesting to be discharged, shall be discharged, and no principal shall be restrained in any way in order to prevent his or her discharge. Nothing in this subsection shall be construed to prevent detention and evaluation for civil commitment under chapter 71.05 RCW.</P>
+<P>(7) Consent to inpatient admission in a directive is effective only while the professional person, health care provider, and health care facility are in substantial compliance with the material provisions of the directive related to inpatient treatment.</P>
+<History>2016 sp.s. c 29 § 424; 2016 c 155 § 14; 2009 c 217 § 12; 2004 c 39 § 2; 2003 c 283 § 14.</History>
+<RCWNoteSection>
+<RevNote><NoteP><TextRun fontWeight="bold" readOnly="yes">Reviser's note:</TextRun><TextRun> This section was amended by 2016 c 155 § 14 and by 2016 sp.s. c 29 § 424, each without reference to the other. Both amendments are incorporated in the publication of this section under RCW 1.12.025(2). For rule of construction, see RCW 1.12.025(1).</TextRun></NoteP></RevNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective dates<TextRun fontFamily="Times New Roman">—</TextRun>2016 sp.s. c 29:</TextRun> See note following RCW 71.05.760.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Short title<TextRun fontFamily="Times New Roman">—</TextRun>Right of action<TextRun fontFamily="Times New Roman">—</TextRun>2016 sp.s. c 29:</TextRun> See notes following RCW 71.05.010.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Finding<TextRun fontFamily="Times New Roman">—</TextRun>Intent<TextRun fontFamily="Times New Roman">—</TextRun>2004 c 39:</TextRun> "Questions have been raised about the intent of the legislature in cross-referencing RCW 71.05.050 without further clarification in RCW 71.32.140. The legislature finds that because RCW 71.05.050 pertains to a variety of rights as well as the procedures for detaining a voluntary patient for evaluation for civil commitment, and the legislature intended only to address the right of release upon request, there is ambiguity as to whether an incapacitated person admitted pursuant to his or her mental health advance directive and seeking release can be held for evaluation for civil commitment under chapter 71.05 RCW. The legislature therefore intends to clarify the ambiguity without making any change to its intended policy as laid out in chapter 71.32 RCW." [2004 c 39 § 1.]</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>14</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>71</TitleNumber><TextRun>.</TextRun><ChapterNumber>32</ChapterNumber><TextRun>.</TextRun><SectionNumber>170</SectionNumber></SectionCite> and 2003 c 283 s 17 are each amended to read as follows:<Caption>Providers<TextRun fontFamily="Times New Roman">—</TextRun>Immunity from liability<TextRun fontFamily="Times New Roman">—</TextRun>Conditions.</Caption></BillSectionHeader>
+<P>(1) For the purposes of this section, "provider" means a private or public agency, government entity, health care provider, professional person, health care facility, or person acting under the direction of a health care provider or professional person, health care facility, or long-term care facility.</P>
+<P>(2) A provider is not subject to civil liability or sanctions for unprofessional conduct under the uniform disciplinary act, chapter 18.130 RCW, when in good faith and without negligence:</P>
+<P>(a) The provider provides treatment to a principal in the absence of actual knowledge of the existence of a directive, or provides treatment pursuant to a directive in the absence of actual knowledge of the revocation of the directive;</P>
+<P>(b) A health care provider or mental health professional determines that the principal is or is not incapacitated for the purpose of deciding whether to proceed according to a directive, and acts upon that determination;</P>
+<P>(c) The provider administers or does not administer <TextRun amendingStyle="strike">mental</TextRun> <TextRun amendingStyle="add">behavioral</TextRun> health treatment according to the principal's directive in good faith reliance upon the validity of the directive and the directive is subsequently found to be invalid;</P>
+<P>(d) The provider does not provide treatment according to the directive for one of the reasons authorized under RCW 71.32.150; or</P>
+<P>(e) The provider provides treatment according to the principal's directive.</P>
+<History>2003 c 283 § 17.</History>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>15</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>71</TitleNumber><TextRun>.</TextRun><ChapterNumber>32</ChapterNumber><TextRun>.</TextRun><SectionNumber>180</SectionNumber></SectionCite> and 2016 c 209 s 411 are each amended to read as follows:<Caption>Multiple directives, agents<TextRun fontFamily="Times New Roman">—</TextRun>Effect<TextRun fontFamily="Times New Roman">—</TextRun>Disclosure of court orders.</Caption></BillSectionHeader>
+<P>(1) Where an incapacitated principal has executed more than one valid directive and has not revoked any of the directives:</P>
+<P>(a) The directive most recently created shall be treated as the principal's <TextRun amendingStyle="strike">mental</TextRun> <TextRun amendingStyle="add">behavioral</TextRun> health treatment preferences and instructions as to any inconsistent or conflicting provisions, unless provided otherwise in either document.</P>
+<P>(b) Where a directive executed under this chapter is inconsistent with a directive executed under any other chapter, the most recently created directive controls as to the inconsistent provisions.</P>
+<P>(2) Where an incapacitated principal has appointed more than one agent under chapter 11.125 RCW with authority to make <TextRun amendingStyle="strike">mental</TextRun> <TextRun amendingStyle="add">behavioral</TextRun> health treatment decisions, RCW 11.125.400 controls.</P>
+<P>(3) The treatment provider shall inquire of a principal whether the principal is subject to any court orders that would affect the implementation of his or her directive.</P>
+<History>2016 c 209 § 411; 2003 c 283 § 18.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Short title<TextRun fontFamily="Times New Roman">—</TextRun>Application<TextRun fontFamily="Times New Roman">—</TextRun>Uniformity<TextRun fontFamily="Times New Roman">—</TextRun>Federal law application<TextRun fontFamily="Times New Roman">—</TextRun>Federal electronic signatures in global and national commerce act<TextRun fontFamily="Times New Roman">—</TextRun>Application<TextRun fontFamily="Times New Roman">—</TextRun>Dates<TextRun fontFamily="Times New Roman">—</TextRun>Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2016 c 209:</TextRun> See RCW 11.125.010 and 11.125.900 through 11.125.903.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>16</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>71</TitleNumber><TextRun>.</TextRun><ChapterNumber>32</ChapterNumber><TextRun>.</TextRun><SectionNumber>210</SectionNumber></SectionCite> and 2003 c 283 s 21 are each amended to read as follows:<Caption>Execution of directive not evidence of mental disorder or lack of capacity.</Caption></BillSectionHeader>
+<P>The fact that a person has executed a directive does not constitute an indication of <TextRun amendingStyle="strike">mental</TextRun> <TextRun amendingStyle="add">behavioral health</TextRun> disorder or that the person is not capable of providing informed consent.</P>
+<History>2003 c 283 § 21.</History>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>17</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>71</TitleNumber><TextRun>.</TextRun><ChapterNumber>32</ChapterNumber><TextRun>.</TextRun><SectionNumber>220</SectionNumber></SectionCite> and 2003 c 283 s 22 are each amended to read as follows:<Caption>Requiring directive prohibited.</Caption></BillSectionHeader>
+<P>A person shall not be required to execute or to refrain from executing a directive, nor shall the existence of a directive be used as a criterion for insurance, as a condition for receiving <TextRun amendingStyle="strike">mental</TextRun> <TextRun amendingStyle="add">behavioral</TextRun> or physical health services, or as a condition of admission to or discharge from a health care facility or long-term care facility.</P>
+<History>2003 c 283 § 22.</History>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>18</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>71</TitleNumber><TextRun>.</TextRun><ChapterNumber>32</ChapterNumber><TextRun>.</TextRun><SectionNumber>250</SectionNumber></SectionCite> and 2016 c 155 s 15 are each amended to read as follows:<Caption>Long-term care facility residents<TextRun fontFamily="Times New Roman">—</TextRun>Readmission after inpatient mental health treatment<TextRun fontFamily="Times New Roman">—</TextRun>Evaluation, report to legislature.</Caption></BillSectionHeader>
+<P>(1) If a principal who is a resident of a long-term care facility is admitted to inpatient <TextRun amendingStyle="strike">mental</TextRun> <TextRun amendingStyle="add">behavioral</TextRun> health treatment pursuant to his or her directive, the principal shall be allowed to be readmitted to the same long-term care facility as if his or her inpatient admission had been for a physical condition on the same basis that the principal would be readmitted under state or federal statute or rule when:</P>
+<P>(a) The treating facility's professional staff determine that inpatient <TextRun amendingStyle="strike">mental</TextRun> <TextRun amendingStyle="add">behavioral</TextRun> health treatment is no longer medically necessary for the resident. The determination shall be made in writing by a psychiatrist, physician assistant working with a supervising psychiatrist, or a psychiatric advanced registered nurse practitioner, or (i) one physician and a mental health professional <TextRun amendingStyle="add">or substance use disorder professional</TextRun>; (ii) one physician assistant and a mental health professional <TextRun amendingStyle="add">or substance use disorder professional</TextRun>; or (iii) one psychiatric advanced registered nurse practitioner and a mental health professional <TextRun amendingStyle="add">or substance use disorder professional</TextRun>; or</P>
+<P>(b) The person's consent to admission in his or her directive has expired.</P>
+<P>(2)(a) If the long-term care facility does not have a bed available at the time of discharge, the treating facility may discharge the resident, in consultation with the resident and agent if any, and in accordance with a medically appropriate discharge plan, to another long-term care facility.</P>
+<P>(b) This section shall apply to inpatient <TextRun amendingStyle="strike">mental</TextRun> <TextRun amendingStyle="add">behavioral</TextRun> health treatment admission of long-term care facility residents, regardless of whether the admission is directly from a facility, hospital emergency room, or other location.</P>
+<P>(c) This section does not restrict the right of the resident to an earlier release from the inpatient treatment facility. This section does not restrict the right of a long-term care facility to initiate transfer or discharge of a resident who is readmitted pursuant to this section, provided that the facility has complied with the laws governing the transfer or discharge of a resident.</P>
+<P>(3) The joint legislative audit and review committee shall conduct an evaluation of the operation and impact of this section. The committee shall report its findings to the appropriate committees of the legislature by December 1, 2004.</P>
+<History>2016 c 155 § 15; 2009 c 217 § 13; 2003 c 283 § 25.</History>
+</BillSection>
+<BillSection type="amendatory" action="remd">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>19</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>71</TitleNumber><TextRun>.</TextRun><ChapterNumber>32</ChapterNumber><TextRun>.</TextRun><SectionNumber>260</SectionNumber></SectionCite> and 2016 c 209 s 413 and 2016 c 155 s 16 are each reenacted and amended to read as follows:<Caption>Form.</Caption></BillSectionHeader>
+<P>The directive shall be in substantially the following form:</P>
+<Table align="center" width="508.0pt" pubwidth="wide" preview="yes">
+<Col width="218pt" />
+<Col width="290pt" />
+<TR>
+<TD colspan="2"><P textAlign="center"><TextRun amendingStyle="strikemarkleft">Mental Health Advance Directive</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P textAlign="center"><TextRun amendingStyle="strikemarknone"><TextRun fontWeight="bold">NOTICE TO PERSONS</TextRun></TextRun></P><P textAlign="center"><TextRun amendingStyle="strikemarknone"><TextRun fontWeight="bold">CREATING A MENTAL HEALTH ADVANCE DIRECTIVE</TextRun></TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun amendingStyle="strikemarknone">This is an important legal document. It creates an advance directive for mental health treatment. Before signing this document you should know these important facts:</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun amendingStyle="strikemarknone">(1) This document is called an advance directive and allows you to make decisions in advance about your mental health treatment, including medications, short-term admission to inpatient treatment and electroconvulsive therapy.</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P textAlign="center"><TextRun amendingStyle="strikemarknone"><TextRun fontWeight="bold">YOU DO NOT HAVE TO FILL OUT OR SIGN THIS FORM.</TextRun></TextRun></P><P textAlign="center"><TextRun amendingStyle="strikemarknone"><TextRun fontWeight="bold">IF YOU DO NOT SIGN THIS FORM, IT WILL NOT TAKE EFFECT.</TextRun></TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P><TextRun amendingStyle="strikemarknone">If you choose to complete and sign this document, you may still decide to leave some items blank.</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun amendingStyle="strikemarknone">(2) You have the right to appoint a person as your agent to make treatment decisions for you. You must notify your agent that you have appointed him or her as an agent. The person you appoint has a duty to act consistently with your wishes made known by you. If your agent does not know what your wishes are, he or she has a duty to act in your best interest. Your agent has the right to withdraw from the appointment at any time.</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun amendingStyle="strikemarknone">(3) The instructions you include with this advance directive and the authority you give your agent to act will only become effective under the conditions you select in this document. You may choose to limit this directive and your agent's authority to times when you are incapacitated or to times when you are exhibiting symptoms or behavior that you specify. You may also make this directive effective immediately. No matter when you choose to make this directive effective, your treatment providers must still seek your informed consent at all times that you have capacity to give informed consent.</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun amendingStyle="strikemarknone">(4) You have the right to revoke this document in writing at any time you have capacity.</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P><TextRun amendingStyle="strikemarknone"><TextRun fontWeight="bold">YOU MAY NOT REVOKE THIS DIRECTIVE WHEN YOU HAVE BEEN FOUND TO BE</TextRun></TextRun></P><P><TextRun amendingStyle="strikemarknone"><TextRun fontWeight="bold">INCAPACITATED UNLESS YOU HAVE SPECIFICALLY STATED IN THIS DIRECTIVE THAT</TextRun></TextRun></P><P><TextRun amendingStyle="strikemarknone"><TextRun fontWeight="bold">YOU WANT IT TO BE REVOCABLE WHEN YOU ARE INCAPACITATED.</TextRun></TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun amendingStyle="strikemarknone">(5) This directive will stay in effect until you revoke it unless you specify an expiration date. If you specify an expiration date and you are incapacitated at the time it expires, it will remain in effect until you have capacity to make treatment decisions again unless you chose to be able to revoke it while you are incapacitated and you revoke the directive.</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun amendingStyle="strikemarknone">(6) You cannot use your advance directive to consent to civil commitment. The procedures that apply to your advance directive are different than those provided for in the Involuntary Treatment Act. Involuntary treatment is a different process.</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun amendingStyle="strikemarknone">(7) If there is anything in this directive that you do not understand, you should ask a lawyer to explain it to you.</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun amendingStyle="strikemarknone">(8) You should be aware that there are some circumstances where your provider may not have to follow your directive.</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun amendingStyle="strikemarknone">(9) You should discuss any treatment decisions in your directive with your provider.</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun amendingStyle="strikemarknone">(10) You may ask the court to rule on the validity of your directive.</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P textAlign="center" /><P textAlign="center"><TextRun amendingStyle="strikemarknone"><TextRun fontWeight="bold">PART I.</TextRun></TextRun></P><P textAlign="center"><TextRun amendingStyle="strikemarknone"><TextRun fontWeight="bold">STATEMENT OF INTENT TO CREATE A</TextRun></TextRun></P><P textAlign="center"><TextRun amendingStyle="strikemarknone"><TextRun fontWeight="bold">MENTAL HEALTH ADVANCE DIRECTIVE</TextRun></TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P><TextRun amendingStyle="strikemarknone">I, . . . . . . . . . . being a person with capacity, willfully and voluntarily execute this mental health advance directive so that my choices regarding my mental health care will be carried out in circumstances when I am unable to express my instructions and preferences regarding my mental health care. If a guardian is appointed by a court to make mental health decisions for me, I intend this document to take precedence over all other means of ascertaining my intent.</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P><TextRun amendingStyle="strikemarknone">The fact that I may have left blanks in this directive does not affect its validity in any way. I intend that all completed sections be followed. If I have not expressed a choice, my agent should make the decision that he or she determines is in my best interest. I intend this directive to take precedence over any other directives I have previously executed, to the extent that they are inconsistent with this document, or unless I expressly state otherwise in either document.</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P><TextRun amendingStyle="strikemarknone">I understand that I may revoke this directive in whole or in part if I am a person with capacity. I understand that I cannot revoke this directive if a court, two health care providers, or one mental health professional and one health care provider find that I am an incapacitated person, unless, when I executed this directive, I chose to be able to revoke this directive while incapacitated.</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P><TextRun amendingStyle="strikemarknone">I understand that, except as otherwise provided in law, revocation must be in writing. I understand that nothing in this directive, or in my refusal of treatment to which I consent in this directive, authorizes any health care provider, professional person, health care facility, or agent appointed in this directive to use or threaten to use abuse, neglect, financial exploitation, or abandonment to carry out my directive.</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P><TextRun amendingStyle="strikemarknone">I understand that there are some circumstances where my provider may not have to follow my directive.</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P textAlign="center" /><P textAlign="center"><TextRun amendingStyle="strikemarknone"><TextRun fontWeight="bold">PART II.</TextRun></TextRun></P><P textAlign="center"><TextRun amendingStyle="strikemarknone"><TextRun fontWeight="bold">WHEN THIS DIRECTIVE IS EFFECTIVE</TextRun></TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P textAlign="center"><TextRun amendingStyle="strikemarknone"><TextRun fontStyle="italic">YOU MUST COMPLETE THIS PART FOR YOUR DIRECTIVE TO BE VALID.</TextRun></TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun amendingStyle="strikemarknone">I intend that this directive become effective (</TextRun><TextRun amendingStyle="strikemarknone"><TextRun fontStyle="italic">YOU MUST CHOOSE ONLY ONE</TextRun></TextRun><TextRun amendingStyle="strikemarknone">):</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun amendingStyle="strikemarknone">. . . . . . Immediately upon my signing of this directive.</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun amendingStyle="strikemarknone">. . . . . . If I become incapacitated.</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P><TextRun amendingStyle="strikemarknone">. . . . . . When the following circumstances, symptoms, or behaviors occur:</TextRun><Leader character="dot" amendingStyle="strikemarknone" /></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P textAlign="center" /><P textAlign="center"><TextRun amendingStyle="strikemarknone"><TextRun fontWeight="bold">PART III.</TextRun></TextRun></P><P textAlign="center"><TextRun amendingStyle="strikemarknone"><TextRun fontWeight="bold">DURATION OF THIS DIRECTIVE</TextRun></TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P textAlign="center"><TextRun amendingStyle="strikemarknone"><TextRun fontStyle="italic">YOU MUST COMPLETE THIS PART FOR YOUR DIRECTIVE TO BE VALID.</TextRun></TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun amendingStyle="strikemarknone">I want this directive to (</TextRun><TextRun amendingStyle="strikemarknone"><TextRun fontStyle="italic">YOU MUST CHOOSE ONLY ONE</TextRun></TextRun><TextRun amendingStyle="strikemarknone">):</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun amendingStyle="strikemarknone">. . . . . . Remain valid and in effect for an indefinite period of time.</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun amendingStyle="strikemarknone">. . . . . . Automatically expire . . . . . . years from the date it was created.</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P textAlign="center" /><P textAlign="center"><TextRun amendingStyle="strikemarknone"><TextRun fontWeight="bold">PART IV.</TextRun></TextRun></P><P textAlign="center"><TextRun amendingStyle="strikemarknone"><TextRun fontWeight="bold">WHEN I MAY REVOKE THIS DIRECTIVE</TextRun></TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P textAlign="center"><TextRun amendingStyle="strikemarknone"><TextRun fontStyle="italic">YOU MUST COMPLETE THIS PART FOR THIS DIRECTIVE TO BE VALID.</TextRun></TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun amendingStyle="strikemarknone">I intend that I be able to revoke this directive (</TextRun><TextRun amendingStyle="strikemarknone"><TextRun fontStyle="italic">YOU MUST CHOOSE ONLY ONE</TextRun></TextRun><TextRun amendingStyle="strikemarknone">):</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun amendingStyle="strikemarknone">. . . . . . Only when I have capacity.</TextRun></P><P><TextRun amendingStyle="strikemarknone">I understand that choosing this option means I may only revoke this directive if I have capacity. I further understand that if I choose this option and become incapacitated while this directive is in effect, I may receive treatment that I specify in this directive, even if I object at the time.</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun amendingStyle="strikemarknone">. . . . . . Even if I am incapacitated.</TextRun></P><P><TextRun amendingStyle="strikemarknone">I understand that choosing this option means that I may revoke this directive even if I am incapacitated. I further understand that if I choose this option and revoke this directive while I am incapacitated I may not receive treatment that I specify in this directive, even if I want the treatment.</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P textAlign="center" /><P textAlign="center"><TextRun amendingStyle="strikemarknone"><TextRun fontWeight="bold">PART V.</TextRun></TextRun></P><P textAlign="center"><TextRun amendingStyle="strikemarknone"><TextRun fontWeight="bold">PREFERENCES AND INSTRUCTIONS ABOUT TREATMENT, FACILITIES, AND PHYSICIANS [, PHYSICIAN ASSISTANTS,] OR PSYCHIATRIC ADVANCED REGISTERED NURSE PRACTITIONERS</TextRun></TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun amendingStyle="strikemarknone"><TextRun fontWeight="bold">A. Preferences and Instructions About Physician(s), Physician Assistant(s), or Psychiatric Advanced Registered Nurse Practitioner(s) to be Involved in My Treatment</TextRun></TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun amendingStyle="strikemarknone">I would like the physician(s), physician assistant(s), or psychiatric advanced registered nurse practitioner(s) named below to be involved in my treatment decisions:</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P><TextRun amendingStyle="strikemarknone">Dr., PA-C, or PARNP . . . . . . . . . . . . . . . . Contact information:</TextRun><Leader character="dot" amendingStyle="strikemarknone" /></P><P><TextRun amendingStyle="strikemarknone">Dr., PA-C, or PARNP . . . . . . . . . . . . . . . . Contact information:</TextRun><Leader character="dot" amendingStyle="strikemarknone" /></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P><TextRun amendingStyle="strikemarknone">I do not wish to be treated by Dr. or PARNP</TextRun><Leader character="dot" amendingStyle="strikemarknone" /></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun amendingStyle="strikemarknone"><TextRun fontWeight="bold">B. Preferences and Instructions About Other Providers</TextRun></TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun amendingStyle="strikemarknone">I am receiving other treatment or care from providers who I feel have an impact on my mental health care. I would like the following treatment provider(s) to be contacted when this directive is effective:</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P><TextRun amendingStyle="strikemarknone">Name . . . . . . . . . . . . . . . . . . . . Profession . . . . . . . . . . . . . . . . . . . . Contact information</TextRun><Leader character="dot" amendingStyle="strikemarknone" /></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P><TextRun amendingStyle="strikemarknone">Name . . . . . . . . . . . . . . . . . . . . Profession . . . . . . . . . . . . . . . . . . . . Contact information</TextRun><Leader character="dot" amendingStyle="strikemarknone" /></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun amendingStyle="strikemarknone"><TextRun fontWeight="bold">C. Preferences and Instructions About Medications for Psychiatric Treatment</TextRun></TextRun><TextRun amendingStyle="strikemarknone"> (</TextRun><TextRun amendingStyle="strikemarknone"><TextRun fontStyle="italic">initial and complete all that apply</TextRun></TextRun><TextRun amendingStyle="strikemarknone">)</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun amendingStyle="strikemarknone">. . . . . . I consent, and authorize my agent (if appointed) to consent, to the following</TextRun></P><P><TextRun amendingStyle="strikemarknone">medications:</TextRun><Leader character="dot" amendingStyle="strikemarknone" /></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P><TextRun amendingStyle="strikemarknone">. . . . . . I do not consent, and I do not authorize my agent (if appointed) to consent, to the administration of the following medications:</TextRun><Leader character="dot" amendingStyle="strikemarknone" /></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P><TextRun amendingStyle="strikemarknone">. . . . . . I am willing to take the medications excluded above if my only reason for excluding them is the side effects which include</TextRun><Leader character="dot" amendingStyle="strikemarknone" /></P><P indent="0"><TextRun amendingStyle="strikemarknone">and these side effects can be eliminated by dosage adjustment or other means</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun amendingStyle="strikemarknone">. . . . . . I am willing to try any other medication the hospital doctor, physician assistant, or psychiatric advanced registered nurse practitioner recommends</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun amendingStyle="strikemarknone">. . . . . . I am willing to try any other medications my outpatient doctor, physician assistant, or psychiatric advanced registered nurse practitioner recommends</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun amendingStyle="strikemarknone">. . . . . . I do not want to try any other medications.</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P textAlign="center"><TextRun amendingStyle="strikemarknone"><TextRun fontWeight="bold">Medication Allergies</TextRun></TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P><TextRun amendingStyle="strikemarknone">I have allergies to, or severe side effects from, the following:</TextRun><Leader character="dot" amendingStyle="strikemarknone" /></P><P /></TD>
+</TR>
+<TR>
+<TD colspan="2"><P textAlign="center"><TextRun amendingStyle="strikemarknone"><TextRun fontWeight="bold">Other Medication Preferences or Instructions</TextRun></TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P><TextRun amendingStyle="strikemarknone">. . . . . . I have the following other preferences or instructions about medications</TextRun><Leader character="dot" amendingStyle="strikemarknone" /></P><P /></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun amendingStyle="strikemarknone"><TextRun fontWeight="bold">D. Preferences and Instructions About Hospitalization and Alternatives</TextRun></TextRun></P><P indent="0"><TextRun amendingStyle="strikemarknone">(</TextRun><TextRun amendingStyle="strikemarknone"><TextRun fontStyle="italic">initial all that apply and, if desired, rank "1" for first choice, "2" for second choice, and so on</TextRun></TextRun><TextRun amendingStyle="strikemarknone">)</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun amendingStyle="strikemarknone">. . . . . . In the event my psychiatric condition is serious enough to require 24-hour care and I have no physical conditions that require immediate access to emergency medical care, I prefer to receive this care in programs/facilities designed as alternatives to psychiatric hospitalizations.</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun amendingStyle="strikemarknone">. . . . . . I would also like the interventions below to be tried before hospitalization is considered:</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun amendingStyle="strikemarknone">. . . . . . Calling someone or having someone call me when needed.</TextRun></P></TD>
+</TR>
+<TR>
+<TD><P><TextRun amendingStyle="strikemarknone">Name: </TextRun><Leader character="dot" amendingStyle="strikemarknone" /></P></TD>
+<TD><P><TextRun amendingStyle="strikemarknone">Telephone: </TextRun><Leader character="dot" amendingStyle="strikemarknone" /></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun amendingStyle="strikemarknone">. . . . . . Staying overnight with someone</TextRun></P></TD>
+</TR>
+<TR>
+<TD><P><TextRun amendingStyle="strikemarknone">Name: </TextRun><Leader character="dot" amendingStyle="strikemarknone" /></P></TD>
+<TD><P><TextRun amendingStyle="strikemarknone">Telephone: </TextRun><Leader character="dot" amendingStyle="strikemarknone" /></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun amendingStyle="strikemarknone">. . . . . . Having a mental health service provider come to see me</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun amendingStyle="strikemarknone">. . . . . . Going to a crisis triage center or emergency room</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun amendingStyle="strikemarknone">. . . . . . Staying overnight at a crisis respite (temporary) bed</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun amendingStyle="strikemarknone">. . . . . . Seeing a service provider for help with psychiatric medications</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P><TextRun amendingStyle="strikemarknone">. . . . . . Other, specify: </TextRun><Leader character="dot" amendingStyle="strikemarknone" /></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P textAlign="center"><TextRun amendingStyle="strikemarknone"><TextRun fontWeight="bold">Authority to Consent to Inpatient Treatment</TextRun></TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun amendingStyle="strikemarknone">I consent, and authorize my agent (if appointed) to consent, to voluntary admission to inpatient mental health treatment for . . . . . . days (</TextRun><TextRun amendingStyle="strikemarknone"><TextRun fontStyle="italic">not to exceed 14 days</TextRun></TextRun><TextRun amendingStyle="strikemarknone">)</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun amendingStyle="strikemarknone">(Sign one):</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun amendingStyle="strikemarknone">. . . . . . If deemed appropriate by my agent (if appointed) and treating physician, physician assistant, or psychiatric advanced registered nurse practitioner</TextRun></P></TD>
+</TR>
+<TR>
+<TD><P indent="2"><Leader character="dot" amendingStyle="strikemarknone" /></P><P><TextRun amendingStyle="strikemarknone">(Signature)</TextRun></P></TD>
+<TD><P indent="0" /></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun amendingStyle="strikemarknone">or</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P><TextRun amendingStyle="strikemarknone">. . . . . . Under the following circumstances (specify symptoms, behaviors, or circumstances that indicate the need for hospitalization) </TextRun><Leader character="dot" amendingStyle="strikemarknone" /></P></TD>
+</TR>
+<TR>
+<TD><P indent="2"><Leader character="dot" amendingStyle="strikemarknone" /></P><P><TextRun amendingStyle="strikemarknone">(Signature)</TextRun></P></TD>
+<TD><P indent="0" /></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun amendingStyle="strikemarknone">. . . . . . I do </TextRun><TextRun amendingStyle="strikemarknone"><TextRun fontWeight="bold">not</TextRun></TextRun><TextRun amendingStyle="strikemarknone"> consent, or authorize my agent (if appointed) to consent, to inpatient treatment</TextRun></P></TD>
+</TR>
+<TR>
+<TD><P indent="2"><Leader character="dot" amendingStyle="strikemarknone" /></P><P><TextRun amendingStyle="strikemarknone">(Signature)</TextRun></P></TD>
+<TD><P indent="0" /></TD>
+</TR>
+<TR>
+<TD colspan="2"><P textAlign="center"><TextRun amendingStyle="strikemarknone"><TextRun fontWeight="bold">Hospital Preferences and Instructions</TextRun></TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P><TextRun amendingStyle="strikemarknone">If hospitalization is required, I prefer the following hospitals: </TextRun><Leader character="dot" amendingStyle="strikemarknone" /></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P><TextRun amendingStyle="strikemarknone">I do not consent to be admitted to the following hospitals: </TextRun><Leader character="dot" amendingStyle="strikemarknone" /></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun amendingStyle="strikemarknone"><TextRun fontWeight="bold">E. Preferences and Instructions About Preemergency</TextRun></TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun amendingStyle="strikemarknone">I would like the interventions below to be tried before use of seclusion or restraint is considered</TextRun></P><P indent="0"><TextRun amendingStyle="strikemarknone">(</TextRun><TextRun amendingStyle="strikemarknone"><TextRun fontStyle="italic">initial all that apply</TextRun></TextRun><TextRun amendingStyle="strikemarknone">):</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun amendingStyle="strikemarknone">. . . . . . "Talk me down" one-on-one</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun amendingStyle="strikemarknone">. . . . . . More medication</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun amendingStyle="strikemarknone">. . . . . . Time out/privacy</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun amendingStyle="strikemarknone">. . . . . . Show of authority/force</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun amendingStyle="strikemarknone">. . . . . . Shift my attention to something else</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun amendingStyle="strikemarknone">. . . . . . Set firm limits on my behavior</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun amendingStyle="strikemarknone">. . . . . . Help me to discuss/vent feelings</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun amendingStyle="strikemarknone">. . . . . . Decrease stimulation</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun amendingStyle="strikemarknone">. . . . . . Offer to have neutral person settle dispute</TextRun></P></TD>
+</TR>
+<TR>
+<TD><P><TextRun amendingStyle="strikemarknone">. . . . . . Other, specify </TextRun><Leader character="dot" amendingStyle="strikemarknone" /></P></TD>
+<TD><P indent="0" /></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun amendingStyle="strikemarknone"><TextRun fontWeight="bold">F. Preferences and Instructions About Seclusion, Restraint, and Emergency Medications</TextRun></TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun amendingStyle="strikemarknone">If it is determined that I am engaging in behavior that requires seclusion, physical restraint, and/or emergency use of medication, I prefer these interventions in the order I have chosen (</TextRun><TextRun amendingStyle="strikemarknone"><TextRun fontStyle="italic">choose "1" for first choice, "2" for second choice, and so on</TextRun></TextRun><TextRun amendingStyle="strikemarknone">):</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun amendingStyle="strikemarknone">. . . . . . Seclusion</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun amendingStyle="strikemarknone">. . . . . . Seclusion and physical restraint (combined)</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun amendingStyle="strikemarknone">. . . . . . Medication by injection</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun amendingStyle="strikemarknone">. . . . . . Medication in pill or liquid form</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun amendingStyle="strikemarknone">In the event that my attending physician, physician assistant, or psychiatric advanced registered nurse practitioner decides to use medication in response to an emergency situation after due consideration of my preferences and instructions for emergency treatments stated above, I expect the choice of medication to reflect any preferences and instructions I have expressed in Part III C of this form. The preferences and instructions I express in this section regarding medication in emergency situations do not constitute consent to use of the medication for nonemergency treatment.</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun amendingStyle="strikemarknone"><TextRun fontWeight="bold">G. Preferences and Instructions About Electroconvulsive Therapy</TextRun></TextRun></P><P indent="0"><TextRun amendingStyle="strikemarknone"><TextRun fontWeight="bold">(ECT or Shock Therapy)</TextRun></TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun amendingStyle="strikemarknone">My wishes regarding electroconvulsive therapy are (</TextRun><TextRun amendingStyle="strikemarknone"><TextRun fontStyle="italic">sign one</TextRun></TextRun><TextRun amendingStyle="strikemarknone">):</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun amendingStyle="strikemarknone">. . . . . . I do not consent, nor authorize my agent (if appointed) to consent, to the administration of electroconvulsive therapy</TextRun></P></TD>
+</TR>
+<TR>
+<TD><P indent="2"><Leader character="dot" amendingStyle="strikemarknone" /></P><P><TextRun amendingStyle="strikemarknone">(Signature)</TextRun></P></TD>
+<TD><P indent="0" /></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun amendingStyle="strikemarknone">. . . . . . I consent, and authorize my agent (if appointed) to consent, to the administration of electroconvulsive therapy</TextRun></P></TD>
+</TR>
+<TR>
+<TD><P indent="2"><Leader character="dot" amendingStyle="strikemarknone" /></P><P><TextRun amendingStyle="strikemarknone">(Signature)</TextRun></P></TD>
+<TD><P indent="0" /></TD>
+</TR>
+<TR>
+<TD colspan="2"><P><TextRun amendingStyle="strikemarknone">. . . . . . I consent, and authorize my agent (if appointed) to consent, to the administration of electroconvulsive therapy, but only under the following conditions: </TextRun><Leader character="dot" amendingStyle="strikemarknone" /></P></TD>
+</TR>
+<TR>
+<TD><P indent="2" /><P><TextRun amendingStyle="strikemarknone">(Signature)</TextRun></P></TD>
+<TD><P indent="0" /></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun amendingStyle="strikemarknone"><TextRun fontWeight="bold">H. Preferences and Instructions About Who is Permitted to Visit</TextRun></TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun amendingStyle="strikemarknone">If I have been admitted to a mental health treatment facility, the following people are not permitted to visit me there:</TextRun></P></TD>
+</TR>
+<TR>
+<TD><P><TextRun amendingStyle="strikemarknone">Name: </TextRun><Leader character="dot" amendingStyle="strikemarknone" /></P></TD>
+<TD><P indent="0" /></TD>
+</TR>
+<TR>
+<TD><P><TextRun amendingStyle="strikemarknone">Name: </TextRun><Leader character="dot" amendingStyle="strikemarknone" /></P></TD>
+<TD><P indent="0" /></TD>
+</TR>
+<TR>
+<TD><P><TextRun amendingStyle="strikemarknone">Name: </TextRun><Leader character="dot" amendingStyle="strikemarknone" /></P></TD>
+<TD><P indent="0" /></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun amendingStyle="strikemarknone">I understand that persons not listed above may be permitted to visit me.</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun amendingStyle="strikemarknone"><TextRun fontWeight="bold">I. Additional Instructions About My Mental Health Care</TextRun></TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P><TextRun amendingStyle="strikemarknone">Other instructions about my mental health care: </TextRun><Leader character="dot" amendingStyle="strikemarknone" /></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun amendingStyle="strikemarknone">In case of emergency, please contact:</TextRun></P></TD>
+</TR>
+<TR>
+<TD><P><TextRun amendingStyle="strikemarknone">Name: </TextRun><Leader character="dot" amendingStyle="strikemarknone" /></P></TD>
+<TD><P><TextRun amendingStyle="strikemarknone">Address: </TextRun><Leader character="dot" amendingStyle="strikemarknone" /></P></TD>
+</TR>
+<TR>
+<TD><P><TextRun amendingStyle="strikemarknone">Work telephone: </TextRun><Leader character="dot" amendingStyle="strikemarknone" /></P></TD>
+<TD><P><TextRun amendingStyle="strikemarknone">Home telephone: </TextRun><Leader character="dot" amendingStyle="strikemarknone" /></P></TD>
+</TR>
+<TR>
+<TD><P><TextRun amendingStyle="strikemarknone">Physician, Physician Assistant, or Psychiatric Advanced Registered Nurse Practitioner: </TextRun><Leader character="dot" amendingStyle="strikemarknone" /></P></TD>
+<TD><P><TextRun amendingStyle="strikemarknone">Address: </TextRun><Leader character="dot" amendingStyle="strikemarknone" /></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P><TextRun amendingStyle="strikemarknone">Telephone: </TextRun><Leader character="dot" amendingStyle="strikemarknone" /></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P><TextRun amendingStyle="strikemarknone">The following may help me to avoid a hospitalization: </TextRun><Leader character="dot" amendingStyle="strikemarknone" /></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P><TextRun amendingStyle="strikemarknone">I generally react to being hospitalized as follows: </TextRun><Leader character="dot" amendingStyle="strikemarknone" /></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P><TextRun amendingStyle="strikemarknone">Staff of the hospital or crisis unit can help me by doing the following: </TextRun><Leader character="dot" amendingStyle="strikemarknone" /></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun amendingStyle="strikemarknone"><TextRun fontWeight="bold">J. Refusal of Treatment</TextRun></TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun amendingStyle="strikemarknone">I do not consent to any mental health treatment.</TextRun></P></TD>
+</TR>
+<TR>
+<TD><P indent="0"><Leader character="dot" amendingStyle="strikemarknone" /></P><P><TextRun amendingStyle="strikemarknone">(Signature)</TextRun></P></TD>
+<TD><P indent="0" /></TD>
+</TR>
+<TR>
+<TD colspan="2"><P textAlign="center" /><P textAlign="center"><TextRun amendingStyle="strikemarknone"><TextRun fontWeight="bold">PART VI. </TextRun></TextRun></P><P textAlign="center"><TextRun amendingStyle="strikemarknone"><TextRun fontWeight="bold">DURABLE POWER OF ATTORNEY (APPOINTMENT OF MY AGENT)</TextRun></TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P textAlign="center"><TextRun amendingStyle="strikemarknone">(</TextRun><TextRun amendingStyle="strikemarknone"><TextRun fontStyle="italic">Fill out this part only if you wish to appoint an agent or nominate a guardian.</TextRun></TextRun><TextRun amendingStyle="strikemarknone">)</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P><TextRun amendingStyle="strikemarknone">I authorize an agent to make mental health treatment decisions on my behalf. The authority granted to my agent includes the right to consent, refuse consent, or withdraw consent to any mental health care, treatment, service, or procedure, consistent with any instructions and/or limitations I have set forth in this directive. I intend that those decisions should be made in accordance with my expressed wishes as set forth in this document. If I have not expressed a choice in this document </TextRun><TextRun amendingStyle="strikemarknone"><TextRun fontWeight="bold">and my agent does not otherwise know my wishes</TextRun></TextRun><TextRun amendingStyle="strikemarknone">, I authorize my agent to make the decision that my agent determines is in my best interest. This agency shall not be affected by my incapacity. Unless I state otherwise in this durable power of attorney, I may revoke it unless prohibited by other state law.</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun amendingStyle="strikemarknone"><TextRun fontWeight="bold">A. Designation of an Agent</TextRun></TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P><TextRun amendingStyle="strikemarknone">I appoint the following person as my agent to make mental health treatment decisions for me as authorized in this document and request that this person be notified immediately when this directive becomes effective:</TextRun></P></TD>
+</TR>
+<TR>
+<TD><P><TextRun amendingStyle="strikemarknone">Name: </TextRun><Leader character="dot" amendingStyle="strikemarknone" /></P></TD>
+<TD><P><TextRun amendingStyle="strikemarknone">Address: </TextRun><Leader character="dot" amendingStyle="strikemarknone" /></P></TD>
+</TR>
+<TR>
+<TD><P><TextRun amendingStyle="strikemarknone">Work telephone: </TextRun><Leader character="dot" amendingStyle="strikemarknone" /></P></TD>
+<TD><P><TextRun amendingStyle="strikemarknone">Home telephone: </TextRun><Leader character="dot" amendingStyle="strikemarknone" /></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P><TextRun amendingStyle="strikemarknone">Relationship: </TextRun><Leader character="dot" amendingStyle="strikemarknone" /></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun amendingStyle="strikemarknone"><TextRun fontWeight="bold">B. Designation of Alternate Agent</TextRun></TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun amendingStyle="strikemarknone">If the person named above is unavailable, unable, or refuses to serve as my agent, or I revoke that person's authority to serve as my agent, I hereby appoint the following person as my alternate agent and request that this person be notified immediately when this directive becomes effective or when my original agent is no longer my agent:</TextRun></P></TD>
+</TR>
+<TR>
+<TD><P><TextRun amendingStyle="strikemarknone">Name: </TextRun><Leader character="dot" amendingStyle="strikemarknone" /></P></TD>
+<TD><P><TextRun amendingStyle="strikemarknone">Address: </TextRun><Leader character="dot" amendingStyle="strikemarknone" /></P></TD>
+</TR>
+<TR>
+<TD><P><TextRun amendingStyle="strikemarknone">Work telephone: </TextRun><Leader character="dot" amendingStyle="strikemarknone" /></P></TD>
+<TD><P><TextRun amendingStyle="strikemarknone">Home telephone: </TextRun><Leader character="dot" amendingStyle="strikemarknone" /></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P><TextRun amendingStyle="strikemarknone">Relationship: </TextRun><Leader character="dot" amendingStyle="strikemarknone" /></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun amendingStyle="strikemarknone"><TextRun fontWeight="bold">C. When My Spouse is My Agent</TextRun></TextRun><TextRun amendingStyle="strikemarknone"> (</TextRun><TextRun amendingStyle="strikemarknone"><TextRun fontStyle="italic">initial if desired</TextRun></TextRun><TextRun amendingStyle="strikemarknone">)</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun amendingStyle="strikemarknone">. . . . . . If my spouse is my agent, that person shall remain my agent even if we become legally separated or our marriage is dissolved, unless there is a court order to the contrary or I have remarried.</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun amendingStyle="strikemarknone"><TextRun fontWeight="bold">D. Limitations on My Agent's Authority</TextRun></TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun amendingStyle="strikemarknone">I do not grant my agent the authority to consent on my behalf to the following:</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun amendingStyle="strikemarknone"><TextRun fontWeight="bold">E. Limitations on My Ability to Revoke this Durable Power of Attorney</TextRun></TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun amendingStyle="strikemarknone">I choose to limit my ability to revoke this durable power of attorney as follows:</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun amendingStyle="strikemarknone"><TextRun fontWeight="bold">F. Preference as to Court-Appointed Guardian</TextRun></TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun amendingStyle="strikemarknone">In the event a court appoints a guardian who will make decisions regarding my mental health treatment, I </TextRun><TextRun amendingStyle="strikemarknone"><TextRun fontWeight="bold">nominate</TextRun></TextRun><TextRun amendingStyle="strikemarknone"> the following person </TextRun><TextRun amendingStyle="strikemarknone"><TextRun fontWeight="bold">as my guardian</TextRun></TextRun><TextRun amendingStyle="strikemarknone">:</TextRun></P></TD>
+</TR>
+<TR>
+<TD><P><TextRun amendingStyle="strikemarknone">Name: </TextRun><Leader character="dot" amendingStyle="strikemarknone" /></P></TD>
+<TD><P><TextRun amendingStyle="strikemarknone">Address: </TextRun><Leader character="dot" amendingStyle="strikemarknone" /></P></TD>
+</TR>
+<TR>
+<TD><P><TextRun amendingStyle="strikemarknone">Work telephone: </TextRun><Leader character="dot" amendingStyle="strikemarknone" /></P></TD>
+<TD><P><TextRun amendingStyle="strikemarknone">Home telephone: </TextRun><Leader character="dot" amendingStyle="strikemarknone" /></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P><TextRun amendingStyle="strikemarknone">Relationship: </TextRun><Leader character="dot" amendingStyle="strikemarknone" /></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun amendingStyle="strikemarknone">The appointment of a guardian of my estate or my person or any other decision maker shall not give the guardian or decision maker the power to revoke, suspend, or terminate this directive or the powers of my agent, except as authorized by law.</TextRun></P></TD>
+</TR>
+<TR>
+<TD><P indent="0"><Leader character="dot" amendingStyle="strikemarknone" /></P><P indent="0"><TextRun amendingStyle="strikemarknone">(Signature required if nomination is made)</TextRun></P></TD>
+<TD><P indent="0" /></TD>
+</TR>
+<TR>
+<TD colspan="2"><P textAlign="center" /><P textAlign="center"><TextRun amendingStyle="strikemarknone"><TextRun fontWeight="bold">PART VII. </TextRun></TextRun></P><P textAlign="center"><TextRun amendingStyle="strikemarknone"><TextRun fontWeight="bold">OTHER DOCUMENTS</TextRun></TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun amendingStyle="strikemarknone">(</TextRun><TextRun amendingStyle="strikemarknone"><TextRun fontStyle="italic">Initial all that apply</TextRun></TextRun><TextRun amendingStyle="strikemarknone">)</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun amendingStyle="strikemarknone">I have executed the following documents that include the power to make decisions regarding health care services for myself:</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun amendingStyle="strikemarknone">. . . . . . Health care power of attorney (chapter 11.125 RCW)</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun amendingStyle="strikemarknone">. . . . . . "Living will" (Health care directive; chapter 70.122 RCW)</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun amendingStyle="strikemarknone">. . . . . . I have appointed more than one agent. I understand that the most recently appointed agent controls except as stated below:</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P textAlign="center" /><P textAlign="center"><TextRun amendingStyle="strikemarknone"><TextRun fontWeight="bold">PART VIII. </TextRun></TextRun></P><P textAlign="center"><TextRun amendingStyle="strikemarknone"><TextRun fontWeight="bold">NOTIFICATION OF OTHERS AND CARE OF PERSONAL AFFAIRS</TextRun></TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P textAlign="center"><TextRun amendingStyle="strikemarknone">(</TextRun><TextRun amendingStyle="strikemarknone"><TextRun fontStyle="italic">Fill out this part only if you wish to provide nontreatment instructions.</TextRun></TextRun><TextRun amendingStyle="strikemarknone">)</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun amendingStyle="strikemarknone">I understand the preferences and instructions in this part are </TextRun><TextRun amendingStyle="strikemarknone"><TextRun fontWeight="bold">NOT</TextRun></TextRun><TextRun amendingStyle="strikemarknone"> the responsibility of my treatment provider and that no treatment provider is required to act on them.</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun amendingStyle="strikemarknone"><TextRun fontWeight="bold">A. Who Should Be Notified</TextRun></TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun amendingStyle="strikemarknone">I desire my agent to notify the following individuals as soon as possible when this directive becomes effective:</TextRun></P></TD>
+</TR>
+<TR>
+<TD><P><TextRun amendingStyle="strikemarknone">Name: </TextRun><Leader character="dot" amendingStyle="strikemarknone" /></P></TD>
+<TD><P><TextRun amendingStyle="strikemarknone">Address: </TextRun><Leader character="dot" amendingStyle="strikemarknone" /></P></TD>
+</TR>
+<TR>
+<TD><P><TextRun amendingStyle="strikemarknone">Day telephone: </TextRun><Leader character="dot" amendingStyle="strikemarknone" /></P></TD>
+<TD><P><TextRun amendingStyle="strikemarknone">Evening telephone: </TextRun><Leader character="dot" amendingStyle="strikemarknone" /></P></TD>
+</TR>
+<TR>
+<TD><P><TextRun amendingStyle="strikemarknone">Name: </TextRun><Leader character="dot" amendingStyle="strikemarknone" /></P></TD>
+<TD><P><TextRun amendingStyle="strikemarknone">Address: </TextRun><Leader character="dot" amendingStyle="strikemarknone" /></P></TD>
+</TR>
+<TR>
+<TD><P><TextRun amendingStyle="strikemarknone">Day telephone: </TextRun><Leader character="dot" amendingStyle="strikemarknone" /></P></TD>
+<TD><P><TextRun amendingStyle="strikemarknone">Evening telephone: </TextRun><Leader character="dot" amendingStyle="strikemarknone" /></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun amendingStyle="strikemarknone"><TextRun fontWeight="bold">B. Preferences or Instructions About Personal Affairs</TextRun></TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun amendingStyle="strikemarknone">I have the following preferences or instructions about my personal affairs (e.g., care of dependents, pets, household) if I am admitted to a mental health treatment facility:</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun amendingStyle="strikemarknone"><TextRun fontWeight="bold">C. Additional Preferences and Instructions:</TextRun></TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P textAlign="center" /><P textAlign="center"><TextRun amendingStyle="strikemarknone"><TextRun fontWeight="bold">PART IX.</TextRun></TextRun></P><P textAlign="center"><TextRun amendingStyle="strikemarknone"><TextRun fontWeight="bold">SIGNATURE</TextRun></TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P><TextRun amendingStyle="strikemarknone">By signing here, I indicate that I understand the purpose and effect of this document and that I am giving my informed consent to the treatments and/or admission to which I have consented or authorized my agent to consent in this directive. I intend that my consent in this directive be construed as being consistent with the elements of informed consent under chapter 7.70 RCW.</TextRun></P></TD>
+</TR>
+<TR>
+<TD><P><TextRun amendingStyle="strikemarknone">Signature: </TextRun><Leader character="dot" amendingStyle="strikemarknone" /></P></TD>
+<TD><P><TextRun amendingStyle="strikemarknone">Date: </TextRun><Leader character="dot" amendingStyle="strikemarknone" /></P></TD>
+</TR>
+<TR>
+<TD><P><TextRun amendingStyle="strikemarknone">Printed Name: </TextRun><Leader character="dot" amendingStyle="strikemarknone" /></P></TD>
+<TD><P indent="0" /></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun amendingStyle="strikemarknone">This directive was signed and declared by the "Principal," to be his or her directive, in our presence who, at his or her request, have signed our names below as witnesses. We declare that, at the time of the creation of this instrument, the Principal is personally known to us, and, according to our best knowledge and belief, has capacity at this time and does not appear to be acting under duress, undue influence, or fraud. We further declare that none of us is:</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P><TextRun amendingStyle="strikemarknone">(A) A person designated to make medical decisions on the principal's behalf;</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P><TextRun amendingStyle="strikemarknone">(B) A health care provider or professional person directly involved with the provision of care to the principal at the time the directive is executed;</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P><TextRun amendingStyle="strikemarknone">(C) An owner, operator, employee, or relative of an owner or operator of a health care facility or long-term care facility in which the principal is a patient or resident;</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P><TextRun amendingStyle="strikemarknone">(D) A person who is related by blood, marriage, or adoption to the person, or with whom the principal has a dating relationship as defined in RCW 26.50.010;</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P><TextRun amendingStyle="strikemarknone">(E) An incapacitated person;</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P><TextRun amendingStyle="strikemarknone">(F) A person who would benefit financially if the principal undergoes mental health treatment; or</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P><TextRun amendingStyle="strikemarknone">(G) A minor.</TextRun></P></TD>
+</TR>
+<TR>
+<TD><P><TextRun amendingStyle="strikemarknone">Witness 1: Signature: </TextRun><Leader character="dot" amendingStyle="strikemarknone" /></P></TD>
+<TD><P><TextRun amendingStyle="strikemarknone">Date: </TextRun><Leader character="dot" amendingStyle="strikemarknone" /></P></TD>
+</TR>
+<TR>
+<TD><P><TextRun amendingStyle="strikemarknone">Printed Name: </TextRun><Leader character="dot" amendingStyle="strikemarknone" /></P></TD>
+<TD><P indent="0" /></TD>
+</TR>
+<TR>
+<TD><P indent="2"><TextRun amendingStyle="strikemarknone">Telephone: </TextRun><Leader character="dot" amendingStyle="strikemarknone" /></P></TD>
+<TD><P><TextRun amendingStyle="strikemarknone">Address: </TextRun><Leader character="dot" amendingStyle="strikemarknone" /></P></TD>
+</TR>
+<TR>
+<TD><P><TextRun amendingStyle="strikemarknone">Witness 2: Signature: </TextRun><Leader character="dot" amendingStyle="strikemarknone" /></P></TD>
+<TD><P><TextRun amendingStyle="strikemarknone">Date: </TextRun><Leader character="dot" amendingStyle="strikemarknone" /></P></TD>
+</TR>
+<TR>
+<TD><P><TextRun amendingStyle="strikemarknone">Printed Name: </TextRun><Leader character="dot" amendingStyle="strikemarknone" /></P></TD>
+<TD><P indent="0" /></TD>
+</TR>
+<TR>
+<TD><P indent="2"><TextRun amendingStyle="strikemarknone">Telephone: </TextRun><Leader character="dot" amendingStyle="strikemarknone" /></P></TD>
+<TD><P><TextRun amendingStyle="strikemarknone">Address: </TextRun><Leader character="dot" amendingStyle="strikemarknone" /></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P textAlign="center" /><P textAlign="center"><TextRun amendingStyle="strikemarknone"><TextRun fontWeight="bold">PART X.</TextRun></TextRun></P><P textAlign="center"><TextRun amendingStyle="strikemarknone"><TextRun fontWeight="bold">RECORD OF DIRECTIVE</TextRun></TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P><TextRun amendingStyle="strikemarknone">I have given a copy of this directive to the following persons: </TextRun><Leader character="dot" amendingStyle="strikemarknone" /></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P textAlign="center"><TextRun amendingStyle="strikemarknone">DO NOT FILL OUT PART XI UNLESS YOU INTEND TO REVOKE</TextRun></P><P textAlign="center"><TextRun amendingStyle="strikemarknone">THIS DIRECTIVE IN PART OR IN WHOLE</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P textAlign="center" /><P textAlign="center"><TextRun amendingStyle="strikemarknone"><TextRun fontWeight="bold">PART XI.</TextRun></TextRun></P><P textAlign="center"><TextRun amendingStyle="strikemarknone"><TextRun fontWeight="bold">REVOCATION OF THIS DIRECTIVE</TextRun></TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun amendingStyle="strikemarknone">(</TextRun><TextRun amendingStyle="strikemarknone"><TextRun fontStyle="italic">Initial any that apply</TextRun></TextRun><TextRun amendingStyle="strikemarknone">):</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P><TextRun amendingStyle="strikemarknone">. . . . . . I am revoking the following part(s) of this directive (specify): </TextRun><Leader character="dot" amendingStyle="strikemarknone" /></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun amendingStyle="strikemarknone">. . . . . . I am revoking all of this directive.</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P indent="0"><TextRun amendingStyle="strikemarknone">By signing here, I indicate that I understand the purpose and effect of my revocation and that no person is bound by any revoked provision(s). I intend this revocation to be interpreted as if I had never completed the revoked provision(s).</TextRun></P></TD>
+</TR>
+<TR>
+<TD><P><TextRun amendingStyle="strikemarknone">Signature: </TextRun><Leader character="dot" amendingStyle="strikemarknone" /></P></TD>
+<TD><P><TextRun amendingStyle="strikemarknone">Date: </TextRun><Leader character="dot" amendingStyle="strikemarknone" /></P></TD>
+</TR>
+<TR>
+<TD><P><TextRun amendingStyle="strikemarknone">Printed Name: </TextRun><Leader character="dot" amendingStyle="strikemarknone" /></P></TD>
+<TD><P indent="0" /></TD>
+</TR>
+<TR>
+<TD colspan="2"><P textAlign="center"><TextRun amendingStyle="strikemarknone"><TextRun fontWeight="bold">DO NOT SIGN THIS PART UNLESS YOU INTEND TO REVOKE THIS</TextRun></TextRun></P><P textAlign="center"><TextRun amendingStyle="strikemarkright"><TextRun fontWeight="bold">DIRECTIVE IN PART OR IN WHOLE</TextRun></TextRun></P></TD>
+</TR>
+</Table>
+<Table align="right" width="508.0pt" pubwidth="wide" preview="yes" textAlign="justify">
+<Col width="101.6pt" />
+<Col width="101.6pt" />
+<Col width="101.6pt" />
+<Col width="101.6pt" />
+<Col width="101.6pt" />
+<TR>
+<TD colspan="5"><P textAlign="center"><TextRun amendingStyle="add">Mental Health Advance Directive of (client name)</TextRun></P><P textAlign="center"><TextRun amendingStyle="add">With Appointment of (agent name) as</TextRun></P><P textAlign="center"><TextRun amendingStyle="add">Agent for Mental Health Decisions</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="5"><P textAlign="right" /></TD>
+</TR>
+<TR>
+<TD colspan="5" rowspan="1"><P textAlign="center"><TextRun amendingStyle="add"><TextRun fontWeight="bold">PART I.</TextRun></TextRun></P><P textAlign="center"><TextRun amendingStyle="add"><TextRun fontWeight="bold">STATEMENT OF INTENT TO CREATE A</TextRun></TextRun></P><P textAlign="center"><TextRun amendingStyle="add"><TextRun fontWeight="bold">MENTAL HEALTH ADVANCE DIRECTIVE</TextRun></TextRun></P><P><TextRun amendingStyle="add">I, (Client name), being a person with capacity, willfully and voluntarily execute this mental health advance directive so that my choices regarding my mental health care will be carried out in circumstances when I am unable to express my instructions and preferences regarding my mental health care.</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="5" rowspan="1"><P textAlign="center"><TextRun amendingStyle="add"><TextRun fontWeight="bold">PART II.</TextRun></TextRun></P><P textAlign="center"><TextRun amendingStyle="add"><TextRun fontWeight="bold">MY CARE NEEDS – WHAT WORKS FOR ME</TextRun></TextRun></P><P><TextRun amendingStyle="add">In order to assist in carrying out my directive I would like my providers and my agent to know the following information:</TextRun></P><P><TextRun amendingStyle="add">I have been diagnosed with (client illnesses both mental health and physical diagnoses) for which I take (list medications).</TextRun></P><P><TextRun amendingStyle="add">I am also on the following other medications: (list any other medications for other conditions).</TextRun></P><P><TextRun amendingStyle="add">The best treatment method for my illness is (give general overview of what works best for client).</TextRun></P><P><TextRun amendingStyle="add">I have/do not have a history of substance abuse. My preferences and treatment options around medication management related to substance abuse are:</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="5" rowspan="1"><P textAlign="center"><TextRun amendingStyle="add"><TextRun fontWeight="bold">PART III.</TextRun></TextRun></P><P textAlign="center"><TextRun amendingStyle="add"><TextRun fontWeight="bold">WHEN THIS DIRECTIVE IS EFFECTIVE</TextRun></TextRun></P><P textAlign="center"><TextRun amendingStyle="add">(</TextRun><TextRun amendingStyle="add"><TextRun fontStyle="italic">You must complete this part for your directive to be valid.)</TextRun></TextRun></P><P><TextRun amendingStyle="add">I intend that this directive become effective (YOU MUST CHOOSE ONLY ONE):</TextRun></P><P><TextRun amendingStyle="add">. . . . . . Immediately upon my signing of this directive.</TextRun></P><P><TextRun amendingStyle="add">. . . . . . If I become incapacitated.</TextRun></P><P><TextRun amendingStyle="add">. . . . . . When the following circumstances, symptoms, or behaviors occur:</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="5"><P textAlign="center"><TextRun amendingStyle="add"><TextRun fontWeight="bold">PART IV.</TextRun></TextRun></P><P textAlign="center"><TextRun amendingStyle="add"><TextRun fontWeight="bold">DURATION OF THIS DIRECTIVE</TextRun></TextRun></P><P textAlign="center"><TextRun amendingStyle="add"><TextRun fontStyle="italic">(You must complete this part for your directive to be valid.)</TextRun></TextRun></P><P><TextRun amendingStyle="add">I want this directive to (YOU MUST CHOOSE ONLY ONE):</TextRun></P><P><TextRun amendingStyle="add">. . . . . . Remain valid and in effect for an indefinite period of time.</TextRun></P><P><TextRun amendingStyle="add">. . . . . . Automatically expire . . . . . . years from the date it was created.</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="5"><P textAlign="center"><TextRun amendingStyle="add"><TextRun fontWeight="bold">PART V.</TextRun></TextRun></P><P textAlign="center"><TextRun amendingStyle="add"><TextRun fontWeight="bold">WHEN I MAY REVOKE THIS DIRECTIVE</TextRun></TextRun></P><P textAlign="center"><TextRun amendingStyle="add"><TextRun fontStyle="italic">(You must complete this part for this directive to be valid.)</TextRun></TextRun></P><P><TextRun amendingStyle="add">I intend that I be able to revoke this directive (YOU MUST CHOOSE ONLY ONE):</TextRun></P><P><TextRun amendingStyle="add">. . . . . . Only when I have capacity.</TextRun></P><P><TextRun amendingStyle="add">I understand that choosing this option means I may only revoke this directive if I have capacity. I further understand that if I choose this option and become incapacitated while this directive is in effect, I may receive treatment that I specify in this directive, even if I object at the time.</TextRun></P><P><TextRun amendingStyle="add">. . . . . . Even if I am incapacitated.</TextRun></P><P><TextRun amendingStyle="add">I understand that choosing this option means that I may revoke this directive even if I am incapacitated. I further understand that if I choose this option and revoke this directive while I am incapacitated I may not receive treatment that I specify in this directive, even if I want the treatment.</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="5"><P textAlign="center"><TextRun amendingStyle="add"><TextRun fontWeight="bold">PART VI.</TextRun></TextRun></P><P textAlign="center"><TextRun amendingStyle="add"><TextRun fontWeight="bold">PREFERENCES AND INSTRUCTIONS ABOUT TREATMENT, FACILITIES, AND PHYSICIANS, PHYSICIAN ASSISTANTS, OR ADVANCED REGISTERED NURSE PRACTITIONERS</TextRun></TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="5"><P><TextRun amendingStyle="add"><TextRun fontWeight="bold">A. Preferences and Instructions About Physician(s), Physician Assistant(s), or Advanced Registered Nurse Practitioner(s) to be Involved in My Treatment</TextRun></TextRun></P><P><TextRun amendingStyle="add">I would like the physician(s), physician assistant(s), or advanced registered nurse practitioner(s) named below to be involved in my treatment decisions:</TextRun></P><P><TextRun amendingStyle="add">I do not wish to be treated by</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="5"><P><TextRun amendingStyle="add"><TextRun fontWeight="bold">B. Preferences and Instructions About Other Providers</TextRun></TextRun></P><P><TextRun amendingStyle="add">I am receiving other treatment or care from providers who I feel have an impact on my mental health care. I would like the following treatment provider(s) to be contacted when this directive is effective:</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="5"><P><TextRun amendingStyle="add"><TextRun fontWeight="bold">C. Preferences and Instructions About Medications for Psychiatric Treatment (check all that apply)</TextRun></TextRun></P><P><TextRun amendingStyle="add">. . . . . . I consent, and authorize my agent (if appointed) to consent, to the following medications: </TextRun></P><P><TextRun amendingStyle="add">. . . . . . I do not consent, and I do not authorize my agent (if appointed) to consent, to the administration of the following medications: </TextRun></P><P><TextRun amendingStyle="add">. . . . . . I am willing to take the medications excluded above if my only reason for excluding them is the side effects which include:</TextRun></P><P><TextRun amendingStyle="add">and these side effects can be eliminated by dosage adjustment or other means</TextRun></P><P><TextRun amendingStyle="add">. . . . . . I am willing to try any other medication the hospital doctor, physician assistant, or advanced registered nurse practitioner recommends.</TextRun></P><P><TextRun amendingStyle="add">. . . . . . I am willing to try any other medications my outpatient doctor, physician assistant, or advanced registered nurse practitioner recommends.</TextRun></P><P><TextRun amendingStyle="add">. . . . . . I do not want to try any other medications.</TextRun></P><P><TextRun amendingStyle="add">Medication Allergies.</TextRun></P><P><TextRun amendingStyle="add">I have allergies to, or severe side effects from, the following: </TextRun></P><P><TextRun amendingStyle="add">Other Medication Preferences or Instructions</TextRun></P><P><TextRun amendingStyle="add">. . . . . . I have the following other preferences or instructions about medications: </TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="5"><P><TextRun amendingStyle="add"><TextRun fontWeight="bold">D. Preferences and Instructions About Hospitalization and Alternatives</TextRun></TextRun></P><P><TextRun amendingStyle="add">(check all that apply and, if desired, rank "1" for first choice, "2" for second choice, and so on)</TextRun></P><P><TextRun amendingStyle="add">. . . . . . In the event my psychiatric condition is serious enough to require 24-hour care and I have no physical conditions that require immediate access to emergency medical care, I prefer to receive this care in programs/facilities designed as alternatives to psychiatric hospitalizations.</TextRun></P><P><TextRun amendingStyle="add">. . . . . . I would also like the interventions below to be tried before hospitalization is considered:</TextRun></P><P><TextRun amendingStyle="add">. . . . . . Calling someone or having someone call me when needed.</TextRun></P><P><TextRun amendingStyle="add">Name:</TextRun><Leader character="dot" amendingStyle="add" /><TextRun amendingStyle="add">   Telephone/text:</TextRun><Leader character="dot" amendingStyle="add" /><TextRun amendingStyle="add">   Email:</TextRun><Leader character="dot" amendingStyle="add" /></P><P><TextRun amendingStyle="add">. . . . . . Staying overnight with someone</TextRun></P><P><TextRun amendingStyle="add">Name:</TextRun><Leader character="dot" amendingStyle="add" /><TextRun amendingStyle="add">  Telephone/text:</TextRun><Leader character="dot" amendingStyle="add" /><TextRun amendingStyle="add">  Email:</TextRun><Leader character="dot" amendingStyle="add" /></P><P><TextRun amendingStyle="add">. . . . . . Having a mental health service provider come to see me.</TextRun></P><P><TextRun amendingStyle="add">. . . . . . Going to a crisis triage center or emergency room.</TextRun></P><P><TextRun amendingStyle="add">. . . . . . Staying overnight at a crisis respite (temporary) bed.</TextRun></P><P><TextRun amendingStyle="add">. . . . . . Seeing a service provider for help with psychiatric medications.</TextRun></P><P><TextRun amendingStyle="add">. . . . . . Other, specify:</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="5"><P><TextRun amendingStyle="add">Authority to Consent to Inpatient Treatment</TextRun></P><P><TextRun amendingStyle="add">I consent, and authorize my agent (if appointed) to consent, to voluntary admission to inpatient mental health treatment for ...... days (not to exceed 14 days).</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P><TextRun amendingStyle="add">(Sign one): </TextRun><Leader character="dot" amendingStyle="add" /></P></TD>
+<TD colspan="3"><P /></TD>
+</TR>
+<TR>
+<TD colspan="5" rowspan="1"><P><TextRun amendingStyle="add">. . . . . . If deemed appropriate by my agent (if appointed) and treating physician, physician assistant, or advanced registered nurse practitioner</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P><Leader character="dot" amendingStyle="add" /></P><P><TextRun amendingStyle="add">(Signature)</TextRun></P></TD>
+<TD colspan="3"><P /></TD>
+</TR>
+<TR>
+<TD colspan="2"><P><TextRun amendingStyle="add">Or</TextRun></P></TD>
+<TD colspan="3"><P /></TD>
+</TR>
+<TR>
+<TD colspan="5"><P><TextRun amendingStyle="add">. . . . . . Under the following circumstances (specify symptoms, behaviors, or circumstances that indicate the need for hospitalization)</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P><Leader character="dot" amendingStyle="add" /></P><P><TextRun amendingStyle="add">(Signature)</TextRun></P></TD>
+<TD colspan="3"><P /></TD>
+</TR>
+<TR>
+<TD colspan="5"><P><TextRun amendingStyle="add">. . . . . . I do not consent, or authorize my agent (if appointed) to consent, to inpatient treatment</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P><Leader character="dot" amendingStyle="add" /></P><P><TextRun amendingStyle="add">(Signature)</TextRun></P></TD>
+<TD colspan="3"><P /></TD>
+</TR>
+<TR>
+<TD colspan="5"><P><TextRun amendingStyle="add">Hospital Preferences and Instructions</TextRun></P><P><TextRun amendingStyle="add">If hospitalization is required, I prefer the following hospitals:</TextRun></P><P><TextRun amendingStyle="add">I do not consent to be admitted to the following hospitals:</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="5"><P><TextRun amendingStyle="add"><TextRun fontWeight="bold">E. Preferences and Instructions About Preemergency</TextRun></TextRun></P><P><TextRun amendingStyle="add">I would like the interventions below to be tried before use of seclusion or restraint is considered (check all that apply):</TextRun></P><P><TextRun amendingStyle="add">. . . . . . "Talk me down" one-on-one</TextRun></P><P><TextRun amendingStyle="add">. . . . . . More medication</TextRun></P><P><TextRun amendingStyle="add">. . . . . . Time out/privacy</TextRun></P><P><TextRun amendingStyle="add">. . . . . . Show of authority/force</TextRun></P><P><TextRun amendingStyle="add">. . . . . . Shift my attention to something else</TextRun></P><P><TextRun amendingStyle="add">. . . . . . Set firm limits on my behavior</TextRun></P><P><TextRun amendingStyle="add">. . . . . . Help me to discuss/vent feelings</TextRun></P><P><TextRun amendingStyle="add">. . . . . . Decrease stimulation</TextRun></P><P><TextRun amendingStyle="add">. . . . . . Offer to have neutral person settle dispute</TextRun></P><P><TextRun amendingStyle="add">. . . . . . Other:</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="5"><P><TextRun amendingStyle="add"><TextRun fontWeight="bold">F. Preferences and Instructions About Seclusion, Restraint, and Emergency Medications</TextRun></TextRun></P><P><TextRun amendingStyle="add">If it is determined that I am engaging in behavior that requires seclusion, physical restraint, and/or emergency use of medication, I prefer these interventions in the order I have chosen (choose "1" for first choice, "2" for second choice, and so on):</TextRun></P><P><TextRun amendingStyle="add">. . . . . . Seclusion</TextRun></P><P><TextRun amendingStyle="add">. . . . . . Seclusion and physical restraint (combined)</TextRun></P><P><TextRun amendingStyle="add">. . . . . . Medication by injection</TextRun></P><P><TextRun amendingStyle="add">. . . . . . Medication in pill or liquid form</TextRun></P><P><TextRun amendingStyle="add">In the event that my attending physician, physician assistant, or advanced registered nurse practitioner decides to use medication in response to an emergency situation after due consideration of my preferences and instructions for emergency treatments stated above, I expect the choice of medication to reflect any preferences and instructions I have expressed in Part VI C. of this form. The preferences and instructions I express in this section regarding medication in emergency situations do not constitute consent to use of the medication for nonemergency treatment.</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="5"><P><TextRun amendingStyle="add"><TextRun fontWeight="bold">G. Preferences and Instructions About Electroconvulsive Therapy</TextRun></TextRun></P><P><TextRun amendingStyle="add"><TextRun fontWeight="bold">(ECT or Shock Therapy)</TextRun></TextRun></P><P><TextRun amendingStyle="add">My wishes regarding electroconvulsive therapy are (sign one):</TextRun></P><P><TextRun amendingStyle="add">. . . . . .I do not consent, nor authorize my agent (if appointed) to consent, to the administration of electroconvulsive therapy</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P><Leader character="dot" amendingStyle="add" /></P><P><TextRun amendingStyle="add">(Signature)</TextRun></P></TD>
+<TD colspan="3"><P /></TD>
+</TR>
+<TR>
+<TD colspan="5"><P><TextRun amendingStyle="add">. . . . . .  I consent, and authorize my agent (if appointed) to consent, to the administration of electroconvulsive therapy</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P><Leader character="dot" amendingStyle="add" /></P><P><TextRun amendingStyle="add">(Signature)</TextRun></P></TD>
+<TD colspan="3"><P /></TD>
+</TR>
+<TR>
+<TD colspan="5"><P><TextRun amendingStyle="add">. . . . . . I consent, and authorize my agent (if appointed) to consent, to the administration of electroconvulsive therapy, but only under the following conditions: </TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P><Leader character="dot" amendingStyle="add" /></P><P><TextRun amendingStyle="add">(Signature)</TextRun></P></TD>
+<TD colspan="3"><P /></TD>
+</TR>
+<TR>
+<TD colspan="5"><P /><P><TextRun amendingStyle="add"><TextRun fontWeight="bold">H. Preferences and Instructions About Who is Permitted to Visit</TextRun></TextRun></P><P><TextRun amendingStyle="add">If I have been admitted to a mental health treatment facility, the following people are not permitted to visit me there: </TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P><TextRun amendingStyle="add">Name: </TextRun><Leader character="dot" amendingStyle="add" /></P></TD>
+<TD colspan="3"><P /></TD>
+</TR>
+<TR>
+<TD colspan="2"><P><TextRun amendingStyle="add">Name: </TextRun><Leader character="dot" amendingStyle="add" /></P></TD>
+<TD colspan="3"><P /></TD>
+</TR>
+<TR>
+<TD colspan="5"><P><TextRun amendingStyle="add">I understand that persons not listed above may be permitted to visit me.</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="5"><P><TextRun amendingStyle="add"><TextRun fontWeight="bold">I. Additional Instructions About My Mental Health Care</TextRun></TextRun></P><P><TextRun amendingStyle="add">Other instructions about my mental health care:</TextRun></P><P><TextRun amendingStyle="add">In case of emergency, please contact:</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P><TextRun amendingStyle="add">Name: </TextRun><Leader character="dot" amendingStyle="add" /></P><P><TextRun amendingStyle="add">Work telephone: </TextRun><Leader character="dot" amendingStyle="add" /></P><P><TextRun amendingStyle="add">Physician, physician assistant, or advanced registered nurse practitioner: </TextRun><Leader character="dot" amendingStyle="add" /></P><P><TextRun amendingStyle="add">Telephone: </TextRun><Leader character="dot" amendingStyle="add" /></P></TD>
+<TD colspan="3"><P><TextRun amendingStyle="add">Address: </TextRun><Leader character="dot" amendingStyle="add" /></P><P><TextRun amendingStyle="add">Home telephone: </TextRun><Leader character="dot" amendingStyle="add" /></P><P><TextRun amendingStyle="add">Address: </TextRun><Leader character="dot" amendingStyle="add" /></P><P><TextRun amendingStyle="add">Email: </TextRun><Leader character="dot" amendingStyle="add" /></P></TD>
+</TR>
+<TR>
+<TD colspan="5"><P><TextRun amendingStyle="add">The following may help me to avoid a hospitalization:</TextRun></P><P><TextRun amendingStyle="add">I generally react to being hospitalized as follows:</TextRun></P><P><TextRun amendingStyle="add">Staff of the hospital or crisis unit can help me by doing the following:</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="5"><P><TextRun amendingStyle="add"><TextRun fontWeight="bold">J. Refusal of Treatment</TextRun></TextRun></P><P><TextRun amendingStyle="add">I do not consent to any mental health treatment.</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P><Leader character="dot" amendingStyle="add" /></P><P><TextRun amendingStyle="add">(Signature)</TextRun></P></TD>
+<TD colspan="3"><P /></TD>
+</TR>
+<TR>
+<TD colspan="5"><P textAlign="center"><TextRun amendingStyle="add"><TextRun fontWeight="bold">PART VII.</TextRun></TextRun></P><P textAlign="center"><TextRun amendingStyle="add"><TextRun fontWeight="bold">DURABLE POWER OF ATTORNEY (APPOINTMENT OF MY AGENT)</TextRun></TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="5"><P textAlign="center"><TextRun amendingStyle="add">(</TextRun><TextRun amendingStyle="add"><TextRun fontStyle="italic">Fill out this part only if you wish to appoint an agent or nominate a guardian.</TextRun></TextRun><TextRun amendingStyle="add">)</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="5"><P><TextRun amendingStyle="add">I authorize an agent to make mental health treatment decisions on my behalf. The authority granted to my agent includes the right to consent, refuse consent, or withdraw consent to any mental health care, treatment, service, or procedure, consistent with any instructions and/or limitations I have set forth in this directive. I intend that those decisions should be made in accordance with my expressed wishes as set forth in this document. If I have not expressed a choice in this document </TextRun><TextRun amendingStyle="add"><TextRun fontWeight="bold">and my agent does not otherwise know my wishes</TextRun></TextRun><TextRun amendingStyle="add">, I authorize my agent to make the decision that my agent determines is in my best interest. This agency shall not be affected by my incapacity. Unless I state otherwise in this durable power of attorney, I may revoke it unless prohibited by other state law.</TextRun></P><P /><P><TextRun amendingStyle="add">HIPAA Release Authority. In addition to the other powers granted by this document, I grant to my Attorney-in-Fact the power and authority to serve as my personal representative for all purposes under the Health Insurance Portability and Accountability Act (HIPAA) of 1996, as amended from time to time, and its regulations. My Attorney-in-Fact will serve as my "HIPAA personal representative" and will exercise this authority at any time that my Attorney-in-Fact is exercising authority under this document.</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="5"><P><TextRun amendingStyle="add"><TextRun fontWeight="bold">A. Designation of an Agent</TextRun></TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P><TextRun amendingStyle="add">Name: </TextRun><Leader character="dot" amendingStyle="add" /></P></TD>
+<TD colspan="3"><P><TextRun amendingStyle="add">Address: </TextRun><Leader character="dot" amendingStyle="add" /></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P><TextRun amendingStyle="add">Work phone: </TextRun><Leader character="dot" amendingStyle="add" /></P></TD>
+<TD colspan="3"><P><TextRun amendingStyle="add">Home/cell phone: </TextRun><Leader character="dot" amendingStyle="add" /></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P><TextRun amendingStyle="add">Relationship: </TextRun><Leader character="dot" amendingStyle="add" /></P></TD>
+<TD colspan="3"><P><TextRun amendingStyle="add">Email: </TextRun><Leader character="dot" amendingStyle="add" /></P></TD>
+</TR>
+<TR>
+<TD colspan="5"><P><TextRun amendingStyle="add"><TextRun fontWeight="bold">B. Designation of Alternate Agent</TextRun></TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="5"><P><TextRun amendingStyle="add">If the person named above is unavailable, unable, or refuses to serve as my agent, or I revoke that person's authority to serve as my agent, I hereby appoint the following person as my alternate agent and request that this person be notified immediately when this directive becomes effective or when my original agent is no longer my agent:</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P><TextRun amendingStyle="add">Name: </TextRun><Leader character="dot" amendingStyle="add" /></P></TD>
+<TD colspan="3"><P><TextRun amendingStyle="add">Address: </TextRun><Leader character="dot" amendingStyle="add" /></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P><TextRun amendingStyle="add">Work phone: </TextRun><Leader character="dot" amendingStyle="add" /></P></TD>
+<TD colspan="3"><P><TextRun amendingStyle="add">Home phone: </TextRun><Leader character="dot" amendingStyle="add" /></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P><TextRun amendingStyle="add">Relationship: </TextRun><Leader character="dot" amendingStyle="add" /></P></TD>
+<TD colspan="3"><P><TextRun amendingStyle="add">Email: </TextRun><Leader character="dot" amendingStyle="add" /></P></TD>
+</TR>
+<TR>
+<TD colspan="5"><P><TextRun amendingStyle="add"><TextRun fontWeight="bold">C. When My Spouse is My Agent</TextRun></TextRun><TextRun amendingStyle="add">(</TextRun><TextRun amendingStyle="add"><TextRun fontStyle="italic">check if desired</TextRun></TextRun><TextRun amendingStyle="add">)</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="5"><P><TextRun amendingStyle="add">. . . . . . If my spouse is my agent, that person shall remain my agent even if we become legally separated or our marriage is dissolved, unless there is a court order to the contrary.</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="5"><P><TextRun amendingStyle="add"><TextRun fontWeight="bold">D. Limitations on My Agent's Authority</TextRun></TextRun></P><P><TextRun amendingStyle="add">I do not grant my agent the authority to consent on my behalf to the following:<Leader character="dot" amendingStyle="add" /></TextRun></P><P><TextRun amendingStyle="add"><TextRun fontWeight="bold">E. Limitations on My Ability to Revoke this Durable Power of Attorney</TextRun></TextRun></P><P><TextRun amendingStyle="add">I choose to limit my ability to revoke this durable</TextRun></P><P><TextRun amendingStyle="add">power of attorney as follows:<Leader character="dot" amendingStyle="add" /></TextRun></P><P><TextRun amendingStyle="add"><TextRun fontWeight="bold">F. Preference as to Court-Appointed Guardian</TextRun></TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="5"><P><TextRun amendingStyle="add">In the event a court appoints a guardian who will make decisions regarding my mental health treatment, I </TextRun><TextRun amendingStyle="add"><TextRun fontWeight="bold">nominate </TextRun></TextRun><TextRun amendingStyle="add">my then-serving agent (or name someone else) </TextRun><TextRun amendingStyle="add"><TextRun fontWeight="bold">as my guardian</TextRun></TextRun><TextRun amendingStyle="add">:</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="3"><P><TextRun amendingStyle="add">Name and contact information (if someone other than agent or alternate):</TextRun></P></TD>
+<TD colspan="2"><P /></TD>
+</TR>
+<TR>
+<TD colspan="5"><P><TextRun amendingStyle="add">The appointment of a guardian of my estate or my person or any other decision maker shall not give the guardian or decision maker the power to revoke, suspend, or terminate this directive or the powers of my agent, except as authorized by law.</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="5"><P textAlign="center" /><P /><P textAlign="center"><TextRun amendingStyle="add"><TextRun fontWeight="bold">PART VIII.</TextRun></TextRun></P><P textAlign="center"><TextRun amendingStyle="add"><TextRun fontWeight="bold">OTHER DOCUMENTS</TextRun></TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="5"><P textAlign="center"><TextRun amendingStyle="add">(</TextRun><TextRun amendingStyle="add"><TextRun fontStyle="italic">Initial all that apply</TextRun></TextRun><TextRun amendingStyle="add">)</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="5"><P><TextRun amendingStyle="add">I have executed the following documents that include the power to make decisions regarding health care services for myself:</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="5"><P><TextRun amendingStyle="add">. . . . . . Health care power of attorney (chapter 11.125 RCW)</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="5"><P><TextRun amendingStyle="add">. . . . . . "Living will" (Health care directive; chapter 70.122 RCW)</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="5"><P><TextRun amendingStyle="add">. . . . . . I have appointed more than one agent. I understand that the most recently appointed agent controls except as stated below:</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="5"><P textAlign="center"><TextRun amendingStyle="add"><TextRun fontWeight="bold">PART IX.</TextRun></TextRun></P><P textAlign="center"><TextRun amendingStyle="add"><TextRun fontWeight="bold">NOTIFICATION OF OTHERS AND CARE OF PERSONAL AFFAIRS</TextRun></TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="5"><P textAlign="center"><TextRun amendingStyle="add">(</TextRun><TextRun amendingStyle="add"><TextRun fontStyle="italic">Fill out this part only if you wish to provide nontreatment instructions.</TextRun></TextRun><TextRun amendingStyle="add">)</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="5"><P><TextRun amendingStyle="add">I understand the preferences and instructions in this part are </TextRun><TextRun amendingStyle="add"><TextRun fontWeight="bold"><TextRun amendingStyle="add">NOT</TextRun> </TextRun></TextRun><TextRun amendingStyle="add">the responsibility of my treatment provider and that no treatment provider is required to act on them.</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="5"><P><TextRun amendingStyle="add"><TextRun fontWeight="bold">A. Who Should Be Notified</TextRun></TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="5"><P><TextRun amendingStyle="add">I desire my agent to notify the following individuals as soon as possible if I am admitted to a mental health facility:</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P><TextRun amendingStyle="add">Name: </TextRun><Leader character="dot" amendingStyle="add" /></P></TD>
+<TD colspan="3"><P><TextRun amendingStyle="add">Address: </TextRun><Leader character="dot" amendingStyle="add" /></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P><TextRun amendingStyle="add">Day telephone: </TextRun><Leader character="dot" amendingStyle="add" /></P></TD>
+<TD colspan="3"><P><TextRun amendingStyle="add">Evening telephone: </TextRun><Leader character="dot" amendingStyle="add" /></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P><TextRun amendingStyle="add">Name: </TextRun><Leader character="dot" amendingStyle="add" /></P></TD>
+<TD colspan="3"><P><TextRun amendingStyle="add">Address: </TextRun><Leader character="dot" amendingStyle="add" /></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P><TextRun amendingStyle="add">Day telephone: </TextRun><Leader character="dot" amendingStyle="add" /></P></TD>
+<TD colspan="3"><P><TextRun amendingStyle="add">Evening telephone: </TextRun><Leader character="dot" amendingStyle="add" /></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P><TextRun amendingStyle="add">Name: </TextRun><Leader character="dot" amendingStyle="add" /></P></TD>
+<TD colspan="3"><P><TextRun amendingStyle="add">Address: </TextRun><Leader character="dot" amendingStyle="add" /></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P><TextRun amendingStyle="add">Day telephone: </TextRun><Leader character="dot" amendingStyle="add" /></P></TD>
+<TD colspan="3"><P><TextRun amendingStyle="add">Evening telephone: </TextRun><Leader character="dot" amendingStyle="add" /></P></TD>
+</TR>
+<TR>
+<TD colspan="5"><P><TextRun amendingStyle="add"><TextRun fontWeight="bold">B. Preferences or Instructions About Personal Affairs</TextRun></TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="5"><P><TextRun amendingStyle="add">I have the following preferences or instructions about my personal affairs (e.g., care of dependents, pets, household) if I am admitted to a mental health treatment facility: </TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="5"><P><TextRun amendingStyle="add"><TextRun fontWeight="bold">C. Additional Preferences and Instructions:</TextRun></TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="5"><P textAlign="center"><TextRun amendingStyle="add"><TextRun fontWeight="bold">PART X.</TextRun></TextRun></P><P textAlign="center"><TextRun amendingStyle="add"><TextRun fontWeight="bold">SIGNATURE</TextRun></TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="5"><P><TextRun amendingStyle="add">By signing here, I indicate that I understand the purpose and effect of this document and that I am giving my informed consent to the treatments and/or admission to which I have consented or authorized my agent to consent in this directive. I intend that my consent in this directive be construed as being consistent with the elements of informed consent under chapter 7.70 RCW.</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="3"><P><TextRun amendingStyle="add">In witness of this, I have signed on this . . . . . . day of . . . . . ., 20. . . .</TextRun></P><P><TextRun amendingStyle="add">Signature: </TextRun><Leader character="dot" amendingStyle="add" /></P></TD>
+<TD colspan="2"><P /></TD>
+</TR>
+<TR>
+<TD colspan="3"><P><TextRun amendingStyle="add">STATE OF WASHINGTON )</TextRun></P><P indent="2"><TextRun amendingStyle="add">) ss.</TextRun></P><P><TextRun amendingStyle="add">COUNTY OF </TextRun><Leader character="dot" amendingStyle="add" /><TextRun amendingStyle="add">)</TextRun></P><P prePadding="oneline"><TextRun amendingStyle="add">I certify that I know or have satisfactory evidence that (client name) is the person who appeared before me, and said person acknowledged that he or she signed this Durable Power of Attorney and acknowledged it to be his or her free and voluntary act for the uses and purposes mentioned in this instrument.</TextRun></P><P><TextRun amendingStyle="add">SUBSCRIBED and SWORN to before me this . . . . . .  day of . . . . . ., 20. . . .</TextRun></P></TD>
+<TD colspan="2"><P /></TD>
+</TR>
+<TR>
+<TD colspan="3" rowspan="1"><P><Leader character="dot" amendingStyle="add" /></P><P><TextRun amendingStyle="add">SIGNATURE OF NOTARY</TextRun></P><P /><P><Leader character="dot" amendingStyle="add" /></P><P><TextRun amendingStyle="add">PRINT NAME OF NOTARY</TextRun></P><P /><P><TextRun amendingStyle="add">NOTARY PUBLIC for the State of Washington at </TextRun><Leader character="dot" amendingStyle="add" /></P><P><TextRun amendingStyle="add">My commission expires </TextRun><Leader character="dot" amendingStyle="add" /></P><P><TextRun amendingStyle="add">OR have two witnesses:</TextRun></P><P><TextRun amendingStyle="add">Name: </TextRun><Leader character="dot" amendingStyle="add" /></P></TD>
+<TD><P /></TD>
+<TD><P /></TD>
+</TR>
+<TR>
+<TD colspan="5"><P><TextRun amendingStyle="add">This directive was signed and declared by the "Principal," to be his or her directive, in our presence who, at his or her request, have signed our names below as witnesses. We declare that, at the time of the creation of this instrument, the Principal is personally known to us, and, according to our best knowledge and belief, has capacity at this time and does not appear to be acting under duress, undue influence, or fraud. We further declare that none of us is:</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="5"><P><TextRun amendingStyle="add">(A) A person designated to make medical decisions on the principal's behalf;</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="5"><P><TextRun amendingStyle="add">(B) A health care provider or professional person directly involved with the provision of care to the principal at the time the directive is executed;</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="5"><P><TextRun amendingStyle="add">(C) An owner, operator, employee, or relative of an owner or operator of a health care facility or long-term care facility in which the principal is a patient or resident;</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="5"><P><TextRun amendingStyle="add">(D) A person who is related by blood, marriage, or adoption to the person, or with whom the principal has a dating relationship as defined in RCW 26.50.010;</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="5"><P><TextRun amendingStyle="add">(E) An incapacitated person;</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="5"><P><TextRun amendingStyle="add">(F) A person who would benefit financially if the principal undergoes mental health treatment; or</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="5"><P><TextRun amendingStyle="add">(G) A minor.</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P><TextRun amendingStyle="add">Witness 1 Signature: </TextRun><Leader character="dot" amendingStyle="add" /></P></TD>
+<TD colspan="3"><P><TextRun amendingStyle="add">Date: </TextRun><Leader character="dot" amendingStyle="add" /></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P><TextRun amendingStyle="add">Printed Name: </TextRun><Leader character="dot" amendingStyle="add" /></P></TD>
+<TD colspan="3"><P><TextRun amendingStyle="add">Address: </TextRun><Leader character="dot" amendingStyle="add" /></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P><TextRun amendingStyle="add">Telephone: </TextRun><Leader character="dot" amendingStyle="add" /></P></TD>
+<TD colspan="3"><P /></TD>
+</TR>
+<TR>
+<TD colspan="2"><P><TextRun amendingStyle="add">Witness 2 Signature: </TextRun><Leader character="dot" amendingStyle="add" /></P></TD>
+<TD colspan="3"><P><TextRun amendingStyle="add">Date: </TextRun><Leader character="dot" amendingStyle="add" /></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P><TextRun amendingStyle="add">Printed Name: </TextRun><Leader character="dot" amendingStyle="add" /></P></TD>
+<TD colspan="3"><P><TextRun amendingStyle="add">Address: </TextRun><Leader character="dot" amendingStyle="add" /></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P><TextRun amendingStyle="add">Telephone: </TextRun><Leader character="dot" amendingStyle="add" /></P></TD>
+<TD colspan="3"><P /></TD>
+</TR>
+<TR>
+<TD colspan="5"><P textAlign="center"><TextRun amendingStyle="add"><TextRun fontWeight="bold">PART XI.</TextRun></TextRun></P><P textAlign="center"><TextRun amendingStyle="add"><TextRun fontWeight="bold">RECORD OF DIRECTIVE</TextRun></TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="5"><P><TextRun amendingStyle="add">I have given a copy of this directive to the following persons:</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="5"><P /></TD>
+</TR>
+<TR>
+<TD colspan="2"><P><TextRun amendingStyle="add">Name: </TextRun><Leader character="dot" amendingStyle="add" /></P></TD>
+<TD colspan="3"><P><TextRun amendingStyle="add">Address: </TextRun><Leader character="dot" amendingStyle="add" /></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P><TextRun amendingStyle="add">Day telephone: </TextRun><Leader character="dot" amendingStyle="add" /></P></TD>
+<TD colspan="3"><P><TextRun amendingStyle="add">Evening telephone: </TextRun><Leader character="dot" amendingStyle="add" /></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P><TextRun amendingStyle="add">Name: </TextRun><Leader character="dot" amendingStyle="add" /></P></TD>
+<TD colspan="3"><P><TextRun amendingStyle="add">Address: </TextRun><Leader character="dot" amendingStyle="add" /></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P><TextRun amendingStyle="add">Day telephone: </TextRun><Leader character="dot" amendingStyle="add" /></P></TD>
+<TD colspan="3"><P><TextRun amendingStyle="add">Evening telephone: </TextRun><Leader character="dot" amendingStyle="add" /></P></TD>
+</TR>
+<TR>
+<TD colspan="3"><P /><P><TextRun amendingStyle="add">DO NOT FILL OUT PART XII UNLESS YOU INTEND TO REVOKE THIS DIRECTIVE IN PART OR IN WHOLE</TextRun></P></TD>
+<TD colspan="2"><P /></TD>
+</TR>
+<TR>
+<TD colspan="5"><P textAlign="center"><TextRun amendingStyle="add"><TextRun fontWeight="bold">PART XII.</TextRun></TextRun></P><P textAlign="center"><TextRun amendingStyle="add"><TextRun fontWeight="bold">REVOCATION OF THIS DIRECTIVE</TextRun></TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="5"><P><TextRun amendingStyle="add"><TextRun fontStyle="italic">(Initial any that apply):</TextRun></TextRun></P><P><TextRun amendingStyle="add">. . . . . . I am revoking the following part(s) of this directive (specify):</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="2"><P /></TD>
+<TD colspan="3"><P><TextRun amendingStyle="add">Date: . . . . . . . . .</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="5"><P><TextRun amendingStyle="add">. . . . . . I am revoking all of this directive.</TextRun></P></TD>
+</TR>
+<TR>
+<TD colspan="5"><P><TextRun amendingStyle="add">By signing here, I indicate that I understand the purpose and effect of my revocation and that no person is bound by any revoked provision(s). I intend this revocation to be interpreted as if I had never completed the revoked provision(s).</TextRun></P><P /></TD>
+</TR>
+<TR>
+<TD colspan="2"><P><Leader character="dot" amendingStyle="add" /></P><P><TextRun amendingStyle="add">(Signature)</TextRun></P></TD>
+<TD colspan="3"><P /></TD>
+</TR>
+<TR>
+<TD colspan="2"><P><TextRun amendingStyle="add">Printed Name: </TextRun><Leader character="dot" amendingStyle="add" /></P></TD>
+<TD colspan="3"><P /></TD>
+</TR>
+<TR>
+<TD colspan="5"><P><TextRun amendingStyle="add"><TextRun fontWeight="bold">DO NOT SIGN THIS PART UNLESS YOU INTEND TO REVOKE THIS</TextRun></TextRun></P><P><TextRun amendingStyle="add"><TextRun fontWeight="bold">DIRECTIVE IN PART OR IN WHOLE</TextRun></TextRun></P></TD>
+</TR>
+</Table>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>20</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>71</TitleNumber><TextRun>.</TextRun><ChapterNumber>32</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>Nothing in this chapter restricts the right of a parent to seek behavioral health evaluation and treatment for a nonconsenting adolescent using family-initiated treatment laws under chapter 71.34 RCW.</P>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>21</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>71</TitleNumber><TextRun>.</TextRun><ChapterNumber>34</ChapterNumber><TextRun>.</TextRun><SectionNumber>755</SectionNumber></SectionCite> and 2020 c 302 s 96 are each amended to read as follows:<Caption>Less restrictive alternative treatment<TextRun fontFamily="Times New Roman">—</TextRun>Requirements.</Caption></BillSectionHeader>
+<P>(1) Less restrictive alternative treatment, at a minimum, must include the following services:</P>
+<P>(a) Assignment of a care coordinator;</P>
+<P>(b) An intake evaluation with the provider of the less restrictive alternative treatment;</P>
+<P>(c) A psychiatric evaluation;</P>
+<P>(d) A schedule of regular contacts with the provider of the less restrictive alternative treatment services for the duration of the order;</P>
+<P>(e) A transition plan addressing access to continued services at the expiration of the order;</P>
+<P>(f) An individual crisis plan; <TextRun amendingStyle="strike">and</TextRun></P>
+<P>(g) <TextRun amendingStyle="add">Consultation about the formation of a mental health advance directive under chapter 71.32 RCW; and</TextRun></P>
+<P><TextRun amendingStyle="add">(h)</TextRun> Notification to the care coordinator assigned in (a) of this subsection if reasonable efforts to engage the client fail to produce substantial compliance with court-ordered treatment conditions.</P>
+<P>(2) Less restrictive alternative treatment may include the following additional services:</P>
+<P>(a) Medication management;</P>
+<P>(b) Psychotherapy;</P>
+<P>(c) Nursing;</P>
+<P>(d) Substance abuse counseling;</P>
+<P>(e) Residential treatment; and</P>
+<P>(f) Support for housing, benefits, education, and employment.</P>
+<P>(3) If the minor was provided with involuntary medication during the involuntary commitment period, the less restrictive alternative treatment order may authorize the less restrictive alternative treatment provider or its designee to administer involuntary antipsychotic medication to the person if the provider has attempted and failed to obtain the informed consent of the person and there is a concurring medical opinion approving the medication by a psychiatrist, physician assistant working with a supervising psychiatrist, psychiatric advanced registered nurse practitioner, or physician or physician assistant in consultation with an independent mental health professional with prescribing authority.</P>
+<P>(4) Less restrictive alternative treatment must be administered by a provider that is certified or licensed to provide or coordinate the full scope of services required under the less restrictive alternative order and that has agreed to assume this responsibility.</P>
+<P>(5) The care coordinator assigned to a minor ordered to less restrictive alternative treatment must submit an individualized plan for the minor's treatment services to the court that entered the order. An initial plan must be submitted as soon as possible following the intake evaluation and a revised plan must be submitted upon any subsequent modification in which a type of service is removed from or added to the treatment plan.</P>
+<P>(6) For the purpose of this section, "care coordinator" means a clinical practitioner who coordinates the activities of less restrictive alternative treatment. The care coordinator coordinates activities with the designated crisis responders that are necessary for enforcement and continuation of less restrictive alternative treatment orders and is responsible for coordinating service activities with other agencies and establishing and maintaining a therapeutic relationship with the individual on a continuing basis.</P>
+<History>2020 c 302 § 96.</History>
+</BillSection>
+<BillSection type="new" action="expdate">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>22</Value><TextRun>.  </TextRun></BillSectionNumber><P>Section 2 of this act expires January 1, 2022.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="effdate">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>23</Value><TextRun>.  </TextRun></BillSectionNumber><P>Section 3 of this act takes effect January 1, 2022.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="expdate">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>24</Value><TextRun>.  </TextRun></BillSectionNumber><P>Section 3 of this act expires July 1, 2022.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="effdate">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>25</Value><TextRun>.  </TextRun></BillSectionNumber><P>Section 4 of this act takes effect July 1, 2022.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

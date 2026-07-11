@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-3373.1</RequestNumber><ShortBillId>SB 5701</ShortBillId><LongBillId>SENATE BILL 5701</LongBillId><Legislature>67th Legislature</Legislature><Session>2022 Regular Session</Session><Sponsors>Senators Nguyen, Frockt, Hasegawa, Nobles, and C. Wilson</Sponsors><BillHistory><PrefiledDate>Prefiled 01/06/22.</PrefiledDate><ReadDate>Read first time 01/10/22.</ReadDate><ReferredCommittee>Referred to Committee on Labor, Commerce &amp; Tribal Affairs.</ReferredCommittee></BillHistory><BriefDescription>Determining monthly wages for workers' compensation.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to determining monthly wages for workers' compensation; and amending RCW 51.08.178.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>51</TitleNumber><TextRun>.</TextRun><ChapterNumber>08</ChapterNumber><TextRun>.</TextRun><SectionNumber>178</SectionNumber></SectionCite> and 2007 c 297 s 1 are each amended to read as follows:<Caption>"Wages"<TextRun fontFamily="Times New Roman">—</TextRun>Monthly wages as basis of compensation<TextRun fontFamily="Times New Roman">—</TextRun>Computation thereof.</Caption></BillSectionHeader>
+<P>(1) For the purposes of this title, the monthly wages the worker was receiving from all employment at the time of injury shall be the basis upon which compensation is computed unless otherwise provided specifically in the statute concerned. In cases where the worker's wages are not fixed by the month, they shall be determined by multiplying the daily wage the worker was receiving at the time of the injury:</P>
+<P>(a) By five, if the worker was normally employed one day a week;</P>
+<P>(b) By nine, if the worker was normally employed two days a week;</P>
+<P>(c) By thirteen, if the worker was normally employed three days a week;</P>
+<P>(d) By eighteen, if the worker was normally employed four days a week;</P>
+<P>(e) By twenty-two, if the worker was normally employed five days a week;</P>
+<P>(f) By twenty-six, if the worker was normally employed six days a week;</P>
+<P>(g) By thirty, if the worker was normally employed seven days a week.</P>
+<P>The term "wages" shall include the reasonable value of board, housing, fuel, or other consideration of like nature received from the employer as part of the contract of hire, but shall not include overtime pay except in cases under subsection (2) of this section. As consideration of like nature to board, housing, and fuel, wages shall also include the employer's payment or contributions, or appropriate portions thereof, for health care benefits unless the employer continues ongoing and current payment or contributions for these benefits at the same level as provided at the time of injury. However, tips shall also be considered wages only to the extent such tips are reported to the employer for federal income tax purposes. The daily wage shall be the hourly wage multiplied by the number of hours the worker is normally employed. The number of hours the worker is normally employed shall be determined by the department in a fair and reasonable manner, which may include averaging the number of hours worked per day.</P>
+<P>(2) In cases where (a) the worker's employment is exclusively seasonal in nature or (b) the worker's current employment or his or her relation to his or her employment is essentially part-time or intermittent, the monthly wage shall be determined by dividing by twelve the total wages earned, including overtime, from all employment in any twelve successive calendar months preceding the injury which fairly represent the claimant's employment pattern.</P>
+<P>(3) If, within the twelve months immediately preceding the injury, the worker has received from the employer at the time of injury a bonus as part of the contract of hire, the average monthly value of such bonus shall be included in determining the worker's monthly wages.</P>
+<P>(4) In cases where a wage has not been fixed or cannot be reasonably and fairly determined, the monthly wage shall be computed on the basis of the usual wage paid other employees engaged in like or similar occupations where the wages are fixed.</P>
+<P><TextRun amendingStyle="add">(5)(a) In the case of any person described in RCW 49.46.010(3)(k), the monthly wage shall be computed on the basis of the usual wage paid other employees engaged in like or similar occupations where the wages are fixed.</TextRun></P>
+<P><TextRun amendingStyle="add">(b) For purposes of this subsection (5), "other employees" does not include any person described in RCW 49.46.010(3)(k).</TextRun></P>
+<History>2007 c 297 § 1; 1988 c 161 § 12; 1980 c 14 § 5. Prior: 1977 ex.s. c 350 § 14; 1977 ex.s. c 323 § 6; 1971 ex.s. c 289 § 14.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Application<TextRun fontFamily="Times New Roman">—</TextRun>2007 c 297 § 1:</TextRun> "Section 1 of this act applies to all wage determinations issued on or after July 22, 2007." [2007 c 297 § 2.]</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Severability<TextRun fontFamily="Times New Roman">—</TextRun>Effective date<TextRun fontFamily="Times New Roman">—</TextRun>1977 ex.s. c 323:</TextRun> See notes following RCW 51.04.040.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective dates<TextRun fontFamily="Times New Roman">—</TextRun>Severability<TextRun fontFamily="Times New Roman">—</TextRun>1971 ex.s. c 289:</TextRun> See RCW 51.98.060 and 51.98.070.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+</BillBody>
+</Bill>

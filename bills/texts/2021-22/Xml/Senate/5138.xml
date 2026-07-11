@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-0049.1</RequestNumber><ShortBillId>SB 5138</ShortBillId><LongBillId>SENATE BILL 5138</LongBillId><Legislature>67th Legislature</Legislature><Session>2021 Regular Session</Session><Sponsors>Senators Kuderer, Hasegawa, Das, Nguyen, Saldaña, Salomon, and Wilson, C.</Sponsors><BillHistory><PrefiledDate>Prefiled 01/08/21.</PrefiledDate><ReadDate>Read first time 01/11/21.</ReadDate><ReferredCommittee>Referred to Committee on Business, Financial Services &amp; Trade.</ReferredCommittee></BillHistory><BriefDescription>Eliminating a business and occupation tax deduction for financial institutions to fund affordable housing.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to eliminating a business and occupation tax deduction for financial institutions to fund affordable housing; adding a new section to chapter 82.32 RCW; creating new sections; repealing RCW 82.04.29005 and 82.04.4292; and providing an effective date.</BillTitle>
+<EnactedClause />
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>It is the intent of this act to increase funding for affordable housing by applying the catch-all service and other tax rate under RCW 82.04.290(2)(a) to interest received by all financial institutions on investments or loans primarily secured by nontransient residential properties, as well as related service fees, previously eligible for a business and occupation tax deduction under RCW 82.04.4292.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="repeal">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>The following acts or parts of acts are each repealed:</P></BillSectionHeader>
+<P><RepealNumber>1</RepealNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>82</TitleNumber><TextRun>.</TextRun><ChapterNumber>04</ChapterNumber><TextRun>.</TextRun><SectionNumber>29005</SectionNumber></SectionCite> (Tax on loan interest<TextRun fontFamily="Times New Roman">—</TextRun>2012 2nd sp.s. c 6) and 2012 2nd sp.s. c 6 s 101; and</P>
+<P><RepealNumber>2</RepealNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>82</TitleNumber><TextRun>.</TextRun><ChapterNumber>04</ChapterNumber><TextRun>.</TextRun><SectionNumber>4292</SectionNumber></SectionCite> (Deductions<TextRun fontFamily="Times New Roman">—</TextRun>Interest on investments or loans secured by mortgages or deeds of trust) and 2012 2nd sp.s. c 6 s 102, 2010 1st sp.s. c 23 s 301, &amp; 1980 c 37 s 12.</P>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>82</TitleNumber><TextRun>.</TextRun><ChapterNumber>32</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) By October 15, 2022, and by each October 15th thereafter, the department must estimate any increase in state general fund revenue collections for the immediately preceding fiscal year resulting from the repeal of RCW 82.04.4292 under section 2, chapter . . ., Laws of 2021 (section 2 of this act). The department must promptly notify the state treasurer of these estimated amounts.</P>
+<P>(2) Beginning November 1, 2022, and by each November 1st thereafter, the state treasurer must transfer from the general fund the estimated amount determined by the department under subsection (1) of this section for the immediately preceding fiscal year into the housing trust fund under RCW 43.185.030.</P>
+<P>(3) The department may not make any adjustments to an estimate under subsection (1) of this section after the state treasurer makes the corresponding distribution under subsection (2) of this section based on the department's estimate.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act applies to interest received on or after August 1, 2021.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="effdate">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>5</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act takes effect August 1, 2021.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

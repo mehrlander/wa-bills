@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>Z-0328.1</RequestNumber><ShortBillId>SB 5566</ShortBillId><LongBillId>SENATE BILL 5566</LongBillId><Legislature>67th Legislature</Legislature><Session>2022 Regular Session</Session><Sponsors>Senators Kuderer, Lovelett, Das, Dhingra, Fortunato, Nguyen, Saldaña, and C. Wilson; by request of Department of Commerce</Sponsors><BillHistory><PrefiledDate>Prefiled 12/20/21.</PrefiledDate><ReadDate>Read first time 01/10/22.</ReadDate><ReferredCommittee>Referred to Committee on Housing &amp; Local Government.</ReferredCommittee></BillHistory><BriefDescription>Expanding eligibility for the independent youth housing program.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to expanding eligibility for the independent youth housing program; and amending RCW 43.63A.307.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>63A</ChapterNumber><TextRun>.</TextRun><SectionNumber>307</SectionNumber></SectionCite> and 2009 c 148 s 2 are each amended to read as follows:<Caption>Independent youth housing program<TextRun fontFamily="Times New Roman">—</TextRun>Definitions.</Caption></BillSectionHeader>
+<P>The definitions in this section apply throughout this chapter unless the context clearly requires otherwise.</P>
+<P>(1) "Department" means the department of <TextRun amendingStyle="strike">community, trade, and economic development</TextRun> <TextRun amendingStyle="add">commerce</TextRun>.</P>
+<P>(2) "Eligible youth" means an individual who:</P>
+<P>(a) On or after September 1, 2006, is at least eighteen, was a dependent of the state under chapter 13.34 RCW at any time <TextRun amendingStyle="strike">during the four-month period</TextRun> before his or her eighteenth birthday, and has not yet reached the age of <TextRun amendingStyle="strike">twenty-three</TextRun> <TextRun amendingStyle="add">25</TextRun>;</P>
+<P>(b) Except as provided in RCW 43.63A.309(2)(a), has a total income from all sources, except for temporary sources that include, but are not limited to, overtime wages, bonuses, or short-term temporary assignments, that does not exceed fifty percent of the area median income;</P>
+<P>(c) <TextRun amendingStyle="strikemarkleft">Is not receiving services under RCW 74.13.031(10)(b);</TextRun></P>
+<P><TextRun amendingStyle="strikemarkright">(d)</TextRun> Complies with other eligibility requirements the department may establish.</P>
+<P>(3) "Fair market rent" means the fair market rent in each county of the state, as determined by the United States department of housing and urban development.</P>
+<P>(4) "Independent housing" means a housing unit that is not owned by or located within the home of the eligible youth's biological parents or any of the eligible youth's former foster care families or dependency guardians. "Independent housing" may include a unit in a transitional or other supportive housing facility.</P>
+<P>(5) "Individual development account" or "account" means an account established by contract between a low<Hyphen type="nobreak" />income individual and a sponsoring organization for the benefit of the low<Hyphen type="nobreak" />income individual and funded through periodic contributions by the low<Hyphen type="nobreak" />income individual that are matched with contributions by or through the sponsoring organization.</P>
+<P>(6) "Subcontractor organization" means an eligible organization described under RCW 43.185A.040 that contracts with the department to administer the independent youth housing program.</P>
+<History>2009 c 148 § 2; 2007 c 316 § 2.</History>
+<RCWNoteSection>
+<RevNote><NoteP><TextRun fontWeight="bold">Reviser's note:</TextRun>  *(1) The "department of community, trade, and economic development" was renamed the "department of commerce" by 2009 c 565.</NoteP><NoteP>**(2) RCW 74.13.031 was amended by 2009 c 235 §§ 2 and 4, deleting subsection (10)(b).</NoteP></RevNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Finding<TextRun fontFamily="Times New Roman">—</TextRun>2007 c 316:</TextRun> See note following RCW 43.63A.305.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+</BillBody>
+</Bill>

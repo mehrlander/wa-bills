@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-3916.2</RequestNumber><ShortBillId>SSB 5610</ShortBillId><LongBillId>SUBSTITUTE SENATE BILL 5610</LongBillId><Legislature>67th Legislature</Legislature><Session>2022 Regular Session</Session><Sponsors>Senate Health &amp; Long Term Care (originally sponsored by Senators Frockt, Cleveland, Conway, Dhingra, Hasegawa, Honeyford, Keiser, Kuderer, Liias, Lovelett, Lovick, Randall, Robinson, Saldaña, Salomon, Stanford, Van De Wege, and C. Wilson)</Sponsors><BillHistory><ReadDate>READ FIRST TIME 01/27/22.</ReadDate></BillHistory><BriefDescription>Requiring cost sharing for prescription drugs to be counted against an enrollee's obligation, regardless of source.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to requiring cost sharing for prescription drugs to be counted against an enrollee's out-of-pocket costs, deductible, cost sharing, out-of-pocket maximum, or similar enrollee obligation, regardless of the source of the payment; amending RCW 41.05.017; and adding a new section to chapter 48.43 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>48</TitleNumber><TextRun>.</TextRun><ChapterNumber>43</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1)(a) Except as provided in (b) of this subsection, when calculating an enrollee's contribution to any applicable cost-sharing or out-of-pocket maximum, a health carrier offering a nongrandfathered health plan with a pharmacy benefit, or a health care benefit manager administering benefits for the health carrier, shall include any cost-sharing amounts paid by the enrollee directly or on behalf of the enrollee by another person for a covered prescription drug that is either:</P>
+<P>(i) Without a generic equivalent; or</P>
+<P>(ii) With a generic equivalent where the enrollee has obtained access to the drug through:</P>
+<P>(A) Prior authorization;</P>
+<P>(B) Step therapy; or</P>
+<P>(C) The prescription drug exception request process under RCW 48.43.420.</P>
+<P>(b) When calculating an enrollee's contribution to any applicable deductible, any amount paid on behalf of the enrollee by another person for a prescription drug that is not subject to payment of a deductible need not be included in the calculation, unless the terms of the enrollee's health plan require inclusion.</P>
+<P>(2) Any cost-sharing amounts paid directly by or on behalf of the enrollee by another person for a covered prescription drug under subsection (1) of this section shall be applied towards the enrollee's applicable cost-sharing or out-of-pocket maximum in full at the time it is rendered.</P>
+<P>(3) The commissioner may adopt any rules necessary to implement this section.</P>
+<P>(4) This section applies to nongrandfathered health plans issued or renewed on or after January 1, 2023.</P>
+<P>(5) This section does not apply to a qualifying health plan for a health savings account to the extent necessary to preserve the enrollee's ability to claim tax exempt contributions and withdrawals from the enrollee's health savings account under internal revenue service laws, regulations, and guidance.</P>
+<P>(6) For purposes of this section:</P>
+<P>(a) "Health care benefit manager" has the same meaning as in RCW 48.200.020.</P>
+<P>(b) "Person" has the same meaning as in RCW 48.01.070.</P>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>41</TitleNumber><TextRun>.</TextRun><ChapterNumber>05</ChapterNumber><TextRun>.</TextRun><SectionNumber>017</SectionNumber></SectionCite> and 2021 c 280 s 2 are each amended to read as follows:<Caption>Provisions applicable to health plans offered under this chapter.</Caption></BillSectionHeader>
+<P>Each health plan that provides medical insurance offered under this chapter, including plans created by insuring entities, plans not subject to the provisions of Title 48 RCW, and plans created under RCW 41.05.140, are subject to the provisions of RCW 48.43.500, 70.02.045, 48.43.505 through 48.43.535, 48.43.537, 48.43.545, 48.43.550, 70.02.110, 70.02.900, 48.43.190, 48.43.083, 48.43.0128, <TextRun amendingStyle="add">section 1 of this act,</TextRun> and chapter 48.49 RCW.</P>
+<History>2021 c 280 § 2; 2019 c 427 § 21; 2016 c 139 § 4; 2008 c 304 § 2; 2007 c 502 § 2; 2000 c 5 § 20.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Short title<TextRun fontFamily="Times New Roman">—</TextRun>2021 c 280:</TextRun> See note following RCW 49.60.178.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Findings<TextRun fontFamily="Times New Roman">—</TextRun>Intent<TextRun fontFamily="Times New Roman">—</TextRun>Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2019 c 427:</TextRun> See RCW 48.49.003 and 48.49.900.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Savings<TextRun fontFamily="Times New Roman">—</TextRun>Severability<TextRun fontFamily="Times New Roman">—</TextRun>Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2007 c 502:</TextRun> See notes following RCW 48.43.083.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Intent<TextRun fontFamily="Times New Roman">—</TextRun>Purpose<TextRun fontFamily="Times New Roman">—</TextRun>2000 c 5:</TextRun> See RCW 48.43.500.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Application<TextRun fontFamily="Times New Roman">—</TextRun>Short title<TextRun fontFamily="Times New Roman">—</TextRun>Captions not law<TextRun fontFamily="Times New Roman">—</TextRun>Construction<TextRun fontFamily="Times New Roman">—</TextRun>Severability<TextRun fontFamily="Times New Roman">—</TextRun>Application to contracts<TextRun fontFamily="Times New Roman">—</TextRun>Effective dates<TextRun fontFamily="Times New Roman">—</TextRun>2000 c 5:</TextRun> See notes following RCW 48.43.500.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+</BillBody>
+</Bill>

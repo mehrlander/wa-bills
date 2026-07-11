@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-3459.1</RequestNumber><ShortBillId>SB 5804</ShortBillId><LongBillId>SENATE BILL 5804</LongBillId><Legislature>67th Legislature</Legislature><Session>2022 Regular Session</Session><Sponsors>Senators Braun, Dozier, Rivers, Short, and Warnick</Sponsors><BillHistory><ReadDate>Read first time 01/11/22.</ReadDate><ReferredCommittee>Referred to Committee on Health &amp; Long Term Care.</ReferredCommittee></BillHistory><BriefDescription>Prohibiting gain-of-function research.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to prohibiting gain-of-function research; adding a new section to chapter 70.54 RCW; and prescribing penalties.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>70</TitleNumber><TextRun>.</TextRun><ChapterNumber>54</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) A person may not conduct gain-of-function research in the state.</P>
+<P>(2) A person who violates this section is subject to a civil penalty not to exceed $10,000 for each violation, as determined by the court.</P>
+<P>(3)(a) The attorney general may receive, investigate, and prosecute complaints against alleged violators of this section.</P>
+<P>(b) The attorney general may institute and conduct an action in the name of the state of Washington for any of the following:</P>
+<P>(i) An injunction in any court of this state for injunctive relief to restrain a person from continuing any activity that violates this section;</P>
+<P>(ii) The assessment and recovery of civil penalties provided in subsection (2) of this section.</P>
+<P>(c) The attorney general must be reimbursed through civil penalties collected under this section for the costs incurred in providing the services described in this subsection. Any remaining funds must be deposited in the state general fund.</P>
+<P>(4) For the purposes of this section, "gain-of-function research" means experimentation that aims or is expected to increase the transmissibility or virulence, or both, of a pathogen.</P>
+</BillSection>
+</BillBody>
+</Bill>

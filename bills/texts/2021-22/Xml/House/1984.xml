@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-1797.1</RequestNumber><ShortBillId>HB 1984</ShortBillId><LongBillId>HOUSE BILL 1984</LongBillId><Legislature>67th Legislature</Legislature><Session>2022 Regular Session</Session><Sponsors>Representatives Jacobsen and Graham</Sponsors><BillHistory><ReadDate>Read first time 01/13/22.</ReadDate><ReferredCommittee>Referred to Committee on Transportation.</ReferredCommittee></BillHistory><BriefDescription>Protecting privacy of addresses related to vehicle registration certificates.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to protecting privacy of addresses related to vehicle registration certificates; adding a new section to chapter 46.09 RCW; adding a new section to chapter 88.02 RCW; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) The legislature finds that printing addresses on vehicle registrations provides an opportunity for thieves that break into vehicles to use the information for nefarious purposes that can be avoided if the address is not printed on the vehicle registration certificate.</P></BillSectionHeader>
+<P>(2) Furthermore, law enforcement agencies have access to databases that include the vehicle registrant's address so such information does not need to be printed on paper vehicle registration certificates.</P>
+<P>(3) In order to reduce criminal opportunities, the legislature directs the department of licensing to no longer print addresses on vehicle, trailer, and vessel registration certificates.</P>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>46</TitleNumber><TextRun>.</TextRun><ChapterNumber>09</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>Beginning January 1, 2023, paper issued registration certificates for vehicles or trailers must not include the residential address of the registrant.</P>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>88</TitleNumber><TextRun>.</TextRun><ChapterNumber>02</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>Beginning January 1, 2023, paper issued registration certificates for vessels must not include a residential address of the registrant.</P>
+</BillSection>
+</BillBody>
+</Bill>

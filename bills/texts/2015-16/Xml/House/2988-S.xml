@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-4504.1</RequestNumber><ShortBillId>SHB 2988</ShortBillId><LongBillId>SUBSTITUTE HOUSE BILL 2988</LongBillId><Legislature>64th Legislature</Legislature><Session>2016 Regular Session</Session><Sponsors>House Appropriations (originally sponsored by Representative Dunshee)</Sponsors><BillHistory><ReadDate>READ FIRST TIME 02/24/16.</ReadDate></BillHistory><BriefDescription>Making expenditures from the budget stabilization account.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to making expenditures from the budget stabilization account to make critical investments; adding a new section to chapter 43.79 RCW; making appropriations; and declaring an emergency.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="approp" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>FOR THE LOCAL EFFORT ASSISTANCE TRANSITION ACCOUNT.</SectionCaption><P>The sum of $90,557,000 is appropriated from the budget stabilization account for the fiscal biennium ending June 30, 2017, and is provided solely for expenditure into the local effort assistance transition account created in chapter . . ., Laws of 2016 (Engrossed House Bill No. 2698) for purposes of appropriations for local effort assistance in the 2017-2019 fiscal biennium. It is the intent of the legislature that any amounts in the local effort assistance transition account that are attributable to this appropriation and that are not expended for purposes of that account be transferred back into the budget stabilization account by June 30, 2019.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="approp" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>FOR THE DEPARTMENT OF NATURAL RESOURCES<TextRun fontFamily="Times New Roman">—</TextRun>FIRES.</SectionCaption><P>The sum of $154,966,000 is appropriated from the budget stabilization account for the fiscal biennium ending June 30, 2017, and is provided solely for fire suppression costs incurred by the department of natural resources during the 2015 fire season. Amounts provided in this section may not be used to pay for the department's indirect and administrative expenses.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="approp" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>FOR THE DEPARTMENT OF FISH AND WILDLIFE<TextRun fontFamily="Times New Roman">—</TextRun>FIRES.</SectionCaption><P>The sum of $344,000 is appropriated from the budget stabilization account for the fiscal biennium ending June 30, 2017, and is provided solely for the fire suppression costs incurred by the department of fish and wildlife during the 2015 fire suppression season. Amounts provided in this section may not be used to pay for the department's indirect and administrative expenses.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="approp" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>FOR THE WASHINGTON STATE PATROL<TextRun fontFamily="Times New Roman">—</TextRun>FIRES.</SectionCaption><P>The sum of $34,365,000 is appropriated from the budget stabilization account for the fiscal biennium ending June 30, 2017, and is provided solely for Washington state fire service resource mobilization costs incurred in response to an emergency or disaster authorized under RCW 43.43.960 through 43.43.964.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="approp" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>5</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>FOR THE HOMELESS ASSISTANCE ACCOUNT.</SectionCaption><P>The sum of $37,229,000 is appropriated from the budget stabilization account for the fiscal biennium ending June 30, 2017, and is provided solely for expenditure into the homeless assistance account created in section 6 of this act.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>6</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>79</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<SectionCaption>HOMELESS ASSISTANCE ACCOUNT CREATED.</SectionCaption>
+<P>The homeless assistance account is created in the state treasury. Moneys in the account may be spent only after appropriation. Moneys in the account may be expended only for housing assistance, support services, and other purposes to address the state's homeless population.</P>
+</BillSection>
+<BillSection type="new" action="emerg" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>7</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act is necessary for the immediate preservation of the public peace, health, or safety, or support of the state government and its existing public institutions, and takes effect immediately.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

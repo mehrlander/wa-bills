@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-4121.1</RequestNumber><ShortBillId>SB 6556</ShortBillId><LongBillId>SENATE BILL 6556</LongBillId><Legislature>64th Legislature</Legislature><Session>2016 Regular Session</Session><Sponsors>Senators Padden and Miloscia</Sponsors><BillHistory><ReadDate>Read first time 01/26/16.</ReadDate><ReferredCommittee>Referred to Committee on Law &amp; Justice.</ReferredCommittee></BillHistory><BriefDescription>Concerning the use of surety treatment bonds.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to authorizing the use of surety treatment bonds; amending RCW 18.185.010; and adding a new section to chapter 2.28 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>2</TitleNumber><TextRun>.</TextRun><ChapterNumber>28</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>A specialty or therapeutic court may require a surety treatment bond, as defined in RCW 18.185.010, to ensure the participation of a juvenile or adult offender in a treatment program that addresses the offender's particular needs.</P>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>18</TitleNumber><TextRun>.</TextRun><ChapterNumber>185</ChapterNumber><TextRun>.</TextRun><SectionNumber>010</SectionNumber></SectionCite> and 2004 c 186 s 2 are each amended to read as follows:<Caption>Definitions.</Caption></BillSectionHeader>
+<P>Unless the context clearly requires otherwise, the definitions in this section apply throughout this chapter.</P>
+<P>(1) "Department" means the department of licensing.</P>
+<P>(2) "Director" means the director of licensing.</P>
+<P>(3) "Commission" means the criminal justice training commission.</P>
+<P>(4) "Collateral or security" means property of any kind given as security to obtain a bail bond.</P>
+<P>(5) "Bail bond agency" means a business that sells and issues corporate surety bail bonds <TextRun amendingStyle="add">or treatment bonds,</TextRun> or that provides security in the form of personal or real property to ensure the appearance of a criminal defendant before the courts of this state or the United States <TextRun amendingStyle="add">or participation in a specialty or therapeutic court</TextRun>.</P>
+<P>(6) "Qualified agent" means an owner, sole proprietor, partner, manager, officer, or chief operating officer of a corporation who meets the requirements set forth in this chapter for obtaining a bail bond agency license.</P>
+<P>(7) "Bail bond agent" means a person who is employed by a bail bond agency and engages in the sale or issuance of bail bonds <TextRun amendingStyle="add">or treatment bonds</TextRun>, but does not mean a clerical, secretarial, or other support person who does not participate in the sale or issuance of bail bonds.</P>
+<P>(8) "Licensee" means a bail bond agency, a bail bond agent, a qualified agent, or a bail bond recovery agent.</P>
+<P>(9) "Branch office" means any office physically separated from the principal place of business of the licensee from which the licensee or an employee or agent of the licensee conducts any activity meeting the criteria of a bail bond agency.</P>
+<P>(10) "Bail bond recovery agent" means a person who is under contract with a bail bond agent to receive compensation, reward, or any other form of lawful consideration for locating, apprehending, and surrendering a fugitive criminal defendant for whom a bail bond <TextRun amendingStyle="add">or treatment bond</TextRun> has been posted. "Bail bond recovery agent" does not include a general authority Washington peace officer or a limited authority Washington peace officer.</P>
+<P>(11) "Contract" means a written agreement between a bail bond agent or qualified agent and a bail bond recovery agent for the purpose of locating, apprehending, and surrendering a fugitive criminal defendant in exchange for lawful consideration.</P>
+<P>(12) "Planned forced entry" means a premeditated forcible entry into a dwelling, building, or other structure without the occupant's knowledge or consent for the purpose of apprehending a fugitive criminal defendant subject to a bail bond. "Planned forced entry" does not include situations where, during an imminent or actual chase or pursuit of a fleeing fugitive criminal defendant, or during a casual or unintended encounter with the fugitive, the bail bond recovery agent forcibly enters into a dwelling, building, or other structure without advanced planning.</P>
+<P><TextRun amendingStyle="add">(13) "Treatment bond" means a corporate surety treatment bond or security in the form of personal or real property to ensure the participation of a juvenile or adult offender in a treatment program ordered by a specialty or therapeutic court as defined in RCW 2.30.020.</TextRun></P>
+<History>2004 c 186 § 2; 2000 c 171 § 40; 1996 c 242 § 1; 1993 c 260 § 2.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Legislative recognition<TextRun fontFamily="Times New Roman">—</TextRun>2004 c 186:</TextRun> "The legislature recognizes that bail bond agents and bail bond recovery agents serve a necessary and important purpose in the criminal justice system by locating, apprehending, and surrendering fugitive criminal defendants. The legislature also recognizes that locating, apprehending, and surrendering fugitives requires special skills and expertise; that bail bond agents and bail bond recovery agents are often required to perform their duties under stressful and demanding conditions; and that it serves the public interest to have qualified people performing such essential functions. Therefore, bail bond agencies that use the services of bail bond recovery agents must, in the interest of public safety, use bail bond recovery agents who possess the knowledge and competence necessary for the job." [2004 c 186 § 1.]</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+</BillBody>
+</Bill>

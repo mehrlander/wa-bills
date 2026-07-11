@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-0570.1</RequestNumber><ShortBillId>HB 1090</ShortBillId><LongBillId>HOUSE BILL 1090</LongBillId><Legislature>66th Legislature</Legislature><Session>2019 Regular Session</Session><Sponsors>Representatives MacEwen, Shea, Caldier, Stanford, and Young</Sponsors><BillHistory><PrefiledDate>Prefiled 01/08/19.</PrefiledDate><ReadDate>Read first time 01/14/19.</ReadDate><ReferredCommittee>Referred to Committee on Finance.</ReferredCommittee></BillHistory><BriefDescription>Providing property tax relief to senior citizens.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to providing property tax relief to senior citizens; adding a new section to chapter 84.36 RCW; and creating new sections.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>84</TitleNumber><TextRun>.</TextRun><ChapterNumber>36</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1)(a) Beginning with taxes levied for collection in the calendar year following a claimant's sixty-fifth birthday, and subject to the conditions in this section, a portion of the assessed value of a claimant's residence as identified in (b) of this subsection is taxed at the lesser rate of:</P>
+<P>(i) The combined levy rate under RCW 84.52.065 (1) and (2) of whatever year in which the claimant turns sixty-five; or</P>
+<P>(ii) The combined levy rate under RCW 84.52.065 (1) and (2) of the current assessment year.</P>
+<P>(b) The portion of the residence to be taxed at the rate under (a) of this subsection is the first two hundred fifty thousand dollars of assessed value.</P>
+<P>(c) If the total assessed value of the residence is two hundred fifty thousand dollars or less, the preferential rate established in (a) of this subsection applies to the entire value.</P>
+<P>(2) The preferential rate provided in this section is in addition to the exemption provided in RCW 84.36.379 through 84.36.389.</P>
+<P>(3) The preferential rate provided in this section applies only to the state property taxes levied under RCW 84.52.065 (1) and (2) and not to any local property taxes.</P>
+<P>(4) The following conditions apply to the claimants of the preferential rate provided in this section:</P>
+<P>(a) The residence must be occupied by the claimant as his or her primary place of residence as of the date of tax assessment;</P>
+<P>(b) A claimant may not receive the benefit provided in this section on more than one residence per year; and</P>
+<P>(c) The claimant must be a resident of the state of Washington as determined by the department.</P>
+<P>(5) The definitions in this subsection apply throughout this section unless the context clearly requires otherwise.</P>
+<P>(a) "Claimant" means an individual who has turned sixty-five in the previous year and is eligible for the preferential rate paid on their residence under this section.</P>
+<P>(b) "Residence" has the same meaning as provided in RCW 84.36.383.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>The provisions of RCW 82.32.805 and 82.32.808 do not apply to this act.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act applies to taxes levied for collection in 2022 and thereafter.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

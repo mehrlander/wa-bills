@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-1640.1</RequestNumber><ShortBillId>HB 2038</ShortBillId><LongBillId>HOUSE BILL 2038</LongBillId><Legislature>66th Legislature</Legislature><Session>2019 Regular Session</Session><Sponsors>Representatives Ramos, Orcutt, Eslick, and Fey</Sponsors><BillHistory><ReadDate>Read first time 02/14/19.</ReadDate><ReferredCommittee>Referred to Committee on Transportation.</ReferredCommittee></BillHistory><BriefDescription>Concerning pavement condition reporting requirements.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to pavement condition reporting requirements; adding a new section to chapter 47.04 RCW; and repealing RCW 46.68.113.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="repeal">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P><SectionCite><TextRun>RCW </TextRun><TitleNumber>46</TitleNumber><TextRun>.</TextRun><ChapterNumber>68</ChapterNumber><TextRun>.</TextRun><SectionNumber>113</SectionNumber></SectionCite> (Preservation rating information<TextRun fontFamily="Times New Roman">—</TextRun>Review) and 2017 c 139 s 1, 2013 c 306 s 704, 2011 c 353 s 7, 2006 c 334 s 21, &amp; 2003 c 363 s 305 are each repealed.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>47</TitleNumber><TextRun>.</TextRun><ChapterNumber>04</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>Given the importance of cost-effective asset management and maintaining a state of good repair, the department shall continue to collect preservation rating information for all types of highways for which it collects this information as of the effective date of this section.</P>
+</BillSection>
+</BillBody>
+</Bill>

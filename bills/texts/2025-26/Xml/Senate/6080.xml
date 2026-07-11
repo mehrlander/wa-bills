@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-3806.2</RequestNumber><ShortBillId>SB 6080</ShortBillId><LongBillId>SENATE BILL 6080</LongBillId><Legislature>69th Legislature</Legislature><Session>2026 Regular Session</Session><Sponsors>Senators Cleveland, Dhingra, Hasegawa, Nobles, Saldaña, and C. Wilson</Sponsors><BillHistory><ReadDate>Read first time 01/13/26.</ReadDate><ReferredCommittee>Referred to Committee on Human Services.</ReferredCommittee></BillHistory><BriefDescription>Concerning contracts between the United States and county and municipal jails for committing or confining individuals in federal custody.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to contracts between the United States and county and municipal jails for committing or confining individuals in federal custody; and amending RCW 70.48.140.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>70</TitleNumber><TextRun>.</TextRun><ChapterNumber>48</ChapterNumber><TextRun>.</TextRun><SectionNumber>140</SectionNumber></SectionCite> and 1977 ex.s. c 316 s 14 are each amended to read as follows:<Caption>Confinement pursuant to authority of the United States.</Caption></BillSectionHeader>
+<P><TextRun amendingStyle="add">(1)</TextRun> A person having charge of a jail <TextRun amendingStyle="strike">shall</TextRun> <TextRun amendingStyle="add">may choose to</TextRun> receive and keep in such jail, when room is available, all persons confined or committed thereto by process or order issued under authority of the United States until discharged according to law, the same as if such persons had been committed under process issued under authority of the state<TextRun amendingStyle="strike">, if provision is made by the United States for the support of such persons confined, and for any additional personnel required</TextRun>. <TextRun amendingStyle="add">Except for when there is a valid judicial warrant issued, any such agreement shall be made by a contract with the United States to confine or commit individuals in a jail and entered into prior to the jail accepting any person in federal custody.</TextRun></P>
+<P><TextRun amendingStyle="add">(2) Any contract shall include a fee of the total cost to the jail to confine or commit an individual in federal custody. If at any point funds are not received from the United States or there is an indication that funds will not be received from the United States and given to the local county or municipality, according to the contract, then the jail shall no longer agree to hold federal detainees.</TextRun></P>
+<P><TextRun amendingStyle="add">(3) Except for when a valid judicial warrant has been issued, no county or municipality may contract the use of their jail with the United States to confine or commit an individual that has been transported across any state line.</TextRun></P>
+<History>1977 ex.s. c 316 s 14.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Severability<TextRun fontFamily="Times New Roman">—</TextRun>1977 ex.s. c 316:</TextRun> See note following RCW 70.48.020.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+</BillBody>
+</Bill>

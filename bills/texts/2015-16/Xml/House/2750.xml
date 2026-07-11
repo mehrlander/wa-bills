@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-3668.1</RequestNumber><ShortBillId>HB 2750</ShortBillId><LongBillId>HOUSE BILL 2750</LongBillId><Legislature>64th Legislature</Legislature><Session>2016 Regular Session</Session><Sponsors>Representatives Taylor, McCaslin, Shea, G. Hunt, Scott, Condotta, Young, Van Werven, Wilson, and Haler</Sponsors><BillHistory><ReadDate>Read first time 01/20/16.</ReadDate><ReferredCommittee>Referred to Committee on Health Care &amp; Wellness.</ReferredCommittee></BillHistory><BriefDescription>Concerning newborn screening practices.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to newborn screening practices; amending RCW 70.83.020; adding a new section to chapter 70.83 RCW; and providing an effective date.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>70</TitleNumber><TextRun>.</TextRun><ChapterNumber>83</ChapterNumber><TextRun>.</TextRun><SectionNumber>020</SectionNumber></SectionCite> and 2014 c 18 s 1 are each amended to read as follows:<Caption>Screening tests of newborn infants.</Caption></BillSectionHeader>
+<P>(1) It shall be the duty of the department of health to require screening tests of all newborn infants born in any setting <TextRun amendingStyle="add">upon receiving consent from a parent or legal guardian as provided in subsection (3) of this section</TextRun>. Each hospital or health care provider attending a birth outside of a hospital shall collect and submit a sample blood specimen for all newborns no more than forty-eight hours following birth. The department of health shall conduct screening tests of samples for the detection of phenylketonuria and other heritable or metabolic disorders leading to intellectual disabilities or physical defects as defined by the state board of health: PROVIDED, That no such tests shall be given to any newborn infant whose parents or guardian object thereto on the grounds that such tests conflict with their religious tenets and practices.</P>
+<P>(2) The sample required in subsection (1) of this section must be received by the department <TextRun amendingStyle="strike">[of health]</TextRun> <TextRun amendingStyle="add">of health</TextRun> within seventy-two hours of the collection of the sample, excluding any day that the Washington state public health laboratory is closed.</P>
+<P><TextRun amendingStyle="add">(3) A hospital or health care provider attending a birth outside of a hospital must obtain the written consent of a parent or legal guardian prior to the collection of a sample blood specimen. The consent form must be developed by the department of health and include:</TextRun></P>
+<P><TextRun amendingStyle="add">(a) A brief, single-page, plain language explanation of, and the purpose for, the blood specimen screening and retention of the blood specimens collected pursuant to this chapter;</TextRun></P>
+<P><TextRun amendingStyle="add">(b) An explanation that the blood specimen will be destroyed no later than the date that the person who is the subject of the blood specimen is eighteen years old;</TextRun></P>
+<P><TextRun amendingStyle="add">(c) A statement that signing the form is a verification of the parent's or legal guardian's consent for the hospital or health care provider attending the birth outside of a hospital to collect a sample blood specimen and submit it to the department of health's newborn screening program; and</TextRun></P>
+<P><TextRun amendingStyle="add">(d) A space for the parent or legal guardian of the newborn to sign and date the form.</TextRun></P>
+<History>2014 c 18 § 1; 2010 c 94 § 18; 1991 c 3 § 348; 1975<Hyphen type="nobreak" />'76 2nd ex.s. c 27 § 1; 1967 c 82 § 2.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Purpose<TextRun fontFamily="Times New Roman">—</TextRun>2010 c 94:</TextRun> See note following RCW 44.04.280.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>70</TitleNumber><TextRun>.</TextRun><ChapterNumber>83</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) The department of health shall destroy any blood specimen no later than the date that the person who is the subject of that specimen is eighteen years old.</P>
+<P>(2) The department of health shall adopt a procedure and timetable for the destruction of blood specimens collected pursuant to this chapter. The timetable must ensure that any blood specimen is destroyed no later than the date that the person who is the subject of the blood specimen is eighteen years old. The procedure must be available to the public.</P>
+</BillSection>
+<BillSection type="new" action="effdate">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act takes effect January 1, 2017.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

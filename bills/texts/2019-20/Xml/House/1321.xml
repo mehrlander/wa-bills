@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-0497.1</RequestNumber><ShortBillId>HB 1321</ShortBillId><LongBillId>HOUSE BILL 1321</LongBillId><Legislature>66th Legislature</Legislature><Session>2019 Regular Session</Session><Sponsors>Representatives Wylie, Vick, Harris, Stonier, and Rude</Sponsors><BillHistory><ReadDate>Read first time 01/18/19.</ReadDate><ReferredCommittee>Referred to Committee on Transportation.</ReferredCommittee></BillHistory><BriefDescription>Requiring reporting regarding the costs of certain transportation projects.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to requiring reporting regarding the costs of certain transportation projects; adding a new section to chapter 47.01 RCW; creating a new section; and providing an effective date.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>Policymakers sometimes do not fully understand the purposes, complexities, costs, and timing of the consulting costs on transportation megaprojects. Often times, these consultant costs are substantial, and on occasion can be more than thirty percent of the total project cost. Many of the project elements that are largely or entirely dealt with by consultants are driven by federal and state law, and while required and often meritorious, are not well understood. It is thus the intent of the legislature to create a collaborative process between state agencies and the legislature to fully understand the cost of megaprojects and thereby achieve accountability between agencies, the legislature, and the citizens of the state of Washington.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>47</TitleNumber><TextRun>.</TextRun><ChapterNumber>01</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) For any project reasonably determined to have a total cost, in year of expenditure dollars, of more than five hundred million dollars, the department shall provide a report to the chair and ranking members of the transportation committees of the legislature or the joint transportation committee if the legislature is not in session. The report must be provided as soon as is practicable, after the determination of the cost of the project, and prior to the letting of any consultant contracts related to the project.</P>
+<P>(2) The report required under subsection (1) of this section must provide the following information:</P>
+<P>(a) Each of the activities for which consultants are expected to be utilized;</P>
+<P>(b) Each of the requirements in state or federal law, if any, that necessitates the use of consultants;</P>
+<P>(c) The expected outcomes of studies, analyses, and mitigation efforts related to the project; and</P>
+<P>(d) The expected consultant costs for each of the activities identified pursuant to (a) of this subsection.</P>
+</BillSection>
+<BillSection type="new" action="effdate" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act takes effect August 1, 2019.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

@@ -53,12 +53,12 @@ DRS bill tracker page; it loads from `wsl-api/data/` and `bills/content/`.
 - **Scans go wide, studies go deep.** A scan visits every bill and keeps a
   few extracted fields or term counts; a study keeps everything about one
   bill. Both live under `bills/`.
-- **Full bill texts are not stored.** The only raw bill documents here are
-  the ten studies' `raw/` folders. `wsl-api/data/GetAllDocumentsByClass/`
-  is the catalog of URLs to every document on `lawfilesext.leg.wa.gov`.
-  `.gitignore` blocks `*.xml`/`*.htm`/`*.pdf` on purpose: adding bill
-  documents requires a deliberate `git add -f`, so a bulk import is a
-  decision, not an accident.
+- **Full bill texts live in `bills/texts/`.** Imported 2026-07-11: all
+  House and Senate bill documents, HTM and XML, eleven biennia (2005-06
+  through 2025-26), verified against the source directory listings.
+  `.gitignore` still blocks `*.xml`/`*.htm`/`*.pdf` everywhere else, so
+  bill documents outside `bills/texts/` and the studies' `raw/` folders
+  remain a deliberate `git add -f` decision.
 
 ## Freshness
 

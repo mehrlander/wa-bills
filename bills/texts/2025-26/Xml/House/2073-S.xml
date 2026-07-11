@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-3496.1</RequestNumber><ShortBillId>SHB 2073</ShortBillId><LongBillId>SUBSTITUTE HOUSE BILL 2073</LongBillId><Legislature>69th Legislature</Legislature><Session>2026 Regular Session</Session><Sponsors>House Appropriations (originally sponsored by Representatives Parshley, Macri, and Scott)</Sponsors><BillHistory><ReadDate>READ FIRST TIME 02/09/26.</ReadDate></BillHistory><BriefDescription>Addressing funding for health insurance premium assistance.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to funding for health insurance premium assistance; adding a new section to chapter 48.43 RCW; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) The legislature finds that nonprofit health insurance carriers in the state are required to:</P></BillSectionHeader>
+<P>(a) Be committed to a nonprofit corporate structure;</P>
+<P>(b) Provide individuals, businesses, and other groups with affordable and accessible health insurance; and</P>
+<P>(c) Recognize a responsibility to contribute to the improvement of the overall health status of the residents of the jurisdictions in which they operate.</P>
+<P>(2) The legislature further finds that access to health insurance and public services play a critical role in improving the health status of Washington residents.</P>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>48</TitleNumber><TextRun>.</TextRun><ChapterNumber>43</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1)(a) By October 1, 2026, the commissioner must determine whether a nonprofit health carrier's surplus is excessive.</P>
+<P>(b) The surplus of a nonprofit health carrier must be determined to be excessive if the surplus is 100 times the minimum net worth level set in RCW 48.44.037(1)(a) as reported on the carrier's annual statement required by RCW 48.05.250 for calendar year 2025.</P>
+<P>(2) Except when a reduction in payment is permitted under subsection (3) of this section, if the commissioner determines the surplus of a nonprofit health carrier to be excessive, within 90 days of the determination the nonprofit health carrier must pay 10 percent of the excessive surplus to the commissioner's office for deposit into the state health care affordability account created in RCW 43.71.130 to administer a premium assistance program, as established in RCW 43.71.110.</P>
+<P>(3)(a) Within 30 days of a determination by the commissioner that a nonprofit health carrier's surplus is excessive, a nonprofit health carrier may request a hearing by the commissioner to consider a reduction in the required amount of excessive surplus payment to the fund.</P>
+<P>(b) The commissioner may only reduce a nonprofit health carrier's payment to the fund if the nonprofit health carrier presents clear and compelling evidence to the commissioner that the required amount of excessive surplus payment would render the nonprofit health carrier financially impaired under the laws of this state or any other state in which the nonprofit health carrier is authorized to do business.</P>
+<P>(c) The hearing must be conducted in accordance with chapter 34.05 RCW.</P>
+<P>(4) The commissioner may adopt rules to implement this section.</P>
+<P>(5) For purposes of this section, "excessive surplus" means the amount of a nonprofit health carrier's surplus is 100 times the minimum net worth level set in RCW 48.44.037(1)(a).</P>
+</BillSection>
+</BillBody>
+</Bill>

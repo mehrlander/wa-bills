@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-0602.1</RequestNumber><ShortBillId>SB 5446</ShortBillId><LongBillId>SENATE BILL 5446</LongBillId><Legislature>66th Legislature</Legislature><Session>2019 Regular Session</Session><Sponsors>Senators Mullet, Rivers, Cleveland, Becker, Keiser, Bailey, and Kuderer</Sponsors><BillHistory><ReadDate>Read first time 01/21/19.</ReadDate><ReferredCommittee>Referred to Committee on Health &amp; Long Term Care.</ReferredCommittee></BillHistory><BriefDescription>Concerning electronic prescriptions.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to electronic prescriptions; and adding a new section to chapter 69.50 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>69</TitleNumber><TextRun>.</TextRun><ChapterNumber>50</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) Beginning January 1, 2020, and except as provided in subsection (2) of this section and RCW 69.50.312, prescription medications issued in this state must be electronically communicated to a pharmacy of a patient's choice using the national council for prescription drug programs prescriber/pharmacist interface SCRIPT standard for electronic prescribing.</P>
+<P>(2) The electronic communication requirement under subsection (1) of this section does not apply to prescriptions:</P>
+<P>(a) Issued by veterinarians;</P>
+<P>(b) Issued when electronic communication is not available due to temporary technological or electrical failure;</P>
+<P>(c) That are transmitted to a pharmacy located outside the state;</P>
+<P>(d) Written by a prescriber who is also the dispenser;</P>
+<P>(e) That include elements not supported by the national council for prescription drug programs prescriber/pharmacist interface SCRIPT standard;</P>
+<P>(f) That are required by the federal food and drug administration to contain certain elements that may not be accomplished with electronic prescribing, including prescriptions for a drug with risk evaluation and mitigation strategies that include elements to assure safe use;</P>
+<P>(g) That may be dispensed under a standing order or a collaborative drug therapy agreement issued in response to a public health emergency or other circumstances where the practitioner may issue a nonpatient specific prescription;</P>
+<P>(h) Issued under a drug research protocol;</P>
+<P>(i) Issued by a practitioner who has received a waiver from the electronic communication requirement under subsection (5) of this section; and</P>
+<P>(j) Issued by a practitioner if the practitioner determines it impractical for the patient to obtain substances transmitted by electronic communication in a timely manner, and such delay would adversely impact the patient's medical condition.</P>
+<P>(3) The practitioner's disciplining authority as defined in RCW 18.130.020 may investigate violations of subsection (1) of this section. A practitioner who is found by the disciplining authority to have violated subsection (1) of this section is subject to a fine of two hundred fifty dollars per violation, up to a maximum of five thousand dollars per calendar year. Fines are not considered disciplinary actions as defined in RCW 18.130.020 and may not be considered to be unprofessional conduct. The department must adopt rules to allow a practitioner to appeal a fine imposed under this subsection. The commission must be notified of any fines imposed under this subsection.</P>
+<P>(4) A pharmacist who receives a written, oral, or fax prescription is not required to verify that the prescription properly falls under one of the exceptions under subsection (2) of this section. Pharmacists may continue to dispense medications from otherwise valid written, oral, or fax prescriptions consistent with state and federal law.</P>
+<P>(5) The commission must adopt rules to implement this section. Rules must include a process that allows a practitioner to receive a waiver from the electronic communication of prescription information requirement under subsection (1) of this section if the practitioner demonstrates an inability to electronically communicate prescription information due to economic hardship, technological limitations that are not reasonably within the control of the practitioner, or other exceptional circumstance demonstrated by the practitioner.</P>
+</BillSection>
+</BillBody>
+</Bill>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-1137.2</RequestNumber><ShortBillId>HB 2216</ShortBillId><LongBillId>HOUSE BILL 2216</LongBillId><Legislature>64th Legislature</Legislature><Session>2015 Regular Session</Session><Sponsors>Representatives Taylor, G. Hunt, Shea, Scott, and Young</Sponsors><BillHistory><ReadDate>Read first time 03/27/15.</ReadDate><ReferredCommittee>Referred to Committee on Public Safety.</ReferredCommittee></BillHistory><BriefDescription>Requiring a signed search warrant prior to deploying a radar device.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to requiring a signed search warrant prior to deploying a radar device; and adding a new section to chapter 10.79 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>10</TitleNumber><TextRun>.</TextRun><ChapterNumber>79</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>A magistrate must affix his or her signature to a search warrant before any law enforcement agency deploys a radar device that is used to detect human presence inside a residence.</P>
+</BillSection>
+</BillBody>
+</Bill>

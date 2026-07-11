@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-3434.2</RequestNumber><ShortBillId>SB 6243</ShortBillId><LongBillId>SENATE BILL 6243</LongBillId><Legislature>65th Legislature</Legislature><Session>2018 Regular Session</Session><Sponsors>Senator Braun</Sponsors><BillHistory /><BriefDescription>Concerning embedment-style anchors for mooring buoys.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to embedment-style anchors for mooring buoys; amending RCW 90.58.355; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature finds that embedment-style anchors are recognized as environmentally low-impact structures when used in mooring buoy systems. The Washington department of fish and wildlife prefers embedment-style anchors for mooring buoys in areas with submerged aquatic vegetation, and does not require a seagrass and macroalgae habitat survey if an embedment-style mooring anchor is installed. Acknowledging that embedment-style anchors for mooring buoys are consistent with the policies for shoreline development expressed in RCW 90.58.020, the legislature intends to eliminate the additional regulatory burden imposed under the shoreline management act of 1971 for installation of certain mooring buoys using embedment-style anchors.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>90</TitleNumber><TextRun>.</TextRun><ChapterNumber>58</ChapterNumber><TextRun>.</TextRun><SectionNumber>355</SectionNumber></SectionCite> and 2015 3rd sp.s. c 15 s 9 are each amended to read as follows:<Caption>Persons, projects, and activities not required to obtain certain permits, variances, letters of exemption, or other local review.</Caption></BillSectionHeader>
+<P>Requirements to obtain a substantial development permit, conditional use permit, variance, letter of exemption, or other review conducted by a local government to implement this chapter do not apply to:</P>
+<P>(1) Any person conducting a remedial action at a facility pursuant to a consent decree, order, or agreed order issued pursuant to chapter 70.105D RCW, or to the department of ecology when it conducts a remedial action under chapter 70.105D RCW. The department must ensure compliance with the substantive requirements of this chapter through the consent decree, order, or agreed order issued pursuant to chapter 70.105D RCW, or during the department-conducted remedial action, through the procedures developed by the department pursuant to RCW 70.105D.090;</P>
+<P>(2) Any person installing site improvements for stormwater treatment in an existing boatyard facility to meet requirements of a national pollutant discharge elimination system stormwater general permit. The department must ensure compliance with the substantive requirements of this chapter through the review of engineering reports, site plans, and other documents related to the installation of boatyard stormwater treatment facilities; <TextRun amendingStyle="strike">or</TextRun></P>
+<P>(3) The department of transportation projects and activities that meet the conditions of RCW 90.58.356<TextRun amendingStyle="add">; or</TextRun></P>
+<P><TextRun amendingStyle="add">(4) Any person installing an embedment-style anchor for a mooring buoy designed to serve pleasure craft</TextRun>.</P>
+<History>2015 3rd sp.s. c 15 § 9; 2012 c 169 § 1; 1994 c 257 § 20.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Finding<TextRun fontFamily="Times New Roman">—</TextRun>Intent<TextRun fontFamily="Times New Roman">—</TextRun>2015 3rd sp.s. c 15:</TextRun> See note following RCW 90.58.356.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Severability<TextRun fontFamily="Times New Roman">—</TextRun>1994 c 257:</TextRun> See note following RCW 36.70A.270.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+</BillBody>
+</Bill>

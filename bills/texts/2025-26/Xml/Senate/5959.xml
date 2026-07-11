@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-3732.1</RequestNumber><ShortBillId>SB 5959</ShortBillId><LongBillId>SENATE BILL 5959</LongBillId><Legislature>69th Legislature</Legislature><Session>2026 Regular Session</Session><Sponsors>Senators Short, Riccelli, Braun, and Pedersen</Sponsors><BillHistory><PrefiledDate>Prefiled 01/05/26.</PrefiledDate><ReadDate>Read first time 01/12/26.</ReadDate><ReferredCommittee>Referred to Committee on Health &amp; Long-Term Care.</ReferredCommittee></BillHistory><BriefDescription>Concerning residency requirements for charity care.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to protecting access to health care services for Washington state residents through limiting charity care to those individuals that meet Washington state residency requirements; reenacting and amending RCW 70.170.020; adding a new section to chapter 70.170 RCW; creating a new section; and declaring an emergency.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) The legislature finds that Washington hospitals provide significant benefits to their communities in the form of charity care for both emergency services and nonemergency services. In 2022, hospitals statewide provided $483,000,000 in charity care services to patients.</P></BillSectionHeader>
+<P>(2) For over 30 years, the department of health approved hospital charity care policies that included clauses restricting charity care eligibility to residents of the state of Washington and out-of-state patients in need of emergency care. This has ensured that hospitals have sufficient resources to serve and care for the residents of their local communities before providing free care to patients from around the globe. In 2022, the department of health reversed this decades-long policy and began sending letters to individual hospitals requiring policy updates to remove these restrictions. In September 2023, the department issued an interpretive statement requiring all remaining hospitals with geographic restrictions to update their policies by removing the restrictions by January 2024.</P>
+<P>(3) The legislature finds that this new approach taken by the department has the potential to make Washington state a medical tourism destination, drawing patients from other states and countries for free care ranging from routine procedures to state of the art, specialized treatment. The consequences of this would be delays in care, challenges for Washingtonians in accessing care, and an increase in the cost of care for Washingtonians.</P>
+<P>(4) Washington hospitals are already facing significant capacity constraints. Washington has the fifth-fewest hospital beds per capita of all the states in the nation. Additional people coming to Washington for care will put a further strain on capacity in Washington's hospitals, limiting local residents' access to care and impacting patient well-being.</P>
+<P>(5) Without legislative intervention, the department's new interpretation would also increase the cost of care for Washingtonians. Expenses for the additional delivery of free care will be passed along to other patients who do pay. People living in Washington will be forced to subsidize charity care services for people from outside of the state and outside of the country.</P>
+<P>(6) The legislature therefore clarifies and declares that, while hospitals may exceed any of the requirements of the charity care law, including serving those from outside the state, the purpose of charity care is to provide a standardized approach in law addressing affordable medical care to low-income Washingtonians and those from outside the state in need of emergency care.</P>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>70</TitleNumber><TextRun>.</TextRun><ChapterNumber>170</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) Eligibility for charity care is limited to Washington state residents.</P>
+<P>(2) For purposes of this chapter, a resident is a person, including an emancipated person under age 18 and a married person under age 18 who is capable of indicating intent, who currently lives in Washington and:</P>
+<P>(a) Intends to reside here indefinitely, including persons without a fixed address; or</P>
+<P>(b) Entered the state looking for a job; or</P>
+<P>(c) Entered the state with a job commitment.</P>
+<P>(3) A person does not need to live in the state for a specific period of time prior to meeting the requirements in subsection (2) of this section before being considered a resident.</P>
+<P>(4) A child under age 18 who is not covered by subsection (2) of this section is a resident if:</P>
+<P>(a) The child lives in the state, with or without a fixed address, including with a custodial parent or caretaker; or</P>
+<P>(b) The child's parent or caretaker is a resident as defined in subsection (2) of this section.</P>
+<P>(5) A resident who leaves the state for over a month does not lose their residency if the person:</P>
+<P>(a) Intends to return to the state once the purpose of his or her absence has been accomplished and provides adequate information of this intent after a request by the hospital; and</P>
+<P>(b) Has not been determined eligible for medicaid or state-funded health care coverage in another state other than coverage in another state for incidental or emergency health care.</P>
+<P>(6) A person who enters Washington state for health care is not a resident and is not eligible for charity care.</P>
+<P>(7) A person receiving emergency care under 42 U.S.C. Sec. 1395dd, or that patient's guarantor, will be considered a resident for purposes of receiving charity care.</P>
+<P>(8) A person of any age who receives a state supplemental payment is considered a resident of the state that is making the payment.</P>
+<P>(9) A person who receives federal payments for foster or adoption assistance is considered a resident of the state where the person physically resides even if:</P>
+<P>(a) The person does not live in the state that is making the foster or adoption assistance payment; or</P>
+<P>(b) The person does not live in the state where the adoption agreement was entered.</P>
+<P>(10) Immigration status may not be taken into account when determining an indigent person's residency.</P>
+</BillSection>
+<BillSection type="amendatory" action="remd">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>70</TitleNumber><TextRun>.</TextRun><ChapterNumber>170</ChapterNumber><TextRun>.</TextRun><SectionNumber>020</SectionNumber></SectionCite> and 2024 c 121 s 28 are each reenacted and amended to read as follows:<Caption>Definitions.</Caption></BillSectionHeader>
+<P>As used in this chapter:</P>
+<P>(1) "Charity care" means medically necessary hospital health care rendered to indigent persons when third-party coverage, if any, has been exhausted, to the extent that the persons are unable to pay for the care or to pay deductibles or coinsurance amounts required by a third-party payer, as determined by the department.</P>
+<P>(2) "Department" means department of health.</P>
+<P>(3) "Hospital" means any health care institution which is required to qualify for a license under RCW 70.41.020<TextRun amendingStyle="strike">(8)</TextRun> <TextRun amendingStyle="add">(9)</TextRun>; or as a behavioral health hospital under chapter 71.12 RCW.</P>
+<P>(4) "Indigent persons" are those patients or their guarantors who qualify for charity care pursuant to RCW 70.170.060(5) based on the federal poverty level, adjusted for family size, <TextRun amendingStyle="strike">and</TextRun> who have exhausted any third-party coverage<TextRun amendingStyle="add">, and who meet the residency requirements established in section 2 of this act</TextRun>.</P>
+<P>(5) "Secretary" means secretary of health.</P>
+<P>(6) "Special studies" means studies which have not been funded through the department's biennial or other legislative appropriations.</P>
+<P>(7) "Third-party coverage" means an obligation on the part of an insurance company, health care service contractor, health maintenance organization, group health plan, government program, tribal health benefits, or health care sharing ministry as defined in 26 U.S.C. Sec. 5000A to pay for the care of covered patients and services, and may include settlements, judgments, or awards actually received related to the negligent acts of others which have resulted in the medical condition for which the patient has received hospital health care service. The pendency of such settlements, judgments, or awards must not stay hospital obligations to consider an eligible patient for charity care.</P>
+<History>2024 c 121 s 28; 2022 c 197 s 1; 2018 c 263 s 1; 1995 c 269 s 2203; 1989 1st ex.s. c 9 s 502.</History>
+<RCWNoteSection>
+<RevNote><NoteP><TextRun fontWeight="bold">Reviser's note: </TextRun>*(1) RCW 70.41.020 was amended by 2025 c 182 s 4, changing subsection (8) to subsection (9).</NoteP><NoteP>(2) The definitions in this section have been alphabetized pursuant to RCW 1.08.015(2)(k).</NoteP></RevNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Application<TextRun fontFamily="Times New Roman">—</TextRun>2022 c 197:</TextRun> "This act applies prospectively only to care provided on or after July 1, 2022. This act does not affect the ability of a patient who received care prior to July 1, 2022, to receive charity care under RCW 70.170.020 and 70.170.060 as the sections existed before that date." [2022 c 197 s 4.]</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2018 c 263:</TextRun> "This act takes effect October 1, 2018." [2018 c 263 s 3.]</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>Part headings not law<TextRun fontFamily="Times New Roman">—</TextRun>Severability<TextRun fontFamily="Times New Roman">—</TextRun>1995 c 269:</TextRun> See notes following RCW 18.16.050.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="new" action="emerg" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act is necessary for the immediate preservation of the public peace, health, or safety, or support of the state government and its existing public institutions, and takes effect immediately.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

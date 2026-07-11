@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-2938.1</RequestNumber><ShortBillId>HB 2516</ShortBillId><LongBillId>HOUSE BILL 2516</LongBillId><Legislature>69th Legislature</Legislature><Session>2026 Regular Session</Session><Sponsors>Representatives Parshley, Scott, Ormsby, Hill, Ramel, and Reed</Sponsors><BillHistory><ReadDate>Read first time 01/15/26.</ReadDate><ReferredCommittee>Referred to Committee on Agriculture &amp; Natural Resources.</ReferredCommittee></BillHistory><BriefDescription>Placing a moratorium on the use of certain rodenticides.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to rodenticides; adding new sections to chapter 15.58 RCW; creating a new section; and providing expiration dates.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature finds that anticoagulant rodenticides, and rodenticides containing bromethalin as an active ingredient, may have negative impacts on human and wildlife health, and that alternatives exist that are both safer and effective in rodent control. Further, the legislature recognizes Washington's commitment to using integrated pest management principles to strategically address pest issues in an environmentally and economically sound manner to provide alternatives for the use of rodenticides. The legislature, therefore, intends to place a moratorium on the use of anticoagulant rodenticides and rodenticides containing bromethalin as an active ingredient and direct a study of known impacts related to their use in Washington, potential impacts that are not well understood, and areas where more research is needed. </P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>15</TitleNumber><TextRun>.</TextRun><ChapterNumber>58</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) By December 31, 2026, the department shall provide a report to the appropriate committees of the legislature that identifies all anticoagulant rodenticides and all rodenticides containing bromethalin that are registered pursuant to this chapter.</P>
+<P>(2) Beginning January 1, 2027, and ending on December 31, 2028, a person may not use any anticoagulant rodenticides, or rodenticides that contain bromethalin as an active ingredient. The director may establish a process and standards for time-limited emergency use of anticoagulant rodenticides, or rodenticides containing bromethalin as an active ingredient, by a qualified third-party agent to protect drinking water supply, control vectors for mosquito-borne illness, and for emergent infectious disease control.</P>
+<P>(3) This section expires June 30, 2029.</P>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>15</TitleNumber><TextRun>.</TextRun><ChapterNumber>58</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) The Washington state academy of sciences shall conduct a study on the use and safety of rodenticides. At a minimum, the study must include:</P>
+<P>(a) An analysis of Washington-specific areas of study that may be relevant to considering use restrictions, including potential impacts to Washington wildlife;</P>
+<P>(b) An analysis of gaps in existing research on rodenticide use;</P>
+<P>(c) An analysis of the viability of contraceptives and other emerging nontoxic rodent control methods used either alongside chemical rodenticides or with a long-term goal of replacing chemical rodent control; and</P>
+<P>(d) Recommendations for further research.</P>
+<P>(2) By December 31, 2028, and in compliance with RCW 43.01.036, the Washington state academy of sciences shall submit the study to the appropriate committees of the legislature.</P>
+<P>(3) This section expires June 30, 2029.</P>
+</BillSection>
+</BillBody>
+</Bill>

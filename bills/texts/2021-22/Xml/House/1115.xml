@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>Z-0196.1</RequestNumber><ShortBillId>HB 1115</ShortBillId><LongBillId>HOUSE BILL 1115</LongBillId><Legislature>67th Legislature</Legislature><Session>2021 Regular Session</Session><Sponsors>Representatives Fey, Wylie, Bronoske, and Ramos; by request of Office of Financial Management</Sponsors><BillHistory><PrefiledDate>Prefiled 01/08/21.</PrefiledDate><ReadDate>Read first time 01/11/21.</ReadDate><ReferredCommittee>Referred to Committee on Transportation.</ReferredCommittee></BillHistory><BriefDescription>Implementing cost recovery of state agency credit card and transaction fees and related costs for driver and vehicle fee transactions.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to implementing cost recovery of state agency credit card and transaction fees and related costs for driver and vehicle fee transactions; adding new sections to chapter 46.01 RCW; providing an effective date; and declaring an emergency.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>46</TitleNumber><TextRun>.</TextRun><ChapterNumber>01</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>The department must implement cost recovery mechanisms to recoup at least a portion of credit card and other financial transaction costs as part of charges imposed for driver and vehicle fee transactions. The department must develop a method of tracking the amount of credit card and other financial cost recovery revenues. The department must notify the state treasurer of these amounts and the state treasurer must deposit these revenues in the agency financial transaction account created in section 2 of this act on a quarterly basis.</P>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>46</TitleNumber><TextRun>.</TextRun><ChapterNumber>01</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>The agency financial transaction account is created in the state treasury. Receipts directed by law to the account from cost recovery charges for credit card and other financial transaction fees must be deposited into the account. Moneys in the account may be spent only after appropriation. Expenditures from the account may be used only for paying credit card and financial transaction fees, and other related costs incurred by state agencies.</P>
+</BillSection>
+<BillSection type="new" action="emerg">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act is necessary for the immediate preservation of the public peace, health, or safety, or support of the state government and its existing public institutions, and takes effect July 1, 2021.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

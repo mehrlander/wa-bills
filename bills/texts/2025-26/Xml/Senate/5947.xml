@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-3647.1</RequestNumber><ShortBillId>SB 5947</ShortBillId><LongBillId>SENATE BILL 5947</LongBillId><Legislature>69th Legislature</Legislature><Session>2026 Regular Session</Session><Sponsors>Senators Hasegawa, Bateman, Chapman, Orwall, Riccelli, and Saldaña</Sponsors><BillHistory><PrefiledDate>Prefiled 12/29/25.</PrefiledDate><ReadDate>Read first time 01/12/26.</ReadDate><ReferredCommittee>Referred to Committee on Health &amp; Long-Term Care.</ReferredCommittee></BillHistory><BriefDescription>Establishing the Washington health care board.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to establishing the Washington health care board; adding a new section to chapter 41.05 RCW; and providing a contingent effective date.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>41</TitleNumber><TextRun>.</TextRun><ChapterNumber>05</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) The Washington health care board is established. The health care board shall design and implement the Washington health plan to provide for all medically necessary health care services for all residents of the state. The plan may not be implemented until the state obtains a federal waiver for a state-based universal health care plan and receives federal funding to support the implementation of the plan and any necessary implementing legislation has been adopted by the legislature.</P>
+<P>(2) The health care board shall consist of 19 members appointed by the governor as follows:</P>
+<P>(a) Five members representing employers;</P>
+<P>(b) Six members who are practicing health care providers in the state as follows:</P>
+<P>(i) Two physicians, at least one of whom must be a primary care physician;</P>
+<P>(ii) One registered nurse;</P>
+<P>(iii) One mental health provider;</P>
+<P>(iv) One dentist; and</P>
+<P>(v) One naturopath;</P>
+<P>(c) One health care facility director;</P>
+<P>(d) One member with expertise in health care financing;</P>
+<P>(e) One member with expertise in prescription drug purchasing and economics;</P>
+<P>(f) One tribal representative;</P>
+<P>(g) One member representing organized labor; and</P>
+<P>(h) Three members representing health-related state agencies.</P>
+<P>(3) Members of the health care board shall serve four-year terms and shall select a board chair from among the members.</P>
+<P>(4) The health care board shall:</P>
+<P>(a) Design the Washington health care plan and conduct or contract for any necessary actuarial and economic analyses needed to support the development of a plan;</P>
+<P>(b) Hire any necessary staff;</P>
+<P>(c) Set a detailed timeline for plan implementation and submit any necessary waivers to obtain federal approval and funding;</P>
+<P>(d) Upon federal approval of a waiver or, if required by federal law or regulation, prior to submission of a waiver application, make recommendations to the legislature to implement the plan, including necessary statutory changes to establish requirements for benefits under the plan, eligibility for the plan, provider participation and payments, and financing for the plan;</P>
+<P>(e) Once the plan is implemented, administer all aspects of the plan; and</P>
+<P>(f) Conduct activities the health care board considers necessary to carry out the purposes of this act.</P>
+<P>(5) The authority may adopt any rules necessary to implement this section.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) This act takes effect upon the enactment of federal law that authorizes a state to obtain a waiver to establish a state-based universal health care plan and to receive federal funding for that plan.</P></BillSectionHeader>
+<P>(2) The health care authority shall provide written notice of the effective date of this act to affected parties, the chief clerk of the house of representatives, the secretary of the senate, the office of the code reviser, and others as deemed appropriate by the authority.</P>
+</BillSection>
+</BillBody>
+</Bill>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-5565.1</RequestNumber><ShortBillId>SB 6556</ShortBillId><LongBillId>SENATE BILL 6556</LongBillId><Legislature>66th Legislature</Legislature><Session>2020 Regular Session</Session><Sponsors>Senators Cleveland, Darneille, and Wilson, C.</Sponsors><BillHistory><ReadDate>Read first time 01/22/20.</ReadDate><ReferredCommittee>Referred to Committee on Human Services, Reentry &amp; Rehabilitation.</ReferredCommittee></BillHistory><BriefDescription>Expanding reporting options for mandated reporters of child abuse and neglect.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to expanding reporting options for mandated reporters of child abuse and neglect; adding a new section to chapter 26.44 RCW; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature declares that the end harm telephone line plays a critical role in ensuring that potential cases of child abuse or neglect are addressed in a timely fashion. The legislature finds that in 2019, the department of children, youth, and families received one hundred twenty-five thousand nine hundred seventy-five requests for child welfare intervention. The legislature finds that wait times for calls and timely response can be improved through technological efficiencies and innovation. The legislature finds that the department of social and health services aging and long-term support administration successfully implemented a web-based portal for adult protective services which has reduced wait times for those reporting potential cases of abuse or neglect by phone. The legislature therefore resolves to create an online portal for mandatory reporters to submit requests for intervention and to also implement a call-back option for those placed on hold when calling the end harm line.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>26</TitleNumber><TextRun>.</TextRun><ChapterNumber>44</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) Subject to funding appropriated for this specific purpose, the department shall establish, develop, and implement a web-based reporting portal accessible to mandated reporters for reporting child abuse and neglect as required by RCW 26.44.030.</P>
+<P>(2) Subject to funding appropriated for this specific purpose, the department shall establish, develop, and implement a call-back option for callers placed on hold to provide a phone number for the department to return a call to complete the report of child abuse and neglect.</P>
+</BillSection>
+</BillBody>
+</Bill>

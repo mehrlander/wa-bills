@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-3207.2</RequestNumber><ShortBillId>SB 6432</ShortBillId><LongBillId>SENATE BILL 6432</LongBillId><Legislature>65th Legislature</Legislature><Session>2018 Regular Session</Session><Sponsors>Senators Zeiger and Angel</Sponsors><BillHistory /><BriefDescription>Concerning homeowner association and condominium bylaws.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to homeowner association and condominium bylaws; and amending RCW 64.38.030 and 64.34.200.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>64</TitleNumber><TextRun>.</TextRun><ChapterNumber>38</ChapterNumber><TextRun>.</TextRun><SectionNumber>030</SectionNumber></SectionCite> and 1995 c 283 s 6 are each amended to read as follows:<Caption>Association bylaws.</Caption></BillSectionHeader>
+<P><TextRun amendingStyle="add">(1)</TextRun> Unless provided for in the governing documents, the bylaws of the association shall provide for:</P>
+<P><TextRun amendingStyle="strike">(1)</TextRun> <TextRun amendingStyle="add">(a)</TextRun> The number, qualifications, powers and duties, terms of office, and manner of electing and removing the board of directors and officers and filling vacancies;</P>
+<P><TextRun amendingStyle="strike">(2)</TextRun> <TextRun amendingStyle="add">(b)</TextRun> Election by the board of directors of the officers of the association as the bylaws specify;</P>
+<P><TextRun amendingStyle="strike">(3)</TextRun> <TextRun amendingStyle="add">(c)</TextRun> Which, if any, of its powers the board of directors or officers may delegate to other persons or to a managing agent;</P>
+<P><TextRun amendingStyle="strike">(4)</TextRun> <TextRun amendingStyle="add">(d)</TextRun> Which of its officers may prepare, execute, certify, and record amendments to the governing documents on behalf of the association; </P>
+<P><TextRun amendingStyle="strike">(5)</TextRun> <TextRun amendingStyle="add">(e)</TextRun> The method of amending the bylaws; and</P>
+<P><TextRun amendingStyle="strike">(6)</TextRun> <TextRun amendingStyle="add">(f)</TextRun> Subject to the provisions of the governing documents, any other matters the association deems necessary and appropriate.</P>
+<P><TextRun amendingStyle="add">(2) For associations established after the effective date of this section, a homeowners' association must record bylaws and amendments to the bylaws in every county in which any portion of the association is located in the same manner as a deed, and the bylaws and amendments are effective only upon recording.</TextRun></P>
+<History>1995 c 283 § 6.</History>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>64</TitleNumber><TextRun>.</TextRun><ChapterNumber>34</ChapterNumber><TextRun>.</TextRun><SectionNumber>200</SectionNumber></SectionCite> and 1992 c 220 s 4 are each amended to read as follows:<Caption>Creation of condominium.</Caption></BillSectionHeader>
+<P>(1) A condominium may be created pursuant to this chapter only by recording a declaration executed by the owner of the interest subject to this chapter in the same manner as a deed and by simultaneously recording a survey map and plans pursuant to RCW 64.34.232. The declaration and survey map and plans must be recorded in every county in which any portion of the condominium is located, and the condominium shall not have the same name as any other existing condominium, whether created under this chapter or under chapter 64.32 RCW, in any county in which the condominium is located.</P>
+<P>(2) A declaration or an amendment to a declaration adding units to a condominium may not be recorded unless (a) all structural components and mechanical systems of all buildings containing or comprising any units thereby created are substantially completed as evidenced by a recorded certificate of completion executed by the declarant which certificate may be included in the declaration or the amendment, the survey map and plans to be recorded pursuant to RCW 64.34.232, or a separately recorded written instrument, and (b) all horizontal and vertical boundaries of such units are substantially completed in accordance with the plans required to be recorded by RCW 64.34.232, as evidenced by a recorded certificate of completion executed by a licensed surveyor.</P>
+<P><TextRun amendingStyle="add">(3) For a condominium established after the effective date of this section, a unit owners' association must record bylaws and amendments to the bylaws in every county in which any portion of the association is located in the same manner as a deed, and the bylaws and amendments are effective only upon recording.</TextRun></P>
+<History>1992 c 220 § 4; 1990 c 166 § 2; 1989 c 43 § 2-101.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>1990 c 166:</TextRun> See note following RCW 64.34.020.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+</BillBody>
+</Bill>

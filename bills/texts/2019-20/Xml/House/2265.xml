@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-3441.1</RequestNumber><ShortBillId>HB 2265</ShortBillId><LongBillId>HOUSE BILL 2265</LongBillId><Legislature>66th Legislature</Legislature><Session>2020 Regular Session</Session><Sponsors>Representatives Doglio, Leavitt, Shewmake, Duerr, Fey, Peterson, and Pollet</Sponsors><BillHistory><PrefiledDate>Prefiled 12/23/19.</PrefiledDate><ReadDate>Read first time 01/13/20.</ReadDate><ReferredCommittee>Referred to Committee on Environment &amp; Energy.</ReferredCommittee></BillHistory><BriefDescription>Eliminating exemptions from restrictions on the use of perfluoroalkyl and polyfluoroalkyl substances in firefighting foam.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to eliminating exemptions from restrictions on the use of perfluoroalkyl and polyfluoroalkyl substances in firefighting foam; amending RCW 70.75A.020; reenacting and amending RCW 70.75A.005; and providing an effective date.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="remd">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>70</TitleNumber><TextRun>.</TextRun><ChapterNumber>75A</ChapterNumber><TextRun>.</TextRun><SectionNumber>005</SectionNumber></SectionCite> and 2018 c 286 s 1 are each reenacted and amended to read as follows:<Caption>Definitions.</Caption></BillSectionHeader>
+<P>The definitions in this section apply throughout this chapter unless the context clearly requires otherwise.</P>
+<P>(1) <TextRun amendingStyle="strikemarkleft">"Chemical plant" has the same meaning as in WAC 296-24-33001, as that section existed as of January 1, 2018.</TextRun></P>
+<P><TextRun amendingStyle="strikemarkright">(2)</TextRun> "Class B firefighting foam" means foams designed for flammable liquid fires.</P>
+<P><TextRun amendingStyle="strike">(3)</TextRun> <TextRun amendingStyle="add">(2)</TextRun> "Department" means the department of ecology.</P>
+<P><TextRun amendingStyle="strike">(4)</TextRun> <TextRun amendingStyle="add">(3)</TextRun> "Firefighting personal protective equipment" means any clothing designed, intended, or marketed to be worn by firefighting personnel in the performance of their duties, designed with the intent for the use in fire and rescue activities, including jackets, pants, shoes, gloves, helmets, and respiratory equipment.</P>
+<P><TextRun amendingStyle="strike">(5)</TextRun> <TextRun amendingStyle="add">(4)</TextRun> "Local governments" includes any county, city, town, fire district, regional fire protection authority, or other special purpose district that provides firefighting services.</P>
+<P><TextRun amendingStyle="strike">(6)</TextRun> <TextRun amendingStyle="add">(5)(a)</TextRun> "Manufacturer" includes any person, firm, association, partnership, corporation, organization, joint venture, importer, or domestic distributor of firefighting agents or firefighting equipment.</P>
+<P><TextRun amendingStyle="add">(b)</TextRun> For the purposes of this subsection, "importer" means the owner of the product.</P>
+<P><TextRun amendingStyle="strike">(7)</TextRun> <TextRun amendingStyle="add">(6)</TextRun> "Perfluoroalkyl and polyfluoroalkyl substances" or "PFAS chemicals" means, for the purposes of firefighting agents and firefighting equipment, a class of fluorinated organic chemicals containing at least one fully fluorinated carbon atom.</P>
+<History>2018 c 286 § 1.</History>
+<RCWNoteSection>
+<RevNote><NoteP><TextRun fontWeight="bold">Reviser's note: </TextRun>The definitions in this section have been alphabetized pursuant to RCW 1.08.015(2)(k).</NoteP></RevNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>70</TitleNumber><TextRun>.</TextRun><ChapterNumber>75A</ChapterNumber><TextRun>.</TextRun><SectionNumber>020</SectionNumber></SectionCite> and 2018 c 286 s 3 are each amended to read as follows:<Caption>Manufacture, sale, or distribution of certain class B firefighting foam restricted<TextRun fontFamily="Times New Roman">—</TextRun>Exceptions<TextRun fontFamily="Times New Roman">—</TextRun>Rules.</Caption></BillSectionHeader>
+<P><TextRun amendingStyle="strike">(1)</TextRun> Beginning July 1, 2020, a manufacturer of class B firefighting foam may not manufacture, knowingly sell, offer for sale, distribute for sale, or distribute for use in this state class B firefighting foam to which PFAS chemicals have been intentionally added.</P>
+<P><TextRun amendingStyle="strikemarkleft">(2) The restrictions in subsection (1) of this section do not apply to any manufacture, sale, or distribution of class B firefighting foam where the inclusion of PFAS chemicals are required by federal law, including but not limited to the requirements of 14 C.F.R. 139.317, as that section existed as of January 1, 2018. In the event that applicable federal regulations change after January 1, 2018, to allow the use of alternative firefighting agents that do not contain PFAS chemicals, then the department may adopt rules that restrict PFAS chemicals for the manufacture, sale, and distribution of firefighting foam for uses that are addressed by the federal regulation.</TextRun></P>
+<P><TextRun amendingStyle="strikemarknone">(3) The restrictions in subsection (1) of this section do not apply to any manufacture, sale, or distribution of class B firefighting foam to a person for use at a terminal, as defined in RCW 82.23A.010, operated by the person or an oil refinery operated by the person.</TextRun></P>
+<P><TextRun amendingStyle="strikemarkright">(4) The restrictions in subsection (1) of this section do not apply to any manufacture, sale, or distribution of class B firefighting foam to a person for use at a chemical plant operated by the person.</TextRun></P>
+<History>2018 c 286 § 3.</History>
+</BillSection>
+<BillSection type="new" action="effdate">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act takes effect January 1, 2022.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

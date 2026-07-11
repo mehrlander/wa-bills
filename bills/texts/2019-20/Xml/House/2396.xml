@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-3764.1</RequestNumber><ShortBillId>HB 2396</ShortBillId><LongBillId>HOUSE BILL 2396</LongBillId><Legislature>66th Legislature</Legislature><Session>2020 Regular Session</Session><Sponsors>Representatives Hudgins, Tarleton, and Wylie</Sponsors><BillHistory><PrefiledDate>Prefiled 01/10/20.</PrefiledDate><ReadDate>Read first time 01/13/20.</ReadDate><ReferredCommittee>Referred to Committee on Innovation, Technology &amp; Economic Development.</ReferredCommittee></BillHistory><BriefDescription>Concerning the regulation of bot communication on public-facing internet web sites.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to the regulation of bot communication on public- facing internet web sites; adding a new section to chapter 42.17A RCW; adding a new chapter to Title 19 RCW; and providing an effective date.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The definitions in this section apply throughout this chapter unless the context clearly requires otherwise.</P></BillSectionHeader>
+<P>(1) "Bot" means an automated online account where all or substantially all of the actions or posts of that account are not the result of a person.</P>
+<P>(2) "Online" means appearing on any public-facing internet web site, web application, or digital application, including a social network or publication.</P>
+<P>(3) "Online platform" means any public-facing internet web site, web application, or digital application, including a social network or publication, that has ten million or more unique monthly United States visitors or users for a majority of months during the preceding twelve months.</P>
+<P>(4) "Person" means a natural person, corporation, limited liability company, partnership, joint venture, association, estate, trust, government, governmental subdivision or agency, or other legal entity or any combination thereof.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) Except as provided in subsection (2) of this section, it shall be unlawful for any person to use a bot to communicate or interact with another person in Washington online, with the intent to mislead the other person about its artificial identity for the purpose of knowingly deceiving the person about the content of the communication to incentivize a purchase or sale of goods or services in a commercial transaction.</P></BillSectionHeader>
+<P>(2) A person using a bot shall not be liable under subsection (1) of this section if the person discloses that it is a bot.</P>
+<P>(3) The disclosure required under this section shall be clear, conspicuous, and reasonably designed to inform persons with whom the bot communicates or interacts that it is a bot.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) An online platform shall enable users to identify and report bots that the user suspects of violating this chapter or section 6 of this act.</P></BillSectionHeader>
+<P>(2)(a) After receiving notice of a bot under subsection (1) of this section, an online platform shall expeditiously investigate and determine whether or not to disclose that the bot is not a natural person or remove the bot.</P>
+<P>(b) An online platform's investigation and response shall be expeditious if it occurs within seventy-two hours of receipt of the notice.</P>
+<P>(3) Upon request of the attorney general, an online platform shall provide reports detailing notices received under subsection (2) of this section and actions taken in response.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) The duties and obligations imposed by this chapter are cumulative with any other duties or obligations imposed by any other law.</P></BillSectionHeader>
+<P>(2) If any provision of this act or its application to any person or circumstance is held invalid, the remainder of the act or the application of the provision to other persons or circumstances is not affected.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>5</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature finds that the practices covered by this chapter are matters vitally affecting the public interest for the purpose of applying chapter 19.86 RCW. A violation of this chapter is not reasonable in relation to the development and preservation of business and is an unfair or deceptive act in trade or commerce and an unfair method of competition for the purpose of applying chapter 19.86 RCW.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>6</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>42</TitleNumber><TextRun>.</TextRun><ChapterNumber>17A</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> under the subchapter heading "political advertising and electioneering communications" to read as follows:</BillSectionHeader>
+<P>(1) Except as provided in subsection (2) of this section, it is unlawful for any person to use a bot to communicate or interact with another person in Washington for the purposes of online political advertising, with the intent to mislead the other person about its artificial identity for the purpose of knowingly deceiving the person about the content of the communication.</P>
+<P>(2) A person using a bot for political advertising shall not be liable under subsection (1) of this section if the person discloses that it is a bot.</P>
+<P>(3) The disclosure required under this section shall be clear, conspicuous, and reasonably designed to inform persons with whom the bot communicates or interacts that it is a bot.</P>
+<P>(4) For the purposes of this section, the following definitions apply unless the context clearly requires otherwise:</P>
+<P>(a) "Bot" has the meaning provided in section 1 of this act.</P>
+<P>(b) "Online" has the meaning provided in section 1 of this act.</P>
+<P>(c) "Online platform" has the meaning provided in section 1 of this act.</P>
+<P>(d) "Person" has the meaning provided in section 1 of this act.</P>
+</BillSection>
+<BillSection type="new" action="addchap" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>7</Value><TextRun>.  </TextRun></BillSectionNumber><P>Sections 1 through 5 of this act constitute a new chapter in <TitleCite><TextRun>Title </TextRun><TitleNumber>19</TitleNumber><TextRun> RCW</TextRun></TitleCite>.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="effdate" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>8</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act takes effect January 1, 2021.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

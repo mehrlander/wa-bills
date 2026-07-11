@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-1799.1</RequestNumber><ShortBillId>HB 1708</ShortBillId><LongBillId>HOUSE BILL 1708</LongBillId><Legislature>67th Legislature</Legislature><Session>2022 Regular Session</Session><Sponsors>Representatives Cody, Riccelli, Bateman, Macri, Tharinger, and Pollet</Sponsors><BillHistory><PrefiledDate>Prefiled 12/28/21.</PrefiledDate><ReadDate>Read first time 01/10/22.</ReadDate><ReferredCommittee>Referred to Committee on Health Care &amp; Wellness.</ReferredCommittee></BillHistory><BriefDescription>Concerning facility fees for audio-only telemedicine.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to facility fees for audio-only telemedicine; and adding a new section to chapter 70.41 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>70</TitleNumber><TextRun>.</TextRun><ChapterNumber>41</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>A hospital that is an originating site for audio-only telemedicine may not charge a facility fee.</P>
+</BillSection>
+</BillBody>
+</Bill>

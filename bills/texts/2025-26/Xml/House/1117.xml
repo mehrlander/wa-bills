@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-0213.1</RequestNumber><ShortBillId>HB 1117</ShortBillId><LongBillId>HOUSE BILL 1117</LongBillId><Legislature>69th Legislature</Legislature><Session>2025 Regular Session</Session><Sponsors>Representatives Barkis, Low, Schmidt, Couture, Corry, Ley, Dent, Eslick, Penner, Connors, Klicker, Marshall, Dye, Jacobsen, Burnett, Keaton, Orcutt, Caldier, Barnard, and Schmick</Sponsors><BillHistory><PrefiledDate>Prefiled 12/23/24.</PrefiledDate><ReadDate>Read first time 01/13/25.</ReadDate><ReferredCommittee>Referred to Committee on Environment &amp; Energy.</ReferredCommittee></BillHistory><BriefDescription>Removing the delegation of authority related to California motor vehicle emissions standards to generate new transportation revenue for the state by reducing administration burdens on the government and the people.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to removing the delegation of authority related to California motor vehicle emissions standards to generate new transportation revenue for the state by reducing administration burdens on the government and the people; adding a new section to chapter 70A.15 RCW; creating new sections; repealing RCW 70A.30.010 and 70A.30.030; and declaring an emergency.</BillTitle>
+<EnactedClause />
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The delegation of authority related to California motor vehicle emissions standards has caused unintended consequences. Individuals have not been able to register vehicles that meet federal manufacturing standards that they own. From September 2023 to September 2024, the department of licensing had to grant 407,541 exemptions to the policy so that vehicles could be registered, at additional time and resources for the people, vehicle subagents, and the governmental organizations that administer vehicle registrations. The state benefits when every vehicle that operates on the public roads is legally registered and when government operates in an efficient manner. The legislature intends to improve the lives of all of the people who had to seek an exemption and all of the workers who do not want to tell people they cannot register their vehicles because of California motor vehicle emissions standards.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="repeal">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>The following acts or parts of acts are each repealed:</P></BillSectionHeader>
+<P><RepealNumber>1</RepealNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>70A</TitleNumber><TextRun>.</TextRun><ChapterNumber>30</ChapterNumber><TextRun>.</TextRun><SectionNumber>010</SectionNumber></SectionCite> (Department of ecology to adopt rules to implement California motor vehicle emission standards) and 2020 c 143 s 1, 2020 c 20 s 1366, 2010 c 76 s 1, &amp; 2005 c 295 s 2; and</P>
+<P><RepealNumber>2</RepealNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>70A</TitleNumber><TextRun>.</TextRun><ChapterNumber>30</ChapterNumber><TextRun>.</TextRun><SectionNumber>030</SectionNumber></SectionCite> (New vehicle greenhouse gas emissions disclosure<TextRun fontFamily="Times New Roman">—</TextRun>Rule-making authority) and 2020 c 143 s 2, 2014 c 76 s 8, &amp; 2008 c 32 s 2.</P>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>70A</TitleNumber><TextRun>.</TextRun><ChapterNumber>15</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>Nothing in this chapter may be interpreted to provide authority to the department to adopt any motor vehicle emissions standard of the state of California.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber><P>The department of licensing is directed to start licensing vehicles that were prohibited due to California motor vehicle emissions standards if they otherwise meet state requirements.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>5</Value><TextRun>.  </TextRun></BillSectionNumber><P>The department of ecology is directed to repeal any rules that implement the California motor vehicle emissions standards or were based on the statutory authority repealed in this act.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="emerg">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>6</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act is necessary for the immediate preservation of the public peace, health, or safety, or support of the state government and its existing public institutions, and takes effect immediately.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

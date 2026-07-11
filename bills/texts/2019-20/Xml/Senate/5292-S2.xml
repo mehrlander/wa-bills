@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-2336.1</RequestNumber><ShortBillId>2SSB 5292</ShortBillId><LongBillId>SECOND SUBSTITUTE SENATE BILL 5292</LongBillId><Legislature>66th Legislature</Legislature><Session>2019 Regular Session</Session><Sponsors>Senate Ways &amp; Means (originally sponsored by Senators Keiser, Cleveland, Randall, Hasegawa, Das, Saldaña, Wilson, C., Liias, Conway, Kuderer, Nguyen, Van De Wege, and Wellman)</Sponsors><BillHistory><ReadDate>READ FIRST TIME 02/28/19.</ReadDate></BillHistory><BriefDescription>Concerning prescription drug cost transparency.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to prescription drug cost transparency; reenacting and amending RCW 74.09.215; adding a new chapter to Title 43 RCW; and prescribing penalties.</BillTitle>
+<EnactedClause />
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>FINDINGS.</SectionCaption><P>(1) The legislature finds that the state of Washington has substantial public interest in the price and cost of prescription drugs.</P></BillSectionHeader>
+<P>(2) The legislature finds that it is essential to understand the drivers and impacts of these costs, and transparency is typically the first step toward cost containment and greater consumer access to needed prescription drugs.</P>
+<P>(3) The legislature intends to enact this chapter to provide notice and disclosure of information relating to the cost and pricing of prescription drugs in order to provide accountability at all levels of the supply chain to the state for prescription drug pricing.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>DEFINITIONS.</SectionCaption><P>The definitions in this section apply throughout this chapter unless the context clearly requires otherwise.</P></BillSectionHeader>
+<P>(1) "Accelerated approval," "breakthrough therapy," and "fast track product" mean the same as in 21 U.S.C. Sec. 356.</P>
+<P>(2) "Aggregate retained rebate percentage" means the percentage of all rebates received by a pharmacy benefit manager from all pharmaceutical manufacturers which is not passed on to the pharmacy benefit manager's health plan or issuer clients. An aggregate retained rebate percentage must be expressed without disclosing any identifying information regarding any health plan, prescription drug, or therapeutic class, and must be calculated by dividing:</P>
+<P>(a) The aggregate dollar amount of all rebates that the pharmacy benefit manager received during the prior calendar year from all pharmaceutical manufacturers and did not pass through to the pharmacy benefit manager's health plan or issuer clients; by</P>
+<P>(b) The aggregate dollar amount of all rebates that the pharmacy benefit manager received during the prior calendar year from all pharmaceutical manufacturers.</P>
+<P>(3) "Authority" means the health care authority.</P>
+<P>(4) "Biological product" means the same as in 42 U.S.C. Sec. 262(i)(1).</P>
+<P>(5) "Biologics license application" means an application submitted under 42 U.S.C. Sec. 262.</P>
+<P>(6) "FDA" means the United States food and drug administration.</P>
+<P>(7) "Health care provider," "health plan," and "issuer" mean the same as in RCW 48.43.005.</P>
+<P>(8) "Manufacturer" means a person, corporation, or other entity engaged in the manufacture of prescription drugs sold in or into Washington state. Manufacturer does not include (a) a private label distributor or retail pharmacy that sells a drug under the retail pharmacy's store, or (b) a prescription drug repackager.</P>
+<P>(9) "New molecular entity" means an active ingredient that contains no active moiety that has been previously approved by the FDA in an application submitted under 21 U.S.C. Sec. 355, or has been previously marketed as a drug in the United States.</P>
+<P>(10) "Orphan drug" means a drug the FDA has designated as a drug for a rare disease or condition pursuant to 21 U.S.C. Sec. 360bb.</P>
+<P>(11) "Pharmacy" means the same as in RCW 18.64.011.</P>
+<P>(12) "Pharmacy benefit manager" means the same as in RCW 19.340.010.</P>
+<P>(13) "Pharmacy services administrative organization" means an entity that contracts with a pharmacy to act as the pharmacy's agent with respect to matters involving a pharmacy benefit manager, third-party payor, or other entities, including negotiating, executing, or administering contracts with the pharmacy benefit manager, third-party payor, or other entities and provides administrative services to pharmacies.</P>
+<P>(14) "Pipeline drug" means a drug containing a new molecular entity for which a manufacturer has filed a new drug application or biologics license application with, and received an approval date from the FDA.</P>
+<P>(15) "Prescription drug" means a drug regulated under chapter 69.41 or 69.50 RCW, including generic, brand name, specialty drugs, and biological products, that is prescribed for outpatient use and distributed in a retail setting.</P>
+<P>(16) "Priority review" means the same as in 21 U.S.C. Sec. 360ff(a)(1).</P>
+<P>(17) "Rebate" means a discount or concession on the cost of a prescription drug provided by a prescription drug manufacturer directly to a health carrier or to a pharmacy benefit manager after a claim from a pharmacy for the sale of the drug is processed.</P>
+<P>(18) "Specialty drug" means a prescription drug that exceeds the threshold for the specialty tier of the medicare Part D prescription drug formulary as established by the centers for medicare and medicaid services.</P>
+<P>(19) "Wholesale acquisition cost" means, with respect to a prescription drug, the manufacturer's list price for the drug to wholesalers or direct purchasers in the United States, as defined in 42 U.S.C. Sec. 1395w-3a(c)(6)(B), excluding any discounts, rebates, or reductions in price, for the most recent month for which the information is available, as reported in wholesale price guides or other publications of prescription drug pricing.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>ISSUER REPORTING.</SectionCaption><P>Beginning October 1, 2019, and on a yearly basis thereafter, an issuer must submit to the authority the following prescription drug cost and utilization data for the previous calendar year:</P></BillSectionHeader>
+<P>(1) The twenty-five prescription drugs most frequently prescribed by health care providers participating in the plan's network;</P>
+<P>(2) The twenty-five costliest prescription drugs expressed as a percentage of total plan prescription drug spending, and the plan's total spending for each of these prescription drugs;</P>
+<P>(3) The twenty-five drugs with the highest year-over-year increase in wholesale acquisition cost, excluding drugs made available for the first time that plan year, and the percentages of the increases for each of these prescription drugs;</P>
+<P>(4) The portion of the premium that is attributable to each of the following categories of covered prescription drugs, after accounting for all rebates and discounts:</P>
+<P>(a) Brand name drugs;</P>
+<P>(b) Generic drugs; and</P>
+<P>(c) Specialty drugs;</P>
+<P>(5) The year-over-year increase, calculated on a per member, per month basis and expressed as a percentage, in the total annual cost of each category of covered drugs listed in subsection (4) of this section, after accounting for all rebates and discounts;</P>
+<P>(6) A comparison, calculated on a per member, per month basis, of the year-over-year increase in the cost of covered drugs to the year-over-year increase in the costs of other contributors to premiums, after accounting for all rebates and discounts;</P>
+<P>(7) The name of each covered specialty drug; and</P>
+<P>(8) The names of the twenty-five most frequently prescribed drugs for which the issuer received rebates from pharmaceutical manufacturers.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>PHARMACY BENEFIT MANAGER REPORTING.</SectionCaption><P>Beginning October 1, 2019, and on a yearly basis thereafter, a pharmacy benefit manager must submit to the authority the following prescription drug data for the previous calendar year:</P></BillSectionHeader>
+<P>(1) The aggregate dollar amount of all rebates and fees received from pharmaceutical manufacturers for prescription drugs that were covered by the pharmacy benefit manager's issuer clients during the calendar year, and are attributable to patient utilization of such drugs during the calendar year;</P>
+<P>(2) The aggregate dollar amount of all rebates and fees received by the pharmacy benefit manager from pharmaceutical manufacturers that are not passed through to the issuer clients; and</P>
+<P>(3) The aggregate retained rebate percentage.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>5</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>PHARMACY SERVICES ADMINISTRATIVE ORGANIZATION REPORTING.</SectionCaption><P>(1) Beginning October 1, 2019, and on a yearly basis thereafter, a pharmacy services administrative organization representing a pharmacy or pharmacy chain in the state must submit to the authority the following data from the previous calendar year:</P></BillSectionHeader>
+<P>(a) The negotiated reimbursement rate of the twenty-five prescription drugs with the highest reimbursement rate;</P>
+<P>(b) The twenty-five prescription drugs with the largest year-to-year change in reimbursement rate, expressed as a percentage and dollar amount;</P>
+<P>(c) The schedule of fees charged to pharmacies for the services provided by the pharmacy services administrative organization.</P>
+<P>(2) Any pharmacy services administrative organization whose revenue is generated from flat service fees not connected to drug prices or volume, and paid by the pharmacy, is exempt from reporting.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>6</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>DATA COLLECTION AND ANNUAL REPORT.</SectionCaption><P>(1) The authority shall compile and analyze the data submitted by issuers, pharmacy benefit managers, and pharmacy services administrative organizations under sections 3, 4, and 5 of this act and prepare an annual report for the public and the legislature synthesizing the data to demonstrate the overall impact of drug costs on health care premiums. The report must include but is not limited to:</P></BillSectionHeader>
+<P>(a) An explanation of the manner in which issuers accounted for rebates in calculating premiums for health care plans delivered, issued for delivery, renewed, amended, or continued during such year;</P>
+<P>(b) A statement disclosing whether, and describing the manner in which, issuers made rebates available to enrollees at the point of purchase during such year;</P>
+<P>(c) Any other manner in which issuers applied rebates during the year.</P>
+<P>(2) The data in the report must be aggregated and must not reveal information specific to individual issuers, pharmacy benefit managers, or pharmacy services administrative organizations.</P>
+<P>(3) Beginning January 1, 2020, and by each January 1st thereafter, the authority must publish the report on its web site.</P>
+<P>(4) Except for the report, the authority shall keep confidential all of the information provided pursuant to sections 3, 4, and 5 of this act, and analysis of that information. The information and analysis is not subject to public disclosure under chapter 42.56 RCW and is considered a trade secret as defined in RCW 19.108.010.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>7</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>MANUFACTURER NOTICE OF NEW DRUG APPLICATIONS.</SectionCaption><P>(1) Beginning October 1, 2019, a manufacturer must submit written notice, in a form and manner specified by the authority, informing the authority that the manufacturer has filed with the FDA:</P></BillSectionHeader>
+<P>(a) A new drug application or biologics license application for a pipeline drug; or</P>
+<P>(b) A biologics license application for a biological product.</P>
+<P>(2) The notice must be filed within sixty days of the manufacturer receiving the applicable FDA approval date.</P>
+<P>(3) Upon receipt of the notice, the authority may request from the manufacturer the following information if it believes the drug will have a significant impact on state expenditures:</P>
+<P>(a) The primary disease, condition, or therapeutic area studied in connection with the new drug, and whether the drug is therapeutically indicated for such disease, condition, or therapeutic area;</P>
+<P>(b) Each route of administration studied for the drug;</P>
+<P>(c) Clinical trial comparators for the drug;</P>
+<P>(d) The date at which the FDA must complete its review of the drug application pursuant to the federal prescription drug user fee act of 1992 (106 Stat. 4491; P.L. 102-571);</P>
+<P>(e) Whether the FDA has designated the drug an orphan drug, a fast track product, or a breakthrough therapy; and</P>
+<P>(f) Whether the FDA has designated the drug for accelerated approval, priority review, or if the drug contains a new molecular entity.</P>
+<P>(4) A manufacturer may limit the information reported pursuant to this section to that which is otherwise in the public domain or publicly reported.</P>
+<P>(5) The information collected pursuant to this section is not subject to public disclosure under chapter 42.56 RCW.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>8</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>ANNUAL DRUG LIST.</SectionCaption><P>(1) Beginning January 1, 2020, and yearly thereafter, the authority must prepare a list of ten prescription drugs that:</P></BillSectionHeader>
+<P>(a) Have a significant impact on state expenditures; or</P>
+<P>(b) Are critical to public health.</P>
+<P>(2) The authority may only include prescription drugs with a wholesale acquisition cost, less rebates received by the state during the preceding calendar year, that:</P>
+<P>(a)(i) Increased by at least twenty percent during the preceding calendar year, or (ii) increased by at least fifty percent in the preceding three calendar years; and</P>
+<P>(b) Cost at least one hundred dollars for a thirty-day supply or a course of treatment lasting less than thirty days.</P>
+<P>(3) The authority must notify manufacturers of drugs appearing on the list.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>9</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>MANUFACTURER DRUG PRICE REPORTING.</SectionCaption><P>(1) Manufacturers of drugs appearing on the list created pursuant to section 8 of this act must provide the following information to the authority within thirty days of receipt of the notice provided by the authority pursuant to section 8(3) of this act:</P></BillSectionHeader>
+<P>(a) A written, narrative description, consistent with the level and type of data made available in a manufacturer's form 10-K filing and suitable for public release, of specific financial and nonfinancial factors used to make the decision to increase the wholesale acquisition cost of the drug;</P>
+<P>(b) A schedule of the drug's wholesale acquisition cost increases over the previous five calendar years;</P>
+<P>(c) The manufacturer's aggregate, company level research and development and other relevant capital expenditures (e.g., facility construction) for the most recent year for which final audited data is available;</P>
+<P>(d) The year the drug was introduced to market and the wholesale acquisition cost of the drug at the time of introduction; and</P>
+<P>(e) Whether the drug is a multiple source drug, an innovator multiple source drug, a noninnovator multiple source drug, or a single source drug.</P>
+<P>(2) The authority must establish a standardized form for reporting information and data pursuant to this section after consulting with manufacturers. The form must be designed to minimize the administrative burden and cost of reporting on the authority and manufacturers.</P>
+<P>(3) A manufacturer may limit the information reported pursuant to this section to that which is otherwise in the public domain or publicly reported.</P>
+<P>(4) The information collected pursuant to this section, and any analysis conducted by the authority, is not subject to public disclosure under chapter 42.56 RCW and is considered a trade secret as defined in RCW 19.108.010.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>10</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>ENFORCEMENT.</SectionCaption><P>The authority may assess a fine of up to one thousand dollars per day for failure to comply with the requirements of section 3, 4, 5, 7, or 9 of this act. The assessment of a fine under this section is subject to review under the administrative procedure act, chapter 34.05 RCW. Fines collected under this section must be deposited in the medicaid fraud penalty account created in RCW 74.09.215.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>11</Value><TextRun>.  </TextRun></BillSectionNumber><P>The authority must contact the California office of statewide health planning and development and the Oregon department of consumer and business services to develop strategies to reduce prescription drug costs and increase prescription drug cost transparency. The authority must make recommendations to the legislature for implementing joint state strategies, which may include a joint purchasing agreement, by January 1, 2020.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>12</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>RULE MAKING.</SectionCaption><P>The authority may adopt any rules necessary to implement the requirements of this chapter.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="amendatory" action="remd">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>13</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>74</TitleNumber><TextRun>.</TextRun><ChapterNumber>09</ChapterNumber><TextRun>.</TextRun><SectionNumber>215</SectionNumber></SectionCite> and 2013 2nd sp.s. c 4 s 1902, 2013 2nd sp.s. c 4 s 997, and 2013 2nd sp.s. c 4 s 995 are each reenacted and amended to read as follows:<Caption>Medicaid fraud penalty account.</Caption></BillSectionHeader>
+<P>The medicaid fraud penalty account is created in the state treasury. All receipts from civil penalties collected under RCW 74.09.210, all receipts received under judgments or settlements that originated under a filing under the federal false claims act, <TextRun amendingStyle="add">all receipts from fines received pursuant to section 10 of this act,</TextRun> and all receipts received under judgments or settlements that originated under the state medicaid fraud false claims act, chapter 74.66 RCW, must be deposited into the account. Moneys in the account may be spent only after appropriation and must be used only for medicaid services, fraud detection and prevention activities, recovery of improper payments, for other medicaid fraud enforcement activities, and the prescription monitoring program established in chapter 70.225 RCW. For the 2013-2015 fiscal biennium, moneys in the account may be spent on inpatient and outpatient rebasing and conversion to the tenth version of the international classification of diseases. For the 2011-2013 fiscal biennium, moneys in the account may be spent on inpatient and outpatient rebasing.</P>
+<History>2013 2nd sp.s. c 4 § 1902; 2013 2nd sp.s. c 4 § 997; 2013 2nd sp.s. c 4 § 995; 2013 c 36 § 3; 2012 c 241 § 103.</History>
+<RCWNoteSection>
+<RevNote><NoteP><TextRun fontWeight="bold">Reviser's note:</TextRun> This section was amended by 2013 2nd sp.s. c 4 § 995, 2013 2nd sp.s. c 4 § 997, and by 2013 2nd sp.s. c 4 § 1902, each without reference to the other. All amendments are incorporated in the publication of this section under RCW 1.12.025(2). For rule of construction, see RCW 1.12.025(1).</NoteP></RevNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective dates<TextRun fontFamily="Times New Roman">—</TextRun>2013 2nd sp.s. c 4:</TextRun> See note following RCW 2.68.020.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Findings<TextRun fontFamily="Times New Roman">—</TextRun>2013 c 36:</TextRun> See note following RCW 70.225.020.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Intent<TextRun fontFamily="Times New Roman">—</TextRun>Finding<TextRun fontFamily="Times New Roman">—</TextRun>2012 c 241:</TextRun> See note following RCW 74.66.010.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="new" action="addchap">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>14</Value><TextRun>.  </TextRun></BillSectionNumber><P>Sections 1 through 12 of this act constitute a new chapter in <TitleCite><TextRun>Title </TextRun><TitleNumber>43</TitleNumber><TextRun> RCW</TextRun></TitleCite>.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

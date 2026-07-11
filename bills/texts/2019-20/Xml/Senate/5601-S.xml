@@ -1,0 +1,349 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-6072.2</RequestNumber><ShortBillId>SSB 5601</ShortBillId><LongBillId>SUBSTITUTE SENATE BILL 5601</LongBillId><Legislature>66th Legislature</Legislature><Session>2020 Regular Session</Session><Sponsors>Senate Health &amp; Long Term Care (originally sponsored by Senators Rolfes, Short, Keiser, Liias, Kuderer, Walsh, Hobbs, King, Warnick, Honeyford, and Conway)</Sponsors><BillHistory><ReadDate>READ FIRST TIME 02/05/20.</ReadDate></BillHistory><BriefDescription>Regulating health care benefit managers.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to health care benefit managers; amending RCW 48.02.120, 48.02.220, 42.56.400, 19.340.020, 19.340.040, 19.340.070, 19.340.080, 19.340.090, 19.340.100, and 19.340.110; adding a new section to chapter 48.43 RCW; adding a new chapter to Title 48 RCW; creating new sections; recodifying RCW 19.340.020, 19.340.040, 19.340.050, 19.340.060, 19.340.070, 19.340.080, 19.340.090, 19.340.100, and 19.340.110; repealing RCW 19.340.010, 19.340.030, and 19.365.010; prescribing penalties; and providing effective dates.</BillTitle>
+<EnactedClause />
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) The legislature finds that growth in managed health care systems has shifted substantial authority over health care decisions from providers and patients to health carriers and health care benefit managers. Health care benefit managers acting as intermediaries between carriers, health care providers, and patients exercise broad discretion to affect health care services recommended and delivered by providers and the health care choices of patients. Regularly, these health care benefit managers are making health care decisions on behalf of carriers. However, unlike carriers, health care benefit managers are not currently regulated.</P></BillSectionHeader>
+<P>(2) Therefore, the legislature finds that it is in the best interest of the public to create a separate chapter in this title for health care benefit managers.</P>
+<P>(3) The legislature intends to protect and promote the health, safety, and welfare of Washington residents by establishing standards for regulatory oversight of health care benefit managers.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>The definitions in this section apply throughout this chapter unless the context clearly requires otherwise.</P></BillSectionHeader>
+<P>(1) "Affiliate" or "affiliated employer" means a person who directly or indirectly through one or more intermediaries, controls or is controlled by, or is under common control with, another specified person.</P>
+<P>(2) "Certification" has the same meaning as in RCW 48.43.005.</P>
+<P>(3) "Employee benefits programs" means programs under both the public employees' benefits board established in RCW 41.05.055 and the school employees' benefits board established in RCW 41.05.740.</P>
+<P>(4)(a) "Health care benefit manager" means a person or entity providing services to, or acting on behalf of, a health carrier or employee benefits programs, that directly or indirectly impacts the determination or utilization of benefits for, or patient access to, health care services, drugs, and supplies including, but not limited to:</P>
+<P>(i) Prior authorization or preauthorization of benefits or care;</P>
+<P>(ii) Certification of benefits or care;</P>
+<P>(iii) Medical necessity determinations;</P>
+<P>(iv) Utilization review;</P>
+<P>(v) Benefit determinations;</P>
+<P>(vi) Claims processing and repricing for services and procedures;</P>
+<P>(vii) Outcome management;</P>
+<P>(viii) Provider credentialing and recredentialing;</P>
+<P>(ix) Payment or authorization of payment to providers and facilities for services or procedures;</P>
+<P textAlign="left">(x) Dispute resolution, grievances, or appeals relating to determinations or utilization of benefits;</P>
+<P>(xi) Provider network management; or</P>
+<P>(xii) Disease management.</P>
+<P>(b) "Health care benefit manager" includes, but is not limited to, health care benefit managers that specialize in specific types of health care benefit management such as pharmacy benefit managers, radiology benefit managers, laboratory benefit managers, and mental health benefit managers.</P>
+<P>(c) "Health care benefit manager" does not include:</P>
+<P>(i) Health care service contractors as defined in RCW 48.44.010;</P>
+<P>(ii) Health maintenance organizations as defined in RCW 48.46.020;</P>
+<P>(iii) Issuers as defined in RCW 48.01.053;</P>
+<P>(iv) The public employees' benefits board established in RCW 41.05.055;</P>
+<P>(v) The school employees' benefits board established in RCW 41.05.740;</P>
+<P>(vi) Discount plans as defined in RCW 48.155.010;</P>
+<P>(vii) Direct patient-provider primary care practices as defined in RCW 48.150.010;</P>
+<P>(viii) An employer administering its employee benefit plan or the employee benefit plan of an affiliated employer under common management and control;</P>
+<P>(ix) A union administering a benefit plan on behalf of its members;</P>
+<P>(x) An insurance producer selling insurance or engaged in related activities within the scope of the producer's license;</P>
+<P>(xi) A creditor acting on behalf of its debtors with respect to insurance, covering a debt between the creditor and its debtors;</P>
+<P>(xii) A behavioral health administrative services organization or other county-managed entity that has been approved by the state health care authority to perform delegated functions on behalf of a carrier;</P>
+<P>(xiii) A hospital licensed under chapter 70.41 RCW or ambulatory surgical facility licensed under chapter 70.230 RCW;</P>
+<P>(xiv) The Robert Bree collaborative under chapter 70.250 RCW;</P>
+<P>(xv) The health technology clinical committee established under RCW 70.14.090; or</P>
+<P>(xvi) The prescription drug purchasing consortium established under RCW 70.14.060.</P>
+<P>(5) "Health care provider" or "provider" has the same meaning as in RCW 48.43.005.</P>
+<P>(6) "Health care service" has the same meaning as in RCW 48.43.005.</P>
+<P>(7) "Health carrier" or "carrier" has the same meaning as in RCW 48.43.005.</P>
+<P>(8) "Laboratory benefit manager" means a person or entity providing service to, or acting on behalf of, a health carrier, employee benefits programs, or another entity under contract with a carrier, that directly or indirectly impacts the determination or utilization of benefits for, or patient access to, health care services, drugs, and supplies relating to the use of clinical laboratory services and includes any requirement for a health care provider to submit a notification of an order for such services.</P>
+<P>(9) "Mental health benefit manager" means a person or entity providing service to, or acting on behalf of, a health carrier, employee benefits programs, or another entity under contract with a carrier, that directly or indirectly impacts the determination of utilization of benefits for, or patient access to, health care services, drugs, and supplies relating to the use of mental health services and includes any requirement for a health care provider to submit a notification of an order for such services.</P>
+<P>(10) "Network" means the group of participating providers, pharmacies, and suppliers providing health care services, drugs, or supplies to beneficiaries of a particular carrier or plan.</P>
+<P>(11) "Person" includes, as applicable, natural persons, licensed health care providers, carriers, corporations, companies, trusts, unincorporated associations, and partnerships.</P>
+<P>(12)(a) "Pharmacy benefit manager" means a person that contracts with pharmacies on behalf of an insurer, a third-party payor, or the prescription drug purchasing consortium established under RCW 70.14.060 to:</P>
+<P>(i) Process claims for prescription drugs or medical supplies or provide retail network management for pharmacies or pharmacists;</P>
+<P>(ii) Pay pharmacies or pharmacists for prescription drugs or medical supplies;</P>
+<P>(iii) Negotiate rebates with manufacturers for drugs paid for or procured as described in this subsection;</P>
+<P>(iv) Manage pharmacy networks; or</P>
+<P>(v) Make credentialing determinations.</P>
+<P>(b) "Pharmacy benefit manager" does not include a health care service contractor as defined in RCW 48.44.010.</P>
+<P>(13)(a) "Radiology benefit manager" means any person or entity providing service to, or acting on behalf of, a health carrier, employee benefits programs, or another entity under contract with a carrier, that directly or indirectly impacts the determination or utilization of benefits for, or patient access to, the services of a licensed radiologist or to advanced diagnostic imaging services including, but not limited to:</P>
+<P>(i) Processing claims for services and procedures performed by a licensed radiologist or advanced diagnostic imaging service provider; or</P>
+<P>(ii) Providing payment or payment authorization to radiology clinics, radiologists, or advanced diagnostic imaging service providers for services or procedures.</P>
+<P>(b) "Radiology benefit manager" does not include a health care service contractor as defined in RCW 48.44.010, a health maintenance organization as defined in RCW 48.46.020, or an issuer as defined in RCW 48.01.053.</P>
+<P>(14) "Utilization review" has the same meaning as in RCW 48.43.005.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) To conduct business in this state, a health care benefit manager must register with the commissioner and annually renew the registration.</P></BillSectionHeader>
+<P>(2) To apply for registration under this section, a health care benefit manager must:</P>
+<P>(a) Submit an application on forms and in a manner prescribed by the commissioner and verified by the applicant by affidavit or declaration under chapter 5.50 RCW. Applications must contain at least the following information:</P>
+<P>(i) The identity of the health care benefit manager and of persons with any ownership or controlling interest in the applicant including relevant business licenses and tax identification numbers, and the identity of any entity that the health care benefit manager has a controlling interest in;</P>
+<P>(ii) The business name, address, phone number, and contact person for the health care benefit manager;</P>
+<P>(iii) Any areas of specialty such as pharmacy benefit management, radiology benefit management, laboratory benefit management, mental health benefit management, or other specialty; and</P>
+<P>(iv) Any other information as the commissioner may reasonably require.</P>
+<P>(b) Pay an initial registration fee and annual renewal registration fee as established in rule by the commissioner. The fees for each registration must be set by the commissioner in an amount that ensures the registration, renewal, and oversight activities are self-supporting. If one health care benefit manager has a contract with more than one carrier, the health care benefit manager must complete only one application providing the details necessary for each contract.</P>
+<P>(3) All receipts from fees collected by the commissioner under this section must be deposited into the insurance commissioner's regulatory account created in RCW 48.02.190.</P>
+<P>(4) Before approving an application for or renewal of a registration, the commissioner must find that the health care benefit manager:</P>
+<P>(a) Has not committed any act that would result in denial, suspension, or revocation of a registration;</P>
+<P>(b) Has paid the required fees; and</P>
+<P>(c) Has the capacity to comply with, and has designated a person responsible for, compliance with state and federal laws.</P>
+<P>(5) Any material change in the information provided to obtain or renew a registration must be filed with the commissioner within thirty days of the change.</P>
+<P>(6) Every registered health care benefit manager must retain a record of all transactions completed for a period of not less than seven years from the date of their creation. All such records as to any particular transaction must be kept available and open to inspection by the commissioner during the seven years after the date of completion of such transaction.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) A health care benefit manager may not provide health care benefit management services to a health carrier or employee benefits programs without a written agreement describing the rights and responsibilities of the parties conforming to the provisions of this chapter and any rules adopted by the commissioner to implement or enforce this chapter including rules governing contract content.</P></BillSectionHeader>
+<P>(2) A health care benefit manager must file with the commissioner in the form and manner prescribed by the commissioner, every benefit management contract and contract amendment demonstrating compliance with this chapter between the health care benefit manager and a provider, pharmacy, pharmacy services administration organization, or other health care benefit manager, entered into directly or indirectly in support of a contract with a carrier or employee benefits programs, within thirty days following the effective date of the contract or contract amendment.</P>
+<P>(3) Contracts filed under this section are confidential and not subject to public inspection under RCW 48.02.120(2), or public disclosure under chapter 42.56 RCW, if filed in accordance with the procedures for submitting confidential filings through the system for electronic rate and form filings and the general filing instructions as set forth by the commissioner. In the event the referenced filing fails to comply with the filing instructions setting forth the process to withhold the contract from public inspection, and the health care benefit manager indicates that the contract is to be withheld from public inspection, the commissioner must reject the filing and notify the health care benefit manager through the system for electronic rate and form filings to amend its filing to comply with the confidentiality filing instructions.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>5</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) Upon notifying a carrier or health care benefit manager of an inquiry or complaint filed with the commissioner pertaining to the conduct of a health care benefit manager identified in the inquiry or complaint, the commissioner must provide notice of the inquiry or complaint concurrently to the health care benefit manager and any carrier to which the inquiry or complaint pertains.</P></BillSectionHeader>
+<P>(2) Upon receipt of an inquiry from the commissioner, a health care benefit manager must provide to the commissioner within fifteen business days, in the form and manner required by the commissioner, a complete response to that inquiry including, but not limited to, providing a statement or testimony, producing its accounts, records, and files, responding to complaints, or responding to surveys and general requests. Failure to make a complete or timely response constitutes a violation of this chapter.</P>
+<P>(3) Subject to chapter 48.04 RCW, if the commissioner finds that a health care benefit manager or any person responsible for the conduct of the health care benefit manager's affairs has:</P>
+<P>(a) Violated any insurance law, or violated any rule, subpoena, or order of the commissioner or of another state's insurance commissioner;</P>
+<P>(b) Failed to renew the health care benefit manager's registration;</P>
+<P>(c) Failed to pay the registration or renewal fees; </P>
+<P>(d) Provided incorrect, misleading, incomplete, or materially untrue information to the commissioner, to a carrier, or to a beneficiary;</P>
+<P>(e) Used fraudulent, coercive, or dishonest practices, or demonstrated incompetence, or financial irresponsibility in this state or elsewhere; or</P>
+<P>(f) Had a health care benefit manager registration, or its equivalent, denied, suspended, or revoked in any other state, province, district, or territory;</P>
+<P indent="0">the commissioner may take any combination of the following actions:</P>
+<P>(i) Place on probation, suspend, revoke, or refuse to issue or renew the health care benefit manager's registration;</P>
+<P>(ii) Issue a cease and desist order against the health care benefit manager and contracting carrier;</P>
+<P>(iii) Fine the health care benefit manager up to five thousand dollars per violation, and the contracting carrier is subject to a fine for acts conducted under the contract;</P>
+<P>(iv) Issue an order requiring corrective action against the health care benefit manager, the contracting carrier acting with the health care benefit manager, or both the health care benefit manager and the contracting carrier acting with the health care benefit manager; and</P>
+<P>(v) Temporarily suspend the health care benefit manager's registration by an order served by mail or by personal service upon the health care benefit manager not less than three days prior to the suspension effective date. The order must contain a notice of revocation and include a finding that the public safety or welfare requires emergency action. A temporary suspension under this subsection (3)(f)(v) continues until proceedings for revocation are concluded.</P>
+<P>(4) A stay of action is not available for actions the commissioner takes by cease and desist order, by order on hearing, or by temporary suspension.</P>
+<P>(5)(a) Health carriers and employee benefits programs are responsible for the compliance of any person or organization acting directly or indirectly on behalf of or at the direction of the carrier or program, or acting pursuant to carrier or program standards or requirements concerning the coverage of, payment for, or provision of health care benefits, services, drugs, and supplies.</P>
+<P>(b) A carrier or program contracting with a health care benefit manager is responsible for the health care benefit manager's violations of this chapter, including a health care benefit manager's failure to produce records requested or required by the commissioner.</P>
+<P>(c) No carrier or program may offer as a defense to a violation of any provision of this chapter that the violation arose from the act or omission of a health care benefit manager, or other person acting on behalf of or at the direction of the carrier or program, rather than from the direct act or omission of the carrier or program.</P>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>6</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>48</TitleNumber><TextRun>.</TextRun><ChapterNumber>43</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) A carrier must file with the commissioner in the form and manner prescribed by the commissioner every contract and contract amendment between the carrier and any health care benefit manager registered under section 3 of this act, within thirty days following the effective date of the contract or contract amendment.</P>
+<P>(2) For health plans issued or renewed on or after January 1, 2022, carriers must notify health plan enrollees in writing of each health care benefit manager contracted with the carrier to provide any benefit management services in the administration of the health plan.</P>
+<P>(3) Contracts filed under this section are confidential and not subject to public inspection under RCW 48.02.120(2), or public disclosure under chapter 42.56 RCW, if filed in accordance with the procedures for submitting confidential filings through the system for electronic rate and form filings and the general filing instructions as set forth by the commissioner. In the event the referenced filing fails to comply with the filing instructions setting forth the process to withhold the contract from public inspection, and the carrier indicates that the contract is to be withheld from public inspection, the commissioner must reject the filing and notify the carrier through the system for electronic rate and form filings to amend its filing to comply with the confidentiality filing instructions.</P>
+<P>(4) For purposes of this section, "health care benefit manager" has the same meaning as in section 2 of this act.</P>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>7</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>48</TitleNumber><TextRun>.</TextRun><ChapterNumber>02</ChapterNumber><TextRun>.</TextRun><SectionNumber>120</SectionNumber></SectionCite> and 2011 c 312 s 1 are each amended to read as follows:<Caption>Records<TextRun fontFamily="Times New Roman">—</TextRun>Public inspection.</Caption></BillSectionHeader>
+<P>(1) The commissioner shall preserve in permanent form records of his or her proceedings, hearings, investigations, and examinations, and shall file such records in his or her office.</P>
+<P>(2) The records of the commissioner and insurance filings in his or her office shall be open to public inspection, except as otherwise provided by <TextRun amendingStyle="add">sections 4 and 6 of this act and</TextRun> this code.</P>
+<P>(3) Except as provided in subsection (4) of this section, actuarial formulas, statistics, and assumptions submitted in support of a rate or form filing by an insurer, health care service contractor, or health maintenance organization or submitted to the commissioner upon his or her request shall be withheld from public inspection in order to preserve trade secrets or prevent unfair competition.</P>
+<P>(4) For individual and small group health benefit plan rate filings submitted on or after July 1, 2011, subsection (3) of this section applies only to the numeric values of each small group rating factor used by a health carrier as authorized by RCW 48.21.045(3)(a), 48.44.023(3)(a), and 48.46.066(3)(a). Subsection (3) of this section may continue to apply for a period of one year from the date a new individual or small group product filing is submitted or until the next rate filing for the product, whichever occurs earlier, if the commissioner determines that the proposed rate filing is for a new product that is distinct and unique from any of the carrier's currently or previously offered health benefit plans. Carriers must make a written request for a product classification as a new product under this subsection and must receive subsequent written approval by the commissioner for this subsection to apply.</P>
+<P>(5) Unless the commissioner has determined that a filing is for a new product pursuant to subsection (4) of this section, for all individual or small group health benefit rate filings submitted on or after July 1, 2011, the health carrier must submit part I rate increase summary and part II written explanation of the rate increase as set forth by the department of health and human services at the time of filing, and the commissioner must:</P>
+<P>(a) Make each filing and the part I rate increase summary and part II written explanation of the rate increase available for public inspection on the tenth calendar day after the commissioner determines that the rate filing is complete and accepts the filing for review through the electronic rate and form filing system; and</P>
+<P>(b) Prepare a standardized rate summary form, to explain his or her findings after the rate review process is completed. The commissioner's summary form must be included as part of the rate filing documentation and available to the public electronically.</P>
+<History>2011 c 312 § 1; 1985 c 264 § 2; 1979 ex.s. c 130 § 1; 1947 c 79 § .02.12; Rem. Supp. 1947 § 45.02.12.</History>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>8</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>48</TitleNumber><TextRun>.</TextRun><ChapterNumber>02</ChapterNumber><TextRun>.</TextRun><SectionNumber>220</SectionNumber></SectionCite> and 2016 c 210 s 5 are each amended to read as follows:<Caption>Pharmacy benefit managers<TextRun fontFamily="Times New Roman">—</TextRun>Registration<TextRun fontFamily="Times New Roman">—</TextRun>Enforcement authority<TextRun fontFamily="Times New Roman">—</TextRun>Rules.</Caption></BillSectionHeader>
+<P indent="1">(1) The commissioner shall accept registration of <TextRun amendingStyle="strike">pharmacy</TextRun> <TextRun amendingStyle="add">health care</TextRun> benefit managers as established in <TextRun amendingStyle="strike">RCW 19.340.030</TextRun> <TextRun amendingStyle="add">section 3 of this act</TextRun> and receipts shall be deposited in the insurance commissioner's regulatory account.</P>
+<P indent="1">(2) The commissioner shall have enforcement authority over chapter <TextRun amendingStyle="strike">19.340</TextRun> <TextRun amendingStyle="add">48.---</TextRun> RCW <TextRun amendingStyle="add">(the new chapter created in section 17 of this act)</TextRun> consistent with requirements established in RCW 19.340.110 <TextRun amendingStyle="add">(as recodified by this act)</TextRun>.</P>
+<P indent="1">(3) The commissioner may adopt rules to implement chapter <TextRun amendingStyle="strike">19.340</TextRun> <TextRun amendingStyle="add">48.---</TextRun> RCW <TextRun amendingStyle="add">(the new chapter created in section 17 of this act)</TextRun> and to establish registration and renewal fees that ensure the registration, renewal, and oversight activities are self-supporting.</P>
+<History>2016 c 210 § 5.</History>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>9</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>42</TitleNumber><TextRun>.</TextRun><ChapterNumber>56</ChapterNumber><TextRun>.</TextRun><SectionNumber>400</SectionNumber></SectionCite> and 2019 c 389 s 102 are each amended to read as follows:<Caption>Insurance and financial institutions.</Caption></BillSectionHeader>
+<P>The following information relating to insurance and financial institutions is exempt from disclosure under this chapter:</P>
+<P>(1) Records maintained by the board of industrial insurance appeals that are related to appeals of crime victims' compensation claims filed with the board under RCW 7.68.110;</P>
+<P>(2) Information obtained and exempted or withheld from public inspection by the health care authority under RCW 41.05.026, whether retained by the authority, transferred to another state purchased health care program by the authority, or transferred by the authority to a technical review committee created to facilitate the development, acquisition, or implementation of state purchased health care under chapter 41.05 RCW;</P>
+<P>(3) The names and individual identification data of either all owners or all insureds, or both, received by the insurance commissioner under chapter 48.102 RCW;</P>
+<P>(4) Information provided under RCW 48.30A.045 through 48.30A.060;</P>
+<P>(5) Information provided under RCW 48.05.510 through 48.05.535, 48.43.200 through 48.43.225, 48.44.530 through 48.44.555, and 48.46.600 through 48.46.625;</P>
+<P>(6) Examination reports and information obtained by the department of financial institutions from banks under RCW 30A.04.075, from savings banks under RCW 32.04.220, from savings and loan associations under RCW 33.04.110, from credit unions under RCW 31.12.565, from check cashers and sellers under RCW 31.45.030(3), and from securities brokers and investment advisers under RCW 21.20.100, all of which is confidential and privileged information;</P>
+<P>(7) Information provided to the insurance commissioner under RCW 48.110.040(3);</P>
+<P>(8) Documents, materials, or information obtained by the insurance commissioner under RCW 48.02.065, all of which are confidential and privileged;</P>
+<P>(9) Documents, materials, or information obtained by the insurance commissioner under RCW 48.31B.015(2) (l) and (m), 48.31B.025, 48.31B.030, and 48.31B.035, all of which are confidential and privileged;</P>
+<P>(10) Data filed under RCW 48.140.020, 48.140.030, 48.140.050, and 7.70.140 that, alone or in combination with any other data, may reveal the identity of a claimant, health care provider, health care facility, insuring entity, or self-insurer involved in a particular claim or a collection of claims. For the purposes of this subsection:</P>
+<P>(a) "Claimant" has the same meaning as in RCW 48.140.010(2).</P>
+<P>(b) "Health care facility" has the same meaning as in RCW 48.140.010(6).</P>
+<P>(c) "Health care provider" has the same meaning as in RCW 48.140.010(7).</P>
+<P>(d) "Insuring entity" has the same meaning as in RCW 48.140.010(8).</P>
+<P>(e) "Self-insurer" has the same meaning as in RCW 48.140.010(11);</P>
+<P>(11) Documents, materials, or information obtained by the insurance commissioner under RCW 48.135.060;</P>
+<P>(12) Documents, materials, or information obtained by the insurance commissioner under RCW 48.37.060;</P>
+<P>(13) Confidential and privileged documents obtained or produced by the insurance commissioner and identified in RCW 48.37.080;</P>
+<P>(14) Documents, materials, or information obtained by the insurance commissioner under RCW 48.37.140;</P>
+<P>(15) Documents, materials, or information obtained by the insurance commissioner under RCW 48.17.595;</P>
+<P>(16) Documents, materials, or information obtained by the insurance commissioner under RCW 48.102.051(1) and 48.102.140 (3) and (7)(a)(ii);</P>
+<P>(17) Documents, materials, or information obtained by the insurance commissioner in the commissioner's capacity as receiver under RCW 48.31.025 and 48.99.017, which are records under the jurisdiction and control of the receivership court. The commissioner is not required to search for, log, produce, or otherwise comply with the public records act for any records that the commissioner obtains under chapters 48.31 and 48.99 RCW in the commissioner's capacity as a receiver, except as directed by the receivership court;</P>
+<P>(18) Documents, materials, or information obtained by the insurance commissioner under RCW 48.13.151;</P>
+<P>(19) Data, information, and documents provided by a carrier pursuant to section 1, chapter 172, Laws of 2010;</P>
+<P>(20) Information in a filing of usage-based insurance about the usage-based component of the rate pursuant to RCW 48.19.040(5)(b);</P>
+<P>(21) Data, information, and documents, other than those described in RCW 48.02.210(2) as it existed prior to repeal by section 2, chapter 7, Laws of 2017 3rd sp. sess., that are submitted to the office of the insurance commissioner by an entity providing health care coverage pursuant to RCW 28A.400.275 as it existed on January 1, 2017, and RCW 48.02.210 as it existed prior to repeal by section 2, chapter 7, Laws of 2017 3rd sp. sess.;</P>
+<P>(22) Data, information, and documents obtained by the insurance commissioner under RCW 48.29.017;</P>
+<P>(23) Information not subject to public inspection or public disclosure under RCW 48.43.730(5);</P>
+<P>(24) Documents, materials, or information obtained by the insurance commissioner under chapter 48.05A RCW;</P>
+<P>(25) Documents, materials, or information obtained by the insurance commissioner under RCW 48.74.025, 48.74.028, 48.74.100(6), 48.74.110(2) (b) and (c), and 48.74.120 to the extent such documents, materials, or information independently qualify for exemption from disclosure as documents, materials, or information in possession of the commissioner pursuant to a financial conduct examination and exempt from disclosure under RCW 48.02.065;</P>
+<P>(26) Nonpublic personal health information obtained by, disclosed to, or in the custody of the insurance commissioner, as provided in RCW 48.02.068;</P>
+<P>(27) Data, information, and documents obtained by the insurance commissioner under RCW 48.02.230;</P>
+<P>(28) Documents, materials, or other information, including the corporate annual disclosure obtained by the insurance commissioner under RCW 48.195.020;</P>
+<P>(29) Findings and orders disapproving acquisition of a trust institution under RCW 30B.53.100(3); <TextRun amendingStyle="strike">and</TextRun></P>
+<P>(30) All claims data, including health care and financial related data received under RCW 41.05.890, received and held by the health care authority<TextRun amendingStyle="add">; and</TextRun></P>
+<P><TextRun amendingStyle="add">(31) Contracts not subject to public disclosure under sections 4 and 6 of this act</TextRun>.</P>
+<History>2019 c 389 § 102. Prior: 2018 c 260 § 32; 2018 c 30 § 9; prior: 2017 3rd sp.s. c 30 § 2; 2017 c 193 § 2; prior: 2016 c 142 § 20; (2016 c 142 § 19 expired July 1, 2017); 2016 c 122 § 4; prior: 2015 c 122 § 14; 2015 c 122 § 13; 2015 c 17 § 11; 2015 c 17 § 10; prior: 2013 c 277 § 5; 2013 c 65 § 5; 2012 2nd sp.s. c 3 § 8; 2012 c 222 § 2; 2011 c 188 § 21; prior: 2010 c 172 § 2; 2010 c 97 § 3; 2009 c 104 § 23; prior: 2007 c 197 § 7; 2007 c 117 § 36; 2007 c 82 § 17; prior: 2006 c 284 § 17; 2006 c 8 § 210; 2005 c 274 § 420.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2018 c 260 §§ 14, 22, 23, 31, and 32:</TextRun> See note following RCW 41.05.075.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2018 c 30:</TextRun> See note following RCW 48.195.005.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2017 3rd sp.s. c 30:</TextRun> See note following RCW 48.02.230.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2016 c 142 § 20:</TextRun> "Section 20 of this act takes effect July 1, 2017." [2016 c 142 § 23.]</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Expiration date<TextRun fontFamily="Times New Roman">—</TextRun>2016 c 142 § 19:</TextRun> "Section 19 of this act expires July 1, 2017." [2016 c 142 § 22.]</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2016 c 142:</TextRun> See note following RCW 48.74.010.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Intent<TextRun fontFamily="Times New Roman">—</TextRun>2016 c 122:</TextRun> See note following RCW 48.46.243.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective dates<TextRun fontFamily="Times New Roman">—</TextRun>2015 c 122:</TextRun> See note following RCW 48.31B.005.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Short title<TextRun fontFamily="Times New Roman">—</TextRun>Effective dates<TextRun fontFamily="Times New Roman">—</TextRun>2015 c 17:</TextRun> See RCW 48.05A.900 and 48.05A.901.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Findings<TextRun fontFamily="Times New Roman">—</TextRun>Goals<TextRun fontFamily="Times New Roman">—</TextRun>Intent<TextRun fontFamily="Times New Roman">—</TextRun>2012 2nd sp.s. c 3:</TextRun> See note following RCW 28A.400.275.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2011 c 188:</TextRun> See RCW 48.13.900.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2007 c 117:</TextRun> See RCW 48.17.901.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2006 c 284:</TextRun> See RCW 48.135.901.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2006 c 8 §§ 112 and 210:</TextRun> See note following RCW 42.56.360.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Findings<TextRun fontFamily="Times New Roman">—</TextRun>Intent<TextRun fontFamily="Times New Roman">—</TextRun>Part headings and subheadings not law<TextRun fontFamily="Times New Roman">—</TextRun>Severability<TextRun fontFamily="Times New Roman">—</TextRun>2006 c 8:</TextRun> See notes following RCW 5.64.010.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>10</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>19</TitleNumber><TextRun>.</TextRun><ChapterNumber>340</ChapterNumber><TextRun>.</TextRun><SectionNumber>020</SectionNumber></SectionCite> and 2014 c 213 s 3 are each amended to read as follows:<Caption>Definitions applicable to RCW 19.340.040 through 19.340.090.</Caption></BillSectionHeader>
+<P><TextRun amendingStyle="strike">As used in</TextRun> <TextRun amendingStyle="add">The definitions in this section apply throughout</TextRun> this section and RCW 19.340.040 through <TextRun amendingStyle="strike">19.340.090:</TextRun> <TextRun amendingStyle="add">19.340.110 (as recodified by this act) unless the context clearly requires otherwise.</TextRun></P>
+<P>(1) "Audit" means an on-site or remote review of the records of a pharmacy by or on behalf of an entity.</P>
+<P>(2) <TextRun amendingStyle="add">"Claim" means a request from a pharmacy or pharmacist to be reimbursed for the cost of filling or refilling a prescription for a drug or for providing a medical supply or service.</TextRun></P>
+<P><TextRun amendingStyle="add">(3)</TextRun> "Clerical error" means a minor error:</P>
+<P>(a) In the keeping, recording, or transcribing of records or documents or in the handling of electronic or hard copies of correspondence;</P>
+<P>(b) That does not result in financial harm to an entity; and</P>
+<P>(c) That does not involve dispensing an incorrect dose, amount<TextRun amendingStyle="add">,</TextRun> or type of medication, or dispensing a prescription drug to the wrong person.</P>
+<P><TextRun amendingStyle="strike">(3)</TextRun> <TextRun amendingStyle="add">(4)</TextRun> "Entity" includes:</P>
+<P>(a) A pharmacy benefit manager;</P>
+<P>(b) An insurer;</P>
+<P>(c) A third-party payor;</P>
+<P>(d) A state agency; or</P>
+<P>(e) A person that represents or is employed by one of the entities described in this subsection.</P>
+<P><TextRun amendingStyle="strike">(4)</TextRun> <TextRun amendingStyle="add">(5)</TextRun> "Fraud" means knowingly and willfully executing or attempting to execute a scheme, in connection with the delivery of or payment for health care benefits, items, or services, that uses false or misleading pretenses, representations, or promises to obtain any money or property owned by or under the custody or control of any person.</P>
+<P><TextRun amendingStyle="add">(6) "Pharmacist" has the same meaning as in RCW 18.64.011.</TextRun></P>
+<P><TextRun amendingStyle="add">(7) "Pharmacy" has the same meaning as in RCW 18.64.011.</TextRun></P>
+<P><TextRun amendingStyle="add">(8) "Third-party payor" means a person licensed under RCW 48.39.005.</TextRun></P>
+<History>2014 c 213 § 3.</History>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>11</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>19</TitleNumber><TextRun>.</TextRun><ChapterNumber>340</ChapterNumber><TextRun>.</TextRun><SectionNumber>040</SectionNumber></SectionCite> and 2014 c 213 s 4 are each amended to read as follows:<Caption>Auditing of claims<TextRun fontFamily="Times New Roman">—</TextRun>Requirements<TextRun fontFamily="Times New Roman">—</TextRun>Prohibited practices.</Caption></BillSectionHeader>
+<P>An entity that audits claims or an independent third party that contracts with an entity to audit claims:</P>
+<P>(1) Must establish, in writing, a procedure for a pharmacy to appeal the entity's findings with respect to a claim and must provide a pharmacy with a notice regarding the procedure, in writing or electronically, prior to conducting an audit of the pharmacy's claims;</P>
+<P>(2) May not conduct an audit of a claim more than twenty-four months after the date the claim was adjudicated by the entity;</P>
+<P>(3) Must give at least fifteen days' advance written notice of an on-site audit to the pharmacy or corporate headquarters of the pharmacy;</P>
+<P>(4) May not conduct an on-site audit during the first five days of any month without the pharmacy's consent;</P>
+<P>(5) Must conduct the audit in consultation with a pharmacist who is licensed by this or another state if the audit involves clinical or professional judgment;</P>
+<P>(6) May not conduct an on-site audit of more than two hundred fifty unique prescriptions of a pharmacy in any twelve-month period except in cases of alleged fraud;</P>
+<P>(7) May not conduct more than one on-site audit of a pharmacy in any twelve-month period;</P>
+<P>(8) Must audit each pharmacy under the same standards and parameters that the entity uses to audit other similarly situated pharmacies;</P>
+<P>(9) Must pay any outstanding claims of a pharmacy no more than forty-five days after the earlier of the date all appeals are concluded or the date a final report is issued under RCW 19.340.080(3) <TextRun amendingStyle="add">(as recodified by this act)</TextRun>;</P>
+<P>(10) May not include dispensing fees or interest in the amount of any overpayment assessed on a claim unless the overpaid claim was for a prescription that was not filled correctly;</P>
+<P>(11) May not recoup costs associated with:</P>
+<P>(a) Clerical errors; or</P>
+<P>(b) Other errors that do not result in financial harm to the entity or a consumer; and</P>
+<P>(12) May not charge a pharmacy for a denied or disputed claim until the audit and the appeals procedure established under subsection (1) of this section are final.</P>
+<History>2014 c 213 § 4.</History>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>12</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>19</TitleNumber><TextRun>.</TextRun><ChapterNumber>340</ChapterNumber><TextRun>.</TextRun><SectionNumber>070</SectionNumber></SectionCite> and 2014 c 213 s 7 are each amended to read as follows:<Caption>Evidence of validation of claim.</Caption></BillSectionHeader>
+<P>For purposes of RCW 19.340.020 and 19.340.040 through 19.340.090 <TextRun amendingStyle="add">(as recodified by this act)</TextRun>, an entity, or an independent third party that contracts with an entity to conduct audits, must allow as evidence of validation of a claim:</P>
+<P>(1) An electronic or physical copy of a valid prescription if the prescribed drug was, within fourteen days of the dispensing date:</P>
+<P>(a) Picked up by the patient or the patient's designee;</P>
+<P>(b) Delivered by the pharmacy to the patient; or</P>
+<P>(c) Sent by the pharmacy to the patient using the United States postal service or other common carrier;</P>
+<P>(2) Point of sale electronic register data showing purchase of the prescribed drug, medical supply, or service by the patient or the patient's designee; or</P>
+<P>(3) Electronic records, including electronic beneficiary signature logs, electronically scanned and stored patient records maintained at or accessible to the audited pharmacy's central operations, and any other reasonably clear and accurate electronic documentation that corresponds to a claim.</P>
+<History>2014 c 213 § 7.</History>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>13</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>19</TitleNumber><TextRun>.</TextRun><ChapterNumber>340</ChapterNumber><TextRun>.</TextRun><SectionNumber>080</SectionNumber></SectionCite> and 2014 c 213 s 8 are each amended to read as follows:<Caption>Preliminary audit report<TextRun fontFamily="Times New Roman">—</TextRun>Dispute or denial of claim<TextRun fontFamily="Times New Roman">—</TextRun>Final audit report<TextRun fontFamily="Times New Roman">—</TextRun>Recoupment of disputed funds.</Caption></BillSectionHeader>
+<P>(1)(a) After conducting an audit, an entity must provide the pharmacy that is the subject of the audit with a preliminary report of the audit. The preliminary report must be received by the pharmacy no later than forty-five days after the date on which the audit was completed and must be sent:</P>
+<P>(i) By mail or common carrier with a return receipt requested; or</P>
+<P>(ii) Electronically with electronic receipt confirmation.</P>
+<P>(b) An entity shall provide a pharmacy receiving a preliminary report under this subsection no fewer than forty-five days after receiving the report to contest the report or any findings in the report in accordance with the appeals procedure established under RCW 19.340.040(1) <TextRun amendingStyle="add">(as recodified by this act)</TextRun> and <TextRun amendingStyle="strike">to provide</TextRun> <TextRun amendingStyle="add">must allow the submission of</TextRun> additional documentation in support of the claim. The entity shall consider a reasonable request for an extension of time to submit documentation to contest the report or any findings in the report.</P>
+<P>(2) If an audit results in the dispute or denial of a claim, the entity conducting the audit shall allow the pharmacy to resubmit the claim using any commercially reasonable method, including facsimile, mail, or <TextRun amendingStyle="strike">electronic mail</TextRun> <TextRun amendingStyle="add">email</TextRun>.</P>
+<P>(3) An entity must provide a pharmacy that is the subject of an audit with a final report of the audit no later than sixty days after the later of the date the preliminary report was received or the date the pharmacy contested the report using the appeals procedure established under RCW 19.340.040(1) <TextRun amendingStyle="add">(as recodified by this act)</TextRun>. The final report must include a final accounting of all moneys to be recovered by the entity.</P>
+<P>(4) Recoupment of disputed funds from a pharmacy by an entity or repayment of funds to an entity by a pharmacy, unless otherwise agreed to by the entity and the pharmacy, shall occur after the audit and the appeals procedure established under RCW 19.340.040(1) <TextRun amendingStyle="add">(as recodified by this act)</TextRun> are final. If the identified discrepancy for an individual audit exceeds forty thousand dollars, any future payments to the pharmacy may be withheld by the entity until the audit and the appeals procedure established under RCW 19.340.040(1) <TextRun amendingStyle="add">(as recodified by this act)</TextRun> are final.</P>
+<History>2014 c 213 § 8.</History>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>14</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>19</TitleNumber><TextRun>.</TextRun><ChapterNumber>340</ChapterNumber><TextRun>.</TextRun><SectionNumber>090</SectionNumber></SectionCite> and 2014 c 213 s 9 are each amended to read as follows:<Caption>Application.</Caption></BillSectionHeader>
+<P>RCW 19.340.020 and 19.340.040 through 19.340.090 <TextRun amendingStyle="add">(as recodified by this act)</TextRun> do not:</P>
+<P>(1) Preclude an entity from instituting an action for fraud against a pharmacy;</P>
+<P>(2) Apply to an audit of pharmacy records when fraud or other intentional and willful misrepresentation is indicated by physical review, review of claims data or statements, or other investigative methods; or</P>
+<P>(3) Apply to a state agency that is conducting audits or a person that has contracted with a state agency to conduct audits of pharmacy records for prescription drugs paid for by the state medical assistance program.</P>
+<History>2014 c 213 § 9.</History>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>15</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>19</TitleNumber><TextRun>.</TextRun><ChapterNumber>340</ChapterNumber><TextRun>.</TextRun><SectionNumber>100</SectionNumber></SectionCite> and 2016 c 210 s 4 are each amended to read as follows:<Caption>Predetermination of reimbursement costs<TextRun fontFamily="Times New Roman">—</TextRun>Appeals<TextRun fontFamily="Times New Roman">—</TextRun>Review by commissioner.</Caption></BillSectionHeader>
+<P>(1) <TextRun amendingStyle="strike">As used in this section:</TextRun> <TextRun amendingStyle="add">The definitions in this subsection apply throughout this section unless the context clearly requires otherwise.</TextRun></P>
+<P>(a) "List" means the list of drugs for which predetermined reimbursement costs have been established, such as a maximum allowable cost or maximum allowable cost list or any other benchmark prices utilized by the pharmacy benefit manager and must include the basis of the methodology and sources utilized to determine multisource generic drug reimbursement amounts.</P>
+<P>(b) "Multiple source drug" means a therapeutically equivalent drug that is available from at least two manufacturers.</P>
+<P>(c) "Multisource generic drug" means any covered outpatient prescription drug for which there is at least one other drug product that is rated as therapeutically equivalent under the food and drug administration's most recent publication of "Approved Drug Products with Therapeutic Equivalence Evaluations;" is pharmaceutically equivalent or bioequivalent, as determined by the food and drug administration; and is sold or marketed in the state during the period.</P>
+<P>(d) "Network pharmacy" means a retail drug outlet licensed as a pharmacy under RCW 18.64.043 that contracts with a pharmacy benefit manager.</P>
+<P>(e) "Therapeutically equivalent" has the same meaning as in RCW 69.41.110.</P>
+<P>(2) A pharmacy benefit manager:</P>
+<P>(a) May not place a drug on a list unless there are at least two therapeutically equivalent multiple source drugs, or at least one generic drug available from only one manufacturer, generally available for purchase by network pharmacies from national or regional wholesalers;</P>
+<P>(b) Shall ensure that all drugs on a list are readily available for purchase by pharmacies in this state from national or regional wholesalers that serve pharmacies in Washington;</P>
+<P>(c) Shall ensure that all drugs on a list are not obsolete;</P>
+<P>(d) Shall make available to each network pharmacy at the beginning of the term of a contract, and upon renewal of a contract, the sources utilized to determine the predetermined reimbursement costs for multisource generic drugs of the pharmacy benefit manager;</P>
+<P>(e) Shall make a list available to a network pharmacy upon request in a format that is readily accessible to and usable by the network pharmacy;</P>
+<P>(f) Shall update each list maintained by the pharmacy benefit manager every seven business days and make the updated lists, including all changes in the price of drugs, available to network pharmacies in a readily accessible and usable format;</P>
+<P>(g) Shall ensure that dispensing fees are not included in the calculation of the predetermined reimbursement costs for multisource generic drugs<TextRun amendingStyle="add">;</TextRun></P>
+<P><TextRun amendingStyle="add">(h) May not cause or knowingly permit the use of any advertisement, promotion, solicitation, representation, proposal, or offer that is untrue, deceptive, or misleading;</TextRun></P>
+<P><TextRun amendingStyle="add">(i) May not charge a pharmacy a fee related to the adjudication of a claim, credentialing, participation, certification, accreditation, or enrollment in a network including, but not limited to, a fee for the receipt and processing of a pharmacy claim, for the development or management of claims processing services in a pharmacy benefit manager network, or for participating in a pharmacy benefit manager network;</TextRun></P>
+<P><TextRun amendingStyle="add">(j) May not require accreditation standards inconsistent with or more stringent than accreditation standards established by a national accreditation organization;</TextRun></P>
+<P><TextRun amendingStyle="add">(k) May not reimburse a pharmacy in the state an amount less than the amount the pharmacy benefit manager reimburses an affiliate for providing the same pharmacy services; and</TextRun></P>
+<P><TextRun amendingStyle="add">(l) May not directly or indirectly retroactively deny or reduce a claim or aggregate of claims after the claim or aggregate of claims has been adjudicated, unless:</TextRun></P>
+<P><TextRun amendingStyle="add">(i) The original claim was submitted fraudulently; or</TextRun></P>
+<P><TextRun amendingStyle="add">(ii) The denial or reduction is the result of a pharmacy audit conducted in accordance with RCW 19.340.040 (as recodified</TextRun><TextRun amendingStyle="add"> by this act)</TextRun>.</P>
+<P>(3) A pharmacy benefit manager must establish a process by which a network pharmacy may appeal its reimbursement for a drug subject to predetermined reimbursement costs for multisource generic drugs. A network pharmacy may appeal a predetermined reimbursement cost for a multisource generic drug if the reimbursement for the drug is less than the net amount that the network pharmacy paid to the supplier of the drug. An appeal requested under this section must be completed within thirty calendar days of the pharmacy submitting the appeal. If after thirty days the network pharmacy has not received the decision on the appeal from the pharmacy benefit manager, then the appeal is considered denied.</P>
+<P>The pharmacy benefit manager shall uphold the appeal of a pharmacy with fewer than fifteen retail outlets, within the state of Washington, under its corporate umbrella if the pharmacy or pharmacist can demonstrate that it is unable to purchase a therapeutically equivalent interchangeable product from a supplier doing business in Washington at the pharmacy benefit manager's list price.</P>
+<P>(4) A pharmacy benefit manager must provide as part of the appeals process established under subsection (3) of this section:</P>
+<P>(a) A telephone number at which a network pharmacy may contact the pharmacy benefit manager and speak with an individual who is responsible for processing appeals; and</P>
+<P>(b) If the appeal is denied, the reason for the denial and the national drug code of a drug that has been purchased by other network pharmacies located in Washington at a price that is equal to or less than the predetermined reimbursement cost for the multisource generic drug. A pharmacy with fifteen or more retail outlets, within the state of Washington, under its corporate umbrella may submit information to the commissioner about an appeal under subsection (3) of this section for purposes of information collection and analysis.</P>
+<P>(5)(a) If an appeal is upheld under this section, the pharmacy benefit manager shall make a reasonable adjustment on a date no later than one day after the date of determination.</P>
+<P>(b) If the request for an adjustment has come from a critical access pharmacy, as defined by the state health care authority by rule for purposes related to the prescription drug purchasing consortium established under RCW 70.14.060, the adjustment approved under (a) of this subsection shall apply only to critical access pharmacies.</P>
+<P>(6) Beginning July 1, 2017, if a network pharmacy appeal to the pharmacy benefit manager is denied, or if the network pharmacy is unsatisfied with the outcome of the appeal, the pharmacy or pharmacist may dispute the decision and request review by the commissioner within thirty calendar days of receiving the decision.</P>
+<P>(a) All relevant information from the parties may be presented to the commissioner, and the commissioner may enter an order directing the pharmacy benefit manager to make an adjustment to the disputed claim, deny the pharmacy appeal, or take other actions deemed fair and equitable. An appeal requested under this section must be completed within thirty calendar days of the request.</P>
+<P>(b) Upon resolution of the dispute, the commissioner shall provide a copy of the decision to both parties within seven calendar days.</P>
+<P>(c) The commissioner may authorize the office of administrative hearings, as provided in chapter 34.12 RCW, to conduct appeals under this subsection (6).</P>
+<P>(d) A pharmacy benefit manager may not retaliate against a pharmacy for pursuing an appeal under this subsection (6).</P>
+<P>(e) This subsection (6) applies only to a pharmacy with fewer than fifteen retail outlets, within the state of Washington, under its corporate umbrella.</P>
+<P>(7) This section does not apply to the state medical assistance program.</P>
+<P><TextRun amendingStyle="strike">(8) A pharmacy benefit manager shall comply with any requests for information from the commissioner for purposes of the study of the pharmacy chain of supply conducted under section 7, chapter 210, Laws of 2016.</TextRun></P>
+<History>2016 c 210 § 4; 2014 c 213 § 10.</History>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>16</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>19</TitleNumber><TextRun>.</TextRun><ChapterNumber>340</ChapterNumber><TextRun>.</TextRun><SectionNumber>110</SectionNumber></SectionCite> and 2016 c 210 s 2 are each amended to read as follows:<Caption>Enforcement<TextRun fontFamily="Times New Roman">—</TextRun>Disputes<TextRun fontFamily="Times New Roman">—</TextRun>Civil penalties.</Caption></BillSectionHeader>
+<P>(1) The commissioner shall have enforcement authority over this chapter and shall have authority to render a binding decision in any dispute between a pharmacy benefit manager, or third-party administrator of prescription drug benefits, and a pharmacy arising out of an appeal under RCW 19.340.100(6) <TextRun amendingStyle="add">(as recodified by this act)</TextRun> regarding drug pricing and reimbursement.</P>
+<P>(2) Any person, corporation, third-party administrator of prescription drug benefits, pharmacy benefit manager, or business entity which violates any provision of this chapter shall be subject to a civil penalty in the amount of one thousand dollars for each act in violation of this chapter or, if the violation was knowing and willful, a civil penalty of five thousand dollars for each violation of this chapter.</P>
+<History>2016 c 210 § 2.</History>
+</BillSection>
+<BillSection type="new" action="addchap">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>17</Value><TextRun>.  </TextRun></BillSectionNumber><P>Sections 1 through 5 of this act constitute a new chapter in <TitleCite><TextRun>Title </TextRun><TitleNumber>48</TitleNumber><TextRun> RCW</TextRun></TitleCite>.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="recod">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>18</Value><TextRun>.  </TextRun></BillSectionNumber><P><SectionCite><TextRun>RCW </TextRun><TitleNumber>19</TitleNumber><TextRun>.</TextRun><ChapterNumber>340</ChapterNumber><TextRun>.</TextRun><SectionNumber>020</SectionNumber></SectionCite>, <SectionCite><TitleNumber>19</TitleNumber><TextRun>.</TextRun><ChapterNumber>340</ChapterNumber><TextRun>.</TextRun><SectionNumber>040</SectionNumber></SectionCite>, <SectionCite><TitleNumber>19</TitleNumber><TextRun>.</TextRun><ChapterNumber>340</ChapterNumber><TextRun>.</TextRun><SectionNumber>050</SectionNumber></SectionCite>, <SectionCite><TitleNumber>19</TitleNumber><TextRun>.</TextRun><ChapterNumber>340</ChapterNumber><TextRun>.</TextRun><SectionNumber>060</SectionNumber></SectionCite>, <SectionCite><TitleNumber>19</TitleNumber><TextRun>.</TextRun><ChapterNumber>340</ChapterNumber><TextRun>.</TextRun><SectionNumber>070</SectionNumber></SectionCite>, <SectionCite><TitleNumber>19</TitleNumber><TextRun>.</TextRun><ChapterNumber>340</ChapterNumber><TextRun>.</TextRun><SectionNumber>080</SectionNumber></SectionCite>, <SectionCite><TitleNumber>19</TitleNumber><TextRun>.</TextRun><ChapterNumber>340</ChapterNumber><TextRun>.</TextRun><SectionNumber>090</SectionNumber></SectionCite>, <SectionCite><TitleNumber>19</TitleNumber><TextRun>.</TextRun><ChapterNumber>340</ChapterNumber><TextRun>.</TextRun><SectionNumber>100</SectionNumber></SectionCite>, and <SectionCite><TitleNumber>19</TitleNumber><TextRun>.</TextRun><ChapterNumber>340</ChapterNumber><TextRun>.</TextRun><SectionNumber>110</SectionNumber></SectionCite> are each recodified as sections under a subchapter in chapter 48.--- RCW (the new chapter created in section 17 of this act).</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="repeal">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>19</Value><TextRun>.  </TextRun></BillSectionNumber><P>The following acts or parts of acts are each repealed:</P></BillSectionHeader>
+<P><RepealNumber>1</RepealNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>19</TitleNumber><TextRun>.</TextRun><ChapterNumber>340</ChapterNumber><TextRun>.</TextRun><SectionNumber>010</SectionNumber></SectionCite> (Definitions) and 2016 c 210 s 3 &amp; 2014 c 213 s 1;</P>
+<P><RepealNumber>2</RepealNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>19</TitleNumber><TextRun>.</TextRun><ChapterNumber>340</ChapterNumber><TextRun>.</TextRun><SectionNumber>030</SectionNumber></SectionCite> (Pharmacy benefit managers<TextRun fontFamily="Times New Roman">—</TextRun>Registration<TextRun fontFamily="Times New Roman">—</TextRun>Renewal) and 2016 c 210 s 1 &amp; 2014 c 213 s 2; and</P>
+<P><RepealNumber>3</RepealNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>19</TitleNumber><TextRun>.</TextRun><ChapterNumber>365</ChapterNumber><TextRun>.</TextRun><SectionNumber>010</SectionNumber></SectionCite> (Registration required<TextRun fontFamily="Times New Roman">—</TextRun>Requirements) and 2015 c 166 s 1.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>20</Value><TextRun>.  </TextRun></BillSectionNumber><P>The insurance commissioner may adopt any rules necessary to implement this act.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>21</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) The performance-based pharmacy contract work group is established. The work group membership must consist of the following members appointed by the governor:</P></BillSectionHeader>
+<P>(a) A representative from the prescription drug purchasing consortium described in RCW 70.14.060;</P>
+<P>(b) A representative from the pharmacy quality assurance commission;</P>
+<P>(c) A representative from an association representing independent pharmacies;</P>
+<P>(d) A representative from an association representing chain pharmacies;</P>
+<P>(e) A representative from each health carrier offering at least one health plan in a commercial market in the state;</P>
+<P>(f) A representative from each health carrier offering at least one health plan to medicaid enrollees in the state;</P>
+<P>(g) A representative from an association representing health carriers;</P>
+<P>(h) A representative from the public employees' benefits board or the school employees' benefits board;</P>
+<P>(i) A representative from the health care authority;</P>
+<P>(j) A representative from a pharmacy benefit manager; and</P>
+<P>(k) A representative from a state agency that purchases health care services and drugs for a selected population.</P>
+<P>(2) The work group shall review the use of performance-based contracts in the delivery of pharmacy benefits and develop recommendations on designs and use of performance-based contracts.</P>
+<P>(3) Staff support for the work group shall be provided by the office of the insurance commissioner.</P>
+<P>(4) By December 1, 2020, the work group shall submit a report to the governor and the legislature detailing the current use of performance-based contracts in the delivery of pharmacy benefits and any recommendations for designs or use of performance-based contracts in the delivery of pharmacy benefits. The report must include any statutory changes necessary to implement the recommendations.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>22</Value><TextRun>.  </TextRun></BillSectionNumber><P>If any provision of this act or its application to any person or circumstance is held invalid, the remainder of the act or the application of the provision to other persons or circumstances is not affected.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="effdate">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>23</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) Sections 1 through 19 of this act take effect January 1, 2022.</P></BillSectionHeader>
+<P>(2) Section 20 of this act takes effect July 1, 2021.</P>
+</BillSection>
+</BillBody>
+</Bill>

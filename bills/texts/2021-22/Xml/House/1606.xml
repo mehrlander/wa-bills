@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-1661.1</RequestNumber><ShortBillId>HB 1606</ShortBillId><LongBillId>HOUSE BILL 1606</LongBillId><Legislature>67th Legislature</Legislature><Session>2022 Regular Session</Session><Sponsors>Representatives Barkis, Abbarno, Caldier, Eslick, Walsh, Robertson, Graham, Corry, Stokesbary, Sutherland, Dufault, Gilday, Jacobsen, Griffey, Chambers, and Young</Sponsors><BillHistory><PrefiledDate>Prefiled 12/07/21.</PrefiledDate><ReadDate>Read first time 01/10/22.</ReadDate><ReferredCommittee>Referred to Committee on Environment &amp; Energy.</ReferredCommittee></BillHistory><BriefDescription>Concerning the correction of culverts.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to the correction of culverts; amending RCW 47.01.515; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature finds that the federal court injunction in <TextRun fontStyle="italic">U.S. v. Washington</TextRun> directs the state to correct culverts under state maintained roads that hinder fish passage and create barriers for fish to swim upstream by 2030. The court order imposed environmental justice obligations to correct adverse impacts. The legislature finds the court order addresses the same issues that are sought to be addressed by chapter 314, Laws of 2021. Further review of projects only delay the correction of the adverse impacts and are counterproductive to the improved outcomes being sought. For this reason, the legislature is directing the department of transportation to forego review under chapter 70A.02 RCW.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>47</TitleNumber><TextRun>.</TextRun><ChapterNumber>01</ChapterNumber><TextRun>.</TextRun><SectionNumber>515</SectionNumber></SectionCite> and 2021 c 314 s 9 are each amended to read as follows:<Caption>Environmental justice obligations of the department of transportation.</Caption></BillSectionHeader>
+<P><TextRun amendingStyle="add">(1)</TextRun> The department must apply and comply with the substantive and procedural requirements of chapter 70A.02 RCW <TextRun amendingStyle="add">unless otherwise directed by law.</TextRun></P>
+<P><TextRun amendingStyle="add">(2) The requirements imposed on the department by this section do not apply to any project correcting a fish barrier as directed by the 2013 federal court injunction issued in <TextRun fontStyle="italic">U.S. v. Washington</TextRun></TextRun>.</P>
+<History>2021 c 314 § 9.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Conflict with federal requirements<TextRun fontFamily="Times New Roman">—</TextRun>2021 c 314:</TextRun> See note following RCW 70A.02.005.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+</BillBody>
+</Bill>

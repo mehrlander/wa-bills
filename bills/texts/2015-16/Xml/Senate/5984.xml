@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-1554.1</RequestNumber><ShortBillId>SB 5984</ShortBillId><LongBillId>SENATE BILL 5984</LongBillId><Legislature>64th Legislature</Legislature><Session>2015 Regular Session</Session><Sponsors>Senators Kohl-Welles and Roach</Sponsors><BillHistory><ReadDate>Read first time 02/13/15.</ReadDate><ReferredCommittee>Referred to Committee on Ways &amp; Means.</ReferredCommittee></BillHistory><BriefDescription>Concerning a leasehold excise tax credit for properties of market value in excess of ten million dollars.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to a leasehold excise tax credit for properties of market value in excess of ten million dollars; and amending RCW 82.29A.120.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>82</TitleNumber><TextRun>.</TextRun><ChapterNumber>29A</ChapterNumber><TextRun>.</TextRun><SectionNumber>120</SectionNumber></SectionCite> and 2013 c 235 s 3 are each amended to read as follows:<Caption>Allowable credits.</Caption></BillSectionHeader>
+<P>After computation of the taxes imposed pursuant to RCW 82.29A.030 and 82.29A.040, the following credits are allowed in determining the tax payable:</P>
+<P>(1) For lessees and sublessees who would qualify for a property tax exemption under RCW 84.36.381 if the property were privately owned, the tax otherwise due after this credit <TextRun amendingStyle="strike">shall</TextRun> <TextRun amendingStyle="add">must</TextRun> be reduced by a percentage equal to the percentage reduction in property tax that would result from the property tax exemption under RCW 84.36.381; and</P>
+<P>(2) A credit of thirty-three percent of the tax otherwise due is allowed with respect to a product lease.</P>
+<P><TextRun amendingStyle="add">(3)(a) For a leasehold interest in real property, a credit is allowed equal to the amount that the tax under this chapter exceeds the property tax that would apply if the real property were privately owned by the taxpayer.</TextRun></P>
+<P><TextRun amendingStyle="add">(b) The credit under this section is available only if the tax parcel that is subject to the leasehold interest has a market value in excess of ten million dollars. If the leasehold interest attaches to two or more parcels, the credit is available if at least one of the tax parcels has a market value in excess of ten million dollars. In either case, the market value must be determined as of January 1st of the year prior to the year for which the credit is claimed.</TextRun></P>
+<P><TextRun amendingStyle="add">(c) For purposes of calculating the credit:</TextRun></P>
+<P><TextRun amendingStyle="add">(i) If a tax parcel does not have current assessed value in accordance with RCW 84.40.020, a market value appraisal performed by a Washington state-certified general real estate appraiser, as defined in RCW 18.140.010, is sufficient to establish the market value. If the underlying real property that is the subject of the leasehold interest consists of a part of one or more tax parcels, this appraisal must include the market value of the part of the parcel or parcels to which the leasehold interest applies.</TextRun></P>
+<P><TextRun amendingStyle="add">(ii) The property tax that would otherwise apply to the real property that is the subject of the leasehold interest is calculated using the existing consolidated levy rate for the property's tax code area.</TextRun></P>
+<P><TextRun amendingStyle="add">(d) The definitions in this subsection apply throughout this subsection (3) unless the context clearly requires otherwise.</TextRun></P>
+<P><TextRun amendingStyle="add">(i) "Real property" has the same meaning as in RCW 84.04.090 and also includes all improvements upon the land the fee of which is still vested in the public owner.</TextRun></P>
+<P><TextRun amendingStyle="add">(ii) "Market value" means the true and fair value of the property as that term is used in RCW 84.40.030, based on the property's highest and best use and determined by any reasonable means approved by the department.</TextRun></P>
+<History>2013 c 235 § 3; 1994 c 95 § 2; 1986 c 285 § 2; 1975-'76 2nd ex.s. c 61 § 12.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>1994 c 95:</TextRun> See note following RCW 82.29A.060.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+</BillBody>
+</Bill>

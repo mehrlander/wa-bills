@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-0571.1</RequestNumber><ShortBillId>HB 1455</ShortBillId><LongBillId>HOUSE BILL 1455</LongBillId><Legislature>67th Legislature</Legislature><Session>2021 Regular Session</Session><Sponsors>Representatives Mosbrucker, Boehnke, Young, Sutherland, and Jacobsen</Sponsors><BillHistory><ReadDate>Read first time 02/02/21.</ReadDate><ReferredCommittee>Referred to Committee on Labor &amp; Workplace Standards.</ReferredCommittee></BillHistory><BriefDescription>Concerning the use of social security numbers by the department of labor and industries and the employment security department. </BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to the use of social security numbers by the department of labor and industries and the employment security department; adding a new section to chapter 43.22 RCW; and adding a new section to chapter 50.12 RCW. </BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>22</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) For the purposes of preventing fraud and protecting personal privacy, the department shall examine its current practices in which it discloses the full social security numbers of persons in its correspondence with nongovernmental third parties, such as employers.</P>
+<P>(2) If the disclosure of full social security numbers in its correspondence with nongovernmental third parties is not required by the federal government for compliance with any federal program administered by the department, the department shall:</P>
+<P>(a) Institute procedures to replace the use of full social security numbers with other forms of personal identifiers in its correspondence with nongovernmental third parties; and</P>
+<P>(b) By January 1, 2022, cease disclosing the full social security numbers of persons in its correspondence with nongovernmental third parties.</P>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>50</TitleNumber><TextRun>.</TextRun><ChapterNumber>12</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) For the purposes of preventing fraud and protecting personal privacy, the employment security department shall examine its current practices in which it discloses the full social security numbers of persons in its correspondence with nongovernmental third parties, such as employers.</P>
+<P>(2) If the disclosure of full social security numbers in its correspondence with nongovernmental third parties is not required by the federal government for compliance with any federal program administered by the employment security department, the employment security department shall:</P>
+<P>(a) Institute procedures to replace the use of full social security numbers with other forms of personal identifiers in its correspondence with nongovernmental third parties; and</P>
+<P>(b) By January 1, 2022, cease disclosing the full social security numbers of persons in its correspondence with nongovernmental third parties.</P>
+</BillSection>
+</BillBody>
+</Bill>

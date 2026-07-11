@@ -16,6 +16,9 @@ package-lock.json
 *.htm
 *.pdf
 
+# Exception: the full-text corpus import, 2009-10 forward (deliberate, 2026-07-11)
+!bills/texts/**
+
 # OS files
 .DS_Store
 Thumbs.db

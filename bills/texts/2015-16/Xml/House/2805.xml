@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-3527.1</RequestNumber><ShortBillId>HB 2805</ShortBillId><LongBillId>HOUSE BILL 2805</LongBillId><Legislature>64th Legislature</Legislature><Session>2016 Regular Session</Session><Sponsors>Representatives Reykdal, Griffey, Moeller, Van De Wege, Gregerson, Ormsby, Sawyer, Stokesbary, Tarleton, Fitzgibbon, Morris, Stanford, Pollet, Frame, Goodman, and Bergquist</Sponsors><BillHistory><ReadDate>Read first time 01/21/16.</ReadDate><ReferredCommittee>Referred to Committee on Labor &amp; Workplace Standards.</ReferredCommittee></BillHistory><BriefDescription>Requiring mandatory reporting of hazardous exposures for firefighters.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to mandatory reporting of hazardous exposures for firefighters; adding a new section to chapter 51.32 RCW; adding a new section to chapter 42.56 RCW; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature finds that firefighters are regularly exposed to hazardous substances through the course of their employment. These exposures result in firefighters contracting diseases such as cancer at significantly higher rates than the general population which, in addition to the human suffering involved, creates enormous costs to workers' compensation and health care insurance programs. Despite increased risk and costs, there is no reliable reporting requirement in place to consistently track and account for these hazardous exposures, and therefore no way to determine whether these exposures are fully or partially preventable. A mandatory reporting requirement would facilitate identification of common exposures and assist in creating training curricula, policies, and procedures designed to minimize, mitigate, or eliminate these hazardous exposures altogether. The legislature further finds that exposures reported by firefighters are medical records which should not be subject to public disclosure. Therefore, the legislature intends to establish a mandatory, on-the-job hazardous exposure reporting requirement for firefighters and further intends to enact protections to prevent public disclosure of personally identifiable information collected under section 2 of this act.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>51</TitleNumber><TextRun>.</TextRun><ChapterNumber>32</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>Beginning July 1, 2016, the department shall begin rule making to require the reporting of all hazardous exposures suffered in the course of employment by firefighters covered under RCW 51.32.185. At a minimum, the rules must:</P>
+<P>(1) Require reports of exposures to be maintained for at least six years following the last date of the firefighter's employment as a firefighter;</P>
+<P>(2) Require reports of exposures to be maintained in a database that is readily accessible to firefighters; and</P>
+<P>(3) Address the nondisclosure of reports to protect the privacy of firefighters' personal information.</P>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>42</TitleNumber><TextRun>.</TextRun><ChapterNumber>56</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>Reports of hazardous exposures reported by firefighters under section 2 of this act are exempt from disclosure under this chapter and must be automatically withheld from public inspection and copying.</P>
+</BillSection>
+</BillBody>
+</Bill>

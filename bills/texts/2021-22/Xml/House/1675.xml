@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-1733.2</RequestNumber><ShortBillId>HB 1675</ShortBillId><LongBillId>HOUSE BILL 1675</LongBillId><Legislature>67th Legislature</Legislature><Session>2022 Regular Session</Session><Sponsors>Representatives Bateman, Maycumber, Leavitt, Graham, Dolan, Cody, Griffey, and Riccelli</Sponsors><BillHistory><PrefiledDate>Prefiled 12/20/21.</PrefiledDate><ReadDate>Read first time 01/10/22.</ReadDate><ReferredCommittee>Referred to Committee on Health Care &amp; Wellness.</ReferredCommittee></BillHistory><BriefDescription>Exempting a manufacturer of certain dialysate and dialysis devices used by home dialysis patients or a manufacturer's agent from the pharmacy practices act and legend drug act.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to exempting a manufacturer of certain dialysate and dialysis devices used by home dialysis patients or a manufacturer's agent from the pharmacy practices act and legend drug act; and amending RCW 18.64.257 and 69.41.032.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>18</TitleNumber><TextRun>.</TextRun><ChapterNumber>64</ChapterNumber><TextRun>.</TextRun><SectionNumber>257</SectionNumber></SectionCite> and 2013 c 19 s 20 are each amended to read as follows:<Caption>Prescription of legend drugs by dialysis programs.</Caption></BillSectionHeader>
+<P>This chapter shall not prevent a medicare-approved dialysis center or facility operating a medicare-approved home dialysis program<TextRun amendingStyle="add">, or a manufacturer of commercially available dialysate and dialysis devices used by home dialysis patients, or a manufacturer's agent acting on behalf of such manufacturer,</TextRun> from selling, delivering, possessing, or dispensing directly to its dialysis patients, <TextRun amendingStyle="strike">in case or full shelf lots,</TextRun> if prescribed by a physician licensed under chapter 18.57 or 18.71 RCW, <TextRun amendingStyle="add">dialysis devices and</TextRun> those legend drugs<TextRun amendingStyle="add">, in case or full shelf lots,</TextRun> determined by the commission pursuant to rule.</P>
+<History>2013 c 19 § 20; 1987 c 41 § 1.</History>
+<RCWNoteSection>
+<CrossRefNote><NoteP>Application of legend drug statutes to dialysis programs: RCW 69.41.032.</NoteP></CrossRefNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>69</TitleNumber><TextRun>.</TextRun><ChapterNumber>41</ChapterNumber><TextRun>.</TextRun><SectionNumber>032</SectionNumber></SectionCite> and 2016 c 148 s 12 are each amended to read as follows:<Caption>Prescription of legend drugs by dialysis programs.</Caption></BillSectionHeader>
+<P>This chapter shall not prevent a medicare-approved dialysis center or facility operating a medicare-approved home dialysis program<TextRun amendingStyle="add">, or a manufacturer of commercially available dialysate used by home dialysis patients, or a manufacturer's agent acting on behalf of such manufacturer,</TextRun> from selling, delivering, possessing, or dispensing directly to its dialysis patients, in case or full shelf lots, if prescribed by a physician licensed under chapter 18.57 or 18.71 RCW, those legend drugs determined by the commission pursuant to rule.</P>
+<History>2016 c 148 § 12; 1987 c 41 § 2.</History>
+<RCWNoteSection>
+<CrossRefNote><NoteP>Application of pharmacy statutes to dialysis programs: RCW 18.64.257.</NoteP></CrossRefNote>
+</RCWNoteSection>
+</BillSection>
+</BillBody>
+</Bill>

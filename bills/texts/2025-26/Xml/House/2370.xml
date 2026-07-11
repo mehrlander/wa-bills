@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-2799.1</RequestNumber><ShortBillId>HB 2370</ShortBillId><LongBillId>HOUSE BILL 2370</LongBillId><Legislature>69th Legislature</Legislature><Session>2026 Regular Session</Session><Sponsors>Representatives Manjarrez, Barkis, Dufault, Klicker, Eslick, and Graham</Sponsors><BillHistory><PrefiledDate>Prefiled 01/09/26.</PrefiledDate><ReadDate>Read first time 01/12/26.</ReadDate><ReferredCommittee>Referred to Committee on Capital Budget.</ReferredCommittee></BillHistory><BriefDescription>Concerning assessment and support requirements for housing. </BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to assessment and support requirements for housing; adding a new section to chapter 43.330 RCW; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature finds that the state can support individuals experiencing homelessness by requiring participation in substance use treatment, when assessed as a need, as a condition of receiving housing services, promoting recovery and long-term stability. The legislature further finds that standardized reporting and monitoring can ensure prioritization of results-oriented decision making in funding housing programs. Therefore, the legislature intends to establish clear expectations for substance use treatment and ensure individuals in transitional or permanent supportive housing receive the care they need, while maintaining accountability and not tacitly approving ongoing substance use. The legislature further intends to strengthen accountability and oversight of state-funded housing programs and ensure accurate, reliable data is provided on effectiveness and outcomes.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>330</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) The department must require grantees and subgrantees that receive funding for transitional or permanent supportive housing to require:</P>
+<P>(a) All individuals housed to be assessed for a substance use disorder; and</P>
+<P>(b) Any individual assessed with a substance use disorder to comply with all substance use treatment recommendations and abstain from alcohol and unprescribed drugs as a condition of remaining eligible for housing.</P>
+<P>(2) Grant recipients for transitional or permanent supportive housing must enter and track each program participant through the Washington homeless client management information system as described in RCW 43.185C.180, including:</P>
+<P>(a) The date the participant was assessed for a substance use disorder;</P>
+<P>(b) Whether the participant was determined to have a substance use disorder;</P>
+<P>(c) What services are being provided to the participant;</P>
+<P>(d) Whether the participant is actively participating in substance use disorder treatment; and</P>
+<P>(e) Whether the participant was discharged from housing due to noncompliance with substance use disorder treatment or conditions.</P>
+<P>(3) By December 1, 2026, and by each following December 1st, the department must require grantees that receive funding for transitional or permanent supportive housing to submit a report summarizing:</P>
+<P>(a) The number of participants served;</P>
+<P>(b) The number of participants assessed as having a substance use disorder; and</P>
+<P>(c) The length of time each participant has complied with substance use disorder treatment and conditions.</P>
+</BillSection>
+</BillBody>
+</Bill>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-0347.2</RequestNumber><ShortBillId>HB 2504</ShortBillId><LongBillId>HOUSE BILL 2504</LongBillId><Legislature>66th Legislature</Legislature><Session>2020 Regular Session</Session><Sponsors>Representatives Walsh and Blake</Sponsors><BillHistory><ReadDate>Read first time 01/15/20.</ReadDate><ReferredCommittee>Referred to Committee on Rural Development, Agriculture, &amp; Natural Resources.</ReferredCommittee></BillHistory><BriefDescription>Creating the southwest Washington salmon restoration act.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to creating the southwest Washington salmon restoration act; adding a new section to chapter 77.95 RCW; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>77</TitleNumber><TextRun>.</TextRun><ChapterNumber>95</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>The department shall ensure that hatcheries in Grays Harbor, Pacific, Mason, and Wahkiakum counties each produce an annual number of fish that is equal to or greater than the annual average number of fish the hatchery produced over the past twenty years.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act may be known and cited as the southwest Washington salmon restoration act.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

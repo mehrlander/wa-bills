@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-3385.2</RequestNumber><ShortBillId>HB 2198</ShortBillId><LongBillId>HOUSE BILL 2198</LongBillId><Legislature>66th Legislature</Legislature><Session>2020 Regular Session</Session><Sponsors>Representatives Klippert and Shewmake</Sponsors><BillHistory><PrefiledDate>Prefiled 12/04/19.</PrefiledDate><ReadDate>Read first time 01/13/20.</ReadDate><ReferredCommittee>Referred to Committee on Transportation.</ReferredCommittee></BillHistory><BriefDescription>Concerning uncovered tires.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to uncovered tires; amending RCW 46.37.500; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>By addressing gaps in current law, the legislature intends to protect pedestrians, drivers, and vehicles from rocks and debris that can be jettisoned by vehicles with uncovered tires.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>46</TitleNumber><TextRun>.</TextRun><ChapterNumber>37</ChapterNumber><TextRun>.</TextRun><SectionNumber>500</SectionNumber></SectionCite> and 2016 c 22 s 6 are each amended to read as follows:<Caption>Fenders or splash aprons.</Caption></BillSectionHeader>
+<P>(1) Except as authorized under subsection (2) of this section, no person may operate any motor vehicle, trailer, cargo extension, or semitrailer that is not equipped with fenders, covers, flaps, or splash aprons adequate for minimizing the spray or splash of water <TextRun amendingStyle="strike">or</TextRun><TextRun amendingStyle="add">,</TextRun> mud<TextRun amendingStyle="add">, or rocks</TextRun> from the roadway to the rear of the vehicle. All such devices shall be as wide as the tires behind <TextRun amendingStyle="add">and above</TextRun> which they are mounted and extend downward at least to the center of the axle. <TextRun amendingStyle="add">If there is no preventative device for minimizing the spray or splash of water, mud, or rocks from the roadway, tires may not be wider than the wheel well of the vehicle and may not extend outside of the wheel well.</TextRun></P>
+<P>(2) A motor vehicle that is not less than forty years old or a street rod vehicle that is owned and operated primarily as a collector's item need not be equipped with fenders when the vehicle is used and driven during fair weather on well-maintained, hard-surfaced roads.</P>
+<History>2016 c 22 § 6; 1999 c 58 § 2; 1988 c 15 § 2; 1977 ex.s. c 355 § 41; 1961 c 12 § 46.37.500. Prior: 1947 c 200 § 3, part; 1937 c 189 § 44, part; Rem. Supp. 1947 § 6360-44, part. Formerly RCW 46.36.130 (second paragraph).</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Intent<TextRun fontFamily="Times New Roman">—</TextRun>Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2016 c 22:</TextRun> See notes following RCW 46.04.094.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Severability<TextRun fontFamily="Times New Roman">—</TextRun>1977 ex.s. c 355:</TextRun> See note following RCW 46.37.010.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+</BillBody>
+</Bill>

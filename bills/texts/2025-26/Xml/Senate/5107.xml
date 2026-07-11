@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-0047.2</RequestNumber><ShortBillId>SB 5107</ShortBillId><LongBillId>SENATE BILL 5107</LongBillId><Legislature>69th Legislature</Legislature><Session>2025 Regular Session</Session><Sponsors>Senators Boehnke and Dozier</Sponsors><BillHistory><PrefiledDate>Prefiled 12/23/24.</PrefiledDate><ReadDate>Read first time 01/13/25.</ReadDate><ReferredCommittee>Referred to Committee on Local Government.</ReferredCommittee></BillHistory><BriefDescription>Concerning underinsured motorist coverage for local government employees.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to underinsured motorist coverage for local government employees; amending RCW 48.62.031; adding a new section to chapter 4.92 RCW; and providing an effective date.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>4</TitleNumber><TextRun>.</TextRun><ChapterNumber>92</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) Each local government shall provide underinsured coverage for motor vehicles owned by the local government and operated or occupied by an officer, employee, or agent of the local government in the course of their employment. The underinsured coverage must provide for the protection of an officer, employee, or agent of the local government who is legally entitled to recover damages from an owner or operator of an underinsured motor vehicle, hit-and-run motor vehicle, or phantom vehicle because of bodily injury, death, or personal property damage suffered by the officer, employee, or agent and resulting from an accident while the officer, employee, or agent was operating or was an occupant in a government-owned motor vehicle in the course of their employment. The underinsured coverage required by this section does not apply to third-party occupants of government-owned vehicles.</P>
+<P>(2) The coverage required by this section must have limits of at least $25,000 per person and $50,000 per accident.</P>
+<P>(3) The coverage required by this section may be provided by contracts or agreements with private carriers, through self-insurance and self-funding pursuant to chapter 48.62 RCW, or in any other manner authorized by law.</P>
+<P>(4) For purposes of this section:</P>
+<P>(a) "Local government" includes any city, county, or other subdivision of the state and any municipal corporation, quasi-municipal corporation, or special district within the state.</P>
+<P>(b) "Phantom vehicle" has the same meaning as in RCW 48.22.030.</P>
+<P>(c) "Third-party occupant" means a person who occupies a vehicle owned, leased, or rented by the local government and who is not an officer, employee, or agent of the local government.</P>
+<P>(d) "Underinsured coverage" has the same meaning as in RCW 48.22.030.</P>
+<P>(e) "Underinsured motor vehicle" has the same meaning as in RCW 48.22.030.</P>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>48</TitleNumber><TextRun>.</TextRun><ChapterNumber>62</ChapterNumber><TextRun>.</TextRun><SectionNumber>031</SectionNumber></SectionCite> and 2019 c 26 s 3 are each amended to read as follows:<Caption>Authority to self-insure<TextRun fontFamily="Times New Roman">—</TextRun>Options<TextRun fontFamily="Times New Roman">—</TextRun>Risk manager.</Caption></BillSectionHeader>
+<P>(1) The governing body of a local government entity may individually self-insure, may join or form a self-insurance program together with other entities, including the board of pilotage commissioners, and may jointly purchase insurance or reinsurance with those other entities for property and liability risks, <TextRun amendingStyle="add">underinsured coverage under section 1 of this act,</TextRun> and health and welfare benefits only as permitted under this chapter. In addition, the entity or entities may contract for or hire personnel to provide risk management, claims, and administrative services in accordance with this chapter.</P>
+<P>(2) The agreement to form a joint self-insurance program shall be made under chapter 39.34 RCW and may create a separate legal or administrative entity with powers delegated thereto.</P>
+<P>(3) Every individual and joint self-insurance program is subject to audit by the state auditor.</P>
+<P>(4) If provided for in the agreement or contract established under chapter 39.34 RCW, a joint self-insurance program may, in conformance with this chapter:</P>
+<P>(a) Contract or otherwise provide for risk management and loss control services;</P>
+<P>(b) Contract or otherwise provide legal counsel for the defense of claims and other legal services;</P>
+<P>(c) Consult with the state insurance commissioner and the state risk manager;</P>
+<P>(d) Jointly purchase insurance and reinsurance coverage in such form and amount as the program's participants agree by contract;</P>
+<P>(e) Obligate the program's participants to pledge revenues or contribute money to secure the obligations or pay the expenses of the program, including the establishment of a reserve or fund for coverage; and</P>
+<P>(f) Possess any other powers and perform all other functions reasonably necessary to carry out the purposes of this chapter.</P>
+<P>(5) A self-insurance program formed and governed under this chapter that has decided to assume a risk of loss must have available for inspection by the state auditor a written report indicating the class of risk or risks the governing body of the entity has decided to assume.</P>
+<P>(6) Every joint self-insurance program governed by this chapter shall appoint the risk manager as its attorney to receive service of, and upon whom shall be served, all legal process issued against it in this state upon causes of action arising in this state.</P>
+<P>(a) Service upon the risk manager as attorney shall constitute service upon the program. Service upon joint insurance programs subject to chapter 30, Laws of 1991 sp. sess. can be had only by service upon the risk manager. At the time of service, the plaintiff shall pay to the risk manager a fee to be set by the risk manager, taxable as costs in the action.</P>
+<P>(b) With the initial filing for approval with the risk manager, each joint self-insurance program shall designate by name and address the person to whom the risk manager shall forward legal process so served upon him or her. The joint self-insurance program may change such person by filing a new designation.</P>
+<P>(c) The appointment of the risk manager as attorney shall be irrevocable, shall bind any successor in interest or to the assets or liabilities of the joint self-insurance program, and shall remain in effect as long as there is in force in this state any contract made by the joint self-insurance program or liabilities or duties arising therefrom.</P>
+<P>(d) The risk manager shall keep a record of the day and hour of service upon him or her of all legal process. A copy of the process, by registered mail with return receipt requested, shall be sent by the risk manager, to the person designated for the purpose by the joint self-insurance program in its most recent such designation filed with the risk manager. No proceedings shall be had against the joint self-insurance program, and the program shall not be required to appear, plead, or answer, until the expiration of forty days after the date of service upon the risk manager.</P>
+<History>2019 c 26 s 3; 2015 c 109 s 3; 2005 c 147 s 1; 1991 sp.s. c 30 s 3.</History>
+</BillSection>
+<BillSection type="new" action="effdate">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act takes effect January 1, 2026.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

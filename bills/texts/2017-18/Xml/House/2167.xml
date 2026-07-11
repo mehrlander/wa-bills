@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-2367.1</RequestNumber><ShortBillId>HB 2167</ShortBillId><LongBillId>HOUSE BILL 2167</LongBillId><Legislature>65th Legislature</Legislature><Session>2017 Regular Session</Session><Sponsors>Representatives Harmsworth, Hargrove, and Muri</Sponsors><BillHistory><ReadDate>Read first time 03/20/17.</ReadDate><ReferredCommittee>Referred to Committee on Transportation.</ReferredCommittee></BillHistory><BriefDescription>Nullifying the imposition of certain taxes within regional transit authority boundaries.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to nullifying the imposition of certain taxes within regional transit authority boundaries; amending RCW 81.104.175; adding a new section to chapter 81.112 RCW; and declaring an emergency.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>81</TitleNumber><TextRun>.</TextRun><ChapterNumber>112</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) Any property taxes approved by regional transit authority voters under RCW 81.104.175 may be nullified within the complete boundaries of a city or county within a regional transit authority if either of the following conditions are met:</P>
+<P>(a) A majority of the city or county legislative authority votes to nullify the property taxes; or</P>
+<P>(b) A proposition to nullify the property taxes is approved by voters under subsection (2) of this section.</P>
+<P>(2) If a petition to nullify regional transit authority property taxes within a city or county is filed with the county auditor containing the signatures of eight percent of the number of voters registered and voting in the city or county for the office of the governor at the last preceding gubernatorial election, the county auditor must canvass the signatures in the same manner as prescribed in RCW 29A.72.230 and certify their sufficiency to the governing body within two weeks. The proposition to nullify the property taxes must then be submitted to the voters of the city or county at a special election, called for this purpose, no later than the date on which a primary election would be held under RCW 29A.04.311. The property taxes may then be nullified only if approved by a majority of the voters of the city or county voting on the proposition.</P>
+<P>(3) Any regional transit authority property taxes nullified under this section may not be imposed within the boundaries of the affected city or county.</P>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>81</TitleNumber><TextRun>.</TextRun><ChapterNumber>104</ChapterNumber><TextRun>.</TextRun><SectionNumber>175</SectionNumber></SectionCite> and 2015 3rd sp.s. c 44 s 321 are each amended to read as follows:<Caption>Property tax levy for regional transit authorities.</Caption></BillSectionHeader>
+<P>(1) A regional transit authority that includes a county with a population of more than one million five hundred thousand may impose a regular property tax levy in an amount not to exceed twenty-five cents per thousand dollars of the assessed value of property in the regional transit authority district in accordance with the terms of this section.</P>
+<P>(2) Any tax imposed under this section must be used for the purpose of providing high capacity transportation service, as set forth in a proposition that is approved by a majority of the registered voters that vote on the proposition.</P>
+<P>(3) Property taxes imposed under this section may be imposed for the period of time required to pay the cost to plan, design, construct, operate, and maintain the transit facilities set forth in the approved proposition. Property taxes pledged to repay bonds may be imposed at the pledged amount until the bonds are retired. After the bonds are retired, property taxes authorized under this section must be:</P>
+<P>(a) Reduced to the level required to operate and maintain the regional transit authority's transit facilities; or</P>
+<P>(b) Terminated, unless the taxes have been extended by public vote.</P>
+<P>(4) The limitations in RCW 84.52.043 do not apply to the tax authorized in this section.</P>
+<P>(5) The limitation in RCW 84.55.010 does not apply to the first levy imposed under this section.</P>
+<P>(6) If a regional transit authority imposes the tax authorized under subsection (1) of this section, the authority may not receive any state grant funds provided in an omnibus transportation appropriations act except transit coordination grants created in chapter 11, Laws of 2015 3rd sp. sess.</P>
+<P><TextRun amendingStyle="add">(7) The authority to impose a tax under this section is subject to section 1 of this act.</TextRun></P>
+<History>2015 3rd sp.s. c 44 § 321.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2015 3rd sp.s. c 44:</TextRun> See note following RCW 46.68.395.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="new" action="emerg">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act is necessary for the immediate preservation of the public peace, health, or safety, or support of the state government and its existing public institutions, and takes effect immediately.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><ShortBillId>ESB 5280</ShortBillId><LongBillId>ENGROSSED SENATE BILL 5280</LongBillId><Legislature>69th Legislature</Legislature><Session>2025 Regular Session</Session><Sponsors>Senators Kauffman, Christian, Nobles, Stanford, and Valdez; by request of Department of Financial Institutions</Sponsors><BillHistory><ReadDate>Read first time 01/15/25.</ReadDate><ReferredCommittee>Referred to Committee on Business, Financial Services &amp; Trade.</ReferredCommittee></BillHistory><BriefDescription>Protecting consumers of virtual currency kiosks.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to protecting consumers of virtual currency kiosks; amending RCW 19.230.150; adding a new section to chapter 19.230 RCW; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature finds that there is burgeoning financial fraud involving victims who are induced to purchase virtual currency and then are persuaded to open themselves to the theft of this purchase by sophisticated fraud rings.</P></BillSectionHeader>
+<P>The legislature further finds that the federal trade commission has reported that in 2023 it received more reports of imposter scams per million in population from Washington than from any other state, that scammers are increasingly convincing people to pay with virtual currency, and that virtual currency payments are difficult to trace and typically not reversible.</P>
+<P>The legislature intends for this act, which protects consumers of virtual currency kiosks, to constitute an exercise of the state's police power to protect and promote the health, safety, and welfare of the residents of the state in general. Accordingly, while this act is intended to protect the public generally, it is not intended to create a duty owed to any individual or entity on the part of the state.</P>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>19</TitleNumber><TextRun>.</TextRun><ChapterNumber>230</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) A licensee that operates a virtual currency kiosk shall report all licensee branch locations and all authorized delegates to the nationwide licensing system at least 30 days prior to commencing business at the branch or authorized delegate location to provide money services in Washington. Accurate records must be maintained within the licensing system as prescribed in rule.</P>
+<P>(2) A licensee operating a virtual currency kiosk shall not accept, dispense, or transmit more than $2,000 or the equivalent value in virtual currency per day from or to a customer through a virtual currency kiosk.</P>
+<P>(3) The aggregate fees and charges, directly or indirectly, charged to a customer related to a single transaction or series of related transactions involving virtual currency effected through a virtual currency kiosk, including any difference between the price charged to a customer to buy, sell, exchange, swap, or convert virtual currency and the prevailing market value of such virtual currency at the time of such transaction, may not exceed the greater of the following:</P>
+<P>(a) Five dollars; or</P>
+<P>(b) 15 percent of the United States' dollar equivalent of virtual currency involved in the transaction or transactions.</P>
+<P>(4) Before a consumer initiates a transaction on a virtual currency kiosk, each virtual currency kiosk must clearly, conspicuously, and separately disclose to the consumer:</P>
+<P>(a) The name, unique identifier, address, and telephone number of the licensee;</P>
+<P>(b) The days, times, and means by which a consumer can contact the licensee for customer assistance;</P>
+<P>(c) A statement alerting consumers on fraud; and</P>
+<P>(d) A statement that fraudulent transactions may result in the loss of the consumer's money or virtual currency with no recourse.</P>
+<P>(5)(a) Upon the completion of any transaction through its virtual currency kiosk, each licensee engaged in virtual currency activity shall provide a receipt to each customer with the following:</P>
+<P>(i) The name of the customer;</P>
+<P>(ii) The type, date, time, and precise amount of the transaction;</P>
+<P>(iii) The amount of any fee or other charge;</P>
+<P>(iv) The exchange rate;</P>
+<P>(v) The full unique transaction hash or identification number;</P>
+<P>(vi) The public virtual currency address of the customer;</P>
+<P>(vii) The amount of any difference between the price paid by the customer for any virtual currency and the prevailing market price of such virtual currency, if applicable; and</P>
+<P>(viii) The name, unique identifier, and contact information of the licensee.</P>
+<P>(b) The amount or value of any virtual currency must also include the equivalent United States' dollar value.</P>
+<P>(6) In addition to the requirements of this section, each licensee operating a virtual currency kiosk is subject to the disclosure requirements set forth in RCW 19.230.370.</P>
+<P>(7) For the purposes of this section, "virtual currency kiosk" means an electronic terminal that facilitates the exchange of virtual currency for money or other virtual currency. "Virtual currency kiosk" does not include consumer mobile cellular phones and other similar devices.</P>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>19</TitleNumber><TextRun>.</TextRun><ChapterNumber>230</ChapterNumber><TextRun>.</TextRun><SectionNumber>150</SectionNumber></SectionCite> and 2017 c 30 s 12 are each amended to read as follows:<Caption>Reports.</Caption></BillSectionHeader>
+<P>(1) A licensee shall file with the director within thirty days any material changes in information provided in a licensee's application as prescribed in rule by the director. If this information indicates that the licensee is no longer in compliance with this chapter, the director may take any action authorized under this chapter to ensure that the licensee operates in compliance with this chapter.</P>
+<P>(2) <TextRun amendingStyle="strike">A</TextRun> <TextRun amendingStyle="add">Unless required otherwise in this chapter, a</TextRun> licensee shall report all licensee branch locations and all authorized delegates to the nationwide licensing system within <TextRun amendingStyle="strike">thirty</TextRun> <TextRun amendingStyle="add">30</TextRun> days of the contractual agreement with the licensee to provide money services in Washington. Accurate records must be maintained within the licensing system as prescribed in rule.</P>
+<P>(3) A licensee shall file a report with the director within one business day after the licensee has reason to know of the occurrence of any of the following events:</P>
+<P>(a) The filing of a petition by or against the licensee, or any authorized delegate of the licensee, under the United States Bankruptcy Code (11 U.S.C. Sec. 101-110) for bankruptcy or reorganization;</P>
+<P>(b) The filing of a petition by or against the licensee, or any authorized delegate of the licensee, for receivership, the commencement of any other judicial or administrative proceeding for its dissolution or reorganization, or the making of a general assignment for the benefit of its creditors;</P>
+<P>(c) The commencement of a proceeding to revoke, suspend, restrict, or condition its license, or otherwise discipline or sanction the licensee, in a state or country in which the licensee engages in business or is licensed;</P>
+<P>(d) The cancellation or other impairment of the licensee's bond;</P>
+<P>(e) A charge or conviction of the licensee or of an executive officer, responsible individual, board director of the licensee, or person in control of the licensee, for a felony; or</P>
+<P>(f) A charge or conviction of an authorized delegate for a felony.</P>
+<History>2017 c 30 s 12; 2013 c 106 s 6; 2003 c 287 s 17.</History>
+</BillSection>
+</BillBody>
+</Bill>

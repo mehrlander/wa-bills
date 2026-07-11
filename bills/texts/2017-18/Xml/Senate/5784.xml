@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-1335.1</RequestNumber><ShortBillId>SB 5784</ShortBillId><LongBillId>SENATE BILL 5784</LongBillId><Legislature>65th Legislature</Legislature><Session>2017 Regular Session</Session><Sponsors>Senators Kuderer and Palumbo</Sponsors><BillHistory><ReadDate>Read first time 02/09/17.</ReadDate><ReferredCommittee>Referred to Committee on State Government.</ReferredCommittee></BillHistory><BriefDescription>Exempting materials of certain volunteers from public inspection and copying.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to public inspection and copying of materials prepared, owned, used, or retained by certain volunteers of agencies; and adding a new section to chapter 42.56 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>42</TitleNumber><TextRun>.</TextRun><ChapterNumber>56</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>All records, documents, data, materials, and other writings prepared, owned, used, or retained by volunteers who have not been appointed by the agency to an agency board, commission, internship, or supervisory role that has delegated agency authority, and that are not otherwise required to be retained by the agency, are exempt from disclosure under this chapter.</P>
+</BillSection>
+</BillBody>
+</Bill>

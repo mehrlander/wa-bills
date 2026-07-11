@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-0672.1</RequestNumber><ShortBillId>HB 1405</ShortBillId><LongBillId>HOUSE BILL 1405</LongBillId><Legislature>66th Legislature</Legislature><Session>2019 Regular Session</Session><Sponsors>Representative Schmick</Sponsors><BillHistory /><BriefDescription>Concerning reimbursement for the use of an emergency generator during a planned interruption of retail electricity service.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to reimbursement for the use of an emergency generator during a planned interruption of retail electricity service; and adding a new section to chapter 19.29A RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>19</TitleNumber><TextRun>.</TextRun><ChapterNumber>29A</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) Each electric utility must provide for the reimbursement of costs incurred by a retail electric customer who uses an emergency generator to provide electricity to the customer's home or business during an interruption of service, scheduled by the electric utility, for the primary purpose of connecting neighboring retail electric customers.</P>
+<P>(2) A retail electric customer seeking reimbursement under this section must provide original receipts, invoices, or other documentation of the costs incurred in order to receive reimbursement from the electric utility.</P>
+<P>(3) For the purposes of this section, "emergency generator" means a stationary combustion device, such as a reciprocating internal combustion engine or turbine that serves solely as a secondary source of mechanical or electrical power whenever the primary energy supply is disrupted or discontinued due to factors that are beyond the control of the retail electric customer.</P>
+</BillSection>
+</BillBody>
+</Bill>

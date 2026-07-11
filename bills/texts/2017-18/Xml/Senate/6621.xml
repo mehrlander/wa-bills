@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-3961.1</RequestNumber><ShortBillId>SB 6621</ShortBillId><LongBillId>SENATE BILL 6621</LongBillId><Legislature>65th Legislature</Legislature><Session>2018 Regular Session</Session><Sponsors>Senators Palumbo and Rolfes</Sponsors><BillHistory /><BriefDescription>Prohibiting the use of live animals to practice invasive medical procedures in human health care medical training programs.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to prohibiting the use of live animals to practice invasive medical procedures in human health care medical training programs; amending RCW 16.52.180; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature finds one or more medical training courses in Washington simulate the stress experienced by paramedics performing invasive medical procedures on patients in the field by using live pigs to practice creating emergency airways. Alternatively, human-based medical training methods, such as simulators, replicate human anatomy and allow for repetitive practice and data collection. The legislature also finds that medical simulators may be an equally effective training method to using live tissue models given advances in simulator technology. One Canadian armed forces study of medical technicians found no difference in performance between medics trained on simulators versus live tissue models. The legislature intends to encourage the use of inanimate human-based training methods and prohibit the use of live animals to practice invasive medical procedures in human health care medical training programs.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>16</TitleNumber><TextRun>.</TextRun><ChapterNumber>52</ChapterNumber><TextRun>.</TextRun><SectionNumber>180</SectionNumber></SectionCite> and 1994 c 261 s 12 are each amended to read as follows:<Caption>Limitations on application of chapter.</Caption></BillSectionHeader>
+<P><TextRun amendingStyle="add">(1)</TextRun> No part of this chapter shall be deemed to interfere with any of the laws of this state known as the "game laws," nor be deemed to interfere with the right to destroy any venomous reptile or any known as dangerous to life, limb or property, or to interfere with the right to kill animals to be used for food or with any properly conducted scientific experiments or investigations, which experiments or investigations shall be performed only under the authority of the faculty of some regularly incorporated college or university of the state of Washington or a research facility registered with the United States department of agriculture and regulated by 7 U.S.C. Sec. 2131 et seq.</P>
+<P><TextRun amendingStyle="add">(2)(a) By July 1, 2020, all educational programs in the state of Washington training individuals in the medical treatment of persons, including but not limited to paramedic training programs, may:</TextRun></P>
+<P><TextRun amendingStyle="add">(i) Only use human-based training methods; and</TextRun></P>
+<P><TextRun amendingStyle="add">(ii) Not use pigs or other live animals.</TextRun></P>
+<P><TextRun amendingStyle="add">(b) For the purposes of this subsection:</TextRun></P>
+<P><TextRun amendingStyle="add">(i) "Human-based training methods" means the use of systems and devices, including simulators, partial task trainers, or human cadavers, but not animals.</TextRun></P>
+<P><TextRun amendingStyle="add">(ii) "Partial task trainers" means training aids that allow individuals to learn or practice specific medical procedures.</TextRun></P>
+<History>1994 c 261 § 12; 1901 c 146 § 18; RRS § 3201.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Finding<TextRun fontFamily="Times New Roman">—</TextRun>Intent<TextRun fontFamily="Times New Roman">—</TextRun>1994 c 261:</TextRun> See note following RCW 16.52.011.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+</BillBody>
+</Bill>

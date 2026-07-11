@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-2930.1</RequestNumber><ShortBillId>SB 5809</ShortBillId><LongBillId>SENATE BILL 5809</LongBillId><Legislature>69th Legislature</Legislature><Session>2025 Regular Session</Session><Sponsors>Senator Gildon</Sponsors><BillHistory><ReadDate>Read first time 04/14/25.</ReadDate><ReferredCommittee>Referred to Committee on Ways &amp; Means.</ReferredCommittee></BillHistory><BriefDescription>Generating cost savings to the state by repealing annual reports and an advisory committee.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to generating cost savings to the state by repealing annual reports and an advisory committee; creating a new section; and repealing RCW 43.71C.100, 70.330.020, and 71.24.546.</BillTitle>
+<EnactedClause />
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature finds that:</P></BillSectionHeader>
+<P>(1) The state is facing a substantial budget challenge, and all efforts must be made to identify and attain cost savings. Both the legislature and governor have sought strategies to achieve budget reductions.</P>
+<P>(2) Furthermore, the governor instructed state agencies to identify additional savings to streamline program effectiveness by reducing administration and overhead, including identifying savings related to reports and advisory committees.</P>
+<P>(3) Therefore, it is the intent of this act to prioritize limited state dollars and achieve savings by repealing certain legislative reports and an advisory committee that have substantially fulfilled their original mission or are duplicative of work done elsewhere. The legislature intends to deliver cost savings by repealing legislative reports and advisory committees that are either duplicative of work done by other agencies, committees, and working groups or, in the case of reports, either represent substantial work and overhead by agencies compared to their utility or are historically published long past the annual deadline for publication in statute.</P>
+</BillSection>
+<BillSection type="new" action="repeal">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>The following acts or parts of acts are each repealed:</P></BillSectionHeader>
+<P><RepealNumber>1</RepealNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>71C</ChapterNumber><TextRun>.</TextRun><SectionNumber>100</SectionNumber></SectionCite> (Annual report<TextRun fontFamily="Times New Roman">—</TextRun>Data confidentiality) and 2022 c 153 s 11 &amp; 2019 c 334 s 10;</P>
+<P><RepealNumber>2</RepealNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>70</TitleNumber><TextRun>.</TextRun><ChapterNumber>330</ChapterNumber><TextRun>.</TextRun><SectionNumber>020</SectionNumber></SectionCite> (Reports to governor and legislature) and 2016 c 56 s 2; and</P>
+<P><RepealNumber>3</RepealNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>71</TitleNumber><TextRun>.</TextRun><ChapterNumber>24</ChapterNumber><TextRun>.</TextRun><SectionNumber>546</SectionNumber></SectionCite> (Substance use recovery services plan<TextRun fontFamily="Times New Roman">—</TextRun>Substance use recovery services advisory committee<TextRun fontFamily="Times New Roman">—</TextRun>Rules<TextRun fontFamily="Times New Roman">—</TextRun>Report) and 2021 c 311 s 1.</P>
+</BillSection>
+</BillBody>
+</Bill>

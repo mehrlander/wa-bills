@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-0506.1</RequestNumber><ShortBillId>SB 5577</ShortBillId><LongBillId>SENATE BILL 5577</LongBillId><Legislature>68th Legislature</Legislature><Session>2023 Regular Session</Session><Sponsors>Senators Torres, Boehnke, Dozier, and King</Sponsors><BillHistory><ReadDate>Read first time 01/26/23.</ReadDate><ReferredCommittee>Referred to Committee on Environment, Energy &amp; Technology.</ReferredCommittee></BillHistory><BriefDescription>Establishing and making appropriations for the capital broadband investment acceleration program.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to establishing and making appropriations for the capital broadband investment acceleration program; adding a new section to chapter 43.330 RCW; and making an appropriation.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>330</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) The capital broadband investment acceleration program is created in the statewide broadband office as established in RCW 43.330.532. Funding appropriated for the program shall be used for the statewide broadband office to establish a competitive grant program to increase broadband access in unserved areas of the state, as defined in RCW 43.330.530. Funding must be awarded to match funds required to participate in the federal broadband infrastructure programs. Priority for grants must be for projects that serve distressed areas and rural counties as defined in RCW 43.168.020.</P>
+<P>(2) Eligible applicants for grants awarded under this section include:</P>
+<P>(a) Local governments;</P>
+<P>(b) Tribes;</P>
+<P>(c) Nonprofit organizations;</P>
+<P>(d) Cooperative associations;</P>
+<P>(e) Multiparty entities comprised of public entity members;</P>
+<P>(f) Limited liability corporations organized for the purpose of expanding broadband access; and</P>
+<P>(g) Incorporated businesses or partnerships.</P>
+<P>(3) No more than three percent of the funds appropriated for the program may be expended by the statewide broadband office, the public works board, and the community economic revitalization board, for administration of the program.</P>
+<P>(4) No more than three percent of each grant may be expended by the grant recipient for management or administration of the grant.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>The sum of $200,000,000, or as much thereof as may be necessary, is appropriated for the biennium ending June 30, 2024, from the state building construction account<TextRun fontFamily="Times New Roman">—</TextRun>state to the department of commerce for the purposes of this act.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

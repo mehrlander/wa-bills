@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-3541.1</RequestNumber><ShortBillId>SB 6139</ShortBillId><LongBillId>SENATE BILL 6139</LongBillId><Legislature>69th Legislature</Legislature><Session>2026 Regular Session</Session><Sponsors>Senators Hansen, Nobles, Saldaña, and Trudeau</Sponsors><BillHistory><ReadDate>Read first time 01/14/26.</ReadDate><ReferredCommittee>Referred to Committee on Housing.</ReferredCommittee></BillHistory><BriefDescription>Concerning partial rental payments and rental payment methods of an unlawful detainer action or issuance of a writ of restitution.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to partial rental payments and rental payment methods of an unlawful detainer action or issuance of a writ of restitution; amending RCW 59.18.063; and adding a new section to chapter 59.18 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>59</TitleNumber><TextRun>.</TextRun><ChapterNumber>18</ChapterNumber><TextRun>.</TextRun><SectionNumber>063</SectionNumber></SectionCite> and 2022 c 95 s 1 are each amended to read as follows:<Caption>Landlord<TextRun fontFamily="Times New Roman">—</TextRun>Written receipts for payments made by tenant.</Caption></BillSectionHeader>
+<P>(1) A landlord must accept a personal check, cashier's check, or money order for any payment of rent made by a tenant, except that a landlord is not required to accept a personal check from any tenant that has had a personal check written to the landlord or the landlord's agent that has been returned for nonsufficient funds or account closure within the previous nine months. A landlord must also allow for the tenant to submit a rental payment by mail unless the landlord provides an accessible, on-site location.</P>
+<P>(2) A landlord may refuse to accept cash for any payment of rent made by a tenant, but shall provide a receipt for any payment made by a tenant in the form of cash when the landlord accepts cash.</P>
+<P>(3) A landlord shall provide, upon the request of a tenant, a written receipt for any payments made by the tenant in a form other than cash.</P>
+<P><TextRun amendingStyle="add">(4) In the event of a late rental payment, a landlord must continue to make available to the tenant any means of payment agreed upon in the rental agreement and any means of payment previously accepted by the landlord from the tenant during the duration of the tenancy, subject to the provisions of this section.</TextRun></P>
+<History>2022 c 95 s 1; 2020 c 315 s 3; 2011 c 132 s 4; 1997 c 84 s 1.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Findings<TextRun fontFamily="Times New Roman">—</TextRun>Intent<TextRun fontFamily="Times New Roman">—</TextRun>2020 c 315:</TextRun> See note following RCW 59.18.057.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>59</TitleNumber><TextRun>.</TextRun><ChapterNumber>18</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) Except upon written agreement of the landlord and tenant, any partial payment of past-due rent made by the tenant or accepted by the landlord does not constitute, nor may it be construed as, a reinstatement of the lease, and is not grounds for dismissal of any pending unlawful detainer proceeding.</P>
+<P>(2) Any partial payment of the amount owed in an unlawful detainer action does not alter, amend, or extend the five-court-day deadline for full payment under RCW 59.18.410.</P>
+</BillSection>
+</BillBody>
+</Bill>

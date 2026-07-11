@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-5024.1</RequestNumber><ShortBillId>SB 6191</ShortBillId><LongBillId>SENATE BILL 6191</LongBillId><Legislature>66th Legislature</Legislature><Session>2020 Regular Session</Session><Sponsors>Senators Braun, Darneille, Hasegawa, O'Ban, Rolfes, Short, and Wilson, C.</Sponsors><BillHistory><PrefiledDate>Prefiled 01/09/20.</PrefiledDate><ReadDate>Read first time 01/13/20.</ReadDate><ReferredCommittee>Referred to Committee on Early Learning &amp; K-12 Education.</ReferredCommittee></BillHistory><BriefDescription>Assessing the prevalence of adverse childhood experiences in middle and high school students to inform decision making and improve services.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to assessing the prevalence of adverse childhood experiences in middle and high school students to inform decision making and improve services; adding a new section to chapter 28A.300 RCW; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) The legislature stated in RCW 70.305.005 that "adverse childhood experiences are a powerful common determinant of a child's ability to be successful at school and, as an adult, to be successful at work, to avoid behavioral and chronic physical health conditions, and to build healthy relationships."</P></BillSectionHeader>
+<P>(2) The legislature recognizes that the healthy youth survey is a voluntary and anonymous survey administered every two years to students in sixth, eighth, tenth, and twelfth grades.</P>
+<P>(3) The legislature intends to include questions related to adverse childhood experiences in the healthy youth survey to help assess the prevalence of adverse childhood experiences throughout the state. The legislature further intends for this data to help inform school district and community decision making and improve services for students.</P>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>28A</TitleNumber><TextRun>.</TextRun><ChapterNumber>300</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1)(a) The office of the superintendent of public instruction, in collaboration with the health care authority, the department of health, and the liquor and cannabis board, must incorporate the centers for disease control and prevention's behavioral risk factor surveillance system adverse childhood experiences module into the healthy youth survey.</P>
+<P>(b) Student responses to the healthy youth survey are voluntary and must remain anonymous.</P>
+<P>(c) The office of the superintendent of public instruction must publish the aggregated student responses to the adverse childhood experiences module by state, educational service district, county, school district, and school building.</P>
+<P>(2) School districts are encouraged to use the information about adverse childhood experiences in their decision making and to help improve services for students.</P>
+</BillSection>
+</BillBody>
+</Bill>

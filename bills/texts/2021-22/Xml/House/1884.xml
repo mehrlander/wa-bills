@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-1940.2</RequestNumber><ShortBillId>HB 1884</ShortBillId><LongBillId>HOUSE BILL 1884</LongBillId><Legislature>67th Legislature</Legislature><Session>2022 Regular Session</Session><Sponsors>Representatives Klippert, Chase, and Young</Sponsors><BillHistory><ReadDate>Read first time 01/11/22.</ReadDate><ReferredCommittee>Referred to Committee on State Government &amp; Tribal Relations.</ReferredCommittee></BillHistory><BriefDescription>Concerning independent forensic election audits at the direction of the legislature.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to independent forensic election audits at the direction of the legislature; amending RCW 29A.60.090, 29A.60.095, 29A.60.110, and 29A.60.125; and adding a new section to chapter 29A.60 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>29A</TitleNumber><TextRun>.</TextRun><ChapterNumber>60</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) By concurrent resolution or through a budget proviso, the legislature may authorize an independent forensic audit of a general election to be performed by a company or organization that is not a government entity. The concurrent resolution or budget proviso shall describe the scope of the forensic audit.</P>
+<P>(2) The company or organization shall be selected by the secretary of state in a competitive bidding process consistent with chapter 39.26 RCW.</P>
+<P>(3) The company or organization shall be given access to all election materials, including ballot envelopes, ballots and duplicated ballots, voting machines, and servers used in the election process.</P>
+<P>(4) The audit shall be conducted in conjunction with elections officials.</P>
+<P>(5) Election observers designated under RCW 29A.40.100 must be allowed to observe all aspects of the audit.</P>
+<P>(6) By August 1st, the company or organization must submit a report to the legislature detailing the findings of the audit and any recommendations to improve ballot integrity in future elections.</P>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>29A</TitleNumber><TextRun>.</TextRun><ChapterNumber>60</ChapterNumber><TextRun>.</TextRun><SectionNumber>090</SectionNumber></SectionCite> and 2003 c 111 s 1509 are each amended to read as follows:<Caption>Voting systems<TextRun fontFamily="Times New Roman">—</TextRun>Maintenance of documents.</Caption></BillSectionHeader>
+<P>In counties using voting systems, the county auditor shall maintain the following documents for at least <TextRun amendingStyle="strike">sixty days</TextRun> <TextRun amendingStyle="add">three years</TextRun> after the primary or election:</P>
+<P>(1) Sample ballot formats together with a record of the format or formats assigned to each precinct;</P>
+<P>(2) All programming material related to the control of the vote tallying system for that primary or election; and</P>
+<P>(3) All test materials used to verify the accuracy of the tabulating equipment as required by RCW 29A.12.130.</P>
+<History>2003 c 111 § 1509. Prior: 1990 c 59 § 61; 1977 ex.s. c 361 § 94. Formerly RCW 29.54.170.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Intent<TextRun fontFamily="Times New Roman">—</TextRun>Effective date<TextRun fontFamily="Times New Roman">—</TextRun>1990 c 59:</TextRun> See notes following RCW 29A.04.013.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>Severability<TextRun fontFamily="Times New Roman">—</TextRun>1977 ex.s. c 361:</TextRun> See notes following RCW 29A.16.040.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>29A</TitleNumber><TextRun>.</TextRun><ChapterNumber>60</ChapterNumber><TextRun>.</TextRun><SectionNumber>095</SectionNumber></SectionCite> and 2005 c 242 s 3 are each amended to read as follows:<Caption>Electronic voting devices<TextRun fontFamily="Times New Roman">—</TextRun>Record maintenance.</Caption></BillSectionHeader>
+<P>(1) The electronic record produced and counted by electronic voting devices is the official record of each vote for election purposes. The paper record produced under RCW 29A.12.085 must be stored and maintained for use only in the following circumstances:</P>
+<P>(a) In the event of a manual recount;</P>
+<P>(b) By order of the county canvassing board;</P>
+<P>(c) By order of a court of competent jurisdiction; <TextRun amendingStyle="strike">or</TextRun></P>
+<P>(d) For use in the random audit of results described in RCW 29A.60.185<TextRun amendingStyle="add">; or</TextRun></P>
+<P><TextRun amendingStyle="add">(e) For use in the independent forensic audit described in section 1 of this act</TextRun>.</P>
+<P>(2) When such paper record is used in any of the circumstances listed in subsection (1) of this section, it shall be the official record of the election.</P>
+<History>2005 c 242 § 3.</History>
+<RCWNoteSection>
+<CrossRefNote><NoteP>Required: RCW 29A.12.085.</NoteP></CrossRefNote>
+<CrossRefNote><NoteP>Unauthorized removal of paper record from voting center: RCW 29A.84.545.</NoteP></CrossRefNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>29A</TitleNumber><TextRun>.</TextRun><ChapterNumber>60</ChapterNumber><TextRun>.</TextRun><SectionNumber>110</SectionNumber></SectionCite> and 2018 c 218 s 4 are each amended to read as follows:<Caption>Ballot containers, sealing, opening.</Caption></BillSectionHeader>
+<P>(1) Immediately after their tabulation, all ballots counted at a ballot counting center must be sealed in containers that identify the primary or election and be retained for at least <TextRun amendingStyle="strike">sixty days</TextRun> <TextRun amendingStyle="add">three years</TextRun> or according to federal law, whichever is longer.</P>
+<P>(2) In the presence of major party observers who are available, ballots may be removed from the sealed containers at the elections department and consolidated into one sealed container for storage purposes. The containers may only be opened by the canvassing board as part of the canvass, to conduct recounts, to conduct a random check under RCW 29A.60.170, to conduct an audit under RCW 29A.60.185 <TextRun amendingStyle="add">or section 1 of this act</TextRun>, or by order of the superior court in a contest or election dispute. If the canvassing board opens a ballot container, it shall make a full record of the additional tabulation or examination made of the ballots. This record must be added to any other record of the canvassing process in that county.</P>
+<History>2018 c 218 § 4; 2013 c 11 § 61; 2011 c 10 § 50; 2003 c 111 § 1511; 1999 c 158 § 14; 1990 c 59 § 59. Formerly RCW 29.54.075.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Intent<TextRun fontFamily="Times New Roman">—</TextRun>2018 c 218:</TextRun> See note following RCW 29A.60.185.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Notice to registered poll voters<TextRun fontFamily="Times New Roman">—</TextRun>Elections by mail<TextRun fontFamily="Times New Roman">—</TextRun>2011 c 10:</TextRun> See note following RCW 29A.04.008.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Intent<TextRun fontFamily="Times New Roman">—</TextRun>Effective date<TextRun fontFamily="Times New Roman">—</TextRun>1990 c 59:</TextRun> See notes following RCW 29A.04.013.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>5</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>29A</TitleNumber><TextRun>.</TextRun><ChapterNumber>60</ChapterNumber><TextRun>.</TextRun><SectionNumber>125</SectionNumber></SectionCite> and 2018 c 218 s 8 are each amended to read as follows:<Caption>Damaged ballots.</Caption></BillSectionHeader>
+<P>If inspection of the ballot reveals a physically damaged ballot or ballot that may be otherwise unreadable or uncountable by the tabulating system, the county auditor may refer the ballot to the county canvassing board or duplicate the ballot if so authorized by the county canvassing board. The voter's original ballot may not be altered. A ballot may be duplicated only if the intent of the voter's marks on the ballot is clear and the electronic voting equipment might not otherwise properly tally the ballot to reflect the intent of the voter. Ballots must be duplicated by teams of two or more people working together. When duplicating ballots, the county auditor shall take the following steps to create and maintain an audit trail of the action taken:</P>
+<P>(1) Each original ballot and duplicate ballot must be assigned the same unique control number, with the number being marked upon the face of each ballot, to ensure that each duplicate ballot may be tied back to the original ballot;</P>
+<P>(2) A log must be kept of the ballots duplicated, which must at least include:</P>
+<P>(a) The control number of each original ballot and the corresponding duplicate ballot;</P>
+<P>(b) The initials of at least two people who participated in the duplication of each ballot; and</P>
+<P>(c) The total number of ballots duplicated.</P>
+<P>Original and duplicate ballots must be sealed in secure storage at all times, except during duplication, inspection by the canvassing board, tabulation, or to conduct an audit under RCW 29A.60.185 <TextRun amendingStyle="add">or section 1 of this act</TextRun>.</P>
+<History>2018 c 218 § 8; 2005 c 243 § 10.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Intent<TextRun fontFamily="Times New Roman">—</TextRun>2018 c 218:</TextRun> See note following RCW 29A.60.185.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+</BillBody>
+</Bill>

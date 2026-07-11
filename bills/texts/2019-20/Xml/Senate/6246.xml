@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-5302.1</RequestNumber><ShortBillId>SB 6246</ShortBillId><LongBillId>SENATE BILL 6246</LongBillId><Legislature>66th Legislature</Legislature><Session>2020 Regular Session</Session><Sponsors>Senator Braun</Sponsors><BillHistory /><BriefDescription>Concerning state employee collective bargaining reforms.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to state employee collective bargaining reforms; and adding new sections to chapter 41.80 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>41</TitleNumber><TextRun>.</TextRun><ChapterNumber>80</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) Except as provided in subsection (2) of this section and beginning with contracts for the 2021-2023 fiscal biennia, salary increases bargained under this chapter may not exceed the implicit price deflator for that fiscal year, using the official current base, compiled by the bureau of economic analysis, United States department of commerce.</P>
+<P>(2)(a) Salary increases may only exceed the implicit price deflator limitation in subsection (1) of this section for specific job classes when there are demonstrated recruitment or retention issues related to salary.</P>
+<P>(b) When an agreement includes salary increases that exceed the implicit price deflator limitation in subsection (1) of this section the governor shall submit an analysis that outlines the recruitment or retention issue with the request for funds under RCW 41.80.010(3).</P>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>41</TitleNumber><TextRun>.</TextRun><ChapterNumber>80</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>Beginning with contracts for the 2021-2023 fiscal biennia, the health care portion of the benefit cost bargained under RCW 41.80.020(3) may not exceed the average private sector employer paid portion as a percent of the total premium, as determined by the office of financial management.</P>
+</BillSection>
+</BillBody>
+</Bill>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-0945.1</RequestNumber><ShortBillId>HB 1737</ShortBillId><LongBillId>HOUSE BILL 1737</LongBillId><Legislature>68th Legislature</Legislature><Session>2023 Regular Session</Session><Sponsors>Representatives Morgan, Street, Kretz, Waters, Reeves, Reed, Entenman, Donaghy, Cheney, Walsh, Wylie, Stearns, Orwall, Taylor, Chapman, Berg, Graham, Gregerson, Ormsby, Ramel, Santos, Caldier, Pollet, Macri, and Fosse</Sponsors><BillHistory><ReadDate>Read first time 02/02/23.</ReadDate><ReferredCommittee>Referred to Committee on Appropriations.</ReferredCommittee></BillHistory><BriefDescription>Enacting the reconciliation act.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to enacting the reconciliation act; amending RCW 43.79.567; creating a new section; and providing an effective date.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>79</ChapterNumber><TextRun>.</TextRun><SectionNumber>567</SectionNumber></SectionCite> and 2022 c 297 s 947 are each amended to read as follows:<Caption>Community reinvestment account.</Caption></BillSectionHeader>
+<P>(1) The community <TextRun amendingStyle="strike">reinvestment</TextRun> <TextRun amendingStyle="add">reconciliation</TextRun> account is created in the state treasury. Revenues to the account shall consist of appropriations and transfers by the legislature and all other moneys directed for deposit into the account. Moneys in the account may be spent only after appropriation.</P>
+<P>(2) Expenditures from the account may be used by the department of commerce for:</P>
+<P>(a) Economic development, which includes addressing wealth disparities to promote asset building such as home ownership and expanding access to financial resources including, but not limited to, grants and loans for small businesses and entrepreneurs, financial literacy training, and other small business training and support activities;</P>
+<P>(b) Civil and criminal legal assistance to provide postconviction relief and case assistance, including the expungement of criminal records and vacation of criminal convictions;</P>
+<P>(c) Community-based violence intervention and prevention services, which may include after-school programs focused on providing education and mentorship to youths; <TextRun amendingStyle="strike">and</TextRun></P>
+<P>(d) Reentry services to facilitate successful transitions for persons formerly incarcerated in an adult correctional facility or juvenile residential facility in Washington<TextRun amendingStyle="add">;</TextRun></P>
+<P><TextRun amendingStyle="add">(e) Agricultural and economic support and services available to historically marginalized communities; and</TextRun></P>
+<P><TextRun amendingStyle="add">(f) Programs or services that use a community assessment model that is evidence-based and aimed at addressing root causes of violence in communities and may include programs or services with one or more of the following goals:</TextRun></P>
+<P><TextRun amendingStyle="add">(i) Increasing high school graduation rates and empowering school and life success for individuals;</TextRun></P>
+<P><TextRun amendingStyle="add">(ii) Building a culture of empathy, equity, and connection and improving the quality of life of persons in a community through trauma-informed care;</TextRun></P>
+<P><TextRun amendingStyle="add">(iii) Achieving positive health outcomes or enhancing resiliency such as by promoting nutrition, physical health, or mental health; and</TextRun></P>
+<P><TextRun amendingStyle="add">(iv) Creating a supportive community environment</TextRun>.</P>
+<P>(3) The distribution of the grants under this section must be done in collaboration with the governor's office of Indian affairs and "by and for community organizations" as defined by the department of commerce and the office of equity.</P>
+<History>2022 c 297 § 947.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2022 c 297:</TextRun> See note following RCW 43.79.565.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act may be known and cited as the reconciliation act.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>If any provision of this act or its application to any person or circumstance is held invalid, the remainder of the act or the application of the provision to other persons or circumstances is not affected.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="effdate">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act takes effect July 1, 2024.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

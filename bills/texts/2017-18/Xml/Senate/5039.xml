@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>Z-0387.1</RequestNumber><ShortBillId>SB 5039</ShortBillId><LongBillId>SENATE BILL 5039</LongBillId><Legislature>65th Legislature</Legislature><Session>2017 Regular Session</Session><Sponsors>Senators Pedersen, O'Ban, Frockt, and Padden; by request of Uniform Law Commission</Sponsors><BillHistory><ReadDate>Read first time 01/11/17.</ReadDate><ReferredCommittee>Referred to Committee on Law &amp; Justice.</ReferredCommittee></BillHistory><BriefDescription>Adopting the uniform electronic legal material act.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to the uniform electronic legal material act; adding a new chapter to Title 1 RCW; and providing an effective date.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>SHORT TITLE. <P>This chapter may be known and cited as the uniform electronic legal material act.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>DEFINITIONS. <P>The definitions in this section apply throughout this chapter unless the context clearly requires otherwise.</P></BillSectionHeader>
+<P>(1) "Electronic" means relating to technology having electrical, digital, magnetic, wireless, optical, electromagnetic, or similar capabilities.</P>
+<P>(2) "Legal material" means, whether or not in effect:</P>
+<P>(a) The Washington state Constitution;</P>
+<P>(b) The session laws of the state of Washington;</P>
+<P>(c) The Revised Code of Washington;</P>
+<P>(d) A state agency rule that has or had the effect of law;</P>
+<P>(e) The Washington State Register; or</P>
+<P>(f) The Washington Administrative Code.</P>
+<P>(3) "Official publisher" means:</P>
+<P>(a) For the Washington state Constitution, the secretary of state;</P>
+<P>(b) For session laws of the state of Washington, the statute law committee;</P>
+<P>(c) For the Revised Code of Washington, the statute law committee;</P>
+<P>(d) For a rule published in the Washington State Register, the statute law committee;</P>
+<P>(e) For a rule not published in the Washington State Register, the state agency adopting the rule;</P>
+<P>(f) For the Washington State Register, the statute law committee; or</P>
+<P>(g) For the Washington Administrative Code, the statute law committee.</P>
+<P>(4) "Publish" means to display, present, or release to the public, or cause to be displayed, presented, or released to the public, by the official publisher.</P>
+<P>(5) "Record" means information that is inscribed on a tangible medium or that is stored in an electronic or other medium and is retrievable in perceivable form.</P>
+<P>(6) "State" means a state of the United States, the District of Columbia, Puerto Rico, the United States Virgin Islands, or any territory or insular possession subject to the jurisdiction of the United States.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>APPLICABILITY. (1) Except as provided in subsection (2) of this section, this chapter applies to all legal material in an electronic record that is designated as official under section 4 of this act and first published electronically on or after January 1, 2018.</P></BillSectionHeader>
+<P>(2) This chapter applies to issues of the Washington State Register in an official electronic record that were first published on or after May 7, 2008.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber><P>LEGAL MATERIAL IN OFFICIAL ELECTRONIC RECORD. (1) If an official publisher publishes legal material only in an electronic record, the publisher shall:</P></BillSectionHeader>
+<P>(a) Designate the electronic record as official; and</P>
+<P>(b) Comply with sections 5, 7, and 8 of this act.</P>
+<P>(2) An official publisher that publishes legal material in an electronic record and also publishes the material in a record other than an electronic record may designate the electronic record as official if the publisher complies with sections 5, 7, and 8 of this act.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>5</Value><TextRun>.  </TextRun></BillSectionNumber><P>AUTHENTICATION OF OFFICIAL ELECTRONIC RECORD. An official publisher of legal material in an electronic record that is designated as official under section 4 of this act shall authenticate the record. To authenticate an electronic record, the publisher shall provide a method for a user to determine that the record received by the user from the publisher is unaltered from the official record published by the publisher.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>6</Value><TextRun>.  </TextRun></BillSectionNumber><P>EFFECT OF AUTHENTICATION. (1) Legal material in an electronic record that is authenticated under section 5 of this act is presumed to be an accurate copy of the legal material.</P></BillSectionHeader>
+<P>(2) If another state has adopted a law substantially similar to this chapter, legal material in an electronic record that is designated as official and authenticated by the official publisher in that state is presumed to be an accurate copy of the legal material.</P>
+<P>(3) A party contesting the authentication of legal material in an electronic record authenticated under section 5 of this act has the burden of proving by a preponderance of the evidence that the record is not authentic.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>7</Value><TextRun>.  </TextRun></BillSectionNumber><P>PRESERVATION AND SECURITY OF LEGAL MATERIAL IN OFFICIAL ELECTRONIC RECORD. (1) An official publisher of legal material in an electronic record that is or was designated as official under section 4 of this act shall provide for the preservation and security of the record in an electronic form or a form that is not electronic.</P></BillSectionHeader>
+<P>(2) If legal material is preserved under subsection (1) of this section in an electronic record, the official publisher shall:</P>
+<P>(a) Ensure the integrity of the record;</P>
+<P>(b) Provide for backup and disaster recovery of the record; and</P>
+<P>(c) Ensure the continuing usability of the material.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>8</Value><TextRun>.  </TextRun></BillSectionNumber><P>PUBLIC ACCESS TO LEGAL MATERIAL IN OFFICIAL ELECTRONIC RECORD. An official publisher of legal material in an electronic record that is required to be preserved under section 7 of this act shall ensure that the material is reasonably available for use by the public on a permanent basis.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>9</Value><TextRun>.  </TextRun></BillSectionNumber><P>STANDARDS. In implementing this chapter, an official publisher of legal material in an electronic record shall consider:</P></BillSectionHeader>
+<P>(1) Standards and practices of other jurisdictions;</P>
+<P>(2) The most recent standards regarding authentication of, preservation and security of, and public access to, legal material in an electronic record and other electronic records, as promulgated by national standard-setting bodies;</P>
+<P>(3) The needs of users of legal material in an electronic record;</P>
+<P>(4) The views of governmental officials and entities and other interested persons; and</P>
+<P>(5) To the extent practicable, methods and technologies for the authentication of, preservation and security of, and public access to, legal material which are compatible with the methods and technologies used by other official publishers in this state and in other states that have adopted a law substantially similar to this chapter.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>10</Value><TextRun>.  </TextRun></BillSectionNumber><P>UNIFORMITY OF APPLICATION AND CONSTRUCTION. In applying and construing this uniform act, consideration must be given to the need to promote uniformity of the law with respect to its subject matter among states that enact it.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>11</Value><TextRun>.  </TextRun></BillSectionNumber><P>RELATION TO ELECTRONIC SIGNATURES IN GLOBAL AND NATIONAL COMMERCE ACT. This chapter modifies, limits, and supersedes the electronic signatures in global and national commerce act, 15 U.S.C. Sec. 7001 et seq., but does not modify, limit, or supersede Section 101(c) of that act, 15 U.S.C. Sec. 7001(c), or authorize electronic delivery of any of the notices described in Section 103(b) of that act, 15 U.S.C. Sec. 7003(b).</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>12</Value><TextRun>.  </TextRun></BillSectionNumber><P>COURTS EXCLUDED. This chapter does not apply to any court or agency of the judicial branch.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="effdate" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>13</Value><TextRun>.  </TextRun></BillSectionNumber>EFFECTIVE DATE. <P>This act takes effect January 1, 2018.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addchap" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>14</Value><TextRun>.  </TextRun></BillSectionNumber><P>Sections 1 through 13 of this act constitute a new chapter in <TitleCite><TextRun>Title </TextRun><TitleNumber>1</TitleNumber><TextRun> RCW</TextRun></TitleCite>.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

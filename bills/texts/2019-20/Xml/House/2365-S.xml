@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-4246.1</RequestNumber><ShortBillId>SHB 2365</ShortBillId><LongBillId>SUBSTITUTE HOUSE BILL 2365</LongBillId><Legislature>66th Legislature</Legislature><Session>2020 Regular Session</Session><Sponsors>House Innovation, Technology &amp; Economic Development (originally sponsored by Representatives Smith, Hudgins, Leavitt, Young, Wylie, Kloba, and Pollet)</Sponsors><BillHistory><ReadDate>READ FIRST TIME 01/28/20.</ReadDate></BillHistory><BriefDescription>Notifying Washington consumers of products that transmit user data.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to notifying Washington consumers of products that transmit user data; adding a new chapter to Title 19 RCW; and providing an expiration date.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The definitions in this section apply throughout this chapter unless the context clearly requires otherwise.</P></BillSectionHeader>
+<P>(1) "Connected device" means any device or other physical object that is capable of connecting to the internet, directly or indirectly, and that is assigned an internet protocol address or bluetooth address and acquired by a natural person residing in Washington state for personal, family, or household use.</P>
+<P>(2) "Office" means the office of privacy and data protection.</P>
+<P>(3) "User data" means any information.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) The office shall develop a user data transmission sticker for the purpose of notifying Washington consumers that a connected device has the capability to transmit user data to the device manufacturer or any separate business entity. The data transmission sticker must:</P></BillSectionHeader>
+<P>(a) Have a design that is easily identifiable and understandable to children and adults;</P>
+<P>(b) Include a graphic that appeals to children and adults;</P>
+<P>(c) Be effective in alerting consumers that the product collects and transmits user data to the device manufacturer or any separate business entity; and</P>
+<P>(d) Be easy to use for manufacturers and retailers of applicable connected devices.</P>
+<P>(2) In determining whether a sticker design meets the requirements specified under subsection (1) of this section, the office must:</P>
+<P>(a) Facilitate focus group discussions with children and adults to solicit feedback on the design of the sticker; and</P>
+<P>(b) Research existing labels intended to appeal to both children and adults to use as a model for the sticker.</P>
+<P>(3) This section expires January 1, 2022.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) Effective January 1, 2022, it is unlawful for a person or entity in Washington to sell or offer for sale at retail a connected device product that transmits user data to the device manufacturer or any separate business entity, unless the product package is labeled with a user data transmission sticker developed by the office.</P></BillSectionHeader>
+<P>(2) The user data transmission sticker must be:</P>
+<P>(a) Placed in a prominent location on the principal display panel or front of the product package;</P>
+<P>(b) Of a size so as to be legible and readily visible by the consumer;</P>
+<P>(c) No smaller than an inch in diameter, unless recommended by the office;</P>
+<P>(d) Displayed on the product package in a manner that is not altered or cropped; and</P>
+<P>(e) Made available by the office in digital form to manufacturers without cost. The digital file for the user data transmission sticker must be made available on the office's web site.</P>
+<P>(3) The office may adopt rules necessary to implement this section.</P>
+</BillSection>
+<BillSection type="new" action="addchap" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber><P>Sections 1 through 3 of this act constitute a new chapter in <TitleCite><TextRun>Title </TextRun><TitleNumber>19</TitleNumber><TextRun> RCW</TextRun></TitleCite>.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

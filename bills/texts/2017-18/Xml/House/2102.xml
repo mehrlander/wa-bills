@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-1759.1</RequestNumber><ShortBillId>HB 2102</ShortBillId><LongBillId>HOUSE BILL 2102</LongBillId><Legislature>65th Legislature</Legislature><Session>2017 Regular Session</Session><Sponsors>Representatives McCabe, Orwall, Hayes, and McDonald</Sponsors><BillHistory><ReadDate>Read first time 02/14/17.</ReadDate><ReferredCommittee>Referred to Committee on Health Care &amp; Wellness.</ReferredCommittee></BillHistory><BriefDescription>Clarifying that hospitals and emergency medical facilities providing sexual assault examinations may seek reimbursement from a sexual assault victim's health coverage as long as the victim does not receive a bill or incur any out-of-pocket expenses associated with such reimbursement.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to clarifying that hospitals and emergency medical facilities providing sexual assault examinations may seek reimbursement from a sexual assault victim's health coverage as long as the victim does not receive a bill or incur any out-of-pocket expenses associated with such reimbursement; amending RCW 7.68.170; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) The legislature finds that:</P></BillSectionHeader>
+<P>(a) Increasing the availability of sexual assault nurse examiners and sexual assault examinations will help victims and improve public safety;</P>
+<P>(b) Even with the availability of crime victims compensation, the costs of properly performing sexual assault examinations are borne disproportionately by hospitals, which decreases the availability of these needed services to victims; and</P>
+<P>(c) Helping to decrease these costs without billing or charging the victim will increase the availability of properly performed sexual assault examinations.</P>
+<P>(2) The legislature therefore intends to clarify that a hospital or emergency medical facility performing a sexual assault examination may seek reimbursement from a victim's health coverage for covered services associated with the examination as long as the victim does not receive a bill or incur any out-of-pocket expenses associated with the reimbursement.</P>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>7</TitleNumber><TextRun>.</TextRun><ChapterNumber>68</ChapterNumber><TextRun>.</TextRun><SectionNumber>170</SectionNumber></SectionCite> and 1979 ex.s. c 219 s 11 are each amended to read as follows:<Caption>Examination costs of sexual assault victims paid by state.</Caption></BillSectionHeader>
+<P><TextRun amendingStyle="add">(1)</TextRun> No costs incurred by a hospital or other emergency medical facility for the examination of the victim of a sexual assault, when such examination is performed for the purposes of gathering evidence for possible prosecution, shall be billed or charged directly or indirectly to the victim of such assault. Such costs shall be paid by the state pursuant to this chapter.</P>
+<P><TextRun amendingStyle="add">(2) Nothing in this section prohibits a hospital or emergency medical facility from seeking reimbursement from medicaid, medicare, or the victim's insurance for covered services associated with the examination as long as the victim does not receive a bill or incur any out-of-pocket expenses associated with such reimbursement.</TextRun></P>
+<History>1979 ex.s. c 219 § 11.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Severability<TextRun fontFamily="Times New Roman">—</TextRun>1979 ex.s. c 219:</TextRun> See note following RCW 70.125.010.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+</BillBody>
+</Bill>

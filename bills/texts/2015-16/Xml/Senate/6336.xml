@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-3642.1</RequestNumber><ShortBillId>SB 6336</ShortBillId><LongBillId>SENATE BILL 6336</LongBillId><Legislature>64th Legislature</Legislature><Session>2016 Regular Session</Session><Sponsors>Senators Parlette, Keiser, Frockt, Becker, and Carlyle</Sponsors><BillHistory><ReadDate>Read first time 01/18/16.</ReadDate><ReferredCommittee>Referred to Committee on Health Care.</ReferredCommittee></BillHistory><BriefDescription>Addressing health care provider credentialing.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to health care provider credentialing; adding a new section to chapter 48.43 RCW; and adding a new section to chapter 18.130 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>48</TitleNumber><TextRun>.</TextRun><ChapterNumber>43</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) The insurance commissioner shall utilize the uniform electronic process created by RCW 48.165.035 as a database that manages health care providers' credentialing information and makes the information available to health benefit plans.</P>
+<P>(2) A health benefit plan shall use the database selected pursuant to subsection (1) of this section to accept and manage credentialing applications from health care providers.</P>
+<P>(a) A health benefit plan shall make a determination approving or denying a credentialing application submitted to the plan no later than fifteen days after receiving a complete application from a health care provider.</P>
+<P>(b) If a health care provider submits an incomplete credentialing application to a health benefit plan, the plan shall notify the health care provider in writing no later than five days after receipt of the application that the application is incomplete. The notice must explain what additions or corrections to the application are necessary for the application to be considered complete.</P>
+<P>(3) For purposes of this section, the following definitions apply unless the context clearly requires otherwise:</P>
+<P>(a) "Credentialing" means the collection, verification, and assessment of whether a health care provider meets relevant licensing, education, and training requirements.</P>
+<P>(b) "Health care provider" means a person authorized to issue orders or prescriptions for legend drugs as provided in RCW 69.41.030.</P>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>18</TitleNumber><TextRun>.</TextRun><ChapterNumber>130</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) A health care provider shall submit credentialing applications to health benefit plans using the database selected by the insurance commissioner under section 1 of this act.</P>
+<P>(2) For purposes of this section, the following definitions apply unless the context clearly requires otherwise:</P>
+<P>(a) "Credentialing" means the collection, verification, and assessment of whether a health care provider meets relevant licensing, education, and training requirements.</P>
+<P>(b) "Health benefit plan" has the same meaning as in RCW 48.43.005.</P>
+<P>(c) "Health care provider" means a person authorized to issue orders or prescriptions for legend drugs as provided in RCW 69.41.030.</P>
+</BillSection>
+</BillBody>
+</Bill>

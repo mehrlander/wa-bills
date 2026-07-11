@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-1070.1</RequestNumber><ShortBillId>SB 5655</ShortBillId><LongBillId>SENATE BILL 5655</LongBillId><Legislature>69th Legislature</Legislature><Session>2025 Regular Session</Session><Sponsors>Senators Krishnadasan, Nobles, Slatter, and Wellman</Sponsors><BillHistory><ReadDate>Read first time 02/04/25.</ReadDate><ReferredCommittee>Referred to Committee on Early Learning &amp; K-12 Education.</ReferredCommittee></BillHistory><BriefDescription>Concerning child care centers operated in existing buildings.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to child care centers operated in existing buildings; amending RCW 43.216.265; adding a new section to chapter 19.27 RCW; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature finds that there is a need for more child care services for working people. There is a public benefit when communities can use existing buildings rather than permitting new buildings to be built on open land. Churches are one type of building that often have rooms designed for education or care of children that are separate from the main sanctuary or congregational room. The legislature intends to clarify statutes so that building owners, and especially churches, are more likely to offer existing spaces for child care services.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>19</TitleNumber><TextRun>.</TextRun><ChapterNumber>27</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>When a child care center is operated in an existing building that has more than one use, the building official must calculate the occupancy load based only on the areas in the building where the child care services are provided. This requirement applies when administering and enforcing any of the building codes adopted in accordance with and pursuant to the authority in this chapter.</P>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>216</ChapterNumber><TextRun>.</TextRun><SectionNumber>265</SectionNumber></SectionCite> and 2018 c 58 s 42 are each amended to read as follows:<Caption>Fire protection<TextRun fontFamily="Times New Roman">—</TextRun>Powers and duties of chief of the Washington state patrol.</Caption></BillSectionHeader>
+<P>The chief of the Washington state patrol, through the director of fire protection, shall have the power and it shall be his or her duty:</P>
+<P>(1) In consultation with the secretary and with the advice and assistance of persons representative of the various type agencies to be licensed, to adopt recognized minimum standard requirements pertaining to each category of agency established pursuant to this chapter necessary to protect all persons residing therein from fire hazards;</P>
+<P>(2) To adopt licensing minimum standard requirements to allow children who attend classes in a school building during school hours to remain in the same building to participate in before-school or after-school programs and to allow participation in such before-school and after-school programs by children who attend other schools and are transported to attend such before-school and after-school programs;</P>
+<P>(3) To make or cause to be made such inspections and investigations of agencies as he or she deems necessary;</P>
+<P>(4) To make a periodic review of requirements under RCW 43.216.250(8) and to adopt necessary changes after consultation as required in subsection (1) of this section;</P>
+<P>(5) To issue to applicants for licenses under this chapter who comply with the requirements, a certificate of compliance, a copy of which shall be presented to the department before a license shall be issued, except that an initial license may be issued as provided in RCW 43.216.315<TextRun amendingStyle="add">;</TextRun></P>
+<P><TextRun amendingStyle="add">(6) When a child care center is operated in an existing building that has more than one use, to calculate the occupancy load based only on the area in the building where the child care services are provided</TextRun>.</P>
+<History>2018 c 58 s 42; 2013 c 227 s 1; 2006 c 265 s 302. Formerly RCW 43.215.210.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2018 c 58:</TextRun> See note following RCW 28A.655.080.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+</BillBody>
+</Bill>

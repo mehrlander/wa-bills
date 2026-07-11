@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-0860.1</RequestNumber><ShortBillId>HB 1653</ShortBillId><LongBillId>HOUSE BILL 1653</LongBillId><Legislature>68th Legislature</Legislature><Session>2023 Regular Session</Session><Sponsors>Representatives Caldier, Walen, and Duerr</Sponsors><BillHistory><ReadDate>Read first time 01/30/23.</ReadDate><ReferredCommittee>Referred to Committee on Finance.</ReferredCommittee></BillHistory><BriefDescription>Providing a business and occupation tax exemption for amounts derived from animal adoption fees collected by a nonprofit.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to providing a business and occupation tax exemption for amounts derived from animal adoption fees collected by a nonprofit; adding a new section to chapter 82.04 RCW; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>82</TitleNumber><TextRun>.</TextRun><ChapterNumber>04</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>Beginning January 1, 2024, this chapter does not apply to amounts derived from animal adoption fees collected by a nonprofit as defined in RCW 84.36.800.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>RCW 82.32.805 and 82.32.808 do not apply to this act.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-0616.1</RequestNumber><ShortBillId>SB 5364</ShortBillId><LongBillId>SENATE BILL 5364</LongBillId><Legislature>66th Legislature</Legislature><Session>2019 Regular Session</Session><Sponsors>Senators Wagoner, King, Takko, Schoesler, Honeyford, and Van De Wege</Sponsors><BillHistory /><BriefDescription>Ensuring that offenders who are incarcerated and commit murder may be charged with the death penalty.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to ensuring that offenders who are incarcerated and commit murder may be charged with the death penalty; amending RCW 10.95.040; adding a new section to chapter 10.95 RCW; and prescribing penalties.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>10</TitleNumber><TextRun>.</TextRun><ChapterNumber>95</ChapterNumber><TextRun>.</TextRun><SectionNumber>040</SectionNumber></SectionCite> and 1981 c 138 s 4 are each amended to read as follows:<Caption>Special sentencing proceeding<TextRun fontFamily="Times New Roman">—</TextRun>Notice<TextRun fontFamily="Times New Roman">—</TextRun>Filing<TextRun fontFamily="Times New Roman">—</TextRun>Service.</Caption></BillSectionHeader>
+<P>(1) If a person is charged with aggravated first degree murder <TextRun amendingStyle="add">and the murder occurred while the person was already serving a term of incarceration</TextRun> as <TextRun amendingStyle="strike">defined by</TextRun> <TextRun amendingStyle="add">provided in</TextRun> RCW 10.95.020<TextRun amendingStyle="add">(2)</TextRun>, the prosecuting attorney <TextRun amendingStyle="add">must forward a request for review along with all relevant materials to the death penalty review panel as provided in section 2 of this act for a determination of whether the death penalty should be sought.</TextRun></P>
+<P><TextRun amendingStyle="add">(2) If a majority of the members of the death penalty review panel recommend pursuing the death penalty, the prosecuting attorney</TextRun> shall file written notice of a special sentencing proceeding to determine whether or not the death penalty should be imposed <TextRun amendingStyle="strike">when there is reason to believe that there are not sufficient mitigating circumstances to merit leniency</TextRun>.</P>
+<P><TextRun amendingStyle="strike">(2)</TextRun> <TextRun amendingStyle="add">(3)</TextRun> The notice of special sentencing proceeding shall be filed and served on the defendant or the defendant's attorney within thirty days after the defendant's arraignment upon the charge of aggravated first degree murder unless the court, for good cause shown, extends or reopens the period for filing and service of the notice. Except with the consent of the prosecuting attorney, during the period in which the prosecuting attorney may file the notice of special sentencing proceeding, the defendant may not tender a plea of guilty to the charge of aggravated first degree murder nor may the court accept a plea of guilty to the charge of aggravated first degree murder or any lesser included offense.</P>
+<P><TextRun amendingStyle="strike">(3)</TextRun> <TextRun amendingStyle="add">(4)</TextRun> If a notice of special sentencing proceeding is not filed and served as provided in this section, the prosecuting attorney may not request the death penalty.</P>
+<History>1981 c 138 § 4.</History>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>10</TitleNumber><TextRun>.</TextRun><ChapterNumber>95</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) A death penalty review panel is established. The panel includes the following permanent members:</P>
+<P>(a) Four prosecuting attorneys recommended by the Washington association of prosecuting attorneys. Urban and rural areas must be equally represented among the prosecuting attorneys;</P>
+<P>(b) The attorney general, or his or her designee; and</P>
+<P>(c) The secretary of the department of corrections, or his or her designee.</P>
+<P>(2) The prosecuting attorney from the county in which the murder occurred shall serve as an ad hoc member of the panel.</P>
+<P>(3) Upon receipt of a request for review, the attorney general shall convene a meeting of the death penalty review panel. The panel shall review all materials submitted from the prosecuting attorney and any materials submitted by defense counsel and shall make a recommendation as to whether the death penalty should be sought after considering:</P>
+<P>(a) Whether there are sufficient mitigating circumstances to merit leniency;</P>
+<P>(b) Whether imposition of the death penalty measurably contributes to the core purposes of retribution and deterrence of capital crimes by prospective offenders; and</P>
+<P>(c) Whether imposition of the death penalty meets the goal of fairness and consistency in the criminal justice system.</P>
+<P>(4) The panel shall memorialize its recommendation in a memorandum and submit the recommendation to the prosecuting attorney of the county in which the murder occurred.</P>
+</BillSection>
+</BillBody>
+</Bill>

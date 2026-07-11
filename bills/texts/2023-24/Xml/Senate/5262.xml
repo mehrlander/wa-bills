@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-0315.1</RequestNumber><ShortBillId>SB 5262</ShortBillId><LongBillId>SENATE BILL 5262</LongBillId><Legislature>68th Legislature</Legislature><Session>2023 Regular Session</Session><Sponsors>Senator Braun</Sponsors><BillHistory><ReadDate>Read first time 01/11/23.</ReadDate><ReferredCommittee>Referred to Committee on State Government &amp; Elections.</ReferredCommittee></BillHistory><BriefDescription>Amending the filing deadlines for cemetery districts to file annual reports with the secretary of state.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to amending the filing deadlines for cemetery districts to file annual reports with the secretary of state; and amending RCW 23.95.255.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>23</TitleNumber><TextRun>.</TextRun><ChapterNumber>95</ChapterNumber><TextRun>.</TextRun><SectionNumber>255</SectionNumber></SectionCite> and 2021 c 176 s 5102 are each amended to read as follows:<Caption>Initial or annual report for secretary of state.</Caption></BillSectionHeader>
+<P>(1) A domestic entity other than a limited liability partnership or nonprofit corporation shall, within one hundred twenty days of the date on which its public organic record became effective, deliver to the secretary of state for filing an initial report that states the information required under subsection (2) of this section.</P>
+<P>(2) A domestic entity or registered foreign entity shall deliver to the secretary of state for filing an annual report that states:</P>
+<P>(a) The name of the entity and its jurisdiction of formation;</P>
+<P>(b) The name and street and mailing addresses of the entity's registered agent in this state;</P>
+<P>(c) The street and mailing addresses of the entity's principal office;</P>
+<P>(d) In the case of a registered foreign entity, the street and mailing address of the entity's principal office in the state or country under the laws of which it is incorporated;</P>
+<P>(e) The names of the entity's governors;</P>
+<P>(f) A brief description of the nature of the entity's business;</P>
+<P>(g) The entity's unified business identifier number;</P>
+<P>(h) In the case of a nonprofit corporation, the corporation's federal employer identification number; and</P>
+<P>(i) In the case of a nonprofit corporation, any information required under RCW 24.03A.075.</P>
+<P>(3) Information in an initial or annual report must be current as of the date the report is executed by the entity.</P>
+<P>(4)<TextRun amendingStyle="add">(a)</TextRun> Annual reports must be delivered to the secretary of state on a date determined by the secretary of state and at such additional times as the entity elects.</P>
+<P><TextRun amendingStyle="add">(b) The secretary of state shall align the delivery date of the annual report with the expiration dates set forth under RCW 68.05.245 if elected by a cemetery authority. The secretary of state may adopt rules to implement this subsection.</TextRun></P>
+<P>(5) If an initial or annual report does not contain the information required by this section, the secretary of state promptly shall notify the reporting entity in a record and return the report for correction.</P>
+<P>(6) If an initial or annual report contains the name or address of a registered agent that differs from the information shown in the records of the secretary of state immediately before the annual report becomes effective, the differing information in the initial or annual report is considered a statement of change under RCW 23.95.430.</P>
+<P>(7) The secretary of state shall send to each domestic entity and registered foreign entity, not less than thirty or more than ninety days prior to the expiration date of the entity's annual renewal, a notice that the entity's annual report must be filed as required by this chapter and that any applicable annual renewal fee must be paid, and stating that if the entity fails to file its annual report or pay the annual renewal fee it will be administratively dissolved. The notice may be sent by postal or email as elected by the entity, addressed to its registered agent within the state, or to an electronic address designated by the entity in a record retained by the secretary of state. Failure of the secretary of state to provide any such notice does not relieve a domestic entity or registered foreign entity from its obligations to file the annual report required by this chapter or to pay any applicable annual renewal fee. The option to receive the notice provided under this section by email may be selected only when the secretary of state makes the option available.</P>
+<History>2021 c 176 § 5102; 2017 c 31 § 2; 2015 c 176 § 1212.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2021 c 176:</TextRun> See note following RCW 24.03A.005.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>Contingent effective date<TextRun fontFamily="Times New Roman">—</TextRun>2015 c 176:</TextRun> See note following RCW 23.95.100.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+</BillBody>
+</Bill>

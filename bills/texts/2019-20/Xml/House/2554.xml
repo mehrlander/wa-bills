@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-3836.1</RequestNumber><ShortBillId>HB 2554</ShortBillId><LongBillId>HOUSE BILL 2554</LongBillId><Legislature>66th Legislature</Legislature><Session>2020 Regular Session</Session><Sponsors>Representatives Stonier, Cody, Macri, Riccelli, Robinson, Tharinger, Senn, Peterson, Valdez, Davis, Doglio, Dolan, Fitzgibbon, Walen, Frame, Ramel, Pollet, Ryu, Goodman, Lekanoff, Ormsby, and Chapman</Sponsors><BillHistory><ReadDate>Read first time 01/15/20.</ReadDate><ReferredCommittee>Referred to Committee on Health Care &amp; Wellness.</ReferredCommittee></BillHistory><BriefDescription>Mitigating inequity in the health insurance market caused by health plans that exclude certain mandated benefits.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to mitigating inequity in the health insurance market caused by health plans that exclude certain mandated benefits; adding a new section to chapter 48.43 RCW; and adding a new section to chapter 43.71 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>48</TitleNumber><TextRun>.</TextRun><ChapterNumber>43</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) A health carrier that excludes, under state or federal law, any benefit required or mandated by this title or rules adopted by the commissioner from any health plan or student health plan shall:</P>
+<P>(a) Notify each enrollee in writing of the following:</P>
+<P>(i) Which benefits the health plan or student health plan does not cover; and</P>
+<P>(ii) Alternate ways in which the enrollees may access excluded benefits in a timely manner;</P>
+<P>(b) Ensure that enrollees have prompt access to the information required under this subsection; and</P>
+<P>(c) Clearly and legibly include the information specified in (a)(i) and (ii) of this subsection in all of its marketing materials for that plan. The information must also be listed in the benefit booklet and posted on the carrier's health plan or student health plan web site.</P>
+<P>(2) For the purpose of mitigating inequity in the health insurance market, the commissioner may assess a fee on any health carrier offering a health plan or student health plan if the health plan or student health plan excludes, under state or federal law, any essential health benefit or coverage that is otherwise required or mandated by this title or rules adopted by the commissioner.</P>
+<P>(a) The fee must be the actuarial equivalent of costs attributed to the provision and administration of the excluded benefit.</P>
+<P>(b) Fees paid under this section must be deposited into the general fund.</P>
+<P>(3) Nothing in this section limits the authority of the commissioner to take enforcement action if a health carrier unlawfully fails to comply with the provisions of this title.</P>
+<P>(4) The commissioner shall adopt any rules necessary to implement this section.</P>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>71</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) Beginning July 1, 2021, the exchange shall provide individuals seeking to purchase coverage on its web site with access to the information a health carrier must provide under section 1 of this act for any qualified health plan the health carrier offers that excludes, under state or federal law, any benefit required or mandated by Title 48 RCW or rules adopted by the commissioner.</P>
+<P>(2) The exchange may provide the access required under this section directly on its web site, through a link to an external web site, or in any other manner that allows consumers to easily access the information.</P>
+</BillSection>
+</BillBody>
+</Bill>

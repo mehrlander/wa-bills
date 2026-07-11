@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-0467.1</RequestNumber><ShortBillId>SB 5174</ShortBillId><LongBillId>SENATE BILL 5174</LongBillId><Legislature>65th Legislature</Legislature><Session>2017 Regular Session</Session><Sponsors>Senators Angel, Baumgartner, Honeyford, and Padden</Sponsors><BillHistory><ReadDate>Read first time 01/16/17.</ReadDate><ReferredCommittee>Referred to Committee on Commerce, Labor &amp; Sports.</ReferredCommittee></BillHistory><BriefDescription>Amending the consumer protection act to prohibit labor organizations from engaging in unfair or deceptive acts or practices.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to amending the consumer protection act to prohibit labor organizations from engaging in unfair or deceptive acts or practices; amending RCW 19.86.070; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature recognizes that, while the existence of labor organizations should not be prohibited by consumer protection laws, labor organizations are fundamentally business enterprises providing and receiving payment for the provision of workplace representation services. As such, recipients of workplace representation services from labor organizations should receive the same protections of law against unfair or deceptive practices afforded to consumers of other goods or services.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>19</TitleNumber><TextRun>.</TextRun><ChapterNumber>86</ChapterNumber><TextRun>.</TextRun><SectionNumber>070</SectionNumber></SectionCite> and 1961 c 216 s 7 are each amended to read as follows:<Caption>Labor not an article of commerce<TextRun fontFamily="Times New Roman">—</TextRun>Chapter not to affect mutual, nonprofit organizations.</Caption></BillSectionHeader>
+<P><TextRun amendingStyle="add">(1)</TextRun> The labor of a human being is not a commodity or article of commerce. Nothing contained in this chapter shall be construed to forbid the existence and operation of labor, agricultural, or horticultural organizations, instituted for the purposes of mutual help, and not having capital stock or conducted for profit, or to forbid or restrain individual members of such organizations from lawfully carrying out the legitimate objects thereof.</P>
+<P><TextRun amendingStyle="add">(2)(a) This section does not prevent the attorney general or any injured person from bringing a civil action, in accordance with this chapter, against any labor organization for engaging in any unfair or deceptive acts or practices prohibited by RCW 19.86.020.</TextRun><TextRun amendingStyle="add" /></P>
+<P><TextRun amendingStyle="add">(b) For the purposes of this chapter, it is injurious to the public interest for any labor organization to mislead or misinform employees about their statutory or constitutional rights regarding membership in, or the payment of dues or fees to, a labor organization.</TextRun></P>
+<History>1961 c 216 § 7.</History>
+<RCWNoteSection>
+<CrossRefNote><NoteP>Labor regulations: Title 49 RCW.</NoteP></CrossRefNote>
+</RCWNoteSection>
+</BillSection>
+</BillBody>
+</Bill>

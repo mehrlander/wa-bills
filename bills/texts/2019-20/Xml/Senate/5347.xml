@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-0083.1</RequestNumber><ShortBillId>SB 5347</ShortBillId><LongBillId>SENATE BILL 5347</LongBillId><Legislature>66th Legislature</Legislature><Session>2019 Regular Session</Session><Sponsors>Senator Ericksen</Sponsors><BillHistory /><BriefDescription>Concerning claims about climate change made by electric utilities.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to claims about climate change made by electric utilities; and adding a new section to chapter 9.04 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>9</TitleNumber><TextRun>.</TextRun><ChapterNumber>04</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>It is unlawful for an electric utility, as defined under RCW 19.29A.010, to advertise or offer any benefit, program, or service in terms indicating that the benefit, program, or service will combat, counteract, defeat, fight, prevent, retard, reverse, slow, stop, or in any similar way affect, climate change, unless the electric utility provides in or with the advertisement or offer a detailed description of the discernable and quantifiable effects that the electric utility's advertised benefit, program, or service will have in relation to global climate change, displayed in a manner that discloses the discernable and quantifiable effects on global climate change attributable to the average individual customer who uses the benefit, program, or service.</P>
+</BillSection>
+</BillBody>
+</Bill>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-0084.1</RequestNumber><ShortBillId>SB 5013</ShortBillId><LongBillId>SENATE BILL 5013</LongBillId><Legislature>69th Legislature</Legislature><Session>2025 Regular Session</Session><Sponsors>Senators J. Wilson, Valdez, Nobles, and Wellman</Sponsors><BillHistory><PrefiledDate>Prefiled 12/04/24.</PrefiledDate><ReadDate>Read first time 01/13/25.</ReadDate><ReferredCommittee>Referred to Committee on Transportation.</ReferredCommittee></BillHistory><BriefDescription>Establishing a department of transportation map for the placement of campaign signage.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to establishing a department of transportation map for the placement of campaign signage; and adding a new section to chapter 47.01 RCW. </BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value fixed="true">1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>47</TitleNumber><TextRun>.</TextRun><ChapterNumber>01</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) The department must develop and maintain a publicly available map that indicates all locations where temporary political campaign signs are permitted to be placed along any main-traveled way of the interstate system, primary system, or scenic system across the state. The map must include:</P>
+<P>(a) All department-owned or managed land;</P>
+<P>(b) All locations where signs are prohibited because of a state highway right-of-way;</P>
+<P>(c) Any adjoining private or public land where signs are not prohibited due to proximity to an interstate system, primary system, scenic system, or state highway right-of-way; and</P>
+<P>(d) Any department-owned or managed land where signs are permitted.</P>
+<P>(2) The map must be available on the department website and prominently placed for public access.</P>
+<P>(3) The department may not remove any sign unless the map indicates that the sign is placed in a prohibited area.</P>
+</BillSection>
+</BillBody>
+</Bill>

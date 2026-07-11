@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-0296.1</RequestNumber><ShortBillId>HB 1157</ShortBillId><LongBillId>HOUSE BILL 1157</LongBillId><Legislature>66th Legislature</Legislature><Session>2019 Regular Session</Session><Sponsors>Representative Klippert</Sponsors><BillHistory><ReadDate>Read first time 01/16/19.</ReadDate><ReferredCommittee>Referred to Committee on State Government &amp; Tribal Relations.</ReferredCommittee></BillHistory><BriefDescription>Allowing local options with respect to state initiatives.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to allowing local options with respect to state initiatives; adding a new section to chapter 36.32 RCW; and providing a contingent effective date.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>36</TitleNumber><TextRun>.</TextRun><ChapterNumber>32</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>A legislative authority of a county may elect not to implement or enforce all or any part of a statewide initiative enacted by the people. The legislative authority must take such action by ordinance, which must indicate which parts of the initiative are, and are not, in effect in the county.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act takes effect December 5, 2019, if the proposed amendment to Article II, section 1 of the state Constitution concerning county implementation of measures initiated by the people (H-0297/19) is validly submitted to and is approved and ratified by the voters at the next general election. If the proposed amendment is not approved and ratified, this act is void in its entirety.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-4246.1</RequestNumber><ShortBillId>SSB 6009</ShortBillId><LongBillId>SUBSTITUTE SENATE BILL 6009</LongBillId><Legislature>69th Legislature</Legislature><Session>2026 Regular Session</Session><Sponsors>Senate Law &amp; Justice (originally sponsored by Senators Holy, Dhingra, and Nobles)</Sponsors><BillHistory><ReadDate>READ FIRST TIME 01/23/26.</ReadDate></BillHistory><BriefDescription>Concerning direct review of administrative decisions by the court of appeals.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to direct review of administrative decisions by the court of appeals; amending RCW 36.70C.150; amending 2021 c 305 ss 8 and 9 (uncodified); repealing 2024 c 347 s 2 and 2021 c 305 s 5; and repealing 2024 c 347 ss 13 and 14 (uncodified).</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="repealuncod">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The following acts or parts of acts are each repealed:</P></BillSectionHeader>
+<P><RepealNumber>1</RepealNumber><UncodCite>2024 c 347 s 2</UncodCite>; and</P>
+<P>(2) 2021 c 305 s 5.</P>
+</BillSection>
+<BillSection type="new" action="repealuncod">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>The following acts or parts of acts are each repealed:</P></BillSectionHeader>
+<P><RepealNumber>1</RepealNumber><UncodCite>2024 c 347 s 13</UncodCite> (uncodified); and</P>
+<P>(2) 2024 c 347 s 14 (uncodified).</P>
+</BillSection>
+<BillSection type="amendatory" action="amenduncod">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><UncodCite>2021 c 305 s 8</UncodCite> (uncodified) is amended to read as follows:</BillSectionHeader>
+<P><TextRun amendingStyle="strike">Sections 2 and</TextRun> <TextRun amendingStyle="add">Section</TextRun> 3 of this act expire<TextRun amendingStyle="add">s</TextRun> July 1, 2026.</P>
+</BillSection>
+<BillSection type="amendatory" action="amenduncod">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber><UncodCite>2021 c 305 s 9</UncodCite> (uncodified) is amended to read as follows:</BillSectionHeader>
+<P><TextRun amendingStyle="strike">Sections 5 and</TextRun> <TextRun amendingStyle="add">Section</TextRun> 6 of this act take<TextRun amendingStyle="add">s</TextRun> effect July 1, 2026.</P>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>5</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>36</TitleNumber><TextRun>.</TextRun><ChapterNumber>70C</ChapterNumber><TextRun>.</TextRun><SectionNumber>150</SectionNumber></SectionCite> and 2021 c 305 s 1 are each amended to read as follows:<Caption>Transferring judicial review to court of appeals. <TextRun fontStyle="italic">(Expires June 30, 2026.)</TextRun></Caption></BillSectionHeader>
+<P>(1) The superior court may transfer the judicial review of a land use decision to the court of appeals upon finding that all parties have consented to the transfer to the court of appeals and agreed that the judicial review can occur based upon an existing record. Transfer of cases pursuant to this section does not require the filing of a motion for discretionary review with the court of appeals.</P>
+<P>(2) Upon stipulation and consent to transfer, the parties waive the right to seek an award of attorneys' fees and costs under RCW 4.84.370, except as may be awarded following an appeal to the supreme court.</P>
+<P>(3) RCW <SectionCite><TitleNumber>36</TitleNumber><TextRun>.</TextRun><ChapterNumber>70C</ChapterNumber><TextRun>.</TextRun><SectionNumber>090</SectionNumber></SectionCite> does not apply to a matter transferred to the court of appeals pursuant to this section.</P>
+<P>(4) <TextRun amendingStyle="strike">This section expires June 30, 2026.</TextRun> <TextRun amendingStyle="add">A party's withholding of consent to transfer is inadmissible as evidence at trial, and may not be used against the party withholding consent in any proceeding.</TextRun></P>
+<History>2021 c 305 s 1.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2021 c 305:</TextRun> "Except for sections 5 and 6 of this act, this act is necessary for the immediate preservation of the public peace, health, or safety, or support of the state government and its existing public institutions, and takes effect 30 days after signed into law [June 13, 2021]." [2021 c 305 s 7.]</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+</BillBody>
+</Bill>

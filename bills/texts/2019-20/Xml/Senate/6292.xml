@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-5209.1</RequestNumber><ShortBillId>SB 6292</ShortBillId><LongBillId>SENATE BILL 6292</LongBillId><Legislature>66th Legislature</Legislature><Session>2020 Regular Session</Session><Sponsors>Senators Salomon, Nguyen, Wilson, C., Van De Wege, Rolfes, Lovelett, Carlyle, Hasegawa, and Randall</Sponsors><BillHistory><ReadDate>Read first time 01/15/20.</ReadDate><ReferredCommittee>Referred to Committee on Agriculture, Water, Natural Resources &amp; Parks.</ReferredCommittee></BillHistory><BriefDescription>Concerning water rights sales.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to water rights sales; amending RCW 90.42.100; and adding a new section to chapter 90.03 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>90</TitleNumber><TextRun>.</TextRun><ChapterNumber>42</ChapterNumber><TextRun>.</TextRun><SectionNumber>100</SectionNumber></SectionCite> and 2009 c 283 s 2 are each amended to read as follows:<Caption>Water banking.</Caption></BillSectionHeader>
+<P>(1) The department is hereby authorized to use the trust water rights program for water banking purposes statewide.</P>
+<P>(2) Water banking may be used for one or more of the following purposes:</P>
+<P>(a) To authorize the use of trust water rights to mitigate for water resource impacts, future water supply needs, or any beneficial use under chapter 90.03, 90.44, or 90.54 RCW, consistent with any terms and conditions established by the transferor, except that within the Yakima river basin return flows from water rights authorized in whole or in part for any purpose shall remain available as part of the Yakima basin's total water supply available and to satisfy existing rights for other downstream uses and users;</P>
+<P>(b) To document transfers of water rights to and from the trust water rights program; and</P>
+<P>(c) To provide a source of water rights the department can make available to third parties on a temporary or permanent basis for any beneficial use under chapter 90.03, 90.44, or 90.54 RCW.</P>
+<P>(3) The department shall not use water banking to:</P>
+<P>(a) Cause detriment or injury to existing rights;</P>
+<P>(b) Issue temporary water rights or portions thereof for new potable uses requiring an adequate and reliable water supply under RCW 19.27.097; </P>
+<P>(c) Administer federal project water rights, including federal storage rights; <TextRun amendingStyle="strike">or</TextRun></P>
+<P>(d) Allow carryover of stored water in the Yakima basin from one water year to another water year if it would negatively impact the total water supply available<TextRun amendingStyle="add">; or</TextRun></P>
+<P><TextRun amendingStyle="add">(e) Allow a person who has not previously made beneficial use of the water to transfer a water right or portion of a water right into a water bank unless the water bank is created for the purpose of mitigating for water resource impacts, creating a source of supply for third parties, or enhancing streamflows, all of which must be within the watershed that is the source of the water right</TextRun>.</P>
+<P>(4) The department shall provide electronic notice and opportunity for comment to affected local governments and affected federally recognized tribal governments prior to initiating use of the trust water rights program for water banking purposes for the first time in each water resource inventory area.</P>
+<P>(5) Nothing in this section may be interpreted or administered in a manner that precludes the use of the department's existing authority to process trust water rights applications under this chapter or to process water right applications under chapter 90.03 or 90.44 RCW.</P>
+<P>(6) For purposes of this section and RCW 90.42.135, "total water supply available" shall be defined as provided in the 1945 consent decree between the United States and water users in the Yakima river basin, and consistent with later interpretation by state and federal courts.</P>
+<History>2009 c 283 § 2; 2003 c 144 § 2.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Findings<TextRun fontFamily="Times New Roman">—</TextRun>Intent<TextRun fontFamily="Times New Roman">—</TextRun>2009 c 283:</TextRun> "The legislature finds that many watershed groups and programs, including but not limited to watershed planning units operating under chapter 90.82 RCW, have proposed or considered using the state trust water rights program for water banking purposes to meet vital instream and out<Hyphen type="nobreak" />of<Hyphen type="nobreak" />stream needs within a watershed or region. The legislature also finds that water banking can: Provide critical tools to make water supplies available when and where needed during times of drought; improve streamflows and preserve instream values during fish critical periods; reduce water transaction costs, time, and risk to purchasers; facilitate fair and efficient reallocation of water from one beneficial use to another; provide water supplies to offset impacts related to future development and the issuance of new water rights; and facilitate water agreements that protect upstream community values while retaining flexibility to meet critical downstream water needs in times of scarcity. The legislature therefore declares that the intent of this act is to provide clear authority for water banking throughout the state and to improve the effectiveness of the state trust water rights program." [2009 c 283 § 1.]</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2003 c 144:</TextRun> See note following RCW 90.42.005.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>90</TitleNumber><TextRun>.</TextRun><ChapterNumber>03</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>A person who purchases a water right acquired separate from the purchase of real property must file a copy of the purchase and sale agreement with the department within ninety days of the execution of the agreement.</P>
+</BillSection>
+</BillBody>
+</Bill>

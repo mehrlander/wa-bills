@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-3096.2</RequestNumber><ShortBillId>SB 6009</ShortBillId><LongBillId>SENATE BILL 6009</LongBillId><Legislature>66th Legislature</Legislature><Session>2019 Regular Session</Session><Sponsors>Senators Rolfes and Braun</Sponsors><BillHistory /><BriefDescription>Making expenditures from the budget stabilization account for declared catastrophic events.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to making expenditures from the budget stabilization account for declared catastrophic events; creating new sections; making appropriations; and declaring an emergency.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>On July 31, 2018, the governor declared a state of emergency in all counties due to threats to life and property from existing and threatened wildfires.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>On January 25, 2019, the governor declared a state of emergency in all counties due to threats to life from the highly contagious and infectious measles virus.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>FOR THE DEPARTMENT OF NATURAL RESOURCES<TextRun fontFamily="Times New Roman">—</TextRun>FIRES.</SectionCaption><P>The sum of forty million six hundred seventy-eight thousand dollars is appropriated from the budget stabilization account for the fiscal year ending June 30, 2019, and is provided solely for fire suppression costs incurred by the department of natural resources during the 2018 fire season. For purposes of RCW 43.88.055(4), the appropriation in this section does not alter the requirement to balance in ensuing biennia.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>FOR THE DEPARTMENT OF HEALTH<TextRun fontFamily="Times New Roman">—</TextRun>CLARK COUNTY MEASLES RESPONSE.</SectionCaption><P>The sum of seven hundred forty-four thousand dollars is appropriated from the budget stabilization account for the fiscal year ending June 30, 2019, and is provided solely to the department of health for distribution to Clark county for public health costs incurred in response to the 2019 measles outbreak. The department of health may not reduce the amount for any costs incurred to administer the distribution. For purposes of RCW 43.88.055(4), the appropriation in this section does not alter the requirement to balance in ensuing biennia.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="emerg" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>5</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act is necessary for the immediate preservation of the public peace, health, or safety, or support of the state government and its existing public institutions, and takes effect immediately.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

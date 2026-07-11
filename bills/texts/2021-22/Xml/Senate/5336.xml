@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-0401.1</RequestNumber><ShortBillId>SB 5336</ShortBillId><LongBillId>SENATE BILL 5336</LongBillId><Legislature>67th Legislature</Legislature><Session>2021 Regular Session</Session><Sponsors>Senators Conway, Van De Wege, Das, Hasegawa, Holy, Keiser, and Nobles</Sponsors><BillHistory><ReadDate>Read first time 01/22/21.</ReadDate><ReferredCommittee>Referred to Committee on Ways &amp; Means.</ReferredCommittee></BillHistory><BriefDescription>Concerning law enforcement officers' and firefighters' retirement system disability boards.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to law enforcement officers' and firefighters' retirement system disability boards; amending RCW 41.26.115; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature finds that not all law enforcement officers' and firefighters' retirement system disability boards provide members with documentation that the medical costs of that member are covered by the board. The legislature further finds that not having access to this documentation has resulted in delayed access to medical services and members having to pay for services upfront and request reimbursement.</P></BillSectionHeader>
+<P>Therefore it is the intent of the legislature that every board provide evidence of coverage to eligible members.</P>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>41</TitleNumber><TextRun>.</TextRun><ChapterNumber>26</ChapterNumber><TextRun>.</TextRun><SectionNumber>115</SectionNumber></SectionCite> and 1981 c 294 s 1 are each amended to read as follows:<Caption>Director of retirement systems to adopt rules governing disability boards<TextRun fontFamily="Times New Roman">—</TextRun>Remand of orders not in accordance with rules.</Caption></BillSectionHeader>
+<P>(1) The director of retirement systems shall adopt rules, in accordance with chapter 34.05 RCW, under which each disability board shall execute its disability retirement duties under this chapter. The rules shall include, but not be limited to, the following:</P>
+<P>(a) Standards governing the type and manner of presentation of medical, employability, and other evidence before disability boards; <TextRun amendingStyle="strike">and</TextRun></P>
+<P>(b) Standards governing the necessity and frequency of medical and employability reexaminations of persons receiving disability benefits<TextRun amendingStyle="add">; and</TextRun></P>
+<P><TextRun amendingStyle="add">(c) A requirement that each board provide eligible members with documentation of the covered medical services</TextRun>.</P>
+<P>(2) If the director determines that an order or determination of a disability board was not processed in accordance with the rules established under this section, the director may remand the order or determination for further proceedings consistent with the rules.</P>
+<History>1981 c 294 § 1.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Severability<TextRun fontFamily="Times New Roman">—</TextRun>1981 c 294:</TextRun> "If any provision of this act or its application to any person or circumstance is held invalid, the remainder of the act or the application of the provision to other persons or circumstances is not affected." [1981 c 294 § 16.]</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+</BillBody>
+</Bill>

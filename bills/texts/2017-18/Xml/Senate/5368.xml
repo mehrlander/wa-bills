@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-0713.1</RequestNumber><ShortBillId>SB 5368</ShortBillId><LongBillId>SENATE BILL 5368</LongBillId><Legislature>65th Legislature</Legislature><Session>2017 Regular Session</Session><Sponsors>Senators Becker, Rivers, O'Ban, Brown, Sheldon, Angel, Bailey, Braun, Warnick, and Honeyford</Sponsors><BillHistory><ReadDate>Read first time 01/20/17.</ReadDate><ReferredCommittee>Referred to Committee on Health Care.</ReferredCommittee></BillHistory><BriefDescription>Limiting the authority to seek medicaid waivers. </BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to limiting the authority to seek medicaid waivers; amending RCW 74.09.530; and repealing RCW 74.09.5222.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>74</TitleNumber><TextRun>.</TextRun><ChapterNumber>09</ChapterNumber><TextRun>.</TextRun><SectionNumber>530</SectionNumber></SectionCite> and 2011 1st sp.s. c 15 s 32 are each amended to read as follows:<Caption>Medical assistance<TextRun fontFamily="Times New Roman">—</TextRun>Powers and duties of authority.</Caption></BillSectionHeader>
+<P>(1)(a) The authority is designated as the single state agency for purposes of Title XIX of the federal social security act.</P>
+<P>(b) The amount and nature of medical assistance and the determination of eligibility of recipients for medical assistance shall be the responsibility of the authority.</P>
+<P>(c) The authority shall establish reasonable standards of assistance and resource and income exemptions which shall be consistent with the provisions of the social security act and federal regulations for determining eligibility of individuals for medical assistance and the extent of such assistance to the extent that funds are available from the state and federal government. The authority shall not consider resources in determining continuing eligibility for recipients eligible under section 1931 of the social security act.</P>
+<P>(d) The authority is authorized to collaborate with other state or local agencies and nonprofit organizations in carrying out its duties under this chapter and, to the extent appropriate, may enter into agreements with such other entities.</P>
+<P>(2) Individuals eligible for medical assistance under RCW 74.09.510(3) shall be transitioned into coverage under that subsection immediately upon their termination from coverage under RCW 74.09.510(2)(a). The authority shall use income eligibility standards and eligibility determinations applicable to children placed in foster care. The authority shall provide information regarding basic health plan enrollment and shall offer assistance with the application and enrollment process to individuals covered under RCW 74.09.510(3) who are approaching their twenty-first birthday.</P>
+<P><TextRun amendingStyle="add">(3) The authority shall not pursue federal waivers that obligate the state to future spending, create entitlements, or expand the scope of government without legislative authorization.</TextRun></P>
+<History>2011 1st sp.s. c 15 § 32; 2007 c 315 § 2; 2000 c 218 § 2; 1979 c 141 § 345; 1967 ex.s. c 30 § 6.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>Findings<TextRun fontFamily="Times New Roman">—</TextRun>Intent<TextRun fontFamily="Times New Roman">—</TextRun>Report<TextRun fontFamily="Times New Roman">—</TextRun>Agency transfer<TextRun fontFamily="Times New Roman">—</TextRun>References to head of health care authority<TextRun fontFamily="Times New Roman">—</TextRun>Draft legislation<TextRun fontFamily="Times New Roman">—</TextRun>2011 1st sp.s. c 15:</TextRun> See notes following RCW 74.09.010.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Conflict with federal requirements<TextRun fontFamily="Times New Roman">—</TextRun>2007 c 315:</TextRun> See note following RCW 74.09.510.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="new" action="repeal">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P><SectionCite><TextRun>RCW </TextRun><TitleNumber>74</TitleNumber><TextRun>.</TextRun><ChapterNumber>09</ChapterNumber><TextRun>.</TextRun><SectionNumber>5222</SectionNumber></SectionCite> (Medical assistance<TextRun fontFamily="Times New Roman">—</TextRun>Section 1115 demonstration waiver request) and 2011 1st sp.s. c 15 s 30 &amp; 2009 c 545 s 4 are each repealed.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

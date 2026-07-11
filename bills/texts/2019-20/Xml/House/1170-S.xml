@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-1159.1</RequestNumber><ShortBillId>SHB 1170</ShortBillId><LongBillId>SUBSTITUTE HOUSE BILL 1170</LongBillId><Legislature>66th Legislature</Legislature><Session>2019 Regular Session</Session><Sponsors>House Housing, Community Development &amp; Veterans (originally sponsored by Representatives Griffey and Goodman)</Sponsors><BillHistory><ReadDate>READ FIRST TIME 02/01/19.</ReadDate></BillHistory><BriefDescription>Modifying the expiration date of certain state fire service mobilization laws.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to modifying the expiration date of certain state fire service mobilization laws; repealing 2015 c 181 s 5 (uncodified); providing an effective date; and declaring an emergency.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="repealuncod">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P><UncodCite>2015 c 181 s 5</UncodCite> (uncodified) is repealed.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="emerg">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act is necessary for the immediate preservation of the public peace, health, or safety, or support of the state government and its existing public institutions, and takes effect July 1, 2019.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

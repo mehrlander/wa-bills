@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-2714.1</RequestNumber><ShortBillId>HB 2335</ShortBillId><LongBillId>HOUSE BILL 2335</LongBillId><Legislature>69th Legislature</Legislature><Session>2026 Regular Session</Session><Sponsors>Representatives Orcutt, Barnard, Graham, Keaton, Ley, Engell, Connors, Dufault, Klicker, Jacobsen, McClintock, Dent, Valdez, Marshall, Couture, and Manjarrez</Sponsors><BillHistory><PrefiledDate>Prefiled 01/08/26.</PrefiledDate><ReadDate>Read first time 01/12/26.</ReadDate><ReferredCommittee>Referred to Committee on Finance.</ReferredCommittee></BillHistory><BriefDescription>Repealing the business and occupation tax increases enacted in 2025.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to repealing the business and occupation tax increases enacted in 2025; repealing RCW 82.04.288; repealing 2025 c 420 ss 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 202, and 301; creating a new section; providing an effective date; and declaring an emergency.</BillTitle>
+<EnactedClause />
+<Part>
+<P>PART I</P>
+<P>BUSINESS AND OCCUPATION RATE CHANGES</P>
+</Part>
+<BillSection type="new" action="repealuncod">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value fixed="true">101</Value><TextRun>.  </TextRun></BillSectionNumber><P>The following acts or parts of acts are each repealed:</P></BillSectionHeader>
+<P><RepealNumber>1</RepealNumber><UncodCite>2025 c 420 s 101</UncodCite>;</P>
+<P><RepealNumber>2</RepealNumber><UncodCite>2025 c 420 s 102</UncodCite>;</P>
+<P><RepealNumber>3</RepealNumber><UncodCite>2025 c 420 s 103</UncodCite>;</P>
+<P><RepealNumber>4</RepealNumber><UncodCite>2025 c 420 s 104</UncodCite>;</P>
+<P><RepealNumber>5</RepealNumber><UncodCite>2025 c 420 s 105</UncodCite>;</P>
+<P><RepealNumber>6</RepealNumber><UncodCite>2025 c 420 s 106</UncodCite>;</P>
+<P><RepealNumber>7</RepealNumber><UncodCite>2025 c 420 s 107</UncodCite>;</P>
+<P><RepealNumber>8</RepealNumber><UncodCite>2025 c 420 s 108</UncodCite>;</P>
+<P><RepealNumber>9</RepealNumber><UncodCite>2025 c 420 s 109</UncodCite>;</P>
+<P><RepealNumber>10</RepealNumber><UncodCite>2025 c 420 s 110</UncodCite>;</P>
+<P><RepealNumber>11</RepealNumber><UncodCite>2025 c 420 s 111</UncodCite>;</P>
+<P><RepealNumber>12</RepealNumber><UncodCite>2025 c 420 s 112</UncodCite>; and</P>
+<P><RepealNumber>13</RepealNumber><UncodCite>2025 c 420 s 113</UncodCite>.</P>
+</BillSection>
+<Part>
+<P>PART II</P>
+<P>SURCHARGE ON HIGH GROSSING BUSINESSES AND FINANCIAL INSTITUTIONS</P>
+</Part>
+<BillSection type="new" action="repealuncod">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value fixed="true">201</Value><TextRun>.  </TextRun></BillSectionNumber><P>The following acts or parts of acts are each repealed:</P></BillSectionHeader>
+<P><RepealNumber>1</RepealNumber><UncodCite /><SectionCite><TextRun>RCW </TextRun><TitleNumber>82</TitleNumber><TextRun>.</TextRun><ChapterNumber>04</ChapterNumber><TextRun>.</TextRun><SectionNumber>288</SectionNumber></SectionCite> (Surcharge on Washington taxable income over $250,000,000<TextRun fontFamily="Times New Roman">—</TextRun>Exemptions. <TextRun fontStyle="italic">(Effective January 1, 2026, until December 31, 2029.)</TextRun>) and 2025 c 420 s 201; and</P>
+<P><RepealNumber>2</RepealNumber><UncodCite>2025 c 420 s 202</UncodCite>.</P>
+</BillSection>
+<Part>
+<P>PART III</P>
+<P>ADVANCED COMPUTING SURCHARGE</P>
+</Part>
+<BillSection type="new" action="repeal">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value fixed="true">301</Value><TextRun>.  </TextRun></BillSectionNumber><P><UncodCite>2025 c 420 s 301</UncodCite> is repealed.</P></BillSectionHeader>
+</BillSection>
+<Part>
+<P>PART IV</P>
+<P>MISCELLANEOUS PROVISIONS</P>
+</Part>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value fixed="true">401</Value><TextRun>.  </TextRun></BillSectionNumber><P>RCW 82.32.805 and 82.32.808 do not apply to this act.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>402</Value><TextRun>.  </TextRun></BillSectionNumber><P>If any provision of this act or its application to any person or circumstance is held invalid, the remainder of the act or the application of the provision to other persons or circumstances is not affected.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="emerg">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>403</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act is necessary for the immediate preservation of the public peace, health, or safety, or support of the state government and its existing public institutions, and takes effect April 1, 2026.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

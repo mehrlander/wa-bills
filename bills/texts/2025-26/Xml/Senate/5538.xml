@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-0193.1</RequestNumber><ShortBillId>SB 5538</ShortBillId><LongBillId>SENATE BILL 5538</LongBillId><Legislature>69th Legislature</Legislature><Session>2025 Regular Session</Session><Sponsors>Senator Fortunato</Sponsors><BillHistory /><BriefDescription>Concerning the removal of unauthorized persons.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to the removal of unauthorized persons; and amending RCW 9A.52.105 and 4.24.355.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>9A</TitleNumber><TextRun>.</TextRun><ChapterNumber>52</ChapterNumber><TextRun>.</TextRun><SectionNumber>105</SectionNumber></SectionCite> and 2017 c 284 s 1 are each amended to read as follows:<Caption>Removal of unauthorized persons<TextRun fontFamily="Times New Roman">—</TextRun>Declaration<TextRun fontFamily="Times New Roman">—</TextRun>Liability<TextRun fontFamily="Times New Roman">—</TextRun>Rights.</Caption></BillSectionHeader>
+<P>(1) Subject to subsections (2) and (3) of this section and upon the receipt of a declaration signed under penalty of perjury, in the form prescribed in RCW 9A.52.115, declaring the truth of all of the required elements set forth in subsection (4) of this section, a peace officer shall have the authority to: </P>
+<P>(a) Remove the person or persons from the premises, with or without arresting the person or persons; and</P>
+<P>(b) Order the person or persons to remain off the premises or be subject to arrest for criminal trespass.</P>
+<P>(2) Only a peace officer having probable cause to believe that a person is guilty of criminal trespass under RCW 9A.52.070 for knowingly entering or remaining unlawfully in a building considered residential real property, as defined in RCW 61.24.005, has the authority and discretion to make an arrest or exclude anyone under penalty of criminal trespass.</P>
+<P>(3) While a peace officer can take into account a declaration from the property owner signed under penalty of perjury containing all of the required elements and in the form prescribed in RCW 9A.52.115, the peace officer must provide the occupant or occupants with a reasonable opportunity to secure and present any credible evidence provided by the person or persons on the premises, which the peace officer must consider, showing that the person or persons are tenants, legal occupants, or the guests or invitees of tenants or legal occupants. <TextRun amendingStyle="add">If the person or persons on the premises present falsified or invalid documents to the peace officer including, but not limited to, counterfeit or inauthentic rental agreements, they may be guilty of making a false or misleading statement to a public servant under RCW 9A.76.175 and give rise to a cause of action under RCW 4.24.355.</TextRun></P>
+<P>(4) The declaration must include the following elements:</P>
+<P>(a) That the declarant is the owner of the premises or the authorized agent of the owner of the premises;</P>
+<P>(b) That an unauthorized person or persons have entered and are remaining unlawfully on the premises;</P>
+<P>(c) That the person or persons were not authorized to enter or remain;</P>
+<P>(d) That the person or persons are not a tenant or tenants and have not been a tenant or tenants, or a homeowner or homeowners who have been on title, within the last <TextRun amendingStyle="strike">twelve</TextRun> <TextRun amendingStyle="add">12</TextRun> months on the property;</P>
+<P>(e) That the declarant has demanded that the unauthorized person or persons vacate the premises but they have not done so;</P>
+<P>(f) That the premises were not abandoned at the time the unauthorized person or persons entered;</P>
+<P>(g) That the premises were not open to members of the public at the time the unauthorized person or persons entered;</P>
+<P>(h) That the declarant understands that a person or persons removed from the premises pursuant to this section may bring a cause of action under RCW 4.24.355 against the declarant for any false statements made in the declaration, and that as a result of such action the declarant may be held liable for actual damages, costs, and reasonable attorneys' fees;</P>
+<P>(i) That the declarant understands and acknowledges the prohibitions in RCW 59.18.230 and 59.18.290 against taking or detaining an occupant's personal property or removing or excluding an occupant from a dwelling unit or rental premises without an authorizing court order; and</P>
+<P>(j) That the declarant agrees to indemnify and hold harmless law enforcement for its actions or omissions made in good faith pursuant to the declaration.</P>
+<P>(5) Neither the peace officer nor his or her law enforcement agency shall be held liable for actions or omissions made in good faith under this section.</P>
+<P>(6) This section may not be construed to in any way limit rights under RCW 61.24.060 or to allow a peace officer to remove or exclude an occupant who is entitled to occupy a dwelling unit under a rental agreement or the occupant's guests or invitees.</P>
+<History>2017 c 284 § 1.</History>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>4</TitleNumber><TextRun>.</TextRun><ChapterNumber>24</ChapterNumber><TextRun>.</TextRun><SectionNumber>355</SectionNumber></SectionCite> and 2017 c 284 s 3 are each amended to read as follows:<Caption>Action by person removed from premises pursuant to RCW 9A.52.105<TextRun fontFamily="Times New Roman">—</TextRun>Damages, costs, attorneys' fees.</Caption></BillSectionHeader>
+<P><TextRun amendingStyle="add">(1)</TextRun> All persons removed from premises pursuant to RCW 9A.52.105 on the basis of false statements made by a declarant pursuant to RCW 9A.52.115 shall have a cause of action to recover from the declarant for actual damages, together with costs and reasonable attorneys' fees.</P>
+<P><TextRun amendingStyle="add">(2) The declarant shall have a cause of action against any person who presents falsified or invalid documents to a peace officer during the process described in RCW 9A.52.105(3) to recover from the person for actual damages, together with costs and reasonable attorneys' fees.</TextRun></P>
+<History>2017 c 284 § 3.</History>
+</BillSection>
+</BillBody>
+</Bill>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-4364.1</RequestNumber><ShortBillId>HB 2908</ShortBillId><LongBillId>HOUSE BILL 2908</LongBillId><Legislature>66th Legislature</Legislature><Session>2020 Regular Session</Session><Sponsors>Representatives Mead and Irwin</Sponsors><BillHistory><ReadDate>Read first time 01/31/20.</ReadDate><ReferredCommittee>Referred to Committee on Local Government.</ReferredCommittee></BillHistory><BriefDescription>Concerning the number of fire protection district commissioners.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to the number of fire protection district commissioners; and amending RCW 52.14.015.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>52</TitleNumber><TextRun>.</TextRun><ChapterNumber>14</ChapterNumber><TextRun>.</TextRun><SectionNumber>015</SectionNumber></SectionCite> and 2012 c 174 s 4 are each amended to read as follows:<Caption>Increase in the number of commissioners<TextRun fontFamily="Times New Roman">—</TextRun>Election.</Caption></BillSectionHeader>
+<P>In the event a <TextRun amendingStyle="strike">three member</TextRun> board of commissioners of any fire protection district determines by resolution that it would be in the best interest of the district to increase the number of commissioners <TextRun amendingStyle="strike">from three</TextRun> to five or seven, or in the event the board is presented with a petition signed by ten percent of the registered voters resident within the district who voted in the last general municipal election calling for such an increase in the number of commissioners of the district, the board shall submit a resolution to the county legislative authority or authorities of the county or counties in which the district is located requesting that an election be held. Upon receipt of the resolution, the legislative authority or authorities of the county or counties shall call a special election to be held within the fire protection district at which election the following proposition shall be submitted to the voters substantially as follows:</P>
+<P prePadding="halfline">Shall the board of commissioners of . . . . . county fire protection district no. . . . . . be increased from <TextRun amendingStyle="add">(</TextRun>three <TextRun amendingStyle="add">or five)</TextRun> members to <TextRun amendingStyle="add">(</TextRun>five <TextRun amendingStyle="strike">(</TextRun>or seven) members?</P>
+<P prePadding="halfline" textAlign="center">Yes . . . . .</P>
+<P textAlign="center">No  . . . . .</P>
+<P prePadding="halfline">If the fire protection district is located in more than a single county, this proposition shall indicate the name of the district.</P>
+<P>If the proposition receives a majority approval at the election, the board of commissioners of the fire protection district shall be increased to five or seven members. The <TextRun amendingStyle="strike">two or four</TextRun> additional members shall be appointed in the same manner as provided in RCW 52.14.020.</P>
+<History>2012 c 174 § 4; 1994 c 223 § 50; 1990 c 259 § 14; 1989 c 63 § 20; 1984 c 230 § 85.</History>
+</BillSection>
+</BillBody>
+</Bill>

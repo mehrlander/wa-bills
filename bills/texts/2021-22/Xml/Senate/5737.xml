@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-3438.1</RequestNumber><ShortBillId>SB 5737</ShortBillId><LongBillId>SENATE BILL 5737</LongBillId><Legislature>67th Legislature</Legislature><Session>2022 Regular Session</Session><Sponsors>Senators L. Wilson, Brown, Gildon, Hawkins, Holy, Short, and J. Wilson</Sponsors><BillHistory><PrefiledDate>Prefiled 01/07/22.</PrefiledDate><ReadDate>Read first time 01/10/22.</ReadDate><ReferredCommittee>Referred to Committee on Health &amp; Long Term Care.</ReferredCommittee></BillHistory><BriefDescription>Suspending premium assessments for pending exemption applications for the long-term services and supports trust program.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to suspending premium assessments for pending exemption applications for the long-term services and supports trust program; amending RCW 50B.04.085; and declaring an emergency.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>50B</TitleNumber><TextRun>.</TextRun><ChapterNumber>04</ChapterNumber><TextRun>.</TextRun><SectionNumber>085</SectionNumber></SectionCite> and 2021 c 113 s 5 are each amended to read as follows:<Caption>Premium assessment<TextRun fontFamily="Times New Roman">—</TextRun>Exemptions.</Caption></BillSectionHeader>
+<P>(1) An employee who attests that the employee has long-term care insurance purchased before November 1, 2021, may apply for an exemption from the premium assessment under RCW 50B.04.080. An exempt employee may not become a qualified individual or eligible beneficiary and is permanently ineligible for coverage under this title.</P>
+<P>(2)(a) The employment security department must accept applications for exemptions only from October 1, 2021, through December 31, 2022.</P>
+<P>(b) Only employees who are <TextRun amendingStyle="strike">eighteen</TextRun> <TextRun amendingStyle="add">18</TextRun> years of age or older may apply for an exemption.</P>
+<P>(3) The employment security department is not required to verify the attestation of an employee that the employee has long-term care insurance.</P>
+<P>(4) Approved exemptions will take effect on the first day of the quarter immediately following the approval of the exemption <TextRun amendingStyle="add">except as provided in subsection (10) of this section</TextRun>.</P>
+<P>(5) Exempt employees are not entitled to a refund of any premium deductions made before the effective date of an approved exemption <TextRun amendingStyle="add">except as provided in subsection (10) of this section</TextRun>.</P>
+<P>(6) An exempt employee must provide written notification to all current and future employers of an approved exemption.</P>
+<P>(7) If an exempt employee fails to notify an employer of an exemption, the exempt employee is not entitled to a refund of any premium deductions made before notification is provided.</P>
+<P>(8) Employers must not deduct premiums after being notified by an employee of an approved exemption.</P>
+<P>(a) Employers must retain written notifications of exemptions received from employees.</P>
+<P>(b) An employer who deducts premiums after being notified by the employee of an exemption is solely responsible for refunding to the employee any premiums deducted after the notification.</P>
+<P>(c) The employer is not entitled to a refund from the employment security department for any premiums remitted to the employment security department that were deducted from exempt employees.</P>
+<P>(9) The department must adopt rules necessary to implement and administer the activities specified in this section related to the program, including rules on the submission and processing of applications under this section.</P>
+<P><TextRun amendingStyle="add">(10) The employment security department shall exclude from premium calculation any individual with an unprocessed exemption application submitted prior to January 1, 2022. Individuals with pending exemption applications as of January 1, 2022, shall notify their employer. Employers shall exclude from premium assessment individuals with an unprocessed exemption application as of January 1, 2022.</TextRun></P>
+<P><TextRun amendingStyle="add">(a) If the employment security department deems the individual's application to be incomplete on or after January 1, 2022, the individual is responsible for premiums starting January 1, 2022.</TextRun></P>
+<P><TextRun amendingStyle="add">(b) If premiums were assessed by the employer, but not yet remitted to the employment security department, the employer shall issue a full refund to the individual.</TextRun></P>
+<P><TextRun amendingStyle="add">(11) Subsection (10) of this section retroactively applies to any exemption application submitted before January 1, 2022.</TextRun></P>
+<History>2021 c 113 § 5; 2020 c 98 § 7.</History>
+</BillSection>
+<BillSection type="new" action="emerg">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act is necessary for the immediate preservation of the public peace, health, or safety, or support of the state government and its existing public institutions, and takes effect immediately.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

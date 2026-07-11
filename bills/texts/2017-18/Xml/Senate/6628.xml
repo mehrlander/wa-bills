@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-4325.1</RequestNumber><ShortBillId>SB 6628</ShortBillId><LongBillId>SENATE BILL 6628</LongBillId><Legislature>65th Legislature</Legislature><Session>2018 Regular Session</Session><Sponsors>Senator Baumgartner</Sponsors><BillHistory /><BriefDescription>Creating the Washington state resident medical education access act.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to the Washington state resident medical education access act of 2018; adding a new section to chapter 28B.10 RCW; and creating new sections.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act may be known and cited as the Washington state resident medical education access act of 2018.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature finds that there is an increasing shortage of doctors and health care professionals in the state of Washington. In particular, Washington state has a growing shortage of family medicine primary care physicians, especially in rural and underserved areas. Workforce projections show that Washington state needs eight hundred seventy-six more primary care physicians in the state by as early as 2020 in order to meet the needs of patients in Washington state.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>28B</TitleNumber><TextRun>.</TextRun><ChapterNumber>10</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) At least ninety percent of the students admitted into the University of Washington medical education programs as authorized in RCW 28B.20.060 must be resident students under RCW 28B.15.012. For the purposes of calculating the percent of students admitted into the University of Washington medical education programs, the total pool of admitted students shall be calculated as the nonresident and resident students net the number of nonresident Washington, Wyoming, Alaska, Montana, and Idaho (WWAMI) students.</P>
+<P>(2) At least ninety percent of the students admitted into the Washington State University medical education programs as authorized in RCW 28B.30.058 must be resident students under RCW 28B.15.012.</P>
+</BillSection>
+</BillBody>
+</Bill>

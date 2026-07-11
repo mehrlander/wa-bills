@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-3268.2</RequestNumber><ShortBillId>SB 5999</ShortBillId><LongBillId>SENATE BILL 5999</LongBillId><Legislature>66th Legislature</Legislature><Session>2019 Regular Session</Session><Sponsors>Senators Braun and Mullet</Sponsors><BillHistory /><BriefDescription>Making expenditures from the budget stabilization account for public employer unfunded actuarially accrued liabilities.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to making expenditures from the budget stabilization account for public employer unfunded actuarially accrued liabilities; creating a new section; making an appropriation; and declaring an emergency.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature finds that the teachers' retirement system plan 1 has an unfunded actuarially accrued liability of more than three billion dollars. The legislature further finds that in addition to the state general fund, local school district funds are responsible for amortizing the teachers' retirement system plan 1 unfunded actuarially accrued liability. The legislature further finds that about seventy percent of the moneys in the state's pension systems are the result of investment returns. The legislature further finds that the investment returns from a large contribution toward the unfunded actuarially accrued liability will result in present and future decreased costs to taxpayers. Therefore, the legislature intends to appropriate moneys from the budget stabilization account to use transfers from extraordinary revenue growth to reduce the unfunded actuarially accrued liability of the teachers' retirement system plan 1.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="approp" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><Department><DeptName><P>FOR THE DEPARTMENT OF RETIREMENT SYSTEMS<TextRun fontFamily="Times New Roman">—</TextRun>TEACHERS' RETIREMENT SYSTEM PLAN 1 FUND</P></DeptName></Department></BillSectionHeader>
+<P>The sum of $183,749,000 is appropriated from the budget stabilization account on June 30, 2019, and is provided solely for expenditure into the teachers' retirement system plan 1 fund to reduce the unfunded actuarially accrued liability in the teachers' retirement system plan 1. For purposes of RCW 43.88.055(4), the appropriation in this section does not suspend the requirements of RCW 43.88.055(1).</P>
+</BillSection>
+<BillSection type="new" action="emerg" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act is necessary for the immediate preservation of the public peace, health, or safety, or support of the state government and its existing public institutions, and takes effect immediately.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

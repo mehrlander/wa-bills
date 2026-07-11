@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-2722.1</RequestNumber><ShortBillId>HB 2279</ShortBillId><LongBillId>HOUSE BILL 2279</LongBillId><Legislature>69th Legislature</Legislature><Session>2026 Regular Session</Session><Sponsors>Representatives Parshley, Reeves, Berry, Reed, Ramel, Duerr, Doglio, Gregerson, Jacobsen, and Fosse</Sponsors><BillHistory><PrefiledDate>Prefiled 01/06/26.</PrefiledDate><ReadDate>Read first time 01/12/26.</ReadDate><ReferredCommittee>Referred to Committee on Agriculture &amp; Natural Resources.</ReferredCommittee></BillHistory><BriefDescription>Evaluating the use of PFAS chemicals in agriculture.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to evaluating the use of PFAS chemicals in agriculture; amending RCW 43.23.110 and 15.54.436; adding a new section to chapter 15.54 RCW; adding a new section to chapter 15.58 RCW; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature finds that the federal government approves pesticides known to contain perfluoroalkyl and polyfluoroalkyl substances, also known as PFAS chemicals, as active ingredients for use in certain agricultural applications. The legislature further finds that these chemicals have been known to remain in the environment for long periods of time and negatively impact human health, and are thus sometimes referred to as "forever chemicals." Recognizing that protecting the safety of Washington's agricultural crops is critical to ensuring food security, the legislature intends to direct the department of agriculture to evaluate fertilizer and pesticide products that may be used in agricultural production, and establish evaluation criteria for the registration of products with PFAS chemicals as active ingredients.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>23</ChapterNumber><TextRun>.</TextRun><SectionNumber>110</SectionNumber></SectionCite> and 2009 c 549 s 5105 are each amended to read as follows:<Caption>Powers and duties.</Caption></BillSectionHeader>
+<P><TextRun amendingStyle="add">(1)(a)</TextRun> The director of agriculture shall exercise all powers and perform all duties prescribed by law with respect to grains, grain and hay products, grain and terminal warehouses, commercial feeds, commercial fertilizers, and chemical pesticides.</P>
+<P><TextRun amendingStyle="add">(b)</TextRun> He or she shall enforce and supervise the administration of all laws relating to grains, grain and hay products, grain and terminal warehouses, commercial feeds, commercial fertilizers, and chemical pesticides.</P>
+<P><TextRun amendingStyle="add">(2) The department shall establish a program to evaluate the use of PFAS chemicals, as defined in RCW 70A.350.010, in fertilizers and pesticides regulated by the department under chapters 15.54 and 15.58 RCW.</TextRun></P>
+<History>2009 c 549 s 5105; 1983 c 248 s 9; 1967 c 240 s 11; 1965 c 8 s 43.23.110. Prior: 1921 c 7 s 94; RRS s 10852.</History>
+<RCWNoteSection>
+<CrossRefNote><NoteP>Commercial fertilizers: Chapter 15.54 RCW.</NoteP></CrossRefNote>
+<CrossRefNote><NoteP>Grain and terminal warehouses: Chapter 22.09 RCW.</NoteP></CrossRefNote>
+<CrossRefNote><NoteP>Quarantine: Chapter 17.24 RCW.</NoteP></CrossRefNote>
+<CrossRefNote><NoteP>Seeds: Chapter 15.49 RCW.</NoteP></CrossRefNote>
+<CrossRefNote><NoteP>Weeds: Chapters 17.04 and 17.06 RCW.</NoteP></CrossRefNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>15</TitleNumber><TextRun>.</TextRun><ChapterNumber>54</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) By December 31, 2026, the department shall establish criteria for evaluating PFAS chemicals, as defined in RCW 70A.350.010, in fertilizers regulated under this chapter. The criteria must include conditions for the director to refuse or cancel the registration of a fertilizer consistent with RCW 15.54.436.</P>
+<P>(2) Beginning December 31, 2027, the department shall review all fertilizer registrations in accordance with the criteria established pursuant to subsection (1) of this section. The director may refuse or cancel a registration, consistent with the process established in RCW 15.54.436, for a product that contains PFAS chemicals.</P>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>15</TitleNumber><TextRun>.</TextRun><ChapterNumber>54</ChapterNumber><TextRun>.</TextRun><SectionNumber>436</SectionNumber></SectionCite> and 1998 c 36 s 10 are each amended to read as follows:<Caption>Cancellation of license to distribute or of registration<TextRun fontFamily="Times New Roman">—</TextRun>Refusal to register if fraudulent or deceptive practices used<TextRun fontFamily="Times New Roman">—</TextRun>Opportunity for hearing.</Caption></BillSectionHeader>
+<P>The department may cancel the license to distribute commercial fertilizer or registration of any commercial fertilizer product or refuse to license a distributor or register any commercial fertilizer product as provided in this chapter due to:</P>
+<P>(1) An incomplete or insufficient license or registration application;</P>
+<P>(2) The misbranding or adulteration of a commercial fertilizer; <TextRun amendingStyle="strike">or</TextRun></P>
+<P>(3) <TextRun amendingStyle="add">The presence of PFAS chemicals that do not meet the criteria established by the director in section 3 of this act;</TextRun></P>
+<P><TextRun amendingStyle="add">(4)</TextRun> A violation of this chapter or rules adopted under this chapter.</P>
+<P>If the department cancels or refuses to renew an existing license or registration due to the misbranding or adulteration of a commercial fertilizer or due to a violation of this chapter or a rule adopted hereunder, the licensee/registrant or applicant may request a hearing as provided for in chapter 34.05 RCW.</P>
+<History>1998 c 36 s 10; 1993 c 183 s 12; 1987 c 45 s 24.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Short title<TextRun fontFamily="Times New Roman">—</TextRun>1998 c 36:</TextRun> See note following RCW 15.54.265.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Construction<TextRun fontFamily="Times New Roman">—</TextRun>Severability<TextRun fontFamily="Times New Roman">—</TextRun>1987 c 45:</TextRun> See notes following RCW 15.54.270.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>5</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>15</TitleNumber><TextRun>.</TextRun><ChapterNumber>58</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) By December 31, 2026, the department shall establish criteria for evaluating PFAS chemicals, as defined in RCW 70A.350.010, in pesticides regulated under this chapter. The criteria must include conditions for the director to refuse or cancel the registration of a pesticide consistent with RCW 15.58.110.</P>
+<P>(2) Beginning December 31, 2027, the department shall review new pesticide registrations in accordance with the criteria established pursuant to subsection (1) of this section. The director may refuse or cancel a registration, consistent with the process established in RCW 15.58.110, for a pesticide product that contains PFAS chemicals.</P>
+</BillSection>
+</BillBody>
+</Bill>

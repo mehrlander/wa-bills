@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-3206.2</RequestNumber><ShortBillId>SB 5556</ShortBillId><LongBillId>SENATE BILL 5556</LongBillId><Legislature>67th Legislature</Legislature><Session>2022 Regular Session</Session><Sponsors>Senators Fortunato, Padden, Randall, Salomon, and Wagoner</Sponsors><BillHistory><PrefiledDate>Prefiled 12/17/21.</PrefiledDate><ReadDate>Read first time 01/10/22.</ReadDate><ReferredCommittee>Referred to Committee on Housing &amp; Local Government.</ReferredCommittee></BillHistory><BriefDescription>Providing financial relief to hotels, motels, and other lodging facilities impacted by the eviction moratorium.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to providing financial relief to hotels, motels, and other lodging facilities impacted by the eviction moratorium; adding a new section to chapter 84.36 RCW; adding a new section to chapter 43.330 RCW; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>84</TitleNumber><TextRun>.</TextRun><ChapterNumber>36</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) A lodging facility housing long-term guests under the eviction moratorium is exempt from taxation for property taxes levied for collection in 2022 and 2023, as described under this section.</P>
+<P>(2)(a) Claims for an exemption under this section must be filed with the county assessor on forms provided by the department and furnished by the county assessor.</P>
+<P>(b) The forms must include documentation, in a manner as prescribed by the department, that at least one occupant of the lodging facility properly evoked their right to cease making lodging payments pursuant to the eviction moratorium for each reporting year in which the property owner claims an exemption under this section.</P>
+<P>(3) The department may adopt rules, pursuant to chapter 34.05 RCW, as necessary to implement this section.</P>
+<P>(4) The provisions of RCW 82.32.805 and 82.32.808 do not apply to this section.</P>
+<P>(5) For the purposes of this section:</P>
+<P>(a) "Eviction moratorium" refers to the governor of the state of Washington's proclamation 20-19.5, proclaiming a moratorium on certain evictions for all counties throughout Washington state on December 31, 2020, and any subsequent orders extending or amending such proclamation until it expires or is terminated by the governor of the state of Washington.</P>
+<P>(b) "Lodging facility" means any building held out to the public as an inn, hotel, motel, or other public lodging house where sleeping accommodations are furnished for hire to transient guests, in which three or more rooms are used for the accommodation of such guests.</P>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>330</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) The department must administer reimbursements to lodging facility operators, as provided in this section.</P>
+<P>(2) Reimbursements must be sufficient to cover all legal costs associated with removal of a long-term guest no longer making lodging payments under the eviction moratorium.</P>
+<P>(3) The department may adopt rules as necessary to implement this section.</P>
+<P>(4) For the purposes of this section:</P>
+<P>(a) "Eviction moratorium" and "lodging facility" have the same meanings as in section 1 of this act.</P>
+<P>(b) "Legal costs" means attorney fees, court filing costs, expenses associated with repairing property damage or property maintenance including, but not limited to, cleaning of premises, removal of abandoned property, disposal of hazardous material, and any other costs the department considers appropriate for reimbursement.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>The provisions of RCW 82.32.805 and 82.32.808 do not apply to this act.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

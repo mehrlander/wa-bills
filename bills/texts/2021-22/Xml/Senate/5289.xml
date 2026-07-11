@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-0453.1</RequestNumber><ShortBillId>SB 5289</ShortBillId><LongBillId>SENATE BILL 5289</LongBillId><Legislature>67th Legislature</Legislature><Session>2021 Regular Session</Session><Sponsors>Senators Fortunato, McCune, Muzzall, and Wilson, J.</Sponsors><BillHistory><ReadDate>Read first time 01/19/21.</ReadDate><ReferredCommittee>Referred to Committee on Ways &amp; Means.</ReferredCommittee></BillHistory><BriefDescription>Providing property tax relief to senior citizens.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to providing property tax relief to senior citizens; adding a new section to chapter 84.36 RCW; and creating new sections.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>84</TitleNumber><TextRun>.</TextRun><ChapterNumber>36</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) All real property owned by persons 75 years of age or older is exempt from state and local property tax, regardless of combined household income and in accordance with this section.</P>
+<P>(2) Any person 75 years of age or older on December 31st of the year following the year in which the claim is filed is exempt from all state and local property taxes due and payable in the year following the year in which the claim is filed and each year thereafter.</P>
+<P>(3)(a) The property tax exemption must be for a residence which was occupied by the person claiming the exemption as a principal place of residence as of the time of filing.</P>
+<P>(b) Any person who sells, transfers, or is displaced from his or her residence may transfer his or her exemption status to a replacement residence, but no claimant may receive an exemption on more than one residence in any year.</P>
+<P>(c) Confinement of the person to a hospital, nursing home, assisted living facility, adult family home, or home of a relative for the purpose of long-term care does not disqualify the claim of exemption if:</P>
+<P>(i) The residence is temporarily unoccupied;</P>
+<P>(ii) The residence is occupied by a spouse or either a domestic partner or a person financially dependent on the claimant for support, or both; or</P>
+<P>(iii) The residence is rented for the purpose of paying nursing home, hospital, assisted living facility, or adult family home costs.</P>
+<P>(d) For the purpose of this subsection (3), "relative" means any individual related to the claimant by blood, marriage, or adoption.</P>
+<P>(4)(a) The person claiming the exemption must have owned, at the time of filing, in fee, as a life estate, or by contract purchase, the residence on which the property taxes have been imposed, or if the person claiming the exemption lives in a cooperative housing association, corporation, or partnership, such person must own a share therein representing the unit or portion of the structure in which he or she resides.</P>
+<P>(b) For purposes of this subsection, a residence owned by a marital community or state registered domestic partnership or owned by cotenants is deemed to be owned by each spouse or each domestic partner or each cotenant, and any lease for life is deemed a life estate.</P>
+<P>(c) A residence owned by a marital community or state registered domestic partnership may claim a property tax exemption under this section if at least one spouse or domestic partner is 75 years of age or older and otherwise meets the eligibility requirements of this section.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>The provisions of RCW 82.32.805 and 82.32.808 do not apply to this act.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="effdate" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act applies for taxes levied for collection in 2022 and thereafter.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

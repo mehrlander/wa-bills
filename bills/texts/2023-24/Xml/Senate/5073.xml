@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-0014.1</RequestNumber><ShortBillId>SB 5073</ShortBillId><LongBillId>SENATE BILL 5073</LongBillId><Legislature>68th Legislature</Legislature><Session>2023 Regular Session</Session><Sponsors>Senators L. Wilson, Braun, Dozier, Fortunato, Short, Torres, Wagoner, and Warnick</Sponsors><BillHistory><PrefiledDate>Prefiled 12/20/22.</PrefiledDate><ReadDate>Read first time 01/09/23.</ReadDate><ReferredCommittee>Referred to Committee on State Government &amp; Elections.</ReferredCommittee></BillHistory><BriefDescription>Concerning the responsibilities of the three branches of government for administrative rules and procedure.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to the responsibilities of the three branches of government for administrative rules and procedure; adding new sections to chapter 34.05 RCW; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) The legislature recognizes that each branch of government has an important function in governing the state, and that each branch is responsible for faithfully fulfilling its own duties while respecting the duties of the other branches. The provisions of this act underscore the distinct functions of each branch of government, seeking to achieve an appropriate balance of power among the legislative, executive, and judicial branches, for the benefit of the people of Washington.</P></BillSectionHeader>
+<P>(2) This act may be known and cited as the three branches act.</P>
+<P>(3) If any provision of this act or its application to any person or circumstance is held invalid, the remainder of the act or the application of the provision to other persons or circumstances is not affected.</P>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>34</TitleNumber><TextRun>.</TextRun><ChapterNumber>05</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<SectionCaption>THE LEGISLATIVE BRANCH.</SectionCaption>
+<P>The legislature affirms that the people of Washington vested the legislative authority of the state of Washington in the legislature. Because the legislative authority is vested in the legislature by the people, the legislature acknowledges that it must not transfer legislative authority to an agency, another branch of government, or any nonlegislative official.</P>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>34</TitleNumber><TextRun>.</TextRun><ChapterNumber>05</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<SectionCaption>THE EXECUTIVE BRANCH.</SectionCaption>
+<P>For the purpose of rule making, when citing a statute that authorizes an agency to adopt a rule, the agency shall identify the title, chapter, and section of the Revised Code of Washington for each pertinent statute. If the agency cites a session law, the agency shall identify each pertinent section of the session law.</P>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>34</TitleNumber><TextRun>.</TextRun><ChapterNumber>05</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<SectionCaption>THE JUDICIAL BRANCH.</SectionCaption>
+<P>A court may not defer to an agency's interpretation of an ambiguous statute when reviewing agency action. The court shall serve as a neutral and impartial decision maker responsible for interpreting the statutes that apply in each case.</P>
+</BillSection>
+</BillBody>
+</Bill>

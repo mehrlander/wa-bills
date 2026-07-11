@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-1241.1</RequestNumber><ShortBillId>HB 1562</ShortBillId><LongBillId>HOUSE BILL 1562</LongBillId><Legislature>67th Legislature</Legislature><Session>2021 Regular Session</Session><Sponsors>Representatives Klippert, Mosbrucker, Dufault, Corry, Abbarno, Dye, Graham, Boehnke, Barkis, Jacobsen, and Sutherland</Sponsors><BillHistory><ReadDate>Read first time 03/24/21.</ReadDate><ReferredCommittee>Referred to Committee on Public Safety.</ReferredCommittee></BillHistory><BriefDescription>Allowing local governments to enact laws and ordinances relating to possession of controlled substances and counterfeit substances.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to allowing local governments to enact laws and ordinances relating to possession of controlled substances and counterfeit substances; and amending RCW 69.50.608.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>69</TitleNumber><TextRun>.</TextRun><ChapterNumber>50</ChapterNumber><TextRun>.</TextRun><SectionNumber>608</SectionNumber></SectionCite> and 1989 c 271 s 601 are each amended to read as follows:<Caption>State preemption.</Caption></BillSectionHeader>
+<P><TextRun amendingStyle="strike">The state of Washington fully occupies and preempts the entire field of setting penalties for violations of the controlled substances act. Cities</TextRun> <TextRun amendingStyle="add">(1) Except as provided in subsection (2) of this section, cities</TextRun>, towns, and counties or other municipalities may enact only those laws and ordinances relating to controlled substances that are consistent with this chapter. Such local ordinances shall have the same penalties as provided for by state law. <TextRun amendingStyle="strike">Local</TextRun> <TextRun amendingStyle="add">Except as provided in subsection (2) of this section, local</TextRun> laws and ordinances that are inconsistent with the requirements of state law shall not be enacted and are preempted and repealed, regardless of the nature of the code, charter, or home rule status of the city, town, county, or municipality.</P>
+<P><TextRun amendingStyle="add">(2) Cities, towns, counties, and other municipalities may enact laws and ordinances relating to possession of controlled substances and counterfeit substances.</TextRun></P>
+<History>1989 c 271 § 601.</History>
+</BillSection>
+</BillBody>
+</Bill>

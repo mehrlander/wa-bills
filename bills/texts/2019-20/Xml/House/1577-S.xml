@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-1774.1</RequestNumber><ShortBillId>SHB 1577</ShortBillId><LongBillId>SUBSTITUTE HOUSE BILL 1577</LongBillId><Legislature>66th Legislature</Legislature><Session>2019 Regular Session</Session><Sponsors>House Education (originally sponsored by Representatives Callan, Stonier, Steele, Vick, Bergquist, Senn, Slatter, Jenkin, Goodman, Pettigrew, Ybarra, Dent, Harris, Tarleton, Dolan, and Lekanoff)</Sponsors><BillHistory><ReadDate>READ FIRST TIME 02/21/19.</ReadDate></BillHistory><BriefDescription>Concerning K-12 computer science education data.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to addressing data gathering of student participation in K-12 computer science education; adding a new section to chapter 28A.300 RCW; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature finds that to close the gender gap in computer science fields, it is important that computer science student participation rates are incorporated into the existing reporting infrastructure at the office of the superintendent of public instruction. The legislature finds that it is critical to track the gender and demographic composition of computer science course takers as well as the specific courses that they are taking. Grade level, socioeconomic, and distinctive factors should be included to establish a clear baseline of current student participation and identify areas for student participation improvement.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>28A</TitleNumber><TextRun>.</TextRun><ChapterNumber>300</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>Beginning June 30, 2020, and by each June 30th thereafter, each school district shall submit to the office of the superintendent of public instruction, and the office of the superintendent of public instruction shall post conspicuously on its web site, a report for the preceding academic year that must include, but is not limited to, the following:</P>
+<P>(1) The total number of computer science courses offered in each school and whether these courses are advanced placement classes;</P>
+<P>(2) The number and percentage of students who enrolled in a computer science program, disaggregated by:</P>
+<P>(a) Gender;</P>
+<P>(b) Race and ethnicity;</P>
+<P>(c) Special education status;</P>
+<P>(d) English language learner status;</P>
+<P>(e) Eligibility for the free and reduced-price lunch program; and</P>
+<P>(f) Grade level; and</P>
+<P>(3) The number of computer science instructors at each school, disaggregated by:</P>
+<P>(a) Certification, if applicable;</P>
+<P>(b) Gender; and</P>
+<P>(c) Highest academic degree.</P>
+</BillSection>
+</BillBody>
+</Bill>

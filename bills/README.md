@@ -28,8 +28,14 @@ words across tag boundaries.
 
 ## Full texts
 
-Not stored. The URL catalog for every bill document is in
-[`../wsl-api/data/GetAllDocumentsByClass/`](../wsl-api/data/GetAllDocumentsByClass/),
-and the repo `.gitignore` deliberately blocks `*.xml`/`*.htm` so a future
-full-text import (a `texts/` folder here would be its natural home) happens
-by decision, with `git add -f`, not by accident.
+Stored, as of 2026-07-11, in [`texts/`](texts/): every House and Senate
+bill document on `lawfilesext.leg.wa.gov` for the eleven biennia 2005-06
+through 2025-26, in both HTM and XML. 116,207 files, 3.9 GB, verified
+file-by-file against the server's directory listings (`texts/manifest.json`).
+The manifest additionally covers 2001-02 and 2003-04 (16,953 files), a
+planned follow-up import.
+See [`texts/README.md`](texts/README.md) for layout and provenance. The
+`.gitignore` guard on `*.xml`/`*.htm` remains in force outside `texts/`.
+The URL catalog in
+[`../wsl-api/data/GetAllDocumentsByClass/`](../wsl-api/data/GetAllDocumentsByClass/)
+covers other document classes (amendments, reports) not imported here.

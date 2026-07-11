@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-0531.1</RequestNumber><ShortBillId>HB 1331</ShortBillId><LongBillId>HOUSE BILL 1331</LongBillId><Legislature>69th Legislature</Legislature><Session>2025 Regular Session</Session><Sponsors>Representatives Low, Schmidt, Couture, Caldier, and Barnard</Sponsors><BillHistory><ReadDate>Read first time 01/16/25.</ReadDate><ReferredCommittee>Referred to Committee on Community Safety.</ReferredCommittee></BillHistory><BriefDescription>Increasing public safety by elevating the penalty for unlawful delivery of a controlled substance resulting in death.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to increasing public safety by elevating the penalty for unlawful delivery of a controlled substance resulting in the death of another to manslaughter in the first degree; amending RCW 9A.32.060; and repealing RCW 69.50.415.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>9A</TitleNumber><TextRun>.</TextRun><ChapterNumber>32</ChapterNumber><TextRun>.</TextRun><SectionNumber>060</SectionNumber></SectionCite> and 2011 c 336 s 357 are each amended to read as follows:<Caption>Manslaughter in the first degree.</Caption></BillSectionHeader>
+<P>(1) A person is guilty of manslaughter in the first degree when:</P>
+<P>(a) He or she recklessly causes the death of another person; <TextRun amendingStyle="strike">or</TextRun></P>
+<P>(b) He or she intentionally and unlawfully kills an unborn quick child by inflicting any injury upon the mother of such child<TextRun amendingStyle="add">; or</TextRun></P>
+<P><TextRun amendingStyle="add">(c) He or she unlawfully delivers a controlled substance in violation of RCW 69.50.401(2) (a), (b), or (c) which controlled substance is subsequently used by the person to whom it was delivered, resulting in the death of the user</TextRun>.</P>
+<P>(2) Manslaughter in the first degree is a class A felony.</P>
+<History>2011 c 336 s 357; 1997 c 365 s 5; 1975 1st ex.s. c 260 s 9A.32.060.</History>
+</BillSection>
+<BillSection type="new" action="repeal">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P><SectionCite><TextRun>RCW </TextRun><TitleNumber>69</TitleNumber><TextRun>.</TextRun><ChapterNumber>50</ChapterNumber><TextRun>.</TextRun><SectionNumber>415</SectionNumber></SectionCite> (Controlled substances homicide<TextRun fontFamily="Times New Roman">—</TextRun>Penalty) and 2003 c 53 s 343, 1996 c 205 s 8, &amp; 1987 c 458 s 2 are each repealed.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

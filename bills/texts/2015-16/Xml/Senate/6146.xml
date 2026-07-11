@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-3509.1</RequestNumber><ShortBillId>SB 6146</ShortBillId><LongBillId>SENATE BILL 6146</LongBillId><Legislature>64th Legislature</Legislature><Session>2016 Regular Session</Session><Sponsors>Senators Rolfes, Warnick, Keiser, Conway, Nelson, Chase, Angel, Hasegawa, Ranker, Billig, Habib, Dammeier, Honeyford, Hewitt, Fain, O'Ban, Mullet, Liias, Roach, Hill, Fraser, Litzow, and Darneille</Sponsors><BillHistory><PrefiledDate>Prefiled 12/07/15.</PrefiledDate><ReadDate>Read first time 01/11/16.</ReadDate><ReferredCommittee>Referred to Committee on Health Care.</ReferredCommittee></BillHistory><BriefDescription>Providing women with timely information regarding their breast health.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to providing women with timely information regarding their breast health; and adding a new section to chapter 70.54 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>70</TitleNumber><TextRun>.</TextRun><ChapterNumber>54</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) All health care facilities shall include in the summary of the mammography report, required by federal law to be provided to a patient, information that identifies the patient's individual breast density classification based on the breast imaging reporting and data system established by the American College of Radiology. If a physician at, employed by, or under contract with, the health care facility determines that a patient has heterogeneously or extremely dense breasts, the summary of the mammography report must include the following notice:</P>
+<P indent="0">"Your mammogram indicates that you may have dense breast tissue. Dense breast tissue is relatively common and is found in more than forty percent of women. The presence of dense tissue may make it more difficult to detect abnormalities in the breast and may be associated with an increased risk of breast cancer. We are providing this information to raise your awareness of this important factor and to encourage you to talk with your physician about this and other breast cancer risk factors. Together, you can decide which screening options are right for you. A report of your results was sent to your physician."</P>
+<P>(2) Patients who receive diagnostic or screening mammograms may be directed to informative material about breast density. This informative material may include the American College of Radiology's most current brochure on the subject of breast density.</P>
+<P>(3) For the purposes of this section:</P>
+<P>(a) "Health care facility" means a hospital, clinic, nursing home, laboratory, office, or similar place where mammography examinations are performed.</P>
+<P>(b) "Physician" means a person licensed to practice medicine under chapter 18.57 or 18.71 RCW.</P>
+</BillSection>
+</BillBody>
+</Bill>

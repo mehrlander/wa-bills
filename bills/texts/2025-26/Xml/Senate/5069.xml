@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>Z-0087.1</RequestNumber><ShortBillId>SB 5069</ShortBillId><LongBillId>SENATE BILL 5069</LongBillId><Legislature>69th Legislature</Legislature><Session>2025 Regular Session</Session><Sponsors>Senators Valdez, Dozier, Chapman, Cleveland, Hasegawa, Liias, Nobles, and Riccelli; by request of Secretary of State</Sponsors><BillHistory><PrefiledDate>Prefiled 12/16/24.</PrefiledDate><ReadDate>Read first time 01/13/25.</ReadDate><ReferredCommittee>Referred to Committee on State Government, Tribal Affairs &amp; Elections.</ReferredCommittee></BillHistory><BriefDescription>Requiring the secretary of state to print and distribute a voters' pamphlet for the primary in each even-numbered year and for the general election every year.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to requiring the secretary of state to print and distribute a voters' pamphlet for the primary in each even-numbered year and for the general election every year; amending RCW 29A.32.010 and 29A.32.210; and providing an effective date.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>29A</TitleNumber><TextRun>.</TextRun><ChapterNumber>32</ChapterNumber><TextRun>.</TextRun><SectionNumber>010</SectionNumber></SectionCite> and 2024 c 78 s 1 are each amended to read as follows:<Caption>Printing and distribution. <TextRun fontStyle="italic">(Effective January 1, 2025.)</TextRun></Caption></BillSectionHeader>
+<P>The secretary of state shall<TextRun amendingStyle="strike">, whenever at least one statewide measure or office is scheduled to appear on the general election ballot,</TextRun> print and distribute a voters' pamphlet <TextRun amendingStyle="add">prior to the primary in each even-numbered year and prior to the general election every year</TextRun>.</P>
+<P>The secretary of state shall distribute the voters' pamphlet to each household in the state, to public libraries, and to any other locations the secretary deems appropriate. The secretary of state shall also produce recorded or Braille transcripts of the voters' pamphlet, publicize their availability, and mail without charge a copy to any person who requests one.</P>
+<P>The secretary of state may make the material required to be distributed by this chapter available to the public in electronic form. The secretary of state may provide the material in electronic form to web-based, print, and broadcast news media and similar services at the cost of reproduction or transmission of the data.</P>
+<History>2024 c 78 s 1; 2003 c 111 s 801. Prior: 1999 c 260 s 1. Formerly RCW 29.81.210.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2024 c 78:</TextRun> "This act takes effect January 1, 2025." [2024 c 78 s 13.]</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>29A</TitleNumber><TextRun>.</TextRun><ChapterNumber>32</ChapterNumber><TextRun>.</TextRun><SectionNumber>210</SectionNumber></SectionCite> and 2024 c 78 s 7 are each amended to read as follows:<Caption>Duty to print and distribute<TextRun fontFamily="Times New Roman">—</TextRun>Contents<TextRun fontFamily="Times New Roman">—</TextRun>Format. <TextRun fontStyle="italic">(Effective January 1, 2025.)</TextRun></Caption></BillSectionHeader>
+<P>Before any primary or general election, or any special election held under RCW 29A.04.321 or 29A.04.330, each county auditor shall print and distribute a local voters' pamphlet. The pamphlet shall provide information on all measures and candidates appearing on ballots within that county <TextRun amendingStyle="add">except measures and candidates appearing in a voters' pamphlet produced by the secretary of state under RCW 29A.32.010 and 29A.32.031</TextRun>. The format of any local voters' pamphlet shall, whenever applicable, comply with the provisions of this chapter regarding the publication of the state candidates' and voters' pamphlets.</P>
+<History>2024 c 78 s 7; 2020 c 337 s 6; 2013 c 11 s 38; 2003 c 111 s 813; 1984 c 106 s 3. Formerly RCW 29.81A.010.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2024 c 78:</TextRun> See note following RCW 29A.32.010.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2020 c 337:</TextRun> See note following RCW 29A.04.410.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="new" action="effdate">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act takes effect January 1, 2026.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

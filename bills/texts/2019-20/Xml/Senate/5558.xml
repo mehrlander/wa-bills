@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-0889.1</RequestNumber><ShortBillId>SB 5558</ShortBillId><LongBillId>SENATE BILL 5558</LongBillId><Legislature>66th Legislature</Legislature><Session>2019 Regular Session</Session><Sponsors>Senators Saldaña, Darneille, Keiser, and Nguyen</Sponsors><BillHistory><ReadDate>Read first time 01/23/19.</ReadDate><ReferredCommittee>Referred to Committee on Human Services, Reentry &amp; Rehabilitation.</ReferredCommittee></BillHistory><BriefDescription>Reinstating the authority of the department of social and health services and the health care authority to purchase interpreter services for applicants and recipients of public assistance who are sensory-impaired.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to reinstating the authority of the department of social and health services and the health care authority to purchase interpreter services for applicants and recipients of public assistance who are sensory-impaired; amending RCW 39.26.100; creating a new section; and declaring an emergency.</BillTitle>
+<EnactedClause />
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature finds that recent legislation to alter the procurement of spoken language interpreter services and to allow spoken language interpreters to elect collective bargaining representation also removed the authority of department of social and health services to procure interpreter services on behalf of applicants and recipients of public assistance who are sensory-impaired. The legislature intends to reinstate that authority.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>39</TitleNumber><TextRun>.</TextRun><ChapterNumber>26</ChapterNumber><TextRun>.</TextRun><SectionNumber>100</SectionNumber></SectionCite> and 2018 c 253 s 4 are each amended to read as follows:<Caption>Exemptions.</Caption></BillSectionHeader>
+<P>(1) The provisions of this chapter do not apply in any manner to the operation of the state legislature except as requested by the legislature.</P>
+<P>(2) The provisions of this chapter do not apply to the contracting for services, equipment, and activities that are necessary to establish, operate, or manage the state data center, including architecture, design, engineering, installation, and operation of the facility, that are approved by the technology services board or the acquisition of proprietary software, equipment, and information technology services necessary for or part of the provision of services offered by the consolidated technology services agency.</P>
+<P>(3) Primary authority for the purchase of specialized equipment, and instructional and research material, for their own use rests with the institutions of higher education as defined in RCW 28B.10.016.</P>
+<P>(4) Universities operating hospitals with approval from the director, as the agent for state hospitals as defined in RCW 72.23.010, and for health care programs provided in state correctional institutions as defined in RCW 72.65.010(3) and veterans' institutions as defined in RCW 72.36.010 and 72.36.070, may make purchases for hospital operation by participating in contracts for materials, supplies, and equipment entered into by nonprofit cooperative hospital group purchasing organizations if documented to be more cost-effective.</P>
+<P>(5) Primary authority for the purchase of materials, supplies, and equipment, for resale to other than public agencies, rests with the state agency concerned.</P>
+<P>(6) The authority for the purchase of insurance and bonds rests with the risk manager under RCW 43.19.769, except for institutions of higher education that choose to exercise independent purchasing authority under RCW 28B.10.029.</P>
+<P>(7) The provisions of this chapter do not apply to information technology purchases by state agencies, other than institutions of higher education and agencies of the judicial branch, if (a) the purchase is less than one hundred thousand dollars, (b) the initial purchase is approved by the chief information officer of the state, and (c) the agency director and the chief information officer of the state jointly prepare a public document providing a detailed justification for the expenditure.</P>
+<P><TextRun amendingStyle="add">(8) The authority to purchase interpreter services on behalf of applicants and recipients of public assistance who are sensory-impaired rests with the department of social and health services and the health care authority.</TextRun></P>
+<History>2018 c 253 § 4; 2013 2nd sp.s. c 33 § 2; 2012 c 224 § 11.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Intent<TextRun fontFamily="Times New Roman">—</TextRun>Conflict with federal requirements<TextRun fontFamily="Times New Roman">—</TextRun>2018 c 253:</TextRun> See notes following RCW 74.04.025.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="new" action="emerg">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act is necessary for the immediate preservation of the public peace, health, or safety, or support of the state government and its existing public institutions, and takes effect immediately.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

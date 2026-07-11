@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-4981.1</RequestNumber><ShortBillId>SB 6063</ShortBillId><LongBillId>SENATE BILL 6063</LongBillId><Legislature>66th Legislature</Legislature><Session>2020 Regular Session</Session><Sponsors>Senators Wagoner, Kuderer, and Padden</Sponsors><BillHistory><PrefiledDate>Prefiled 12/10/19.</PrefiledDate><ReadDate>Read first time 01/13/20.</ReadDate><ReferredCommittee>Referred to Committee on Human Services, Reentry &amp; Rehabilitation.</ReferredCommittee></BillHistory><BriefDescription>Improving department of corrections health care administration.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to improving department of corrections health care administration; amending RCW 72.10.020; and adding a new section to chapter 72.10 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>72</TitleNumber><TextRun>.</TextRun><ChapterNumber>10</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) The department shall establish minimum job qualifications for the position of prison medical director in accordance with best practices.</P>
+<P>(2) A candidate for prison medical director must meet the established minimum qualifications to be considered for the position.</P>
+<P>(3) The established minimum qualifications shall be reviewed by the department every five years or more frequently as the department deems necessary.</P>
+<P>(4) By December 1, 2020, and in compliance with RCW 43.01.036, the department shall report to the appropriate committees of the legislature the minimum job qualifications established and the status of implementing the minimum job qualifications throughout the department's correctional facilities.</P>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>72</TitleNumber><TextRun>.</TextRun><ChapterNumber>10</ChapterNumber><TextRun>.</TextRun><SectionNumber>020</SectionNumber></SectionCite> and 2016 c 197 s 8 are each amended to read as follows:<Caption>Health services delivery plan<TextRun fontFamily="Times New Roman">—</TextRun>Reports to the legislature<TextRun fontFamily="Times New Roman">—</TextRun>Policy for distribution of personal hygiene items.</Caption></BillSectionHeader>
+<P>(1) Upon entry into the correctional system, offenders shall receive an initial medical examination. The department shall prepare a health profile for each offender that includes at least the following information: (a) An identification of the offender's serious medical and dental needs; (b) an evaluation of the offender's capacity for work and recreation; and (c) a financial assessment of the offender's ability to pay for all or a portion of his or her health care services from personal resources or private insurance.</P>
+<P>(2)(a) The department may develop and implement a plan for the delivery of health care services and personal hygiene items to offenders in the department's correctional facilities, at the discretion of the secretary, and in conformity with federal law.</P>
+<P>(b) To discourage unwarranted use of health care services caused by unnecessary visits to health care providers, offenders shall participate in the costs of their health care services by paying an amount that is commensurate with their resources as determined by the department, or a nominal amount of no less than four dollars per visit, as determined by the secretary. Under the authority granted in RCW 72.01.050(2), the secretary may authorize the superintendent to collect this amount directly from an offender's institution account. All copayments collected from offenders' institution accounts shall be a reduction in the expenditures for offender health care at the department.</P>
+<P>(c) Offenders are required to make copayments for initial health care visits that are offender initiated and, by rule adopted by the department, may be charged a copayment for subsequent visits related to the medical condition which caused the initial visit.</P>
+<P>(d) No offender may be refused any health care service because of indigence.</P>
+<P>(e) At no time shall the withdrawal of funds for the payment of a medical service copayment result in reducing an offender's institution account to an amount less than the level of indigency as defined in chapter 72.09 RCW.</P>
+<P>(3)(a) The secretary shall adopt, by rule, a uniform policy relating to the distribution and replenishment of personal hygiene items for inmates incarcerated in all department institutions. The policy shall provide for the initial distribution of adequate personal hygiene items to inmates upon their arrival at an institution.</P>
+<P>(b) The acquisition of replenishment personal hygiene items is the responsibility of inmates, except that indigent inmates shall not be denied adequate personal hygiene items based on their inability to pay for them.</P>
+<P>(c) The policy shall provide that the replenishment personal hygiene items be distributed to inmates only in authorized quantities and at intervals that reflect prudent use and customary wear and consumption of the items.</P>
+<P>(4) To the extent that federal law allows and federal financial participation is available, for the limited purpose of implementing this section, the department, or the department's designee, is authorized to act on behalf of an inmate for purposes of applying for medicaid eligibility.</P>
+<P>(5) The following become a debt and are subject to RCW 72.09.450:</P>
+<P>(a) All copayments under subsection (2) of this section that are not collected when the visit occurs; and</P>
+<P>(b) All charges for replenishment personal hygiene items that are not collected when the item is distributed.</P>
+<P><TextRun amendingStyle="add">(6) The department, in accordance with medically accepted best practices, shall develop and implement uniform guidelines across all correctional facilities for determining when an offender shall be transferred to a health care facility for medical assistance.</TextRun></P>
+<History>2016 c 197 § 8; 2012 c 237 § 1; 1995 1st sp.s. c 19 § 17; 1989 c 157 § 3.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Findings<TextRun fontFamily="Times New Roman">—</TextRun>Purpose<TextRun fontFamily="Times New Roman">—</TextRun>Short title<TextRun fontFamily="Times New Roman">—</TextRun>Severability<TextRun fontFamily="Times New Roman">—</TextRun>Effective date<TextRun fontFamily="Times New Roman">—</TextRun>1995 1st sp.s. c 19:</TextRun> See notes following RCW 72.09.450.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+</BillBody>
+</Bill>

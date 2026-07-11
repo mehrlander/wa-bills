@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-1613.1</RequestNumber><ShortBillId>HB 1583</ShortBillId><LongBillId>HOUSE BILL 1583</LongBillId><Legislature>67th Legislature</Legislature><Session>2021 Regular Session</Session><Sponsors>Representatives McEntire, Walsh, Ybarra, Eslick, Orcutt, Dufault, Robertson, Young, Kraft, Jacobsen, Graham, Boehnke, Sutherland, Klicker, and Chandler</Sponsors><BillHistory><ReadDate>Read first time 04/21/21.</ReadDate><ReferredCommittee>Referred to Committee on Finance.</ReferredCommittee></BillHistory><BriefDescription>Prohibiting the imposition or collection of any tax based on income.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to prohibiting the imposition or collection of any tax based on income; adding a new section to chapter 82.32 RCW; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature finds and recognizes that the state of Washington has a long tradition, in its Constitution and in case law, of prohibiting a state income tax. The legislature intends to confirm that tradition by prohibiting the state from imposing any tax that is based on income.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>82</TitleNumber><TextRun>.</TextRun><ChapterNumber>32</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) The state is strictly prohibited from imposing any tax that is based on income.</P>
+<P>(2) The government is strictly prohibited from collecting revenue from any tax prohibited under subsection (1) of this section.</P>
+<P>(3) For purposes of this section, "tax that is based on income" includes any payroll tax, excise tax, and any other type of tax that is based on an individual's or household's personal income, whether net, gross, or adjusted gross income, capital gains income, or any other portion or type of income.</P>
+<P>(4) Such a strict prohibition applies to taxes imposed on taxpayers and to taxes imposed on taxpayers' employers.</P>
+<P>(5) This strict prohibition and the definition of income specifically are to be construed broadly by any reviewing court to effectuate the policy of this state that there exists absolute clarity and certainty in state law that there is no authority to impose any tax that is based on income.</P>
+</BillSection>
+</BillBody>
+</Bill>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-4128.1</RequestNumber><ShortBillId>HB 2821</ShortBillId><LongBillId>HOUSE BILL 2821</LongBillId><Legislature>66th Legislature</Legislature><Session>2020 Regular Session</Session><Sponsors>Representatives Cody, Robinson, Macri, and Pollet</Sponsors><BillHistory><ReadDate>Read first time 01/23/20.</ReadDate><ReferredCommittee>Referred to Committee on Finance.</ReferredCommittee></BillHistory><BriefDescription>Establishing and funding the health insurance affordability account.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to establishing and funding the health insurance affordability account; adding a new section to chapter 48.14 RCW; and adding a new section to chapter 41.05 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>48</TitleNumber><TextRun>.</TextRun><ChapterNumber>14</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) In addition to other taxes imposed under this chapter, each health carrier and managed care organization must pay a tax on or before the first day of March of each year to the state treasurer through the office of the insurance commissioner as follows:</P>
+<P>(a) For taxes due in 2021, the tax must be equal to the total amount of all premiums for health benefit plans, dental only plans, and vision only plans, and prepayments for health care services provided by managed care organizations collected or received by health carriers and managed care organizations during the preceding calendar year 2020, multiplied by the rate of two and two-tenths percent. For tax purposes, the reporting of premiums and prepayments must be on a written basis or on a paid-for basis consistent with the basis required by the annual statement.</P>
+<P>(b) Beginning with taxes due in 2022 and thereafter, the tax must be equal to the total amount of all premiums for health benefit plans, dental only plans, and vision only plans, and prepayments for health care services provided by managed care organizations collected or received by health carriers and managed care organizations during the preceding calendar year, multiplied by the rate of one and five-tenths percent. For tax purposes, the reporting of premiums and prepayments must be on a written basis or on a paid-for basis consistent with the basis required by the annual statement.</P>
+<P>(2) Moneys collected pursuant to this section must be deposited into the health insurance affordability account created in section 2 of this act.</P>
+<P>(3) The definitions in this subsection apply throughout this section unless the context clearly requires otherwise.</P>
+<P>(a) "Health carrier" has the same meaning as in RCW 48.43.005.</P>
+<P>(b) "Health plan" has the same meaning as in RCW 48.43.005.</P>
+<P>(c) "Managed care organization" means an organization, having a certificate of authority or certificate of registration from the office of the insurance commissioner, that contracts with the health care authority under a comprehensive risk contract to provide prepaid health care services to enrollees under the health care authority's managed care programs under chapter 74.09 RCW</P>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>41</TitleNumber><TextRun>.</TextRun><ChapterNumber>05</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>The health insurance affordability account is created in the state treasury. All receipts from the tax collected under section 1 of this act must be deposited into the account. Moneys in the account may be spent only after appropriation. Expenditures from the account may be used only for low-income health insurance programs.</P>
+</BillSection>
+</BillBody>
+</Bill>

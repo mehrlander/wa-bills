@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-1249.1</RequestNumber><ShortBillId>HB 1563</ShortBillId><LongBillId>HOUSE BILL 1563</LongBillId><Legislature>67th Legislature</Legislature><Session>2021 Regular Session</Session><Sponsors>Representatives Young, Barkis, Sutherland, and Dent</Sponsors><BillHistory><ReadDate>Read first time 03/24/21.</ReadDate><ReferredCommittee>Referred to Committee on Civil Rights &amp; Judiciary.</ReferredCommittee></BillHistory><BriefDescription>Concerning declaratory and other relief in actions to determine the validity of certain gubernatorial orders.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to declaratory and other relief in actions to determine the validity of certain gubernatorial orders; amending RCW 7.24.020 and 7.24.100; adding a new section to chapter 7.24 RCW; creating a new section; and declaring an emergency.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>7</TitleNumber><TextRun>.</TextRun><ChapterNumber>24</ChapterNumber><TextRun>.</TextRun><SectionNumber>020</SectionNumber></SectionCite> and 1935 c 113 s 2 are each amended to read as follows:<Caption>Rights and status under written instruments, statutes, ordinances.</Caption></BillSectionHeader>
+<P><TextRun amendingStyle="add">(1)</TextRun> A person interested under a deed, will, written contract or other writings constituting a contract, or whose rights, status or other legal relations are affected by a statute, <TextRun amendingStyle="add">order issued by the governor pursuant to chapter 43.06 RCW,</TextRun> municipal ordinance, contract or franchise, may have determined any question of construction or validity arising under the instrument, statute, <TextRun amendingStyle="add">order,</TextRun> ordinance, contract or franchise and obtain a declaration of rights, status or other legal relations thereunder.</P>
+<P><TextRun amendingStyle="add">(2) For purposes of determining the validity of an order issued by the governor pursuant to chapter 43.06 RCW, where the order at issue has not been or will not be enforced, an issue of continuing and substantial public interest exists and is likely to recur, and the final authoritative determination of the issue is essential.</TextRun></P>
+<History>1935 c 113 § 2; RRS § 784-2.</History>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>7</TitleNumber><TextRun>.</TextRun><ChapterNumber>24</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>Where an order issued by the governor pursuant to chapter 43.06 RCW is determined to be invalid in whole or in relevant part, the court shall enjoin enforcement of the order or part of the order determined to be invalid and award actual damages to the prevailing plaintiff. The court may, in its discretion, increase the award of damages to an amount not more than three times the actual damages sustained.</P>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>7</TitleNumber><TextRun>.</TextRun><ChapterNumber>24</ChapterNumber><TextRun>.</TextRun><SectionNumber>100</SectionNumber></SectionCite> and 1935 c 113 s 10 are each amended to read as follows:<Caption>Costs.</Caption></BillSectionHeader>
+<P><TextRun amendingStyle="strike">In</TextRun> <TextRun amendingStyle="add">(1) Except as provided in subsection (2) of this section, in</TextRun> any proceeding under this chapter, the court may make such award of costs as may seem equitable and just.</P>
+<P><TextRun amendingStyle="add">(2) Where an order issued by the governor pursuant to chapter 43.06 RCW is determined to be invalid in whole or in relevant part, the court shall award reasonable attorneys' fees and costs to the prevailing plaintiff.</TextRun></P>
+<History>1935 c 113 § 10; RRS § 784-10.</History>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act applies to all causes of action commenced on or after the effective date of this section, regardless of when the cause of action arose. To this extent, this act applies retroactively, but in all other respects it applies prospectively.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="emerg">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>5</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act is necessary for the immediate preservation of the public peace, health, or safety, or support of the state government and its existing public institutions, and takes effect immediately.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

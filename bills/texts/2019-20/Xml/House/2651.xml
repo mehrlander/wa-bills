@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-3757.2</RequestNumber><ShortBillId>HB 2651</ShortBillId><LongBillId>HOUSE BILL 2651</LongBillId><Legislature>66th Legislature</Legislature><Session>2020 Regular Session</Session><Sponsors>Representatives Doglio, Fitzgibbon, Ramel, Ryu, Tharinger, Macri, Shewmake, Peterson, Hudgins, Walen, Mead, Tarleton, Gregerson, and Riccelli</Sponsors><BillHistory><ReadDate>Read first time 01/16/20.</ReadDate><ReferredCommittee>Referred to Committee on Rural Development, Agriculture, &amp; Natural Resources.</ReferredCommittee></BillHistory><BriefDescription>Addressing food waste by standardizing labels communicating the freshness or expiration of food.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to addressing food waste by standardizing labels communicating the freshness or expiration of food; amending RCW 15.130.300 and 15.130.550; adding a new section to chapter 15.130 RCW; and prescribing penalties.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>15</TitleNumber><TextRun>.</TextRun><ChapterNumber>130</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) Beginning January 1, 2022, food manufactured, distributed, or sold in intrastate commerce that bears a label communicating information related to the freshness or anticipated expiration of the food, including the quality date or safety date of the food, may only:</P>
+<P>(a) Use the phrases "best if used by" or "best if used or frozen by" to indicate the quality date of the food; and</P>
+<P>(b) Use the phrases "use by" or "use by or freeze by" to indicate the safety date of the food.</P>
+<P>(2) A person may not offer food for sale in intrastate commerce that contains a sell by date.</P>
+<P>(3) Nothing in this section:</P>
+<P>(a) Requires food to bear a label containing a quality date or a safety date;</P>
+<P>(b) Restricts the sale of food bearing a label denoting that the food is best used or consumed within a specified number of days of being opened; or</P>
+<P>(c) Restricts the sale of food bearing a label indicating the date on which it was packed or packaged.</P>
+<P>(4)(a) The requirements of this section do not apply to types of food for which incompatible expiration labeling requirements are prescribed by federal law, including infant formula subject to the requirements of 21 C.F.R. Sec. 107.20, as that regulation existed as of January 1, 2019.</P>
+<P>(b) For perishable packaged food, the requirements of this section are in addition to the requirements of RCW 15.130.300.</P>
+<P>(5)(a) The department may enforce the requirements of this section or may delegate enforcement authority by contractual agreement to a local health jurisdiction for purposes of enforcement at locations subject to inspection by the local health jurisdiction under authority specified in chapter 70.05, 70.08, or 70.46 RCW. The department may enforce the requirements of this section at any point in the supply chain where food is distributed or sold in Washington.</P>
+<P>(b) The department or a local health jurisdiction may impose upon and collect a civil penalty of up to five hundred dollars per day for violations of the requirements of this section. For each day of noncompliance, the sale of a noncompliant product by stock-keeping unit number or unique item number constitutes a violation.</P>
+<P>(c) The enforcement of this section must be based primarily on complaints filed with the department or a local health jurisdiction with delegated enforcement authority. The department or a local health jurisdiction may include a form on appropriate agency web sites or establish a telephone hotline to receive complaints that allege violations. Nothing in this subsection requires the department or a local health jurisdiction to investigate associated locations for each filed complaint received or to investigate filed complaints within a specific period of time.</P>
+<P>(6) Each person that sells food in a retail space exceeding ten thousand square feet must display at least three signs for purposes of educating consumers regarding the requirements of this section. The signs may be of a design chosen by the retailer as long as the requirements of this subsection are met or may use generic signage developed by the department. Signs must use a minimum of forty-eight-point font and must read as follows:</P>
+<P indent="0" prePadding="halfline">"In an effort to minimize wasted food, Washington law requires food products that are labeled with an expiration date to include one of two types of labeling:</P>
+<P textAlign="left" indent="0" prePadding="halfline">Safety Dates: Dates on a product preceded by the words "Use By" or "Use By or Freeze By" indicate that a product must be consumed by those dates in order to avoid potential negative safety implications.</P>
+<P indent="0" prePadding="halfline" postPadding="halfline">Quality Dates: Dates on a product preceded by the words "Best if Used By" or "Best if Used or Frozen By" indicate a manufacturer's suggestion that the product will retain its highest quality if consumed before that date."</P>
+<P>(7) The department may adopt rules to implement this section.</P>
+<P>(8) The definitions in this subsection apply throughout this section unless the context clearly requires otherwise.</P>
+<P>(a) "Local health jurisdiction" means an administrative agency organized under chapter 70.05 RCW, a health district organized under chapter 70.46 RCW, or a combined city-county health department organized under chapter 70.08 RCW, that administers public health and safety regulations and codes, including food safety and restaurant inspections.</P>
+<P>(b) "Quality date" means a date on a label affixed to the packaging or a container of food that communicates to consumers the date after which the food quality may begin to deteriorate but the food may still be acceptable for consumption.</P>
+<P>(c) "Safety date" means a date on a label affixed to the packaging or container of food that communicates to consumers that the food should be consumed or frozen, if appropriate, by the date listed on the package that applies to perishable products with potential safety implications over time.</P>
+<P>(d) "Sell by date" means a date on a label affixed to the packaging or container of food that is intended to communicate primarily to a distributor or retailer for purposes of stock rotation and that is not a quality date or safety date.</P>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>15</TitleNumber><TextRun>.</TextRun><ChapterNumber>130</ChapterNumber><TextRun>.</TextRun><SectionNumber>300</SectionNumber></SectionCite> and 2018 c 236 s 301 are each amended to read as follows:<Caption>Perishable packaged food<TextRun fontFamily="Times New Roman">—</TextRun>Pull dates.</Caption></BillSectionHeader>
+<P>(1) All perishable packaged foods in intrastate commerce with a projected shelf life of thirty days or less must state a pull date on the package.</P>
+<P>(2) The pull date must be stated by month and day<TextRun amendingStyle="add">, but may not include the phrases "pull date" or "pull by,"</TextRun> and <TextRun amendingStyle="add">must</TextRun> be in a style and format that is readily decipherable by consumers.</P>
+<P>(3) A person may not offer perishable packaged food for sale after the pull date, except that if clearly identified as past the pull date, packaged perishable food with an expired pull date may be sold if still wholesome and without danger to health.</P>
+<P>(4) A person may not rewrap or repackage perishable packaged food with the intention of providing a pull date different from the original.</P>
+<P>(5) The department may exclude the monthly requirement from the pull date for perishable packaged food with a shelf life of seven days or less.</P>
+<P>(6) The department must consult with the secretary of the department of health when appropriate in adopting rules to establish uniform standards for pull date labeling and optimum storage conditions for perishable packaged food.</P>
+<History>2018 c 236 § 301.</History>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>15</TitleNumber><TextRun>.</TextRun><ChapterNumber>130</ChapterNumber><TextRun>.</TextRun><SectionNumber>550</SectionNumber></SectionCite> and 2018 c 236 s 506 are each amended to read as follows:<Caption>Civil monetary penalty.</Caption></BillSectionHeader>
+<P>(1) The department may impose upon and collect a civil penalty from a person violating this chapter or the rules adopted under it.</P>
+<P>(2) The civil penalty must not exceed one thousand dollars per violation per day, except the civil penalty for a violation of pull date requirements in RCW 15.130.300 must not exceed five hundred dollars<TextRun amendingStyle="add">, and the civil penalty for a violation of labeling requirements in section 1 of this act must not exceed five hundred dollars and is subject to the provisions of section 1 of this act</TextRun>.</P>
+<P>(3) Each violation of this section is a separate and distinct offense.</P>
+<History>2018 c 236 § 506.</History>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber><P>If any provision of this act or its application to any person or circumstance is held invalid, the remainder of the act or the application of the provision to other persons or circumstances is not affected.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

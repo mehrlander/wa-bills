@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-4332.2</RequestNumber><ShortBillId>SHB 2231</ShortBillId><LongBillId>SUBSTITUTE HOUSE BILL 2231</LongBillId><Legislature>66th Legislature</Legislature><Session>2020 Regular Session</Session><Sponsors>House Public Safety (originally sponsored by Representatives Pellicciotti, Hudgins, Appleton, Davis, Gregerson, Santos, Frame, Pollet, Fitzgibbon, Thai, Bergquist, Ormsby, Wylie, Pettigrew, Peterson, and Riccelli)</Sponsors><BillHistory><ReadDate>READ FIRST TIME 02/05/20.</ReadDate></BillHistory><BriefDescription>Concerning bail jumping.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to bail jumping; amending RCW 9A.76.170; adding a new section to chapter 9A.76 RCW; and prescribing penalties.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>9A</TitleNumber><TextRun>.</TextRun><ChapterNumber>76</ChapterNumber><TextRun>.</TextRun><SectionNumber>170</SectionNumber></SectionCite> and 2001 c 264 s 3 are each amended to read as follows:<Caption>Bail jumping.</Caption></BillSectionHeader>
+<P>(1) <TextRun amendingStyle="strike">Any person having been</TextRun> <TextRun amendingStyle="add">A person is guilty of bail jumping if he or she:</TextRun></P>
+<P><TextRun amendingStyle="add">(a) Is held for, charged with, or convicted of a violent offense, as defined in RCW 9.94A.030;</TextRun></P>
+<P><TextRun amendingStyle="add">(b) Is</TextRun> released by court order or admitted to bail <TextRun amendingStyle="strike">with knowledge</TextRun><TextRun amendingStyle="add">;</TextRun></P>
+<P><TextRun amendingStyle="add">(c) Has received written notice</TextRun> of the requirement of a subsequent personal appearance before any court of this state, or of the requirement to report to a correctional facility for service of sentence<TextRun amendingStyle="strike">, and who fails</TextRun><TextRun amendingStyle="add">;</TextRun></P>
+<P><TextRun amendingStyle="add">(d) Fails</TextRun> to appear or <TextRun amendingStyle="strike">who</TextRun> fails to surrender for service of sentence as required <TextRun amendingStyle="strike">is guilty of bail jumping</TextRun><TextRun amendingStyle="add">; and</TextRun></P>
+<P><TextRun amendingStyle="add">(e)(i) Within thirty days of the issuance of a warrant for failure to appear or surrender, does not make a motion with the court to quash the warrant, and if a motion is made under this subsection, he or she does not appear before the court with respect to the motion; or</TextRun></P>
+<P><TextRun amendingStyle="add">(ii) Has had a prior warrant issued based on a prior incident of failure to appear or surrender for the present cause for which he or she is being held or charged or has been convicted</TextRun>.</P>
+<P>(2) It is an affirmative defense to a prosecution under this section that uncontrollable circumstances prevented the person from appearing or surrendering, and that the person did not contribute to the creation of such circumstances <TextRun amendingStyle="strike">in reckless disregard of</TextRun> <TextRun amendingStyle="add">by negligently disregarding</TextRun> the requirement to appear or surrender, and that the person appeared or surrendered as soon as such circumstances ceased to exist.</P>
+<P>(3) Bail jumping is:</P>
+<P>(a) A class A felony if the person was held for, charged with, or convicted of murder in the first degree;</P>
+<P>(b) A class B felony if the person was held for, charged with, or convicted of a class A felony other than murder in the first degree; <TextRun amendingStyle="add">or</TextRun></P>
+<P>(c) A class C felony if the person was held for, charged with, or convicted of a class B or class C felony<TextRun amendingStyle="strikemarkleft">;</TextRun></P>
+<P><TextRun amendingStyle="strikemarkright">(d) A misdemeanor if the person was held for, charged with, or convicted of a gross misdemeanor or misdemeanor</TextRun>.</P>
+<History>2001 c 264 § 3; 1983 1st ex.s. c 4 § 3; 1975 1st ex.s. c 260 § 9A.76.170.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2001 c 264:</TextRun> See note following RCW 9A.76.110.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Severability<TextRun fontFamily="Times New Roman">—</TextRun>1983 1st ex.s. c 4:</TextRun> See note following RCW 9A.48.070.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>9A</TitleNumber><TextRun>.</TextRun><ChapterNumber>76</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) A person is guilty of failure to appear or surrender if he or she:</P>
+<P>(a) Is released by court order or admitted to bail;</P>
+<P>(b) Has received written notice of the requirement of a subsequent personal appearance before any court of this state, or of the requirement to report to a correctional facility for service of sentence; and</P>
+<P>(c) Fails to appear or fails to surrender for service of sentence as required.</P>
+<P>(2) It is an affirmative defense to a prosecution under this section that uncontrollable circumstances prevented the person from appearing or surrendering, that the person did not contribute to the creation of such circumstances by negligently disregarding the requirement to appear or surrender, and that the person appeared or surrendered as soon as such circumstances ceased to exist.</P>
+<P>(3) Failure to appear or surrender is:</P>
+<P>(a) A gross misdemeanor if the person was held for, charged with, or convicted of a felony; or</P>
+<P>(b) A misdemeanor if the person was held for, charged with, or convicted of a gross misdemeanor or misdemeanor.</P>
+</BillSection>
+</BillBody>
+</Bill>

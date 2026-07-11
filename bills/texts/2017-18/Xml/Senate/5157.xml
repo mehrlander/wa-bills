@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-0480.1</RequestNumber><ShortBillId>SB 5157</ShortBillId><LongBillId>SENATE BILL 5157</LongBillId><Legislature>65th Legislature</Legislature><Session>2017 Regular Session</Session><Sponsors>Senators Angel and Mullet</Sponsors><BillHistory><ReadDate>Read first time 01/13/17.</ReadDate><ReferredCommittee>Referred to Committee on Financial Institutions &amp; Insurance.</ReferredCommittee></BillHistory><BriefDescription>Repealing an expiration date for legislation enacted in 2015 regarding pawnbroker fees and interest rates.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to repealing an expiration date for legislation enacted in 2015 regarding pawnbroker fees and interest rates; and repealing 2015 c 294 s 2 (uncodified).</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="repealuncod" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P><UncodCite>2015 c 294 s 2</UncodCite> (uncodified) is repealed.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

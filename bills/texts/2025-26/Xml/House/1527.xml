@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-0697.1</RequestNumber><ShortBillId>HB 1527</ShortBillId><LongBillId>HOUSE BILL 1527</LongBillId><Legislature>69th Legislature</Legislature><Session>2025 Regular Session</Session><Sponsors>Representatives Bergquist, Schmick, Thai, Reed, Macri, and Zahn</Sponsors><BillHistory><ReadDate>Read first time 01/23/25.</ReadDate><ReferredCommittee>Referred to Committee on Civil Rights &amp; Judiciary.</ReferredCommittee></BillHistory><BriefDescription>Concerning settlement demands or offers made prior to mandatory mediation of health care claims.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to settlement demands or offers made prior to mandatory mediation of health care claims; adding a new section to chapter 7.70 RCW; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) The legislature finds that litigation and claims against health care providers present challenges for both patients and health care providers alike, and the rising cost of medical malpractice insurance has created particular challenges for some physicians, particularly those in high-risk specialties such as obstetrics, anesthesiology, and emergency room practice. The answers to these problems are varied and complex, requiring comprehensive solutions that encourage making the civil justice system more understandable, fair, and efficient for all participants.</P></BillSectionHeader>
+<P>(2) It is in the interest of the legislature to prioritize patient safety as changes are made to address the toll of health care litigation on both patients and health care providers and to mitigate the increase of malpractice insurance premiums. The legislature previously established mandatory mediation of health care claims in the interest of providing appropriate incentives and opportunities to resolve cases in a manner that is fair, efficient, and streamlined for all parties prior to resorting to trial. The legislature has an interest in promoting effective mediation of health care claims. Currently, in many cases, mandatory mediation does not occur until late in the litigation or shortly before trial, if at all.</P>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>7</TitleNumber><TextRun>.</TextRun><ChapterNumber>70</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>In an action subject to mandatory mediation pursuant to RCW 7.70.100, a settlement demand or offer made by a party prior to mediation may not be set to expire prior to the parties' good faith attendance at the mediation.</P>
+</BillSection>
+</BillBody>
+</Bill>

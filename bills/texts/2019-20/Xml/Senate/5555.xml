@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-0623.2</RequestNumber><ShortBillId>SB 5555</ShortBillId><LongBillId>SENATE BILL 5555</LongBillId><Legislature>66th Legislature</Legislature><Session>2019 Regular Session</Session><Sponsors>Senator Ericksen</Sponsors><BillHistory><ReadDate>Read first time 01/23/19.</ReadDate><ReferredCommittee>Referred to Committee on Environment, Energy &amp; Technology.</ReferredCommittee></BillHistory><BriefDescription>Ensuring that components of solar energy systems are produced in the United States or according to Washington state environmental standards.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to ensuring that components of solar energy systems are produced in the United States or according to Washington state environmental standards; and amending RCW 82.16.160.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>82</TitleNumber><TextRun>.</TextRun><ChapterNumber>16</ChapterNumber><TextRun>.</TextRun><SectionNumber>160</SectionNumber></SectionCite> and 2017 3rd sp.s. c 36 s 5 are each amended to read as follows:<Caption>Definitions<TextRun fontFamily="Times New Roman">—</TextRun>Renewable energy tax incentives.</Caption></BillSectionHeader>
+<P>The definitions in this section apply throughout this section and RCW 82.16.165, 82.16.170, and 82.16.175 unless the context clearly requires otherwise.</P>
+<P>(1) "Administrator" means the utility, nonprofit, or other local housing authority that organizes and administers a community solar project as provided in RCW 82.16.165 and 82.16.170.</P>
+<P>(2) "Certification" means the authorization issued by the Washington State University extension energy program establishing a person's eligibility to receive annual incentive payments from the person's utility for the program term.</P>
+<P>(3) "Commercial-scale system" means a renewable energy system or systems other than a community solar project or a shared commercial solar project with a combined nameplate capacity greater than twelve kilowatts that meets the applicable system eligibility requirements established in RCW 82.16.165.</P>
+<P>(4) "Community solar project" means a solar energy system that has a direct current nameplate generating capacity that is no larger than one thousand kilowatts and meets the applicable eligibility requirements established in RCW 82.16.165 and 82.16.170.</P>
+<P>(5) "Consumer-owned utility" has the same meaning as in RCW 19.280.020.</P>
+<P>(6) "Customer-owner" means the owner of a residential-scale or commercial-scale renewable energy system, where such owner is not a utility and such owner is a customer of the utility and either owns the premises where the renewable energy system is installed or occupies the premises.</P>
+<P>(7) "Electric utility" or "utility" means a consumer-owned utility or investor-owned utility as those terms are defined in RCW 19.280.020.</P>
+<P>(8) "Governing body" has the same meaning as provided in RCW 19.280.020.</P>
+<P>(9) "Person" means any individual, firm, partnership, corporation, company, association, agency, or any other legal entity.</P>
+<P>(10) "Program term" means: (a) For community solar projects, eight years or until cumulative incentive payments for electricity produced by the project reach fifty percent of the total system price, including applicable sales tax, whichever occurs first; and (b) for other renewable energy systems, including shared commercial solar projects, eight years or until cumulative incentive payments for electricity produced by a system reach fifty percent of the total system price, including applicable sales tax, whichever occurs first.</P>
+<P>(11) "Renewable energy system" means a solar energy system, including a community solar project, an anaerobic digester as defined in RCW 82.08.900, or a wind generator used for producing electricity.</P>
+<P>(12) "Residential-scale system" means a renewable energy system or systems located at a single situs with combined nameplate capacity of twelve kilowatts or less that meets the applicable system eligibility requirements established in RCW 82.16.165.</P>
+<P>(13) "Shared commercial solar project" means a solar energy system, owned or administered by an electric utility, with a combined nameplate capacity of greater than one megawatt and not more than five megawatts and meets the applicable eligibility requirements established in RCW 82.16.165 and 82.16.175.</P>
+<P><TextRun amendingStyle="add">(14) "Solar energy system" means any device or combination of devices or elements that rely upon direct sunlight as an energy source for use in the generation of electricity. All components of a solar energy system, including all solar modules as defined under RCW 82.16.110, must be:</TextRun></P>
+<P><TextRun amendingStyle="add">(a) Entirely produced or manufactured in the United States; or</TextRun></P>
+<P><TextRun amendingStyle="add">(b) Produced or manufactured in a facility located outside the United States but that is certified by the department of ecology to meet all relevant Washington state environmental, health, and safety standards.</TextRun></P>
+<History>2017 3rd sp.s. c 36 § 5.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Findings<TextRun fontFamily="Times New Roman">—</TextRun>Intent<TextRun fontFamily="Times New Roman">—</TextRun>Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2017 3rd sp.s. c 36:</TextRun> See notes following RCW 82.16.130.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+</BillBody>
+</Bill>

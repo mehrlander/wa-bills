@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-2422.2</RequestNumber><ShortBillId>HB 2115</ShortBillId><LongBillId>HOUSE BILL 2115</LongBillId><Legislature>69th Legislature</Legislature><Session>2026 Regular Session</Session><Sponsors>Representatives Walen, Dufault, Orcutt, Jacobsen, Leavitt, Chase, Corry, Schmidt, Engell, Low, Connors, Barkis, Barnard, Peterson, Griffey, Valdez, Bergquist, and Couture</Sponsors><BillHistory><PrefiledDate>Prefiled 12/08/25.</PrefiledDate><ReadDate>Read first time 01/12/26.</ReadDate><ReferredCommittee>Referred to Committee on Finance.</ReferredCommittee></BillHistory><BriefDescription>Restoring the 1985 tax exemptions for the sale of precious metals and bullion.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to restoring the 1985 tax exemptions for the sale of precious metals and bullion; adding a new section to chapter 82.04 RCW; creating new sections; and declaring an emergency. </BillTitle>
+<EnactedClause />
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>In enacting this act, the legislature intends to reenact and restore former RCW 82.04.062 as originally enacted in 1985, notwithstanding its repeal by section 105, chapter 423, Laws of 2025. The legislature intends section 2 of this act to apply as though RCW 82.04.062 had never been repealed.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>82</TitleNumber><TextRun>.</TextRun><ChapterNumber>04</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) For purposes of this chapter, "wholesale sale," "sale at wholesale," "retail sale," and "sale at retail" do not include the sale of precious metal bullion or monetized bullion.</P>
+<P>(2) In computing tax under this chapter on the business of making sales of precious metal bullion or monetized bullion, the tax must be imposed on the amounts received as commissions upon transactions for the accounts of customers over and above the amount paid to other dealers associated in such transactions, but no deduction or offset is allowed on account of salaries or commissions paid to salesmen or other employees.</P>
+<P>(3) For purposes of this section:</P>
+<P>(a) "Monetized bullion" means coins or other forms of money manufactured from gold, silver, or other metals and heretofore, now, or hereafter used as a medium of exchange under the laws of this state, the United States, or any foreign nation, but does not include coins or money sold to be manufactured into jewelry or works of art.</P>
+<P>(b) "Precious metal bullion" means any precious metal which has been put through a process of smelting or refining including, but not limited to, gold, silver, platinum, rhodium, and palladium, and which is in such state or condition that its value depends upon its contents and not upon its form.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>RCW 82.32.805 and 82.32.808 do not apply to this act.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="effdate" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act applies retroactively to January 1, 2026, as well as prospectively.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="emerg">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>5</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act is necessary for the immediate preservation of the public peace, health, or safety, or support of the state government and its existing public institutions, and takes effect immediately.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

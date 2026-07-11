@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-1483.1</RequestNumber><ShortBillId>HB 2106</ShortBillId><LongBillId>HOUSE BILL 2106</LongBillId><Legislature>64th Legislature</Legislature><Session>2015 Regular Session</Session><Sponsors>Representatives Muri and Magendanz</Sponsors><BillHistory><ReadDate>Read first time 02/12/15.</ReadDate><ReferredCommittee>Referred to Committee on Transportation.</ReferredCommittee></BillHistory><BriefDescription>Concerning autonomous vehicle testing in designated areas.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to creating regulatory certainty for autonomous vehicle testing in designated areas; and adding a new section to chapter 46.61 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>46</TitleNumber><TextRun>.</TextRun><ChapterNumber>61</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>This chapter does not apply to vehicles used in autonomous vehicle testing, or persons directly involved in that testing, if the testing occurs:</P>
+<P>(1) Within the boundaries of Joint Base Lewis-McChord military base; and</P>
+<P>(2) With the prior written approval of the joint base garrison commander, setting the time, place, and general plan for the autonomous vehicle testing.</P>
+</BillSection>
+</BillBody>
+</Bill>

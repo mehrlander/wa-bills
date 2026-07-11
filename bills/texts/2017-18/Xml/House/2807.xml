@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-3751.1</RequestNumber><ShortBillId>HB 2807</ShortBillId><LongBillId>HOUSE BILL 2807</LongBillId><Legislature>65th Legislature</Legislature><Session>2018 Regular Session</Session><Sponsors>Representatives Lovick, Sells, McCabe, Senn, Pettigrew, Riccelli, Ortiz-Self, Ryu, Orwall, Wylie, Valdez, Hudgins, and Chapman</Sponsors><BillHistory><ReadDate>Read first time 01/16/18.</ReadDate><ReferredCommittee>Referred to Committee on Transportation.</ReferredCommittee></BillHistory><BriefDescription>Addressing motor truck parking.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to motor truck parking; amending RCW 47.38.020; adding a new section to chapter 47.04 RCW; and providing an effective date.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>47</TitleNumber><TextRun>.</TextRun><ChapterNumber>04</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) It is the intent of the legislature to better understand and address motor truck parking issues across the state. In order to achieve these ends, the department shall:</P>
+<P>(a) Develop a program to educate drivers of motor trucks regarding parking options for motor trucks;</P>
+<P>(b) Develop a system to provide real-time information regarding available motor truck parking;</P>
+<P>(c) Gather pertinent information regarding motor truck parking, including by conducting origin and destination studies on motor truck trips;</P>
+<P>(d) Expand the availability of motor truck parking on department property, where such an expansion is practicable and can be achieved within existing resources; and</P>
+<P>(e) Study options to provide for more motor truck parking in the longer term.</P>
+<P>(2) The department shall provide a report to the transportation committees of the legislature by November 15th of every even-numbered year that summarizes the current state of motor truck parking in Washington and suggests actions and projects that can be undertaken to improve and expand such parking, if necessary.</P>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>47</TitleNumber><TextRun>.</TextRun><ChapterNumber>38</ChapterNumber><TextRun>.</TextRun><SectionNumber>020</SectionNumber></SectionCite> and 1984 c 7 s 205 are each amended to read as follows:<Caption>Limitations on use of rest areas.</Caption></BillSectionHeader>
+<P><TextRun amendingStyle="add">(1)</TextRun> Except where specifically authorized by the department <TextRun amendingStyle="add">or as allowed under subsection (2) of this section</TextRun>, it is unlawful for any person or persons to stop, stand, or park any vehicle, including but not limited to trailers, campers, and motorcycles, for more than eight hours, or for any person or persons to camp or to maintain a camp, tent, or other sleeping accommodation or facility, in any rest area or safety rest area within the limits of the right-of-way of interstate highways or other state highways or in other areas of state or interstate highways as designated in RCW 47.12.250.</P>
+<P><TextRun amendingStyle="add">(2) Any person or persons may stop, stand, or park a motor truck for up to eleven hours in any rest area or safety rest area within the limits of the right-of-way of interstate highways or other state highways.</TextRun></P>
+<P><TextRun amendingStyle="add">(3)</TextRun> This section does not apply to disabled vehicles.</P>
+<History>1984 c 7 § 205; 1967 ex.s. c 145 § 30.</History>
+</BillSection>
+<BillSection type="new" action="effdate">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act takes effect July 1, 2018.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-1109.1</RequestNumber><ShortBillId>SSB 5168</ShortBillId><LongBillId>SUBSTITUTE SENATE BILL 5168</LongBillId><Legislature>69th Legislature</Legislature><Session>2025 Regular Session</Session><Sponsors>Senate Ways &amp; Means (originally sponsored by Senators Robinson and Nobles)</Sponsors><BillHistory><ReadDate>READ FIRST TIME 02/07/25.</ReadDate></BillHistory><BriefDescription>Concerning the appointment, removal, and salary of the state actuary.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to the appointment, removal, and salary of the state actuary; amending RCW 41.04.281 and 44.44.030; adding a new section to chapter 41.45 RCW; and repealing RCW 44.44.013.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>41</TitleNumber><TextRun>.</TextRun><ChapterNumber>04</ChapterNumber><TextRun>.</TextRun><SectionNumber>281</SectionNumber></SectionCite> and 2003 c 295 s 5 are each amended to read as follows:<Caption>Select committee on pension policy<TextRun fontFamily="Times New Roman">—</TextRun>Powers and duties.</Caption></BillSectionHeader>
+<P>The select committee on pension policy has the following powers and duties:</P>
+<P>(1) Study pension issues, develop pension policies for public employees in state retirement systems, and make recommendations to the legislature;</P>
+<P>(2) Study the financial condition of the state pension systems, develop funding policies, and make recommendations to the legislature;</P>
+<P>(3) <TextRun amendingStyle="strike">Consult with the chair and vice chair on appointing members to the state actuary appointment committee upon the convening of the state actuary appointment committee established under RCW 44.44.013</TextRun> <TextRun amendingStyle="add">Make recommendations to the pension funding council related to the appointment, removal, and salary setting of the state actuary under section 2 of this act</TextRun>; and</P>
+<P>(4) Receive the results of the actuarial audits of the actuarial valuations and experience studies administered by the pension funding council pursuant to RCW 41.45.110. The select committee on pension policy shall study and make recommendations on changes to assumptions or contribution rates to the pension funding council prior to adoption of changes under RCW 41.45.030, 41.45.035, or 41.45.060.</P>
+<History>2003 c 295 s 5.</History>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>41</TitleNumber><TextRun>.</TextRun><ChapterNumber>45</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>Subject to RCW 44.44.030, the council shall appoint, remove, and set the salary of the state actuary, by affirmative vote of four members of the council. When considering the appointment, removal, and salary setting of the state actuary, the council shall consider recommendations from the executive committee of the select committee on pension policy.</P>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>44</TitleNumber><TextRun>.</TextRun><ChapterNumber>44</ChapterNumber><TextRun>.</TextRun><SectionNumber>030</SectionNumber></SectionCite> and 2003 c 295 s 14 are each amended to read as follows:<Caption>Personnel<TextRun fontFamily="Times New Roman">—</TextRun>Member of American academy of actuaries.</Caption></BillSectionHeader>
+<P>(1) Subject to RCW 44.04.260, the state actuary shall have the authority to select and employ such research, technical, clerical personnel, and consultants as the actuary deems necessary, whose salaries shall be fixed by the actuary and approved by the <TextRun amendingStyle="strike">state actuary appointment committee</TextRun> <TextRun amendingStyle="add">pension funding council</TextRun>, and who shall be exempt from the provisions of the state civil service law, chapter 41.06 RCW.</P>
+<P>(2) All actuarial valuations and experience studies performed by the office of the state actuary shall be signed by a member of the American academy of actuaries. If the state actuary is not such a member, the state actuary, after approval by the select committee, shall contract for a period not to exceed two years with a member of the American academy of actuaries to assist in developing actuarial valuations and experience studies.</P>
+<History>2003 c 295 s 14; 2001 c 259 s 11; 1987 c 25 s 2; 1975-'76 2nd ex.s. c 105 s 21.</History>
+</BillSection>
+<BillSection type="new" action="repeal">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber><P><SectionCite><TextRun>RCW </TextRun><TitleNumber>44</TitleNumber><TextRun>.</TextRun><ChapterNumber>44</ChapterNumber><TextRun>.</TextRun><SectionNumber>013</SectionNumber></SectionCite> (State actuary appointment committee<TextRun fontFamily="Times New Roman">—</TextRun>Creation<TextRun fontFamily="Times New Roman">—</TextRun>Membership<TextRun fontFamily="Times New Roman">—</TextRun>Powers) and 2003 c 295 s 13 are each repealed.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

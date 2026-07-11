@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-3699.3</RequestNumber><ShortBillId>SB 6078</ShortBillId><LongBillId>SENATE BILL 6078</LongBillId><Legislature>69th Legislature</Legislature><Session>2026 Regular Session</Session><Sponsors>Senators Slatter, C. Wilson, Bateman, Hasegawa, Nobles, and Saldaña</Sponsors><BillHistory><ReadDate>Read first time 01/13/26.</ReadDate><ReferredCommittee>Referred to Committee on Early Learning &amp; K-12 Education.</ReferredCommittee></BillHistory><BriefDescription>Providing prelicensing supports to individuals interested in becoming a licensed child care provider.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to providing prelicensing supports to individuals interested in becoming a licensed child care provider; amending RCW 43.216.265; adding a new section to chapter 43.216 RCW; and adding a new section to chapter 19.27 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>216</ChapterNumber><TextRun>.</TextRun><SectionNumber>265</SectionNumber></SectionCite> and 2025 c 150 s 3 are each amended to read as follows:<Caption>Fire protection<TextRun fontFamily="Times New Roman">—</TextRun>Powers and duties of chief of the Washington state patrol.</Caption></BillSectionHeader>
+<P>The chief of the Washington state patrol, through the director of fire protection, shall have the power and it shall be his or her duty:</P>
+<P>(1) In consultation with the secretary and with the advice and assistance of persons representative of the various type agencies to be licensed, to adopt recognized minimum standard requirements pertaining to each category of agency established pursuant to this chapter necessary to protect all persons residing therein from fire hazards;</P>
+<P>(2) To adopt licensing minimum standard requirements to allow children who attend classes in a school building during school hours to remain in the same building to participate in before-school or after-school programs and to allow participation in such before-school and after-school programs by children who attend other schools and are transported to attend such before-school and after-school programs;</P>
+<P>(3) To make or cause to be made such <TextRun amendingStyle="add">prelicensing consultations,</TextRun> inspections<TextRun amendingStyle="add">,</TextRun> and investigations of agencies as he or she deems necessary;</P>
+<P>(4) To make a periodic review of requirements under RCW 43.216.250(8) and to adopt necessary changes after consultation as required in subsection (1) of this section;</P>
+<P>(5) To issue to applicants for licenses under this chapter who comply with the requirements, a certificate of compliance, a copy of which shall be presented to the department before a license shall be issued, except that an initial license may be issued as provided in RCW 43.216.315;</P>
+<P>(6) When a child care center is operated in a dedicated space within an existing building that has more than one use, to calculate the occupancy load of the child care center based only on the area in the building where the child care services are provided.</P>
+<History>2025 c 150 s 3; 2018 c 58 s 42; 2013 c 227 s 1; 2006 c 265 s 302. Formerly RCW 43.215.210.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Findings<TextRun fontFamily="Times New Roman">—</TextRun>Intent<TextRun fontFamily="Times New Roman">—</TextRun>2025 c 150:</TextRun> See note following RCW 19.27.600.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2018 c 58:</TextRun> See note following RCW 28A.655.080.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>216</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1)(a) Within existing resources, the department may provide services to individuals interested in obtaining a child care license. The purpose of these prelicensing supports is to help individuals navigate the licensing application process for child care centers, family home providers, outdoor nature-based child care providers, and school-age child care programs.</P>
+<P>(b) Prelicensing supports may relate to, but are not limited to, the following topics:</P>
+<P>(i) Completing the application process;</P>
+<P>(ii) Understanding licensing requirements provided in the department's rules;</P>
+<P>(iii) Navigating the complexities of the facilities development process;</P>
+<P>(iv) Operating a child care facility in different regions of the state; and</P>
+<P>(v) Accessing information and resources related to the different types of child care licenses.</P>
+<P>(2) Within existing resources, the department may develop and publish online a child care licensing resource guide for individuals interested in obtaining a license to operate a child care center when the individual submits a permit application to a city or county. The child care licensing resource guide must include how individuals can access the prelicensing supports described in subsection (1) of this section and the prelicensing consultations described in RCW 43.216.265(3).</P>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>19</TitleNumber><TextRun>.</TextRun><ChapterNumber>27</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>When an individual submits a permit, as required by the city or county, to operate a licensed child care center, the city or county shall inform the applicant that the department of children, youth, and families provides prelicensing supports and publishes a child care licensing resource guide as described in section 2 of this act.</P>
+</BillSection>
+</BillBody>
+</Bill>

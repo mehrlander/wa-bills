@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-0212.1</RequestNumber><ShortBillId>HB 1123</ShortBillId><LongBillId>HOUSE BILL 1123</LongBillId><Legislature>67th Legislature</Legislature><Session>2021 Regular Session</Session><Sponsors>Representative Cody</Sponsors><BillHistory><PrefiledDate>Prefiled 01/08/21.</PrefiledDate><ReadDate>Read first time 01/11/21.</ReadDate><ReferredCommittee>Referred to Committee on Health Care &amp; Wellness.</ReferredCommittee></BillHistory><BriefDescription>Concerning the authority of the nursing care quality assurance commission.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to the authority of the nursing care quality assurance commission; adding a new section to chapter 18.79 RCW; and repealing RCW 18.79.390 and 18.79.410.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>18</TitleNumber><TextRun>.</TextRun><ChapterNumber>79</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>The secretary shall appoint, after consultation with the commission, an executive director who shall act to carry out this chapter. The secretary shall also employ such professional, secretarial, clerical, and other assistants as may be necessary to effectively administer this chapter. The secretary shall fix the compensation and provide for travel expenses for the executive director and all such employees, in accordance with RCW 43.03.050 and 43.03.060.</P>
+</BillSection>
+<BillSection type="new" action="repeal">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>The following acts or parts of acts are each repealed:</P></BillSectionHeader>
+<P><RepealNumber>1</RepealNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>18</TitleNumber><TextRun>.</TextRun><ChapterNumber>79</ChapterNumber><TextRun>.</TextRun><SectionNumber>390</SectionNumber></SectionCite> (Secretary and commission relationship) and 2013 c 81 s 5, 2011 c 60 s 8, &amp; 2008 c 134 s 30; and</P>
+<P><RepealNumber>2</RepealNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>18</TitleNumber><TextRun>.</TextRun><ChapterNumber>79</ChapterNumber><TextRun>.</TextRun><SectionNumber>410</SectionNumber></SectionCite> (Commission<TextRun fontFamily="Times New Roman">—</TextRun>Information to legislature) and 2013 c 81 s 6.</P>
+</BillSection>
+</BillBody>
+</Bill>

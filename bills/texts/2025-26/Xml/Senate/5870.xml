@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-3468.1</RequestNumber><ShortBillId>SB 5870</ShortBillId><LongBillId>SENATE BILL 5870</LongBillId><Legislature>69th Legislature</Legislature><Session>2026 Regular Session</Session><Sponsors>Senators Wellman, Shewmake, Frame, Hasegawa, Nobles, Orwall, Pedersen, Riccelli, Saldaña, and Slatter</Sponsors><BillHistory><PrefiledDate>Prefiled 12/11/25.</PrefiledDate><ReadDate>Read first time 01/12/26.</ReadDate><ReferredCommittee>Referred to Committee on Environment, Energy &amp; Technology.</ReferredCommittee></BillHistory><BriefDescription>Establishing civil liability for suicide linked to the use of artificial intelligence systems.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to establishing civil liability for suicide linked to the use of artificial intelligence systems; adding a new section to chapter 4.20 RCW; adding a new chapter to Title 19 RCW; and prescribing penalties.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The definitions in this section apply throughout this chapter unless the context clearly requires otherwise.</P></BillSectionHeader>
+<P>(1) "Artificial intelligence" means an engineered or machined-based system that varies in its level of autonomy and that can, for explicit or implicit objectives, infer from the input it receives how to generate outputs that can influence physical or virtual environments.</P>
+<P>(2)(a) "Companion chatbot" means an artificial intelligence system with a natural language interface that provides adaptive, human-like responses to user inputs and is capable of meeting a user's social needs, including by exhibiting anthropomorphic features and being able to sustain a relationship across multiple interactions.</P>
+<P>(b) "Companion chatbot" does not include any of the following:</P>
+<P>(i) A bot that is used only for customer service, a business' operational purposes, productivity and analysis related to source information, internal research, or technical assistance;</P>
+<P>(ii) A bot that is a feature of a video game and is limited to replies related to the video game that cannot discuss topics related to mental health, self-harm, sexually explicit conduct, or maintain a dialogue on other topics unrelated to the video game; or</P>
+<P>(iii) A stand-alone consumer electronic device that functions as a speaker and voice command interface, acts as a voice-activated virtual assistant, and does not sustain a relationship across multiple interactions or generate outputs that are likely to elicit emotional responses in the user.</P>
+<P>(3) "Companion chatbot platform" means a platform that allows a user to engage with companion chatbots.</P>
+<P>(4) "Department" means the department of health.</P>
+<P>(5) "Operator" means a person who makes a companion chatbot platform available to a user in this state.</P>
+<P>(6) "Sexually explicit conduct" has the same meaning as defined in section 2256 of Title 18, United States Code.</P>
+<P>(7) "Video game" means a game played on an electronic amusement device that utilizes a computer, microprocessor, or similar electronic circuitry and its own monitor, or is designed to be used with a television set or a computer monitor, that interacts with the user of the device.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) If a reasonable person's interaction with a companion chatbot would be misled to believe that the person is interacting with a human, an operator shall issue a clear and conspicuous notification indicating that the companion chatbot is artificially generated and not human.</P></BillSectionHeader>
+<P>(2)(a) An operator shall prevent a companion chatbot on its companion chatbot platform from engaging with users unless the operator maintains a protocol for preventing the production of suicidal ideation, suicide, or self-harm content to the user including, but not limited to, by providing a notification to the user that refers the user to crisis service providers, including a suicide hotline or crisis text line, if the user expresses suicidal ideation, suicide, or self-harm.</P>
+<P>(b) The operator shall publish details on the protocol required by this section on the operator's internet.</P>
+<P>(3) An operator shall, for a user that the operator knows is a minor, do all of the following:</P>
+<P>(a) Disclose to the user that the user is interacting with artificial intelligence;</P>
+<P>(b) Provide by default a clear and conspicuous notification to the user at least every three hours for continuing companion chatbot interactions that reminds the user to take a break and that the companion chatbot is artificially generated and not human; and</P>
+<P>(c) Institute reasonable measures to prevent its companion chatbot from producing visual material of sexually explicit conduct or directly stating that the minor should engage in sexually explicit conduct.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) Beginning July 1, 2027, an operator shall annually report to the department all of the following:</P></BillSectionHeader>
+<P>(a) The number of times the operator has issued a crisis service provider referral notification pursuant to section 2 of this act in the preceding calendar year;</P>
+<P>(b) Protocols put in place to detect, remove, and respond to instances of suicidal ideation by users; and</P>
+<P>(c) Protocols put in place to prohibit a companion chatbot response about suicidal ideation or actions with the user.</P>
+<P>(2) The report required by this section shall include only the information listed in subsection (1) of this section and may not include any identifiers or personal information about users.</P>
+<P>(3) The department of health shall post data from a report required by this section on its internet website.</P>
+<P>(4) An operator shall use evidence-based methods for measuring suicidal ideation.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber><P>An operator shall disclose to a user of its companion chatbot platform, on the application, the browser, or any other format that a user can use to access the companion chatbot platform, that companion chatbots may not be suitable for some minors.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>5</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) A person who suffers injury in fact as a result of a violation of this chapter may bring a civil action to recover injunctive relief, damages in an amount equal to the greater of actual damages or $1,000 per violation, and reasonable attorneys' fees and costs.</P></BillSectionHeader>
+<P>(2) In an action against a defendant who developed, modified, or used artificial intelligence that is alleged to have caused harm to the plaintiff, it shall not be a defense, and may not be asserted, that the artificial intelligence autonomously caused the harm to the plaintiff.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>6</Value><TextRun>.  </TextRun></BillSectionNumber><P>The duties, remedies, and obligations imposed by this chapter are cumulative to the duties, remedies, or obligations imposed under other law and shall not be construed to relieve an operator from any duties, remedies, or obligations imposed under any other law.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>7</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>4</TitleNumber><TextRun>.</TextRun><ChapterNumber>20</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) For purposes of this chapter, it is prima facie evidence that the death of a person is caused by the wrongful act, neglect, or default of the owner of an artificial intelligence system if:</P>
+<P>(a) The person's cause of death is determined to be suicide;</P>
+<P>(b) The person provided inputs to the owner's artificial intelligence system related to suicide;</P>
+<P>(c) The owner's artificial intelligence system caused or aided the person's suicide by:</P>
+<P>(i) Providing instructions on how to attempt suicide;</P>
+<P>(ii) Encouraging the person to attempt suicide; or</P>
+<P>(iii) Failing to refer the person to the 988 national suicide prevention hotline or its successor; and</P>
+<P>(d) The owner of the artificial intelligence system knew or should have known that the artificial intelligence system could cause or aid a person to attempt suicide.</P>
+<P>(2) For purposes of this section, "artificial intelligence system" means an engineered or machine-based system that, for explicit or implicit objectives, infers, from the input it receives, how to generate outputs that can influence physical or virtual environments and that may operate with varying levels of autonomy.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>8</Value><TextRun>.  </TextRun></BillSectionNumber><P>If any provision of this act or its application to any person or circumstance is held invalid, the remainder of the act or the application of the provision to other persons or circumstances is not affected.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addchap" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>9</Value><TextRun>.  </TextRun></BillSectionNumber><P>Sections 1 through 6 of this act constitute a new chapter in <TitleCite><TextRun>Title </TextRun><TitleNumber>19</TitleNumber><TextRun> RCW</TextRun></TitleCite>.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

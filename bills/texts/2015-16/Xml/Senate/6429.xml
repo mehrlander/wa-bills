@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-3933.1</RequestNumber><ShortBillId>SB 6429</ShortBillId><LongBillId>SENATE BILL 6429</LongBillId><Legislature>64th Legislature</Legislature><Session>2016 Regular Session</Session><Sponsors>Senators McAuliffe and Litzow</Sponsors><BillHistory><ReadDate>Read first time 01/20/16.</ReadDate><ReferredCommittee>Referred to Committee on Early Learning &amp; K-12 Education.</ReferredCommittee></BillHistory><BriefDescription>Creating the sandman act.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to school day start times; adding a new section to chapter 28A.320 RCW; and creating new sections.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature acknowledges that students who do not get enough sleep often suffer physical and mental health problems and a decline in academic performance. The legislature intends to help increase academic performance, improve graduation rates, and reduce health problems by pushing back the time public schools start by one hour.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>28A</TitleNumber><TextRun>.</TextRun><ChapterNumber>320</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>Beginning in the 2016-17 school year, all public schools shall start one hour later than the time they started in the 2015-16 school year.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act may be known and cited as the sandman act.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

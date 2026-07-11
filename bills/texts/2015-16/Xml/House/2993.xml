@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-4477.2</RequestNumber><ShortBillId>HB 2993</ShortBillId><LongBillId>HOUSE BILL 2993</LongBillId><Legislature>64th Legislature</Legislature><Session>2016 Regular Session</Session><Sponsors>Representatives Riccelli, Jinkins, Robinson, Farrell, Gregerson, Bergquist, Kuderer, Hurst, Tharinger, Pollet, Ryu, Frame, Moscoso, Sells, Appleton, Reykdal, Ortiz-Self, Wylie, Kagi, S. Hunt, Van De Wege, Hudgins, Walkinshaw, Tarleton, Senn, Ormsby, and Peterson</Sponsors><BillHistory /><BriefDescription>Improving the fairness of Washington's tax system by repealing the business and occupation tax exemption for international banking facilities.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to improving the fairness of Washington's tax system by repealing the business and occupation tax exemption for international banking facilities; adding a new section to chapter 82.32 RCW; adding a new section to chapter 43.135 RCW; and repealing RCW 82.04.315.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="repeal">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P><SectionCite><TextRun>RCW </TextRun><TitleNumber>82</TitleNumber><TextRun>.</TextRun><ChapterNumber>04</ChapterNumber><TextRun>.</TextRun><SectionNumber>315</SectionNumber></SectionCite> (Exemptions<TextRun fontFamily="Times New Roman">—</TextRun>International banking facilities) and 1982 c 95 s 7 are each repealed.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>82</TitleNumber><TextRun>.</TextRun><ChapterNumber>32</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P indent="1">(1) By the last workday of the second and fourth calendar quarters, the state treasurer must transfer the amount specified in subsection (2) of this section from the general fund to the education legacy trust account. The first transfer under this subsection (1) must occur by December 31, 2016.</P>
+<P>(2) By December 15th and by June 15th of each year, the department must estimate the increase in state general fund revenues from the changes made under section 1 of this act for the current and prior calendar quarters and notify the state treasurer of the increase.</P>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>135</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>RCW 43.135.034(4) does not apply to the transfers under section 2 of this act.</P>
+</BillSection>
+</BillBody>
+</Bill>

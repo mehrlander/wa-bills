@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-0359.1</RequestNumber><ShortBillId>SB 5146</ShortBillId><LongBillId>SENATE BILL 5146</LongBillId><Legislature>69th Legislature</Legislature><Session>2025 Regular Session</Session><Sponsors>Senators Gildon, Braun, Christian, Dozier, Fortunato, Wagoner, Warnick, and J. Wilson</Sponsors><BillHistory><PrefiledDate>Prefiled 01/07/25.</PrefiledDate><ReadDate>Read first time 01/13/25.</ReadDate><ReferredCommittee>Referred to Committee on State Government, Tribal Affairs &amp; Elections.</ReferredCommittee></BillHistory><BriefDescription>Creating a portal to identify opportunities for increased government efficiency.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to creating a portal to identify opportunities for increased government efficiency; adding a new section to chapter 44.04 RCW; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>It is the intent of the legislature to ensure taxpayer dollars are invested appropriately and efficiently. The legislature recognizes that state employees, especially those directly involved in the delivery of services to the public, are likely to have detailed knowledge that would help identify opportunities for eliminating unnecessary, inefficient, or even unlawful spending.</P></BillSectionHeader>
+<P>Additionally, the legislature recognizes the ability of members of the public, through their personal experience or observation, to identify spending that appears to be wasteful or fraudulent and therefore deserving of formal scrutiny. The legislature is aware of federal efforts to increase the efficiency of government and eliminate waste and intends to enlist the assistance of state employees and the public in pursuing the same beneficial outcome.</P>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>44</TitleNumber><TextRun>.</TextRun><ChapterNumber>04</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) The secretary of the senate and the chief clerk of the house of representatives shall jointly establish and administer the government efficiency portal for state employees and other persons to identify state government services that are delivered in a duplicative, wasteful, or inefficient manner.</P>
+<P>(2) The government efficiency portal must be accessible from a publicly available website that is optimized, to the extent possible, to allow persons with disabilities and persons using mobile devices to access the portal.</P>
+<P>(3) The government efficiency portal must contain fields for the user to input the following information:</P>
+<P>(a) The person's name and address, with the option for the user to submit information through the portal anonymously;</P>
+<P>(b) The state agency about which information is being submitted, if known;</P>
+<P>(c) The policy area of government about which information is being submitted;</P>
+<P>(d) Whether the person is a state employee; and</P>
+<P>(e) A description of the government services being delivered in a duplicative, wasteful, or inefficient manner.</P>
+<P>(4) By January 10th of each year, the secretary of the senate and the chief clerk of the house of representatives must provide for the transmission of all submissions to the government efficiency portal from the previous calendar year to the chairs and ranking members of the senate ways and means committee and the house appropriations committee or their successor committees.</P>
+<P>(5) State employees who submit suggestions for remediating duplication, waste, and inefficiency in the delivery of state services through the government efficiency portal that are implemented and result in net savings, revenue, or both to the state shall be eligible for cash awards under RCW 41.60.041.</P>
+</BillSection>
+</BillBody>
+</Bill>

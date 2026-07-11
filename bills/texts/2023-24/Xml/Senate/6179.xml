@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-3935.1</RequestNumber><ShortBillId>SB 6179</ShortBillId><LongBillId>SENATE BILL 6179</LongBillId><Legislature>68th Legislature</Legislature><Session>2024 Regular Session</Session><Sponsors>Senators MacEwen, Keiser, and Nguyen</Sponsors><BillHistory><ReadDate>Read first time 01/11/24.</ReadDate><ReferredCommittee>Referred to Committee on Labor &amp; Commerce.</ReferredCommittee></BillHistory><BriefDescription>Concerning the use of biometric age verification by liquor licensees.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to the use of biometric age verification by liquor licensees; and amending RCW 66.20.170.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>66</TitleNumber><TextRun>.</TextRun><ChapterNumber>20</ChapterNumber><TextRun>.</TextRun><SectionNumber>170</SectionNumber></SectionCite> and 2016 c 235 s 7 are each amended to read as follows:<Caption>Card of identification may be accepted as identification card and evidence of legal age.</Caption></BillSectionHeader>
+<P><TextRun amendingStyle="add">(1)</TextRun> A card of identification may for the purpose of this title and for the purpose of procuring liquor, be accepted <TextRun amendingStyle="strike">as an identification card</TextRun> by any licensee <TextRun amendingStyle="strike">and</TextRun> as evidence of legal age of the person presenting such card, provided the licensee complies with the conditions and procedures prescribed herein and such regulations as may be made by the board.</P>
+<P><TextRun amendingStyle="add">(2)(a) A biometric age verification system may for the purpose of this title and for the purpose of procuring liquor, be relied upon by any licensee as evidence of legal age of the person using the biometric age verification system, provided the licensee complies with the conditions and procedures prescribed herein and such regulations as may be made by the board.</TextRun></P>
+<P><TextRun amendingStyle="add">(b) A "biometric age verification system" must:</TextRun></P>
+<P><TextRun amendingStyle="add">(i) Use a biometric system as defined in RCW 19.375.010, which includes biometric identifiers including but not limited to retina or iris scan, fingerprint, voiceprint, DNA, or scan of hand or face geometry, and otherwise comply with the provisions of chapter 19.375 RCW;</TextRun></P>
+<P><TextRun amendingStyle="add">(ii) Verify the validity of a card of identification and the identity of the holder of such card of identification through an electronic authentication process or set of processes;</TextRun></P>
+<P><TextRun amendingStyle="add">(iii) Verify the person enrolling in the biometric system is the same as the card of identification holder and store the data from the card of identification in the biometric system;</TextRun></P>
+<P><TextRun amendingStyle="add">(iv) Provide an indication that the card of identification holder meets the age eligibility requirement upon future scans of the biometric characteristic used in the biometric system; and</TextRun></P>
+<P><TextRun amendingStyle="add">(v) Maintain records as established by the board.</TextRun></P>
+<P><TextRun amendingStyle="add">(c) Use of a biometric age verification system is a mitigating circumstance the board may consider to impose a different penalty than the standard penalties established by the board.</TextRun></P>
+<History>2016 c 235 § 7; 1973 1st ex.s. c 209 § 5; 1971 ex.s. c 15 § 3; 1959 c 111 § 5; 1949 c 67 § 2; Rem. Supp. 1949 § 7306-19B.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Severability<TextRun fontFamily="Times New Roman">—</TextRun>Effective date<TextRun fontFamily="Times New Roman">—</TextRun>1973 1st ex.s. c 209:</TextRun> See notes following RCW 66.20.160.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>1971 ex.s. c 15:</TextRun> See note following RCW 66.20.160.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+</BillBody>
+</Bill>

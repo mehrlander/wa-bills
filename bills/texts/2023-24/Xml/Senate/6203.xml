@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-3978.1</RequestNumber><ShortBillId>SB 6203</ShortBillId><LongBillId>SENATE BILL 6203</LongBillId><Legislature>68th Legislature</Legislature><Session>2024 Regular Session</Session><Sponsors>Senators Mullet, Dozier, and Kuderer</Sponsors><BillHistory><ReadDate>Read first time 01/12/24.</ReadDate><ReferredCommittee>Referred to Committee on Housing.</ReferredCommittee></BillHistory><BriefDescription>Concerning the rental of self-service storage facilities.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to the rental of self-service storage facilities; and adding a new section to chapter 19.150 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>19</TitleNumber><TextRun>.</TextRun><ChapterNumber>150</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>An occupant may not use a self-service storage facility for residential purposes, and a self-service storage facility is not subject to the provisions of the residential landlord-tenant act under chapter 59.18 RCW.</P>
+</BillSection>
+</BillBody>
+</Bill>

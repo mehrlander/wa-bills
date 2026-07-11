@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-1739.2</RequestNumber><ShortBillId>SSB 5715</ShortBillId><LongBillId>SUBSTITUTE SENATE BILL 5715</LongBillId><Legislature>64th Legislature</Legislature><Session>2015 Regular Session</Session><Sponsors>Senate Ways &amp; Means (originally sponsored by Senators Fain, Pedersen, Braun, and Angel)</Sponsors><BillHistory><ReadDate>READ FIRST TIME 02/26/15.</ReadDate></BillHistory><BriefDescription>Including the contents of fiscal impact statements in the ballot title for certain initiative measures.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to including the contents of fiscal impact statements in the ballot title for certain initiative measures; amending RCW 29A.72.050 and 29A.72.250; and providing an effective date.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>29A</TitleNumber><TextRun>.</TextRun><ChapterNumber>72</ChapterNumber><TextRun>.</TextRun><SectionNumber>050</SectionNumber></SectionCite> and 2003 c 111 s 1806 are each amended to read as follows:<Caption>Ballot title<TextRun fontFamily="Times New Roman">—</TextRun>Formulation, ballot display.</Caption></BillSectionHeader>
+<P>(1) The ballot title for an initiative to the people, an initiative to the legislature, a referendum bill, or a referendum measure consists of: (a) A statement of the subject of the measure; (b) a concise description of the measure; and (c) a question in the form prescribed in this section for the ballot measure in question. The statement of the subject of a measure must be sufficiently broad to reflect the subject of the measure, sufficiently precise to give notice of the measure's subject matter, and not exceed ten words. The concise description must contain no more than thirty words, be a true and impartial description of the measure's essential contents, clearly identify the proposition to be voted on, and not, to the extent reasonably possible, create prejudice either for or against the measure.</P>
+<P postPadding="halfline">(2) For an initiative to the people, or for an initiative to the legislature for which the legislature has not proposed an alternative, the ballot title must be displayed on the ballot substantially as follows:</P>
+<P indent="0" prePadding="halfline" margin="1,1">"Initiative Measure No. . . . concerns (statement of subject). This measure would (concise description). Should this measure be enacted into law?</P>
+<P margin="1,1" indent="0" prePadding="halfline">Yes <Leader character="dot" /><TextRun fontWeight="bold">□</TextRun></P>
+<P margin="1,1" indent="0">No  <Leader character="dot" /><TextRun fontWeight="bold">□</TextRun></P>
+<P><TextRun amendingStyle="add">The ballot title under this subsection is subject to revision under RCW 29A.72.250(2).</TextRun></P>
+<P prePadding="halfline" postPadding="halfline">(3) For an initiative to the legislature for which the legislature has proposed an alternative, the ballot title must be displayed on the ballot substantially as follows:</P>
+<P indent="0" prePadding="halfline" postPadding="halfline" margin="1,1">"Initiative Measure Nos. . . . and . . .B concern (statement of subject).</P>
+<P indent="0" prePadding="halfline" postPadding="halfline" margin="1,1">Initiative Measure No. . . . would (concise description).</P>
+<P indent="0" prePadding="halfline" postPadding="halfline" margin="1,1">As an alternative, the legislature has proposed Initiative Measure No. . . .B, which would (concise description).</P>
+<P indent="0" prePadding="halfline" margin="1,1">1. Should either of these measures be enacted into law?</P>
+<P indent="0" margin="1,1" prePadding="halfline">Yes <Leader character="dot" /><TextRun fontWeight="bold">□</TextRun></P>
+<P indent="0" margin="1,1">No  <Leader character="dot" /><TextRun fontWeight="bold">□</TextRun></P>
+<P indent="0" prePadding="halfline" margin="1,1">2. Regardless of whether you voted yes or no above, if one of these measures is enacted, which one should it be?</P>
+<P indent="0" margin="1,1" prePadding="halfline">Measure No. <Leader character="dot" /><TextRun fontWeight="bold">□</TextRun></P>
+<P indent="2">or</P>
+<P indent="0" margin="1,1">Measure No. <Leader character="dot" /><TextRun fontWeight="bold">□</TextRun></P>
+<P prePadding="halfline">(4) For a referendum bill submitted to the people by the legislature, the ballot issue must be displayed on the ballot substantially as follows:</P>
+<P indent="0" prePadding="halfline" margin="1,1">"The legislature has passed . . . . Bill No. . . . concerning (statement of subject). This bill would (concise description). Should this bill be:</P>
+<P margin="1,1" indent="0" prePadding="halfline">Approved <Leader character="dot" /><TextRun fontWeight="bold">□</TextRun></P>
+<P indent="0" margin="1,1">Rejected <Leader character="dot" /><TextRun fontWeight="bold">□</TextRun></P>
+<P prePadding="halfline">(5) For a referendum measure by state voters on a bill the legislature has passed, the ballot issue must be displayed on the ballot substantially as follows:</P>
+<P indent="0" prePadding="halfline" margin="1,1">"The legislature passed . . . Bill No. . . . concerning (statement of subject) and voters have filed a sufficient referendum petition on this bill. This bill would (concise description). Should this bill be:</P>
+<P margin="1,1" indent="0" prePadding="halfline">Approved <Leader character="dot" /><TextRun fontWeight="bold">□</TextRun></P>
+<P indent="0" margin="1,1">Rejected <Leader character="dot" /><TextRun fontWeight="bold">□</TextRun></P>
+<P prePadding="halfline">(6) The legislature may specify the statement of subject or concise description, or both, in a referendum bill that it refers to the people. The legislature may specify the concise description for an alternative it submits for an initiative to the legislature. If the legislature fails to specify these matters, the attorney general shall prepare the material that was not specified. The statement of subject and concise description as so provided must be included as part of the ballot title unless changed on appeal.</P>
+<P>The attorney general shall specify the statement of subject and concise description for an initiative to the people, an initiative to the legislature, and a referendum measure. The statement of subject and concise description as so provided must be included as part of the ballot title unless changed on appeal.</P>
+<History>2003 c 111 § 1806. Prior: 2000 c 197 § 1. Formerly RCW 29.79.035.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Part headings not law<TextRun fontFamily="Times New Roman">—</TextRun>2000 c 197:</TextRun> "Part headings used in this act are not part of the law." [2000 c 197 § 17.]</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>29A</TitleNumber><TextRun>.</TextRun><ChapterNumber>72</ChapterNumber><TextRun>.</TextRun><SectionNumber>250</SectionNumber></SectionCite> and 2013 c 11 s 75 are each amended to read as follows:<Caption>Initiatives and referenda to the people<TextRun fontFamily="Times New Roman">—</TextRun>Certificates of sufficiency.</Caption></BillSectionHeader>
+<P><TextRun amendingStyle="add">(1)</TextRun> If a referendum or initiative petition for submission of a measure to the people is found sufficient, the secretary of state shall at the time and in the manner that he or she certifies to the county auditors of the various counties the names of candidates for state and district officers certify to each county auditor the serial numbers and ballot titles of the several initiative and referendum measures and serial numbers and short descriptions of measures submitted for an advisory vote of the people to be voted upon at the next ensuing general election or special election ordered by the legislature.</P>
+<P indent="1"><TextRun amendingStyle="add">(2) For an initiative to the people, or for an initiative to the legislature for which the legislature has not proposed an alternative, that has been certified for the ballot, and for which the fiscal impact statement prepared pursuant to RCW 29A.72.025 indicates that the initiative will result in an estimated net biennial increase in state expenditures of twenty-five million dollars or greater, or an estimated net biennial decrease in state revenues of twenty-five million dollars or greater, the ballot title to be displayed in the voters' pamphlet and on the ballot shall be revised substantially as follows:</TextRun></P>
+<P indent="0" textAlign="left" margin="1,1" prePadding="halfline"><TextRun amendingStyle="add">"Initiative Measure No. . . . concerns (statement of subject). This measure would (concise description). The state budget office has determined that this proposal would have an unfunded net impact of (amount) on the state budget. This means other state spending may need to be reduced or taxes increased to implement the proposal. Should this measure be enacted into law?</TextRun></P>
+<P indent="0" margin="1,1" prePadding="halfline"><TextRun fontWeight="bold" /><TextRun amendingStyle="add">Yes </TextRun><Leader character="dot" amendingStyle="add" /><TextRun fontWeight="bold" amendingStyle="add">□</TextRun></P>
+<P indent="0" margin="1,1"><TextRun amendingStyle="add">No  </TextRun><Leader character="dot" amendingStyle="add" /><TextRun fontWeight="bold" amendingStyle="add">□"</TextRun></P>
+</BillSection>
+<BillSection type="new" action="effdate">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act takes effect January 1, 2016.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

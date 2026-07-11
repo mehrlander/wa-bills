@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-3310.2</RequestNumber><ShortBillId>HB 2194</ShortBillId><LongBillId>HOUSE BILL 2194</LongBillId><Legislature>66th Legislature</Legislature><Session>2020 Regular Session</Session><Sponsors>Representatives Walsh, Gildon, Goehner, Barkis, Griffey, Young, Jenkin, Dufault, and Corry</Sponsors><BillHistory><PrefiledDate>Prefiled 12/04/19.</PrefiledDate><ReadDate>Read first time 01/13/20.</ReadDate><ReferredCommittee>Referred to Committee on Transportation.</ReferredCommittee></BillHistory><BriefDescription>Restricting executive discretion in adjusting transportation budgets.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to restricting executive discretion in adjusting transportation budgets; repealing 2019 c 416 s 601 (uncodified); and declaring an emergency.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="repealuncod" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P><UncodCite>2019 c 416 s 601</UncodCite> (uncodified) is repealed.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="emerg" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act is necessary for the immediate preservation of the public peace, health, or safety, or support of the state government and its existing public institutions, and takes effect immediately.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

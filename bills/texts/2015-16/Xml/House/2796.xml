@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-3716.1</RequestNumber><ShortBillId>HB 2796</ShortBillId><LongBillId>HOUSE BILL 2796</LongBillId><Legislature>64th Legislature</Legislature><Session>2016 Regular Session</Session><Sponsors>Representatives Van Werven, Lytton, Stambaugh, Bergquist, Hargrove, Haler, Zeiger, Kilduff, Young, Stanford, Buys, Wilson, and Tarleton</Sponsors><BillHistory><ReadDate>Read first time 01/20/16.</ReadDate><ReferredCommittee>Referred to Committee on Higher Education.</ReferredCommittee></BillHistory><BriefDescription>Providing students with the costs of required course materials during registration.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to providing students with the costs of required course materials during registration; adding a new section to chapter 28B.50 RCW; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature recognizes the high cost of textbooks and the burden this can create for students, with the average student spending around twelve hundred dollars on textbooks a year. The legislature also recognizes the work of the state board for community and technical colleges in creating the open course library, in which free textbooks and other course materials are available for eighty-one of the highest enrolled courses in the community and technical college system. The student public interest research groups completed a cost analysis of the open course library and found that students who take open course library courses save ninety-six dollars on average per course over a traditional textbook. Therefore, it is the legislature's intent to incentivize faculty to use resources available on the open course library by informing students of a textbook's cost when they register for a class.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>28B</TitleNumber><TextRun>.</TextRun><ChapterNumber>50</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>The community and technical colleges shall indicate the cost of any required textbook or other course material to students in the course description during the registration process.</P>
+</BillSection>
+</BillBody>
+</Bill>

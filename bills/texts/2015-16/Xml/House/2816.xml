@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-3705.1</RequestNumber><ShortBillId>HB 2816</ShortBillId><LongBillId>HOUSE BILL 2816</LongBillId><Legislature>64th Legislature</Legislature><Session>2016 Regular Session</Session><Sponsors>Representatives Muri and Fey</Sponsors><BillHistory><ReadDate>Read first time 01/21/16.</ReadDate><ReferredCommittee>Referred to Committee on Transportation.</ReferredCommittee></BillHistory><BriefDescription>Increasing the rate of sales and use tax that may be imposed by a transportation benefit district.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to increasing the rate of sales and use tax that may be imposed by a transportation benefit district; amending RCW 82.14.0455; and providing an effective date.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>82</TitleNumber><TextRun>.</TextRun><ChapterNumber>14</ChapterNumber><TextRun>.</TextRun><SectionNumber>0455</SectionNumber></SectionCite> and 2010 c 105 s 3 are each amended to read as follows:<Caption>Sales and use tax for transportation benefit districts.</Caption></BillSectionHeader>
+<P>(1) Subject to the provisions in RCW 36.73.065, a transportation benefit district under chapter 36.73 RCW may fix and impose a sales and use tax in accordance with the terms of this chapter. The tax authorized in this section is in addition to any other taxes authorized by law and shall be collected from those persons who are taxable by the state under chapters 82.08 and 82.12 RCW upon the occurrence of any taxable event within the boundaries of the district. The rate of tax shall not exceed <TextRun amendingStyle="strike">two-tenths</TextRun> <TextRun amendingStyle="add">six-tenths</TextRun> of one percent of the selling price in the case of a sales tax, or value of the article used, in the case of a use tax. Except as provided in subsection (2) of this section, the tax may not be imposed for a period exceeding ten years. This tax, if not imposed under the conditions of subsection (2) of this section, may be extended for a period not exceeding ten years with an affirmative vote of the voters voting at the election.</P>
+<P>(2) The voter-approved sales tax initially imposed under this section after July 1, 2010, may be imposed for a period exceeding ten years if the moneys received under this section are dedicated for the repayment of indebtedness incurred in accordance with the requirements of chapter 36.73 RCW.</P>
+<P>(3) Money received from the tax imposed under this section must be spent in accordance with the requirements of chapter 36.73 RCW.</P>
+<History>2010 c 105 § 3; 2006 c 311 § 16; 2005 c 336 § 15.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Findings<TextRun fontFamily="Times New Roman">—</TextRun>2006 c 311:</TextRun> See note following RCW 36.120.020.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2005 c 336:</TextRun> See note following RCW 36.73.015.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="new" action="effdate">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act takes effect July 1, 2016.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

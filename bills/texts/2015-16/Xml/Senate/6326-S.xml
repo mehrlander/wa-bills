@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-4447.1</RequestNumber><ShortBillId>SSB 6326</ShortBillId><LongBillId>SUBSTITUTE SENATE BILL 6326</LongBillId><Legislature>64th Legislature</Legislature><Session>2016 Regular Session</Session><Sponsors>Senate Transportation (originally sponsored by Senators King, Hobbs, and Fain)</Sponsors><BillHistory><ReadDate>READ FIRST TIME 02/04/16.</ReadDate></BillHistory><BriefDescription>Concerning the retention and maintenance of auto dealer and repair facility records.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to the retention and maintenance of auto dealer and repair facility records; amending RCW 46.70.120 and 46.71.060; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>46</TitleNumber><TextRun>.</TextRun><ChapterNumber>70</ChapterNumber><TextRun>.</TextRun><SectionNumber>120</SectionNumber></SectionCite> and 2001 c 272 s 7 are each amended to read as follows:<Caption>Record of transactions.</Caption></BillSectionHeader>
+<P>A dealer shall complete and maintain for a period of at least five years a record of the purchase and sale or lease of all vehicles purchased, sold, or leased by him or her. The records shall consist of:</P>
+<P>(1) The license and title numbers of the state in which the last license was issued;</P>
+<P>(2) A description of the vehicle;</P>
+<P>(3) The name and address of the person from whom purchased;</P>
+<P>(4) The name of the legal owner, if any;</P>
+<P>(5) The name and address of the purchaser or lessee;</P>
+<P>(6) If purchased from a dealer, the name, business address, dealer license number, and resale tax number of the dealer;</P>
+<P>(7) The price paid for the vehicle and the method of payment;</P>
+<P>(8) The vehicle odometer disclosure statement given by the seller to the dealer, and the vehicle odometer disclosure statement given by the dealer to the purchaser or lessee;</P>
+<P>(9) The written agreement to allow a dealer to sell between the dealer and the consignor, or the listing dealer and the seller;</P>
+<P>(10) Trust account records of receipts, deposits, and withdrawals;</P>
+<P>(11) All sale documents, which shall show the full name of dealer employees involved in the sale or lease; and</P>
+<P>(12) Any additional information the department may require. However, the department may not require a dealer to collect or retain the hardback copy of a temporary license permit after the permanent license plates for a vehicle have been provided to the purchaser or lessee, if the dealer maintains some other copy of the temporary license permit together with a log of the permits issued.</P>
+<P>Such records shall be maintained separate from all other business records of the dealer. <TextRun amendingStyle="add">Paper r</TextRun>ecords older than two years may be kept at a location other than the dealer's place of business if those records are made available in hard copy for inspection within three calendar days, exclusive of Saturday, Sunday, or a legal holiday, after a request by the director or the director's authorized agent. Records kept at the vehicle dealer's place of business must be available for inspection by the director or the director's authorized agent during normal business hours. <TextRun amendingStyle="add">Records shall be kept in paper form for one year and, after such time, may be kept solely as electronic records and not as hard copies as long as such electronic records can be accessed by computer at the dealer's place of business during normal business hours for the remainder of the five-year retention period. Records that originate as electronic records may be retained as electronic records with no paper form and must be accessible by computer at the dealer's place of business for at least five years. The director may adopt rules necessary to implement electronic records retention.</TextRun></P>
+<P>Dealers may maintain their recordkeeping and filing systems in accordance with their own particular business needs and practices. Nothing in this chapter requires dealers to maintain their records in any particular order or manner, as long as the records identified in this section are maintained in the dealership's recordkeeping system.</P>
+<History>2001 c 272 § 7; 1996 c 282 § 4; 1990 c 238 § 7; 1986 c 241 § 16; 1973 1st ex.s. c 132 § 15; 1961 c 12 § 46.70.120. Prior: 1951 c 150 § 15.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date, implementation<TextRun fontFamily="Times New Roman">—</TextRun>1990 c 238:</TextRun> See note following RCW 46.12.530.</NoteP></AnnNote>
+<CrossRefNote><NoteP>Odometer disclosure statement: RCW 46.12.665.</NoteP></CrossRefNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>46</TitleNumber><TextRun>.</TextRun><ChapterNumber>71</ChapterNumber><TextRun>.</TextRun><SectionNumber>060</SectionNumber></SectionCite> and 1993 c 424 s 11 are each amended to read as follows:<Caption>Retention of price estimates and invoices.</Caption></BillSectionHeader>
+<P>Every automotive repair facility shall retain and make available for inspection, upon request by the customer or the customer's authorized representative, true copies of the written price estimates and invoices required under this chapter for at least one year after the date on which the repairs were performed. <TextRun amendingStyle="add"><TextRun amendingStyle="add" /><TextRun amendingStyle="add" />Such copies may be maintained as electronic records and not as hard copies as long as the repair facility is capable of printing the records in hard copy upon request of the customer or the customer's authorized representative.</TextRun></P>
+<History>1993 c 424 § 11; 1982 c 62 § 7; 1977 ex.s. c 280 § 6.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Severability<TextRun fontFamily="Times New Roman">—</TextRun>Effective date<TextRun fontFamily="Times New Roman">—</TextRun>1993 c 424:</TextRun> See notes following RCW 46.71.005.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>By December 31, 2018, the department of licensing shall submit a report to the legislature on the efforts taken to convert auto dealer and repair facility records to all electronic records. If the department has already converted to all electronic records by December 31, 2018, no report is required.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

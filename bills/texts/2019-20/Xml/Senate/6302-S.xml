@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-5837.2</RequestNumber><ShortBillId>SSB 6302</ShortBillId><LongBillId>SUBSTITUTE SENATE BILL 6302</LongBillId><Legislature>66th Legislature</Legislature><Session>2020 Regular Session</Session><Sponsors>Senate Housing Stability &amp; Affordability (originally sponsored by Senators Rolfes, Saldaña, Randall, Takko, Das, Hasegawa, Hunt, Lovelett, Nguyen, and Wilson, C.)</Sponsors><BillHistory><ReadDate>READ FIRST TIME 02/04/20.</ReadDate></BillHistory><BriefDescription>Prohibiting local governments from limiting the number of unrelated persons occupying a home.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to prohibiting local governments from limiting the number of unrelated persons occupying a home; adding a new section to chapter 35.21 RCW; adding a new section to chapter 35A.21 RCW; adding a new section to chapter 36.01 RCW; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature finds that many Washington cities and counties impose unrelated occupant limits on households, which worsen the state's housing crisis by preventing full utilization of homes, discriminate against nontraditional households, and provide no public benefit. As a result, it is the intent of the legislature with this act to prohibit local governments from limiting the number of unrelated persons occupying a home.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>35</TitleNumber><TextRun>.</TextRun><ChapterNumber>21</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>Except for occupant limits on group living arrangements regulated under state law or on short-term rentals as defined in RCW 64.37.010 and any restrictions on occupant load of the structure as calculated by the city or town in accordance with the applicable building code, a city or town may not regulate or limit the number of unrelated persons that may occupy a household or dwelling unit.</P>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>35A</TitleNumber><TextRun>.</TextRun><ChapterNumber>21</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>Except for occupant limits on group living arrangements regulated under state law or on short-term rentals as defined in RCW 64.37.010 and any restrictions on occupant load of the structure as calculated by the code city in accordance with the applicable building code, a code city may not regulate or limit the number of unrelated persons that may occupy a household or dwelling unit.</P>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>36</TitleNumber><TextRun>.</TextRun><ChapterNumber>01</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>Except for occupant limits on group living arrangements regulated under state law or on short-term rentals as defined in RCW 64.37.010 and any restrictions on occupant load of the structure as calculated by the county in accordance with the applicable building code, a county may not regulate or limit the number of unrelated persons that may occupy a household or dwelling unit.</P>
+</BillSection>
+</BillBody>
+</Bill>

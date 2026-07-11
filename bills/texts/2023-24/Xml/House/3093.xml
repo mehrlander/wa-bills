@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-9092.9</RequestNumber><ShortBillId>HB 3093</ShortBillId><LongBillId>HOUSE BILL 3093</LongBillId><Legislature>68th Legislature</Legislature><Session>2023 Regular Session</Session><Sponsors>Representative Abbarno; by request of A+ Commission</Sponsors><BillHistory><PrefiledDate>Prefiled 12/01/22.</PrefiledDate></BillHistory><BriefDescription>TEST BILL  FOR PRODUCTION TESTING</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to ; and amending RCW 1.04.010.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>1</TitleNumber><TextRun>.</TextRun><ChapterNumber>04</ChapterNumber><TextRun>.</TextRun><SectionNumber>010</SectionNumber></SectionCite> and 1951 c 5 s 2 are each amended to read as follows:<Caption>Revised Code of Washington enacted.</Caption></BillSectionHeader>
+<P>The ninety-one titles with chapters and sections designated as the "Revised Code of Washington" and attested by the secretary of the senate and the chief clerk of the house of representatives of the legislature of the state of Washington, are hereby enacted and designated as the "Revised Code of Washington." Said code is intended to embrace in a revised, consolidated, and codified form and arrangement all the laws of the state of a general and permanent nature.</P>
+<History>1951 c 5 § 2; 1950 ex.s. c 16 § 1.</History>
+<RCWNoteSection>
+<CrossRefNote><NoteP>Creation of new code titles authorized, effect: RCW 1.08.015.</NoteP></CrossRefNote>
+</RCWNoteSection>
+</BillSection>
+</BillBody>
+</Bill>

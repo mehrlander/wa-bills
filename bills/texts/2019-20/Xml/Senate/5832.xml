@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-1042.2</RequestNumber><ShortBillId>SB 5832</ShortBillId><LongBillId>SENATE BILL 5832</LongBillId><Legislature>66th Legislature</Legislature><Session>2019 Regular Session</Session><Sponsors>Senators Sheldon, King, Takko, Wilson, L., and Hobbs</Sponsors><BillHistory /><BriefDescription>Changing the county in which the vehicle registration filing fee is distributed.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to changing the county in which the vehicle registration filing fee is distributed; and amending RCW 46.68.400.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>46</TitleNumber><TextRun>.</TextRun><ChapterNumber>68</ChapterNumber><TextRun>.</TextRun><SectionNumber>400</SectionNumber></SectionCite> and 2010 c 161 s 819 are each amended to read as follows:<Caption>Vehicle registration filing fees<TextRun fontFamily="Times New Roman">—</TextRun>Distribution.</Caption></BillSectionHeader>
+<P>A filing fee established in RCW 46.17.005 must be distributed as follows:</P>
+<P>(1) If paid to the county auditor or other agent or subagent appointed by the director, the fee must be distributed to the county treasurer and credited to the county current expense fund <TextRun amendingStyle="add">in which the resident address displayed on the vehicle registration is located, regardless of where the fee was paid or collected by the treasurer or other agent or subagent appointed by the director</TextRun>.</P>
+<P>(2) If the fee is paid to another agent of the director, the fee must be used by the agent to defray his or her expenses in handling the application.</P>
+<P>(3) If the fee is collected by the state patrol as agent for the director, the fee must be certified to the state treasurer and deposited to the credit of the state patrol highway account.</P>
+<P>(4) If the fee is collected by the department of transportation as agent for the director, the fee must be certified to the state treasurer and deposited to the credit of the motor vehicle fund created in RCW 46.68.070.</P>
+<P>(5) If the fee is collected by the director or branches of the department, the fee must be certified to the state treasurer and deposited to the credit of the highway safety fund, except that two dollars of the fee must be deposited into the multimodal transportation account if the fee is collected in conjunction with RCW 46.17.350(1) (c) or (k) or 46.17.355.</P>
+<History>2010 c 161 § 819.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>Intent<TextRun fontFamily="Times New Roman">—</TextRun>Legislation to reconcile chapter 161, Laws of 2010 and other amendments made during the 2010 legislative session<TextRun fontFamily="Times New Roman">—</TextRun>2010 c 161:</TextRun> See notes following RCW 46.04.013.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+</BillBody>
+</Bill>

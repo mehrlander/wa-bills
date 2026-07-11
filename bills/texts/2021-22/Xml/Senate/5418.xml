@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-0809.1</RequestNumber><ShortBillId>SB 5418</ShortBillId><LongBillId>SENATE BILL 5418</LongBillId><Legislature>67th Legislature</Legislature><Session>2021 Regular Session</Session><Sponsors>Senators Billig, Kuderer, Conway, Darneille, Das, Frockt, Hasegawa, Hunt, Liias, Nguyen, Nobles, Randall, Saldaña, Stanford, Wellman, and Wilson, C.</Sponsors><BillHistory><ReadDate>Read first time 02/03/21.</ReadDate><ReferredCommittee>Referred to Committee on Health &amp; Long Term Care.</ReferredCommittee></BillHistory><BriefDescription>Prohibiting privileged access to drugs or vaccines.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to prohibiting health care entities from providing donors or board members privileged access to drugs or vaccines that are in limited supply; adding a new section to chapter 70.01 RCW; prescribing penalties; and declaring an emergency.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>70</TitleNumber><TextRun>.</TextRun><ChapterNumber>01</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) If a drug or vaccine is in limited supply and eligibility requirements for providing the therapy have been established, a health care entity must make every effort to provide the drug or vaccine to eligible individuals in a fair and consistent manner.  </P>
+<P>(2) A health care entity is prohibited from offering an individual who has financially contributed to the health care entity or has served on the health care entity's board priority or privileged access to a drug or vaccine through means including, but not limited to, reservation systems, invite-only mechanisms, and special access clinics, when the same access is not offered to all individuals who are eligible for the drug or vaccine.</P>
+<P>(3) Failure to comply with this chapter is punishable by a civil penalty not to exceed $10,000 per violation.</P>
+<P>(4) For purposes of this section, "health care entity" includes a facility, clinic, organization, system, or institution that dispenses or administers a prescription drug or vaccine.</P>
+</BillSection>
+<BillSection type="new" action="emerg" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act is necessary for the immediate preservation of the public peace, health, or safety, or support of the state government and its existing public institutions, and takes effect immediately.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

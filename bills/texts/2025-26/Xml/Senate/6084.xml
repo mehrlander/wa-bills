@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>Z-0615.1</RequestNumber><ShortBillId>SB 6084</ShortBillId><LongBillId>SENATE BILL 6084</LongBillId><Legislature>69th Legislature</Legislature><Session>2026 Regular Session</Session><Sponsors>Senators Cortes, Cleveland, Dhingra, Nobles, and Valdez; by request of Secretary of State</Sponsors><BillHistory><ReadDate>Read first time 01/13/26.</ReadDate><ReferredCommittee>Referred to Committee on State Government, Tribal Affairs &amp; Elections.</ReferredCommittee></BillHistory><BriefDescription>Clarifying the prohibition on voting more than once in an election.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to clarifying the prohibition on voting more than once in an election; amending RCW 29A.84.650; creating a new section; and declaring an emergency.</BillTitle>
+<EnactedClause />
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature finds that it has been and continues to be the law of this state that a person may not vote in an election in Washington and an election in any other state if the election date is the same for both states. The legislature intends to affirm and clarify this law, and enacts section 2 of this act to abrogate the decision of the Washington court of appeals in <TextRun fontStyle="italic">State v. Padrta</TextRun>, No. 59737-3-II (January 6, 2026) and to immediately correct its erroneous interpretation in order to prevent confusion during the 2026 primary and general elections. This amendment is intended to be curative in nature.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>29A</TitleNumber><TextRun>.</TextRun><ChapterNumber>84</ChapterNumber><TextRun>.</TextRun><SectionNumber>650</SectionNumber></SectionCite> and 2005 c 243 s 24 are each amended to read as follows:<Caption>Repeaters.</Caption></BillSectionHeader>
+<P>(1)<TextRun amendingStyle="add">(a)</TextRun> Any person who intentionally votes or attempts to vote in this state more than once <TextRun amendingStyle="strike">at any</TextRun> <TextRun amendingStyle="add">in the same</TextRun> election, or who intentionally votes or attempts to vote in both this state and another state <TextRun amendingStyle="strike">at any</TextRun> <TextRun amendingStyle="add">in the same</TextRun> election, is guilty of a class C felony.</P>
+<P><TextRun amendingStyle="add">(b) For purposes of this section, the term "election" refers to any general, primary, or special election. An election is the "same election" if the election date is the same, regardless of the candidates, offices, issues, or measures on the ballot and regardless of the date on which ballots are mailed or returned.</TextRun></P>
+<P><TextRun amendingStyle="add">(c) When a special election is held in conjunction with a general election or primary election, it is not the "same election" for purposes of this section, and otherwise qualified voters may vote in both the special election and the general or primary election held on the same day.</TextRun></P>
+<P>(2) Any person who recklessly or negligently violates this section commits a class 1 civil infraction as provided in RCW 7.80.120.</P>
+<History>2005 c 243 s 24; 2003 c 111 s 2131. Prior: 1991 c 81 s 13; 1965 c 9 s 29.85.210; prior: 1911 c 89 s 1, part; Code 1881 s 903; 1873 p 204 s 102; 1865 p 51 s 5; 1854 p 93 s 93; RRS s 5383. Formerly RCW 29.85.210.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>1991 c 81:</TextRun> See note following RCW 29A.84.540.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="new" action="emerg">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act is necessary for the immediate preservation of the public peace, health, or safety, or support of the state government and its existing public institutions, and takes effect immediately.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

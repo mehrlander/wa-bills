@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-1704.2</RequestNumber><ShortBillId>HB 2124</ShortBillId><LongBillId>HOUSE BILL 2124</LongBillId><Legislature>64th Legislature</Legislature><Session>2015 Regular Session</Session><Sponsors>Representatives Wilson, Schmick, and Johnson</Sponsors><BillHistory><ReadDate>Read first time 02/16/15.</ReadDate><ReferredCommittee>Referred to Committee on Transportation.</ReferredCommittee></BillHistory><BriefDescription>Concerning members of regional transportation planning organizations representing out-of-state governments or organizations.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to members of regional transportation planning organizations representing out-of-state governments or organizations; adding a new section to chapter 47.80 RCW; and repealing RCW 47.80.080.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>47</TitleNumber><TextRun>.</TextRun><ChapterNumber>80</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>A member of a regional transportation planning organization representing a government or organization outside the state of Washington may not serve as a voting member of the regional transportation planning organization or any of its boards.</P>
+</BillSection>
+<BillSection type="new" action="repeal">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P><SectionCite><TextRun>RCW </TextRun><TitleNumber>47</TitleNumber><TextRun>.</TextRun><ChapterNumber>80</ChapterNumber><TextRun>.</TextRun><SectionNumber>080</SectionNumber></SectionCite> (Majority vote on state matters) and 2003 c 351 s 2 are each repealed.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-4155.1</RequestNumber><ShortBillId>SHB 2035</ShortBillId><LongBillId>SUBSTITUTE HOUSE BILL 2035</LongBillId><Legislature>65th Legislature</Legislature><Session>2018 Regular Session</Session><Sponsors>House Judiciary (originally sponsored by Representatives Harmsworth, Hayes, Shea, and Young)</Sponsors><BillHistory><ReadDate>READ FIRST TIME 01/26/18.</ReadDate></BillHistory><BriefDescription>Concerning information on civil traffic infractions.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to information on civil traffic infractions; and adding a new section to chapter 2.56 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>2</TitleNumber><TextRun>.</TextRun><ChapterNumber>56</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>The administrative office of the courts may not display any personally identifying information about individual cases filed in courts in this state that involve parking infractions or infractions processed in the same manner as parking infractions under chapter 46.63 RCW on any publicly accessible online case records portal maintained by the administrative office of the courts.</P>
+</BillSection>
+</BillBody>
+</Bill>

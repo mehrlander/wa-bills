@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-4496.3</RequestNumber><ShortBillId>HB 2995</ShortBillId><LongBillId>HOUSE BILL 2995</LongBillId><Legislature>64th Legislature</Legislature><Session>2016 Regular Session</Session><Sponsors>Representative Dunshee</Sponsors><BillHistory /><BriefDescription>Addressing the four-year balanced budget process.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to the four-year balanced budget process; amending RCW 43.88.055; creating a new section; and declaring an emergency.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The current four-year balanced budget statute does not permit inclusion of general fund revenues deposited into the budget stabilization account as resources to determine whether the operating budget is balanced in the ensuing fiscal biennium. Additionally, the legislature in chapter . . . (Engrossed House Bill No. 2698), Laws of 2016 has declared its intent to appropriate a portion of the general fund revenues regularly transferred to the budget stabilization account for school construction. It is the intent of the legislature to revise the four-year balanced budget process to consider one-half of the regular annual transfer to the budget stabilization account as available for balancing purposes when determining balance in the ensuing fiscal biennium.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>88</ChapterNumber><TextRun>.</TextRun><SectionNumber>055</SectionNumber></SectionCite> and 2012 1st sp.s. c 8 s 1 are each amended to read as follows:<Caption>Legislative balanced budget requirement.</Caption></BillSectionHeader>
+<P>(1) The legislature must adopt a four-year balanced budget as follows:</P>
+<P>(a) Beginning in the 2013-2015 fiscal biennium, the legislature shall enact a balanced omnibus operating appropriations bill that leaves, in total, a positive ending fund balance in the general fund and related funds.</P>
+<P>(b) Beginning in the 2013-2015 fiscal biennium, the projected maintenance level of the omnibus appropriations bill enacted by the legislature shall not exceed the available fiscal resources for the next ensuing fiscal biennium.</P>
+<P>(2) For purposes of this section:</P>
+<P>(a) "Available fiscal resources" means the beginning general fund and related fund balances and any fiscal resources estimated for the general fund and related funds, adjusted for enacted legislation, and with forecasted revenues adjusted to the greater of (i) the official general fund and related funds revenue forecast for the ensuing biennium, or (ii) the official general fund and related funds forecast for the second fiscal year of the current fiscal biennium, increased by 4.5 percent for each fiscal year of the ensuing biennium;</P>
+<P>(b) "Projected maintenance level" means estimated appropriations necessary to maintain the continuing costs of program and service levels either funded in that appropriations bill or mandated by other state or federal law, and <TextRun amendingStyle="add">one-half of</TextRun> the amount of any general fund moneys projected to be transferred to the budget stabilization account pursuant to Article VII, section 12<TextRun amendingStyle="add">(b)(1)</TextRun> of the state Constitution, but does not include in the 2013-2015 and 2015-2017 fiscal biennia the costs related to the enhanced funding under the new definition of basic education as established in chapter 548, Laws of 2009, and affirmed by the decision in <TextRun fontStyle="italic">Mathew McCleary et al., v. The State of Washington</TextRun>, 173 Wn.2d 477, 269 P.3d 227, (2012), from which the short-term exclusion of these obligations is solely for the purposes of calculating this estimate and does not in any way indicate an intent to avoid full funding of these obligations;</P>
+<P>(c) "Related funds," as used in this section, means the Washington opportunity pathways account and the education legacy trust account.</P>
+<P>(3) Subsection (1)(a) and (b) of this section does not apply to an appropriations bill that makes net reductions in general fund and related funds appropriations and is enacted between July 1st and February 15th of any fiscal year.</P>
+<P>(4) Subsection (1)(b) of this section does not apply in a fiscal biennium in which money is appropriated from the budget stabilization account.</P>
+<History>2012 1st sp.s. c 8 § 1.</History>
+</BillSection>
+<BillSection type="new" action="emerg">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act is necessary for the immediate preservation of the public peace, health, or safety, or support of the state government and its existing public institutions, and takes effect immediately.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

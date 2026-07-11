@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-0253.1</RequestNumber><ShortBillId>SB 5262</ShortBillId><LongBillId>SENATE BILL 5262</LongBillId><Legislature>66th Legislature</Legislature><Session>2019 Regular Session</Session><Sponsors>Senators Zeiger and Wellman</Sponsors><BillHistory /><BriefDescription>Concerning special education.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to special education; amending RCW 28A.155.090; adding a new section to chapter 28A.320 RCW; adding a new section to chapter 28A.155 RCW; and adding a new section to chapter 28A.300 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>28A</TitleNumber><TextRun>.</TextRun><ChapterNumber>320</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) Each school district must post on its web site a plain language description of each of the special education service delivery models either implemented or contracted for by the school district.</P>
+<P>(2) At least ten days prior to any meeting regarding the student's individualized education program, a school district must provide:</P>
+<P>(a) The descriptions in subsection (1) of this section in writing to the parents or guardian of the student; and</P>
+<P>(b) The simple written handout provided by the superintendent of public instruction under section 4 of this act with questions for the student's parent or guardian to consider prior to the meeting.</P>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>28A</TitleNumber><TextRun>.</TextRun><ChapterNumber>155</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>The definitions in this section apply throughout this act unless the context clearly requires otherwise.</P>
+<P>(1) "Eligible child" means a child with a disability who through an evaluation is determined eligible for special education and related services due to the disability.</P>
+<P>(2) "Individualized education program" means a written statement for an eligible child with a disability that includes measurable goals for the child, and any special education, related services, and supplementary aids to be provided for the child.</P>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>28A</TitleNumber><TextRun>.</TextRun><ChapterNumber>155</ChapterNumber><TextRun>.</TextRun><SectionNumber>090</SectionNumber></SectionCite> and 2007 c 115 s 11 are each amended to read as follows:<Caption>Superintendent of public instruction's duty and authority.</Caption></BillSectionHeader>
+<P>The superintendent of public instruction shall have the duty and authority, through the administrative section or unit for the education of <TextRun amendingStyle="add">eligible</TextRun> children with disabling conditions, to:</P>
+<P>(1) Assist school districts in the formation of programs to meet the needs of children with disabilities;</P>
+<P>(2) Develop interdistrict cooperation programs for children with disabilities as authorized in RCW 28A.225.250;</P>
+<P>(3) <TextRun amendingStyle="add">Post on the office of the superintendent of public instruction's web site and p</TextRun>rovide, <TextRun amendingStyle="add">in writing,</TextRun> upon request, to parents or guardians of children with disabilities, <TextRun amendingStyle="strike">information as to</TextRun> <TextRun amendingStyle="add">a plain language description of each of</TextRun> the special education <TextRun amendingStyle="strike">programs</TextRun> <TextRun amendingStyle="add">service delivery models</TextRun> for <TextRun amendingStyle="add">eligible</TextRun> students with disabilities offered within the state;</P>
+<P>(4) Assist, upon request, the parent or guardian of any child with disabilities in the placement of any child with disabilities who is eligible for but not receiving special educational services for children with disabilities;</P>
+<P>(5) Approve school district and agency programs as being eligible for special excess cost financial aid to students with disabilities;</P>
+<P>(6) Consistent with the provisions of RCW 28A.150.390, 28A.160.030, and 28A.155.010 through 28A.155.160, and part B of the federal individuals with disabilities education improvement act, administer administrative hearings and other procedures to ensure procedural safeguards of children with disabilities; <TextRun amendingStyle="strike">and</TextRun></P>
+<P>(7) Promulgate <TextRun amendingStyle="strike">such</TextRun> rules <TextRun amendingStyle="strike">as are</TextRun> necessary to<TextRun amendingStyle="add">: I</TextRun>mplement part B of the federal individuals with disabilities education <TextRun amendingStyle="strike">improvement</TextRun> act <TextRun amendingStyle="strike">or</TextRun><TextRun amendingStyle="add">,</TextRun> other federal law providing for special education services for children with disabilities<TextRun amendingStyle="add">,</TextRun> and <TextRun amendingStyle="strike">the several provisions of</TextRun> RCW 28A.150.390, 28A.160.030, and 28A.155.010 through 28A.155.160<TextRun amendingStyle="add">;</TextRun> and <TextRun amendingStyle="strike">to</TextRun> ensure appropriate access to and participation in the general education curriculum<TextRun amendingStyle="add">,</TextRun> and participation in <TextRun amendingStyle="add">the</TextRun> statewide assessments for all students with disabilities<TextRun amendingStyle="add">; and</TextRun></P>
+<P><TextRun amendingStyle="add">(8) Implement the duties assigned under section 4 of this act</TextRun>.</P>
+<History>2007 c 115 § 11; 1995 c 77 § 15; 1990 c 33 § 127; 1985 c 341 § 5; 1971 ex.s. c 66 § 9. Formerly RCW 28A.13.070.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Severability<TextRun fontFamily="Times New Roman">—</TextRun>Effective date<TextRun fontFamily="Times New Roman">—</TextRun>1971 ex.s. c 66:</TextRun> See notes following RCW 28A.155.010.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>28A</TitleNumber><TextRun>.</TextRun><ChapterNumber>300</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>In addition to the duties of the superintendent of public instruction regarding eligible children with disabilities under RCW 28A.155.090, the superintendent must do all of the following:</P>
+<P>(1) Provide school districts a simple written handout that districts must share with all parents or guardians at least ten days prior to an individualized education program meeting. The handout must include, at a minimum, all the following questions for the parent or guardian to consider prior to the meeting:</P>
+<P>(a) How do you think your child is doing academically and socially? What are your observations and concerns about what you are seeing?</P>
+<P>(b) What works at home? Which in-school strengths does your child show? Which homework strategies or technology help your child the most?</P>
+<P>(c) What are your child's successes and strengths in activities outside of school? Which activities does he or she find interesting? How does he or she benefit from them?</P>
+<P>(d) How does your child act at home? Is it the same or different at school?</P>
+<P>(e) How does your child feel about school and learning? What brings feelings of success or failure? Do you hear self-confidence or frustration?</P>
+<P>(f) Does your child have interests and goals for after high school?</P>
+<P>(2) Provide school individualized education program teams with a simple handout of information that must be addressed at the individualized education program meeting.</P>
+<P>(a) How does everyone at the meeting know or work with the child of the parent or the ward of the guardian?</P>
+<P>(b) Explain in plain language the purpose of each test used to assess the child and why the tests were the right ones to use.</P>
+<P>(c) How is the child different or similar to other kids in the classroom?</P>
+<P>(d) What can the parent or guardian do at home to support the individualized education program goals?</P>
+</BillSection>
+</BillBody>
+</Bill>

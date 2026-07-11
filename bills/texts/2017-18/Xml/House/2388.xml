@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-3371.2</RequestNumber><ShortBillId>HB 2388</ShortBillId><LongBillId>HOUSE BILL 2388</LongBillId><Legislature>65th Legislature</Legislature><Session>2018 Regular Session</Session><Sponsors>Representatives Hudgins, Tarleton, Valdez, Stanford, and Ormsby</Sponsors><BillHistory><PrefiledDate>Prefiled 01/04/18.</PrefiledDate><ReadDate>Read first time 01/08/18.</ReadDate><ReferredCommittee>Referred to Committee on State Govt, Elections &amp; IT.</ReferredCommittee></BillHistory><BriefDescription>Concerning the security of voting systems in elections.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to creating a process to increase the security of voting systems in elections; and adding new sections to chapter 29A.12 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>29A</TitleNumber><TextRun>.</TextRun><ChapterNumber>12</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) A manufacturer or distributor of a voting system or component of a voting system that is certified by the secretary of state under RCW 29A.12.020 shall disclose to the secretary of state and attorney general any breach of the security of its system immediately following discovery of the breach if:</P>
+<P>(a) The breach has, or is reasonably likely to have, compromised the security, confidentiality, or integrity of an election in any state; or</P>
+<P>(b) Personal information of residents in any state was, or is reasonably believed to have been, acquired by an unauthorized person as a result of the breach and the personal information was not secured. For purposes of this subsection, "personal information" has the meaning given in RCW 19.255.010.</P>
+<P>(2) Notification under subsection (1) of this section must be made in the most expedient time possible and without unreasonable delay.</P>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>29A</TitleNumber><TextRun>.</TextRun><ChapterNumber>12</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) The secretary of state may decertify a voting system or any component of a voting system and withdraw authority for its future use or sale in the state if, at any time after certification, the secretary of state determines it no longer conforms with the requirements of this title, applicable rules adopted in accordance with this title, or generally accepted safety requirements.</P>
+<P>(2) The secretary of state must decertify a voting system or any component of a voting system and withdraw authority for its future use or sale in the state if the manufacturer or distributor of the voting system or component thereof fails to comply with the notification requirements of section 1 of this act.</P>
+</BillSection>
+</BillBody>
+</Bill>

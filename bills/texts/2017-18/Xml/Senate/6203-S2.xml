@@ -1,0 +1,1013 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-5609.1</RequestNumber><ShortBillId>2SSB 6203</ShortBillId><LongBillId>SECOND SUBSTITUTE SENATE BILL 6203</LongBillId><Legislature>65th Legislature</Legislature><Session>2018 Regular Session</Session><Sponsors>Senate Ways &amp; Means (originally sponsored by Senators Carlyle, Ranker, Palumbo, Nelson, Pedersen, Frockt, Billig, Rolfes, McCoy, Keiser, Wellman, Liias, Hunt, Chase, Saldaña, and Kuderer; by request of Governor Inslee)</Sponsors><BillHistory><ReadDate>READ FIRST TIME 02/23/18.</ReadDate></BillHistory><BriefDescription>Reducing carbon pollution by investing in rural economic development and a clean energy economy.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to reducing carbon pollution by investing in rural economic development and a clean energy economy; amending RCW 46.17.005, 46.17.350, 46.17.365, 19.285.030, and 19.285.040; adding new sections to chapter 43.31 RCW; adding a new chapter to Title 82 RCW; adding a new chapter to Title 43 RCW; adding a new chapter to Title 70 RCW; creating a new section; providing effective dates; and providing a contingent expiration date.</BillTitle>
+<EnactedClause />
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) Greenhouse gas pollution, including carbon, is a significant contributor to climate change, and has devastating negative impacts on Washington's economy, environment, natural resources, and communities. Our state is already experiencing rising sea levels, depleting snowpack, increased flooding, acidifying oceans, and more frequent and severe wildfires. These impacts impair our prosperity and have already hurt our businesses and communities.</P></BillSectionHeader>
+<P>(2) Transitioning to a clean energy economy can help our residents and businesses thrive without increasing carbon pollution that leads to climate change. Building a vibrant and successful clean energy economy can serve as an example to other regions, will put Washington on the cutting edge of twenty-first century economies, create new jobs, and support the health and prosperity of all residents of Washington.</P>
+<P>(3) Washington state is home to some of the world's most innovative companies, a highly skilled workforce, and important industries. As our state transitions away from fossil fuels, we must do so in a way that protects these assets, and allows our businesses to thrive. By launching a bold new set of investments in carbon reduction infrastructure and natural resource resilience, we can reduce our state's carbon emissions while preparing our economy for the future. In doing so, we recognize that some industries are energy dependent and trade-exposed, and thus have independent incentive to be energy efficient. These industries are exempt from carbon taxation in order to allow them to remain globally competitive and ensure these industries and jobs remain in Washington.</P>
+<P>(4) Washington is home to more than ten million acres of working forestlands, including private landowners and state trust lands. These lands represent the foundation of a forest products industry that sequesters massive amounts of carbon from the atmosphere simply through its standard, baseline operations. These working forests are one of the state's greatest natural assets in combating global carbon emissions. A statewide carbon policy must support and maintain the ecosystem values provided by the forest products industry. Healthy, working forests maximize the forests' ability to absorb carbon with lumber and other forest products continuing to sequester that carbon.</P>
+<P>(5) Fossil fuel combustion also is responsible for other pollutants, like nitrous oxide, carbon monoxide, benzene, and others that contribute to respiratory diseases like asthma and lung cancer that compromise public health and shorten life expectancy. This pollution burden overwhelmingly falls on low-income communities, communities of color, and the vulnerable parts of our population. Reducing our reliance on fossil fuels, therefore, will contribute to improved air quality and better public health.</P>
+<P>(6) This act establishes a tax to account for the economic and environmental impacts of carbon pollution. The revenue will facilitate the transition from fossil fuels to clean energy and fund investments that will benefit our businesses, our families, and our communities. It will also invest in adapting to the impacts of climate change and protecting our rural communities and key economic sectors including agriculture, shellfish, and forestry.</P>
+<P>(7) Further, in general, low-income rural and urban communities are disproportionately impacted by carbon pollution and are less able to respond to climate change. This act provides targeted economic stimulus to ensure that the job creation and health benefits of this measure are focused in the communities that can most benefit from these investments.</P>
+</BillSection>
+<Part>
+<P textAlign="center"><TextRun fontWeight="bold">Part I</TextRun></P>
+<P textAlign="center"><TextRun fontWeight="bold">Carbon Pollution Tax</TextRun></P>
+</Part>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value fixed="true">101</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>DEFINITIONS.</SectionCaption><P>The definitions in this section apply throughout this chapter unless the context clearly requires otherwise.</P></BillSectionHeader>
+<P>(1) "Aircraft fuel" has the same meaning as provided in RCW 82.42.010.</P>
+<P>(2) "Asset controlling supplier" means any entity that owns or operates interconnected electricity generating facilities or serves as an exclusive marketer for these facilities even though it does not own them, and is assigned a supplier-specific identification number and system emission factor by the department of ecology, in consultation with the department of commerce, for the wholesale electricity procured from its system and sold into Washington.</P>
+<P>(3) "Carbon calculation" means a calculation made by the department of ecology, in consultation with the department of commerce, for purposes of determining the carbon dioxide emissions from the complete combustion or oxidation of fossil fuels and, for each specified source, the carbon dioxide emissions in electricity for use in calculating the carbon pollution tax pursuant to section 102 of this act.</P>
+<P>(4) "Carbon dioxide emissions content inherent in electricity" means the carbon dioxide generated by the production of electricity from fossil fuels.</P>
+<P>(5) "Carbon dioxide equivalent" means a metric measure used to compare the emissions from various greenhouse gases based on their global warming potential.</P>
+<P>(6) "Carbon pollution tax" means the tax created in section 102 of this act.</P>
+<P>(7) "Coal" means a readily combustible rock of carbonaceous material, including anthracite coal, bituminous coal, subbituminous coal, lignite, waste coal, syncoal, and coke of any kind.</P>
+<P>(8) "Department" means the department of revenue.</P>
+<P>(9) "Direct access electricity customer" means a person who purchases electricity for consumption from any seller other than a seller registered with the department for purposes of paying taxes due under chapter 82.04 or 82.16 RCW.</P>
+<P>(10) "Direct access gas customer" means a person who purchases natural gas for consumption from any seller other than a seller registered with the department for purposes of paying taxes due under chapter 82.04 or 82.16 RCW.</P>
+<P>(11) "Direct service industrial customer" has the same meaning as provided in RCW 82.16.0495.</P>
+<P>(12) "Energy-intensive trade-exposed manufacturing facility" means a manufacturing business that meets the numerical criteria established by the department of commerce in section 103(3)(b) of this act, or has a proper primary North American industry classification system code as provided in section 103(3)(c) of this act.</P>
+<P>(13) "Facility" means any physical property, plant, building, structure, source, or stationary equipment located on one or more contiguous or adjacent properties in actual physical contact or separated solely by a public roadway or other public right-of-way and under common ownership or common control, that emits or may emit any greenhouse gas.</P>
+<P>(14) "Fossil fuel" means motor vehicle fuel, special fuel, dyed special fuel, aircraft fuel, natural gas, coal, and any form of solid, liquid, or gaseous fuel derived from natural gas, coal, petroleum, or crude oil, including without limitation still gas, propane, and petroleum residuals including bunker fuel.</P>
+<P>(15) "Gas distribution business" has the same meaning as provided in RCW 82.16.010.</P>
+<P>(16) "Greenhouse gas" means carbon dioxide (CO<TextRun fontStyle="subscript">2</TextRun>), methane (CH<TextRun fontStyle="subscript">4</TextRun>), nitrogen trifluoride (NF<TextRun fontStyle="subscript">3</TextRun>), nitrous oxide (N<TextRun fontStyle="subscript">2</TextRun>O), sulfur hexafluoride (SF<TextRun fontStyle="subscript">6</TextRun>), hydrofluorocarbons (HFCs), perfluorocarbons (PFCs), and other fluorinated greenhouse gases.</P>
+<P>(17) "Highly impacted communities" means those areas designated pursuant to section 502 of this act.</P>
+<P>(18) "Light and power business" has the same meaning as provided in RCW 82.16.010.</P>
+<P>(19) "Motor vehicle fuel" has the same meaning as provided in RCW 82.38.020.</P>
+<P>(20) "Natural gas" means naturally occurring mixtures of hydrocarbon gases and vapors consisting principally of methane, whether in gaseous or liquid form, including methane clathrate.</P>
+<P>(21) "Person" has the same meaning as provided in RCW 82.04.030.</P>
+<P>(22) "Sale" has the same meaning as provided in RCW 82.04.040.</P>
+<P>(23) "Special fuel" has the same meaning as provided in RCW 82.38.020.</P>
+<P>(24) "Specified source" means an electrical generation facility serving Washington customers in which the taxpayer directly or indirectly has full or partial ownership in the facility or unit or is party to a written contract or other agreement to procure electricity generated by that facility.</P>
+<P>(25) "Taxpayer" means a person subject to the carbon pollution tax imposed in this chapter.</P>
+<P>(26) "Tribal lands" has the same meaning as "Indian country" as provided in 18 U.S.C. Sec. 1151, and also includes sacred sites, traditional cultural properties, burial grounds and other tribal sites protected by federal or state law.</P>
+<P>(27) "Unspecified source" means electricity from a source other than a specified source.</P>
+<P>(28)(a) "Use," "used," "using," or "put to use" means, with respect to any fossil fuel other than natural gas, the consumption in this state of the fossil fuel by the taxpayer or the possession or storage in this state of the fossil fuel by the taxpayer preparatory to subsequent consumption of the fossil fuel within this state by the taxpayer.</P>
+<P>(b) "Use," "used," "using," or "put to use" means, with respect to natural gas, the consumption in this state of the fossil fuel by the taxpayer.</P>
+<P>(c) For purposes of this subsection (28), "possession" means the control of fossil fuel located within this state and includes either actual and/or constructive possession. "Actual possession" occurs when the person with control has physical possession. "Constructive possession" occurs when the person with control does not have physical possession. "Control" means the power to sell or use a fossil fuel or to authorize the sale or use by another.</P>
+<P>(29) "Western interconnection" means the area comprising those states and provinces, or portions thereof, in western Canada, northern Mexico, and the western United States in which members of the western electricity coordinating council, or any successor thereto, operate synchronously connected transmission systems.</P>
+<P>(30) "Year" means the twelve-month period commencing January 1st and ending December 31st unless otherwise specified.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>102</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption><TextRun fontWeight="bold" />CARBON POLLUTION TAX.</SectionCaption>(1)(a) Beginning July 1, 2019, a carbon pollution tax is imposed on:</BillSectionHeader>
+<P>(i) The sale or use within this state of all fossil fuels, except fossil fuels used to generate electricity in the state; or</P>
+<P>(ii) The generation within or import for consumption to this state of electricity generated through the combustion of fossil fuels.</P>
+<P>(b) The measure of the carbon pollution tax is the carbon dioxide emissions:</P>
+<P>(i) Resulting from the complete combustion or oxidation of fossil fuels sold or used by the taxpayer within this state; or</P>
+<P>(ii) Inherent in electricity generated within or imported for consumption to this state.</P>
+<P>(c)(i) The tax rate is equal to twelve dollars per metric ton of carbon dioxide.</P>
+<P>(ii) Beginning July 1, 2021, the department must annually adjust the previous year's tax rate by one dollar and eighty cents per metric ton until reaching thirty dollars per metric ton of carbon dioxide. The department must calculate tax rate adjustments under this subsection (1)(c)(ii) in July of each year and publish on its web site the tax rate for any year by January 1st of that year.</P>
+<P>(2) For the purposes of this chapter, the carbon pollution tax is imposed:</P>
+<P>(a) Only once with respect to the same unit of fossil fuel or electric energy;</P>
+<P>(b) At the time and place of the first taxable event within this state, except as otherwise provided in this section, occurring on or after the effective date of this section, regardless of whether the fossil fuel or electricity was previously sold, used, or consumed within this state before the effective date of this section; and</P>
+<P>(c) Upon the first taxable person within this state, except as otherwise provided in this section. A taxable person is:</P>
+<P>(i) A person required to be registered with the department under RCW 82.32.030(1);</P>
+<P>(ii) The state, its political subdivisions, and municipal corporations; and</P>
+<P>(iii) A person who maintains a place of business in this state but who is not required to be registered with the department under RCW 82.32.030(1).</P>
+<P>(3) As provided in this section, the carbon pollution tax on the sale or use of fossil fuels is imposed on the seller or user of the fossil fuel.</P>
+<P>(4) The carbon pollution tax on the sale or use of natural gas is imposed as follows:</P>
+<P>(a) Natural gas transported through the state that is not produced or delivered in the state is exempt from the carbon pollution tax imposed by this section. Natural gas possessed or stored in this state is exempt from the carbon pollution tax imposed by this section unless taxed under (b), (c), or (d) of this subsection;</P>
+<P>(b) For natural gas sold by a gas distribution business to a retail customer in the state, the carbon pollution tax is imposed on the gas distribution business upon the sale of such natural gas to the retail customer;</P>
+<P>(c) For natural gas sold to a light and power business for the purpose of generation of electricity in the state, the carbon pollution tax is imposed on the light and power business as provided for in subsection (5)(a) of this section; and</P>
+<P>(d) For natural gas sold to a direct access gas customer in the state, the carbon pollution tax is imposed on the direct access gas customer upon the consumption of such natural gas by the direct access gas customer.</P>
+<P>(5) The carbon pollution tax on the generation or import of electricity for consumption in this state is imposed as follows:</P>
+<P>(a) For electricity produced in the state, the carbon pollution tax is imposed on the person required to be registered with the department for purposes of paying taxes due under chapter 82.04 or 82.16 RCW that owns or operates the electrical generation facility producing the electricity; and</P>
+<P>(b) For electricity produced outside the state and imported for consumption in the state, the carbon pollution tax is imposed on the first person that imports or delivers such electricity to or within the state.</P>
+<P>(6) For motor vehicle fuel and special fuel, the carbon pollution tax is imposed on the seller or user of the fuel at the points of taxation specified in RCW 82.38.030(9).</P>
+<P>(7)(a) The carbon pollution tax does not apply to the sale or use of fossil fuels or consumption of electricity upon which the tax under this chapter has been imposed.</P>
+<P>(b) A sale of fossil fuel takes place in this state when the fossil fuel is delivered in this state to the purchaser or a person designated by the purchaser, notwithstanding any contract terms designating a location outside of this state as the place of sale.</P>
+<P>(c) All taxable sales within this state of a fossil fuel or electricity must document the amount of carbon pollution tax paid in accordance with rules adopted by the department.</P>
+<P>(d)(i) The carbon pollution tax liability imposed on a person consistent with (a) and (b) of this subsection may be assumed by a light and power business when it purchases electricity if the light and power business meets the following requirements:</P>
+<P>(A) A light and power business must have a clean energy investment plan approved by a responsible entity.</P>
+<P>(B) A light and power business must apply to the responsible entity, in a manner and form acceptable to the responsible entity, for approval to assume liability for the carbon pollution tax pursuant to this subsection (7)(d).</P>
+<P>(C) Upon approval of an application pursuant to (d)(i)(B) of this subsection, the entity must issue a certificate or other documentation, as prescribed by the department, authorizing the light and power business to assume liability for the carbon pollution tax pursuant to this subsection (7)(d).</P>
+<P>(D) A light and power business that elects to assume liability for the carbon pollution tax as authorized under this subsection (7)(d) must present the certificate or documentation issued pursuant to (d)(i)(C) of this subsection to a person selling electricity to the light and power business. Acceptance of the certificate or documentation presented by a light and power business under this subsection (7)(d) relieves that person from paying the carbon pollution tax due on such a sale. Acceptance of the certificate or documentation may not be unreasonably withheld. The person selling electricity must keep a copy of the certificate or documentation in its records pursuant to RCW 82.32.070. If the light and power business does not elect to assume the carbon pollution tax, the carbon pollution tax on the sale of electricity is imposed pursuant to (a) or (b) of this subsection, as applicable.</P>
+<P>(ii) For the purposes of this subsection (7)(d), "responsible entity" means the entity responsible for approving the clean energy investment plan of a light and power business pursuant to sections 201 through 206 or 301 through 306 of this act, whichever is applicable.</P>
+<P>(8) For purposes of determining the carbon pollution tax due under this chapter:</P>
+<P>(a) The department must use the carbon calculation for all fossil fuels sold or used within the state or inherent in electricity generated or imported for consumption within this state;</P>
+<P>(b) For fossil fuels, the department of ecology, in consultation with the department of commerce, must adopt by rule criteria for making the carbon calculation;</P>
+<P>(c) For the import of electricity sourced from an asset controlling supplier, including the Bonneville power administration and others as approved by the department of ecology, the department of ecology must calculate and publish on its web site no later than December 1st of each year the system emissions factors for each asset controlling supplier for the previous calendar year. Such system emissions factors must be used to determine the carbon tax associated with power sourced from asset controlling supplier systems for the upcoming calendar year. Asset controlling suppliers are considered specified sources of electricity;</P>
+<P>(d) For the generation or import of electricity from an unspecified source, the carbon dioxide inherent in that electricity is equal to the default emission factor adopted by the department of ecology, in consultation with the department of commerce, in a manner consistent with the default emission factors for electricity established for other markets in the western interconnection, or, if the department of ecology has not adopted a default emission factor by rule, 0.437 metric tons of carbon dioxide per megawatt-hour;</P>
+<P>(e) For the generation or import of electricity from a specified source, the carbon dioxide inherent in that electricity must be based on the carbon calculation for that source established by the department of ecology. The department of ecology, in consultation with the department of commerce, must adopt by rule criteria for making the carbon calculation for specified sources; and</P>
+<P>(f) The department of ecology may require additional information to existing reporting programs as necessary, in consultation with the department of commerce, for determining the carbon calculation under this chapter.</P>
+<P>(9) For taxpayers who are also subject to any of the taxes imposed under chapter 82.04, 82.08, 82.12, or 82.16 RCW, the frequency of reporting and payment of the carbon pollution tax must, to the extent practicable, coincide with a taxpayer's reporting periods for the taxes imposed under chapter 82.04, 82.08, 82.12, or 82.16 RCW.</P>
+<P>(10) The department must develop and make available worksheets, tax tables, and guidance documents it deems necessary to calculate the carbon dioxide emissions of fossil fuels or the carbon dioxide emissions inherent in electricity.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>103</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>EXEMPTIONS AND CREDITS.</SectionCaption><P>(1) The carbon pollution tax does not apply to:</P></BillSectionHeader>
+<P>(a) Fossil fuels brought into this state by means of the primary fuel supply tank of a motor vehicle, vessel, locomotive, or aircraft, actively supplying fuel for combustion upon entry into the state, and any electricity generated by such fossil fuels;</P>
+<P>(b) Fossil fuels or electricity that the state is prohibited from taxing under the state Constitution or the Constitution or laws of the United States;</P>
+<P>(c)(i) Fossil fuels or electricity exported from this state. Export from this state includes electricity transmitted through the state that is not produced or consumed in the state including, but not limited to, imports of electricity that are netted by exports of electricity with a comparable carbon content by the same entity within or for the same hour. Export to Indian country located within the boundaries of this state is not considered export from this state. For purposes of this subsection, "Indian country" has the same meaning as provided in RCW 37.12.160.</P>
+<P>(ii) An exporter of fossil fuels or electricity upon which another person previously paid the carbon pollution tax is entitled to a credit or refund of the tax paid, if the exporter can establish to the department's satisfaction that the tax under this chapter was previously paid on the exported fossil fuels or electricity. The person who paid the carbon pollution tax is not entitled to an exemption under this subsection (1)(c) when any other person is entitled to a refund or credit under this subsection (1)(c)(ii). For purposes of this subsection, "exporter" means a person who exports fossil fuels or electricity from this state;</P>
+<P>(d) The sale or use of coal transition power as defined in RCW 80.80.010;</P>
+<P>(e) Diesel fuel, biodiesel fuel, or aircraft fuel when these fuels are used solely for agricultural purposes by a farm fuel user, as those terms are defined in RCW 82.08.865;</P>
+<P>(f) Biogas, which includes renewable liquid natural gas or liquid compressed natural gas made from biogas, landfill gas, biodiesel, renewable diesel, and cellulosic ethanol;</P>
+<P>(g) Aircraft fuel as defined in RCW 82.42.010;</P>
+<P>(h) Facilities that manufacture equipment used to generate electricity from eligible renewable resources as defined in RCW 19.285.030(21) or facilities that produce components or materials used exclusively to manufacture eligible renewable resources;</P>
+<P>(i) The portion of fossil fuels purchased in the state and combusted outside the state by interstate motor carriers and vessels used primarily in interstate or foreign commerce. The department must provide a methodology by rule to apportion fossil fuels consumed inside the state of Washington by interstate motor carriers and vessels used primarily in interstate or foreign commerce;</P>
+<P>(j) Activities or property of Indian tribes and individual Indians that are exempt from state taxation as a matter of federal law or state law, whether by statute, rule, or compact; and</P>
+<P>(k) Fossil fuels used for transporting logs as described in RCW 82.16.010(5).</P>
+<P>(2)(a) For any electricity and fossil fuels subject to the carbon pollution tax imposed by section 102 of this act that are also subject to a comparable carbon pollution tax or charge on carbon content imposed by another jurisdiction, including the federal government or allowances required to be purchased by another jurisdiction, the entity may take a credit against the tax imposed under this chapter by the amount of the comparable pollution tax or charge paid to the other jurisdiction up to the amount of tax owed under this chapter, provided that the taxpayer claiming the credit provides evidence acceptable to the department that the equivalent tax has been paid.</P>
+<P>(b) For the purposes of this section, a comparable carbon pollution tax or charge means a tax or charge that is not generally imposed on other activities or privileges that is:</P>
+<P>(i) Imposed on:</P>
+<P>(A) The sale, use, possession, transfer, or consumption of fossil fuels; or</P>
+<P>(B) The sale, consumption, or generation of electricity produced through the combustion of fossil fuels; and</P>
+<P>(ii) Measured in terms of greenhouse gas emissions by the greenhouse gas emissions resulting from the complete combustion or oxidation of such fossil fuels or by the greenhouse gases inherent in such electricity.</P>
+<P>(3)(a) The carbon pollution tax imposed in section 102 of this act does not apply to fossil fuels and electricity sold to or used on-site for manufacturing processes by an energy-intensive trade-exposed facility. The fossil fuel exemption does not apply to fossil fuels used for generation of electricity which is not used on site by the facility.</P>
+<P>(b) The department of commerce will establish objective numerical criteria for both energy intensity and trade exposure for the purpose of identifying energy-intensive trade-exposed manufacturing facilities. The criteria will take into consideration approaches used by other jurisdictions with existing carbon reduction or carbon pricing programs, and the impact of the carbon pollution tax on manufacturing activity, including manufacturers with a 2017 North American industry classification system code 31-33 as developed by the office of management and budget. A manufacturing business that can demonstrate to the department of commerce that its facility or facilities meet the criteria must be issued a certificate denoting energy-intensive trade-exposed exempt status for the purpose of exempting appropriate on-site manufacturing processes.</P>
+<P>(c)(i) Notwithstanding the criteria established in (b) of this subsection, the department must issue a certificate denoting energy-intensive trade-exposed exempt status to:</P>
+<P>(A) Any facility engaged in an activity described in RCW 82.04.260(12); or</P>
+<P>(B) A facility primarily engaged in an activity encompassed within any of the following North American industry classification system codes (2017):</P>
+<P>112310: Chicken egg production;</P>
+<P>112320: Broilers and other meat type chicken production;</P>
+<P>112330: Turkey production;</P>
+<P>112340: Poultry hatcheries;</P>
+<P>112390: Other poultry production;</P>
+<P>311211: Flour milling;</P>
+<P>311221: Wet corn milling;</P>
+<P>311224: Soybean and other oilseed processing;</P>
+<P>311225: Fats and oils refining and blending;</P>
+<P>311230: Breakfast cereal manufacturing;</P>
+<P>311411: Frozen fruit, juice, and vegetable manufacturing;</P>
+<P>311412: Frozen specialty food manufacturing;</P>
+<P>311421: Fruit and vegetable canning;</P>
+<P>311422: Specialty canning;</P>
+<P>311423: Dried and dehydrated food manufacturing;</P>
+<P>311511: Fluid milk manufacturing;</P>
+<P>311512: Creamery butter manufacturing;</P>
+<P>311513: Cheese manufacturing;</P>
+<P>311514: Dry, condensed, and evaporated dairy product manufacturing;</P>
+<P>311520: Ice cream and frozen dessert manufacturing;</P>
+<P>311611: Animal (except poultry) processing;</P>
+<P>311612: Meat processed from carcasses;</P>
+<P>311613: Rendering and meat by-product processing;</P>
+<P>311615: Poultry processing;</P>
+<P>311710: Seafood product preparation and packaging;</P>
+<P>311812: Commercial bakeries;</P>
+<P>311821: Cookie and cracker manufacturing;</P>
+<P>311824: Flour mixes and dough manufacturing from purchased flour;</P>
+<P>311830: Tortilla manufacturing;</P>
+<P>311911: Roasted nuts and peanut butter manufacturing;</P>
+<P>311919: Other snack food manufacturing;</P>
+<P>311930: Flavoring syrup and concentrate manufacturing;</P>
+<P>311941: Mayonnaise, dressing, and other prepared sauce manufacturing;</P>
+<P>311942: Spice and extract manufacturing;</P>
+<P>311991: Perishable prepared food manufacturing;</P>
+<P>311999: All other miscellaneous food manufacturing;</P>
+<P>312112: Bottled water manufacturing;</P>
+<P>321212: Softwood veneer and plywood manufacturing;</P>
+<P>321213: Sawmills;</P>
+<P>322110: Pulp mills;</P>
+<P>322121: Paper (except newsprint) mills;</P>
+<P>322122: Newsprint mills;</P>
+<P>322130: Paperboard mills;</P>
+<P>324110: Petroleum refineries;</P>
+<P>325188: All other basic inorganic chemical manufacturing;</P>
+<P>325193: Biodiesel manufacturing;</P>
+<P>325199: All other basic organic chemical manufacturing;</P>
+<P>325311: Nitrogenous fertilizer manufacturing;</P>
+<P>327211: Flat glass manufacturing;</P>
+<P>327213: Glass container manufacturing;</P>
+<P>327310: Cement manufacturing;</P>
+<P>327410: Lime manufacturing;</P>
+<P>327420: Gypsum product manufacturing;</P>
+<P>331110: Iron and steel mills;</P>
+<P>331312: Primary aluminum production;</P>
+<P>331313: Aluminum refining and primary aluminum production;</P>
+<P>331314: Secondary smelting and alloying of aluminum;</P>
+<P>331315: Aluminum sheet, plate, and foil manufacturing;</P>
+<P>331318: Other aluminum rolling, drawing, and extruding;</P>
+<P>334413: Semiconductor and related device manufacturing;</P>
+<P>336411: Aircraft manufacturing;</P>
+<P>336412: Aircraft engine and engine parts manufacturing;</P>
+<P>336413: Other aircraft parts and auxiliary equipment manufacturing;</P>
+<P>336414: Guided missile and space vehicle manufacturing;</P>
+<P>336415: Guided missile and space vehicle propulsion unit and propulsion unit parts manufacturing; and</P>
+<P>336419: Other guided missile and space vehicle parts and auxiliary equipment manufacturing.</P>
+<P>(ii) The exemptions under (c)(i)(B) of this subsection (3) apply to electricity and fossil fuels used on-site for manufacturing activities by energy-intensive and trade-exposed manufacturers.</P>
+<P>(d)(i) To qualify for an exemption under this subsection (3) for a specific facility, a person must apply to the department in the form and manner required by the department. If a person has more than one potentially exempt facility, that person must submit a separate application for each facility. The department may consult with the department of commerce and can take whatever steps it deems necessary to determine eligibility under this subsection (3), including requesting additional information from the applicant or an on-site visit to the facility to observe its operations.</P>
+<P>(ii) If a person qualifies for an exemption for more than one facility, the department must issue an exemption certificate for each exempt facility. An exemption certificate issued under this subsection (3) must include the name of the person operating the facility, the physical location of the facility, and the activities that qualify the facility for an exemption.</P>
+<P>(e)(i) The department may rescind an exemption certificate issued under this subsection (3) if it determines that the facility does not meet the qualifications for an exemption under this subsection (3). The department must notify the certificate holder of its decision to rescind an exemption certificate.</P>
+<P>(ii) A person receiving an exemption under this subsection (3) based on a certificate issued in error must immediately repay to the department the exempted amounts plus interest as provided in chapter 82.32 RCW. No penalties apply if amounts assessed by the department under this subsection (3)(e)(ii) are paid in full by the date due.</P>
+<P>(4)(a) A credit is authorized against the tax otherwise due under this chapter. The credit amount may be up to one hundred percent of the taxes owed under this chapter by a light and power business or a gas distribution business that chooses to claim a credit pursuant to sections 202 and 301 of this act.</P>
+<P>(b) Any amount taken as a tax credit by a light and power business or gas distribution business under subsection (1)(c)(ii) or (2) of this section is not subject to the provisions of part II or III of this act.</P>
+<P>(5)(a) A person is entitled to a refund or credit of carbon pollution tax included in the price of fossil fuels or electricity purchased by the person if:</P>
+<P>(i) An exemption under this chapter applies to the person or the person's use or disposition of the fossil fuel or electricity;</P>
+<P>(ii) The person can establish to the department's satisfaction that the tax under this chapter was previously paid on the fossil fuel or electricity; and</P>
+<P>(iii) The person submits an application to the department in a form and manner required by the department within four years after the calendar year in which the person paid the carbon pollution taxes for which the refund or credit is sought.</P>
+<P>(b) A person is not entitled to a refund or credit of carbon pollution tax under this section if any subsequent purchaser of the fossil fuel or electricity is entitled to a refund or credit of that tax under this subsection.</P>
+<P>(c) Refunds or credits under this subsection are not subject to interest.</P>
+<P>(d) For purposes of this subsection (5), "person" means any purchaser or consumer of fossil fuel or electricity who indirectly paid carbon pollution tax included in the price of the fossil fuel or electricity.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>104</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>RULE MAKING AND OTHER ADMINISTRATIVE AUTHORITY.</SectionCaption><P>(1) The provisions of chapter 82.32 RCW apply to this chapter.</P></BillSectionHeader>
+<P>(2) The department and department of ecology may adopt rules as they deem necessary to administer this chapter. The department of commerce may adopt rules as it deems necessary to administer section 103 of this act.</P>
+<P>(3) The department of commerce must convene a stakeholder work group to examine the efficient and consistent integration of carbon pricing in electricity markets within the state and transactions with markets outside the state, including the market operated by the California independent system operator. To assist in its examination of the issues identified in this subsection, as well as any other issues pertinent to its review, the work group must, at a minimum, consist of light and power businesses, gas distribution businesses, the Bonneville power administration, and other agencies. The work group must prepare a report to the legislature of its findings and recommendations to improve the carbon transparency and market liquidity in electricity markets and submit the report, in compliance with RCW 43.01.036, by no later than December 1, 2020. The department and the department of ecology must provide necessary data and other support to the department of commerce.</P>
+<P>(4) By December 31, 2025, the department of revenue, supported by the departments of commerce and ecology must review the energy-intensive trade-exposed process under section 103 of this act, including its effectiveness in controlling leakage and minimizing any unnecessary exemptions from taxation, merits of alternative exemption structures such as production-based incentives, and the scope of industries within the energy-intensive trade-exposed designation.</P>
+<P>(5) The department of commerce must provide information on its web site regarding the impacts of the carbon pollution tax under this chapter on the price of electricity, natural gas, and vehicle fuels by sector.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>105</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>REPORT BY THE DEPARTMENT OF COMMERCE.</SectionCaption><P>(1) On or before December 31, 2020, and each year thereafter, and in compliance with RCW 43.01.036, the department of commerce, with support from the department of revenue as well as the state auditor for the initial report, must submit a report to the joint committee on climate programs oversight under section 801 of this act. The initial report must include recommendations for establishing a process to audit account uses and allow for public input. Each annual report must contain specific recommendations for modifications or improvements to this act to ensure the goals of this act are being met in addition to the following with respect to the annual period ending the December 31st immediately preceding the reporting date:</P></BillSectionHeader>
+<P>(a) The total carbon pollution tax collected during the reporting period and a list of the taxpayers and the amount of carbon pollution tax paid by those taxpayers. The department must provide the information required under this subsection (1)(a), which is not confidential tax information under RCW 82.32.330;</P>
+<P>(b) Estimated costs incurred by the department, the department of commerce, the department of ecology, and the Washington State University extension energy program directly associated with administration of the carbon pollution tax, shown both in dollar amounts and as a percentage of the total amount of carbon pollution tax revenues collected. The department of ecology, the department of commerce, and Washington State University extension energy program must report their estimated administrative costs under this subsection to the department of commerce each year at least one month before the deadline for the report required under this section;</P>
+<P>(c) The estimated overall net revenue gain or loss calculated by comparison of this subsection and subsection (2) of this section in dollar amounts and the estimated costs determined under subsection (2) of this section as a percentage of carbon pollution tax revenues collected;</P>
+<P>(d) The impact on the economic health of Washington state, including verifiable data on emissions leakage and any job loss since the implementation of the carbon pollution tax under section 102 of this act;</P>
+<P>(e) An analysis of whether the point of taxation is appropriate under section 102 of this act;</P>
+<P>(f) A summary of the investments made through its administration of the energy transformation account created in section 401 of this act and the rural economic development account created in section 701 of this act. The summary must include amounts invested in each program area, project descriptions, names of grant recipients, an estimate of the greenhouse gas emissions reductions achieved or anticipated via the investments, and other pertinent information or information as periodically requested by the legislature;</P>
+<P>(g) A summary of the progress made by utilities implementing their plans under the clean energy investment program created in parts II and III of this act. The summary must include aggregate totals of anticipated greenhouse gas reductions called for by plans and progress made toward achieving these reductions; an accounting of funds spent and average cost per ton of verified greenhouse gas reductions achieved through program investments; and a review of the mitigation of increased gas or electric costs to qualifying low-income customers and recommendations on whether consumer-owned energy utilities have the resources to mitigate these costs; and</P>
+<P>(h) An analysis on the impact of section 102 and parts II and III of this act on the utility rates as it affects individuals of varying income levels, ethnic backgrounds, and racial backgrounds.</P>
+<P>(2) On or before December 1, 2026, the department of commerce, in consultation with the department of ecology, must provide specific recommendations to the joint committee on climate programs oversight under section 801 of this act on whether or not the carbon pollution tax rate under section 102 of this act will need to be adjusted upward or downward or will be sufficient to meet the net cumulative reduction of greenhouse gas emissions of twenty-five percent below 1990 levels by the year 2035.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>106</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>TECHNICAL ASSISTANCE.</SectionCaption><P>Upon request of the department, the department of commerce, the department of ecology, and the Washington State University extension energy program must provide technical assistance to the department as may be necessary for the department to effectively administer this chapter.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>107</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>CARBON POLLUTION REDUCTION ACCOUNT.</SectionCaption><P>The carbon pollution reduction account is created in the state treasury. All receipts from the carbon pollution tax under section 102 of this act, and other moneys directed to the account by the legislature, must be deposited into the account. Moneys in the account may only be spent after appropriation. Moneys in the account must be first appropriated to the department of revenue and other appropriate agencies for the administration of chapter . . ., Laws of 2018 (this act). Expenditures from the account must be distributed by the state treasurer as follows:</P></BillSectionHeader>
+<P>(1) Fifty percent of the moneys to the energy transformation account created in section 401 of this act;</P>
+<P>(2) Twenty percent of the moneys to the water and natural resources resilience account created in section 601 of this act;</P>
+<P>(3) Fifteen percent of the moneys for the transition assistance account created in section 501 of this act;</P>
+<P>(4) Fifteen percent of the moneys for the rural economic development account created in section 701 of this act.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>108</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>TRIBAL COMPACTS.</SectionCaption><P>(1) The governor may enter into an agreement with any federally recognized Indian tribe located on a reservation within this state regarding carbon pollution taxes included in the price of fuel delivered to a retail station wholly owned and operated by a tribe, tribal enterprise, or tribal member licensed by the tribe to operate a retail station located on reservation or trust property. The agreement may provide mutually agreeable means to address any tribal immunities or any preemption of the carbon pollution tax.</P></BillSectionHeader>
+<P>(2) The provisions of this section do not repeal existing state/tribal fuel tax agreements or consent decrees in existence upon the effective date of this section.</P>
+<P>(3) If a new agreement is negotiated, the agreement must:</P>
+<P>(a) Require that the tribe or the tribal retailer acquire all fuel only from persons or companies operating lawfully in accordance with this chapter as a fuel distributor, supplier, or blender, or from a tribal distributor, supplier, or blender lawfully doing business according to all applicable laws;</P>
+<P>(b) Provide that the tribe will expend carbon pollution tax proceeds or equivalent amounts on: Reducing greenhouse gas emissions or increasing the resilience of tribal lands to the impacts of climate change;</P>
+<P>(c) Include provisions for audits or other means of ensuring compliance to certify the number of gallons of fuel purchased by the tribe for resale at tribal retail stations, and the use of carbon pollution tax proceeds or their equivalent for the purposes identified in (b) of this subsection. Compliance reports must be delivered to the director of the department of licensing.</P>
+<P>(4) Information from the tribe or tribal retailers received by the state or open to state review under the terms of an agreement are deemed personal information under RCW 42.56.230(4)(b) and are exempt from public inspection and copying.</P>
+<P>(5) The governor may delegate the power to negotiate carbon pollution tax agreements to the department of licensing.</P>
+<P>(6) The department of licensing must include in its annual report to the legislature on the status of fuel tax agreements with tribes the status of carbon pollution tax agreements with tribes as well as any negotiations on such agreements with tribes.</P>
+</BillSection>
+<Part>
+<P textAlign="center"><TextRun fontWeight="bold">Part II</TextRun></P>
+<P textAlign="center"><TextRun fontWeight="bold">Clean Energy Investment Fund for Investor-Owned Energy Utilities</TextRun></P>
+</Part>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value fixed="true">201</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>DEFINITIONS.</SectionCaption><P>The definitions in this section apply throughout this chapter unless the context clearly requires otherwise.</P></BillSectionHeader>
+<P>(1) "Commission" means the utilities and transportation commission.</P>
+<P>(2) "Consumer-owned energy utility" means any consumer-owned gas distribution business or consumer-owned light and power business.</P>
+<P>(3) "Consumer-owned gas distribution business" means any gas distribution business not subject to regulation by the commission of the rates, tolls, rentals, contracts or charges, or service rendered, or the adequacy or sufficiency of the facilities, equipment, instrumentalities, or buildings, or the reasonableness of rules or regulations made, furnished, used, supplied, or in force affecting any gas plant owned and operated by such gas distribution business.</P>
+<P>(4) "Consumer-owned light and power business" means any light and power business not subject to regulation by the commission of the rates, tolls, rentals, contracts or charges, or service rendered, or the adequacy or sufficiency of the facilities, equipment, instrumentalities, or buildings, or the reasonableness of rules or regulations made, furnished, used, supplied, or in force affecting any electric plant owned and operated by such light and power business.</P>
+<P>(5) "Department" means the department of commerce.</P>
+<P>(6) "Gas distribution business" has the same meaning as provided in RCW 82.16.010.</P>
+<P>(7) "Investor-owned energy utility" means any investor-owned gas distribution business or investor-owned light and power business.</P>
+<P>(8) "Investor-owned gas distribution business" means any gas distribution business subject to regulation by the commission of the rates, tolls, rentals, contracts or charges, or service rendered, or the adequacy or sufficiency of the facilities, equipment, instrumentalities, or buildings, or the reasonableness of rules or regulations made, furnished, used, supplied, or in force affecting any gas plant owned and operated by such gas distribution business.</P>
+<P>(9) "Investor-owned light and power business" means any light and power business subject to regulation by the commission of the rates, tolls, rentals, contracts or charges, or service rendered, or the adequacy or sufficiency of the facilities, equipment, instrumentalities, or buildings, or the reasonableness of rules or regulations made, furnished, used, supplied, or in force affecting any electric plant owned and operated by such light and power business.</P>
+<P>(10) "Light and power business" has the same meaning as provided in RCW 82.16.010.</P>
+<P>(11) "Low income" means an annual income, adjusted for household size, that is at or below the greater of: (a) Eighty percent of area median income; or (b) two hundred percent of the federal poverty level.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>202</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>CREDITS FOR CLEAN ENERGY INVESTMENTS OF INVESTOR-OWNED ENERGY UTILITIES.</SectionCaption><P>(1) Except as provided in subsection (2) of this section, beginning July 1, 2019, each investor-owned energy utility may claim a credit against the carbon pollution tax imposed in section 102 of this act for clean energy investments approved pursuant to this chapter, not to exceed one hundred percent of the taxes owed under section 102 of this act in the same calendar year.</P></BillSectionHeader>
+<P>(2) For electricity produced by a generating facility that burns coal as the primary fuel source and the electricity is not otherwise exempt from the carbon pollution tax imposed in section 102 of this act, the department of revenue will adopt a schedule for each facility to calculate the credits such that beginning January 1, 2020, the credit decreases on a pro rata basis annually until reaching zero percent in 2036.</P>
+<P>(3) To be eligible for the credit under this section for clean energy investment, an investor-owned energy utility must, as of the date the credit is claimed, have received approval by the commission of a clean energy investment plan pursuant to section 205 of this act. Remaining carbon pollution tax owed under section 102 of this act, if any, must be remitted to the department of revenue and deposited in the carbon pollution reduction account created in section 107 of this act.</P>
+<P>(4) Each investor-owned energy utility claiming a credit pursuant to this section must establish and maintain a separate clean energy investment account into which it must deposit amounts equal to the credit taken under this section. Moneys in the clean energy investment account must be deposited in an interest-bearing account in a financial institution as defined by RCW 30A.22.040 that is separate from other accounts and that credits all interest earned on the funds to that account. Moneys in the clean energy investment account may only be expended for the purposes identified in this chapter.</P>
+<P>(5) An investor-owned energy utility may not earn a rate of return from the portion of investments paid for with moneys from the clean energy investment account.</P>
+<P>(6) Moneys in the separate clean energy investment account are considered gross operating revenue for the purpose of RCW 80.24.010, and may not be considered gross income for the purposes of chapters 82.04 and 82.16 RCW. Each investor-owned energy utility must report to the commission the total amount of revenue placed in its clean energy investment account during the preceding calendar year. In addition to fees paid pursuant to RCW 80.24.010 on moneys in the clean energy investment account, each investor-owned energy utility must pay an annual fee set by the commission of up to one percent of moneys deposited in the clean energy investment account to pay the reasonable cost of administering sections 201 through 206 of this act. The commission must set the fee each year by general order. Any additional fees collected by the commission under this subsection must be deposited into the public service revolving fund.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>203</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>TECHNICAL STANDARDS COMMITTEE CREATED. </SectionCaption><P>(1) The commission must create a technical standards committee for the purpose of advising the commission and other state agencies, the legislature, utilities, and local governments on utility reinvestment of moneys credited pursuant to section 202 of this act. The technical standards committee must develop standards and guidelines used by the commission to evaluate, quantify, and verify greenhouse gas emissions reductions proposed by utility plans pursuant to section 205 of this act. The duties of the technical standards committee include, but are not limited to:</P></BillSectionHeader>
+<P>(a) Establishing standard protocols for verification and evaluation of greenhouse gas emissions reductions from utility investments;</P>
+<P>(b) Developing common planning assumptions for use in utility clean energy investment plans;</P>
+<P>(c) Developing a standard reporting format to be adopted by the commission for all investments and activities supported by the clean energy investment accounts; and</P>
+<P>(d) Other duties consistent with the purpose of this section, as required by the commission.</P>
+<P>(2) The technical standards committee established in this section constitutes a class one group under RCW 43.03.220. Expenses for the technical standards committee are an appropriate administrative expense for the purpose of section 205(7)(b)(xiii) of this act. Staff support must be provided by the commission.</P>
+<P>(3) The commission may elect to work with the department under section 302 of this act to create one joint technical standards committee for the purpose of advising on utility reinvestment of moneys credited pursuant to sections 202 and 301 of this act.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>204</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>WASHINGTON CLEAN ENERGY INVESTMENT PROGRAMS ESTABLISHED FOR INVESTOR-OWNED ENERGY UTILITIES<TextRun fontFamily="Times New Roman">—</TextRun>RULE MAKING.</SectionCaption><P>By July 1, 2019, the commission must adopt rules concerning the process, timelines, reporting, and documentation required to ensure the proper implementation of this chapter. Such rules must also establish requirements for review, approval, performance standards, and independent monitoring and evaluation of clean energy investment plans of investor-owned energy utilities. The department of commerce and the commission must, to the extent practicable, adopt rules that are similar enough to ensure coordinated and consistent implementation of this chapter for consumer-owned and investor-owned energy utilities.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>205</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>CLEAN ENERGY INVESTMENT PLANS FOR INVESTOR-OWNED ENERGY UTILITIES.</SectionCaption><P>(1) To be eligible for the tax credit under section 202 of this act, an investor-owned energy utility must develop and maintain an approved clean energy investment plan, which identifies approved funding for clean energy investments over a ten-year period, pursuant to subsection (5) of this section. The clean energy investment plan must eliminate, to the extent feasible and at a reasonable cost, any tax obligation imposed by this act associated with electricity by 2050.</P></BillSectionHeader>
+<P>(2) When developing and updating its clean energy investment plan, an investor-owned energy utility must solicit public input through public processes under the oversight of the commission.</P>
+<P>(3) Beginning July 1, 2019, an investor-owned energy utility seeking a credit under section 202 of this act must submit:</P>
+<P>(a) A clean energy investment plan;</P>
+<P>(b) A summary of the public input received during development of the plan; and</P>
+<P>(c) A schedule for independent evaluation of activities financed through the clean energy investment plan, including verification of carbon emissions reductions. The reasonable costs of such independent evaluations may be included in a utility's clean energy investment plan and paid for from a utility's clean energy investment account.</P>
+<P>(4) An investor-owned energy utility's clean energy investment plan may use methods and calculations that deviate from the common protocols and planning assumptions recommended by the technical standards committee when approved by the commission.</P>
+<P>(5) Each clean energy investment plan must include the following:</P>
+<P>(a) A demonstration that the portfolio of funded activities will achieve significant greenhouse gas emissions reductions at a reasonable cost over the shortest reasonable time frame;</P>
+<P>(b) An estimate, based on protocols developed by the technical standards committee, of the cost per ton of emissions reductions for the portfolio of projects in the clean energy investment plan;</P>
+<P>(c) A demonstration that expenditures in the clean energy investment plan will be additional to expenditures necessary to meet other emissions reduction, energy conservation, low-income programs, or renewable energy requirements existing on the effective date of this section;</P>
+<P>(d) Sufficient funding, as determined by the commission, to mitigate all increases in gas or electric costs to qualifying low-income customers as a result of the carbon pollution tax imposed in section 102 of this act. Such moneys must be additional to other funding for low-income energy assistance; and</P>
+<P>(e) A demonstration that all funded activities within the clean energy investment plan were developed using the cumulative impact analysis in section 502 of this act and that expenditures prioritize highly impacted communities.</P>
+<P>(6) Each clean energy investment plan may include the following:</P>
+<P>(a) A customer education and outreach program to promote widespread participation by consumers and businesses; and</P>
+<P>(b) Up to ten percent of the expenditures in the clean energy investment accounts pursuant to this section may be dedicated for research and development by the investor-owned energy utility that will promote energy conservation, or the deployment of zero-emission energy resources.</P>
+<P>(7)(a) A clean energy investment plan must include programs for investments or expenditures that are incremental to investments or expenditures required by laws and regulations existing on the effective date of this section; and</P>
+<P>(i) Reduce greenhouse gas emissions of the investor-owned energy utility; or</P>
+<P>(ii) Advance market transformation, educate consumers, develop new low carbon fuels such as renewable natural gas, increase participation in programs that incentivize consumers to choose low carbon alternatives, or increase carbon sequestration.</P>
+<P>(b) Eligible investments may include contributions in aid of construction or expenditures for the following:</P>
+<P>(i) Additional conservation in excess of the target established under RCW 19.285.040(1), other state obligations, or other obligation established by the commission in effect on the effective date of this section;</P>
+<P>(ii) Market transformation for energy efficiency products;</P>
+<P>(iii) Eligible renewable resources as defined by RCW 19.285.030, in excess of the target established under RCW 19.285.040(2) in effect on the effective date of this section;</P>
+<P>(iv) Low-income weatherization;</P>
+<P>(v) Measures to support electrification of the transportation sector including, but not limited to:</P>
+<P>(A) Equipment on an electrical company's transmission and distribution system to accommodate electric vehicle connections, and smart grid systems, that enable electronic interaction between the company and charging systems, and facilitate company utilization of vehicle batteries for system needs;</P>
+<P>(B) Incentives for car dealers to sell alternative vehicles;</P>
+<P>(C) Incentives for property owners to install charging equipment for alternative vehicles; and</P>
+<P>(D) Incentives for the electrification of vehicle fleets;</P>
+<P>(vi) Investments that support the use of alternative fuels in the transportation sector for medium and heavy duty vehicles and equipment that will result in a reduction of greenhouse gas emissions and if the commission determines the alternative fuel is more cost-effective and commercially accepted than electrification;</P>
+<P>(vii) Investment in clean distributed energy resources and grid modernization to facilitate distributed resources and improved grid resiliency;</P>
+<P>(viii) Research and development that will promote energy conservation, or the deployment of zero-emission energy resources;</P>
+<P>(ix) Investments in renewable natural gas production, including equipment to collect or condition biogas, or equipment used solely for the purpose of delivering biogas for consumption;</P>
+<P>(x) Incentives for small businesses to support energy efficiency and the replacement of equipment;</P>
+<P>(xi) Contributions to self-directed investments in the following measures to serve the sites of large industrial gas and electrical customers; conservation; new renewable energy resources; behind-the-meter technology that facilitates demand response cooperation to reduce peak loads; infrastructure to support electrification of transportation needs and heating loads; or renewable natural gas production, including gas conditioning equipment for biogas;</P>
+<P>(xii) Pumped storage facilities whose development does not conflict with existing state and federal fish recovery plans and that comply with all local, state, and federal laws and regulations; and</P>
+<P>(xiii) The reasonable costs of administration of the carbon pollution tax under section 102 of this act and the clean energy investment program, as determined by the commission.</P>
+<P>(8) Funds from a clean energy investment account may be expended by an investor-owned utility to replace all or some of the debt financing portion of capital projects identified in the utility's approved clean energy investment plan, if the commission determines that such treatment would reduce the overall cost of the project to customers, and is otherwise consistent with the purposes of this section.</P>
+<P>(9) Investments in infrastructure or facilities to process or liquefy fossil fuels are not eligible for inclusion in a clean energy investment plan.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>206</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>CLEAN ENERGY INVESTMENT PROGRAM EXPENDITURE MONITORING, AUDITING, AND OVERSIGHT FOR INVESTOR-OWNED ENERGY UTILITIES.</SectionCaption><P>(1) Upon approval of a clean energy investment plan, an investor-owned energy utility must expend moneys from its clean energy investment account in accordance with the clean energy investment plan approved by the commission.</P></BillSectionHeader>
+<P>(2) In order to maintain eligibility for the tax credit under section 202 of this act and to retain authority to expend money from a clean energy investment account, an investor-owned energy utility must submit and receive approval of an updated clean energy investment plan every two years, and submit annual reports to the commission, including:</P>
+<P>(a) The status of projects approved in the previous clean energy investment plan;</P>
+<P>(b) Demonstration that the plan has met performance standards established by the commission by order;</P>
+<P>(c) An accounting of verified emissions reductions, and the cost per ton of emissions reductions compared to estimates of the cost per ton in emissions reductions contained in the clean energy investment plan; and</P>
+<P>(d) An updated estimate of future emissions reductions and the estimated cost per ton.</P>
+<P>(3) If the commission determines that the plan or any project in the plan did not meet performance standards, the commission may require the utility to remit remaining tax moneys dedicated for the nonperforming plan or project to the department of revenue.</P>
+<P>(4) The commission must annually provide the department of revenue a report summarizing who is entitled to the credit, over what timeline, any required adjustments to credit previously issued, and any further information required to assist the department of revenue in administering the credit.</P>
+</BillSection>
+<Part>
+<P>Part III</P>
+<P><TextRun fontWeight="bold">Clean Energy Investment Fund for Consumer-Owned Energy Utilities</TextRun></P>
+</Part>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value fixed="true">301</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>CARBON POLLUTION TAX CREDIT.</SectionCaption><P>(1) Beginning July 1, 2019, each consumer-owned energy utility may claim a credit against the carbon pollution tax imposed in section 102 of this act for clean energy investments approved pursuant to this chapter, not to exceed one hundred percent of the taxes owed under section 102 of this act in the same calendar year.</P></BillSectionHeader>
+<P>(2) To be eligible for the credit under this section for clean energy investment, a consumer-owned energy utility must, as of the date the credit is claimed, have a plan, approved by the governing body of a consumer-owned energy utility, to reinvest an equivalent amount of revenues collected from customers during that year, the preceding year, or any of the three subsequent years. Remaining carbon pollution tax amounts owing must be remitted to the department of revenue and deposited in the carbon pollution reduction account created in section 107 of this act.</P>
+<P>(3) Each consumer-owned energy utility claiming a credit pursuant to this section must establish and maintain a separate clean energy investment account into which it must deposit amounts equal to the credit taken under this section. Moneys in this account must be kept separate from other accounts, and may only be expended for the purposes identified in this chapter. Interest accrued on this account must be expended only for purposes identified in this chapter.</P>
+<P>(4) Moneys retained in the separate clean energy investment account are not considered gross income for the purpose of chapter 82.16 RCW.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>302</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>TECHNICAL ADVISORY COMMITTEE CREATED.</SectionCaption><P>(1) The department must create a broadly representative technical advisory committee for the purpose of advising the department, other state agencies, the legislature, utilities, and local governments on consumer-owned energy utility reinvestment of moneys credited pursuant to section 301 of this act. The advisory committee will advise on guidelines developed or adopted by the department to evaluate, quantify, and verify greenhouse gas emissions reductions proposed by utility plans pursuant to section 304 of this act. The duties of the technical advisory committee include, but are not limited to:</P></BillSectionHeader>
+<P>(a) Advising on standard protocols for verification and evaluation of greenhouse gas emissions reductions from utility investments;</P>
+<P>(b) Recommending common planning assumptions for use in utility clean energy investment plans;</P>
+<P>(c) Advising on a standard reporting format to be adopted by the department for all investments and activities supported by the clean energy investment accounts; and</P>
+<P>(d) Other duties consistent with the purpose of this section, as required by the department.</P>
+<P>(2) The technical advisory committee established in this section constitutes a class one group under RCW 43.03.220. Expenses for the technical advisory committee are an appropriate administrative expense for the purpose of section 304(6)(n) of this act. Staff support must be provided by the department.</P>
+<P>(3) The department may elect to work with the commission under section 203 of this act to create one joint technical standards committee for the purpose of advising on utility reinvestment of moneys credited pursuant to sections 202 and 301 of this act.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>303</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>WASHINGTON CLEAN ENERGY INVESTMENT PROGRAMS ESTABLISHED—RULE MAKING.</SectionCaption><P>By July 1, 2019, the department must adopt rules concerning only the process, timelines, reporting, documentation, and performance metrics required to ensure the proper implementation of this chapter. Such rules may include rules associated with utility development, implementation, and evaluation of clean energy investment plans. The department and the commission must, to the extent practicable, adopt rules that are similar enough to ensure coordinated and consistent implementation of this chapter for consumer-owned and investor-owned energy utilities.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>304</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>CLEAN ENERGY INVESTMENT PLANS.</SectionCaption>(1) To be eligible for the tax credit under section 301 of this act, a consumer-owned energy utility must develop and maintain a clean energy investment plan that is approved by its governing body. The clean energy investment plan must seek to eliminate any tax obligation imposed by this act associated with electricity.</BillSectionHeader>
+<P>(2) When developing and updating its clean energy investment plan, a consumer-owned energy utility must solicit public input through public processes under the oversight of its governing body.</P>
+<P>(3) Each clean energy investment plan must include:</P>
+<P>(a) A summary of the public input received during development of the plan; and</P>
+<P>(b) A schedule for independent evaluation of activities financed through the clean energy investment plan, including verification of carbon emissions reductions. The reasonable costs of such independent evaluations may be included in a utility's clean energy investment plan and paid for from a utility's clean energy investment account.</P>
+<P>(4) A consumer-owned energy utility's clean energy investment plan may use methods and calculations that deviate from the common protocols and planning assumptions recommended by the technical advisory committee when approved by the governing body.</P>
+<P>(5) A clean energy investment plan must include:</P>
+<P>(a) Programs for investments or expenditures that:</P>
+<P>(i) Are incremental to investments or expenditures required by existing regulations on the effective date of this section; and</P>
+<P>(ii)(A) Reduce carbon dioxide emissions of the utility; or</P>
+<P>(B) Advance market transformation, educate consumers, develop new low carbon fuels such as renewable natural gas, and increase participation in programs that enable consumers to choose low carbon alternatives;</P>
+<P>(b) A demonstration that the portfolio of funded activities can reasonably be expected to achieve reductions in greenhouse gas emissions;</P>
+<P>(c) An estimate, based on protocols developed by the technical advisory committee or other protocol as authorized under subsection (4) of this section, of the metric tons of emissions reductions and the cost per metric ton of emissions reductions for the portfolio of projects in the clean energy investment plan;</P>
+<P>(d) A demonstration that expenditures in the clean energy investment plan will be additional to expenditures necessary to meet other emissions reductions, energy conservation, or renewable energy requirements not to exceed an average cost per metric ton of greenhouse gases abated at three hundred percent of the carbon tax rate or to be determined by the department as appropriate;</P>
+<P>(e) A customer education and outreach program;</P>
+<P>(f) Sufficient funding, as determined by the department, to mitigate all increases in gas or electric costs to qualifying low-income customers as a result of the carbon pollution tax imposed in section 102 of this act. Such moneys must be additional to other funding for low-income energy assistance; and</P>
+<P>(g) A demonstration that all funded activities within the clean energy investment plan were developed using the cumulative impact analysis in section 502 of this act and that expenditures prioritize highly impacted communities.</P>
+<P>(6) A clean energy investment plan may only include the following types of investments or expenditures:</P>
+<P>(a) Additional conservation in excess of the target established under RCW 19.285.040(1), or other state obligations;</P>
+<P>(b) Market transformation for energy efficiency products;</P>
+<P>(c) Eligible renewable resources as defined by RCW 19.285.030, in excess of the target established under RCW 19.285.040(2);</P>
+<P>(d) Low-income weatherization;</P>
+<P>(e) Measures to support electrification of the transportation sector including, but not limited to:</P>
+<P>(i) Equipment on an electrical company's transmission and distribution system to accommodate electric vehicle connections, and smart grid systems, that enable electronic interaction between the company and charging systems, and facilitate company utilization of vehicle batteries for system needs;</P>
+<P>(ii) Incentives for car dealers to sell alternative vehicles;</P>
+<P>(iii) Incentives for property owners to install charging equipment for alternative vehicles; and</P>
+<P>(iv) Incentives for the electrification of vehicle fleets;</P>
+<P>(f) Investment in clean distributed energy resources and grid modernization to facilitate distributed resources and improved grid resiliency;</P>
+<P>(g) Research and development that will promote energy conservation, or the deployment of zero-emission energy resources;</P>
+<P>(h) Investments in renewable natural gas production, including gas conditioning equipment for biogas;</P>
+<P>(i) Investments in the following measures to serve the sites of large industrial gas and electrical customers: Conservation; new renewable energy resources; behind-the-meter technology that facilitates demand response cooperation to reduce peak loads; infrastructure to support electrification of transportation needs and heating loads; or renewable natural gas production, including gas conditioning equipment for biogas;</P>
+<P>(j) Investments in zero-carbon emission resources, including installing generation capacity at levies, irrigation canals, and existing unpowered dams that comply with all federal and state permitting requirements;</P>
+<P>(k) Investments that lower net emissions through fuel switching;</P>
+<P>(l) Incentives for small businesses to support energy efficiency and the replacement of equipment;</P>
+<P>(m) Other measures determined by the governing body to meet the requirements of subsection (5) of this section; and</P>
+<P>(n) The reasonable costs of administration of the clean energy investment program, as determined by the department.</P>
+<P>(7) In order to maintain eligibility for the tax credit under section 301 of this act and to continue to retain authority to expend money from the utility's clean energy investment account, a consumer-owned energy utility must submit and receive approval from the governing body of the consumer-owned energy utility of an updated clean energy investment plan every two years.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>305</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>AGGREGATION OF THE CARBON POLLUTION TAX CREDIT AND JOINT DEVELOPMENT OF CLEAN ENERGY INVESTMENT PLANS.</SectionCaption><P>(1) A consumer-owned energy utility may enter into an agreement with a joint operating agency organized under chapter 43.52 RCW on or before January 1, 2017, to aggregate their claims against the carbon pollution tax imposed in section 102 of this act and to develop and implement a joint clean energy investment plan. Implementation of a joint clean energy investment plan may not begin until the governing bodies of all member utilities have approved the plan through a public process. The purpose of this section is to facilitate broad, equitable, and efficient use of the carbon pollution tax credit.</P></BillSectionHeader>
+<P>(2) A consumer-owned energy utility that is not a member of a joint operating agency may enter into an agreement with a nonprofit organization to aggregate their claims against the carbon pollution tax imposed in section 102 of this act and to develop and implement a joint clean energy investment plan. Implementation of a joint clean energy investment plan may not begin until the governing bodies of all participating utilities have approved the plan through a public process. The purpose of this section is to facilitate broad, equitable, and efficient use of the carbon pollution tax credit.</P>
+<P>(3) Each utility that enters into an agreement authorized in subsection (1) or (2) of this section must empower the joint operating agency or nonprofit organization to, on their behalf, claim the credit against the carbon pollution tax imposed in section 102 of this act. The joint operating agency or nonprofit organization must establish and maintain a separate clean energy investment account and deposit into that account amounts equal to the credits taken under this section. Moneys in this account must be kept separate from other accounts, and may only be expended for the purposes identified in this chapter.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>306</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>CLEAN ENERGY INVESTMENT PROGRAM EXPENDITURE MONITORING AND OVERSIGHT.</SectionCaption><P>(1) A consumer-owned energy utility or a joint operating agency or nonprofit organization on behalf of an aggregated group of consumer-owned utilities must submit annual reports to the department including, but not limited to:</P></BillSectionHeader>
+<P>(a) The status of projects approved in the previous clean energy investment plan; and</P>
+<P>(b) Using the performance metrics established by the department:</P>
+<P>(i) An accounting of greenhouse gas emissions reductions achieved and the cost per metric ton of emissions reductions compared to estimates of the cost per metric ton in emissions reductions contained in the clean energy investment plan; and</P>
+<P>(ii) An updated estimate of future greenhouse gas emissions reductions and the estimated cost per metric ton.</P>
+<P>(2) The state auditor is responsible for auditing compliance with the approved plan for consumer-owned energy utilities that are subject to the jurisdiction of the state auditor and the attorney general is responsible for enforcing that compliance. An independent auditor selected by a consumer-owned energy utility that is not subject to the jurisdiction of the state auditor is responsible for auditing compliance with the approved plan and the attorney general is responsible for enforcing that compliance.</P>
+<P>(3) If the department determines that the plan or any project in the plan did not meet performance metrics, the department must notify the department of revenue. The department of revenue may require the utility to remit remaining tax moneys dedicated for the nonperforming plan or project.</P>
+</BillSection>
+<Part>
+<P>Part IV</P>
+<P>Energy Transformation Account Funds</P>
+</Part>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value fixed="true">401</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>31</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<SectionCaption>ENERGY TRANSFORMATION ACCOUNT.</SectionCaption>
+<P>(1) The energy transformation account is created in the state treasury. The account must receive moneys distributed to the account from the carbon pollution reduction account created in section 107 of this act as well as other moneys directed to the account by the legislature. Moneys in the account must be used for projects and incentive programs that yield verifiable reductions in carbon pollution in excess of current practices, and may only be spent after appropriation. On a biennial basis a minimum of ten percent of the expenditures under this section must be for projects and activities located in communities designated under section 502 of this act.</P>
+<P>(2) The department must solicit proposals and award grants for projects and incentive programs that reduce greenhouse gas emissions in Washington state or reduce emissions directly connected to energy use and other activity in Washington state.</P>
+<P>(a) Grant awards must be aligned to a strategy, which when combined with the utility clean energy investments plans in sections 205 and 304 of this act, are anticipated to achieve a net cumulative reduction of greenhouse gas emissions of twenty-five percent below 1990 levels by the year 2035 within the amounts as appropriated.</P>
+<P>(b)(i) The department of commerce must consider the recommendation of the Washington State University extension energy program in section 405 of this act in determining the award amount offered for a given project and the appropriate process or method for awarding proposals in that program area.</P>
+<P>(ii) The award amounts must reflect the impact of the carbon pollution tax in section 102 of this act, and the availability of other public incentives or credits to determine the minimum level necessary to catalyze investment of each project type but avoid windfall profits in projects.</P>
+<P>(iii) Award amounts from the energy transformation account may not exceed one hundred dollars in 2017 dollars per ton of carbon dioxide equivalent or reduced emissions of greenhouse gases; however the total project cost per ton of reduced emissions may exceed that amount provided additional funding from another source.</P>
+<P>(3) The department must consult with the department of ecology and the Washington State University extension energy program in the design and operation of the fund and must follow the guidelines and obligations set forth in the implementation plan created in section 405 of this act.</P>
+<P>(4) Priority must be given to the following:</P>
+<P>(a) Projects and activities that provide benefits to low-income communities, communities of color, and communities of indigenous peoples provided the projects achieve equivalent net emissions reductions and are cost-competitive compared to other proposals;</P>
+<P>(b) Consideration for procuring and using materials and content that have lower carbon emissions associated with their transportation and manufacturing, as determined through the best available reporting and assessment tools;</P>
+<P>(c) Support for high quality labor standards, apprenticeship and preapprenticeship utilization and preferred entry standards, community workforce agreements with priority local hire, procurement from women and minority-owned businesses, procurement from and contract with entities that have a history of complying with federal and state wage and hour laws and regulations, and other related labor standards;</P>
+<P>(d) Applications from entities subject to the carbon pollution tax under section 102 of this act who are not eligible to receive credits under sections 202 or 301 of this act;</P>
+<P>(e) Applications from consumer-owned energy utilities with retained credit amounts of less than five million dollars annually for comparable incentives for utility customers who otherwise would not have access to the programs, services, and investments offered in a clean energy investment plan as provided in sections 205 and 304 of this act; and</P>
+<P>(f) Projects with a high leverage ratio of nonenergy transformation account funds to energy transformation account funds, excluding funding sourced from utility credits as provided in sections 205 and 304 of this act.</P>
+<P>(5)(a) Projects and incentive programs must meet all of the following criteria to be eligible for funding. Emissions reductions from projects and incentive programs must be:</P>
+<P>(i) Real, specific, identifiable, and quantifiable;</P>
+<P>(ii) Permanent: The department will look to other jurisdictions in setting this standard and will make a reasonable determination on length of time recognizing the advantages of near-term reductions and the potential for future technology to mitigate the long-term release of greenhouse gas emissions into the atmosphere;</P>
+<P>(iii) Enforceable by the state of Washington;</P>
+<P>(iv) Verifiable; and</P>
+<P>(v) Not eligible for funding, if an emissions reduction is required by another statute, rule, or other legal requirement, or is approved under a clean energy investment plan as provided in sections 205 and 304 of this act, or can be reasonably assumed to occur absent additional funding in the near future.</P>
+<P>(b) Funding may be provided for incremental carbon reductions from projects which have already secured funding, but can furnish more carbon reductions with additional resources.</P>
+<P>(6) Emissions reductions resulting in part or in whole from the policies listed in (a) through (d) of this subsection (6) are eligible under this program:</P>
+<P>(a) Commute trip reduction programs as established through RCW 70.94.527 under WAC 173-442-160(3);</P>
+<P>(b) Carbon dioxide emissions from the industrial combustion of biomass in the form of fuel wood, wood waste, wood by-products, and wood residuals are carbon neutral and result in zero CO<TextRun fontStyle="subscript">2</TextRun> emissions as defined under RCW 70.235.020(3);</P>
+<P>(c) Washington's carbon dioxide mitigation standard for fossil-fueled electric generation facilities, through an energy facility site evaluation council site certificate or by chapter 80.70 RCW; and</P>
+<P>(d) The acquisition of conservation and energy efficiency in excess of the targets required by the energy independence act under RCW 19.285.040.</P>
+<P>(7) The department must consider projects and incentive programs for the following activities:</P>
+<P>(a) Industrial energy efficiency, including projects that increase the energy efficiency or reduce the greenhouse gas emissions at manufacturing facilities. Examples include projects to implement combined heat and power, district energy, or on-site renewables or to upgrade existing equipment such as boilers to more efficient models and to switch to less carbon intensive fuel sources. Projects that reduce process emissions may also be considered;</P>
+<P>(b) Clean transportation, including projects and programs that: (i) Exceed workplace targets for commute trip reduction under the authority of chapter 70.94 RCW; accelerate uptake of renewable fuels and electrification in transit and other vehicle fleets; promote advanced-technology transportation networks that achieve greater safety and energy efficiency; create electric vehicle charging or hydrogen refueling infrastructure; and increase equitable transit-oriented development; and (ii) implement biomethane or other gaseous or liquid biofuels for transportation that result in reduced greenhouse gas emissions;</P>
+<P>(c) Energy efficiency and electrification for existing buildings, including projects that improve energy efficiency and utilize demand side management of electricity. A priority must be accorded to projects otherwise eligible and not receiving funding from investments pursuant to part III of this act;</P>
+<P>(d) Agricultural, forestry, and other working lands emissions, including projects and programs that achieve energy efficiency and emission reductions in the agricultural sector including fertilizer management, soil management, bioenergy, and biogas;</P>
+<P>(e) Other technologies not explicitly covered by the program in (a) through (d) of this subsection, such as proposals that diversify opportunities for addressing peak loads such as storage and demand response or advance market transformation, educate consumers, develop new low carbon fuels such as renewable natural gas, increase participation in programs, or that incentivize consumers to choose low carbon alternatives;</P>
+<P>(f) Low carbon architecture, including projects that develop, promote, or result in buildings constructed of newly emerging alternative building materials that result in a lower carbon footprint in the built environment over the life cycle of the building and component building materials; and</P>
+<P>(g) Decarbonization of aviation fuels, including projects and programs that accelerate the development of sustainable aviation fuel production facilities; reduce the cost differential between low carbon aviation fuels and fossil aviation fuels; promote greater coordination between regional sustainable aviation fuel production feedstock suppliers and producers; and increases sustainable aviation fuel access and integration into existing fueling infrastructure and pipelines.</P>
+<P>(8) Recipients of funding for projects must submit to the department a progress report at a date or dates to be determined by the department. The progress report must include the following in addition to any other information the department may require:</P>
+<P>(a) A summary of the investments made and technology or other changes installed and deployed; and</P>
+<P>(b) Verification of the avoided greenhouse gas emissions since the date of the signed contract or the last report from a qualified third party, as identified by the department of commerce. The qualified third party must report on:</P>
+<P>(i) Whether the project was built or implemented according to the proposed design and any protocols or methodologies that were referenced in the proposal, as approved in the funding contract;</P>
+<P>(ii) A verification plan that details the methods used to evaluate the project;</P>
+<P>(iii) Their review of the recipient's accounting of current and projected emissions reductions;</P>
+<P>(iv) The site visits conducted by verifiers; and</P>
+<P>(v) Any additional data as the department identifies by rule to sufficiently evaluate the project and to provide the highest level of integrity and verification for the emissions reductions.</P>
+<P>(9) The department must design project funding contracts, monitor project implementation, and track contract performance, to actively assist the project proponent in securing the expected project outcomes. The department may suspend or terminate funding when projects do not achieve projected reductions as provided in the funding agreement and, in cases of gross misuse of funds, may require a return of grant funding.</P>
+<P>(10) Amounts must be appropriated to the department from the account for the department's and other agencies' costs to administer the projects and programs in this section.</P>
+<P>(11) The department may adopt rules necessary to implement this section.</P>
+<P>(12) Public entities, including but not limited to state agencies, municipal corporations, and federally recognized Indian tribes, and private entities, both not-for-profit and for-profit, are eligible to receive energy transformation account funds authorized by this section.</P>
+<P>(13) The department must develop an electronic database available to the public to track projects and incentive programs receiving funding under this section. Projects will be ranked and sortable based on quantitative performance metrics, including the avoided cost of a ton of carbon dioxide.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>402</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>SEQUESTRATION OF CARBON.</SectionCaption><P>(1) Funds appropriated from the account created in section 401 of this act may be used for the following carbon sequestration activities using procedures and criteria developed by the appropriate state agencies, in consultation with Indian tribes, universities, and stakeholders with expertise on natural resources and carbon sequestration:</P></BillSectionHeader>
+<P>(a) Sequestration of carbon in aquatic marine and freshwater natural resources. The recreation and conservation office with technical assistance from the department of natural resources will award grants for blue carbon projects, such as wetland and seagrass restoration projects, that result in aquatic carbon sequestration outcomes with priority given, when relevant, to projects that also provide multiple benefits for coastal and wetland habitat restoration and are consistent with the Puget Sound partnership action agenda produced under chapter 90.71 RCW;</P>
+<P>(b) Sequestration of carbon in agricultural lands and soils. The department of agriculture will award grants for projects to increase soil sequestration and reduce emissions from the loss and disturbance of soils and conversion of grassland and cropland soils to urban development;</P>
+<P>(c) Sequestration of carbon in terrestrial, riparian, and aquatic habitats. The recreation and conservation office with technical assistance from the department of natural resources will award grants for projects and activities that protect and prevent the loss of ecosystems that provide fish and wildlife habitat and carbon sequestration values;</P>
+<P>(d) The establishment of a working forest conservation grant program developed and administered by the recreation and conservation office with technical assistance from the department of natural resources. The procedures and criteria must be developed in consultation with Indian tribes and be designed to achieve additional carbon absorption and sequestering values provided by Washington's working forests. The procedures and criteria must also include, at a minimum, a mechanism for ranking project applicants that allows for the prioritization of projects that maximize the acres of working forests able to be maintained by the program, considering scientifically based, landscape scale forest ecosystem carbon sequestration calculations to determine the life-cycle carbon sequestration capacity of the carbon stored in wood from the working forest and including consideration of carbon sequestered in resulting wood building materials. The working forest conservation program must be designed to add to the carbon sequestration value in working forests, prevent conversion of working forests to nonforestry uses, avoid wood market leakage through a sustainable supply of timber, ensure the ecological longevity of working forests, and provide long-term, sustainable jobs in rural communities.</P>
+<P>(i) The priority uses of funds in the working forest conservation program must be to:</P>
+<P>(A) Fund the acquisition or transfer of development rights or other property interests designed to limit or prevent the loss of working forests and their associated carbon absorbing and sequestering value; and</P>
+<P>(B) Provide grants for the purchase of nonforested land for the purpose of afforestation and establishing a working forest.</P>
+<P>(ii) If the recreation and conservation office determines it is necessary to capture a forest's carbon sequestration potential, the program may include the acquisition of easements for forest land for which there is a comparatively high probability that contiguous forestland acreage will eventually be converted to nonforestry uses, otherwise sold in smaller acreage parcels, or its timber stock liquidated in the near term.</P>
+<P>(iii) The recreation and conservation office may give preference under this subsection (1)(d) to projects that are proposed by small forest landowners as defined in RCW 76.09.450.</P>
+<P>(2) The projects funded under this section must prioritize and rank projects considering the achievement of carbon sequestration and the comparative need of the applicants. Associated benefits that must also be considered include improving landscape scale ecological functions to protect water, soils, and provide improved fish and wildlife habitat.</P>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>403</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>31</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>CLEAN TRANSPORTATION ACCOUNT. Annually, thirty percent of the moneys from the energy transformation account under section 401 of this act must be deposited by the state treasurer into the clean transportation account, hereby created as a subaccount in the multimodal transportation account. Moneys in the account may only be spent after appropriation. Of the funds in the account:</P>
+<P>(1) Eighty-five percent of the moneys must be provided to offset some or all of the state fiscal impacts of the following activities:</P>
+<P>(a) The alternative fuel vehicle tax exemption pursuant to RCW 82.08.809 and 82.12.809;</P>
+<P>(b) The alternative fuel commercial vehicle tax credit pursuant to RCW 82.16.0496;</P>
+<P>(c) Tax credits provided for biodiesel feedstock pursuant to RCW 82.08.0205 and 82.12.0205;</P>
+<P>(d) Expenditures from the clean energy account under section 601, chapter . . . (Substitute Senate Bill No. 6080), Laws of 2018; and</P>
+<P>(e) Funding for projects that can demonstrate reduced single-occupant vehicle trips and increased transit ridership, including park and rides, increased transit service, regional mobility grants, rural mobility grants, transit priority infrastructure projects, transit pass subsidies, and the commute trip reduction act; and</P>
+<P>(2) Fifteen percent of the moneys to support the electrification of transportation in rural communities pursuant to section 404 of this act.</P>
+<P>(3) The department must utilize the cumulative impact analysis in section 502 of this act and ensure expenditures prioritize highly impacted communities.</P>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>404</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>31</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>RURAL ELECTRIFICATION PROJECTS. (1) The department of commerce must administer a grant program designed to support the electrification of transportation in rural communities with a legacy of nonfossil fuel generated electric power. Eligible grant recipients may be public entities, including municipal corporations, school districts, public transit benefit areas, and consumer-owned utilities; federally recognized Indian tribes; and private entities, both not-for-profit and for-profit.</P>
+<P>(2) Grants must be awarded in counties with a population of less than two hundred fifty thousand based on 2010 census data served by a consumer-owned utility with an electric resources portfolio that is composed of at least ninety percent renewable resources as defined in RCW 19.285.030 as existing on the effective date of this section, and electrification projects must be served by that consumer-owned utility. In addition, the department must utilize the cumulative impact analysis in section 502 of this act and ensure expenditures prioritize highly impacted communities.</P>
+<P>(3) Moneys received by an entity pursuant to this subsection must be spent on the development and implementation of the following greenhouse gas reducing activities in their respective county:</P>
+<P>(a) The electrification of transportation in all industry sectors; to include but not be limited to the conversion of passenger and commercial vehicles, short-haul agricultural, private and public fleets, including transit fleets, and school buses.</P>
+<P>(b) Programs or investments to support energy efficiency and conservation measures, including but not limited to projects or research designed to increase the efficiency and production capability of hydroelectric project generation, demand response and enhanced energy efficiency, and measures beyond the conservation targets required in RCW 19.285.040(1).</P>
+<P>(4) The department of commerce must set potential annual award amounts for each eligible county based on available funds. Potential award amounts must be set at an amount equal to the percentage of the population of each eligible county in proportion to the population of all eligible counties, based on 2010 census data.</P>
+<P>(5) The department must prioritize applications which demonstrate strong community partnerships and leverage the participation and investment of private businesses. A consumer-owned energy utility receiving funds must follow the process and procedures of a clean energy investment plan as provided in section 304 of this act concerning expenditures, monitoring, auditing, and oversight for consumer-owned utilities. Receiving moneys pursuant to this subsection does not preclude submitting proposals or receiving additional grants under the energy transformation account in section 401 of this act.</P>
+<P>(6) Moneys not expended according to potential awards pursuant to subsection (4) of this section must first be made available to other eligible entities on a competitive grant basis. Any remaining funds must be transferred to the energy transformation account created in section 401 of this act.</P>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>405</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>31</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<SectionCaption>IMPLEMENTATION PLAN FOR THE ENERGY TRANSFORMATION ACCOUNT.</SectionCaption>
+<P>(1) The department must, by June 30, 2019, develop an implementation plan for the investment of the energy transformation account. This planning and preparation must include:</P>
+<P>(a) Analysis, to be implemented in partnership with the Washington State University extension energy program, to further determine overall carbon pollution abatement opportunities in Washington. The analysis may include the development of a marginal abatement cost curve for Washington that may be used by the department to recommend appropriate award amounts per metric ton of carbon dioxide equivalent of greenhouse gas emissions reductions for a variety of clean energy, efficiency, transportation electrification, and other project portfolio types. By March 1, 2021, and by March 1st of each odd-numbered year thereafter, the Washington State University extension energy program and the department of commerce must update the recommended amounts per metric ton of emissions reductions for the following two-year period;</P>
+<P>(b) Preparation of robust monitoring and evaluation systems to ensure that the effects and cost-effectiveness of grants are rigorously assessed and that such assessments are used over time to inform and strengthen the grant-making process;</P>
+<P>(c) Assessment and development of efficient and transparent grant-making strategies designed to ensure program objectives are met and taxpayer interests are protected including, but not limited to, leveraging investments through partnerships, reverse auctions, and pay-for-performance mechanisms in which funding is released upon emissions reductions verifications and the development of incentive programs;</P>
+<P>(d) Outreach and education to engage eligible recipients for grant funding and to prepare them to develop and submit grant applications for priority projects;</P>
+<P>(e) Utilization of the cumulative impact analysis in section 502 of this act to ensure expenditures prioritize highly impacted communities; and</P>
+<P>(f) Assessment of the relationship between priority areas of the energy transformation account and the carbon reduction policies and plans being made by key sectors in the state, including the state's aviation sector. In the last five years, aviation fuel consumption in Washington has grown more than twenty percent, and is projected to continue to grow in step with population growth and economic development. Airport operators in the state have set aggressive goals to reduce the carbon emissions associated with their operations, while also helping to support development of a sustainable fuels supply chain in a manner that would support rural economic development. The department should address these activities in its implementation plan, and seek to ensure that the state's investments through the energy transformation account support a sustainable future for the aviation sector in Washington state.</P>
+<P>(2) The department must implement a performance management system, complete an independent audit every two years, and report the results of each assessment to the joint committee on climate programs oversight created in section 801 of this act and to the appropriate committees of the legislature.</P>
+</BillSection>
+<Part>
+<P>Part V</P>
+<P>Transition Assistance</P>
+</Part>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value fixed="true">501</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>TRANSITION ASSISTANCE ACCOUNT.</SectionCaption><P>(1) The legislature finds that increased energy expenses will have a disproportionate impact upon the finances of low-income households engaging in life-sustaining activities including but not limited to heating, cooling, and transportation. The legislature therefore creates the transition assistance account to provide a financially equitable transition to a clean energy economy by providing economic, financial, and public health supports, programs, services, and assistance to low-income households. Additionally, in providing mitigation of the impact of carbon pricing on those most impacted, the legislature intends to provide general property tax relief in combination with this legislation.</P></BillSectionHeader>
+<P>(2) The transition assistance account is created in the state treasury. The account must receive moneys distributed to the account from the carbon pollution reduction account created in section 107 of this act as well as other moneys directed to the account by the legislature. Moneys in the account may only be used for the purposes described in this section and sections 503 and 504 of this act, and may only be spent after appropriation.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>502</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) By December 31, 2018, for the purposes of mitigating harm from climate change and dangerous air pollutants that impact human health or the environment and are regulated under the federal clean air act or chapter 70.94 RCW, the department of health must conduct or adopt a cumulative impact analysis to designate the communities highly impacted by fossil fuel pollution and climate change in Washington.</P></BillSectionHeader>
+<P>(2) The cumulative impact analysis must map, rank, and designate a percentile of census tracts as highly impacted communities based on an index of criteria, including:</P>
+<P>(a) Vulnerable population characteristics including, but not limited to, socioeconomic factors, like unemployment, housing and transportation burden, and linguistic isolation, and sensitivity, such as low birth weight and hospitalizations;</P>
+<P>(b) Environmental burden characteristics including, but not limited to, exposures to air, water, and toxics and environmental effects such as toxic sites, hazardous waste, and climate impacts; and </P>
+<P>(c) Census tracts that are wholly or partly "Indian country," as that term is defined in 25 U.S.C. Sec. 1151, in effect on the effective date of this section.</P>
+<P>(3) The department of health must conduct meaningful consultation with vulnerable communities in Washington, including Indian tribes, and consult the University of Washington department of environmental and occupational health sciences in developing the analysis, or adopt an analysis that included this consultation.</P>
+<P>(4) The cumulative impact analysis may integrate with and build upon other population tracking resources used by the department of health and analysis done by the University of Washington department of environmental and occupational health sciences.</P>
+<P>(5) By March 1, 2023, and every two years thereafter, the department of health, under advisement from the economic and environmental justice oversight panel created under section 805 of this act, must update the designation of highly impacted communities pursuant to this section. By March 1, 2025, and every four years thereafter, the department of health must review and consider revisions to the cumulative impacts methodology for designating highly impacted communities to reflect best practices.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>503</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>ENERGY TRANSITION ASSISTANCE TO LOW-INCOME HOUSEHOLDS.</SectionCaption><P>(1) Using funds appropriated from the account created in section 501 of this act, the department of commerce must provide for an equitable transition to a clean energy economy by providing funding to assist low-income households during that transition with increased energy prices that will have a disproportionate impact upon such households and to provide access to clean energy and low carbon housing, transportation options, and technologies to those with greater barriers and where pollution is concentrated. For the purposes of this section, the term "low income" means at or below eighty percent of area median income or two hundred percent of the federal poverty level.</P></BillSectionHeader>
+<P>(2) Funding must be prioritized to mitigate any additional energy and transportation costs borne by low-income persons as a direct result of this act and not fully mitigated by utilities plans in sections 201 through 306 of this act and the reduced vehicle fees under sections 506 through 508 of this act. Funding must also be prioritized to provide assistance to displaced fossil fuel-related industries workers as provided under section 504 of this act. Remaining funds must be used to reduce carbon pollution and reduce vulnerable population characteristics or environmental burdens in highly impacted communities designated by the department of health under section 502 of this act.</P>
+<P>(3) Transition assistance under this chapter may include direct financial assistance in the form of a grant, subsidy, rebate, or other similar financial benefit or product including:</P>
+<P>(a) Through expansion of or increases to existing programs and authorizations administered by the department of social and health services;</P>
+<P>(b) Expansion or increases to existing regional community health programs administered by the health care authority; or</P>
+<P>(c) New programs that efficiently enable direct financial assistance.</P>
+<P>(4) The assistance may include but is not limited to programs such as energy bill pay subsidies, energy efficiency and weatherization assistance and services, public health programs and services, affordable transportation services and options, affordable housing, improved community services, and reductions in vehicle fees as provided in sections 506, 507, and 508 of this act.</P>
+<P>(5) The department must form a transition assistance advisory group comprised of appropriate state agencies, local governments, Indian tribes, social service agencies, workers, representatives of vulnerable populations in highly impacted communities, and low-income and community advocacy organizations to develop an implementation plan that selects the most efficient and financially equitable delivery of transition assistance to low-income households across the state. The department must consult with and take into strong consideration the recommendations of the advisory group, as well as the views of the economic and environmental justice oversight panel created under section 805 of this act. The advisory group may consist of a subcommittee of the panel created under section 805 of this act. The implementation plan together with recommendations for appropriations and recommended legislative action must be provided to the joint committee on climate programs oversight created in section 801 of this act and to the governor and appropriate committees of the senate and house of representatives not later than December 31, 2018.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>504</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>ENERGY TRANSITION ASSISTANCE TO DISPLACED WORKERS.</SectionCaption><P>(1) Using funds appropriated from the account created in section 501 of this act, the department of commerce, with the assistance of the employment security department and in consultation with fossil fuel-related businesses, labor organizations, and the panel created in section 805 of this act, must develop a program and provide assistance to eligible displaced fossil fuel-related industries workers.</P></BillSectionHeader>
+<P>(2) The assistance provided for in subsection (1) of this section may include, but is not limited to:</P>
+<P>(a) Wage, pension, and health benefits replacement for up to two years; the replacement assistance must be based on the average of the worker's previous two years' wages received, pension contributions made by the employer for the worker's benefit, and the cost to the employer of the worker's health insurance benefits while the worker was working in the fossil fuel-related industry;</P>
+<P>(b) Notwithstanding the benefits in (a) of this subsection, displaced workers with more than five years of employment in the industry are eligible for up to two years of wage insurance;</P>
+<P>(c) For a worker who is within five years of eligibility for a union pension or social security, the period of time the replacement assistance described in (a) of this subsection may be paid continues until the worker is eligible for the union pension or full social security benefits, whichever is later;</P>
+<P>(d) Training and education costs not to exceed the average cost of two years tuition and fees at Washington state's community and technical colleges;</P>
+<P>(e) Peer counseling services;</P>
+<P>(f) Enhanced job placement services; and</P>
+<P>(g) Relocation expenses and assistance.</P>
+<P>(3) The definitions in this subsection apply throughout this section unless the context clearly requires otherwise.</P>
+<P>(a) "Eligible displaced fossil fuel-related industries worker" means a fossil fuel-related industries worker who:</P>
+<P>(i)(A) Has been terminated or received notice of termination from employment and is unlikely to return to employment in the individual's principal occupation or previous industry because of a diminishing demand for the individual's skills in that occupation or industry; or</P>
+<P>(B) Is self-employed and has been displaced from the individual's business because of the diminishing demand for the business' services; and</P>
+<P>(ii) Was working at a fossil fuel-related industries facility when at least one of the following situations occurs with respect to the facility:</P>
+<P>(A) Any permanent fossil fuel facility or major portion thereof is permanently closed or curtailed, or closed or curtailed for more than six months;</P>
+<P>(B) A facility reduces production by more than three percent relative to its average production over the previous three years; or</P>
+<P>(C) A facility's production is replaced by an increase in fossil fuels imported into the state from foreign or domestic sources.</P>
+<P>(b) "Fossil fuel-related industries" means petroleum refining, natural gas distribution, oil and gas pipeline construction and transportation, petroleum bulk stations and terminals, and fossil fuel-based electric power generation in Washington state.</P>
+<P>(c) "Fossil fuel-related industries worker" means a full-time worker who is covered under a collective bargaining agreement, and is a nonsupervisory worker; or is a full-time independent contractor working in the fossil fuel-related industries.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>505</Value><TextRun>.  </TextRun></BillSectionNumber><P>EDUCATION PROGRAMS. Using funds appropriated from the account created in section 501 of this act, the office of the superintendent of public instruction may provide education programs and teacher professional development opportunities at public schools to expand awareness of and increase preparedness for the environmental, social, and economic impacts of climate change and strategies to reduce carbon pollution, and to prepare all students for employment opportunities in the clean energy economy.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>506</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>REPORTING.</SectionCaption><P>The department of commerce must provide reports on assistance provided to low-income persons under section 503 of this act and to displaced fossil fuel-related industry workers under section 504 of this act to the joint committee on climate programs oversight created under section 801 of this act at such intervals as the committee requests.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>507</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>46</TitleNumber><TextRun>.</TextRun><ChapterNumber>17</ChapterNumber><TextRun>.</TextRun><SectionNumber>005</SectionNumber></SectionCite> and 2010 c 161 s 501 are each amended to read as follows:<Caption>Filing fees.</Caption></BillSectionHeader>
+<P>(1)<TextRun amendingStyle="add">(a)</TextRun> A person who applies for a vehicle registration or for any other right to operate a vehicle on the highways of this state <TextRun amendingStyle="strike">shall</TextRun> <TextRun amendingStyle="add">must</TextRun> pay a three dollar filing fee in addition to any other fees and taxes required by law.</P>
+<P><TextRun amendingStyle="add">(b) Subsection (1)(a) of this section does not apply to a person with an income at or below two hundred percent of the federal poverty line. On the last day of January, April, July, and October of each year, the state treasurer, based upon information provided by the department, must transfer from the transition assistance account created in section 501 of this act for distribution under RCW 46.68.400 a sum equal to the dollar amount that would otherwise have been distributed under subsection (3) of this section during the prior calendar quarter but for the exemption provided in this subsection (1)(b).</TextRun></P>
+<P>(2) A person who applies for a certificate of title <TextRun amendingStyle="strike">shall</TextRun> <TextRun amendingStyle="add">must</TextRun> pay a four dollar filing fee in addition to any other fees and taxes required by law.</P>
+<P>(3) The filing fees established in this section must be distributed under RCW 46.68.400.</P>
+<History>2010 c 161 § 501.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>Intent<TextRun fontFamily="Times New Roman">—</TextRun>Legislation to reconcile chapter 161, Laws of 2010 and other amendments made during the 2010 legislative session<TextRun fontFamily="Times New Roman">—</TextRun>2010 c 161:</TextRun> See notes following RCW 46.04.013.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>508</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>46</TitleNumber><TextRun>.</TextRun><ChapterNumber>17</ChapterNumber><TextRun>.</TextRun><SectionNumber>350</SectionNumber></SectionCite> and 2014 c 30 s 2 are each amended to read as follows:<Caption>License fees by vehicle type.</Caption></BillSectionHeader>
+<P postPadding="halfline">(1) <TextRun amendingStyle="add">Except as provided in subsection (2) of this section, b</TextRun>efore accepting an application for a vehicle registration, the department, county auditor or other agent, or subagent appointed by the director <TextRun amendingStyle="strike">shall</TextRun> <TextRun amendingStyle="add">must</TextRun> require the applicant, unless specifically exempt, to pay the following vehicle license fee by vehicle type:</P>
+<Table width="243.0pt" align="center" fontSize="8pt" pubwidth="narrow" hCellPadding="none">
+<Col width="92pt" />
+<Col width="37pt" />
+<Col width="44pt" />
+<Col width="70pt" />
+<THead>
+<TR>
+<TD textAlign="left" valign="top"><P>VEHICLE TYPE</P></TD>
+<TD textAlign="center" valign="top"><P>INITIAL FEE</P></TD>
+<TD textAlign="center" valign="top"><P>RENEWAL FEE</P></TD>
+<TD textAlign="center" valign="top"><P>DISTRIBUTED UNDER</P></TD>
+</TR>
+</THead>
+<TR>
+<TD textAlign="left" valign="top"><P indentStyle="hanging" indent="1">(a) Auto stage, six seats or less</P></TD>
+<TD textAlign="center" valign="top"><P>$ 30.00</P></TD>
+<TD textAlign="center" valign="top"><P>$ 30.00</P></TD>
+<TD textAlign="center" valign="top"><P>RCW 46.68.030</P></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P>(b) Camper</P></TD>
+<TD textAlign="center" valign="top"><P>$ 4.90</P></TD>
+<TD textAlign="center" valign="top"><P>$ 3.50</P></TD>
+<TD textAlign="center" valign="top"><P>RCW 46.68.030</P></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P>(c) Commercial trailer</P></TD>
+<TD textAlign="center" valign="top"><P>$ 34.00</P></TD>
+<TD textAlign="center" valign="top"><P>$ 30.00</P></TD>
+<TD textAlign="center" valign="top"><P>RCW 46.68.035</P></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P indentStyle="hanging" indent="1">(d) For hire vehicle, six seats  or less</P></TD>
+<TD textAlign="center" valign="top"><P>$ 30.00</P></TD>
+<TD textAlign="center" valign="top"><P>$ 30.00</P></TD>
+<TD textAlign="center" valign="top"><P>RCW 46.68.030</P></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P indentStyle="hanging" indent="1">(e) Mobile home (if registered)</P></TD>
+<TD textAlign="center" valign="top"><P>$ 30.00</P></TD>
+<TD textAlign="center" valign="top"><P>$ 30.00</P></TD>
+<TD textAlign="center" valign="top"><P>RCW 46.68.030</P></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P>(f) Moped</P></TD>
+<TD textAlign="center" valign="top"><P>$ 30.00</P></TD>
+<TD textAlign="center" valign="top"><P>$ 30.00</P></TD>
+<TD textAlign="center" valign="top"><P>RCW 46.68.030</P></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P>(g) Motor home</P></TD>
+<TD textAlign="center" valign="top"><P>$ 30.00</P></TD>
+<TD textAlign="center" valign="top"><P>$ 30.00</P></TD>
+<TD textAlign="center" valign="top"><P>RCW 46.68.030</P></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P>(h) Motorcycle</P></TD>
+<TD textAlign="center" valign="top"><P>$ 30.00</P></TD>
+<TD textAlign="center" valign="top"><P>$ 30.00</P></TD>
+<TD textAlign="center" valign="top"><P>RCW 46.68.030</P></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P>(i) Off-road vehicle</P></TD>
+<TD textAlign="center" valign="top"><P>$ 18.00</P></TD>
+<TD textAlign="center" valign="top"><P>$ 18.00</P></TD>
+<TD textAlign="center" valign="top"><P>RCW 46.68.045</P></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P>(j) Passenger car</P></TD>
+<TD textAlign="center" valign="top"><P>$ 30.00</P></TD>
+<TD textAlign="center" valign="top"><P>$ 30.00</P></TD>
+<TD textAlign="center" valign="top"><P>RCW 46.68.030</P></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P indentStyle="hanging" indent="1">(k) Private use single-axle  trailer</P></TD>
+<TD textAlign="center" valign="top"><P>$ 15.00</P></TD>
+<TD textAlign="center" valign="top"><P>$ 15.00</P></TD>
+<TD textAlign="center" valign="top"><P>RCW 46.68.035</P></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P>(l) Snowmobile</P></TD>
+<TD textAlign="center" valign="top"><P>$ 50.00</P></TD>
+<TD textAlign="center" valign="top"><P>$ 50.00</P></TD>
+<TD textAlign="center" valign="top"><P>RCW 46.68.350</P></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P>(m) Snowmobile, vintage</P></TD>
+<TD textAlign="center" valign="top"><P>$ 12.00</P></TD>
+<TD textAlign="center" valign="top"><P>$ 12.00</P></TD>
+<TD textAlign="center" valign="top"><P>RCW 46.68.350</P></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P>(n) Sport utility vehicle</P></TD>
+<TD textAlign="center" valign="top"><P>$ 30.00</P></TD>
+<TD textAlign="center" valign="top"><P>$ 30.00</P></TD>
+<TD textAlign="center" valign="top"><P>RCW 46.68.030</P></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P>(o) Tow truck</P></TD>
+<TD textAlign="center" valign="top"><P>$ 30.00</P></TD>
+<TD textAlign="center" valign="top"><P>$ 30.00</P></TD>
+<TD textAlign="center" valign="top"><P>RCW 46.68.030</P></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P indentStyle="hanging" indent="1">(p) Trailer, over 2000 pounds</P></TD>
+<TD textAlign="center" valign="top"><P>$ 30.00</P></TD>
+<TD textAlign="center" valign="top"><P>$ 30.00</P></TD>
+<TD textAlign="center" valign="top"><P>RCW 46.68.030</P></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P>(q) Travel trailer</P></TD>
+<TD textAlign="center" valign="top"><P>$ 30.00</P></TD>
+<TD textAlign="center" valign="top"><P>$ 30.00</P></TD>
+<TD textAlign="center" valign="top"><P>RCW 46.68.030</P></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P indentStyle="hanging" indent="1">(r) Wheeled all-terrain vehicle,  on-road use</P></TD>
+<TD textAlign="center" valign="top"><P>$ 12.00</P></TD>
+<TD textAlign="center" valign="top"><P>$ 12.00</P></TD>
+<TD textAlign="center" valign="top"><P>RCW 46.09.540</P></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P indentStyle="hanging" indent="1">(s) Wheeled all-terrain vehicle,  off-road use</P></TD>
+<TD textAlign="center" valign="top"><P>$ 18.00</P></TD>
+<TD textAlign="center" valign="top"><P>$ 18.00</P></TD>
+<TD textAlign="center" valign="top"><P>RCW 46.09.510</P></TD>
+</TR>
+</Table>
+<P prePadding="halfline">(2) <TextRun amendingStyle="add">Subsection (1)(a), (d), (e), (h), (j), (n), and (o) of this section do not apply to an applicant with an income at or below two hundred percent of the federal poverty line. On the last day of January, April, July, and October of each year, the state treasurer, based upon information provided by the department, must transfer from the transition assistance account created in section 501 of this act for distribution under RCW 46.68.030 a sum equal to the dollar amount that would otherwise have been distributed under subsection (1) of this section during the prior calendar quarter but for the exemption provided in this subsection (2).</TextRun></P>
+<P prePadding="halfline"><TextRun amendingStyle="add">(3)</TextRun> The vehicle license fee required in subsection (1) of this section is in addition to the filing fee required under RCW 46.17.005, and any other fee or tax required by law.</P>
+<History>2014 c 30 § 2; (2014 c 30 § 1 expired October 1, 2015); 2013 2nd sp.s. c 23 § 19; 2010 c 161 § 531.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Application<TextRun fontFamily="Times New Roman">—</TextRun>Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2014 c 30 § 2:</TextRun> "Section 2 of this act applies to snowmobile registrations that are due on or after October 1, 2015. Section 2 of this act takes effect October 1, 2015." [2014 c 30 § 4.]</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Application<TextRun fontFamily="Times New Roman">—</TextRun>Expiration date<TextRun fontFamily="Times New Roman">—</TextRun>2014 c 30 § 1:</TextRun> "Section 1 of this act applies to snowmobile registrations that are due on or after October 1, 2014. Section 1 of this act expires October 1, 2015." [2014 c 30 § 3.] </NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Finding<TextRun fontFamily="Times New Roman">—</TextRun>Intent<TextRun fontFamily="Times New Roman">—</TextRun>2013 2nd sp.s. c 23:</TextRun> See note following RCW 46.09.442.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2013 2nd sp.s. c 23:</TextRun> See note following RCW 46.09.310.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>Intent<TextRun fontFamily="Times New Roman">—</TextRun>Legislation to reconcile chapter 161, Laws of 2010 and other amendments made during the 2010 legislative session<TextRun fontFamily="Times New Roman">—</TextRun>2010 c 161:</TextRun> See notes following RCW 46.04.013.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>509</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>46</TitleNumber><TextRun>.</TextRun><ChapterNumber>17</ChapterNumber><TextRun>.</TextRun><SectionNumber>365</SectionNumber></SectionCite> and 2015 3rd sp.s. c 44 s 202 are each amended to read as follows:<Caption>Motor vehicle weight fee<TextRun fontFamily="Times New Roman">—</TextRun>Motor home vehicle weight fee.</Caption></BillSectionHeader>
+<P>(1) <TextRun amendingStyle="add">Except as provided in subsection (2) of this section, a</TextRun> person applying for a motor vehicle registration and paying the vehicle license fee required in RCW 46.17.350(1) (a), (d), (e), (h), (j), (n), and (o) <TextRun amendingStyle="strike">shall</TextRun> <TextRun amendingStyle="add">must</TextRun> pay a motor vehicle weight fee in addition to all other fees and taxes required by law.</P>
+<P>(a) For vehicle registrations that are due or become due before July 1, 2016, the motor vehicle weight fee:</P>
+<P>(i) Must be based on the motor vehicle scale weight;</P>
+<P>(ii) Is the difference determined by subtracting the vehicle license fee required in RCW 46.17.350 from the license fee in Schedule B of RCW 46.17.355, plus two dollars; and</P>
+<P>(iii) Must be distributed under RCW 46.68.415.</P>
+<P>(b) For vehicle registrations that are due or become due on or after July 1, 2016, the motor vehicle weight fee:</P>
+<P>(i) Must be based on the motor vehicle scale weight as follows:</P>
+<Table align="center" width="243.0pt" pubwidth="narrow">
+<Col width="121.5pt" />
+<Col width="121.5pt" />
+<THead>
+<TR>
+<TD><P textAlign="center">WEIGHT</P></TD>
+<TD><P textAlign="center">FEE</P></TD>
+</TR>
+</THead>
+<TR>
+<TD><P textAlign="center">4,000 pounds</P></TD>
+<TD><P textAlign="center">$ 25.00</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="center">6,000 pounds</P></TD>
+<TD><P textAlign="center">$ 45.00</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="center">8,000 pounds</P></TD>
+<TD><P textAlign="center">$ 65.00</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="center">16,000 pounds and over</P></TD>
+<TD><P textAlign="center">$ 72.00;</P></TD>
+</TR>
+</Table>
+<P>(ii) If the resultant motor vehicle scale weight is not listed in the table provided in (b)(i) of this subsection, must be increased to the next highest weight; and</P>
+<P>(iii) Must be distributed under RCW 46.68.415 unless prior to July 1, 2023, the actions described in (b)(iii)(A) or (B) of this subsection occur, in which case the portion of the revenue that is the result of the fee increased in this subsection must be distributed to the connecting Washington account created under RCW 46.68.395.</P>
+<P>(A) Any state agency files a notice of rule making under chapter 34.05 RCW for a rule regarding a fuel standard based upon or defined by the carbon intensity of fuel, including a low carbon fuel standard or clean fuel standard.</P>
+<P>(B) Any state agency otherwise enacts, adopts, orders, or in any way implements a fuel standard based upon or defined by the carbon intensity of fuel, including a low carbon fuel standard or clean fuel standard.</P>
+<P>(C) Nothing in this subsection acknowledges, establishes, or creates legal authority for the department of ecology or any other state agency to enact, adopt, order, or in any way implement a fuel standard based upon or defined by the carbon intensity of fuel, including a low carbon fuel standard or clean fuel standard.</P>
+<P>(2) <TextRun amendingStyle="add">Subsection (1) of this section does not apply to a person with an income at or below two hundred percent of the federal poverty line, but only if the person's motor vehicle falls under the 4,000 pounds or 6,000 pounds fee schedule in subsection (1)(b)(i) of this section. On the last day of January, April, July, and October of each year, the state treasurer, based upon information provided by the department, must transfer from the transition assistance account created in section 501 of this act for distribution under subsection (1)(b)(iii) of this section a sum equal to the dollar amount that would otherwise have been distributed under subsection (1)(b)(iii) of this section during the prior calendar quarter but for the exemption provided in this subsection (2).</TextRun></P>
+<P><TextRun amendingStyle="add">(3)</TextRun> A person applying for a motor home vehicle registration <TextRun amendingStyle="strike">shall</TextRun> <TextRun amendingStyle="add">must</TextRun>, in lieu of the motor vehicle weight fee required in subsection (1) of this section, pay a motor home vehicle weight fee of seventy-five dollars in addition to all other fees and taxes required by law. The motor home vehicle weight fee must be distributed under RCW 46.68.415.</P>
+<P><TextRun amendingStyle="strike">(3)</TextRun> <TextRun amendingStyle="add">(4)</TextRun> Beginning July 1, 2022, in addition to the motor vehicle weight fee as provided in subsection (1) of this section, the department, county auditor or other agent, or subagent appointed by the director must require an applicant to pay an additional weight fee of ten dollars, which must be distributed to the multimodal transportation account under RCW 47.66.070 unless prior to July 1, 2023, the actions described in (a) or (b) of this subsection occur, in which case the portion of the revenue that is the result of the fee increased in this subsection must be distributed to the connecting Washington account created under RCW 46.68.395.</P>
+<P>(a) Any state agency files a notice of rule making under chapter 34.05 RCW for a rule regarding a fuel standard based upon or defined by the carbon intensity of fuel, including a low carbon fuel standard or clean fuel standard.</P>
+<P>(b) Any state agency otherwise enacts, adopts, orders, or in any way implements a fuel standard based upon or defined by the carbon intensity of fuel, including a low carbon fuel standard or clean fuel standard.</P>
+<P>(c) Nothing in this subsection acknowledges, establishes, or creates legal authority for the department of ecology or any other state agency to enact, adopt, order, or in any way implement a fuel standard based upon or defined by the carbon intensity of fuel, including a low carbon fuel standard or clean fuel standard.</P>
+<P><TextRun amendingStyle="strike">(4)</TextRun> <TextRun amendingStyle="add">(5)</TextRun> The department <TextRun amendingStyle="strike">shall</TextRun> <TextRun amendingStyle="add">must</TextRun>:</P>
+<P>(a) Rely on motor vehicle empty scale weights provided by vehicle manufacturers, or other sources defined by the department, to determine the weight of each motor vehicle; and</P>
+<P>(b) Adopt rules for determining weight for vehicles without manufacturer empty scale weights.</P>
+</BillSection>
+<Part>
+<P>Part VI</P>
+<P>Climate Resilience</P>
+</Part>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value fixed="true">601</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>WATER AND NATURAL RESOURCES RESILIENCE ACCOUNT.</SectionCaption><P>(1) The water and natural resources resilience account is created in the state treasury. The account must receive moneys distributed to the account from the carbon pollution reduction account created in section 107 of this act as well as other moneys directed to the account by the legislature. Moneys in the account may only be used for the purposes described in sections 602 and 603 of this act. Within this account on a biennial basis, fifty percent of the funding appropriated from the account must be provided for the purposes set forth in section 602 of this act. The remaining moneys must be deposited to two subaccounts hereby created in the state treasury as follows:</P></BillSectionHeader>
+<P>(a) Twenty-five percent to the fire prevention and suppression account; and</P>
+<P>(b) Seventy-five percent to the forest resilience account.</P>
+<P>(2) Moneys in the account may not be used for projects that would violate tribal rights or result in long-term damage to critical habitat or ecological functions. Instead, investments under this account must result in long-term environmental benefit and increased resiliency to the impacts of climate change.</P>
+<P>(3) The departments of ecology and natural resources must prepare such progress reports as required by the joint committee on climate programs oversight created under section 801 of this act, and prepare information as necessary to inform the government-to-government consultation with Indian tribes required under section 802 of this act.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>602</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>WATER-RELATED PROJECTS AND ACTIVITIES.</SectionCaption><P>(1) From funds appropriated by the legislature from the account created in section 601 of this act, the department of ecology may provide grants and loans for water-related projects and activities described in this section. The department may not sign contracts or financially obligate funds from the account created in section 601 of this act before the legislature has appropriated funds for a specific list of project and activities. The department must develop an implementation plan for such expenditures using extensive public involvement and considering the peer-reviewed science on climate risks, resilience, and risk management. The department must consult with appropriate state agencies, Indian tribes, and the climate impacts group at the University of Washington in developing the implementation plan and funding criteria. On a biennial basis, a minimum of ten percent of the expenditures under this section must be for projects and activities that directly benefit highly impacted communities designated under section 502 of this act.</P></BillSectionHeader>
+<P>(2) The department may fund projects and activities that include but are not limited to:</P>
+<P>(a) Project-specific planning, design, and construction projects that reduce stormwater impacts from existing infrastructure and development. Grants must be made available to public and private entities for projects that reduce stormwater impacts from existing infrastructure and development, where there is a substantial water quality benefit and the project is not required by court order or required as a condition of a local or state permit;</P>
+<P>(b) Reducing the risk of flooding by restoring natural floodplain ecological functions, protecting against damage caused by floods, and protecting or restoring naturally functioning areas where floods occur, including modeling of projected flood risks;</P>
+<P>(c) Improving the availability and reliability of water supplies for instream and out-of-stream uses, including groundwater mapping and modeling;</P>
+<P>(d) Construction by the department of transportation of fish barrier correction projects at state highways required by the injunction entered in <TextRun fontStyle="italic">United States v. Washington (Civ No CV9213RSM)</TextRun>. Where the department determines that the amounts appropriated exceed the current biennial appropriation necessary to meet the overall timeline for compliance with the injunction, the department may provide funding for fish barrier correction projects on state or local roadways, with the highest priority for funding to be accorded to projects with the greatest restoration of fish habitat access. In making awards for projects not subject to the injunction, the department must obtain the recommendations of the fish passage barrier removal board created in RCW 77.95.160;</P>
+<P>(e) Projects to prepare for sea level rise and to restore and protect estuaries, fisheries, marine shoreline and inland habitats, including anadromous fish passage and habitat projects with a fair allocation of funding to all geographic regions of the state, and including small forest landowner fish passage barrier projects authorized under RCW 76.09.420; and</P>
+<P>(f) Increasing the ability to adapt to and remediate the impacts of ocean acidification. This may include the activities of the Kenneth K. Chew center for shellfish research and restoration. The department must consult with the recreation and conservation office, and the climate impacts group and ocean acidification center at the University of Washington in developing the implementation for investments under this subsection (2)(f).</P>
+<P>(3) The department must provide information about the projects when the government-to-government consultation with Indian tribes is conducted under section 802 of this act.</P>
+<P>(4) The department must adopt rigorous performance-based criteria and objectives for funding decisions, and incorporate project implementation monitoring and evaluation requirements into the projects. Examples of numeric performance criteria include the quantity of offstream water supplies made available or more secure during drought, the number of rivers and streams meeting minimum flow standards, miles of river and stream habitat made available through passage barrier removals, and the number of municipal stormwater discharges meeting state and federal standards.</P>
+<P>(5) The department must utilize the cumulative impact analysis in section 502 of this act when developing the implementation plan and prioritize funding and investments to benefit highly impacted communities.</P>
+<P>(6) The department must require annual progress reports by all recipients of funding under this section, and provide summaries of those reports and assessment of achievement of the performance-based criteria and objectives to the joint committee on climate programs oversight created under section 801 of this act at such intervals as the committee requests.</P>
+<P>(7) The department must consult with the climate impacts group at the University of Washington, establish a citizen advisory group to provide input on the development of project funding criteria and project funding decisions, and must seek input from the panel created under section 805 of this act.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>603</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>NATURAL RESOURCES-RELATED PROJECTS AND ACTIVITIES.</SectionCaption><P>(1) From funds appropriated by the legislature from the account created in section 601 of this act, the department of natural resources may undertake or contract for, and provide grants and loans for natural resources-related projects and activities described in this section. The department must develop an implementation plan for such expenditures using extensive public involvement and considering the best available science on climate risks, resilience, and risk management. The department must consult with appropriate state agencies, Indian tribes, and the climate impacts group at the University of Washington in developing the implementation plan and funding criteria.</P></BillSectionHeader>
+<P>(2)(a) Funds appropriated by the legislature from the forest resilience account must be used to improve forest and natural lands health and resilience to the impacts of climate change. The projects and activities that may be funded include but are not limited to thinning or prescribed fires, with priority given to projects prioritized subject to RCW 76.06.200 and 79.10.530 across any combination of voluntarily participating local, state, federal, tribal, and private ownerships that accommodates the management objectives of the landowner.</P>
+<P>(b) The department of natural resources must consider the benefits of supporting cross-laminated timber and other mass timber technologies in its funding decisions and attempt to prioritize projects that help develop mass timber investment opportunities.</P>
+<P>(c) The department must utilize the forest health advisory committee established in RCW 76.06.200 for input on forest health projects funded under this section.</P>
+<P>(d) Nothing in this section provides a basis for regulations or nonvoluntary participation.</P>
+<P>(3) The department of natural resources in partnership with the board for community and technical colleges will develop a center of excellence to research and promote renewable forest products and research to improve forest health and reduce fire risk.</P>
+<P>(4) Funds appropriated by the legislature from the fire prevention and suppression account may be used to undertake agency activities and provide grants that go beyond existing state efforts for:</P>
+<P>(a) Wildland fire prevention;</P>
+<P>(b) Projects and activities that reduce the risk of wildland fires to communities and improve their ability to adapt to wildfires; and</P>
+<P>(c) Supporting fire prevention, suppression, and recovery for tribal communities impacted and potentially impacted by wildfires.</P>
+<P>(5) The department of natural resources must adopt rigorous performance-based criteria and objectives for funding decisions, and incorporate project implementation monitoring and evaluation requirements into projects funded under this section other than to the state board for community and technical colleges. Examples of numeric performance criteria include the number of acres thinned or otherwise treated to improve forest health, acres of forest for which wildland fire prevention measures have been implemented, and the number of communities in the wildland urban interface for which wildfire resilience and defense measures have been implemented.</P>
+<P>(6) The department of natural resources must utilize the cumulative impact analysis in section 502 of this act and ensure expenditures prioritize highly impacted communities.</P>
+<P>(7) The department of natural resources must require annual progress reports by all recipients of funding under this section other than the state board for community and technical colleges, and must also periodically summarize the department's activities. It must submit those reports and an assessment of the achievement of the performance-based criteria and objectives to the joint committee on climate programs oversight created under section 801 of this act at such intervals as the committee requests.</P>
+<P>(8) The department of natural resources may not provide funding to projects that would violate tribal rights or result in significant long-term damage to critical habitat or ecological functions. The department must provide information about the projects when the government-to-government consultation with Indian tribes is conducted under section 802 of this act.</P>
+<P>(9) The department of natural resources must consult with the climate impacts group at the University of Washington and seek input from the panel created under section 805 of this act in the development of the funding program and in the review and selection of projects to be funded under this section. The department may also obtain input from existing advisory groups, including the forest health and wildland fire advisory committees created under RCW 76.06.200 and 76.04.179.</P>
+</BillSection>
+<Part>
+<P>Part VII</P>
+<P>Rural Economic Development Account</P>
+</Part>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value fixed="true">701</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>31</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<SectionCaption>RURAL ECONOMIC DEVELOPMENT ACCOUNT.</SectionCaption>
+<P>(1) The rural economic development account is created in the state treasury. The account must receive moneys distributed to the account from the carbon pollution reduction account created in section 107 of this act as well as other moneys directed to the account by the legislature. Moneys in the account may only be used for the purposes described in this section, and may only be spent after appropriation.</P>
+<P>(2) Using funds appropriated from the account, the department must provide assistance to rural communities. The assistance may include support for low carbon innovation and entrepreneurship, providing for increased affordable transportation options and services, partnerships and investments that enhance rural economic and natural resource resilience related to reducing greenhouse gas emissions, and encouraging telecommuting by funding the expansion of broadband and telecommunication services as provided under section 702 of this act.</P>
+<P>(3) The department must develop a grant application process to competitively select small businesses as defined under RCW 19.85.020(3) to receive grant awards to assist with projects eligible for funding under the energy transformation account in section 401 of this act. The department must utilize the cumulative impact analysis in section 502 of this act and ensure expenditures prioritize highly impacted communities and consult with the economic and environmental justice oversight panel in section 805 of this act when designing and awarding grants under this subsection.</P>
+<P>(4)(a) The state board for community and technical colleges must use funds deposited into this account to establish two clean energy centers for excellence in the state community and technical college system located in rural counties, with one center each devoted to:</P>
+<P>(i) Renewable energy integration and generation; and</P>
+<P>(ii) Smart grid technology and the next generation of hydropower resources.</P>
+<P>(b) The centers must work with industry to ensure their program offerings are aligned with local employer needs. In addition, the state's energy research institutions must facilitate research and development, help attract investment in clean energy, and promote clean energy jobs across a range of sectors.</P>
+<P>(5) The department may adopt rules necessary to implement this section.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>702</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>RURAL BROADBAND.</SectionCaption><P>The legislature intends that the sum of thirty million dollars, or as much thereof as may be necessary, be appropriated for the fiscal year ending June 30, 2020, from the rural economic development account to the department of commerce for the purpose of providing local governments, communities, public and private entities, federally recognized tribes, and consumer-owned and investor-owned energy utilities to develop strategies and plans for deployment of broadband infrastructure and access to broadband services to unserved and underserved areas of the state.</P></BillSectionHeader>
+</BillSection>
+<Part>
+<P>Part VIII</P>
+<P>Oversight of Climate Programs</P>
+</Part>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value fixed="true">801</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>JOINT COMMITTEE ON CLIMATE PROGRAMS OVERSIGHT.</SectionCaption><P>(1) The joint committee on climate programs oversight is created. The committee must consist of:</P></BillSectionHeader>
+<P>(a) The governor or the governor's designee;</P>
+<P>(b) The commissioner of public lands or the commissioner's designee;</P>
+<P>(c) The state auditor or the auditor's designee;</P>
+<P>(d) Two members of the senate, appointed by the president of the senate, one from each major political party; and</P>
+<P>(e) Two members of the house of representatives, appointed by the speaker, one from each major political party.</P>
+<P>(2) The committee must select a chair from among its members. The committee must have staff support from the senate and house of representatives. All state agencies must provide information and assistance as requested by the committee in order to perform its responsibilities.</P>
+<P>(3) The committee is responsible for ongoing review of the implementation of the carbon pollution tax and funding from the revenues of that tax to ensure the fairest, most efficient, and timely achievement of objectives in this act regarding greenhouse gas emissions reductions, transition assistance, jobs development, and climate resilience. The committee's responsibilities include but are not limited to:</P>
+<P>(a) Reviewing the report by the department of commerce under section 105 of this act;</P>
+<P>(b) Reviewing the plans for implementing the funding programs authorized in sections 401, 501, 601, and 701 of this act;</P>
+<P>(c) Reviewing the criteria for funding allocations and project award decisions;</P>
+<P>(d) Reviewing project and activity funding decisions as well as summary reports and information regarding implementing projects;</P>
+<P>(e) Reviewing compliance of consultation requirements and providing recommendations for how implementation can come into compliance; and</P>
+<P>(f) Providing recommendations for standards by which to measure emissions reductions outcomes from investments of funds under sections 205 and 304 of this act.</P>
+<P>(4) The committee may contract for independent evaluative expertise in its review of the performance of the carbon pollution tax and funding programs in meeting this act's objectives regarding greenhouse gas emissions reductions, transition assistance, job creation, rural economic development, and climate resilience.</P>
+<P>(5) Beginning July 1, 2019, the committee must meet at least quarterly.</P>
+<P>(6) The committee has no appropriation authority.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>802</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>GOVERNMENT-TO-GOVERNMENT CONSULTATION.</SectionCaption><P>To ensure mutual respect for the rights, interests, and obligations of each sovereign Indian tribe, the governor must develop a framework for government-to-government consultation with Indian tribes consistent with the centennial accord, chapter 43.376 RCW, and applicable tribal policies. The consultation must ensure meaningful tribal involvement in the implementation of this act, including rule making, programmatic, and project level decisions. Within this framework, the governor at least once each year must invite all federally recognized Indian tribes with reserved rights within the geographical boundaries of the state to meet in government-to-government consultation. The governor must also invite the joint committee on climate programs oversight to the meeting. The purpose of the meeting is to share information, views, tribal knowledge and science, and recommendations regarding the progress of implementing the carbon pollution tax and providing funding from revenues of the tax to reduce emissions, to strengthen climate resilience in communities throughout the state, to strengthen climate resilience in the water and natural resources shared by all citizens in the state, and to ensure a just transition to a clean energy economy.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>803</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>INDIAN TRIBE CONSULTATION.</SectionCaption><P>(1) In order to achieve the goals set forth in this act, any state agency receiving carbon tax revenue must consult with Indian tribes on all decisions that may affect Indian tribes' rights and interests in their tribal lands. Such consultation must occur pursuant to chapter 43.376 RCW and must be independent of any public participation process required by state law, or by a state agency, and regardless of whether the agency receives a request for consultation from an Indian tribe. A consultation framework must be developed in coordination with tribal governments that includes best practices, protocols for communication, and collaboration with Indian tribes.</P></BillSectionHeader>
+<P>(2) No project that impacts tribal lands may be funded prior to meaningful consultation with affected Indian tribes. For projects that directly impact tribal lands, the goal of the consultation process is to obtain free, prior and informed consent for the project, and at the end of such consultation, the Indian tribe's government will provide the community climate advisory board created in section 804 of this act with a written resolution providing consent or withholding consent. If any project that impacts tribal lands is funded under this act without consultation with Indian tribes, an affected Indian tribe may request that all further action on the project cease until consultation with any directly impacted Indian tribe is completed.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>804</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>COMMUNITY CLIMATE ADVISORY BOARD.</SectionCaption><P>(1) The community climate advisory board is established within the executive office of the governor. The purpose of the board is to oversee implementation of this act toward reducing pollution and facilitating the transition to a clean energy economy equitably, sustainably, and efficiently.</P></BillSectionHeader>
+<P>(2)(a) The board must have twenty-one voting members. Voting members of the board must be appointed by the governor. The board must include, at a minimum, representatives from tribal, local government, business, environmental, labor, land conservation, and public health organizations. At least one-third of the appointees must be members of the panel established in section 805 of this act. The board may also appoint representatives from public agencies as nonvoting board members.</P>
+<P>(b) The governor must appoint members of the board by January 1, 2019. Any member appointed by the governor may be removed by the governor for cause. The governor must appoint board members to achieve a board membership with balanced representation by geography, gender, and ethnicity.</P>
+<P>(3) The board has the following powers and duties:</P>
+<P>(a) Providing advice and recommendations to the governor, the legislature, the oversight committee created in section 801 of this act, and state agencies regarding the implementation of this act, including evaluating biannually the tax imposed pursuant to section 102 of this act;</P>
+<P>(b) Monitoring the implementation of this act to ensure it furthers the intent and purposes of this act and does not lead to inequitable environmental or economic impacts, including but not limited to leakage of emissions related to energy-intensive trade-exposed manufacturing facilities; and</P>
+<P>(c) Reporting periodically to the legislature, the governor, and the oversight committee created in section 801 of this act on such matters.</P>
+<P>(4) Members of the board who are not state employees are entitled to reimbursement for expenses related to the work of the board as a class one group under RCW 43.03.220.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>805</Value><TextRun>.  </TextRun></BillSectionNumber><Department>ECONOMIC AND ENVIRONMENTAL JUSTICE OVERSIGHT PANEL.</Department> (1) An economic and environmental justice oversight panel is established as a subcommittee of the advisory board created in section 804 of this act. The board will appoint the panel members consistent with this section, and the panel will coordinate its work with the governor's office, the department of commerce, the department of health, and other state departments or divisions as the governor may determine. The membership of the panel must consist of at least nine persons, based on the nomination of statewide organizations that represent the following interests:</BillSectionHeader>
+<P>(a) Five or more members, representing vulnerable populations and residing in highly impacted communities, as identified in section 502 of this act;</P>
+<P>(b) Two members representing union labor with expertise in economic dislocation, clean energy economy, or energy-intensive trade-exposed facilities; and</P>
+<P>(c) Two members representing tribal governments.</P>
+<P>(2) The purpose of the panel is to:</P>
+<P>(a) Provide a forum for analysis of whether the policies adopted in this act lead to improvements within highly impacted communities. This subcommittee must also advise the board created in section 804 of this act in the performance of its responsibilities;</P>
+<P>(b) Make recommendations on the cumulative impact analysis and highly impacted communities designation required by section 502 of this act;</P>
+<P>(c) Make recommendations on the investment allocations authorized by parts II through VII of this act, including its evaluation of the projected performance of the investments to meet the criteria and objectives developed in specific implementation plans;</P>
+<P>(d) Evaluate the level of funding provided to assist low-income individuals and displaced workers under part V of this act and the funding of projects and activities located within or benefiting highly impacted communities designated under section 502 of this act; and</P>
+<P>(e) Provide recommendations to implementation agencies for meaningful consultation with vulnerable populations.</P>
+<P>(3) The panel must conduct an evaluation of the economic impacts of the emissions tax imposed under section 102 of this act on low and middle-income households and vulnerable populations, including communities of color and indigenous communities. The panel's evaluation must include a summary of projected household economic impacts of the emissions tax in the first decade of its implementation, the projected impacts of investments in parts II through VII of this act, including assistance directed to low-income populations in part V of this act, and provide recommendations to reduce any disproportionate impact upon low and middle-income households, either through revisions in the tax or through measures that mitigate for that impact. The evaluation must also include an assessment of expenditures for light rail versus other mass transit options by individuals living in disadvantaged communities. The report must include recommendations to reduce the regressivity of the carbon pollution tax through transit-related options such as providing free or reduced-price transit passes or ridership. The panel's report must be provided to the legislature, in compliance with RCW 43.01.036, not later than December 31, 2020. The panel may collaborate with the caseload forecast council to include its evaluation and recommendations in a general disproportionality report provided by the council to the legislature pursuant to section 2, chapter . . ., Laws of 2018 (Engrossed Substitute Senate Bill No. 5588).</P>
+</BillSection>
+<Part>
+<P>Part IX</P>
+<P>Preemption</P>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value fixed="true">901</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) No state agency may adopt or enforce a statewide program that sets a greenhouse gas emissions cap or charge except as provided in this chapter.</P></BillSectionHeader>
+<P>(2) As of the effective date of this section, chapter 173-442 WAC (the clean air rule) and associated amendments to chapter 173-441 WAC previously adopted by the department of ecology may not be enforced by the department of ecology. Nothing in this subsection acknowledges, establishes, or creates legal authority for the department of ecology or any other state agency to enact, adopt, order, or in any way implement a rule or policy establishing a statewide limit, cap, or standard to control the amount of greenhouse gas emissions occurring during a period of time.</P>
+<P>(3) For the purposes of this section, "cap" means a statewide aggregate emission limit that applies to one or more economic sectors and that requires the designated entities responsible for emissions within those sectors to keep their cumulative emissions at or below the level of the aggregate limit.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>902</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) The carbon pollution tax levied in section 102 of this act is in lieu of any carbon tax upon the sale or use within this state of all fossil fuels, including fossil fuels used in generating electricity and the retail sale or consumption within this state of electricity generated through the combustion of fossil fuels. No city, town, county, township, or other subdivision or municipal corporation of the state may levy or collect any comparable carbon tax or charge upon the sale or use within this state of all fossil fuels, including fossil fuels used in generating electricity and the retail sale or consumption within this state of electricity generated through the combustion of fossil fuels.</P></BillSectionHeader>
+<P>(2) No city, town, county, township, or other subdivision or municipal corporation of the state may levy any tax of any kind whatsoever on amounts received by any person with respect to a carbon pollution tax liability imposed under the provisions of the carbon pollution tax act. This restriction is not imposed upon federally recognized Indian tribes and this section places no restriction on the ability of such tribes to institute a comparable tribal tax within tribal lands.</P>
+</BillSection>
+</Part>
+<Part>
+<P>Part X</P>
+<P>Incremental Electricity</P>
+</Part>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value fixed="true">1001</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>19</TitleNumber><TextRun>.</TextRun><ChapterNumber>285</ChapterNumber><TextRun>.</TextRun><SectionNumber>030</SectionNumber></SectionCite> and 2017 c 315 s 1 are each amended to read as follows:<Caption>Definitions.</Caption></BillSectionHeader>
+<P>The definitions in this section apply throughout this chapter unless the context clearly requires otherwise.</P>
+<P>(1) "Attorney general" means the Washington state office of the attorney general.</P>
+<P>(2) "Auditor" means: (a) The Washington state auditor's office or its designee for qualifying utilities under its jurisdiction that are not investor<Hyphen type="nobreak" />owned utilities; or (b) an independent auditor selected by a qualifying utility that is not under the jurisdiction of the state auditor and is not an investor<Hyphen type="nobreak" />owned utility.</P>
+<P>(3)(a) "Biomass energy" includes: (i) Organic by-products of pulping and the wood manufacturing process; (ii) animal manure; (iii) solid organic fuels from wood; (iv) forest or field residues; (v) untreated wooden demolition or construction debris; (vi) food waste and food processing residuals; (vii) liquors derived from algae; (viii) dedicated energy crops; and (ix) yard waste.</P>
+<P>(b) "Biomass energy" does not include: (i) Wood pieces that have been treated with chemical preservatives such as creosote, pentachlorophenol, or copper-chrome-arsenic; (ii) wood from old growth forests; or (iii) municipal solid waste.</P>
+<P>(4) "Coal transition power" has the same meaning as defined in RCW 80.80.010.</P>
+<P>(5) "Commission" means the Washington state utilities and transportation commission.</P>
+<P>(6) "Conservation" means any reduction in electric power consumption resulting from increases in the efficiency of energy use, production, or distribution.</P>
+<P>(7) "Cost-effective" has the same meaning as defined in RCW 80.52.030.</P>
+<P>(8) "Council" means the Washington state apprenticeship and training council within the department of labor and industries.</P>
+<P>(9) "Customer" means a person or entity that purchases electricity for ultimate consumption and not for resale.</P>
+<P>(10) "Department" means the department of commerce or its successor.</P>
+<P>(11) "Distributed generation" means an eligible renewable resource where the generation facility or any integrated cluster of such facilities has a generating capacity of not more than five megawatts.</P>
+<P>(12) "Eligible renewable resource" means:</P>
+<P>(a) Electricity from a generation facility powered by a renewable resource other than freshwater that commences operation after March 31, 1999, where: (i) The facility is located in the Pacific Northwest; or (ii) the electricity from the facility is delivered into Washington state on a real<Hyphen type="nobreak" />time basis without shaping, storage, or integration services;</P>
+<P>(b) Incremental electricity produced as a result of efficiency improvements completed after March 31, 1999, to hydroelectric generation projects owned by a qualifying utility and located in the Pacific Northwest where the additional generation does not result in new water diversions or impoundments;</P>
+<P>(c) Hydroelectric generation from a project completed after March 31, 1999, where the generation facility is located in irrigation pipes, irrigation canals, water pipes whose primary purpose is for conveyance of water for municipal use, and wastewater pipes located in Washington where the generation does not result in new water diversions or impoundments;</P>
+<P>(d) Qualified biomass energy;</P>
+<P>(e) For a qualifying utility that serves customers in other states, electricity from a generation facility powered by a renewable resource other than freshwater that commences operation after March 31, 1999, where: (i) The facility is located within a state in which the qualifying utility serves retail electrical customers; and (ii) the qualifying utility owns the facility in whole or in part or has a long-term contract with the facility of at least twelve months or more; <TextRun amendingStyle="strike">or</TextRun></P>
+<P>(f)(i) Incremental electricity produced as a result of a capital investment completed after January 1, 2010, that increases, relative to a baseline level of generation prior to the capital investment, the amount of electricity generated in a facility that generates qualified biomass energy as defined under subsection (18)(c)(ii) of this section and that commenced operation before March 31, 1999<TextRun amendingStyle="add">.</TextRun></P>
+<P>(ii) Beginning January 1, 2007, the facility must demonstrate its baseline level of generation over a three-year period prior to the capital investment in order to calculate the amount of incremental electricity produced.</P>
+<P>(iii) The facility must demonstrate that the incremental electricity resulted from the capital investment, which does not include expenditures on operation and maintenance in the normal course of business, through direct or calculated measurement<TextRun amendingStyle="add">;</TextRun></P>
+<P><TextRun amendingStyle="add">(g) That portion of incremental electricity produced as a result of efficiency improvements completed after March 31, 1999, attributable to a qualifying utility's share of the electricity output from hydroelectric generation projects whose energy output is marketed by the Bonneville power administration where the additional generation does not result in new water diversions or impoundments; or</TextRun></P>
+<P><TextRun amendingStyle="add">(h) The environmental attributes, including renewable energy credits, from (g) of this subsection transferred to investor-owned utilities pursuant to the Bonneville power administration's residential exchange program</TextRun>.</P>
+<P>(13) "Investor-owned utility" has the same meaning as defined in RCW 19.29A.010.</P>
+<P>(14) "Load" means the amount of kilowatt-hours of electricity delivered in the most recently completed year by a qualifying utility to its Washington retail customers.</P>
+<P>(15)(a) "Nonpower attributes" means all environmentally related characteristics, exclusive of energy, capacity reliability, and other electrical power service attributes, that are associated with the generation of electricity from a renewable resource, including but not limited to the facility's fuel type, geographic location, vintage, qualification as an eligible renewable resource, and avoided emissions of pollutants to the air, soil, or water, and avoided emissions of carbon dioxide and other greenhouse gases.</P>
+<P>(b) "Nonpower attributes" does not include any aspects, claims, characteristics, and benefits associated with the on-site capture and destruction of methane or other greenhouse gases at a facility through a digester system, landfill gas collection system, or other mechanism, which may be separately marketable as greenhouse gas emission reduction credits, offsets, or similar tradable commodities. However, these separate avoided emissions may not result in or otherwise have the effect of attributing greenhouse gas emissions to the electricity.</P>
+<P>(16) "Pacific Northwest" has the same meaning as defined for the Bonneville power administration in section 3 of the Pacific Northwest electric power planning and conservation act (94 Stat. 2698; 16 U.S.C. Sec. 839a).</P>
+<P>(17) "Public facility" has the same meaning as defined in RCW 39.35C.010.</P>
+<P>(18) "Qualified biomass energy" means electricity produced from a biomass energy facility that: (a) Commenced operation before March 31, 1999; (b) contributes to the qualifying utility's load; and (c) is owned either by: (i) A qualifying utility; or (ii) an industrial facility that is directly interconnected with electricity facilities that are owned by a qualifying utility and capable of carrying electricity at transmission voltage.</P>
+<P>(19) "Qualifying utility" means an electric utility, as the term "electric utility" is defined in RCW 19.29A.010, that serves more than twenty<Hyphen type="nobreak" />five thousand customers in the state of Washington. The number of customers served may be based on data reported by a utility in form 861, "annual electric utility report," filed with the energy information administration, United States department of energy.</P>
+<P>(20) "Renewable energy credit" means a tradable certificate of proof<TextRun amendingStyle="add">, except as provided in RCW 19.285.040(2)(m),</TextRun> of at least one megawatt-hour of an eligible renewable resource where<TextRun amendingStyle="add">, except as provided in subsection (12)(h) of this section,</TextRun> the generation facility is not powered by freshwater. The certificate includes all of the nonpower attributes associated with that one megawatt-hour of electricity, and the certificate is verified by a renewable energy credit tracking system selected by the department.</P>
+<P>(21) "Renewable resource" means: (a) Water; (b) wind; (c) solar energy; (d) geothermal energy; (e) landfill gas; (f) wave, ocean, or tidal power; (g) gas from sewage treatment facilities; (h) biodiesel fuel as defined in RCW 82.29A.135 that is not derived from crops raised on land cleared from old growth or first-growth forests where the clearing occurred after December 7, 2006; or (i) biomass energy.</P>
+<P>(22) "Rule" means rules adopted by an agency or other entity of Washington state government to carry out the intent and purposes of this chapter.</P>
+<P>(23) "Year" means the twelve-month period commencing January 1st and ending December 31st.</P>
+<History>2014 c 45 § 1. Prior: 2013 c 158 § 1; 2013 c 99 § 1; 2013 c 61 § 1; prior: 2012 c 22 § 2; 2009 c 565 § 20; 2007 c 1 § 3 (Initiative Measure No. 937, approved November 7, 2006).</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Findings<TextRun fontFamily="Times New Roman">—</TextRun>Intent<TextRun fontFamily="Times New Roman">—</TextRun>2012 c 22:</TextRun> "(1) The legislature finds that: (a) Pulping liquors can be used to reduce harmful pollution and produce electricity and thermal energy that enables pulp and paper facilities to be highly energy efficient; (b) biomass facilities and pulp and paper mills are typically located in communities that are disproportionately affected by economic downturns; (c) mill closures have occurred throughout the state for more than a decade and the remaining ones have become all the more dependent on selling wood residuals, which are used for electricity generation, in order to sustain their economic viability; (d) employment at pulp and paper mills in the state has also declined significantly, most recently in Grays Harbor and Snohomish counties; (e) wood derived biomass is a renewable fuel for generating electricity and considered carbon-neutral under the laws of the state of Washington; and (f) using food processing residues, food waste, and yard waste to generate renewable electricity can benefit rural economies, decrease the amount of solid waste that requires disposal, and reduce greenhouse gas emissions that result from organic decay.</NoteP><NoteP>(2) The legislature declares that, by promoting the generation of renewable energy from biomass, particularly in economically distressed communities, it intends to ensure greater economic stability for the communities that have suffered heavy job losses and chronic unemployment.</NoteP><NoteP>(3) The legislature further declares that: (a) The owners of qualified biomass energy facilities that must comply with the renewable energy standards under the energy independence act of 2006, either as a matter of law or contractual obligation, should be permitted to use qualified biomass energy credits to meet their obligations; and (b) electricity that is generated by a biomass energy facility that entered commercial operation after March 31, 1999, from the combustion of organic by-products of pulping and the wood manufacturing process should be treated as an eligible renewable resource." [2012 c 22 § 1.]</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1002</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>19</TitleNumber><TextRun>.</TextRun><ChapterNumber>285</ChapterNumber><TextRun>.</TextRun><SectionNumber>040</SectionNumber></SectionCite> and 2017 c 315 s 2 are each amended to read as follows:<Caption>Energy conservation and renewable energy targets.</Caption></BillSectionHeader>
+<P>(1) Each qualifying utility <TextRun amendingStyle="strike">shall</TextRun> <TextRun amendingStyle="add">must</TextRun> pursue all available conservation that is cost-effective, reliable, and feasible.</P>
+<P>(a) By January 1, 2010, using methodologies consistent with those used by the Pacific Northwest electric power and conservation planning council in the most recently published regional power plan as it existed on June 12, 2014, or a subsequent date as may be provided by the department or the commission by rule, each qualifying utility <TextRun amendingStyle="strike">shall</TextRun> <TextRun amendingStyle="add">must</TextRun> identify its achievable cost-effective conservation potential through 2019. Nothing in the rule adopted under this subsection precludes a qualifying utility from using its utility specific conservation measures, values, and assumptions in identifying its achievable cost-effective conservation potential. At least every two years thereafter, the qualifying utility <TextRun amendingStyle="strike">shall</TextRun> <TextRun amendingStyle="add">must</TextRun> review and update this assessment for the subsequent ten-year period.</P>
+<P>(b) Beginning January 2010, each qualifying utility <TextRun amendingStyle="strike">shall</TextRun> <TextRun amendingStyle="add">must</TextRun> establish and make publicly available a biennial acquisition target for cost-effective conservation consistent with its identification of achievable opportunities in (a) of this subsection, and meet that target during the subsequent two-year period. At a minimum, each biennial target must be no lower than the qualifying utility's pro rata share for that two-year period of its cost-effective conservation potential for the subsequent ten-year period.</P>
+<P>(c)(i) Except as provided in (c)(ii) and (iii) of this subsection, beginning on January 1, 2014, cost-effective conservation achieved by a qualifying utility in excess of its biennial acquisition target may be used to help meet the immediately subsequent two biennial acquisition targets, such that no more than twenty percent of any biennial target may be met with excess conservation savings.</P>
+<P>(ii) Beginning January 1, 2014, a qualifying utility may use single large facility conservation savings in excess of its biennial target to meet up to an additional five percent of the immediately subsequent two biennial acquisition targets, such that no more than twenty-five percent of any biennial target may be met with excess conservation savings allowed under all of the provisions of this section combined. For the purposes of this subsection (1)(c)(ii), "single large facility conservation savings" means cost-effective conservation savings achieved in a single biennial period at the premises of a single customer of a qualifying utility whose annual electricity consumption prior to the conservation savings exceeded five average megawatts.</P>
+<P>(iii) Beginning January 1, 2012, and until December 31, 2017, a qualifying utility with an industrial facility located in a county with a population between ninety-five thousand and one hundred fifteen thousand that is directly interconnected with electricity facilities that are capable of carrying electricity at transmission voltage<TextRun amendingStyle="strike">,</TextRun> may use cost-effective conservation from that industrial facility in excess of its biennial acquisition target to help meet the immediately subsequent two biennial acquisition targets, such that no more than twenty-five percent of any biennial target may be met with excess conservation savings allowed under all of the provisions of this section combined.</P>
+<P>(d) In meeting its conservation targets, a qualifying utility may count high-efficiency cogeneration owned and used by a retail electric customer to meet its own needs. High-efficiency cogeneration is the sequential production of electricity and useful thermal energy from a common fuel source, where, under normal operating conditions, the facility has a useful thermal energy output of no less than thirty-three percent of the total energy output. The reduction in load due to high-efficiency cogeneration <TextRun amendingStyle="strike">shall</TextRun> <TextRun amendingStyle="add">must</TextRun> be: (i) Calculated as the ratio of the fuel chargeable to power heat rate of the cogeneration facility compared to the heat rate on a new and clean basis of a best<Hyphen type="nobreak" />commercially available technology combined<Hyphen type="nobreak" />cycle natural gas<Hyphen type="nobreak" />fired combustion turbine; and (ii) counted towards meeting the biennial conservation target in the same manner as other conservation savings.</P>
+<P>(e) The commission may determine if a conservation program implemented by an investor-owned utility is cost<Hyphen type="nobreak" />effective based on the commission's policies and practice.</P>
+<P>(f) The commission may rely on its standard practice for review and approval of investor<Hyphen type="nobreak" />owned utility conservation targets.</P>
+<P>(2)(a) Except as provided in (j) <TextRun amendingStyle="add">and (l)</TextRun> of this subsection, each qualifying utility <TextRun amendingStyle="strike">shall</TextRun> <TextRun amendingStyle="add">must</TextRun> use eligible renewable resources or acquire equivalent renewable energy credits, or any combination of them, to meet the following annual targets:</P>
+<P>(i) At least three percent of its load by January 1, 2012, and each year thereafter through December 31, 2015;</P>
+<P>(ii) At least nine percent of its load by January 1, 2016, and each year thereafter through December 31, 2019; and</P>
+<P>(iii) At least fifteen percent of its load by January 1, 2020, and each year thereafter.</P>
+<P>(b) A qualifying utility may count distributed generation at double the facility's electrical output if the utility: (i) Owns or has contracted for the distributed generation and the associated renewable energy credits; or (ii) has contracted to purchase the associated renewable energy credits.</P>
+<P>(c) In meeting the annual targets in (a) of this subsection, a qualifying utility <TextRun amendingStyle="strike">shall</TextRun> <TextRun amendingStyle="add">must</TextRun> calculate its annual load based on the average of the utility's load for the previous two years.</P>
+<P>(d) A qualifying utility <TextRun amendingStyle="strike">shall be</TextRun> <TextRun amendingStyle="add">is</TextRun> considered in compliance with an annual target in (a) of this subsection if: (i) The utility's weather-adjusted load for the previous three years on average did not increase over that time period; (ii) after December 7, 2006, the utility did not commence or renew ownership or incremental purchases of electricity from resources other than coal transition power or renewable resources other than on a daily spot price basis and the electricity is not offset by equivalent renewable energy credits; and (iii) the utility invested at least one percent of its total annual retail revenue requirement that year on eligible renewable resources, renewable energy credits, or a combination of both.</P>
+<P>(e) The requirements of this section may be met for any given year with renewable energy credits produced during that year, the preceding year, or the subsequent year. Each renewable energy credit may be used only once to meet the requirements of this section.</P>
+<P>(f) In complying with the targets established in (a) of this subsection, a qualifying utility may not count:</P>
+<P>(i) Eligible renewable resources or distributed generation where the associated renewable energy credits are owned by a separate entity; or</P>
+<P>(ii) Eligible renewable resources or renewable energy credits obtained for and used in an optional pricing program such as the program established in RCW 19.29A.090.</P>
+<P>(g) Where fossil and combustible renewable resources are cofired in one generating unit located in the Pacific Northwest where the cofiring commenced after March 31, 1999, the unit <TextRun amendingStyle="strike">shall be</TextRun> <TextRun amendingStyle="add">is</TextRun> considered to produce eligible renewable resources in direct proportion to the percentage of the total heat value represented by the heat value of the renewable resources.</P>
+<P>(h)(i) A qualifying utility that acquires an eligible renewable resource or renewable energy credit may count that acquisition at one and two-tenths times its base value:</P>
+<P>(A) Where the eligible renewable resource comes from a facility that commenced operation after December 31, 2005; and</P>
+<P>(B) Where the developer of the facility used apprenticeship programs approved by the council during facility construction.</P>
+<P>(ii) The council <TextRun amendingStyle="strike">shall</TextRun> <TextRun amendingStyle="add">must</TextRun> establish minimum levels of labor hours to be met through apprenticeship programs to qualify for this extra credit.</P>
+<P>(i) A qualifying utility <TextRun amendingStyle="strike">shall be</TextRun> <TextRun amendingStyle="add">is</TextRun> considered in compliance with an annual target in (a) of this subsection if events beyond the reasonable control of the utility that could not have been reasonably anticipated or ameliorated prevented it from meeting the renewable energy target. Such events include weather<Hyphen type="nobreak" />related damage, mechanical failure, strikes, lockouts, and actions of a governmental authority that adversely affect the generation, transmission, or distribution of an eligible renewable resource under contract to a qualifying utility.</P>
+<P>(j)(i) Beginning January 1, 2016, only a qualifying utility that owns or is directly interconnected to a qualified biomass energy facility may use qualified biomass energy to meet its compliance obligation under this subsection.</P>
+<P>(ii) A qualifying utility may no longer use electricity and associated renewable energy credits from a qualified biomass energy facility if the associated industrial pulping or wood manufacturing facility ceases operation other than for purposes of maintenance or upgrade.</P>
+<P>(k) An industrial facility that hosts a qualified biomass energy facility may only transfer or sell renewable energy credits associated with qualified biomass energy generated at its facility to the qualifying utility with which it is directly interconnected with facilities owned by such a qualifying utility and that are capable of carrying electricity at transmission voltage. The qualifying utility may only use an amount of renewable energy credits associated with qualified biomass energy that are equivalent to the proportionate amount of its annual targets under (a)(ii) and (iii) of this subsection that was created by the load of the industrial facility. A qualifying utility that owns a qualified biomass energy facility may not transfer or sell renewable energy credits associated with qualified biomass energy to another person, entity, or qualifying utility.</P>
+<P><TextRun amendingStyle="add">(l) Beginning January 1, 2019, a qualifying utility may use eligible renewable resources as identified under RCW 19.285.030(12) (g) and (h) to meet its compliance obligation under this subsection (2). A qualifying utility may not transfer or sell these eligible renewable resources to another utility for compliance purposes under this chapter.</TextRun></P>
+<P><TextRun amendingStyle="add">(m) Renewable energy credits allocated under RCW 19.285.030(12)(h) may not be transferred or sold to another qualifying utility for compliance under this chapter.</TextRun></P>
+<P>(3) Utilities that become qualifying utilities after December 31, 2006, <TextRun amendingStyle="strike">shall</TextRun> <TextRun amendingStyle="add">must</TextRun> meet the requirements in this section on a time frame comparable in length to that provided for qualifying utilities as of December 7, 2006.</P>
+</BillSection>
+<Part>
+<P>Part XI</P>
+<P>Miscellaneous Provisions</P>
+</Part>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value fixed="true">1101</Value><TextRun>.  </TextRun></BillSectionNumber><P>The provisions of RCW 82.32.805 and 82.32.808 do not apply to this act.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addchap">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1102</Value><TextRun>.  </TextRun></BillSectionNumber><P>Part I of this act constitutes a new chapter in <TitleCite><TextRun>Title </TextRun><TitleNumber>82</TitleNumber><TextRun> RCW</TextRun></TitleCite>.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addchap">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1103</Value><TextRun>.  </TextRun></BillSectionNumber><P>Sections 402, 501 through 506, and 702 of this act and parts II, III, VIII, and IX of this act constitute a new chapter in <TitleCite><TextRun>Title </TextRun><TitleNumber>43</TitleNumber><TextRun> RCW</TextRun></TitleCite>.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addchap">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1104</Value><TextRun>.  </TextRun></BillSectionNumber><P>Part VI of this act constitutes a new chapter in <TitleCite><TextRun>Title </TextRun><TitleNumber>70</TitleNumber><TextRun> RCW</TextRun></TitleCite>.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1105</Value><TextRun>.  </TextRun></BillSectionNumber><P>If any provision of this act or its application to any person or circumstance is held invalid, the remainder of the act or the application of the provision to other persons or circumstances is not affected.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="effdate">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1106</Value><TextRun>.  </TextRun></BillSectionNumber><P>Section 102 of this act takes effect July 1, 2019.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="effdate">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1107</Value><TextRun>.  </TextRun></BillSectionNumber><P>Sections 507 through 509 of this act take effect April 1, 2019.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="expdate">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1108</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>CONTINGENT EXPIRATION DATE.</SectionCaption><P>(1)(a) This act expires on the earlier of the date that any of the following statutes, rules, or measures takes effect:</P></BillSectionHeader>
+<P>(i) Any statewide law that places a charge, tax, or cap on the level of carbon emissions within the state; or</P>
+<P>(ii) A statewide initiative measure by the people that creates a charge, tax, or cap upon the emission of greenhouse gases that is imposed broadly upon those persons subject to the state carbon pollution tax imposed under section 102 of this act.</P>
+<P>(b) For the purposes of this section, "cap" means a statewide aggregate emission limit that applies to one or more economic sectors and that requires the designated entities responsible for emissions within those sectors to keep their cumulative emissions at or below the level of the aggregate limit.</P>
+<P>(2) The department must provide written notice of the expiration date of this act to affected parties, the chief clerk of the house of representatives, the secretary of the senate, the office of the code reviser, and others as deemed appropriate by the department.</P>
+</BillSection>
+</BillBody>
+</Bill>

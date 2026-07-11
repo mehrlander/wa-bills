@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-1158.2</RequestNumber><ShortBillId>HB 2061</ShortBillId><LongBillId>HOUSE BILL 2061</LongBillId><Legislature>66th Legislature</Legislature><Session>2019 Regular Session</Session><Sponsors>Representatives Dolan and Ryu</Sponsors><BillHistory><ReadDate>Read first time 02/15/19.</ReadDate><ReferredCommittee>Referred to Committee on Finance.</ReferredCommittee></BillHistory><BriefDescription>Concerning the creation of portability of the deceased spousal unused estate tax exclusion amount to benefit the surviving spouse with an estate tax rate adjustment to capture revenue forgone by the federal government.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to the creation of portability of the deceased spousal unused estate tax exclusion amount to benefit the surviving spouse with an estate tax rate adjustment to capture revenue forgone by the federal government; amending RCW 83.100.040, 83.100.050, and 83.100.095; reenacting and amending RCW 83.100.020; adding new sections to chapter 83.100 RCW; creating a new section; and providing an effective date.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="remd">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>83</TitleNumber><TextRun>.</TextRun><ChapterNumber>100</ChapterNumber><TextRun>.</TextRun><SectionNumber>020</SectionNumber></SectionCite> and 2013 2nd sp.s. c 2 s 2 are each reenacted and amended to read as follows:<Caption>Definitions.</Caption></BillSectionHeader>
+<P>The definitions in this section apply throughout this chapter unless the context clearly requires otherwise.</P>
+<P>(1)(a) "Applicable exclusion amount" means:</P>
+<P>(i) One million five hundred thousand dollars for decedents dying before January 1, 2006;</P>
+<P>(ii) Two million dollars for estates of decedents dying on or after January 1, 2006, and before January 1, 2014; and</P>
+<P>(iii) For estates of decedents dying in calendar year 2014 and each calendar year thereafter, the amount in (a)(ii) of this subsection must be adjusted annually, except as otherwise provided in this subsection (1)(a)(iii). The annual adjustment is determined by multiplying two million dollars by one plus the percentage by which the most recent October consumer price index exceeds the consumer price index for October 2012, and rounding the result to the nearest one thousand dollars. No adjustment is made for a calendar year if the adjustment would result in the same or a lesser applicable exclusion amount than the applicable exclusion amount for the immediately preceding calendar year. The applicable exclusion amount under this subsection (1)(a)(iii) for the decedent's estate is the applicable exclusion amount in effect as of the date of the decedent's death.</P>
+<P>(b) For purposes of this subsection, "consumer price index" means the consumer price index for all urban consumers, all items, for the Seattle<Hyphen type="nobreak" />Tacoma<Hyphen type="nobreak" />Bremerton metropolitan area as calculated by the United States bureau of labor statistics.</P>
+<P>(2) <TextRun amendingStyle="add">"Deceased spousal unused exclusion amount" means the portion of the applicable exclusion amount that was not needed to reduce the Washington taxable estate of the last deceased spouse of a surviving spouse to zero.</TextRun></P>
+<P><TextRun amendingStyle="add">(3)</TextRun> "Decedent" means a deceased individual.</P>
+<P><TextRun amendingStyle="strike">(3)</TextRun> <TextRun amendingStyle="add">(4)</TextRun> "Department" means the department of revenue, the director of that department, or any employee of the department exercising authority lawfully delegated to him or her by the director.</P>
+<P><TextRun amendingStyle="strike">(4)</TextRun> <TextRun amendingStyle="add">(5)</TextRun> "Federal return" means any tax return required by chapter 11 of the internal revenue code.</P>
+<P><TextRun amendingStyle="strike">(5)</TextRun> <TextRun amendingStyle="add">(6)</TextRun> "Federal tax" means a tax under chapter 11 of the internal revenue code.</P>
+<P><TextRun amendingStyle="strike">(6)</TextRun> <TextRun amendingStyle="add">(7)</TextRun> "Federal taxable estate" means the taxable estate as determined under chapter 11 of the internal revenue code without regard to: (a) The termination of the federal estate tax under section 2210 of the internal revenue code or any other provision of law, and (b) the deduction for state estate, inheritance, legacy, or succession taxes allowable under section 2058 of the internal revenue code.</P>
+<P><TextRun amendingStyle="strike">(7)</TextRun> <TextRun amendingStyle="add">(8)</TextRun> "Gross estate" means "gross estate" as defined and used in section 2031 of the internal revenue code.</P>
+<P><TextRun amendingStyle="strike">(8)</TextRun> <TextRun amendingStyle="add">(9)</TextRun> "Internal revenue code" means the United States internal revenue code of 1986, as amended or renumbered as of January 1, 2005.</P>
+<P><TextRun amendingStyle="strike">(9)</TextRun> <TextRun amendingStyle="add">(10)</TextRun> "Person" means any individual, estate, trust, receiver, cooperative association, club, corporation, company, firm, partnership, joint venture, syndicate, or other entity and, to the extent permitted by law, any federal, state, or other governmental unit or subdivision or agency, department, or instrumentality thereof.</P>
+<P><TextRun amendingStyle="strike">(10)</TextRun> <TextRun amendingStyle="add">(11)</TextRun> "Person required to file the federal return" means any person required to file a return required by chapter 11 of the internal revenue code, such as the personal representative of an estate.</P>
+<P><TextRun amendingStyle="strike">(11)</TextRun> <TextRun amendingStyle="add">(12)</TextRun> "Property" means property included in the gross estate.</P>
+<P><TextRun amendingStyle="strike">(12)</TextRun> <TextRun amendingStyle="add">(13)</TextRun> "Resident" means a decedent who was domiciled in Washington at time of death.</P>
+<P><TextRun amendingStyle="strike">(13)</TextRun> <TextRun amendingStyle="add">(14)</TextRun> "Taxpayer" means a person upon whom tax is imposed under this chapter, including an estate or a person liable for tax under RCW 83.100.120.</P>
+<P><TextRun amendingStyle="strike">(14)</TextRun> <TextRun amendingStyle="add">(15)</TextRun> "Transfer" means "transfer" as used in section 2001 of the internal revenue code and includes any shifting upon death of the economic benefit in property or any power or legal privilege incidental to the ownership or enjoyment of property. However, "transfer" does not include a qualified heir disposing of an interest in property qualifying for a deduction under RCW 83.100.046 or ceasing to use the property for farming purposes.</P>
+<P><TextRun amendingStyle="strike">(15)</TextRun> <TextRun amendingStyle="add">(16)</TextRun> "Washington taxable estate" means the federal taxable estate and includes, but is not limited to, the value of any property included in the gross estate under section 2044 of the internal revenue code, regardless of whether the decedent's interest in such property was acquired before May 17, 2005, (a) plus amounts required to be added to the Washington taxable estate under RCW 83.100.047, (b) less: (i) The applicable exclusion amount; (ii) the amount of any deduction allowed under RCW 83.100.046; (iii) amounts allowed to be deducted from the Washington taxable estate under RCW 83.100.047; <TextRun amendingStyle="strike">and</TextRun> (iv) the amount of any deduction allowed under RCW 83.100.048<TextRun amendingStyle="add">; and (v) the amount of any exclusion allowed under section 3 of this act</TextRun>.</P>
+<History>2013 2nd sp.s. c 2 § 2; 2013 c 23 § 341; 2005 c 516 § 2; 2001 c 320 § 15; 1999 c 358 § 19; 1998 c 292 § 401; 1994 c 221 § 70; 1993 c 73 § 9; 1990 c 224 § 1; 1988 c 64 § 2; 1981 2nd ex.s. c 7 § 83.100.020 (Initiative Measure No. 402, approved November 3, 1981).</History>
+<RCWNoteSection>
+<RevNote><NoteP><TextRun fontWeight="bold">Reviser's note:</TextRun> The definitions in this section have been alphabetized pursuant to RCW 1.08.015(2)(k).</NoteP></RevNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Application<TextRun fontFamily="Times New Roman">—</TextRun>Prospective and retroactive<TextRun fontFamily="Times New Roman">—</TextRun>2013 2nd sp.s. c 2 §§ 2 and 5:</TextRun> See note following RCW 83.100.047.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Findings<TextRun fontFamily="Times New Roman">—</TextRun>Intent<TextRun fontFamily="Times New Roman">—</TextRun>Final judgment<TextRun fontFamily="Times New Roman">—</TextRun>Affect<TextRun fontFamily="Times New Roman">—</TextRun>Effective dates<TextRun fontFamily="Times New Roman">—</TextRun>2013 2nd sp.s. c 2:</TextRun> See notes following RCW 83.100.048.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Finding<TextRun fontFamily="Times New Roman">—</TextRun>Intent<TextRun fontFamily="Times New Roman">—</TextRun>Application<TextRun fontFamily="Times New Roman">—</TextRun>Severability<TextRun fontFamily="Times New Roman">—</TextRun>Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2005 c 516:</TextRun> See notes following RCW 83.100.040.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2001 c 320:</TextRun> See note following RCW 11.02.005.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>1999 c 358 §§ 1 and 3-21:</TextRun> See note following RCW 82.04.3651.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective dates<TextRun fontFamily="Times New Roman">—</TextRun>1998 c 292:</TextRun> See RCW 11.11.903.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective dates<TextRun fontFamily="Times New Roman">—</TextRun>1994 c 221:</TextRun> See note following RCW 11.100.035.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>83</TitleNumber><TextRun>.</TextRun><ChapterNumber>100</ChapterNumber><TextRun>.</TextRun><SectionNumber>040</SectionNumber></SectionCite> and 2013 2nd sp.s. c 2 s 4 are each amended to read as follows:<Caption>Estate tax imposed<TextRun fontFamily="Times New Roman">—</TextRun>Amount of tax.</Caption></BillSectionHeader>
+<P pubwidth="wide">(1) <TextRun amendingStyle="add">This section applies only to the estates of decedents who die before January 1, 2020.</TextRun> A tax in an amount computed as provided in this section is imposed on every transfer of property located in Washington. For the purposes of this section, any intangible property owned by a resident is located in Washington.</P>
+<P postPadding="halfline" pubwidth="wide">(2)(a) Except as provided in (b) of this subsection, the amount of tax is the amount provided in the following table:</P>
+<Table width="508.0pt" align="center" fontSize="10pt" pubwidth="wide">
+<Col width="101pt" />
+<Col width="102pt" />
+<Col width="102pt" />
+<Col width="102pt" />
+<Col width="101pt" />
+<TR>
+<TD colspan="2" valign="bottom"><P /><P>If Washington Taxable</P></TD>
+<TD colspan="2" valign="bottom"><P /><P>The amount of Tax Equals</P></TD>
+<TD rowspan="2" valign="top"><P>Of Washington Taxable Estate Value Greater than</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P>Estate is at least</P></TD>
+<TD valign="top"><P>But Less Than</P></TD>
+<TD valign="top"><P>Initial Tax Amount</P></TD>
+<TD valign="top"><P>Plus Tax Rate %</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P>$0</P></TD>
+<TD valign="top"><P>$1,000,000</P></TD>
+<TD valign="top"><P>$0</P></TD>
+<TD valign="top"><P>10.00%</P></TD>
+<TD valign="top"><P>$0</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P>$1,000,000</P></TD>
+<TD valign="top"><P>$2,000,000</P></TD>
+<TD valign="top"><P>$100,000</P></TD>
+<TD valign="top"><P>14.00%</P></TD>
+<TD valign="top"><P>$1,000,000</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P>$2,000,000</P></TD>
+<TD valign="top"><P>$3,000,000</P></TD>
+<TD valign="top"><P>$240,000</P></TD>
+<TD valign="top"><P>15.00%</P></TD>
+<TD valign="top"><P>$2,000,000</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P>$3,000,000</P></TD>
+<TD valign="top"><P>$4,000,000</P></TD>
+<TD valign="top"><P>$390,000</P></TD>
+<TD valign="top"><P>16.00%</P></TD>
+<TD valign="top"><P>$3,000,000</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P>$4,000,000</P></TD>
+<TD valign="top"><P>$6,000,000</P></TD>
+<TD valign="top"><P>$550,000</P></TD>
+<TD valign="top"><P>18.00%</P></TD>
+<TD valign="top"><P>$4,000,000</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P>$6,000,000</P></TD>
+<TD valign="top"><P>$7,000,000</P></TD>
+<TD valign="top"><P>$910,000</P></TD>
+<TD valign="top"><P>19.00%</P></TD>
+<TD valign="top"><P>$6,000,000</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P>$7,000,000</P></TD>
+<TD valign="top"><P>$9,000,000</P></TD>
+<TD valign="top"><P>$1,100,000</P></TD>
+<TD valign="top"><P>19.50%</P></TD>
+<TD valign="top"><P>$7,000,000</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P>$9,000,000</P></TD>
+<TD valign="top"><P /></TD>
+<TD valign="top"><P>$1,490,000</P></TD>
+<TD valign="top"><P>20.00%</P></TD>
+<TD valign="top"><P>$9,000,000</P></TD>
+</TR>
+</Table>
+<P prePadding="halfline" pubwidth="wide">(b) If any property in the decedent's estate is located outside of Washington, the amount of tax is the amount determined in (a) of this subsection multiplied by a fraction. The numerator of the fraction is the value of the property located in Washington. The denominator of the fraction is the value of the decedent's gross estate. Property qualifying for a deduction under RCW 83.100.046 must be excluded from the numerator and denominator of the fraction.</P>
+<P pubwidth="wide">(3) The tax imposed under this section is a stand-alone estate tax that incorporates only those provisions of the internal revenue code as amended or renumbered as of January 1, 2005, that do not conflict with the provisions of this chapter. The tax imposed under this chapter is independent of any federal estate tax obligation and is not affected by termination of the federal estate tax.</P>
+<History pubwidth="wide">2013 2nd sp.s. c 2 § 4; 2010 c 106 § 234; 2005 c 516 § 3; 1988 c 64 § 4; 1981 2nd ex.s. c 7 § 83.100.040 (Initiative Measure No. 402, approved November 3, 1981).</History>
+<RCWNoteSection>
+<AnnNote><NoteP pubwidth="wide"><TextRun fontWeight="bold">Application<TextRun fontFamily="Times New Roman">—</TextRun>2013 2nd sp.s. c 2 § 4:</TextRun> "Section 4 of this act applies to estates of decedents dying on or after January 1, 2014." [2013 2nd sp.s. c 2 § 11.]</NoteP></AnnNote>
+<AnnNote><NoteP pubwidth="wide"><TextRun fontWeight="bold">Findings<TextRun fontFamily="Times New Roman">—</TextRun>Intent<TextRun fontFamily="Times New Roman">—</TextRun>Final judgment<TextRun fontFamily="Times New Roman">—</TextRun>Affect<TextRun fontFamily="Times New Roman">—</TextRun>Effective dates<TextRun fontFamily="Times New Roman">—</TextRun>2013 2nd sp.s. c 2:</TextRun> See notes following RCW 83.100.048.</NoteP></AnnNote>
+<AnnNote><NoteP pubwidth="wide"><TextRun fontWeight="bold">Retroactive application<TextRun fontFamily="Times New Roman">—</TextRun>2010 c 106 §§ 234 and 235:</TextRun> "Sections 234 and 235 of this act apply both retroactively and prospectively to estates of decedents dying on or after May 17, 2005." [2010 c 106 § 404.]</NoteP></AnnNote>
+<AnnNote><NoteP pubwidth="wide"><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2010 c 106:</TextRun> See note following RCW 35.102.145.</NoteP></AnnNote>
+<AnnNote><NoteP pubwidth="wide"><TextRun fontWeight="bold">Finding<TextRun fontFamily="Times New Roman">—</TextRun>Intent<TextRun fontFamily="Times New Roman">—</TextRun>2005 c 516:</TextRun> "The legislature recognizes that on February 3, 2005, the Washington state supreme court decided in <TextRun fontStyle="italic">Estate of Hemphill v. Dep't of Rev.</TextRun>, Docket No. 74974-4, that Washington's estate tax is tied to the current federal Internal Revenue Code. The legislature finds that the revenue loss resulting from the <TextRun fontStyle="italic">Hemphill</TextRun> decision will severely affect the legislature's ability to fund programs vital to the peace, health, safety, and support of the citizens of this state. The legislature intends to address the adverse fiscal impact of the <TextRun fontStyle="italic">Hemphill</TextRun> decision and provide funding for education by creating a stand-alone state estate tax." [2005 c 516 § 1.]</NoteP></AnnNote>
+<AnnNote><NoteP pubwidth="wide"><TextRun fontWeight="bold">Application<TextRun fontFamily="Times New Roman">—</TextRun>2005 c 516:</TextRun> "This act applies prospectively only and not retroactively. Sections 2 through 17 of this act apply only to estates of decedents dying on or after May 17, 2005." [2005 c 516 § 20.]</NoteP></AnnNote>
+<AnnNote><NoteP pubwidth="wide"><TextRun fontWeight="bold">Severability<TextRun fontFamily="Times New Roman">—</TextRun>2005 c 516:</TextRun> "If any provision of this act or its application to any person or circumstance is held invalid, the remainder of the act or the application of the provision to other persons or circumstances is not affected." [2005 c 516 § 21.]</NoteP></AnnNote>
+<AnnNote><NoteP pubwidth="wide"><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2005 c 516:</TextRun> "This act is necessary for the immediate preservation of the public peace, health, or safety, or support of the state government and its existing public institutions, and takes effect immediately [May 17, 2005]." [2005 c 516 § 22.]</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>83</TitleNumber><TextRun>.</TextRun><ChapterNumber>100</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) This section applies only to the estates of decedents who die on or after January 1, 2020.</P>
+<P pubwidth="wide">A tax in an amount computed as provided in this section is imposed on every transfer of property located in Washington. For the purposes of this section, any intangible property owned by a resident is located in Washington.</P>
+<P postPadding="halfline" pubwidth="wide">(2)(a) Except as provided in (b) of this subsection, the amount of tax is the amount provided in the following table:</P>
+<Table width="508.0pt" align="center" fontSize="10pt" pubwidth="wide">
+<Col width="101pt" />
+<Col width="102pt" />
+<Col width="102pt" />
+<Col width="102pt" />
+<Col width="101pt" />
+<TR>
+<TD colspan="2" valign="bottom"><P /><P>If Washington Taxable</P></TD>
+<TD colspan="2" valign="bottom"><P /><P>The amount of Tax Equals</P></TD>
+<TD rowspan="2" valign="top"><P>Of Washington Taxable Estate Value Greater than</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P>Estate is at least</P></TD>
+<TD valign="top"><P>But Less Than</P></TD>
+<TD valign="top"><P>Initial Tax Amount</P></TD>
+<TD valign="top"><P>Plus Tax Rate %</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P>$0</P></TD>
+<TD valign="top"><P>$1,000,000</P></TD>
+<TD valign="top"><P>$0</P></TD>
+<TD valign="top"><P>14.00%</P></TD>
+<TD valign="top"><P>$0</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P>$1,000,000</P></TD>
+<TD valign="top"><P>$1,500,000</P></TD>
+<TD valign="top"><P>$140,000</P></TD>
+<TD valign="top"><P>17.00%</P></TD>
+<TD valign="top"><P>$1,000,000</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P>$1,500,000</P></TD>
+<TD valign="top"><P>$2,000,000</P></TD>
+<TD valign="top"><P>$225,000</P></TD>
+<TD valign="top"><P>18.00%</P></TD>
+<TD valign="top"><P>$1,500,000</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P>$2,000,000</P></TD>
+<TD valign="top"><P>$2,500,000</P></TD>
+<TD valign="top"><P>$315,000</P></TD>
+<TD valign="top"><P>23.00%</P></TD>
+<TD valign="top"><P>$2,000,000</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P>$2,500,000</P></TD>
+<TD valign="top"><P>$3,000,000</P></TD>
+<TD valign="top"><P>$430,000</P></TD>
+<TD valign="top"><P>24.00%</P></TD>
+<TD valign="top"><P>$2,500,000</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P>$3,000,000</P></TD>
+<TD valign="top"><P>$4,000,000</P></TD>
+<TD valign="top"><P>$550,000</P></TD>
+<TD valign="top"><P>26.00%</P></TD>
+<TD valign="top"><P>$3,000,000</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P>$4,000,000</P></TD>
+<TD valign="top"><P>$6,000,000</P></TD>
+<TD valign="top"><P>$810,000</P></TD>
+<TD valign="top"><P>27.00%</P></TD>
+<TD valign="top"><P>$4,000,000</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P>$6,000,000</P></TD>
+<TD valign="top"><P>$7,000,000</P></TD>
+<TD valign="top"><P>$1,350,000</P></TD>
+<TD><P>28.00%</P></TD>
+<TD><P>$6,000,000</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P>$7,000,000</P></TD>
+<TD valign="top"><P>$9,000,000</P></TD>
+<TD valign="top"><P>$1,630,000</P></TD>
+<TD><P>29.00%</P></TD>
+<TD valign="top"><P>$7,000,000</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P>$9,000,000</P></TD>
+<TD valign="top"><P /></TD>
+<TD valign="top"><P>$2,210,000</P></TD>
+<TD valign="top"><P>30.00%</P></TD>
+<TD valign="top"><P>$9,000,000</P></TD>
+</TR>
+</Table>
+<P prePadding="halfline" pubwidth="wide">(b) If any property in the decedent's estate is located outside of Washington, the amount of tax is the amount determined in (a) of this subsection multiplied by a fraction. The numerator of the fraction is the value of the property located in Washington. The denominator of the fraction is the value of the decedent's gross estate. Property qualifying for a deduction under RCW 83.100.046 must be excluded from the numerator and denominator of the fraction.</P>
+<P pubwidth="wide">(3) The tax imposed under this section is a stand-alone estate tax that incorporates only those provisions of the internal revenue code as amended or renumbered as of January 1, 2020, that do not conflict with the provisions of this chapter. The tax imposed under this chapter is independent of any federal estate tax obligation and is not affected by termination of the federal estate tax.</P>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>83</TitleNumber><TextRun>.</TextRun><ChapterNumber>100</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) The estate of a surviving spouse may use a deceased spousal unused exclusion amount only if the estate of the last deceased spouse of the surviving spouse filed an estate tax return within the time required by RCW 83.100.050(2), on which:</P>
+<P>(a) The Washington taxable estate is computed; and</P>
+<P>(b) An election is taken allowing the deceased spousal unused exclusion amount to be used by the estate of the surviving spouse.</P>
+<P>(2) Any election made under subsection (1)(b) of this section is irrevocable.</P>
+<P>(3) This section applies only to the estates of decedents who die after December 31, 2019.</P>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>5</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>83</TitleNumber><TextRun>.</TextRun><ChapterNumber>100</ChapterNumber><TextRun>.</TextRun><SectionNumber>050</SectionNumber></SectionCite> and 2017 c 323 s 601 are each amended to read as follows:<Caption>Tax returns<TextRun fontFamily="Times New Roman">—</TextRun>Filing dates<TextRun fontFamily="Times New Roman">—</TextRun>Extensions<TextRun fontFamily="Times New Roman">—</TextRun>Extensions during state of emergency.</Caption></BillSectionHeader>
+<P>(1) A Washington return must be filed if the gross estate equals or exceeds the applicable exclusion amount<TextRun amendingStyle="add">, or if the estate elects to transfer a deceased spousal unused exclusion amount as provided in section 3 of this act</TextRun>.</P>
+<P>(2) If a Washington return is required as provided in subsection (1) of this section:</P>
+<P>(a) A person required to file a federal return must file with the department on or before the date the federal return is required to be filed, including any extension of time for filing under subsection (4) or (6) of this section, a Washington return for the tax due under this chapter.</P>
+<P>(b) If no federal return is required to be filed, a taxpayer shall file with the department on or before the date a federal return would have been required to be filed, including any extension of time for filing under subsection (5) or (6) of this section, a Washington return for the tax due under this chapter.</P>
+<P>(3) A Washington return delivered to the department by United States mail is considered to have been received by the department on the date of the United States postmark stamped on the cover in which the return is mailed, if the postmark date is within the time allowed for filing the Washington return, including extensions.</P>
+<P>(4) In addition to the Washington return required to be filed in subsection (2) of this section, a person must file with the department on or before the date the federal return is or would have been required to be filed all supporting documentation for completed Washington return schedules, and, if a federal return has been filed, a copy of the federal return. If the person required to file the federal return has obtained an extension of time for filing the federal return, the person must file the Washington return within the same time period and in the same manner as provided for the federal return. A copy of the federal extension must be filed with the department on or before the date the Washington return is due, not including any extension of time for filing, or within thirty days of issuance, whichever is later.</P>
+<P>(5) A person may obtain an extension of time for filing the Washington return as provided by rule of the department, if the person is required to file a Washington return under subsection (2) of this section, but is not required to file a federal return.</P>
+<P>(6) During a state of emergency declared under RCW 43.06.010(12), the department, on its own motion or at the request of any taxpayer affected by the emergency, may extend the time for filing a Washington return under this section as the department deems proper.</P>
+<History>2017 c 323 § 601; 2008 c 181 § 504; 2005 c 516 § 5; 1988 c 64 § 6; 1986 c 44 § 1; 1981 2nd ex.s. c 7 § 83.100.050 (Initiative Measure No. 402, approved November 3, 1981).</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Tax preference performance statement exemption<TextRun fontFamily="Times New Roman">—</TextRun>Automatic expiration date exemption<TextRun fontFamily="Times New Roman">—</TextRun>2017 c 323:</TextRun> See note following RCW 82.04.040.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Part headings not law<TextRun fontFamily="Times New Roman">—</TextRun>2008 c 181:</TextRun> See note following RCW 43.06.220.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Finding<TextRun fontFamily="Times New Roman">—</TextRun>Intent<TextRun fontFamily="Times New Roman">—</TextRun>Application<TextRun fontFamily="Times New Roman">—</TextRun>Severability<TextRun fontFamily="Times New Roman">—</TextRun>Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2005 c 516:</TextRun> See notes following RCW 83.100.040.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>6</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>83</TitleNumber><TextRun>.</TextRun><ChapterNumber>100</ChapterNumber><TextRun>.</TextRun><SectionNumber>095</SectionNumber></SectionCite> and 2005 c 516 s 14 are each amended to read as follows:<Caption>Examination by department of returns, other information<TextRun fontFamily="Times New Roman">—</TextRun>Assessment of additional tax, interest.</Caption></BillSectionHeader>
+<P>(1) If upon examination of any returns or from other information obtained by the department it appears that a tax or penalty has been paid less than that properly due, the department shall assess against the taxpayer an additional amount found to be due and shall add interest as provided in RCW 83.100.070 on the tax only. The department shall notify the taxpayer by mail of the additional amount, and the additional amount shall become due and shall be paid within thirty days from the date of the notice, or within such further time as the department may provide.</P>
+<P>(2) Interest shall be computed from the original due date of the Washington return until the due date of the notice. If payment in full is not made by the due date of the notice, additional interest shall be computed until the date of payment.</P>
+<P>(3) No assessment or correction of an assessment for additional taxes, penalties, or interest due may be made by the department more than four years after the close of the calendar year in which a Washington return is due under this chapter, including any extension of time for filing, except upon a showing of fraud or of misrepresentation of a material fact by the taxpayer or as provided under subsection<TextRun amendingStyle="add">s</TextRun> (4) <TextRun amendingStyle="strike">or</TextRun><TextRun amendingStyle="add">,</TextRun> (5)<TextRun amendingStyle="add">, and (6)</TextRun> of this section or as otherwise provided in this chapter.</P>
+<P>(4) For persons liable for tax under RCW 83.100.120, the period for assessment or correction of an assessment shall extend an additional three years beyond the period described in subsection (3) of this section.</P>
+<P>(5) A taxpayer may extend the periods of limitation under subsection (3) or (4) of this section by executing a written waiver. The execution of the waiver shall also extend the period for making a refund as provided in RCW 83.100.130.</P>
+<P><TextRun amendingStyle="add">(6) If an estate tax return includes an election permitted under section 3 of this act to allow a surviving spouse to use a deceased spousal unused exclusion amount, the period for assessment or correction of assessment is extended until the applicable periods of limitation under subsections (3), (4), and (5) of this section have expired for the estate tax return of the surviving spouse.</TextRun></P>
+<History>2005 c 516 § 14.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Finding<TextRun fontFamily="Times New Roman">—</TextRun>Intent<TextRun fontFamily="Times New Roman">—</TextRun>Application<TextRun fontFamily="Times New Roman">—</TextRun>Severability<TextRun fontFamily="Times New Roman">—</TextRun>Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2005 c 516:</TextRun> See notes following RCW 83.100.040.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>7</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act does not affect any existing right acquired or liability or obligation incurred under the sections amended or repealed or under any rule or order adopted under those sections, nor does it affect any proceeding instituted under those sections.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="effdate">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>8</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act takes effect January 1, 2020.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

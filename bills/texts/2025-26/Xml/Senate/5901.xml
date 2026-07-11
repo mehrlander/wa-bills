@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>Z-0544.1</RequestNumber><ShortBillId>SB 5901</ShortBillId><LongBillId>SENATE BILL 5901</LongBillId><Legislature>69th Legislature</Legislature><Session>2026 Regular Session</Session><Sponsors>Senators Christian, Riccelli, Nobles, and C. Wilson; by request of Superintendent of Public Instruction</Sponsors><BillHistory><PrefiledDate>Prefiled 12/16/25.</PrefiledDate><ReadDate>Read first time 01/12/26.</ReadDate><ReferredCommittee>Referred to Committee on Early Learning &amp; K-12 Education.</ReferredCommittee></BillHistory><BriefDescription>Providing school construction assistance program facilities support for on-base schools.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to school construction assistance program facilities support for on-base schools; and amending RCW 28A.525.166.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>28A</TitleNumber><TextRun>.</TextRun><ChapterNumber>525</ChapterNumber><TextRun>.</TextRun><SectionNumber>166</SectionNumber></SectionCite> and 2015 3rd sp.s. c 3 s 7018 are each amended to read as follows:<Caption>Allotment of appropriations for school plant facilities<TextRun fontFamily="Times New Roman">—</TextRun>Computation of state aid for school plant project.</Caption></BillSectionHeader>
+<P>Allocations to school districts of state funds provided by RCW 28A.525.162 through 28A.525.180 shall be made by the superintendent of public instruction and the amount of state funding assistance to a school district in financing a school plant project shall be determined in the following manner:</P>
+<P>(1) The boards of directors of the districts shall determine the total cost of the proposed project, which cost may include the cost of acquiring and preparing the site, the cost of constructing the building or of acquiring a building and preparing the same for school use, the cost of necessary equipment, taxes chargeable to the project, necessary architects' fees, and a reasonable amount for contingencies and for other necessary incidental expenses: PROVIDED, That the total cost of the project shall be subject to review and approval by the superintendent.</P>
+<P>(2) The state funding assistance percentage for a school district shall be computed by the following formula:</P>
+<P postPadding="halfline">The ratio of the school district's adjusted valuation per pupil divided by the ratio of the total state adjusted valuation per pupil shall be subtracted from three, and then the result of the foregoing shall be divided by three plus (the ratio of the school district's adjusted valuation per pupil divided by the ratio of the total state adjusted valuation per pupil).</P>
+<Table width="243.0pt" align="center" fontSize="8pt" pubwidth="narrow" hCellPadding="none" vCellPadding="none">
+<Col width="37pt" />
+<Col width="16pt" />
+<Col width="9pt" />
+<Col width="58pt" />
+<Col width="15pt" />
+<Col width="50.0pt" />
+<Col width="22pt" />
+<Col width="36pt" />
+<TR>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="left" valign="top"><P /></TD>
+<TD textAlign="left" valign="top" colspan="3" rowspan="1"><P>District adjusted</P></TD>
+<TD textAlign="left" valign="top"><P>Total state</P></TD>
+<TD textAlign="left" valign="top"><P /></TD>
+<TD textAlign="left" valign="top"><P /></TD>
+</TR>
+<TR>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="left" valign="top"><P /></TD>
+<TD colspan="2" textAlign="left" valign="top"><P>3-valuation</P></TD>
+<TD textAlign="center" valign="top"><P>÷</P></TD>
+<TD colspan="2" textAlign="left" valign="top"><P>adjusted valuation</P></TD>
+<TD textAlign="left" valign="top"><P /></TD>
+</TR>
+<TR>
+<TD textAlign="right" valign="top"><P>Computed</P></TD>
+<TD textAlign="left" valign="top"><P /></TD>
+<TD textAlign="left" valign="top" colspan="2" rowspan="1"><P>per pupil</P></TD>
+<TD textAlign="left" valign="top"><P /></TD>
+<TD textAlign="left" valign="top"><P>per pupil</P></TD>
+<TD textAlign="left" valign="top"><P /></TD>
+<TD textAlign="left" valign="top"><P>State</P></TD>
+</TR>
+<TR>
+<TD textAlign="right" valign="top"><P>State</P></TD>
+<TD textAlign="center" valign="top"><P>=</P></TD>
+<TD colspan="4" textAlign="left" valign="middle"><P><Leader character="line" /></P></TD>
+<TD textAlign="center" valign="top"><P>= - %</P></TD>
+<TD textAlign="left" valign="top"><P>Funding</P></TD>
+</TR>
+<TR>
+<TD textAlign="right" valign="top"><P>Ratio</P></TD>
+<TD textAlign="left" valign="top"><P /></TD>
+<TD textAlign="left" valign="top" colspan="3" rowspan="1"><P>District adjusted</P></TD>
+<TD textAlign="left" valign="top"><P>Total state</P></TD>
+<TD textAlign="left" valign="top"><P /></TD>
+<TD textAlign="left" valign="top"><P>Assistance</P></TD>
+</TR>
+<TR>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="left" valign="top"><P /></TD>
+<TD colspan="2" textAlign="left" valign="top"><P>3+valuation</P></TD>
+<TD textAlign="center" valign="top"><P>÷</P></TD>
+<TD colspan="2" textAlign="left" valign="top"><P>adjusted valuation</P></TD>
+<TD textAlign="left" valign="top"><P /></TD>
+</TR>
+<TR>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="left" valign="top"><P /></TD>
+<TD textAlign="left" valign="top" colspan="2" rowspan="1"><P>per pupil</P></TD>
+<TD textAlign="left" valign="top"><P /></TD>
+<TD textAlign="left" valign="top"><P>per pupil</P></TD>
+<TD textAlign="left" valign="top"><P /></TD>
+<TD textAlign="left" valign="top"><P /></TD>
+</TR>
+</Table>
+<P indent="0" prePadding="halfline">PROVIDED, That in the event the state funding assistance percentage to any school district based on the above formula is less than twenty percent and such school district is otherwise eligible for state funding assistance under RCW 28A.525.162 through 28A.525.180, the superintendent may establish for such district a state funding assistance percentage not in excess of twenty percent of the approved cost of the project, if the superintendent finds that such additional assistance is necessary to provide minimum facilities for housing the pupils of the district.</P>
+<P>(3) In addition to the computed state funding assistance percentage developed in subsection (2) of this section, a school district shall be entitled to additional percentage points determined by the average percentage of growth for the past three years. One percent shall be added to the computed state funding assistance percentage for each percent of growth, with a maximum of twenty percent.</P>
+<P>(4) In computing the state funding assistance percentage in subsection (2) of this section and adjusting the percentage under subsection (3) of this section, students residing outside the school district who are enrolled in alternative learning experience courses under RCW 28A.232.010 shall be excluded from the count of total pupils. In lieu of the exclusion in this subsection, a district may submit an alternative calculation for excluding students enrolled in alternative learning experience courses. The alternative calculation must show the student head count use of district classroom facilities on a regular basis for a reasonable duration by out-of-district alternative learning experience students subtracted by the head count of in-district alternative learning experience students not using district classroom facilities on a regular basis for a reasonable duration. The alternative calculation must be submitted in a form approved by the office of the superintendent of public instruction. The office of the superintendent of public instruction must develop rules to define "regular basis" and "reasonable duration."</P>
+<P>(5) The approved cost of the project determined in the manner prescribed in this section multiplied by the state funding assistance percentage derived as provided for in this section shall be the amount of state funding assistance to the district for the financing of the project: PROVIDED, That need therefor has been established to the satisfaction of the superintendent: PROVIDED, FURTHER, That additional state funding assistance may be allowed if it is found by the superintendent, considering policy recommendations from the school facilities citizen advisory panel that such assistance is necessary in order to meet (a) a school housing emergency resulting from the destruction of a school building by fire, the condemnation of a school building by properly constituted authorities, a sudden excessive and clearly foreseeable future increase in school population, or other conditions similarly emergent in nature; or (b) a special school housing burden resulting from projects of statewide significance or imposed by virtue of the admission of nonresident students into educational programs established, maintained and operated in conformity with the requirements of law; or (c) a deficiency in the capital funds of the district resulting from financing, subsequent to April 1, 1969, and without benefit of the state funding assistance provided by prior state assistance programs, the construction of a needed school building project or projects approved in conformity with the requirements of such programs, after having first applied for and been denied state funding assistance because of the inadequacy of state funds available for the purpose; or (d) a condition created by the fact that an excessive number of students live in state owned housing; or (e) a need for the construction of a school building to provide for improved school district organization or racial balance; or (f) conditions similar to those defined under (a), (b), (c), (d), and (e) of this subsection, creating a like emergency.</P>
+<P>(6) <TextRun amendingStyle="strike">For the 2015-2017 biennium, schools determined to have a lack of sufficient space to provide science classrooms or labs, to meet the requirements of law, have a special housing burden condition similar to those defined under subsection (5)(b) of this section, creating a like emergency. For the 2015-2017 biennium, school districts are entitled to additional percentage points for school construction projects that have a special housing burden condition only and have received private donations in the form of cash, in-kind, or equipment of more than one hundred thousand dollars. The additional percentage points are determined by (a) school district student enrollments in the free and reduced-price meals program, (b) school district class as defined by RCW 28A.300.065, and (c) the funding assistance percentage as calculated in subsection (2) of this section. The additional percentage points under (a) of this subsection are twenty percent of the percent of student enrollments eligible and enrolled in the free and reduced-price meals program. The additional percentage points under (b) of this subsection are ten for second class school districts. The additional percentage points under (c) of this subsection are ten for school districts with funding assistance percentages of more than fifty percent.</TextRun> <TextRun amendingStyle="add">When determining eligibility for state funding assistance for the school construction assistance program, school district instructional facilities located on military bases must be excluded from the school district's inventory of available instructional space, and the amount of state assistance shall be equal to the total approved project cost minus the amount of federal funding received for the construction of the project.</TextRun></P>
+<History>2015 3rd sp.s. c 3 s 7018; 2013 2nd sp.s. c 18 s 514; 2012 c 244 s 3. Prior: 2009 c 421 s 5; 2009 c 129 s 6; 2006 c 263 s 311; 1997 c 369 s 9; 1990 c 33 s 457; 1989 c 321 s 3; 1975 1st ex.s. c 98 s 1; 1974 ex.s. c 56 s 3; 1969 ex.s. c 244 s 4. Formerly RCW 28A.47.803, 28.47.803.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2015 3rd sp.s. c 3:</TextRun> See note following RCW 43.160.080.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Application<TextRun fontFamily="Times New Roman">—</TextRun>Enforcement of laws protecting health and safety<TextRun fontFamily="Times New Roman">—</TextRun>2013 2nd sp.s. c 18:</TextRun> See note following RCW 28A.600.022.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Intent<TextRun fontFamily="Times New Roman">—</TextRun>Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2012 c 244:</TextRun> See notes following RCW 28A.525.162.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2009 c 421:</TextRun> See note following RCW 43.157.005.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Intent<TextRun fontFamily="Times New Roman">—</TextRun>2009 c 129:</TextRun> See note following RCW 28A.335.230.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Findings<TextRun fontFamily="Times New Roman">—</TextRun>Purpose<TextRun fontFamily="Times New Roman">—</TextRun>Part headings not law<TextRun fontFamily="Times New Roman">—</TextRun>2006 c 263:</TextRun> See notes following RCW 28A.150.230.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>1975 1st ex.s. c 98:</TextRun> "This 1975 amendatory act is necessary for the immediate preservation of the public peace, health, and safety, the support of the state government and its existing public institutions, and shall take effect July 1, 1975." [1975 1st ex.s. c 98 s 3.]</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Severability<TextRun fontFamily="Times New Roman">—</TextRun>1974 ex.s. c 56:</TextRun> See note following RCW 28A.525.162.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Severability<TextRun fontFamily="Times New Roman">—</TextRun>1969 ex.s. c 244:</TextRun> See note following RCW 28A.525.162.</NoteP></AnnNote>
+<CrossRefNote><NoteP>Project of statewide significance<TextRun fontFamily="Times New Roman">—</TextRun>Defined: RCW 43.157.010.</NoteP></CrossRefNote>
+</RCWNoteSection>
+</BillSection>
+</BillBody>
+</Bill>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-0204.2</RequestNumber><ShortBillId>SB 5052</ShortBillId><LongBillId>SENATE BILL 5052</LongBillId><Legislature>67th Legislature</Legislature><Session>2021 Regular Session</Session><Sponsors>Senators Keiser, Randall, Cleveland, Conway, Das, Frockt, Hasegawa, Kuderer, Lovelett, Nguyen, Nobles, Robinson, Saldaña, Salomon, and Wilson, C.</Sponsors><BillHistory><PrefiledDate>Prefiled 12/31/20.</PrefiledDate><ReadDate>Read first time 01/11/21.</ReadDate><ReferredCommittee>Referred to Committee on Health &amp; Long Term Care.</ReferredCommittee></BillHistory><BriefDescription>Concerning the creation of health equity zones.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to the creation of health equity zones; adding a new section to chapter 43.70 RCW; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>FINDINGS AND INTENT.</SectionCaption><P>(1) The legislature finds that people of color and immigrant populations experience significant health disparities compared to the general population, including more limited access to health care and poorer health outcomes. The legislature finds that these circumstances result in higher rates of morbidity and mortality for persons of color and immigrant populations than observed in the general population.</P></BillSectionHeader>
+<P>(2) Therefore, the legislature intends to create health equity zones to address significant health disparities identified by health outcome data. The state intends to work with community leaders within the health equity zones to share information and coordinate efforts with the goal of addressing the most urgent needs. Health equity zone partners shall develop, expand, and maintain positive relationships with communities of color and immigrant communities within the zone to develop effective and sustainable programs to address health inequity.</P>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>70</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) The department, in coordination with the governor's interagency council on health disparities, local health jurisdictions, and accountable communities of health, must share and review population health data, which may be related to chronic and infectious diseases, maternal birth complications, preterm births and other newborn health complications, and any other relevant health data, to identify potential health equity zones in the state.</P>
+<P>(2) The department may limit the number of identified zones based on available resources but must develop a plan to expand the program statewide.</P>
+<P>(3) The department must notify relevant community organizations in the zones of the health equity zone designation and allow those organizations to identify projects to address the zone's most urgent needs related to health disparities. Community organizations may include, but are not limited to:</P>
+<P>(a) Community health clinics;</P>
+<P>(b) Local health providers;</P>
+<P>(c) Federally qualified health centers;</P>
+<P>(d) Health systems;</P>
+<P>(e) Local government;</P>
+<P>(f) Local health jurisdictions; and</P>
+<P>(g) Any other nonprofit organization working to address health disparities in the zone.</P>
+<P>(4) Organizations working within the zone may form a coalition to identify the needs of the zone, design projects to address those needs, and develop an action plan to implement the projects. Projects may include, but are not limited to:</P>
+<P>(a) Addressing health care provider access and health service delivery;</P>
+<P>(b) Improving community trust and information sharing; and</P>
+<P>(c) Conducting outreach and education efforts.</P>
+<P>(5) The department must provide:</P>
+<P>(a) Support to the coalitions in identifying and applying for resources to support projects within the zones; and</P>
+<P>(b) Technical assistance related to project management and developing health outcome and other measures to evaluate project success.</P>
+<P>(6) By December 1, 2022, and annually thereafter, the department must submit a report to the legislature detailing the projects implemented in each zone and the outcome measures, including year-over-year health data, to demonstrate project success.</P>
+<P>(7) For the purposes of this section "health equity zone" or "zone" means a contiguous geographic area that demonstrates measurable and documented health disparities and poor health outcomes, which may include but are not limited to high rates of maternal complications, newborn health complications, and chronic and infectious disease, is populated by communities of color or immigrant communities, and is small enough for targeted interventions to have a significant impact on health outcomes and health disparities.</P>
+</BillSection>
+</BillBody>
+</Bill>

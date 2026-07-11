@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-0414.1</RequestNumber><ShortBillId>HB 1277</ShortBillId><LongBillId>HOUSE BILL 1277</LongBillId><Legislature>69th Legislature</Legislature><Session>2025 Regular Session</Session><Sponsors>Representatives Shavers and Reed</Sponsors><BillHistory><ReadDate>Read first time 01/14/25.</ReadDate><ReferredCommittee>Referred to Committee on Finance.</ReferredCommittee></BillHistory><BriefDescription>Creating a sales and use tax exemption for the purchase and use of medical equipment and supplies by a critical access hospital.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to a sales and use tax exemption for the purchase and use of medical equipment and supplies by a critical access hospital; adding a new section to chapter 82.08 RCW; adding a new section to chapter 82.12 RCW; creating a new section; and providing expiration dates.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>82</TitleNumber><TextRun>.</TextRun><ChapterNumber>08</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) Beginning January 1, 2026, the tax levied by RCW 82.08.020 does not apply to sales of medical equipment and medical supplies to a critical access hospital.</P>
+<P>(2) The exemption in this section does not apply to the sale of construction materials, office equipment, building equipment, administrative supplies, or vehicles used for purposes other than patient transportation.</P>
+<P>(3) The department may adopt rules necessary to implement this section and must electronically publish a list of qualifying medical equipment and medical supplies.</P>
+<P>(4) For purposes of this section, the following definitions apply:</P>
+<P>(a) "Critical access hospital" means a public hospital located on an island within 25 miles of a military installation with a critical access designation provided by the centers for medicare and medicaid services.</P>
+<P>(b) "Medical equipment" means instruments, apparatuses, and machines used in the prevention, diagnosis, or treatment of human illness or disease, or for detecting, measuring, restoring, correcting, or modifying the structure or function of the human body for health purposes.</P>
+<P>(c) "Medical supplies" means consumable, expendable, disposable, or nondurable items used for the treatment or diagnosis of a human patient's specific illness, injury, or condition. "Medical supplies" includes gloves, gauze, syringes, needles, dressings, pharmaceuticals, bandages, and catheters.</P>
+<P>(5) This section expires January 1, 2036.</P>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>82</TitleNumber><TextRun>.</TextRun><ChapterNumber>12</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) Beginning January 1, 2026, this chapter does not apply to the use of medical equipment and medical supplies by a critical access hospital.</P>
+<P>(2) The definitions, conditions, and requirements of section 1 of this act apply to this section.</P>
+<P>(3) This section expires January 1, 2036.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>This section is the tax preference performance statement for the tax preference contained in sections 1 and 2, chapter . . ., Laws of 2025 (sections 1 and 2 of this act). This performance statement is only intended to be used for subsequent evaluation of the tax preference. It is not intended to create a private right of action by any party or be used to determine eligibility for preferential tax treatment.</P></BillSectionHeader>
+<P>(1) The legislature categorizes this tax preference as one intended to provide tax relief for certain businesses or individuals, as indicated in RCW 82.32.808(2)(e).</P>
+<P><TextRun fontWeight="bold" />(2) It is the legislature's specific public policy objective to reduce the sales and use tax burden on critical access hospitals located on an island by eliminating the payment of tax on the purchase of medical equipment and supplies used by the hospital.</P>
+<P>(3) If a review finds the actual fiscal cost of this tax preference has not exceeded the estimated cost in the fiscal note by more than five percent in any of the initial three biennia, then the legislature intends to extend the expiration date of the tax preference.</P>
+<P>(4) In order to obtain the data necessary to perform the review in subsection (3) of this section, the joint legislative audit and review committee may refer to any data and relevant taxpayer information collected by the state.</P>
+</BillSection>
+</BillBody>
+</Bill>

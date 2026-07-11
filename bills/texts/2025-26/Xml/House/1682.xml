@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-0906.1</RequestNumber><ShortBillId>HB 1682</ShortBillId><LongBillId>HOUSE BILL 1682</LongBillId><Legislature>69th Legislature</Legislature><Session>2025 Regular Session</Session><Sponsors>Representatives Ortiz-Self, Berry, Simmons, Gregerson, Doglio, Reed, Scott, and Pollet</Sponsors><BillHistory><ReadDate>Read first time 01/29/25.</ReadDate><ReferredCommittee>Referred to Committee on Labor &amp; Workplace Standards.</ReferredCommittee></BillHistory><BriefDescription>Concerning part-time workers in the unemployment insurance system.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to part-time workers in the unemployment insurance system; amending RCW 50.20.119; and adding a new section to chapter 50.20 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>50</TitleNumber><TextRun>.</TextRun><ChapterNumber>20</ChapterNumber><TextRun>.</TextRun><SectionNumber>119</SectionNumber></SectionCite> and 2006 c 13 s 15 are each amended to read as follows:<Caption>Part-time workers.</Caption></BillSectionHeader>
+<P>(1) With respect to claims that have an effective date on or after January 2, 2005<TextRun amendingStyle="add">, and before August 3, 2025</TextRun>, an otherwise eligible individual may not be denied benefits for any week because the individual is a part-time worker and is available for, seeks, applies for, or accepts only work of <TextRun amendingStyle="strike">seventeen</TextRun> <TextRun amendingStyle="add">17</TextRun> or fewer hours per week by reason of the application of RCW 50.20.010(1)(c), 50.20.080, or 50.22.020(1) relating to availability for work and active search for work, or failure to apply for or refusal to accept suitable work.</P>
+<P>(2) For purposes of this section, "part-time worker" means an individual who: (a) Earned wages in "employment" in at least <TextRun amendingStyle="strike">forty</TextRun> <TextRun amendingStyle="add">40</TextRun> weeks in the individual's base year; and (b) did not earn wages in "employment" in more than <TextRun amendingStyle="strike">seventeen</TextRun> <TextRun amendingStyle="add">17</TextRun> hours per week in any weeks in the individual's base year.</P>
+<History>2006 c 13 s 15. Prior: 2003 2nd sp.s. c 4 s 12.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Retroactive application<TextRun fontFamily="Times New Roman">—</TextRun>2006 c 13 ss 8-22:</TextRun> See note following RCW 50.04.293.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Conflict with federal requirements<TextRun fontFamily="Times New Roman">—</TextRun>Part headings not law<TextRun fontFamily="Times New Roman">—</TextRun>Severability<TextRun fontFamily="Times New Roman">—</TextRun>2006 c 13:</TextRun> See notes following RCW 50.20.120.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Conflict with federal requirements<TextRun fontFamily="Times New Roman">—</TextRun>Severability<TextRun fontFamily="Times New Roman">—</TextRun>Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2003 2nd sp.s. c 4:</TextRun> See notes following RCW 50.01.010.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>50</TitleNumber><TextRun>.</TextRun><ChapterNumber>20</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>With respect to claims that have an effective date on or after August 3, 2025:</P>
+<P>(1) For the purposes of applying RCW 50.20.010(1)(c), 50.20.080, or 50.22.020(1) concerning availability for work and active search for work, or failure to apply for or refusal to accept suitable work, an otherwise eligible individual may not be denied benefits for any week because the individual is a part-time worker and is available for, seeks, applies for, or accepts work for an average number of weekly hours comparable to or more than the individual's average number of weekly hours in the individual's base year.</P>
+<P>(2) An otherwise eligible individual who was not a part-time worker in the individual's base year may not be denied benefits for any week based on the individual being unavailable for full-time work if:</P>
+<P>(a) The individual has become unable to work full time as a result of: The individual's illness or disability; the death, illness, or disability of a family member; the care for a child or a vulnerable adult in the individual's care becoming inaccessible; the need to protect the individual or a member of the individual's immediate family from domestic violence, as defined in RCW 7.105.010, or stalking, as defined in RCW 9A.46.110; or other circumstances beyond the individual's control; and</P>
+<P>(b) The individual is available for, seeks, applies for, or accepts work for an average number of 20 or more weekly hours.</P>
+<P>(3) For the purposes of this section, "part-time worker" means an individual who:</P>
+<P>(a) Earned wages in "employment" in at least 40 weeks in the individual's base year; and</P>
+<P>(b) Worked an average number of weekly hours that the employer considers to be less than full time.</P>
+</BillSection>
+</BillBody>
+</Bill>

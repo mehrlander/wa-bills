@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-2975.1</RequestNumber><ShortBillId>HB 2250</ShortBillId><LongBillId>HOUSE BILL 2250</LongBillId><Legislature>65th Legislature</Legislature><Session>2017 3rd Special Session</Session><Sponsors>Representatives Pellicciotti and Frame</Sponsors><BillHistory><ReadDate>Read first time 07/20/17.</ReadDate><ReferredCommittee>Referred to Committee on Finance.</ReferredCommittee></BillHistory><BriefDescription>Concerning property tax relief.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to property tax relief; adding a new section to chapter 84.36 RCW; adding a new section to chapter 84.08 RCW; and creating new sections.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature finds that during the 2017 legislative session the governor preserved state tax revenue by vetoing a provision in Substitute Senate Bill No. 5997 that would have otherwise lowered the business and occupation tax rate for certain manufacturers. It is the intent of the legislature to dedicate that preserved tax revenue to property tax relief during the 2018 legislative session.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>84</TitleNumber><TextRun>.</TextRun><ChapterNumber>36</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>The state property tax relief account is created in the state treasury. All receipts from section 3 of this act must be deposited in the account. Moneys in the account may be spent only after appropriation. Expenditures from the account may be used only to reimburse the state general fund for the impact of property tax reduction efforts made pursuant to section 4 of this act.</P>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>84</TitleNumber><TextRun>.</TextRun><ChapterNumber>08</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) By the last workday of each fiscal year quarter, the state treasurer must transfer the amount specified in subsection (2) of this section from the general fund to the state property tax relief account created in section 2 of this act.</P>
+<P>(2) By September 15th, December 15th, April 15th, and June 15th of each fiscal year, the department must estimate the amount of state revenues from a portion of the taxes collected under RCW 82.04.240 and 82.04.280, for the applicable current fiscal year quarter and notify the state treasurer of the increase. The portion of the tax to be dedicated is calculated as follows:</P>
+<P>(a) The difference from a tax rate of 0.484 percent and a tax rate of 0.4356 percent from January 1, 2019, through December 31, 2019;</P>
+<P>(b) The difference from a tax rate of 0.484 percent and a tax rate of 0.3872 percent from January 1, 2020, through December 31, 2020;</P>
+<P>(c) The difference from a tax rate of 0.484 percent and a tax rate of 0.3388 percent from January 1, 2021, through December 31, 2021; and</P>
+<P>(d) The difference from a tax rate of 0.484 percent and a tax rate of 0.2904 percent from January 1, 2022, and thereafter.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber><P>It is the intent of the legislature to enact property tax relief during the 2018 legislative session. In preparation, the department of revenue must report, in compliance with RCW 43.01.036, to the appropriate committees of the legislature by November 1, 2017, on the following:</P></BillSectionHeader>
+<P>(1) By fiscal year, for the next ten years, the amount of revenue expected to be transferred into the state property tax relief account created in section 2 of this act;</P>
+<P>(2) By calendar year, for the next ten years, the impact to the state property tax rate if the amounts in the state property tax relief account were used to reduce the state property tax rate;</P>
+<P>(3) By calendar year, for the next ten years, how much the income threshold for the exemption contained in RCW 84.36.381 could be increased if the amounts in the state property tax relief account were instead used to lower the income threshold; and</P>
+<P>(4) By calendar year, for the next ten years, such other approaches to property tax relief as might be proposed by the department assuming the amounts in the state property tax relief account were instead used for these approaches.</P>
+</BillSection>
+</BillBody>
+</Bill>

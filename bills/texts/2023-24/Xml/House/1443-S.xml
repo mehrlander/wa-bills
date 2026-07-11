@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-1136.1</RequestNumber><ShortBillId>SHB 1443</ShortBillId><LongBillId>SUBSTITUTE HOUSE BILL 1443</LongBillId><Legislature>68th Legislature</Legislature><Session>2023 Regular Session</Session><Sponsors>House State Government &amp; Tribal Relations (originally sponsored by Representatives Low, Christian, Abbarno, Chapman, Ormsby, Eslick, Gregerson, and Pollet; by request of Secretary of State)</Sponsors><BillHistory><ReadDate>READ FIRST TIME 02/09/23.</ReadDate></BillHistory><BriefDescription>Updating the process for online voter registration by allowing voter applicants to provide the last four digits of social security number for authentication.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to updating the process for online voter registration by allowing voter applicants to provide the last four digits of social security number for authentication; amending RCW 29A.08.123; and providing an effective date.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>29A</TitleNumber><TextRun>.</TextRun><ChapterNumber>08</ChapterNumber><TextRun>.</TextRun><SectionNumber>123</SectionNumber></SectionCite> and 2019 c 6 s 3 are each amended to read as follows:<Caption>Registration electronically.</Caption></BillSectionHeader>
+<P>(1) A person <TextRun amendingStyle="add">qualified to vote</TextRun> who has a valid<TextRun amendingStyle="add">:</TextRun></P>
+<P><TextRun amendingStyle="add">(a)</TextRun> Washington state driver's license<TextRun amendingStyle="strike">,</TextRun><TextRun amendingStyle="add">;</TextRun></P>
+<P><TextRun amendingStyle="add">(b) Washington</TextRun> state identification card<TextRun amendingStyle="strike">, or</TextRun><TextRun amendingStyle="add">;</TextRun></P>
+<P><TextRun amendingStyle="add">(c) Washington state learner's permit;</TextRun></P>
+<P><TextRun amendingStyle="add">(d) Current Washington</TextRun> tribal identification<TextRun amendingStyle="add">; or</TextRun></P>
+<P><TextRun amendingStyle="add">(e) Social Security number,</TextRun></P>
+<P>may submit a voter registration application electronically on the secretary of state's website<TextRun amendingStyle="add">, and provide either the state issued identification number, the tribal identification number, or the last four digits of the person's social security number</TextRun>. <TextRun amendingStyle="strike">A person who has a valid tribal identification card may submit a voter registration electronically on the secretary of state's website if the secretary of state is able to obtain a copy of the applicant's signature from the federal government or the tribal government.</TextRun></P>
+<P>(2) The applicant must attest to the truth of the information provided on the application <TextRun amendingStyle="add">and confirm the applicant's United States citizenship</TextRun> by <TextRun amendingStyle="add">reviewing the registration oath online and</TextRun> affirmatively accepting the information as true.</P>
+<P>(3) <TextRun amendingStyle="strike">The</TextRun> <TextRun amendingStyle="add">For applicants using Washington state issued identification, the</TextRun> applicant must affirmatively assent to use of <TextRun amendingStyle="strike">his or her</TextRun> <TextRun amendingStyle="add">the applicant's</TextRun> driver's license<TextRun amendingStyle="strike">,</TextRun> <TextRun amendingStyle="add">or</TextRun> state identification card<TextRun amendingStyle="strike">, or tribal identification card</TextRun> signature for voter registration purposes.</P>
+<P>(4) <TextRun amendingStyle="add">For applicants who are not using Washington state issued identification, the applicant must submit a signature image by either submitting a signature image to the secretary of state, or submitting a signature image as part of the confirmation notice process.</TextRun></P>
+<P><TextRun amendingStyle="add">(5)</TextRun> A voter registration application submitted electronically is otherwise considered a registration by mail.</P>
+<P><TextRun amendingStyle="strike">(5)</TextRun> <TextRun amendingStyle="add">(6)</TextRun> For each electronic application, the secretary of state must obtain a digital copy of the applicant's driver's license or state identification card signature from the department of licensing<TextRun amendingStyle="add">, the voter,</TextRun> or tribal identification issuing authority.</P>
+<P><TextRun amendingStyle="strike">(6)</TextRun> <TextRun amendingStyle="add">(7)</TextRun> The secretary of state may employ additional security measures to ensure the accuracy and integrity of voter registration applications submitted electronically.</P>
+<History>2019 c 6 § 3; 2007 c 157 § 1.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2007 c 157:</TextRun> "This act takes effect January 1, 2008." [2007 c 157 § 2.]</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="new" action="effdate">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act takes effect July 15, 2024.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

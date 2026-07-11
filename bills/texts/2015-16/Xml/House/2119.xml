@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-1160.3</RequestNumber><ShortBillId>HB 2119</ShortBillId><LongBillId>HOUSE BILL 2119</LongBillId><Legislature>64th Legislature</Legislature><Session>2015 Regular Session</Session><Sponsors>Representatives Smith and Pollet</Sponsors><BillHistory><ReadDate>Read first time 02/13/15.</ReadDate><ReferredCommittee>Referred to Committee on Finance.</ReferredCommittee></BillHistory><BriefDescription>Concerning consumer data privacy protection and the work of a task force to consider creating a consumer data privacy protection office.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to consumer data privacy protection and the work of a task force to consider creating a consumer data privacy protection office; adding a new section to chapter 82.04 RCW; adding a new section to chapter 43.79 RCW; creating a new section; and providing an expiration date.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>82</TitleNumber><TextRun>.</TextRun><ChapterNumber>04</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) Beginning October 1, 2015, upon every person within this state receiving income from the sale of smart metering system data, the amount of tax with respect to such activity is equal to the gross income from the sale of smart metering system data multiplied by the rate of 1.6 percent.</P>
+<P>(2) The taxes collected under this section must be deposited in the data privacy enforcement account created in section 3 of this act, with the remainder to the state general fund.</P>
+<P>(3) The definitions in this subsection apply throughout this section unless the context clearly requires otherwise.</P>
+<P>(a) "Smart metering system" means a system that collects, measures, and analyzes, or any combination thereof, energy consumption data via two-way communications.</P>
+<P>(b) "Smart metering system data" means the data transmitted by a smart metering system from an energy consumer to the energy supplier or any other party.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1)(a) A legislative task force on data privacy is established, with eleven members as provided in this subsection.</P></BillSectionHeader>
+<P>(i) The president of the senate must appoint one member from each of the two largest caucuses of the senate.</P>
+<P>(ii) The speaker of the house of representatives must appoint one member from each of the two largest caucuses of the house of representatives.</P>
+<P>(iii) The governor must appoint one member.</P>
+<P>(iv) The state auditor or his or her designee.</P>
+<P>(v) The state attorney general or his or her designee.</P>
+<P>(vi) The legislative members must each appoint one individual, who must, at a minimum, have private sector experience in advocacy or representation on behalf of consumers or data privacy protection.</P>
+<P>(b) The task force must choose its cochairs from among its legislative membership. A legislator in the house of representatives must convene the initial meeting of the task force.</P>
+<P>(2) The task force must evaluate and make recommendations on the following issues:</P>
+<P>(a) Whether the legislature should establish a state government office of the privacy commissioner to protect and promote the privacy rights of individuals. As part of this evaluation, the task force must examine the office of the privacy commissioner of Canada.</P>
+<P>(b) If the task force recommends that the legislature establish a state government office of the privacy commissioner as described in (a) of this subsection (2), the mandate, mission, and organizational structure of such an office.</P>
+<P>(3) Staff support for the task force must be provided by the senate committee services and the house of representatives office of program research. The task force may contract for specialized consulting services as it deems appropriate.</P>
+<P>(4) Legislative members of the task force must be reimbursed for travel expenses in accordance with RCW 44.04.120. Nonlegislative members, except those representing an employer or organization, are entitled to be reimbursed for travel expenses in accordance with RCW 43.03.050 and 43.03.060.</P>
+<P>(5) The expenses of the task force must be paid from the data privacy enforcement account created in section 3 of this act. Task force expenditures are subject to approval by the senate facilities and operations committee and the house of representatives executive rules committee, or their successor committees.</P>
+<P>(6) By December 1, 2016, and in compliance with RCW 43.01.036, the task force must report its findings and recommendations to the governor and the appropriate committees of the legislature.</P>
+<P>(7) This section expires July 1, 2017.</P>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>79</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>The data privacy enforcement account is created in the state treasury. All receipts allocated to the account as provided in section 1 of this act must be deposited in the account. Moneys in the account may be spent only after appropriation. Expenditures from the account may be used for the following:</P>
+<P>(1) The work of the task force created in section 2 of this act and any studies or expenses of witnesses and experts that the task force may deem appropriate; and</P>
+<P>(2) The education and training of staff or officials of local government in cybersecurity and information privacy best practices.</P>
+</BillSection>
+</BillBody>
+</Bill>

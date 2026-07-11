@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-3754.1</RequestNumber><ShortBillId>HB 2313</ShortBillId><LongBillId>HOUSE BILL 2313</LongBillId><Legislature>66th Legislature</Legislature><Session>2020 Regular Session</Session><Sponsors>Representatives Doglio and Appleton</Sponsors><BillHistory><PrefiledDate>Prefiled 01/08/20.</PrefiledDate><ReadDate>Read first time 01/13/20.</ReadDate><ReferredCommittee>Referred to Committee on Health Care &amp; Wellness.</ReferredCommittee></BillHistory><BriefDescription>Prohibiting maintenance of certification as a condition for a physician to participate in a health carrier's provider network.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to prohibiting maintenance of certification as a condition for a physician to participate in a health carrier's provider network; and adding a new section to chapter 48.43 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>48</TitleNumber><TextRun>.</TextRun><ChapterNumber>43</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) A health carrier may not require a physician licensed under chapter 18.71 RCW or an osteopathic physician licensed under chapter 18.57 RCW to participate in a maintenance of certification requirement as a condition for the physician or osteopathic physician to be a participating provider in a health plan offered by the health carrier.</P>
+<P>(2) For purposes of this section, "maintenance of certification" means the satisfactory participation in a formal recertification program to maintain board certification after initial certification from the American osteopathic association bureau of osteopathic specialists, the American board of medical specialties, or other accrediting organization recognized by the Washington medical commission or board of osteopathic medicine and surgery.</P>
+<P>(3) This section applies to provider contracts entered or renewed on or after the effective date of this section.</P>
+</BillSection>
+</BillBody>
+</Bill>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><ShortBillId>ESSB 5459</ShortBillId><LongBillId>ENGROSSED SUBSTITUTE SENATE BILL 5459</LongBillId><Legislature>67th Legislature</Legislature><Session>2022 Regular Session</Session><Sponsors>Senate Ways &amp; Means (originally sponsored by Senators Mullet and L. Wilson)</Sponsors><BillHistory><ReadDate>READ FIRST TIME 02/28/22.</ReadDate></BillHistory><BriefDescription>Creating a business and occupation tax deduction for persons conducting payment card processing activity.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to creating a business and occupation tax deduction for persons conducting payment card processing activity; adding a new section to chapter 82.04 RCW; creating a new section; and providing an effective date.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The unique nature of payment system arrangements distinguishes payment card processing companies from other taxpayers. Due to the unique nature of payment card processing companies' activities related to interchange fees and network fees, the legislature intends to address the business and occupation taxation of payment card processing companies' activities on a prospective basis only, specifically for this industry through the deduction authorized in this act.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>82</TitleNumber><TextRun>.</TextRun><ChapterNumber>04</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) In computing the tax under this chapter, a payment card processing company may deduct from the measure of the tax amounts received by persons other than the payment card processing company in the following forms:</P>
+<P>(a) Interchange fees; and</P>
+<P>(b) Network fees.</P>
+<P>(2) The definitions in this subsection apply throughout this section unless the context clearly requires otherwise.</P>
+<P>(a) "Interchange fee" means a fee set by a payment network, or by agreement between an issuing bank and a merchant or merchant bank, that an issuing bank retains from the amounts settled to the merchant as compensation for the services the issuing bank provides in issuing a credit, debit, or prepaid card to a cardholder, advancing proceeds to settle a credit, debit, or prepaid card transaction, and incurring a portion of the risks relating to the transaction.</P>
+<P>(b) "Issuing bank" means a bank that issues payment network-branded credit, debit, or prepaid cards to cardholders.</P>
+<P>(c) "Merchant bank" means a bank that is a participant in payment networks that contracts, directly or indirectly, with a merchant, enabling that merchant to accept a payment network‐branded credit, debit, or prepaid card and receive cash proceeds from the sale.</P>
+<P>(d) "Network fees" means fees a payment network charges and receives as compensation for its services, including for facilitating the payment of a credit, debit, or prepaid card transaction from cardholders to a merchant through its network.</P>
+<P>(e) "Payment card processing company" means a company, including a merchant bank, that acquires, either directly or indirectly, credit, debit, or prepaid card transactions from merchants, facilitates the submission of those transactions to payment networks, and facilitates the payment of proceeds of those transactions to merchants.</P>
+<P>(f) "Payment network" means an operator of a system or network connecting one or more issuing banks to one or more merchant banks that facilitates financial transactions through the use of a credit, debit, or prepaid product.</P>
+</BillSection>
+<BillSection type="new" action="effdate" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber>This act takes effect July 1, 2022, and applies only to tax periods beginning on or after that date.</BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

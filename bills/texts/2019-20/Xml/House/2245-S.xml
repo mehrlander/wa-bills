@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-4134.2</RequestNumber><ShortBillId>SHB 2245</ShortBillId><LongBillId>SUBSTITUTE HOUSE BILL 2245</LongBillId><Legislature>66th Legislature</Legislature><Session>2020 Regular Session</Session><Sponsors>House Transportation (originally sponsored by Representatives Barkis, Ramos, Goehner, and Boehnke)</Sponsors><BillHistory><ReadDate>READ FIRST TIME 02/07/20.</ReadDate></BillHistory><BriefDescription>Concerning roundabouts.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to roundabouts; amending RCW 46.61.140; and adding a new section to chapter 46.04 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>46</TitleNumber><TextRun>.</TextRun><ChapterNumber>04</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) "Circular intersection" means an intersection characterized by a circulatory roadway, generally circular in design, located in the center of the intersection. A circular intersection encompasses the area bounded by the outermost curb line or, if there is no curb, the edge of the pavement, and includes crosswalks on any entering or exiting roadway.</P>
+<P>(2) "Circular intersection" includes: (a) Roundabouts; (b) rotaries; and (c) traffic circles.</P>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>46</TitleNumber><TextRun>.</TextRun><ChapterNumber>61</ChapterNumber><TextRun>.</TextRun><SectionNumber>140</SectionNumber></SectionCite> and 1965 ex.s. c 155 s 23 are each amended to read as follows:<Caption>Driving on roadways laned for traffic.</Caption></BillSectionHeader>
+<P>Whenever any roadway has been divided into two or more clearly marked lanes for traffic the following rules in addition to all others consistent herewith shall apply:</P>
+<P>(1) A vehicle shall be driven as nearly as practicable entirely within a single lane and shall not be moved from such lane until the driver has first ascertained that such movement can be made with safety.</P>
+<P>(2) Upon a roadway which is divided into three lanes and provides for two-way movement of traffic, a vehicle shall not be driven in the center lane except when overtaking and passing another vehicle traveling in the same direction when such center lane is clear of traffic within a safe distance, or in preparation for making a left turn or where such center lane is at the time allocated exclusively to traffic moving in the same direction that the vehicle is proceeding and such allocation is designated by official traffic-control devices.</P>
+<P>(3) Official traffic-control devices may be erected directing slow moving or other specified traffic to use a designated lane or designating those lanes to be used by traffic moving in a particular direction regardless of the center of the roadway and drivers of vehicles shall obey the directions of every such device.</P>
+<P>(4) Official traffic-control devices may be installed prohibiting the changing of lanes on sections of roadway and drivers of vehicles shall obey the directions of every such device.</P>
+<P><TextRun amendingStyle="add">(5) Pursuant to subsection (1) of this section, the operator of a vehicle or combination of vehicles meeting the requirements of RCW 46.04.530 and with a total length in excess of forty feet or a total width exceeding ten feet may, with due regard for all other traffic, deviate from the lane in which the operator is driving to the extent necessary to approach and drive through a roundabout.</TextRun></P>
+<History>1965 ex.s. c 155 § 23.</History>
+<RCWNoteSection>
+<CrossRefNote><NoteP><TextRun fontWeight="bold">Rules of court: </TextRun>Monetary penalty schedule<TextRun fontFamily="Times New Roman">—</TextRun>IRLJ 6.2.</NoteP></CrossRefNote>
+</RCWNoteSection>
+</BillSection>
+</BillBody>
+</Bill>

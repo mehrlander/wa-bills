@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-0447.2</RequestNumber><ShortBillId>SB 5085</ShortBillId><LongBillId>SENATE BILL 5085</LongBillId><Legislature>66th Legislature</Legislature><Session>2019 Regular Session</Session><Sponsors>Senators McCoy, Conway, Hasegawa, Palumbo, Hunt, Kuderer, Takko, and Van De Wege</Sponsors><BillHistory><PrefiledDate>Prefiled 01/04/19.</PrefiledDate><ReadDate>Read first time 01/14/19.</ReadDate><ReferredCommittee>Referred to Committee on Environment, Energy &amp; Technology.</ReferredCommittee></BillHistory><BriefDescription>Providing access to broadband internet services.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to providing access to broadband internet services; amending RCW 35.43.042; adding a new section to chapter 36.01 RCW; adding a new section to chapter 35.21 RCW; adding a new section to chapter 35A.21 RCW; adding a new section to chapter 54.16 RCW; adding a new section to chapter 53.08 RCW; adding a new section to chapter 87.03 RCW; adding a new section to chapter 57.08 RCW; adding a new section to chapter 52.30 RCW; adding a new chapter to Title 80 RCW; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature finds that many rural areas of Washington state are either completely without broadband internet access service or the services that are available are wholly inadequate when compared to speeds and quality of service available in higher density urban and suburban areas of the state. The legislature further finds that while improvements in technology and state, federal, and telecommunications industry funding offer the prospect in the future of providing adequate service to more areas of the state, there will remain for many areas little prospect of service being offered by private telecommunications companies.</P></BillSectionHeader>
+<P>Therefore, it is the intent of this act to provide authority to units of local government to obtain authority from the state to provide retail broadband access services when no other provider is willing and able to provide that service and when the unit of local government demonstrates that a business case plan supports the capacity to finance the construction and operation of the service infrastructure without requiring use of revenues obtained from the rates and charges for other utility services provided by the unit of local government.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P indent="0">The definitions in this section apply throughout this chapter unless the context clearly requires otherwise.</P></BillSectionHeader>
+<P>(1) "Broadband" means high-speed internet access and other advanced telecommunications services.</P>
+<P>(2) "Retail internet service" means the provision of broadband to end users.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P indent="0">(1) Any unit of local government or other subdivision of the state may provide broadband services when approved by the commission pursuant to the requirements of this section.</P></BillSectionHeader>
+<P>(2) The commission may approve an application to provide broadband services when it determines that:</P>
+<P>(a) The retail internet service available within the area sought to be served is either nonexistent or is inadequate because it falls below either the federal communications speed benchmark of twenty-five megapixels per second for download and three megapixels per second for upload or a higher standard as the commission may adopt by order;</P>
+<P>(b) There is no other provider willing and able to provide the service in the area proposed for service by the unit of local government;</P>
+<P>(c) The business case plan for deploying the service infrastructure and for operating the services demonstrates that that funding will be sufficient and is not likely to require funding from rates collected for other services provided by the unit of local government;</P>
+<P>(d) The governing body has held at least two public hearings within the area to be served at which information is provided on the proposed services and rates and charges anticipated to be imposed for receipt of the services; and</P>
+<P>(e) The rates to be charged for the retail services will be just and nondiscriminatory and that any tiered rates will be based upon the service demands of the user, including commercial and residential rates.</P>
+<P>(3) The commission may order a unit of local government seeking broadband service authority under this section to pay for all or a share of the commission's costs incurred in processing the application.</P>
+<P>(4) A unit of local government obtaining authority under this section must not condition the availability or cost of other services upon the purchase or use of broadband services.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber><P indent="0">Except as provided in section 3 of this act, nothing in this chapter, RCW 35.43.040(4), or sections 6 through 13 of this act may be construed or is intended to confer upon the commission any authority to exercise jurisdiction over locally regulated utilities or other services provided by a unit of local government.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>5</Value><TextRun>.  </TextRun></BillSectionNumber><P>Except as expressly provided in this chapter, nothing in this chapter, RCW 35.43.040(4), or sections 6 through 13 of this act supersede or modify authority granted under other laws for units of local government or other subdivisions of the state to provide broadband services.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>6</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>36</TitleNumber><TextRun>.</TextRun><ChapterNumber>01</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>A county may exercise such powers as are granted pursuant to the provisions of section 3 of this act.</P>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>7</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>35</TitleNumber><TextRun>.</TextRun><ChapterNumber>21</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>A city may exercise such powers as are granted pursuant to the provisions of section 3 of this act.</P>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>8</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>35A</TitleNumber><TextRun>.</TextRun><ChapterNumber>21</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>A town may exercise such powers as are granted pursuant to the provisions of section 3 of this act.</P>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>9</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>54</TitleNumber><TextRun>.</TextRun><ChapterNumber>16</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>A district may exercise such powers as are granted pursuant to the provisions of section 3 of this act.</P>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>10</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>53</TitleNumber><TextRun>.</TextRun><ChapterNumber>08</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>A district may exercise such powers as are granted pursuant to the provisions of section 3 of this act.</P>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>11</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>87</TitleNumber><TextRun>.</TextRun><ChapterNumber>03</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>A district may exercise such powers as are granted pursuant to the provisions of section 3 of this act.</P>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>12</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>57</TitleNumber><TextRun>.</TextRun><ChapterNumber>08</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>A district may exercise such powers as are granted pursuant to the provisions of section 3 of this act.</P>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>13</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>52</TitleNumber><TextRun>.</TextRun><ChapterNumber>30</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>A district may exercise such powers as are granted pursuant to the provisions of section 3 of this act.</P>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>14</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>35</TitleNumber><TextRun>.</TextRun><ChapterNumber>43</ChapterNumber><TextRun>.</TextRun><SectionNumber>042</SectionNumber></SectionCite> and 1969 ex.s. c 258 s 2 are each amended to read as follows:<Caption>Authority to establish utility local improvement districts<TextRun fontFamily="Times New Roman">—</TextRun>Procedure.</Caption></BillSectionHeader>
+<P>Whenever the legislative authority of any city or town has provided pursuant to law for the acquisition, construction, reconstruction, purchase, condemnation and purchase, addition to, repair, or renewal of the whole or any portion of a:</P>
+<P>(1) System for providing the city or town and the inhabitants thereof with water, which system includes as a whole or as a part thereof water mains, hydrants or appurtenances which are authorized subjects for local improvements under RCW 35.43.040(13) or other law; or a</P>
+<P>(2) System for providing the city or town with sewerage and storm or surface water disposal, which system includes as a whole or as a part thereof drains, sewers or sewer appurtenances which are authorized subjects for local improvements under RCW 35.43.040(7) or other law; <TextRun amendingStyle="strike">or</TextRun></P>
+<P>(3) Off-street parking facilities; <TextRun amendingStyle="add">or</TextRun></P>
+<P><TextRun amendingStyle="add">(4) System for providing broadband services through the exercise of the powers granted pursuant to section 3 of this act;</TextRun> and</P>
+<P>Has further provided in accordance with any applicable provisions of the Constitution or statutory authority for the issuance and sale of revenue bonds to pay the cost of all or a portion of any such system, such legislative authority shall have the authority to establish utility local improvement districts, and to levy special assessments on all property specially benefited by any such local improvement to pay in whole or in part the damages or costs of any local improvements so provided for.</P>
+<P>The initiation and formation of such utility local improvement districts and the levying, collection and enforcement of assessments shall be in the manner and subject to the same procedures and limitations as are now or hereafter provided by law for the initiation and formation of local improvement districts in cities and towns and the levying, collection and enforcement of assessments pursuant thereto.</P>
+<P>It must be specified in any petition or resolution initiating the formation of such a utility local improvement district in a city or town and in the ordinance ordered pursuant thereto, that the assessments shall be for the sole purpose of payment into such revenue bond fund as may be specified by the legislative authority for the payment of revenue bonds issued to defray the cost of such system or facilities or any portion thereof as provided for in this section.</P>
+<P>Assessments in any such utility local improvement district may be made on the basis of special benefits up to but not in excess of the total cost of the local improvements portion of any system or facilities payable by issuance of revenue bonds. No warrants or bonds shall be issued in any such utility local improvement district, but the collection of interest and principal on all assessments in such utility local improvement district, when collected, shall be paid into any such revenue bond fund.</P>
+<P>When in the petition or resolution for establishment of a local improvement district and in the ordinance ordered pursuant thereto, it is specified or provided that the assessments shall be for the sole purpose of payment into a revenue bond fund for the payment of revenue bonds, then the local improvement district shall be designated a "utility local improvement district".</P>
+<P>The provisions of chapters 35.45, 35.47 and 35.48 RCW shall have no application to utility local improvement districts created under authority of this section.</P>
+<History>1969 ex.s. c 258 § 2; 1967 c 52 § 1.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Construction<TextRun fontFamily="Times New Roman">—</TextRun>1967 c 52:</TextRun> "The authority granted by this 1967 amendatory act shall be considered an alternative and additional method of securing payment of revenue bonds issued for the purposes specified in RCW 35.43.042 and shall not be construed as a restriction or limitation upon any other method for providing for the payment of any such revenue bonds." [1967 c 52 § 27.]</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Severability<TextRun fontFamily="Times New Roman">—</TextRun>1967 c 52:</TextRun> "If any provision of this act, or its application to any person or circumstance is held invalid, the remainder of the act, or the application of the provision to other persons or circumstances is not affected." [1967 c 52 § 29.]</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="new" action="addchap">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>15</Value><TextRun>.  </TextRun></BillSectionNumber><P>Sections 2 through 5 of this act constitute a new chapter in <TitleCite><TextRun>Title </TextRun><TitleNumber>80</TitleNumber><TextRun> RCW</TextRun></TitleCite>.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

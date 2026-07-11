@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-2120.1</RequestNumber><ShortBillId>HB 2176</ShortBillId><LongBillId>HOUSE BILL 2176</LongBillId><Legislature>68th Legislature</Legislature><Session>2024 Regular Session</Session><Sponsors>Representatives Caldier and Reeves</Sponsors><BillHistory><PrefiledDate>Prefiled 01/05/24.</PrefiledDate><ReadDate>Read first time 01/08/24.</ReadDate><ReferredCommittee>Referred to Committee on Health Care &amp; Wellness.</ReferredCommittee></BillHistory><BriefDescription>Improving access to patient care by increasing preventive dental care.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to improving access to patient care by increasing preventive dental care; amending RCW 18.260.090; and adding new sections to chapter 18.260 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>18</TitleNumber><TextRun>.</TextRun><ChapterNumber>260</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>The commission shall issue a license to practice as a preventive dental assistant to any applicant who:</P>
+<P>(1) Pays any applicable fees as established by the secretary in accordance with RCW 43.70.110 and 43.70.250;</P>
+<P>(2) Submits, on forms provided by the secretary, the applicant's name, address, and other applicable information as determined by the secretary; and</P>
+<P>(3) Demonstrates competency as a preventive dental assistant as determined by the commission.</P>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>18</TitleNumber><TextRun>.</TextRun><ChapterNumber>260</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) The commission shall adopt rules relating to the scope of preventive dental assistant services that may be performed by preventive dental assistants under the supervision of a licensed dentist.</P>
+<P>(2) The scope of preventive dental assistant services that the commission identifies in subsection (1) of this section must include:</P>
+<P>(a) Dental assisting services that a dental assistant may perform under the supervision of a licensed dentist;</P>
+<P>(b) Dental prophylaxis for patients in a healthy oral state as defined by the commission; and</P>
+<P>(c) Periodontal probing after initial probing by a dentist or dental hygienist and diagnosis by a dentist.</P>
+<P>(3) A dentist may not assign a preventive dental assistant to perform services until the preventive dental assistant has demonstrated skills necessary to competently perform all assigned duties and responsibilities.</P>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>18</TitleNumber><TextRun>.</TextRun><ChapterNumber>260</ChapterNumber><TextRun>.</TextRun><SectionNumber>090</SectionNumber></SectionCite> and 2007 c 269 s 8 are each amended to read as follows:<Caption>Initial or renewal credentials<TextRun fontFamily="Times New Roman">—</TextRun>Issuance and denial.</Caption></BillSectionHeader>
+<P><TextRun amendingStyle="add">(1)</TextRun> The commission shall issue an initial credential or renewal credential to an applicant who has met the requirements for a credential or deny an initial credential or renewal credential based upon failure to meet the requirements for a credential or unprofessional conduct or impairment governed by chapter 18.130 RCW.</P>
+<P><TextRun amendingStyle="add">(2) The commission may adopt rules for renewal requirements for a credential, including continuing education requirements, for preventive dental assistants and expanded function dental auxiliary licenses.</TextRun></P>
+<History>2007 c 269 § 8.</History>
+</BillSection>
+</BillBody>
+</Bill>

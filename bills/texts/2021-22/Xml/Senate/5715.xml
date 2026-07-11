@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-3460.1</RequestNumber><ShortBillId>SB 5715</ShortBillId><LongBillId>SENATE BILL 5715</LongBillId><Legislature>67th Legislature</Legislature><Session>2022 Regular Session</Session><Sponsors>Senators Wellman, Sheldon, Randall, and C. Wilson</Sponsors><BillHistory><PrefiledDate>Prefiled 01/06/22.</PrefiledDate><ReadDate>Read first time 01/10/22.</ReadDate><ReferredCommittee>Referred to Committee on Environment, Energy &amp; Technology.</ReferredCommittee></BillHistory><BriefDescription>Modifying the definition of broadband or broadband service.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to modifying the definition of broadband or broadband service; amending RCW 43.330.530; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature recognizes the statewide broadband office's objective of scalability while appreciating that a digital economy will continue to drive higher and higher speeds. Therefore, the legislature intends to move towards adequate connectivity in terms of the needs of economic development, education, and telehealth services.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>330</ChapterNumber><TextRun>.</TextRun><SectionNumber>530</SectionNumber></SectionCite> and 2019 c 365 s 2 are each amended to read as follows:<Caption>Broadband office<TextRun fontFamily="Times New Roman">—</TextRun>Definitions.</Caption></BillSectionHeader>
+<P>The definitions in this section apply throughout this section and RCW 43.330.532 through 43.330.538 unless the context clearly requires otherwise.</P>
+<P>(1) "Board" means the public works board established in RCW 43.155.030.</P>
+<P>(2) "Broadband" or "broadband service" means any service providing advanced telecommunications capability and internet access with transmission speeds that, at a minimum, provide <TextRun amendingStyle="strike">twenty-five</TextRun> <TextRun amendingStyle="add">100</TextRun> megabits per second download and <TextRun amendingStyle="strike">three</TextRun> <TextRun amendingStyle="add">20</TextRun> megabits per second upload.</P>
+<P>(3) "Broadband infrastructure" means networks of deployed telecommunications equipment and technologies necessary to provide high-speed internet access and other advanced telecommunications services to end users.</P>
+<P>(4) "Department" means the department of commerce.</P>
+<P>(5) "Last mile infrastructure" means broadband infrastructure that serves as the final connection from a broadband service provider's network to the end-use customer's on-premises telecommunications equipment.</P>
+<P>(6) "Local government" includes cities, towns, counties, municipal corporations, public port districts, public utility districts, quasi-municipal corporations, special purpose districts, and multiparty entities comprised of public entity members.</P>
+<P>(7) "Middle mile infrastructure" means broadband infrastructure that links a broadband service provider's core network infrastructure to last mile infrastructure.</P>
+<P>(8) "Office" means the governor's statewide broadband office established in RCW 43.330.532.</P>
+<P>(9) "Tribe" means any federally recognized Indian tribe whose traditional lands and territories included parts of Washington.</P>
+<P>(10) "Unserved areas" means areas of Washington in which households and businesses lack access to broadband service, as defined by the office<TextRun amendingStyle="strike">, except that the state's definition for broadband service may not be actual speeds less than twenty-five megabits per second download and three megabits per second upload</TextRun>.</P>
+<History>2019 c 365 § 2.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Findings<TextRun fontFamily="Times New Roman" /><TextRun fontFamily="Times New Roman">—</TextRun>2019 c 365:</TextRun> See note following RCW 43.330.532.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+</BillBody>
+</Bill>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-0061.1</RequestNumber><ShortBillId>SB 5050</ShortBillId><LongBillId>SENATE BILL 5050</LongBillId><Legislature>69th Legislature</Legislature><Session>2025 Regular Session</Session><Sponsors>Senators J. Wilson, Christian, McCune, Schoesler, Holy, Dozier, Short, Torres, Chapman, and Fortunato</Sponsors><BillHistory><PrefiledDate>Prefiled 12/13/24.</PrefiledDate><ReadDate>Read first time 01/13/25.</ReadDate><ReferredCommittee>Referred to Committee on State Government, Tribal Affairs &amp; Elections.</ReferredCommittee></BillHistory><BriefDescription>Concerning the privacy of party selections during presidential primaries.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to maintaining the privacy of party selections during presidential primaries; adding a new section to chapter 29A.56 RCW; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature finds that every presidential primary election, voters contact legislators, auditors, and other government officials with concerns about the visibility of their party preference selections on the outside of presidential primary ballot envelopes. Often, the concern is that just by seeing the party preference, an outside observer would know that voter's presidential candidate vote. The legislature further finds that in order to protect the secrecy of the ballot, a party preference selection must be kept as secret as any other part of the ballot.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>29A</TitleNumber><TextRun>.</TextRun><ChapterNumber>56</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>Where a voter is required to make a political party declaration on a ballot or ballot envelope:</P>
+<P>(1) That declaration must be placed such that the ballot envelope must be opened in order for anyone to see the declaration; and</P>
+<P>(2) The ballot envelope must include a prominently placed reminder to the voter that a political party declaration is required for the ballot to be counted.</P>
+</BillSection>
+</BillBody>
+</Bill>

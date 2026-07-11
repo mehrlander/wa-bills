@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-2591.1</RequestNumber><ShortBillId>HB 2270</ShortBillId><LongBillId>HOUSE BILL 2270</LongBillId><Legislature>69th Legislature</Legislature><Session>2026 Regular Session</Session><Sponsors>Representatives Bernbaum, Leavitt, Reed, and Ramel</Sponsors><BillHistory><PrefiledDate>Prefiled 01/06/26.</PrefiledDate><ReadDate>Read first time 01/12/26.</ReadDate><ReferredCommittee>Referred to Committee on Finance.</ReferredCommittee></BillHistory><BriefDescription>Providing specified flexibility for use of lodging tax revenues for small cities.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to providing specified flexibility for use of lodging tax revenues for small cities; amending RCW 67.28.1815; and adding a new section to chapter 67.28 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>67</TitleNumber><TextRun>.</TextRun><ChapterNumber>28</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) A municipality with a population of less than 5,000 may use up to 15 percent of revenue from the prior fiscal year from the taxes imposed under this chapter for infrastructure, secondary roadways, recreational facilities, and tourist season law enforcement, subject to the limitations of this section.</P>
+<P>(2) Before adopting an ordinance authorizing the alternative use of lodging tax revenues, the governing body of the municipality must:</P>
+<P>(a) Provide notice in a legal newspaper of general circulation of the intent to adopt an ordinance;</P>
+<P>(b) Hold a public hearing on the proposed use of funds. Notice of the public hearing must be published in a legal newspaper of general circulation within the city and posted in at least three conspicuous public places located in the city as well as on the city website. Notices must describe the intended use of funds; and</P>
+<P>(c) Include opportunities for substantial input from business stakeholders and other members of the public.</P>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>67</TitleNumber><TextRun>.</TextRun><ChapterNumber>28</ChapterNumber><TextRun>.</TextRun><SectionNumber>1815</SectionNumber></SectionCite> and 2008 c 264 s 3 are each amended to read as follows:<Caption>Revenue<TextRun fontFamily="Times New Roman">—</TextRun>Special fund<TextRun fontFamily="Times New Roman">—</TextRun>Uses for tourism promotion and tourism facility acquisition and operation.</Caption></BillSectionHeader>
+<P>Except as provided in RCW 67.28.180 <TextRun amendingStyle="add">and section 1 of this act</TextRun>, all revenue from taxes imposed under this chapter shall be credited to a special fund in the treasury of the municipality imposing such tax and used solely for the purpose of paying all or any part of the cost of tourism promotion, acquisition of tourism-related facilities, or operation of tourism-related facilities. Municipalities may, under chapter 39.34 RCW, agree to the utilization of revenue from taxes imposed under this chapter for the purposes of funding a multijurisdictional tourism-related facility.</P>
+<History>2008 c 264 s 3; 1997 c 452 s 4.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Findings<TextRun fontFamily="Times New Roman">—</TextRun>Intent<TextRun fontFamily="Times New Roman">—</TextRun>Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2008 c 264:</TextRun> See notes following RCW 67.28.180.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Intent<TextRun fontFamily="Times New Roman">—</TextRun>Severability<TextRun fontFamily="Times New Roman">—</TextRun>1997 c 452:</TextRun> See notes following RCW 67.28.080.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Savings<TextRun fontFamily="Times New Roman">—</TextRun>1997 c 452:</TextRun> See note following RCW 67.28.181.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+</BillBody>
+</Bill>

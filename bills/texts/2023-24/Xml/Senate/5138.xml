@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-0398.1</RequestNumber><ShortBillId>SB 5138</ShortBillId><LongBillId>SENATE BILL 5138</LongBillId><Legislature>68th Legislature</Legislature><Session>2023 Regular Session</Session><Sponsors>Senators Fortunato, J. Wilson, and L. Wilson</Sponsors><BillHistory><PrefiledDate>Prefiled 01/04/23.</PrefiledDate><ReadDate>Read first time 01/09/23.</ReadDate><ReferredCommittee>Referred to Committee on Housing.</ReferredCommittee></BillHistory><BriefDescription>Providing that vehicles illegally parked on public property or in a public right-of-way are not homesteads under chapter 6.13 RCW.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to providing that vehicles illegally parked on public property or in a public right-of-way are not homesteads under chapter 6.13 RCW; amending RCW 6.13.010; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature finds that the characterization of illegally parked vehicles as homesteads in <TextRun fontStyle="italic">City of Seattle v. Long</TextRun>, 198 Wn.2d 136 (2021), has incentivized more people to live in vehicles on the streets and unfortunately exacerbated Washington's homelessness crisis. Therefore, to address unsafe and unsanitary living situations, the legislature intends to establish that vehicles illegally parked in public places do not qualify as homesteads under chapter 6.13 RCW.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>6</TitleNumber><TextRun>.</TextRun><ChapterNumber>13</ChapterNumber><TextRun>.</TextRun><SectionNumber>010</SectionNumber></SectionCite> and 2021 c 290 s 2 are each amended to read as follows:<Caption>Homestead, what constitutes<TextRun fontFamily="Times New Roman">—</TextRun>Terms defined.</Caption></BillSectionHeader>
+<P>(1) The homestead consists of real or personal property that the owner or a dependent of the owner uses as a residence.</P>
+<P><TextRun amendingStyle="add">(a)</TextRun> In the case of a dwelling house or mobile home, the homestead consists of the dwelling house or the mobile home in which the owner resides or intends to reside, with appurtenant buildings, and the land on which the same are situated and by which the same are surrounded, or improved or unimproved land, regardless of area, owned with the intention of placing a house or mobile home thereon and residing thereon. A mobile home may be exempted under this chapter whether or not it is permanently affixed to the underlying land and whether or not the mobile home is placed upon a lot owned by the mobile home owner or a dependent of the owner. Property included in the homestead must be actually intended or used as the principal home for the owner.</P>
+<P><TextRun amendingStyle="add">(b) A vehicle that is illegally parked on public property or in a public right-of-way is not a homestead for the purposes of this chapter.</TextRun></P>
+<P>(2) As used in this chapter:</P>
+<P>(a) "Owner" includes but is not limited to a purchaser under a deed of trust, mortgage, or real estate contract.</P>
+<P>(b) "Net value" means market value less all liens and encumbrances senior to the judgment being executed upon and not including the judgment being executed upon.</P>
+<P>(c) "Forced sale" includes any sale of homestead property in a bankruptcy proceeding under Title 11 of the United States Code. The reinvestment provisions of RCW 6.13.070 do not apply to the proceeds.</P>
+<P>(d) "Dependent" has the meaning given in Title 11 U.S.C. Sec. 522(a)(1)<TextRun amendingStyle="add">, as it existed on the effective date of this section</TextRun>.</P>
+<P><TextRun amendingStyle="add">(e) "Vehicle" means a device capable of being moved upon a public highway, and in, upon, or by which any persons or property is or may be transported or drawn upon a public highway, and includes a vehicle that is inoperative.</TextRun></P>
+<History>2021 c 290 § 2; 1999 c 403 § 1; 1993 c 200 § 1; 1987 c 442 § 201; 1981 c 329 § 7; 1945 c 196 § 1; 1931 c 88 § 1; 1927 c 193 § 1; 1895 c 64 § 1; Rem. Supp. 1945 § 528. Formerly RCW 6.12.010.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Findings<TextRun fontFamily="Times New Roman">—</TextRun>2021 c 290:</TextRun> "The legislature finds that the homestead exemption is intended to protect the homeowner's equity in a home against unsecured creditors. The legislature finds that changes to the homestead exemption are necessary to modernize the law and to address the case of Wilson v. Rigby, 909 F.3d 306 (2018) and to adopt the reasoning in In re Good, 588 B.R. 573 (Bankr. W.D. Wash. 2018)." [2021 c 290 § 1.]</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2021 c 290:</TextRun> "This act is necessary for the immediate preservation of the public peace, health, or safety, or support of the state government and its existing public institutions, and takes effect immediately [May 12, 2021]." [2021 c 290 § 8.]</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Severability<TextRun fontFamily="Times New Roman">—</TextRun>1981 c 329:</TextRun> See note following RCW 6.21.020.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+</BillBody>
+</Bill>

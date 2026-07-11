@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-0451.1</RequestNumber><ShortBillId>HB 1744</ShortBillId><LongBillId>HOUSE BILL 1744</LongBillId><Legislature>66th Legislature</Legislature><Session>2019 Regular Session</Session><Sponsors>Representatives Hudgins and Appleton</Sponsors><BillHistory><ReadDate>Read first time 01/30/19.</ReadDate><ReferredCommittee>Referred to Committee on Innovation, Technology &amp; Economic Development.</ReferredCommittee></BillHistory><BriefDescription>Concerning state government processes to verify hours worked on computers for certain government contracts.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to state government processes to verify hours worked on computers for certain government contracts; adding a new section to chapter 39.26 RCW; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature recognizes that an increasing amount of government contracts require the use of computers, a virtual office, or online activity. The legislature further recognizes the difficulty in verifying hours worked on computers for government contracts. Therefore, the legislature intends to establish a secure and transparent process to verify hours worked on computers for government contracts to prevent abuse and overbilling.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>39</TitleNumber><TextRun>.</TextRun><ChapterNumber>26</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) This section applies only to contracts under this chapter for professional or technical services in excess of one hundred thousand dollars.</P>
+<P>(2) A contract subject to this section must require a contractor to use software to verify that hours billed for work under the contract that are performed on a computer are legitimate. The contract must specify that the agency will not pay for hours worked on a computer unless those hours are verifiable by the software or by data collected by the software. The software must do the following:</P>
+<P>(a) Permit the agency or an auditor of the agency to have real-time or retroactive access to data collected or provided by the software;</P>
+<P>(b) Automatically gather verification data of state-funded activity by tracking total keystroke and mouse event frequency and taking a screenshot at least once every three minutes;</P>
+<P>(c) Provide to the agency or an auditor of the agency automated real-time cost status of each task;</P>
+<P>(d) Provide to the agency professional biographical information that is not private or confidential on individuals performing state-funded work;</P>
+<P>(e) Protect all data that is private or confidential on individuals consistent with state privacy laws; and</P>
+<P>(f) Permit the agency to provide immediate feedback to the contractor on work in progress.</P>
+<P>(3)(a) Data collected by the software under subsection (2) of this section are accounting records belonging to the contractor. The contractor must store, or contract with another to store, the data collected by the software for a period of seven years and provide the access to the contracting agency or state auditors on their request.</P>
+<P>(b) The contractor must not charge the agency or an auditor of the agency for access to or use of the work verification software, or for access to or retrievals of data collected by the software.</P>
+<P>(4) The software required by subsection (2) of this section must be procured by the contractor from an independent entity.</P>
+</BillSection>
+</BillBody>
+</Bill>

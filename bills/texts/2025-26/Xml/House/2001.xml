@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-1457.1</RequestNumber><ShortBillId>HB 2001</ShortBillId><LongBillId>HOUSE BILL 2001</LongBillId><Legislature>69th Legislature</Legislature><Session>2025 Regular Session</Session><Sponsors>Representative Dufault</Sponsors><BillHistory><ReadDate>Read first time 02/19/25.</ReadDate><ReferredCommittee>Referred to Committee on State Government &amp; Tribal Relations.</ReferredCommittee></BillHistory><BriefDescription>Sunsetting all nonconstitutionally mandated state agencies, commissions, boards, task forces, work groups, and councils every 10 years absent affirmative reestablishment by the legislature.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to lowering taxes and providing smaller, smarter government by sunsetting all nonconstitutionally mandated state agencies, commissions, boards, task forces, work groups, and councils every 10 years absent affirmative reestablishment by the legislature; adding a new chapter to Title 43 RCW; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature finds that state agencies, commissions, boards, task forces, work groups, and councils that do not efficiently and effectively service the state's highest priorities should be right-sized or dissolved. The legislature further finds that requiring state government to regularly and affirmatively review and reestablish every nonconstitutionally mandated state agency, commission, board, task force, work group, and council will both reduce the tax burden on Washington individuals, families, and businesses, and also help state government to better address ever evolving and emerging demands and priorities placed on its limited resources.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) Beginning July 1, 2027, and every 10 years thereafter, each state agency, commission, board, task force, work group, and council of the executive, judicial, and legislative branch except for those specified in subsection (2) of this section, are automatically dissolved unless affirmatively reestablished by legislation.</P></BillSectionHeader>
+<P>(2) Any agency, commission, board, task force, work group, or council mandated in the state Constitution is exempt from subsection (1) of this section.</P>
+</BillSection>
+<BillSection type="new" action="addchap" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>Section 2 of this act constitutes a new chapter in <TitleCite><TextRun>Title </TextRun><TitleNumber>43</TitleNumber><TextRun> RCW</TextRun></TitleCite>.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

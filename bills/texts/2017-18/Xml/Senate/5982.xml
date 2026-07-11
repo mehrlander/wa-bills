@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-3051.1</RequestNumber><ShortBillId>SB 5982</ShortBillId><LongBillId>SENATE BILL 5982</LongBillId><Legislature>65th Legislature</Legislature><Session>2017 3rd Special Session</Session><Sponsors>Senators Darneille, Sheldon, Billig, Conway, McCoy, Wellman, Chase, Hasegawa, and Hunt</Sponsors><BillHistory><PrefiledDate>Prefiled 07/20/17.</PrefiledDate><ReadDate>Read first time 07/20/17.</ReadDate><ReferredCommittee>Referred to Committee on State Government.</ReferredCommittee></BillHistory><BriefDescription>Protecting people's information contained in voter registration records.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to protecting people's information contained in voter registration records; amending RCW 29A.08.710; and declaring an emergency.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>29A</TitleNumber><TextRun>.</TextRun><ChapterNumber>08</ChapterNumber><TextRun>.</TextRun><SectionNumber>710</SectionNumber></SectionCite> and 2005 c 246 s 17 are each amended to read as follows:<Caption>Originals and automated files<TextRun fontFamily="Times New Roman">—</TextRun>Public disclosure.</Caption></BillSectionHeader>
+<P>(1) The county auditor shall have custody of the original voter registration records for each county. The original voter registration form must be filed without regard to precinct and is considered confidential and unavailable for public inspection and copying. An automated file of all registered voters must be maintained pursuant to RCW 29A.08.125. An auditor may maintain the automated file in lieu of filing or maintaining the original voter registration forms if the automated file includes all of the information from the original voter registration forms including, but not limited to, a retrievable facsimile of each voter's signature.</P>
+<P>(2) The following information contained in voter registration records or files regarding a voter or a group of voters is available for public inspection and copying, except as provided in RCW 40.24.060: The voter's name, address, political jurisdiction, gender, <TextRun amendingStyle="strike">date</TextRun> <TextRun amendingStyle="add">year</TextRun> of birth, voting record, date of registration, and registration number. No other information from voter registration records or files is available for public inspection or copying.</P>
+<History>2005 c 246 § 17; 2004 c 267 § 133; 2003 c 111 § 246; 1994 c 57 § 17; 1991 c 81 § 21; 1971 ex.s. c 202 § 17; 1965 c 9 § 29.07.130. Prior: 1933 c 1 § 13, part; RRS § 5114-13, part. Formerly RCW 29.07.130.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2005 c 246:</TextRun> See note following RCW 10.64.140.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective dates<TextRun fontFamily="Times New Roman">—</TextRun>2004 c 267:</TextRun> See note following RCW 29A.08.010.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Severability<TextRun fontFamily="Times New Roman">—</TextRun>1994 c 57:</TextRun> See note following RCW 29A.16.040.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>1991 c 81:</TextRun> See note following RCW 29A.84.540.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="new" action="emerg">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act is necessary for the immediate preservation of the public peace, health, or safety, or support of the state government and its existing public institutions, and takes effect immediately.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

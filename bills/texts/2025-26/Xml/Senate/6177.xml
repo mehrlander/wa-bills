@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-3944.1</RequestNumber><ShortBillId>SB 6177</ShortBillId><LongBillId>SENATE BILL 6177</LongBillId><Legislature>69th Legislature</Legislature><Session>2026 Regular Session</Session><Sponsors>Senator Gildon</Sponsors><BillHistory /><BriefDescription>Modifying the legislative evaluation and accountability program website.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to improving budget transparency by providing additional data on the legislative evaluation and accountability program website; and reenacting and amending RCW 44.48.150.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="remd">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>44</TitleNumber><TextRun>.</TextRun><ChapterNumber>48</ChapterNumber><TextRun>.</TextRun><SectionNumber>150</SectionNumber></SectionCite> and 2013 c 327 s 2 and 2013 c 63 s 2 are each reenacted and amended to read as follows:<Caption>State expenditure information website<TextRun fontFamily="Times New Roman">—</TextRun>Access to data<TextRun fontFamily="Times New Roman">—</TextRun>Maintenance<TextRun fontFamily="Times New Roman">—</TextRun>Capital and transportation projects<TextRun fontFamily="Times New Roman">—</TextRun>Website testing.</Caption></BillSectionHeader>
+<P>(1) <TextRun amendingStyle="strike">By January 1, 2009, in</TextRun> <TextRun amendingStyle="add">In</TextRun> collaboration with the office of financial management, using existing databases and structures currently shared, the office of the legislative evaluation and accountability program committee shall establish and make available to the public a searchable state expenditure information website. The state expenditure information website shall provide access to current budget data, access to current accounting data for budgeted expenditures and staff, and access to historical data. At a minimum, the website will provide access or links to the following information as data are available:</P>
+<P>(a) State expenditures by fund or account;</P>
+<P>(b) State expenditures by agency, program <TextRun amendingStyle="add">within each agency</TextRun>, and subprogram <TextRun amendingStyle="add">within each program</TextRun>;</P>
+<P>(c) State revenues by major source;</P>
+<P>(d) State expenditures by object and subobject;</P>
+<P>(e) State agency workloads, caseloads, and performance measures, and recent performance audits;</P>
+<P>(f) State agency budget data<TextRun amendingStyle="add">, including carryforward level data,</TextRun> by activity; <TextRun amendingStyle="strike">and</TextRun></P>
+<P>(g) <TextRun amendingStyle="add">Balances of each state fund or account; and</TextRun></P>
+<P><TextRun amendingStyle="add">(h)</TextRun> The inventory of state agency fees required by RCW 43.88.585.</P>
+<P>(2) "State agency," as used in this section, includes every state agency, office, board, commission, or institution of the executive, legislative, or judicial branches, including institutions of higher education.</P>
+<P>(3) The state expenditure information website shall be updated periodically as subsequent fiscal year data become available, and the prior year expenditure data shall be maintained by the legislative evaluation and accountability program committee as part of its ten-year historical budget data.</P>
+<P>(4) By January 1, 2014, current and future capital project and transportation project investments must be coded with the geographic information sufficient to permit the public to search and identify appropriation and expenditure data at the parent and subproject level to the extent available by:</P>
+<P>(a) State legislative district;</P>
+<P>(b) County; and</P>
+<P>(c) Agency project identifier.</P>
+<P>(5) The office of the legislative evaluation and accountability program committee must, within existing resources, update the state expenditure information website to allow the public to search for capital budget and transportation projects by selecting from an online geographical map. The map must allow an in-depth examination of financial and other data associated with such projects. Data elements must include:</P>
+<P>(a) Project title;</P>
+<P>(b) Total appropriation;</P>
+<P>(c) Project description;</P>
+<P>(d) Expenditure data; and</P>
+<P>(e) Administering agency.</P>
+<P>(6) The website must be easy to use, contain current and readily available data, and allow for review and analysis by the public. The legislative evaluation and accountability program committee must test the website with potential users to ensure that it is easy to navigate and comprehend.</P>
+<History>2013 c 327 s 2; 2013 c 63 s 2; 2008 c 326 s 2.</History>
+<RCWNoteSection>
+<RevNote><NoteP><TextRun fontWeight="bold">Reviser's note:</TextRun> This section was amended by 2013 c 63 s 2 and by 2013 c 327 s 2, each without reference to the other. Both amendments are incorporated in the publication of this section under RCW 1.12.025(2). For rule of construction, see RCW 1.12.025(1).</NoteP></RevNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Intent<TextRun fontFamily="Times New Roman">—</TextRun>2013 c 327:</TextRun> "The intent of the legislature is to make state capital budget and transportation budget appropriation and expenditure data as transparent and easy to use by the public as is feasible. It is important to provide information to the public on state capital and transportation investments by legislative district and county in a format that is easy to navigate and comprehend. Providing such information contributes to governmental accountability, public participation, agency efficiency, and open government." [2013 c 327 s 1.]</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Intent<TextRun fontFamily="Times New Roman">—</TextRun>2008 c 326:</TextRun> "The intent of the legislature is to make state revenue and expenditure data as open, transparent, and publicly accessible as is feasible. Increasing the ease of public access to state budget data, particularly where the data are currently available from disparate internal government sources but are difficult for the public to collect and efficiently aggregate, significantly contributes to governmental accountability, public participation, agency efficiency, and open government." [2008 c 326 s 1.]</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+</BillBody>
+</Bill>

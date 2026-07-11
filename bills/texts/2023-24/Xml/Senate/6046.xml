@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-3665.1</RequestNumber><ShortBillId>SB 6046</ShortBillId><LongBillId>SENATE BILL 6046</LongBillId><Legislature>68th Legislature</Legislature><Session>2024 Regular Session</Session><Sponsors>Senators Braun, Keiser, and Mullet</Sponsors><BillHistory><ReadDate>Read first time 01/09/24.</ReadDate><ReferredCommittee>Referred to Committee on Law &amp; Justice.</ReferredCommittee></BillHistory><BriefDescription>Suspending the statute of limitations for childhood sexual abuse claims against bankruptcy estates of certain organizations.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to suspending the statute of limitations for childhood sexual abuse claims against bankruptcy estates of certain organizations; adding a new section to chapter 4.16 RCW; creating a new section; providing an expiration date; and declaring an emergency.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature finds that participants in the boy scouts of America who suffered abuse may submit a claim against the boy scouts of America bankruptcy settlement trust in accordance with In re Boy Scouts Of America And Delaware BSA, LLC, Case No. 20-10343, United States bankruptcy court for the district of Delaware, and that each claimant's award is determined based on their home state's statute of limitations on sexual abuse claims. The legislature intends to ensure that Washington claimants receive a full allocation and that a time-limited adjustment to Washington's statute of limitations on such claims is in the best interest of justice.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>4</TitleNumber><TextRun>.</TextRun><ChapterNumber>16</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) An action for claims or causes of action based on intentional conduct brought by any person for recovery of damages for injury suffered as a result of childhood sexual abuse against a bankruptcy estate of an organization chartered under part B of subtitle II of Title 36 of the United States Code may be brought at any time after the cause of action accrues.</P>
+<P>(2) The definitions in RCW 4.16.340 apply to this section.</P>
+<P>(3) This section expires July 1, 2029.</P>
+</BillSection>
+<BillSection type="new" action="emerg" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act is necessary for the immediate preservation of the public peace, health, or safety, or support of the state government and its existing public institutions, and takes effect immediately.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

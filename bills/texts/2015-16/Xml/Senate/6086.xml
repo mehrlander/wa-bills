@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-2685.1</RequestNumber><ShortBillId>SB 6086</ShortBillId><LongBillId>SENATE BILL 6086</LongBillId><Legislature>64th Legislature</Legislature><Session>2015 Regular Session</Session><Sponsors>Senators Becker and Keiser</Sponsors><BillHistory><ReadDate>Read first time 03/27/15.</ReadDate><ReferredCommittee>Referred to Committee on Health Care.</ReferredCommittee></BillHistory><BriefDescription>Exempting hospitals licensed under chapter 70.41 RCW that receive capital funds to operate new psychiatric services from certain certificate of need requirements.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to exempting hospitals licensed under chapter 70.41 RCW that receive capital funds to operate new psychiatric services from certain certificate of need requirements; adding a new section to chapter 70.38 RCW; creating a new section; providing an expiration date; and declaring an emergency.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>To accommodate the urgent need for inpatient psychiatric services and to facilitate state compliance with the Washington state supreme court decision, <TextRun fontStyle="italic">In re the Detention of D.W.</TextRun>, No. 90110–4, August 7, 2014, which prohibits the practice of psychiatric boarding, the legislature intends to exempt certain hospital mental health projects provided grant funding by the department of commerce from certificate of need requirements.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>70</TitleNumber><TextRun>.</TextRun><ChapterNumber>38</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) For a grant awarded during fiscal years 2016 and 2017 by the department of commerce under this section, hospitals licensed under chapter 70.41 RCW are not subject to certificate of need requirements for the addition of new psychiatric beds. The department of commerce may not make a prior approval of a certificate of need application a condition for a grant application under this section. The period during which an approved hospital project qualifies for a certificate of need exemption under this section is two years from the date of the grant award. </P>
+<P>(2) This section expires June 30, 2019.</P>
+</BillSection>
+<BillSection type="new" action="emerg" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act is necessary for the immediate preservation of the public peace, health, or safety, or support of the state government and its existing public institutions, and takes effect immediately.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-4185.1</RequestNumber><ShortBillId>SSB 6270</ShortBillId><LongBillId>SUBSTITUTE SENATE BILL 6270</LongBillId><Legislature>64th Legislature</Legislature><Session>2016 Regular Session</Session><Sponsors>Senate Health Care (originally sponsored by Senators Becker, Keiser, Dammeier, Cleveland, Bailey, Fain, Parlette, Schoesler, Conway, Warnick, Frockt, Brown, O'Ban, Rolfes, McAuliffe, Mullet, and Chase)</Sponsors><BillHistory><ReadDate>READ FIRST TIME 02/05/16.</ReadDate></BillHistory><BriefDescription>Providing prenatal vitamin coverage.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to prenatal vitamin coverage; adding a new section to chapter 74.09 RCW; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>Research has shown that taking folic acid before getting pregnant and in early pregnancy lowers the risk of having a baby with certain birth defects. This research finding led to the advice that all women who can get pregnant should take four hundred micrograms of folic acid daily. The United States preventive services task force recommends that all women planning or capable of pregnancy take a daily supplement containing folic acid prior to pregnancy.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>74</TitleNumber><TextRun>.</TextRun><ChapterNumber>09</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>The authority shall provide prenatal vitamins for all women that may become pregnant consistent with the United States preventive services task force recommendations. Programs not governed by 42 U.S.C. Sec. 1396d(13) shall follow the task force recommendations in place upon the effective date of this section.</P>
+</BillSection>
+</BillBody>
+</Bill>

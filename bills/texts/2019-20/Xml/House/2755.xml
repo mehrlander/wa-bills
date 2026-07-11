@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-3895.2</RequestNumber><ShortBillId>HB 2755</ShortBillId><LongBillId>HOUSE BILL 2755</LongBillId><Legislature>66th Legislature</Legislature><Session>2020 Regular Session</Session><Sponsors>Representatives Schmick, Caldier, and Cody</Sponsors><BillHistory><ReadDate>Read first time 01/20/20.</ReadDate><ReferredCommittee>Referred to Committee on Health Care &amp; Wellness.</ReferredCommittee></BillHistory><BriefDescription>Concerning transparency regarding the cost of air ambulance services.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to transparency regarding the cost of air ambulance services; amending RCW 43.371.060; and adding a new section to chapter 18.73 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>371</ChapterNumber><TextRun>.</TextRun><SectionNumber>060</SectionNumber></SectionCite> and 2019 c 319 s 6 are each amended to read as follows:<Caption>Health care data reports<TextRun fontFamily="Times New Roman">—</TextRun>Public comment period<TextRun fontFamily="Times New Roman">—</TextRun>Preparation<TextRun fontFamily="Times New Roman">—</TextRun>Contents<TextRun fontFamily="Times New Roman">—</TextRun>Publication or release of reports.</Caption></BillSectionHeader>
+<P>(1)(a) Under the supervision of and through contract with the authority, the lead organization shall prepare health care data reports using the database and the statewide health performance and quality measure set. Prior to the lead organization releasing any health care data reports that use claims data, the lead organization must submit the reports to the authority for review.</P>
+<P>(b) By October 31st of each year, the lead organization shall submit to the director a list of reports it anticipates producing during the following calendar year. The director may establish a public comment period not to exceed thirty days, and shall submit the list and any comment to the appropriate committees of the legislature for review.</P>
+<P>(2)(a) Health care data reports that use claims data prepared by the lead organization for the legislature and the public should promote awareness and transparency in the health care market by reporting on:</P>
+<P>(i) Whether providers and health systems deliver efficient, high quality care; and</P>
+<P>(ii) Geographic and other variations in medical care and costs as demonstrated by data available to the lead organization.</P>
+<P>(b) Measures in the health care data reports should be stratified by demography, income, language, health status, and geography when feasible with available data to identify disparities in care and successful efforts to reduce disparities.</P>
+<P>(c) Comparisons of costs among providers and health care systems must account for differences in the case mix and severity of illness of patients and populations, as appropriate and feasible, and must take into consideration the cost impact of subsidization for uninsured and government-sponsored patients, as well as teaching expenses, when feasible with available data.</P>
+<P>(3) The lead organization may not publish any data or health care data reports that:</P>
+<P>(a) Directly or indirectly identify individual patients;</P>
+<P>(b) Disclose a carrier's proprietary financial information;</P>
+<P>(c) Compare performance in a report generated for the general public that includes any provider in a practice with fewer than four providers; or</P>
+<P>(d) Contain medicaid data that is in direct conflict with the biannual medicaid forecast.</P>
+<P>(4) The lead organization may not release a report that compares and identifies providers, hospitals, or data suppliers unless:</P>
+<P>(a) It allows the data supplier, the hospital, or the provider to verify the accuracy of the information submitted to the data vendor, comment on the reasonableness of conclusions reached, and submit to the lead organization and data vendor any corrections of errors with supporting evidence and comments within thirty days of receipt of the report;</P>
+<P>(b) It corrects data found to be in error within a reasonable amount of time; and</P>
+<P>(c) The report otherwise complies with this chapter.</P>
+<P>(5) The authority and the lead organization may use claims data to identify and make available information on payers, providers, and facilities, but may not use claims data to recommend or incentivize direct contracting between providers and employers.</P>
+<P>(6) <TextRun amendingStyle="add">The lead organization shall make information about claims data related to the provision of air ambulance service available on a web site that is accessible to the public in a searchable format by geographic region, provider, and other relevant information.</TextRun></P>
+<P><TextRun amendingStyle="add">(7)</TextRun>(a) The lead organization shall distinguish in advance to the authority when it is operating in its capacity as the lead organization and when it is operating in its capacity as a private entity. Where the lead organization acts in its capacity as a private entity, it may only access data pursuant to RCW 43.371.050(4) (b), (c), or (d).</P>
+<P>(b) Except as provided in RCW 43.371.050(4), claims or other data that contain direct patient identifiers or proprietary financial information must remain exclusively in the custody of the data vendor and may not be accessed by the lead organization.</P>
+<History>2019 c 319 § 6; 2015 c 246 § 6; 2014 c 223 § 14.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2019 c 319:</TextRun> See note following RCW 43.371.020.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Finding<TextRun fontFamily="Times New Roman">—</TextRun>2014 c 223:</TextRun> See note following RCW 41.05.800.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>18</TitleNumber><TextRun>.</TextRun><ChapterNumber>73</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) The department shall require that each ambulance service licensed under this chapter that provides air ambulance transports annually report to the department:</P>
+<P>(a) The ambulance service's rates for uninsured patients receiving a transport by air and the air ambulance service's methodology for applying the rate to a transport by air; and</P>
+<P>(b) A list of all of the charges made to uninsured patients for transports by air within the reporting period including information about the transport by air, such as the geographic region covered by the transport, whether the transport was between facilities or of an emergency nature, and other relevant information.</P>
+<P>(2) The department shall post the information in subsection (1) of this section on its web site in a location that is accessible to the public and in a searchable format. The information on the web site may not include any information that identifies the patient or can readily be associated with the identity of the patient.</P>
+<P>(3) The department shall determine the method, format, and timing for the annual reporting.</P>
+<P>(4) The department may adopt rules to implement this section.</P>
+</BillSection>
+</BillBody>
+</Bill>

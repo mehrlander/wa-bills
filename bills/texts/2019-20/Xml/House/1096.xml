@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-0357.2</RequestNumber><ShortBillId>HB 1096</ShortBillId><LongBillId>HOUSE BILL 1096</LongBillId><Legislature>66th Legislature</Legislature><Session>2019 Regular Session</Session><Sponsors>Representatives Blake, Walsh, and Van Werven</Sponsors><BillHistory><PrefiledDate>Prefiled 01/09/19.</PrefiledDate><ReadDate>Read first time 01/14/19.</ReadDate><ReferredCommittee>Referred to Committee on Rural Development, Agriculture, &amp; Natural Resources.</ReferredCommittee></BillHistory><BriefDescription>Ensuring that commercial fishing revenue benefits communities most dependent on the industry.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to ensuring that commercial fishing revenue benefits communities most dependent on the industry; amending RCW 82.27.070; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature finds that commercial fishing is an important industry to Washington, and particularly to the rural, coastal communities of southwest Washington. Upon landing certain species of fish and shellfish, commercial fishers are subject to the enhanced food fish excise tax, also known as the "landing tax." Because the tax is paid to the state, it does not directly support the communities on which the industry depends. In order to serve the families residing in these communities, many of whom are active participants in the commercial fishing industry, municipalities need the resources to provide adequate public safety services and transportation infrastructure. The legislature intends to direct a portion of landing tax revenue to the communities that host this important industry and ensure that they directly benefit from the taxes paid by commercial fishers landing fish within their jurisdiction.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>82</TitleNumber><TextRun>.</TextRun><ChapterNumber>27</ChapterNumber><TextRun>.</TextRun><SectionNumber>070</SectionNumber></SectionCite> and 2017 3rd sp.s. c 8 s 54 are each amended to read as follows:<Caption>Deposit of taxes.</Caption></BillSectionHeader>
+<P>All taxes collected by the department <TextRun amendingStyle="strike">of revenue</TextRun> under this chapter shall be deposited in the state general fund except for the following:</P>
+<P>(1) <TextRun amendingStyle="add">The equivalent of one-third of the excise tax collected shall be distributed to the city in which the fish was landed;</TextRun></P>
+<P><TextRun amendingStyle="add">(2)</TextRun> The excise tax on anadromous game fish is deposited in the state wildlife account<TextRun amendingStyle="strikemarkleft">.</TextRun></P>
+<P><TextRun amendingStyle="strikemarkright">(2)</TextRun><TextRun amendingStyle="add">, except for the equivalent of one-third of the tax collected, which shall be distributed to the city in which the fish was landed, pursuant to subsection (1) of this section; and</TextRun></P>
+<P><TextRun amendingStyle="add">(3)</TextRun> The excise tax on ocean waters, Columbia river, Willapa Bay, and Grays Harbor chinook, coho, and chum salmon is deposited as follows:</P>
+<P>(a) The equivalent of <TextRun amendingStyle="strike">five and twenty-five</TextRun> <TextRun amendingStyle="add">three and seventeen</TextRun> one-hundredths percent shall be deposited in the state general fund<TextRun amendingStyle="strike">.</TextRun><TextRun amendingStyle="add">;</TextRun></P>
+<P>(b) The equivalent of one percent shall be deposited in the state wildlife account<TextRun amendingStyle="add">; and</TextRun></P>
+<P><TextRun amendingStyle="add">(c) The equivalent of two and eight one-hundredths percent shall be distributed to the city in which the fish was landed, pursuant to subsection (1) of this section</TextRun>.</P>
+<History>2017 3rd sp.s. c 8 § 54; 2010 c 193 § 17; 2005 c 110 § 4; 2003 c 39 § 46; 1999 c 126 § 4; 1988 c 36 § 61; 1983 c 284 § 7; 1980 c 98 § 7.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Finding<TextRun fontFamily="Times New Roman">—</TextRun>Intent<TextRun fontFamily="Times New Roman">—</TextRun>Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2017 3rd sp.s. c 8:</TextRun> See notes following RCW 77.08.010.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Findings<TextRun fontFamily="Times New Roman">—</TextRun>Intent<TextRun fontFamily="Times New Roman">—</TextRun>1983 c 284:</TextRun> See note following RCW 82.27.020.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+</BillBody>
+</Bill>

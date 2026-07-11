@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-3725.2</RequestNumber><ShortBillId>SB 6150</ShortBillId><LongBillId>SENATE BILL 6150</LongBillId><Legislature>69th Legislature</Legislature><Session>2026 Regular Session</Session><Sponsors>Senator Fortunato</Sponsors><BillHistory /><BriefDescription>Providing tax relief for businesses and properties impacted by the Fairfax bridge closure. </BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to providing tax relief for businesses and properties impacted by the Fairfax bridge closure; adding a new section to chapter 82.04 RCW; adding a new section to chapter 84.36 RCW; creating a new section; and providing contingent expiration dates.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>82</TitleNumber><TextRun>.</TextRun><ChapterNumber>04</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) Beginning July 1, 2026, this chapter does not apply to amounts received by persons located within an impact area during an unmitigated bridge closure. A person is located within an impact area if the address on file with the department as of January 1, 2026, is within the impact area.</P>
+<P>(2) The definitions in this subsection apply throughout this section.</P>
+<P>(a) "Impact area" means any area within three miles, east or west, of state route number 165 and south of the junction of state route number 162 and state route number 165.</P>
+<P>(b) "Unmitigated bridge closure" means the time period beginning on July 1, 2026, and continuing through the last day of the calendar year concurrent to the opening of a replacement or new bridge along state route number 165 that spans the Carbon river.</P>
+<P>(3) This section expires on the first day of the calendar year subsequent to the opening of a replacement or new bridge along state route number 165 that spans the Carbon river. The department shall notify the office of the code reviser of the upcoming expiration of this section before such expiration.</P>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>84</TitleNumber><TextRun>.</TextRun><ChapterNumber>36</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) Beginning with taxes due and payable in calendar year 2026, all property located within an impact area during an unmitigated bridge closure is exempt from taxation.</P>
+<P>(2) The definitions in this subsection apply throughout this section.</P>
+<P>(a) "Impact area" means any area within three miles, east or west, of state route number 165 and south of the junction of state route number 162 and state route number 165.</P>
+<P>(b) "Unmitigated bridge closure" means the time period beginning on January 1, 2026, and continuing through the last day of the calendar year concurrent to the opening of a replacement or new bridge along state route number 165 that spans the Carbon river.</P>
+<P>(3) This section expires on the first day of the calendar year subsequent to the opening of a replacement or new bridge along state route number 165 that spans the Carbon river. The department shall notify the office of the code reviser of the upcoming expiration of this section before such expiration.</P>
+<P>(4) This section applies both retroactively to taxes due and payable in calendar year 2026 and prospectively. A property owner paying property taxes in calendar year 2026 may seek a refund under chapter 84.69 RCW.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>RCW 82.32.805 and 82.32.808 do not apply to this act.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

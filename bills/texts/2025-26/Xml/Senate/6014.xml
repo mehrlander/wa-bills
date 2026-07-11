@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-3739.2</RequestNumber><ShortBillId>SB 6014</ShortBillId><LongBillId>SENATE BILL 6014</LongBillId><Legislature>69th Legislature</Legislature><Session>2026 Regular Session</Session><Sponsors>Senators Nobles, Conway, Dhingra, Hasegawa, Liias, Saldaña, Salomon, Stanford, Trudeau, Valdez, and C. Wilson</Sponsors><BillHistory><PrefiledDate>Prefiled 01/07/26.</PrefiledDate><ReadDate>Read first time 01/12/26.</ReadDate><ReferredCommittee>Referred to Committee on Labor &amp; Commerce.</ReferredCommittee></BillHistory><BriefDescription>Concerning pregnancy-related accommodations.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to refining pregnancy-related accommodations by clarifying requirements for written certification and prohibiting disclosure of certain types of identifying personal information; amending RCW 49.92.020; adding a new section to chapter 42.56 RCW; and providing an effective date.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>49</TitleNumber><TextRun>.</TextRun><ChapterNumber>92</ChapterNumber><TextRun>.</TextRun><SectionNumber>020</SectionNumber></SectionCite> and 2025 c 379 s 2 are each amended to read as follows:<Caption>Unfair practices<TextRun fontFamily="Times New Roman">—</TextRun>Protections<TextRun fontFamily="Times New Roman">—</TextRun>Notice. <TextRun fontStyle="italic">(Effective January 1, 2027.)</TextRun></Caption></BillSectionHeader>
+<P>(1) It is an unfair practice for any employer to:</P>
+<P>(a) Fail or refuse to make reasonable accommodation for an employee for pregnancy, unless the employer can demonstrate that doing so would impose an undue hardship on the employer's program, enterprise, or business;</P>
+<P>(b) Take adverse action against an employee who requests, declines, or uses an accommodation under this section that affects the terms, conditions, or privileges of employment;</P>
+<P>(c) Deny employment opportunities to an otherwise qualified employee if such denial is based on the employer's need to make reasonable accommodation required by this section;</P>
+<P>(d) Require an employee to take leave if another reasonable accommodation can be provided for the employee's pregnancy.</P>
+<P>(2) An employer may request that the employee provide written certification from the employee's treating health care professional regarding the need for reasonable accommodation, except for accommodations listed in RCW 49.92.010(6) <TextRun amendingStyle="add">(a), (b), (d), and</TextRun> (h) and <TextRun amendingStyle="strike">section 8 of this act</TextRun> <TextRun amendingStyle="add">limits on lifting over 17 pounds</TextRun>.</P>
+<P>(3)(a) This chapter does not require an employer to create additional employment that the employer would not otherwise have created, unless the employer does so or would do so for other classes of employees who need accommodation.</P>
+<P>(b) This chapter does not require an employer to discharge any employee, transfer any employee with more seniority, or promote any employee who is not qualified to perform the job, unless the employer does so or would do so to accommodate other classes of employees who need accommodation.</P>
+<P>(4) Any break time and any time traveling to a location, identified by the employer and employee as provided in RCW 49.92.010(6)(h), to express milk must be paid to the employee at the employee's regular compensation rate. An employee must not be required to use paid leave during break or travel time to express milk during work. Any break time to express milk is in addition to meal and rest periods under chapter 49.12 RCW.</P>
+<P>(5) The department must provide online education materials explaining the respective rights and responsibilities of employers and employees who have a health condition related to pregnancy or childbirth. The online education materials must be prominently displayed on the department's website.</P>
+<P><TextRun amendingStyle="add">(6) The public records exemption in section 2 of this act applies to records maintained pursuant to this chapter.</TextRun></P>
+<History>2025 c 379 s 2.</History>
+<RCWNoteSection>
+<RevNote><NoteP><TextRun fontWeight="bold">*</TextRun><TextRun fontWeight="bold">Reviser's note: </TextRun>The reference to section 8 of this act appears to be erroneous. RCW 49.92.010(7) was apparently intended.</NoteP></RevNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2025 c 379:</TextRun> "This act takes effect January 1, 2027." [2025 c 379 s 10.]</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>42</TitleNumber><TextRun>.</TextRun><ChapterNumber>56</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) Except as provided in subsection (4) of this section, records filed with or maintained by the department of labor and industries that reveal the identity of, or contain any personal information about, an employee or applicant who has filed a complaint, requested assistance, or participated in an investigation under chapter 49.92 RCW are confidential and not open to public inspection.</P>
+<P>(2) For the purposes of this section, "personal information" includes, but is not limited to, the individual's name, address, telephone number, electronic contact information, identifying photograph, and any medical or health information related to pregnancy or childbirth.</P>
+<P>(3) The department may release statistical or summary data that do not disclose the identity of any individual.</P>
+<P>(4) This section does not limit disclosure of information:</P>
+<P>(a) To the complainant's employer when necessary for the fair determination of the issues in the investigation;</P>
+<P>(b) To public employees in the performance of their official duties; and</P>
+<P>(c) In a court or administrative proceeding when disclosure is required by law or necessary to the fair determination of the issues.<TextRun amendingStyle="add" /></P>
+</BillSection>
+<BillSection type="new" action="effdate">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act takes effect January 1, 2027.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

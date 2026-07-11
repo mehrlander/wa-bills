@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-1957.1</RequestNumber><ShortBillId>HB 2047</ShortBillId><LongBillId>HOUSE BILL 2047</LongBillId><Legislature>69th Legislature</Legislature><Session>2025 Regular Session</Session><Sponsors>Representatives Richards, Parshley, Macri, and Gregerson</Sponsors><BillHistory><ReadDate>Read first time 03/24/25.</ReadDate><ReferredCommittee>Referred to Committee on Appropriations.</ReferredCommittee></BillHistory><BriefDescription>Eliminating the Washington employee ownership program.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to eliminating the Washington employee ownership program; creating a new section; repealing RCW 43.330.590, 43.330.592, and 43.330.595; providing an effective date; and declaring an emergency.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="repeal">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The following acts or parts of acts are each repealed:</P></BillSectionHeader>
+<P><RepealNumber>1</RepealNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>330</ChapterNumber><TextRun>.</TextRun><SectionNumber>590</SectionNumber></SectionCite> (Employee ownership program) and 2023 c 392 s 2;</P>
+<P><RepealNumber>2</RepealNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>330</ChapterNumber><TextRun>.</TextRun><SectionNumber>592</SectionNumber></SectionCite> (Employee ownership program<TextRun fontFamily="Times New Roman">—</TextRun>Administration<TextRun fontFamily="Times New Roman">—</TextRun>Commission) and 2023 c 392 s 3; and</P>
+<P><RepealNumber>3</RepealNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>330</ChapterNumber><TextRun>.</TextRun><SectionNumber>595</SectionNumber></SectionCite> (Employee ownership revolving loan program account) and 2023 c 392 s 6.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>Any residual balance of funds remaining in the employee ownership revolving loan program account abolished by this act on the effective date of this section, shall be transferred by the state treasurer to the state general fund.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="emerg">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act is necessary for the immediate preservation of the public peace, health, or safety, or support of the state government and its existing public institutions, and takes effect June 30, 2025.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

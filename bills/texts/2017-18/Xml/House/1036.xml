@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-0104.2</RequestNumber><ShortBillId>HB 1036</ShortBillId><LongBillId>HOUSE BILL 1036</LongBillId><Legislature>65th Legislature</Legislature><Session>2017 Regular Session</Session><Sponsors>Representatives Harmsworth, Kirby, Short, and Muri</Sponsors><BillHistory><PrefiledDate>Prefiled 12/13/16.</PrefiledDate><ReadDate>Read first time 01/09/17.</ReadDate><ReferredCommittee>Referred to Committee on Transportation.</ReferredCommittee></BillHistory><BriefDescription>Concerning business practices of registered tow truck operators by authorizing electronic records creation and storage.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to business practices of registered tow truck operators by authorizing electronic records creation and storage; and amending RCW 46.55.150 and 46.55.160.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>46</TitleNumber><TextRun>.</TextRun><ChapterNumber>55</ChapterNumber><TextRun>.</TextRun><SectionNumber>150</SectionNumber></SectionCite> and 1989 c 111 s 14 are each amended to read as follows:<Caption>Vehicle transaction file.</Caption></BillSectionHeader>
+<P>The registered tow truck operator shall keep a transaction file on each vehicle. <TextRun amendingStyle="add">The transaction file may be created and stored electronically.</TextRun> The transaction file shall contain as a minimum those of the following items that are required at the time the vehicle is redeemed or becomes abandoned and is sold at a public auction:</P>
+<P>(1) A signed impoundment authorization as required by RCW 46.55.080;</P>
+<P>(2) A record of the twenty-four hour written impound notice to a law enforcement agency;</P>
+<P>(3) A copy of the impoundment notification to registered and legal owners, sent within twenty-four hours of impoundment, that advises the owners of the address of the impounding firm, a twenty-four hour telephone number, and the name of the person or agency under whose authority the vehicle was impounded;</P>
+<P>(4) A copy of the abandoned vehicle report that was sent to and returned by the department;</P>
+<P>(5) A copy and proof of mailing of the notice of custody and sale sent by the registered tow truck operator to the owners advising them they have fifteen days to redeem the vehicle before it is sold at public auction;</P>
+<P>(6) A copy of the published notice of public auction;</P>
+<P>(7) A copy of the affidavit of sale showing the sales date, purchaser, amount of the lien, and sale price;</P>
+<P>(8) A record of the two highest bid offers on the vehicle, with the names, addresses, and telephone numbers of the two bidders;</P>
+<P>(9) A copy of the notice of opportunity for hearing given to those who redeem vehicles;</P>
+<P>(10) An itemized invoice of charges against the vehicle.</P>
+<P>The transaction file shall be kept for a minimum of three years.</P>
+<History>1989 c 111 § 14; 1987 c 311 § 15; 1985 c 377 § 15.</History>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>46</TitleNumber><TextRun>.</TextRun><ChapterNumber>55</ChapterNumber><TextRun>.</TextRun><SectionNumber>160</SectionNumber></SectionCite> and 1985 c 377 s 16 are each amended to read as follows:<Caption>Availability of records, equipment, and facilities for audit and inspection.</Caption></BillSectionHeader>
+<P>Records, <TextRun amendingStyle="add">including any electronic records,</TextRun> equipment, and facilities of a registered tow truck operator shall be available during normal business hours for audit or inspection by the department of licensing, the Washington state patrol, or any law enforcement agency having jurisdiction.</P>
+<History>1985 c 377 § 16.</History>
+</BillSection>
+</BillBody>
+</Bill>

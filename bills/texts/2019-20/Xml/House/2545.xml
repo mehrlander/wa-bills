@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-3886.1</RequestNumber><ShortBillId>HB 2545</ShortBillId><LongBillId>HOUSE BILL 2545</LongBillId><Legislature>66th Legislature</Legislature><Session>2020 Regular Session</Session><Sponsors>Representatives Davis, Klippert, Goodman, Robinson, Macri, Griffey, Cody, Sutherland, Graham, Pellicciotti, Leavitt, and Ormsby</Sponsors><BillHistory><ReadDate>Read first time 01/15/20.</ReadDate><ReferredCommittee>Referred to Committee on Public Safety.</ReferredCommittee></BillHistory><BriefDescription>Making jail records available to managed health care systems.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to making jail records available to managed health care systems; and amending RCW 70.48.100.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>70</TitleNumber><TextRun>.</TextRun><ChapterNumber>48</ChapterNumber><TextRun>.</TextRun><SectionNumber>100</SectionNumber></SectionCite> and 2016 c 154 s 6 are each amended to read as follows:<Caption>Jail register, open to the public<TextRun fontFamily="Times New Roman">—</TextRun>Records confidential<TextRun fontFamily="Times New Roman">—</TextRun>Exception.</Caption></BillSectionHeader>
+<P>(1) A department of corrections or chief law enforcement officer responsible for the operation of a jail shall maintain a jail register, open to the public, into which shall be entered in a timely basis:</P>
+<P>(a) The name of each person confined in the jail with the hour, date and cause of the confinement; and</P>
+<P>(b) The hour, date and manner of each person's discharge.</P>
+<P>(2) Except as provided in subsection (3) of this section, the records of a person confined in jail shall be held in confidence and shall be made available only to criminal justice agencies as defined in RCW 43.43.705; or</P>
+<P>(a) For use in inspections made pursuant to RCW 70.48.070;</P>
+<P>(b) In jail certification proceedings;</P>
+<P>(c) For use in court proceedings upon the written order of the court in which the proceedings are conducted;</P>
+<P>(d) To the Washington association of sheriffs and police chiefs;</P>
+<P>(e) To the Washington institute for public policy, research and data analysis division of the department of social and health services, higher education institutions of Washington state, Washington state health care authority, state auditor's office, caseload forecast council, office of financial management, or the successor entities of these organizations, for the purpose of research in the public interest. Data disclosed for research purposes must comply with relevant state and federal statutes;</P>
+<P>(f) To federal, state, or local agencies<TextRun amendingStyle="add">, or managed health care systems</TextRun> to determine eligibility for services such as medical, mental health, chemical dependency treatment, or veterans' services, and to allow for the provision of treatment to inmates during their stay or after release. Records disclosed for eligibility determination or treatment services must be held in confidence by the receiving agency <TextRun amendingStyle="add">or managed health care system</TextRun>, and the receiving agency <TextRun amendingStyle="add">or managed health care system</TextRun> must comply with all relevant state and federal statutes regarding the privacy of the disclosed records; or</P>
+<P>(g) Upon the written permission of the person.</P>
+<P>(3)(a) Law enforcement may use booking photographs of a person arrested or confined in a local or state penal institution to assist them in conducting investigations of crimes.</P>
+<P>(b) Photographs and information concerning a person convicted of a sex offense as defined in RCW 9.94A.030 may be disseminated as provided in RCW 4.24.550, 9A.44.130, 9A.44.140, 10.01.200, 43.43.540, 43.43.745, 46.20.187, 70.48.470, 72.09.330, and section 401, chapter 3, Laws of 1990.</P>
+<P>(4) Any jail that provides inmate records in accordance with subsection (2) of this section is not responsible for any unlawful secondary dissemination of the provided inmate records.</P>
+<P><TextRun amendingStyle="add">(5) For purposes of this section, "managed health care system" has the same meaning as in RCW 74.09.522.</TextRun></P>
+<History>2016 c 154 § 6; 2014 c 225 § 105; 1990 c 3 § 130; 1977 ex.s. c 316 § 10.</History>
+<RCWNoteSection>
+<RevNote><NoteP><TextRun fontWeight="bold">Reviser's note:</TextRun> *(1) RCW 70.48.070 was repealed by 1987 c 462 § 23, effective January 1, 1988.</NoteP><NoteP>**(2) 1990 c 3 § 401 appears as a note following RCW 9A.44.130.</NoteP></RevNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Intent<TextRun fontFamily="Times New Roman">—</TextRun>2016 c 154:</TextRun> See note following RCW 74.09.670.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Index, part headings not law<TextRun fontFamily="Times New Roman">—</TextRun>Severability<TextRun fontFamily="Times New Roman">—</TextRun>Effective dates<TextRun fontFamily="Times New Roman">—</TextRun>Application<TextRun fontFamily="Times New Roman">—</TextRun>1990 c 3:</TextRun> See RCW 18.155.900 through 18.155.902.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Severability<TextRun fontFamily="Times New Roman">—</TextRun>1977 ex.s. c 316:</TextRun> See note following RCW 70.48.020.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+</BillBody>
+</Bill>

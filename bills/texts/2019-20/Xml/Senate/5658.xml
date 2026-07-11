@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-0578.2</RequestNumber><ShortBillId>SB 5658</ShortBillId><LongBillId>SENATE BILL 5658</LongBillId><Legislature>66th Legislature</Legislature><Session>2019 Regular Session</Session><Sponsors>Senators Hunt, Nguyen, Hasegawa, Saldaña, and Frockt</Sponsors><BillHistory><ReadDate>Read first time 01/25/19.</ReadDate><ReferredCommittee>Referred to Committee on Ways &amp; Means.</ReferredCommittee></BillHistory><BriefDescription>Eliminating tax preferences for bullion.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to eliminating tax preferences for bullion; creating a new section; repealing RCW 82.04.062; and providing an effective date.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="repeal">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P><SectionCite><TextRun>RCW </TextRun><TitleNumber>82</TitleNumber><TextRun>.</TextRun><ChapterNumber>04</ChapterNumber><TextRun>.</TextRun><SectionNumber>062</SectionNumber></SectionCite> ("Sale at wholesale," "sale at retail" excludes sale of precious metal bullion and monetized bullion<TextRun fontFamily="Times New Roman">—</TextRun>Computation of tax) and 1985 c 471 s 5 are each repealed.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>The repeal in section 1 of this act does not affect any existing right acquired or liability or obligation incurred under the statute repealed or under any rule or order adopted under that statute nor does it affect any proceeding instituted under the repealed statute.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="effdate">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act takes effect October 1, 2019.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

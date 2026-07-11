@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-0589.1</RequestNumber><ShortBillId>HB 1441</ShortBillId><LongBillId>HOUSE BILL 1441</LongBillId><Legislature>67th Legislature</Legislature><Session>2021 Regular Session</Session><Sponsors>Representatives Morgan, Macri, Simmons, Berry, J. Johnson, Davis, Valdez, Taylor, Wicks, Fitzgibbon, Ramel, Bergquist, Chopp, Gregerson, Peterson, Ormsby, Pollet, Hackney, Thai, Berg, and Harris-Talley</Sponsors><BillHistory><ReadDate>Read first time 02/01/21.</ReadDate><ReferredCommittee>Referred to Committee on Housing, Human Services &amp; Veterans.</ReferredCommittee></BillHistory><BriefDescription>Prohibiting discrimination against prospective tenants for unpaid rent or eviction during the COVID-19 pandemic.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to prohibiting discrimination against prospective tenants for unpaid rent or eviction during the COVID-19 pandemic; adding a new section to chapter 59.18 RCW; prescribing penalties; and declaring an emergency.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>59</TitleNumber><TextRun>.</TextRun><ChapterNumber>18</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) A landlord may not, based on a balance of rent due that was accrued during an eviction moratorium and has not been paid by an otherwise eligible prospective tenant, or based on an eviction that resulted from unpaid rent that accrued during an eviction moratorium:</P>
+<P>(a) Refuse to lease or rent any real property to a prospective tenant;</P>
+<P>(b) Make any distinction, discrimination, or restriction against a prospective tenant in the price, terms, conditions, fees, or privileges relating to the rental, lease, or occupancy of real property or in the furnishing of any facilities or services in connection with the rental, lease, or occupancy of real property;</P>
+<P>(c) Attempt to discourage the rental or lease of any real property to a prospective tenant;</P>
+<P>(d) Assist, induce, incite, or coerce another person to commit an act or engage in a practice that violates this section;</P>
+<P>(e) Coerce, intimidate, threaten, or interfere with any person in the exercise or enjoyment of, or on account of the person having exercised or enjoyed or having aided or encouraged any other person in the exercise or enjoyment of, any right granted or protected under this section;</P>
+<P>(f) Represent to a person that a dwelling unit is not available for inspection or rental when the dwelling unit in fact is available for inspection or rental; or</P>
+<P>(g) Otherwise make unavailable or deny a dwelling unit to a prospective tenant that, but for his or her rental arrears, would be eligible to rent real property.</P>
+<P>(2) A person in violation of this section shall be held liable in a civil action up to four and one-half times the monthly rent of the real property at issue, as well as court costs and reasonable attorneys' fees.</P>
+<P>(3) For the purposes of this section:</P>
+<P>(a) "COVID-19 pandemic" means the public health emergency related to the 2019 novel coronavirus disease that was declared a pandemic by the world health organization on March 11, 2020.</P>
+<P>(b) "Eviction moratorium" includes:</P>
+<P>(i) The moratorium on residential evictions established by the governor through proclamation 20-19 beginning March 18, 2020, and includes all subsequent orders extending and amending this proclamation; and</P>
+<P>(ii) Any federal order requiring a temporary halt on residential evictions issued by a federal agency or authority during the COVID-19 pandemic.</P>
+</BillSection>
+<BillSection type="new" action="emerg" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act is necessary for the immediate preservation of the public peace, health, or safety, or support of the state government and its existing public institutions, and takes effect immediately.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

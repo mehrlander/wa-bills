@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-1288.2</RequestNumber><ShortBillId>SB 5722</ShortBillId><LongBillId>SENATE BILL 5722</LongBillId><Legislature>69th Legislature</Legislature><Session>2025 Regular Session</Session><Sponsors>Senators Saldaña, Chapman, Hasegawa, Lovelett, Trudeau, and Valdez</Sponsors><BillHistory><ReadDate>Read first time 02/11/25.</ReadDate><ReferredCommittee>Referred to Committee on Labor &amp; Commerce.</ReferredCommittee></BillHistory><BriefDescription>Creating a grant program to promote local workforce development, reduce transportation pollution, and strengthen food sovereignty and climate and disaster resiliency.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to creating a grant program to promote local workforce development, reduce transportation pollution, and strengthen food sovereignty and climate and disaster resiliency; amending RCW 50.75.020; and adding a new section to chapter 50.75 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>50</TitleNumber><TextRun>.</TextRun><ChapterNumber>75</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) A grant program is created to be administered by the department for farmers to:</P>
+<P>(a) Promote hiring of local workers;</P>
+<P>(b) Reduce transportation pollution; and</P>
+<P>(c) Strengthen food sovereignty and climate and disaster resiliency.</P>
+<P>(2) To qualify for a grant under this section, a farm must:</P>
+<P>(a) Grow handpicked specialty crops that are:</P>
+<P>(i) Sold to consumers at local markets; or</P>
+<P>(ii) Sold or donated to local schools or food banks;</P>
+<P>(b) Hire only domestic agricultural workers; and</P>
+<P>(c) Be owned and operated by a state resident.</P>
+<P>(3) Under the grant program, each farm submitting proof of eligibility for the grant program to the department may be offered grant funding in an amount up to the equivalent of eight weeks of their paid overtime hours during peak harvest for their specialty crop, up to $40,000.</P>
+<P>(4) For the purposes of this section, "local" means within 250 miles of the farm where the specialty crop is grown.</P>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>50</TitleNumber><TextRun>.</TextRun><ChapterNumber>75</ChapterNumber><TextRun>.</TextRun><SectionNumber>020</SectionNumber></SectionCite> and 2019 c 441 s 3 are each amended to read as follows:<Caption>Office of agricultural and seasonal workforce services<TextRun fontFamily="Times New Roman">—</TextRun>Creation<TextRun fontFamily="Times New Roman">—</TextRun>Duties.</Caption></BillSectionHeader>
+<P>(1) The office of agricultural and seasonal workforce services is established within the department.</P>
+<P>(2) The duties of the office are:</P>
+<P>(a) Processing and adjudicating foreign labor certification applications from employers;</P>
+<P>(b) Processing complaints consistent with 20 C.F.R. Part 658, Subpart E;</P>
+<P>(c) Conducting field checks and field visits, as required by the United States department of labor. When conducting a field check, the office shall coordinate, to the extent possible, with the department of labor and industries, department of health, and department of agriculture in order to limit disruption to agricultural employers and efficiently use government resources;</P>
+<P>(d) Administering the discontinuation and reinstatement of services process pursuant to 20 C.F.R. Part 658, Subpart F; <TextRun amendingStyle="strike">and</TextRun></P>
+<P>(e) Conducting training and outreach activities to employers who are using agricultural and seasonal workforce services and programs within the employment security department<TextRun amendingStyle="add">; and</TextRun></P>
+<P><TextRun amendingStyle="add">(f) Administering the grant program established under section 1 of this act</TextRun>.</P>
+<History>2019 c 441 s 3.</History>
+</BillSection>
+</BillBody>
+</Bill>

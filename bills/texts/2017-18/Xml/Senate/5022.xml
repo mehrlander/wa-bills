@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>Z-0242.1</RequestNumber><ShortBillId>SB 5022</ShortBillId><LongBillId>SENATE BILL 5022</LongBillId><Legislature>65th Legislature</Legislature><Session>2017 Regular Session</Session><Sponsors>Senators Bailey, Rolfes, Liias, Keiser, Conway, Wellman, Hasegawa, Mullet, Frockt, and Kuderer; by request of Attorney General</Sponsors><BillHistory><PrefiledDate>Prefiled 01/03/17.</PrefiledDate><ReadDate>Read first time 01/09/17.</ReadDate><ReferredCommittee>Referred to Committee on Higher Education.</ReferredCommittee></BillHistory><BriefDescription>Providing information to students about education loans.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to providing information to students about education loans; adding a new section to chapter 28B.10 RCW; and creating new sections.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature finds and declares that students pursuing higher education benefit from periodic notification about the balance of their student loan debt. This notification helps students and their families make informed borrowing decisions about how to finance their postsecondary education and be more prepared for repayment when leaving school. Many higher education institutions in Washington have already taken steps to provide financial education and information to their students. The legislature encourages schools to continue to strengthen financial literacy training, financial aid counseling, and other resources available to students. It is the intent of the legislature to ensure that all students pursuing higher education in Washington receive periodic notifications about their student loan debt.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>28B</TitleNumber><TextRun>.</TextRun><ChapterNumber>10</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) The definitions in this subsection apply throughout this section unless the context clearly requires otherwise.</P>
+<P>(a) "Education loan" means any loan primarily for personal use to finance education or other school-related expenses that the institution has certified.</P>
+<P>(b) "Institution" includes any entity that is a degree-granting institution as defined in RCW 28B.85.010, a private vocational school as defined in RCW 28C.10.020, or school as defined in RCW 18.16.020.</P>
+<P>(2) An institution that receives education loan information for an enrolled student must provide to that student a notification including the following information about the loans the institution has certified:</P>
+<P>(a) An estimate, based on information available at the time the notification is provided, of the:</P>
+<P>(i) Total amount of education loans taken out by the student;</P>
+<P>(ii) Potential total payoff amount of the education loans incurred or a range of the total payoff amount;</P>
+<P>(iii) Monthly repayment amounts that a similarly situated borrower may incur, including principal and interest, for the amount of loans the student has taken out, based on the federal loan repayment plan borrowers are automatically enrolled in if they do not select an alternative repayment plan; and</P>
+<P>(iv) Percentage of the federal direct loan borrowing limit the student has reached; and</P>
+<P>(b) Information about the differences between private student loans and federal student loans, including the availability of income-based repayment plans for federal loans.</P>
+<P>(3) The notification provided under subsection (2) of this section must include a statement that the estimates and ranges provided are general in nature and not meant as a guarantee or promise of the actual projected amount. It must also include a statement that a variety of repayment plans are available for federal student loans that may limit the monthly repayment amount based on income.</P>
+<P>(4) The notification must include information about how to access resources for student loan borrowers provided by federal or state agencies, such as a student loan debt hotline and web site or student education loan ombuds, federal student loan repayment calculator, or other available resources.</P>
+<P>(5) An institution must provide the notification required in subsection (2) of this section via email or in writing.</P>
+<P>(6) An institution does not incur liability for any good faith representations made under subsection (2) of this section.</P>
+<P>(7) Institutions must begin providing the notification required under subsection (2) of this section by January 1, 2018, each time a new financial aid package including loans is offered to the student.</P>
+<P>(8) The student achievement council under chapter 28B.77 RCW, the workforce training and education coordinating board as defined in RCW 28C.18.020, or the department of licensing under chapter 46.01 RCW, must develop a form for reporting compliance by January 1, 2018. Institutions must report compliance with the agency, as applicable, at least annually beginning January 1, 2019.</P>
+<P>(9) Beginning December 1, 2019, and biannually thereafter until December 25, 2025, the agencies identified under subsection (8) of this section must submit a report in compliance with RCW 43.01.036 to the legislature that details how the institutions are in compliance with this section.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act may be known and cited as the Washington student loan transparency act.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

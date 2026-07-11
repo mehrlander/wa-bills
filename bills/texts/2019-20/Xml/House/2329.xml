@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-3332.1</RequestNumber><ShortBillId>HB 2329</ShortBillId><LongBillId>HOUSE BILL 2329</LongBillId><Legislature>66th Legislature</Legislature><Session>2020 Regular Session</Session><Sponsors>Representatives Cody, Hudgins, Smith, Tarleton, and Kloba</Sponsors><BillHistory><PrefiledDate>Prefiled 01/09/20.</PrefiledDate><ReadDate>Read first time 01/13/20.</ReadDate><ReferredCommittee>Referred to Committee on Health Care &amp; Wellness.</ReferredCommittee></BillHistory><BriefDescription>Concerning health care web site analytics.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to health care-related internet web site analytics; and adding a new section to chapter 70.01 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>70</TitleNumber><TextRun>.</TextRun><ChapterNumber>01</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) Any person or entity that operates a web site that collects, through internet web site analytics, health care information or any data from which conclusions or judgments can be made or inferred about an individual's health status or medical condition must obtain the written consent of the individual and implement reasonable administrative and technical safeguards to protect the privacy of the individual's health care information. A person or entity is responsible for ensuring that any contractor that performs internet web site analytics services on behalf of the person or entity complies with the requirements of this section.</P>
+<P>(2) If a person or entity that operates a web site under subsection (1) of this section fails to comply or its contractor fails to comply with the requirements of this section, a person may maintain an action for relief against that person or entity in the same manner as relief may be sought against a health care provider or facility under RCW 70.02.170.</P>
+<P>(3) For the purposes of this section:</P>
+<P>(a) "Health care information" has the same meaning as in RCW 70.02.010.</P>
+<P>(b) "Individual" means a natural person who is a Washington resident.</P>
+<P>(c) "Internet web site analytics" means analysis of individual web site behavior and usage, such as recording keystrokes, mouse movements, scrolling behavior, and contents of the web pages visited by the individual.</P>
+</BillSection>
+</BillBody>
+</Bill>

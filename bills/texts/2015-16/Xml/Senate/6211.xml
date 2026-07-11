@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-3582.1</RequestNumber><ShortBillId>SB 6211</ShortBillId><LongBillId>SENATE BILL 6211</LongBillId><Legislature>64th Legislature</Legislature><Session>2016 Regular Session</Session><Sponsors>Senators Dammeier, Rolfes, Fraser, Conway, McCoy, O'Ban, Litzow, Fain, Rivers, Becker, Darneille, McAuliffe, Habib, Chase, and Benton</Sponsors><BillHistory><ReadDate>Read first time 01/13/16.</ReadDate><ReferredCommittee>Referred to Committee on Human Services, Mental Health &amp; Housing.</ReferredCommittee></BillHistory><BriefDescription>Concerning the exemption of property taxes for nonprofit homeownership development.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to the exemption of property taxes for nonprofit homeownership development; amending RCW 84.36.812; adding a new section to chapter 84.36 RCW; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>84</TitleNumber><TextRun>.</TextRun><ChapterNumber>36</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) The following property is exempt from taxation: Real property owned by a nonprofit entity for the purpose of building on the real property one or more residences to be sold to low-income households, if the nonprofit entity that is the owner of such property sold at least one residence on the property to a low-income household within the ten years immediately preceding the submission of an application for exemption under this section.</P>
+<P>(2) The exemption provided in this section expires on or at the earlier of:</P>
+<P>(a) The date on which the nonprofit entity transfers title to the residence on the real property; or</P>
+<P>(b) The end of the seventh consecutive property tax year for which the property is granted an exemption under this section or, if the nonprofit entity has claimed an extension under subsection (3) of this section, the end of the tenth consecutive property tax year for which the property is granted an exemption under this section.</P>
+<P>(3) If the nonprofit entity believes that title to the residences on the property will not be transferred by the end of the sixth consecutive property tax year, the nonprofit entity may claim a three-year extension of the exemption period by:</P>
+<P>(a) Filing a notice of extension with the department on or before March 31st of the sixth consecutive property tax year; and</P>
+<P>(b) Providing a filing fee equal to the greater of two hundred dollars or one-tenth of one percent of the real market value of the property as of the most recent assessment date with the notice of extension.</P>
+<P>(4)(a) If the nonprofit entity has not transferred title to the residences on the property within the periods described in subsection (2) of this section, the property is disqualified from the exemption.</P>
+<P>(b) Upon disqualification, the county treasurer must collect all taxes that would have been paid on the property but for the existence of the exemption, plus interest at the same rate and computed in the same way as that upon delinquent property taxes.</P>
+<P>(5) The definitions in this subsection apply throughout this section unless the context clearly requires otherwise.</P>
+<P>(a) "Low-income household" means a single person, family, or unrelated persons living together whose adjusted income is less than eighty percent of the median family income, adjusted for family size as most recently determined by the federal department of housing and urban development for the county in which the property is located.</P>
+<P>(b) "Nonprofit entity" means a nonprofit as defined in RCW 84.36.800 that is exempt from federal income taxation under 26 U.S.C. Sec. 501(c)(3) of the federal internal revenue code of 1986, as amended.</P>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>84</TitleNumber><TextRun>.</TextRun><ChapterNumber>36</ChapterNumber><TextRun>.</TextRun><SectionNumber>812</SectionNumber></SectionCite> and 2001 c 185 s 9 are each amended to read as follows:<Caption>Additional tax payable at time of sale<TextRun fontFamily="Times New Roman">—</TextRun>Appeal of assessed values.</Caption></BillSectionHeader>
+<P>All additional taxes imposed under RCW 84.36.262 <TextRun amendingStyle="strike">or</TextRun><TextRun amendingStyle="add">,</TextRun> 84.36.810 <TextRun amendingStyle="strike">shall</TextRun><TextRun amendingStyle="add">, or section 1 of this act</TextRun> become due and payable by the seller or transferor at the time of sale. The county auditor <TextRun amendingStyle="strike">shall</TextRun> <TextRun amendingStyle="add">may</TextRun> not accept an instrument of conveyance unless the additional tax has been paid or the department <TextRun amendingStyle="strike">of revenue</TextRun> has determined that the property is not subject to RCW 84.36.262 <TextRun amendingStyle="strike">or</TextRun><TextRun amendingStyle="add">,</TextRun> 84.36.810<TextRun amendingStyle="add">, or section 1 of this act</TextRun>. The seller, the transferor, or the new owner may appeal the assessed values upon which the additional tax is based to the county board of equalization in accordance with the provisions of RCW 84.40.038.</P>
+<History>2001 c 185 § 9; 1984 c 220 § 9.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Application<TextRun fontFamily="Times New Roman">—</TextRun>2001 c 185 §§ 1-12:</TextRun> See note following RCW 84.14.110.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act applies to taxes levied in 2016 for collection in 2017 and thereafter.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

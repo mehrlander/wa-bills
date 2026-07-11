@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-1668.1</RequestNumber><ShortBillId>HB 2105</ShortBillId><LongBillId>HOUSE BILL 2105</LongBillId><Legislature>64th Legislature</Legislature><Session>2015 Regular Session</Session><Sponsors>Representatives Takko and Rodne</Sponsors><BillHistory><ReadDate>Read first time 02/12/15.</ReadDate><ReferredCommittee>Referred to Committee on Transportation.</ReferredCommittee></BillHistory><BriefDescription>Authorizing organizations representing vehicle dealers to process vehicle certificates of title and registrations.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to the processing of vehicle certificates of title and registrations; amending RCW 46.68.400; and adding a new section to chapter 46.01 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>46</TitleNumber><TextRun>.</TextRun><ChapterNumber>01</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) At the request of an organization representing vehicle dealers licensed under chapter 46.70 RCW, the director must authorize the organization to process and issue vehicle certificates of title and registrations.</P>
+<P>(2) An organization as authorized under this section may only process transactions as described in subsection (1) of this section that are related to the buying and selling of a vehicle at a licensed vehicle dealer's place of business.</P>
+<P>(3) An organization as authorized under this section must act under the direction and supervision of the director.</P>
+<P>(4) The department must provide all access and assistance necessary to permit the development and maintenance of an electronic interface to allow for paperless submittals between systems used by vehicle dealers and systems used by the department.</P>
+<P>(5) An organization as authorized under this section must collect and retain the service fee under RCW 46.17.040 or may designate a third party to perform all services as authorized in this section and to collect and retain the service fee under RCW 46.17.040.</P>
+<P>(6) The filing fee under RCW 46.17.005 collected on transactions processed under this section must be distributed under RCW 46.68.400(1).</P>
+<P>(7) An organization as authorized under this section or its designee is considered an agent of the department under RCW 46.12.530 and 46.16A.040.</P>
+<P>(8) The department may adopt rules to implement this section.</P>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>46</TitleNumber><TextRun>.</TextRun><ChapterNumber>68</ChapterNumber><TextRun>.</TextRun><SectionNumber>400</SectionNumber></SectionCite> and 2010 c 161 s 819 are each amended to read as follows:<Caption>Vehicle registration filing fees<TextRun fontFamily="Times New Roman">—</TextRun>Distribution.</Caption></BillSectionHeader>
+<P>A filing fee established in RCW 46.17.005 must be distributed as follows:</P>
+<P>(1) If paid to the county auditor or other agent or subagent appointed by the director, <TextRun amendingStyle="add">or to an organization as authorized under section 1 of this act or its designee,</TextRun> the fee must be distributed to the county treasurer and credited to the county current expense fund.</P>
+<P>(2) If the fee is paid to another agent of the director, the fee must be used by the agent to defray his or her expenses in handling the application.</P>
+<P>(3) If the fee is collected by the state patrol as agent for the director, the fee must be certified to the state treasurer and deposited to the credit of the state patrol highway account.</P>
+<P>(4) If the fee is collected by the department of transportation as agent for the director, the fee must be certified to the state treasurer and deposited to the credit of the motor vehicle fund created in RCW 46.68.070.</P>
+<P>(5) If the fee is collected by the director or branches of the department, the fee must be certified to the state treasurer and deposited to the credit of the highway safety fund, except that two dollars of the fee must be deposited into the multimodal transportation account if the fee is collected in conjunction with RCW 46.17.350(1) (c) or (k) or 46.17.355.</P>
+<History>2010 c 161 § 819.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>Intent<TextRun fontFamily="Times New Roman">—</TextRun>Legislation to reconcile chapter 161, Laws of 2010 and other amendments made during the 2010 legislative session<TextRun fontFamily="Times New Roman">—</TextRun>2010 c 161:</TextRun> See notes following RCW 46.04.013.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+</BillBody>
+</Bill>

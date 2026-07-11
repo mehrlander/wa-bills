@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-0805.1</RequestNumber><ShortBillId>HB 1635</ShortBillId><LongBillId>HOUSE BILL 1635</LongBillId><Legislature>66th Legislature</Legislature><Session>2019 Regular Session</Session><Sponsors>Representatives Caldier, Frame, Van Werven, Chambers, Orwall, Graham, Kilduff, Eslick, Ormsby, and Bergquist</Sponsors><BillHistory><ReadDate>Read first time 01/25/19.</ReadDate><ReferredCommittee>Referred to Committee on Local Government.</ReferredCommittee></BillHistory><BriefDescription>Requiring public libraries to adopt internet safety policies to address minor access to harmful material.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to requiring public libraries to adopt internet safety policies to address minor access to harmful material; and adding a new section to chapter 27.12 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>27</TitleNumber><TextRun>.</TextRun><ChapterNumber>12</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1)(a) Except as provided in subsection (2) of this section, the board of trustees of a library that provides internet access on public computer terminals shall adopt and enforce an internet safety policy that addresses minor access to harmful material online. The internet safety policy must include the deployment and use of a technology protection measure with respect to any of the library's computers with internet access that prevents all library patrons from gaining access to visual depictions that are obscene or child pornography, and prevents minors from gaining access to visual depictions that are harmful to minors.</P>
+<P>(b) The internet safety policy may authorize an administrator, supervisor, or other library representative to disable the technology protection measure upon the request of an adult library patron to enable access for bona fide research or other lawful purposes. The internet safety policy may include other terms, conditions, and requirements as the board of trustees deems appropriate.</P>
+<P>(2) A library is exempt from the requirements of subsection (1) of this section if the qualified voters of the area included within the library's district adopt a proposition to exempt the library according to the following procedures:</P>
+<P>(a) The board of trustees of the library may adopt a resolution to exempt the library from the requirements of subsection (1) of this section. The resolution must be adopted at a public meeting of the board of trustees after notice and an opportunity for public comment;</P>
+<P>(b) If the board of trustees adopts a resolution under (a) of this subsection, a proposition to exempt the library from the requirements of subsection (1) of this section must be placed on the ballot at the next succeeding general or special election in accordance with the procedures established under this chapter for the creation of the library or library district; and</P>
+<P>(c) If the proposition is approved by a majority vote of the qualified electors voting on the proposition, the library is exempt from the requirements of subsection (1) of this section.</P>
+<P>(3) As used in this section:</P>
+<P>(a) "Child pornography" means a depiction of a minor engaged in an act of sexually explicit conduct as defined in RCW 9.68A.011(4) (a) through (e);</P>
+<P>(b) "Harmful to minors" means any picture, image, graphic image file, or other visual depiction that:</P>
+<P>(i) Taken as a whole and with respect to minors, appeals to a prurient interest in nudity, sex, or excretion;</P>
+<P>(ii) Depicts, describes, or represents, in a patently offensive way with respect to what is suitable for minors, an actual or simulated sexual act or sexual contact, an actual or simulated normal or perverted sexual act, or a lewd exhibition of the genitals; and</P>
+<P>(iii) Taken as a whole, lacks serious literary, artistic, political, or scientific value as to minors;</P>
+<P>(c) "Obscene" means material that:</P>
+<P>(i) The average person, applying contemporary community standards, would find that taken as a whole appeals to the prurient interest in sex;</P>
+<P>(ii) Depicts or describes:</P>
+<P>(A) Patently offensive representations or descriptions of ultimate sex acts, normal or perverted, actual or simulated, including sexual intercourse, sodomy, and sexual bestiality; or</P>
+<P>(B) Patently offensive representations or descriptions of masturbation, excretory functions, sadism, masochism, lewd exhibition of the genitals, the male or female genitals in a state of sexual stimulation or arousal, or covered male genitals in a discernibly turgid state; and</P>
+<P>(iii) Taken as a whole, lacks serious literary, artistic, political, or scientific value; and</P>
+<P>(d) "Technology protection measure" means software or other technology that blocks or filters internet access to visual depictions.</P>
+</BillSection>
+</BillBody>
+</Bill>

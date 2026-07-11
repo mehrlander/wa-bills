@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-4175.2</RequestNumber><ShortBillId>SB 6571</ShortBillId><LongBillId>SENATE BILL 6571</LongBillId><Legislature>65th Legislature</Legislature><Session>2018 Regular Session</Session><Sponsors>Senators Warnick, Takko, Wellman, Short, Becker, Brown, Bailey, Wagoner, Palumbo, King, Ericksen, Padden, and Zeiger</Sponsors><BillHistory /><BriefDescription>Providing a sales and use tax exemption for agricultural education students.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to providing a sales and use tax exemption for agricultural education students; adding a new section to chapter 82.08 RCW; and adding a new section to chapter 82.12 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>82</TitleNumber><TextRun>.</TextRun><ChapterNumber>08</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) The tax levied by RCW 82.08.020 does not apply to the sale of qualifying purchases to an agricultural education student.</P>
+<P>(2) The exemption is available only when the buyer provides the seller with an exemption certificate in a form and manner prescribed by the department. The seller must retain a copy of the certificate for the seller's files.</P>
+<P>(3) The definitions in this subsection apply throughout this section unless the context clearly requires otherwise.</P>
+<P>(a) "Agricultural education student" means a person twenty-one years of age or younger who is an active member of a student agricultural education organization.</P>
+<P>(b) "Qualifying purchases" means livestock, feed, veterinary services, medicines, and supplies, used in conjunction with a junior livestock show.</P>
+<P>(c) "Student agricultural education organization" means a nonprofit organization that provides instructional programs in agricultural education to prepare students for a wide range of careers in agriculture, agribusiness, and other agriculture-related occupations.</P>
+<P>(4) This section is exempt from the provisions of RCW 82.32.805 and 82.32.808.</P>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>82</TitleNumber><TextRun>.</TextRun><ChapterNumber>12</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) This chapter does not apply to use of qualifying purchases by an agricultural education student.</P>
+<P>(2) The definitions, conditions, and requirements of section 1 of this act apply to this section.</P>
+<P>(3) This section is exempt from the provisions of RCW 82.32.805 and 82.32.808.</P>
+</BillSection>
+</BillBody>
+</Bill>

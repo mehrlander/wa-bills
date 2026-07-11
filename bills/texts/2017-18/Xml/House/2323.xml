@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-3195.1</RequestNumber><ShortBillId>HB 2323</ShortBillId><LongBillId>HOUSE BILL 2323</LongBillId><Legislature>65th Legislature</Legislature><Session>2018 Regular Session</Session><Sponsors>Representatives Dolan, Appleton, Muri, Stonier, Stambaugh, Cody, Goodman, Fey, Bergquist, Santos, Johnson, Slatter, Tharinger, Fitzgibbon, Pellicciotti, Valdez, Haler, Kilduff, McDonald, Chapman, Sells, Blake, Reeves, Macri, Kloba, Jinkins, Ortiz-Self, Condotta, Pollet, Doglio, Young, and Stanford</Sponsors><BillHistory><PrefiledDate>Prefiled 12/22/17.</PrefiledDate><ReadDate>Read first time 01/08/18.</ReadDate><ReferredCommittee>Referred to Committee on Appropriations.</ReferredCommittee></BillHistory><BriefDescription>Addressing cost-of-living adjustments for teachers' retirement system plan 1 and public employees' retirement system plan 1 retirees.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to cost-of-living adjustments for teachers' retirement system plan 1 and public employees' retirement system plan 1 retirees; adding a new section to chapter 41.32 RCW; adding a new section to chapter 41.40 RCW; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The teachers' retirement system plan 1 and the public employees' retirement system plan 1 are the only two state retirement benefit plans that do not provide regular cost-of-living adjustments for retirees' pensions. Members of these plans have not received a cost-of-living adjustment since 2010. Those who have been retired more than ten years have lost, on average, twenty-five percent of their purchasing power. The legislature intends to provide a three percent increase for plan 1 retirees in 2018 to maintain the current purchasing power of members' benefits and to avoid further diminishing the value of those benefits.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>41</TitleNumber><TextRun>.</TextRun><ChapterNumber>32</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> under the subchapter heading "PLAN 1" to read as follows:</BillSectionHeader>
+<P>(1) Beneficiaries who are receiving a monthly benefit from the teachers' retirement system plan 1 on January 1, 2018, shall have a permanent increase of three percent added to his or her monthly benefit on July 1, 2018.</P>
+<P>(2) Where the retirement allowance payable was adjusted at the time benefit payments to the beneficiary commenced, the three percent increase provided in this section shall be adjusted in a manner consistent with that adjustment.</P>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>41</TitleNumber><TextRun>.</TextRun><ChapterNumber>40</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> under the subchapter heading "PLAN 1" to read as follows:</BillSectionHeader>
+<P>(1) Beneficiaries who are receiving a monthly benefit from the public employees' retirement system plan 1 on January 1, 2018, shall have a permanent increase of three percent added to his or her monthly benefit on July 1, 2018.</P>
+<P>(2) Where the retirement allowance payable was adjusted at the time benefit payments to the beneficiary commenced, the three percent increase provided in this section shall be adjusted in a manner consistent with that adjustment.</P>
+</BillSection>
+</BillBody>
+</Bill>

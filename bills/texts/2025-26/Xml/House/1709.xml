@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-0271.2</RequestNumber><ShortBillId>HB 1709</ShortBillId><LongBillId>HOUSE BILL 1709</LongBillId><Legislature>69th Legislature</Legislature><Session>2025 Regular Session</Session><Sponsors>Representatives Callan, Steele, Goodman, Reed, and Hill</Sponsors><BillHistory><ReadDate>Read first time 01/29/25.</ReadDate><ReferredCommittee>Referred to Committee on Education.</ReferredCommittee></BillHistory><BriefDescription>Addressing the care of students with adrenal insufficiency by parent-designated adults.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to the care of students with adrenal insufficiency by parent-designated adults; adding a new section to chapter 28A.210 RCW; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1)(a) The legislature recognizes that not every public school has a full-time school nurse and that there are restrictions on who can provide nursing care, including medication administration, to students.</P></BillSectionHeader>
+<P>(b) The legislature further recognizes that parent-designated adults are volunteers, who may be school employees, and who provide care for the student consistent with the student's individual health plan. Legislation enacted in 2002 authorized parent-designated adults to provide care for students with diabetes. Legislation enacted in 2013 authorized parent-designated adults to provide care for students with seizure disorders, including epilepsy.</P>
+<P>(2) The legislature finds that adrenal insufficiency is a rare condition in which the adrenal glands do not produce enough cortisol. If cortisol levels drop too low, which can happen when a person is stressed, ill, or injured, a person will experience abdominal pain, fatigue, dizziness, and ultimately go into shock. Acute severe adrenal insufficiency is a life-threatening situation that requires emergency treatment with cortisol or similar medication to prevent shock or other severe complications.</P>
+<P>(3) Therefore, the legislature intends to authorize parent-designated adults to provide care for students with adrenal insufficiency. </P>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>28A</TitleNumber><TextRun>.</TextRun><ChapterNumber>210</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>A parent-designated adult may provide care for students with adrenal insufficiency, if needed. Requirements for parent-designated adult eligibility, limitations on supervision, and related provisions are provided in RCW 28A.210.260(1)(h).</P>
+</BillSection>
+</BillBody>
+</Bill>

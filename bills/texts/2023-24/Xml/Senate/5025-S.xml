@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-1867.1</RequestNumber><ShortBillId>SSB 5025</ShortBillId><LongBillId>SUBSTITUTE SENATE BILL 5025</LongBillId><Legislature>68th Legislature</Legislature><Session>2023 Regular Session</Session><Sponsors>Senate Ways &amp; Means (originally sponsored by Senators Dozier, Boehnke, Gildon, Padden, Wagoner, and J. Wilson)</Sponsors><BillHistory><ReadDate>READ FIRST TIME 02/24/23.</ReadDate></BillHistory><BriefDescription>Concerning implementation of technology systems at the department of corrections.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to implementation of technology systems at the department of corrections; adding a new section to chapter 72.09 RCW; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>72</TitleNumber><TextRun>.</TextRun><ChapterNumber>09</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1)(a) The department shall replace the offender management network information system at the department with a more efficient and technologically advanced system. The department shall replace and implement the sentencing calculation module before replacing other modules of the offender management network information system. The department is required to implement the sentencing calculation module by June 30, 2025.</P>
+<P>(b) The department shall use a competitive request for a proposal process to replace the offender management network information system under this section.</P>
+<P>(c) The department shall leverage existing resources, development plans, and funding.</P>
+<P>(d) The department shall require that any system that replaces all or parts of the offender management network information system:</P>
+<P>(i) Be capable of being continually updated as necessary;</P>
+<P>(ii) Use an agile, not waterfall, development model with software demonstration delivery at the end of two-week sprints based on iterative user experience research;</P>
+<P>(iii) Deploy usable functionality into production for users within 180 days from the date of funding provided; and</P>
+<P>(iv) Use quantifiable deliverables that must include live, accessible demonstrations of software in development to program staff and end users at each sprint or at least monthly.</P>
+<P>(e) The department shall ensure a full and open vendor competition with best value analysis to allow for technology solutions that meet department requirements.</P>
+<P>(2)(a) The department shall implement a comprehensive electronic health records system at the department. The department must ensure the electronic health records system:</P>
+<P>(i) Complies with the statewide electronic health records plan that must implement a common technology solution to leverage shared business processes and data across the state in support of client services. The department must collaborate with at least the consolidated technology services, department of social and health services, and the health care authority; and</P>
+<P>(ii) Requirements are coordinated with, and similar to, at least those for the department of social and health services and the health care authority.</P>
+<P>(b) The comprehensive electronic health records system implemented by the department shall be able to communicate with information and data systems used by managed care organizations for purposes of care coordination activities.</P>
+<P>(c) The department shall require that the comprehensive electronic health records system:</P>
+<P>(i) Be capable of being continually updated as necessary;</P>
+<P>(ii) Use an agile, not waterfall, development model with software demonstration delivery at the end of two-week sprints based on iterative user experience research;</P>
+<P>(iii) Deploy usable functionality into production for users within 180 days from the date of funding provided; and</P>
+<P>(iv) Use quantifiable deliverables that must include live, accessible demonstrations of software in development to program staff and end users at each sprint or at least monthly.</P>
+<P>(3) The department shall work with the office of equity to implement provisions of this act.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>If specific funding for the purposes of this act, referencing this act by bill or chapter number, is not provided by June 30, 2023, in the omnibus appropriations act, this act is null and void.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

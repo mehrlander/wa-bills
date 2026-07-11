@@ -1,0 +1,360 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-1565.1</RequestNumber><ShortBillId>SHB 1550</ShortBillId><LongBillId>SUBSTITUTE HOUSE BILL 1550</LongBillId><Legislature>69th Legislature</Legislature><Session>2025 Regular Session</Session><Sponsors>House Environment &amp; Energy (originally sponsored by Representatives Street, Doglio, Mena, Hunt, Ramel, Berry, Reed, Duerr, Gregerson, Kloba, Paul, Parshley, Callan, Taylor, Ormsby, Pollet, Santos, Scott, Macri, and Hill)</Sponsors><BillHistory><ReadDate>READ FIRST TIME 02/21/25.</ReadDate></BillHistory><BriefDescription>Improving the end-of-life management of electric vehicle batteries.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to improving the end-of-life management of electric vehicle batteries; amending RCW 70A.205.505 and 70A.555.010; reenacting and amending RCW 43.21B.110 and 43.21B.300; adding a new chapter to Title 70A RCW; and prescribing penalties.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) In addition to the findings described in RCW 70A.555.005, the legislature finds that: </P></BillSectionHeader>
+<P>(a) In 2023, the legislature enacted producer responsibility requirements for most types of smaller and medium-sized batteries, but elected to further study how to best manage electric vehicle batteries prior to establishing producer responsibility requirements for such batteries;</P>
+<P>(b) In January of 2024, the state of New Jersey enacted the nation's first producer responsibility law focused on electric vehicle batteries; and</P>
+<P>(c) The state of California has taken important steps that will facilitate electric vehicle battery recycling, including by establishing requirements for electric vehicle battery labeling.</P>
+<P>(2) Therefore, it is the intent of the legislature to make producers responsible for the end-of-life management of electric vehicle batteries, in order to ensure economically and environmentally beneficial use of the valuable resources contained in electric vehicle batteries.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>The definitions in this section apply throughout this chapter unless the context clearly indicates otherwise.</P></BillSectionHeader>
+<P>(1) "Auto recycler" means a person engaged in Washington in an established business that includes acquiring vehicles that are required to be registered under chapter 46.16A RCW for the purpose of dismantling, wrecking, shredding, compacting, crushing, or otherwise destroying vehicles for reclaimable parts or scrap material to sell. "Auto recycler" shall be considered a secondary handler under this chapter when managing propulsion batteries.</P>
+<P>(2) "Battery" means a device consisting of one or more electrically connected electrochemical cells that is designed to receive, store, and deliver electric energy.</P>
+<P>(3)(a) "Battery provider" means:</P>
+<P>(i) A person that initially sells, offers for sale, or distributes a new propulsion battery or a vehicle containing a new propulsion battery in or into Washington, including vehicle manufacturers licensed pursuant to applicable state codes or propulsion battery manufacturers that distribute propulsion batteries under their own name or brand;</P>
+<P>(ii) The owner or licensee of a brand or trademark under which a new propulsion battery is sold or distributed in or into Washington, including a licensee with the exclusive right to use the trademark or brand in connection with the distribution or sale of new propulsion batteries;</P>
+<P>(iii) If no person meets the criteria set forth in (a)(i) or (ii) of this subsection, a battery provider is the person that imports the new propulsion battery into the state for sale, distribution, or installation; and</P>
+<P>(iv) If no other person meets the criteria set forth in (a)(i), (ii), or (iii) of this subsection, the distributor, retailer, dealer, or wholesaler that sells or distributes the new propulsion battery in or into Washington. The sale of a propulsion battery is considered to occur in Washington if the battery, or the vehicle containing the battery, is delivered to a licensed dealer or directly to the consumer in Washington.</P>
+<P>(b) "Battery provider" does not include:</P>
+<P>(i) A secondary handler who sells, offers for sale, or distributes a used propulsion battery in or into the state for use in a vehicle; or</P>
+<P>(ii) A vehicle wrecker.</P>
+<P>(4) "Battery state of health" means a figure of merit, measured in kilowatt-hours or percentage of remaining kilowatt-hours as compared to its initial capacity, comparing the propulsion battery's remaining energy retention capacity to its original specifications when it was new.</P>
+<P>(5) "Commercial hauler" means a person transporting solid waste for hire by whatever means for the purpose of transferring, processing, storing, or disposing of the solid waste in a solid waste handling facility, except that "commercial hauler" does not include a person transporting solid waste generated on the person's residential or business premises for the purpose of disposing of it in a solid waste handling facility.</P>
+<P>(6) "Department" means the department of ecology.</P>
+<P>(7) "End-of-life" means the stage at which a propulsion battery is no longer suitable for powering a vehicle and will be evaluated by a secondary handler or secondary user for reuse, remanufacture, repair, repurpose, or recycling;</P>
+<P>(8) "Orphaned battery" means a propulsion battery that does not have a viable battery provider or other responsible entity under this chapter.</P>
+<P>(9)(a) "Propulsion battery" means a battery with the primary original intended purpose of supplying power to propel an electric or hybrid vehicle.</P>
+<P>(b) "Propulsion battery" does not include:</P>
+<P>(i) An auxiliary battery or other low-voltage battery providing backup or secondary power in a vehicle;</P>
+<P>(ii) A battery used to start an internal combustion engine;</P>
+<P>(iii) A battery subject to the provisions of RCW 70A.205.505 through 70A.205.530.</P>
+<P>(10) "Propulsion battery management hierarchy" means the preference for auto recyclers, secondary handlers, secondary users, or battery providers to first strive to reuse, repair, or remanufacture batteries when possible and cost-effective before management via a specialized battery recycler.</P>
+<P>(11) "Remanufacture" means a repair or modification to a propulsion battery that results in the complete battery, or any battery modules or battery cells in the propulsion battery, being used for the same purpose or application for which the battery was originally designed.</P>
+<P>(12) "Repurpose" means the use of a propulsion battery or any battery modules or battery cells in the propulsion battery to store and supply electricity in a manner other than its primary intended purpose.</P>
+<P>(13) "Reuse" means the use of a propulsion battery in another vehicle from the same manufacturer, which does not require modification to the battery.</P>
+<P>(14) "Secondary handler" means a commercial entity that takes possession of a used propulsion battery:</P>
+<P>(a) To sort, reuse, repair, or remanufacture; or</P>
+<P>(b) To prepare the battery for:</P>
+<P>(i) Repurposing by a secondary user; or</P>
+<P>(ii) End-of-life management by a specialized battery recycler.</P>
+<P>(15) "Secondary user" means a commercial entity that repurposes a used propulsion battery.</P>
+<P>(16) "Solid waste" has the same meaning as provided in RCW 70A.205.015.</P>
+<P>(17) "Solid waste collection company" has the same meaning as defined in RCW 81.77.010.</P>
+<P>(18) "Solid waste handling facility" means a facility that engages in solid waste handling as that activity is defined in RCW 70A.205.015.</P>
+<P>(19)(a) "Specialized battery recycler" means an entity or facility that is authorized by the department or an equivalent agency in another state to:</P>
+<P>(i) Extract and separate end-of-life propulsion battery elements that include:</P>
+<P>(A) Intermediate fraction from the thermal or mechanical treatment of waste batteries; and</P>
+<P>(B) Components, including lithium compounds, cobalt, nickel, copper, aluminum, iron, manganese, and graphite, and send the material for further processing or refining prior to sending them to another specialized battery recycler; or</P>
+<P>(ii) Refine end-of-life propulsion batteries or the materials listed in (a)(i) of this subsection to useable battery materials.</P>
+<P>(b) "Specialized battery recycler" does not include entities that are only engaged in the collection or logistics of moving materials for recycling or whose primary method of battery recycling is done by smelting.</P>
+<P>(20) "Spent battery" means a propulsion battery for which costs associated with reuse, repurposing, remanufacturing, or recycling the battery present a burden for the secondary handler or secondary user that has removed the battery from the vehicle.</P>
+<P>(21) "Vehicle" has the same meaning as in RCW 46.04.670.</P>
+<P>(22) "Vehicle wrecker" has the same meaning as in RCW 46.80.010.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) Beginning June 1, 2029, solid waste collection company or solid waste handling facility must not knowingly accept for disposal a propulsion battery, or any module or cell of such a battery, or a truckload or roll-off container of solid waste containing a propulsion battery, or any module or cell of such a battery.</P></BillSectionHeader>
+<P>(2) The owner or operator of a solid waste handling facility may refuse to accept for disposal a propulsion battery, or any module or cell of such a battery, or any truckload or roll-off container of solid waste containing a propulsion battery, or any module or cell of such a battery.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) The responsible entity for a spent battery shall be the battery provider, unless a secondary handler or secondary user has modified the battery for a use other than in a vehicle. In that case, the responsible entity shall be the last party that modified the battery. The responsible entity is responsible for end-of-life treatment for a spent battery under this chapter.</P></BillSectionHeader>
+<P>(2) For a propulsion battery that does not otherwise have a responsible entity under this chapter, the responsible entity is the battery provider.</P>
+<P>(3) A propulsion battery for which there is no battery provider or other responsible entity must be managed under the plan approved by the department under section 6(8) of this act.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>5</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) Upon repurposing or remanufacturing a propulsion battery for use other than in a vehicle, a secondary user or secondary handler is the responsible entity for the end-of-life battery management of the spent battery.</P></BillSectionHeader>
+<P>(2) If a secondary handler or a secondary user identifies a propulsion battery as a spent battery upon taking initial possession of the battery, the secondary handler or secondary user shall use the labeling to identify either the battery provider or the last entity to have modified the battery for use other than in a vehicle as the responsible entity for that spent battery. The secondary handler or secondary user shall notify the responsible entity, who shall collect the spent battery and transport the battery at no cost to the secondary handler or secondary user.</P>
+<P>(3) For a propulsion battery that is unable to be further reused, repurposed, or remanufactured, a secondary handler or secondary user shall coordinate with a specialized battery recycler for end-of-life management to ensure compliance with the requirements of this chapter. When a battery provider acts as a secondary handler or secondary user, the battery provider is subject to the responsibilities of a secondary handler or secondary user pursuant to this section.</P>
+<P>(4) If a secondary handler or secondary user modifies a propulsion battery, the secondary handler or secondary user must provide updated labeling or other means of communication that identifies the secondary handler or secondary user as the responsible entity for the modified battery in a vehicle, prior to selling or supplying the battery or a vehicle containing the battery to another person. A secondary handler or secondary user becomes responsible for ensuring spent batteries are handled in accordance with this chapter when the secondary handler or secondary user modifies a propulsion battery.</P>
+<P>(5) By January 1, 2026, each battery provider must register with the department. On or before April 1, 2029, and by April 1st of each year thereafter, each secondary user and secondary handler shall submit an annual report to the department containing the following information regarding the secondary handler's or secondary user's operations for the prior calendar year, if applicable:</P>
+<P>(a) The total volume of propulsion batteries each secondary user procured;</P>
+<P>(b) Identification of all auto recyclers or vehicle wreckers involved in propulsion battery collections;</P>
+<P>(c) A brief overview of methods used to transport used propulsion batteries;</P>
+<P>(d) The total volume of propulsion batteries reused;</P>
+<P>(e) A brief overview of processes used for reuse of propulsion batteries;</P>
+<P>(f) The total volume of propulsion batteries repurposed;</P>
+<P>(g) A brief overview of processes used to repurpose propulsion batteries;</P>
+<P>(h) The total volume of propulsion batteries remanufactured;</P>
+<P>(i) A brief overview of processes used to remanufacture propulsion batteries;</P>
+<P>(j) The total volume of propulsion batteries sent to a specialized battery recycler;</P>
+<P>(k) The volume of spent batteries that secondary handlers and secondary users contacted battery providers to pick up; </P>
+<P>(l) An attestation, supported by documentation, that the secondary handler or secondary user has managed all propulsion batteries, including orphaned batteries, through reuse, remanufacture, repurpose, or responsible end-of-life recycling meeting the requirements of this chapter, and that managed batteries have not knowingly been subject to prohibited landfilling, incineration, or smelting under this chapter; </P>
+<P>(m) Other information required by the department by rule.</P>
+<P>(6) Upon taking possession of a propulsion battery, a secondary handler or secondary user must manage the propulsion battery in accordance with the propulsion battery management hierarchy.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>6</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) By January 1, 2026, each battery provider must register with the department.</P></BillSectionHeader>
+<P>(2) A battery provider shall:</P>
+<P>(a) Upon receiving notification from an auto recycler, licensed vehicle wrecker, or other person regarding a spent battery, be responsible for retrieving the battery in a timely and safe manner and be responsible for all costs of collecting and transporting the spent battery at no cost to the auto recycler, licensed vehicle wrecker, or other person;</P>
+<P>(b) Ensure the responsible end-of-life management of a propulsion battery that is:</P>
+<P>(i) Removed from a vehicle still in service while under warranty, in accordance with state and federal laws; or</P>
+<P>(ii) Returned directly to the battery provider; and</P>
+<P>(c) Coordinate with specialized battery recyclers for the responsible end-of-life management of propulsion batteries if recycling is the only viable second-life application available for a propulsion battery, to ensure compliance with this chapter.</P>
+<P>(3) To satisfy the requirement for the responsible end-of-life management of a propulsion battery under subsection (2)(c) of this section, a battery provider may only coordinate with or otherwise provide a battery to a specialized battery recycler that uses best available technology for resource recovery enhancement and environmental impact minimization and that, at minimum, achieves the following yearly average recycling efficiency for materials when contained in a propulsion battery: </P>
+<P>(a) By December 31, 2029, recovery of at least:</P>
+<P>(i) 85 percent for cobalt;</P>
+<P>(ii) 90 percent for copper;</P>
+<P>(iii) 50 percent for lithium; </P>
+<P>(iv) 85 percent for nickel; and</P>
+<P>(v) Any other recovery rate for an additional battery material contained in the propulsion battery, as adopted by the department by rule; and </P>
+<P>(b) By December 31, 2031, recovery of at least:</P>
+<P>(i) 90 percent for cobalt;</P>
+<P>(ii) 95 percent for copper;</P>
+<P>(iii) 80 percent for lithium;</P>
+<P>(iv) 90 percent for nickel; and</P>
+<P>(v) Any other recovery rate for an additional battery material contained in the propulsion battery, as adopted by the department by rule. </P>
+<P>(4) A battery provider shall ensure that a propulsion battery sold in Washington while embedded in a vehicle shall have easily interpretable and accessible battery state of health data:</P>
+<P>(a) While the battery is inside the vehicle; and</P>
+<P>(b) When the battery has been removed from the vehicle for the purpose of facilitating the potential reuse, repurposing, or remanufacture of the battery.</P>
+<P>(5) For the purpose of facilitating the potential reuse, repurposing, or remanufacture of a battery, a battery provider must either, in conjunction with the accessible battery state of health information under subsection (4) of this section or upon request by a secondary handler or secondary user, make available to a secondary handler or secondary user data regarding a battery's temperature, voltage, charging rates, and faults, to the maximum extent practicable. For purposes of complying with the requirements of this subsection, a battery provider has the option to either provide the required information directly to a secondary handler or secondary user or may choose to allow a licensed tool or testing company to provide the service to the secondary handler or secondary user.</P>
+<P>(6) A battery provider ceases to be the responsible entity for a remanufactured or repurposed propulsion battery unless the battery provider has performed the remanufacturing or repurposing or has agreed to accept responsibility for such liability by contract.</P>
+<P>(7) If a vehicle containing a propulsion battery originally sold in Washington is retired out of state, it is not subject to the requirements of this chapter.</P>
+<P>(8) Each battery provider must, individually or in coordination with other battery providers, submit a plan to the department by January 1, 2029, addressing how the requirements of this chapter will be met for a propulsion battery for which a battery provider or other responsible entity no longer exists. The department may, by rule, establish the criteria for plans submitted under this subsection. The department must approve a plan submitted under this subsection that adequately provides for the management of such batteries consistent with the requirements of this chapter.</P>
+<P>(9) On or before April 1, 2029, and by April 1st of each year thereafter, each battery provider shall submit an annual report to the department containing the following information regarding the battery provider's operations for the prior calendar year:</P>
+<P>(a) The total volume of propulsion batteries managed at end-of-life;</P>
+<P>(b) The total volume of propulsion batteries managed by specialized battery recyclers in accordance with this chapter; </P>
+<P>(c) The total volume of propulsion batteries procured in the following categories:</P>
+<P>(i) Batteries acquired from auto recyclers or licensed vehicle wreckers; and</P>
+<P>(ii) Batteries procured from other sources;</P>
+<P>(d) The total volume of propulsion batteries each battery provider procured;</P>
+<P>(e) A brief overview of methods used to transport used propulsion batteries;</P>
+<P>(f) The total volume of propulsion batteries reused;</P>
+<P>(g) A brief overview of processes used for reuse of propulsion batteries;</P>
+<P>(h) The total volume of propulsion batteries repurposed;</P>
+<P>(i) A brief overview of processes used to repurpose propulsion batteries;</P>
+<P>(j) The total volume of propulsion batteries remanufactured;</P>
+<P>(k) A brief overview of processes used to remanufacture propulsion batteries;</P>
+<P>(l) The total volume of propulsion batteries sent to a specialized battery recycler;</P>
+<P>(m) The volume of spent batteries that secondary handlers and secondary users contacted battery providers to pick up;</P>
+<P>(n) An attestation, supported by documentation, that the battery provider has managed all propulsion batteries, including orphaned batteries, through reuse, remanufacture, repurpose, or responsible end-of-life recycling meeting the requirements of this chapter, and that managed batteries have not knowingly been subject to prohibited landfilling, incineration, or smelting under this chapter; and</P>
+<P>(o) Other information required by the department by rule.</P>
+<P>(10) Nothing in this chapter requires a battery considered to have reached its end-of-life for purposes of this chapter to be treated as waste for purposes of chapter 70A.205 or 70A.300 RCW.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>7</Value><TextRun>.  </TextRun></BillSectionNumber><P>By January 1, 2026, each specialized battery recycler must register with the department. On or before April 1, 2029, and by April 1st of each year thereafter, each specialized battery recycler doing business in Washington shall submit an annual report to the department containing the following information regarding the specialized battery recycler's operations for the prior calendar year:</P></BillSectionHeader>
+<P>(1) The total volume of propulsion batteries the specialized battery recycler has procured;</P>
+<P>(2) The total volume of propulsion batteries recycled;</P>
+<P>(3) The recovery rates of lithium, nickel, cobalt, copper, aluminum graphite, and other materials, as applicable; and</P>
+<P>(4) Other information required by the department by rule.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>8</Value><TextRun>.  </TextRun></BillSectionNumber><P>A person that is not a battery provider, secondary handler, or secondary user seeking to discard a vehicle propulsion battery shall:</P></BillSectionHeader>
+<P>(1) Return the propulsion battery or the vehicle containing the vehicle propulsion battery to the responsible entity or notify the responsible entity and coordinate timely and safe pickup of the battery to be done by the responsible entity; or</P>
+<P>(2) Sell or transfer the propulsion battery or the vehicle containing the vehicle propulsion battery to a secondary handler, secondary user, or specialized battery recycler.</P>
+
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>9</Value><TextRun>.  </TextRun></BillSectionNumber><P>The department shall:</P></BillSectionHeader>
+<P>(1) Notify secondary handlers, secondary users, commercial haulers, and solid waste handling facilities of the prohibition on disposing of propulsion batteries in landfills and that auto recyclers can contact the responsible entity to take responsibility for spent batteries;</P>
+<P>(2) Determine how to proceed if the federal government passes laws or publishes regulations pertaining to propulsion batteries that may impact the requirements outlined in this chapter and review, evaluate, and compare the federal requirements to those provided for in that act;</P>
+<P>(3) Revise applicable administrative rules to ensure compliance with federal standards and achieve greater efficiency and feasibility; and</P>
+<P>(4) Determine and enforce violations, administrative compliance cost recovery, and penalties for battery providers, specialized battery recyclers, secondary handlers, and secondary users that violate the provisions of this chapter or fail to meet the requirements outlined in this chapter.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>10</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) A consumer may not be charged a specific point-of-sale fee to cover the administrative or operative costs associated with propulsion battery management requirements under this chapter.</P></BillSectionHeader>
+<P>(2) A fee may not be charged at the time a propulsion battery is delivered to a battery provider, secondary handler, or secondary user for management.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>11</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) By June 30, 2026, each battery provider registered with the department must submit a one-time payment to the department, in an amount determined by the department, to cover the costs of the department under this chapter from the effective date of this section through June 30, 2027. Until rules are adopted by the department, the department may issue a general order to each battery provider regarding the payment required under this subsection. The department may require a battery provider to submit information, such as sales data, that is necessary for the department to equitably impose fees under this section.</P></BillSectionHeader>
+<P>(2) By March 31, 2027, and each March 31st thereafter, the department must determine the total annual registration fee to be paid by each battery provider that is adequate to cover, but not exceed, the costs to implement, administer, and enforce this chapter in the next fiscal year. The department must consider the availability of any funds submitted under subsection (1) or (3) of this section in determining the annual registration fee, and must:</P>
+<P>(a) Apply any remaining fee payment funds from the current year to the annual fee for the coming fiscal year, if the collected annual fee exceeds the costs of the department to implement, administer, and enforce this chapter for a given year; and</P>
+<P>(b) Increase annual fees for the coming fiscal year to cover the costs of the department to implement, administer, and enforce this chapter, if the collected annual fee was less than the amount required to cover those costs for a given year.</P>
+<P>(3) By June 30, 2027, and each June 30th thereafter, each battery provider must submit an annual registration fee in an amount consistent with the department's fee determination under subsection (2) of this section.</P>
+<P>(4) Fees received under this section must be deposited in the electric vehicle battery recycling account created in section 12 of this act.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>12</Value><TextRun>.  </TextRun></BillSectionNumber><P>The electric vehicle battery recycling account is created in the custody of the state treasurer. All fee payments received by the department under this chapter must be deposited in the account. Only the director of the department or the director's designee may authorize expenditures from the account. The account is subject to the allotment procedures under chapter 43.88 RCW, but an appropriation is not required for expenditures. Expenditures from the account may be used by the department only for implementing, administering, and enforcing the requirements of this chapter. It is the intent of the legislature that the portion of payments received in 2026 for the costs of the department be transferred to whichever state account was used to cover the costs of the department prior to the payment of the producer responsibility organization fee in 2026.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>13</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1)(a) The department may administratively impose a civil penalty on a person who violates this chapter in an amount of up to $1,000 per violation per day.</P></BillSectionHeader>
+<P>(b) The department may administratively impose a civil penalty of up to $10,000 per violation per day on a person for repeated violations of this chapter or failure to comply with an order issued under (c) of this subsection.</P>
+<P>(c) Whenever on the basis of any information the department determines that a person has violated or is in violation of this chapter, the department may issue an order requiring compliance. A person who fails to take corrective action as specified in a compliance order is liable for a civil penalty as provided in (b) of this subsection, without receiving a written warning prescribed in (e) of this subsection.</P>
+<P>(d) Penalties and orders incurred under this section may be appealed to the pollution control hearings board created in chapter 43.21B RCW.</P>
+<P>(e) Prior to imposing penalties under this section, the department must provide a person with a written warning for the first violation. The written warning must inform the person regarding the obligation to come into compliance with the requirements of this chapter within 30 days of the notice. A person that violates a provision of this chapter after the initial warning may be assessed a penalty as provided in this subsection.</P>
+<P>(f) Penalties imposed under this section must be deposited into the model toxics control operating account created in RCW 70A.305.180.</P>
+<P>(2) The department has the right to enter, at any time during normal business hours and upon presentation of appropriate credentials, the premises of a recycling center, vehicle recycler, or battery provider to determine compliance with this chapter.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>14</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) The department must adopt rules as necessary to implement, administer, and enforce this chapter by December 31, 2028.</P></BillSectionHeader>
+<P>(2) Under rules adopted by the department, the requirements of this chapter must begin on January 1, 2029, except as otherwise specified in this chapter.</P>
+<P>(3) Under rules adopted by the department, registration and reporting requirements applicable to battery providers, secondary users, secondary handlers, auto recyclers, and licensed vehicle wreckers must all rely on a standardized online form made available by the department to reporting entities. A battery provider who is also acting as a secondary handler or secondary user can file a single registration and annual report that meets all the requirements laid out in this chapter.</P>
+</BillSection>
+<BillSection type="amendatory" action="remd">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>15</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>21B</ChapterNumber><TextRun>.</TextRun><SectionNumber>110</SectionNumber></SectionCite> and 2024 c 347 s 5, 2024 c 340 s 4, and 2024 c 339 s 16 are each reenacted and amended to read as follows:<Caption>Pollution control hearings board jurisdiction.</Caption></BillSectionHeader>
+<P>(1) The hearings board shall only have jurisdiction to hear and decide appeals from the following decisions of the department, the director, local conservation districts, the air pollution control boards or authorities as established pursuant to chapter 70A.15 RCW, local health departments, the department of natural resources, the department of fish and wildlife, the parks and recreation commission, and authorized public entities described in chapter 79.100 RCW:</P>
+<P>(a) Civil penalties imposed pursuant to chapter 70A.230 RCW and RCW 18.104.155, 70A.15.3160, 70A.300.090, 70A.20.050, 70A.230.020, 70A.205.280, 70A.355.070, 70A.430.070, 70A.500.260, 70A.505.100, 70A.505.110, 70A.530.040, 70A.350.070, 70A.515.060, 70A.245.040, 70A.245.050, 70A.245.070, 70A.245.080, 70A.245.130, 70A.245.140, 70A.65.200, 70A.455.090, 70A.550.030, 70A.555.110, 70A.560.020, 70A.565.030, <TextRun amendingStyle="add">section 13 of this act,</TextRun> 76.09.170, 77.55.440, 78.44.250, 88.46.090, 90.03.600, 90.46.270, 90.48.144, 90.56.310, 90.56.330, and 90.64.102.</P>
+<P>(b) Orders issued pursuant to RCW 18.104.043, 18.104.060, 18.104.130, 43.27A.190, 70A.15.2520, 70A.15.3010, 70A.15.4530, 70A.15.6010, 70A.205.280, 70A.214.140, 70A.300.120, 70A.350.070, 70A.245.020, 70A.65.200, 70A.505.100, 70A.555.110, 70A.560.020, 70A.565.030, <TextRun amendingStyle="add">section 13 of this act,</TextRun> 86.16.020, 88.46.070, 90.03.665, 90.14.130, 90.46.250, 90.48.120, 90.48.240, 90.56.330, and 90.64.040.</P>
+<P>(c) Except as provided in RCW 90.03.210(2), the issuance, modification, or termination of any permit, certificate, or license by the department or any air authority in the exercise of its jurisdiction, including the issuance or termination of a waste disposal permit, the denial of an application for a waste disposal permit, the modification of the conditions or the terms of a waste disposal permit, a decision to approve or deny a solid waste management plan under RCW 70A.205.055, approval or denial of an application for a beneficial use determination under RCW 70A.205.260, an application for a change under RCW 90.03.383, or a permit to distribute reclaimed water under RCW 90.46.220.</P>
+<P>(d) Decisions of local health departments regarding the granting or denial of solid waste permits pursuant to chapter 70A.205 RCW, including appeals by the department as provided in RCW 70A.205.130.</P>
+<P>(e) Decisions of local health departments regarding the issuance and enforcement of permits to use or dispose of biosolids under RCW 70A.226.090.</P>
+<P>(f) Decisions of the department regarding waste-derived fertilizer or micronutrient fertilizer under RCW 15.54.820.</P>
+<P>(g) Decisions of local conservation districts related to the denial of approval or denial of certification of a dairy nutrient management plan; conditions contained in a plan; application of any dairy nutrient management practices, standards, methods, and technologies to a particular dairy farm; and failure to adhere to the plan review and approval timelines in RCW 90.64.026 as provided in RCW 90.64.028.</P>
+<P>(h) Any other decision by the department or an air authority which pursuant to law must be decided as an adjudicative proceeding under chapter 34.05 RCW.</P>
+<P>(i) Decisions of the department of natural resources, the department of fish and wildlife, and the department that are reviewable under chapter 76.09 RCW, and the department of natural resources' appeals of county, city, or town objections under RCW 76.09.050(7).</P>
+<P>(j) Forest health hazard orders issued by the commissioner of public lands under RCW 76.06.180.</P>
+<P>(k) Decisions of the department of fish and wildlife to issue, deny, condition, or modify a hydraulic project approval permit under chapter 77.55 RCW, to issue a stop work order, to issue a notice to comply, to issue a civil penalty, or to issue a notice of intent to disapprove applications.</P>
+<P>(l) Decisions of the department of natural resources that are reviewable under RCW 78.44.270.</P>
+<P>(m) Decisions of an authorized public entity under RCW 79.100.010 to take temporary possession or custody of a vessel or to contest the amount of reimbursement owed that are reviewable by the hearings board under RCW 79.100.120.</P>
+<P>(n) Decisions of the department of ecology that are appealable under RCW 70A.245.020 to set recycled minimum postconsumer content for covered products or to temporarily exclude types of covered products in plastic containers from minimum postconsumer recycled content requirements.</P>
+<P>(o) Orders by the department of ecology under RCW 70A.455.080.</P>
+<P>(2) The following hearings shall not be conducted by the hearings board:</P>
+<P>(a) Hearings required by law to be conducted by the shorelines hearings board pursuant to chapter 90.58 RCW, except where appeals to the pollution control hearings board and appeals to the shorelines hearings board have been consolidated pursuant to RCW 43.21B.340.</P>
+<P>(b) Hearings conducted by the department pursuant to RCW 70A.15.3010, 70A.15.3070, 70A.15.3080, 70A.15.3090, 70A.15.3100, 70A.15.3110, and 90.44.180.</P>
+<P>(c) Appeals of decisions by the department under RCW 90.03.110 and 90.44.220.</P>
+<P>(d) Hearings conducted by the department to adopt, modify, or repeal rules.</P>
+<P>(3) Review of rules and regulations adopted by the hearings board shall be subject to review in accordance with the provisions of the administrative procedure act, chapter 34.05 RCW.</P>
+<History>2024 c 347 s 5; 2024 c 340 s 4; 2024 c 339 s 16. Prior: 2023 c 455 s 5; 2023 c 434 s 20; 2023 c 344 s 5; 2023 c 135 s 6; 2022 c 180 s 812; prior: 2021 c 316 s 41; 2021 c 313 s 16; prior: 2020 c 138 s 11; (2020 c 138 s 10 expired June 30, 2021); 2020 c 20 s 1035; (2020 c 20 s 1034 expired June 30, 2021); prior: 2019 c 344 s 16; 2019 c 292 s 10; 2019 c 290 s 12; 2013 c 291 s 34; (2013 c 291 s 33 expired June 30, 2019); prior: 2010 c 210 s 8; (2010 c 210 s 7 expired June 30, 2019); 2010 c 84 s 3; (2010 c 84 s 2 expired June 30, 2019); prior: 2009 c 456 s 16; 2009 c 332 s 18; (2009 c 183 s 17 expired June 30, 2021); 2003 c 393 s 19; 2001 c 220 s 2; prior: 1998 c 262 s 18; 1998 c 156 s 8; 1998 c 36 s 22; 1993 c 387 s 22; prior: 1992 c 174 s 13; 1992 c 73 s 1; 1989 c 175 s 102; 1987 c 109 s 10; 1970 ex.s. c 62 s 41.</History>
+<RCWNoteSection>
+<RevNote><NoteP><TextRun fontWeight="bold">Reviser's note: </TextRun>*(1) RCW 70A.505.100 and 70A.505.110 were repealed by 2024 c 339 s 22, effective January 1, 2035.</NoteP><NoteP>(2) This section was amended by 2024 c 339 s 16, 2024 c 340 s 4, and by 2024 c 347 s 5, without reference to one another. All amendments are incorporated in the publication of this section under RCW 1.12.025(2). For rule of construction, see RCW 1.12.025(1).</NoteP></RevNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Finding<TextRun fontFamily="Times New Roman">—</TextRun>Intent<TextRun fontFamily="Times New Roman">—</TextRun>2024 c 339:</TextRun> See note following RCW 70A.505.010.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Finding<TextRun fontFamily="Times New Roman">—</TextRun>Intent<TextRun fontFamily="Times New Roman">—</TextRun>2023 c 135:</TextRun> See note following RCW 19.27.590.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Findings<TextRun fontFamily="Times New Roman">—</TextRun>Intent<TextRun fontFamily="Times New Roman">—</TextRun>Scope of authority of chapter 180, Laws of 2022<TextRun fontFamily="Times New Roman">—</TextRun>2022 c 180:</TextRun> See notes following RCW 70A.205.007.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Short title<TextRun fontFamily="Times New Roman">—</TextRun>2021 c 316:</TextRun> See RCW 70A.65.900.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Finding<TextRun fontFamily="Times New Roman">—</TextRun>Intent<TextRun fontFamily="Times New Roman">—</TextRun>2021 c 313:</TextRun> See note following RCW 70A.245.010.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2020 c 138 s 11:</TextRun> "Section 11 of this act takes effect June 30, 2021." [2020 c 138 s 15.]</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Expiration date<TextRun fontFamily="Times New Roman">—</TextRun>2020 c 138 s 10:</TextRun> "Section 10 of this act expires June 30, 2021." [2020 c 138 s 14.]</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Application of RCW 82.32.805 and 82.32.808<TextRun fontFamily="Times New Roman">—</TextRun>2020 c 138:</TextRun> See note following RCW 70A.530.005.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2020 c 20 s 1035:</TextRun> "Section 1035 of this act takes effect June 30, 2021." [2020 c 20 s 106.]</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Expiration date<TextRun fontFamily="Times New Roman">—</TextRun>2020 c 20 s 1034:</TextRun> "Section 1034 of this act expires June 30, 2021." [2020 c 20 s 105.]</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Short title<TextRun fontFamily="Times New Roman">—</TextRun>2019 c 292:</TextRun> See RCW 70A.350.900.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Finding<TextRun fontFamily="Times New Roman">—</TextRun>Intent<TextRun fontFamily="Times New Roman">—</TextRun>2019 c 290:</TextRun> See note following RCW 77.12.085.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2013 c 291 s 34:</TextRun> "Section 34 of this act takes effect June 30, 2019." [2013 c 291 s 47.]</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Expiration date<TextRun fontFamily="Times New Roman">—</TextRun>2013 c 291 s 33:</TextRun> "Section 33 of this act expires June 30, 2019." [2013 c 291 s 46.]</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Expiration dates<TextRun fontFamily="Times New Roman">—</TextRun>2010 c 210 ss 3, 5, and 7:</TextRun> "(1) Sections 3 and 5 of this act expire July 1, 2011.</NoteP><NoteP>(2) Section 7 of this act expires June 30, 2019." [2010 c 210 s 45.]</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Intent<TextRun fontFamily="Times New Roman">—</TextRun>Effective dates<TextRun fontFamily="Times New Roman">—</TextRun>Application<TextRun fontFamily="Times New Roman">—</TextRun>Pending cases and rules<TextRun fontFamily="Times New Roman">—</TextRun>2010 c 210:</TextRun> See notes following RCW 43.21B.001.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2010 c 84 s 3:</TextRun> "Section 3 of this act takes effect June 30, 2019." [2010 c 84 s 6.]</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Expiration date<TextRun fontFamily="Times New Roman">—</TextRun>2010 c 84 s 2:</TextRun> "Section 2 of this act expires June 30, 2019." [2010 c 84 s 5.]</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Application<TextRun fontFamily="Times New Roman">—</TextRun>2009 c 332:</TextRun> See note following RCW 90.03.110.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Expiration date<TextRun fontFamily="Times New Roman">—</TextRun>2019 c 78; 2009 c 183:</TextRun> See note following RCW 90.03.380.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Intent<TextRun fontFamily="Times New Roman">—</TextRun>2001 c 220:</TextRun> "The legislature intends to assure that appeals of department of ecology decisions regarding changes or transfers of water rights that are the subject of an ongoing general adjudication of water rights are governed by an appeals process that is efficient and eliminates unnecessary duplication, while fully preserving the rights of all affected parties. The legislature intends to address only the judicial review process for certain decisions of the pollution control hearings board when a general adjudication is being actively litigated. The legislature intends to fully preserve the role of the pollution control hearings board, except as specifically provided in this act." [2001 c 220 s 1.]</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Construction<TextRun fontFamily="Times New Roman">—</TextRun>2001 c 220:</TextRun> "Nothing in this act shall be construed to affect or modify any treaty or other federal rights of an Indian tribe, or the rights of any federal agency or other person or entity arising under federal law. Nothing in this act is intended or shall be construed as affecting or modifying any existing right of a federally recognized Indian tribe to protect from impairment its federally reserved water rights in federal court." [2001 c 220 s 6.]</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2001 c 220:</TextRun> "This act is necessary for the immediate preservation of the public peace, health, or safety, or support of the state government and its existing public institutions, and takes effect immediately [May 9, 2001]." [2001 c 220 s 7.]</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>1998 c 262:</TextRun> See RCW 90.64.900.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Intent<TextRun fontFamily="Times New Roman">—</TextRun>1998 c 36:</TextRun> See RCW 15.54.265.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Short title<TextRun fontFamily="Times New Roman">—</TextRun>1998 c 36:</TextRun> See note following RCW 15.54.265.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>1993 c 387:</TextRun> See RCW 18.104.930.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective dates<TextRun fontFamily="Times New Roman">—</TextRun>1992 c 73:</TextRun> See RCW 82.23B.902.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>1989 c 175:</TextRun> See note following RCW 34.05.010.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Purpose<TextRun fontFamily="Times New Roman">—</TextRun>Short title<TextRun fontFamily="Times New Roman">—</TextRun>Construction<TextRun fontFamily="Times New Roman">—</TextRun>Rules<TextRun fontFamily="Times New Roman">—</TextRun>Severability<TextRun fontFamily="Times New Roman">—</TextRun>Captions<TextRun fontFamily="Times New Roman">—</TextRun>1987 c 109:</TextRun> See notes following RCW 43.21B.001.</NoteP></AnnNote>
+<CrossRefNote><NoteP>Order for compliance with oil spill contingency or prevention plan not subject to review by pollution control hearings board: RCW 90.56.270.</NoteP></CrossRefNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="amendatory" action="remd">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>16</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>21B</ChapterNumber><TextRun>.</TextRun><SectionNumber>300</SectionNumber></SectionCite> and 2024 c 347 s 6 and 2024 c 340 s 5 are each reenacted and amended to read as follows:<Caption>Penalty procedures <TextRun fontStyle="italic">(as amended by 2024 c 347)</TextRun>.</Caption></BillSectionHeader>
+<P>(1) Any civil penalty provided in RCW 18.104.155, 70A.15.3160, 70A.205.280, 70A.230.080, 70A.300.090, 70A.20.050, 70A.245.040, 70A.245.050, 70A.245.070, 70A.245.080, 70A.245.130, 70A.245.140, 70A.65.200, 70A.430.070, 70A.455.090, 70A.500.260, 70A.505.110, 70A.555.110, 70A.560.020, 70A.565.030, <TextRun amendingStyle="add">section 13 of this act,</TextRun> 86.16.081, 88.46.090, 90.03.600, 90.46.270, 90.48.144, 90.56.310, 90.56.330, and 90.64.102 and chapter 70A.355 RCW shall be imposed by a notice in writing, either by certified mail with return receipt requested or by personal service, to the person incurring the penalty from the department or the local air authority, describing the violation with reasonable particularity. For penalties issued by local air authorities, within 30 days after the notice is received, the person incurring the penalty may apply in writing to the authority for the remission or mitigation of the penalty. Upon receipt of the application, the authority may remit or mitigate the penalty upon whatever terms the authority in its discretion deems proper. The authority may ascertain the facts regarding all such applications in such reasonable manner and under such rules as it may deem proper and shall remit or mitigate the penalty only upon a demonstration of extraordinary circumstances such as the presence of information or factors not considered in setting the original penalty.</P>
+<P>(2) Any penalty imposed under this section may be appealed to the pollution control hearings board in accordance with this chapter if the appeal is filed with the hearings board and served on the department or authority 30 days after the date of receipt by the person penalized of the notice imposing the penalty or 30 days after the date of receipt of the notice of disposition by a local air authority of the application for relief from penalty.</P>
+<P>(3) A penalty shall become due and payable on the later of:</P>
+<P>(a) 30 days after receipt of the notice imposing the penalty;</P>
+<P>(b) 30 days after receipt of the notice of disposition by a local air authority on application for relief from penalty, if such an application is made; or</P>
+<P>(c) 30 days after receipt of the notice of decision of the hearings board if the penalty is appealed.</P>
+<P>(4) If the amount of any penalty is not paid to the department within 30 days after it becomes due and payable, the attorney general, upon request of the department, shall bring an action in the name of the state of Washington in the superior court of Thurston county, or of any county in which the violator does business, to recover the penalty. If the amount of the penalty is not paid to the authority within 30 days after it becomes due and payable, the authority may bring an action to recover the penalty in the superior court of the county of the authority's main office or of any county in which the violator does business. In these actions, the procedures and rules of evidence shall be the same as in an ordinary civil action.</P>
+<P>(5) All penalties recovered shall be paid into the state treasury and credited to the general fund except <TextRun amendingStyle="add" />the following:</P>
+<P>(a) Penalties imposed pursuant to RCW 18.104.155 must be credited to the reclamation account as provided in RCW 18.104.155(7);</P>
+<P>(b) Penalties imposed pursuant to RCW 70A.15.3160 must be disposed of pursuant to RCW 70A.15.3160;</P>
+<P>(c) Penalties imposed pursuant to RCW 70A.230.080, 70A.300.090, 70A.430.070, 70A.555.110, <TextRun amendingStyle="strike">and</TextRun> 70A.560.020<TextRun amendingStyle="add">, and section 13 of this act</TextRun> must be credited to the model toxics control operating account created in RCW 70A.305.180;</P>
+<P>(d) Penalties imposed pursuant to RCW 70A.245.040 and 70A.245.050 must be credited to the recycling enhancement account created in RCW 70A.245.100;</P>
+<P>(e) Penalties imposed pursuant to RCW 70A.500.260 must be deposited into the electronic products recycling account created in RCW 70A.500.130;</P>
+<P>(f) Penalties imposed pursuant to RCW 70A.65.200 must be credited to the climate investment account created in RCW 70A.65.250;</P>
+<P>(g) Penalties imposed pursuant to RCW 90.56.330 must be credited to the coastal protection fund established in RCW 90.48.390; and</P>
+<P>(h) Penalties imposed pursuant to RCW 70A.355.070 must be credited to the underground storage tank account created in RCW 70A.355.090.</P>
+<History>2024 c 347 s 6. Prior: 2023 c 455 s 6; 2023 c 434 s 21; 2023 c 135 s 7; 2022 c 180 s 813; prior: 2021 c 316 s 42; 2021 c 313 s 17; 2020 c 20 s 1038; 2019 c 64 s 19; prior: 2010 c 210 s 12; 2010 c 84 s 4; prior: 2009 c 456 s 17; 2009 c 178 s 2; 2007 c 147 s 9; 2004 c 204 s 4; 2001 c 36 s 2; 1993 c 387 s 23; 1992 c 73 s 2; 1987 c 109 s 5.</History>
+<RCWNoteSection>
+<RevNote><NoteP><TextRun fontWeight="bold" readOnly="yes">Reviser's note:</TextRun><TextRun> </TextRun>*(1) RCW 70A.505.110 was repealed by 2024 c 339 s 22, effective January 1, 2035.</NoteP><NoteP><TextRun>(2) RCW 43.21B.300 was amended twice during the 2024 legislative session, each without reference to the other. For rule of construction concerning sections amended more than once during the same legislative session, see RCW 1.12.025.</TextRun></NoteP></RevNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Finding<TextRun fontFamily="Times New Roman">—</TextRun>Intent<TextRun fontFamily="Times New Roman">—</TextRun>2023 c 135:</TextRun> See note following RCW 19.27.590.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Findings<TextRun fontFamily="Times New Roman">—</TextRun>Intent<TextRun fontFamily="Times New Roman">—</TextRun>Scope of authority of chapter 180, Laws of 2022<TextRun fontFamily="Times New Roman">—</TextRun>2022 c 180:</TextRun> See notes following RCW 70A.205.007.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Short title<TextRun fontFamily="Times New Roman">—</TextRun>2021 c 316:</TextRun> See RCW 70A.65.900.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Finding<TextRun fontFamily="Times New Roman">—</TextRun>Intent<TextRun fontFamily="Times New Roman">—</TextRun>2021 c 313:</TextRun> See note following RCW 70A.245.010.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Explanatory statement<TextRun fontFamily="Times New Roman">—</TextRun>2019 c 64:</TextRun> See note following RCW 1.20.110.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Intent<TextRun fontFamily="Times New Roman">—</TextRun>Effective dates<TextRun fontFamily="Times New Roman">—</TextRun>Application<TextRun fontFamily="Times New Roman">—</TextRun>Pending cases and rules<TextRun fontFamily="Times New Roman">—</TextRun>2010 c 210:</TextRun> See notes following RCW 43.21B.001.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>1993 c 387:</TextRun> See RCW 18.104.930.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective dates<TextRun fontFamily="Times New Roman">—</TextRun>1992 c 73:</TextRun> See RCW 82.23B.902.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Purpose<TextRun fontFamily="Times New Roman">—</TextRun>Short title<TextRun fontFamily="Times New Roman">—</TextRun>Construction<TextRun fontFamily="Times New Roman">—</TextRun>Rules<TextRun fontFamily="Times New Roman">—</TextRun>Severability<TextRun fontFamily="Times New Roman">—</TextRun>Captions<TextRun fontFamily="Times New Roman">—</TextRun>1987 c 109:</TextRun> See notes following RCW 43.21B.001.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>17</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>70A</TitleNumber><TextRun>.</TextRun><ChapterNumber>205</ChapterNumber><TextRun>.</TextRun><SectionNumber>505</SectionNumber></SectionCite> and 2020 c 20 s 1197 are each amended to read as follows:<Caption>Battery disposal<TextRun fontFamily="Times New Roman">—</TextRun>Restrictions<TextRun fontFamily="Times New Roman">—</TextRun>Violators subject to fine<TextRun fontFamily="Times New Roman">—</TextRun>"Vehicle battery" defined.</Caption></BillSectionHeader>
+<P>(1) No person may knowingly dispose of a vehicle battery except by delivery to: A person or entity selling lead acid batteries, a person or entity authorized by the department to accept the battery, or to a secondary lead smelter.</P>
+<P>(2) No owner or operator of a solid waste disposal site shall knowingly accept for disposal used vehicle batteries except when authorized to do so by the department or by the federal government.</P>
+<P>(3) Any person who violates this section shall be subject to a fine of up to <TextRun amendingStyle="strike">one thousand dollars</TextRun> <TextRun amendingStyle="add">$1,000</TextRun>. Each battery will constitute a separate violation. Nothing in this section and RCW 70A.205.510 through 70A.205.530 shall supersede the provisions under chapter 70A.300 RCW.</P>
+<P>(4) <TextRun amendingStyle="strike">For purposes of this section and RCW 70A.205.510 through 70A.205.530, "vehicle</TextRun> <TextRun amendingStyle="add">The definitions in this subsection apply throughout this section and RCW 70A.205.510 through 70A.205.530 unless the context clearly requires otherwise.</TextRun></P>
+<P><TextRun amendingStyle="add">(a) "Vehicle</TextRun> battery" means batteries capable for use in any vehicle, having a core consisting of elemental lead, and a capacity of six or more volts<TextRun amendingStyle="add">; and</TextRun></P>
+<P><TextRun amendingStyle="add">(b) "Vehicle battery" does not include a "propulsion battery" as defined in section 2 of this act</TextRun>.</P>
+<History>2020 c 20 § 1197; 1989 c 431 § 37. Formerly RCW 70.95.610.</History>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>18</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>70A</TitleNumber><TextRun>.</TextRun><ChapterNumber>555</ChapterNumber><TextRun>.</TextRun><SectionNumber>010</SectionNumber></SectionCite> and 2023 c 434 s 2 are each amended to read as follows:<Caption>Definitions.</Caption></BillSectionHeader>
+<P>The definitions in this section apply throughout this chapter unless the context clearly requires otherwise.</P>
+<P>(1)(a) "Battery-containing product" means a product that contains or is packaged with rechargeable or primary batteries that are covered batteries.</P>
+<P>(b) A "battery-containing product" does not include a covered electronic product under an approved plan implemented under chapter 70A.500 RCW.</P>
+<P>(2) "Battery management hierarchy" means a management system of covered batteries prioritized in descending order as follows:</P>
+<P>(a) Waste prevention and reduction;</P>
+<P>(b) Reuse, when reuse is appropriate;</P>
+<P>(c) Recycling, as defined in this chapter; and</P>
+<P>(d) Other means of end-of-life management, which may only be utilized after demonstrating to the department that it is not feasible to manage the batteries under the higher priority options in (a) through (c) of this subsection.</P>
+<P>(3) "Battery stewardship organization" means a producer that directly implements a battery stewardship plan required under this chapter or a nonprofit organization designated by a producer or group of producers to implement a battery stewardship plan required under this chapter.</P>
+<P>(4) "Collection rate" means a percentage, by weight, that a battery stewardship organization collects that is calculated by dividing the total weight of primary and rechargeable batteries collected during the previous calendar year by the average annual weight of primary and rechargeable batteries that were estimated to have been sold in the state by all producers participating in an approved battery stewardship plan during the previous three calendar years.</P>
+<P>(5)(a) "Covered battery" means a portable battery or, beginning January 1, 2029, a medium format battery.</P>
+<P>(b) "Covered battery" does not include:</P>
+<P>(i) A battery contained within a medical device, as specified in Title 21 U.S.C. Sec. 321(h) as it existed as of July 23, 2023, that is not designed and marketed for sale or resale principally to consumers for personal use;</P>
+<P>(ii) A battery that contains an electrolyte as a free liquid;</P>
+<P>(iii) A lead acid battery weighing greater than 11 pounds;</P>
+<P>(iv) A battery subject to the provisions of RCW 70A.205.505 through 70A.205.530; <TextRun amendingStyle="strike">and</TextRun></P>
+<P>(v) A battery in a battery-containing product that is not intended or designed to be easily removable from the battery-containing product<TextRun amendingStyle="add">; and</TextRun></P>
+<P><TextRun amendingStyle="add">(vi) A "propulsion battery" as defined in section 2 of this act</TextRun>.</P>
+<P>(6) "Department" means the department of ecology.</P>
+<P>(7) "Easily removable" means designed by the manufacturer to be removable by the user of the product with no more than commonly used household tools.</P>
+<P>(8) "Environmentally sound management practices" means practices that: (a) Comply with all applicable laws and rules to protect workers, public health, and the environment; (b) provide for adequate recordkeeping, tracking, and documenting of the fate of materials within the state and beyond; and (c) include comprehensive liability coverage for the battery stewardship organization, including environmental liability coverage that is commercially practicable.</P>
+<P>(9) "Final disposition" means the final processing of a collected battery to produce usable end products, at the point where the battery has been reduced to its constituent parts, reusable portions made available for use, and any residues handled as wastes in accordance with applicable law.</P>
+<P>(10)<TextRun amendingStyle="add">(a)</TextRun> "Large format battery" means:</P>
+<P><TextRun amendingStyle="strike">(a)</TextRun> <TextRun amendingStyle="add">(i)</TextRun> A rechargeable battery that weighs more than 25 pounds or has a rating of more than 2,000 watt-hours; or</P>
+<P><TextRun amendingStyle="strike">(b)</TextRun> <TextRun amendingStyle="add">(ii)</TextRun> A primary battery that weighs more than 25 pounds.</P>
+<P><TextRun amendingStyle="add">(b) "Large format battery" does not include a propulsion battery as defined in section 2 of this act.</TextRun></P>
+<P>(11) "Medium format battery" means the following primary or rechargeable covered batteries:</P>
+<P>(a) For rechargeable batteries, a battery weighing more than 11 pounds or has a rating of more than 300 watt-hours, or both, and no more than 25 pounds and has a rating of no more than 2,000 watt-hours;</P>
+<P>(b) For primary batteries, a battery weighing more than 4.4 pounds but not more than 25 pounds.</P>
+<P>(12) "Portable battery" means the following primary or rechargeable covered batteries:</P>
+<P>(a) For rechargeable batteries, a battery weighing no more than 11 pounds and has a rating of no more than 300 watt-hours;</P>
+<P>(b) For primary batteries, a battery weighing no more than 4.4 pounds.</P>
+<P>(13) "Primary battery" means a battery that is not capable of being recharged.</P>
+<P>(14)(a) "Producer" means the following person responsible for compliance with requirements under this chapter for a covered battery or battery-containing product sold, offered for sale, or distributed in or into this state:</P>
+<P>(i) For covered batteries:</P>
+<P>(A) If the battery is sold under the brand of the battery manufacturer, the producer is the person that manufactures the battery;</P>
+<P>(B) If the battery is sold under a retail brand or under a brand owned by a person other than the manufacturer, the producer is the brand owner;</P>
+<P>(C) If there is no person to which (a)(i)(A) or (B) of this subsection applies, the producer is the person that is the licensee of a brand or trademark under which the battery is used in a commercial enterprise, sold, offered for sale, or distributed in or into this state, whether or not the trademark is registered in this state;</P>
+<P>(D) If there is no person described in (a)(i)(A) through (C) of this subsection within the United States, the producer is the person who is the importer of record for the battery into the United States for use in a commercial enterprise that sells, offers for sale, or distributes the battery in this state;</P>
+<P>(E) If there is no person described in (a)(i)(A) through (D) of this subsection with a commercial presence within the state, the producer is the person who first sells, offers for sale, or distributes the battery in or into this state.</P>
+<P>(ii) For covered battery-containing products:</P>
+<P>(A) If the battery-containing product is sold under the brand of the product manufacturer, the producer is the person that manufactures the product;</P>
+<P>(B) If the battery-containing product is sold under a retail brand or under a brand owned by a person other than the manufacturer, the producer is the brand owner;</P>
+<P>(C) If there is no person to which (a)(ii)(A) or (B) of this subsection applies, the producer is the person that is the licensee of a brand or trademark under which the product is used in a commercial enterprise, sold, offered for sale, or distributed in or into this state, whether or not the trademark is registered in this state;</P>
+<P>(D) If there is no person described in (a)(ii)(A) through (C) of this subsection within the United States, the producer is the person who is the importer of record for the product into the United States for use in a commercial enterprise that sells, offers for sale, or distributes the product in this state;</P>
+<P>(E) If there is no person described in (a)(ii)(A) through (D) of this subsection with a commercial presence within the state, the producer is the person who first sells, offers for sale, or distributes the product in or into this state;</P>
+<P>(F) A producer does not include any person who only manufactures, sells, offers for sale, distributes, or imports into the state a battery-containing product if the only batteries used by the battery-containing product are supplied by a producer that has joined a registered battery stewardship organization as the producer for that covered battery under this chapter. Such a producer of covered batteries that are included in a battery-containing product must provide written certification of that membership to both the producer of the covered battery-containing product and the battery stewardship organization of which the battery producer is a member.</P>
+<P>(b) A person is the "producer" of a covered battery or covered battery-containing product sold, offered for sale, or distributed in or into this state, as defined in (a) of this subsection, except where another party has contractually accepted responsibility as a responsible producer and has joined a registered battery stewardship organization as the producer for that covered battery or covered battery-containing product under this chapter.</P>
+<P>(15) "Program" means a program implemented by a battery stewardship organization consistent with an approved battery stewardship plan.</P>
+<P>(16) "Rechargeable battery" means a battery that contains one or more voltaic or galvanic cells, electrically connected to produce electric energy, designed to be recharged.</P>
+<P>(17) "Recycling" means transforming or remanufacturing waste materials into usable or marketable materials for use other than:</P>
+<P>(a) Combustion;</P>
+<P>(b) Incineration;</P>
+<P>(c) Energy generation;</P>
+<P>(d) Fuel production; or</P>
+<P>(e) Beneficial reuse in the construction and operation of a solid waste landfill, including use of alternative daily cover.</P>
+<P>(18) "Recycling efficiency rate" means the ratio of the weight of covered battery components and materials recycled by a program operator from covered batteries to the weight of those covered batteries collected by the program operator.</P>
+<P>(19) "Retailer" means a person who sells covered batteries or battery-containing products in or into this state or offers or otherwise makes available covered batteries or battery-containing products to a customer, including other businesses, for use by the customer in this state.</P>
+<P>(20) "Urban area" means an area delineated by the United States census bureau, based on a minimum threshold of 2,000 housing units or 5,000 people, as of January 1, 2023.</P>
+<History>2023 c 434 § 2.</History>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>19</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act may be known and cited as the electric vehicle battery management act.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addchap">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>20</Value><TextRun>.  </TextRun></BillSectionNumber><P>Sections 1 through 14 and 19 of this act constitute a new chapter in <TitleCite><TextRun>Title </TextRun><TitleNumber>70A</TitleNumber><TextRun> RCW</TextRun></TitleCite>.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>21</Value><TextRun>.  </TextRun></BillSectionNumber><P>If any provision of this act or its application to any person or circumstance is held invalid, the remainder of the act or the application of the provision to other persons or circumstances is not affected.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-1514.1</RequestNumber><ShortBillId>SB 5890</ShortBillId><LongBillId>SENATE BILL 5890</LongBillId><Legislature>66th Legislature</Legislature><Session>2019 Regular Session</Session><Sponsors>Senator O'Ban</Sponsors><BillHistory /><BriefDescription>Providing tax exemptions for the assistance of disabled veterans and members of the armed forces of the United States of America.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to providing tax exemptions for the assistance of disabled veterans and members of the armed forces of the United States of America; adding a new section to chapter 82.04 RCW; adding a new section to chapter 82.08 RCW; and creating new sections.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) This section is the tax preference performance statement for the tax preference contained in sections 2 and 3, chapter . . ., Laws of 2019 (sections 2 and 3 of this act). This performance statement is only intended to be used for subsequent evaluation of the tax preference. It is not intended to create a private right of action by any party or to be used to determine eligibility for preferential tax treatment.</P></BillSectionHeader>
+<P>(2) The legislature categorizes this tax preference as one intended to provide tax relief for certain businesses or individuals, as indicated in RCW 82.32.808(2)(e).</P>
+<P>(3) It is the legislature's specific public policy objective to reduce the tax burden on individuals and businesses imposed by the existing business and occupation tax rates.</P>
+<P>(4) If the review finds that there is an increase of the utilization of adaptive recreational and rehabilitation facilities by disabled veterans and members of the armed forces of the United States of America as a result of the relief from this tax preference, then the legislature intends to extend the expiration date of this tax preference.</P>
+<P>(5) In order to obtain the data necessary to perform the review in subsection (4) of this section, the joint legislative audit and review committee may refer to any data collected by the state.</P>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>82</TitleNumber><TextRun>.</TextRun><ChapterNumber>04</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>This chapter does not apply to any amounts received as the result of sales made on a federal military reservation by a nonprofit organization exempt from federal income tax under Title 26 U.S.C. Sec. 501(c)(3) of the federal internal revenue code of 1986, as amended, as of the effective date of this section, and which are in furtherance of the operation of an adaptive recreational and rehabilitation facility dedicated to the assistance of disabled veterans and members of the armed forces of the United States of America.</P>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>82</TitleNumber><TextRun>.</TextRun><ChapterNumber>08</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>The tax levied by RCW 82.08.020 does not apply to sales made on a federal military reservation by a nonprofit organization exempt from federal income tax under Title 26 U.S.C. Sec. 501(c)(3) of the federal internal revenue code of 1986, as amended, as of the effective date of this section, and which are in furtherance of the operation of an adaptive recreational and rehabilitation facility dedicated to the assistance of disabled veterans and members of the armed forces of the United States of America.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber><P>The provisions of RCW 82.32.805(1)(a) do not apply to this act.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

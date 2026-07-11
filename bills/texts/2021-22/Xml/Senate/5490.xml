@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-3114.2</RequestNumber><ShortBillId>SB 5490</ShortBillId><LongBillId>SENATE BILL 5490</LongBillId><Legislature>67th Legislature</Legislature><Session>2022 Regular Session</Session><Sponsors>Senators Pedersen, Padden, Dhingra, Mullet, and Nobles</Sponsors><BillHistory><PrefiledDate>Prefiled 12/06/21.</PrefiledDate><ReadDate>Read first time 01/10/22.</ReadDate><ReferredCommittee>Referred to Committee on Law &amp; Justice.</ReferredCommittee></BillHistory><BriefDescription>Creating the interbranch advisory committee.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to creating the interbranch advisory committee; adding a new chapter to Title 2 RCW; and providing an expiration date.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>There is created an interbranch advisory committee consisting of the following members:</P></BillSectionHeader>
+<P>(1) Two legislative members, one from each of the two largest caucuses of the house of representatives, appointed by the speaker of the house of representatives. One member shall be a member of a committee having jurisdiction over general civil or criminal law matters and the other member shall be a member of a committee having jurisdiction over the state operating budget;</P>
+<P>(2) Two legislative members, one from each of the two largest caucuses of the senate, appointed by the president of the senate. One member shall be a member of a committee having jurisdiction over general civil or criminal law matters and the other member shall be a member of a committee having jurisdiction over the state operating budget;</P>
+<P>(3) One person representing the governor's office, appointed by the governor;</P>
+<P>(4) One person representing the attorney general's office, appointed by the attorney general;</P>
+<P>(5) One person representing cities, appointed by the association of Washington cities;</P>
+<P>(6) One person who is an elected county councilmember representing counties, appointed by the Washington state association of counties;</P>
+<P>(7) One person representing court clerks, appointed by the Washington state association of county clerks; and</P>
+<P>(8) Six members from the judicial branch, appointed by the chief justice in consultation with the board of judicial administration, supreme court, court of appeals, superior court judges association, district and municipal court judges association, administrative office of the courts, and access to justice board.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>The purpose of the interbranch advisory committee is to foster cooperation, communication, coordination, collaboration, and planning regarding issues of mutual concern among the three branches of state government. An additional purpose of the committee is to suggest ways to provide access to justice and to court services in a just and equitable manner.</BillSectionHeader>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber>(1) The interbranch advisory committee must select cochairs at its initial meeting. One cochair must be a legislative member and the other cochair must be a judicial member. The committee may set its own meeting schedule. The committee shall discuss issues of mutual concern between the branches. Examples include, but are not limited to:</BillSectionHeader>
+<P>(a) Funding legislative mandates;</P>
+<P>(b) Initiatives related to access to justice;</P>
+<P>(c) Issues of local concern;</P>
+<P>(d) Courthouse security; and</P>
+<P>(e) Court technology infrastructure.</P>
+<P>(2) Staff support for the committee will be jointly provided by the legislative branch and the administrative office of the courts. The office of financial management is directed to provide support as requested by the cochairs.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber><P>The interbranch advisory committee shall submit a recommendation to the legislative committees having jurisdiction over general civil or criminal law matters and having jurisdiction over the state operating budget by November 1, 2024, on whether the committee should be legislatively renewed or changed in any way.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="expdate">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>5</Value><TextRun>.  </TextRun></BillSectionNumber><P>This chapter expires January 1, 2026.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addchap" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>6</Value><TextRun>.  </TextRun></BillSectionNumber><P>Sections 1 through 5 of this act constitute a new chapter in <TitleCite><TextRun>Title </TextRun><TitleNumber>2</TitleNumber><TextRun> RCW</TextRun></TitleCite>.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

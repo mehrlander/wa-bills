@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-4743.1</RequestNumber><ShortBillId>SSB 6007</ShortBillId><LongBillId>SUBSTITUTE SENATE BILL 6007</LongBillId><Legislature>69th Legislature</Legislature><Session>2026 Regular Session</Session><Sponsors>Senate Human Services (originally sponsored by Senator Warnick)</Sponsors><BillHistory><ReadDate>READ FIRST TIME 02/04/26.</ReadDate></BillHistory><BriefDescription>Authorizing the Washington state institute for public policy to evaluate outcomes related to assessment practices at the department of children, youth, and families.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to authorizing the Washington state institute for public policy to evaluate outcomes related to assessment practices as it relates to screening-in cases at the department of children, youth, and families; adding a new section to chapter 13.34 RCW; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature finds that the statewide dependency filing rate has consistently dropped annually since 2016. Simultaneously, Washington has seen a measured rise in the number of critical incidents and near critical incidents. The legislature finds it is necessary to understand the relationship between screening tools used by the department of children, youth, and families, and the impact they have on the initiation of dependencies and out-of-home placements.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>13</TitleNumber><TextRun>.</TextRun><ChapterNumber>34</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) Within amounts appropriated for this specific purpose, the Washington state institute for public policy shall, to the extent possible:</P>
+<P>(a) Perform an assessment of the department of children, youth, and families' use of screening tools for child welfare referrals, to determine whether and how those tools and processes affect outcomes;</P>
+<P>(b) Address, at a minimum, how screening leads to family assessment response, voluntary and mandatory services, dependencies, out-of-home placements, rereferrals, and child fatalities or near fatalities.</P>
+<P>(2) The institute shall report any preliminary findings to the legislature and the department of children, youth, and families by December 1, 2026.</P>
+<P>(3) The institute shall report its findings to the legislature and the department of children, youth, and families by September 1, 2027.</P>
+<P>(4) The department of children, youth, and families and the Washington state family and children's ombuds must cooperate with the institute to facilitate access to data or other resources necessary to complete this work.</P>
+</BillSection>
+</BillBody>
+</Bill>

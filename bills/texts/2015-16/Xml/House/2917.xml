@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-3846.1</RequestNumber><ShortBillId>HB 2917</ShortBillId><LongBillId>HOUSE BILL 2917</LongBillId><Legislature>64th Legislature</Legislature><Session>2016 Regular Session</Session><Sponsors>Representatives Gregerson, Sells, Reykdal, Hudgins, Walkinshaw, Kilduff, Ormsby, Orwall, Robinson, Ortiz-Self, Ryu, and Pollet</Sponsors><BillHistory><ReadDate>Read first time 01/27/16.</ReadDate><ReferredCommittee>Referred to Committee on Labor &amp; Workplace Standards.</ReferredCommittee></BillHistory><BriefDescription>Studying the causes of workplace injuries suffered by commercial janitors.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to studying the causes of workplace injuries suffered by commercial janitors; adding a new section to chapter 49.17 RCW; creating a new section; and providing an expiration date.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>Data from the department of labor and industries indicate that commercial janitors historically have had a higher rate of approved injury claims compared to other sectors. Data also show that women comprise only about one-third of the janitorial workforce, yet female janitors have about twice the rate of compensable injuries than male janitors. Sufficient information does not exist to determine the causes of the injuries and what prevention methods are available to reduce the number of injuries suffered by janitors. Therefore, for the health and safety of janitors and other employees doing comparable work in the hospitality, retail, and other similar industries, the legislature finds that it is worthwhile for the department of labor and industries to study the major risk factors of injury for commercial janitors.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>49</TitleNumber><TextRun>.</TextRun><ChapterNumber>17</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) The department must conduct a study on commercial janitorial safety that measures the workers' safety and health risks associated with their work tasks, taking into consideration their work environment, workload, and the tools and equipment they use.</P>
+<P>(2) To the greatest extent possible, the department must conduct the study using methods that will allow the data to be extrapolated to other comparable industries, such as hospitality and retail, with the goal of creating safety and injury prevention practices that benefit workers in other industries.</P>
+<P>(3) The department must complete the study by December 31, 2020. Beginning December 31, 2016, and until the completion of the study, the department must provide annual reports of its progress and findings to the labor committees of the house of representatives and the senate.</P>
+</BillSection>
+<BillSection type="new" action="expdate" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act expires December 31, 2021.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

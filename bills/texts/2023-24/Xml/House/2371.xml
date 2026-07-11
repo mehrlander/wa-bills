@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-2084.1</RequestNumber><ShortBillId>HB 2371</ShortBillId><LongBillId>HOUSE BILL 2371</LongBillId><Legislature>68th Legislature</Legislature><Session>2024 Regular Session</Session><Sponsors>Representatives Cheney and Walen</Sponsors><BillHistory><ReadDate>Read first time 01/15/24.</ReadDate><ReferredCommittee>Referred to Committee on State Government &amp; Tribal Relations.</ReferredCommittee></BillHistory><BriefDescription>Clarifying the rules surrounding the removal of political advertising.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to clarifying the rules surrounding the removal of political advertising; amending RCW 29A.84.040; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature finds that current law allows the removal of signs that are not lawfully placed. The legislature believes that a sign is not placed "lawfully" if it remains in place after any deadline for removal provided by law. The legislature intends to add language clarifying this common sense proposition in order to remove any possible confusion about the interpretation of current law.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>29A</TitleNumber><TextRun>.</TextRun><ChapterNumber>84</ChapterNumber><TextRun>.</TextRun><SectionNumber>040</SectionNumber></SectionCite> and 2003 c 111 s 2104 are each amended to read as follows:<Caption>Political advertising, removing or defacing.</Caption></BillSectionHeader>
+<P>A person who removes or defaces lawfully placed political advertising including yard signs or billboards without authorization is guilty of a misdemeanor punishable to the same extent as a misdemeanor that is punishable under RCW 9A.20.021. <TextRun amendingStyle="add">For purposes of this section, political advertising is not "lawfully placed" if it remains in place past any deadline for removal provided by law.</TextRun> The defacement or removal of each item constitutes a separate violation.</P>
+<History>2003 c 111 § 2104. Prior: 1991 c 81 § 19; 1984 c 216 § 5. Formerly RCW 29.85.275.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>1991 c 81:</TextRun> See note following RCW 29A.84.540.</NoteP></AnnNote>
+<CrossRefNote><NoteP>Political advertising</NoteP><NoteP margin="1,0">generally: RCW 42.17A.320 through 42.17A.340.</NoteP><NoteP margin="1,0">rates for candidates: RCW 65.16.095.</NoteP></CrossRefNote>
+</RCWNoteSection>
+</BillSection>
+</BillBody>
+</Bill>

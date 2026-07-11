@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-4230.1</RequestNumber><ShortBillId>SB 6607</ShortBillId><LongBillId>SENATE BILL 6607</LongBillId><Legislature>64th Legislature</Legislature><Session>2016 Regular Session</Session><Sponsors>Senators Baumgartner and Schoesler</Sponsors><BillHistory><ReadDate>Read first time 01/29/16.</ReadDate><ReferredCommittee>Referred to Committee on Transportation.</ReferredCommittee></BillHistory><BriefDescription>Removing state route number 276 from the state highway system.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to state route number 276; and repealing RCW 47.17.502.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="repeal">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P><SectionCite><TextRun>RCW </TextRun><TitleNumber>47</TitleNumber><TextRun>.</TextRun><ChapterNumber>17</ChapterNumber><TextRun>.</TextRun><SectionNumber>502</SectionNumber></SectionCite> (State route No. 276) and 1973 1st ex.s. c 151 s 7 are each repealed.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

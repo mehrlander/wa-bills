@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-4925.1</RequestNumber><ShortBillId>2SSB 5968</ShortBillId><LongBillId>SECOND SUBSTITUTE SENATE BILL 5968</LongBillId><Legislature>69th Legislature</Legislature><Session>2026 Regular Session</Session><Sponsors>Senate Ways &amp; Means (originally sponsored by Senators Krishnadasan, Liias, and Shewmake; by request of Governor Ferguson)</Sponsors><BillHistory><ReadDate>READ FIRST TIME 02/09/26.</ReadDate></BillHistory><BriefDescription>Improving regulatory efficiency by integrating executive order 25-03, concerning permitting and licensing processes, into chapter 43.42A RCW.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to improving regulatory efficiency by integrating executive order 25-03, concerning permitting and licensing processes, into chapter 43.42A RCW; amending RCW 43.42A.005, 43.42A.010, 43.42A.020, 43.42A.030, and 43.42A.040; and adding new sections to chapter 43.42A RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>42A</ChapterNumber><TextRun>.</TextRun><SectionNumber>005</SectionNumber></SectionCite> and 2014 c 68 s 1 are each amended to read as follows:<Caption>Intent<TextRun fontFamily="Times New Roman">—</TextRun>Finding.</Caption></BillSectionHeader>
+<P><TextRun amendingStyle="strike">On December 30, 2013, the Washington state auditor's office issued a performance audit report, finding that state agencies could shorten the time it takes to submit, review, and make decisions on business permit applications through simple improvements. In response to the performance audit findings, the legislature intends to improve the predictability and efficiency of permit decisions by making information about permitting assistance and timelines more readily available to the public.</TextRun> The legislature finds that providing <TextRun amendingStyle="strike">citizens and businesses</TextRun> <TextRun amendingStyle="add">those applying for credentials</TextRun> with better information about <TextRun amendingStyle="strike">permit</TextRun> <TextRun amendingStyle="add">credential</TextRun> decisions will assist their planning and decision making<TextRun amendingStyle="strike">, promoting</TextRun> <TextRun amendingStyle="add">and promote</TextRun> economic development. Making <TextRun amendingStyle="strike">permit</TextRun> <TextRun amendingStyle="add">credential</TextRun> performance data readily accessible to <TextRun amendingStyle="strike">citizens</TextRun> <TextRun amendingStyle="add">applicants</TextRun> helps them hold government accountable to a high level of customer service and timeliness. Finally, requiring agencies to track the time it takes to issue <TextRun amendingStyle="strike">permits</TextRun> <TextRun amendingStyle="add">credentials</TextRun> equips agency leaders with key information that can assist them in improving overall project schedules, better allocating resources, and identifying additional opportunities to better serve the public.</P>
+<History>2014 c 68 s 1.</History>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>42A</ChapterNumber><TextRun>.</TextRun><SectionNumber>010</SectionNumber></SectionCite> and 2014 c 68 s 2 are each amended to read as follows:<Caption>Definitions.</Caption></BillSectionHeader>
+<P>The definitions in this section apply throughout this chapter unless the context clearly requires otherwise.</P>
+<P>(1) "Agency" means the following executive branch agencies and offices of statewide elected officials:</P>
+<P>(a) Department of agriculture;</P>
+<P>(b) Department of archaeology and historic preservation;</P>
+<P>(c) Department of ecology;</P>
+<P>(d) Department of fish and wildlife;</P>
+<P>(e) Gambling commission;</P>
+<P>(f) Department of health;</P>
+<P>(g) Department of labor and industries;</P>
+<P>(h) Department of licensing;</P>
+<P>(i) Liquor <TextRun amendingStyle="strike">control</TextRun> <TextRun amendingStyle="add">and cannabis</TextRun> board;</P>
+<P>(j) Department of natural resources;</P>
+<P>(k) Parks and recreation commission;</P>
+<P>(l) Department of revenue;</P>
+<P>(m) Department of transportation; <TextRun amendingStyle="strike">and</TextRun></P>
+<P>(n) Utilities and transportation commission<TextRun amendingStyle="add">;</TextRun></P>
+<P><TextRun amendingStyle="add">(o) Department of children, youth, and families;</TextRun></P>
+<P><TextRun amendingStyle="add">(p) Department of enterprise services;</TextRun></P>
+<P><TextRun amendingStyle="add">(q) Department of financial institutions;</TextRun></P>
+<P><TextRun amendingStyle="add">(r) Department of social and health services;</TextRun></P>
+<P><TextRun amendingStyle="add">(s) Employment security department;</TextRun></P>
+<P><TextRun amendingStyle="add">(t) Energy facility site evaluation council;</TextRun></P>
+<P><TextRun amendingStyle="add">(u) Washington medical commission;</TextRun></P>
+<P><TextRun amendingStyle="add">(v) Washington state board of nursing;</TextRun></P>
+<P><TextRun amendingStyle="add">(w) Washington state health care authority;</TextRun></P>
+<P><TextRun amendingStyle="add">(x) Washington state office of financial management;</TextRun></P>
+<P><TextRun amendingStyle="add">(y) Washington state patrol;</TextRun></P>
+<P><TextRun amendingStyle="add">(z) Washington state pollution liability insurance agency;</TextRun></P>
+<P><TextRun amendingStyle="add">(aa) Washington student achievement council;</TextRun></P>
+<P><TextRun amendingStyle="add">(bb) State lottery commission;</TextRun></P>
+<P><TextRun amendingStyle="add">(cc) Workforce training and education coordinating board;</TextRun></P>
+<P><TextRun amendingStyle="add">(dd) Chiropractic quality assurance commission; and</TextRun></P>
+<P><TextRun amendingStyle="add">(ee) Any other cabinet agency designated by the governor as issuing credentials</TextRun>.</P>
+<P>(2) <TextRun amendingStyle="add">"Backlog applications" means completed applications for credentials that, as of the last day of the reporting period, have not received a final decision within the published decision time established by the issuing agency under RCW 43.42A.030(2)(k).</TextRun></P>
+<P><TextRun amendingStyle="add">(3) "Cabinet agency" means an executive branch agency whose chief executive officer is appointed by, serves at the pleasure of, and reports directly to the governor, but is not governed by an independent board or commission.</TextRun></P>
+<P><TextRun amendingStyle="add">(4) "Completed application" means an application for a credential in which the applicant has provided all information and materials required by the agency and the agency has determined the application is ready for substantive review and final decision.</TextRun></P>
+<P><TextRun amendingStyle="add">(5) "Credential" means a state-issued permit, license, certification, or other regulatory approval required for an individual, business, or organization to engage in a regulated or commercial activity. Credentials include regulatory approvals tied to business, occupational, professional, or environmental activities. "Credential" does not include approvals:</TextRun></P>
+<P><TextRun amendingStyle="add">(a) Related to eligibility for public assistance or benefits;</TextRun></P>
+<P><TextRun amendingStyle="add">(b) Related to participation or billing in medicaid or other state or federal health programs;</TextRun></P>
+<P><TextRun amendingStyle="add">(c) Issued primarily for recreational or personal use, including noncommercial driver, vehicle, or vessel transactions;</TextRun></P>
+<P><TextRun amendingStyle="add">(d) Related to vital records;</TextRun></P>
+<P><TextRun amendingStyle="add">(e) Related to grants, loans, or financial awards;</TextRun></P>
+<P><TextRun amendingStyle="add">(f) Required for multidecade environmental or land-use obligations beyond initial application approval;</TextRun></P>
+<P><TextRun amendingStyle="add">(g) Required solely for securities filings;</TextRun></P>
+<P><TextRun amendingStyle="add">(h) Issued by or to tribal governments;</TextRun></P>
+<P><TextRun amendingStyle="add">(i) Issued by the Washington student achievement council under chapter 28B.85 RCW for degree-granting institutions to operate in the state;</TextRun></P>
+<P><TextRun amendingStyle="add">(j) Issued by the department of natural resources acting in its proprietary land management capacity, including but not limited to sales, leases, easements, rights-of-way, land use licenses, rights of entry, or other contracts or proprietary decisions related to the use of public lands or real property interests; or</TextRun></P>
+<P><TextRun amendingStyle="add">(k) That the agency and the office jointly determine should be excluded from the definition of a credential. Upon approval by the office, an excluded credential is not subject to any requirement of this chapter unless otherwise expressly provided.</TextRun></P>
+<P><TextRun amendingStyle="add">(6) "Final decision" means the agency's determination that concludes the agency's review of the application and includes any decision, which may include but is not limited to approval, provisional approval, denial, withdrawal, or otherwise closing an application for a credential.</TextRun></P>
+<P><TextRun amendingStyle="add">(7)</TextRun> "Office" means the office <TextRun amendingStyle="strike">of</TextRun> <TextRun amendingStyle="add">for</TextRun> regulatory <TextRun amendingStyle="add">innovation and</TextRun> assistance.</P>
+<P><TextRun amendingStyle="add">(8) "Pending applications" means the number of completed applications for credentials for which, as of the last day of the reporting period, a final decision has not been made.</TextRun></P>
+<History>2014 c 68 s 2.</History>
+<RCWNoteSection>
+<RevNote><NoteP><TextRun fontWeight="bold">*Reviser's note: </TextRun>The "state liquor control board" was renamed the "state liquor and cannabis board" by 2015 c 70 s 3.</NoteP></RevNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>42A</ChapterNumber><TextRun>.</TextRun><SectionNumber>020</SectionNumber></SectionCite> and 2014 c 68 s 3 are each amended to read as follows:<Caption>Inventory of business permits<TextRun fontFamily="Times New Roman">—</TextRun>Information to be tracked and recorded<TextRun fontFamily="Times New Roman">—</TextRun>Performance data<TextRun fontFamily="Times New Roman">—</TextRun>Reports.</Caption></BillSectionHeader>
+<P>(1) <TextRun amendingStyle="strikemarkleft">By June 30, 2014, each agency shall prepare and submit to the office an inventory of all the business permits indicated in the December 30, 2013, performance audit report by the state auditor.</TextRun></P>
+<P><TextRun amendingStyle="strikemarkright">(2)</TextRun>(a) Each agency shall track and record the time it takes to make <TextRun amendingStyle="strike">permitting</TextRun> <TextRun amendingStyle="add">credential</TextRun> decisions.</P>
+<P>(b) Agencies are encouraged to track all relevant information that can assist <TextRun amendingStyle="strike">Washington businesses</TextRun> <TextRun amendingStyle="add">credential applicants</TextRun> in determining how long a <TextRun amendingStyle="strike">permit</TextRun> <TextRun amendingStyle="add">credential</TextRun> process will take so that the <TextRun amendingStyle="strike">businesses</TextRun> <TextRun amendingStyle="add">applicant</TextRun> may successfully plan their activities and make sound investment choices, reduce <TextRun amendingStyle="strike">permitting</TextRun> costs to the taxpayers in the form of unnecessary or duplicate staff work, and avoid <TextRun amendingStyle="strike">permitting</TextRun> decision delays that can result in higher costs and lost revenue.</P>
+<P>(c) <TextRun amendingStyle="strike">At a minimum, each</TextRun> <TextRun amendingStyle="add">Each</TextRun> agency <TextRun amendingStyle="add">with sufficient existing resources</TextRun> shall track and record the following information for each <TextRun amendingStyle="strike">permit</TextRun> <TextRun amendingStyle="add">credential</TextRun> application it receives or decision it issues<TextRun amendingStyle="strikemarkleft">:</TextRun></P>
+<P><TextRun amendingStyle="strikemarknone">(i) The application completion time, which is the time elapsed from the initial submission of an application by an entity seeking a permit to the time at which the agency has determined that the application is complete; and</TextRun></P>
+<P><TextRun amendingStyle="strikemarkright">(ii) The permit decision time, which is the time elapsed from receipt of a complete application to the agency's issuance of a decision approving or denying the permit</TextRun> <TextRun amendingStyle="add">and, on or before March 1st of each year, shall submit to the office the data required under this section and section 6(1) of this act for the prior calendar year. Reports must include, at a minimum, the following information:</TextRun></P>
+<P><TextRun amendingStyle="add">(i) Application counts:</TextRun></P>
+<P><TextRun amendingStyle="add">(A) The number of applications received during the reporting period;</TextRun></P>
+<P><TextRun amendingStyle="add">(B) The number of pending applications on the last day of the reporting period; and</TextRun></P>
+<P><TextRun amendingStyle="add">(C) The number of backlog applications on the last day of the reporting period;</TextRun></P>
+<P><TextRun amendingStyle="add">(ii) Processing times:</TextRun></P>
+<P><TextRun amendingStyle="add">(A)(I) Application completion time: The number of calendar days from initial receipt of an application to the date the agency determines the application is complete; and</TextRun></P>
+<P><TextRun amendingStyle="add">(II) Credential decision time: The number of calendar days from the date an application is determined to be complete to issuance of a final decision.</TextRun></P>
+<P><TextRun amendingStyle="add">(B) For each processing time metric, agencies shall report the average and median processing time for all applications completed or decided during the reporting year, regardless of receipt date; and</TextRun></P>
+<P><TextRun amendingStyle="add">(iii)</TextRun><TextRun amendingStyle="add"> Other identifying or statistical data required by the office after consultation with reporting agencies.</TextRun></P>
+<P><TextRun amendingStyle="add">(d) Each agency shall ensure that the information reported under (c) of this subsection is consistent with the credential catalog maintained under RCW 43.42A.030, including:</TextRun></P>
+<P><TextRun amendingStyle="add">(i) The name and type of each credential entry;</TextRun></P>
+<P><TextRun amendingStyle="add">(ii) The statutory or regulatory authority for the credential and any associated fees;</TextRun></P>
+<P><TextRun amendingStyle="add">(iii) Application and credential fee amounts; and</TextRun></P>
+<P><TextRun amendingStyle="add">(iv) A description of the published decision time for each credential, as described in RCW 43.42A.030(2)(k)</TextRun>.</P>
+<P><TextRun amendingStyle="strikemarkleft">(3) Each agency shall calculate, for each permit it has identified in its inventory, the following performance data:</TextRun></P>
+<P><TextRun amendingStyle="strikemarknone">(a) The average application completion and permit decision times for each permit, as measured by the times tracked for ninety percent of applications or permit decisions, excluding the five percent that took the shortest and the five percent that took the longest;</TextRun></P>
+<P><TextRun amendingStyle="strikemarknone">(b) The maximum application completion time, excluding applications that were withdrawn or never completed; and</TextRun></P>
+<P><TextRun amendingStyle="strikemarknone">(c) The maximum permit decision time.</TextRun></P>
+<P><TextRun amendingStyle="strikemarknone">(4) Each agency shall report to the office, as provided in this subsection (4).</TextRun></P>
+<P><TextRun amendingStyle="strikemarknone">(a) By March 1, 2016, each agency shall report the times calculated under subsection (3) of this section for the period from January 1, 2015, to January 1, 2016.</TextRun></P>
+<P><TextRun amendingStyle="strikemarknone">(b) By March 1, 2018, and March 1, 2020, each agency shall report based on the times tracked and calculated since the previous reporting period.</TextRun></P>
+<P><TextRun amendingStyle="strikemarknone">(c) In each of the reports required under this section, each agency shall submit an updated inventory of permits. Each agency shall identify any permits listed in its inventory for which the agency has not yet posted permit processing times and other information as required under RCW 43.42A.030 and an estimated date for such posting prior to June 30, 2015.</TextRun></P>
+<P><TextRun amendingStyle="strikemarkright">(5)</TextRun> <TextRun amendingStyle="add">(2) The reporting required in this section applies to:</TextRun></P>
+<P><TextRun amendingStyle="add">(a) Applications received on or after January 1, 2025;</TextRun></P>
+<P><TextRun amendingStyle="add">(b) Applications the agency determines are complete on or after January 1, 2025; or</TextRun></P>
+<P><TextRun amendingStyle="add">(c) Applications where the agency makes a final decision on or after January 1, 2025.</TextRun></P>
+<P><TextRun amendingStyle="add">(3) When calculating decision times for reporting under this section and section 6 of this act:</TextRun></P>
+<P><TextRun amendingStyle="add">(a) Agencies shall calculate time using calendar days; and</TextRun></P>
+<P><TextRun amendingStyle="add">(b) Agencies may exclude days attributable to circumstances outside the agency's control. If days are excluded, the agency shall identify the reason.</TextRun></P>
+<P><TextRun amendingStyle="add">(4) Agencies may exclude an application from reporting under this section only if the agency demonstrates to the office that:</TextRun></P>
+<P><TextRun amendingStyle="add">(a) The application is no longer active; or</TextRun></P>
+<P><TextRun amendingStyle="add">(b) Required data for one or more reporting elements in subsection (1) of this section are unavailable. The agency must obtain office approval and provide documented justification demonstrating that the unavailability is not the result of an intentional failure to collect information required under this chapter.</TextRun></P>
+<P><TextRun amendingStyle="add">(5)</TextRun> The office shall make available to the legislature, upon request, the individual agency reports submitted under <TextRun amendingStyle="strike">subsection (4) of</TextRun> this section.</P>
+<History>2014 c 68 s 3.</History>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>42A</ChapterNumber><TextRun>.</TextRun><SectionNumber>030</SectionNumber></SectionCite> and 2024 c 54 s 51 are each amended to read as follows:<Caption>Information available to permit applicants<TextRun fontFamily="Times New Roman">—</TextRun>Links from agencies' websites to office of regulatory assistance's website<TextRun fontFamily="Times New Roman">—</TextRun>Central repository of information<TextRun fontFamily="Times New Roman">—</TextRun>Searchability of information on central repository.</Caption></BillSectionHeader>
+<P>(1) To provide meaningful customer service that informs project planning <TextRun amendingStyle="strikemarkleft">and decision making by the citizens and businesses served, each agency must make available to permit applicants the following information through a link from the agency's website to the office's website, as provided in subsection (4) of this section:</TextRun></P>
+<P><TextRun amendingStyle="strikemarknone">(a) A list of the types of permit assistance available and how such assistance may be accessed;</TextRun></P>
+<P><TextRun amendingStyle="strikemarknone">(b) An estimate of the time required by the agency to process a permit application and issue a decision;</TextRun></P>
+<P><TextRun amendingStyle="strikemarknone">(c) Other tools to help applicants successfully complete a thorough application, such as:</TextRun></P>
+<P><TextRun amendingStyle="strikemarknone">(i) Examples of model completed applications;</TextRun></P>
+<P><TextRun amendingStyle="strikemarknone">(ii) Examples of approved applications, appropriately redacted to remove sensitive information; and</TextRun></P>
+<P><TextRun amendingStyle="strikemarknone">(iii) Checklists for ensuring a complete application.</TextRun></P>
+<P><TextRun amendingStyle="strikemarknone">(2) Each agency shall update at reasonable intervals the information it posts pursuant to this section.</TextRun></P>
+<P><TextRun amendingStyle="strikemarknone">(3)(a) Agencies must post the information required under subsection (1) of this section for all permits as soon as practicable, and no later than the deadlines established in this section.</TextRun></P>
+<P><TextRun amendingStyle="strikemarknone">(b) The agency shall post the permit inventory for that agency and the information required under subsection (1)(a) and (c) of this section no later than June 30, 2014.</TextRun></P>
+<P><TextRun amendingStyle="strikemarknone">(c) The agency shall post the estimates of application completion and permit decision times required under subsection (1)(b) of this section based on actual data for calendar year 2015 by March 1, 2016, and update this information for the previous calendar year, by March 1st of each year thereafter.</TextRun></P>
+<P><TextRun amendingStyle="strikemarknone">(d) Agencies must consider the customer experience in ensuring all permit assistance information is simple to use, easy to access, and designed in a customer</TextRun><Hyphen type="nobreak" amendingStyle="strikemarknone" /><TextRun amendingStyle="strikemarknone">friendly manner.</TextRun></P>
+<P><TextRun amendingStyle="strikemarkright">(4)</TextRun><TextRun amendingStyle="add">, improves credential processing times, and creates a single, authoritative source of information for applicants, the office shall, in consultation with Washington technology solutions and state agencies with authority to issue credentials, establish and maintain on the office's website a statewide credential catalog and central online repository of credential information.</TextRun></P>
+<P><TextRun amendingStyle="add">(2) Each agency with sufficient existing resources shall prepare and maintain entries in the statewide credential catalog for all credentials the agency issues. Information provided for the catalog may be provided by hyperlink to the agency's original source where appropriate. At a minimum, each catalog entry must include the following information for each credential if available:</TextRun></P>
+<P><TextRun amendingStyle="add">(a) The credential name;</TextRun></P>
+<P><TextRun amendingStyle="add">(b) Type of credential, including "permit," "license," "certification," or "other";</TextRun></P>
+<P><TextRun amendingStyle="add">(c) Description or purpose of the credential;</TextRun></P>
+<P><TextRun amendingStyle="add">(d) Citation to any statutory, regulatory, or other legal authority for the credential;</TextRun></P>
+<P><TextRun amendingStyle="add">(e) Application fee, if imposed;</TextRun></P>
+<P><TextRun amendingStyle="add">(f) Credential or program fee, if imposed;</TextRun></P>
+<P><TextRun amendingStyle="add">(g) Citation to any statutory, regulatory, or other legal authority to collect such fees;</TextRun></P>
+<P><TextRun amendingStyle="add">(h) Credential requirements, including application requirements, required forms and documents, and a description of all steps in the application process;</TextRun></P>
+<P><TextRun amendingStyle="add">(i) Application method including whether the application is electronic or paper, and where the application may be obtained;</TextRun></P>
+<P><TextRun amendingStyle="add">(j) Instructions for submission of the application, including online, mail, or in-person submission;</TextRun></P>
+<P><TextRun amendingStyle="add">(k) The published decision time, meaning the time to review and make a final decision on a completed application, consistent with section 6(1) of this act. Prior to determining published decision times, agencies shall report any existing statutory deadlines or agency-established approval times for informational purposes, which may not be used for refund determinations;</TextRun></P>
+<P><TextRun amendingStyle="add">(l) Description of any statutory, regulatory, or other authority governing application processing timelines;</TextRun></P>
+<P><TextRun amendingStyle="add">(m) Description of the credential validity period, which means how long the credential remains valid;</TextRun></P>
+<P><TextRun amendingStyle="add">(n) Description of any appeal process available to applicants whose application is denied;</TextRun></P>
+<P><TextRun amendingStyle="add">(o) A summary of required postapproval actions, including inspections, monitoring, recordkeeping, continuing education requirements, or associated dependencies;</TextRun></P>
+<P><TextRun amendingStyle="add">(p) Opportunities identified by the agency to streamline approval processes and reduce unnecessary, duplicative, or obsolete requirements;</TextRun></P>
+<P><TextRun amendingStyle="add">(q) Description of available credential assistance and how such assistance may be accessed; and</TextRun></P>
+<P><TextRun amendingStyle="add">(r) Tools to assist applicants submitting complete and timely applications, including checklists, examples, or other online resources.</TextRun></P>
+<P><TextRun amendingStyle="add">(3)</TextRun> To ensure agencies can <TextRun amendingStyle="strikemarkleft">post the required information online with minimal expenditure of agency resources, Washington technology solutions shall, in consultation with the office of regulatory assistance, establish a central repository of this information, hosted on the office of regulatory assistance's website. Each agency shall include at least one link to the central repository from the agency's website. Agencies shall place the link or links in such locations as the agency deems will be most customer</TextRun><Hyphen type="nobreak" amendingStyle="strikemarknone" /><TextRun amendingStyle="strikemarknone">friendly and maximize accessibility of the information to users of the website.</TextRun></P>
+<P><TextRun amendingStyle="strikemarkright">(5) The office shall ensure the searchability of the information posted on the central repository, applying industry best practices such as search engine optimization, to ensure that the permit performance and assistance information is readily findable and accessible by members of the public</TextRun> <TextRun amendingStyle="add">prepare, update, and transmit catalog information in a way that maximizes accessibility and usability, the office shall, in consultation with Washington technology solutions and state agencies with authority to issue credentials:</TextRun></P>
+<P><TextRun amendingStyle="add">(a) Establish the technical standards, data formats, and submission methods for catalog entries;</TextRun></P>
+<P><TextRun amendingStyle="add">(b) Design and maintain the statewide credential catalog and central repository so that information is searchable, machine readable where practicable, and readily findable and accessible by members of the public;</TextRun></P>
+<P><TextRun amendingStyle="add">(c) Ensure that the statewide credential catalog and central repository are hosted and maintained as a single authoritative source for state-issued credential information; and</TextRun></P>
+<P><TextRun amendingStyle="add">(d) Provide agencies with any necessary templates, guidance, and technical assistance to support implementation.</TextRun></P>
+<P><TextRun amendingStyle="add">(4) Each agency with sufficient existing resources must update, at reasonable intervals, the information it submits to and posts through the statewide credential catalog and central repository under this section. Agencies must, at a minimum, ensure that catalog entries are updated when:</TextRun></P>
+<P><TextRun amendingStyle="add">(a) Statutory or regulatory authorities governing the credential are amended;</TextRun></P>
+<P><TextRun amendingStyle="add">(b) Fees or published decision times change; or</TextRun></P>
+<P><TextRun amendingStyle="add">(c) Application methods, submission instructions, or appeal processes are materially modified.</TextRun></P>
+<P><TextRun amendingStyle="add">(5) Information required under this section must be incorporated into, and may be delivered through, the office's website and any central online repository established under this chapter. The office shall ensure that the catalog and repository allow applicants to:</TextRun></P>
+<P><TextRun amendingStyle="add">(a) Identify all credentials required for their activities;</TextRun></P>
+<P><TextRun amendingStyle="add">(b) Access current application materials, instructions, and assistance tools; and</TextRun></P>
+<P><TextRun amendingStyle="add">(c) Understand applicable timelines, fees, and appeal rights</TextRun>.</P>
+<History>2024 c 54 s 51; 2014 c 68 s 4.</History>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>5</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>42A</ChapterNumber><TextRun>.</TextRun><SectionNumber>040</SectionNumber></SectionCite> and 2014 c 68 s 5 are each amended to read as follows:<Caption>Comprehensive progress report<TextRun fontFamily="Times New Roman">—</TextRun>Identification of permits with processing and decision times that are most improved and those most in need of improvement.</Caption></BillSectionHeader>
+<P>(1) <TextRun amendingStyle="strikemarkleft">By September 30th of 2016 and each even-numbered year thereafter up to and including 2020, the office shall publish a comprehensive progress report to the economic development committees of the house of representatives and the senate and to the governor on the performance of agencies in tracking permit timelines and other efforts to improve clarity and predictability of regulatory permitting. The report must include at a minimum for each agency a summary of the data reported by the agency to the office under RCW 43.42A.020(4).</TextRun></P>
+<P><TextRun amendingStyle="strikemarkright">(2)</TextRun> The office shall post <TextRun amendingStyle="strike">the</TextRun> <TextRun amendingStyle="add">a</TextRun> comprehensive progress report on its website <TextRun amendingStyle="add">detailing the performance of agencies in tracking credential timelines and other efforts to improve clarity and predictability of regulatory credential application processes. The report must include at a minimum for each agency a summary of the credential information reported by the agency to the office under RCW 43.42A.020 to provide a complete picture of credential timeliness, fees, and process improvement efforts</TextRun>. The report must be easily accessible and designed in a customer<Hyphen type="nobreak" />friendly format.</P>
+<P><TextRun amendingStyle="strike">(3)</TextRun> <TextRun amendingStyle="add">(2)</TextRun> Beginning with the <TextRun amendingStyle="strike">2016 report</TextRun> <TextRun amendingStyle="add">2027 reporting period</TextRun>, the office must identify <TextRun amendingStyle="strike">permits</TextRun> <TextRun amendingStyle="add">credentials</TextRun> with processing and decision times that are most improved and processing and decision times that are most in need of improvement, as indicated by the performance data collected under RCW 43.42A.020. Each agency may include a statement describing any process improvements the agency has identified for implementation in order to improve processing and decision times.</P>
+<History>2014 c 68 s 5.</History>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>6</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>42A</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) After consultation with the office and the governor's office, each cabinet agency with sufficient existing resources shall establish efficient and appropriate deadlines for the time to review and make a final decision on completed applications for each type of credential as follows:</P>
+<P>(a) 25 percent of the agency's credentials by January 1, 2027;</P>
+<P>(b) 50 percent of the agency's credentials by January 1, 2028;</P>
+<P>(c) 75 percent of the agency's credentials by January 1, 2029; and</P>
+<P>(d) 100 percent of the agency's credentials by January 1, 2030.</P>
+<P>(2) These deadlines constitute the published decision time and must be made publicly available through the central repository established under RCW 43.42A.030.</P>
+<P>(3) Unless prohibited or restricted by the state or federal statute authorizing the agency to issue the credential, the agency shall refund the application fee if the agency fails to meet its published decision time after receiving a completed application. If the agency does not impose an application fee, no refund is required. Fees received by the energy facility site evaluation council under RCW 80.50.071 or other statutory reimbursement programs are not subject to refund. A refund shall not affect the final disposition of the application. Refunds must be reported as part of the agency performance data submitted under RCW 43.42A.020.</P>
+<P>(4) Information required under this section must be incorporated into the performance reports and central repository postings required under RCW 43.42A.020 and 43.42A.030.</P>
+<P>(5) The office may, at its discretion, exclude any credentials from the refund provisions of this section or grant additional time to establish processing time deadlines.</P>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>7</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>42A</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>The office shall establish guidance for agencies on the reporting requirements in this chapter, including how to calculate reporting metrics, approved alternative processing or reporting methodologies, and circumstances where data may be excluded. The office may approve exceptions proposed by agencies when necessary to ensure accuracy, accommodate statutory timelines, or reflect program-specific operational requirements. Guidance adopted under this section applies to all reporting and performance requirements under this chapter.</P>
+</BillSection>
+</BillBody>
+</Bill>

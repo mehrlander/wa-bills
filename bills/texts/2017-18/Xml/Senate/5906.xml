@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-2128.1</RequestNumber><ShortBillId>SB 5906</ShortBillId><LongBillId>SENATE BILL 5906</LongBillId><Legislature>65th Legislature</Legislature><Session>2017 Regular Session</Session><Sponsors>Senators Saldaña, Palumbo, Wellman, Liias, Hobbs, Conway, Darneille, and Keiser</Sponsors><BillHistory><ReadDate>Read first time 03/22/17.</ReadDate><ReferredCommittee>Referred to Committee on Transportation.</ReferredCommittee></BillHistory><BriefDescription>Establishing a regional transit authority rebate program for low-income individuals.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to establishing a regional transit authority rebate program for low-income individuals; adding a new section to chapter 81.112 RCW; creating a new section; and declaring an emergency.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The recent voter-approved sound transit 3 initiative will provide congestion relief and mobility choices for residents throughout the Puget Sound region. However, these investments will come at a cost to those who may be least able to afford an increased vehicle or property tax. The legislature finds that it is necessary to strike a balance between collecting the voter-approved revenue necessary to ensure the on-time and on-budget delivery of the regional light rail system and the burden of increased motor vehicle taxes on our lower-income Washingtonians. To achieve this goal, sound transit, like certain transportation benefit districts, should create a low-income rebate program to provide a rebate to eligible vehicle and home owners in the sound transit taxing district.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>81</TitleNumber><TextRun>.</TextRun><ChapterNumber>112</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1)(a) A regional transit authority that includes a county with a population of more than one million five hundred thousand may establish a rebate program for the purpose of providing rebates of up to forty percent of the motor vehicle excise tax or property tax, or both, paid by a low-income individual.</P>
+<P>(b) A rebate for property taxes may only be provided to a low-income individual who qualifies for an exemption from property taxes pursuant to RCW 84.36.381.</P>
+<P>(c) For purposes of this subsection, "low-income individual" means a single person, family, or unrelated persons living together whose income is at or below eighty percent of the median income, adjusted for family size, for the county in which they reside.</P>
+<P>(2) Funds collected from a motor vehicle excise tax under RCW 81.104.160, a sales and use tax under RCW 81.104.170, or property tax under RCW 81.104.175 may be used for a rebate program established under this section.</P>
+<P>(3) A regional transit authority that establishes a rebate program is responsible for the development of the program and must work with the department of licensing regarding the administration, functions, and costs associated with the rebate program.</P>
+<P>(4) A regional transit authority that establishes a rebate program under this section must report back to the legislature two years after the program takes effect. The report must include, but is not limited to, a detailed description of the structure of the program, the average rebate, the total amount of rebates issued, and the number of people that received rebates.</P>
+</BillSection>
+<BillSection type="new" action="emerg" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act is necessary for the immediate preservation of the public peace, health, or safety, or support of the state government and its existing public institutions, and takes effect immediately.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

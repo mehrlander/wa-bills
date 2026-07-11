@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-4393.2</RequestNumber><ShortBillId>SB 6312</ShortBillId><LongBillId>SENATE BILL 6312</LongBillId><Legislature>68th Legislature</Legislature><Session>2024 Regular Session</Session><Sponsors>Senator Fortunato</Sponsors><BillHistory /><BriefDescription>Prohibiting the removal of a federal candidate from a ballot due to an allegation of insurrection or rebellion unless the candidate has been convicted for insurrection or rebellion under federal law.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to prohibiting the removal of a federal candidate from a ballot due to an allegation of insurrection or rebellion unless the candidate has been convicted for insurrection or rebellion under federal law; and adding a new section to chapter 29A.68 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>29A</TitleNumber><TextRun>.</TextRun><ChapterNumber>68</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>No candidate seeking federal elective office may be kept off of any Washington state ballot due to an allegation of federal insurrection or rebellion unless that candidate has been convicted under a federal criminal statute for insurrection or rebellion, and that criminal statute for insurrection or rebellion explicitly enables section 3 of the 14th Amendment of the United States Constitution. Any attempt at keeping such a candidate off of the ballot shall be a violation of RCW 29A.84.630.</P>
+</BillSection>
+</BillBody>
+</Bill>

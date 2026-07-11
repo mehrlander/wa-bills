@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-0601.1</RequestNumber><ShortBillId>SB 5273</ShortBillId><LongBillId>SENATE BILL 5273</LongBillId><Legislature>65th Legislature</Legislature><Session>2017 Regular Session</Session><Sponsors>Senators Fain and Kuderer</Sponsors><BillHistory><ReadDate>Read first time 01/18/17.</ReadDate><ReferredCommittee>Referred to Committee on Law &amp; Justice.</ReferredCommittee></BillHistory><BriefDescription>Implementing the electronic filing of court documents in certain courts.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to electronic filing of court documents; adding a new section to chapter 2.04 RCW; creating a new section; and making an appropriation.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>2</TitleNumber><TextRun>.</TextRun><ChapterNumber>04</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) By December 31, 2018, the superior courts of each county with a population of four hundred fifty thousand or more shall fully implement the electronic filing of documents in compliance with the court rules, electronic filing technical standards, and the recommendations of the Washington state auditor's office.</P>
+<P>(2) By December 31, 2019, the superior courts of every county and the appellate courts shall fully implement the electronic filing of documents in compliance with the court rules, electronic filing technical standards, and the recommendations of the Washington state auditor's office.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>By December 1, 2017, the Washington state auditor's office shall assess the current utilization of electronic filing by Washington superior and appellate courts and make recommendations to the governor, appropriate committees of the legislature, and the Washington supreme court regarding the full statewide mandatory implementation of the electronic filing of documents in compliance with the court rules, electronic filing technical standards, and section 1 of this act. The recommendations shall emphasize the utilization of existing systems and resources.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="approp" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>The sum of one hundred thousand dollars, or as much thereof as may be necessary, is appropriated for the fiscal year ending June 30, 2018, from the general fund to the Washington state auditor's office for the purposes of this act.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

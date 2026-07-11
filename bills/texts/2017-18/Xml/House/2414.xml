@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-3315.1</RequestNumber><ShortBillId>HB 2414</ShortBillId><LongBillId>HOUSE BILL 2414</LongBillId><Legislature>65th Legislature</Legislature><Session>2018 Regular Session</Session><Sponsors>Representatives Walsh, Johnson, Morris, Shea, Haler, Griffey, Kraft, Muri, Buys, Van Werven, and Young</Sponsors><BillHistory><PrefiledDate>Prefiled 01/05/18.</PrefiledDate><ReadDate>Read first time 01/08/18.</ReadDate><ReferredCommittee>Referred to Committee on State Govt, Elections &amp; IT.</ReferredCommittee></BillHistory><BriefDescription>Authorizing disciplinary action for state officials and employees who provide false testimony to the legislature.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to disciplinary action for state officials and employees who provide false testimony to the legislature; amending RCW 42.52.520; adding a new section to chapter 42.52 RCW; and prescribing penalties.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>42</TitleNumber><TextRun>.</TextRun><ChapterNumber>52</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) No state officer or state employee may knowingly represent a materially incorrect fact, statement, claim, or record in giving testimony to a legislative committee.</P>
+<P>(2) For purposes of this section, "knowingly" means having actual knowledge of false information or acting in reckless disregard of the truth or falsity of the information.</P>
+<P>(3) Disciplinary action for a violation of this section may include termination of employment.</P>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>42</TitleNumber><TextRun>.</TextRun><ChapterNumber>52</ChapterNumber><TextRun>.</TextRun><SectionNumber>520</SectionNumber></SectionCite> and 1994 c 154 s 222 are each amended to read as follows:<Caption>Disciplinary action.</Caption></BillSectionHeader>
+<P>(1) A violation of this chapter or rules adopted under it is grounds for disciplinary action.</P>
+<P>(2) The procedures for any such action shall correspond to those applicable for disciplinary action for employee misconduct generally; for those state officers and state employees not specifically exempted in chapter 41.06 RCW, the rules set forth in chapter 41.06 RCW shall apply. <TextRun amendingStyle="add">Disciplinary action for a violation of section 1 of this act may include termination of employment for any state officer or state employee.</TextRun> Any action against the state officer or state employee shall be subject to judicial review to the extent provided by law for disciplinary action for misconduct of state officers and state employees of the same category and grade.</P>
+<History>1994 c 154 § 222; 1969 ex.s. c 234 § 26. Formerly RCW 42.18.260.</History>
+</BillSection>
+</BillBody>
+</Bill>

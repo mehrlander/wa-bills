@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-3473.1</RequestNumber><ShortBillId>SB 5776</ShortBillId><LongBillId>SENATE BILL 5776</LongBillId><Legislature>68th Legislature</Legislature><Session>2024 Regular Session</Session><Sponsors>Senators Keiser, Cleveland, Randall, Van De Wege, Conway, Dhingra, Kauffman, Hasegawa, Hunt, Kuderer, Lovick, Mullet, Nguyen, Nobles, Salomon, Stanford, Valdez, and C. Wilson</Sponsors><BillHistory><PrefiledDate>Prefiled 12/04/23.</PrefiledDate><ReadDate>Read first time 01/08/24.</ReadDate><ReferredCommittee>Referred to Committee on Health &amp; Long Term Care.</ReferredCommittee></BillHistory><BriefDescription>Accessing an emergency supply of insulin.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to accessing an emergency supply of insulin; adding new sections to chapter 70.330 RCW; and providing an effective date.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The definitions in this section apply to sections 2 through 4 of this act unless the context clearly requires otherwise.</P></BillSectionHeader>
+<P>(1) "Authority" means the health care authority.</P>
+<P>(2) "Manufacturer" means a person, corporation, or other entity engaged in the manufacture of insulin that is self-administered on an outpatient basis and sold in or into Washington state.</P>
+<P>(3) "Pharmacy" has the same meaning as in RCW 18.64.011.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) Individuals who meet the eligibility requirements of this section may receive one emergency 30-day supply of insulin within a 12-month period with a maximum cost-sharing amount of $10.</P></BillSectionHeader>
+<P>(2) To be eligible to receive insulin under this section, an individual must:</P>
+<P>(a) Be a resident of Washington;</P>
+<P>(b) Not be enrolled in medical assistance;</P>
+<P>(c) Not be enrolled in prescription drug coverage that limits the total amount of cost sharing that the enrollee is required to pay for a 30-day supply of insulin, including copayments, deductibles, or coinsurance, to $35 or less, regardless of the type or amount of insulin prescribed;</P>
+<P>(d) Have a valid prescription for insulin; and</P>
+<P>(e) Have less than a seven-day supply of insulin available.</P>
+<P>(3) The authority must develop an application form to allow individuals to demonstrate they meet the requirements of subsection (2) of this section before receiving insulin under this section. The authority must make the application available to pharmacies, providers that prescribe or dispense insulin, and on the authority's website.</P>
+<P>(4) Upon receipt of a completed application demonstrating that the individual meets the requirements of subsection (2) of this section, and identification proving Washington residency, a pharmacy shall dispense a 30-day supply of the prescribed insulin. If the individual seeking insulin under this section is under 18 years old, the individual's parent or legal guardian may provide proof of residency.</P>
+<P>(5) The pharmacy shall retain a copy of the application for two years after the date the first 30-day supply of insulin was dispensed.</P>
+<P>(6) A pharmacy that dispenses insulin pursuant to this section may collect a dispensing fee of up to $10 for each 30-day supply to cover the pharmacy's costs of processing and dispensing the insulin.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) Each manufacturer of insulin sold in the state must develop a process for a pharmacy to submit to the manufacturer directly, or indirectly through the manufacturer's delegated representative, subcontractor, or other vendor, an electronic claim for payment that is made in accordance with the national council for prescription drug programs' standards for electronic claims processing.</P></BillSectionHeader>
+<P>(2) If a pharmacy submits an electronic claim pursuant to this section, the manufacturer, manufacturer's delegated representative, subcontractor, or other vendor shall, within 30 days:</P>
+<P>(a) Reimburse the pharmacy in an amount that covers the pharmacy's acquisition cost for the insulin; or</P>
+<P>(b) Send the pharmacy a replacement supply or the same insulin in an amount equal to or greater than the amount dispensed by the pharmacy.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber><P>The authority may assess a fine of up to $10,000 for each failure to comply with the requirements of section 3 of this act. The assessment of a fine under this section is subject to review under the administrative procedure act, chapter 34.05 RCW. Fines collected under this section must be deposited into the state health care affordability account created in RCW 43.71.130.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addmultisect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>5</Value><TextRun>.  </TextRun></BillSectionNumber><P>Sections 1 through 4 of this act are each added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>70</TitleNumber><TextRun>.</TextRun><ChapterNumber>330</ChapterNumber><TextRun> RCW</TextRun></ChapterCite>.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="effdate" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>6</Value><TextRun>.  </TextRun></BillSectionNumber><P>Sections 1 through 4 of this act take effect January 1, 2025.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

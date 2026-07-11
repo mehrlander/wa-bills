@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-0802.1</RequestNumber><ShortBillId>HB 1542</ShortBillId><LongBillId>HOUSE BILL 1542</LongBillId><Legislature>67th Legislature</Legislature><Session>2021 Regular Session</Session><Sponsors>Representatives Hackney, Bergquist, Santos, Simmons, J. Johnson, Valdez, and Pollet</Sponsors><BillHistory><ReadDate>Read first time 02/17/21.</ReadDate><ReferredCommittee>Referred to Committee on Civil Rights &amp; Judiciary.</ReferredCommittee></BillHistory><BriefDescription>Concerning jury demographics.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to jury demographics; adding a new section to chapter 2.36 RCW; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature finds that demographically diverse juries are essential to providing equal justice under law and providing defendants with a representative and impartial jury of peers. However, racial and ethnic minority populations are underrepresented in many jurisdictions' jury pools relative to their population within the jurisdiction. The 2019 jury diversity task force interim report recommends the state should continuously monitor juror demographics to track changes over time across the state so that programs designed to improve jury diversity can be evaluated. The legislature intends to implement the task force's recommendation by enacting this act.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>2</TitleNumber><TextRun>.</TextRun><ChapterNumber>36</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) The administrative office of the courts shall provide all courts with an electronic demographic survey for jurors who begin a jury term. The survey must collect data on each juror's race, ethnicity, age, sex, employment status, educational attainment, and income, as well as any other data approved by order of the chief justice of the Washington state supreme court. This electronic data gathering must be conducted and reported in a manner that preserves juror anonymity. The administrative office of the courts shall publish this demographic data in an annual report to the governor and shall maintain the reports on a publicly available internet address for at least 10 years.</P>
+<P>(2) Every court shall offer the electronic demographic survey provided for in subsection (1) of this section to each potential juror who physically or virtually begins a jury term.</P>
+</BillSection>
+</BillBody>
+</Bill>

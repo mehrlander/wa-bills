@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-3951.1</RequestNumber><ShortBillId>SB 6462</ShortBillId><LongBillId>SENATE BILL 6462</LongBillId><Legislature>65th Legislature</Legislature><Session>2018 Regular Session</Session><Sponsors>Senators Angel and Mullet</Sponsors><BillHistory><ReadDate>Read first time 01/18/18.</ReadDate><ReferredCommittee>Referred to Committee on Financial Institutions &amp; Insurance.</ReferredCommittee></BillHistory><BriefDescription>Concerning the seller's real estate disclosure regarding oil tank insurance.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to the seller's real estate disclosure regarding oil tank insurance; adding a new section to chapter 64.06 RCW; and providing an effective date.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>64</TitleNumber><TextRun>.</TextRun><ChapterNumber>06</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>A seller of residential real property shall make available to the buyer the following statement: "This notice is to inform you that if the real property you are considering for purchase utilizes an oil tank for heating purposes, no cost insurance may be available from the pollution liability insurance agency."</P>
+</BillSection>
+<BillSection type="new" action="effdate" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act takes effect January 1, 2020.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

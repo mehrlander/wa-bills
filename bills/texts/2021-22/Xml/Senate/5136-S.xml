@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-0714.1</RequestNumber><ShortBillId>SSB 5136</ShortBillId><LongBillId>SUBSTITUTE SENATE BILL 5136</LongBillId><Legislature>67th Legislature</Legislature><Session>2021 Regular Session</Session><Sponsors>Senate Early Learning &amp; K-12 Education (originally sponsored by Senators Wilson, C., Frockt, Nguyen, and Short)</Sponsors><BillHistory><ReadDate>READ FIRST TIME 01/28/21.</ReadDate></BillHistory><BriefDescription>Prohibiting fees for child care licenses.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to prohibiting fees for child care licenses; amending RCW 43.216.300; creating new sections; and providing an expiration date.</BillTitle>
+<EnactedClause />
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature recognizes that COVID-19 has devastated the existing child care industry, making it challenging for providers to stay in business providing care to working families of Washington state. The legislature recognizes that a robust economic recovery is contingent upon access to affordable child care services. The legislature finds that the vast majority of child care providers are small businesses and nonprofit organizations. The legislature further finds that numerous child care providers have closed for business during the pandemic, either temporarily or permanently. The legislature finds that fees to become a child care provider have increased steadily in recent years. The legislature recognizes the pressing need for providers to enter the market and provide needed care services. Therefore, the legislature resolves to strengthen our economic recovery by prohibiting fees for child care licenses to incentivize new and returning providers to enter the market.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>216</ChapterNumber><TextRun>.</TextRun><SectionNumber>300</SectionNumber></SectionCite> and 2018 c 58 s 41 are each amended to read as follows:<Caption>License fees.</Caption></BillSectionHeader>
+<P><TextRun amendingStyle="strike">(1)</TextRun> The secretary <TextRun amendingStyle="strike">shall</TextRun> <TextRun amendingStyle="add">may not</TextRun> charge fees to the licensee for obtaining a <TextRun amendingStyle="add">child care</TextRun> license. <TextRun amendingStyle="strikemarkleft">The secretary may waive the fees when, in the discretion of the secretary, the fees would not be in the best interest of public health and safety, or when the fees would be to the financial disadvantage of the state.</TextRun></P>
+<P><TextRun amendingStyle="strikemarknone">(2) Fees charged shall be based on, but shall not exceed, the cost to the department for the licensure of the activity or class of activities and may include costs of necessary inspection.</TextRun></P>
+<P><TextRun amendingStyle="strikemarkright">(3) The secretary shall establish the fees charged by rule.</TextRun></P>
+<History>2018 c 58 § 41; 2007 c 17 § 1. Formerly RCW 43.215.255.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2018 c 58:</TextRun> See note following RCW 28A.655.080.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>If specific funding for the purposes of this act, referencing this act by bill or chapter number, is not provided by June 30, 2021, in the omnibus appropriations act, this act is null and void.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="expdate">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act expires June 30, 2023.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

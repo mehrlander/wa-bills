@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-3299.1</RequestNumber><ShortBillId>SB 6139</ShortBillId><LongBillId>SENATE BILL 6139</LongBillId><Legislature>64th Legislature</Legislature><Session>2015 2nd Special Session</Session><Sponsors>Senators Miloscia and Roach</Sponsors><BillHistory><ReadDate>Read first time 06/26/15.</ReadDate><ReferredCommittee>Referred to Committee on Government Operations &amp; Security.</ReferredCommittee></BillHistory><BriefDescription>Concerning electronic signatures for initiative and referendum petitions.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to electronic signatures for initiative and referendum petitions; and amending RCW 29A.04.611 and 29A.72.150.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>29A</TitleNumber><TextRun>.</TextRun><ChapterNumber>04</ChapterNumber><TextRun>.</TextRun><SectionNumber>611</SectionNumber></SectionCite> and 2011 c 10 s 13 are each amended to read as follows:<Caption>Rules by secretary of state.</Caption></BillSectionHeader>
+<P>The secretary of state as chief election officer shall make reasonable rules in accordance with chapter 34.05 RCW not inconsistent with the federal and state election laws to effectuate any provision of this title and to facilitate the execution of its provisions in an orderly, timely, and uniform manner relating to any federal, state, county, city, town, and district elections. To that end the secretary shall assist local election officers by devising uniform forms and procedures.</P>
+<P>In addition to the rule-making authority granted otherwise by this section, the secretary of state shall make rules governing the following provisions:</P>
+<P>(1) The maintenance of voter registration records;</P>
+<P>(2) The preparation, maintenance, distribution, review, and filing of precinct maps;</P>
+<P>(3) Standards for the design, layout, and production of ballots;</P>
+<P>(4) The examination and testing of voting systems for certification;</P>
+<P>(5) The source and scope of independent evaluations of voting systems that may be relied upon in certifying voting systems for use in this state;</P>
+<P>(6) Standards and procedures for the acceptance testing of voting systems by counties;</P>
+<P>(7) Standards and procedures for testing the programming of vote tallying software for specific primaries and elections;</P>
+<P>(8) Standards and procedures for the preparation and use of each type of certified voting system including procedures for the operation of counting centers where vote tallying systems are used;</P>
+<P>(9) Standards and procedures to ensure the accurate tabulation and canvassing of ballots;</P>
+<P>(10) Consistency among the counties of the state in the preparation of ballots, the operation of vote tallying systems, and the canvassing of primaries and elections;</P>
+<P>(11) Procedures to ensure the secrecy of a voter's ballot when a small number of ballots are counted;</P>
+<P>(12) The use of substitute devices or means of voting when a voting device is found to be defective, the counting of votes cast on the defective device, the counting of votes cast on the substitute device, and the documentation that must be submitted to the county auditor regarding such circumstances;</P>
+<P>(13) Procedures for the transportation of sealed containers of voted ballots or sealed voting devices;</P>
+<P>(14) The acceptance and filing of documents via electronic transmission;</P>
+<P>(15) Voter registration applications and records;</P>
+<P>(16) The use of voter registration information in the conduct of elections;</P>
+<P>(17) The coordination, delivery, and processing of voter registration records accepted by driver licensing agents or the department of licensing;</P>
+<P>(18) The coordination, delivery, and processing of voter registration records accepted by agencies designated by the governor to provide voter registration services;</P>
+<P>(19) Procedures to receive and distribute voter registration applications by mail;</P>
+<P>(20) Procedures for a voter to change his or her voter registration address within a county by telephone;</P>
+<P>(21) Procedures for a voter to change the name under which he or she is registered to vote;</P>
+<P>(22) Procedures for canceling dual voter registration records and for maintaining records of persons whose voter registrations have been canceled;</P>
+<P>(23) Procedures for the electronic transfer of voter registration records between county auditors and the office of the secretary of state;</P>
+<P>(24) Procedures and forms for declarations of candidacy;</P>
+<P>(25) Procedures and requirements for the acceptance and filing of declarations of candidacy by electronic means;</P>
+<P>(26) Procedures for the circumstance in which two or more candidates have a name similar in sound or spelling so as to cause confusion for the voter;</P>
+<P>(27) Filing for office;</P>
+<P>(28) The order of positions and offices on a ballot;</P>
+<P>(29) Sample ballots;</P>
+<P>(30) Independent evaluations of voting systems;</P>
+<P>(31) The testing, approval, and certification of voting systems;</P>
+<P>(32) The testing of vote tallying software programming;</P>
+<P>(33) Standards and procedures to prevent fraud and to facilitate the accurate processing and canvassing of ballots, including standards for the approval and implementation of hardware and software for automated signature verification systems;</P>
+<P>(34) Standards and procedures to guarantee the secrecy of ballots;</P>
+<P>(35) Uniformity among the counties of the state in the conduct of elections;</P>
+<P>(36) Standards and procedures to accommodate overseas voters and service voters;</P>
+<P>(37) The tabulation of paper ballots;</P>
+<P>(38) The accessibility of voting centers;</P>
+<P>(39) The aggregation of precinct results if reporting the results of a single precinct could jeopardize the secrecy of a person's ballot;</P>
+<P>(40) Procedures for conducting a statutory recount;</P>
+<P>(41) Procedures for filling vacancies in congressional offices if the general statutory time requirements for availability of ballots, certification, canvassing, and related procedures cannot be met;</P>
+<P>(42) Procedures for the statistical sampling of signatures for purposes of verifying and canvassing signatures on initiative, referendum, and recall election petitions;</P>
+<P>(43) Standards and deadlines for submitting material to the office of the secretary of state for the voters' pamphlet;</P>
+<P>(44) Deadlines for the filing of ballot titles for referendum bills and constitutional amendments if none have been provided by the legislature;</P>
+<P>(45) Procedures for the publication of a state voters' pamphlet;</P>
+<P>(46) Procedures for conducting special elections regarding nuclear waste sites if the general statutory time requirements for availability of ballots, certification, canvassing, and related procedures cannot be met;</P>
+<P>(47) Procedures for conducting partisan primary elections;</P>
+<P>(48) Standards and procedures for the proper conduct of voting on accessible voting devices;</P>
+<P>(49) Standards for voting technology and systems used by the state or any political subdivision to be accessible for individuals with disabilities, including nonvisual accessibility for the blind and visually impaired, in a manner that provides the same opportunity for access and participation, including privacy and independence, as other voters;</P>
+<P>(50) All data formats for transferring voter registration data on electronic or machine-readable media for the purpose of administering the statewide voter registration list required by the Help America Vote Act (P.L. 107-252);</P>
+<P>(51) Defining the interaction of electronic voter registration election management systems employed by each county auditor to maintain a local copy of each county's portion of the official state list of registered voters;</P>
+<P>(52) Provisions and procedures to implement the state-based administrative complaint procedure as required by the Help America Vote Act (P.L. 107-252);</P>
+<P>(53) Facilitating the payment of local government grants to local government election officers or vendors; <TextRun amendingStyle="strike">and</TextRun></P>
+<P>(54) Standards for the verification of signatures on ballot declarations<TextRun amendingStyle="add">; and</TextRun></P>
+<P><TextRun amendingStyle="add">(55) In consultation with the chief information officer, standards, procedures, and policies that allow for the submission, canvassing, and verification of electronic signatures on an initiative or referendum petition, including standards for what an electronic signature must contain in order to be valid on an initiative or referendum petition</TextRun>.</P>
+<History>2011 c 10 § 13; 2009 c 369 § 5. Prior: 2006 c 207 § 1; 2006 c 206 § 2; 2004 c 271 § 151.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Notice to registered poll voters<TextRun fontFamily="Times New Roman">—</TextRun>Elections by mail<TextRun fontFamily="Times New Roman">—</TextRun>2011 c 10:</TextRun> See note following RCW 29A.04.008.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>29A</TitleNumber><TextRun>.</TextRun><ChapterNumber>72</ChapterNumber><TextRun>.</TextRun><SectionNumber>150</SectionNumber></SectionCite> and 2003 c 111 s 1816 are each amended to read as follows:<Caption>Petitions<TextRun fontFamily="Times New Roman">—</TextRun>Signatures<TextRun fontFamily="Times New Roman">—</TextRun>Number necessary.</Caption></BillSectionHeader>
+<P>When the person proposing any initiative measure has obtained signatures of legal voters equal to or exceeding eight percent of the votes cast for the office of governor at the last regular gubernatorial election prior to the submission of the signatures for verification, or when the person or organization demanding any referendum of an act or part of an act of the legislature has obtained a number of signatures of legal voters equal to or exceeding four percent of the votes cast for the office of governor at the last regular gubernatorial election prior to the submission of the signatures for verification, the petition containing the signatures may be submitted to the secretary of state for filing. <TextRun amendingStyle="add">For the purposes of this chapter, an electronic signature of a legal voter may be used with the same force and effect as a signature affixed by hand, as long as the signature conforms to the standards, procedures, and policies set forth by the secretary of state.</TextRun></P>
+</BillSection>
+</BillBody>
+</Bill>

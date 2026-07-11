@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-0335.2</RequestNumber><ShortBillId>HB 1242</ShortBillId><LongBillId>HOUSE BILL 1242</LongBillId><Legislature>67th Legislature</Legislature><Session>2021 Regular Session</Session><Sponsors>Representatives Leavitt, Dolan, Lovick, Valdez, Simmons, Ramel, Ortiz-Self, Frame, Shewmake, Ryu, Callan, Wicks, Rule, Lekanoff, Macri, Bronoske, Chopp, Slatter, Ramos, Harris-Talley, and Pollet</Sponsors><BillHistory><ReadDate>Read first time 01/18/21.</ReadDate><ReferredCommittee>Referred to Committee on Labor &amp; Workplace Standards.</ReferredCommittee></BillHistory><BriefDescription>Providing paid administrative leave for health care workers in time of declared public health emergencies.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to providing paid administrative leave for health care workers in time of declared public health emergencies; adding a new section to chapter 49.12 RCW; and declaring an emergency.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>49</TitleNumber><TextRun>.</TextRun><ChapterNumber>12</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) This section applies to health care workers during declared public health emergencies.</P>
+<P>(2) A health care worker who the employer does not permit to work, including telework, under any of the following circumstances is entitled to paid administrative leave with no loss of pay or accrued time off, until the employer permits the employee to return to work:</P>
+<P>(a) The health care worker is being tested, waiting on test results, seeking medical diagnosis, having a verified negative reaction to the vaccine, or is required by the employer to quarantine, due to probable occupational exposure to COVID-19 or any other infectious disease that is the subject of a public health emergency;</P>
+<P>(b) The health care worker is being tested, waiting on test results, having a verified negative reaction to the vaccine, or seeking medical diagnosis, due to experiencing symptoms of COVID-19 or any other infectious disease that is the subject of a public health emergency, regardless of whether the health care worker's exposure is a result of occupational exposure or community or social exposure; or</P>
+<P>(c) The health care worker has been advised by a health care provider to quarantine due to concerns related to COVID-19 or any other infectious disease that is the subject of a public health emergency.</P>
+<P>(3)(a) During the time the health care worker is not permitted to work under circumstances set forth in subsection (2) of this section, the employer may not require the health care worker to use accrued time off.</P>
+<P>(b) The employer may require the health care worker to participate in the employer's monitoring process.</P>
+<P>(4) If the health care worker meets the criteria to return to work in accordance with the department of health or the United States centers for disease control and prevention, and the health care worker refuses to return to work, the leave provided under this section will no longer apply as of the date of the health care worker's refusal to return to work.</P>
+<P>(5) The taking of leave under this section may not result in the loss of any employment benefits accrued before the date on which the leave commenced.</P>
+<P>(6)(a) The rights to paid administrative leave provided in this section are in addition to any other benefits provided by local, state, and federal law or a collective bargaining agreement.</P>
+<P>(b) Nothing in this section shall be construed to eliminate or amend existing benefits for which the health care worker may qualify, including benefits related to industrial insurance, unemployment insurance, and existing leave laws, and any benefits provided under a collective bargaining agreement.</P>
+<P>(7) Nothing in this section prohibits health care workers from accessing other federal, state, or local benefits for which they may qualify, or from accessing benefits for which they may qualify under a collective bargaining agreement.</P>
+<P>(8) Nothing in this section shall be construed to discourage employers from adopting policies that provide greater leave rights or greater safety accommodations to health care workers.</P>
+<P>(9) For the purposes of this section:</P>
+<P>(a) "COVID-19" means the illness caused by the severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2);</P>
+<P>(b) "Employer" means a health care facility;</P>
+<P>(c) "Health care facility" means an assisted living facility licensed under chapter 18.20 RCW, a nursing home licensed under chapter 18.51 RCW, or a health care setting as defined in RCW 49.19.010;</P>
+<P>(d) "Health care worker" means a person employed by an employer and who is providing direct care or supportive services to patients or clients in a health care facility;</P>
+<P>(e) "Public health emergency" means a proclamation issued under RCW 43.06.010 or issued by declaration of the president of the United States, related to COVID-19 or other contagious or infectious disease that is declared to be a public health crisis.</P>
+</BillSection>
+<BillSection type="new" action="emerg" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act is necessary for the immediate preservation of the public peace, health, or safety, or support of the state government and its existing public institutions, and takes effect immediately.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

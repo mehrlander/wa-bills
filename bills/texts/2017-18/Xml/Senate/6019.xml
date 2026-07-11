@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-3197.1</RequestNumber><ShortBillId>SB 6019</ShortBillId><LongBillId>SENATE BILL 6019</LongBillId><Legislature>65th Legislature</Legislature><Session>2018 Regular Session</Session><Sponsors>Senator Fortunato</Sponsors><BillHistory><PrefiledDate>Prefiled 12/12/17.</PrefiledDate></BillHistory><BriefDescription>Exempting electronic tolling passes from sales and use taxes.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to exempting electronic tolling passes from sales and use taxes; adding a new section to chapter 82.08 RCW; adding a new section to chapter 82.12 RCW; creating a new section; and providing an effective date.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>82</TitleNumber><TextRun>.</TextRun><ChapterNumber>08</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) The tax levied under RCW 82.08.020 does not apply to the sale of tangible personal property that is used in a vehicle as part of an electronic toll collection system.</P>
+<P>(2) For purposes of this section:</P>
+<P>(a) "Electronic toll collection system" means a system operated by the department of transportation that collects tolls by crediting or debiting funds from a customer's unique prepaid tolling account.</P>
+<P>(b) "Vehicle" has the same meaning as provided in RCW 46.04.670.</P>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>82</TitleNumber><TextRun>.</TextRun><ChapterNumber>12</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>This chapter does not apply to the use of tangible personal property that is used in a vehicle as part of an electronic toll collection system. The definitions in section 1 of this act apply to this section.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>The department of revenue must refund any taxes that were levied under chapter 82.08 or 82.12 RCW within one year before the effective date of this section on the sales or use of tangible personal property that is used in a vehicle as part of an electronic toll collection system.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="effdate">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act takes effect July 1, 2018.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

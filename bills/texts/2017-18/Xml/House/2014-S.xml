@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-1885.2</RequestNumber><ShortBillId>SHB 2014</ShortBillId><LongBillId>SUBSTITUTE HOUSE BILL 2014</LongBillId><Legislature>65th Legislature</Legislature><Session>2017 Regular Session</Session><Sponsors>House Early Learning &amp; Human Services (originally sponsored by Representatives Macri, DeBolt, Pellicciotti, Kilduff, Robinson, Hudgins, Stonier, Sawyer, Jinkins, Lovick, Ortiz-Self, Tarleton, Young, McBride, Ormsby, Stanford, Doglio, Slatter, Santos, and Fey)</Sponsors><BillHistory><ReadDate>READ FIRST TIME 02/17/17.</ReadDate></BillHistory><BriefDescription>Collecting data on hunger in Washington state.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to collecting data on hunger in Washington state; adding a new section to chapter 43.70 RCW; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>INTENT. The legislature recognizes that hunger and food insecurity affect a significant number of families and single adults in Washington. The legislature recognizes that data on the extent of food insecurity and the reach of key nutrition programs is currently inadequate and will be improved through use of existing survey platforms and data collection by key state agencies. The legislature further recognizes that the department of health collects disaggregated data on race and ethnicity consistent with categories defined by the United States census bureau in its administration of the behavioral risk factor surveillance system survey. It is the goal of the legislature to increase data disaggregation and alignment across state agencies. Therefore, the legislature intends to establish that it is the responsibility of the department of health to conduct research on food insecurity in Washington.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>70</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1)(a) Beginning in 2018 and every year thereafter, the department shall add the United States department of agriculture two-question food insecurity screen to the behavioral risk factor surveillance system survey.</P>
+<P>(b) The department shall gather a sufficient number of responses to the two food insecurity survey questions to gather a sample size as needed to produce county level data every even-numbered year, and as feasible in the least populous counties while complying with department and centers for disease control and prevention guidelines for protecting respondent privacy in survey data.</P>
+<P>(c) The department shall gather a sufficient number of responses to the two food insecurity survey questions to disaggregate respondents by race and ethnicity of the participants and other subgroups to the extent possible based on existing data sets available to the department and other state agencies, including but not limited to data collected by the office of the superintendent of public instruction under RCW 28A.300.042. The department shall expand the sample size as needed to produce state level data every even-numbered year while complying with department and centers for disease control and prevention guidelines for protecting respondent privacy in survey data.</P>
+<P>(2)(a) Beginning in 2020 and annually thereafter, the department shall produce a report on ongoing United States department of agriculture funded nutrition assistance programs in Washington state.</P>
+<P>(b) The report must include information from state agencies that administer an ongoing United States department of agriculture funded nutrition assistance program, including the department of social and health services, the department of health, the office of the superintendent of public instruction, and the Washington state department of agriculture. The information collected must include, but is not limited to, the following:</P>
+<P>(i) The number of people in Washington who are eligible for the program;</P>
+<P>(ii) The number of people in Washington who participated in the program;</P>
+<P>(iii) The average annual participation rate in the program;</P>
+<P>(iv) Participation rates by geographic distribution;</P>
+<P>(v) The annual federal funding of the program in Washington; and</P>
+<P>(vi) Other criteria as required by (c) of this subsection.</P>
+<P>(c) By January 1, 2020, the department, in consultation with advocacy groups and experts that focus on hunger and poverty issues, academic experts in poverty and nutrition issues, advocacy groups and experts in race issues, community-based organizations that administer federal nutrition programs, tribal governments, and families impacted by poverty, shall develop additional criteria including, but not limited to:</P>
+<P>(i) Performance benchmarks for programs in Washington state, with a focus on existing benchmarks;</P>
+<P>(ii) Geography;</P>
+<P>(iii) Socioeconomic characteristics of households; and</P>
+<P>(iv) Degree of disaggregation of racial and ethnic groups.</P>
+<P>(d) The department shall provide the report to the appropriate committees of the legislature and to the governor by December 31, 2020, and annually thereafter.</P>
+</BillSection>
+</BillBody>
+</Bill>

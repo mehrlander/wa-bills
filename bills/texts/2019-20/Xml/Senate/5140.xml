@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-0242.1</RequestNumber><ShortBillId>SB 5140</ShortBillId><LongBillId>SENATE BILL 5140</LongBillId><Legislature>66th Legislature</Legislature><Session>2019 Regular Session</Session><Sponsors>Senators Honeyford, Hunt, Van De Wege, and Fortunato</Sponsors><BillHistory><PrefiledDate>Prefiled 01/11/19.</PrefiledDate><ReadDate>Read first time 01/14/19.</ReadDate><ReferredCommittee>Referred to Committee on State Government, Tribal Relations &amp; Elections.</ReferredCommittee></BillHistory><BriefDescription>Concerning uniform standard time for the state of Washington.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to uniform standard time for the state of Washington; adding a new section to chapter 1.20 RCW; adding a new section to chapter 43.330 RCW; creating a new section; and repealing RCW 1.20.051.</BillTitle>
+<EnactedClause />
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature finds that the state of Washington would benefit from the consistency and predictability of observing a standard time throughout the calendar year. Research has shown that changing to and from daylight saving time twice per year has negative impacts on public health, increases traffic accidents and crime, disrupts agriculture scheduling, and hinders economic growth. Scientific studies have connected a number of health consequences with the act of switching between standard time and daylight saving time, including greater risks of heart attacks, more frequent workplace injuries, and increased suicide rates in the days immediately following the switch. In addition, there are other political subdivisions within the United States that are petitioning congress for year-round daylight saving time or have changed their time zone over the years to create more consistency across the United States for convenience of commerce. Therefore, the legislature intends to seek authorization through the United States congress to observe daylight saving time year-round; and also review the potential impact the time zone has on communities along the border between Washington and other states and between Canada and Washington to determine whether the state should seek authorization through the United States department of transportation to change Washington state to mountain standard time year-round if year-round daylight saving time is not authorized by congress.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>1</TitleNumber><TextRun>.</TextRun><ChapterNumber>20</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) The standard time for the state of Washington is the zone designated by the United States department of transportation for the state of Washington under the uniform time act, 15 U.S.C. Secs. 261 and 263, as determined by reference to coordinated universal time.</P>
+<P>(2) The standard time within the state shall advance by one hour commencing at two o'clock antemeridian on the second Sunday in March each year and ending at two o'clock antemeridian on the first Sunday in November each year.</P>
+<P>(3) If the United States congress amends 15 U.S.C. Sec. 260a to authorize states to observe daylight saving time year-round, it is the intent of the legislature that daylight saving time be the year-round standard time of the entire state and all of its political subdivisions.</P>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>330</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) The department is directed to review impacts the state time zone and daylight saving time have on commerce in the state of Washington.</P>
+<P>(2) Beginning December 1, 2019, and every two years thereafter, the department must report its findings and recommendations regarding a change in the state time zone to the appropriate committees of the legislature. The report must include:</P>
+<P>(a) A summary of changes in the time zones of other political subdivisions that may affect convenience of commerce in Washington state;</P>
+<P>(b) The percentage of residents that work outside of Washington state or leave their community for schooling and what state or standard of time is observed in the places where they go for these purposes;</P>
+<P>(c) An overview of where businesses get their supplies and ship their goods or products;</P>
+<P>(d) A summary of locations that provide media services to each county in the state of Washington;</P>
+<P>(e) A summary of airport, bus, and passenger rail services provided to each community in the state; and</P>
+<P>(f) Other major elements of this state's economy and any plans for economic development in the state that may impact the convenience of commerce.</P>
+</BillSection>
+<BillSection type="new" action="repeal">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber><P><SectionCite><TextRun>RCW </TextRun><TitleNumber>1</TitleNumber><TextRun>.</TextRun><ChapterNumber>20</ChapterNumber><TextRun>.</TextRun><SectionNumber>051</SectionNumber></SectionCite> (Daylight saving time) and 2018 c 22 s 2, 1963 c 14 s 1, &amp; 1961 c 3 s 1 are each repealed.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

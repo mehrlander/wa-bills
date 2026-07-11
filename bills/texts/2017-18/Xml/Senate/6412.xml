@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-3457.1</RequestNumber><ShortBillId>SB 6412</ShortBillId><LongBillId>SENATE BILL 6412</LongBillId><Legislature>65th Legislature</Legislature><Session>2018 Regular Session</Session><Sponsors>Senator Chase</Sponsors><BillHistory /><BriefDescription>Regulating water pollution discharges under the national pollutant discharge elimination system permit program in a manner similar to that adopted by the environmental protection agency and other western states.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to regulating water pollution discharges under the national pollutant discharge elimination system permit program in a manner similar to that adopted by the environmental protection agency and other western states; adding a new section to chapter 90.48 RCW; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature finds that Washington stands as an outlier among neighboring states in its failure to apply clean water act regulatory authority to water quality discharges associated with small scale motorized mining, including impacts to water temperature and sediment discharge. Furthermore, because the federal clean water act laws allow third-party lawsuits, the state is at risk of litigation that could result in the loss of state discretion on how the activity should be regulated. Therefore, it is the intent of the legislature to direct the department of ecology to regulate water discharges from small scale motorized mining in a manner similar to how discharges from this activity are regulated by other western states and the environmental protection agency.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>90</TitleNumber><TextRun>.</TextRun><ChapterNumber>48</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) The department shall issue a national pollutant discharge elimination system general permit through its authority under RCW 90.48.260, or a general permit issued under the authority of this chapter, that applies to small scale motorized mining. The department may use permit provisions similar to those adopted in other western states or by the environmental protection agency.</P>
+<P>(2) Under the permit issued pursuant to this section, at minimum the department shall restrict small scale motorized mining:</P>
+<P>(a) In areas designated as critical habitat for steelhead, salmon, or bull trout listed as threatened or endangered under the federal endangered species act;</P>
+<P>(b) During other times and places as the department deems consistent with the requirements of this chapter; and</P>
+<P>(c) So as not to provide coverage under the permit for use of equipment with an intake nozzle with a diameter exceeding five inches or that uses an engine that exceeds fifteen horsepower.</P>
+<P>(3) In order to obtain coverage under a general permit issued pursuant to this section, an applicant must provide the dates and specific locations of activities that the applicant will commence under the permit, including the locations within individual rivers, streams, and tributaries.</P>
+<P>(4) Nothing in this section alters or limits the requirements of chapter 77.55 RCW.</P>
+</BillSection>
+</BillBody>
+</Bill>

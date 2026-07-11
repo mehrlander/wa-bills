@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-0785.2</RequestNumber><ShortBillId>SB 5379</ShortBillId><LongBillId>SENATE BILL 5379</LongBillId><Legislature>65th Legislature</Legislature><Session>2017 Regular Session</Session><Sponsors>Senators McCoy and Wellman</Sponsors><BillHistory><ReadDate>Read first time 01/20/17.</ReadDate><ReferredCommittee>Referred to Committee on State Government.</ReferredCommittee></BillHistory><BriefDescription>Constructing all new public buildings with cross-laminated timber.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to constructing all new public buildings with cross-laminated timber; amending RCW 39.04.010; and adding a new section to chapter 39.04 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>39</TitleNumber><TextRun>.</TextRun><ChapterNumber>04</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) All new public buildings that are twelve stories or less must, to the maximum extent practicable, be constructed with cross-laminated timber.</P>
+<P>(2) The department of enterprise services may grant a waiver to a public agency or a municipality from the requirements of subsection (1) of this section on the basis that the waiver is necessary due to the following reasons, including but not limited to:</P>
+<P>(a) Unavailability of building materials; or</P>
+<P>(b) Structural infeasibility.</P>
+<P>(3) The department of enterprise services may adopt rules to establish criteria for evaluating the need for a waiver under this section.</P>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>39</TitleNumber><TextRun>.</TextRun><ChapterNumber>04</ChapterNumber><TextRun>.</TextRun><SectionNumber>010</SectionNumber></SectionCite> and 2008 c 130 s 16 are each amended to read as follows:<Caption>Definitions.</Caption></BillSectionHeader>
+<P>The definitions in this section apply throughout this chapter unless the context clearly requires otherwise.</P>
+<P>(1) "Award" means the formal decision by the state or municipality notifying a responsible bidder with the lowest responsive bid of the state's or municipality's acceptance of the bid and intent to enter into a contract with the bidder.</P>
+<P>(2) "Contract" means a contract in writing for the execution of public work for a fixed or determinable amount duly awarded after advertisement and competitive bid, or a contract awarded under the small works roster process in RCW 39.04.155.</P>
+<P>(3) "Municipality" means every city, county, town, port district, district, or other public agency authorized by law to require the execution of public work, except drainage districts, diking districts, diking and drainage improvement districts, drainage improvement districts, diking improvement districts, consolidated diking and drainage improvement districts, consolidated drainage improvement districts, consolidated diking improvement districts, irrigation districts, or other districts authorized by law for the reclamation or development of waste or undeveloped lands.</P>
+<P>(4) <TextRun amendingStyle="add">"Public building" means any building constructed at the cost of the state or of any municipality.</TextRun></P>
+<P><TextRun amendingStyle="add">(5)</TextRun> "Public work" means all work, construction, alteration, repair, or improvement other than ordinary maintenance, executed at the cost of the state or of any municipality, or which is by law a lien or charge on any property therein. All public works, including maintenance when performed by contract shall comply with chapter 39.12 RCW. "Public work" does not include work, construction, alteration, repair, or improvement performed under contracts entered into under RCW 36.102.060(4) or under development agreements entered into under RCW 36.102.060(7) or leases entered into under RCW 36.102.060(8).</P>
+<P><TextRun amendingStyle="strike">(5)</TextRun> <TextRun amendingStyle="add">(6)</TextRun> "Responsible bidder" means a contractor who meets the criteria in RCW 39.04.350.</P>
+<P><TextRun amendingStyle="strike">(6)</TextRun> <TextRun amendingStyle="add">(7)</TextRun> "State" means the state of Washington and all departments, supervisors, commissioners, and agencies of the state.</P>
+<History>2008 c 130 § 16; 2007 c 133 § 1; 2000 c 138 § 102; 1997 c 220 § 402 (Referendum Bill No. 48, approved June 17, 1997); 1993 c 174 § 1; 1989 c 363 § 5; 1986 c 282 § 1; 1982 c 98 § 1; 1977 ex.s. c 177 § 1; 1923 c 183 § 1; RRS § 10322-1.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Purpose<TextRun fontFamily="Times New Roman">—</TextRun>Part headings not law<TextRun fontFamily="Times New Roman">—</TextRun>2000 c 138:</TextRun> See notes following RCW 39.04.155.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Referendum<TextRun fontFamily="Times New Roman">—</TextRun>Other legislation limited<TextRun fontFamily="Times New Roman">—</TextRun>Legislators' personal intent not indicated<TextRun fontFamily="Times New Roman">—</TextRun>Reimbursements for election<TextRun fontFamily="Times New Roman">—</TextRun>Voters' pamphlet, election requirements<TextRun fontFamily="Times New Roman">—</TextRun>1997 c 220:</TextRun> See RCW 36.102.800 through 36.102.803.</NoteP></AnnNote>
+<CrossRefNote><NoteP>Municipalities<TextRun fontFamily="Times New Roman">—</TextRun>Energy audits and efficiency: RCW 43.19.691.</NoteP></CrossRefNote>
+</RCWNoteSection>
+</BillSection>
+</BillBody>
+</Bill>

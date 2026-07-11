@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-1528.1</RequestNumber><ShortBillId>2SHB 1205</ShortBillId><LongBillId>SECOND SUBSTITUTE HOUSE BILL 1205</LongBillId><Legislature>68th Legislature</Legislature><Session>2023 Regular Session</Session><Sponsors>House Appropriations (originally sponsored by Representatives Taylor, Reed, and Senn)</Sponsors><BillHistory><ReadDate>READ FIRST TIME 02/24/23.</ReadDate></BillHistory><BriefDescription>Responsibility for providing service by publication of a summons or notice in dependency and termination of parental rights cases.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to responsibility for providing service by publication of a summons or notice in dependency and termination of parental rights cases; amending RCW 13.34.080; creating a new section; and providing an effective date.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>13</TitleNumber><TextRun>.</TextRun><ChapterNumber>34</ChapterNumber><TextRun>.</TextRun><SectionNumber>080</SectionNumber></SectionCite> and 2000 c 122 s 9 are each amended to read as follows:<Caption>Summons when petition filed<TextRun fontFamily="Times New Roman">—</TextRun>Publication of notice.</Caption></BillSectionHeader>
+<P>(1) The court shall direct the <TextRun amendingStyle="strike">clerk</TextRun> <TextRun amendingStyle="add">petitioner</TextRun> to publish notice in a legal newspaper <TextRun amendingStyle="strike">printed in the county, qualified to publish summons</TextRun><TextRun amendingStyle="add">, as described under RCW 65.16.020</TextRun>, once a week for three consecutive weeks, with the first publication of the notice to be at least twenty-five days prior to the date fixed for the hearing when it appears by the petition or verified statement that:</P>
+<P>(a)(i) The parent or guardian is a nonresident of this state; or</P>
+<P>(ii) The name or place of residence or whereabouts of the parent or guardian is unknown; and</P>
+<P>(b) After due diligence, the person attempting service of the summons or notice provided for in RCW 13.34.070 has been unable to make service, and a copy of the notice has been deposited in the post office, postage prepaid, directed to such person at his or her last known place of residence. If the parent, guardian, or legal custodian is believed to be a resident of another state or a county other than the county in which the petition has been filed, notice also shall be published in the county in which the parent, guardian, or legal custodian is believed to reside.</P>
+<P>(2) Publication may proceed simultaneously with efforts to provide service in person or by mail, when the court determines there is reason to believe that service in person or by mail will not be successful. Notice shall be directed to the parent, parents, or other person claiming the right to the custody of the child, if their names are known. If their names are unknown, the phrase "To whom it may concern" shall be used, apply to, and be binding upon, those persons whose names are unknown. The name of the court, the name of the child (or children if of one family), the date of the filing of the petition, the date of hearing, and the object of the proceeding in general terms shall be set forth. There shall be filed with the clerk an affidavit showing due publication of the notice. <TextRun amendingStyle="strike">The</TextRun></P>
+<P><TextRun amendingStyle="add">(3)(a) Except as provided in (b) of this subsection, the</TextRun> cost of publication shall be paid by the <TextRun amendingStyle="strike">county</TextRun> <TextRun amendingStyle="add">petitioner</TextRun> at a rate not greater than the rate paid for other legal notices.</P>
+<P><TextRun amendingStyle="add">(b) If the petitioner is a minor child or the court finds that the petitioner is an indigent parent or legal guardian, the cost of publication shall be paid or reimbursed by the office of civil legal aid where the petitioner is a minor child, or the office of public defense where the petitioner is a parent or legal guardian, pursuant to procedures set by each agency.</TextRun></P>
+<P><TextRun amendingStyle="add">(4)</TextRun> The publication of notice shall be deemed equivalent to personal service upon all persons, known or unknown, who have been designated as provided in this section.</P>
+<History>2000 c 122 § 9; 1990 c 246 § 3; 1988 c 201 § 1; 1979 c 155 § 41; 1977 ex.s. c 291 § 36; 1961 c 302 § 4; 1913 c 160 § 7; RRS § 1987-7. Formerly RCW 13.04.080.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Severability<TextRun fontFamily="Times New Roman">—</TextRun>1990 c 246:</TextRun> See note following RCW 13.34.060.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>Severability<TextRun fontFamily="Times New Roman">—</TextRun>1979 c 155:</TextRun> See notes following RCW 13.04.011.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective dates<TextRun fontFamily="Times New Roman">—</TextRun>Severability<TextRun fontFamily="Times New Roman">—</TextRun>1977 ex.s. c 291:</TextRun> See notes following RCW 13.04.005.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>If specific funding for the purposes of this act, referencing this act by bill or chapter number, is not provided by June 30, 2023, in the omnibus appropriations act, this act is null and void.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="effdate">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act takes effect January 1, 2024.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

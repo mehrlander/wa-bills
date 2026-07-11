@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-0623.1</RequestNumber><ShortBillId>SB 5238</ShortBillId><LongBillId>SENATE BILL 5238</LongBillId><Legislature>65th Legislature</Legislature><Session>2017 Regular Session</Session><Sponsors>Senators Warnick, Becker, Wellman, Rolfes, Zeiger, Angel, Chase, Hasegawa, and Sheldon</Sponsors><BillHistory><ReadDate>Read first time 01/18/17.</ReadDate><ReferredCommittee>Referred to Committee on Early Learning &amp; K-12 Education.</ReferredCommittee></BillHistory><BriefDescription>Requiring that cursive writing be taught in common schools.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to requiring that cursive writing be taught in common schools; amending RCW 28A.230.020; and adding a new section to chapter 28A.230 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>28A</TitleNumber><TextRun>.</TextRun><ChapterNumber>230</ChapterNumber><TextRun>.</TextRun><SectionNumber>020</SectionNumber></SectionCite> and 2013 c 23 s 48 are each amended to read as follows:<Caption>Common school curriculum.</Caption></BillSectionHeader>
+<P>All common schools shall give instruction in reading, handwriting <TextRun amendingStyle="add">including cursive writing</TextRun>, orthography, written and mental arithmetic, geography, the history of the United States, English grammar, physiology and hygiene with special reference to the effects of alcohol and drug abuse on the human system, science with special reference to the environment, and such other studies as may be prescribed by rule of the superintendent of public instruction. All teachers shall stress the importance of the cultivation of manners, the fundamental principles of honesty, honor, industry and economy, the minimum requisites for good health including the beneficial effect of physical exercise and methods to prevent exposure to and transmission of sexually transmitted diseases, and the worth of kindness to all living creatures and the land. The prevention of child abuse may be offered as part of the curriculum in the common schools.</P>
+<History>2013 c 23 § 48; 2006 c 263 § 414; 1991 c 116 § 6; 1988 c 206 § 403; 1987 c 232 § 1; 1986 c 149 § 4; 1969 c 71 § 3; 1969 ex.s. c 223 § 28A.05.010. Prior: 1909 p 262 § 2; RRS § 4681; prior: 1897 c 118 § 65; 1895 c 5 § 1; 1890 p 372 § 45; 1886 p 19 § 52. Formerly RCW 28A.05.010, 28.05.010, and 28.05.020.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Findings<TextRun fontFamily="Times New Roman">—</TextRun>Purpose<TextRun fontFamily="Times New Roman">—</TextRun>Part headings not law<TextRun fontFamily="Times New Roman">—</TextRun>2006 c 263:</TextRun> See notes following RCW 28A.150.230.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>1988 c 206 §§ 402, 403:</TextRun> See note following RCW 28A.230.070.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Severability<TextRun fontFamily="Times New Roman">—</TextRun>1988 c 206:</TextRun> See RCW 70.24.900.</NoteP></AnnNote>
+<CrossRefNote><NoteP>Child abuse and neglect<TextRun fontFamily="Times New Roman">—</TextRun>Development of primary prevention program: RCW 28A.300.160.</NoteP></CrossRefNote>
+<CrossRefNote><NoteP>Districts to develop programs and establish programs regarding child abuse and neglect prevention: RCW 28A.230.080.</NoteP></CrossRefNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>28A</TitleNumber><TextRun>.</TextRun><ChapterNumber>230</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>Beginning the effective date of this section, when a school district board of directors reviews or adopts its English language arts curriculum, it shall incorporate curricula to teach cursive writing.</P>
+</BillSection>
+</BillBody>
+</Bill>

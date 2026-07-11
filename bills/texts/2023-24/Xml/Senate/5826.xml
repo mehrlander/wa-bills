@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-3439.1</RequestNumber><ShortBillId>SB 5826</ShortBillId><LongBillId>SENATE BILL 5826</LongBillId><Legislature>68th Legislature</Legislature><Session>2024 Regular Session</Session><Sponsors>Senators MacEwen, Boehnke, Gildon, Holy, McCune, Short, Wagoner, and L. Wilson</Sponsors><BillHistory><PrefiledDate>Prefiled 12/11/23.</PrefiledDate><ReadDate>Read first time 01/08/24.</ReadDate><ReferredCommittee>Referred to Committee on Environment, Energy &amp; Technology.</ReferredCommittee></BillHistory><BriefDescription>Requiring customer charges to be listed on utility billing statements if the charges are a result of implementing the Washington climate commitment act.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to requiring customer charges to be listed on utility billing statements if the charges are a result of implementing the Washington climate commitment act; adding a new section to chapter 80.28 RCW; creating a new section; and declaring an emergency.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature finds that electrical or gas companies may seek to recover the costs of implementing the Washington climate commitment act, which may result in ballooning future rate increases for customers. The legislature recognizes that the utilities and transportation commission may allow for the recovery of such costs through a charge to customers. Therefore, to promote transparency for the public, the legislature intends to require the utilities and transportation commission and utility companies to list on billing statements all approved charges related to the implementation of the climate commitment act.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>80</TitleNumber><TextRun>.</TextRun><ChapterNumber>28</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) Upon request by an electrical or gas company, the commission may approve a tariff schedule that contains rates or charges to recover the costs of implementing the requirements of the climate commitment act under chapter 70A.65 RCW.</P>
+<P>(2) For any tariff schedule approved under this section resulting in a rate increase, the commission shall require the electrical or gas company to include the corresponding rate increase or charge as a line item on the billing statement for each utility customer.</P>
+</BillSection>
+<BillSection type="new" action="emerg" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act is necessary for the immediate preservation of the public peace, health, or safety, or support of the state government and its existing public institutions, and takes effect immediately.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

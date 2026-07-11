@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-0639.1</RequestNumber><ShortBillId>SB 5514</ShortBillId><LongBillId>SENATE BILL 5514</LongBillId><Legislature>68th Legislature</Legislature><Session>2023 Regular Session</Session><Sponsors>Senators Lovick, Saldaña, Frame, Stanford, Liias, Billig, Nguyen, Pedersen, Valdez, and C. Wilson</Sponsors><BillHistory><ReadDate>Read first time 01/23/23.</ReadDate><ReferredCommittee>Referred to Committee on Transportation.</ReferredCommittee></BillHistory><BriefDescription>Prohibiting drivers from making a right turn within proximity of certain facilities.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to prohibiting drivers from making a right turn within proximity of certain facilities; adding a new section to chapter 46.61 RCW; creating a new section; providing an effective date; and providing an expiration date.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>46</TitleNumber><TextRun>.</TextRun><ChapterNumber>61</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) A vehicle operator facing a steady circular red signal or red arrow at a controlled intersection may not proceed to make a right turn from a one-way or two-way street into a two-way street or into a one-way street carrying traffic in the direction of the right turn at any such intersection within 1,000 feet of the following facilities:</P>
+<P>(a) Elementary or secondary school;</P>
+<P>(b) Child care center;</P>
+<P>(c) Public park or playground;</P>
+<P>(d) Recreation center or facility;</P>
+<P>(e) Library;</P>
+<P>(f) Public transit center;</P>
+<P>(g) Hospital;</P>
+<P>(h) Senior center; and</P>
+<P>(i) Any other facility with high levels of pedestrian traffic as determined by the appropriate local jurisdiction or the department of transportation.</P>
+<P>(2) The appropriate local jurisdiction or department of transportation must erect signage at each affected controlled intersection.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) The Washington traffic safety commission must develop a statewide public awareness campaign to inform and educate Washington citizens about the prohibition of right turns on red in certain intersections under section 1 of this act. The educational campaign must include the use of public service announcements and written and digital informative and educational materials distributed by reasonable means. The Washington traffic safety commission and the department of transportation, working independently or in collaboration or both, must develop the public awareness campaign using any available resources, as well as federal and other grant funds that may, from time to time, become available for this purpose.</P></BillSectionHeader>
+<P>(2) This section expires July 1, 2026.</P>
+</BillSection>
+<BillSection type="new" action="effdate" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act takes effect July 1, 2024.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

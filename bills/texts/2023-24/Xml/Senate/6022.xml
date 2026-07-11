@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-3682.1</RequestNumber><ShortBillId>SB 6022</ShortBillId><LongBillId>SENATE BILL 6022</LongBillId><Legislature>68th Legislature</Legislature><Session>2024 Regular Session</Session><Sponsors>Senators Fortunato, Lovick, and Padden</Sponsors><BillHistory><PrefiledDate>Prefiled 01/05/24.</PrefiledDate><ReadDate>Read first time 01/08/24.</ReadDate><ReferredCommittee>Referred to Committee on Ways &amp; Means.</ReferredCommittee></BillHistory><BriefDescription>Concerning retirement medical trust plans for law enforcement officers.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to retirement medical trust plans for law enforcement officers; adding a new section to chapter 41.12 RCW; adding a new section to chapter 41.14 RCW; and making an appropriation.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>41</TitleNumber><TextRun>.</TextRun><ChapterNumber>12</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) Except as provided in subsection (3) of this section, each police department covered by this chapter shall establish a retirement medical trust plan, which includes a health reimbursement account for postemployment medical expenses that qualify under section 213(d) of the federal internal revenue code, for each commissioned officer.</P>
+<P>(2) At a minimum the employer must make the following contributions to each employees' account:</P>
+<P>(a) $75 to the account of each full-time commissioned officer;</P>
+<P>(b) The cash value of the employees' unused accumulated sick leave at the time that the employee separates from service; and</P>
+<P>(c) Any state funds distributed to the employer for this purpose.</P>
+<P>(3) Departments that provide health reimbursement accounts that meet the requirements in subsections (1) and (2) of this section are not subject to the requirements of this section.</P>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>41</TitleNumber><TextRun>.</TextRun><ChapterNumber>14</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) Except as provided in subsection (3) of this section, each sheriff's department covered by this chapter shall establish a retirement medical trust plan, which includes a health reimbursement account for postemployment medical expenses that qualify under section 213(d) of the federal internal revenue code, for each commissioned officer.</P>
+<P>(2) At a minimum the employer must make the following contributions to each employees' account:</P>
+<P>(a) $75 to the account of each full-time commissioned officer;</P>
+<P>(b) The cash value of the employees' unused accumulated sick leave at the time that the employee separates from service; and</P>
+<P>(c) Any state funds distributed to the employer for this purpose.</P>
+<P>(3) Departments that provide health reimbursement accounts that meet the minimum requirements in subsections (1) and (2) of this section are not subject to the requirements of this section.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>The sum of $50,000,000 is appropriated for the fiscal year ending June 30, 2025, from the general fund to the law enforcement officers' and firefighters' plan 2 retirement board. The amount appropriated in this section is provided solely for distributions to cities and counties for deposit to health reimbursement accounts of full-time commissioned law enforcement officers. Funds must be distributed based on criteria developed by the board. When developing criteria the board must consider policies that support recruitment and retention. In order to be eligible for distributions, a commissioned officer must be at least age 50 and have 10 or more years of commissioned service.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

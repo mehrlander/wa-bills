@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-3533.1</RequestNumber><ShortBillId>HB 2761</ShortBillId><LongBillId>HOUSE BILL 2761</LongBillId><Legislature>66th Legislature</Legislature><Session>2020 Regular Session</Session><Sponsors>Representatives Hudgins, Kloba, Wylie, Slatter, Pollet, Santos, and Young</Sponsors><BillHistory><ReadDate>Read first time 01/21/20.</ReadDate><ReferredCommittee>Referred to Committee on Public Safety.</ReferredCommittee></BillHistory><BriefDescription>Concerning the legislative oversight of technology acquisition and use by law enforcement.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to the legislative oversight of technology acquisition and use by law enforcement; and adding a new chapter to Title 10 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) A law enforcement agency may not procure or use facial recognition technology without the explicit approval of its respective legislative authority, given for that specific technology to be used for a specific purpose.</P></BillSectionHeader>
+<P>(2)(a) A legislative authority shall provide notice and opportunity for public comment before approving the procurement or use of facial recognition technology under subsection (1) of this section.</P>
+<P>(b) The notice and authorization provided by the legislative authority shall: (i) Specify the authorized purpose for using the technology; (ii) specify requirements designed to appropriately limit the use of the technology for its intended purpose; and (iii) establish a process for periodically reviewing the law enforcement agency's compliance with the requirements of the authorization and this section.</P>
+<P>(3) For the purposes of this section:</P>
+<P>(a) "Facial recognition technology" means technology that analyzes facial features for the unique personal identification of natural persons in still or video images. "Facial recognition" includes, but is not limited to:</P>
+<P>(i) The automated or semiautomated process by which a person is identified or attempted to be identified based on the characteristics of the person's face, including identification of known or unknown persons or groups; and</P>
+<P>(ii) The automated or semiautomated process by which the characteristics of a person's face are analyzed to determine the person's sentiment, state of mind, or other propensities.</P>
+<P>(b) "Law enforcement agency" means any "general authority Washington law enforcement agency" or "limited authority Washington law enforcement agency" as those terms are defined in RCW 10.93.020.</P>
+<P>(c) "Legislative authority" means the respective city or county council, commission, or other body in which legislative powers are vested. For a state agency, "legislative authority" refers to the state legislature.</P>
+</BillSection>
+<BillSection type="new" action="addchap" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>Section 1 of this act constitutes a new chapter in <TitleCite><TextRun>Title </TextRun><TitleNumber>10</TitleNumber><TextRun> RCW</TextRun></TitleCite>.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

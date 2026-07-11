@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-3058.1</RequestNumber><ShortBillId>HB 2693</ShortBillId><LongBillId>HOUSE BILL 2693</LongBillId><Legislature>65th Legislature</Legislature><Session>2018 Regular Session</Session><Sponsors>Representatives Volz, Lovick, Schmick, Orwall, Irwin, Holy, Maycumber, Buys, Muri, Hargrove, Condotta, and Stanford</Sponsors><BillHistory><ReadDate>Read first time 01/12/18.</ReadDate><ReferredCommittee>Referred to Committee on Appropriations.</ReferredCommittee></BillHistory><BriefDescription>Increasing the mandatory retirement age for Washington state patrol officers.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to increasing the mandatory retirement age for Washington state patrol officers; amending RCW 43.43.250; and providing an effective date.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>43</ChapterNumber><TextRun>.</TextRun><SectionNumber>250</SectionNumber></SectionCite> and 2007 c 87 s 1 are each amended to read as follows:<Caption>Retirement of members.</Caption></BillSectionHeader>
+<P>(1)<TextRun amendingStyle="strikemarkleft">(a) Until July 1, 2007, any member who has attained the age of sixty years shall be retired on the first day of the calendar month next succeeding that in which the member has attained the age of sixty. However, the requirement to retire at age sixty does not apply to a member serving as chief of the Washington state patrol.</TextRun></P>
+<P><TextRun amendingStyle="strikemarkright">(b) Beginning July 1, 2007,</TextRun> <TextRun amendingStyle="add">A</TextRun>ny active member who has obtained the age of <TextRun amendingStyle="strike">sixty-five</TextRun> <TextRun amendingStyle="add">sixty-eight</TextRun> years shall be retired on the first day of the calendar month next succeeding that in which the member has attained the age of <TextRun amendingStyle="strike">sixty-five</TextRun> <TextRun amendingStyle="add">sixty-eight</TextRun>. However, the requirement to retire at age <TextRun amendingStyle="strike">sixty-five</TextRun> <TextRun amendingStyle="add">sixty-eight</TextRun> does not apply to a member serving as chief of the Washington state patrol.</P>
+<P>(2) Any member who has completed twenty-five years of credited service or has attained the age of fifty-five may apply to retire as provided in RCW 43.43.260, by completing and submitting an application form to the department, setting forth at what time the member desires to be retired.</P>
+<History>2007 c 87 § 1; 1982 1st ex.s. c 52 § 26; 1975<Hyphen type="nobreak" />'76 2nd ex.s. c 116 § 1; 1969 c 12 § 3; 1965 c 8 § 43.43.250. Prior: 1963 c 175 § 1; 1957 c 162 § 3; 1951 c 140 § 4; 1947 c 250 § 14; Rem. Supp. 1947 § 6362<Hyphen type="nobreak" />94.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective dates<TextRun fontFamily="Times New Roman">—</TextRun>1982 1st ex.s. c 52:</TextRun> See note following RCW 2.10.180.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Construction<TextRun fontFamily="Times New Roman">—</TextRun>1969 c 12:</TextRun> See note following RCW 43.43.120.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="new" action="effdate">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act takes effect July 1, 2018.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

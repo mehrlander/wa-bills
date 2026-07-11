@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-4054.1</RequestNumber><ShortBillId>SB 6495</ShortBillId><LongBillId>SENATE BILL 6495</LongBillId><Legislature>65th Legislature</Legislature><Session>2018 Regular Session</Session><Sponsors>Senators Becker and Cleveland</Sponsors><BillHistory /><BriefDescription>Expanding the extension for community healthcare outcomes program.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to expanding the extension for community healthcare outcomes program; adding a new section to chapter 28B.20 RCW; creating a new section; and making an appropriation.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>It is the intent of the legislature to expand the extension for community healthcare outcomes program (project ECHO) throughout the region. The legislature further intends for the funding to be ongoing to sustain project ECHO and connect medical specialists in several specialties with primary care providers across the region using technology and case consultation.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>28B</TitleNumber><TextRun>.</TextRun><ChapterNumber>20</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>The University of Washington medical school extension for community healthcare outcomes program shall report to the health care and fiscal committees of the legislature by January 1, 2019, and annually thereafter on the program's activities. The reports must include a summary of:</P>
+<P>(1) The number of primary care physicians, advanced registered nurse practitioners, registered nurses, physician assistants, and other health care professionals who received training and consultation services through the program during the preceding year in the specialties of:</P>
+<P>(a) Mental health care;</P>
+<P>(b) Diabetes treatment;</P>
+<P>(c) Telestroke care; and</P>
+<P>(d) Chronic pain management, including opioid disorder treatment; and</P>
+<P>(2) The number of continuing education hours that each profession could potentially accrue if continuing education credits are awarded for participation in the program.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>The sum of two million dollars, or as much thereof as may be necessary, is appropriated for the fiscal year ending June 30, 2019, from the general fund to the University of Washington for the purposes of expanding the extension for community healthcare outcomes program.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

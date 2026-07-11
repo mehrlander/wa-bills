@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-0617.1</RequestNumber><ShortBillId>HB 1420</ShortBillId><LongBillId>HOUSE BILL 1420</LongBillId><Legislature>67th Legislature</Legislature><Session>2021 Regular Session</Session><Sponsors>Representatives MacEwen, Rude, J. Johnson, Robertson, Jacobsen, and Pollet</Sponsors><BillHistory><ReadDate>Read first time 01/29/21.</ReadDate><ReferredCommittee>Referred to Committee on Health Care &amp; Wellness.</ReferredCommittee></BillHistory><BriefDescription>Ensuring that critical school employees receive priority for receipt of the COVID-19 vaccine.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to ensuring that critical school employees receive priority for receipt of the COVID-19 vaccine; adding a new section to chapter 70.54 RCW; and declaring an emergency.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>70</TitleNumber><TextRun>.</TextRun><ChapterNumber>54</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) Any criteria used by the state to allocate vaccine doses for the COVID-19 virus must include the following persons in the category of critical workers given first priority for receipt of the vaccine:</P>
+<P>(a) Public and private school teachers;</P>
+<P>(b) Classified on-site public school staff; and</P>
+<P>(c) Private school employees who are the equivalent of classified on-site public school staff.</P>
+<P>(2) This section supersedes any allocation criteria issued by the state prior to the effective date of this section.</P>
+</BillSection>
+<BillSection type="new" action="emerg" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act is necessary for the immediate preservation of the public peace, health, or safety, or support of the state government and its existing public institutions, and takes effect immediately.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

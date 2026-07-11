@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-5927.1</RequestNumber><ShortBillId>SB 6685</ShortBillId><LongBillId>SENATE BILL 6685</LongBillId><Legislature>66th Legislature</Legislature><Session>2020 Regular Session</Session><Sponsors>Senators Das, Kuderer, Darneille, Saldaña, Wilson, C., Lovelett, Nguyen, and Billig</Sponsors><BillHistory /><BriefDescription>Requiring health insurance coverage for annual mental wellness exams.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to requiring health insurance coverage for an annual mental wellness examination performed by a qualified mental health care provider; adding a new section to chapter 48.43 RCW; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature finds and determines that:</P></BillSectionHeader>
+<P>(1) Prevention and early identification of mental health issues can lead to better outcomes for families and all people throughout their lives;</P>
+<P>(2) Mental health conditions that occur in youth before the age of six can interfere with emotional, cognitive, and physical development;</P>
+<P>(3) The number of aging adults who have a mental health condition is expected to double to fifteen million in the next two decades, leading to increased health care use and higher health care costs;</P>
+<P>(4) With an increase in suicide and the number of overdose deaths on the rise, it is imperative to increase access to preventive annual mental health wellness examinations;</P>
+<P>(5) Annual mental health wellness examinations help identify potential mental health issues early on and allow individuals to be offered services and supports to address their needs before an issue progresses or becomes a crisis;</P>
+<P>(6) Primary care providers are important in early detection of mental health issues but often lack the ability to provide adequate education, consultation, and treatment options to clients in need of further mental health support; and</P>
+<P>(7) Therefore, it is imperative that our system works to integrate and colocate mental health services in primary care settings and opens access to annual mental health wellness exams, starting at the prenatal phase through the end of life.</P>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>48</TitleNumber><TextRun>.</TextRun><ChapterNumber>43</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) Health plans issued or renewed after July 1, 2021, shall provide benefits or coverage for an annual mental health wellness examination of up to sixty minutes that is performed by a qualified mental health care provider. The coverage must:</P>
+<P>(a) Be comparable to the coverage of a physical examination;</P>
+<P>(b) Comply with the requirements of federal mental health parity laws; and</P>
+<P>(c) Not require any deductibles, copayments, or coinsurance for the mental health wellness examination.</P>
+<P>(2) For the purposes of this section:</P>
+<P>(a) "Mental health wellness examination" means an examination that includes services such as behavioral health screenings; education and consultation on healthy lifestyle changes; referrals to ongoing treatment, mental health services, and other supports; and discussion of potential options for medication.</P>
+<P>(b) "Qualified mental health care provider" means:</P>
+<P>(i) A physician licensed under chapter 18.71 RCW who has training in psychiatry or mental health;</P>
+<P>(ii) A physician assistant licensed under chapter 18.71A RCW who has training in psychiatry or mental health;</P>
+<P>(iii) An advanced registered nurse practitioner licensed under chapter 18.79 RCW who has training in psychiatry or mental health;</P>
+<P>(iv) A psychologist licensed under chapter 18.83 RCW;</P>
+<P>(v) A mental health counselor, marriage and family therapist, or clinical social worker licensed under chapter 18.225 RCW; or</P>
+<P>(vi) A substance use disorder professional or substance use disorder professional trainee under chapter 18.205 RCW.</P>
+</BillSection>
+</BillBody>
+</Bill>

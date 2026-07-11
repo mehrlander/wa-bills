@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-3359.1</RequestNumber><ShortBillId>HB 2759</ShortBillId><LongBillId>HOUSE BILL 2759</LongBillId><Legislature>66th Legislature</Legislature><Session>2020 Regular Session</Session><Sponsors>Representatives Hudgins, Wylie, Tarleton, Slatter, Kloba, Morgan, Valdez, Cody, Pollet, Santos, and Young</Sponsors><BillHistory><ReadDate>Read first time 01/21/20.</ReadDate><ReferredCommittee>Referred to Committee on Innovation, Technology &amp; Economic Development.</ReferredCommittee></BillHistory><BriefDescription>Creating a consumer data bill of rights.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to creating a consumer data bill of rights; and adding a new chapter to Title 19 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>SHORT TITLE.</SectionCaption><P>This act may be known and cited as the Washington consumer data bill of rights.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>DEFINITIONS.</SectionCaption><P>The definitions in this section apply throughout this chapter unless the context clearly requires otherwise.</P></BillSectionHeader>
+<P>(1) "Consumer" means a natural person who is a Washington state resident.</P>
+<P>(2) "Covered entity" means any natural or legal person, public authority, agency, or other body which, alone or jointly with others, processes personal data.</P>
+<P>(3) "Process" or "processing" means any operation or set of operations which is performed on personal data or on sets of personal data, whether or not by automated means, such as collection, recording, organization, structuring, storage, adaptation or alteration, retrieval, consultation, use, disclosure, dissemination or otherwise making available, alignment or combination, restriction, erasure, or destruction. "Process" or "processing" includes finding personal data published or placed on the internet by third parties, indexing it automatically, storing it, and making it available to internet users.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>DATA RIGHTS.</SectionCaption><P>A consumer retains ownership in the consumer's personal data collected or held by a covered entity, regardless of how the covered entity acquired that personal data, and has the following rights with regard to the consumer's personal data:</P></BillSectionHeader>
+<P>(1) The right to be secure against the collection or processing of personal data without the consumer's consent;</P>
+<P>(2) The right to limit the consumer's consent to the processing of personal data, including by setting a reasonable time constraint on the validity of the consent;</P>
+<P>(3) The right to revoke a previously given consent to the processing of personal data;</P>
+<P>(4) The right to have access to and knowledge of all collection and uses of personal data by a covered entity, including the knowledge of how personal data has been modified by the covered entity or a third party;</P>
+<P>(5) The right to obtain from a covered entity a copy of the personal data in a commonly used electronic form;</P>
+<P>(6) The right to correct inaccurate personal data;</P>
+<P>(7) Where context appropriate, the right to object to or restrict collection or processing of personal data, and to prohibit sharing or monetization of personal data;</P>
+<P>(8)(a) The right to have removed from the list of results displayed following an internet search made on the basis of a consumer's name links to online content that contains the consumer's personal data and that is inadequate, irrelevant or no longer relevant, or excessive in relation to the purposes for which the consumer's personal data was processed.</P>
+<P>(b) For purposes of this section, "inaccurate," "irrelevant," "inadequate," or "excessive" means content, which after a significant lapse in time from its first publication, is no longer material to current public debate or discourse, especially when considered in light of the financial, reputational, or demonstrable other harm that the content is causing to the consumer's professional, financial, reputational, or other interest, with the exception of content related to convicted felonies, legal matters relating to violence, or a matter that is or continues to be of significant public interest and to which the consumer's role is central and substantial;</P>
+<P>(9) The right to be secure against unreasonable, unexpected, or surreptitious data collection, surveillance, or behavior manipulation;</P>
+<P>(10) The right to not have personal data shared or processed in unexpected or harmful ways, or in a manner that is inconsistent with the consumer's consent;</P>
+<P>(11) The right to be secure against sharing of personal data with the government without a search warrant and due process;</P>
+<P>(12) The right to be anonymous and to not have personal data used to identify or reidentify an individual except pursuant to a court order in the course of a criminal investigation or where exigent circumstances exist;</P>
+<P>(13) The right to have personal data secured and protected from unauthorized access and to be notified in a timely manner when a security breach or unauthorized access of personal data is discovered;</P>
+<P>(14) The right to know what personal data is used by algorithms to make decisions about consumers, and to not be subject to an algorithmic bias or a decision based solely on the use of an algorithm or another probabilistic method where the decision produces legal effects concerning the consumer and where there is no meaningful human review;</P>
+<P>(15) The right to not be discriminated against or exploited on the basis of personal data or by an algorithm that uses personal data;</P>
+<P>(16) The right to service without the collection of data that is unnecessary for providing the requested service; and</P>
+<P>(17) The right to not be denied services or be discriminated against for choosing to exercise one's data rights.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>RESTRICTIONS.</SectionCaption><P>The rights provided in this chapter do not restrict a covered entity's ability to:</P></BillSectionHeader>
+<P>(1) Perform a contract to which the consumer is a party or take steps at the request of the consumer prior to entering into a contract;</P>
+<P>(2) Comply with federal, state, or local laws, rules, or regulations;</P>
+<P>(3) Comply with a civil, criminal, or regulatory inquiry, investigation, subpoena, or summons by federal, state, local, or other governmental authorities;</P>
+<P>(4) Establish, exercise, or defend legal claims;</P>
+<P>(5) Prevent, detect, or respond to security incidents; or</P>
+<P>(6) Protect against malicious, deceptive, fraudulent, or illegal activity, or identify, investigate, or prosecute those responsible for that illegal activity.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>5</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>SEVERABILITY.</SectionCaption><P>If any provision of this act or its application to any person or circumstance is held invalid, the remainder of the act or the application of the provision to other persons or circumstances is not affected.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addchap" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>6</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>CODIFICATION.</SectionCaption><P>Sections 1 through 4 of this act constitute a new chapter in <TitleCite><TextRun>Title </TextRun><TitleNumber>19</TitleNumber><TextRun> RCW</TextRun></TitleCite>.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

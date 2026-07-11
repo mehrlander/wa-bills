@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-0595.1</RequestNumber><ShortBillId>SB 5351</ShortBillId><LongBillId>SENATE BILL 5351</LongBillId><Legislature>67th Legislature</Legislature><Session>2021 Regular Session</Session><Sponsors>Senators Frockt, Nobles, Cleveland, Das, Hasegawa, Keiser, Kuderer, Lovelett, Nguyen, Randall, Salomon, and Wilson, C.</Sponsors><BillHistory><ReadDate>Read first time 01/26/21.</ReadDate><ReferredCommittee>Referred to Committee on Business, Financial Services &amp; Trade.</ReferredCommittee></BillHistory><BriefDescription>Concerning business interruption insurance claims.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to business interruption insurance claims; amending RCW 48.18.200 and 48.18.520; creating new sections; and declaring an emergency.</BillTitle>
+<EnactedClause />
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature finds that the novel coronavirus disease COVID-19 has had a devastating impact on small businesses in the state of Washington, particularly those ordered to close their doors and cease or limit operations under the state of emergency that the governor declared on February 29, 2020. Many of those small businesses hold insurance policies that include coverage to replace income lost due to loss of or damage to the business premises or other business property. However, insurers are broadly denying claims under those policies, arguing that "loss" and "damage" are synonymous and that no claims are merited absent a showing of actual physical damages to the premises.</P></BillSectionHeader>
+<P>The legislature notes that Washington state and federal courts that recently examined this issue have ruled clearly and unambiguously that the words "loss" and "damage" hold distinct meanings under Washington law in the context of business interruption insurance policies and should not be interpreted to render one word or the other superfluous. The legislature intends to codify this interpretation to provide greater clarity.</P>
+<P>The legislature also finds that a significant amount of inaccurate information continues to circulate regarding claims for business interruption insurance coverage, which, coupled with the ongoing effects of the pandemic, may cause some policyholders to fail to timely pursue valid claims. For this reason, the legislature intends to give policyholders additional time to challenge the denial of business interruption insurance claims.</P>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>48</TitleNumber><TextRun>.</TextRun><ChapterNumber>18</ChapterNumber><TextRun>.</TextRun><SectionNumber>200</SectionNumber></SectionCite> and 2019 c 427 s 29 are each amended to read as follows:<Caption>Limiting actions, jurisdiction.</Caption></BillSectionHeader>
+<P>(1) Except as provided by subsection (3) of this section, no insurance contract delivered or issued for delivery in this state and covering subjects located, resident, or to be performed in this state, shall contain any condition, stipulation, or agreement</P>
+<P>(a) requiring it to be construed according to the laws of any other state or country except as necessary to meet the requirements of the motor vehicle financial responsibility laws of such other state or country; or</P>
+<P>(b) depriving the courts of this state of the jurisdiction of action against the insurer; or</P>
+<P>(c) limiting right of action against the insurer to a period of less than <TextRun amendingStyle="strike">one year</TextRun> <TextRun amendingStyle="add">two years</TextRun> from the time when the cause of action accrues in connection with all insurances other than property and marine and transportation insurances. In contracts of property insurance, or of marine and transportation insurance, such limitation shall not be to a period of less than <TextRun amendingStyle="strike">one year</TextRun> <TextRun amendingStyle="add">two years</TextRun> from the date of the loss.</P>
+<P>(2) Any such condition, stipulation, or agreement in violation of this section shall be void, but such voiding shall not affect the validity of the other provisions of the contract.</P>
+<P>(3) For purposes of out-of-network payment disputes between a health carrier and health care provider covered under the provisions of chapter 48.49 RCW, the arbitration provisions of chapter 48.49 RCW apply.</P>
+<History>2019 c 427 § 29; 1947 c 79 § .18.20; Rem. Supp. 1947 § 45.18.20.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Findings<TextRun fontFamily="Times New Roman">—</TextRun>Intent<TextRun fontFamily="Times New Roman">—</TextRun>Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2019 c 427:</TextRun> See RCW 48.49.003 and 48.49.900.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>48</TitleNumber><TextRun>.</TextRun><ChapterNumber>18</ChapterNumber><TextRun>.</TextRun><SectionNumber>520</SectionNumber></SectionCite> and 1947 c 79 s .18.52 are each amended to read as follows:<Caption>Construction of policies.</Caption></BillSectionHeader>
+<P><TextRun amendingStyle="add">(1)</TextRun> Every insurance contract shall be construed according to the entirety of its terms and conditions as set forth in the policy, and as amplified, extended, or modified by any rider, endorsement, or application attached to and made a part of the policy.</P>
+<P><TextRun amendingStyle="add">(2) Every property insurance policy containing a grant of coverage for direct physical loss of or damage to property shall be construed to include the deprivation of such property and the loss of the ability to use such property.</TextRun></P>
+<History>1947 c 79 § .18.52; Rem. Supp. 1947 § 45.18.52.</History>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act applies to all causes of action commenced on or after the effective date of this section, regardless of when the cause of action arose. To this extent, this act applies retroactively to February 29, 2020, when Governor Jay Inslee issued Proclamation 20-05, proclaiming a state of emergency for all counties throughout the state of Washington as a result of the COVID-19 outbreak in the United States. In all other respects this act applies prospectively.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="emerg">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>5</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act is necessary for the immediate preservation of the public peace, health, or safety, or support of the state government and its existing public institutions, and takes effect immediately.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

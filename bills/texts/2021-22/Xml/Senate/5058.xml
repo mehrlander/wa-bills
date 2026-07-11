@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>Z-0166.1</RequestNumber><ShortBillId>SB 5058</ShortBillId><LongBillId>SENATE BILL 5058</LongBillId><Legislature>67th Legislature</Legislature><Session>2021 Regular Session</Session><Sponsors>Senators Rolfes and Van De Wege; by request of Department of Fish and Wildlife</Sponsors><BillHistory><PrefiledDate>Prefiled 01/05/21.</PrefiledDate><ReadDate>Read first time 01/11/21.</ReadDate><ReferredCommittee>Referred to Committee on Agriculture, Water, Natural Resources &amp; Parks.</ReferredCommittee></BillHistory><BriefDescription>Making technical changes to certain natural resources-related accounts.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to making technical changes to certain natural resources-related accounts; amending RCW 77.36.170; providing an effective date; and declaring an emergency.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>77</TitleNumber><TextRun>.</TextRun><ChapterNumber>36</ChapterNumber><TextRun>.</TextRun><SectionNumber>170</SectionNumber></SectionCite> and 2020 c 148 s 24 are each amended to read as follows:<Caption>Limit on amount paid for injury or loss of livestock caused by wolves<TextRun fontFamily="Times New Roman">—</TextRun>Exceptions. <TextRun fontStyle="italic">(Effective July 1, 2021.)</TextRun></Caption></BillSectionHeader>
+<P>(1) The department may pay no more than fifty thousand dollars per fiscal year from the <TextRun amendingStyle="strike">fish, wildlife, and conservation</TextRun> <TextRun amendingStyle="add">limited fish and wildlife</TextRun> account created in RCW 77.12.170<TextRun amendingStyle="strike">(3)</TextRun> <TextRun amendingStyle="add">(1)</TextRun> for claims and assessment costs for injury or loss of livestock caused by wolves submitted under RCW 77.36.100.</P>
+<P>(2) Notwithstanding other provisions of this chapter, the department may also accept and expend money from other sources to address injury or loss of livestock or other property caused by wolves consistent with the requirements on that source of funding.</P>
+<P>(3) If any wildlife account expenditures authorized under subsection (1) of this section are unspent as of June 30th of a fiscal year, the state treasurer shall transfer the unspent amount to the wolf-livestock conflict account created in RCW 77.36.180.</P>
+<History>2020 c 148 § 24; 2014 c 221 § 922; 2013 c 329 § 2.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Intent<TextRun fontFamily="Times New Roman">—</TextRun>Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2020 c 148:</TextRun> See notes following RCW 77.12.170.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2014 c 221:</TextRun> See note following RCW 28A.710.260.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="new" action="emerg">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act is necessary for the immediate preservation of the public peace, health, or safety, or support of the state government and its existing public institutions, and takes effect July 1, 2021.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

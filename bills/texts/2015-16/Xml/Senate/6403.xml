@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-3707.1</RequestNumber><ShortBillId>SB 6403</ShortBillId><LongBillId>SENATE BILL 6403</LongBillId><Legislature>64th Legislature</Legislature><Session>2016 Regular Session</Session><Sponsors>Senators Padden and Darneille</Sponsors><BillHistory><ReadDate>Read first time 01/19/16.</ReadDate><ReferredCommittee>Referred to Committee on Law &amp; Justice.</ReferredCommittee></BillHistory><BriefDescription>Concerning surrender of person under surety's bond.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to surrender of person under surety's bond; and amending RCW 10.19.160.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>10</TitleNumber><TextRun>.</TextRun><ChapterNumber>19</ChapterNumber><TextRun>.</TextRun><SectionNumber>160</SectionNumber></SectionCite> and 1986 c 322 s 5 are each amended to read as follows:<Caption>Surrender of person under surety's bond.</Caption></BillSectionHeader>
+<P>The surety on the bond may return to custody a person in a criminal case under the surety's bond if the surrender is accompanied by a notice of forfeiture or a notarized affidavit specifying the reasons for the surrender. The surrender shall be made to <TextRun amendingStyle="strike">the facility in which the person was originally held in custody or</TextRun> the county or city jail affiliated with the <TextRun amendingStyle="strike">court</TextRun> <TextRun amendingStyle="add">jurisdiction</TextRun> issuing the warrant resulting in bail. <TextRun amendingStyle="add">Upon surrender, a person must be held until the next judicial day or until another bond is posted.</TextRun></P>
+<History>1986 c 322 § 5.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Severability<TextRun fontFamily="Times New Roman">—</TextRun>1986 c 322:</TextRun> See note following RCW 10.19.090.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+</BillBody>
+</Bill>

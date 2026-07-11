@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-0633.1</RequestNumber><ShortBillId>HB 1878</ShortBillId><LongBillId>HOUSE BILL 1878</LongBillId><Legislature>65th Legislature</Legislature><Session>2017 Regular Session</Session><Sponsors>Representatives Stanford, Peterson, Pollet, Hudgins, Riccelli, Gregerson, Doglio, and Ormsby</Sponsors><BillHistory><ReadDate>Read first time 02/01/17.</ReadDate><ReferredCommittee>Referred to Committee on Education.</ReferredCommittee></BillHistory><BriefDescription>Requiring posting of allergen information in public schools.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to allergen information in schools; and adding a new chapter to Title 28A RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) The legislature finds:</P></BillSectionHeader>
+<P>(a) One in every thirteen children have potentially life-threatening allergies;</P>
+<P>(b) A person is sent to the emergency room due to food allergies every three minutes in the United States;</P>
+<P>(c) Studies show that from 1997 to 2007 allergies increased eighteen percent among children under age eighteen;</P>
+<P>(d) Food allergies are the leading cause of anaphylaxis outside of the hospital setting;</P>
+<P>(e) The economic cost of children's food allergies in the United States is twenty-five billion dollars per year.</P>
+<P>(2) The purpose of this chapter is to protect students with food allergies and to inform students and parents about the ingredients used in preparing meals at school.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>In time for school districts to comply with section 3 of this act, the office of the superintendent of public instruction shall consult with the state department of agriculture to develop and disseminate guidance for school districts on how and what allergen information must be displayed to comply with section 3 of this act. Methods of display may include food labels, signs, and other notices. The term "allergen" may include the eight major food allergens described in the federal food allergen labeling and consumer protection act of 2004.</BillSectionHeader>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>Public schools must display allergen information on a conspicuous sign in a prominent place within each area where food is served, by September 1, 2018.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addchap" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber><P>Sections 1 through 3 of this act constitute a new chapter in <TitleCite><TextRun>Title </TextRun><TitleNumber>28A</TitleNumber><TextRun> RCW</TextRun></TitleCite>.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-0566.1</RequestNumber><ShortBillId>HB 1409</ShortBillId><LongBillId>HOUSE BILL 1409</LongBillId><Legislature>68th Legislature</Legislature><Session>2023 Regular Session</Session><Sponsors>Representatives Abbarno, Macri, and Christian</Sponsors><BillHistory><ReadDate>Read first time 01/18/23.</ReadDate><ReferredCommittee>Referred to Committee on Local Government.</ReferredCommittee></BillHistory><BriefDescription>Compelling the state building code council to expand residential building code classifications.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to compelling the state building code council to expand residential building code classifications; adding a new section to chapter 19.27 RCW; creating a new section; and declaring an emergency.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>Current residential building code classifies residential treatment facilities under the institutional building code, significantly increasing building costs. It is the intent of the legislature to expand the residential building code in an effort to reduce costs associated with building residential treatment facilities.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>19</TitleNumber><TextRun>.</TextRun><ChapterNumber>27</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>The state building code council must immediately adopt the R-4 classification code as detailed under chapter 3, section 310.5 of the 2021 international building code.</P>
+</BillSection>
+<BillSection type="new" action="emerg" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act is necessary for the immediate preservation of the public peace, health, or safety, or support of the state government and its existing public institutions, and takes effect immediately.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

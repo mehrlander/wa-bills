@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-0607.1</RequestNumber><ShortBillId>HB 1099</ShortBillId><LongBillId>HOUSE BILL 1099</LongBillId><Legislature>66th Legislature</Legislature><Session>2019 Regular Session</Session><Sponsors>Representatives Jinkins, Cody, Tharinger, Robinson, and Reeves</Sponsors><BillHistory><PrefiledDate>Prefiled 01/09/19.</PrefiledDate><ReadDate>Read first time 01/14/19.</ReadDate><ReferredCommittee>Referred to Committee on Health Care &amp; Wellness.</ReferredCommittee></BillHistory><BriefDescription>Providing notice about network adequacy to consumers.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to providing notice about network adequacy to consumers; and adding a new section to chapter 48.43 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>48</TitleNumber><TextRun>.</TextRun><ChapterNumber>43</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) Beginning with the 2020 plan year, a health carrier shall post on its web site information on the carrier's compliance with network adequacy standards adopted by the commissioner for each of the carrier's health plans. The information must, at a minimum, include:</P>
+<P>(a) The most current geographic network reports submitted to the commissioner; and</P>
+<P>(b) An estimate of the percentage of time enrollees are able to access covered services within the time limits required by the commissioner. The health carrier must post a separate estimate for each category of services for which the commissioner has specified such limits.</P>
+<P>(2) The health carrier must post the information required by this section prominently and in an easily understandable format. The commissioner shall, by rule, specify a model format for the information. The commissioner shall deem a health carrier that uses the commissioner's model format to be in compliance with this subsection.</P>
+<P>(3) The health carrier must update the information posted under this section at least quarterly. To help consumers make purchasing decisions, the health carrier must continue to post the information required by this section for at least two years after the end of the applicable plan year.</P>
+<P>(4) The commissioner may audit the information a health carrier posts under this section for accuracy.</P>
+</BillSection>
+</BillBody>
+</Bill>

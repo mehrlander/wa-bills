@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><ShortBillId>ESSB 5385</ShortBillId><LongBillId>ENGROSSED SUBSTITUTE SENATE BILL 5385</LongBillId><Legislature>66th Legislature</Legislature><Session>2019 Regular Session</Session><Sponsors>Senate Health &amp; Long Term Care (originally sponsored by Senators Becker, Cleveland, Braun, O'Ban, Wilson, L., Brown, Warnick, Zeiger, Bailey, and Van De Wege)</Sponsors><BillHistory><ReadDate>READ FIRST TIME 02/22/19.</ReadDate></BillHistory><BriefDescription>Reimbursing for telemedicine services at the same rate as in person.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to reimbursing for telemedicine services at the same rate as in person; amending RCW 48.43.735, 41.05.700, 74.09.325, and 28B.20.830; and providing an effective date.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun readOnly="yes">RCW </TextRun><TitleNumber>48</TitleNumber><TextRun readOnly="yes">.</TextRun><ChapterNumber>43</ChapterNumber><TextRun readOnly="yes">.</TextRun><SectionNumber>735</SectionNumber></SectionCite> and 2017 c 219 s 1 are each amended to read as follows:<Caption>Reimbursement of health care services provided through telemedicine or store and forward technology.</Caption></BillSectionHeader>
+<P>(1)<TextRun amendingStyle="add">(a)</TextRun> For health plans issued or renewed on or after January 1, 2017, a health carrier shall reimburse a provider for a health care service provided to a covered person through telemedicine or store and forward technology if:</P>
+<P><TextRun amendingStyle="strike">(a)</TextRun> <TextRun amendingStyle="add">(i)</TextRun> The plan provides coverage of the health care service when provided in person by the provider;</P>
+<P><TextRun amendingStyle="strike">(b)</TextRun> <TextRun amendingStyle="add">(ii)</TextRun> The health care service is medically necessary;</P>
+<P><TextRun amendingStyle="strike">(c)</TextRun> <TextRun amendingStyle="add">(iii)</TextRun> The health care service is a service recognized as an essential health benefit under section 1302(b) of the federal patient protection and affordable care act in effect on January 1, 2015; and</P>
+<P><TextRun amendingStyle="strike">(d)</TextRun> <TextRun amendingStyle="add">(iv)</TextRun> The health care service is determined to be safely and effectively provided through telemedicine or store and forward technology according to generally accepted health care practices and standards, and the technology used to provide the health care service meets the standards required by state and federal laws governing the privacy and security of protected health information.</P>
+<P><TextRun amendingStyle="add">(b)(i) Except as provided in (b)(ii) of this subsection, for health plans issued or renewed on or after January 1, 2021, a health carrier shall reimburse a provider for a health care service provided to a covered person through telemedicine at the same rate as if the health care service was provided in person by the provider.</TextRun></P>
+<P><TextRun amendingStyle="add">(ii) Hospitals, hospital systems, telemedicine companies, and provider groups consisting of eleven or more providers may elect to negotiate a reimbursement rate for telemedicine services that differs from the reimbursement rate for in-person services.</TextRun></P>
+<P><TextRun amendingStyle="add">(iii) For purposes of this subsection (1)(b), the number of providers in a provider group refers to all providers within the group, regardless of a provider's location.</TextRun></P>
+<P>(2)<TextRun amendingStyle="strikemarkleft">(a) If the service is provided through store and forward technology there must be an associated office visit between the covered person and the referring health care provider. Nothing in this section prohibits the use of telemedicine for the associated office visit.</TextRun></P>
+<P><TextRun amendingStyle="strikemarkright">(b)</TextRun> For purposes of this section, reimbursement of store and forward technology is available only for those covered services specified in the negotiated agreement between the health carrier and the health care provider.</P>
+<P>(3) An originating site for a telemedicine health care service subject to subsection (1) of this section includes a:</P>
+<P>(a) Hospital;</P>
+<P>(b) Rural health clinic;</P>
+<P>(c) Federally qualified health center;</P>
+<P>(d) Physician's or other health care provider's office;</P>
+<P>(e) Community mental health center;</P>
+<P>(f) Skilled nursing facility;</P>
+<P>(g) Home or any location determined by the individual receiving the service; or</P>
+<P>(h) Renal dialysis center, except an independent renal dialysis center.</P>
+<P>(4) Except for subsection (3)(g) of this section, any originating site under subsection (3) of this section may charge a facility fee for infrastructure and preparation of the patient. Reimbursement <TextRun amendingStyle="add">for a facility fee</TextRun> must be subject to a negotiated agreement between the originating site and the health carrier. A distant site or any other site not identified in subsection (3) of this section may not charge a facility fee.</P>
+<P>(5) A health carrier may not distinguish between originating sites that are rural and urban in providing the coverage required in subsection (1) of this section.</P>
+<P>(6) A health carrier may subject coverage of a telemedicine or store and forward technology health service under subsection (1) of this section to all terms and conditions of the plan in which the covered person is enrolled including, but not limited to, utilization review, prior authorization, deductible, copayment, or coinsurance requirements that are applicable to coverage of a comparable health care service provided in person.</P>
+<P>(7) This section does not require a health carrier to reimburse:</P>
+<P>(a) An originating site for professional fees;</P>
+<P>(b) A provider for a health care service that is not a covered benefit under the plan; or</P>
+<P>(c) An originating site or health care provider when the site or provider is not a contracted provider under the plan.</P>
+<P>(8) For purposes of this section:</P>
+<P>(a) "Distant site" means the site at which a physician or other licensed provider, delivering a professional service, is physically located at the time the service is provided through telemedicine;</P>
+<P>(b) "Health care service" has the same meaning as in RCW 48.43.005;</P>
+<P>(c) "Hospital" means a facility licensed under chapter 70.41, 71.12, or 72.23 RCW;</P>
+<P>(d) "Originating site" means the physical location of a patient receiving health care services through telemedicine;</P>
+<P>(e) "Provider" has the same meaning as in RCW 48.43.005;</P>
+<P>(f) "Store and forward technology" means use of an asynchronous transmission of a covered person's medical information from an originating site to the health care provider at a distant site which results in medical diagnosis and management of the covered person, and does not include the use of audio-only telephone, facsimile, or email; and</P>
+<P>(g) "Telemedicine" means the delivery of health care services through the use of interactive audio and video technology, permitting real-time communication between the patient at the originating site and the provider, for the purpose of diagnosis, consultation, or treatment. For purposes of this section only, "telemedicine" does not include the use of audio-only telephone, facsimile, or email.</P>
+<History>2017 c 219 § 1; 2016 c 68 § 3; 2015 c 23 § 3.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2017 c 219:</TextRun> "Sections 1 through 3 of this act take effect January 1, 2018." [2017 c 219 § 4.]</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2016 c 68:</TextRun> "Sections 3 through 5 of this act take effect January 1, 2018." [2016 c 68 § 7.]</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Intent<TextRun fontFamily="Times New Roman">—</TextRun>2016 c 68:</TextRun> "The legislature recognizes telemedicine will play an increasingly important role in the health care system. Telemedicine is a meaningful and efficient way to treat patients and control costs while improving access to care. The expansion of the use of telemedicine should be thoughtfully and systematically considered in Washington state in order to maximize its application and expand access to care. Therefore, it is the intent of the legislature to broaden the reimbursement opportunities for health care services and establish a collaborative for the advancement of telemedicine to provide guidance, research, and recommendations for the benefit of professionals providing care through telemedicine." [2016 c 68 § 1.]</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>Adoption of sections<TextRun fontFamily="Times New Roman">—</TextRun>2015 c 23 §§ 2-4:</TextRun> See notes following RCW 41.05.700.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Intent<TextRun fontFamily="Times New Roman">—</TextRun>2015 c 23:</TextRun> See note following RCW 41.05.700.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>41</TitleNumber><TextRun>.</TextRun><ChapterNumber>05</ChapterNumber><TextRun>.</TextRun><SectionNumber>700</SectionNumber></SectionCite> and 2018 c 260 s 30 are each amended to read as follows:<Caption>Reimbursement of health care services provided through telemedicine or store and forward technology.</Caption></BillSectionHeader>
+<P>(1)<TextRun amendingStyle="add">(a)</TextRun> A health plan offered to employees, school employees, and their covered dependents under this chapter issued or renewed on or after January 1, 2017, shall reimburse a provider for a health care service provided to a covered person through telemedicine or store and forward technology if:</P>
+<P><TextRun amendingStyle="strike">(a)</TextRun> <TextRun amendingStyle="add">(i)</TextRun> The plan provides coverage of the health care service when provided in person by the provider;</P>
+<P><TextRun amendingStyle="strike">(b)</TextRun> <TextRun amendingStyle="add">(ii)</TextRun> The health care service is medically necessary;</P>
+<P><TextRun amendingStyle="strike">(c)</TextRun> <TextRun amendingStyle="add">(iii)</TextRun> The health care service is a service recognized as an essential health benefit under section 1302(b) of the federal patient protection and affordable care act in effect on January 1, 2015; and</P>
+<P><TextRun amendingStyle="strike">(d)</TextRun> <TextRun amendingStyle="add">(iv)</TextRun> The health care service is determined to be safely and effectively provided through telemedicine or store and forward technology according to generally accepted health care practices and standards, and the technology used to provide the health care service meets the standards required by state and federal laws governing the privacy and security of protected health information.</P>
+<P><TextRun amendingStyle="add">(b)(i) Except as provided in (b)(ii) of this subsection, a health plan offered to employees, school employees, and their covered dependents under this chapter issued or renewed on or after January 1, 2021, shall reimburse a provider for a health care service provided to a covered person through telemedicine at the same rate as if the health care service was provided in person by the provider.</TextRun></P>
+<P><TextRun amendingStyle="add">(ii) Hospitals, hospital systems, telemedicine companies, and provider groups consisting of eleven or more providers may elect to negotiate a reimbursement rate for telemedicine services that differs from the reimbursement rate for in-person services.</TextRun></P>
+<P><TextRun amendingStyle="add">(iii) For purposes of this subsection (1)(b), the number of providers in a provider group refers to all providers within the group, regardless of a provider's location.</TextRun></P>
+<P>(2)<TextRun amendingStyle="strikemarkleft">(a) If the service is provided through store and forward technology there must be an associated office visit between the covered person and the referring health care provider. Nothing in this section prohibits the use of telemedicine for the associated office visit.</TextRun></P>
+<P><TextRun amendingStyle="strikemarkright">(b)</TextRun> For purposes of this section, reimbursement of store and forward technology is available only for those covered services specified in the negotiated agreement between the health plan and health care provider.</P>
+<P>(3) An originating site for a telemedicine health care service subject to subsection (1) of this section includes a:</P>
+<P>(a) Hospital;</P>
+<P>(b) Rural health clinic;</P>
+<P>(c) Federally qualified health center;</P>
+<P>(d) Physician's or other health care provider's office;</P>
+<P>(e) Community mental health center;</P>
+<P>(f) Skilled nursing facility;</P>
+<P>(g) Home or any location determined by the individual receiving the service; or</P>
+<P>(h) Renal dialysis center, except an independent renal dialysis center.</P>
+<P>(4) Except for subsection (3)(g) of this section, any originating site under subsection (3) of this section may charge a facility fee for infrastructure and preparation of the patient. Reimbursement <TextRun amendingStyle="add">for a facility fee</TextRun> must be subject to a negotiated agreement between the originating site and the health plan. A distant site or any other site not identified in subsection (3) of this section may not charge a facility fee.</P>
+<P>(5) The plan may not distinguish between originating sites that are rural and urban in providing the coverage required in subsection (1) of this section.</P>
+<P>(6) The plan may subject coverage of a telemedicine or store and forward technology health service under subsection (1) of this section to all terms and conditions of the plan including, but not limited to, utilization review, prior authorization, deductible, copayment, or coinsurance requirements that are applicable to coverage of a comparable health care service provided in person.</P>
+<P>(7) This section does not require the plan to reimburse:</P>
+<P>(a) An originating site for professional fees;</P>
+<P>(b) A provider for a health care service that is not a covered benefit under the plan; or</P>
+<P>(c) An originating site or health care provider when the site or provider is not a contracted provider under the plan.</P>
+<P>(8) For purposes of this section:</P>
+<P>(a) "Distant site" means the site at which a physician or other licensed provider, delivering a professional service, is physically located at the time the service is provided through telemedicine;</P>
+<P>(b) "Health care service" has the same meaning as in RCW 48.43.005;</P>
+<P>(c) "Hospital" means a facility licensed under chapter 70.41, 71.12, or 72.23 RCW;</P>
+<P>(d) "Originating site" means the physical location of a patient receiving health care services through telemedicine;</P>
+<P>(e) "Provider" has the same meaning as in RCW 48.43.005;</P>
+<P>(f) "Store and forward technology" means use of an asynchronous transmission of a covered person's medical information from an originating site to the health care provider at a distant site which results in medical diagnosis and management of the covered person, and does not include the use of audio-only telephone, facsimile, or email; and</P>
+<P>(g) "Telemedicine" means the delivery of health care services through the use of interactive audio and video technology, permitting real-time communication between the patient at the originating site and the provider, for the purpose of diagnosis, consultation, or treatment. For purposes of this section only, "telemedicine" does not include the use of audio-only telephone, facsimile, or email.</P>
+<History>2018 c 260 § 30; 2017 c 219 § 2; 2016 c 68 § 4; 2015 c 23 § 2.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2017 c 219:</TextRun> See note following RCW 48.43.735.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>Intent<TextRun fontFamily="Times New Roman">—</TextRun>2016 c 68:</TextRun> See notes following RCW 48.43.735.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2015 c 23 §§ 2-4:</TextRun> "Sections 2 through 4 of this act take effect January 1, 2017." [2015 c 23 § 7.]</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Adoption of sections<TextRun fontFamily="Times New Roman">—</TextRun>2015 c 23 §§ 2-4:</TextRun> "The legislature encourages health plans to adopt the requirements of sections 2 through 4 of this act prior to January 1, 2017. Therefore, nothing in this act prohibits a plan from adopting the requirements of sections 2 through 4 of this act prior to January 1, 2017." [2015 c 23 § 8.]</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Intent<TextRun fontFamily="Times New Roman">—</TextRun>2015 c 23:</TextRun> "It is the intent of the legislature to recognize the application of telemedicine as a reimbursable service by which an individual receives medical services from a health care provider without in-person contact with the provider. It is also the intent of the legislature to reduce the compliance requirements on hospitals when granting privileges or associations to telemedicine physicians." [2015 c 23 § 1.]</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun readOnly="yes">RCW </TextRun><TitleNumber>74</TitleNumber><TextRun readOnly="yes">.</TextRun><ChapterNumber>09</ChapterNumber><TextRun readOnly="yes">.</TextRun><SectionNumber>325</SectionNumber></SectionCite> and 2017 c 219 s 3 are each amended to read as follows:<Caption>Reimbursement of a health care service provided through telemedicine or store and forward technology<TextRun fontFamily="Times New Roman">—</TextRun>Report to the legislature.</Caption></BillSectionHeader>
+<P>(1)<TextRun amendingStyle="add">(a)</TextRun> Upon initiation or renewal of a contract with the Washington state health care authority to administer a medicaid managed care plan, a managed health care system shall reimburse a provider for a health care service provided to a covered person through telemedicine or store and forward technology if:</P>
+<P><TextRun amendingStyle="strike">(a)</TextRun> <TextRun amendingStyle="add">(i)</TextRun> The medicaid managed care plan in which the covered person is enrolled provides coverage of the health care service when provided in person by the provider;</P>
+<P><TextRun amendingStyle="strike">(b)</TextRun> <TextRun amendingStyle="add">(ii)</TextRun> The health care service is medically necessary;</P>
+<P><TextRun amendingStyle="strike">(c)</TextRun> <TextRun amendingStyle="add">(iii)</TextRun> The health care service is a service recognized as an essential health benefit under section 1302(b) of the federal patient protection and affordable care act in effect on January 1, 2015; and</P>
+<P><TextRun amendingStyle="strike">(d)</TextRun> <TextRun amendingStyle="add">(iv)</TextRun> The health care service is determined to be safely and effectively provided through telemedicine or store and forward technology according to generally accepted health care practices and standards, and the technology used to provide the health care service meets the standards required by state and federal laws governing the privacy and security of protected health information.</P>
+<P><TextRun amendingStyle="add">(b)(i) Except as provided in (b)(ii) of this subsection, upon initiation or renewal of a contract with the Washington state health care authority to administer a medicaid managed care plan, a managed health care system shall reimburse a provider for a health care service provided to a covered person through telemedicine at the same rate as if the health care service was provided in person by the provider.</TextRun></P>
+<P><TextRun amendingStyle="add">(ii) Hospitals, hospital systems, telemedicine companies, and provider groups consisting of eleven or more providers may elect to negotiate a reimbursement rate for telemedicine services that differs from the reimbursement rate for in-person services.</TextRun></P>
+<P><TextRun amendingStyle="add">(iii) For purposes of this subsection (1)(b), the number of providers in a provider group refers to all providers within the group, regardless of a provider's location.</TextRun></P>
+<P>(2)<TextRun amendingStyle="strikemarkleft">(a) If the service is provided through store and forward technology there must be an associated visit between the covered person and the referring health care provider. Nothing in this section prohibits the use of telemedicine for the associated office visit.</TextRun></P>
+<P><TextRun amendingStyle="strikemarkright">(b)</TextRun> For purposes of this section, reimbursement of store and forward technology is available only for those services specified in the negotiated agreement between the managed health care system and health care provider.</P>
+<P>(3) An originating site for a telemedicine health care service subject to subsection (1) of this section includes a:</P>
+<P>(a) Hospital;</P>
+<P>(b) Rural health clinic;</P>
+<P>(c) Federally qualified health center;</P>
+<P>(d) Physician's or other health care provider's office;</P>
+<P>(e) Community mental health center;</P>
+<P>(f) Skilled nursing facility;</P>
+<P>(g) Home or any location determined by the individual receiving the service; or</P>
+<P>(h) Renal dialysis center, except an independent renal dialysis center.</P>
+<P>(4) Except for subsection (3)(g) of this section, any originating site under subsection (3) of this section may charge a facility fee for infrastructure and preparation of the patient. Reimbursement <TextRun amendingStyle="add">for a facility fee</TextRun> must be subject to a negotiated agreement between the originating site and the managed health care system. A distant site or any other site not identified in subsection (3) of this section may not charge a facility fee.</P>
+<P>(5) A managed health care system may not distinguish between originating sites that are rural and urban in providing the coverage required in subsection (1) of this section.</P>
+<P>(6) A managed health care system may subject coverage of a telemedicine or store and forward technology health service under subsection (1) of this section to all terms and conditions of the plan in which the covered person is enrolled including, but not limited to, utilization review, prior authorization, deductible, copayment, or coinsurance requirements that are applicable to coverage of a comparable health care service provided in person.</P>
+<P>(7) This section does not require a managed health care system to reimburse:</P>
+<P>(a) An originating site for professional fees;</P>
+<P>(b) A provider for a health care service that is not a covered benefit under the plan; or</P>
+<P>(c) An originating site or health care provider when the site or provider is not a contracted provider under the plan.</P>
+<P>(8) For purposes of this section:</P>
+<P>(a) "Distant site" means the site at which a physician or other licensed provider, delivering a professional service, is physically located at the time the service is provided through telemedicine;</P>
+<P>(b) "Health care service" has the same meaning as in RCW 48.43.005;</P>
+<P>(c) "Hospital" means a facility licensed under chapter 70.41, 71.12, or 72.23 RCW;</P>
+<P>(d) "Managed health care system" means any health care organization, including health care providers, insurers, health care service contractors, health maintenance organizations, health insuring organizations, or any combination thereof, that provides directly or by contract health care services covered under this chapter and rendered by licensed providers, on a prepaid capitated basis and that meets the requirements of section 1903(m)(1)(A) of Title XIX of the federal social security act or federal demonstration waivers granted under section 1115(a) of Title XI of the federal social security act;</P>
+<P>(e) "Originating site" means the physical location of a patient receiving health care services through telemedicine;</P>
+<P>(f) "Provider" has the same meaning as in RCW 48.43.005;</P>
+<P>(g) "Store and forward technology" means use of an asynchronous transmission of a covered person's medical information from an originating site to the health care provider at a distant site which results in medical diagnosis and management of the covered person, and does not include the use of audio-only telephone, facsimile, or email; and</P>
+<P>(h) "Telemedicine" means the delivery of health care services through the use of interactive audio and video technology, permitting real-time communication between the patient at the originating site and the provider, for the purpose of diagnosis, consultation, or treatment. For purposes of this section only, "telemedicine" does not include the use of audio-only telephone, facsimile, or email.</P>
+<P>(9) To measure the impact on access to care for underserved communities and costs to the state and the medicaid managed health care system for reimbursement of telemedicine services, the Washington state health care authority, using existing data and resources, shall provide a report to the appropriate policy and fiscal committees of the legislature no later than December 31, 2018.</P>
+<History>2017 c 219 § 3; 2016 c 68 § 5; 2015 c 23 § 4.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2017 c 219:</TextRun> See note following RCW 48.43.735.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>Intent<TextRun fontFamily="Times New Roman">—</TextRun>2016 c 68:</TextRun> See notes following RCW 48.43.735.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>Adoption of sections<TextRun fontFamily="Times New Roman">—</TextRun>2015 c 23 §§ 2-4:</TextRun> See notes following RCW 41.05.700.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Intent<TextRun fontFamily="Times New Roman">—</TextRun>2015 c 23:</TextRun> See note following RCW 41.05.700.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>28B</TitleNumber><TextRun>.</TextRun><ChapterNumber>20</ChapterNumber><TextRun>.</TextRun><SectionNumber>830</SectionNumber></SectionCite> and 2018 c 256 s 1 are each amended to read as follows:<Caption>Collaborative for the advancement of telemedicine<TextRun fontFamily="Times New Roman">—</TextRun>Reports<TextRun fontFamily="Times New Roman">—</TextRun>Open meetings.</Caption></BillSectionHeader>
+<P>(1) The collaborative for the advancement of telemedicine is created to enhance the understanding and use of health services provided through telemedicine and other similar models in Washington state. The collaborative shall be hosted by the University of Washington telehealth services and shall be comprised of one member from each of the two largest caucuses of the senate and the house of representatives, and representatives from the academic community, hospitals, clinics, and health care providers in primary care and specialty practices, carriers, and other interested parties.</P>
+<P>(2) By July 1, 2016, the collaborative shall be convened. The collaborative shall develop recommendations on improving reimbursement and access to services, including originating site restrictions, provider to provider consultative models, and technologies and models of care not currently reimbursed; identify the existence of telemedicine best practices, guidelines, billing requirements, and fraud prevention developed by recognized medical and telemedicine organizations; and explore other priorities identified by members of the collaborative. After review of existing resources, the collaborative shall explore and make recommendations on whether to create a technical assistance center to support providers in implementing or expanding services delivered through telemedicine technologies.</P>
+<P>(3) The collaborative must submit an initial progress report by December 1, 2016, with follow-up policy reports including recommendations by December 1, 2017, December 1, 2018, and December 1, 2021. The reports shall be shared with the relevant professional associations, governing boards or commissions, and the health care committees of the legislature.</P>
+<P>(4) <TextRun amendingStyle="add">The collaborative shall study store and forward technology, with a focus on:</TextRun></P>
+<P><TextRun amendingStyle="add">(a) Utilization;</TextRun></P>
+<P><TextRun amendingStyle="add">(b) Whether store and forward technology should be paid for at parity with in-person services;</TextRun></P>
+<P><TextRun amendingStyle="add">(c) The potential for store and forward technology to improve rural health outcomes in Washington state; and</TextRun></P>
+<P><TextRun amendingStyle="add">(d) Ocular services.</TextRun></P>
+<P><TextRun amendingStyle="add">(5)</TextRun> The meetings of the board shall be open public meetings, with meeting summaries available on a web page.</P>
+<P><TextRun amendingStyle="strike">(5)</TextRun> <TextRun amendingStyle="add">(6)</TextRun> The future of the collaborative shall be reviewed by the legislature with consideration of ongoing technical assistance needs and opportunities. The collaborative terminates December 31, 2021.</P>
+<History>2018 c 256 § 1; 2016 c 68 § 2.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Intent<TextRun fontFamily="Times New Roman">—</TextRun>2016 c 68:</TextRun> See note following RCW 48.43.735.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="new" action="effdate">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>5</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act takes effect January 1, 2021.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

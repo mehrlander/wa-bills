@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-3578.1</RequestNumber><ShortBillId>SB 6173</ShortBillId><LongBillId>SENATE BILL 6173</LongBillId><Legislature>64th Legislature</Legislature><Session>2016 Regular Session</Session><Sponsors>Senators Ericksen and Sheldon</Sponsors><BillHistory><PrefiledDate>Prefiled 01/07/16.</PrefiledDate><ReadDate>Read first time 01/11/16.</ReadDate><ReferredCommittee>Referred to Committee on Energy, Environment &amp; Telecommunications.</ReferredCommittee></BillHistory><BriefDescription>Prohibiting rules and policies that limit greenhouse gas emissions.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to prohibiting rules and policies that limit greenhouse gas emissions; and adding a new section to chapter 70.94 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>70</TitleNumber><TextRun>.</TextRun><ChapterNumber>94</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) The department may not adopt any rule or policy establishing a statewide limit, cap, or standard, to control the amount of greenhouse gas emissions occurring during a period of time, unless the department is authorized to adopt such a rule or policy as clearly expressed in legislation enacted after the effective date of this section.</P>
+<P>(2) For the purposes of this section, "greenhouse gas" has the same meaning as defined in RCW 70.235.010.</P>
+</BillSection>
+</BillBody>
+</Bill>

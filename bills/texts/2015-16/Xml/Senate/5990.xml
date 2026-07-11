@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-0361.5</RequestNumber><ShortBillId>SB 5990</ShortBillId><LongBillId>SENATE BILL 5990</LongBillId><Legislature>64th Legislature</Legislature><Session>2015 Regular Session</Session><Sponsors>Senators King, Fain, Litzow, Braun, Schoesler, Parlette, Dammeier, Warnick, Sheldon, Hewitt, Becker, Brown, and Bailey</Sponsors><BillHistory><ReadDate>Read first time 02/16/15.</ReadDate><ReferredCommittee>Referred to Committee on Transportation.</ReferredCommittee></BillHistory><BriefDescription>Transferring certain state sales and use taxes collected on transportation projects to the connecting Washington account.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to transferring certain state sales and use taxes collected on transportation projects to the connecting Washington account; adding a new section to chapter 82.32 RCW; providing an effective date; and declaring an emergency.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>82</TitleNumber><TextRun>.</TextRun><ChapterNumber>32</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) The state sales and use taxes paid with funds appropriated in an omnibus transportation appropriations act for transportation projects must be transferred from the general fund to the connecting Washington account created in chapter ... (Senate Bill No. ... (S-1301/15)), Laws of 2015.</P>
+<P>(2) The transfer required under this section applies to:</P>
+<P>(a) Between the effective date of this section and June 30, 2018, transportation projects funded from the connecting Washington account and any other projects identified by the legislature as connecting Washington projects; and</P>
+<P>(b) Beginning July 1, 2018, all transportation projects.</P>
+<P>(3) Quarterly, beginning in the calendar quarter immediately following the calendar quarter that this section is enacted into law, the department of transportation must submit a report to the department detailing the amount of state sales and use tax paid during the previous calendar quarter for which this section is applicable. The quarterly reports must contain such other information as required by the department to administer this section; are due by the tenth day of March, June, September, and December; and must be provided in a form and manner acceptable to the department. The department must notify the state treasurer of the amount of the transfer by the last working day of each calendar quarter.</P>
+<P>(4) For purposes of this section, "state sales and use tax" means the taxes imposed under RCW 82.08.020 and 82.12.020, not reduced by any sales or use taxes imposed under the authority of chapter 82.14 RCW that are deducted from or credited against the taxes imposed under RCW 82.08.020 and 82.12.020.</P>
+</BillSection>
+<BillSection type="new" action="emerg">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act is necessary for the immediate preservation of the public peace, health, or safety, or support of the state government and its existing public institutions, and takes effect July 1, 2015.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

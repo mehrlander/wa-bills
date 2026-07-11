@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-0144.2</RequestNumber><ShortBillId>HB 1230</ShortBillId><LongBillId>HOUSE BILL 1230</LongBillId><Legislature>67th Legislature</Legislature><Session>2021 Regular Session</Session><Sponsors>Representative Stokesbary</Sponsors><BillHistory><ReadDate>Read first time 01/18/21.</ReadDate><ReferredCommittee>Referred to Committee on Civil Rights &amp; Judiciary.</ReferredCommittee></BillHistory><BriefDescription>Requiring formatting changes to the electronic versions of the Revised Code of Washington and the Washington Administrative Code.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to requiring formatting changes to the electronic versions of the Revised Code of Washington and the Washington Administrative Code; amending RCW 44.68.100; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature recognizes that people in Washington rely on the legislature's website, leg.wa.gov, to read and understand the Revised Code of Washington and the Washington Administrative Code. The legislature further recognizes that leg.wa.gov is among the most user-friendly legislative websites in the United States. However, the sections in the Revised Code of Washington and the Washington Administrative Code as presented on leg.wa.gov lack customary indentation to visually indicate the level of subsections and subparagraphs within code sections. This causes statutes and rules to be unnecessarily difficult to navigate for both legal practitioners and the general public, making the law harder to understand, whereas the law should be clear and easy to use. Therefore, the legislature intends that the office of the code reviser should include indentation in a logical manner on the leg.wa.gov website.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>44</TitleNumber><TextRun>.</TextRun><ChapterNumber>68</ChapterNumber><TextRun>.</TextRun><SectionNumber>100</SectionNumber></SectionCite> and 2020 c 114 s 16 are each amended to read as follows:<Caption>Electronic access to legislative information.</Caption></BillSectionHeader>
+<P>The legislature and legislative agencies through the administrative committee, shall:</P>
+<P>(1) Continue to plan for and implement processes for making legislative information available electronically;</P>
+<P>(2) Promote and facilitate electronic access to the public of legislative information and services;</P>
+<P>(3) Establish technical standards for such services<TextRun amendingStyle="add">. These standards must include a requirement that each section of the electronic versions of the Revised Code of Washington and the Washington Administrative Code be indented in accordance with their subsection or subparagraph level in order for a reader to easily distinguish the subsection and subparagraphs within a section</TextRun>;</P>
+<P>(4) Consider electronic public access needs when planning new information systems or major upgrades of information systems;</P>
+<P>(5) Develop processes to determine which legislative information the public most wants and needs;</P>
+<P>(6) Increase capabilities to receive information electronically from the public and transmit forms, applications and other communications and transactions electronically;</P>
+<P>(7) Use technologies that allow continuous access twenty-four hours a day, seven days per week, involve little or no cost to access, and are capable of being used by persons without extensive technology ability; and</P>
+<P>(8) Consider and incorporate wherever possible ease of access to electronic technologies by persons with disabilities.</P>
+<History>2020 c 114 § 16; 1996 c 171 § 4.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2020 c 114:</TextRun> See note following RCW 28A.175.075.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Captions not law<TextRun fontFamily="Times New Roman">—</TextRun>Effective dates<TextRun fontFamily="Times New Roman">—</TextRun>1996 c 171:</TextRun> See notes following RCW 2.68.050.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+</BillBody>
+</Bill>

@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-3416.2</RequestNumber><ShortBillId>SHB 2334</ShortBillId><LongBillId>SUBSTITUTE HOUSE BILL 2334</LongBillId><Legislature>69th Legislature</Legislature><Session>2026 Regular Session</Session><Sponsors>House Finance (originally sponsored by Representatives Berg, Street, Parshley, Ryu, Ramel, Reed, Fitzgibbon, Zahn, Wylie, Morgan, Thomas, Ormsby, Stearns, Macri, Hill, and Thai)</Sponsors><BillHistory><ReadDate>READ FIRST TIME 02/09/26.</ReadDate></BillHistory><BriefDescription>Adjusting the price of a cash transaction to eliminate the need for pennies.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to adjusting the price of a cash transaction to eliminate the need for pennies; adding a new section to chapter 43.17 RCW; adding a new section to chapter 82.04 RCW; adding a new section to chapter 82.08 RCW; adding a new section to chapter 82.12 RCW; adding a new chapter to Title 1 RCW; adding a new chapter to Title 19 RCW; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) Notwithstanding any other provision of law to the contrary, the total price of any in-person cash transaction may be rounded to the nearest five cent increment as follows:</P></BillSectionHeader>
+<P>(a) If the final digit of a cash transaction ends in one cent, two cents, six cents, or seven cents, the final digit may be rounded down to the nearest amount divisible by five cents;</P>
+<P>(b) If the final digit of a cash transaction ends in three cents, four cents, eight cents, or nine cents, the final digit may be rounded up to the nearest amount divisible by five cents; or</P>
+<P>(c) If the final digit of a cash transaction ends in zero cents or five cents, the final digit may not be rounded up or down.</P>
+<P>(2) This section applies only to in-person payments made by legal tender. This section does not apply to transactions for which payment is made by any demand or negotiable instrument, electronic funds transfer, money order, credit card, debit card, electronic payment, or other like instrument.</P>
+<P>(3) For mixed-tender transactions, any amount paid by a customer in cash must first be applied to the sales price of the goods or services, and any remaining balance may be paid through electronic or noncash methods, such that rounding is not applied to any portion of the transaction paid by noncash methods.<TextRun amendingStyle="add" /></P>
+<P>(4) Rounding to the nearest amount divisible by five cents under subsection (1) of this section applies solely to the payment amount tendered and does not alter the sales price, the amount of tax owed or collected, or any surcharges, assessments, or applicable fees imposed on the sale.</P>
+<P>(5)(a) The regulation of rounding practices in cash transactions is a matter of statewide concern.</P>
+<P>(b) This section preempts and supersedes any ordinance, regulation, or rule adopted by a local government that prohibits, restricts, penalizes, or otherwise regulates any seller's or government's ability to round cash transactions as authorized by this section.</P>
+<P>(c) A local government shall not enforce any law that treats lawful rounding under this section as a surcharge, penalty, or unlawful price differential based on the method of payment.</P>
+<P>(6) The rounding of a total price in accordance with this section that creates an inconsistency with any displayed or advertised price is not actionable under the consumer protection act, chapter 19.86 RCW.</P>
+<P>(7) For the purposes of this section, the following definitions apply:</P>
+<P>(a) "Legal tender" means all coins and currencies of the United States.</P>
+<P>(b) "Total price" means the final amount due and payable by the buyer for the purchase of any good, service, or other product, or combination thereof, after all applicable taxes and fees are applied, as well as any discounts or other adjustments that are made by the seller.</P>
+<P>(c) "Transaction" means the entire purchase by a buyer from a seller for all goods, services, and other products, at that date and time as is shown on an invoice or receipt. A transaction may include one item or multiple items.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) Any person selling goods or services shall calculate and remit all taxes and fees imposed by state or municipal taxing authorities based on the sales price before any transaction rounding authorized by section 1 of this act.</P></BillSectionHeader>
+<P>(2) No action taken in compliance with section 1 of this act by any person selling goods or services constitutes a violation of any state or municipal requirements, laws, regulations, or standards.</P>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>17</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) When pennies are not available, an agency may adjust the total price of a cash transaction by rounding the total in the same manner as provided in section 1 of this act if any tax, fee, or similar charge included in or applicable to the transaction is remitted to the state on the prerounded amount.</P>
+<P>(2) For the purpose of this section, "agency" has the same meaning as in RCW 42.56.010.</P>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>82</TitleNumber><TextRun>.</TextRun><ChapterNumber>04</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>This chapter does not apply to amounts received from rounding-up adjustments made under section 1 of this act. No deduction is allowed under this chapter for rounding-down adjustments made under section 1 of this act.</P>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>5</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>82</TitleNumber><TextRun>.</TextRun><ChapterNumber>08</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) The total price of any transaction may be adjusted as provided in section 1 of this act.</P>
+<P>(2) The sales tax imposed under this chapter must be calculated on the selling price of goods, services, or other products subject to sales tax without regard to any rounding applied under section 1 of this act.</P>
+<P>(3) Any rounding permitted under section 1 of this act applies solely to the cash tendered in an in-person retail sales transaction and does not alter the measure of the sales tax due under this chapter.</P>
+<P>(4) Nothing in this section authorizes the rounding of the amount of sales tax due.</P>
+<P>(5) For the purposes of this section, "total price" and "transaction" have the same meanings as provided in section 1 of this act.</P>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>6</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>82</TitleNumber><TextRun>.</TextRun><ChapterNumber>12</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) The total price of any transaction may be adjusted as provided in section 1 of this act.</P>
+<P>(2) The use tax imposed under this chapter must be calculated on the selling price of goods, services, or other products subject to use tax without regard to any rounding applied under section 1 of this act.</P>
+<P>(3) Any rounding permitted under section 1 of this act applies solely to the cash tendered in an in-person retail sales transaction and does not alter the measure of the use tax due under this chapter.</P>
+<P>(4) Nothing in this section authorizes the rounding of the amount of use tax due.</P>
+<P>(5) For the purposes of this section, "total price" and "transaction" have the same meanings as provided in section 1 of this act.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>7</Value><TextRun>.  </TextRun></BillSectionNumber><P>RCW 82.32.805 and 82.32.808 do not apply to this act.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addchap" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>8</Value><TextRun>.  </TextRun></BillSectionNumber><P>Section 1 of this act constitutes a new chapter in <TitleCite><TextRun>Title </TextRun><TitleNumber>1</TitleNumber><TextRun> RCW</TextRun></TitleCite>.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addchap" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>9</Value><TextRun>.  </TextRun></BillSectionNumber><P>Section 2 of this act constitutes a new chapter in <TitleCite><TextRun>Title </TextRun><TitleNumber>19</TitleNumber><TextRun> RCW</TextRun></TitleCite>.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

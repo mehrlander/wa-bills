@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-4515.2</RequestNumber><ShortBillId>SB 6626</ShortBillId><LongBillId>SENATE BILL 6626</LongBillId><Legislature>65th Legislature</Legislature><Session>2018 Regular Session</Session><Sponsors>Senator Baumgartner</Sponsors><BillHistory /><BriefDescription>Reducing state property taxes by excess state revenue growth.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to reducing state property taxes by excess state revenue growth; and adding a new section to chapter 84.55 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>84</TitleNumber><TextRun>.</TextRun><ChapterNumber>55</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) Beginning in calendar year 2019, the maximum dollar amount otherwise allowable under this chapter for state property taxes under RCW 84.52.065 must be reduced as provided in this section.</P>
+<P>(2) If estimated state revenues for the fiscal year ending in the current calendar year exceed adjusted state revenues for the prior fiscal year, then state property taxes for the subsequent calendar year must be reduced by the excess amount. The calculation under this subsection must be done by the department beginning in October 2018 and every October thereafter.</P>
+<P>(3) The definitions in this subsection apply throughout this section unless the context clearly requires otherwise.</P>
+<P>(a) "Adjusted state revenues" means state revenues for the fiscal year prior to the fiscal year ending in the current calendar year, increased by population plus inflation.</P>
+<P>(b) "Inflation" means the estimated percentage change in the United States implicit price deflator for personal consumption expenditures as provided in table 2.1 published by the economic and revenue forecast council for the fiscal year ending in the current calendar year.</P>
+<P>(c) "Population" means the percentage change in the estimated April 1st population by the office of financial management between the current calendar year and the prior calendar year.</P>
+<P>(d) "State revenues" means revenues deposited in the state general fund, Washington opportunity pathways account, and the education legacy trust account.</P>
+</BillSection>
+</BillBody>
+</Bill>

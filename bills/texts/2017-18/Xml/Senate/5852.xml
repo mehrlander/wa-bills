@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-1740.1</RequestNumber><ShortBillId>SB 5852</ShortBillId><LongBillId>SENATE BILL 5852</LongBillId><Legislature>65th Legislature</Legislature><Session>2017 Regular Session</Session><Sponsors>Senators Frockt, Nelson, Carlyle, Hasegawa, Palumbo, Keiser, Kuderer, Billig, Wellman, Chase, and Pedersen</Sponsors><BillHistory><ReadDate>Read first time 02/23/17.</ReadDate><ReferredCommittee>Referred to Committee on Law &amp; Justice.</ReferredCommittee></BillHistory><BriefDescription>Preventing the organized militia of this state from being used to enforce federal immigration laws.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to preventing the organized militia of this state from being used to enforce federal immigration laws; adding a new section to chapter 43.06 RCW; creating a new section; and declaring an emergency.</BillTitle>
+<EnactedClause />
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature finds that Washington's national and state guard is made up of men and women who are dedicated to their mission of safeguarding the lives, property, and economy of Washington state. They deploy during times of state emergency to augment local jurisdictions and responders in their efforts to protect lives and property. The legislature further finds it is not within the guard's mission to enforce federal immigration laws.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>06</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>The governor shall not enter into any written agreements with the United States attorney general under the authority provided in 8 U.S.C. Sec. 1357(g) of the immigration and nationality act that enables the organized militia of this state as defined in RCW 38.04.010 to perform federal immigration law enforcement functions in Washington state.</P>
+</BillSection>
+<BillSection type="new" action="emerg">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act is necessary for the immediate preservation of the public peace, health, or safety, or support of the state government and its existing public institutions, and takes effect immediately.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

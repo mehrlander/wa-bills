@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-0676.1</RequestNumber><ShortBillId>SB 5461</ShortBillId><LongBillId>SENATE BILL 5461</LongBillId><Legislature>68th Legislature</Legislature><Session>2023 Regular Session</Session><Sponsors>Senators Fortunato and J. Wilson</Sponsors><BillHistory /><BriefDescription>Requiring the removal of graffiti on department of transportation property.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to requiring the removal of graffiti on department of transportation property; adding a new section to chapter 9A.48 RCW; and making an appropriation.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>9A</TitleNumber><TextRun>.</TextRun><ChapterNumber>48</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>When any person is found guilty of violating RCW 9A.48.090 or 9A.48.105 committed against property owned by the state of Washington under the jurisdiction of the department of transportation, the court must order a mandatory 30-day period of community restitution to require the removal of graffiti from the building, structure, or property where the offense was committed, unless the court finds that such an order is not practical. The community restitution must be imposed consecutively to any other community restitution the court imposes for the offense.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>The sum of $10,000,000 is appropriated for the fiscal biennium ending June 30, 2025, from the general fund to the department of transportation to:</P></BillSectionHeader>
+<P>(1) Provide support for department graffiti removal activities, with a focus on facilities that require additional precautionary measures to ensure worker safety; and</P>
+<P>(2) Establish a statewide graffiti removal grant program. Program awards may only be used for activities that remove graffiti or support graffiti removal. Eligible grant recipients include state agencies, businesses, and nonprofit organizations.</P>
+</BillSection>
+</BillBody>
+</Bill>

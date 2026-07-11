@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-3349.3</RequestNumber><ShortBillId>HB 2774</ShortBillId><LongBillId>HOUSE BILL 2774</LongBillId><Legislature>64th Legislature</Legislature><Session>2016 Regular Session</Session><Sponsors>Representatives Riccelli, Zeiger, and Ormsby</Sponsors><BillHistory><ReadDate>Read first time 01/20/16.</ReadDate><ReferredCommittee>Referred to Committee on Technology &amp; Economic Development.</ReferredCommittee></BillHistory><BriefDescription>Concerning the operation of unmanned aerial vehicles near certain airports.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to the operation of unmanned aerial vehicles near certain airports; adding a new chapter to Title 14 RCW; and prescribing penalties.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) A person may not operate an unmanned aerial vehicle within five miles of an airport with over two million total passengers annually, unless:</P></BillSectionHeader>
+<P>(a) The person obtains the consent of the federal aviation administration office having local jurisdiction;</P>
+<P>(b) The person has registered himself or herself as a drone operator in accordance with federal aviation administration rules for recreational or hobbyist drone operators, currently codified at 14 C.F.R. Part 48;</P>
+<P>(c) The person has otherwise obtained a waiver, exemption, or other authorization for commercial drone operation pursuant to any rule or regulation of the federal aviation administration;</P>
+<P>(d) The person is acting under the direction of the Washington national guard and engaged in state active duty under Title 32 U.S.C.;</P>
+<P>(e) An emergency situation exists that involves criminal activity and presents an immediate danger of death or serious physical injury to any person; or</P>
+<P>(f) The person is part of the response to an emergency or disaster for which the governor has proclaimed a state of emergency under RCW 43.06.010(12).</P>
+<P>(2) A person who is authorized to operate an unmanned aerial vehicle under subsection (1)(a), (b), or (c) of this section must, at all times during such operation, maintain on his or her person documentation of any waiver, exemption, authorization, or consent permitting such operation.</P>
+<P>(3) A person who violates this section is guilty of a misdemeanor.</P>
+<P>(4) As used in this chapter, "airport" means any area of land or water owned, operated, or maintained by or on behalf of a county, city, town, port district, airport district, or other municipal or quasi-municipal corporation that is designed and set aside for the landing and taking off of aircraft and that is utilized in the interest of the public for such purposes.</P>
+</BillSection>
+<BillSection type="new" action="addchap" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>Section 1 of this act constitutes a new chapter in <TitleCite><TextRun>Title </TextRun><TitleNumber>14</TitleNumber><TextRun> RCW</TextRun></TitleCite>.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-4019.1</RequestNumber><ShortBillId>HB 2756</ShortBillId><LongBillId>HOUSE BILL 2756</LongBillId><Legislature>66th Legislature</Legislature><Session>2020 Regular Session</Session><Sponsors>Representatives Shea and Kretz</Sponsors><BillHistory><ReadDate>Read first time 01/20/20.</ReadDate><ReferredCommittee>Referred to Committee on Environment &amp; Energy.</ReferredCommittee></BillHistory><BriefDescription>Concerning advanced metering infrastructure.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to advanced metering infrastructure; amending RCW 19.29A.010; and adding a new section to chapter 19.29A RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>19</TitleNumber><TextRun>.</TextRun><ChapterNumber>29A</ChapterNumber><TextRun>.</TextRun><SectionNumber>010</SectionNumber></SectionCite> and 2019 c 222 s 2 are each amended to read as follows:<Caption>Definitions.</Caption></BillSectionHeader>
+<P>The definitions in this section apply throughout this chapter unless the context clearly requires otherwise.</P>
+<P>(1) "Biomass generation" has the same meaning as "biomass energy" defined in RCW 19.285.030.</P>
+<P>(2) "Bonneville power administration system mix" means a generation mix sold by the Bonneville power administration that is net of any resource specific sales.</P>
+<P>(3) "Commission" means the utilities and transportation commission.</P>
+<P>(4) "Conservation" means an increase in efficiency in the use of energy use that yields a decrease in energy consumption while providing the same or higher levels of service. Conservation includes low-income weatherization programs.</P>
+<P>(5) "Consumer-owned utility" means a municipal electric utility formed under Title 35 RCW, a public utility district formed under Title 54 RCW, an irrigation district formed under chapter 87.03 RCW, a cooperative formed under chapter 23.86 RCW, or a mutual corporation or association formed under chapter 24.06 RCW, that is engaged in the business of distributing electricity to more than one retail electric customer in the state.</P>
+<P>(6) "Declared resource" means an electricity source specifically identified by a retail supplier to serve retail electric customers. A declared resource includes a stated quantity of electricity tied directly to a specified generation facility or set of facilities either through ownership or contract purchase, or a contractual right to a stated quantity of electricity from a specified generation facility or set of facilities.</P>
+<P>(7) "Department" means the department of commerce.</P>
+<P>(8) "Electric meters in service" means those meters that record in at least nine of twelve calendar months in any calendar year not less than two hundred fifty kilowatt-hours per month.</P>
+<P>(9) "Electric utility" means a consumer-owned or investor-owned utility as defined in this section.</P>
+<P>(10) "Electricity" means electric energy measured in kilowatt-hours, or electric capacity measured in kilowatts, or both.</P>
+<P>(11) "Electricity product" means the electrical energy produced by a generating facility or facilities that a retail supplier sells or offers to sell to retail electric customers in the state of Washington, provided that nothing in this title shall be construed to mean that electricity is a good or product for the purposes of Title 62A RCW, or any other purpose. It does not include electrical energy generated on-site at a retail electric customer's premises.</P>
+<P>(12) "Electricity product content label" means information presented in a uniform format by a retail supplier to its retail customers and disclosing the information required in RCW 19.29A.060 about the characteristics of an electricity product.</P>
+<P>(13) "Fuel attribute" means the characteristic of electricity determined by the fuel used in the generation of that electricity. For a renewable resource, the fuel attribute is included in its nonpower attributes.</P>
+<P>(14) "Fuel mix" means the sources of electricity sold to retail electric customers, expressed in terms of percentage contribution by resource category. The total fuel mix included in each disclosure shall total one hundred percent.</P>
+<P>(15) "Governing body" means the council of a city or town, the commissioners of an irrigation district, municipal electric utility, or public utility district, or the board of directors of an electric cooperative or mutual association that has the authority to set and approve rates.</P>
+<P>(16) "Investor-owned utility" means a company owned by investors that meets the definition of RCW 80.04.010 and is engaged in distributing electricity to one or more retail electric customers in the state.</P>
+<P>(17) "Nonpower attributes" has the same meaning as defined in RCW 19.285.030.</P>
+<P>(18) "Private customer information" includes a retail electric customer's name, address, telephone number, and other personally identifying information.</P>
+<P>(19) "Proprietary customer information" means: (a) Information that relates to the source, technical configuration, destination, and amount of electricity used by a retail electric customer, a retail electric customer's payment history, and household data that is made available by the customer solely by virtue of the utility-customer relationship; and (b) information contained in a retail electric customer's bill.</P>
+<P>(20) "Renewable energy certificate" means a tradable certificate of proof of one megawatt-hour of electricity from a renewable resource. The certificate includes all of the nonpower attributes associated with that one megawatt-hour of electricity, and the certificate is verified by a renewable energy certificate tracking system specified by the department.</P>
+<P>(21) "Renewable resource" has the same meaning as defined in RCW 19.285.030.</P>
+<P>(22) "Resale" means the purchase and subsequent sale of electricity for profit, but does not include the purchase and the subsequent sale of electricity at the same rate at which the electricity was purchased.</P>
+<P>(23) "Retail electric customer" means a person or entity that purchases electricity for ultimate consumption and not for resale.</P>
+<P>(24) "Retail supplier" means an electric utility that offers an electricity product for sale to retail electric customers in the state.</P>
+<P>(25) "Small utility" means any consumer-owned utility with twenty-five thousand or fewer electric meters in service, or that has an average of seven or fewer customers per mile of distribution line.</P>
+<P>(26) "Source and disposition report" means the report required in RCW 19.29A.140.</P>
+<P>(27) "State" means the state of Washington.</P>
+<P>(28) "Unspecified source" means an electricity source for which the fuel attribute is unknown or has been separated from the energy.</P>
+<P><TextRun amendingStyle="add">(29) "Advanced metering infrastructure" means an integrated system of smart meters, communications networks, and data management systems that enables two-way communication between electric utilities and retail electric customers.</TextRun></P>
+<P><TextRun amendingStyle="add">(30) "Smart meter" means an advanced metering infrastructure device that uses a fixed wire, radio signal, or other wireless means to enable two-way communication between the device and an electric utility.</TextRun></P>
+<History>2019 c 222 § 2. Prior: 2015 c 285 § 1; 2000 c 213 § 2; 1998 c 300 § 2.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Finding<TextRun fontFamily="Times New Roman">—</TextRun>Intent<TextRun fontFamily="Times New Roman">—</TextRun>2000 c 213:</TextRun> See RCW 19.29A.130.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>19</TitleNumber><TextRun>.</TextRun><ChapterNumber>29A</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) An electric utility must provide an option for retail electric customers to opt out of smart meter installation on the customers' premises. The electric utility must provide an opt-out form to retail electric customers upon request and may provide a method for customers to opt out electronically through the utility's internet web site.</P>
+<P>(2) An electric utility may assess a one-time fee or a recurring fee to recover costs associated with an opt-out option, except that such a fee may not be assessed for the cost of the smart meter itself. Any one-time fees or other up-front charges imposed by an electric utility must be cost-based and mitigated to the fullest extent possible so as not to create a disincentive for customers to select their preferred option.</P>
+<P>(3) An electric utility must provide general information and notices about advanced metering infrastructure deployment and grid modernization efforts through bill inserts or on its internet web site. An electric utility must also issue individualized customer notices, such as through a bill insert, separate mailing, door hanger, or electronic notification. The information provided in the individualized notices must include:</P>
+<P>(a) An explanation of the utility's infrastructure changes;</P>
+<P>(b) The ratepayer benefits of advanced metering infrastructure and grid modernization upgrades;</P>
+<P>(c) An estimated timeline for installation in the customer's area;</P>
+<P>(d) An explanation of opt-out options or where to find additional information; and</P>
+<P>(e) Company contact information for further inquiries.</P>
+<P>(4) An investor-owned utility that pursues advanced metering infrastructure technologies must file an opt-out tariff with the commission before installing any smart meters in its Washington service territory.</P>
+<P>(5) The rates, terms, conditions, and customer notification of a consumer-owned utility's opt-out option must be approved by the governing body of the consumer-owned utility before the installation of any smart meters in the utility's service territory.</P>
+</BillSection>
+</BillBody>
+</Bill>

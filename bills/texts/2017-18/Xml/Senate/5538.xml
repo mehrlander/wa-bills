@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-0811.1</RequestNumber><ShortBillId>SB 5538</ShortBillId><LongBillId>SENATE BILL 5538</LongBillId><Legislature>65th Legislature</Legislature><Session>2017 Regular Session</Session><Sponsors>Senators Becker, Mullet, Miloscia, O'Ban, Bailey, Keiser, and Cleveland</Sponsors><BillHistory><ReadDate>Read first time 01/27/17.</ReadDate><ReferredCommittee>Referred to Committee on Health Care.</ReferredCommittee></BillHistory><BriefDescription>Concerning health profession licensure fees.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to health profession licensure fees; amending RCW 43.70.250; creating a new section; and providing an expiration date.</BillTitle>
+<EnactedClause />
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) The state auditor's office must conduct a performance audit of the department of health focused on the fee setting for each health profession licensed by the department. The performance audit must include, but is not limited to:</P></BillSectionHeader>
+<P>(a) A review of each health profession's process for setting application, licensure, renewal, examination, and indirect fees;</P>
+<P>(b) A review of the costs of running each health profession program or board;</P>
+<P>(c) An analysis of how any moneys collected as indirect charges levied on a health profession are used by the department; and</P>
+<P>(d) A review of any department policies or procedures that have been adopted in an attempt to reduce the fee levels of any of the health professions.</P>
+<P>(2) A final report of the performance audit must be submitted to the appropriate legislative policy and fiscal committees by December 31, 2018.</P>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>70</ChapterNumber><TextRun>.</TextRun><SectionNumber>250</SectionNumber></SectionCite> and 2016 c 146 s 1 are each amended to read as follows:<Caption>License fees for professions, occupations, and businesses.</Caption></BillSectionHeader>
+<P>(1) It shall be the policy of the state of Washington that the cost of each professional, occupational, or business licensing program be fully borne by the members of that profession, occupation, or business.</P>
+<P>(2) The secretary shall from time to time establish the amount of all application fees, license fees, registration fees, examination fees, permit fees, renewal fees, and any other fee associated with licensing or regulation of professions, occupations, or businesses administered by the department. In fixing said fees, the secretary shall set the fees for each program at a sufficient level to defray the costs of administering that program and the cost of regulating licensed volunteer medical workers in accordance with RCW 18.130.360, except as provided in RCW 18.79.202. In no case may the secretary increase a licensing fee for an ambulatory surgical facility licensed under chapter 70.230 RCW prior to July 1, 2018, nor may he or she commence the adoption of rules to increase a licensing fee prior to July 1, 2018. <TextRun amendingStyle="add">In no case may the secretary assess any denturist or denturist applicant a fee or part of a fee that is allocated to the indirect cost pool or to a different health profession that exceeds two hundred twenty dollars.</TextRun></P>
+<P>(3) All such fees shall be fixed by rule adopted by the secretary in accordance with the provisions of the administrative procedure act, chapter 34.05 RCW.</P>
+<History>2016 c 146 § 1; 2013 c 77 § 2; 2006 c 72 § 4; 2005 c 268 § 3; 1996 c 191 § 1; 1989 1st ex.s. c 9 § 319.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2013 c 77:</TextRun> See note following RCW 43.70.110.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Finding<TextRun fontFamily="Times New Roman">—</TextRun>2005 c 268:</TextRun> See note following RCW 18.79.202.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="new" action="expdate">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act expires July 1, 2019.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><ShortBillId>EHB 2190</ShortBillId><LongBillId>ENGROSSED HOUSE BILL 2190</LongBillId><Legislature>64th Legislature</Legislature><Session>2015 Regular Session</Session><Sponsors>Representatives Harmsworth, Moscoso, Orcutt, Clibborn, Wilson, Condotta, Kretz, Rodne, Dunshee, and Pike</Sponsors><BillHistory><ReadDate>Read first time 03/09/15.</ReadDate><ReferredCommittee>Referred to Committee on Transportation.</ReferredCommittee></BillHistory><BriefDescription>Authorizing the electronic submission of vessel reports of sale.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to vessel reports of sale; amending RCW 88.02.370; and providing an effective date.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>88</TitleNumber><TextRun>.</TextRun><ChapterNumber>02</ChapterNumber><TextRun>.</TextRun><SectionNumber>370</SectionNumber></SectionCite> and 2010 c 161 s 1014 are each amended to read as follows:<Caption>Five business-day notice<TextRun fontFamily="Times New Roman">—</TextRun>Vessel disposition or filing of report of sale.</Caption></BillSectionHeader>
+<P>(1) A vessel owner shall notify the department in writing within five business days after a vessel is or has been:</P>
+<P>(a) Sold;</P>
+<P>(b) Given as a gift to another person;</P>
+<P>(c) Traded, either privately or to a vessel dealer;</P>
+<P>(d) Donated to charity;</P>
+<P>(e) Turned over to an insurance company or wrecking yard; or</P>
+<P>(f) Disposed of.</P>
+<P>(2) A report of sale is properly filed if it is received by the department within five business days after the date of sale or transfer and it includes:</P>
+<P>(a) The date of sale or transfer;</P>
+<P>(b) The owner's name and address;</P>
+<P>(c) The name and address of the person acquiring the vessel;</P>
+<P>(d) The vessel hull identification number and vessel registration number; and</P>
+<P>(e) A date stamp by the department showing it was received on or before the fifth business day after the date of sale or transfer.</P>
+<P><TextRun amendingStyle="add">(3) The department shall:</TextRun></P>
+<P><TextRun amendingStyle="add">(a) Provide or approve reports of sale forms;</TextRun></P>
+<P><TextRun amendingStyle="add">(b) Provide a system enabling a vessel owner to submit reports of sale electronically;</TextRun></P>
+<P><TextRun amendingStyle="add">(c) Immediately update the department's vessel record when a report of sale has been filed;</TextRun></P>
+<P><TextRun amendingStyle="add">(d) Provide instructions on release of interest forms that allow the seller of a vessel to release their interest in a vessel at the same time a financial institution, as defined in RCW 30A.22.040, releases its lien on the vessel; and</TextRun></P>
+<P><TextRun amendingStyle="add">(e) Send a report to the department of revenue that lists vessels for which a report of sale has been received but no transfer of ownership has taken place. The department shall send the report once each quarter.</TextRun></P>
+<History>2010 c 161 § 1014.</History>
+<RCWNoteSection>
+<RevNote><NoteP><TextRun fontWeight="bold">Reviser's note:</TextRun> 2010 c 161 § 1014 directed that this section be codified under the subchapter heading "certificates of title" in chapter 88.02 RCW, but codification under the subchapter heading "general provisions" in chapter 88.02 RCW appears to be more appropriate.</NoteP></RevNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>Intent<TextRun fontFamily="Times New Roman">—</TextRun>Legislation to reconcile chapter 161, Laws of 2010 and other amendments made during the 2010 legislative session<TextRun fontFamily="Times New Roman">—</TextRun>2010 c 161:</TextRun> See notes following RCW 46.04.013.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="new" action="effdate">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act takes effect January 1, 2017.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

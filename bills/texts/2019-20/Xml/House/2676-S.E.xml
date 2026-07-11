@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><ShortBillId>ESHB 2676</ShortBillId><LongBillId>ENGROSSED SUBSTITUTE HOUSE BILL 2676</LongBillId><Legislature>66th Legislature</Legislature><Session>2020 Regular Session</Session><Sponsors>House Transportation (originally sponsored by Representatives Kloba, Boehnke, and Hudgins)</Sponsors><BillHistory><ReadDate>READ FIRST TIME 02/11/20.</ReadDate></BillHistory><BriefDescription>Establishing minimum requirements for the testing of autonomous vehicles.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to establishing minimum requirements for the testing of autonomous vehicles; adding a new section to chapter 46.30 RCW; adding a new chapter to Title 46 RCW; and providing an effective date.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>46</TitleNumber><TextRun>.</TextRun><ChapterNumber>30</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) No entity may test an autonomous motor vehicle on any public roadway under the department's autonomous vehicle self-certification testing pilot program unless:</P>
+<P>(a) The entity holds an umbrella liability insurance policy that covers the entity in an amount not less than five million dollars per occurrence for damages by reason of bodily injury or death or property damage, caused by the operation of an autonomous motor vehicle for which information is provided under the autonomous vehicle self-certification testing pilot program; and</P>
+<P>(b) The entity maintains proof of this policy with the department in a form and manner specified by the department.</P>
+<P>(2) Requirements related to proof of motor vehicle insurance under RCW 46.30.020 and penalties for providing false evidence of motor vehicle insurance under RCW 46.30.040 are applicable to this section.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) In order to test an autonomous motor vehicle on any public roadway under the department's autonomous vehicle self-certification testing pilot program, the following information must be provided by the self-certifying entity testing the autonomous motor vehicle:</P></BillSectionHeader>
+<P>(a) Contact information specified by the department;</P>
+<P>(b) Local jurisdictions where testing is planned;</P>
+<P>(c) The vehicle identification numbers of the autonomous vehicles being tested, provided that one is required by state or federal law; and</P>
+<P>(d) Proof of an insurance policy that meets the requirements of section 1 of this act.</P>
+<P>(2) Any autonomous vehicle to which subsection (1) of this section is applicable and that does not have a vehicle identification number and is not otherwise required under state or federal law to have a vehicle identification number assigned to it must be assigned a unique identification number that is provided to the department and that is displayed in the vehicle in a manner similar to the display of vehicle identification numbers in motor vehicles.</P>
+<P>(3)(a) The self-certifying entity testing the autonomous vehicle on any public roadway must notify the department of any traffic incidents and any traffic infractions involving an autonomous motor vehicle on any public roadway in a calendar year on an annual basis by February 1st of the following calendar year.</P>
+<P>(b) The self-certifying entity shall provide the information required by the department under (a) of this subsection. The information provided must include whether the autonomous driving system was operating the vehicle at the time of or immediately prior to the traffic incident or infraction, and in the case of traffic incidents, details regarding the occurrence, including any loss of life, injury, or property damage that resulted from the incident.</P>
+<P>(4) The self-certifying entity testing the autonomous vehicle on public roadways must provide written notice in advance of testing to every law enforcement agency with jurisdiction over any of the public roadways on which testing will occur that includes the period of time during which testing will occur in the applicable jurisdiction.</P>
+<P>(5) The department may adopt a fee to be charged by the department for self-certification in an amount sufficient to offset administration by the department of the self-certification testing pilot program.</P>
+<P>(6) The department shall provide public access to the information self-certifying entities provide to it, and shall provide an annual report to the house and senate transportation committees of the legislature summarizing the information reported by self-certifying entities under this section.</P>
+<P>(7) An autonomous motor vehicle may not be operated on any public roadway for the purposes of testing in Washington state until the department is provided with the information required under subsection (1) of this section.</P>
+</BillSection>
+<BillSection type="new" action="addchap">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>Section 2 of this act constitutes a new chapter in <TitleCite><TextRun>Title </TextRun><TitleNumber>46</TitleNumber><TextRun> RCW</TextRun></TitleCite>.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="effdate">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act takes effect October 1, 2021.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

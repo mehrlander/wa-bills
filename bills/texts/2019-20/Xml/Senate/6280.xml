@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-5171.2</RequestNumber><ShortBillId>SB 6280</ShortBillId><LongBillId>SENATE BILL 6280</LongBillId><Legislature>66th Legislature</Legislature><Session>2020 Regular Session</Session><Sponsors>Senators Nguyen, Carlyle, Wellman, Salomon, Lovelett, Das, Randall, Pedersen, Wilson, C., and Hunt</Sponsors><BillHistory><ReadDate>Read first time 01/14/20.</ReadDate><ReferredCommittee>Referred to Committee on Environment, Energy &amp; Technology.</ReferredCommittee></BillHistory><BriefDescription>Concerning the use of facial recognition services.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to the use of facial recognition services; adding a new section to chapter 9.73 RCW; adding a new chapter to Title 43 RCW; creating a new section; and providing an expiration date.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature finds that:</P></BillSectionHeader>
+<P>(1) Unconstrained use of facial recognition services by state and local government agencies poses broad social ramifications that should be considered and addressed. Accordingly, legislation is required to establish safeguards that will allow state and local government agencies to use facial recognition services in a manner that benefits society while prohibiting uses that threaten our democratic freedoms and put our civil liberties at risk.</P>
+<P>(2) However, state and local government agencies may use facial recognition services in a variety of beneficial ways, such as locating missing or incapacitated persons, identifying victims of crime, and keeping the public safe.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>The definitions in this section apply throughout this chapter unless the context clearly requires otherwise.</P></BillSectionHeader>
+<P>(1) "Accountability report" means a report developed in accordance with section 3 of this act.</P>
+<P>(2) "Enroll," "enrolled," or "enrolling" means the process by which a facial recognition service creates a facial template from one or more images of a consumer and adds the facial template to a gallery used by the facial recognition service for recognition or persistent tracking of consumers. It also includes the act of adding an existing facial template directly into a gallery used by a facial recognition service.</P>
+<P>(3) "Facial recognition service" means technology that analyzes facial features and is used for recognition or persistent tracking of consumers in still or video images.</P>
+<P>(4) "Facial template" means the machine-interpretable pattern of facial features that is extracted from one or more images of a consumer by a facial recognition service.</P>
+<P>(5) "Meaningful human review" means review or oversight by one or more individuals who are trained in accordance with section 8 of this act and who have the authority to alter the decision under review.</P>
+<P>(6) "Ongoing surveillance" means tracking the physical movements of a specified individual through one or more public places over time, whether in real time or through application of a facial recognition service to historical records. It does not include a single recognition or attempted recognition of an individual, if no attempt is made to subsequently track that individual's movement over time after they have been recognized.</P>
+<P>(7) "Persistent tracking" means the use of a facial recognition service to track the movements of a consumer on a persistent basis without recognition of that consumer. Such tracking becomes persistent as soon as:</P>
+<P>(a) The facial template that permits the tracking is maintained for more than forty-eight hours after first enrolling that template; or</P>
+<P>(b) Data created by the facial recognition service is linked to any other data such that the consumer who has been tracked is identified or identifiable.</P>
+<P>(8) "Recognition" means the use of a facial recognition service to determine whether an unknown consumer matches:</P>
+<P>(a) Any consumer who has been enrolled in a gallery used by the facial recognition service; or</P>
+<P>(b) A specific consumer who has been enrolled in a gallery used by the facial recognition service.</P>
+<P>(9) "Serious criminal offense" means any felony under chapter 9.94A RCW or an offense enumerated by Title 18 U.S.C. Sec. 2516.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) A state or local government agency using or intending to develop, procure, or use a facial recognition service must produce an accountability report for that service. The report must be clearly communicated to the public at least ninety days prior to the agency putting the facial recognition service into operational use, posted on the agency's public web site, and submitted to the consolidated technology services agency established in RCW 43.105.006. The consolidated technology services agency must post each submitted accountability report on its public web site.</P></BillSectionHeader>
+<P>(2) Each accountability report must include, at minimum, clear and understandable statements of the following:</P>
+<P>(a)(i) The name of the facial recognition service, vendor, and version; and (ii) a description of its general capabilities and limitations, including reasonably foreseeable capabilities outside the scope of the proposed use of the agency;</P>
+<P>(b)(i) The type or types of data inputs that the technology uses;  (ii) how that data is generated, collected, and processed; and (iii) the type or types of data the system is reasonably likely to generate;</P>
+<P>(c)(i) A description of the purpose and proposed use of the facial recognition service, including what decision or decisions will be used to make or support it; (ii) whether it is a final or support decision system; and (iii) its intended benefits, including any data or research demonstrating those benefits;</P>
+<P>(d) A clear use and data management policy, including protocols for the following:</P>
+<P>(i) How and when the facial recognition service will be deployed or used and by whom including, but not limited to, the factors that will be used to determine where, when, and how the technology is deployed, and other relevant information, such as whether the technology will be operated continuously or used only under specific circumstances. If the facial recognition service will be operated or used by another entity on the agency's behalf, the facial recognition service accountability report must explicitly include a description of the other entity's access and any applicable protocols;</P>
+<P>(ii) Any measures taken to minimize inadvertent collection of additional data beyond the amount necessary for the specific purpose or purposes for which the facial recognition service will be used;</P>
+<P>(iii) Data integrity and retention policies applicable to the data collected using the facial recognition service, including how the agency will maintain and update records used in connection with the service, how long the agency will keep the data, and the processes by which data will be deleted;</P>
+<P>(iv) Any additional rules that will govern use of the facial recognition service and what processes will be required prior to each use of the facial recognition service;</P>
+<P>(v) Data security measures applicable to the facial recognition service including how data collected using the facial recognition service will be securely stored and accessed, if and why an agency intends to share access to the facial recognition service or the data from that facial recognition service with any other entity, and the rules and procedures by which an agency sharing data with any other entity will ensure that such entities comply with the sharing agency's use and data management policy as part of the data sharing agreement; and</P>
+<P>(vi) The agency's training procedures, including those implemented in accordance with section 8 of this act, and how the agency will ensure that all personnel who operate the facial recognition service or access its data are knowledgeable about and able to ensure compliance with the use and data management policy prior to use of the facial recognition service;</P>
+<P>(e) The agency's testing procedures, including its processes for periodically undertaking operational tests of the facial recognition service in accordance with section 6 of this act;</P>
+<P>(f) A description of any potential impacts of the facial recognition service on civil rights and liberties, including potential impacts to privacy and potential disparate impacts on marginalized communities, and the specific steps the agency will take to mitigate the potential impacts and prevent unauthorized use of the facial recognition service; and</P>
+<P>(g) The agency's procedures for receiving feedback, including the channels for receiving feedback from individuals affected by the use of the facial recognition service and from the community at large, as well as the procedures for responding to feedback.</P>
+<P>(3) Prior to finalizing and implementing the accountability report, the agency must consider issues raised by the public through:</P>
+<P>(a) A public review and comment period; and</P>
+<P>(b) Community consultation meetings during the public review period.</P>
+<P>(4) The accountability report must be updated every two years and each update must be subject to the public comment and community consultation processes described in this section.</P>
+<P>(5) An agency seeking to use a facial recognition service for a purpose not disclosed in the agency's existing accountability report must first seek public comment and community consultation on the proposed new use and adopt an updated accountability report pursuant to the requirements contained in this section.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) State and local government agencies using a facial recognition service are required to prepare and publish an annual report that discloses:</P></BillSectionHeader>
+<P>(a) The extent of their use of such services;</P>
+<P>(b) An assessment of compliance with the terms of their accountability report;</P>
+<P>(c) Any known or reasonably suspected violations of their accountability report, including complaints alleging violations; and</P>
+<P>(d) Any revisions to the accountability report recommended by the agency during the next update of the policy.</P>
+<P>(2) The annual report must be submitted to the office of privacy and data protection.</P>
+<P>(3) All agencies must hold community meetings to review and discuss their annual report within sixty days of its public release.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>5</Value><TextRun>.  </TextRun></BillSectionNumber><P>State and local government agencies using a facial recognition service to make decisions that produce legal effects concerning consumers or similarly significant effects concerning consumers must ensure that those decisions are subject to meaningful human review. Decisions that produce legal effects concerning consumers or similarly significant effects concerning consumers must include, but not be limited to, denial of consequential services or support, such as financial and lending services, housing, insurance, education enrollment, criminal justice, employment opportunities, health care services, and access to basic necessities such as food and water.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>6</Value><TextRun>.  </TextRun></BillSectionNumber><P>Prior to deploying a facial recognition service in the context in which it will be used, state and local government agencies must test the facial recognition service in operational conditions. State and local government agencies must take reasonable steps to ensure best quality results by following all reasonable guidance provided by the developer of the facial recognition service.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>7</Value><TextRun>.  </TextRun></BillSectionNumber><P>A state or local government agency that deploys a facial recognition service must require a facial recognition service provider to make available an application programming interface or other technical capability, chosen by the provider, to enable legitimate, independent, and reasonable tests of those facial recognition services for accuracy and unfair performance differences across distinct subpopulations. These subpopulations may be defined by race, skin tone, ethnicity, gender, age, disability status, or other protected characteristic that is objectively determinable or self-identified by the individuals portrayed in the testing dataset. If the results of the independent testing identify material unfair performance differences across subpopulations, and those results are disclosed directly to the provider who, acting reasonably, determines that the methodology and results of that testing are valid, then the provider must develop and implement a plan to address the identified performance differences.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>8</Value><TextRun>.  </TextRun></BillSectionNumber><P>State and local government agencies using a facial recognition service must conduct periodic training of all individuals who operate a facial recognition service or who process personal data obtained from the use of a facial recognition service.  The training must include, but not be limited to, coverage of:</P></BillSectionHeader>
+<P>(1) The capabilities and limitations of the facial recognition service;</P>
+<P>(2) Procedures to interpret and act on the output of the facial recognition service; and</P>
+<P>(3) To the extent applicable to the deployment context, the meaningful human review requirement for decisions that produce legal effects concerning consumers or similarly significant effects concerning consumers.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>9</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) State local and government agencies must disclose their use of a facial recognition service on a criminal defendant to that defendant in a timely manner prior to trial.</P></BillSectionHeader>
+<P>(2) State and local government agencies using a facial recognition service shall maintain records of their use of the service that are sufficient to facilitate public reporting and auditing of compliance with agencies' facial recognition policies.</P>
+<P>(3) In January of each year, any judge who has issued a warrant for ongoing surveillance, or an extension thereof, as described in section 11(1) of this act, that expired during the preceding year, or who has denied approval of such a warrant during that year shall report to the Washington state supreme court:</P>
+<P>(a) The fact that a warrant or extension was applied for;</P>
+<P>(b) The fact that the warrant or extension was granted as applied for, was modified, or was denied;</P>
+<P>(c) The period of ongoing surveillance authorized by the warrant and the number and duration of any extensions of the warrant;</P>
+<P>(d) The identity of the applying investigative or law enforcement officer and agency making the application and the person authorizing the application; and</P>
+<P>(e) The nature of the public spaces where the surveillance was conducted.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>10</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1)(a) A task force on facial recognition services is established, with members as provided in this subsection.</P></BillSectionHeader>
+<P>(i) The president of the senate shall appoint one member from each of the two largest caucuses of the senate;</P>
+<P>(ii) The speaker of the house of representatives shall appoint one member from each of the two largest caucuses of the house of representatives;</P>
+<P>(iii) Two representatives from advocacy organizations that represent consumers or protected classes of communities historically impacted by surveillance technologies including, but not limited to, African American, Hispanic American, Native American, and Asian American communities, religious minorities, protest and activist groups, and other vulnerable communities;</P>
+<P>(iv) Two members from law enforcement or other agencies of government;</P>
+<P>(v) One representative from a retailer or other company who deploys facial recognition services in physical premises open to the public;</P>
+<P>(vi) Two representatives from companies that develop and provide facial recognition services; and</P>
+<P>(vii) Two representatives from universities or research institutions who are experts in either facial recognition services or their sociotechnical implications, or both.</P>
+<P>(b) The task force shall choose two cochairs from among its legislative membership. The governor shall staff and convene the task force.</P>
+<P>(2) The task force shall review the following issues:</P>
+<P>(a) Provide recommendations addressing the potential abuses and threats posed by the use of a facial recognition service to civil liberties and freedoms, privacy and security, and discrimination against vulnerable communities, as well as other potential harm, while also addressing how to facilitate and encourage the continued development of a facial recognition service so that consumers, businesses, government, and other stakeholders in society continue to utilize its benefits;</P>
+<P>(b) Provide recommendations regarding the adequacy and effectiveness of applicable Washington state laws; and</P>
+<P>(c) Conduct a study on the quality, accuracy, and efficacy of a facial recognition service including, but not limited to, its quality, accuracy, and efficacy across different subpopulations.</P>
+<P>(3) Legislative members of the task force are reimbursed for travel expenses in accordance with RCW 44.04.120. Nonlegislative members are not entitled to be reimbursed for travel expenses if they are elected officials or are participating on behalf of an employer, governmental entity, or other organization. Any reimbursement for other nonlegislative members is subject to chapter 43.03 RCW.</P>
+<P>(4) The expenses of the task force must be paid jointly by the senate and the house of representatives. Task force expenditures are subject to approval by the senate facilities and operations committee and the house of representatives executive rules committee, or their successor committees.</P>
+<P>(5) The task force shall report its findings and recommendations to the governor and the appropriate committees of the legislature by September 30, 2021.</P>
+<P>(6) This section expires May 1, 2022.</P>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>11</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>9</TitleNumber><TextRun>.</TextRun><ChapterNumber>73</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) State and local government agencies may not use a facial recognition service to engage in ongoing surveillance unless the use is in support of law enforcement activities and the ongoing surveillance may provide evidence of a serious criminal offense, and either:</P>
+<P>(a) A search warrant has been obtained to permit the use of the facial recognition service for ongoing surveillance; or</P>
+<P>(b) Where the agency reasonably determines that ongoing surveillance is necessary to prevent or respond to an emergency involving imminent danger or risk of death or serious physical injury to a person, but only if written approval is obtained from the agency's director or the director's designee prior to using the service and a search warrant is subsequently obtained within forty-eight hours after the ongoing surveillance begins.</P>
+<P>(2) State and local government agencies must not apply a facial recognition service to any consumer based on their religious, political, or social views or activities, participation in a particular noncriminal organization or lawful event, or actual or perceived race, ethnicity, citizenship, place of origin, age, disability, gender, gender identity, sexual orientation, or other characteristic protected by law. The prohibition in this subsection does not prohibit state and local government agencies from applying a facial recognition service to a consumer who happens to possess one or more of these characteristics where an officer of that agency holds a reasonable suspicion that that consumer has committed, is committing, or is about to commit a serious criminal offense.</P>
+<P>(3) State and local government agencies may not use a facial recognition service to create a record describing any consumer's exercise of rights guaranteed by the First Amendment of the United States Constitution and by Article I, section 5 of the state Constitution, unless:</P>
+<P>(a) Such use is specifically authorized by applicable law and is pertinent to and within the scope of an authorized law enforcement activity; and</P>
+<P>(b) There is reasonable suspicion to believe the consumer has committed, is committing, or is about to commit a serious criminal offense.</P>
+</BillSection>
+<BillSection type="new" action="addchap" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>12</Value><TextRun>.  </TextRun></BillSectionNumber><P>Sections 1 through 9 of this act constitute a new chapter in <TitleCite><TextRun>Title </TextRun><TitleNumber>43</TitleNumber><TextRun> RCW</TextRun></TitleCite>.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

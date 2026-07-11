@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-3980.2</RequestNumber><ShortBillId>SB 6465</ShortBillId><LongBillId>SENATE BILL 6465</LongBillId><Legislature>64th Legislature</Legislature><Session>2016 Regular Session</Session><Sponsors>Senators Hobbs, Becker, Conway, Keiser, Jayapal, Dammeier, Cleveland, Hasegawa, and McAuliffe</Sponsors><BillHistory><ReadDate>Read first time 01/21/16.</ReadDate><ReferredCommittee>Referred to Committee on Human Services, Mental Health &amp; Housing.</ReferredCommittee></BillHistory><BriefDescription>Concerning an alert program that allows residents to provide information to first responders pertaining to persons with developmental disabilities living at a registered address.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to implementing an alert program that allows residents to provide information to first responders pertaining to persons with developmental disabilities living at a registered address; adding a new section to chapter 43.43 RCW; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>43</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1)(a) The Washington state patrol shall administer a program which allows a resident to register their address and provide information to first responders about a person with a developmental disability residing at the address. In the event of a 911 emergency at a registered address, such program must provide an alert to first responders providing them with the information in the form of a temporary caution note describing if:</P>
+<P>(i) The person is nonverbal or minimally verbal;</P>
+<P>(ii) The person is potentially combative in highly stressful circumstances;</P>
+<P>(iii) The person is considered a wandering risk if not adequately supervised; or</P>
+<P>(iv) Interior doors or windows could be locked, presenting a potential access issue.</P>
+<P>(b) The Washington state patrol may expand the information that may be placed into an alert to include other pertinent information supplied by the resident concerning the person with a developmental disability residing at the address.</P>
+<P>(2) The information in this program must be accessible by local sheriffs, law enforcement, and first responders so that the temporary caution note is available to any first responder dispatched to the registered address.</P>
+<P>(3) A temporary caution note described in this section expires after twelve months. A resident may renew the registration before the expiration of the note by providing updated information.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>The program created in this act is based upon the Isaac alert program based in Spokane county.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

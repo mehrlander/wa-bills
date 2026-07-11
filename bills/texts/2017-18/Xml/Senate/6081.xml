@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-3268.2</RequestNumber><ShortBillId>SB 6081</ShortBillId><LongBillId>SENATE BILL 6081</LongBillId><Legislature>65th Legislature</Legislature><Session>2018 Regular Session</Session><Sponsors>Senators Palumbo, Carlyle, Mullet, Wellman, Ranker, Keiser, McCoy, Frockt, Rolfes, Pedersen, and Hasegawa</Sponsors><BillHistory><PrefiledDate>Prefiled 01/04/18.</PrefiledDate><ReadDate>Read first time 01/08/18.</ReadDate><ReferredCommittee>Referred to Committee on Energy, Environment &amp; Technology.</ReferredCommittee></BillHistory><BriefDescription>Concerning distributed generation.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to distributed generation; amending RCW 80.60.020, 80.60.030, and 82.16.090; and adding a new section to chapter 19.27 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>80</TitleNumber><TextRun>.</TextRun><ChapterNumber>60</ChapterNumber><TextRun>.</TextRun><SectionNumber>020</SectionNumber></SectionCite> and 2007 c 323 s 2 are each amended to read as follows:<Caption>Available on first-come, first-served basis<TextRun fontFamily="Times New Roman">—</TextRun>Interconnected metering systems allowed<TextRun fontFamily="Times New Roman">—</TextRun>Charges to customer-generator.</Caption></BillSectionHeader>
+<P>(1) An electric utility:</P>
+<P>(a) Shall offer to make net metering available to eligible customers-generators on a first-come, first-served basis <TextRun amendingStyle="strike">until the cumulative generating capacity of net metering systems equals 0.25 percent of the utility's peak demand during 1996. On January 1, 2014, the cumulative generating capacity available to net metering systems will equal 0.5 percent of the utility's peak demand during 1996. Not less than one-half of the utility's 1996 peak demand available for net metering systems shall be reserved for the cumulative generating capacity attributable to net metering systems that generate renewable energy</TextRun>;</P>
+<P>(b) Shall allow net metering systems to be interconnected using a standard kilowatt-hour meter capable of registering the flow of electricity in two directions, unless the commission, in the case of an electrical company, or the appropriate governing body, in the case of other electric utilities, determines, after appropriate notice and opportunity for comment:</P>
+<P>(i) That the use of additional metering equipment to monitor the flow of electricity in each direction is necessary and appropriate for the interconnection of net metering systems, after taking into account the benefits and costs of purchasing and installing additional metering equipment; and</P>
+<P>(ii) How the cost of purchasing and installing an additional meter is to be allocated between the customer-generator and the utility;</P>
+<P>(c) Shall charge the customer-generator a minimum monthly fee that is the same as other customers of the electric utility in the same rate class, but shall not charge the customer-generator any additional standby, capacity, interconnection, or other fee or charge unless the commission, in the case of an electrical company, or the appropriate governing body, in the case of other electric utilities, determines, after appropriate notice and opportunity for comment that:</P>
+<P>(i) The electric utility will incur direct costs associated with interconnecting or administering net metering systems that exceed any offsetting benefits associated with these systems; and</P>
+<P>(ii) Public policy is best served by imposing these costs on the customer-generator rather than allocating these costs among the utility's entire customer base.</P>
+<P>(2) If a production meter and software is required by the electric utility to provide meter aggregation under RCW 80.60.030(4), the customer<Hyphen type="nobreak" />generator is responsible for the purchase of the production meter and software.</P>
+<History>2007 c 323 § 2; 2006 c 201 § 2; 2000 c 158 § 2; 1998 c 318 § 3.</History>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>80</TitleNumber><TextRun>.</TextRun><ChapterNumber>60</ChapterNumber><TextRun>.</TextRun><SectionNumber>030</SectionNumber></SectionCite> and 2007 c 323 s 3 are each amended to read as follows:<Caption>Net energy measurement<TextRun fontFamily="Times New Roman">—</TextRun>Required calculation<TextRun fontFamily="Times New Roman">—</TextRun>Unused credit<TextRun fontFamily="Times New Roman">—</TextRun>Meter aggregation.</Caption></BillSectionHeader>
+<P>Consistent with the other provisions of this chapter, the net energy measurement must be calculated in the following manner:</P>
+<P>(1) The electric utility shall measure the net electricity produced or consumed during the billing period, in accordance with normal metering practices.</P>
+<P>(2) If the electricity supplied by the electric utility exceeds the electricity generated by the customer-generator and fed back to the electric utility during the billing period, the customer-generator shall be billed for the net electricity supplied by the electric utility, in accordance with normal metering practices.</P>
+<P>(3) If electricity generated by the customer-generator exceeds the electricity supplied by the electric utility, the customer-generator:</P>
+<P>(a) Shall be billed for the appropriate customer charges for that billing period, in accordance with RCW 80.60.020; and</P>
+<P>(b) Shall be credited for the excess kilowatt-hours generated during the billing period, with this kilowatt-hour credit appearing on the bill for the following billing period.</P>
+<P>(4) If a customer-generator requests, an electric utility shall provide meter aggregation.</P>
+<P>(a) For customer-generators participating in meter aggregation, kilowatt-hours credits earned by a net metering system during the billing period first shall be used to offset electricity supplied by the electric utility.</P>
+<P>(b) Not more than a total of one hundred kilowatts shall be aggregated among all customer-generators participating in a generating facility under this subsection.</P>
+<P>(c) Excess kilowatt-hours credits earned by the net metering system, during the same billing period, shall be credited equally by the electric utility to remaining meters located on all premises of a customer-generator at the designated rate of each meter.</P>
+<P>(d) Meters so aggregated shall not change rate classes due to meter aggregation under this section.</P>
+<P>(5) On <TextRun amendingStyle="strike">April 30th</TextRun> <TextRun amendingStyle="add">March 31st</TextRun> of each calendar year, any remaining unused kilowatt-hour credit accumulated during the previous year shall be granted to the electric utility <TextRun amendingStyle="add">to be used to assist qualified low-income residential customers of the electric utility in paying their electricity bills</TextRun>, without any compensation to the customer-generator.</P>
+<History>2007 c 323 § 3; 2006 c 201 § 3; 1998 c 318 § 4.</History>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>82</TitleNumber><TextRun>.</TextRun><ChapterNumber>16</ChapterNumber><TextRun>.</TextRun><SectionNumber>090</SectionNumber></SectionCite> and 1988 c 228 s 1 are each amended to read as follows:<Caption>Light or power and gas distribution businesses<TextRun fontFamily="Times New Roman">—</TextRun>Information required on customer billings.</Caption></BillSectionHeader>
+<P>Any customer billing issued by a light or power business or gas distribution business that serves a total of more than twenty thousand customers and operates within the state shall include the following information:</P>
+<P>(1) The rates and amounts of taxes paid directly by the customer upon products or services rendered by the light and power business or gas distribution business; <TextRun amendingStyle="strike">and</TextRun></P>
+<P>(2) The rate, origin and approximate amount of each tax levied upon the revenue of the light and power business or gas distribution business and added as a component of the amount charged to the customer. Taxes based upon revenue of the light and power business or gas distribution business to be listed on the customer billing need not include taxes levied by the federal government or taxes levied under chapters 54.28, 80.24, or 82.04 RCW<TextRun amendingStyle="add">; and</TextRun></P>
+<P><TextRun amendingStyle="add">(3) The total amount of kilowatt-hours of electricity consumed for the most recent twelve-month period</TextRun>.</P>
+<History>1988 c 228 § 1.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>1988 c 228:</TextRun> "This act shall take effect on January 1, 1989." [1988 c 228 § 2.]</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>19</TitleNumber><TextRun>.</TextRun><ChapterNumber>27</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>The state building code council, in consultation with the department of commerce and local governments, shall conduct a study of the state building code and adopt changes necessary to encourage greater use of renewable energy systems as defined in RCW 82.16.110.</P>
+</BillSection>
+</BillBody>
+</Bill>

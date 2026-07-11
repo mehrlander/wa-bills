@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-3275.2</RequestNumber><ShortBillId>HB 2712</ShortBillId><LongBillId>HOUSE BILL 2712</LongBillId><Legislature>69th Legislature</Legislature><Session>2026 Regular Session</Session><Sponsors>Representatives Marshall, Keaton, Dufault, and McClintock</Sponsors><BillHistory><ReadDate>Read first time 02/02/26.</ReadDate><ReferredCommittee>Referred to Committee on Labor &amp; Workplace Standards.</ReferredCommittee></BillHistory><BriefDescription>Making collective bargaining for school districts subject to the open public meetings act.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to making collective bargaining for school districts subject to the open public meetings act; amending RCW 42.30.140; and adding a new section to chapter 41.59 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>42</TitleNumber><TextRun>.</TextRun><ChapterNumber>30</ChapterNumber><TextRun>.</TextRun><SectionNumber>140</SectionNumber></SectionCite> and 1990 c 98 s 1 are each amended to read as follows:<Caption>Chapter controlling<TextRun fontFamily="Times New Roman">—</TextRun>Application.</Caption></BillSectionHeader>
+<P>If any provision of this chapter conflicts with the provisions of any other statute, the provisions of this chapter shall control: PROVIDED, That this chapter shall not apply to:</P>
+<P>(1) The proceedings concerned with the formal issuance of an order granting, suspending, revoking, or denying any license, permit, or certificate to engage in any business, occupation, or profession or to any disciplinary proceedings involving a member of such business, occupation, or profession, or to receive a license for a sports activity or to operate any mechanical device or motor vehicle where a license or registration is necessary; or</P>
+<P>(2) That portion of a meeting of a quasi-judicial body which relates to a quasi-judicial matter between named parties as distinguished from a matter having general effect on the public or on a class or group; or</P>
+<P>(3) Matters governed by chapter 34.05 RCW, the Administrative Procedure Act; or </P>
+<P>(4)(a) <TextRun amendingStyle="strike">Collective</TextRun> <TextRun amendingStyle="add">Except as provided under section 2 of this act, collective</TextRun> bargaining sessions with employee organizations, including contract negotiations, grievance meetings, and discussions relating to the interpretation or application of a labor agreement; or (b) that portion of a meeting during which the governing body is planning or adopting the strategy or position to be taken by the governing body during the course of any collective bargaining, professional negotiations, or grievance or mediation proceedings, or reviewing the proposals made in the negotiations or proceedings while in progress.</P>
+<History>1990 c 98 s 1; 1989 c 175 s 94; 1973 c 66 s 4; 1971 ex.s. c 250 s 14.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>1989 c 175:</TextRun> See note following RCW 34.05.010.</NoteP></AnnNote>
+<CrossRefNote><NoteP>Drug reimbursement policy recommendations: RCW 74.09.653.</NoteP></CrossRefNote>
+<CrossRefNote><NoteP>Mediation testimony competency: RCW 5.60.070 and 5.60.072.</NoteP></CrossRefNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>41</TitleNumber><TextRun>.</TextRun><ChapterNumber>59</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1)(a) School districts shall conduct all collective bargaining contract negotiations in a manner that is transparent and open to public observation both in person and through video streaming or playback.</P>
+<P>(b) This section does not require the school district to permit public comment opportunities during negotiations.</P>
+<P>(2) The school district shall provide public notice of all collective bargaining negotiations in accordance with the open public meetings act, chapter 42.30 RCW.</P>
+<P>(3) The school district shall publish and maintain all notes, documentation, and collective bargaining proposals on the school district's official website within two business days of their transmission between negotiating parties.</P>
+<P>(4) The school district shall publish all final collective bargaining agreements on the school district's official website for the life of the agreement.</P>
+<P>(5) Any person who has participated in any collective bargaining negotiation in violation of this section is in violation of the open public meetings act, chapter 42.30 RCW.</P>
+<P>(6) Open to public observation does not include meetings related to any activity conducted pursuant to the enforcement of a collective bargaining agreement after the agreement is negotiated and executed including, but not limited to, grievance proceedings of individual employees.</P>
+</BillSection>
+</BillBody>
+</Bill>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>Z-0475.2</RequestNumber><ShortBillId>HB 2013</ShortBillId><LongBillId>HOUSE BILL 2013</LongBillId><Legislature>68th Legislature</Legislature><Session>2024 Regular Session</Session><Sponsors>Representatives Volz, Fitzgibbon, Leavitt, Couture, Ryu, Bronoske, Ramos, Ramel, Ormsby, Jacobsen, Graham, Doglio, Sandlin, Fosse, Robertson, Nance, Riccelli, and Reeves; by request of Select Committee on Pension Policy</Sponsors><BillHistory><PrefiledDate>Prefiled 12/21/23.</PrefiledDate><ReadDate>Read first time 01/08/24.</ReadDate><ReferredCommittee>Referred to Committee on Appropriations.</ReferredCommittee></BillHistory><BriefDescription>Paying state retirement benefits until the end of the month in which the retiree or beneficiary dies.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to paying state retirement benefits until the end of the month in which the retiree or beneficiary dies; adding a new section to chapter 41.50 RCW; creating a new section; and providing an effective date.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature finds that when a retiree or beneficiary of state retirement benefits dies, the department of retirement systems only pays benefits up to the precise date of that individual's death. If the retiree or beneficiary has already received payment for that month by the time the death occurs, the department of retirement systems requires repayment of any benefits received after the death. For example, if death occurs on the 25th day of a 30-day month, the beneficiary's estate may be required to refund five days' worth of benefits.</P></BillSectionHeader>
+<P>The legislature intends to change that practice by paying benefits until the end of the month in which the death occurs.</P>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>41</TitleNumber><TextRun>.</TextRun><ChapterNumber>50</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) When a retiree or beneficiary under chapter 2.10, 2.12, 41.26, 41.32, 41.35, 41.37, 41.40, or 43.43 RCW dies, the department must continue paying benefits until the end of the month in which death occurred. Survivor benefits, when applicable, will begin on the first day of the following month.</P>
+<P>(2) This section applies to any and all benefit payments issued by the department including optional annuities.</P>
+<P>(3) The department must continue to require the beneficiary, survivor, or estate of the deceased to refund any benefit payments made following the month of death.</P>
+<P>(4) This section applies prospectively only and not retroactively. No beneficiary, survivor, or estate that has been subject to repayment of benefits before January 1, 2025, has a right to receive a refund of those repayments.</P>
+</BillSection>
+<BillSection type="new" action="effdate" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act takes effect January 1, 2025.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

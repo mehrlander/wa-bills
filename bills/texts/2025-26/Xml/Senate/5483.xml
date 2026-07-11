@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-0544.1</RequestNumber><ShortBillId>SB 5483</ShortBillId><LongBillId>SENATE BILL 5483</LongBillId><Legislature>69th Legislature</Legislature><Session>2025 Regular Session</Session><Sponsors>Senators McCune, Fortunato, J. Wilson, Christian, Torres, Holy, Warnick, Dozier, and Wagoner</Sponsors><BillHistory /><BriefDescription>Preserving history and heritage education.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to history and heritage education; adding a new section to chapter 28A.320 RCW; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>28A</TitleNumber><TextRun>.</TextRun><ChapterNumber>320</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>School districts may not censor or restrict instruction in United States or Washington state history or heritage based on religious references in original source documents, writings, speeches, proclamations, or records, including:</P>
+<P>(1) The Mayflower compact;</P>
+<P>(2) The Declaration of Independence;</P>
+<P>(3) The Constitution of the United States;</P>
+<P>(4) The Washington state Constitution;</P>
+<P>(5) The preambles and constitutions of other states within the United States;</P>
+<P>(6) The Northwest Ordinance of 1787;</P>
+<P>(7) The Federalist Papers;</P>
+<P>(8) The Pledge of Allegiance;</P>
+<P>(9) The national anthem;</P>
+<P>(10) George Washington's farewell address to the nation;</P>
+<P>(11) Abraham Lincoln's Gettysburg address;</P>
+<P>(12) United States' presidential proclamations; and</P>
+<P>(13) Patrick Henry's speeches.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act may be known and cited as the American heritage act for Washington state.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

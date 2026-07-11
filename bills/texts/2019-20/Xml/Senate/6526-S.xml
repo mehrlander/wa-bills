@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-6146.1</RequestNumber><ShortBillId>SSB 6526</ShortBillId><LongBillId>SUBSTITUTE SENATE BILL 6526</LongBillId><Legislature>66th Legislature</Legislature><Session>2020 Regular Session</Session><Sponsors>Senate Health &amp; Long Term Care (originally sponsored by Senators Cleveland, Hasegawa, Keiser, Van De Wege, and Wilson, C.)</Sponsors><BillHistory><ReadDate>READ FIRST TIME 02/06/20.</ReadDate></BillHistory><BriefDescription>Reusing and donating unexpired prescription drugs.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to the reuse and donation of unexpired prescription drugs; adding a new section to chapter 18.64 RCW; and adding a new section to chapter 69.70 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>18</TitleNumber><TextRun>.</TextRun><ChapterNumber>64</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>The commission must adopt rules allowing the department of corrections pharmacy to accept returns of unit dose packages or full or partial multiple dose medication cards from the facilities it serves and reuse the unexpired medication.</P>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>69</TitleNumber><TextRun>.</TextRun><ChapterNumber>70</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>The pharmacy quality assurance commission may adopt rules to allow the safe donation of prescription drugs under this chapter including, but not limited to, allowing pharmacy to pharmacy donation of unexpired prescription drug stock.</P>
+</BillSection>
+</BillBody>
+</Bill>

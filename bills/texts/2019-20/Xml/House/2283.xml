@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-3637.1</RequestNumber><ShortBillId>HB 2283</ShortBillId><LongBillId>HOUSE BILL 2283</LongBillId><Legislature>66th Legislature</Legislature><Session>2020 Regular Session</Session><Sponsors>Representatives Stokesbary and Van Werven</Sponsors><BillHistory><PrefiledDate>Prefiled 12/31/19.</PrefiledDate><ReadDate>Read first time 01/13/20.</ReadDate><ReferredCommittee>Referred to Committee on College &amp; Workforce Development.</ReferredCommittee></BillHistory><BriefDescription>Increasing fairness, transparency, and accountability in the admission processes of state universities.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to fairness, transparency, and accountability in the admission processes of state universities; adding new sections to chapter 28B.10 RCW; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature recognizes that Washington's state universities provide a valuable benefit to the state by developing an educated and skilled workforce and a valuable benefit to students by offering the opportunity of a world-class education. The legislature further recognizes that these benefits necessitate that a critical responsibility be delegated to admission officers at state universities. In light of the recent college admissions scandal that occurred at other prestigious institutions around the United States, the legislature finds that the state and its residents have a vested interest in ensuring that all admissions to state universities are fair and transparent. Therefore, the legislature intends to collect additional data regarding admissions and waivers at state universities and mandate a more rigorous review process for students admitted through a special admission process. </P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>28B</TitleNumber><TextRun>.</TextRun><ChapterNumber>10</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>The definitions in this section apply throughout sections 3 and 4 of this act unless the context clearly requires otherwise.</P>
+<P>(1) "Admitted student" means an applicant who was accepted for admission to a state university.</P>
+<P>(2) "Priority admission" means an applicant is granted admission to a state university despite not meeting requirements to be regularly admissible based on comprehensive review results, but has an admissions index number of twenty-eight or higher. </P>
+<P>(3) "Special admission" means an applicant is granted admission to a state university despite not meeting requirements to be regularly admissible based on comprehensive review results and has an admissions index number lower than twenty-eight. </P>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>28B</TitleNumber><TextRun>.</TextRun><ChapterNumber>10</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>The state universities shall report to the higher education committees of the legislature and in accordance with RCW 43.01.036 on an annual basis, beginning June 30, 2021, information on the following:</P>
+<P>(1) The total number of applicants for the fall term and the number of applicants offered admission, each separated by residency status and by campus;</P>
+<P>(2) The number of admitted students who enroll for at least one credit for the term in which they were admitted, separated by residency status and by campus;</P>
+<P>(3) The number of students who are admitted to the state university through each of the following categories for each campus: Routine admission, priority admission, and special admission;</P>
+<P>(4) For students admitted under a priority or special admission process, data on the reasons why those students were admitted, including but not limited to the following:</P>
+<P>(a) Athletic, musical, artistic, or other exceptional talent; or</P>
+<P>(b) Legacy admission due to the applicant's relationship to a family member employed at the state university, to a donor of the state university, or based on some other relationship with an employee of the state university;</P>
+<P>(5) The average and median admission index number of those students admitted under both the priority admission and special admission process; and</P>
+<P>(6) Information on the nonresident tuition fee differential exemption authorized under RCW 28B.15.014, including the following:</P>
+<P>(a) The total number of nonresidents receiving the exemption;</P>
+<P>(b) The total number of nonresidents receiving the exemption due to their employment status as either faculty, classified staff, or an administratively exempt employee, and disaggregated by employment status;</P>
+<P>(c) The total number of nonresidents receiving the exemption due to their relationship as a dependent or spouse of a faculty member, classified employee, or an administratively exempt employee, and disaggregated by employment status; and</P>
+<P>(d) The average salary for each of the following: The faculty members, classified employees, and administratively exempt employees receiving nonresident tuition fee differential exemptions for themselves or a family member. </P>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>28B</TitleNumber><TextRun>.</TextRun><ChapterNumber>10</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>Before a state university offers admission through a special admission process, the university must ensure the special admission process includes review and approval of the applicant's admission by a three-person panel. The three-person panel must include at least two faculty members, each from a different department or school at the state university. Each person on the three-person panel has an equal vote towards the decision to approve an applicant for special admission.</P>
+</BillSection>
+</BillBody>
+</Bill>

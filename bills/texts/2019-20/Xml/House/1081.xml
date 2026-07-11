@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-0188.1</RequestNumber><ShortBillId>HB 1081</ShortBillId><LongBillId>HOUSE BILL 1081</LongBillId><Legislature>66th Legislature</Legislature><Session>2019 Regular Session</Session><Sponsors>Representatives Klippert and Shea</Sponsors><BillHistory><PrefiledDate>Prefiled 01/03/19.</PrefiledDate><ReadDate>Read first time 01/14/19.</ReadDate><ReferredCommittee>Referred to Committee on Civil Rights &amp; Judiciary.</ReferredCommittee></BillHistory><BriefDescription>Reducing the number of state supreme court judges.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to reducing the number of state supreme court judges; amending RCW 2.04.070 and 2.04.071; and providing a contingent effective date.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>2</TitleNumber><TextRun>.</TextRun><ChapterNumber>04</ChapterNumber><TextRun>.</TextRun><SectionNumber>070</SectionNumber></SectionCite> and 1909 c 24 s 1 are each amended to read as follows:<Caption>Number of judges.</Caption></BillSectionHeader>
+<P>The supreme court, from and after February 26, 1909, shall consist of nine judges <TextRun amendingStyle="add">until the second Monday in January 2021, and of five judges thereafter</TextRun>.</P>
+<History>1909 c 24 § 1; RRS § 11036. FORMER PARTS OF SECTION: 1911 c 119 § 1; 1909 c 24 § 2; RRS § 11039; now codified in RCW 2.04.071. Prior: (i) 1905 c 5 § 1; 1890 p 321 § 1; RRS § 11035. (ii) 1893 c 5 § 1; RRS 11037. (iii) 1905 c 5 § 3; RRS § 11038.</History>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>2</TitleNumber><TextRun>.</TextRun><ChapterNumber>04</ChapterNumber><TextRun>.</TextRun><SectionNumber>071</SectionNumber></SectionCite> and 1971 c 81 s 1 are each amended to read as follows:<Caption>Election<TextRun fontFamily="Times New Roman">—</TextRun>Term of office.</Caption></BillSectionHeader>
+<P><TextRun amendingStyle="strike">At the next general election, and at each biennial general election thereafter, there shall be elected three justices of the supreme court, to hold for the full term of six years, and until their successors are elected and qualified, commencing with the second Monday in January succeeding their election.</TextRun> <TextRun amendingStyle="add">Five justices of the state supreme court are elected at the November 2020 general election.</TextRun></P>
+<P><TextRun amendingStyle="add">(1) Upon certification of the election, the judges so elected are classified by lot, so that two hold their office for two years, two for four years, and one for six years. The lot is drawn by the judges who must for that purpose assemble at the seat of government, and they must certify the result to the secretary of state.</TextRun></P>
+<P><TextRun amendingStyle="add">(2) Except as provided in subsection (1) of this section, beginning with the 2022 election, the terms of justices elected to the state supreme court are six years from and after the second Monday in January next following their election, and until their successors are elected and qualified.</TextRun></P>
+<History>1971 c 81 § 1; 1911 c 119 § 1; 1909 c 24 § 2; RRS § 11039. Formerly RCW 2.04.070, part.</History>
+<RCWNoteSection>
+<CrossRefNote><NoteP>Election and terms, supreme court judges: State Constitution Art. 4 § 3.</NoteP></CrossRefNote>
+<CrossRefNote><NoteP>Eligibility of judges: State Constitution Art. 4 § 17.</NoteP></CrossRefNote>
+<CrossRefNote><NoteP>Forfeiture of office for absence: State Constitution Art. 4 § 8.</NoteP></CrossRefNote>
+<CrossRefNote><NoteP>Impeachment: State Constitution Art. 5.</NoteP></CrossRefNote>
+<CrossRefNote><NoteP>Judge may not practice law: State Constitution Art. 4 § 19.</NoteP></CrossRefNote>
+<CrossRefNote><NoteP>Judges ineligible to other office: State Constitution Art. 4 § 15.</NoteP></CrossRefNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act takes effect if the proposed amendment to Article IV of the state Constitution concerning supreme court judge elections (House Joint Resolution No. . . . (H-0189/19)) is validly submitted to and is approved and ratified by the voters at the next general election. If the proposed amendment is not approved and ratified, this act is void in its entirety.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

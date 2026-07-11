@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-0398.4</RequestNumber><ShortBillId>HB 1782</ShortBillId><LongBillId>HOUSE BILL 1782</LongBillId><Legislature>66th Legislature</Legislature><Session>2019 Regular Session</Session><Sponsors>Representatives Pollet, Orwall, Wylie, Appleton, Tarleton, Kilduff, and Kraft</Sponsors><BillHistory><ReadDate>Read first time 01/30/19.</ReadDate><ReferredCommittee>Referred to Committee on State Government &amp; Tribal Relations.</ReferredCommittee></BillHistory><BriefDescription>Concerning public meetings of advisory groups established by local governments and other agencies.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to public meetings of advisory groups established by local governments and other agencies; amending RCW 42.30.020; adding a new section to chapter 42.30 RCW; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The intent of Initiative Measure No. 276, which established the state's open government laws, requires that governmental functions are conducted in the open, including both meetings and public access to information relating to those governmental functions.</P></BillSectionHeader>
+<P>The legislature finds that trust in government is damaged, and fundamental rights to observe governmental actions are impacted, if advisory committees established by a governmental agency to provide advice to that agency do not meet in the open pursuant to chapter 42.30 RCW.</P>
+<P>The legislature finds further that the functional equivalency test, adopted in <TextRun fontStyle="italic">Telford v. Thurston County Board of Commissioners</TextRun>, 95 Wn. App. 149 (1999), provides a useful framework for defining when an entity performing a governmental function delegated to it by a governmental agency should be regarded as a public agency for purposes of open meetings, disclosure, and transparency. The legislature finds that the public interest includes the right to observe deliberations and action of such governmental functions.</P>
+<P>The legislature intends to specify that "action" taken by an advisory board or similar entity includes taking testimony or comment and deliberating or voting to make recommendations, even though that conduct is already included in the broader definition of "action" applicable to all public agencies.</P>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>42</TitleNumber><TextRun>.</TextRun><ChapterNumber>30</ChapterNumber><TextRun>.</TextRun><SectionNumber>020</SectionNumber></SectionCite> and 1985 c 366 s 1 are each amended to read as follows:<Caption>Definitions.</Caption></BillSectionHeader>
+<P>As used in this chapter unless the context indicates otherwise:</P>
+<P>(1) "Public agency" means:</P>
+<P>(a) Any state board, commission, committee, department, educational institution, or other state agency which is created by or pursuant to statute, other than courts and the legislature;</P>
+<P>(b) Any county, city, school district, special purpose district, or other municipal corporation or political subdivision of the state of Washington;</P>
+<P>(c) Any subagency of a public agency which is created by or pursuant to statute, ordinance, or other legislative act, including but not limited to planning commissions, library or park boards, commissions, and agencies;</P>
+<P>(d) Any policy group whose membership includes representatives of publicly owned utilities formed by or pursuant to the laws of this state when meeting together as or on behalf of participants who have contracted for the output of generating plants being planned or built by an operating agency<TextRun amendingStyle="add">;</TextRun></P>
+<P><TextRun amendingStyle="add">(e) An advisory board, committee, or other entity established by a public agency to provide advice or recommendations to the public agency;</TextRun></P>
+<P><TextRun amendingStyle="add">(f) An advisory board, committee, or other entity to which action has been delegated by a governing body of a public agency, a director of a public agency, or a chief executive of any municipal entity</TextRun>.</P>
+<P>(2) "Governing body" means the multimember board, commission, committee, council, or other policy or rule-making body of a public agency, or any committee thereof when the committee acts on behalf of the governing body, conducts hearings, or takes testimony or public comment.</P>
+<P>(3) "Action" means the transaction of the official business of a public agency by a governing body including but not limited to receipt of public testimony, deliberations, discussions, considerations, reviews, evaluations, and final actions. "Final action" means a collective positive or negative decision, or an actual vote by a majority of the members of a governing body when sitting as a body or entity, upon a motion, proposal, resolution, order, or ordinance. <TextRun amendingStyle="add">For public agencies under subsection (1)(e) and (f) of this section, "action" includes any vote or decision to make recommendations to a convening agency or agencies or receiving testimony or comments on which the entity will report to the full governing body or prepare a recommendation for action.</TextRun></P>
+<P>(4) "Meeting" means meetings at which action is taken.</P>
+<History>1985 c 366 § 1; 1983 c 155 § 1; 1982 1st ex.s. c 43 § 10; 1971 ex.s. c 250 § 2.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Severability<TextRun fontFamily="Times New Roman">—</TextRun>Savings<TextRun fontFamily="Times New Roman">—</TextRun>1982 1st ex.s. c 43:</TextRun> See notes following RCW 43.52.374.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>42</TitleNumber><TextRun>.</TextRun><ChapterNumber>30</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>Any advisory board, committee, or other entity established jointly by a public agency and a federal agency, including any advisory body recognized in any consent agreement or order as providing advice to any state agency, must comply with this chapter to the extent that federal law does not preempt compliance.</P>
+</BillSection>
+</BillBody>
+</Bill>

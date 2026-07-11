@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-0455.1</RequestNumber><ShortBillId>HB 1275</ShortBillId><LongBillId>HOUSE BILL 1275</LongBillId><Legislature>66th Legislature</Legislature><Session>2019 Regular Session</Session><Sponsors>Representatives Shea, Young, DeBolt, McCaslin, Van Werven, and Eslick</Sponsors><BillHistory><ReadDate>Read first time 01/17/19.</ReadDate><ReferredCommittee>Referred to Committee on Health Care &amp; Wellness.</ReferredCommittee></BillHistory><BriefDescription>Establishing a database to monitor the adverse effects of vaccinations.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to establishing a database to monitor the adverse effects of vaccinations; adding new sections to chapter 43.70 RCW; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) The legislature finds that:</P></BillSectionHeader>
+<P>(a) A federally funded study conducted by Harvard Pilgrim Health Care concluded that, between 2007 and 2010, 2.6 percent of vaccines administered resulted in an adverse reaction.</P>
+<P>(b) The confidence of the public and medical community in vaccinations is dependent on health care surveillance systems that ensure adverse reactions are properly monitored.</P>
+<P>(c) The vaccine adverse event reporting system administered by the federal centers for disease control and prevention is an inadequate tool for properly monitoring adverse reactions to vaccines due to underreporting, passive data collection methods, and unresponsiveness of the federal government.</P>
+<P>(2) The legislature intends to create a statewide adverse vaccine reaction monitoring program in order to properly safeguard the health, safety, and well-being of Washingtonians.</P>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>70</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) The department shall establish the adverse vaccine reaction monitoring program. The program shall establish a database to collect reports from persons in Washington who have had an adverse reaction following the administration of a vaccine approved by the federal food and drug administration.</P>
+<P>(2) The database must collect reports of immediate, short-term, and long-term adverse reactions and effects from patients who received, or health care providers who administered, or supervised the administration of, a vaccine approved by the federal food and drug administration. The database must include:</P>
+<P>(a) The name of the vaccine received or administered;</P>
+<P>(b) The manufacturer of the vaccine received or administered;</P>
+<P>(c) The name of the health care provider who administered, or supervised the administration of, the vaccine;</P>
+<P>(d) The date of the receipt or administration of the vaccine;</P>
+<P>(e) The date on which an adverse reaction was first recognized;</P>
+<P>(f) A description of an adverse reaction experienced by the patient;</P>
+<P>(g) Any medical interventions taken to treat the adverse reaction;</P>
+<P>(h) Information about the severity and duration of the effects of the reaction; and</P>
+<P>(i) Other information that the program determines relevant.</P>
+<P>(3) The program shall make the reporting process accessible through its web site. A health care provider who holds a license issued by a disciplining authority identified under RCW 18.130.040 must report a suspected adverse reaction to a vaccine within seven days of first becoming aware of an adverse reaction that the health care provider concludes is due to a previously administered vaccine. The failure to report a suspected adverse reaction to a vaccine or failure to report in a timely manner is unprofessional conduct under chapter 18.130 RCW.</P>
+<P>(4) The program shall publish an annual report that summarizes the information in the database for the previous year. The report shall provide information about the number and type of adverse reactions, by vaccine, the severity of the reactions, the severity of duration of the effects of the reactions, and a list of researchers that have accessed the database in the prior year.</P>
+<P>(5) The program shall make the database available to all researchers requesting access.</P>
+<P>(6) The department shall collect from every licensed health care provider a one dollar fee for each vaccine that the health care provider administers. Receipts from all fees collected under this subsection must be deposited in the adverse vaccine reaction monitoring account established in section 3 of this act.</P>
+<P>(7) The department may adopt the necessary procedures and rules to implement and maintain the program.</P>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>70</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>The adverse vaccine reaction monitoring account is created in the state treasury. All receipts from the fee established in section 2 of this act must be deposited into the account. Moneys in the account may be spent only after appropriation. Expenditures from the account may be used only for supporting the adverse vaccine reaction monitoring program established in section 2 of this act.</P>
+</BillSection>
+</BillBody>
+</Bill>

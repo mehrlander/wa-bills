@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-0200.1</RequestNumber><ShortBillId>SB 5633</ShortBillId><LongBillId>SENATE BILL 5633</LongBillId><Legislature>66th Legislature</Legislature><Session>2019 Regular Session</Session><Sponsors>Senators Brown, Walsh, Becker, Hasegawa, Zeiger, Keiser, and O'Ban</Sponsors><BillHistory><ReadDate>Read first time 01/25/19.</ReadDate><ReferredCommittee>Referred to Committee on Health &amp; Long Term Care.</ReferredCommittee></BillHistory><BriefDescription>Supporting and expanding behavioral health workforce pathway programs.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to supporting and expanding behavioral health workforce pathway programs; adding a new section to chapter 70.185 RCW; creating a new section; and making an appropriation.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) The demand for behavioral health and mental health care expertise exceeds the availability of those services throughout the state. Washington state has many highly competent and committed professionals working hard to deliver behavioral health services. However, there are difficulties recruiting, educating, training, and retaining a skilled behavioral health care workforce. There is a need to support pathways to behavioral health disciplines and incentivize individuals to fill these essential positions.</P></BillSectionHeader>
+<P>(2) The area health education centers of eastern and western Washington play an integral role in the development of the behavioral health workforce by collaborating with the education system to increase equity in behavioral health workforce education, reduce the stigma around behavioral health, improve behavioral health literacy, and encourage Washingtonians to join and support the behavioral health workforce. The area health education centers serve rural and urban underserved communities by improving the academic pathway and education options for health workforce development.</P>
+<P>(3) It is the intent of the legislature to further support and expand behavioral health workforce pathway programs provided by the area health education centers to meet the behavioral health workforce demands in this state.</P>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>70</TitleNumber><TextRun>.</TextRun><ChapterNumber>185</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) Subject to the availability of amounts appropriated for this specific purpose, the department shall receive funds from the state and provide them to both eastern and western Washington area health education centers for the purpose of supporting and expanding current behavioral health workforce academic and career pathway programs.</P>
+<P>(2) For the purposes of this section, "area health education center" has the same meaning as the program identified and referred to in 42 U.S.C. Sec. 294a.</P>
+</BillSection>
+<BillSection type="new" action="approp" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>The sum of one million one hundred thousand dollars, or as much thereof as may be necessary, is appropriated for the fiscal year ending June 30, 2020, from the general fund to the department of health for the purposes of this act.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

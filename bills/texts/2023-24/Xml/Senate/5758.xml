@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-1339.2</RequestNumber><ShortBillId>SB 5758</ShortBillId><LongBillId>SENATE BILL 5758</LongBillId><Legislature>68th Legislature</Legislature><Session>2023 Regular Session</Session><Sponsors>Senators McCune, Holy, J. Wilson, L. Wilson, Boehnke, Dozier, Torres, Padden, Rivers, Braun, Muzzall, Short, Wagoner, and Kauffman</Sponsors><BillHistory><ReadDate>Read first time 03/03/23.</ReadDate><ReferredCommittee>Referred to Committee on Environment, Energy &amp; Technology.</ReferredCommittee></BillHistory><BriefDescription>Studying the risks of electromagnetic pulse attacks.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to studying the risks of electromagnetic pulse attacks; adding a new section to chapter 42.56 RCW; creating new sections; and providing an expiration date.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) The legislature finds that Washington's electric power grid could become a potential target for hostile actions involving electromagnetic pulse, or EMP, weapons. Therefore, the legislature determines that the state should require agencies, utilities, and power producers to study the risks of electromagnetic pulse attacks in order to safeguard critical infrastructure in Washington.</P></BillSectionHeader>
+<P>(2) Subject to amounts appropriated for this specific purpose, the Washington military department emergency management division shall initiate a process to undertake a one-time review of the preparedness of critical electric power infrastructure in Washington in the event of an electromagnetic pulse attack. The review must be completed no later than January 1, 2025.</P>
+<P>(3) In undertaking the review authorized in subsection (2) of this section, the emergency management division shall consult with other state agencies as deemed appropriate by the emergency management division, electric utilities serving customers in Washington, and the owners or operators of power plants located in Washington.</P>
+<P>(4) For the purposes of this section:</P>
+<P>(a) "Electric utility" has the same meaning as defined in RCW 19.29A.010.</P>
+<P>(b) "Power plant" has the same meaning as defined in RCW 80.80.010.</P>
+<P>(5) This section expires January 1, 2026.</P>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>42</TitleNumber><TextRun>.</TextRun><ChapterNumber>56</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>Any public record generated as a result of the review undertaken pursuant to section 1 of this act is exempt from public inspection and copying under this chapter.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>If specific funding for the purposes of this act, referencing this act by bill or chapter number, is not provided by June 30, 2023, in the omnibus appropriations act, this act is null and void.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

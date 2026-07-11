@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-3705.1</RequestNumber><ShortBillId>SB 5960</ShortBillId><LongBillId>SENATE BILL 5960</LongBillId><Legislature>69th Legislature</Legislature><Session>2026 Regular Session</Session><Sponsors>Senator Short</Sponsors><BillHistory><PrefiledDate>Prefiled 01/05/26.</PrefiledDate></BillHistory><BriefDescription>Restoring and sustaining healthy ungulate populations.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to restoring and sustaining healthy ungulate populations; and adding a new chapter to Title 77 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) The legislature finds that:</P></BillSectionHeader>
+<P>(a) The wolf management plan, as previously implemented and directed by the fish and wildlife commission, must be annually adaptive within each of the three wolf management zones and standing upon their own respective characteristics and own individual wolf populations for delisting;</P>
+<P>(b) Washington's mule deer, white-tailed deer, elk, moose, and other ungulate species provide significant ecological, cultural, and economic value to the state;</P>
+<P>(c) Outdoor recreation and hunting contribute hundreds of millions of dollars annually to rural communities through tourism, hospitality, sporting goods sales, guides, outfitters, land access fees, and fuel purchases;</P>
+<P>(d) Rural economies, tribal and nontribal hunters, and wildlife observers depend upon predictable and sustainable ungulate populations;</P>
+<P>(e) In portions of Washington where the gray wolf is federally delisted, increasing predator-prey conflicts have contributed to declines in ungulate populations with white-tailed deer and mule deer as they are the primary food source for wolves and other predators; and</P>
+<P>(f) The long-term stability of ungulate populations requires active predator-prey management, timely intervention, and greater collaboration with sportsmen.</P>
+<P>(2) It is the intent of the legislature to support sportsmen and rural economies, establish clear thresholds and mandatory actions to restore at-risk ungulate herds, and require immediate transparent, collaborative population surveys.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>The definitions in this section apply throughout this chapter unless the context clearly requires otherwise.</P></BillSectionHeader>
+<P>(1) "At-risk population" means any ungulate population that falls 25 percent below its 10-year rolling average within a game management unit.</P>
+<P>(2) "Federal delisting area" means the portion of the state east of state route number 97 from the British Columbia border south to Monse, U.S. route 395 from Mesa to the Oregon border, and state route number 17 from Monse south to Mesa, in which the gray wolf is not federally listed.</P>
+<P>(3) "Predator" has the same meaning as "large wild carnivore" in RCW 77.08.010.</P>
+<P>(4) "Predator mitigation" includes, but is not limited to, translocation of wolves within Washington, targeted removal, diversionary feeding, hazing, and other actions consistent with law.</P>
+<P>(5) "Sportsmen" means licensed hunters and recognized wildlife associations that utilize required licensing or permits for wildlife interactions providing revenue to the department.</P>
+<P>(6) "Ungulate" means mule deer, white-tailed deer, elk, moose, mountain goat, mountain caribou, and bighorn sheep.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) If any ungulate species within the federal delisting area experiences a reduction of 25 percent or more below its 10-year rolling average, the department shall designate the population as at-risk and initiate predator mitigation within 60 days.</P></BillSectionHeader>
+<P>(2) Upon designation, within already existing department resources, in order to implement the draft game management plan, the 2011 gray wolf conservation and management plan, the white-tailed deer policy plan, and the game management policy, the department shall:</P>
+<P>(a) Implement predator mitigation actions, including:</P>
+<P>(i) Seasonal or geographic predator reduction around sensitive ranges;</P>
+<P>(ii) Translocation of gray wolves within Washington; and</P>
+<P>(iii) Targeted removal or nonlethal mitigation.</P>
+<P>(b) Monitor to determine population increases over time.</P>
+<P>(3) Mitigation must continue until mule deer and white-tailed deer populations (i) meet or exceed 2004 harvest levels for two consecutive years and (ii) both the mule deer and white-tailed deer populations exceed their 10-year rolling average.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) The department shall conduct and resume annual population counts of white-tailed deer in partnership with sportsmen.</P></BillSectionHeader>
+<P>(2) Survey methods shall be collaboratively designed and publicly transparent.</P>
+<P>(3) A report of the population counts and the annual deer season harvest reports shall be published annually by March 31st or two weeks before the current seasons can be set.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>5</Value><TextRun>.  </TextRun></BillSectionNumber><P>The department shall annually report to the legislature by March 31st ungulate population trends, at-risk designations, mitigation actions, and progress toward 2004 population benchmarks.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>6</Value><TextRun>.  </TextRun></BillSectionNumber><P>The department may adopt rules to implement this chapter, including survey standards, partnership protocols, and predator mitigation planning requirements.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addchap" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>7</Value><TextRun>.  </TextRun></BillSectionNumber><P>Sections 1 through 6 of this act constitute a new chapter in <TitleCite><TextRun>Title </TextRun><TitleNumber>77</TitleNumber><TextRun> RCW</TextRun></TitleCite>.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-3544.2</RequestNumber><ShortBillId>SB 6169</ShortBillId><LongBillId>SENATE BILL 6169</LongBillId><Legislature>64th Legislature</Legislature><Session>2016 Regular Session</Session><Sponsors>Senators Angel and Habib</Sponsors><BillHistory><PrefiledDate>Prefiled 01/07/16.</PrefiledDate><ReadDate>Read first time 01/11/16.</ReadDate><ReferredCommittee>Referred to Committee on Government Operations &amp; Security.</ReferredCommittee></BillHistory><BriefDescription>Concerning easements in property tax foreclosures.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to easements in property tax foreclosures; and amending RCW 36.35.290.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>36</TitleNumber><TextRun>.</TextRun><ChapterNumber>35</ChapterNumber><TextRun>.</TextRun><SectionNumber>290</SectionNumber></SectionCite> and 1961 c 15 s 84.64.460 are each amended to read as follows:<Caption>Easements.</Caption></BillSectionHeader>
+<P>The general property tax assessed on any tract, lot, or parcel of real property includes all easements appurtenant thereto, provided said easements are a matter of public record in the auditor's office of the county in which said real property is situated. Any foreclosure of delinquent taxes on any tract, lot<TextRun amendingStyle="add">,</TextRun> or parcel of real property subject to such easement or easements, and any tax deed issued pursuant thereto shall be subject to such easement or easements, provided such easement or easements <TextRun amendingStyle="strike">were</TextRun> <TextRun amendingStyle="add">are</TextRun> established of record <TextRun amendingStyle="strike">prior to the year for which the tax was foreclosed</TextRun>.</P>
+<History>1961 c 15 § 84.64.460. Prior: 1959 c 129 § 1. Formerly RCW 84.64.460.</History>
+</BillSection>
+</BillBody>
+</Bill>

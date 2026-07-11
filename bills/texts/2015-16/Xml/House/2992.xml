@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-4478.3</RequestNumber><ShortBillId>HB 2992</ShortBillId><LongBillId>HOUSE BILL 2992</LongBillId><Legislature>64th Legislature</Legislature><Session>2016 Regular Session</Session><Sponsors>Representatives Frame, Farrell, Riccelli, Bergquist, Robinson, Pollet, Gregerson, Ryu, Jinkins, Reykdal, Tharinger, Kuderer, Moscoso, Cody, Fey, Sells, Appleton, Ortiz-Self, Wylie, S. Hunt, Van De Wege, McBride, Moeller, Tarleton, Senn, Walkinshaw, Kagi, Santos, Kirby, Ormsby, and Peterson</Sponsors><BillHistory /><BriefDescription>Improving fairness in the Washington tax system by narrowing the sales and use tax exemption for the purchase and repair of large private airplanes owned by nonresident entities.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to improving fairness in the Washington tax system by narrowing the sales and use tax exemption for the purchase and repair of large private airplanes owned by nonresident entities; amending RCW 82.08.215; adding a new section to chapter 82.32 RCW; adding a new section to chapter 43.135 RCW; and providing an expiration date.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>82</TitleNumber><TextRun>.</TextRun><ChapterNumber>08</ChapterNumber><TextRun>.</TextRun><SectionNumber>215</SectionNumber></SectionCite> and 2013 2nd sp.s. c 13 s 1103 are each amended to read as follows:<Caption>Exemptions<TextRun fontFamily="Times New Roman">—</TextRun>Large private airplanes. <TextRun fontStyle="italic">(Expires July 1, 2021.)</TextRun></Caption></BillSectionHeader>
+<P>(1)(a) The tax levied by RCW 82.08.020 does not apply to:</P>
+<P>(i) Sales of large private airplanes to nonresident<TextRun amendingStyle="strike">s of this state</TextRun> <TextRun amendingStyle="add">individuals</TextRun>; and</P>
+<P>(ii) Sales of or charges made for labor and services rendered in respect to repairing, cleaning, altering, or improving large private airplanes owned by nonresident<TextRun amendingStyle="strike">s of this state</TextRun> <TextRun amendingStyle="add">individuals</TextRun>.</P>
+<P>(b) The exemption provided by this section applies only when the large private airplane is not required to be registered with the department of transportation, or its successor, under chapter 47.68 RCW. The airplane owner or lessee claiming an exemption under this section must provide the department, upon request, a copy of the written statement required under RCW 47.68.250(5)(c)(ii) documenting the airplane's registration exemption and any additional information the department may require.</P>
+<P>(2) Sellers making tax-exempt sales under this section must obtain an exemption certificate from the buyer in a form and manner prescribed by the department. The seller must retain a copy of the exemption certificate for the seller's files. In lieu of an exemption certificate, a seller may capture the relevant data elements as allowed under the streamlined sales and use tax agreement. For sellers who electronically file their taxes, the department must provide a separate tax reporting line for exemption amounts claimed under this section.</P>
+<P>(3) Upon request, the department of transportation must provide to the department of revenue information needed by the department of revenue to verify eligibility under this section.</P>
+<P>(4) For purposes of this section "large private airplane" means an airplane not used in interstate commerce, not owned or leased by a government entity, weighing more than forty-one thousand pounds, and assigned a category A, B, C, or D test flow management system aircraft weight class by the federal aviation administration's office of aviation policy and plans.</P>
+<P><TextRun amendingStyle="add">(5) This section expires July 1, 2021.</TextRun></P>
+<History>2013 2nd sp.s. c 13 § 1103.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2013 2nd sp.s. c 13:</TextRun> "Part XI of this act takes effect January 1, 2014." [2013 2nd sp.s. c 13 § 1905.]</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Expiration date<TextRun fontFamily="Times New Roman">—</TextRun>2013 2nd sp.s. c 13:</TextRun> "Part XI of this act expires July 1, 2021." [2013 2nd sp.s. c 13 § 1906.]</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Intent<TextRun fontFamily="Times New Roman">—</TextRun>Findings<TextRun fontFamily="Times New Roman">—</TextRun>2013 2nd sp.s. c 13:</TextRun> See note following RCW 47.68.250.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>82</TitleNumber><TextRun>.</TextRun><ChapterNumber>32</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) By the last workday of the second and fourth calendar quarters, the state treasurer must transfer the amount specified in subsection (2) of this section from the general fund to the education legacy trust account. The first transfer under this subsection (1) must occur by December 31, 2016.</P>
+<P>(2) By December 15th and by June 15th of each year, the department must estimate the increase in state general fund revenues from the changes made under section 1 of this act for the current and prior calendar quarters and notify the state treasurer of the increase.</P>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>135</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>RCW 43.135.034(4) does not apply to the transfers under section 2 of this act.</P>
+</BillSection>
+</BillBody>
+</Bill>

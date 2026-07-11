@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-1305.1</RequestNumber><ShortBillId>SB 5765</ShortBillId><LongBillId>SENATE BILL 5765</LongBillId><Legislature>65th Legislature</Legislature><Session>2017 Regular Session</Session><Sponsors>Senator Hasegawa</Sponsors><BillHistory><ReadDate>Read first time 02/08/17.</ReadDate><ReferredCommittee>Referred to Committee on Ways &amp; Means.</ReferredCommittee></BillHistory><BriefDescription>Repealing certain tax exemptions and deductions to help pay for the full funding of basic education.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to repealing certain tax exemptions and deductions to help pay for the full funding of basic education; creating a new section; repealing RCW 82.04.315 and 82.04.540; and providing an effective date.</BillTitle>
+<EnactedClause />
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature finds that the department of revenue's 2016 tax exemption study states that there are six hundred ninety-four tax exemptions in the state's tax code attributing to over fifty billion dollars in taxpayers' savings from state taxes. The legislature further finds that the state supreme court has ruled that the state is not fully funding public education as required in Article IX, section 1 of the state Constitution. The legislature further finds that specific carve outs in the state tax code for specific industries are not fair to other taxpaying industries and helps to create an unequitable tax code. The legislature further finds that the public good for creating tax exemptions for international banking facilities and for professional employer organizations does not outweigh the public good for investing these tax expenditures into our public education.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="repeal">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>The following acts or parts of acts are each repealed:</P></BillSectionHeader>
+<P><RepealNumber>1</RepealNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>82</TitleNumber><TextRun>.</TextRun><ChapterNumber>04</ChapterNumber><TextRun>.</TextRun><SectionNumber>315</SectionNumber></SectionCite> (Exemptions<TextRun fontFamily="Times New Roman">—</TextRun>International banking facilities) and 1982 c 95 s 7; and</P>
+<P><RepealNumber>2</RepealNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>82</TitleNumber><TextRun>.</TextRun><ChapterNumber>04</ChapterNumber><TextRun>.</TextRun><SectionNumber>540</SectionNumber></SectionCite> (Professional employer organizations<TextRun fontFamily="Times New Roman">—</TextRun>Taxable under RCW 82.04.290(2)<TextRun fontFamily="Times New Roman">—</TextRun>Deduction) and 2006 c 301 s 1.</P>
+</BillSection>
+<BillSection type="new" action="effdate">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act takes effect August 1, 2017.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

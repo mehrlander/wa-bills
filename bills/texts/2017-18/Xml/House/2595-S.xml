@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-4372.1</RequestNumber><ShortBillId>SHB 2595</ShortBillId><LongBillId>SUBSTITUTE HOUSE BILL 2595</LongBillId><Legislature>65th Legislature</Legislature><Session>2018 Regular Session</Session><Sponsors>House State Government, Elections &amp; Information Technology (originally sponsored by Representatives Hudgins, Dolan, Appleton, Gregerson, Pellicciotti, Jinkins, Senn, Wylie, Peterson, Sawyer, Fitzgibbon, Valdez, Stanford, Pollet, Doglio, Goodman, Ormsby, Macri, Riccelli, Robinson, and Stonier; by request of Governor Inslee)</Sponsors><BillHistory><ReadDate>READ FIRST TIME 02/02/18.</ReadDate></BillHistory><BriefDescription>Concerning procedures in order to automatically register citizens to vote.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to increasing opportunities for citizens to participate in elections by streamlining procedures in order to automatically register citizens to vote; amending RCW 29A.08.110, 29A.08.350, 29A.08.410, 29A.08.420, and 29A.08.720; adding new sections to chapter 29A.08 RCW; adding a new section to chapter 46.20 RCW; adding a new section to chapter 29A.04 RCW; creating new sections; prescribing penalties; providing effective dates; and providing an expiration date.</BillTitle>
+<EnactedClause />
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act may be known and cited as the automatic voter registration act of 2018.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) The legislature finds that:</P></BillSectionHeader>
+<P>(a) The right to vote is enshrined as one of the greatest virtues of our democracy and that an engaged citizenry is essential at each level of government to ensure that all voices are heard; and</P>
+<P>(b) State and local governments should take every step possible to make it easier to vote in Washington state and ensure that fundamental values of a true democracy with full participation remains one of our most important functions. Providing additional opportunities for people to register to vote and helping them make their own choices about who represents them in this democracy and about important issues that are central to their lives and communities are essential to upholding these values.</P>
+<P>(2) Therefore, the legislature intends to increase the opportunity to register to vote for persons qualified under Article VI of the Washington state Constitution by expanding the streamlined voter registration process that will increase opportunities for voter registration without placing new undue burdens on government agencies.</P>
+</BillSection>
+<Part>
+<P>PART I</P>
+<P>AUTOMATIC VOTER REGISTRATION FOR ENHANCED DRIVER'S LICENSE</P>
+</Part>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value fixed="true">101</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>29A</TitleNumber><TextRun>.</TextRun><ChapterNumber>08</ChapterNumber><TextRun>.</TextRun><SectionNumber>110</SectionNumber></SectionCite> and 2009 c 369 s 10 are each amended to read as follows:<Caption>Auditor's procedure.</Caption></BillSectionHeader>
+<P>(1) <TextRun amendingStyle="add">For persons registering under RCW 29A.08.120, 29A.08.123, 29A.08.330, and 29A.08.340, a</TextRun>n application is considered complete only if it contains the information required by RCW 29A.08.010. The applicant is considered to be registered to vote as of the original date of mailing or date of delivery, whichever is applicable. The auditor shall record the appropriate precinct identification, taxing district identification, and date of registration on the voter's record in the state voter registration list. Any mailing address provided shall be used only for mail delivery purposes, and not for precinct assignment or residency purposes. Within sixty days after the receipt of an application or transfer, the auditor shall send to the applicant, by first-class nonforwardable mail, an acknowledgment notice identifying the registrant's precinct and containing such other information as may be required by the secretary of state. The postal service shall be instructed not to forward a voter registration card to any other address and to return to the auditor any card which is not deliverable.</P>
+<P>(2) If an application is not complete, the auditor shall promptly mail a verification notice to the applicant. The verification notice shall require the applicant to provide the missing information. If the applicant provides the required information within forty-five days, the applicant shall be registered to vote as of the original date of application. The applicant shall not be placed on the official list of registered voters until the application is complete.</P>
+<History>2009 c 369 § 10; 2005 c 246 § 5; 2004 c 267 § 107; 2003 c 111 § 206. Prior: 1994 c 57 § 32; 1993 c 434 § 6. Formerly RCW 29.08.060.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2005 c 246:</TextRun> See note following RCW 10.64.140.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective dates<TextRun fontFamily="Times New Roman">—</TextRun>2004 c 267:</TextRun> See note following RCW 29A.08.010.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Severability<TextRun fontFamily="Times New Roman">—</TextRun>Effective date<TextRun fontFamily="Times New Roman">—</TextRun>1994 c 57:</TextRun> See notes following RCW 29A.16.040.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value fixed="true">102</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>29A</TitleNumber><TextRun>.</TextRun><ChapterNumber>08</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>The department of licensing shall implement an automatic voter registration system so that a person age eighteen years or older who is eligible to vote and is applying for or renewing an enhanced driver's license or identicard issued under RCW 46.20.202 may be registered to vote or update voter registration information at the time of registration or renewal, by automated process if the department of licensing record associated with the applicant contains the data required to determine that the applicant meets voter qualification requirements, under Article VI of the Washington state Constitution, for voter registration under RCW 29A.08.010, and includes a signature image. The person must be informed that his or her record will be used for voter registration, and offered an opportunity to decline to register.</P>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value fixed="true">103</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>29A</TitleNumber><TextRun>.</TextRun><ChapterNumber>08</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) If the applicant in section 102 of this act does not decline registration, the application is submitted pursuant to RCW 29A.08.340.</P>
+<P>(2) For each such application, the secretary of state must obtain a digital copy of the applicant's signature image from the department of licensing.</P>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>104</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>29A</TitleNumber><TextRun>.</TextRun><ChapterNumber>08</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1)(a) For persons age eighteen years and older registering under section 102 of this act, an application is considered complete only if it contains the information required by RCW 29A.08.010 and a verification of eligibility. The applicant is considered to be registered to vote as of the original date of application or renewal of an enhanced driver's license or identicard issued under RCW 46.20.202. The auditor shall record the appropriate precinct identification, taxing district identification, and date of registration on the voter's record in the state voter registration list. Any mailing address provided shall be used only for mail delivery purposes, and not for precinct assignment or residency purposes. Within sixty days after the receipt of an application or transfer, the auditor shall send to the applicant, by first-class nonforwardable mail, an acknowledgment notice identifying the registrant's precinct and containing such other information as may be required by the secretary of state. The United States postal service shall be instructed not to forward a voter registration card to any other address and to return to the auditor any card which is not deliverable.</P>
+<P>(b) An auditor may use other means to communicate with potential and registered voters such as, but not limited to, email, phone, or text messaging. The alternate form of communication must not be in lieu of the first-class mail requirements. The auditor shall act in compliance with all voter notification processes established in federal law.</P>
+<P>(2) If an application is not complete, the auditor shall promptly mail a verification notice to the applicant. The verification notice must require the applicant to provide the missing information. The applicant must not be placed on the official list of registered voters until the application is complete.</P>
+<P>(3) If the prospective registration applicant declines to register to vote or the information provided by the department of licensing does not indicate citizenship, the information must not be included on the list of registered voters.</P>
+<P>(4) The department of licensing is prohibited from sharing information used to verify identity with any federal agency unless required by law. The department may not retain any records or documentation used to certify eligibility to vote under this section once the certification process has been completed and recorded unless required by law. Personal information supplied for the purposes of obtaining a driver's license or identicard is exempt from public inspection pursuant to RCW 42.56.230.</P>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>105</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>46</TitleNumber><TextRun>.</TextRun><ChapterNumber>20</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>For persons eighteen years of age or older who the department has determined are eligible to vote, who are applying for or renewing an enhanced driver's license or identicard under RCW 46.20.202, and have not declined to register to vote, the department shall produce and transmit to the secretary of state the following information from the records of each individual: The name, address, date of birth, gender of the applicant, the driver's license number, signature image, and the date on which the application was submitted. The department and the secretary of state shall process information as an automated application on a daily basis.</P>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>106</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>29A</TitleNumber><TextRun>.</TextRun><ChapterNumber>08</ChapterNumber><TextRun>.</TextRun><SectionNumber>350</SectionNumber></SectionCite> and 2013 c 11 s 18 are each amended to read as follows:<Caption>Duties of department of licensing, secretary of state.</Caption></BillSectionHeader>
+<P>The department of licensing shall produce and transmit to the secretary of state the following information from the records of each individual who requested a voter registration or update at a driver's license facility: The name, address, date of birth, gender of the applicant, the driver's license number, <TextRun amendingStyle="add">signature image,</TextRun> and the date on which the application for voter registration or update was submitted. The secretary of state shall process the registrations and updates as an electronic application.</P>
+<History>2013 c 11 § 18; 2009 c 369 § 21; 2004 c 267 § 120; 2003 c 111 § 226; 1994 c 57 § 22; 1990 c 143 § 2. Formerly RCW 29.07.270.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective dates<TextRun fontFamily="Times New Roman">—</TextRun>2004 c 267:</TextRun> See note following RCW 29A.08.010.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Severability<TextRun fontFamily="Times New Roman">—</TextRun>Effective date<TextRun fontFamily="Times New Roman">—</TextRun>1994 c 57:</TextRun> See notes following RCW 29A.16.040.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>1990 c 143 §§ 1-8:</TextRun> See note following RCW 29A.08.340.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<Part>
+<P>PART II</P>
+<P>AUTOMATIC VOTER REGISTRATION AT QUALIFIED VOTER REGISTRATION AGENCIES</P>
+</Part>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value fixed="true">201</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>29A</TitleNumber><TextRun>.</TextRun><ChapterNumber>04</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) The health benefit exchange shall provide directly to the secretary of state's office information required to register to vote or transfer a registration for each consenting person who:</P>
+<P>(a) Submits a new or updated application;</P>
+<P>(b) Is at least eighteen years old;</P>
+<P>(c) Is a resident of Washington state; and</P>
+<P>(d) Is verified as a United States Citizen.</P>
+<P>(2) For each such person, the health benefit exchange shall provide directly to the secretary of state the following information:</P>
+<P>(a) Name;</P>
+<P>(b) Traditional or nontraditional residential address;</P>
+<P>(c) Mailing address, if different from the traditional or nontraditional residential address; and</P>
+<P>(d) Date of birth.</P>
+<P>(3) The health benefit exchange shall consult with the secretary of state's office:</P>
+<P>(a) To ensure that sufficient information is provided to the secretary of state to allow the secretary of state to obtain a digital copy of the person's signature when available from the department of licensing; and</P>
+<P>(b) To establish automatic voter registration procedures that are secure, and compliant with federal and state voting registration and privacy laws and rules. The information transferred under this section may only be used for voter registration purposes.</P>
+<P>(4) If the health benefit exchange determines, in consultation with the health care authority, that implementation of this act requires application changes subject to approval from the centers for medicare and medicaid services, participation of the health benefit exchange shall be contingent on receiving that approval.</P>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>202</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>29A</TitleNumber><TextRun>.</TextRun><ChapterNumber>08</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1)(a) Except as provided in (b) of this subsection, upon receiving the data for, and a digital copy of the signature of, a person as provided in section 201 of this act, the secretary of state shall determine whether the person is already registered to vote. If the person is not already registered to vote, the secretary of state shall provide the information to the county auditor of the county in which the person may be registered as a voter, and the auditor shall register the person to vote.</P>
+<P>(b) If the secretary of state receives information about a person pursuant to section 201 of this act within eight days of an election in which that person would otherwise be eligible to vote, the secretary of state shall wait until after the election to provide the information to the county auditor of the county in which that person may be registered as a voter.</P>
+<P>(2) If the person is already registered to vote, but the residential address transmitted, in accordance with section 201 of this act, by the qualified voter registration agency is different from the residential address on the person's current registration, the secretary of state shall direct the auditor of the county in which the person may be registered as a voter to update the person's voter registration.</P>
+<P>(3) The county auditor shall promptly send a notification to each person who has newly registered to vote or whose existing voter registration is updated under this section.</P>
+<P>(4) A voter registration submitted under this section is otherwise considered an electronic voter registration.</P>
+<P>(5) Information transmitted from the health benefit exchange to the secretary of state, pursuant to subsection (1) of this section, that is used for voter registration purposes, may not be disclosed by the health benefit exchange to the public.</P>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>203</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>29A</TitleNumber><TextRun>.</TextRun><ChapterNumber>08</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) If a person who is ineligible to vote becomes, in the rare occasion, registered to vote under section 102 or 201 of this act in the absence of a knowing violation by that person of RCW 29A.84.140, that person shall be deemed to have performed an authorized act of registration and such act may not be considered as evidence of a claim to citizenship.</P>
+<P>(2) Unless a person willfully and knowingly votes or attempts to vote knowing that he or she is not entitled to vote, a person who is ineligible to vote and becomes registered to vote under section 102 or 201 of this act, and subsequently votes or attempts to vote in an election held after the effective date of the person's registration, is not guilty of violating RCW 29A.84.130, and shall be deemed to have performed an authorized act, and such act may not be considered as evidence of a claim to citizenship.</P>
+<P>(3) A person who is ineligible to vote, who successfully completes the voter registration process or votes in an election, must have their voter registration, or record of vote, removed from the voter registration database and any other application records.</P>
+<P>(4) Should an ineligible person become registered to vote, the office of the secretary of state shall conduct an investigation to determine the cause. Agencies participating in automatic voter registration shall cooperate fully with the secretary of state for the purposes of the investigation. Upon completion of the investigation, a report detailing the findings of the investigation must be submitted to the governor and legislature. The report may not contain any personally identifiable information.</P>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>204</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>29A</TitleNumber><TextRun>.</TextRun><ChapterNumber>08</ChapterNumber><TextRun>.</TextRun><SectionNumber>410</SectionNumber></SectionCite> and 2009 c 369 s 22 are each amended to read as follows:<Caption>Address change within county<TextRun fontFamily="Times New Roman">—</TextRun>Transfer by telephone or email.</Caption></BillSectionHeader>
+<P>A registered voter who changes his or her residence from one address to another within the same county may transfer his or her registration to the new address in one of the following ways:</P>
+<P>(1) Sending the county auditor a request stating both the voter's present address and the address from which the voter was last registered;</P>
+<P>(2) Appearing in person before the county auditor and making such a request;</P>
+<P>(3) Telephoning or emailing the county auditor to transfer the registration; <TextRun amendingStyle="strike">or</TextRun></P>
+<P>(4) Submitting a voter registration application<TextRun amendingStyle="add">;</TextRun></P>
+<P><TextRun amendingStyle="add">(5) Submitting information to the department of licensing; or</TextRun></P>
+<P><TextRun amendingStyle="add">(6) Submitting information to the health benefit exchange</TextRun>.</P>
+<History>2009 c 369 § 22; 2003 c 111 § 228; 1994 c 57 § 35; 1991 c 81 § 23; 1975 1st ex.s. c 184 § 2; 1971 ex.s. c 202 § 24; 1965 c 9 § 29.10.020. Prior: 1955 c 181 § 4; prior: 1933 c 1 § 14, part; RRS § 5114-14, part; prior: 1919 c 163 § 9, part; 1915 c 16 § 9, part; 1889 p 417 § 12, part; RRS § 5129, part. Formerly RCW 29.10.020.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Severability<TextRun fontFamily="Times New Roman">—</TextRun>1994 c 57:</TextRun> See note following RCW 29A.16.040.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>1991 c 81:</TextRun> See note following RCW 29A.84.540.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Severability<TextRun fontFamily="Times New Roman">—</TextRun>1975 1st ex.s. c 184:</TextRun> See note following RCW 29A.08.135.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>205</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>29A</TitleNumber><TextRun>.</TextRun><ChapterNumber>08</ChapterNumber><TextRun>.</TextRun><SectionNumber>420</SectionNumber></SectionCite> and 2009 c 369 s 23 are each amended to read as follows:<Caption>Transfer to another county.</Caption></BillSectionHeader>
+<P>A registered voter who changes his or her residence from one county to another county must do so by submitting a voter registration form <TextRun amendingStyle="add">or by submitting information to the department of licensing or the health benefit exchange</TextRun>. The county auditor of the voter's new county shall transfer the voter's registration from the county of the previous registration.</P>
+<History>2009 c 369 § 23; 2004 c 267 § 122; 2003 c 111 § 229; 1999 c 100 § 3; 1994 c 57 § 36; 1991 c 81 § 24; 1977 ex.s. c 361 § 26; 1971 ex.s. c 202 § 26; 1965 c 9 § 29.10.040. Prior: 1933 c 1 § 15; RRS § 5114-15. Formerly RCW 29.10.040.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective dates<TextRun fontFamily="Times New Roman">—</TextRun>2004 c 267:</TextRun> See note following RCW 29A.08.010.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Severability<TextRun fontFamily="Times New Roman">—</TextRun>1994 c 57:</TextRun> See note following RCW 29A.16.040.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>1991 c 81:</TextRun> See note following RCW 29A.84.540.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>Severability<TextRun fontFamily="Times New Roman">—</TextRun>1977 ex.s. c 361:</TextRun> See notes following RCW 29A.16.040.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>206</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>29A</TitleNumber><TextRun>.</TextRun><ChapterNumber>08</ChapterNumber><TextRun>.</TextRun><SectionNumber>720</SectionNumber></SectionCite> and 2011 c 10 s 18 are each amended to read as follows:<Caption>Registration, voting records<TextRun fontFamily="Times New Roman">—</TextRun>As public records<TextRun fontFamily="Times New Roman">—</TextRun>Information furnished<TextRun fontFamily="Times New Roman">—</TextRun>Restrictions, confidentiality.</Caption></BillSectionHeader>
+<P>(1) In the case of voter registration records received through <TextRun amendingStyle="add">the health benefit exchange,</TextRun> the department of licensing<TextRun amendingStyle="add">,</TextRun> or an agency designated under RCW 29A.08.310, the identity of the office or agency at which any particular individual registered to vote <TextRun amendingStyle="add">must be used only for voter registration purposes,</TextRun> is not available for public inspection<TextRun amendingStyle="add">,</TextRun> and shall not be disclosed to the public. Any record of a particular individual's choice not to register to vote at an office of the department of licensing or a state agency designated under RCW 29A.08.310 is not available for public inspection and any information regarding such a choice by a particular individual shall not be disclosed to the public.</P>
+<P>(2) Subject to the restrictions of RCW 29A.08.710 and 40.24.060, precinct lists and current lists of registered voters are public records and must be made available for public inspection and copying under such reasonable rules and regulations as the county auditor or secretary of state may prescribe. The county auditor or secretary of state shall promptly furnish current lists of registered voters in his or her possession, at actual reproduction cost, to any person requesting such information. The lists shall not be used for the purpose of mailing or delivering any advertisement or offer for any property, establishment, organization, product, or service or for the purpose of mailing or delivering any solicitation for money, services, or anything of value. However, the lists and labels may be used for any political purpose. The county auditor or secretary of state must provide a copy of RCW 29A.08.740 to the person requesting the material that is released under this section.</P>
+<P>(3) For the purposes of this section, "political purpose" means a purpose concerned with the support of or opposition to any candidate for any partisan or nonpartisan office or concerned with the support of or opposition to any ballot proposition or issue. "Political purpose" includes, but is not limited to, such activities as the advertising for or against any candidate or ballot measure or the solicitation of financial support.</P>
+<History>2011 c 10 § 18; 2009 c 369 § 34; 2005 c 246 § 18; 2004 c 266 § 9; 2003 c 111 § 247; 1994 c 57 § 5; 1975-'76 2nd ex.s. c 46 § 1; 1974 ex.s. c 127 § 2; 1973 1st ex.s. c 111 § 2; 1971 ex.s. c 202 § 3; 1965 ex.s. c 156 § 6. Formerly RCW 29.04.100.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Notice to registered poll voters<TextRun fontFamily="Times New Roman">—</TextRun>Elections by mail<TextRun fontFamily="Times New Roman">—</TextRun>2011 c 10:</TextRun> See note following RCW 29A.04.008.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2005 c 246:</TextRun> See note following RCW 10.64.140.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2004 c 266:</TextRun> See note following RCW 29A.04.575.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Severability<TextRun fontFamily="Times New Roman">—</TextRun>1994 c 57:</TextRun> See note following RCW 29A.16.040.</NoteP></AnnNote>
+<CrossRefNote><NoteP>Forms, secretary of state to design<TextRun fontFamily="Times New Roman">—</TextRun>Availability to public: RCW 29A.08.850.</NoteP></CrossRefNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>207</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) The health benefit exchange must study the feasibility of implementing automatic voter registration. The study must include:</P></BillSectionHeader>
+<P>(a) An examination of applicable federal and state voter registration and privacy laws and rules;</P>
+<P>(b) Potential barriers to implementation of automatic voter registration and recommended solutions to mitigate those barriers, including alternatives for secure electronic voter registration;</P>
+<P>(c) A process for secure data transfer to the secretary of state; and</P>
+<P>(d) A timeline and the anticipated state costs for implementing identified options.</P>
+<P>(2) The exchange must submit a report to the governor and appropriate committees of the legislature no later than December 1, 2020.</P>
+</BillSection>
+<Part>
+<P>PART III</P>
+<P>PENDING VOTER REGISTRATION AT BIRTH AND TASK FORCE</P>
+</Part>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value fixed="true">301</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature finds that advances in database integration and technology can create streamlined, less bureaucratic, and more efficient processes for the voter registration system. The legislature finds that information verifying voter eligibility filed with the state should be automatically integrated into the existing voter registration process in preparation for those who wish to participate in voting. Voter registration should not be an impediment or hurdle to participation in the election process, but rather a function of properly administered elections. The legislature further finds that continued improvement in database integration across state and local agencies should be applied to a modernized voter registration process and database in order to facilitate the participation of persons eligible to vote in future elections. The legislature further finds that the voter registration process should automatically commence at birth when a certificate of live birth has been filed with the state, bringing that new resident a step closer to fulfilling the current registration requirements, without changing those existing regulations.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>302</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>29A</TitleNumber><TextRun>.</TextRun><ChapterNumber>08</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) The office of the secretary of state must conduct a study and prepare recommendations for creating an automatic voter registration process for residents who recently completed the naturalization process, and for an automatic voter registration process at birth.</P>
+<P>(2) For the automatic registration of residents who recently completed the naturalization process, the office should consult with federal agencies involved with naturalization to determine the feasibility of options for developing an automatic voter registration process for such persons.</P>
+<P>(3) For automatic registration at birth, the office should consult with relevant state agencies that collect and maintain records containing personal information and consider ways for transferring and sharing such information with voter registration databases. Such considerations should include issues regarding data-sharing agreements and procedures, coordination among state and local agencies for updating voting registration records, address confirmation procedures, methods and procedures for collecting and verifying personally identifiable information, public notice and opt-out procedures, cybersecurity measures or standards, and delegation of authority necessary for implementation.</P>
+<P>(4) The office must prepare a report to the appropriate legislative standing committees by December 1, 2019, that includes each study and proposed recommendations, including any legislative authority that may be needed to implement the proposed recommendations.</P>
+<P>(5) This section expires June 30, 2020.</P>
+</BillSection>
+<Part>
+<P>PART IV</P>
+<P>MISCELLANEOUS</P>
+</Part>
+<BillSection type="new" action="effdate">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value fixed="true">401</Value><TextRun>.  </TextRun></BillSectionNumber><P>Sections 101 through 207 of this act take effect July 1, 2019.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="effdate">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>402</Value><TextRun>.  </TextRun></BillSectionNumber><P>Sections 301 and 302 of this act take effect July 1, 2018.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>403</Value><TextRun>.  </TextRun></BillSectionNumber><P>If specific funding for the purposes of section 201 of this act, referencing section 201 of this act by bill or chapter number and section number, is not provided by June 30, 2018, in the omnibus appropriations act, section 201 of this act is null and void.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

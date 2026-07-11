@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-4338.1</RequestNumber><ShortBillId>SB 6579</ShortBillId><LongBillId>SENATE BILL 6579</LongBillId><Legislature>65th Legislature</Legislature><Session>2018 Regular Session</Session><Sponsors>Senator Fortunato</Sponsors><BillHistory /><BriefDescription>Concerning birth centers.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to birthing centers; amending RCW 18.46.010 and 18.46.020; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature finds that the growing number of options of venue for consumers in Washington state to give birth is positive. With more options, there are also more opportunities for consumers to become confused by the term "birth center." "Birth center" is applied to hospital labor and delivery units, labor and delivery units in separate structures on hospital campuses, and to licensed birth centers. Birth data is easily confused by having different birth venue types with the same name. For these reasons, it is the intent of the legislature to provide clarity for consumers.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>18</TitleNumber><TextRun>.</TextRun><ChapterNumber>46</ChapterNumber><TextRun>.</TextRun><SectionNumber>010</SectionNumber></SectionCite> and 2000 c 93 s 30 are each amended to read as follows:<Caption>Definitions.</Caption></BillSectionHeader>
+<P>(1) "Birthing center<TextRun amendingStyle="add">,</TextRun>" <TextRun amendingStyle="add">"birth center,"</TextRun> or "childbirth center" means any health facility, not part of a hospital or in a hospital, that provides facilities and staff to support a birth service to low-risk maternity clients<TextRun amendingStyle="strike">: PROVIDED, HOWEVER, That this chapter shall not apply to any hospital approved by the American College of Surgeons, American Osteopathic Association, or its successor</TextRun>.</P>
+<P>(2) "Department" means the state department of health.</P>
+<P>(3) "Low-risk" means normal, uncomplicated prenatal course as determined by adequate prenatal care and prospects for a normal uncomplicated birth as defined by reasonable and generally accepted criteria of maternal and fetal health.</P>
+<P>(4) "Person" means any individual, firm, partnership, corporation, company, association, or joint stock association, and the legal successor thereof.</P>
+<History>2000 c 93 § 30; 1991 c 3 § 100; 1985 c 213 § 8; 1979 c 141 § 32; 1951 c 168 § 2. Prior: 1943 c 214 § 1; Rem. Supp. 1943 § 6130<Hyphen type="nobreak" />47.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Savings<TextRun fontFamily="Times New Roman">—</TextRun>Effective date<TextRun fontFamily="Times New Roman">—</TextRun>1985 c 213:</TextRun> See notes following RCW 43.20.050.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>18</TitleNumber><TextRun>.</TextRun><ChapterNumber>46</ChapterNumber><TextRun>.</TextRun><SectionNumber>020</SectionNumber></SectionCite> and 2000 c 93 s 31 are each amended to read as follows:<Caption>License required.</Caption></BillSectionHeader>
+<P><TextRun amendingStyle="strike">After July 1, 1951,</TextRun> <TextRun amendingStyle="add">(1) N</TextRun>o person shall operate a birthing center in this state without a license under this chapter.</P>
+<P><TextRun amendingStyle="add">(2) No person may advertise as or claim to be a "birthing center," "birth center," or "childbirth center" unless licensed under this chapter.</TextRun></P>
+<History>2000 c 93 § 31; 1951 c 168 § 3. Prior: 1943 c 214 § 2; Rem. Supp. 1943 § 6130-48.</History>
+</BillSection>
+</BillBody>
+</Bill>

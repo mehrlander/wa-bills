@@ -1,0 +1,287 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-0881.1</RequestNumber><ShortBillId>HB 1795</ShortBillId><LongBillId>HOUSE BILL 1795</LongBillId><Legislature>68th Legislature</Legislature><Session>2023 Regular Session</Session><Sponsors>Representatives Street, Ramel, Reed, Ryu, Senn, Lekanoff, Fitzgibbon, Bateman, Ormsby, Pollet, Walen, Gregerson, and Simmons</Sponsors><BillHistory><ReadDate>Read first time 02/08/23.</ReadDate><ReferredCommittee>Referred to Committee on Finance.</ReferredCommittee></BillHistory><BriefDescription>Making the estate tax more progressive.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to making the estate tax more progressive; amending RCW 83.100.040, 83.100.047, 83.100.048, 83.100.050, and 83.100.220; reenacting and amending RCW 83.100.020; adding a new section to chapter 83.100 RCW; creating new sections; and providing an effective date. </BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="remd">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>83</TitleNumber><TextRun>.</TextRun><ChapterNumber>100</ChapterNumber><TextRun>.</TextRun><SectionNumber>020</SectionNumber></SectionCite> and 2013 2nd sp.s. c 2 s 2 are each reenacted and amended to read as follows:<Caption>Definitions.</Caption></BillSectionHeader>
+<P>The definitions in this section apply throughout this chapter unless the context clearly requires otherwise.</P>
+<P>(1)(a) <TextRun amendingStyle="add">The "applicable exclusion amount" for the decedent's estate is the applicable exclusion amount in effect as of the date of the decedent's death.</TextRun> "Applicable exclusion amount" means:</P>
+<P>(i) <TextRun amendingStyle="strike">One million five hundred thousand dollars</TextRun> <TextRun amendingStyle="add">$1,500,000</TextRun> for decedents dying before January 1, 2006;</P>
+<P>(ii) <TextRun amendingStyle="strike">Two million dollars</TextRun> <TextRun amendingStyle="add">$2,000,000</TextRun> for estates of decedents dying on or after January 1, 2006, and before January 1, 2014; <TextRun amendingStyle="strike">and</TextRun></P>
+<P>(iii) <TextRun amendingStyle="add">$2,012,000 for estates of decedents dying on or after January 1, 2014, and before January 1, 2015;</TextRun></P>
+<P><TextRun amendingStyle="add">(iv) $2,054,000 for estates of decedents dying on or after January 1, 2015, and before January 1, 2016;</TextRun></P>
+<P><TextRun amendingStyle="add">(v) $2,079,000 for estates of decedents dying on or after January 1, 2016, but before January 1, 2017;</TextRun></P>
+<P><TextRun amendingStyle="add">(vi) $2,129,000 for estates of decedents dying on or after January 1, 2017, but before January 1, 2018;</TextRun></P>
+<P><TextRun amendingStyle="add">(vii) $2,193,000 for estates of decedents dying on or after January 1, 2018, but before August 1, 2023;</TextRun></P>
+<P><TextRun amendingStyle="add">(viii) $2,659,000 for estates of decedents dying on or after August 1, 2023; and</TextRun></P>
+<P><TextRun amendingStyle="add">(ix)</TextRun> For estates of decedents dying in calendar year <TextRun amendingStyle="strike">2014</TextRun> <TextRun amendingStyle="add">2025</TextRun> and each calendar year thereafter, the amount in (a)<TextRun amendingStyle="strike">(ii)</TextRun> <TextRun amendingStyle="add">(viii)</TextRun> of this subsection <TextRun amendingStyle="add">(1)</TextRun> must be adjusted annually, except as otherwise provided in this subsection (1)(a)<TextRun amendingStyle="strike">(iii)</TextRun> <TextRun amendingStyle="add">(ix)</TextRun>. The annual adjustment is determined by multiplying <TextRun amendingStyle="strike">two million dollars</TextRun> <TextRun amendingStyle="add">$2,659,000</TextRun> by <TextRun amendingStyle="add">the sum of</TextRun> one plus the percentage by which the most recent October consumer price index exceeds the consumer price index for October <TextRun amendingStyle="strike">2012</TextRun> <TextRun amendingStyle="add">2023</TextRun>, and rounding the result to the nearest <TextRun amendingStyle="strike">one thousand dollars</TextRun> <TextRun amendingStyle="add">$1,000</TextRun>. No adjustment is made for a calendar year if the adjustment would result in the same or a lesser applicable exclusion amount than the applicable exclusion amount for the immediately preceding calendar year. <TextRun amendingStyle="strike">The applicable exclusion amount under this subsection (1)(a)(iii) for the decedent's estate is the applicable exclusion amount in effect as of the date of the decedent's death.</TextRun></P>
+<P>(b) For purposes of this subsection <TextRun amendingStyle="add">(1)</TextRun>, "consumer price index" means the consumer price index for all urban consumers, all items, for the Seattle<TextRun amendingStyle="strike">-Tacoma-Bremerton</TextRun> metropolitan area as calculated by the United States bureau of labor statistics. <TextRun amendingStyle="add">For purposes of this subsection (1)(b), "Seattle metropolitan area" means the geographic area sample that includes Seattle and surrounding areas.</TextRun></P>
+<P>(2) "Decedent" means a deceased individual.</P>
+<P>(3) "Department" means the department of revenue, the director of that department, or any employee of the department exercising authority lawfully delegated to him or her by the director.</P>
+<P>(4) "Federal return" means any tax return required by chapter 11 of the internal revenue code.</P>
+<P>(5) "Federal tax" means a tax under chapter 11 of the internal revenue code.</P>
+<P>(6) "Federal taxable estate" means the taxable estate as determined under chapter 11 of the internal revenue code without regard to: (a) The termination of the federal estate tax under section 2210 of the internal revenue code or any other provision of law, and (b) the deduction for state estate, inheritance, legacy, or succession taxes allowable under section 2058 of the internal revenue code.</P>
+<P>(7) "Gross estate" means "gross estate" as defined and used in section 2031 of the internal revenue code.</P>
+<P>(8) "Internal revenue code" means the United States internal revenue code of 1986, as amended or renumbered as of January 1, 2005.</P>
+<P>(9) "Person" means any individual, estate, trust, receiver, cooperative association, club, corporation, company, firm, partnership, joint venture, syndicate, or other entity and, to the extent permitted by law, any federal, state, or other governmental unit or subdivision or agency, department, or instrumentality thereof.</P>
+<P>(10) "Person required to file the federal return" means any person required to file a return required by chapter 11 of the internal revenue code, such as the personal representative of an estate.</P>
+<P>(11) "Property" means property included in the gross estate.</P>
+<P>(12) "Resident" means a decedent who was domiciled in Washington at time of death.</P>
+<P>(13) "Taxpayer" means a person upon whom tax is imposed under this chapter, including an estate or a person liable for tax under RCW 83.100.120.</P>
+<P>(14) "Transfer" means "transfer" as used in section 2001 of the internal revenue code and includes any shifting upon death of the economic benefit in property or any power or legal privilege incidental to the ownership or enjoyment of property. However, "transfer" does not include a qualified heir disposing of an interest in property qualifying for a deduction under RCW 83.100.046 or ceasing to use the property for farming purposes.</P>
+<P>(15) "Washington taxable estate" means the federal taxable estate and includes, but is not limited to, the value of any property included in the gross estate under section 2044 of the internal revenue code, regardless of whether the decedent's interest in such property was acquired before May 17, 2005, (a) plus amounts required to be added to the Washington taxable estate under RCW 83.100.047, (b) less: (i) The applicable exclusion amount; (ii) the amount of any deduction allowed under RCW 83.100.046; (iii) amounts allowed to be deducted from the Washington taxable estate under RCW 83.100.047; and (iv) the amount of any deduction allowed under RCW 83.100.048.</P>
+<History>2013 2nd sp.s. c 2 § 2; 2013 c 23 § 341; 2005 c 516 § 2; 2001 c 320 § 15; 1999 c 358 § 19; 1998 c 292 § 401; 1994 c 221 § 70; 1993 c 73 § 9; 1990 c 224 § 1; 1988 c 64 § 2; 1981 2nd ex.s. c 7 § 83.100.020 (Initiative Measure No. 402, approved November 3, 1981).</History>
+<RCWNoteSection>
+<RevNote><NoteP><TextRun fontWeight="bold">Reviser's note:</TextRun> The definitions in this section have been alphabetized pursuant to RCW 1.08.015(2)(k).</NoteP></RevNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Application<TextRun fontFamily="Times New Roman">—</TextRun>Prospective and retroactive<TextRun fontFamily="Times New Roman">—</TextRun>2013 2nd sp.s. c 2 §§ 2 and 5:</TextRun> See note following RCW 83.100.047.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Findings<TextRun fontFamily="Times New Roman">—</TextRun>Intent<TextRun fontFamily="Times New Roman">—</TextRun>Final judgment<TextRun fontFamily="Times New Roman">—</TextRun>Affect<TextRun fontFamily="Times New Roman">—</TextRun>Effective dates<TextRun fontFamily="Times New Roman">—</TextRun>2013 2nd sp.s. c 2:</TextRun> See notes following RCW 83.100.048.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Finding<TextRun fontFamily="Times New Roman">—</TextRun>Intent<TextRun fontFamily="Times New Roman">—</TextRun>Application<TextRun fontFamily="Times New Roman">—</TextRun>Severability<TextRun fontFamily="Times New Roman">—</TextRun>Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2005 c 516:</TextRun> See notes following RCW 83.100.040.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2001 c 320:</TextRun> See note following RCW 11.02.005.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>1999 c 358 §§ 1 and 3-21:</TextRun> See note following RCW 82.04.3651.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective dates<TextRun fontFamily="Times New Roman">—</TextRun>1998 c 292:</TextRun> See RCW 11.11.903.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective dates<TextRun fontFamily="Times New Roman">—</TextRun>1994 c 221:</TextRun> See note following RCW 11.100.035.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>83</TitleNumber><TextRun>.</TextRun><ChapterNumber>100</ChapterNumber><TextRun>.</TextRun><SectionNumber>040</SectionNumber></SectionCite> and 2013 2nd sp.s. c 2 s 4 are each amended to read as follows:<Caption>Estate tax imposed<TextRun fontFamily="Times New Roman">—</TextRun>Amount of tax.</Caption></BillSectionHeader>
+<P pubwidth="wide">(1) A tax in an amount computed as provided in this section is imposed on every transfer of property located in Washington. For the purposes of this section, any intangible property owned by a resident is located in Washington.</P>
+<P postPadding="halfline" pubwidth="wide">(2)(a) Except as provided in (b) of this subsection, the amount of tax is the amount provided in the following table:</P>
+<Table width="508.0pt" align="center" fontSize="10pt" pubwidth="wide">
+<Col width="101pt" />
+<Col width="102pt" />
+<Col width="102pt" />
+<Col width="102pt" />
+<Col width="101pt" />
+<TR>
+<TD colspan="2" valign="bottom"><P /><P>If Washington Taxable</P></TD>
+<TD colspan="2" valign="bottom"><P /><P>The amount of Tax Equals</P></TD>
+<TD rowspan="2" valign="top"><P>Of Washington Taxable Estate Value Greater than</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P>Estate is at least</P></TD>
+<TD valign="top"><P>But Less Than</P></TD>
+<TD valign="top"><P>Initial Tax Amount</P></TD>
+<TD valign="top"><P>Plus Tax Rate %</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P>$0</P></TD>
+<TD valign="top"><P>$1,000,000</P></TD>
+<TD valign="top"><P>$0</P></TD>
+<TD valign="top"><P>10.00%</P></TD>
+<TD valign="top"><P>$0</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P>$1,000,000</P></TD>
+<TD valign="top"><P>$2,000,000</P></TD>
+<TD valign="top"><P>$100,000</P></TD>
+<TD valign="top"><P>14.00%</P></TD>
+<TD valign="top"><P>$1,000,000</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P>$2,000,000</P></TD>
+<TD valign="top"><P>$3,000,000</P></TD>
+<TD valign="top"><P>$240,000</P></TD>
+<TD valign="top"><P>15.00%</P></TD>
+<TD valign="top"><P>$2,000,000</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P>$3,000,000</P></TD>
+<TD valign="top"><P>$4,000,000</P></TD>
+<TD valign="top"><P>$390,000</P></TD>
+<TD valign="top"><P><TextRun amendingStyle="strike">16.00%</TextRun></P><P><TextRun amendingStyle="add">18.00%</TextRun></P></TD>
+<TD valign="top"><P>$3,000,000</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P>$4,000,000</P></TD>
+<TD valign="top"><P>$6,000,000</P></TD>
+<TD valign="top"><P><TextRun amendingStyle="strike">$550,000</TextRun> <TextRun amendingStyle="add">$580,000</TextRun></P></TD>
+<TD valign="top"><P><TextRun amendingStyle="strike">18.00%</TextRun></P><P><TextRun amendingStyle="add">22.00%</TextRun></P></TD>
+<TD valign="top"><P>$4,000,000</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P>$6,000,000</P></TD>
+<TD valign="top"><P>$7,000,000</P></TD>
+<TD valign="top"><P><TextRun amendingStyle="strike">$910,000</TextRun> <TextRun amendingStyle="add">$1,020,000</TextRun></P></TD>
+<TD valign="top"><P><TextRun amendingStyle="strike">19.00%</TextRun></P><P><TextRun amendingStyle="add">24.00%</TextRun></P></TD>
+<TD valign="top"><P>$6,000,000</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P>$7,000,000</P></TD>
+<TD valign="top"><P>$9,000,000</P></TD>
+<TD valign="top"><P><TextRun amendingStyle="strike">$1,100,000</TextRun> <TextRun amendingStyle="add">$1,260,000</TextRun></P></TD>
+<TD valign="top"><P><TextRun amendingStyle="strike">19.50%</TextRun></P><P><TextRun amendingStyle="add">26.00%</TextRun></P></TD>
+<TD valign="top"><P>$7,000,000</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P>$9,000,000</P></TD>
+<TD valign="top"><P><TextRun amendingStyle="add">$12,500,000</TextRun></P></TD>
+<TD valign="top"><P><TextRun amendingStyle="strike">$1,490,000</TextRun> <TextRun amendingStyle="add">$1,780,000</TextRun></P></TD>
+<TD valign="top"><P><TextRun amendingStyle="strike">20.00%</TextRun></P><P><TextRun amendingStyle="add">28.00%</TextRun></P></TD>
+<TD valign="top"><P>$9,000,000</P></TD>
+</TR>
+<TR>
+<TD><P><TextRun amendingStyle="add">$12,500,000</TextRun></P></TD>
+<TD><P><TextRun amendingStyle="add">$22,500,000</TextRun></P></TD>
+<TD><P><TextRun amendingStyle="add">$2,760,000</TextRun></P></TD>
+<TD><P><TextRun amendingStyle="add">29.00%</TextRun></P></TD>
+<TD><P><TextRun amendingStyle="add">$12,500,000</TextRun></P></TD>
+</TR>
+<TR>
+<TD><P><TextRun amendingStyle="add">$22,500,000</TextRun></P></TD>
+<TD><P><TextRun amendingStyle="add">$100,000,000</TextRun></P></TD>
+<TD><P><TextRun amendingStyle="add">$5,660,000</TextRun></P></TD>
+<TD><P><TextRun amendingStyle="add">30.00%</TextRun></P></TD>
+<TD><P><TextRun amendingStyle="add">$22,500,000</TextRun></P></TD>
+</TR>
+<TR>
+<TD><P><TextRun amendingStyle="add">$100,000,000</TextRun></P></TD>
+<TD><P><TextRun amendingStyle="add">$1,000,000,000</TextRun></P></TD>
+<TD><P><TextRun amendingStyle="add">$28,910,000</TextRun></P></TD>
+<TD><P><TextRun amendingStyle="add">35.00%</TextRun></P></TD>
+<TD><P><TextRun amendingStyle="add">$100,000,000</TextRun></P></TD>
+</TR>
+<TR>
+<TD><P><TextRun amendingStyle="add">$1,000,000,000</TextRun></P></TD>
+<TD><P /></TD>
+<TD><P><TextRun amendingStyle="add">$343,910,000</TextRun></P></TD>
+<TD><P><TextRun amendingStyle="add">40.00%</TextRun></P></TD>
+<TD><P><TextRun amendingStyle="add">$1,000,000,000</TextRun></P></TD>
+</TR>
+</Table>
+<P prePadding="halfline" pubwidth="wide">(b) If any property in the decedent's estate is located outside of Washington, the amount of tax is the amount determined in (a) of this subsection multiplied by a fraction. The numerator of the fraction is the value of the property located in Washington. The denominator of the fraction is the value of the decedent's gross estate. Property qualifying for a deduction under RCW 83.100.046 must be excluded from the numerator and denominator of the fraction.</P>
+<P pubwidth="wide">(3) The tax imposed under this section is a stand-alone estate tax that incorporates only those provisions of the internal revenue code as amended or renumbered as of January 1, 2005, that do not conflict with the provisions of this chapter. The tax imposed under this chapter is independent of any federal estate tax obligation and is not affected by termination of the federal estate tax.</P>
+<History pubwidth="wide">2013 2nd sp.s. c 2 § 4; 2010 c 106 § 234; 2005 c 516 § 3; 1988 c 64 § 4; 1981 2nd ex.s. c 7 § 83.100.040 (Initiative Measure No. 402, approved November 3, 1981).</History>
+<RCWNoteSection>
+<AnnNote><NoteP pubwidth="wide"><TextRun fontWeight="bold">Application<TextRun fontFamily="Times New Roman">—</TextRun>2013 2nd sp.s. c 2 § 4:</TextRun> "Section 4 of this act applies to estates of decedents dying on or after January 1, 2014." [2013 2nd sp.s. c 2 § 11.]</NoteP></AnnNote>
+<AnnNote><NoteP pubwidth="wide"><TextRun fontWeight="bold">Findings<TextRun fontFamily="Times New Roman">—</TextRun>Intent<TextRun fontFamily="Times New Roman">—</TextRun>Final judgment<TextRun fontFamily="Times New Roman">—</TextRun>Affect<TextRun fontFamily="Times New Roman">—</TextRun>Effective dates<TextRun fontFamily="Times New Roman">—</TextRun>2013 2nd sp.s. c 2:</TextRun> See notes following RCW 83.100.048.</NoteP></AnnNote>
+<AnnNote><NoteP pubwidth="wide"><TextRun fontWeight="bold">Retroactive application<TextRun fontFamily="Times New Roman">—</TextRun>2010 c 106 §§ 234 and 235:</TextRun> "Sections 234 and 235 of this act apply both retroactively and prospectively to estates of decedents dying on or after May 17, 2005." [2010 c 106 § 404.]</NoteP></AnnNote>
+<AnnNote><NoteP pubwidth="wide"><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2010 c 106:</TextRun> See note following RCW 35.102.145.</NoteP></AnnNote>
+<AnnNote><NoteP pubwidth="wide"><TextRun fontWeight="bold">Finding<TextRun fontFamily="Times New Roman">—</TextRun>Intent<TextRun fontFamily="Times New Roman">—</TextRun>2005 c 516:</TextRun> "The legislature recognizes that on February 3, 2005, the Washington state supreme court decided in <TextRun fontStyle="italic">Estate of Hemphill v. Dep't of Rev.</TextRun>, Docket No. 74974-4, that Washington's estate tax is tied to the current federal Internal Revenue Code. The legislature finds that the revenue loss resulting from the <TextRun fontStyle="italic">Hemphill</TextRun> decision will severely affect the legislature's ability to fund programs vital to the peace, health, safety, and support of the citizens of this state. The legislature intends to address the adverse fiscal impact of the <TextRun fontStyle="italic">Hemphill</TextRun> decision and provide funding for education by creating a stand-alone state estate tax." [2005 c 516 § 1.]</NoteP></AnnNote>
+<AnnNote><NoteP pubwidth="wide"><TextRun fontWeight="bold">Application<TextRun fontFamily="Times New Roman">—</TextRun>2005 c 516:</TextRun> "This act applies prospectively only and not retroactively. Sections 2 through 17 of this act apply only to estates of decedents dying on or after May 17, 2005." [2005 c 516 § 20.]</NoteP></AnnNote>
+<AnnNote><NoteP pubwidth="wide"><TextRun fontWeight="bold">Severability<TextRun fontFamily="Times New Roman">—</TextRun>2005 c 516:</TextRun> "If any provision of this act or its application to any person or circumstance is held invalid, the remainder of the act or the application of the provision to other persons or circumstances is not affected." [2005 c 516 § 21.]</NoteP></AnnNote>
+<AnnNote><NoteP pubwidth="wide"><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2005 c 516:</TextRun> "This act is necessary for the immediate preservation of the public peace, health, or safety, or support of the state government and its existing public institutions, and takes effect immediately [May 17, 2005]." [2005 c 516 § 22.]</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>83</TitleNumber><TextRun>.</TextRun><ChapterNumber>100</ChapterNumber><TextRun>.</TextRun><SectionNumber>047</SectionNumber></SectionCite> and 2013 2nd sp.s. c 2 s 6 are each amended to read as follows:<Caption>Marital deduction, qualified domestic trust<TextRun fontFamily="Times New Roman">—</TextRun>Election<TextRun fontFamily="Times New Roman">—</TextRun>State registered domestic partner entitled to deduction<TextRun fontFamily="Times New Roman">—</TextRun>Other deductions taken for income tax purposes disallowed.</Caption></BillSectionHeader>
+<P>(1)(a) If the federal taxable estate on the federal return is determined by making an election under section 2056 or 2056A of the internal revenue code, or if no federal return is required to be filed, the department may provide by rule for a separate election on the Washington return, consistent with section 2056 or 2056A of the internal revenue code and (b) of this subsection, for the purpose of determining the amount of tax due under this chapter. The election is binding on the estate and the beneficiaries, consistent with the internal revenue code and (b) of this subsection. All other elections or valuations on the Washington return must be made in a manner consistent with the federal return, if a federal return is required, and such rules as the department may provide.</P>
+<P>(b) The department must provide by rule that a state registered domestic partner is deemed to be a surviving spouse and entitled to a deduction from the Washington taxable estate for any interest passing from the decedent to his or her domestic partner, consistent with section 2056 or 2056A of the internal revenue code but regardless of whether such interest would be deductible from the federal gross estate under section 2056 or 2056A of the internal revenue code.</P>
+<P>(2)<TextRun amendingStyle="add">(a)</TextRun> Amounts deducted for federal income tax purposes under section 642(g) of the internal revenue code of 1986 are not allowed as deductions in computing the amount of tax due under this chapter.</P>
+<P><TextRun amendingStyle="add">(b) The following amounts deducted under section 2055 of the internal revenue code for bequests, legacies, devises, or other transfers to family foundations are disallowed as a deduction in computing the amount of tax under this chapter:</TextRun></P>
+<P><TextRun amendingStyle="add">(i) 25 percent of the first $100,000,000 deducted under section 2055 of the internal revenue code; and</TextRun></P>
+<P><TextRun amendingStyle="add">(ii) 75 percent of any amount in excess of $100,000,000 deducted under section 2055 of the internal revenue code.</TextRun></P>
+<P>(3) Notwithstanding any department rule, if a taxpayer makes an election consistent with section 2056 of the internal revenue code as permitted under this section, the taxpayer's Washington taxable estate, and the surviving spouse's Washington taxable estate, must be adjusted as follows:</P>
+<P>(a) For the taxpayer that made the election, any amount deducted by reason of section 2056(b)(7) of the internal revenue code is added to, and the value of property for which a Washington election under this section was made is deducted from, the Washington taxable estate.</P>
+<P>(b) For the estate of the surviving spouse, the amount included in the estate's gross estate pursuant to section 2044 (a) and (b)(1)(A) of the internal revenue code is deducted from, and the value of any property for which an election under this section was previously made is added to, the Washington taxable estate.</P>
+<P><TextRun amendingStyle="add">(4) For the purposes of this section, "family foundation" means a foundation or charity that:</TextRun></P>
+<P><TextRun amendingStyle="add">(a) Is defined as a private foundation under section 509 of the internal revenue code or a public charity excluded under section 509(a)(1), (2), (3), or (4) of the internal revenue code;</TextRun></P>
+<P><TextRun amendingStyle="add">(b) The decedent, while alive, transferred money or assets to it;</TextRun></P>
+<P><TextRun amendingStyle="add">(c) The decedent, or a family member, has served on the governing board of it in the past; and</TextRun></P>
+<P><TextRun amendingStyle="add">(d) A family member or employee currently serves on the governing board.</TextRun></P>
+<History>2013 2nd sp.s. c 2 § 6; (2013 2nd sp.s. c 2 § 5 expired January 1, 2014); 2009 c 521 § 192; 2005 c 516 § 13.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Application<TextRun fontFamily="Times New Roman">—</TextRun>Prospective and retroactive<TextRun fontFamily="Times New Roman">—</TextRun>2013 2nd sp.s. c 2 §§ 2 and 5:</TextRun> "Sections 2 and 5 of this act apply both prospectively and retroactively to all estates of decedents dying on or after May 17, 2005." [2013 2nd sp.s. c 2 § 9.]</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Expiration date<TextRun fontFamily="Times New Roman">—</TextRun>2013 2nd sp.s. c 2 § 5:</TextRun> "Section 5 of this act expires January 1, 2014." [2013 2nd sp.s. c 2 § 13.]</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Findings<TextRun fontFamily="Times New Roman">—</TextRun>Intent<TextRun fontFamily="Times New Roman">—</TextRun>Final judgment<TextRun fontFamily="Times New Roman">—</TextRun>Affect<TextRun fontFamily="Times New Roman">—</TextRun>Effective dates<TextRun fontFamily="Times New Roman">—</TextRun>2013 2nd sp.s. c 2:</TextRun> See notes following RCW 83.100.048.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective dates<TextRun fontFamily="Times New Roman">—</TextRun>2009 c 521 §§ 5-8, 79, 87-103, 107, 151, 165, 166, 173-175, and 190-192:</TextRun> See note following RCW 2.10.900.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Finding<TextRun fontFamily="Times New Roman">—</TextRun>Intent<TextRun fontFamily="Times New Roman">—</TextRun>Application<TextRun fontFamily="Times New Roman">—</TextRun>Severability<TextRun fontFamily="Times New Roman">—</TextRun>Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2005 c 516:</TextRun> See notes following RCW 83.100.040.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>83</TitleNumber><TextRun>.</TextRun><ChapterNumber>100</ChapterNumber><TextRun>.</TextRun><SectionNumber>048</SectionNumber></SectionCite> and 2013 2nd sp.s. c 2 s 3 are each amended to read as follows:<Caption>Deduction<TextRun fontFamily="Times New Roman">—</TextRun>Qualified family-owned business interests.</Caption></BillSectionHeader>
+<P>(1) For the purposes of determining the tax due under this chapter, a deduction is allowed for the value of the decedent's qualified family-owned business interests<TextRun amendingStyle="strike">, not to</TextRun><TextRun amendingStyle="add">. With the exception of qualified family-owned business interests in a newspaper business, the deduction under this section may not</TextRun> exceed <TextRun amendingStyle="strike">two million five hundred thousand dollars, if</TextRun> <TextRun amendingStyle="add">$2,500,000. A deduction not to exceed $5,000,000 is allowed for the value of the decedent's qualified family-owned business interest in a newspaper business. No deduction is allowed under this section unless</TextRun>:</P>
+<P>(a) The value of the decedent's qualified family-owned business interests exceed <TextRun amendingStyle="strike">fifty</TextRun> <TextRun amendingStyle="add">50</TextRun> percent of the decedent's Washington taxable estate determined without regard to the deduction for the applicable exclusion amount<TextRun amendingStyle="add">. This subsection (1)(a) does not apply to qualified family-owned business interest in a newspaper business</TextRun>;</P>
+<P>(b) During the eight-year period ending on the date of the decedent's death, there have been periods aggregating five years or more during which:</P>
+<P>(i) Such interests were owned by the decedent or a member of the decedent's family;</P>
+<P>(ii) There was material participation, within the meaning of section 2032A(e)(6) of the internal revenue code, by the decedent or a member of the decedent's family in the operation of the trade or business to which such interests relate;</P>
+<P>(c) The qualified family-owned business interests are acquired by any qualified heir from, or passed to any qualified heir from, the decedent, within the meaning of RCW 83.100.046(2), and the decedent was at the time of his or her death a citizen or resident of the United States; and</P>
+<P>(d) The value of the decedent's qualified family-owned business interests is not more than <TextRun amendingStyle="strike">six million dollars</TextRun> <TextRun amendingStyle="add">$6,000,000. This subsection (1)(d) does not apply to qualified family-owned business interest in a newspaper business</TextRun>.</P>
+<P>(2)(a) Only amounts included in the decedent's federal taxable estate may be deducted under this subsection.</P>
+<P>(b) Amounts deductible under RCW 83.100.046 may not be deducted under this section.</P>
+<P>(3)(a) There is imposed an additional estate tax on a qualified heir if, within three years of the decedent's death and before the date of the qualified heir's death:</P>
+<P>(i) The material participation requirements described in section 2032A(c)(6)(b)(ii) of the internal revenue code are not met with respect to the qualified family-owned business interest which was acquired or passed from the decedent;</P>
+<P>(ii) The qualified heir disposes of any portion of a qualified family-owned business interest, other than by a disposition to a member of the qualified heir's family or a person with an ownership interest in the qualified family-owned business or through a qualified conservation contribution under section 170(h) of the internal revenue code;</P>
+<P>(iii) The qualified heir loses United States citizenship within the meaning of section 877 of the internal revenue code or with respect to whom section 877(e)(1) applies, and such heir does not comply with the requirements of section 877(g) of the internal revenue code; or</P>
+<P>(iv) The principal place of business of a trade or business of the qualified family-owned business interest ceases to be located in the United States.</P>
+<P>(b) The amount of the additional estate tax imposed under this subsection is equal to the amount of tax savings under this section with respect to the qualified family-owned business interest acquired or passed from the decedent.</P>
+<P>(c) Interest applies to the tax due under this subsection for the period beginning on the date that the estate tax liability was due under this chapter and ending on the date the additional estate tax due under this subsection is paid. Interest under this subsection must be computed as provided in RCW 83.100.070(2).</P>
+<P>(d) The tax imposed by this subsection is due the day that is six months after any taxable event described in (a) of this subsection occurred and must be reported on a return as provided by the department.</P>
+<P>(e) The qualified heir is personally liable for the additional tax imposed by this subsection unless he or she has furnished a bond in favor of the department for such amount and for such time as the department determines necessary to secure the payment of amounts due under this subsection. The qualified heir, on furnishing a bond satisfactory to the department, is discharged from personal liability for any additional tax and interest under this subsection and is entitled to a receipt or writing showing such discharge.</P>
+<P>(f) Amounts due under this subsection attributable to any qualified family-owned business interest are secured by a lien in favor of the state on the property in respect to which such interest relates. The lien under this subsection (3)(f) arises at the time the Washington return is filed on which a deduction under this section is taken and continues in effect until: (i) The tax liability under this subsection has been satisfied or has become unenforceable by reason of lapse of time; or (ii) the department is satisfied that no further tax liability will arise under this subsection.</P>
+<P>(g) Security acceptable to the department may be substituted for the lien imposed by (f) of this subsection.</P>
+<P>(h) For purposes of the assessment or correction of an assessment for additional taxes and interest imposed under this subsection, the limitations period in RCW 83.100.095 begins to run on the due date of the return required under (d) of this subsection.</P>
+<P>(i) For purposes of this subsection, a qualified heir may not be treated as disposing of an interest described in section 2057(e)(1)(A) of the internal revenue code by reason of ceasing to be engaged in a trade or business so long as the property to which such interest relates is used in a trade or business by any member of the qualified heir's family.</P>
+<P>(4)(a) The department may require a taxpayer claiming a deduction under this section to provide the department with the names and contact information of all qualified heirs.</P>
+<P>(b) The department may also require any qualified heir to submit to the department on an ongoing basis such information as the department determines necessary or useful in determining whether the qualified heir is subject to the additional tax imposed in subsection (3) of this section. The department may not require such information more frequently than twice per year. The department may impose a penalty on a qualified heir who fails to provide the information requested within thirty days of the date the department's written request for the information was sent to the qualified heir. The amount of the penalty under this subsection is <TextRun amendingStyle="strike">five hundred dollars</TextRun> <TextRun amendingStyle="add">$500</TextRun> and may be collected in the same manner as the tax imposed under subsection (3) of this section.</P>
+<P>(5) For purposes of this section, references to section 2057 of the internal revenue code refer to section 2057 of the internal revenue code, as existing on December 31, 2003.</P>
+<P>(6) For purposes of this section, the following definitions apply:</P>
+<P>(a) "Member of the decedent's family" and "member of the qualified heir's family" have the same meaning as "member of the family" in RCW 83.100.046(10).</P>
+<P>(b) <TextRun amendingStyle="add">"Newspaper business" means a business, or that portion of a business consisting of a newspaper as defined in RCW 82.04.214, that is distributed primarily to paying customers, including subscribers and persons reselling the newspaper.</TextRun></P>
+<P><TextRun amendingStyle="add">(c)</TextRun> "Qualified family-owned business interest" has the same meaning as provided in section 2057(e) of the internal revenue code of 1986.</P>
+<P><TextRun amendingStyle="strike">(c)</TextRun> <TextRun amendingStyle="add">(d)</TextRun> "Qualified heir" has the same meaning as provided in section 2057(i) of the internal revenue code of 1986.</P>
+<P>(7) This section applies to the estates of decedents dying on or after January 1, 2014. <TextRun amendingStyle="add">However, section 4, chapter . . ., Laws of 2023 (section 4 of this act) does not apply retrospectively and only applies to the estates of decedents dying on the effective date of this section.</TextRun></P>
+<History>2013 2nd sp.s. c 2 § 3.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Findings<TextRun fontFamily="Times New Roman">—</TextRun>Intent<TextRun fontFamily="Times New Roman">—</TextRun>2013 2nd sp.s. c 2:</TextRun> "(1) In 2005, to address an unexpected significant loss of tax revenue resulting from the <TextRun fontStyle="italic">Estate of Hemphill</TextRun> decision and to provide additional funding for public education, the legislature enacted a stand-alone estate and transfer tax, effective May 17, 2005. The stand-alone estate and transfer tax applies to the transfer of property at death. By defining the term "transfer" to mean a "transfer as used in section 2001 of the internal revenue code," the legislature clearly expressed its intent that a "transfer" for purposes of determining the federal taxable estate is also a "transfer" for purposes of determining the Washington taxable estate.</NoteP><NoteP>(2) In <TextRun fontStyle="italic">In re Estate of Bracken</TextRun>, Docket No. 84114-4, the Washington supreme court narrowly construed the term "transfer" as defined in the Washington estate tax code.</NoteP><NoteP>(3) The legislature finds that it is well established that the term "transfer" as used in the federal estate tax code is construed broadly and extends to the "shifting from one to another of any power or privilege incidental to the ownership or enjoyment of property" that occurs at death. <TextRun fontStyle="italic">Fernandez v. Wiener</TextRun>, 326 U.S. 340, 352 (1945).</NoteP><NoteP>(4) The legislature further finds that: The Bracken decision held certain qualified terminable interest property (QTIP) of married couples was transferred without incurring Washington state estate tax liability, which: (a) Creates an inequity never intended by the legislature because unmarried individuals did not enjoy any similar opportunities to avoid or greatly reduce their potential Washington estate tax liability; and (b) may create disparate treatment between QTIP property and other property transferred between spouses that is eligible for the marital deduction.</NoteP><NoteP>(5) Therefore, the legislature finds that it is necessary to reinstate the legislature's intended meaning when it enacted the estate tax, restore parity between married couples and unmarried individuals, restore parity between QTIP property and other property eligible for the marital deduction, and prevent the adverse fiscal impacts of the Bracken decision by reaffirming its intent that the term "transfer" as used in the Washington estate and transfer tax is to be given its broadest possible meaning consistent with established United States supreme court precedents, subject only to the limits and exceptions expressly provided by the legislature.</NoteP><NoteP>(6) As curative, clarifying, and remedial, the legislature intends for this act to apply both prospectively and retroactively to estates of decedents dying on or after May 17, 2005." [2013 2nd sp.s. c 2 § 1.]</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Final judgment<TextRun fontFamily="Times New Roman">—</TextRun>Affect<TextRun fontFamily="Times New Roman">—</TextRun>2013 2nd sp.s. c 2:</TextRun> "This act does not affect any final judgment, no longer subject to appeal, entered by a court of competent jurisdiction before June 14, 2013." [2013 2nd sp.s. c 2 § 10.]</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective dates<TextRun fontFamily="Times New Roman">—</TextRun>2013 2nd sp.s. c 2:</TextRun> "This act is necessary for the immediate preservation of the public peace, health, or safety, or support of the state government and its existing public institutions, and takes effect immediately [June 14, 2013], except for sections 3, 4, and 6 of this act which take effect January 1, 2014." [2013 2nd sp.s. c 2 § 14.]</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>5</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>83</TitleNumber><TextRun>.</TextRun><ChapterNumber>100</ChapterNumber><TextRun>.</TextRun><SectionNumber>050</SectionNumber></SectionCite> and 2017 c 323 s 601 are each amended to read as follows:<Caption>Tax returns<TextRun fontFamily="Times New Roman">—</TextRun>Filing dates<TextRun fontFamily="Times New Roman">—</TextRun>Extensions<TextRun fontFamily="Times New Roman">—</TextRun>Extensions during state of emergency.</Caption></BillSectionHeader>
+<P>(1) <TextRun amendingStyle="strike">A</TextRun> <TextRun amendingStyle="add">Except as provided in subsection (7) of this section, a</TextRun> Washington return must be filed if the gross estate equals or exceeds the applicable exclusion amount.</P>
+<P>(2) If a Washington return is required as provided in subsection (1) of this section:</P>
+<P>(a) A person required to file a federal return must file with the department on or before the date the federal return is required to be filed, including any extension of time for filing under subsection (4) or (6) of this section, a Washington return for the tax due under this chapter.</P>
+<P>(b) If no federal return is required to be filed, a taxpayer shall file with the department on or before the date a federal return would have been required to be filed, including any extension of time for filing under subsection (5) or (6) of this section, a Washington return for the tax due under this chapter.</P>
+<P>(3) A Washington return delivered to the department by United States mail is considered to have been received by the department on the date of the United States postmark stamped on the cover in which the return is mailed, if the postmark date is within the time allowed for filing the Washington return, including extensions.</P>
+<P>(4) In addition to the Washington return required to be filed in subsection (2) of this section, a person must file with the department on or before the date the federal return is or would have been required to be filed all supporting documentation for completed Washington return schedules, and, if a federal return has been filed, a copy of the federal return. If the person required to file the federal return has obtained an extension of time for filing the federal return, the person must file the Washington return within the same time period and in the same manner as provided for the federal return. A copy of the federal extension must be filed with the department on or before the date the Washington return is due, not including any extension of time for filing, or within thirty days of issuance, whichever is later.</P>
+<P>(5) A person may obtain an extension of time for filing the Washington return as provided by rule of the department, if the person is required to file a Washington return under subsection (2) of this section, but is not required to file a federal return.</P>
+<P>(6) During a state of emergency declared under RCW 43.06.010(12), the department, on its own motion or at the request of any taxpayer affected by the emergency, may extend the time for filing a Washington return under this section as the department deems proper.</P>
+<P><TextRun amendingStyle="add">(7)(a) A Washington return is not required to be filed for a decedent's estate if:</TextRun></P>
+<P><TextRun amendingStyle="add">(i) The estate is not subject to tax under this chapter; and</TextRun></P>
+<P><TextRun amendingStyle="add">(ii) The value of the decedent's gross estate less the value of the decedent's interest in a qualifying family residence that is included in the value of the decedent's gross estate is less than the applicable exclusion amount.</TextRun></P>
+<P><TextRun amendingStyle="add">(b) The following definitions apply to this subsection:</TextRun></P>
+<P><TextRun amendingStyle="add">(i) "Principal place of residence" means a residence that, except as otherwise provided in this subsection (7)(b)(i), has been occupied by both the decedent and the decedent's spouse or domestic partner for more than six months of the 12 months immediately preceding the decedent's date of death. "Principal place of residence" also means a residence of the decedent and the decedent's spouse or domestic partner when, during the six-month period immediately preceding the decedent's date of death, the decedent, the decedent's spouse or domestic partner, or both the decedent and decedent's spouse or domestic partner, were confined to a hospital, nursing home, assisted living facility, adult family home, or home of a relative of the decedent or decedent's spouse or domestic partner for purposes of long-term care if the decedent and the decedent's spouse or domestic partner did not occupy any other residence for more than six months of the 12 months immediately preceding the decedent's date of death, and during the six-month period immediately preceding the decedent's date of death:</TextRun></P>
+<P><TextRun amendingStyle="add">(A) The residence was temporarily unoccupied;</TextRun></P>
+<P><TextRun amendingStyle="add">(B) The residence was occupied by either or both (I) the decedent's spouse or domestic partner, or (II) a person financially dependent on the decedent or the decedent's spouse or domestic partner for support; or</TextRun></P>
+<P><TextRun amendingStyle="add">(C) The residence or portion of the residence was rented for the purposes of paying costs related to the care of the decedent or the decedent's spouse or domestic partner in a nursing home, hospital, assisted living facility, or adult family home.</TextRun></P>
+<P><TextRun amendingStyle="add">(ii) "Qualifying family residence" means the principal place of residence of the marital community or domestic partnership at the decedent's date of death.</TextRun></P>
+<P><TextRun amendingStyle="add">(iii) "Relative" has the same meaning as "member of the family" in RCW 83.100.046.</TextRun></P>
+<P><TextRun amendingStyle="add">(iv) "Residence" means a single-family dwelling unit, whether such unit is separate or part of a multiunit dwelling, including the land on which such dwelling stands, regardless of whether ownership of the single-family dwelling unit and land on which the dwelling unit stands is vested in the same person. "Residence" includes:</TextRun></P>
+<P><TextRun amendingStyle="add">(A) A single-family dwelling unit in a cooperative housing association, corporation, or partnership, when the decedent has an ownership share in such entity;</TextRun></P>
+<P><TextRun amendingStyle="add">(B) A single-family dwelling unit situated upon lands the fee of which is vested in or held in trust by the United States or any of its instrumentalities, a federally recognized Indian tribe, a state of the United States or any of its political subdivisions, or a municipal corporation;</TextRun></P>
+<P><TextRun amendingStyle="add">(C) A single-family dwelling unit consisting of a manufactured/mobile home or park model that has substantially lost its identity as a mobile unit by virtue of it being fixed in location and placed on a foundation with fixed pipe connections with sewer, water, or other utilities; and</TextRun></P>
+<P><TextRun amendingStyle="add">(D) A single-family dwelling unit consisting of a floating home as defined in RCW 82.45.032.</TextRun></P>
+<History>2017 c 323 § 601; 2008 c 181 § 504; 2005 c 516 § 5; 1988 c 64 § 6; 1986 c 44 § 1; 1981 2nd ex.s. c 7 § 83.100.050 (Initiative Measure No. 402, approved November 3, 1981).</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Tax preference performance statement exemption<TextRun fontFamily="Times New Roman">—</TextRun>Automatic expiration date exemption<TextRun fontFamily="Times New Roman">—</TextRun>2017 c 323:</TextRun> See note following RCW 82.04.040.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Part headings not law<TextRun fontFamily="Times New Roman">—</TextRun>2008 c 181:</TextRun> See note following RCW 43.06.220.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Finding<TextRun fontFamily="Times New Roman">—</TextRun>Intent<TextRun fontFamily="Times New Roman">—</TextRun>Application<TextRun fontFamily="Times New Roman">—</TextRun>Severability<TextRun fontFamily="Times New Roman">—</TextRun>Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2005 c 516:</TextRun> See notes following RCW 83.100.040.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>6</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>83</TitleNumber><TextRun>.</TextRun><ChapterNumber>100</ChapterNumber><TextRun>.</TextRun><SectionNumber>220</SectionNumber></SectionCite> and 2005 c 516 s 16 are each amended to read as follows:<Caption>Deposit of funds into education legacy trust account.</Caption></BillSectionHeader>
+<P><TextRun amendingStyle="strike">All</TextRun> <TextRun amendingStyle="add">(1) Except as otherwise provided in subsection (2) of this section, all</TextRun> receipts from taxes, penalties, interest, and fees collected under this chapter must be deposited into the education legacy trust account.</P>
+<P><TextRun amendingStyle="add">(2)(a) By November 1st and by May 1st of each year, the department must calculate the increased state estate tax collections due to the changes in rates and deductions made in this act as compared with the estate tax collections amount that would have been collected had this act not been enacted.</TextRun></P>
+<P><TextRun amendingStyle="add">(b) The department must notify the state treasurer of the incremental amount by December 1st and by June 1st each year. The treasurer must deposit the incremental amount into the progressive policy account created in section 7 of this act.</TextRun></P>
+<History>2005 c 516 § 16.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Finding<TextRun fontFamily="Times New Roman">—</TextRun>Intent<TextRun fontFamily="Times New Roman">—</TextRun>Application<TextRun fontFamily="Times New Roman">—</TextRun>Severability<TextRun fontFamily="Times New Roman">—</TextRun>Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2005 c 516:</TextRun> See notes following RCW 83.100.040.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>7</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>83</TitleNumber><TextRun>.</TextRun><ChapterNumber>100</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>The progressive policy account is created in the state treasury. All receipts from RCW 83.100.220(2) must be deposited into the account. Moneys in the account may be spent only after appropriation. Expenditures from the account may only be used to address intergenerational poverty. It is the intent of the legislature that moneys from this account in the 2023-2025 and 2025-2027 biennia be used to implement recommendations from the legislative-executive WorkFirst poverty reduction oversight task force created in RCW 74.085A.505 and the homeownership disparities work group created in section 128(100), chapter 297, Laws of 2022.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>8</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act applies to decedents dying on or after August 1, 2023.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>9</Value><TextRun>.  </TextRun></BillSectionNumber><P>RCW 82.32.805 and 82.32.808 do not apply to this act. </P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="effdate">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>10</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act takes effect August 1, 2023.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-1103.1</RequestNumber><ShortBillId>HB 1741</ShortBillId><LongBillId>HOUSE BILL 1741</LongBillId><Legislature>66th Legislature</Legislature><Session>2019 Regular Session</Session><Sponsors>Representatives Appleton, McCaslin, Shea, and Young</Sponsors><BillHistory><ReadDate>Read first time 01/29/19.</ReadDate><ReferredCommittee>Referred to Committee on Rural Development, Agriculture, &amp; Natural Resources.</ReferredCommittee></BillHistory><BriefDescription>Concerning rabies antibody titers as proof of immunity.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to rabies antibody titers as proof of immunity; adding a new section to chapter 16.36 RCW; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature finds that positive antibody titer results constitute serological proof of immunity for rabies in dogs, cats, and other household pets. Earlier rabies vaccines were licensed for a one year duration of immunity and statutes required annual revaccination. Rabies vaccines in the United States and many other countries are now licensed with a three year duration of immunity, which reflects the minimum duration of immunity provided. The world small animal veterinary association states that for the majority of animals, the duration of immunity is far longer, often lifelong. Revaccination in the presence of positive antibody titers is unnecessary, cannot improve immunity, and presents risks, such as injection site sarcoma. This act updates rabies vaccination requirements statewide to ensure pets are safely protected.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>16</TitleNumber><TextRun>.</TextRun><ChapterNumber>36</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>Positive antibody titer results constitute serological proof of immunity for rabies and are acceptable to meet all rabies vaccination requirements by all agencies in the state for dogs, cats, or other household pets.</P>
+</BillSection>
+</BillBody>
+</Bill>

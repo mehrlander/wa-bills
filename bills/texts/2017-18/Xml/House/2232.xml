@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-2857.1</RequestNumber><ShortBillId>HB 2232</ShortBillId><LongBillId>HOUSE BILL 2232</LongBillId><Legislature>65th Legislature</Legislature><Session>2017 3rd Special Session</Session><Sponsors>Representatives Riccelli, Pollet, Macri, Chapman, Graves, and Stonier</Sponsors><BillHistory><ReadDate>Read first time 06/27/17.</ReadDate><ReferredCommittee>Referred to Committee on Health Care &amp; Wellness.</ReferredCommittee></BillHistory><BriefDescription>Concerning health insurance coverage options for individuals residing in underserved areas.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to providing health insurance coverage options to individuals residing in underserved areas; adding new sections to chapter 74.09 RCW; and declaring an emergency.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>74</TitleNumber><TextRun>.</TextRun><ChapterNumber>09</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) The apple health plus program is established to provide health insurance coverage to eligible individuals who purchase coverage through the program.</P>
+<P>(2) The director shall:</P>
+<P>(a) Contract with managed health care systems to provide benefits identical to those provided to medical assistance clients to eligible individuals;</P>
+<P>(b) Establish premiums and cost-sharing requirements for eligible individuals enrolled in the apple health plus program, collect premium payments from enrolled eligible individuals, and deposit premium payments in the apple health plus subscription account. If the eligible individual qualifies for premium subsidies or cost-sharing reductions under the patient protection and affordable care act, the premium or cost-sharing amounts established under this subsection may not exceed the amounts the eligible individual would have paid if he or she had enrolled in a silver level qualified health plan through the Washington health benefit exchange;</P>
+<P>(c) Establish open enrollment and special enrollment periods;</P>
+<P>(d) Enroll eligible individuals who meet program requirements and pay premiums, as established by the director;</P>
+<P>(e) Report annually to the governor and the legislature on enrollment, managed health care system contracting status, premium collections, and the financial status of the apple health plus program; and</P>
+<P>(f) Adopt any rules necessary to implement the apple health plus program.</P>
+<P>(3) The director shall pursue funding opportunities through waivers, grants, or other payment options to assist with the administration of the apple health plus program and the cost of health coverage offered through the apple health plus program, but the availability of such other resources is not required for the implementation of this section.</P>
+<P>(4) The apple health plus program shall begin offering coverage to eligible individuals by January 1, 2018.</P>
+<P>(5) For the purposes of this section:</P>
+<P>(a) "Eligible individual" means a person who:</P>
+<P>(i) Is a resident of the state;</P>
+<P>(ii) Is not eligible for medical care through any programs offered pursuant to this chapter;</P>
+<P>(iii) Is not eligible for the federal medicare program; and</P>
+<P>(iv) Resides in a county where an individual health plan other than a catastrophic health plan as defined in RCW 48.43.005 is not offered to the person during defined open enrollment or special enrollment periods at the time of application to the program.</P>
+<P>(b) "Qualified health plan" means a health plan that has been certified as a qualified health plan by the governing board of the Washington health benefit exchange under RCW 43.71.065.</P>
+<P>(c) "Washington health benefit exchange" means the Washington health benefit exchange established pursuant to chapter 43.71 RCW.</P>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>74</TitleNumber><TextRun>.</TextRun><ChapterNumber>09</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>The apple health plus subscription account is created in the custody of the state treasurer. All receipts from premiums collected from enrollees in the apple health plus program must be deposited into the account. Expenditures from the account may be used only for the purposes of section 1 of this act, including administration of the apple health plus program and the cost of health coverage offered through the apple health plus program. Only the director or the director's designee may authorize expenditures from the account. The account is subject to allotment procedures under chapter 43.88 RCW, but an appropriation is not required for expenditures.</P>
+</BillSection>
+<BillSection type="new" action="emerg" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act is necessary for the immediate preservation of the public peace, health, or safety, or support of the state government and its existing public institutions, and takes effect immediately.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

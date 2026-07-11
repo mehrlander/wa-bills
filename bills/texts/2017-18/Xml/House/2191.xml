@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-2386.2</RequestNumber><ShortBillId>HB 2191</ShortBillId><LongBillId>HOUSE BILL 2191</LongBillId><Legislature>65th Legislature</Legislature><Session>2017 Regular Session</Session><Sponsors>Representative Ormsby</Sponsors><BillHistory><ReadDate>Read first time 03/29/17.</ReadDate><ReferredCommittee>Referred to Committee on Appropriations.</ReferredCommittee></BillHistory><BriefDescription>Making appropriations from the budget stabilization account.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to making appropriations from the budget stabilization account; creating a new section; making appropriations; and declaring an emergency.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) In accordance with Article VII, section 12 of the state Constitution, if the governor declares a state of emergency resulting from a catastrophic event that necessitates government action to protect life or public safety, then for that fiscal year moneys may be withdrawn and appropriated from the budget stabilization account, via separate legislation setting forth the nature of the emergency and containing an appropriation limited to the purposes contained in the declaration, by a favorable vote of a majority of the members elected to each house of the legislature.</P></BillSectionHeader>
+<P>(2) Consistent with subsection (1) of this section, for fiscal year 2016 the legislature appropriated $34,365,000 from the budget stabilization account for the Washington state patrol to cover costs for the 2015 wildfires that were subject to a governor state of emergency declaration.</P>
+<P>(3) Due to the timing of receiving invoices from those events, the Washington state patrol did not expend its entire fiscal year 2016 budget stabilization account appropriation and therefore needs a portion of those moneys reappropriated into fiscal year 2017.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>FOR THE WASHINGTON STATE PATROL<TextRun fontFamily="Times New Roman">—</TextRun>FIRES.</SectionCaption><P>The sum of $14,500,000, or as much thereof as may be necessary, is appropriated from the budget stabilization account for the fiscal year ending June 30, 2017, and is provided solely for Washington state fire service resource mobilization costs incurred in response to an emergency or disaster authorized under RCW 43.43.960 through 43.43.964 for wildfires.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>FOR THE DISASTER RESPONSE ACCOUNT.</SectionCaption><P>The sum of $12,500,000 is appropriated from the budget stabilization account for the fiscal biennium ending June 30, 2019, solely for expenditure into the disaster response account, and is provided solely for disaster response and recovery efforts.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>FOR THE DEPARTMENT OF NATURAL RESOURCES<TextRun fontFamily="Times New Roman">—</TextRun>FIRES.</SectionCaption><P>The sum of $20,923,000 is appropriated from the budget stabilization account for the fiscal year ending June 30, 2017, and is provided solely for fire suppression costs incurred by the department of natural resources during the 2016 fire season.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="emerg" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>5</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act is necessary for the immediate preservation of the public peace, health, or safety, or support of the state government and its existing public institutions, and takes effect immediately.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

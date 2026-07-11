@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-0591.1</RequestNumber><ShortBillId>HB 2078</ShortBillId><LongBillId>HOUSE BILL 2078</LongBillId><Legislature>65th Legislature</Legislature><Session>2017 Regular Session</Session><Sponsors>Representative Hudgins</Sponsors><BillHistory><ReadDate>Read first time 02/13/17.</ReadDate><ReferredCommittee>Referred to Committee on State Govt, Elections &amp; IT.</ReferredCommittee></BillHistory><BriefDescription>Addressing county voting systems standards.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to county voting systems standards; amending RCW 29A.12.060; and adding a new section to chapter 29A.12 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>29A</TitleNumber><TextRun>.</TextRun><ChapterNumber>12</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) At least once every six years, the secretary of state must conduct a comprehensive survey of voting systems in use in each county. When conducting the survey, the secretary must collect at a minimum the following information for each county:</P>
+<P>(a) The age, expected lifespan, manufacturer, date of purchase, original cost, and estimated replacement cost of each of the major components of the county voting system;</P>
+<P>(b) The county voting system manufacturer's recommended maintenance schedule and a history of the major maintenance performed on the voting system over the past six years;</P>
+<P>(c) Whether the county plans to replace the system or components of the system in the next six years and whether any local funds have been identified for the replacement;</P>
+<P>(d) An estimate of how widespread the use of the manufacturer's voting system equipment is, both within Washington, and outside of the state; and</P>
+<P>(e) Any other information as determined by the secretary of state.</P>
+<P>(2) The secretary of state must complete and report the results of the voting systems survey to the appropriate committees of the legislature in accordance with RCW 43.01.036 by December 1, 2017, and subsequently by December 1st every six years thereafter. The report:</P>
+<P>(a) Must address each of the criteria established in subsection (1) of this section;</P>
+<P>(b) Must include a ranked list of voting equipment in use by each county in order of equipment age;</P>
+<P>(c) Must provide an analysis of any present or long-term security risks associated with the voting system currently in use by counties; and</P>
+<P>(d) May include recommendations to the legislature regarding county voting systems and practices.</P>
+<P>(3) Beginning in December 2018, voting systems survey reports to the legislature must include data on county compliance with voting system standards established under RCW 29A.12.060.</P>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>29A</TitleNumber><TextRun>.</TextRun><ChapterNumber>12</ChapterNumber><TextRun>.</TextRun><SectionNumber>060</SectionNumber></SectionCite> and 2003 c 111 s 306 are each amended to read as follows:<Caption>Maintenance and operation.</Caption></BillSectionHeader>
+<P><TextRun amendingStyle="add">(1) By June 1, 2018, the secretary of state shall, in consultation with county auditors, develop and publish mandatory voting system maintenance and replacement standards. The standards must include requirements for system component replacement based on age and expected lifespan, and may include any other criteria established by the secretary in rule. When developing the standards, the secretary may consider best practices implemented in other states, manufacturer recommendations, and any applicable federal guidelines.</TextRun></P>
+<P><TextRun amendingStyle="add">(2)</TextRun> The county auditor of a county in which voting systems are used is responsible for the preparation, maintenance, and operation of those systems and may employ and direct persons to perform some or all of these functions. <TextRun amendingStyle="add">By June 1, 2027, each county must be in full compliance with the voting system maintenance and replacement standards published by the secretary of state.</TextRun></P>
+<History>2003 c 111 § 306. Prior: 1990 c 59 s 22; 1965 c 9 § 29.33.130; prior: 1955 c 323 § 2; prior: 1935 c 85 § 1, part; 1919 c 163 § 23, part; 1915 c 114 § 5, part; 1913 c 58 § 10, part; RRS § 5309, part. Formerly RCW 29.33.130.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Intent<TextRun fontFamily="Times New Roman">—</TextRun>Effective date<TextRun fontFamily="Times New Roman">—</TextRun>1990 c 59:</TextRun> See notes following RCW 29A.04.013.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+</BillBody>
+</Bill>

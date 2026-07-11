@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-0369.2</RequestNumber><ShortBillId>HB 1168</ShortBillId><LongBillId>HOUSE BILL 1168</LongBillId><Legislature>65th Legislature</Legislature><Session>2017 Regular Session</Session><Sponsors>Representatives Gregerson, Haler, Pollet, Appleton, Stanford, Orwall, Sells, Tarleton, Chapman, Goodman, Fitzgibbon, Peterson, Lytton, Doglio, Frame, Farrell, Riccelli, Lovick, Pettigrew, Sawyer, Springer, Ortiz-Self, Bergquist, Ormsby, Fey, Hudgins, Santos, and Macri</Sponsors><BillHistory><ReadDate>Read first time 01/12/17.</ReadDate><ReferredCommittee>Referred to Committee on Higher Education.</ReferredCommittee></BillHistory><BriefDescription>Supporting student success at community and technical colleges by increasing full-time faculty.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to supporting student success at community and technical colleges by increasing full-time faculty; adding a new section to chapter 28B.52 RCW; creating a new section; and declaring an emergency.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature finds that having adequately staffed faculty at the state's community and technical colleges is a significant factor in providing students with academic excellence, better educational opportunities, and overall student success. It is the intent of the legislature to improve student success in the community and technical college system by increasing the number of full-time, tenured academic employee positions at community and technical colleges.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>28B</TitleNumber><TextRun>.</TextRun><ChapterNumber>52</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1)(a) By July 1, 2017, the state board for community and technical colleges must create a plan, to be implemented in phases, with the goal of having seventy percent of all faculty employed in the community and technical college system be full-time tenured or tenure-track positions by the year 2023. The first phase-in implementation of the plan must begin by the community and technical college system's 2018 winter quarter. The eventual seventy percent target must be met both systemwide and at each of the individual community and technical colleges by the year 2023.</P>
+<P>(b) The plan must include converting part-time faculty positions to full-time positions, creating more opportunities for part-time faculty, and converting classes or assignments left vacant by attrition.</P>
+<P>(c) In developing the plan, the state board must work collaboratively with each of the community and technical colleges, the collective bargaining representatives, and the legislature.</P>
+<P>(d) Each community and technical college shall implement the state board's plan to increase the number of full-time tenured faculty positions on its campus.</P>
+<P>(2) The state board for community and technical colleges shall report to the higher education committees of the legislature by December 1, 2017, and by December 1st every two years thereafter until 2024, regarding updated faculty conversion cost information and information regarding the colleges' progress in increasing the percentage of full-time tenure or tenure-track employees.</P>
+</BillSection>
+<BillSection type="new" action="emerg" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act is necessary for the immediate preservation of the public peace, health, or safety, or support of the state government and its existing public institutions, and takes effect immediately.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-2177.1</RequestNumber><ShortBillId>SHB 1619</ShortBillId><LongBillId>SUBSTITUTE HOUSE BILL 1619</LongBillId><Legislature>67th Legislature</Legislature><Session>2022 Regular Session</Session><Sponsors>House Environment &amp; Energy (originally sponsored by Representatives Fitzgibbon, Hackney, Ryu, Berry, Wicks, Duerr, Ramel, Valdez, Fey, Goodman, Gregerson, Macri, Simmons, Kloba, Pollet, Riccelli, Ormsby, and Harris-Talley)</Sponsors><BillHistory><ReadDate>READ FIRST TIME 01/18/22.</ReadDate></BillHistory><BriefDescription>Concerning appliance efficiency standards.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to appliance efficiency standards; amending RCW 19.260.030, 19.260.040, and 19.260.050; reenacting and amending RCW 19.260.020 and 19.260.020; providing an effective date; and providing an expiration date.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="remd">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>19</TitleNumber><TextRun>.</TextRun><ChapterNumber>260</ChapterNumber><TextRun>.</TextRun><SectionNumber>020</SectionNumber></SectionCite> and 2019 c 286 s 2 are each reenacted and amended to read as follows:<Caption>Definitions.</Caption></BillSectionHeader>
+<P>The definitions in this section apply throughout this chapter unless the context clearly requires otherwise.</P>
+<P>(1) "Air compressor" means a compressor designed to compress air that has an inlet open to the atmosphere or other source of air and is made up of a compression element (bare compressor), a driver or drivers, mechanical equipment to drive the compressor element, and any ancillary equipment.</P>
+<P>(2) "ANSI" means the American national standards institute.</P>
+<P>(3) "Bottle-type water dispenser" means a water dispenser that uses a bottle or reservoir as the source of potable water.</P>
+<P>(4) "Commercial dishwasher" means a machine designed to clean and sanitize plates, pots, pans, glasses, cups, bowls, utensils, and trays by applying sprays of detergent solution, with or without blasting media granules, and a sanitizing rinse.</P>
+<P>(5) "Commercial fryer" means an appliance, including a cooking vessel, in which oil is placed to such a depth that the cooking food is supported by displacement of the cooking fluid rather than by the bottom of the vessel. Heat is delivered to the cooking fluid by means of an immersed electric element of band-wrapped vessel (electric fryers) or by heat transfer from gas burners through either the walls of the fryer or through tubes passing through the cooking fluid (gas fryers).</P>
+<P>(6) "Commercial hot food holding cabinet" means a heated, fully enclosed compartment, with one or more solid or partial glass doors, that is designed to maintain the temperature of hot food that has been cooked in a separate appliance. "Commercial hot food holding cabinet" does not include heated glass merchandising cabinets, drawer warmers, or cook and hold appliances.</P>
+<P>(7) "Commercial steam cooker" means a device with one or more food-steaming compartments in which the energy in the steam is transferred to the food by direct contact. Models may include countertop models, wall-mounted models, and floor models mounted on a stand, pedestal, or cabinet-style base.</P>
+<P>(8) "Compensation" means money or any other valuable thing, regardless of form, received or to be received by a person for services rendered.</P>
+<P>(9) "Compressor" means a machine or apparatus that converts different types of energy into the potential energy of gas pressure for displacement and compression of gaseous media to any higher-pressure values above atmospheric pressure and has a pressure ratio at full-load operating pressure greater than 1.3.</P>
+<P>(10) "Cook and hold appliance" means a multiple mode appliance intended for cooking food that may be used to hold the temperature of the food that has been cooked in the same appliance.</P>
+<P>(11) "CTA" means the consumer technology association.</P>
+<P>(12) "Department" means the department of commerce.</P>
+<P>(13) "Drawer warmer" means an appliance that consists of one or more heated drawers and that is designed to hold hot food that has been cooked in a separate appliance at a specified temperature.</P>
+<P>(14) "Electric storage water heater" means a consumer product that uses electricity as the energy source to heat domestic potable water, has a nameplate input rating of twelve kilowatts or less, contains nominally forty gallons but no more than one hundred twenty gallons of rated hot water storage volume, and supplies a maximum hot water delivery temperature less than one hundred eighty degrees Fahrenheit.</P>
+<P>(15) "General service lamp" has the same meaning as set forth in the action published at 82 Fed. Reg. 7276, 7321-22 (January 19, 2017) and modified by the action published at 82 Fed. Reg. 7322, 7333 (January 19, 2017).</P>
+<P>(16) "Heated glass merchandising cabinet" means an appliance with a heated cabinet constructed of glass or clear plastic doors which, with seventy percent or more clear area, is designed to display and maintain the temperature of hot food that has been cooked in a separate appliance.</P>
+<P>(17) "High color rendering index fluorescent lamp" or "high CRI fluorescent lamp" means a fluorescent lamp with a color rendering index of eighty-seven or greater that is not a compact fluorescent lamp.</P>
+<P>(18) "Hot water dispenser" means a small electric water heater that has a measured storage volume of no greater than one gallon.</P>
+<P>(19) "Mini-tank electric water heater" means a small electric water heater that has a measured storage volume of more than one gallon and a rated storage volume of less than twenty gallons.</P>
+<P>(20) "Point-of-use water dispenser" means a water dispenser that uses a pressurized water utility connection as the source of potable water.</P>
+<P>(21) "Portable air conditioner" means a portable encased assembly, other than a packaged terminal air conditioner, room air conditioner, or dehumidifier, that delivers cooled, conditioned air to an enclosed space, and is powered by single-phase electric current. It includes a source of refrigeration and may include additional means for air circulation and heating and may be a single-duct or a dual-duct portable air conditioner.</P>
+<P>(22) "Portable electric spa" means a factory-built electric spa or hot tub, which may or may not include any combination of integral controls, water heating, or water circulating equipment.</P>
+<P>(23) "Pressure regulator" means a device that maintains constant operating pressure immediately downstream from the device, given higher pressure upstream.</P>
+<P>(24) <TextRun amendingStyle="strikemarkleft">"Residential pool pump" means a pump used to circulate and filter pool water in order to maintain clarity and sanitation.</TextRun></P>
+<P><TextRun amendingStyle="strikemarkright">(25)</TextRun> "Residential ventilating fan" means a ceiling, wall-mounted, or remotely mounted in-line fan designed to be used in a bathroom or utility room whose purpose is to move objectionable air from inside the building to the outdoors.</P>
+<P><TextRun amendingStyle="strike">(26)</TextRun> <TextRun amendingStyle="add">(25)</TextRun> "Signage display" means an analog or digital device designed primarily for the display for computer-generated signals that is not marketed for use as a computer monitor or a television.</P>
+<P><TextRun amendingStyle="strike">(27)</TextRun> <TextRun amendingStyle="add">(26)</TextRun> "Spray sprinkler body" means the exterior case or shell of a sprinkler incorporating a means of connection to the piping system designed to convey water to a nozzle or orifice.</P>
+<P><TextRun amendingStyle="strikemarkleft">(28) "Uninterruptible power supply" means a battery charger consisting of a number of convertors, switches, and energy storage devices such as batteries, constituting a power system for maintaining continuity of load power in case of input power failure.</TextRun></P>
+<P><TextRun amendingStyle="strikemarkright">(29)</TextRun> <TextRun amendingStyle="add">(27)</TextRun> "Water cooler" means a freestanding device that consumes energy to cool or heat potable water, including cold only units, hot and cold units, cook and cold units, storage-type units, and on-demand units.</P>
+<P><TextRun amendingStyle="add">(28) "Air purifier," also known as "room air cleaner," means an electric, cord-connected, portable appliance with the primary function of removing particulate matter from the air and that can be moved from room to room.</TextRun></P>
+<P><TextRun amendingStyle="add">(29) "Commercial oven" means a chamber designed for heating, roasting, or baking food by conduction, convection, radiation, or electromagnetic energy, or any combination thereof.</TextRun></P>
+<P><TextRun amendingStyle="add">(30)(a) "Electric vehicle supply equipment" means the conductors, including the ungrounded, grounded, and equipment grounding conductors, the electric vehicle connectors, attachment plugs, and all other fittings, devices, power outlets, or apparatuses installed specifically for the purpose of delivering energy from the premises wiring to the electric vehicle. Charging cords with NEMA 5-15P and NEMA 5-20P attachment plugs are considered electric vehicle supply equipment.</TextRun></P>
+<P><TextRun amendingStyle="add">(b) "Electric vehicle supply equipment" does not include the conductors, connectors, and fittings that are part of a vehicle.</TextRun></P>
+<P><TextRun amendingStyle="add">(31) "Industrial air purifier" means an indoor air cleaning device manufactured, advertised, marketed, labeled, and used solely for industrial use that is marketed solely through industrial supply outlets or businesses and prominently labeled as "Solely for industrial use. Potential health hazard: Emits ozone".</TextRun></P>
+<History>2019 c 286 § 2. Prior: 2009 c 565 § 18; 2009 c 501 § 1; 2006 c 194 § 1; 2005 c 298 § 2.</History>
+<RCWNoteSection>
+<RevNote><NoteP><TextRun fontWeight="bold">Reviser's note: </TextRun>The definitions in this section have been alphabetized pursuant to RCW 1.08.015(2)(k).</NoteP></RevNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="amendatory" action="remd">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>19</TitleNumber><TextRun>.</TextRun><ChapterNumber>260</ChapterNumber><TextRun>.</TextRun><SectionNumber>020</SectionNumber></SectionCite> and 2019 c 286 s 2 are each reenacted and amended to read as follows:<Caption>Definitions.</Caption></BillSectionHeader>
+<P>The definitions in this section apply throughout this chapter unless the context clearly requires otherwise.</P>
+<P>(1) "Air compressor" means a compressor designed to compress air that has an inlet open to the atmosphere or other source of air and is made up of a compression element (bare compressor), a driver or drivers, mechanical equipment to drive the compressor element, and any ancillary equipment.</P>
+<P>(2) "ANSI" means the American national standards institute.</P>
+<P>(3) "Bottle-type water dispenser" means a water dispenser that uses a bottle or reservoir as the source of potable water.</P>
+<P>(4) "Commercial dishwasher" means a machine designed to clean and sanitize plates, pots, pans, glasses, cups, bowls, utensils, and trays by applying sprays of detergent solution, with or without blasting media granules, and a sanitizing rinse.</P>
+<P>(5) "Commercial fryer" means an appliance, including a cooking vessel, in which oil is placed to such a depth that the cooking food is supported by displacement of the cooking fluid rather than by the bottom of the vessel. Heat is delivered to the cooking fluid by means of an immersed electric element of band-wrapped vessel (electric fryers) or by heat transfer from gas burners through either the walls of the fryer or through tubes passing through the cooking fluid (gas fryers).</P>
+<P>(6) "Commercial hot food holding cabinet" means a heated, fully enclosed compartment, with one or more solid or partial glass doors, that is designed to maintain the temperature of hot food that has been cooked in a separate appliance. "Commercial hot food holding cabinet" does not include heated glass merchandising cabinets, drawer warmers, or cook and hold appliances.</P>
+<P>(7) "Commercial steam cooker" means a device with one or more food-steaming compartments in which the energy in the steam is transferred to the food by direct contact. Models may include countertop models, wall-mounted models, and floor models mounted on a stand, pedestal, or cabinet-style base.</P>
+<P>(8) "Compensation" means money or any other valuable thing, regardless of form, received or to be received by a person for services rendered.</P>
+<P>(9) "Compressor" means a machine or apparatus that converts different types of energy into the potential energy of gas pressure for displacement and compression of gaseous media to any higher-pressure values above atmospheric pressure and has a pressure ratio at full-load operating pressure greater than 1.3.</P>
+<P>(10) "Cook and hold appliance" means a multiple mode appliance intended for cooking food that may be used to hold the temperature of the food that has been cooked in the same appliance.</P>
+<P>(11) "CTA" means the consumer technology association.</P>
+<P>(12) "Department" means the department of commerce.</P>
+<P>(13) "Drawer warmer" means an appliance that consists of one or more heated drawers and that is designed to hold hot food that has been cooked in a separate appliance at a specified temperature.</P>
+<P>(14) "Electric storage water heater" means a consumer product that uses electricity as the energy source to heat domestic potable water, has a nameplate input rating of twelve kilowatts or less, contains nominally forty gallons but no more than one hundred twenty gallons of rated hot water storage volume, and supplies a maximum hot water delivery temperature less than one hundred eighty degrees Fahrenheit.</P>
+<P>(15) "General service lamp" has the same meaning as set forth in the action published at 82 Fed. Reg. 7276, 7321-22 (January 19, 2017) and modified by the action published at 82 Fed. Reg. 7322, 7333 (January 19, 2017).</P>
+<P>(16) "Heated glass merchandising cabinet" means an appliance with a heated cabinet constructed of glass or clear plastic doors which, with seventy percent or more clear area, is designed to display and maintain the temperature of hot food that has been cooked in a separate appliance.</P>
+<P>(17) "High color rendering index fluorescent lamp" or "high CRI fluorescent lamp" means a fluorescent lamp with a color rendering index of eighty-seven or greater that is not a compact fluorescent lamp.</P>
+<P>(18) "Hot water dispenser" means a small electric water heater that has a measured storage volume of no greater than one gallon.</P>
+<P>(19) "Mini-tank electric water heater" means a small electric water heater that has a measured storage volume of more than one gallon and a rated storage volume of less than twenty gallons.</P>
+<P>(20) "Point-of-use water dispenser" means a water dispenser that uses a pressurized water utility connection as the source of potable water.</P>
+<P>(21) "Portable air conditioner" means a portable encased assembly, other than a packaged terminal air conditioner, room air conditioner, or dehumidifier, that delivers cooled, conditioned air to an enclosed space, and is powered by single-phase electric current. It includes a source of refrigeration and may include additional means for air circulation and heating and may be a single-duct or a dual-duct portable air conditioner.</P>
+<P>(22) "Portable electric spa" means a factory-built electric spa or hot tub, which may or may not include any combination of integral controls, water heating, or water circulating equipment.</P>
+<P>(23) "Pressure regulator" means a device that maintains constant operating pressure immediately downstream from the device, given higher pressure upstream.</P>
+<P>(24) <TextRun amendingStyle="strikemarkleft">"Residential pool pump" means a pump used to circulate and filter pool water in order to maintain clarity and sanitation.</TextRun></P>
+<P><TextRun amendingStyle="strikemarkright">(25)</TextRun> <TextRun amendingStyle="add">(a)</TextRun> "Residential ventilating fan" means a <TextRun amendingStyle="strike">ceiling, wall-mounted, or remotely mounted in-line</TextRun> fan <TextRun amendingStyle="strike">designed to be used in a bathroom or utility room</TextRun> whose purpose is to <TextRun amendingStyle="strike">move objectionable air from inside the building to the outdoors</TextRun> <TextRun amendingStyle="add">actively supply air to or remove air from the inside of a residence. A "residential ventilating fan" may also be designed to filter incoming air. "Residential ventilating fan" includes, but is not limited to: Ceiling and wall-mounted fans, or remotely mounted in-line fans, designed to be used in a bathroom or utility room; and supply fans designed to provide air to the indoor space.</TextRun></P>
+<P><TextRun amendingStyle="add">(b) "Residential ventilating fan" does not include kitchen range hoods</TextRun>.</P>
+<P><TextRun amendingStyle="strike">(26)</TextRun> <TextRun amendingStyle="add">(25)</TextRun> "Signage display" means an analog or digital device designed primarily for the display for computer-generated signals that is not marketed for use as a computer monitor or a television.</P>
+<P><TextRun amendingStyle="strike">(27)</TextRun> <TextRun amendingStyle="add">(26)</TextRun> "Spray sprinkler body" means the exterior case or shell of a sprinkler incorporating a means of connection to the piping system designed to convey water to a nozzle or orifice.</P>
+<P><TextRun amendingStyle="strikemarkleft">(28) "Uninterruptible power supply" means a battery charger consisting of a number of convertors, switches, and energy storage devices such as batteries, constituting a power system for maintaining continuity of load power in case of input power failure.</TextRun></P>
+<P><TextRun amendingStyle="strikemarkright">(29)</TextRun> <TextRun amendingStyle="add">(27)</TextRun> "Water cooler" means a freestanding device that consumes energy to cool or heat potable water, including cold only units, hot and cold units, cook and cold units, storage-type units, and on-demand units.</P>
+<P><TextRun amendingStyle="add">(28) "Air purifier," also known as "room air cleaner," means an electric, cord-connected, portable appliance with the primary function of removing particulate matter from the air and that can be moved from room to room.</TextRun></P>
+<P><TextRun amendingStyle="add">(29) "Commercial oven" means a chamber designed for heating, roasting, or baking food by conduction, convection, radiation, or electromagnetic energy, or any combination thereof.</TextRun></P>
+<P><TextRun amendingStyle="add">(30)(a) "Electric vehicle supply equipment" means the conductors, including the ungrounded, grounded, and equipment grounding conductors, the electric vehicle connectors, attachment plugs, and all other fittings, devices, power outlets, or apparatuses installed specifically for the purpose of delivering energy from the premises wiring to the electric vehicle.</TextRun></P>
+<P><TextRun amendingStyle="add">(b) "Electric vehicle supply equipment" does not include the conductors, connectors, and fittings that are part of a vehicle, and does not include charging cords with NEMA 5-15P or NEMA 5-20P attachment plugs.</TextRun></P>
+<P><TextRun amendingStyle="add">(31) "Industrial air purifier" means an indoor air cleaning device manufactured, advertised, marketed, labeled, and used solely for industrial use that is marketed solely through industrial supply outlets or businesses and prominently labeled as "Solely for industrial use. Potential health hazard: Emits ozone".</TextRun></P>
+<History>2019 c 286 § 2. Prior: 2009 c 565 § 18; 2009 c 501 § 1; 2006 c 194 § 1; 2005 c 298 § 2.</History>
+<RCWNoteSection>
+<RevNote><NoteP><TextRun fontWeight="bold">Reviser's note: </TextRun>The definitions in this section have been alphabetized pursuant to RCW 1.08.015(2)(k).</NoteP></RevNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>19</TitleNumber><TextRun>.</TextRun><ChapterNumber>260</ChapterNumber><TextRun>.</TextRun><SectionNumber>030</SectionNumber></SectionCite> and 2019 c 286 s 3 are each amended to read as follows:<Caption>Application of chapter.</Caption></BillSectionHeader>
+<P>(1) This chapter applies to the following types of new products sold, offered for sale, or installed in the state:</P>
+<P>(a) Hot water dispensers and mini-tank electric water heaters;</P>
+<P>(b) Bottle-type water dispensers and point-of<Hyphen type="nobreak" />use water dispensers;</P>
+<P>(c) <TextRun amendingStyle="strike">Residential pool pumps and portable</TextRun> <TextRun amendingStyle="add">Portable</TextRun> electric spas;</P>
+<P>(d) Tub spout diverters;</P>
+<P>(e) Commercial hot food holding cabinets;</P>
+<P>(f) Air compressors;</P>
+<P>(g) Commercial fryers, commercial dishwashers, and commercial steam cookers;</P>
+<P>(h) Computers and computer monitors;</P>
+<P>(i) Faucets;</P>
+<P>(j) High CRI fluorescent lamps;</P>
+<P>(k) Portable air conditioners;</P>
+<P>(l) Residential ventilating fans;</P>
+<P>(m) Showerheads;</P>
+<P>(n) Spray sprinkler bodies;</P>
+<P>(o) <TextRun amendingStyle="strikemarkleft">Uninterruptible power supplies;</TextRun></P>
+<P><TextRun amendingStyle="strikemarkright">(p)</TextRun> Urinals and water closets;</P>
+<P><TextRun amendingStyle="strike">(q)</TextRun> <TextRun amendingStyle="add">(p)</TextRun> Water coolers;</P>
+<P><TextRun amendingStyle="strike">(r)</TextRun> <TextRun amendingStyle="add">(q)</TextRun> General service lamps; <TextRun amendingStyle="strikemarkleft">and</TextRun></P>
+<P><TextRun amendingStyle="strikemarkright">(s)</TextRun> <TextRun amendingStyle="add">(r)</TextRun> Electric storage water heaters<TextRun amendingStyle="add">;</TextRun></P>
+<P><TextRun amendingStyle="add">(s) Air purifiers other than industrial air purifiers;</TextRun></P>
+<P><TextRun amendingStyle="add">(t) Commercial ovens; and</TextRun></P>
+<P><TextRun amendingStyle="add">(u) Electric vehicle supply equipment</TextRun>.</P>
+<P>(2) This chapter applies equally to products whether they are sold, offered for sale, or installed as stand-alone products or as components of other products.</P>
+<P>(3) This chapter does not apply to:</P>
+<P>(a) New products manufactured in the state and sold outside the state;</P>
+<P>(b) New products manufactured outside the state and sold at wholesale inside the state for final retail sale and installation outside the state;</P>
+<P>(c) Products installed in mobile manufactured homes at the time of construction; or</P>
+<P>(d) Products designed expressly for installation and use in recreational vehicles.</P>
+<History>2019 c 286 § 3; 2009 c 501 § 2; 2006 c 194 § 2; 2005 c 298 § 3.</History>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>19</TitleNumber><TextRun>.</TextRun><ChapterNumber>260</ChapterNumber><TextRun>.</TextRun><SectionNumber>040</SectionNumber></SectionCite> and 2019 c 286 s 4 are each amended to read as follows:<Caption>Minimum efficiency standards.</Caption></BillSectionHeader>
+<P>Except as provided in subsection (1) of this section, the minimum efficiency standards specified in this section apply to the types of new products set forth in RCW 19.260.030 as of the effective dates set forth in RCW 19.260.050.</P>
+<P>(1) The department may adopt by rule a more recent version of any standard or test method established in this section, including any product definition associated with the standard or test method, in order to maintain or improve consistency with other comparable standards in other states.</P>
+<P>(2)(a) The standby energy consumption of bottle<Hyphen type="nobreak" />type water dispensers, and point<Hyphen type="nobreak" />of<Hyphen type="nobreak" />use water dispensers, dispensing both hot and cold water, manufactured on or after January 1, 2010, shall not exceed 1.2 kWh/day.</P>
+<P>(b) The test method for water dispensers shall be the environmental protection agency energy star program requirements for bottled water coolers version 1.1.</P>
+<P>(3)(a) The standby energy consumption of hot water dispensers and mini-tank electric water heaters manufactured on or after January 1, 2010, shall be not greater than 35 watts.</P>
+<P>(b) This subsection does not apply to any water heater:</P>
+<P>(i) That is within the scope of 42 U.S.C. Sec. 6292(a)(4) or 6311(1);</P>
+<P>(ii) That has a rated storage volume of less than 20 gallons; and</P>
+<P>(iii) For which there is no federal test method applicable to that type of water heater.</P>
+<P>(c) Hot water dispensers shall be tested in accordance with the method specified in the California Code of Regulations, Title 20, section 1604 in effect as of July 26, 2009.</P>
+<P>(d) Mini-tank electric water heaters shall be tested in accordance with the method specified in the California Code of Regulations, Title 20, section 1604 in effect as of July 26, 2009.</P>
+<P>(4) The following standards are established for <TextRun amendingStyle="strike">residential pool pumps and</TextRun> portable electric spas:</P>
+<P>(a) <TextRun amendingStyle="strikemarkleft">Residential pool pumps manufactured on or after January 1, 2010, and until July 18, 2021, must meet requirements specified in the California Code of Regulations, Title 20, section 1605.3 in effect as of July 26, 2009. Beginning July 19, 2021, residential pool pumps must meet requirements specified in the dedicated-purpose pool pump rule published by the United States department of energy on January 18, 2017, (82 Fed. Reg. 5650) and effective on May 18, 2017.</TextRun></P>
+<P><TextRun amendingStyle="strikemarkright">(b) Through December 31, 2019, portable electric spas manufactured on or after January 1, 2010, must meet requirements specified in the California Code of Regulations, Title 20, section 1605.3 in effect as of July 26, 2009.</TextRun> Beginning January 1, 2020, portable electric spas must meet the requirements of the American national standard for portable electric spa energy efficiency (ANSI/APSP/ICC-14 2014). <TextRun amendingStyle="add">Beginning January 1, 2024, portable electric spas must meet the requirements specified in the California code of regulations, title 20, section 1605.3 in effect as of January 1, 2022.</TextRun></P>
+<P><TextRun amendingStyle="strike">(c) Through December 31, 2019, portable electric spas must be tested in accordance with the method specified in the California Code of Regulations, Title 20, section 1604 in effect as of July 26, 2009.</TextRun> <TextRun amendingStyle="add">(b)</TextRun> Beginning January 1, 2020, portable electric spas must be tested in accordance with the method specified in the American national standard for portable electric spa energy efficiency (ANSI/APSP/ICC-14 2014). <TextRun amendingStyle="add">Beginning January 1, 2024, portable electric spas must be tested in accordance with the method specified in the California code of regulations, title 20, section 1605.3 in effect as of January 1, 2022.</TextRun></P>
+<P>(5)<TextRun amendingStyle="strikemarkleft">(a) The idle energy rate of commercial hot food holding cabinets manufactured on or after January 1, 2010, shall be no greater than 40 watts per cubic foot of measured interior volume.</TextRun></P>
+<P><TextRun amendingStyle="strikemarkright">(b) The idle energy rate of commercial hot food holding cabinets shall be determined using ANSI/ASTM F2140-11 standard test method for the performance of hot food holding cabinets (test for idle energy rate dry test). Commercial hot food holding cabinet interior volume shall be calculated using straight line segments following the gross interior dimensions of the appliance and using the following equation: Interior height x interior width x interior depth. Interior volume shall not account for racks, air plenums, or other interior parts.</TextRun> <TextRun amendingStyle="add">Commercial hot food holding cabinets must meet the qualification criteria of the energy star program requirements product specification for commercial hot food holding cabinets, version 2.0.</TextRun></P>
+<P>(6) Commercial dishwashers included in the scope of the environmental protection agency energy star program product specification for commercial dishwashers, version 2.0, must meet the qualification criteria of that specification.</P>
+<P>(7) Commercial fryers included in the scope of the environmental protection agency energy star program product specification for commercial fryers, version 2.0, must meet the qualification criteria for that specification.</P>
+<P>(8) Commercial steam cookers must meet the requirements of the environmental protection agency energy star program product specification for commercial steam cookers, version 1.2.</P>
+<P>(9) Computers and computer monitors must meet the requirements in the California Code of Regulations, Title 20, section 1605.3(v) as adopted on May 10, 2017, and amended on November 8, 2017, as measured in accordance with test methods prescribed in section 1604(v) of those regulations.</P>
+<P>(10) Air compressors that meet the twelve criteria listed on page 350 to 351 of the "energy conservation standards for air compressors" final rule issued by the United States department of energy on December 5, 2016, must meet the requirements in table 1 on page 352 following the instructions on page 353 and as measured in accordance with the "uniform test method for certain air compressors" under 10 C.F.R. Part 431 (Appendix A to Subpart T) as in effect on July 3, 2017.</P>
+<P>(11) High CRI fluorescent lamps must meet the requirements in 10 C.F.R. Sec. 430.32(n)(4) in effect as of January 3, 2017, as measured in accordance with the test methods prescribed in 10 C.F.R. Sec. 430.23 (appendix R to subpart B of part 430) in effect as of January 3, 2017.</P>
+<P>(12) Portable air conditioners must have a combined energy efficiency ratio, as measured in accordance with the test methods prescribed in 10 C.F.R. Sec. 430.23 (appendix CC to subpart B of part 430) in effect as of January 3, 2017, that is greater than or equal to:</P>
+<Table pubwidth="narrow" width="243.0pt" align="center">
+<Col width="100pt" />
+<Col width="143pt" />
+<TR>
+<TD colspan="1" rowspan="2" valign="middle" textAlign="right"><P>1.04 ×</P></TD>
+<TD textAlign="center" border-bottom="solid"><P><TextRun fontStyle="italic">SACC</TextRun></P></TD>
+</TR>
+<TR>
+<TD textAlign="center"><P>(3.7117 × <TextRun fontStyle="italic">SACC </TextRun><TextRun fontStyle="superscript">0.6384</TextRun>)</P></TD>
+</TR>
+</Table>
+<P>where "SACC" is seasonally adjusted cooling capacity in Btu/h.</P>
+<P>(13)<TextRun amendingStyle="add">(a)</TextRun> Residential ventilating fans must meet the qualification criteria of the environmental protection agency energy star program product specification for residential ventilating fans, version 3.2<TextRun amendingStyle="add">, consistent with the timeline specified in RCW 19.260.050(3).</TextRun></P>
+<P><TextRun amendingStyle="add">(b) Residential ventilating fans must meet the qualification criteria of the environmental protection agency energy star program product specification for residential ventilating fans, version 4.1, consistent with the timeline specified in RCW 19.260.050(3)</TextRun>.</P>
+<P>(14) Spray sprinkler bodies that are not specifically excluded from the scope of the environmental protection agency water sense program product specification for spray sprinkler bodies, version 1.0, must include an integral pressure regulator and must meet the water efficiency and performance criteria and other requirements of that specification.</P>
+<P>(15) The following products that are within the scope and definition of the applicable regulation must meet the requirements in the California Code of Regulations, Title 20, section 1605.3 in effect as of January 1, 2018, as measured in accordance with the test methods prescribed in the California Code of Regulations, Title 20, section 1604 in effect as of January 1, 2018:</P>
+<P>(a) Showerheads;</P>
+<P>(b) Tub spout diverters;</P>
+<P>(c) Showerhead tub spout diverter combinations;</P>
+<P>(d) Lavatory faucets and replacement aerators;</P>
+<P>(e) Kitchen faucets and replacement aerators;</P>
+<P>(f) Public lavatory faucets and replacement aerators;</P>
+<P>(g) Urinals; and</P>
+<P>(h) Water closets.</P>
+<P>(16) <TextRun amendingStyle="strikemarkleft">Uninterruptible power supplies that utilize a NEMA 1-15P or 5-15P input plug and have an AC output must have an average load adjusted efficiency that meets or exceeds the values shown on page 193 of the prepublication final rule "Energy Conservation Program: Energy Conservation Standards for Uninterruptible Power Supplies" issued by the United States department of energy on December 28, 2016, as measured in accordance with test procedures prescribed in Appendix Y to Subpart B of Part 430 of Title 10 of the Code of Federal Regulations "Uniform Test Method for Measuring the Energy Consumption of Battery Chargers" in effect as of January 11, 2017.</TextRun></P>
+<P><TextRun amendingStyle="strikemarkright">(17)</TextRun> Water coolers included in the scope of the environmental protection agency energy star program product specification for water coolers, version 2.0, must have an on mode with no water draw energy consumption less than or equal to the following values as measured in accordance with the test requirements of that program:</P>
+<P>(a) 0.16 kilowatt-hours per day for cold-only units and cook and cold units;</P>
+<P>(b) 0.87 kilowatt-hours per day for storage type hot and cold units; and</P>
+<P>(c) 0.18 kilowatt-hours per day for on demand hot and cold units.</P>
+<P><TextRun amendingStyle="strike">(18)</TextRun> <TextRun amendingStyle="add">(17)</TextRun> General service lamps must meet or exceed a lamp efficacy of 45 lumens per watt, when tested in accordance with the applicable federal test procedures for general service lamps prescribed in 10 C.F.R. Sec. 430.23 in effect as of January 3, 2017.</P>
+<P><TextRun amendingStyle="add">(18) Air purifiers other than industrial air purifiers must meet the qualification criteria of the environmental protection agency energy star program product specification for room air cleaners, version 2.0.</TextRun></P>
+<P><TextRun amendingStyle="add">(19) Commercial ovens included in the scope of the energy star program requirements product specification for commercial ovens, version 2.2, must meet the qualification criteria of that specification.</TextRun></P>
+<P><TextRun amendingStyle="add">(20) Electric vehicle supply equipment included in the scope of the energy star program requirements product specification for electric vehicle supply equipment, version 1.1, other than charging cords with NEMA 5-15P or NEMA 5-20P attachment plugs, must meet the qualification criteria of that specification.</TextRun></P>
+<History>2019 c 286 § 4; 2009 c 501 § 3; 2006 c 194 § 3; 2005 c 298 § 4.</History>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>5</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>19</TitleNumber><TextRun>.</TextRun><ChapterNumber>260</ChapterNumber><TextRun>.</TextRun><SectionNumber>050</SectionNumber></SectionCite> and 2019 c 286 s 6 are each amended to read as follows:<Caption>Limit on sale or installation of products required to meet or exceed standards in RCW 19.260.040.</Caption></BillSectionHeader>
+<P>(1) The following products, if manufactured on or after January 1, 2010, may not be sold or offered in the state unless the efficiency of the new product meets or exceeds the efficiency standards set forth in RCW 19.260.040:</P>
+<P>(a) Hot water dispensers and mini-tank electric water heaters;</P>
+<P>(b) Bottle-type water dispensers and point-of<Hyphen type="nobreak" />use water dispensers;</P>
+<P>(c) <TextRun amendingStyle="strike">Residential pool pumps and portable</TextRun> <TextRun amendingStyle="add">Portable</TextRun> electric spas;</P>
+<P>(d) Tub spout diverters; and</P>
+<P>(e) Commercial hot food holding cabinets.</P>
+<P>(2) The following products, if manufactured on or after January 1, 2010, may not be installed for compensation in the state on or after January 1, 2011, unless the efficiency of the new product meets or exceeds the efficiency standards set forth in RCW 19.260.040:</P>
+<P>(a) Hot water dispensers and mini-tank electric water heaters;</P>
+<P>(b) Bottle-type water dispensers and point-of<Hyphen type="nobreak" />use water dispensers;</P>
+<P>(c) <TextRun amendingStyle="strike">Residential pool pumps and portable</TextRun> <TextRun amendingStyle="add">Portable</TextRun> electric spas;</P>
+<P>(d) Tub spout diverters; and</P>
+<P>(e) Commercial hot food holding cabinets.</P>
+<P>(3) The following products, if manufactured on or after January 1, 2021, may not be sold or offered for sale, lease, or rent in the state unless the efficiency of the new product meets or exceeds the efficiency standards set forth in RCW 19.260.040:</P>
+<P>(a) Commercial dishwashers;</P>
+<P>(b) Commercial fryers;</P>
+<P>(c) Commercial steam cookers;</P>
+<P>(d) Computers or computer monitors;</P>
+<P>(e) Faucets;</P>
+<P>(f) Residential ventilating fans <TextRun amendingStyle="add">that meet the standard specified in RCW 19.260.040(13)(a)</TextRun>;</P>
+<P>(g) Spray sprinkler bodies;</P>
+<P>(h) Showerheads;</P>
+<P>(i) <TextRun amendingStyle="strikemarkleft">Uninterruptible power supplies;</TextRun></P>
+<P><TextRun amendingStyle="strikemarkright">(j)</TextRun> Urinals and water closets; and</P>
+<P><TextRun amendingStyle="strike">(k)</TextRun> <TextRun amendingStyle="add">(j)</TextRun> Water coolers.</P>
+<P>(4) <TextRun amendingStyle="add">The following products, if manufactured on or after January 1, 2024, may not be sold or offered for sale, lease, or rent in the state unless the efficiency of the new product meets or exceeds the efficiency standards set forth in RCW 19.260.040:</TextRun></P>
+<P><TextRun amendingStyle="add">(a) Air purifiers other than industrial air purifiers;</TextRun></P>
+<P><TextRun amendingStyle="add">(b) Commercial ovens;</TextRun></P>
+<P><TextRun amendingStyle="add">(c) Electric vehicle supply equipment; and</TextRun></P>
+<P><TextRun amendingStyle="add">(d) Residential ventilating fans that meet the standard specified in RCW 19.260.040(13)(b).</TextRun></P>
+<P><TextRun amendingStyle="add">(5)</TextRun> Standards for the following products expire January 1, 2020:</P>
+<P>(a) Hot water dispensers; and</P>
+<P>(b) Bottle-type water dispensers and point-of-use water dispensers.</P>
+<P><TextRun amendingStyle="strike">(5)</TextRun> <TextRun amendingStyle="add">(6)</TextRun> A new air compressor manufactured on or after January 1, 2022, may not be sold or offered for sale in the state unless the efficiency of the new product meets or exceeds the efficiency standards set forth in RCW 19.260.040.</P>
+<P><TextRun amendingStyle="strike">(6)</TextRun> <TextRun amendingStyle="add">(7)</TextRun> A new portable air conditioner manufactured on or after February 1, 2022, may not be sold or offered for sale in the state unless the efficiency of the new product meets or exceeds the efficiency standards set forth in RCW 19.260.040.</P>
+<P><TextRun amendingStyle="strike">(7)</TextRun> <TextRun amendingStyle="add">(8)</TextRun> New general service lamps manufactured on or after January 1, 2020, may not be sold or offered for sale in the state unless the efficiency of the new product meets or exceeds the efficiency standards set forth in RCW 19.260.040.</P>
+<P><TextRun amendingStyle="strike">(8)</TextRun> <TextRun amendingStyle="add">(9)</TextRun> No new high CRI fluorescent lamps may be sold or offered for sale in the state after January 1, 2023, unless the efficiency of the new product meets or exceeds the efficiency standards set forth in RCW 19.260.040. The department may establish by rule an earlier effective date, not before January 1, 2022, if the state of California adopts a comparable standard with an effective date before January 1, 2023.</P>
+<History>2019 c 286 § 6; 2009 c 501 § 4; 2006 c 194 § 4; 2005 c 298 § 5.</History>
+</BillSection>
+<BillSection type="new" action="expdate">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>6</Value><TextRun>.  </TextRun></BillSectionNumber><P>Section 1 of this act expires January 1, 2024.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="effdate">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>7</Value><TextRun>.  </TextRun></BillSectionNumber><P>Section 2 of this act takes effect January 1, 2024.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>8</Value><TextRun>.  </TextRun></BillSectionNumber><P>If any provision of this act or its application to any person or circumstance is held invalid, the remainder of the act or the application of the provision to other persons or circumstances is not affected.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

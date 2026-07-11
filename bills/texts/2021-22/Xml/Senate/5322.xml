@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>Z-0230.1</RequestNumber><ShortBillId>SB 5322</ShortBillId><LongBillId>SENATE BILL 5322</LongBillId><Legislature>67th Legislature</Legislature><Session>2021 Regular Session</Session><Sponsors>Senators Robinson and Wilson, C.; by request of Health Care Authority</Sponsors><BillHistory><ReadDate>Read first time 01/21/21.</ReadDate><ReferredCommittee>Referred to Committee on Ways &amp; Means.</ReferredCommittee></BillHistory><BriefDescription>Prohibiting dual enrollment between school employees' benefits board and public employees' benefits board programs.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to prohibiting dual enrollment between school employees' benefits board and public employees' benefits board programs; and amending RCW 41.05.742.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>41</TitleNumber><TextRun>.</TextRun><ChapterNumber>05</ChapterNumber><TextRun>.</TextRun><SectionNumber>742</SectionNumber></SectionCite> and 2020 c 8 s 4 are each amended to read as follows:<Caption>Single enrollment requirement.</Caption></BillSectionHeader>
+<P>Beginning with the 2022 plan year, individuals are limited to a single enrollment in medical, dental, and vision plans <TextRun amendingStyle="strike">among</TextRun> <TextRun amendingStyle="add">in either the</TextRun> school employees' benefits board <TextRun amendingStyle="strike">and</TextRun> <TextRun amendingStyle="add">or the</TextRun> public employees' benefits board <TextRun amendingStyle="strike">plans. However, individuals may be enrolled in both public employees' benefits board and school employees' benefits board plans as long as those enrollments are across different types of plans, such as medical, dental, and vision</TextRun>. The school employees' benefits board and the public employees' benefits board shall adopt policies to reflect this single enrollment requirement.</P>
+<History>2020 c 8 § 4.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2020 c 8:</TextRun> See note following RCW 41.05.744.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+</BillBody>
+</Bill>

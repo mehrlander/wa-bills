@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-3057.1</RequestNumber><ShortBillId>SHB 2428</ShortBillId><LongBillId>SUBSTITUTE HOUSE BILL 2428</LongBillId><Legislature>68th Legislature</Legislature><Session>2024 Regular Session</Session><Sponsors>House Local Government (originally sponsored by Representatives Klicker, Rude, and Springer)</Sponsors><BillHistory><ReadDate>READ FIRST TIME 01/31/24.</ReadDate></BillHistory><BriefDescription>Allowing cities to voluntarily share certain sales and use tax revenue.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to allowing cities to voluntarily share certain sales and use tax revenue; adding a new section to chapter 39.34 RCW; and adding a new section to chapter 82.14 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>39</TitleNumber><TextRun>.</TextRun><ChapterNumber>34</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) Cities and towns may enter into an agreement under this chapter to share a portion of general purpose sales and use tax revenue collected under RCW 82.14.030.</P>
+<P>(2) Any agreement to share such revenue must specify, in addition to the conditions required to be included under RCW 39.34.030, the following:</P>
+<P>(a) If the agreement applies only to sales and use tax revenue collected in a certain area or areas, then the area or areas in which it is applicable, and how the parties to the agreement will calculate the revenue collected in those areas;</P>
+<P>(b) The amount or proportion of the sales and use tax revenue that is to be shared; and</P>
+<P>(c) The precise mechanism or method that will be used by the parties to the agreement to share the revenue.</P>
+<P>(3) This section shall not be construed to diminish or reduce the authority of local governments to enter into agreements under this chapter or as otherwise allowed by law.</P>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>82</TitleNumber><TextRun>.</TextRun><ChapterNumber>14</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>Revenue from a sales and use tax imposed by a city under RCW 82.14.030 (1) and (2) may be shared with another city as part of an agreement entered into pursuant to section 1 of the act.</P>
+</BillSection>
+</BillBody>
+</Bill>

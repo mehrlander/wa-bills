@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-1314.1</RequestNumber><ShortBillId>SB 5922</ShortBillId><LongBillId>SENATE BILL 5922</LongBillId><Legislature>66th Legislature</Legislature><Session>2019 Regular Session</Session><Sponsors>Senators Conway, Walsh, Keiser, Braun, Darneille, Zeiger, Becker, Hunt, Brown, Nguyen, Hasegawa, and Lovelett</Sponsors><BillHistory><ReadDate>Read first time 02/15/19.</ReadDate><ReferredCommittee>Referred to Committee on Health &amp; Long Term Care.</ReferredCommittee></BillHistory><BriefDescription>Concerning community engagement and community guide services for people with developmental disabilities.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to community engagement and community guide services for people with developmental disabilities; adding a new section to chapter 43.20A RCW; creating a new section; providing an effective date; providing an expiration date; and declaring an emergency.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature finds that:</P></BillSectionHeader>
+<P>(1) The goal of community engagement and community guide services is to create opportunities for increased presence and participation in the community for individuals with developmental disabilities.</P>
+<P>(2) There is a lack of community engagement and community guide service providers because current reimbursement rates are low and insurance liability costs are high.</P>
+<P>(3) It is the legislature's goal to continue to support the current number of community engagement and community support hours participants receive, and to increase the number of hours each person receives over the next three biennia.</P>
+<P>(4) Community engagement and community guide services may include: Providing opportunities to increase the participant's connection to and engagement in formal and informal community supports to meet a goal identified by the participant's person-centered service plan; developing creative, flexible, and supportive community resources and relationships for individuals with developmental disabilities; and providing skill development, opportunities for socialization, and involvement in community activities, organizations, groups, projects, and other resources.</P>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>20A</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>Subject to the availability of amounts appropriated for this specific purpose:</P>
+<P>(1) Beginning July 1, 2019, and ending June 30, 2025, the reimbursement rate for community engagement and community guide services funded by the department's developmental disabilities administration shall be increased by two percent each year.</P>
+<P>(2) Beginning July 1, 2019, and ending June 30, 2025, the number of available hours for community engagement or community guide services funded by the department's developmental disabilities administration shall be increased by four hours per week for each client receiving community engagement or community guide services.</P>
+<P>(3) This section expires June 30, 2025</P>
+</BillSection>
+<BillSection type="new" action="emerg" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act is necessary for the immediate preservation of the public peace, health, or safety, or support of the state government and its existing public institutions, and takes effect July 1, 2019.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

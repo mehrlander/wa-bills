@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-4307.1</RequestNumber><ShortBillId>SHB 2655</ShortBillId><LongBillId>SUBSTITUTE HOUSE BILL 2655</LongBillId><Legislature>64th Legislature</Legislature><Session>2016 Regular Session</Session><Sponsors>House Finance (originally sponsored by Representatives Stokesbary, Vick, MacEwen, Zeiger, and Magendanz)</Sponsors><BillHistory><ReadDate>READ FIRST TIME 02/09/16.</ReadDate></BillHistory><BriefDescription>Concerning the excise taxation of crowdfunding donations.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to the excise taxation of crowdfunding donations; adding a new section to chapter 82.04 RCW; adding a new section to chapter 82.08 RCW; adding a new section to chapter 82.12 RCW; creating new sections; and providing an effective date.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature finds that crowdfunding plays an increasingly vital role in the economy and in individual communities, and that the global crowdfunding market will surpass ninety billion dollars in the next ten years. The legislature further finds that the current business and sales tax structure of Washington state is an impediment to entrepreneurs, inventors, artists, and private citizens seeking financial contributions to start new businesses, develop new products, complete creative projects, and achieve various goals. The legislature further finds that the current tax structure treats crowdfunding campaigns differently depending on their structure. It is the intent of the legislature to provide a business tax exemption for crowdfunding donations and to improve the sales tax structure as it applies to crowdfunding in order to simplify the tax code, improve fairness, and promote economic growth.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>82</TitleNumber><TextRun>.</TextRun><ChapterNumber>04</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) Amounts received by a donee as a qualifying donation are exempt from tax under this chapter.</P>
+<P>(2) The exemption under this section does not apply to the person receiving fees for the use of a crowdfunding web site owned or operated by the person.</P>
+<P>(3) The definitions in this subsection apply throughout this section unless the context clearly requires otherwise.</P>
+<P>(a) "Crowdfunding web site" means an online fundraising portal.</P>
+<P>(b) "Donee" means a person fund-raising on a crowdfunding web site.</P>
+<P>(c) "Fund-raising" means soliciting or accepting donations to start a new business or to raise funds for any other purpose.</P>
+<P>(d) "Qualifying donation" means a contribution by a donor to a donee through a crowdfunding web site. "Qualifying donation" includes a contribution by a donor to a donee through a crowdfunding web site where the donee provides a reward to the donor in recognition of the donation, provided that (i) the value of the reward does not exceed eighty percent of the value of the contribution, and (ii) the reward is not provided or sold in the donee's regular course of business.</P>
+<P>(e) "Reward" means any item or items, including services, digital products, digital codes, or personal property, offered by the donee to the donor in recognition of a donation. "Reward" does not include a thank you note or other acknowledgment that has no significant value.</P>
+<P>(4) Contributions that are not qualifying donations are not eligible for the exemptions under this section or section 3 or 4 of this act.</P>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>82</TitleNumber><TextRun>.</TextRun><ChapterNumber>08</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) The tax imposed by RCW 82.08.020 does not apply to a qualifying donation exempt under section 2 of this act.</P>
+<P>(2) The definitions in section 2 of this act apply to this section.</P>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>82</TitleNumber><TextRun>.</TextRun><ChapterNumber>12</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) The tax imposed by RCW 82.12.020 does not apply to the use of a reward received or offered in exchange for a qualifying donation exempt under section 2 of this act.</P>
+<P>(2) The definitions in section 2 of this act apply to this section.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>5</Value><TextRun>.  </TextRun></BillSectionNumber><P>RCW 82.32.805 and 82.32.808 do not apply to this act.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>6</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act applies to qualifying donations made on or after July 1, 2016.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="effdate" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>7</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act takes effect July 1, 2016.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

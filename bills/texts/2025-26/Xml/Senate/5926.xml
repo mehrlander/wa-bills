@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-3616.2</RequestNumber><ShortBillId>SB 5926</ShortBillId><LongBillId>SENATE BILL 5926</LongBillId><Legislature>69th Legislature</Legislature><Session>2026 Regular Session</Session><Sponsors>Senators Wellman, Nobles, and C. Wilson</Sponsors><BillHistory><PrefiledDate>Prefiled 12/22/25.</PrefiledDate><ReadDate>Read first time 01/12/26.</ReadDate><ReferredCommittee>Referred to Committee on State Government, Tribal Affairs &amp; Elections.</ReferredCommittee></BillHistory><BriefDescription>Expanding the public records exemption for personal information of family home child care providers to all licensed or certified child care providers.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to expanding the public records exemption for personal information of family home child care providers to all licensed or certified child care providers; amending RCW 42.56.640; adding a new section to chapter 42.56 RCW; adding a new section to chapter 43.216 RCW; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature finds that child care providers care for and serve some of Washington's most vulnerable populations. Existing privacy protections under RCW 42.56.640 apply only to licensed family home child care providers because their business operates within their private residence. However, the legislature further finds that child care providers working in licensed centers and other nonresidential care settings also face safety risks, harassment, doxxing, and targeted retaliation when their home addresses, personal phone numbers, photographs, and other identifying information are released publicly.</P></BillSectionHeader>
+<P>The legislature intends to extend the public records act privacy protections currently provided to licensed family home child care providers to all licensed child care providers, regardless of setting, to ensure that individuals who care for young children are protected from harm, intimidation, and threats to their personal safety.</P>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>42</TitleNumber><TextRun>.</TextRun><ChapterNumber>56</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) The following personal information of any individual or entity licensed or certified by the department of children, youth, and families to provide child care is exempt from disclosure under this chapter:</P>
+<P>(a) Names;</P>
+<P>(b) Home address;</P>
+<P>(c) Global positioning system (GPS) coordinates;</P>
+<P>(d) Personal telephone number;</P>
+<P>(e) Personal email address;</P>
+<P>(f) Date of birth;</P>
+<P>(g) Social security number or taxpayer identification number;</P>
+<P>(h) Driver's license number;</P>
+<P>(i) Personal bank account or direct deposit information;</P>
+<P>(j) Emergency contact information;</P>
+<P>(k) Any photograph of the individual that is not publicly distributed by the provider; and</P>
+<P>(l) Any other personally identifying information.</P>
+<P>(2) This exemption applies to all individuals providing child care:</P>
+<P>(a) In a licensed or certified family home provider as defined in RCW 43.216.010;</P>
+<P>(b) In a licensed or certified child care center as defined in RCW 43.216.010;</P>
+<P>(c) In a school-age or out-of-school-time care setting; and</P>
+<P>(d) In any other location licensed or certified by the department of children, youth, and families to provide child care.</P>
+<P>(3) Nothing in this section restricts the disclosure of business addresses, program capacity, licensing status, inspection results, or public safety findings required by state or federal law.</P>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>216</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>The department shall update privacy guidance, licensing communication materials, and mandatory reporter training documents to reflect the protections in section 2 of this act.</P>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>42</TitleNumber><TextRun>.</TextRun><ChapterNumber>56</ChapterNumber><TextRun>.</TextRun><SectionNumber>640</SectionNumber></SectionCite> and 2017 c 4 s 8 are each amended to read as follows:<Caption>Vulnerable individuals, in-home caregivers for vulnerable populations.</Caption></BillSectionHeader>
+<P>(1) Sensitive personal information of vulnerable individuals and sensitive personal information of in-home caregivers for vulnerable populations is exempt from inspection and copying under this chapter.</P>
+<P>(2) The following definitions apply to this section:</P>
+<P>(a) "In-home caregivers for vulnerable populations" means: (i) Individual providers as defined in RCW 74.39A.240<TextRun amendingStyle="strike">,</TextRun><TextRun amendingStyle="add">; and</TextRun> (ii) home care aides as defined in RCW 18.88B.010<TextRun amendingStyle="strike">, and (iii) family child care providers as defined in RCW 41.56.030</TextRun>.</P>
+<P>(b) "Sensitive personal information" means names, addresses, <TextRun amendingStyle="strike">GPS [global positioning system]</TextRun> <TextRun amendingStyle="add">global positioning system</TextRun> coordinates, telephone numbers, email addresses, social security numbers, driver's license numbers, or other personally identifying information.</P>
+<P>(c) "Vulnerable individual" has the meaning set forth in RCW 9.35.005.</P>
+<History>2017 c 4 s 8 (Initiative Measure No. 1501, approved November 8, 2016).</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Intent<TextRun fontFamily="Times New Roman">—</TextRun>2017 c 4 ss 8, 10, and 11 (Initiative Measure No. 1501):</TextRun> "It is the intent of part three of this act to protect seniors and vulnerable individuals from identity theft and other financial crimes by preventing the release of public records that could be used to victimize them. Sensitive personal information about in-home caregivers for vulnerable populations is protected because its release could facilitate identity crimes against seniors, vulnerable individuals, and other vulnerable populations that these caregivers serve." [2017 c 4 s 7 (Initiative Measure No. 1501, approved November 8, 2016).]</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Short title<TextRun fontFamily="Times New Roman">—</TextRun>Intent<TextRun fontFamily="Times New Roman">—</TextRun>Construction<TextRun fontFamily="Times New Roman">—</TextRun>2017 c 4 (Initiative Measure No. 1501):</TextRun> See notes following RCW 9.35.005.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+</BillBody>
+</Bill>

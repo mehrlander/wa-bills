@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-5778.1</RequestNumber><ShortBillId>SB 6654</ShortBillId><LongBillId>SENATE BILL 6654</LongBillId><Legislature>66th Legislature</Legislature><Session>2020 Regular Session</Session><Sponsors>Senators Mullet and Wilson, L.</Sponsors><BillHistory /><BriefDescription>Providing that qualified dealer cash incentives paid to auto dealers are bona fide discounts for purposes of the business and occupation tax.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to providing that qualified dealer cash incentives paid to auto dealers are bona fide discounts for purposes of the business and occupation tax; adding a new section to chapter 82.04 RCW; creating a new section; and providing an effective date.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>82</TitleNumber><TextRun>.</TextRun><ChapterNumber>04</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) In computing tax under RCW 82.04.290(2), there may be deducted from the measure of tax the amount of qualified dealer cash incentives.</P>
+<P>(2) The definitions in this subsection apply throughout this section unless the context clearly requires otherwise.</P>
+<P>(a) "Motor vehicle" has the same meaning provided in RCW 46.04.320.</P>
+<P>(b) "Qualified dealer cash incentive" means a payment or credit offered to a motor vehicle dealer as defined in RCW 46.70.011(17) by a manufacturer of a motor vehicle where:</P>
+<P>(i) The amount of the payment or credit is based on the quantity of a specified type of motor vehicle to be sold at retail by the seller, regardless of whether the seller is required to sell a specified minimum number of vehicles;</P>
+<P>(ii) The seller knew the terms of the offer before making the retail sales that generated the payment or credit from the manufacturer; and</P>
+<P>(iii) The seller is not required to provide any services to the manufacturer in order to receive the payment or credit from the manufacturer. The documentation of the retail sale that generated the payment or credit from the manufacturer is not a service provided to the manufacturer.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>The provisions of RCW 82.32.805 and 82.32.808 do not apply to this act.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="effdate" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act takes effect January 1, 2021.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

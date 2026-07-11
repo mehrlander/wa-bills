@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-0473.1</RequestNumber><ShortBillId>SB 5382</ShortBillId><LongBillId>SENATE BILL 5382</LongBillId><Legislature>67th Legislature</Legislature><Session>2021 Regular Session</Session><Sponsors>Senator Fortunato</Sponsors><BillHistory /><BriefDescription>Creating the state elections confidence using rigorous examination act.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to creating the state elections confidence using rigorous examination act; adding a new section to chapter 29A.08 RCW; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>29A</TitleNumber><TextRun>.</TextRun><ChapterNumber>08</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) The office of the secretary of state shall contract with individuals for the purposes of a security test of the voter registration system. Such testing must analyze system gaps and other flaws that could allow potential fraudulent or duplicate voter registration to occur.</P>
+<P>(a) Part of the security test must include an investigation that allows agents to register to vote multiple times and from multiple addresses in order to test for the possibility of individuals being able to have and vote multiple times using separate voter registrations. Registrations under this test must be tracked and shared with the local canvassing board so that no ballots issued under this system are counted toward a certified election.</P>
+<P>(b) While the testing is ongoing, individuals conducting the test are considered agents of the state and the activity within the scope of the contract authorized under this section is not a violation of any provision of this title.</P>
+<P>(c) Prior to initiating a security test under this section, the office of the secretary of state shall seek and receive a waiver from federal authorities to conduct the test.</P>
+<P>(2) The office of the secretary of state must issue a report on the findings of the security test or tests described in this section, including recommendations to eliminate the potential for fraudulent voting, by January 1, 2023.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act may be known and cited as the state elections confidence using rigorous examination (SECURE) act.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

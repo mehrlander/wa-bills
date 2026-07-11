@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-0574.1</RequestNumber><ShortBillId>HB 1426</ShortBillId><LongBillId>HOUSE BILL 1426</LongBillId><Legislature>68th Legislature</Legislature><Session>2023 Regular Session</Session><Sponsors>Representatives Mena, Reed, Fosse, Street, Simmons, Bateman, Ramel, Pollet, and Ormsby</Sponsors><BillHistory><ReadDate>Read first time 01/18/23.</ReadDate><ReferredCommittee>Referred to Committee on State Government &amp; Tribal Relations.</ReferredCommittee></BillHistory><BriefDescription>Concerning campaign contributions by controlled entities.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to campaign contributions by controlled entities; amending RCW 42.17A.455; and adding a new section to chapter 42.17A RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>42</TitleNumber><TextRun>.</TextRun><ChapterNumber>17A</ChapterNumber><TextRun>.</TextRun><SectionNumber>455</SectionNumber></SectionCite> and 2010 c 204 s 609 are each amended to read as follows:<Caption>Attribution of contributions by controlled entities.</Caption></BillSectionHeader>
+<P>For purposes of this chapter:</P>
+<P>(1) A contribution by a political committee with funds that have all been contributed by one person who exercises exclusive control over the distribution of the funds of the political committee is a contribution by the controlling person.</P>
+<P>(2) Two or more entities are treated as a single entity if one of the two or more entities is a subsidiary, branch, or department of a corporation that is participating in an election campaign or making contributions, or a local unit or branch of a trade association, labor union, or collective bargaining association that is participating in an election campaign or making contributions. All contributions made by a person or political committee whose contribution or expenditure activity is financed, maintained, or controlled by a trade association, labor union, collective bargaining organization, or the local unit of a trade association, labor union, or collective bargaining organization are considered made by the trade association, labor union, collective bargaining organization, or local unit of a trade association, labor union, or collective bargaining organization.</P>
+<P>(3)<TextRun amendingStyle="add">(a) If an individual directs or controls an entity's contributions, the entity's contributions shall be aggregated with contributions made by both:</TextRun></P>
+<P><TextRun amendingStyle="add">(i) That individual; and</TextRun></P>
+<P><TextRun amendingStyle="add">(ii) Any other entity whose contributions that individual directs or controls.</TextRun></P>
+<P><TextRun amendingStyle="add">(b) If two or more entities make contributions that are directed or controlled by a majority of the same persons, the contributions of those entities shall be aggregated.</TextRun></P>
+<P><TextRun amendingStyle="add">(c) Contributions made by entities that are majority-owned by a person shall be aggregated with the contributions of the majority owner and all other entities majority-owned by that person, unless those entities act independently in their contribution-making decisions.</TextRun></P>
+<P><TextRun amendingStyle="add">(4)</TextRun> The commission shall adopt rules to carry out this section and is not subject to the time restrictions of RCW 42.17A.110(1).</P>
+<History>2010 c 204 § 609; 2005 c 445 § 12; 1993 c 2 § 6 (Initiative Measure No. 134, approved November 3, 1992). Formerly RCW 42.17.660.</History>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>42</TitleNumber><TextRun>.</TextRun><ChapterNumber>17A</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) Any limited liability company that has registered with the secretary of state under chapter 23.95 RCW and has not elected to be classified as a corporation under the federal tax code may make contributions only if the company has:</P>
+<P>(a) Been in existence for at least one year prior to making contributions; and</P>
+<P>(b) Electronically filed with the commission a declaration that the company is a legitimate business with a legitimate business interest and is not created for the sole purpose of making campaign contributions.</P>
+<P>(2) The commission shall develop a method for limited liability companies to file the declaration required under subsection (1)(b) of this section. The commission shall post all information submitted pursuant to this section on its website on a public page in a searchable format.</P>
+</BillSection>
+</BillBody>
+</Bill>

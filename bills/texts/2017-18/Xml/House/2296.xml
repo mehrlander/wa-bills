@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-3309.1</RequestNumber><ShortBillId>HB 2296</ShortBillId><LongBillId>HOUSE BILL 2296</LongBillId><Legislature>65th Legislature</Legislature><Session>2018 Regular Session</Session><Sponsors>Representatives Slatter, Schmick, Cody, Robinson, Dolan, Orwall, Tharinger, Macri, Young, Kloba, Appleton, Jinkins, Ormsby, Pollet, and Doglio</Sponsors><BillHistory><PrefiledDate>Prefiled 12/15/17.</PrefiledDate><ReadDate>Read first time 01/08/18.</ReadDate><ReferredCommittee>Referred to Committee on Health Care &amp; Wellness.</ReferredCommittee></BillHistory><BriefDescription>Protecting consumers from excess charges for prescription medications.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to protecting consumers from excess charges for prescription medications; adding a new section to chapter 19.340 RCW; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>19</TitleNumber><TextRun>.</TextRun><ChapterNumber>340</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) A contract entered into or renewed on or after the effective date of this section between a pharmacy benefit manager or insurer and a pharmacist or pharmacy may not penalize, including through increased utilization review, reduced payments, or other financial disincentives, a pharmacist's or pharmacy's disclosure to a person purchasing prescription medication of information regarding:</P>
+<P>(a) The cost of the prescription medication to the person; or</P>
+<P>(b) The availability of any therapeutically equivalent alternative medications or alternative methods of purchasing the prescription medication, including, but not limited to, paying the cash price, that are less expensive than the cost of the prescription medication to the person.</P>
+<P>(2) On or after January 1, 2019, the maximum amount a pharmacy benefit manager or insurer may require a person to pay at the point of sale for a covered prescription medication is the lesser of:</P>
+<P>(a) The applicable cost sharing for the prescription medication;</P>
+<P>(b) The amount the pharmacy benefit manager or insurer reimburses the pharmacy or pharmacist for the prescription medication; or</P>
+<P>(c) The amount the person would pay for the prescription medication if the person purchased the prescription medication without using a health plan or any other source of prescription medication benefits or discounts.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>If any provision of this act or its application to any person or circumstance is held invalid, the remainder of the act or the application of the provision to other persons or circumstances is not affected.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act may be known and cited as the affordable medication for patients act.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

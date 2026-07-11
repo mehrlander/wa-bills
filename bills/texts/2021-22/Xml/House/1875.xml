@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-2045.1</RequestNumber><ShortBillId>HB 1875</ShortBillId><LongBillId>HOUSE BILL 1875</LongBillId><Legislature>67th Legislature</Legislature><Session>2022 Regular Session</Session><Sponsors>Representatives Stokesbary, Dufault, Jacobsen, Chase, Corry, MacEwen, Hoff, Graham, and Young</Sponsors><BillHistory><ReadDate>Read first time 01/11/22.</ReadDate><ReferredCommittee>Referred to Committee on Appropriations.</ReferredCommittee></BillHistory><BriefDescription>Restoring funding to the budget stabilization account.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to restoring funding to the budget stabilization account; creating new sections; and declaring an emergency.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature intends to restore funding to the budget stabilization account. Under the state constitution's plan for a rainy day savings account, a portion of general state revenues must be transferred annually to the budget stabilization account. Under ordinary circumstances, legislative approval by a three-fifths vote of each house is needed to make expenditures from the budget stabilization account. In the 2021 legislative session, fearing fiscal uncertainty, the legislature took advantage of an exception to the three-fifths vote requirement to transfer the entire balance of the budget stabilization account to the newly created Washington rescue plan transition account for purposes of responding to the COVID-19 pandemic. Because of new federal funding, appropriations made from the Washington rescue plan transition account were never spent.</P></BillSectionHeader>
+<P>The legislature has determined that this transfer is no longer justified. Not only is federal funding available, but state revenues remain robust and are stronger than expected when the transfer was made. Therefore, the legislature intends to restore funding to the state's savings account, where it will remain protected by the three-fifths vote requirement, and to keep this funding set aside for a future catastrophic event or economic downturn.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>Within one week after the effective date of this section, the treasurer shall transfer the sum of $1,000,000,000 from the Washington rescue plan transition account to the budget stabilization account.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="emerg" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act is necessary for the immediate preservation of the public peace, health, or safety, or support of the state government and its existing public institutions, and takes effect immediately.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

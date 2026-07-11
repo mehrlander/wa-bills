@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>Z-0522.1</RequestNumber><ShortBillId>SB 5952</ShortBillId><LongBillId>SENATE BILL 5952</LongBillId><Legislature>68th Legislature</Legislature><Session>2024 Regular Session</Session><Sponsors>Senators Schoesler, Keiser, and Dozier; by request of Department of Labor &amp; Industries</Sponsors><BillHistory><PrefiledDate>Prefiled 01/03/24.</PrefiledDate><ReadDate>Read first time 01/08/24.</ReadDate><ReferredCommittee>Referred to Committee on Labor &amp; Commerce.</ReferredCommittee></BillHistory><BriefDescription>Aligning deputy inspector credentials with national standards.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to aligning deputy inspector credentials with national standards; and amending RCW 70.79.120.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>70</TitleNumber><TextRun>.</TextRun><ChapterNumber>79</ChapterNumber><TextRun>.</TextRun><SectionNumber>120</SectionNumber></SectionCite> and 1994 c 164 s 27 are each amended to read as follows:<Caption>Deputy inspectors<TextRun fontFamily="Times New Roman">—</TextRun>Qualifications<TextRun fontFamily="Times New Roman">—</TextRun>Employment.</Caption></BillSectionHeader>
+<P>The director shall employ deputy inspectors who <TextRun amendingStyle="strike">shall</TextRun> have <TextRun amendingStyle="strike">had</TextRun> <TextRun amendingStyle="add">met</TextRun> at <TextRun amendingStyle="add">the</TextRun> time of appointment <TextRun amendingStyle="strike">not less than five years practical experience in the construction, maintenance, repair, or operation of high pressure boilers and unfired pressure vessels as a mechanical engineer, steam engineer, boilermaker, or boiler inspector</TextRun> <TextRun amendingStyle="add">the qualification requirements for a commission as set forth by the national board of boiler and pressure vessel inspectors</TextRun>, and who shall have passed the examination provided for in RCW 70.79.170.</P>
+<History>1994 c 164 § 27; 1951 c 32 § 12.</History>
+</BillSection>
+</BillBody>
+</Bill>

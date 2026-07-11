@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-1065.2</RequestNumber><ShortBillId>HB 1780</ShortBillId><LongBillId>HOUSE BILL 1780</LongBillId><Legislature>68th Legislature</Legislature><Session>2023 Regular Session</Session><Sponsors>Representatives Schmick, Dye, Couture, Schmidt, Corry, Dent, Connors, Klicker, Sandlin, Christian, Chambers, and McClintock</Sponsors><BillHistory><ReadDate>Read first time 02/07/23.</ReadDate><ReferredCommittee>Referred to Committee on Environment &amp; Energy.</ReferredCommittee></BillHistory><BriefDescription>Addressing unintended consequences of the climate commitment act.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to addressing unintended consequences of the climate commitment act; adding a new section to chapter 70A.65 RCW; creating a new section; and declaring an emergency.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature finds that reports have recently emerged that some fuel suppliers have applied climate commitment act compliance surcharges to sales of fuels that are intended to be treated as exempt fuels under chapter 70A.65 RCW, the Washington climate commitment act. It is the intent of the legislature to provide the intended relief to customers of exempt fuels by ensuring that the cost impacts of the program are not borne by users of fuels exempted by the legislature in 2021 from climate commitment act compliance obligations.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>70A</TitleNumber><TextRun>.</TextRun><ChapterNumber>65</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) The department must adopt rules under this chapter to establish a remittance program for persons whose fuel use is exempt under RCW 70A.65.080, but that purchased fuel to which a surcharge had been applied by a covered entity. The department's remittance rules must allow a user of fuels whose emissions are exempt under this chapter, including licensed dyed diesel fuel users, to apply to the department for a full remittance of the value of surcharge payments that accompanied the exempt fuel purchased by the user. No less often than monthly, the department must issue full remittances to persons who submit valid documentation of exempt fuel purchases to which surcharges related to this chapter had been applied.</P>
+<P>(2) Rules adopted by the department under this chapter must ensure that the price impacts of the program established under this chapter are not experienced by users of exempt fuel, including as a result of the inappropriate application of surcharges applied to sales of fuels or other products with associated covered emissions.</P>
+</BillSection>
+<BillSection type="new" action="emerg" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act is necessary for the immediate preservation of the public peace, health, or safety, or support of the state government and its existing public institutions, and takes effect immediately.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

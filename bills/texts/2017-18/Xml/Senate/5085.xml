@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>Z-0304.2</RequestNumber><ShortBillId>SB 5085</ShortBillId><LongBillId>SENATE BILL 5085</LongBillId><Legislature>65th Legislature</Legislature><Session>2017 Regular Session</Session><Sponsors>Senators Pedersen, Padden, Frockt, and O'Ban; by request of Uniform Law Commission</Sponsors><BillHistory><ReadDate>Read first time 01/12/17.</ReadDate><ReferredCommittee>Referred to Committee on Law &amp; Justice.</ReferredCommittee></BillHistory><BriefDescription>Enacting the uniform voidable transactions act.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to enactment of the uniform voidable transactions act; amending RCW 19.40.011, 19.40.021, 19.40.031, 19.40.041, 19.40.051, 19.40.061, 19.40.071, 19.40.081, 19.40.091, and 19.40.900; adding new sections to chapter 19.40 RCW; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>19</TitleNumber><TextRun>.</TextRun><ChapterNumber>40</ChapterNumber><TextRun>.</TextRun><SectionNumber>011</SectionNumber></SectionCite> and 1987 c 444 s 1 are each amended to read as follows:<Caption>Definitions.</Caption></BillSectionHeader>
+<P>As used in this chapter:</P>
+<P>(1) "Affiliate" means:</P>
+<P><TextRun amendingStyle="strike">(i)</TextRun> <TextRun amendingStyle="add">(a)</TextRun> A person <TextRun amendingStyle="strike">who</TextRun> <TextRun amendingStyle="add">that</TextRun> directly or indirectly owns, controls, or holds with power to vote, twenty percent or more of the outstanding voting securities of the debtor, other than a person <TextRun amendingStyle="strike">who</TextRun> <TextRun amendingStyle="add">that</TextRun> holds the securities<TextRun amendingStyle="strike">;</TextRun><TextRun amendingStyle="add">:</TextRun></P>
+<P><TextRun amendingStyle="strike">(A)</TextRun> <TextRun amendingStyle="add">(i)</TextRun> As a fiduciary or agent without sole discretionary power to vote the securities; or</P>
+<P><TextRun amendingStyle="strike">(B)</TextRun> <TextRun amendingStyle="add">(ii)</TextRun> Solely to secure a debt, if the person has not <TextRun amendingStyle="add">in fact</TextRun> exercised the power to vote;</P>
+<P><TextRun amendingStyle="strike">(ii)</TextRun> <TextRun amendingStyle="add">(b)</TextRun> A corporation twenty percent or more of whose outstanding voting securities are directly or indirectly owned, controlled, or held with power to vote, by the debtor or a person <TextRun amendingStyle="strike">who</TextRun> <TextRun amendingStyle="add">that</TextRun> directly or indirectly owns, controls, or holds with power to vote, twenty percent or more of the outstanding voting securities of the debtor, other than a person <TextRun amendingStyle="strike">who</TextRun> <TextRun amendingStyle="add">that</TextRun> holds the securities:</P>
+<P><TextRun amendingStyle="strike">(A)</TextRun> <TextRun amendingStyle="add">(i)</TextRun> As a fiduciary or agent without sole <TextRun amendingStyle="add">discretionary</TextRun> power to vote the securities; or</P>
+<P><TextRun amendingStyle="strike">(B)</TextRun> <TextRun amendingStyle="add">(ii)</TextRun> Solely to secure a debt, if the person has not in fact exercised the power to vote;</P>
+<P><TextRun amendingStyle="strike">(iii)</TextRun> <TextRun amendingStyle="add">(c)</TextRun> A person whose business is operated by the debtor under a lease or other agreement, or a person substantially all of whose assets are controlled by the debtor; or</P>
+<P><TextRun amendingStyle="strike">(iv)</TextRun> <TextRun amendingStyle="add">(d)</TextRun> A person <TextRun amendingStyle="strike">who</TextRun> <TextRun amendingStyle="add">that</TextRun> operates the debtor's business under a lease or other agreement or controls substantially all of the debtor's assets.</P>
+<P>(2) "Asset" means property of a debtor, but the term does not include:</P>
+<P><TextRun amendingStyle="strike">(i)</TextRun> <TextRun amendingStyle="add">(a)</TextRun> Property to the extent it is encumbered by a valid lien; or</P>
+<P><TextRun amendingStyle="strike">(ii)</TextRun> <TextRun amendingStyle="add">(b)</TextRun> Property to the extent it is generally exempt under nonbankruptcy law.</P>
+<P>(3) "Claim<TextRun amendingStyle="add">,</TextRun>" <TextRun amendingStyle="add">except as used in "claim for relief,"</TextRun> means a right to payment, whether or not the right is reduced to judgment, liquidated, unliquidated, fixed, contingent, matured, unmatured, disputed, undisputed, legal, equitable, secured, or unsecured.</P>
+<P>(4) "Creditor" means a person <TextRun amendingStyle="strike">who</TextRun> <TextRun amendingStyle="add">that</TextRun> has a claim.</P>
+<P>(5) "Debt" means liability on a claim.</P>
+<P>(6) "Debtor" means a person <TextRun amendingStyle="strike">who</TextRun> <TextRun amendingStyle="add">that</TextRun> is liable on a claim.</P>
+<P>(7) <TextRun amendingStyle="add">"Electronic" means relating to technology having electrical, digital, magnetic, wireless, optical, electromagnetic, or similar capabilities.</TextRun></P>
+<P><TextRun amendingStyle="add">(8)</TextRun> "Insider" includes:</P>
+<P><TextRun amendingStyle="strike">(i)</TextRun> <TextRun amendingStyle="add">(a)</TextRun> If the debtor is an individual:</P>
+<P><TextRun amendingStyle="strike">(A)</TextRun> <TextRun amendingStyle="add">(i)</TextRun> A relative of the debtor or of a general partner of the debtor;</P>
+<P><TextRun amendingStyle="strike">(B)</TextRun> <TextRun amendingStyle="add">(ii)</TextRun> A partnership in which the debtor is a general partner;</P>
+<P><TextRun amendingStyle="strike">(C)</TextRun> <TextRun amendingStyle="add">(iii)</TextRun> A general partner in a partnership described in <TextRun amendingStyle="strike">subsection (7)(i)(B)</TextRun> <TextRun amendingStyle="add">(a)(ii)</TextRun> of this <TextRun amendingStyle="strike">section</TextRun> <TextRun amendingStyle="add">subsection</TextRun>; or</P>
+<P><TextRun amendingStyle="strike">(D)</TextRun> <TextRun amendingStyle="add">(iv)</TextRun> A corporation of which the debtor is a director, officer, or person in control;</P>
+<P><TextRun amendingStyle="strike">(ii)</TextRun> <TextRun amendingStyle="add">(b)</TextRun> If the debtor is a corporation:</P>
+<P><TextRun amendingStyle="strike">(A)</TextRun> <TextRun amendingStyle="add">(i)</TextRun> A director of the debtor;</P>
+<P><TextRun amendingStyle="strike">(B)</TextRun> <TextRun amendingStyle="add">(ii)</TextRun> An officer of the debtor;</P>
+<P><TextRun amendingStyle="strike">(C)</TextRun> <TextRun amendingStyle="add">(iii)</TextRun> A person in control of the debtor;</P>
+<P><TextRun amendingStyle="strike">(D)</TextRun> <TextRun amendingStyle="add">(iv)</TextRun> A partnership in which the debtor is a general partner;</P>
+<P><TextRun amendingStyle="strike">(E)</TextRun> <TextRun amendingStyle="add">(v)</TextRun> A general partner in a partnership described in <TextRun amendingStyle="strike">subsection (7)(ii)(D)</TextRun> <TextRun amendingStyle="add">(b)(iv)</TextRun> of this <TextRun amendingStyle="strike">section</TextRun> <TextRun amendingStyle="add">subsection</TextRun>; or</P>
+<P><TextRun amendingStyle="strike">(F)</TextRun> <TextRun amendingStyle="add">(vi)</TextRun> A relative of a general partner, director, officer, or person in control of the debtor;</P>
+<P><TextRun amendingStyle="strike">(iii)</TextRun> <TextRun amendingStyle="add">(c)</TextRun> If the debtor is a partnership:</P>
+<P><TextRun amendingStyle="strike">(A)</TextRun> <TextRun amendingStyle="add">(i)</TextRun> A general partner in the debtor;</P>
+<P><TextRun amendingStyle="strike">(B)</TextRun> <TextRun amendingStyle="add">(ii)</TextRun> A relative of a general partner in, or a general partner of, or a person in control of the debtor;</P>
+<P><TextRun amendingStyle="strike">(C)</TextRun> <TextRun amendingStyle="add">(iii)</TextRun> Another partnership in which the debtor is a general partner;</P>
+<P><TextRun amendingStyle="strike">(D)</TextRun> <TextRun amendingStyle="add">(iv)</TextRun> A general partner in a partnership described in ((<TextRun amendingStyle="strikemarkright">subsection (7)(iii)(C)</TextRun> <TextRun amendingStyle="add">(c)(iii)</TextRun> of this <TextRun amendingStyle="strike">section</TextRun> <TextRun amendingStyle="add">subsection</TextRun>; or</P>
+<P><TextRun amendingStyle="strike">(E)</TextRun> <TextRun amendingStyle="add">(v)</TextRun> A person in control of the debtor;</P>
+<P><TextRun amendingStyle="strike">(iv)</TextRun> <TextRun amendingStyle="add">(d)</TextRun> An affiliate, or an insider of an affiliate as if the affiliate were the debtor; and</P>
+<P><TextRun amendingStyle="strike">(v)</TextRun> <TextRun amendingStyle="add">(e)</TextRun> A managing agent of the debtor.</P>
+<P><TextRun amendingStyle="strike">(8)</TextRun> <TextRun amendingStyle="add">(9)</TextRun> "Lien" means a charge against or an interest in property to secure payment of a debt or performance of an obligation, and includes a security interest created by agreement, a judicial lien obtained by legal or equitable process or proceedings, a common-law lien, or a statutory lien.</P>
+<P><TextRun amendingStyle="add">(10) "Organization" means a person other than an individual.</TextRun></P>
+<P><TextRun amendingStyle="strike">(9)</TextRun> <TextRun amendingStyle="add">(11)</TextRun> "Person" means an individual, <TextRun amendingStyle="strike">partnership, corporation, association, organization, government or governmental subdivision or agency, business trust, estate, trust, or any</TextRun> <TextRun amendingStyle="add">estate, partnership, association, trust, business or nonprofit entity, public corporation, government or governmental subdivision, agency, or instrumentality, or</TextRun> other legal or commercial entity.</P>
+<P><TextRun amendingStyle="strike">(10)</TextRun> <TextRun amendingStyle="add">(12)</TextRun> "Property" means anything that may be the subject of ownership.</P>
+<P><TextRun amendingStyle="strike">(11)</TextRun> <TextRun amendingStyle="add">(13) "Reasonably equivalent value" includes, without limitation, a transfer or an obligation that is within the range of values for which the transferor would have sold the property or services to, or purchased the property or services from, the transferee in an arm's length transaction at market rates.</TextRun></P>
+<P><TextRun amendingStyle="add">(14) "Record" means information that is inscribed on a tangible medium or that is stored in an electronic or other medium and is retrievable in perceivable form.</TextRun></P>
+<P><TextRun amendingStyle="add">(15)</TextRun> "Relative" means an individual related by consanguinity within the third degree as determined by the common law, a spouse, or an individual related to a spouse within the third degree as so determined, and includes an individual in an adoptive relationship within the third degree.</P>
+<P><TextRun amendingStyle="strike">(12)</TextRun> <TextRun amendingStyle="add">(16) "Sign" means, with present intent to authenticate or adopt a record:</TextRun></P>
+<P><TextRun amendingStyle="add">(a) To execute or adopt a tangible symbol; or</TextRun></P>
+<P><TextRun amendingStyle="add">(b) To attach to or logically associate with the record an electronic symbol, sound, or process.</TextRun></P>
+<P><TextRun amendingStyle="add">(17)</TextRun> "Transfer" means every mode, direct or indirect, absolute or conditional, voluntary or involuntary, of disposing of or parting with an asset or an interest in an asset, and includes payment of money, release, lease, <TextRun amendingStyle="add">license,</TextRun> and creation of a lien or other encumbrance.</P>
+<P><TextRun amendingStyle="strike">(13)</TextRun> <TextRun amendingStyle="add">(18)</TextRun> "Valid lien" means a lien that is effective against the holder of a judicial lien subsequently obtained by legal or equitable process or proceedings.</P>
+<History>1987 c 444 § 1.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>1987 c 444:</TextRun> "This act shall take effect July 1, 1988." [1987 c 444 § 16.]</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>19</TitleNumber><TextRun>.</TextRun><ChapterNumber>40</ChapterNumber><TextRun>.</TextRun><SectionNumber>021</SectionNumber></SectionCite> and 1987 c 444 s 2 are each amended to read as follows:<Caption>Insolvency.</Caption></BillSectionHeader>
+<P><TextRun amendingStyle="strike">(a)</TextRun> <TextRun amendingStyle="add">(1)</TextRun> A debtor is insolvent if<TextRun amendingStyle="add">, at a fair valuation,</TextRun> the sum of the debtor's debts is greater than <TextRun amendingStyle="strike">all</TextRun> <TextRun amendingStyle="add">the sum</TextRun> of the debtor's assets<TextRun amendingStyle="strike">, at a fair valuation</TextRun>.</P>
+<P><TextRun amendingStyle="strike">(b)</TextRun> <TextRun amendingStyle="add">(2)</TextRun> A debtor <TextRun amendingStyle="strike">who</TextRun> <TextRun amendingStyle="add">that</TextRun> is generally not paying <TextRun amendingStyle="strike">his or her</TextRun> <TextRun amendingStyle="add">the debtor's</TextRun> debts as they become due <TextRun amendingStyle="add">other than as a result of a bona fide dispute</TextRun><TextRun amendingStyle="add" /> is presumed to be insolvent. <TextRun amendingStyle="add">The presumption imposes on the party against which the presumption is directed the burden of proving that the nonexistence of insolvency is more probable than its existence.</TextRun></P>
+<P><TextRun amendingStyle="strikemarkleft">(c) A partnership is insolvent under subsection (a) of this section if the sum of the partnership's debts is greater than the aggregate of all of the partnership's assets, at a fair valuation, and the sum of the excess of the value of each general partner's nonpartnership assets over the partner's nonpartnership debts.</TextRun></P>
+<P><TextRun amendingStyle="strikemarkright">(d)</TextRun> <TextRun amendingStyle="add">(3)</TextRun> Assets under this section do not include property that has been transferred, concealed, or removed with intent to hinder, delay, or defraud creditors or that has been transferred in a manner making the transfer voidable under this chapter.</P>
+<P><TextRun amendingStyle="strike">(e)</TextRun> <TextRun amendingStyle="add">(4)</TextRun> Debts under this section do not include an obligation to the extent it is secured by a valid lien on property of the debtor not included as an asset.</P>
+<History>1987 c 444 § 2.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>1987 c 444:</TextRun> See note following RCW 19.40.011.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>19</TitleNumber><TextRun>.</TextRun><ChapterNumber>40</ChapterNumber><TextRun>.</TextRun><SectionNumber>031</SectionNumber></SectionCite> and 1987 c 444 s 3 are each amended to read as follows:<Caption>Value.</Caption></BillSectionHeader>
+<P><TextRun amendingStyle="strike">(a)</TextRun> <TextRun amendingStyle="add">(1)</TextRun> Value is given for a transfer or an obligation if, in exchange for the transfer or obligation, property is transferred or an antecedent debt is secured or satisfied, but value does not include an unperformed promise made otherwise than in the ordinary course of the promisor's business to furnish support to the debtor or another person.</P>
+<P><TextRun amendingStyle="strike">(b)</TextRun> <TextRun amendingStyle="add">(2)</TextRun> For the purposes of RCW 19.40.041<TextRun amendingStyle="strike">(a)(2)</TextRun> <TextRun amendingStyle="add">(1)(b)</TextRun> and 19.40.051, a person gives a reasonably equivalent value if the person acquires an interest of the debtor in an asset pursuant to a regularly conducted, noncollusive foreclosure sale or execution of a power of sale for the acquisition or disposition of the interest of the debtor upon default under a mortgage, deed of trust, or security agreement.</P>
+<P><TextRun amendingStyle="strike">(c)</TextRun> <TextRun amendingStyle="add">(3)</TextRun> A transfer is made for present value if the exchange between the debtor and the transferee is intended by them to be contemporaneous and is in fact substantially contemporaneous.</P>
+<History>1987 c 444 § 3.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>1987 c 444:</TextRun> See note following RCW 19.40.011.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>19</TitleNumber><TextRun>.</TextRun><ChapterNumber>40</ChapterNumber><TextRun>.</TextRun><SectionNumber>041</SectionNumber></SectionCite> and 1987 c 444 s 4 are each amended to read as follows:<Caption>Transfers fraudulent as to present and future creditors.</Caption></BillSectionHeader>
+<P><TextRun amendingStyle="strike">(a)</TextRun> <TextRun amendingStyle="add">(1)</TextRun> A transfer made or obligation incurred by a debtor is <TextRun amendingStyle="strike">fraudulent</TextRun> <TextRun amendingStyle="add">voidable</TextRun> as to a creditor, whether the creditor's claim arose before or after the transfer was made or the obligation was incurred, if the debtor made the transfer or incurred the obligation:</P>
+<P><TextRun amendingStyle="strike">(1)</TextRun> <TextRun amendingStyle="add">(a)</TextRun> With actual intent to hinder, delay, or defraud any creditor of the debtor; or</P>
+<P><TextRun amendingStyle="strike">(2)</TextRun> <TextRun amendingStyle="add">(b)</TextRun> Without receiving a reasonably equivalent value in exchange for the transfer or obligation, and the debtor:</P>
+<P>(i) Was engaged or was about to engage in a business or a transaction for which the remaining assets of the debtor were unreasonably small in relation to the business or transaction; or</P>
+<P>(ii) Intended to incur, or believed or reasonably should have believed that <TextRun amendingStyle="strike">he or she</TextRun> <TextRun amendingStyle="add">the debtor</TextRun> would incur, debts beyond <TextRun amendingStyle="strike">his or her</TextRun> <TextRun amendingStyle="add">the debtor's</TextRun> ability to pay as they became due.</P>
+<P><TextRun amendingStyle="strike">(b)</TextRun> <TextRun amendingStyle="add">(2)</TextRun> In determining actual intent under subsection <TextRun amendingStyle="strike">(a)</TextRun>(1)<TextRun amendingStyle="add">(a)</TextRun> of this section, consideration may be given, among other factors, to whether:</P>
+<P><TextRun amendingStyle="strike">(1)</TextRun> <TextRun amendingStyle="add">(a)</TextRun> The transfer or obligation was to an insider;</P>
+<P><TextRun amendingStyle="strike">(2)</TextRun> <TextRun amendingStyle="add">(b)</TextRun> The debtor retained possession or control of the property transferred after the transfer;</P>
+<P><TextRun amendingStyle="strike">(3)</TextRun> <TextRun amendingStyle="add">(c)</TextRun> The transfer or obligation was disclosed or concealed;</P>
+<P><TextRun amendingStyle="strike">(4)</TextRun> <TextRun amendingStyle="add">(d)</TextRun> Before the transfer was made or obligation was incurred, the debtor had been sued or threatened with suit;</P>
+<P><TextRun amendingStyle="strike">(5)</TextRun> <TextRun amendingStyle="add">(e)</TextRun> The transfer was of substantially all the debtor's assets;</P>
+<P><TextRun amendingStyle="strike">(6)</TextRun> <TextRun amendingStyle="add">(f)</TextRun> The debtor absconded;</P>
+<P><TextRun amendingStyle="strike">(7)</TextRun> <TextRun amendingStyle="add">(g)</TextRun> The debtor removed or concealed assets;</P>
+<P><TextRun amendingStyle="strike">(8)</TextRun> <TextRun amendingStyle="add">(h)</TextRun> The value of the consideration received by the debtor was reasonably equivalent to the value of the asset transferred or the amount of the obligation incurred;</P>
+<P><TextRun amendingStyle="strike">(9)</TextRun> <TextRun amendingStyle="add">(i)</TextRun> The debtor was insolvent or became insolvent shortly after the transfer was made or the obligation was incurred;</P>
+<P><TextRun amendingStyle="strike">(10)</TextRun> <TextRun amendingStyle="add">(j)</TextRun> The transfer occurred shortly before or shortly after a substantial debt was incurred; and</P>
+<P><TextRun amendingStyle="strike">(11)</TextRun> <TextRun amendingStyle="add">(k)</TextRun> The debtor transferred the essential assets of the business to a lienor <TextRun amendingStyle="strike">who</TextRun> <TextRun amendingStyle="add">that</TextRun> transferred the assets to an insider of the debtor. <TextRun amendingStyle="add" /></P>
+<P><TextRun amendingStyle="add">(3) A creditor making a claim for relief under subsection (1) of this section has the burden of proving the elements of the claim for relief by a preponderance of the evidence.</TextRun></P>
+<History>1987 c 444 § 4.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>1987 c 444:</TextRun> See note following RCW 19.40.011.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>5</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>19</TitleNumber><TextRun>.</TextRun><ChapterNumber>40</ChapterNumber><TextRun>.</TextRun><SectionNumber>051</SectionNumber></SectionCite> and 1987 c 444 s 5 are each amended to read as follows:<Caption>Transfers fraudulent as to present creditors.</Caption></BillSectionHeader>
+<P><TextRun amendingStyle="strike">(a)</TextRun> <TextRun amendingStyle="add">(1)</TextRun> A transfer made or obligation incurred by a debtor is <TextRun amendingStyle="strike">fraudulent</TextRun> <TextRun amendingStyle="add">voidable</TextRun> as to a creditor whose claim arose before the transfer was made or the obligation was incurred if the debtor made the transfer or incurred the obligation without receiving a reasonably equivalent value in exchange for the transfer or obligation and the debtor was insolvent at that time or the debtor became insolvent as a result of the transfer or obligation.</P>
+<P><TextRun amendingStyle="strike">(b)</TextRun> <TextRun amendingStyle="add">(2)</TextRun> A transfer made by a debtor is <TextRun amendingStyle="strike">fraudulent</TextRun> <TextRun amendingStyle="add">voidable</TextRun> as to a creditor whose claim arose before the transfer was made if the transfer was made to an insider for an antecedent debt, the debtor was insolvent at that time, and the insider had reasonable cause to believe that the debtor was insolvent.</P>
+<P><TextRun amendingStyle="add">(3) Subject to RCW 19.40.021(2), a creditor making a claim for relief under subsection (1) or (2) of this section has the burden of proving the elements of the claim for relief by a preponderance of the evidence.</TextRun></P>
+<History>1987 c 444 § 5.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>1987 c 444:</TextRun> See note following RCW 19.40.011.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>6</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>19</TitleNumber><TextRun>.</TextRun><ChapterNumber>40</ChapterNumber><TextRun>.</TextRun><SectionNumber>061</SectionNumber></SectionCite> and 1987 c 444 s 6 are each amended to read as follows:<Caption>When transfer is made or obligation is incurred.</Caption></BillSectionHeader>
+<P>For the purposes of this chapter:</P>
+<P>(1) A transfer is made:</P>
+<P><TextRun amendingStyle="strike">(i)</TextRun> <TextRun amendingStyle="add">(a)</TextRun> With respect to an asset that is real property other than a fixture, but including the interest of a seller or purchaser under a contract for the sale of the asset, when the transfer is so far perfected that a good-faith purchaser of the asset from the debtor against <TextRun amendingStyle="strike">whom</TextRun> <TextRun amendingStyle="add">which</TextRun> applicable law permits the transfer to be perfected cannot acquire an interest in the asset that is superior to the interest of the transferee; and</P>
+<P><TextRun amendingStyle="strike">(ii)</TextRun> <TextRun amendingStyle="add">(b)</TextRun> With respect to an asset that is not real property or that is a fixture, when the transfer is so far perfected that a creditor on a simple contract cannot acquire a judicial lien otherwise than under this chapter that is superior to the interest of the transferee;</P>
+<P>(2) If applicable law permits the transfer to be perfected as provided in subsection (1) of this section and the transfer is not so perfected before the commencement of an action for relief under this chapter, the transfer is deemed made immediately before the commencement of the action;</P>
+<P>(3) If applicable law does not permit the transfer to be perfected as provided in subsection (1) of this section, the transfer is made when it becomes effective between the debtor and the transferee;</P>
+<P>(4) A transfer is not made until the debtor has acquired rights in the asset transferred; <TextRun amendingStyle="add">and</TextRun></P>
+<P>(5) An obligation is incurred:</P>
+<P><TextRun amendingStyle="strike">(i)</TextRun> <TextRun amendingStyle="add">(a)</TextRun> If oral, when it becomes effective between the parties; or</P>
+<P><TextRun amendingStyle="strike">(ii)</TextRun> <TextRun amendingStyle="add">(b)</TextRun> If evidenced by a <TextRun amendingStyle="strike">writing</TextRun> <TextRun amendingStyle="add">record</TextRun>, when the <TextRun amendingStyle="strike">writing executed</TextRun> <TextRun amendingStyle="add">record signed</TextRun> by the obligor is delivered to or for the benefit of the obligee.</P>
+<History>1987 c 444 § 6.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>1987 c 444:</TextRun> See note following RCW 19.40.011.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>7</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>19</TitleNumber><TextRun>.</TextRun><ChapterNumber>40</ChapterNumber><TextRun>.</TextRun><SectionNumber>071</SectionNumber></SectionCite> and 2000 c 171 s 54 are each amended to read as follows:<Caption>Remedies of creditors.</Caption></BillSectionHeader>
+<P><TextRun amendingStyle="strike">(a)</TextRun> <TextRun amendingStyle="add">(1)</TextRun> In an action for relief against a transfer or obligation under this chapter, a creditor, subject to the limitations in RCW 19.40.081, may obtain:</P>
+<P><TextRun amendingStyle="strike">(1)</TextRun> <TextRun amendingStyle="add">(a)</TextRun> Avoidance of the transfer or obligation to the extent necessary to satisfy the creditor's claim;</P>
+<P><TextRun amendingStyle="strike">(2)</TextRun> <TextRun amendingStyle="add">(b)</TextRun> An attachment or other provisional remedy against the asset transferred or other property of the transferee <TextRun amendingStyle="strike">in accordance with the procedure prescribed by chapter 6.25 RCW;</TextRun> <TextRun amendingStyle="add">if available under applicable law; and</TextRun></P>
+<P><TextRun amendingStyle="strike">(3)</TextRun> <TextRun amendingStyle="add">(c)</TextRun> Subject to applicable principles of equity and in accordance with applicable rules of civil procedure:</P>
+<P>(i) An injunction against further disposition by the debtor or a transferee, or both, of the asset transferred or of other property;</P>
+<P>(ii) Appointment of a receiver to take charge of the asset transferred or of other property of the transferee; or</P>
+<P>(iii) Any other relief the circumstances may require.</P>
+<P><TextRun amendingStyle="strike">(b)</TextRun> <TextRun amendingStyle="add">(2)</TextRun> If a creditor has obtained a judgment on a claim against the debtor, the creditor, if the court so orders, may levy execution on the asset transferred or its proceeds.</P>
+<History>2000 c 171 § 54; 1987 c 444 § 7.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>1987 c 444:</TextRun> See note following RCW 19.40.011.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>8</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>19</TitleNumber><TextRun>.</TextRun><ChapterNumber>40</ChapterNumber><TextRun>.</TextRun><SectionNumber>081</SectionNumber></SectionCite> and 2001 c 32 s 1 are each amended to read as follows:<Caption>Defenses, liability, and protection of transferee.</Caption></BillSectionHeader>
+<P><TextRun amendingStyle="strike">(a)</TextRun> <TextRun amendingStyle="add">(1)</TextRun> A transfer or obligation is not voidable under RCW 19.40.041<TextRun amendingStyle="strike">(a)</TextRun>(1) <TextRun amendingStyle="add">or 19.40.051(1)</TextRun> against a person <TextRun amendingStyle="strike">who</TextRun> <TextRun amendingStyle="add">that</TextRun> took in good faith and for a reasonably equivalent value <TextRun amendingStyle="add">whether or not given to the debtor</TextRun> or against any subsequent transferee or obligee.</P>
+<P><TextRun amendingStyle="strike">(b)</TextRun> <TextRun amendingStyle="add">(2) To the extent a transfer is avoidable in an action by a creditor under RCW 19.40.071(1)(a), the following rules apply:</TextRun></P>
+<P><TextRun amendingStyle="add">(a)</TextRun> Except as otherwise provided in this section, <TextRun amendingStyle="strike">to the extent a transfer is voidable in an action by a creditor under RCW 19.40.071(a)(1),</TextRun> the creditor may recover judgment for the value of the asset transferred, as adjusted under subsection (c) of this section, or the amount necessary to satisfy the creditor's claim, whichever is less. The judgment may be entered against:</P>
+<P><TextRun amendingStyle="strike">(1)</TextRun> <TextRun amendingStyle="add">(i)</TextRun> The first transferee of the asset or the person for whose benefit the transfer was made; or</P>
+<P><TextRun amendingStyle="strike">(2) Any subsequent transferee other than</TextRun> <TextRun amendingStyle="add">(ii) An immediate or mediate transferee of the first transferee, other than:</TextRun></P>
+<P><TextRun amendingStyle="add">(A) A</TextRun> good-faith transferee <TextRun amendingStyle="strike">or obligee who</TextRun> <TextRun amendingStyle="add">that</TextRun> took for value<TextRun amendingStyle="add">;</TextRun> or</P>
+<P><TextRun amendingStyle="add">(B)</TextRun> <TextRun amendingStyle="strike">from any subsequent transferee or obligee</TextRun> <TextRun amendingStyle="add">An immediate or mediate good-faith transferee of a person described in (a)(ii)(A) of this subsection</TextRun>.</P>
+<P><TextRun amendingStyle="strike">(c)</TextRun> <TextRun amendingStyle="add">(b) Recovery pursuant to RCW 19.40.071 (1)(a) or (2) or from the asset transferred or its proceeds, by levy or otherwise, is available only against a person described in (a)(i) or (ii) of this subsection.</TextRun> </P>
+<P><TextRun amendingStyle="add">(3)</TextRun> If the judgment under subsection <TextRun amendingStyle="strike">(b)</TextRun> <TextRun amendingStyle="add">(2)</TextRun> of this section is based upon the value of the asset transferred, the judgment must be for an amount equal to the value of the asset at the time of the transfer, subject to adjustment as the equities may require.</P>
+<P><TextRun amendingStyle="strike">(d)</TextRun> <TextRun amendingStyle="add">(4)</TextRun> Notwithstanding voidability of a transfer or an obligation under this chapter, a good-faith transferee or obligee is entitled, to the extent of the value given the debtor for the transfer or obligation, to:</P>
+<P><TextRun amendingStyle="strike">(1)</TextRun> <TextRun amendingStyle="add">(a)</TextRun> A lien on or a right to retain <TextRun amendingStyle="strike">any</TextRun> <TextRun amendingStyle="add">an</TextRun> interest in the asset transferred;</P>
+<P><TextRun amendingStyle="strike">(2)</TextRun> <TextRun amendingStyle="add">(b)</TextRun> Enforcement of <TextRun amendingStyle="strike">any</TextRun> <TextRun amendingStyle="add">an</TextRun> obligation incurred; or</P>
+<P><TextRun amendingStyle="strike">(3)</TextRun> <TextRun amendingStyle="add">(c)</TextRun> A reduction in the amount of the liability on the judgment.</P>
+<P><TextRun amendingStyle="strike">(e)</TextRun> <TextRun amendingStyle="add">(5)</TextRun> A transfer is not voidable under RCW 19.40.041<TextRun amendingStyle="strike">(a)(2)</TextRun> <TextRun amendingStyle="add">(1)(b)</TextRun> or 19.40.051 if the transfer results from:</P>
+<P><TextRun amendingStyle="strike">(1)</TextRun> <TextRun amendingStyle="add">(a)</TextRun> Termination of a lease upon default by the debtor when the termination is pursuant to the lease and applicable law; or</P>
+<P><TextRun amendingStyle="strike">(2)</TextRun> <TextRun amendingStyle="add">(b)</TextRun> Enforcement of a security interest in compliance with Article 9A of Title 62A RCW<TextRun amendingStyle="add">, other than acceptance of collateral in full or partial satisfaction of the obligation it secures</TextRun>.</P>
+<P><TextRun amendingStyle="strike">(f)</TextRun> <TextRun amendingStyle="add">(6)</TextRun> A transfer is not voidable under RCW 19.40.051<TextRun amendingStyle="strike">(b)</TextRun><TextRun amendingStyle="add">(2)</TextRun>:</P>
+<P><TextRun amendingStyle="strike">(1)</TextRun> <TextRun amendingStyle="add">(a)</TextRun> To the extent the insider gave new value to or for the benefit of the debtor after the transfer was made <TextRun amendingStyle="strike">unless</TextRun><TextRun amendingStyle="add">, except to the extent</TextRun> the new value was secured by a valid lien;</P>
+<P><TextRun amendingStyle="strike">(2)</TextRun> <TextRun amendingStyle="add">(b)</TextRun> If made in the ordinary course of business or financial affairs of the debtor and the insider; or</P>
+<P><TextRun amendingStyle="strike">(3)</TextRun> <TextRun amendingStyle="add">(c)</TextRun> If made pursuant to a good faith effort to rehabilitate the debtor and the transfer secured present value given for that purpose as well as an antecedent debt of the debtor.</P>
+<P><TextRun amendingStyle="add">(7) The following rules determine the burden of proving matters referred to in this section:</TextRun></P>
+<P><TextRun amendingStyle="add">(a) A party that seeks to invoke subsection (1), (4), (5), or (6) of this section has the burden of proving the applicability of that subsection.</TextRun></P>
+<P><TextRun amendingStyle="add">(b) Except as otherwise provided in (c) and (d) of this subsection, the creditor has the burden of proving each applicable element of subsection (2) or (3) of this section.</TextRun></P>
+<P><TextRun amendingStyle="add">(c) The transferee has the burden of proving the applicability to the transferee of subsection (2)(a)(ii)(A) or (B) of this subsection.</TextRun></P>
+<P><TextRun amendingStyle="add">(d) A party that seeks adjustment under subsection (3) of this section has the burden of proving the adjustment.</TextRun></P>
+<P><TextRun amendingStyle="add">(8) The standard of proof required to establish matters referred to in this section is preponderance of the evidence.</TextRun></P>
+<History>2001 c 32 § 1; 1987 c 444 § 8.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2001 c 32:</TextRun> See note following RCW 62A.9A<Hyphen type="nobreak" />102.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>1987 c 444:</TextRun> See note following RCW 19.40.011.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>9</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>19</TitleNumber><TextRun>.</TextRun><ChapterNumber>40</ChapterNumber><TextRun>.</TextRun><SectionNumber>091</SectionNumber></SectionCite> and 1987 c 444 s 9 are each amended to read as follows:<Caption>Extinguishment of cause of action.</Caption></BillSectionHeader>
+<P>A <TextRun amendingStyle="strike">cause of action</TextRun> <TextRun amendingStyle="add">claim for relief</TextRun> with respect to a <TextRun amendingStyle="strike">fraudulent</TextRun> transfer or obligation under this chapter is extinguished unless action is brought:</P>
+<P><TextRun amendingStyle="strike">(a)</TextRun> <TextRun amendingStyle="add">(1)</TextRun> Under RCW 19.40.041<TextRun amendingStyle="strike">(a)</TextRun>(1)<TextRun amendingStyle="add">(a)</TextRun>, <TextRun amendingStyle="strike">within</TextRun> <TextRun amendingStyle="add">not later than</TextRun> four years after the transfer was made or the obligation was incurred or, if later, <TextRun amendingStyle="strike">within</TextRun> <TextRun amendingStyle="add">not later than</TextRun> one year after the transfer or obligation was or could reasonably have been discovered by the claimant;</P>
+<P><TextRun amendingStyle="strike">(b)</TextRun> <TextRun amendingStyle="add">(2)</TextRun> Under RCW 19.40.041<TextRun amendingStyle="strike">(a)(2)</TextRun> <TextRun amendingStyle="add">(1)(b)</TextRun> or 19.40.051<TextRun amendingStyle="strike">(a)</TextRun> <TextRun amendingStyle="add">(1)</TextRun>, <TextRun amendingStyle="strike">within</TextRun> <TextRun amendingStyle="add">not later than</TextRun> four years after the transfer was made or the obligation was incurred; or</P>
+<P><TextRun amendingStyle="strike">(c)</TextRun> <TextRun amendingStyle="add">(3)</TextRun> Under RCW 19.40.051<TextRun amendingStyle="strike">(b)</TextRun> <TextRun amendingStyle="add">(2)</TextRun>, <TextRun amendingStyle="strike">within</TextRun> <TextRun amendingStyle="add">not later than</TextRun> one year after the transfer was made <TextRun amendingStyle="strike">or the obligation was incurred</TextRun>.</P>
+<History>1987 c 444 § 9.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>1987 c 444:</TextRun> See note following RCW 19.40.011.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>10</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>19</TitleNumber><TextRun>.</TextRun><ChapterNumber>40</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<SectionCaption>GOVERNING LAW.</SectionCaption>
+<P>(1) In this section, the following rules determine a debtor's location:</P>
+<P>(a) A debtor who is an individual is located at the individual's principal residence.</P>
+<P>(b) A debtor that is an organization and has only one place of business is located at its place of business.</P>
+<P>(c) A debtor that is an organization and has more than one place of business is located at its chief executive office.</P>
+<P>(2) A claim for relief in the nature of a claim for relief under this chapter is governed by the local law of the jurisdiction in which the debtor is located when the transfer is made or the obligation is incurred. </P>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>11</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>19</TitleNumber><TextRun>.</TextRun><ChapterNumber>40</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<SectionCaption>APPLICATION TO SERIES ORGANIZATION.</SectionCaption>
+<P>(1)  In this section:</P>
+<P>(a) "Protected series" means an arrangement, however denominated, created by a series organization that, pursuant to the law under which the series organization is organized, has the characteristics set forth in (b) of this subsection.</P>
+<P>(b) "Series organization" means an organization that, pursuant to the law under which it is organized, has the following characteristics:</P>
+<P>(i) The organic record of the organization provides for creation by the organization of one or more protected series, however denominated, with respect to specified property of the organization, and for records to be maintained for each protected series that identify the property of or associated with the protected series.</P>
+<P>(ii) Debt incurred or existing with respect to the activities of, or property of or associated with, a particular protected series is enforceable against the property of or associated with the protected series only, and not against the property of or associated with the organization or other protected series of the organization.</P>
+<P>(iii) Debt incurred or existing with respect to the activities or property of the organization is enforceable against the property of the organization only, and not against the property of or associated with a protected series of the organization.</P>
+<P>(2) A series organization and each protected series of the organization is a separate person for purposes of this chapter, even if for other purposes a protected series is not a person separate from the organization or other protected series of the organization.</P>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>12</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>19</TitleNumber><TextRun>.</TextRun><ChapterNumber>40</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<SectionCaption>RELATION TO ELECTRONIC SIGNATURES IN GLOBAL AND NATIONAL COMMERCE ACT.</SectionCaption>
+<P>This chapter modifies, limits, or supersedes the electronic signatures in global and national commerce act, 15 U.S.C. Sec. 7001 et seq., but does not modify, limit, or supersede section 101(c) of that act, 15 U.S.C. Sec. 7001(c), or authorize electronic delivery of any of the notices described in section 103(b) of that act, 15 U.S.C. Sec. 7003(b).</P>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>13</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>19</TitleNumber><TextRun>.</TextRun><ChapterNumber>40</ChapterNumber><TextRun>.</TextRun><SectionNumber>900</SectionNumber></SectionCite> and 1987 c 444 s 12 are each amended to read as follows:<Caption>Short title.</Caption></BillSectionHeader>
+<P>This chapter<TextRun amendingStyle="add">, which was formerly cited as the uniform fraudulent transfer act,</TextRun> may be cited as the uniform <TextRun amendingStyle="strike">fraudulent transfer</TextRun> <TextRun amendingStyle="add">voidable transactions</TextRun> act.</P>
+<History>1987 c 444 § 12.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>1987 c 444:</TextRun> See note following RCW 19.40.011.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>14</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>EFFECT ON PRIOR TRANSFERS AND OBLIGATIONS.</SectionCaption><P>(1) This act applies to a transfer made or obligation incurred on or after the effective date of this section.</P></BillSectionHeader>
+<P>(2) This act does not apply to a transfer made or obligation incurred before the effective date of this section.</P>
+<P>(3) This act does not apply to a right of action that has accrued before the effective date of this section.</P>
+<P>(4) For the purposes of this section, a transfer is made and an obligation is incurred at the time provided in RCW 19.40.061.</P>
+</BillSection>
+</BillBody>
+</Bill>

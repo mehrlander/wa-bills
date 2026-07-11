@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-0786.1</RequestNumber><ShortBillId>HB 1708</ShortBillId><LongBillId>HOUSE BILL 1708</LongBillId><Legislature>69th Legislature</Legislature><Session>2025 Regular Session</Session><Sponsors>Representatives Stuebe, Connors, Low, Ley, Dent, Barkis, Engell, Manjarrez, Marshall, Barnard, Schmidt, and Eslick</Sponsors><BillHistory><ReadDate>Read first time 01/29/25.</ReadDate><ReferredCommittee>Referred to Committee on Housing.</ReferredCommittee></BillHistory><BriefDescription>Helping local governments provide information about the impacts of homelessness.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to helping local governments provide information about the impacts of homelessness; adding a new section to chapter 43.110 RCW; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature finds that there is a need for housing units, drug addiction interventions, and pathways for people to transition out of homelessness. Billions of dollars are spent annually by the state and local governments for programs to provide housing and services to people in need. This bill intends to help local jurisdictions provide information about their communities in a dashboard format. The legislature recognizes that the department of commerce already collects and posts some information about housing-related expenditures in a dashboard on its website, so this tool is to be created for use on the local government's websites.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>110</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) The department of commerce shall contract for the provision of a computer application that every city and county can use to create a dashboard of information related to the jurisdiction's efforts to address homelessness that can be posted on a website. Contracts for staff support may be made with state agencies or private consulting firms that in the judgment of the department of commerce are qualified to provide such support. The department of commerce must coordinate with the municipal research and services center, the Washington association of sheriffs and police chiefs, the association of Washington cities, and the Washington state association of counties in carrying out the activities in this section.</P>
+<P>(2) The computer application must be able to show the following information on an annual basis:</P>
+<P>(a) An estimate of the total needed housing units for the jurisdiction, followed by the total new housing units that were permitted to be built by the jurisdiction, and the difference between the total needed housing and the new housing units permitted;</P>
+<P>(b) The total amount expended by the jurisdiction providing housing assistance and government subsidized housing;</P>
+<P>(c) Total number of households that received housing assistance or lived in government subsidized housing;</P>
+<P>(d) The names of the organizations receiving funding for providing services to unsheltered people and the amounts provided;</P>
+<P>(e) The number of people that are homeless that needed medical treatment for addictions followed by the number that were able to enter an addiction treatment program followed by the number that completed the programs;</P>
+<P>(f) The number of retail, residential, and car thefts near known locations where people are living in unsheltered communities compared to the jurisdiction's average;</P>
+<P>(g) The number of emergency calls to the area where people are living in unsheltered communities compared to the jurisdiction's average;</P>
+<P>(h) The number of arrests, followed by the number of convictions of people for selling illegal narcotics in the jurisdiction;</P>
+<P>(i) The number of people that are transitioned from homelessness to government subsidized housing or other permanent housing;</P>
+<P>(j) The total amount expended to clean up or remove garbage from locations where unsheltered people are living within the jurisdiction;</P>
+<P>(k) The number of homeless encampments near elementary or secondary schools or child day care centers; and</P>
+<P>(l) The number of homeless encampments known in the jurisdiction.</P>
+<P>(3) Using appropriations allocated for this purpose, the municipal research and services center must annually assemble the information displayed in the dashboard for all counties and cities and make it available on its website.</P>
+</BillSection>
+</BillBody>
+</Bill>

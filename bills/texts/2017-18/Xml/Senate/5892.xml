@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-2041.2</RequestNumber><ShortBillId>SB 5892</ShortBillId><LongBillId>SENATE BILL 5892</LongBillId><Legislature>65th Legislature</Legislature><Session>2017 Regular Session</Session><Sponsors>Senators Fortunato, Rivers, Rossi, Miloscia, Zeiger, Braun, Angel, O'Ban, Wilson, and Honeyford</Sponsors><BillHistory><ReadDate>Read first time 03/17/17.</ReadDate><ReferredCommittee>Referred to Committee on Transportation.</ReferredCommittee></BillHistory><BriefDescription>Concerning regional transit authority capital project reauthorization.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to regional transit authority capital project reauthorization; adding a new section to chapter 81.112 RCW; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>It is the intent of the legislature that regional transit authority voters are given an opportunity to reaffirm or withdraw their support for an authority to continue collecting revenue and constructing capital projects if any capital projects are delivered at greater than twenty percent over the original project cost estimate.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>81</TitleNumber><TextRun>.</TextRun><ChapterNumber>112</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>An authority must provide initial engineer estimates for the cost to complete each capital project within a voter-approved capital program on its web site or another publicly accessible location. If two years after beginning construction of a voter-approved capital program the overall capital program budget is found to be greater than twenty percent over the initial estimate, an authority must place on the next ballot a ballot proposition to reauthorize any taxes approved by authority voters after January 1, 2015, as provided in RCW 81.104.150, 81.104.160, 81.104.170, and 81.104.175.</P>
+</BillSection>
+</BillBody>
+</Bill>

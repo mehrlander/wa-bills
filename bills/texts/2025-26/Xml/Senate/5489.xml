@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-0674.1</RequestNumber><ShortBillId>SB 5489</ShortBillId><LongBillId>SENATE BILL 5489</LongBillId><Legislature>69th Legislature</Legislature><Session>2025 Regular Session</Session><Sponsors>Senator Fortunato</Sponsors><BillHistory /><BriefDescription>Establishing a state sandstone.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to the designation of the state sandstone; and adding a new section to chapter 1.20 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>1</TitleNumber><TextRun>.</TextRun><ChapterNumber>20</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>The Wilkeson sandstone is hereby designated as the official sandstone of the state of Washington. </P>
+</BillSection>
+</BillBody>
+</Bill>

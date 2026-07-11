@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-1666.1</RequestNumber><ShortBillId>HB 2046</ShortBillId><LongBillId>HOUSE BILL 2046</LongBillId><Legislature>66th Legislature</Legislature><Session>2019 Regular Session</Session><Sponsors>Representatives Kloba, Tarleton, Smith, Hudgins, Slatter, Frame, Stanford, Valdez, and Pollet</Sponsors><BillHistory><ReadDate>Read first time 02/14/19.</ReadDate><ReferredCommittee>Referred to Committee on Innovation, Technology &amp; Economic Development.</ReferredCommittee></BillHistory><BriefDescription>Increasing consumer data transparency.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to increasing consumer data transparency; adding a new chapter to Title 19 RCW; and prescribing penalties.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act may be known and cited as the Washington consumer data transparency act.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature finds that: </P></BillSectionHeader>
+<P>(1) Technology has become an integral and often invisible part of the everyday lives of Washingtonians. It has changed Washingtonian's lives in ways that would have been unimaginable even two generations ago.</P>
+<P>(2) Technological advances have outpaced the legislature's ability to stay current with laws and protections for consumers.</P>
+<P>(3) Privacy is a deeply held principle of all Washingtonians, and should be the default assumption of new technologies, not the exception.</P>
+<P>(4) Private personal data is being collected and used in ways that are not transparent to average consumers, leaving them ill-equipped to make informed decisions about the relative risks and benefits of these processes.</P>
+<P>(5) Therefore, the legislature desires to establish a high expectation of privacy for personal data, policies that create greater transparency of the actions of data controllers and processors, and opportunities for consumers to make informed decisions about how their personal data is used.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>The definitions in this section apply throughout this chapter unless the context clearly requires otherwise.</P></BillSectionHeader>
+<P>(1) "Biometric information" means an individual's physiological, biological, or behavioral characteristics, including an individual's deoxyribonucleic acid (DNA), that can be used, singly or in combination with each other or with other identifying data, to establish individual identity. Biometric information includes, but is not limited to, imagery of the iris, retina, fingerprint, face, hand, palm, vein patterns, and voice recordings, from which an identifier template, such as a faceprint, a minutiae template, or a voiceprint, can be extracted, and keystroke patterns or rhythms, gait patterns or rhythms, and sleep, health, or exercise data that contain identifying information.</P>
+<P>(2) "Consent" means a clear affirmative act establishing a freely given, specific, informed, and unambiguous indication of a consumer's agreement to the processing of personal data relating to the consumer, such as by a written statement or other clear affirmative action.</P>
+<P>(3) "Controller" means the natural or legal person which, alone or jointly with others, determines the purposes and means of the processing of personal data.</P>
+<P>(4) "Data subject" means an identified or identifiable natural person. An identifiable natural person is one who can be identified, directly or indirectly, in particular by reference to an identifier such as a name, an identification number, location data, an online identifier or to one or more factors specific to the physical, physiological, genetic, mental, economic, cultural, or social identity of the natural person.</P>
+<P>(5) "Monetize" means process, share, exchange or facilitate exchange, leverage, or allow processing of personal data to generate economic benefits. Examples of economic benefits include revenue generation or accrual, expense savings, market share or market value gains, or any other valuable consideration.</P>
+<P>(6)(a) "Personal data" means information that identifies, relates to, describes, is capable of being associated with, or could reasonably be linked, directly or indirectly, with a particular data subject. Personal data includes, but is not limited to:</P>
+<P>(i) Identifiers such as a real name, alias, postal address, unique personal identifier, online identifier internet protocol address, email address, account name, social security number, driver's license number, passport number, or other similar identifiers;</P>
+<P>(ii) Any categories of personal information described in RCW 19.255.010(5);</P>
+<P>(iii) Characteristics of protected classifications under state or federal law;</P>
+<P>(iv) Commercial information, including records of personal property, products or services purchased, obtained, or considered, or other purchasing or consuming histories or tendencies;</P>
+<P>(v) Biometric information;</P>
+<P>(vi) Internet or other electronic network activity information, including, but not limited to, browsing history, search history, and information regarding a consumer's interaction with an internet web site, application, or advertisement;</P>
+<P>(vii) Geolocation data;</P>
+<P>(viii) Professional or employment-related information, except when processed for employment-related purposes only;</P>
+<P>(ix) Education information, defined as information that is not publicly available personally identifiable information as defined in the family educational rights and privacy act (20 U.S.C. Sec. 1232(g), 34 C.F.R. Sec. 99);</P>
+<P>(x) Inferences drawn from any of the information identified in this subsection to create a profile about a data subject reflecting the data subject's preferences, characteristics, psychological trends, predispositions, behavior, attitudes, intelligence, abilities, or aptitudes.</P>
+<P>(b) Personal data does not include publicly available information.</P>
+<P>(c) For purposes of this subsection, "publicly available" means information that is lawfully made available from federal, state, or local government records. Publicly available does not mean biometric information collected by a business about a consumer without the consumer's knowledge. Information is not publicly available if that data is used for a purpose that is not compatible with the purpose for which it is publicly maintained.</P>
+<P>(7) "Process" or "processing" means any operation or set of operations that is performed on personal data or on sets of personal data, whether or not by automated means, such as collection, recording, organization, structuring, storage, adaption or alteration, retrieval, consultation, use, disclosure by transmission, dissemination or otherwise making available, alignment or combination, restriction, erasure, or destruction.</P>
+<P>(8) "Processor" means a natural or legal person, public authority, agency, or other body that processes personal data.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) This chapter applies to the processing of personal data in the context of the activities of an establishment of a processor in Washington state, regardless of whether the processing takes place in Washington state. If the processor does not control the purposes or means of the processing of personal data, the entity or entities with such control are also considered processors for purposes of this chapter.</P></BillSectionHeader>
+<P>(2) This chapter applies to the processing of personal data of data subjects who reside in Washington state by a processor not established in Washington state, where the processing activities are related to:</P>
+<P>(a) The offering of goods or services, irrespective of whether a payment by the data subject is required, to such data subjects in Washington state;</P>
+<P>(b) The monitoring of data subject's behavior as far as their behavior takes place within Washington state.</P>
+<P>(3) This chapter does not apply to personal data sets to the extent that they are regulated by the federal health insurance portability and accountability act of 1996, the federal health information technology for economic and clinical health act, the federal fair credit reporting act, or the Gramm-Leach-Bliley act of 1999.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>5</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) Each processor shall provide data subjects timely and conspicuous notice, in clear and concise language, about the processor's privacy and security practices. This notice must:</P></BillSectionHeader>
+<P>(a) Be reasonable in light of the context;</P>
+<P>(b) Be available in the second and third most common spoken language other than English in the state where the data subject is located, as determined by the most recent United States census bureau American community survey;</P>
+<P>(c) Include, but need not be limited to:</P>
+<P>(i) A detailed description of the personal data the processor processes, including the sources of data collection if the collection is not obtained directly from the data subject;</P>
+<P>(ii) The purposes for which the processor collects, uses, and retains such personal data;</P>
+<P>(iii) The persons or categories of persons to which, and the purposes for which, the processor discloses or allows access to such personal data;</P>
+<P>(iv) The persons or categories of persons to which the covered entity licenses, sells, or otherwise uses such personal data in a transaction;</P>
+<P>(v) When such personal data will be destroyed, deleted, or deidentified. If the processor will not destroy, delete, or deidentify personal data, the processor must specify this in the notice;</P>
+<P>(vi) The mechanisms to grant data subjects a meaningful opportunity to access their personal data and grant, refuse, or revoke consent for the processing of personal data;</P>
+<P>(vii) Whom data subjects may contact with inquiries or complaints concerning the processor's personal data processing; and</P>
+<P>(viii) The general measures taken to secure personal data.</P>
+<P>(2) Processors must provide convenient and reasonable access to the notice, and any updates or modifications to the notice, to data subjects about whom it processes personal data.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>6</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) Each processor that sells or otherwise monetizes personal data shall:</P></BillSectionHeader>
+<P>(a) Inform data subjects in a timely and conspicuous manner of each agreement or transaction for the sale or monetization of the data subject's personal data; and</P>
+<P>(b) Provide data subjects convenient and reasonable access to a record of all agreements and transactions for the sale or monetization of the data subject's personal data.</P>
+<P>(2) The information provided in subsection (1) of this section must:</P>
+<P>(a) Be presented in clear and concise language;</P>
+<P>(b) Be clearly distinguishable from the general privacy notice required under section 5 of this act;</P>
+<P>(c) Provide convenient and reasonable access to the general privacy notice required under section 5 of this act, with prominent access to the mechanisms and contact information provided under section 5(1)(c) (vi) and (vii) of this act; and</P>
+<P>(d) Upon request by the data subject, provide the specific categories of personal data sold or monetized and the persons with whom each category of personal data was sold or monetized.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>7</Value><TextRun>.  </TextRun></BillSectionNumber><P>Nothing in this chapter requires a processor to reveal trade secret information. For the purposes of this section, "trade secret" has the same meaning as in RCW 19.108.010. The categories of personal data that a processor collects are not considered a trade secret.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>8</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) Any waiver of the provisions of this chapter is contrary to public policy, and is void and unenforceable. </P></BillSectionHeader>
+<P>(2) The attorney general may bring an action in the name of the state, or as parens patriae on behalf of persons residing in the state, to enforce this chapter. The legislature finds that the practices covered by this chapter are matters vitally affecting the public interest for the purpose of applying the consumer protection act, chapter 19.86 RCW. A violation of this chapter is not reasonable in relation to the development and preservation of business and is an unfair or deceptive act in trade or commerce and an unfair method of competition for purposes of applying the consumer protection act, chapter 19.86 RCW.</P>
+<P>(3) In any action brought by the attorney general to enforce this chapter, the court shall presume that the amount of restitution for affected consumers is at least one thousand dollars per consumer. A violation of this chapter is also subject to a civil penalty as follows:</P>
+<P>(a) Up to fifteen thousand dollars for each violation of section 6 of this act; and</P>
+<P>(b) Up to ten thousand dollars for any other violation of this chapter.</P>
+<P>(4) A data subject prevailing in an action under this chapter may also recover statutory damages as follows:</P>
+<P>(a) Up to fifteen thousand dollars for each violation of section 6 of this act; and</P>
+<P>(b) Up to ten thousand dollars for any other violation of this chapter.</P>
+<P>(5) It is not necessary to prove actual damages in an action brought pursuant to this chapter. The remedies provided in this chapter are cumulative and do not restrict any remedy that is otherwise available. The provisions of this chapter are not exclusive and are in addition to any other requirements, rights, remedies, and penalties provided by law.</P>
+</BillSection>
+<BillSection type="new" action="addchap" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>9</Value><TextRun>.  </TextRun></BillSectionNumber><P>Sections 1 through 8 of this act constitute a new chapter in <TitleCite><TextRun>Title </TextRun><TitleNumber>19</TitleNumber><TextRun> RCW</TextRun></TitleCite>.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>10</Value><TextRun>.  </TextRun></BillSectionNumber><P>If any provision of this act or its application to any person or circumstance is held invalid, the remainder of the act or the application of the provision to other persons or circumstances is not affected.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

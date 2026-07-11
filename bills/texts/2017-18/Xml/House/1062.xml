@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-0106.1</RequestNumber><ShortBillId>HB 1062</ShortBillId><LongBillId>HOUSE BILL 1062</LongBillId><Legislature>65th Legislature</Legislature><Session>2017 Regular Session</Session><Sponsors>Representatives Lovick, Harmsworth, Sells, Hayes, Robinson, Haler, Chandler, Dent, Kagi, Smith, Ryu, Ortiz-Self, Peterson, and Stanford</Sponsors><BillHistory><PrefiledDate>Prefiled 01/05/17.</PrefiledDate><ReadDate>Read first time 01/09/17.</ReadDate><ReferredCommittee>Referred to Committee on Appropriations.</ReferredCommittee></BillHistory><BriefDescription>Concerning determination of the benchmark rate in Snohomish county for certain community residential services.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to calculating the benchmark rate for certain community residential services; and adding a new section to chapter 71A.12 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>71A</TitleNumber><TextRun>.</TextRun><ChapterNumber>12</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) The department shall use the King county classification for the purposes of determining the benchmark rate in Snohomish county for:</P>
+<P>(a) Supported living services;</P>
+<P>(b) Group homes, which are facilities licensed as either an assisted living facility or adult family home, as both defined in RCW 74.39A.009;</P>
+<P>(c) Group training homes as defined in RCW 71A.22.020; or</P>
+<P>(d) Licensed staffed residential homes as licensed under chapter 74.15 RCW.</P>
+<P>(2) "Benchmark rate" as used in this section means the rate at which direct care staff hours are paid, specific to a county classification.</P>
+</BillSection>
+</BillBody>
+</Bill>

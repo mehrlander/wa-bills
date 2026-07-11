@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-0103.1</RequestNumber><ShortBillId>SB 5035</ShortBillId><LongBillId>SENATE BILL 5035</LongBillId><Legislature>68th Legislature</Legislature><Session>2023 Regular Session</Session><Sponsors>Senators Padden, Fortunato, Short, J. Wilson, MacEwen, Boehnke, Schoesler, Warnick, Dozier, Wagoner, Holy, McCune, Torres, and L. Wilson</Sponsors><BillHistory><PrefiledDate>Prefiled 12/08/22.</PrefiledDate><ReadDate>Read first time 01/09/23.</ReadDate><ReferredCommittee>Referred to Committee on Law &amp; Justice.</ReferredCommittee></BillHistory><BriefDescription>Concerning possession of controlled substances.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to possession of controlled substances; amending RCW 69.50.4011; repealing RCW 10.31.115; repealing 2021 c 311 ss 15 and 16; repealing 2021 c 311 s 29 (uncodified); and prescribing penalties.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>69</TitleNumber><TextRun>.</TextRun><ChapterNumber>50</ChapterNumber><TextRun>.</TextRun><SectionNumber>4011</SectionNumber></SectionCite> and 2021 c 311 s 8 are each amended to read as follows:<Caption>Counterfeit substances<TextRun fontFamily="Times New Roman">—</TextRun>Penalties. <TextRun fontStyle="italic">(Effective until July 1, 2023.)</TextRun></Caption></BillSectionHeader>
+<P>(1) Except as authorized by this chapter, it is unlawful for:</P>
+<P>(a) Any person to create or deliver a counterfeit substance; or</P>
+<P>(b) Any person to knowingly possess a counterfeit substance.</P>
+<P>(2) Any person who violates subsection (1)(a) of this section with respect to:</P>
+<P>(a) A counterfeit substance classified in Schedule I or II which is a narcotic drug, or flunitrazepam classified in Schedule IV, is guilty of a class B felony and upon conviction may be imprisoned for not more than ten years, fined not more than twenty-five thousand dollars, or both;</P>
+<P>(b) A counterfeit substance which is methamphetamine, is guilty of a class B felony and upon conviction may be imprisoned for not more than ten years, fined not more than twenty-five thousand dollars, or both;</P>
+<P>(c) Any other counterfeit substance classified in Schedule I, II, or III, is guilty of a class C felony punishable according to chapter 9A.20 RCW;</P>
+<P>(d) A counterfeit substance classified in Schedule IV, except flunitrazepam, is guilty of a class C felony punishable according to chapter 9A.20 RCW;</P>
+<P>(e) A counterfeit substance classified in Schedule V, is guilty of a class C felony punishable according to chapter 9A.20 RCW.</P>
+<P>(3) A violation of subsection (1)(b) of this section is a <TextRun amendingStyle="strike">misdemeanor</TextRun> <TextRun amendingStyle="add">class C felony</TextRun>. The prosecutor is encouraged to divert such cases for assessment, treatment, or other services <TextRun amendingStyle="add">for a person's first two violations under this subsection</TextRun>.</P>
+<History>2021 c 311 § 8; 2003 c 53 § 332.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Expiration date<TextRun fontFamily="Times New Roman">—</TextRun>2021 c 311 §§ 8-10, 12, 15, and 16: </TextRun>"Sections 8 through 10, 12, 15, and 16 of this act expire July 1, 2023." [2021 c 311 § 29.]</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2021 c 311 §§ 1-11 and 13-21:</TextRun> See note following RCW 71.24.115.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Intent<TextRun fontFamily="Times New Roman">—</TextRun>Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2003 c 53:</TextRun> See notes following RCW 2.48.180.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="new" action="repealuncod">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>The following acts or parts of acts are each repealed:</P></BillSectionHeader>
+<P><RepealNumber>1</RepealNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>10</TitleNumber><TextRun>.</TextRun><ChapterNumber>31</ChapterNumber><TextRun>.</TextRun><SectionNumber>115</SectionNumber></SectionCite> (Drug possession<TextRun fontFamily="Times New Roman">—</TextRun>Referral to assessment and services) and 2021 c 311 s 13;</P>
+<P><RepealNumber>2</RepealNumber> <UncodCite>2021 c 311 s 15</UncodCite>;</P>
+<P><RepealNumber>3</RepealNumber><UncodCite>2021 c 311 s 16</UncodCite>; and</P>
+<P><RepealNumber>4</RepealNumber><UncodCite>2021 c 311 s 29</UncodCite> (uncodified).</P>
+</BillSection>
+</BillBody>
+</Bill>

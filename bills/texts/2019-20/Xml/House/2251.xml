@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-3613.1</RequestNumber><ShortBillId>HB 2251</ShortBillId><LongBillId>HOUSE BILL 2251</LongBillId><Legislature>66th Legislature</Legislature><Session>2020 Regular Session</Session><Sponsors>Representatives Thai and Cody</Sponsors><BillHistory><PrefiledDate>Prefiled 12/19/19.</PrefiledDate><ReadDate>Read first time 01/13/20.</ReadDate><ReferredCommittee>Referred to Committee on Health Care &amp; Wellness.</ReferredCommittee></BillHistory><BriefDescription>Concerning the expiration date for notification of dispensing an interchangeable biological product.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to the expiration date for notification of dispensing an interchangeable biological product; amending RCW 69.41.193; and providing an expiration date.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>69</TitleNumber><TextRun>.</TextRun><ChapterNumber>41</ChapterNumber><TextRun>.</TextRun><SectionNumber>193</SectionNumber></SectionCite> and 2015 c 242 s 4 are each amended to read as follows:<Caption>Dispensing of biological product<TextRun fontFamily="Times New Roman">—</TextRun>Entry of product into electronic records system<TextRun fontFamily="Times New Roman">—</TextRun>Communication<TextRun fontFamily="Times New Roman">—</TextRun>Exceptions. <TextRun fontStyle="italic">(Expires August 1, 2020.)</TextRun></Caption></BillSectionHeader>
+<P>(1) Within five business days following the dispensing of a biological product, the dispensing pharmacist or the pharmacist's designee must make an entry of the specific product provided to the patient, including either the name of the product and the manufacturer or the federal food and drug administration's national drug code, provided that the name of the product and the name of the manufacturer are accessible to a practitioner in an electronic records system that can be electronically accessed by the patient's practitioner through:</P>
+<P>(a) An interoperable electronic medical records system;</P>
+<P>(b) An electronic prescribing technology;</P>
+<P>(c) A pharmacy benefit management system; or</P>
+<P>(d) A pharmacy record.</P>
+<P>(2) Entry into an electronic records system, as described in subsection (1) of this section, is presumed to provide notice to the practitioner. Otherwise, the pharmacist must communicate to the practitioner the specific product provided to the patient, including the name of the product and manufacturer, using facsimile, telephone, electronic transmission, or other prevailing means.</P>
+<P>(3) No entry or communication pursuant to this section is required if:</P>
+<P>(a) There is no interchangeable biological product for the product prescribed;</P>
+<P>(b) A refill prescription is not changed from the product dispensed on the prior filling of the prescription; or</P>
+<P>(c) The pharmacist or the pharmacist's designee and the practitioner communicated before dispensing and the communication included confirmation of the specific product to be provided to the patient, including the name of the product and the manufacturer.</P>
+<P>(4) This section expires August 1, <TextRun amendingStyle="strike">2020</TextRun> <TextRun amendingStyle="add">2025</TextRun>.</P>
+<History>2015 c 242 § 4.</History>
+</BillSection>
+</BillBody>
+</Bill>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-4158.1</RequestNumber><ShortBillId>HB 2976</ShortBillId><LongBillId>HOUSE BILL 2976</LongBillId><Legislature>64th Legislature</Legislature><Session>2016 Regular Session</Session><Sponsors>Representatives Ormsby, Dunshee, and Van De Wege</Sponsors><BillHistory><ReadDate>Read first time 02/05/16.</ReadDate><ReferredCommittee>Referred to Committee on Appropriations.</ReferredCommittee></BillHistory><BriefDescription>Repealing the authority for transfers to the Clarke-McNary account.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to repealing the authority for transfers to the Clarke-McNary account; creating a new section; repealing RCW 43.88.550; and providing an effective date.</BillTitle>
+<EnactedClause />
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature finds that the state Constitution vests in the legislature both the power and the duty to authorize expenditures from public moneys in the state treasury. For this reason, the legislature considers it more fiscally responsible to use the appropriations process to budget for costs of firefighting expenditures, rather than authorizing expenditures without an appropriation.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="repeal">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P><SectionCite><TextRun>RCW </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>88</ChapterNumber><TextRun>.</TextRun><SectionNumber>550</SectionNumber></SectionCite> (Forest firefighting expenses<TextRun fontFamily="Times New Roman">—</TextRun>Transfers to Clarke-McNary fund) and 1989 c 362 s 3 are each repealed.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="effdate">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act takes effect July 1, 2016.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

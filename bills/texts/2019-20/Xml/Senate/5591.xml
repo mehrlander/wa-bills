@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-0015.2</RequestNumber><ShortBillId>SB 5591</ShortBillId><LongBillId>SENATE BILL 5591</LongBillId><Legislature>66th Legislature</Legislature><Session>2019 Regular Session</Session><Sponsors>Senator Schoesler</Sponsors><BillHistory /><BriefDescription>Exempting previously registered vehicles from the stolen vehicle check fee.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to exempting previously registered vehicles from the stolen vehicle check fee; and amending RCW 46.17.120.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>46</TitleNumber><TextRun>.</TextRun><ChapterNumber>17</ChapterNumber><TextRun>.</TextRun><SectionNumber>120</SectionNumber></SectionCite> and 2010 c 161 s 513 are each amended to read as follows:<Caption>Stolen vehicle check fee.</Caption></BillSectionHeader>
+<P><TextRun amendingStyle="add">(1)</TextRun> Before accepting an application for a certificate of title for a vehicle previously registered in any other state or country, the department, county auditor or other agent, or subagent appointed by the director shall require the applicant to pay a fee of fifteen dollars. The fifteen dollar fee must be distributed under RCW 46.68.020.</P>
+<P><TextRun amendingStyle="add">(2) An applicant is exempt from the fifteen dollar fee if the applicant previously registered the vehicle in Washington state and maintained ownership of the vehicle while registered in another state or country.</TextRun></P>
+<History>2010 c 161 § 513.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>Intent<TextRun fontFamily="Times New Roman">—</TextRun>Legislation to reconcile chapter 161, Laws of 2010 and other amendments made during the 2010 legislative session<TextRun fontFamily="Times New Roman">—</TextRun>2010 c 161:</TextRun> See notes following RCW 46.04.013.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+</BillBody>
+</Bill>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-1755.5</RequestNumber><ShortBillId>HB 1789</ShortBillId><LongBillId>HOUSE BILL 1789</LongBillId><Legislature>67th Legislature</Legislature><Session>2022 Regular Session</Session><Sponsors>Representatives Ramos, Goehner, Callan, J. Johnson, Senn, Ryu, Chambers, Springer, Eslick, Fey, Goodman, Robertson, Jacobsen, Peterson, Ramel, Rule, Santos, Shewmake, Wylie, Simmons, Slatter, Tharinger, Valdez, Pollet, Graham, Young, and Kloba</Sponsors><BillHistory><PrefiledDate>Prefiled 01/05/22.</PrefiledDate><ReadDate>Read first time 01/10/22.</ReadDate><ReferredCommittee>Referred to Committee on Finance.</ReferredCommittee></BillHistory><BriefDescription>Establishing a property tax exemption for adult family homes serving people with intellectual or developmental disabilities and owned by a nonprofit.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to establishing a property tax exemption for adult family homes that serve people with intellectual or developmental disabilities and are owned by a nonprofit; adding a new section to chapter 84.36 RCW; and creating new sections.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>84</TitleNumber><TextRun>.</TextRun><ChapterNumber>36</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>The real and personal property owned by a nonprofit entity providing adult family home services is exempt from taxation if:</P>
+<P>(1) The benefit of the exemption inures to the nonprofit entity;</P>
+<P>(2) The property is used exclusively as an adult family home as defined in RCW 70.128.010; and</P>
+<P>(3) The property is used to exclusively serve people with an intellectual or developmental disability.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act applies to taxes levied for collection in 2021 and thereafter, including retroactively for any taxpayer who has been assessed taxes by the department of revenue prior to the effective date of this section. Nothing in this act is intended to be construed to require or otherwise authorize a refund of taxes lawfully paid prior to the effective date of this section.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>The provisions of RCW 82.32.805 and 82.32.808 do not apply to this act.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

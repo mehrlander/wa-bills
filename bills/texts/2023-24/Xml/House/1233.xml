@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-0447.1</RequestNumber><ShortBillId>HB 1233</ShortBillId><LongBillId>HOUSE BILL 1233</LongBillId><Legislature>68th Legislature</Legislature><Session>2023 Regular Session</Session><Sponsors>Representatives Jacobsen, Volz, McEntire, Walsh, and Graham</Sponsors><BillHistory><ReadDate>Read first time 01/11/23.</ReadDate><ReferredCommittee>Referred to Committee on Community Safety, Justice, &amp; Reentry.</ReferredCommittee></BillHistory><BriefDescription>Concerning housing of inmates in state correctional facilities.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to the housing of inmates in state correctional facilities; and adding a new section to chapter 72.09 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>72</TitleNumber><TextRun>.</TextRun><ChapterNumber>09</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>An inmate may not be housed in a correctional facility that primarily houses persons of a different biological sex than that of the inmate if the inmate has previously been convicted of a sex offense as defined in RCW 9.94A.030 against a victim whose biological sex is the same as those persons who are primarily housed in that correctional facility.</P>
+</BillSection>
+</BillBody>
+</Bill>

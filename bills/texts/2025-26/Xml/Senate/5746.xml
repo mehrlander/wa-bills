@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-1395.1</RequestNumber><ShortBillId>SB 5746</ShortBillId><LongBillId>SENATE BILL 5746</LongBillId><Legislature>69th Legislature</Legislature><Session>2025 Regular Session</Session><Sponsors>Senators J. Wilson, Christian, Chapman, Nobles, and Salomon</Sponsors><BillHistory><ReadDate>Read first time 02/13/25.</ReadDate><ReferredCommittee>Referred to Committee on Transportation.</ReferredCommittee></BillHistory><BriefDescription>Creating an advisory committee on electric vehicle charger infrastructure property crime.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to creating an advisory committee on electric vehicle charger infrastructure property crime; adding a new chapter to Title 43 RCW; and providing an expiration date.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) The department of commerce, along with the department of transportation, shall convene an advisory committee on electric vehicle charger infrastructure property crime that is established with members as provided in this section. The advisory committee must include at least:</P></BillSectionHeader>
+<P>(a) One representative of the Washington state attorney general's office;</P>
+<P>(b) One representative of a law enforcement agency or association whereby electric vehicle charger property crime is impacting the agency's or association's jurisdiction specializing in theft prevention or property crimes;</P>
+<P>(c) One representative of a recycled materials association or trade organization operating in the state of Washington with experience in nonferrous metals recycling;</P>
+<P>(d) Two representatives from the electric vehicle services equipment industry whereby both level 2 and level 3 charging providers are included;</P>
+<P>(e) One representative from a local governmental agency or association representing a city whereby electric vehicle charger property crime is impacting the agency's or association's community;</P>
+<P>(f) One representative from a power utility whereby electric vehicle charger property crime is impacting the utility's service territory;</P>
+<P>(g) One representative from a county whereby electric vehicle charger property crime is impacting the county;</P>
+<P>(h) Two representatives of a neighborhood or community advocacy group from communities heavily impacted by metal theft or illegal recycling activities; and</P>
+<P>(i) One representative with technical expertise in the electric vehicle charging industry.</P>
+<P>(2) The members of the advisory committee shall be appointed by the secretary of the department of commerce. Members must reflect the geographic, racial, and ethnic diversity of the state of Washington and be inclusive of historically marginalized communities.</P>
+<P>(3) The advisory committee shall:</P>
+<P>(a) Provide guidance and recommendations on actions to reduce instances of electric vehicle charger property crime in the state of Washington;</P>
+<P>(b) Be available to respond to Washington legislator questions or requests related to electric vehicle charger property crime;</P>
+<P>(c) Submit an annual report detailing its findings, recommendations, and activities to the appropriate committees of the legislature and the governor by December 1st of each year.</P>
+<P>(4) The advisory committee members shall preserve the right to maintain and protect trade secrets, subject to existing trade secret laws and rules.</P>
+<P>(5) The department of commerce and the department of transportation shall regularly consult with the advisory committee. The department of commerce shall convene the advisory committee for its initial meeting by November 1, 2025. The advisory committee shall be staffed by the department of commerce.</P>
+<P>(6) This section expires December 31, 2030.</P>
+</BillSection>
+<BillSection type="new" action="addchap" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>Section 1 of this act constitutes a new chapter in <TitleCite><TextRun>Title </TextRun><TitleNumber>43</TitleNumber><TextRun> RCW</TextRun></TitleCite>.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

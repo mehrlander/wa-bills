@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-5068.3</RequestNumber><ShortBillId>SB 6410</ShortBillId><LongBillId>SENATE BILL 6410</LongBillId><Legislature>66th Legislature</Legislature><Session>2020 Regular Session</Session><Sponsors>Senators King and Nguyen</Sponsors><BillHistory><ReadDate>Read first time 01/16/20.</ReadDate><ReferredCommittee>Referred to Committee on Transportation.</ReferredCommittee></BillHistory><BriefDescription>Addressing possessory liens on motor vehicles that an auction company stores.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to possessory liens on motor vehicles that an auction company stores; amending RCW 46.70.330; creating a new section; and providing an effective date.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>46</TitleNumber><TextRun>.</TextRun><ChapterNumber>70</ChapterNumber><TextRun>.</TextRun><SectionNumber>330</SectionNumber></SectionCite> and 1998 c 282 s 2 are each amended to read as follows:<Caption>Wholesale motor vehicle auction dealers.</Caption></BillSectionHeader>
+<P>(1) A wholesale motor vehicle auction dealer may:</P>
+<P>(a) Sell any classification of motor vehicle;</P>
+<P>(b) Sell only to motor vehicle dealers and vehicle wreckers licensed under Title 46 RCW by the state of Washington or licensed by any other state; or</P>
+<P>(c) Sell a motor vehicle belonging to the United States government, the state of Washington, or a political subdivision to nonlicensed persons as may be required by the contracting public agency. However, a publicly owned "wrecked vehicle" as defined in RCW 46.80.010 may be sold to motor vehicle dealers and vehicle wreckers licensed under Title 46 RCW by the state of Washington or licensed by any other state.</P>
+<P>(2) If the wholesale motor vehicle auction dealer knows that a vehicle is a "wrecked vehicle" as defined by RCW 46.80.010, the dealer must disclose this fact on the bill of sale.</P>
+<P><TextRun amendingStyle="add">(3) A wholesale motor vehicle auction dealer that makes advances for freight, storage, services, supplies, or labor for services on a motor vehicle at the request of the owner or lawful possessor of the motor vehicle has a lien on the motor vehicle in the possession of the wholesale motor vehicle auction dealer for the reasonable or agreed charges for labor, materials, or services of the wholesale motor vehicle auction dealer, and the wholesale motor vehicle auction dealer may retain possession of the motor vehicle until the charges are paid.</TextRun></P>
+<P><TextRun amendingStyle="add">(4)(a) Subject to the requirements of (b) of this subsection, the wholesale motor vehicle auction dealer may title the motor vehicle in the name of:</TextRun></P>
+<P><TextRun amendingStyle="add">(i) The wholesale motor vehicle auction dealer, if the motor vehicle has remained unclaimed on the auction company's premises for more than thirty days;</TextRun></P>
+<P><TextRun amendingStyle="add">(ii) The insurance company that directs the wholesale motor vehicle auction dealer to take possession of the motor vehicle; or</TextRun></P>
+<P><TextRun amendingStyle="add">(iii) An organization with an exemption from taxation under section 501(c)(3) of the internal revenue code that directs the auction company to take possession of the motor vehicle.</TextRun></P>
+<P><TextRun amendingStyle="add">(b) An owner of a motor vehicle under this section must be notified by the wholesale motor vehicle auction dealer that the owner's vehicle will be retitled at least thirty days before the wholesale motor vehicle auction dealer retitles the motor vehicle. A failure to respond is deemed an affirmative response and the retitling process may proceed.</TextRun></P>
+<P><TextRun amendingStyle="add">(5) For the purposes of this subsection, a wholesale motor vehicle auction dealer means an entity: (a) That operates throughout the United States; (b) that qualifies as a vehicle dealer under RCW 46.70.021; and (c) whose primary activity of which, in this state, consists of disposing of totaled motor vehicles.</TextRun></P>
+<History>1998 c 282 § 2.</History>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act applies to motor vehicles that a wholesale motor vehicle auction dealer possesses on or after the effective date of this section, and that the wholesale motor vehicle auction dealer stores before, on, or after the effective dates of this section.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="effdate">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act takes effect January 1, 2021.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-3242.1</RequestNumber><ShortBillId>HB 2491</ShortBillId><LongBillId>HOUSE BILL 2491</LongBillId><Legislature>64th Legislature</Legislature><Session>2016 Regular Session</Session><Sponsors>Representatives Manweller, Condotta, Magendanz, and Wilson</Sponsors><BillHistory><ReadDate>Read first time 01/14/16.</ReadDate><ReferredCommittee>Referred to Committee on Labor &amp; Workplace Standards.</ReferredCommittee></BillHistory><BriefDescription>Establishing state preemption of local wage laws and contracts.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to state preemption of local wage laws and contracts; amending RCW 49.46.120; adding a new section to chapter 35.21 RCW; adding a new section to chapter 35A.21 RCW; adding a new section to chapter 36.01 RCW; adding a new section to chapter 53.08 RCW; and adding a new chapter to Title 49 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) The state of Washington hereby occupies and preempts the entire field regarding wages and hours of work within the boundaries of the state. A city, town, county, or port district may not require, enforce, or otherwise regulate by means of charter, ordinance, regulation, rule, resolution, or contract, including purchase agreement, payment of wages or hours of work for private employers. Any such provisions or terms shall not be adopted or agreed to and are preempted and unenforceable. The state preemption created in this section applies to all charters, ordinances, regulations, rules, and resolutions regulating payment of wages and hours of work for private employers adopted by a city, town, county, or port district before or after the effective date of this section. Any term in a contract or purchase agreement regarding payment of wages or hours of work entered into after the effective date of this section is void and unenforceable.</P></BillSectionHeader>
+<P>(2) Subsection (1) of this section does not apply to any local laws, ordinances, administrative directives, contracts, or policies that affect only the employees of the city, town, county, or port district.</P>
+<P>(3) This section does not impair any provision of a collective bargaining agreement in effect on the effective date of this section.</P>
+<P>(4) The preemption created in this section shall be broadly construed.</P>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>49</TitleNumber><TextRun>.</TextRun><ChapterNumber>46</ChapterNumber><TextRun>.</TextRun><SectionNumber>120</SectionNumber></SectionCite> and 1961 ex.s. c 18 s 4 are each amended to read as follows:<Caption>Chapter establishes minimum standards and is supplementary to other laws<TextRun fontFamily="Times New Roman">—</TextRun>More favorable standards unaffected.</Caption></BillSectionHeader>
+<P>This chapter establishes a minimum standard for wages and working conditions of all employees in this state, unless exempted herefrom, and is in addition to and supplementary to any other federal<TextRun amendingStyle="strike">,</TextRun> <TextRun amendingStyle="add">or</TextRun> state<TextRun amendingStyle="strike">, or local</TextRun> law <TextRun amendingStyle="strike">or ordinance</TextRun>, or any rule or regulation issued thereunder. Any standards relating to wages, hours, or other working conditions established by any applicable federal<TextRun amendingStyle="strike">,</TextRun> <TextRun amendingStyle="add">or</TextRun> state<TextRun amendingStyle="strike">, or local</TextRun> law <TextRun amendingStyle="strike">or ordinance</TextRun>, or any rule or regulation issued thereunder, which are more favorable to employees than the minimum standards applicable under this chapter, or any rule or regulation issued hereunder, shall not be affected by this chapter and such other laws, or rules or regulations, shall be in full force and effect and may be enforced as provided by law.</P>
+<History>1961 ex.s. c 18 § 4; 1959 c 294 § 12.</History>
+</BillSection>
+<BillSection type="new" action="addchap" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>Section 1 of this act constitutes a new chapter in <TitleCite><TextRun>Title </TextRun><TitleNumber>49</TitleNumber><TextRun> RCW</TextRun></TitleCite>.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>35</TitleNumber><TextRun>.</TextRun><ChapterNumber>21</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>Section 1 of this act governs the authority of a city or town to regulate private employers and to contract regarding wages or hours of work.</P>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>5</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>35A</TitleNumber><TextRun>.</TextRun><ChapterNumber>21</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>Section 1 of this act governs the authority of a city or town to regulate private employers and to contract regarding wages or hours of work.</P>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>6</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>36</TitleNumber><TextRun>.</TextRun><ChapterNumber>01</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>Section 1 of this act governs the authority of a county to regulate private employers and to contract regarding wages or hours of work.</P>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>7</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>53</TitleNumber><TextRun>.</TextRun><ChapterNumber>08</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>Section 1 of this act governs the authority of a port district to regulate private employers and to contract regarding wages or hours of work.</P>
+</BillSection>
+</BillBody>
+</Bill>

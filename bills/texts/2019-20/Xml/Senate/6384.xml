@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-5347.1</RequestNumber><ShortBillId>SB 6384</ShortBillId><LongBillId>SENATE BILL 6384</LongBillId><Legislature>66th Legislature</Legislature><Session>2020 Regular Session</Session><Sponsors>Senators Becker, Cleveland, O'Ban, Frockt, Braun, Keiser, and Warnick</Sponsors><BillHistory><ReadDate>Read first time 01/15/20.</ReadDate><ReferredCommittee>Referred to Committee on Health &amp; Long Term Care.</ReferredCommittee></BillHistory><BriefDescription>Establishing a statewide tracking system for difficult to discharge patients.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to establishing a statewide tracking system for difficult to discharge patients; adding a new section to chapter 43.371 RCW; and adding a new section to chapter 70.41 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>371</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) The authority shall establish a claims code for tracking administrative days in the state. The claims code must be used for tracking purposes only and may not be used for reimbursement.</P>
+<P>(2) Beginning January 1, 2021, the state medicaid program, public employees' benefits board programs, school employees' benefits board programs, and all health carriers operating in this state must use the administrative day claims code established by this section to track administrative days of enrollees receiving hospital services in the state and must submit the administrative day claims required by section 2 of this act pursuant to RCW 43.371.030.</P>
+<P>(3) Beginning December 1, 2021, the lead organization shall submit an annual report to the relevant committees of the legislature regarding administrative day claims. The annual report must include:</P>
+<P>(a) The number of administrative days by hospital;</P>
+<P>(b) The number of administrative days by health carrier;</P>
+<P>(c) The number of patients with administrative days by hospital;</P>
+<P>(d) The number of patients with administrative days by health carrier; and</P>
+<P>(e) The average number of administrative days per patient.</P>
+<P>(4) For purposes of this section "administrative day" means any day of an individual's hospital stay in which an acute inpatient or observation level of care is not medically necessary, and a lower level of care is appropriate.</P>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>70</TitleNumber><TextRun>.</TextRun><ChapterNumber>41</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) For each administrative day of a patient's stay in a hospital, the hospital must submit the claims code established in section 1 of this act to the patient's primary insurance.</P>
+<P>(2) For purposes of this section:</P>
+<P>(a) "Administrative day" has the same meaning as in section 1 of this act.</P>
+<P>(b) "Patient" means a person admitted to the hospital who is enrolled with health coverage through the state medicaid program, public employees' benefits board programs, school employees' benefits board programs, or a health carrier operating in this state.</P>
+</BillSection>
+</BillBody>
+</Bill>

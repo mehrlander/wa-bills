@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-3108.1</RequestNumber><ShortBillId>SB 6014</ShortBillId><LongBillId>SENATE BILL 6014</LongBillId><Legislature>65th Legislature</Legislature><Session>2018 Regular Session</Session><Sponsors>Senators Frockt, Palumbo, Carlyle, Rolfes, Hunt, Saldaña, and Kuderer</Sponsors><BillHistory><PrefiledDate>Prefiled 12/08/17.</PrefiledDate><ReadDate>Read first time 01/08/18.</ReadDate><ReferredCommittee>Referred to Committee on Financial Institutions &amp; Insurance.</ReferredCommittee></BillHistory><BriefDescription>Concerning automatic security freezes on consumer credit reports.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to automatic security freezes on consumer credit reports; amending RCW 19.182.170; and adding a new section to chapter 19.182 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>19</TitleNumber><TextRun>.</TextRun><ChapterNumber>182</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) A consumer reporting agency that experiences a data breach must:</P>
+<P>(a) Automatically place a security freeze, not to exceed ninety days, on the credit report of each affected consumer within seven days of discovery of the data breach;</P>
+<P>(b) Notify each affected consumer within seven days of the placement of an automatic security freeze on his or her credit report, disclose the process of temporarily lifting or removing an automatic security freeze under this section, and provide each affected consumer with a unique personal identification number or password to be used by the affected consumer when providing authorization to temporarily lift or remove an automatic security freeze from his or her credit report; and</P>
+<P>(c) Notify the attorney general of the data breach within seven days of discovery of the data breach.</P>
+<P>(2) If an affected consumer wishes to temporarily lift an automatic security freeze from his or her credit report, he or she must contact the consumer reporting agency, request that the freeze be temporarily lifted, and provide the following information:</P>
+<P>(a) Proper identification, or information generally deemed sufficient to identify a person. A consumer reporting agency may require additional information concerning the affected consumer's employment and personal or family history in order to verify his or her identity only if the affected consumer is unable to sufficiently identify himself or herself;</P>
+<P>(b) The unique personal identification number or password provided to the affected consumer by the consumer reporting agency under subsection (1) of this section; and</P>
+<P>(c) Proper information regarding the specific party or parties allowed to access the affected consumer's credit report or the period of time during which release of the affected consumer's credit report is allowed.</P>
+<P>(3) If an affected consumer wishes to remove an automatic security freeze from his or her credit report, he or she must contact the consumer reporting agency, request that the freeze be removed, and provide the information required in subsection (2)(a) and (b) of this section.</P>
+<P>(4) If an affected consumer's request to temporarily lift or remove an automatic security freeze from his or her credit report meets the requirements in subsection (2) or (3) of this section, a consumer reporting agency must respond to the affected consumer's request in accordance within the time frame established by RCW 19.182.170 (6), (7), and (8).</P>
+<P>(5) An automatic security freeze must remain in place until the affected consumer requests that the freeze be removed, or until the automatic security freeze has lasted ninety days, whichever occurs first.</P>
+<P>(6) A consumer reporting agency may not charge a fee for any service performed under this section.</P>
+<P>(7) A violation of this section is enforced in accordance with RCW 19.182.170(17).</P>
+<P>(8) For the purposes of this section:</P>
+<P>(a) "Affected consumer" means a consumer affected by a data breach at a consumer reporting agency.</P>
+<P>(b) "Automatic security freeze" means a "security freeze," as defined in RCW 19.182.170(1), that a consumer reporting agency is required to place on an affected consumer's credit report under subsection (1) of this section.</P>
+<P>(c) "Credit report" means a consumer report, as defined in 15 U.S.C. Sec. 1681a, that is used or collected to serve as a factor in establishing a consumer's eligibility for credit for personal, family, or household purposes.</P>
+<P>(d) "Data breach" means an unauthorized acquisition of data that compromises the security, confidentiality, or integrity of consumer information maintained by a consumer reporting agency.</P>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>19</TitleNumber><TextRun>.</TextRun><ChapterNumber>182</ChapterNumber><TextRun>.</TextRun><SectionNumber>170</SectionNumber></SectionCite> and 2007 c 499 s 1 are each amended to read as follows:<Caption>Victim of identity theft<TextRun fontFamily="Times New Roman">—</TextRun>Security freeze.</Caption></BillSectionHeader>
+<P>(1) A consumer, who is a resident of this state, may elect to place a security freeze on his or her credit report by making a request in writing by certified mail to a consumer reporting agency. "Security freeze" means a prohibition, consistent with this section, on a consumer reporting agency's furnishing of a consumer's credit report to a third party intending to use the credit report to determine the consumer's eligibility for credit. If a security freeze is in place, information from a consumer's credit report may not be released to a third party without prior express authorization from the consumer. This subsection does not prevent a consumer reporting agency from advising a third party that a security freeze is in effect with respect to the consumer's credit report.</P>
+<P>(2) For purposes of this section and RCW 19.182.180 through 19.182.210:</P>
+<P>(a) "Victim of identity theft" means a person who has a police report evidencing their claim to be a victim of a violation of RCW 9.35.020 and which report will be produced to a consumer reporting agency, upon such consumer reporting agency's request.</P>
+<P>(b) "Credit report" means a consumer report, as defined in 15 U.S.C. Sec. 1681a, that is used or collected to serve as a factor in establishing a consumer's eligibility for credit for personal, family, or household purposes.</P>
+<P>(c) "Normal business hours" means Sunday through Saturday, between the hours of 6:00 a.m. and 9:30 p.m. Pacific time.</P>
+<P>(3) A consumer reporting agency shall place a security freeze on a consumer's credit report no later than five business days after receiving a written request from the consumer and payment of the fee required by the consumer reporting agency under subsection (13) of this section.</P>
+<P>(4) The consumer reporting agency shall send a written confirmation of the security freeze to the consumer within ten business days and shall provide the consumer with a unique personal identification number or password to be used by the consumer when providing authorization for the release of his or her credit report for a specific party or period of time.</P>
+<P>(5) If the consumer wishes to allow his or her credit report to be accessed for a specific period of time while a freeze is in place, he or she shall contact the consumer reporting agency, request that the freeze be temporarily lifted, and provide the following:</P>
+<P>(a) Proper identification, which means that information generally deemed sufficient to identify a person. Only if the consumer is unable to sufficiently identify himself or herself, may a consumer reporting agency require additional information concerning the consumer's employment and personal or family history in order to verify his or her identity;</P>
+<P>(b) The unique personal identification number or password provided by the consumer reporting agency under subsection (4) of this section; </P>
+<P>(c) The proper information regarding the time period for which the report is available to users of the credit report; and</P>
+<P>(d) Payment of the fee required by the consumer reporting agency under subsection (13) of this section.</P>
+<P>(6) A consumer reporting agency that receives a request from a consumer to temporarily lift a freeze on a credit report under subsection (5) of this section <TextRun amendingStyle="add">or a request from an affected consumer to temporarily lift or remove an automatic security freeze from a credit report under section 1 of this act</TextRun> shall comply with the request within:</P>
+<P>(a) Three business days of receiving the request by mail; or</P>
+<P>(b) Fifteen minutes of receiving the request from the consumer through the electronic contact method chosen by the consumer reporting agency in accordance with subsection (8) of this section, if the request:</P>
+<P>(i) Is received during normal business hours; and</P>
+<P>(ii) Includes the consumer's proper identification and correct personal identification number or password.</P>
+<P>(7) A consumer reporting agency is not required to remove a security freeze within the time provided in subsection (6)(b) of this section if:</P>
+<P>(a) The consumer fails to meet the requirements of subsection (5) of this section <TextRun amendingStyle="add">or, in the case of a request to temporarily lift or remove an automatic security freeze, the requirements of section 1 (2) or (3) of this act</TextRun>; or</P>
+<P>(b) The consumer reporting agency's ability to remove the security freeze within fifteen minutes is prevented by:</P>
+<P>(i) An act of God, including fire, earthquakes, hurricanes, storms, or similar natural disasters or phenomena;</P>
+<P>(ii) Unauthorized or illegal acts by a third party, including terrorism, sabotage, riot, vandalism, labor strikes, or disputes disrupting operations, or similar occurrences;</P>
+<P>(iii) An interruption in operations, including electrical failure, unanticipated delay in equipment or replacement part delivery, computer hardware or software failures inhibiting response time, or similar disruptions;</P>
+<P>(iv) Governmental action, including emergency orders or regulations, judicial or law enforcement action, or similar directives;</P>
+<P>(v) Regularly scheduled maintenance of, or updates to, the consumer reporting agency's systems outside of normal business hours;</P>
+<P>(vi) Commercially reasonable maintenance of, or repair to, the consumer reporting agency's systems that is unexpected or unscheduled; or</P>
+<P>(vii) Receipt of a removal request outside of normal business hours.</P>
+<P>(8) A consumer reporting agency may develop procedures involving the use of telephone, fax, the internet, or other electronic media to receive and process a request from a consumer to temporarily lift a freeze on a credit report under subsection (5) of this section <TextRun amendingStyle="add">or a request from an affected consumer to temporarily lift or remove an automatic security freeze from a credit report under section 1 of this act</TextRun> in an expedited manner.</P>
+<P>(9) A consumer reporting agency shall remove or temporarily lift a freeze placed on a consumer's credit report only in the following cases:</P>
+<P>(a) Upon consumer request, under subsection (5) or (12) of this section; or</P>
+<P>(b) When the consumer's credit report was frozen due to a material misrepresentation of fact by the consumer. When a consumer reporting agency intends to remove a freeze upon a consumer's credit report under this subsection, the consumer reporting agency shall notify the consumer in writing prior to removing the freeze on the consumer's credit report.</P>
+<P>(10) When a third party requests access to a consumer credit report on which a security freeze is in effect, and this request is in connection with an application for credit or any other use, and the consumer does not allow his or her credit report to be accessed for that period of time, the third party may treat the application as incomplete.</P>
+<P>(11) When a consumer requests a security freeze, the consumer reporting agency shall disclose the process of placing and temporarily lifting a freeze, and the process for allowing access to information from the consumer's credit report for a specific period of time while the freeze is in place.</P>
+<P>(12) A security freeze remains in place until the consumer requests that the security freeze be removed. A consumer reporting agency shall remove a security freeze within three business days of receiving a request for removal from the consumer, who provides all of the following:</P>
+<P>(a) Proper identification, as defined in subsection (5)(a) of this section; </P>
+<P>(b) The unique personal identification number or password provided by the consumer reporting agency under subsection (4) of this section; and</P>
+<P>(c) Payment of the fee required by the consumer reporting agency under subsection (13) of this section.</P>
+<P>(13)(a) Except as provided in (b) of this subsection, a consumer reporting agency may charge a fee of no more than ten dollars to a consumer for placement of each freeze, temporary lift of the freeze, or removal of the freeze.</P>
+<P>(b) A consumer reporting agency may not charge a fee to place a security freeze for a victim of identity theft or for a consumer, who is sixty-five years old or older.</P>
+<P>(14) This section does not apply to the use of a consumer credit report by any of the following:</P>
+<P>(a) A person or entity, or a subsidiary, affiliate, or agent of that person or entity, or an assignee of a financial obligation owing by the consumer to that person or entity, or a prospective assignee of a financial obligation owing by the consumer to that person or entity in conjunction with the proposed purchase of the financial obligation, with which the consumer has or had prior to assignment an account or contract, including a demand deposit account, or to whom the consumer issued a negotiable instrument, for the purposes of reviewing the account or collecting the financial obligation owing for the account, contract, or negotiable instrument. For purposes of this subsection, "reviewing the account" includes activities related to account maintenance, monitoring, credit line increases, and account upgrades and enhancements;</P>
+<P>(b) Any federal, state, or local entity, including a law enforcement agency, court, or their agents or assigns;</P>
+<P>(c) Any person acting under a court order, warrant, or subpoena;</P>
+<P>(d) A child support agency acting under Title IV-D of the social security act (42 U.S.C. <TextRun amendingStyle="add">Sec. 651</TextRun> et seq.);</P>
+<P>(e) The department of social and health services acting to fulfill any of its statutory responsibilities;</P>
+<P>(f) The internal revenue service acting to investigate or collect delinquent taxes or unpaid court orders or to fulfill any of its other statutory responsibilities;</P>
+<P>(g) The use of credit information for the purposes of prescreening as provided for by the federal fair credit reporting act;</P>
+<P>(h) Any person or entity administering a credit file monitoring subscription service to which the consumer has subscribed;</P>
+<P>(i) Any person or entity for the purpose of providing a consumer with a copy of his or her credit report upon the consumer's request; and</P>
+<P>(j) A mortgage broker or loan originator required to be licensed under chapter 19.146 RCW.</P>
+<P>(15) Liability may not result to the consumer reporting agency if through inadvertence or mistake the consumer reporting agency releases credit report information to a person or entity purporting to be a mortgage broker or loan originator under subsection (14) of this section that is, in fact, not a mortgage broker or loan originator.</P>
+<P>(16) The consumer's request for a security freeze does not prohibit the consumer reporting agency from disclosing the consumer's credit report for other than credit-related purposes.</P>
+<P>(17) A violation of subsection (6) of this section <TextRun amendingStyle="add">or section 1 of this act</TextRun> does not provide a private cause of action under RCW 19.86.090. A violation of subsection (6) of this section <TextRun amendingStyle="add">or section 1 of this act</TextRun> shall be enforced exclusively by the attorney general. A violation of subsection (6) of this section <TextRun amendingStyle="add">or section 1 of this act</TextRun> is subject to all other remedies and penalties available under this chapter.</P>
+<History>2007 c 499 § 1; 2005 c 342 § 1.</History>
+<RCWNoteSection>
+<RevNote><NoteP><TextRun fontWeight="bold">*Reviser's note: </TextRun>The correct citation to Title IV-D of the social security act is 42 U.S.C. Sec. 651 et seq.</NoteP></RevNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2007 c 499:</TextRun> "This act takes effect September 1, 2008." [2007 c 499 § 2.]</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+</BillBody>
+</Bill>

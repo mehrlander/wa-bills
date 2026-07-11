@@ -1,0 +1,556 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-4278.4</RequestNumber><ShortBillId>2SSB 5825</ShortBillId><LongBillId>SECOND SUBSTITUTE SENATE BILL 5825</LongBillId><Legislature>68th Legislature</Legislature><Session>2024 Regular Session</Session><Sponsors>Senate Ways &amp; Means (originally sponsored by Senators Pedersen and Padden)</Sponsors><BillHistory><ReadDate>READ FIRST TIME 02/05/24.</ReadDate></BillHistory><BriefDescription>Concerning guardianship and conservatorship.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to guardianship and conservatorship; amending RCW 11.130.090, 11.130.100, 11.130.270, 11.130.280, 11.130.315, 11.130.320, 11.130.345, 11.130.365, 11.130.380, 11.130.425, 11.130.430, 11.130.435, and 11.130.530; adding a new section to chapter 11.130 RCW; and adding a new section to chapter 2.72 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>11</TitleNumber><TextRun>.</TextRun><ChapterNumber>130</ChapterNumber><TextRun>.</TextRun><SectionNumber>090</SectionNumber></SectionCite> and 2019 c 437 s 118 are each amended to read as follows:<Caption>Qualifications.</Caption></BillSectionHeader>
+<P>(1) Any suitable person over the age of <TextRun amendingStyle="strike">twenty-one</TextRun> <TextRun amendingStyle="add">21</TextRun> years, or any parent under the age of <TextRun amendingStyle="strike">twenty-one</TextRun> <TextRun amendingStyle="add">21</TextRun> years or, if the petition is for appointment of a professional guardian or conservator, any individual or guardianship or conservatorship service that meets any certification requirements established by the administrator for the courts, may, if not otherwise disqualified, be appointed guardian or conservator of a person subject to guardianship, conservatorship, or both. A financial institution subject to the jurisdiction of the department of financial institutions and authorized to exercise trust powers, and a federally chartered financial institution when authorized to do so, may be appointed to act as a guardian or conservator of a person subject to guardianship, conservatorship, or both without having to meet the certification requirements established by the administrator for the courts. No person is qualified to serve as a guardian or conservator who is:</P>
+<P>(a) Under <TextRun amendingStyle="strike">eighteen</TextRun> <TextRun amendingStyle="add">18</TextRun> years of age except as otherwise provided herein;</P>
+<P>(b)(i) Except as provided otherwise in (b)(ii) of this subsection, convicted of a crime involving dishonesty, neglect, or use of physical force or other crime relevant to the functions the individual would assume as guardian;</P>
+<P>(ii) A court may, upon consideration of the facts, find that a relative convicted of a crime is qualified to serve as a guardian or conservator;</P>
+<P>(c) A nonresident of this state who has not appointed a resident agent to accept service of process in all actions or proceedings with respect to the estate and caused such appointment to be filed with the court;</P>
+<P>(d) A corporation not authorized to act as a fiduciary, guardian, or conservator in the state;</P>
+<P>(e) A person whom the court finds unsuitable.</P>
+<P>(2) If a guardian, or conservator is not a certified professional guardian, conservator, or financial institution authorized under this section, the guardian or conservator must complete any standardized training video or web cast for lay guardians or conservators made available by the administrative office of the courts and the superior court where the petition is filed unless granted a waiver by the court. The training video or web cast must be provided at no cost to the guardian, or conservator.</P>
+<P>(a) If a petitioner requests the appointment of a specific individual to act as a guardian or conservator, the petition for guardianship or conservatorship must include evidence of the successful completion of the required training video or web cast by the proposed guardian or conservator. The superior court may defer the completion of the training requirement to a date no later than ninety days after appointment if the petitioner requests expedited appointment due to emergent circumstances.</P>
+<P>(b) If no person is identified to be appointed guardian or conservator at the time the petition is filed, then the court must require that the petitioner identify within <TextRun amendingStyle="strike">fourteen</TextRun> <TextRun amendingStyle="add">30</TextRun> days from the filing of the petition a specific individual to act as guardian <TextRun amendingStyle="add">or conservator</TextRun> subject to the training requirements set forth herein. <TextRun amendingStyle="add">If the petitioner fails to identify a guardian or conservator within 30 days of filing, the court shall dismiss the guardianship or conservatorship.</TextRun></P>
+<History>2019 c 437 § 118.</History>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>11</TitleNumber><TextRun>.</TextRun><ChapterNumber>130</ChapterNumber><TextRun>.</TextRun><SectionNumber>100</SectionNumber></SectionCite> and 2020 c 312 s 304 are each amended to read as follows:<Caption>Compensation and expenses<TextRun fontFamily="Times New Roman">—</TextRun>In general.</Caption></BillSectionHeader>
+<P>(1) Unless otherwise compensated or reimbursed, an attorney for a respondent in a proceeding under this chapter is entitled to reasonable compensation for services and reimbursement of reasonable expenses from the property of the respondent.</P>
+<P>(2) Unless otherwise compensated or reimbursed, an attorney<TextRun amendingStyle="add">,</TextRun> or other person whose services resulted in an order beneficial to an individual subject to guardianship or conservatorship or for whom a protective arrangement under Article 5 of this chapter was ordered<TextRun amendingStyle="add">,</TextRun> is entitled to reasonable compensation for services and reimbursement of reasonable expenses from the property of the individual.</P>
+<P>(3) Where the person subject to guardianship or conservatorship is a department of social and health services client, or health care authority client, and is required to contribute a portion of their income towards the cost of long-term care services or room and board, the amount of compensation or reimbursement shall not exceed the amount allowed by the department of social and health services or health care authority by rule.</P>
+<P>(4) Where the person subject to guardianship or conservatorship receives guardianship, conservatorships, or other protective services from the office of public guardianship, the amount of compensation or reimbursement shall not exceed the amount allowed by the office of public guardianship.</P>
+<P>(5) The court must approve compensation and expenses payable under this section before payment. Approval is not required before a service is provided or an expense is incurred.</P>
+<P>(6) If the court dismisses a petition under this chapter and determines the petition was filed in bad faith, the court may assess the cost of any court-ordered professional evaluation<TextRun amendingStyle="add">, court-appointed attorney,</TextRun> or court visitor against the petitioner.</P>
+<History>2020 c 312 § 304; 2019 c 437 § 120.</History>
+<RCWNoteSection>
+<RevNote><NoteP><TextRun fontWeight="bold">*Reviser's note: </TextRun>The "office of public guardianship" was renamed the "office of public guardianship and conservatorship" by 2020 c 312 § 403, effective January 1, 2022.</NoteP></RevNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective dates<TextRun fontFamily="Times New Roman">—</TextRun>2020 c 312:</TextRun> See note following RCW 11.130.915.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>11</TitleNumber><TextRun>.</TextRun><ChapterNumber>130</ChapterNumber><TextRun>.</TextRun><SectionNumber>270</SectionNumber></SectionCite> and 2019 c 437 s 302 are each amended to read as follows:<Caption>Petition for appointment of guardian for adult.</Caption></BillSectionHeader>
+<P>(1) A person interested in an adult's welfare, including the adult for whom the order is sought, may petition for appointment of a guardian for the adult.</P>
+<P>(2) <TextRun amendingStyle="add">A person interested in the welfare of a minor who, within 45 days of the filing of the petition, will attain the age of majority, may petition for appointment of a guardian for the minor. The minor may petition on the minor's own behalf.</TextRun></P>
+<P><TextRun amendingStyle="add">(3)</TextRun> A petition under subsection (1) <TextRun amendingStyle="add">or (2)</TextRun> of this section must state the petitioner's name, principal residence, current street address, if different, relationship to the respondent, interest in the appointment, the name and address of any attorney representing the petitioner, and, to the extent known, the following:</P>
+<P>(a) The respondent's name, age, principal residence, current street address, if different, and, if different, address of the dwelling in which it is proposed the respondent will reside if the petition is granted;</P>
+<P>(b) The name and address of the respondent's:</P>
+<P>(i) Spouse or domestic partner or, if the respondent has none, an adult with whom the respondent has shared household responsibilities for more than six months in the <TextRun amendingStyle="strike">twelve</TextRun> <TextRun amendingStyle="add">12</TextRun>-month period immediately before the filing of the petition;</P>
+<P>(ii) Adult children or, if none, each parent and adult sibling of the respondent, or, if none, at least one adult nearest in kinship to the respondent who can be found with reasonable diligence; <TextRun amendingStyle="strike">and</TextRun></P>
+<P>(iii) Adult stepchildren whom the respondent actively parented during the stepchildren's minor years and with whom the respondent had an ongoing relationship in the two-year period immediately before the filing of the petition; <TextRun amendingStyle="add">and</TextRun></P>
+<P><TextRun amendingStyle="add">(iv) Parents, if living and involved in the respondent's life;</TextRun></P>
+<P>(c) The name and current address of each of the following, if applicable:</P>
+<P>(i) A person responsible for care of the respondent;</P>
+<P>(ii) Any attorney currently representing the respondent;</P>
+<P>(iii) Any representative payee appointed by the social security administration for the respondent;</P>
+<P>(iv) A guardian or conservator acting for the respondent in this state or in another jurisdiction;</P>
+<P>(v) A trustee or custodian of a trust or custodianship of which the respondent is a beneficiary;</P>
+<P>(vi) Any fiduciary for the respondent appointed by the department of veterans affairs;</P>
+<P>(vii) An agent designated under a power of attorney for health care in which the respondent is identified as the principal;</P>
+<P>(viii) An agent designated under a power of attorney for finances in which the respondent is identified as the principal;</P>
+<P>(ix) A person nominated as guardian by the respondent;</P>
+<P>(x) A person nominated as guardian by the respondent's parent or spouse or domestic partner in a will or other signed record;</P>
+<P>(xi) A proposed guardian and the reason the proposed guardian should be selected; and</P>
+<P>(xii) A person known to have routinely assisted the respondent with decision making during the six months immediately before the filing of the petition;</P>
+<P>(d) The reason a guardianship is necessary, including a brief description of:</P>
+<P>(i) The nature and extent of the respondent's alleged need;</P>
+<P>(ii) Any protective arrangement instead of guardianship or other less restrictive alternatives for meeting the respondent's alleged need which have been considered or implemented;</P>
+<P>(iii) If no protective arrangement instead of guardianship or other less restrictive alternatives have been considered or implemented, the reason they have not been considered or implemented; and</P>
+<P>(iv) The reason a protective arrangement instead of guardianship or other less restrictive alternative is insufficient to meet the respondent's alleged need;</P>
+<P>(e) Whether the petitioner seeks a limited guardianship or full guardianship;</P>
+<P>(f) If the petitioner seeks a full guardianship, the reason a limited guardianship or protective arrangement instead of guardianship is not appropriate;</P>
+<P>(g) If a limited guardianship is requested, the powers to be granted to the guardian;</P>
+<P>(h) The name and current address, if known, of any person with whom the petitioner seeks to limit the respondent's contact;</P>
+<P>(i) If the respondent has property other than personal effects, a general statement of the respondent's property, with an estimate of its value, including any insurance or pension, and the source and amount of other anticipated income or receipts; and</P>
+<P>(j) Whether the respondent needs an interpreter, translator, or other form of support to communicate effectively with the court or understand court proceedings.</P>
+<History>2019 c 437 § 302.</History>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>11</TitleNumber><TextRun>.</TextRun><ChapterNumber>130</ChapterNumber><TextRun>.</TextRun><SectionNumber>280</SectionNumber></SectionCite> and 2020 c 312 s 309 are each amended to read as follows:<Caption>Appointment and role of court visitor.</Caption></BillSectionHeader>
+<P>(1) On receipt of a petition under RCW 11.130.270 for appointment of a guardian for an adult, the court shall appoint a court visitor. The court visitor must be an individual with training or experience in the type of abilities, limitations, and needs alleged in the petition.</P>
+<P>(2) The court, in the order appointing a court visitor, shall specify the hourly rate the court visitor may charge for his or her services, and shall specify the maximum amount the court visitor may charge without additional court review and approval. The fee shall be charged to the person subject to a guardianship or conservatorship proceeding unless the court finds that such payment would result in substantial hardship upon such person, in which case the county shall be responsible for such costs: PROVIDED, That the court may charge such fee to the petitioner, the person subject to a guardianship or conservatorship proceeding, or any person who has appeared in the action; or may allocate the fee, as it deems just. If the petition is found to be frivolous or not brought in good faith, the court visitor fee shall be charged to the petitioner. The court shall not be required to provide for the payment of a fee to any salaried employee of a public agency.</P>
+<P>(3)(a) The court visitor appointed under subsection (1) of this section shall within five days of receipt of notice of appointment file with the court and serve, either personally or by certified mail with return receipt, the respondent or his or her legal counsel, the petitioner or his or her legal counsel, and any interested party entitled to notice under RCW 11.130.080 with a statement including: His or her training relating to the duties as a court visitor; his or her criminal history as defined in RCW 9.94A.030 for the period covering <TextRun amendingStyle="strike">ten</TextRun> <TextRun amendingStyle="add">10</TextRun> years prior to the appointment; his or her hourly rate, if compensated; whether the court visitor has had any contact with a party to the proceeding prior to his or her appointment; and whether he or she has an apparent conflict of interest. Within three days of the later of the actual service or filing of the court visitor's statement, any party may set a hearing and file and serve a motion for an order to show cause why the court visitor should not be removed for one of the following three reasons:</P>
+<P>(i) Lack of expertise necessary for the proceeding;</P>
+<P>(ii) An hourly rate higher than what is reasonable for the particular proceeding; or</P>
+<P>(iii) A conflict of interest.</P>
+<P>(b) Notice of the hearing shall be provided to the court visitor and all parties. If, after a hearing, the court enters an order replacing the court visitor, findings shall be included, expressly stating the reasons for the removal. If the court visitor is not removed, the court has the authority to assess to the moving party attorneys' fees and costs related to the motion. The court shall assess attorneys' fees and costs for frivolous motions.</P>
+<P>(4) A court visitor appointed under subsection (1) of this section shall interview the respondent in person and, in a manner the respondent is best able to understand:</P>
+<P>(a) Explain to the respondent the substance of the petition, the nature, purpose, and effect of the proceeding, the respondent's rights at the hearing on the petition, <TextRun amendingStyle="add">the right to counsel of choice and to a jury trial,</TextRun> and the general powers and duties of a guardian;</P>
+<P>(b) Determine <TextRun amendingStyle="add">whether the respondent would like to request the appointment of an attorney, and determine</TextRun> the respondent's views about the appointment sought by the petitioner, including views about a proposed guardian, the guardian's proposed powers and duties, and the scope and duration of the proposed guardianship; and</P>
+<P>(c) Inform the respondent that all costs and expenses of the proceeding, including the respondent's attorney's fees, may be paid from the respondent's assets.</P>
+<P>(5) <TextRun amendingStyle="add">If the respondent objects to the petition or requests appointment of an attorney, the court visitor shall petition the court to have an attorney appointed within five days of meeting the respondent.</TextRun></P>
+<P><TextRun amendingStyle="add">(6)</TextRun> The court visitor appointed under subsection (1) of this section shall:</P>
+<P>(a) Interview the petitioner and proposed guardian, if any;</P>
+<P>(b) Visit the respondent's present dwelling and any dwelling in which it is reasonably believed the respondent will live if the appointment is made;</P>
+<P>(c) Obtain information from any physician or other person known to have treated, advised, or assessed the respondent's relevant physical or mental condition; and</P>
+<P>(d) Investigate the allegations in the petition and any other matter relating to the petition the court directs.</P>
+<P><TextRun amendingStyle="strike">(6)</TextRun> <TextRun amendingStyle="add">(7)</TextRun> A court visitor appointed under subsection (1) of this section shall file a report in a record with the court and provide a copy of the report to the respondent, petitioner, and any interested party entitled to notice under RCW 11.130.080 at least <TextRun amendingStyle="strike">fifteen</TextRun> <TextRun amendingStyle="add">15</TextRun> days prior to the hearing on the petition filed under RCW 11.130.270, which must include:</P>
+<P>(a) A summary of self-care and independent living tasks the respondent can manage without assistance or with existing supports, could manage with the assistance of appropriate supportive services, technological assistance, or supported decision making, and cannot manage;</P>
+<P>(b) A recommendation regarding the appropriateness of guardianship, including whether a protective arrangement instead of guardianship or other less restrictive alternative for meeting the respondent's needs is available and:</P>
+<P>(i) If a guardianship is recommended, whether it should be full or limited; and</P>
+<P>(ii) If a limited guardianship is recommended, the powers to be granted to the guardian;</P>
+<P>(c) A statement of the qualifications of the proposed guardian and whether the respondent approves or disapproves of the proposed guardian;</P>
+<P>(d) A statement whether the proposed dwelling meets the respondent's needs and whether the respondent has expressed a preference as to residence;</P>
+<P>(e) A statement whether the respondent declined a professional evaluation under RCW 11.130.290 and what other information is available to determine the respondent's needs and abilities without the professional evaluation;</P>
+<P>(f) A statement whether the respondent is able to attend a hearing at the location court proceedings typically are held;</P>
+<P>(g) A statement whether the respondent is able to participate in a hearing and which identifies any technology or other form of support that would enhance the respondent's ability to participate; and</P>
+<P>(h) Any other matter the court directs.</P>
+<P><TextRun amendingStyle="strike">(7)</TextRun> <TextRun amendingStyle="add">(8)</TextRun> The appointment of a court visitor has no effect on the determination of the adult respondent's legal capacity and does not overcome the presumption of legal capacity or full legal and civil rights of the adult respondent.</P>
+<History>2020 c 312 § 309; 2019 c 437 § 304.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective dates<TextRun fontFamily="Times New Roman">—</TextRun>2020 c 312:</TextRun> See note following RCW 11.130.915.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>5</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>11</TitleNumber><TextRun>.</TextRun><ChapterNumber>130</ChapterNumber><TextRun>.</TextRun><SectionNumber>315</SectionNumber></SectionCite> and 2019 c 437 s 311 are each amended to read as follows:<Caption>Notice of order of appointment—Rights.</Caption></BillSectionHeader>
+<P><TextRun amendingStyle="strikemarkleft">(1) A guardian appointed under RCW 11.130.305 shall give the adult subject to guardianship and all other persons given notice under RCW 11.130.275 a copy of the order of appointment, together with notice of the right to request termination or modification. The order and notice must be given not later than fourteen days after the appointment.</TextRun></P>
+<P><TextRun amendingStyle="strikemarkright">(2)</TextRun> Not later than <TextRun amendingStyle="strike">thirty</TextRun> <TextRun amendingStyle="add">14</TextRun> days after appointment of a guardian under RCW 11.130.305, the guardian shall give to the adult subject to guardianship and any other person entitled to notice under RCW 11.130.310 (5) <TextRun amendingStyle="add">or (6)</TextRun> or a subsequent order <TextRun amendingStyle="add">a copy of the order of appointment and</TextRun> a statement of the rights of the adult subject to guardianship and procedures to seek relief if the adult is denied those rights. The statement must be in at least sixteen-point font, in plain language, and, to the extent feasible, in a language in which the adult subject to guardianship is proficient. The statement must notify the adult subject to guardianship of the right to:</P>
+<P><TextRun amendingStyle="strike">(a)</TextRun> <TextRun amendingStyle="add">(1)</TextRun> Seek termination or modification of the guardianship, or removal of the guardian, and choose an attorney to represent the adult in these matters;</P>
+<P><TextRun amendingStyle="strike">(b)</TextRun> <TextRun amendingStyle="add">(2)</TextRun> Be involved in decisions affecting the adult, including decisions about the adult's care, dwelling, activities, or social interactions, to the extent reasonably feasible;</P>
+<P><TextRun amendingStyle="strike">(c)</TextRun> <TextRun amendingStyle="add">(3)</TextRun> Be involved in health care decision making to the extent reasonably feasible and supported in understanding the risks and benefits of health care options to the extent reasonably feasible;</P>
+<P><TextRun amendingStyle="strike">(d)</TextRun> <TextRun amendingStyle="add">(4)</TextRun> Be notified at least fourteen days before a change in the adult's primary dwelling or permanent move to a nursing home, mental health facility, or other facility that places restrictions on the individual's ability to leave or have visitors unless the change or move is proposed in the guardian's plan under RCW 11.130.340 or authorized by the court by specific order;</P>
+<P><TextRun amendingStyle="strike">(e)</TextRun> <TextRun amendingStyle="add">(5)</TextRun> Object to a change or move described in <TextRun amendingStyle="strike">(d) of this</TextRun> subsection <TextRun amendingStyle="add">(4) of this section</TextRun> and the process for objecting;</P>
+<P><TextRun amendingStyle="strike">(f)</TextRun> <TextRun amendingStyle="add">(6)</TextRun> Communicate, visit, or interact with others, including receiving visitors, and making or receiving telephone calls, personal mail, or electronic communications, including through social media, unless:</P>
+<P><TextRun amendingStyle="strike">(i)</TextRun> <TextRun amendingStyle="add">(a)</TextRun> The guardian has been authorized by the court by specific order to restrict communications, visits, or interactions;</P>
+<P><TextRun amendingStyle="strike">(ii)</TextRun> <TextRun amendingStyle="add">(b)</TextRun> A protective order or protective arrangement instead of guardianship is in effect that limits contact between the adult and a person; or</P>
+<P><TextRun amendingStyle="strike">(iii)</TextRun> <TextRun amendingStyle="add">(c)</TextRun> The guardian has good cause to believe restriction is necessary because interaction with a specified person poses a risk of significant physical, psychological, or financial harm to the adult, and the restriction is:</P>
+<P><TextRun amendingStyle="strike">(A)</TextRun> <TextRun amendingStyle="add">(i)</TextRun> For a period of not more than seven business days if the person has a relative or preexisting social relationship with the adult; or</P>
+<P><TextRun amendingStyle="strike">(B)</TextRun> <TextRun amendingStyle="add">(ii)</TextRun> For a period of not more than sixty days if the person does not have a relative or preexisting social relationship with the adult;</P>
+<P><TextRun amendingStyle="strike">(g)</TextRun> <TextRun amendingStyle="add">(7)</TextRun> Receive a copy of the guardian's plan under RCW 11.130.340 and the guardian's report under RCW 11.130.345;</P>
+<P><TextRun amendingStyle="strike">(h)</TextRun> <TextRun amendingStyle="add">(8)</TextRun> Object to the guardian's plan or report; and</P>
+<P><TextRun amendingStyle="strike">(i)</TextRun> <TextRun amendingStyle="add">(9)</TextRun> Associate with persons of their choosing as provided in RCW 11.130.335(5).</P>
+<History>2019 c 437 § 311.</History>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>6</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>11</TitleNumber><TextRun>.</TextRun><ChapterNumber>130</ChapterNumber><TextRun>.</TextRun><SectionNumber>320</SectionNumber></SectionCite> and 2020 c 312 s 204 are each amended to read as follows:<Caption>Emergency guardian for adult.</Caption></BillSectionHeader>
+<P>(1) A person interested in an adult's welfare, including the adult for whom the order is sought, may petition for appointment of an emergency guardian for the adult.</P>
+<P>(2) An emergency petition under subsection (1) of this section must state the petitioner's name, principal residence, and current street address, if different, and<TextRun amendingStyle="strike">[,]</TextRun><TextRun amendingStyle="add">,</TextRun> to the extent known, the following:</P>
+<P>(a) The respondent's name, age, principal residence<TextRun amendingStyle="strike">[,]</TextRun><TextRun amendingStyle="add">,</TextRun> and current street address, if different;</P>
+<P>(b) The name and address of the respondent's:</P>
+<P>(i) Spouse or domestic partner or, if the respondent has none, an adult with whom the respondent has shared household responsibilities for more than six months in the twelve-month period immediately before the filing of the emergency petition;</P>
+<P>(ii) Adult children or, if none, each parent and adult sibling of the respondent, or, if none, at least one adult nearest in kinship to the respondent who can be found with reasonable diligence; and</P>
+<P>(iii) Adult stepchildren whom the respondent actively parented during the stepchildren's minor years and with whom the respondent had an ongoing relationship in the two-year period immediately before the filing of the emergency petition;</P>
+<P>(c) The name and current address of each of the following, if applicable:</P>
+<P>(i) A person responsible for care of the respondent;</P>
+<P>(ii) Any attorney currently representing the respondent;</P>
+<P>(iii) Any representative payee appointed by the social security administration for the respondent;</P>
+<P>(iv) A guardian or conservator acting for the respondent in this state or in another jurisdiction;</P>
+<P>(v) A trustee or custodian of a trust or custodianship of which the respondent is a beneficiary;</P>
+<P>(vi) Any fiduciary for the respondent appointed by the department of veterans affairs;</P>
+<P>(vii) Any representative payee or authorized representative or protective payee;</P>
+<P>(viii) An agent designated under a power of attorney for health care in which the respondent is identified as the principal;</P>
+<P>(ix) An agent designated under a power of attorney for finances in which the respondent is identified as the principal;</P>
+<P>(x) A person nominated as guardian by the respondent;</P>
+<P>(xi) A person nominated as guardian by the respondent's parent or spouse or domestic partner in a will or other signed record;</P>
+<P>(xii) A proposed emergency guardian, and the reason the proposed emergency guardian should be selected; and</P>
+<P>(xiii) A person known to have routinely assisted the respondent with decision making during the six months immediately before the filing of the emergency petition;</P>
+<P>(d) The reason an emergency guardianship is necessary, including a specific description of:</P>
+<P>(i) The nature and extent of the emergency situation;</P>
+<P>(ii) The nature and extent of the respondent's alleged emergency need that arose because of the emergency situation;</P>
+<P>(iii) The substantial and irreparable harm to the respondent's health, safety, welfare, or rights that is likely to be prevented by the appointment of an emergency guardian;</P>
+<P>(iv) All protective arrangements or other less restrictive alternatives that have been considered or implemented to meet the respondent's alleged emergency need instead of emergency guardianship;</P>
+<P>(v) If no protective arrangements or other less restrictive alternatives have been considered or implemented instead of emergency guardianship, the reason they have not been considered or implemented; and</P>
+<P>(vi) The reason a protective arrangement or other less restrictive alternative instead of emergency guardianship is insufficient to meet the respondent's alleged emergency need;</P>
+<P>(e) The reason the petitioner believes that a basis for appointment of a guardian under RCW 11.130.265 exists;</P>
+<P>(f) Whether the petitioner intends to also seek guardianship for an adult under RCW 11.130.270;</P>
+<P>(g) The reason the petitioner believes that no other person appears to have authority and willingness to act to address the respondent's identified needs caused by the emergency circumstances;</P>
+<P>(h) The specific powers to be granted to the proposed emergency guardian and a description of how those powers will be used to meet the respondent's alleged emergency need;</P>
+<P>(i) If the respondent has property other than personal effects, a general statement of the respondent's property, with an estimate of its value, including any insurance or pension, and the source and amount of other anticipated income or receipts; and</P>
+<P>(j) Whether the respondent needs an interpreter, translator, or other form of support to communicate effectively with the court or understand court proceedings.</P>
+<P>(3) The requirements of RCW 11.130.090 apply to an emergency guardian appointed for an adult with the following exceptions for any proposed emergency guardian required to complete the training under RCW 11.130.090:</P>
+<P>(a) The proposed emergency guardian shall present evidence of the successful completion of the required training video or web cast to the court no later than the hearing on the petition for appointment of an emergency guardian for an adult; and</P>
+<P>(b) The superior court may defer the completion of the training requirement to a date no later than fourteen days after appointment if the petitioner requests an extension of time to complete the training due to emergent circumstances beyond the control of <TextRun amendingStyle="strike">[the]</TextRun> <TextRun amendingStyle="add">the</TextRun> petitioner.</P>
+<P>(4) On its own after a petition has been filed under RCW 11.130.270, or on petition for appointment of an emergency guardian for an adult, the court may appoint an emergency guardian for the adult if the court makes specific findings based on clear and convincing evidence that:</P>
+<P>(a) An emergency exists such that appointment of an emergency guardian is likely to prevent substantial and irreparable harm to the adult's physical health, safety, or welfare;</P>
+<P>(b) The respondent's identified needs caused by the emergency cannot be met by a protective arrangement or other less restrictive alternative instead of emergency guardianship;</P>
+<P>(c) No other person appears to have authority and willingness to act to address the respondent's identified needs caused by the emergency circumstances; and</P>
+<P>(d) There is reason to believe that a basis for appointment of a guardian under RCW 11.130.265 exists.</P>
+<P>(5) If the court acts on its own to appoint an emergency guardian after a petition has been filed under RCW 11.130.270, all requirements of this section shall be met.</P>
+<P>(6) A court order appointing an emergency guardian for an adult shall:</P>
+<P>(a) Grant only the specific powers necessary to meet the adult's identified emergency need and to prevent substantial and irreparable harm to the adult's physical health, safety, or welfare;</P>
+<P>(b) Include a specific finding that clear and convincing evidence established that an emergency exists such that appointment of an emergency guardian is likely to prevent substantial and irreparable harm to the respondent's health, safety, or welfare;</P>
+<P>(c) Include a specific finding that the identified emergency need of the respondent cannot be met by a protective arrangement instead of guardianship or other less restrictive alternative, including any relief available under chapter 74.34 RCW or use of appropriate supportive services, technological assistance, or supported decision making;</P>
+<P>(d) Include a specific finding that clear and convincing evidence established the respondent was given proper notice of the hearing on the petition;</P>
+<P>(e) State that the adult subject to emergency guardianship retains all rights the adult enjoyed prior to the emergency guardianship with the exception of the rights not retained during the period of emergency guardianship;</P>
+<P>(f) Include the date that the sixty-day period of emergency guardianship ends, and the date the emergency guardian's report, required by this section, is due to the court; and</P>
+<P>(g) Identify any person or notice party that subsequently is entitled to:</P>
+<P>(i) Notice of the rights of the adult;</P>
+<P>(ii) Notice of a change in the primary dwelling of the adult;</P>
+<P>(iii) Notice of the removal of the guardian;</P>
+<P>(iv) A copy of the emergency guardian's plan and the emergency guardian's report under this section;</P>
+<P>(v) Access to court records relating to the emergency guardianship;</P>
+<P>(vi) Notice of the death or significant change in the condition of the adult;</P>
+<P>(vii) Notice that the court has limited or modified the powers of the emergency guardian; and</P>
+<P>(viii) Notice of the removal of the emergency guardian.</P>
+<P>(7) A spouse, a domestic partner, and adult children of an adult subject to emergency guardianship are entitled to notice under this section unless the court orders otherwise based on good cause. Good cause includes the court's determination that notice would be contrary to the preferences or prior directions of the adult subject to emergency guardianship or not in the best interest of the adult subject to the emergency guardianship.</P>
+<P>(8) The duration of authority of an emergency guardian for an adult may not exceed sixty days, and the emergency guardian may exercise only the powers specified in the order of appointment. Upon a motion by the petitioner, adult subject to emergency guardianship, court visitor, or the emergency guardian, with notice served upon all applicable notice parties, the emergency guardian's authority may be extended once for not more than sixty days if the court finds that the conditions for appointment of an emergency guardian in subsection (4) of this section continue.</P>
+<P>(9) Immediately on filing of a petition for appointment of an emergency guardian for an adult, the court shall appoint an attorney to represent the respondent in the proceeding. Except as otherwise provided in subsection (10) of this section, an order appointing an emergency guardian for the respondent may not be entered unless the respondent, the respondent's attorney, and the court visitor appointed under subsection (11) of this section have received a minimum of fourteen days' notice of the date, time, and place of a hearing on the petition. <TextRun amendingStyle="strike">A</TextRun> <TextRun amendingStyle="add">The petitioner must cause a</TextRun> copy of the emergency petition and notice of a hearing on the petition <TextRun amendingStyle="strike">must be served personally</TextRun> <TextRun amendingStyle="add">to be personally served</TextRun> on the respondent, the respondent's attorney, and the court visitor not more than two court days after the petition has been filed. The notice must inform the respondent of the respondent's rights at the hearing, including the right to an attorney and to attend the hearing. The notice must include a description of the nature, purpose, and consequences of granting the emergency petition. The court shall not grant the emergency petition if notice substantially complying with this subsection is not served on the respondent.</P>
+<P>(10) The court may appoint an emergency guardian for an adult without notice to the adult and any attorney for the adult only if the court finds from an affidavit or testimony that the respondent's physical health, safety, or welfare will be substantially harmed before a hearing with notice on the appointment can be held. If the court appoints an emergency guardian without giving notice under subsection (9) of this section, the court must:</P>
+<P>(a) Give notice of the appointment not later than forty-eight hours after the appointment to:</P>
+<P>(i) The respondent;</P>
+<P>(ii) The respondent's attorney; and</P>
+<P>(iii) Any other person the court determines; and</P>
+<P>(b) <TextRun amendingStyle="strike">Hold</TextRun> <TextRun amendingStyle="add">Schedule and hold</TextRun> a hearing on the appropriateness of the appointment not later than five days after the appointment.</P>
+<P>(11) On receipt of a petition for appointment of emergency guardian for an adult, the court shall appoint a court visitor. <TextRun amendingStyle="strike">Notice</TextRun> <TextRun amendingStyle="add">The petitioner must cause notice</TextRun> of appointment of the court visitor <TextRun amendingStyle="strike">must</TextRun> <TextRun amendingStyle="add">to</TextRun> be served upon the court visitor within two days of appointment. The court visitor must be an individual with training or experience in the type of abilities, limitations, and needs alleged in the emergency petition. The court, in the order appointing a court visitor, shall specify the hourly rate the <TextRun amendingStyle="strike">[court]</TextRun> <TextRun amendingStyle="add">court</TextRun> visitor may charge for his or her services, and shall specify the maximum amount the court visitor may charge without additional court review and approval.</P>
+<P>(a) The court visitor shall within two days of service of notice of appointment file with the court and serve, either personally or by certified mail with return receipt, the respondent or the respondent's legal counsel, the petitioner or the petitioner's legal counsel, and any notice party with a statement including the court visitor's: Training relating to the duties as a court visitor; criminal history as defined in RCW 9.94A.030 for the period covering ten years prior to the appointment; hourly rate, if compensated; contact, if any, with a party to the proceeding prior to appointment; and apparent or actual conflicts of interest.</P>
+<P>(b) A court visitor appointed under this section shall use due diligence to attempt to interview the respondent in person and, in a manner the respondent is best able to understand:</P>
+<P>(i) Explain to the respondent the substance of the emergency petition, the nature, purpose, and effect of the proceeding, the respondent's rights at the hearing on the petition, and the proposed specific powers and duties of the proposed guardian as stated in the emergency petition;</P>
+<P>(ii) Determine the respondent's views about the emergency appointment sought by the petitioner, including views about a proposed emergency guardian, the emergency guardian's proposed powers and duties, and the scope and duration of the proposed emergency guardianship; and</P>
+<P>(iii) Inform the respondent that all costs and expenses of the proceeding, including but not limited to the respondent's attorneys' fees, the appointed guardian's fees, and the appointed guardian's attorneys' fees, will be paid from the respondent's assets upon approval by the court.</P>
+<P>(c) The court visitor appointed under this section shall:</P>
+<P>(i) Interview the petitioner and proposed emergency guardian;</P>
+<P>(ii) Use due diligence to attempt to visit the respondent's present dwelling;</P>
+<P>(iii) Use due diligence to attempt to obtain information from any physician or other person known to have treated, advised, or assessed the respondent's relevant physical or mental condition; and</P>
+<P>(iv) Investigate the allegations in the emergency petition and any other matter relating to the emergency petition the court directs.</P>
+<P>(d) A court visitor appointed under this section shall file a report in a record with the court and provide a copy of the report to the respondent, petitioner, and any notice party at least seven days prior to the hearing on the emergency petition, which must include:</P>
+<P>(i) A summary of self-care and independent living tasks the respondent can manage without assistance or with existing supports, could manage with the assistance of appropriate supportive services, technological assistance, or supported decision making, and cannot manage;</P>
+<P>(ii) A recommendation regarding the appropriateness of emergency guardianship, including whether a protective arrangement instead of guardianship or other less restrictive alternative for meeting the respondent's needs is available, and if an emergency guardianship is recommended;</P>
+<P>(iii) A detailed summary of the alleged emergency and the substantial and irreparable harm to the respondent's health, safety, welfare, or rights that is likely to be prevented by the appointment of an emergency guardian;</P>
+<P>(iv) A statement as to whether the alleged emergency and the respondent's alleged needs are likely to require an extension of sixty days as authorized under this section;</P>
+<P>(v) The specific powers to be granted to the emergency guardian and how the specific powers will address the alleged emergency and the respondent's alleged need;</P>
+<P>(vi) A recommendation regarding the appropriateness of an ongoing guardianship for an adult, including whether a protective arrangement instead of guardianship or other less restrictive alternative for meeting the respondent's needs is available;</P>
+<P>(vii) A statement of the qualifications of the proposed emergency guardian and whether the respondent approves or disapproves of the proposed emergency guardian, and the reasons for such approval or disapproval;</P>
+<P>(viii) A recommendation whether a professional evaluation under RCW 11.130.290 is necessary;</P>
+<P>(ix) A statement whether the respondent is able to attend a hearing at the location court proceedings typically are held;</P>
+<P>(x) A statement whether the respondent is able to participate in a hearing which identifies any technology or other form of support that would enhance the respondent's ability to participate;</P>
+<P>(xi) A statement, as needed when the petition seeks emergency authority to change the respondent's place of dwelling, as to whether the proposed dwelling meets the respondent's needs and whether the respondent has expressed a preference as to residence; and</P>
+<P>(xii) Any other matter the court directs.</P>
+<P>(12) An emergency guardian shall:</P>
+<P>(a) Comply with the requirements of RCW 11.130.325, the requirements regarding the adult's right to association under RCW 11.130.335, and the requirements of this chapter that pertain to the rights of an adult subject to guardianship;</P>
+<P>(b) Not have authority to make decisions or take actions that a guardian for an adult is prohibited by law from having; and</P>
+<P>(c) Be subject to the same special limitations on a guardian's power that apply to a guardian for an adult.</P>
+<P>(13) Appointment of an emergency guardian under this section is not a determination that a basis exists for appointment of a guardian under RCW 11.130.265.</P>
+<P>(14) The court may remove an emergency guardian appointed under this section at any time.</P>
+<P>(15) The emergency guardian shall file a report in a record with the court and provide a copy of the report to the adult subject to emergency guardianship, and any notice party no later than forty-five days after appointment. The report shall include specific and updated information regarding the emergency alleged in the emergency petition, the adult's emergency needs, all actions and decisions by the emergency guardian, and a recommendation as to whether a guardian for an adult should be appointed. If the appointment of the emergency guardian is extended for an additional sixty days, the emergency guardian shall file a second report in a record with the court and provide a copy of the report to the adult subject to emergency guardianship, and any notice party no later than forty-five days after extension of the appointment is granted by the court, which shall include the same information required for the first report. The emergency guardian shall make any other report the court requires.</P>
+<P>(16) The court shall issue letters of emergency guardianship to the emergency guardian in compliance with RCW 11.130.040. Such letters shall be issued on an expedited basis.</P>
+<History>2020 c 312 § 204; 2019 c 437 § 312.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective dates<TextRun fontFamily="Times New Roman">—</TextRun>2020 c 312:</TextRun> See note following RCW 11.130.915.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>7</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>11</TitleNumber><TextRun>.</TextRun><ChapterNumber>130</ChapterNumber><TextRun>.</TextRun><SectionNumber>345</SectionNumber></SectionCite> and 2020 c 312 s 208 are each amended to read as follows:<Caption>Guardian's report<TextRun fontFamily="Times New Roman">—</TextRun>Monitoring of guardianship.</Caption></BillSectionHeader>
+<P>(1) A guardian for an adult shall file with the court by the date established by the court a report in a record regarding the condition of the adult and accounting for funds and other property in the guardian's possession or subject to the guardian's control. The guardian shall provide a copy of the report to the adult subject to guardianship and any other notice party.</P>
+<P>(2) A report under subsection (1) of this section must state or contain:</P>
+<P>(a) The mental, physical, and social condition of the adult;</P>
+<P>(b) The living arrangements of the adult during the reporting period;</P>
+<P>(c) A summary of the supported decision making, technological assistance, medical services, educational and vocational services, and other supports and services provided to the adult and the guardian's opinion as to the adequacy of the adult's care;</P>
+<P>(d) A summary of the guardian's visits with the adult, including the dates of the visits;</P>
+<P>(e) Action taken on behalf of the adult;</P>
+<P>(f) The extent to which the adult has participated in decision making;</P>
+<P>(g) If the adult is living in a care setting, whether the guardian considers the facility's current plan for support, care, treatment, or habilitation consistent with the adult's preferences, values, prior directions, and best interests;</P>
+<P>(h) Anything of more than de minimis value which the guardian, any individual who resides with the guardian, or the spouse, domestic partner, parent, child, or sibling of the guardian has received from an individual providing goods or services to the adult. A professional guardian must abide by the standards of practice regarding the acceptance of gifts;</P>
+<P>(i) If the guardian delegated a power to an agent, the power delegated and the reason for the delegation;</P>
+<P>(j) Any business relation the guardian has with a person the guardian has paid or that has benefited from the property of the adult;</P>
+<P>(k) A copy of the guardian's most recently approved plan under RCW 11.130.340 and a statement whether the guardian has deviated from the plan and, if so, how the guardian has deviated and why;</P>
+<P>(l) Plans for future care and support of the adult;</P>
+<P>(m) A recommendation as to the need for continued guardianship and any recommended change in the scope of the guardianship; and</P>
+<P>(n) Whether any co-guardian or successor guardian appointed to serve when a designated event occurs is alive and able to serve.</P>
+<P>(3) The court may appoint a court visitor to review a report submitted under this section or a guardian's plan submitted under RCW 11.130.340, interview the guardian or adult subject to guardianship, or investigate any other matter involving the guardianship.</P>
+<P>(4) Notice of the filing under this section of a guardian's report, together with a copy of the report, must be given to the adult subject to guardianship and any other notice party. The notice and report must be given not later than fourteen days after the filing.</P>
+<P>(5) The court shall establish procedures for monitoring a report submitted under this section and review each report to determine whether:</P>
+<P>(a) The report provides sufficient information to establish the guardian has complied with the guardian's duties;</P>
+<P>(b) The guardianship should continue; and</P>
+<P>(c) The guardian's requested fees, if any, should be approved.</P>
+<P>(6) If the court determines there is reason to believe a guardian for an adult has not complied with the guardian's duties or the guardianship should be modified or terminated, the court:</P>
+<P>(a) Shall notify the adult, the guardian, and any other person entitled to notice under RCW 11.130.310(5) or a subsequent order;</P>
+<P>(b) May require additional information from the guardian;</P>
+<P>(c) May appoint a court visitor to interview the adult or guardian or investigate any matter involving the guardianship; and</P>
+<P>(d) Consistent with this section and RCW 11.130.350, may hold a hearing to consider removal of the guardian, termination of the guardianship, or a change in the powers granted to the guardian or terms of the guardianship.</P>
+<P>(7) If the court has reason to believe fees requested by a guardian for an adult are not reasonable, the court shall hold a hearing to determine whether to adjust the requested fees.</P>
+<P>(8) A guardian for an adult must petition the court for approval of a report filed under this section. The court after review may approve the report. If the court approves the report, there is a rebuttable presumption the report is accurate as to a matter adequately disclosed in the report.</P>
+<P>(9) If the court approves a report filed under this section, the order approving the report shall set the due date for the filing of the next report to be filed under this section. The court may set the review interval at annual, biennial, or triennial with the report due date to be within ninety days of the anniversary date of appointment. When determining the report interval, the court can consider: The length of time the guardian has been serving the person under guardianship; whether the guardian has timely filed all required reports with the court; whether the guardian is monitored by other state or local agencies; and whether there have been any allegations of abuse, neglect, or a breach of fiduciary duty against the guardian.</P>
+<P>(10) If the court approves a report filed under this section, the order approving the report shall contain a guardianship summary or be accompanied by a guardianship summary in the form or substantially in the same form as set forth in RCW 11.130.665.</P>
+<P>(11) If the court approves a report filed under this section, the order approving the report shall direct the clerk of the court to reissue letters of office in the form or substantially in the same form as set forth in RCW 11.130.660 to the guardian containing an expiration date which will be within <TextRun amendingStyle="strike">one hundred twenty</TextRun> <TextRun amendingStyle="add">180</TextRun> days <TextRun amendingStyle="strike">after the date the court directs the guardian file its next report</TextRun> <TextRun amendingStyle="add">of the anniversary date of appointment</TextRun>.</P>
+<P>(12) Any requirement to establish a monitoring program under this section is subject to appropriation.</P>
+<History>2020 c 312 § 208; 2019 c 437 § 318.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective dates<TextRun fontFamily="Times New Roman">—</TextRun>2020 c 312:</TextRun> See note following RCW 11.130.915.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>8</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>11</TitleNumber><TextRun>.</TextRun><ChapterNumber>130</ChapterNumber><TextRun>.</TextRun><SectionNumber>365</SectionNumber></SectionCite> and 2019 c 437 s 402 are each amended to read as follows:<Caption>Petition for appointment of conservator.</Caption></BillSectionHeader>
+<P>(1) The following may petition for the appointment of a conservator:</P>
+<P>(a) The individual for whom the order is sought;</P>
+<P>(b) A person interested in the estate, financial affairs, or welfare of the individual, including a person that would be adversely affected by lack of effective management of property or financial affairs of the individual; or</P>
+<P>(c) The guardian for the individual.</P>
+<P>(2) A petition under subsection (1) of this section must state the petitioner's name, principal residence, current street address, if different, relationship to the respondent, interest in the appointment, the name and address of any attorney representing the petitioner, and, to the extent known, the following:</P>
+<P>(a) The respondent's name, age, principal residence, current street address, if different, and, if different, address of the dwelling in which it is proposed the respondent will reside if the petition is granted;</P>
+<P>(b) The name and address of the respondent's:</P>
+<P>(i) Spouse or domestic partner or, if the respondent has none, an adult with whom the respondent has shared household responsibilities for more than six months in the twelve-month period before the filing of the petition;</P>
+<P>(ii) Adult children or, if none, each parent and adult sibling of the respondent, or, if none, at least one adult nearest in kinship to the respondent who can be found with reasonable diligence; <TextRun amendingStyle="strike">and</TextRun></P>
+<P>(iii) Adult stepchildren whom the respondent actively parented during the stepchildren's minor years and with whom the respondent had an ongoing relationship during the two years immediately before the filing of the petition<TextRun amendingStyle="add">; and</TextRun></P>
+<P><TextRun amendingStyle="add">(iv) Parents, if living and involved in the respondent's life</TextRun>;</P>
+<P>(c) The name and current address of each of the following, if applicable:</P>
+<P>(i) A person responsible for the care or custody of the respondent;</P>
+<P>(ii) Any attorney currently representing the respondent;</P>
+<P>(iii) The representative payee appointed by the social security administration for the respondent;</P>
+<P>(iv) A guardian or conservator acting for the respondent in this state or another jurisdiction;</P>
+<P>(v) A trustee or custodian of a trust or custodianship of which the respondent is a beneficiary;</P>
+<P>(vi) The fiduciary appointed for the respondent by the department of veterans affairs;</P>
+<P>(vii) An agent designated under a power of attorney for health care in which the respondent is identified as the principal;</P>
+<P>(viii) An agent designated under a power of attorney for finances in which the respondent is identified as the principal;</P>
+<P>(ix) A person known to have routinely assisted the respondent with decision making in the six-month period immediately before the filing of the petition;</P>
+<P>(x) Any proposed conservator, including a person nominated by the respondent, if the respondent is twelve years of age or older; and</P>
+<P>(xi) If the individual for whom a conservator is sought is a minor:</P>
+<P>(A) An adult not otherwise listed with whom the minor resides; and</P>
+<P>(B) Each person not otherwise listed that had primary care or custody of the minor for at least sixty days during the two years immediately before the filing of the petition or for at least seven hundred thirty days during the five years immediately before the filing of the petition;</P>
+<P>(d) A general statement of the respondent's property with an estimate of its value, including any insurance or pension, and the source and amount of other anticipated income or receipts;</P>
+<P>(e) The reason conservatorship is necessary, including a brief description of:</P>
+<P>(i) The nature and extent of the respondent's alleged need;</P>
+<P>(ii) If the petition alleges the respondent is missing, detained, or unable to return to the United States, the relevant circumstances, including the time and nature of the disappearance or detention and any search or inquiry concerning the respondent's whereabouts;</P>
+<P>(iii) Any protective arrangement instead of conservatorship or other less restrictive alternative for meeting the respondent's alleged need which has been considered or implemented;</P>
+<P>(iv) If no protective arrangement or other less restrictive alternatives have been considered or implemented, the reason it has not been considered or implemented; and</P>
+<P>(v) The reason a protective arrangement or other less restrictive alternative is insufficient to meet the respondent's need;</P>
+<P>(f) Whether the petitioner seeks a limited conservatorship or a full conservatorship;</P>
+<P>(g) If the petitioner seeks a full conservatorship, the reason a limited conservatorship or protective arrangement instead of conservatorship is not appropriate;</P>
+<P>(h) If the petition includes the name of a proposed conservator, the reason the proposed conservator should be appointed;</P>
+<P>(i) If the petition is for a limited conservatorship, a description of the property to be placed under the conservator's control and any requested limitation on the authority of the conservator;</P>
+<P>(j) Whether the respondent needs an interpreter, translator, or other form of support to communicate effectively with the court or understand court proceedings; and</P>
+<P>(k) The name and address of an attorney representing the petitioner, if any.</P>
+<History>2019 c 437 § 402.</History>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>9</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>11</TitleNumber><TextRun>.</TextRun><ChapterNumber>130</ChapterNumber><TextRun>.</TextRun><SectionNumber>380</SectionNumber></SectionCite> and 2020 c 312 s 310 are each amended to read as follows:<Caption>Appointment and role of court visitor.</Caption></BillSectionHeader>
+<P>(1) If the respondent in a proceeding to appoint a conservator is a minor, the court may appoint a court visitor to investigate a matter related to the petition or inform the minor or a parent of the minor about the petition or a related matter.</P>
+<P>(2) If the respondent in a proceeding to appoint a conservator is an adult, the court shall appoint a court visitor. The duties and reporting requirements of the court visitor are limited to the relief requested in the petition. The court visitor must be an individual with training or experience in the type of abilities, limitations, and needs alleged in the petition.</P>
+<P>(3) The court, in the order appointing court visitor, shall specify the hourly rate the court visitor may charge for his or her services, and shall specify the maximum amount the court visitor may charge without additional court review and approval. The fee shall be charged to the person subject to a guardianship or conservatorship proceeding unless the court finds that such payment would result in substantial hardship upon such person, in which case the county shall be responsible for such costs: PROVIDED, That the court may charge such fee to the petitioner, the person subject to a guardianship or conservatorship proceeding, or any person who has appeared in the action; or may allocate the fee, as it deems just. If the petition is found to be frivolous or not brought in good faith, the court visitor fee shall be charged to the petitioner. The court shall not be required to provide for the payment of a fee to any salaried employee of a public agency.</P>
+<P>(4)(a) The court visitor appointed under subsection (1) or (2) of this section shall within five days of receipt of notice of appointment file with the court and serve, either personally or by certified mail with return receipt, the respondent or his or her legal counsel, the petitioner or his or her legal counsel, and any interested party entitled to notice under RCW 11.130.080 with a statement including: His or her training relating to the duties as a court visitor; his or her criminal history as defined in RCW 9.94A.030 for the period covering ten years prior to the appointment; his or her hourly rate, if compensated; whether the court visitor has had any contact with a party to the proceeding prior to his or her appointment; and whether he or she has an apparent conflict of interest. Within three days of the later of the actual service or filing of the court visitor's statement, any party may set a hearing and file and serve a motion for an order to show cause why the court visitor should not be removed for one of the following three reasons:</P>
+<P>(i) Lack of expertise necessary for the proceeding;</P>
+<P>(ii) An hourly rate higher than what is reasonable for the particular proceeding; or</P>
+<P>(iii) A conflict of interest.</P>
+<P>(b) Notice of the hearing shall be provided to the court visitor and all parties. If, after a hearing, the court enters an order replacing the court visitor, findings shall be included, expressly stating the reasons for the removal. If the court visitor is not removed, the court has the authority to assess to the moving party attorneys' fees and costs related to the motion. The court shall assess attorneys' fees and costs for frivolous motions.</P>
+<P>(5) A court visitor appointed under subsection (2) of this section for an adult shall interview the respondent in person and in a manner the respondent is best able to understand:</P>
+<P>(a) Explain to the respondent the substance of the petition, the nature, purpose, and effect of the proceeding, the respondent's rights at the hearing on the petition, <TextRun amendingStyle="add">the right to counsel of choice and to a jury trial,</TextRun> and the general powers and duties of a conservator;</P>
+<P>(b) Determine <TextRun amendingStyle="add">whether the respondent would like to request the appointment of an attorney, and determine</TextRun> the respondent's views about the appointment sought by the petitioner, including views about a proposed conservator, the conservator's proposed powers and duties, and the scope and duration of the proposed conservatorship; and</P>
+<P>(c) Inform the respondent that all costs and expenses of the proceeding, including respondent's attorneys' fees, may be paid from the respondent's assets.</P>
+<P>(6) <TextRun amendingStyle="add">If the respondent objects to the petition or requests appointment of an attorney, the court visitor shall petition the court to have an attorney appointed within five days of meeting the respondent.</TextRun></P>
+<P><TextRun amendingStyle="add">(7)</TextRun> A court visitor appointed under subsection (2) of this section for an adult shall:</P>
+<P>(a) Interview the petitioner and proposed conservator, if any;</P>
+<P>(b) Review financial records of the respondent, if relevant to the court visitor's recommendation under subsection <TextRun amendingStyle="strike">(7)</TextRun> <TextRun amendingStyle="add">(8)</TextRun>(b) of this section;</P>
+<P>(c) Investigate whether the respondent's needs could be met by a protective arrangement instead of conservatorship or other less restrictive alternative and, if so, identify the arrangement or other less restrictive alternative; and</P>
+<P>(d) Investigate the allegations in the petition and any other matter relating to the petition the court directs.</P>
+<P><TextRun amendingStyle="strike">(7)</TextRun> <TextRun amendingStyle="add">(8)</TextRun> A court visitor appointed under subsection (2) of this section for an adult shall file a report in a record with the court and provide a copy of the report to the respondent, petitioner, and any interested party entitled to notice under RCW 11.130.080 at least fifteen days prior to the hearing on the petition filed under RCW 11.130.365, which must include:</P>
+<P>(a) A recommendation:</P>
+<P>(i) Regarding the appropriateness of conservatorship, or whether a protective arrangement instead of conservatorship or other less restrictive alternative for meeting the respondent's needs is available;</P>
+<P>(ii) If a conservatorship is recommended, whether it should be full or limited;</P>
+<P>(iii) If a limited conservatorship is recommended, the powers to be granted to the conservator, and the property that should be placed under the conservator's control; and</P>
+<P>(iv) If a conservatorship is recommended, the amount of the bond or other verified receipt needed under RCW 11.130.445 and 11.130.500;</P>
+<P>(b) A statement of the qualifications of the proposed conservator and whether the respondent approves or disapproves of the proposed conservator;</P>
+<P>(c) A statement whether the respondent declined a professional evaluation under RCW 11.130.390 and what other information is available to determine the respondent's needs and abilities without the professional evaluation;</P>
+<P>(d) A statement whether the respondent is able to attend a hearing at the location court proceedings typically are held;</P>
+<P>(e) A statement whether the respondent is able to participate in a hearing and which identifies any technology or other form of support that would enhance the respondent's ability to participate; and</P>
+<P>(f) Any other matter the court directs.</P>
+<P><TextRun amendingStyle="strike">(8)</TextRun> <TextRun amendingStyle="add">(9)</TextRun> The appointment of a court visitor has no effect on the determination of the adult respondent's legal capacity and does not overcome the presumption of legal capacity or full legal and civil rights of the adult respondent.</P>
+<History>2020 c 312 § 310; 2019 c 437 § 405.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective dates<TextRun fontFamily="Times New Roman">—</TextRun>2020 c 312:</TextRun> See note following RCW 11.130.915.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>10</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>11</TitleNumber><TextRun>.</TextRun><ChapterNumber>130</ChapterNumber><TextRun>.</TextRun><SectionNumber>425</SectionNumber></SectionCite> and 2020 c 312 s 216 are each amended to read as follows:<Caption>Notice of order of appointment<TextRun fontFamily="Times New Roman">—</TextRun>Rights.</Caption></BillSectionHeader>
+<P>(1) <TextRun amendingStyle="strikemarkleft">A conservator appointed under RCW 11.130.420 shall give to the individual subject to conservatorship and to all other persons entitled to notice pursuant to an order under RCW 11.130.420(6) or a subsequent order a copy of the order of appointment, together with notice of the right to request termination or modification. The order and notice must be given not later than fourteen days after the appointment.</TextRun></P>
+<P><TextRun amendingStyle="strikemarkright">(2)</TextRun> Not later than thirty days after appointment of a conservator under RCW 11.130.420, the conservator shall give to the individual subject to conservatorship and any other person entitled to notice under RCW 11.130.420 (6) <TextRun amendingStyle="add">and (7) a copy of the order of appointment and</TextRun> a statement of the rights of the individual subject to conservatorship and procedures to seek relief if the individual is denied those rights. The statement must be in plain language, in at least sixteen-point font, and to the extent feasible, in a language in which the individual subject to conservatorship is proficient. The statement must notify the individual subject to conservatorship of the right to:</P>
+<P>(a) Seek termination or modification of the conservatorship, or removal of the conservator, and choose an attorney to represent the individual in these matters;</P>
+<P>(b) Participate in decision making to the extent reasonably feasible;</P>
+<P>(c) Receive a copy of the conservator's plan under RCW 11.130.510, the conservator's inventory under RCW 11.130.515, and the conservator's report under RCW 11.130.530; and</P>
+<P>(d) Object to the conservator's inventory, plan, or report.</P>
+<P><TextRun amendingStyle="strike">(3)</TextRun> <TextRun amendingStyle="add">(2)</TextRun> If a conservator is appointed for the reasons stated in RCW 11.130.360(2)(a)(ii) and the individual subject to conservatorship is missing, notice under this section to the individual is not required.</P>
+<History>2020 c 312 § 216; 2019 c 437 § 412.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective dates<TextRun fontFamily="Times New Roman">—</TextRun>2020 c 312:</TextRun> See note following RCW 11.130.915.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>11</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>11</TitleNumber><TextRun>.</TextRun><ChapterNumber>130</ChapterNumber><TextRun>.</TextRun><SectionNumber>430</SectionNumber></SectionCite> and 2020 c 312 s 217 are each amended to read as follows:<Caption>Emergency conservator.</Caption></BillSectionHeader>
+<P>(1) A person interested in an individual's welfare, including the individual for whom the order is sought, may petition for appointment of an emergency conservator for the individual.</P>
+<P>(2) An emergency petition under subsection (1) of this section must state the petitioner's name, principal residence, and current street address, if different, and<TextRun amendingStyle="strike">[,]</TextRun><TextRun amendingStyle="add">,</TextRun> to the extent known, the following:</P>
+<P>(a) The respondent's name, age, principal residence<TextRun amendingStyle="strike">[,]</TextRun><TextRun amendingStyle="add">,</TextRun> and current street address, if different;</P>
+<P>(b) The name and address of the respondent's:</P>
+<P>(i) Spouse or domestic partner or, if the respondent has none, an adult with whom the respondent has shared household responsibilities for more than six months in the twelve-month period immediately before the filing of the emergency petition;</P>
+<P>(ii) Adult children or, if none, each parent and adult sibling of the respondent, or, if none, at least one adult nearest in kinship to the respondent who can be found with reasonable diligence; and</P>
+<P>(iii) Adult stepchildren whom the respondent actively parented during the stepchildren's minor years and with whom the respondent had an ongoing relationship in the two-year period immediately before the filing of the emergency petition;</P>
+<P>(c) The name and current address of each of the following, if applicable:</P>
+<P>(i) A person responsible for care of the respondent;</P>
+<P>(ii) Any attorney currently representing the respondent;</P>
+<P>(iii) Any representative payee appointed by the social security administration for the respondent;</P>
+<P>(iv) A guardian or conservator acting for the respondent in this state or in another jurisdiction;</P>
+<P>(v) A trustee or custodian of a trust or custodianship of which the respondent is a beneficiary;</P>
+<P>(vi) Any fiduciary for the respondent appointed by the department of veterans affairs;</P>
+<P>(vii) Any representative payee or authorized representative or protective payee;</P>
+<P>(viii) An agent designated under a power of attorney for health care in which the respondent is identified as the principal;</P>
+<P>(ix) An agent designated under a power of attorney for finances in which the respondent is identified as the principal;</P>
+<P>(x) A person nominated as conservator by the respondent;</P>
+<P>(xi) A person nominated as conservator by the respondent's parent or spouse or domestic partner in a will or other signed record;</P>
+<P>(xii) A proposed emergency conservator, and the reason the proposed emergency conservator should be selected; and</P>
+<P>(xiii) A person known to have routinely assisted the respondent with decision making during the six months immediately before the filing of the emergency petition;</P>
+<P>(d) The reason an emergency conservatorship is necessary, including a specific description of:</P>
+<P>(i) The nature and extent of the emergency situation;</P>
+<P>(ii) The nature and extent of the individual's alleged emergency need that arose because of the emergency situation;</P>
+<P>(iii) The substantial and irreparable harm to the individual's property or financial interests that is likely to be prevented by the appointment of an emergency conservator;</P>
+<P>(iv) All protective arrangements or other less restrictive alternatives that have been considered or implemented to meet the individual's alleged emergency needs instead of emergency conservatorship;</P>
+<P>(v) If no protective arrangements or other less restrictive alternatives have been considered or implemented instead of emergency conservatorship, the reason they have not been considered or implemented; and</P>
+<P>(vi) The reason a protective arrangement or other less restrictive alternative instead of emergency conservatorship is insufficient to meet the individual's alleged emergency need;</P>
+<P>(e) The reason the petitioner believes that a basis for appointment of a conservator under RCW 11.130.360 exists;</P>
+<P>(f) Whether the petitioner intends to also seek conservatorship for an individual under RCW 11.130.365;</P>
+<P>(g) The reason the petitioner believes that no other person appears to have authority and willingness to act to address the individual's identified needs caused by the emergency circumstances;</P>
+<P>(h) The specific powers to be granted to the proposed emergency conservator and a description of how those powers will be used to meet the individual's alleged emergency need;</P>
+<P>(i) If the individual has property other than personal effects, a general statement of the individual's property, with an estimate of its value, including any insurance or pension, and the source and amount of other anticipated income or receipts; and</P>
+<P>(j) Whether the individual needs an interpreter, translator, or other form of support to communicate effectively with the court or understand court proceedings.</P>
+<P>(3) The requirements of RCW 11.130.090 apply to an emergency conservator appointed for an individual with the following exceptions for any proposed emergency conservator required to complete the training under RCW 11.130.090:</P>
+<P>(a) The proposed emergency conservator shall present evidence of the successful completion of the required training video or web cast to the court no later than the hearing on the petition for appointment of an emergency conservator for an individual; and</P>
+<P>(b) The superior court may defer the completion of the training requirement to a date no later than fourteen days after appointment if the petitioner requests an extension of time to complete the training due to emergent circumstances beyond the control of <TextRun amendingStyle="strike">[the]</TextRun> <TextRun amendingStyle="add">the</TextRun> petitioner.</P>
+<P>(4) On its own or on petition for appointment of an emergency conservator for an individual after a petition has been filed under RCW 11.130.365, the court may appoint an emergency conservator for the individual if the court makes specific findings based on clear and convincing evidence that:</P>
+<P>(a) An emergency exists such that appointment of an emergency conservator is likely to prevent substantial and irreparable harm to the individual's property or financial interests;</P>
+<P>(b) The individual's identified needs caused by the emergency cannot be met by a protective arrangement or other less restrictive alternative instead of emergency conservatorship;</P>
+<P>(c) No other person appears to have authority and willingness to act to address the individual's identified needs caused by the emergency circumstances; and</P>
+<P>(d) There is reason to believe that a basis for appointment of a conservator under RCW 11.130.360 exists.</P>
+<P>(5) If the court acts on its own to appoint an emergency conservator after a petition has been filed under RCW 11.130.365, all requirements of this section shall be met.</P>
+<P>(6) A court order appointing an emergency conservator for an individual shall:</P>
+<P>(a) Grant only the specific powers necessary to meet the individual's identified emergency need and to prevent substantial and irreparable harm to the individual's property or financial interests;</P>
+<P>(b) Include a specific finding that clear and convincing evidence established that an emergency exists such that appointment of an emergency conservator is likely to prevent substantial and irreparable harm to the individual's property or financial interests;</P>
+<P>(c) Include a specific finding that the identified emergency need of the individual cannot be met by a protective arrangement instead of conservatorship or other less restrictive alternative, including any relief available under chapter 74.34 RCW or use of appropriate supportive services, technological assistance, or supported decision making;</P>
+<P>(d) Include a specific finding that clear and convincing evidence established the adult respondent was given proper notice of the hearing on the petition;</P>
+<P>(e) State that the individual subject to emergency conservatorship retains all rights the individual enjoyed prior to the emergency conservatorship with the exception of the rights not retained during the period of emergency conservatorship;</P>
+<P>(f) Require the emergency conservator to furnish a bond or other security under RCW 11.130.445;</P>
+<P>(g) Include the date that the sixty-day period of emergency conservatorship ends, and the date the emergency conservator's report, required by this section, is due to the court; and</P>
+<P>(h) Identify any person or notice party that subsequently is entitled to:</P>
+<P>(i) Notice of the rights of the individual;</P>
+<P>(ii) Notice of a change in the primary dwelling of the individual;</P>
+<P>(iii) Notice of the removal of the conservator;</P>
+<P>(iv) A copy of the emergency conservator's plan and the emergency conservator's report under this section;</P>
+<P>(v) Access to court records relating to the emergency conservatorship;</P>
+<P>(vi) Notice of the death or significant change in the condition of the individual;</P>
+<P>(vii) Notice that the court has limited or modified the powers of the emergency conservator; and</P>
+<P>(viii) Notice of the removal of the emergency conservator.</P>
+<P>(7) A spouse, a domestic partner, and adult children of an adult subject to emergency conservatorship are entitled to notice under this section unless the court orders otherwise based on good cause. Good cause includes the court's determination that notice would be contrary to the preferences or prior directions of the individual subject to emergency conservatorship or in the best interest of the individual.</P>
+<P>(8) The duration of authority of an emergency conservator may not exceed sixty days and the emergency conservator may exercise only the powers specified in the order of appointment. Upon a motion by the emergency conservator, with notice served upon all applicable notice parties, the emergency conservator's authority may be extended once for not more than sixty days if the court finds that the conditions for appointment of an emergency conservator under subsection (4) of this section continue.</P>
+<P>(9) Immediately on filing of a petition for an emergency conservator for an adult, the court shall appoint an attorney to represent the adult in the proceeding. An order appointing an emergency conservator for an adult may not be entered unless the adult respondent, the adult respondent's attorney, and the court visitor appointed under subsection (10) of this section have received a minimum of fourteen days' notice of the date, time, and place of a hearing on the petition. <TextRun amendingStyle="strike">A</TextRun> <TextRun amendingStyle="add">The petitioner must personally serve a</TextRun> copy of the emergency petition and notice of a hearing on the petition <TextRun amendingStyle="strike">must be served personally</TextRun> on the adult respondent, the adult respondent's attorney, and the court visitor appointed under subsection (10) of this section not more than two court days after the petition has been filed. The notice must inform the respondent of the adult respondent's rights at the hearing, including the right to an attorney and to attend the hearing. The notice must include a description of the nature, purpose, and consequences of granting the emergency petition. The court shall not grant the emergency petition if notice substantially complying with this subsection is not served on the respondent.</P>
+<P>(10)(a) On receipt of a petition for appointment of emergency conservator for an individual, the court:</P>
+<P>(i) Shall appoint a court visitor if an emergency conservator is sought for an adult; or</P>
+<P>(ii) May appoint a court visitor if an emergency conservator is sought for a minor.</P>
+<P>(b) Notice of appointment of the court visitor must be served upon the court visitor within two days of appointment <TextRun amendingStyle="add">by the petitioner</TextRun>. The court visitor must be an individual with training or experience in the type of abilities, limitations, and needs alleged in the emergency petition. The court, in the order appointing a court visitor, shall specify the hourly rate the <TextRun amendingStyle="strike">[court]</TextRun> <TextRun amendingStyle="add">court</TextRun> visitor may charge for his or her services, and shall specify the maximum amount the court visitor may charge without additional court review and approval.</P>
+<P>(c) The court visitor shall within two days of service of notice of appointment file with the court and serve, either personally or by certified mail with return receipt, the respondent or the respondent's legal counsel, the petitioner or the petitioner's legal counsel, and any notice party with a statement including the court visitor's: Training relating to the duties as a court visitor; criminal history as defined in RCW 9.94A.030 for the period covering ten years prior to the appointment; hourly rate, if compensated; contact, if any, with a party to the proceeding prior to appointment; and apparent or actual conflicts of interest.</P>
+<P>(d) A court visitor appointed under this section shall use due diligence to attempt to interview the adult respondent in person and, in a manner the individual is best able to understand:</P>
+<P>(i) Explain to the adult respondent the substance of the emergency petition, the nature, purpose, and effect of the proceeding, the respondent's rights at the hearing on the petition, and the proposed specific powers and duties of the proposed conservator as stated in the emergency petition;</P>
+<P>(ii) Determine the adult respondent's views about the emergency appointment sought by the petitioner, including views about a proposed emergency conservator, the emergency conservator's proposed powers and duties, and the scope and duration of the proposed emergency conservatorship; and</P>
+<P>(iii) Inform the adult respondent that all costs and expenses of the proceeding, including but not limited to the adult respondent's attorneys' fees, the appointed conservator's fees, and the appointed conservator's attorneys' fees, will be paid from the individual's assets upon approval by the court.</P>
+<P>(e) The court visitor appointed under this section shall:</P>
+<P>(i) Interview the petitioner and proposed emergency conservator;</P>
+<P>(ii) Use due diligence to attempt to visit the adult respondent's present dwelling;</P>
+<P>(iii) Use due diligence to attempt to obtain information from any physician or other person known to have treated, advised, or assessed the adult respondent's relevant physical or mental condition; and</P>
+<P>(iv) Investigate the allegations in the emergency petition and any other matter relating to the emergency petition the court directs.</P>
+<P>(f) A court visitor appointed under this section shall file a report in a record with the court and provide a copy of the report to the petitioner, the adult subject to the emergency conservatorship, and any notice party at least seven days prior to the hearing on the emergency petition, which must include:</P>
+<P>(i) A recommendation regarding the appropriateness of emergency conservatorship, including whether a protective arrangement instead of conservatorship or other less restrictive alternative for meeting the respondent's needs is available, and if an emergency conservatorship is recommended;</P>
+<P>(ii) A detailed summary of the alleged emergency and the substantial and irreparable harm to the individual's property or finances that is likely to be prevented by the appointment of an emergency conservator;</P>
+<P>(iii) A statement as to whether the alleged emergency and the respondent's alleged needs are likely to require an extension of sixty days as authorized under this section;</P>
+<P>(iv) The specific powers to be granted to the emergency conservator and how the specific powers will address the alleged emergency and the respondent's alleged need;</P>
+<P>(v) A recommendation regarding the appropriateness of an ongoing conservatorship for an individual, including whether a protective arrangement instead of conservatorship or other less restrictive alternative for meeting the respondent's needs is available;</P>
+<P>(vi) A statement of the qualifications of the proposed emergency conservator and whether the respondent approves or disapproves of the proposed emergency conservator, and the reasons for such approval or disapproval;</P>
+<P>(vii) A recommendation whether a professional evaluation under RCW 11.130.390 is necessary;</P>
+<P>(viii) A statement whether the respondent is able to attend a hearing at the location court proceedings typically are held;</P>
+<P>(ix) A statement whether the respondent is able to participate in a hearing which identifies any technology or other form of support that would enhance the respondent's ability to participate; and</P>
+<P>(x) Any other matter the court directs.</P>
+<P>(11) An emergency conservator shall:</P>
+<P>(a) Comply with the requirements of RCW 11.130.505 and the requirements of this chapter that pertain to the rights of an individual subject to conservatorship;</P>
+<P>(b) Not have authority to make decisions or take actions that a conservator for an individual is prohibited by law from having; and</P>
+<P>(c) Be subject to the same special limitations on a conservator's power that apply to a conservator for an individual.</P>
+<P>(12) Appointment of an emergency conservator under this section is not a determination that a basis exists for appointment of a conservator under RCW 11.130.360.</P>
+<P>(13) The court may remove an emergency conservator appointed under this section at any time.</P>
+<P>(14) The emergency conservator shall file a report in a record with the court and provide a copy of the report to the individual subject to emergency conservatorship, and any notice party no later than forty-five days after appointment. The report shall include specific and updated information regarding the emergency alleged in the emergency petition, the individual's emergency needs, all actions and decisions by the emergency conservator, and a recommendation as to whether a conservator for an individual should be appointed. If the appointment of the emergency conservator is extended for an additional sixty days, the emergency conservator shall file a second report in a record with the court and provide a copy of the report to the individual subject to emergency conservatorship, and any notice party no later than forty-five days after the emergency conservatorship is extended by the court, which shall include the same information required for the first report. The emergency conservator shall make any other report the court requires.</P>
+<P>(15) The court shall issue letters of emergency conservatorship to the emergency conservator in compliance with RCW 11.130.040.</P>
+<History>2020 c 312 § 217; 2019 c 437 § 413.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective dates<TextRun fontFamily="Times New Roman">—</TextRun>2020 c 312:</TextRun> See note following RCW 11.130.915.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>12</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>11</TitleNumber><TextRun>.</TextRun><ChapterNumber>130</ChapterNumber><TextRun>.</TextRun><SectionNumber>435</SectionNumber></SectionCite> and 2020 c 312 s 218 are each amended to read as follows:<Caption>Powers of conservator requiring court approval.</Caption></BillSectionHeader>
+<P>(1) Except as otherwise ordered by the court, a conservator must give notice to persons entitled to notice under RCW 11.130.370(4) and receive specific authorization by the court before the conservator may exercise with respect to the conservatorship the power to:</P>
+<P>(a) Make a gift, except a gift of de minimis value;</P>
+<P>(b) Sell, encumber an interest in, or surrender a lease to the primary dwelling of the individual subject to conservatorship;</P>
+<P>(c) Sell, or encumber an interest in, any other real estate;</P>
+<P>(d) Convey, release, or disclaim a contingent or expectant interest in property, including marital property and any right of survivorship incident to joint tenancy or tenancy by the entireties;</P>
+<P>(e) Exercise or release a power of appointment;</P>
+<P>(f) Create a revocable or irrevocable trust of property of the conservatorship estate, whether or not the trust extends beyond the duration of the conservatorship, or revoke or amend a trust revocable by the individual subject to conservatorship;</P>
+<P>(g) Exercise a right to elect an option or change a beneficiary under an insurance policy or annuity or surrender the policy or annuity for its cash value;</P>
+<P>(h) Exercise a right to a quasi-community property share under RCW 26.16.230 or a right to an elective share under other law in the estate of a deceased spouse or domestic partner of the individual subject to conservatorship or renounce or disclaim a property interest;</P>
+<P>(i) Grant a creditor priority for payment over creditors of the same or higher class if the creditor is providing property or services used to meet the basic living and care needs of the individual subject to conservatorship and preferential treatment otherwise would be impermissible under RCW 11.130.555(5);</P>
+<P>(j) Make, modify, amend, or revoke the will of the individual subject to conservatorship in compliance with chapter 11.12 RCW;</P>
+<P>(k) Acquire or dispose of property, including real property in another state, for cash or on credit, at public or private sale, and manage, develop, improve, exchange, partition, change the character of, or abandon property<TextRun amendingStyle="add">. In all transactions involving the sale of real property, the conservator shall receive additional authority from the court as to the disposition of the proceedings from the sale of the real property</TextRun>;</P>
+<P>(l) Make ordinary or extraordinary repairs or alterations in a building or other structure, demolish any improvement, or raze an existing or erect a new party wall or building;</P>
+<P>(m) Subdivide or develop land, dedicate land to public use, make or obtain the vacation of a plat and adjust a boundary, adjust a difference in valuation of land, exchange or partition land by giving or receiving consideration, and dedicate an easement to public use without consideration;</P>
+<P>(n) Enter for any purpose into a lease of property as lessor or lessee, with or without an option to purchase or renew, for a term within or extending beyond the term of the conservatorship; and</P>
+<P>(o) Structure the finances of the individual subject to conservatorship to establish eligibility for a public benefit including by making gifts consistent with the individual's preferences, values, and prior directions, if the conservator's action does not jeopardize the individual's welfare and otherwise is consistent with the conservator's duties.</P>
+<P>(2) In approving a conservator's exercise of a power listed in subsection (1) of this section, the court shall consider primarily the decision the individual subject to conservatorship would make if able, to the extent the decision can be ascertained.</P>
+<P>(3) To determine under subsection (2) of this section the decision the individual subject to conservatorship would make if able, the court shall consider the individual's prior or current directions, preferences, opinions, values, and actions, to the extent actually known or reasonably ascertainable by the conservator. The court also shall consider:</P>
+<P>(a) The financial needs of the individual subject to conservatorship and individuals who are in fact dependent on the individual subject to conservatorship for support, and the interests of creditors of the individual;</P>
+<P>(b) Possible reduction of income, estate, inheritance, or other tax liabilities;</P>
+<P>(c) Eligibility for governmental assistance;</P>
+<P>(d) The previous pattern of giving or level of support provided by the individual;</P>
+<P>(e) Any existing estate plan or lack of estate plan of the individual;</P>
+<P>(f) The life expectancy of the individual and the probability the conservatorship will terminate before the individual's death; and</P>
+<P>(g) Any other relevant factor.</P>
+<P>(4) A conservator may not revoke or amend a power of attorney for finances executed by the individual subject to conservatorship. If a power of attorney for finances is in effect, a decision of the agent within the scope of the agent's authority takes precedence over that of the conservator, unless the court orders otherwise. The court has authority to revoke or amend any power of attorney executed by the adult.</P>
+<History>2020 c 312 § 218; 2019 c 437 § 414.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective dates<TextRun fontFamily="Times New Roman">—</TextRun>2020 c 312:</TextRun> See note following RCW 11.130.915.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>13</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>11</TitleNumber><TextRun>.</TextRun><ChapterNumber>130</ChapterNumber><TextRun>.</TextRun><SectionNumber>530</SectionNumber></SectionCite> and 2020 c 312 s 222 are each amended to read as follows:<Caption>Conservator's report and accounting<TextRun fontFamily="Times New Roman">—</TextRun>Monitoring.</Caption></BillSectionHeader>
+<P>(1) A conservator shall file with the court by the date established by the court a report in a record regarding the administration of the conservatorship estate unless the court otherwise directs, on resignation or removal, on termination of the conservatorship, and at any other time the court directs.</P>
+<P>(2) A report under subsection (1) of this section must state or contain:</P>
+<P>(a) An accounting that lists property included in the conservatorship estate and the receipts, disbursements, liabilities, and distributions during the period for which the report is made;</P>
+<P>(b) A list of the services provided to the individual subject to conservatorship;</P>
+<P>(c) A copy of the conservator's most recently approved plan and a statement whether the conservator has deviated from the plan and, if so, how the conservator has deviated and why;</P>
+<P>(d) A recommendation as to the need for continued conservatorship and any recommended change in the scope of the conservatorship;</P>
+<P>(e) To the extent feasible, a copy of the most recent reasonably available financial statements evidencing the status of bank accounts, investment accounts, and mortgages or other debts of the individual subject to conservatorship with all but the last four digits of the account numbers and social security number redacted;</P>
+<P>(f) Anything of more than de minimis value which the conservator, any individual who resides with the conservator, or the spouse, domestic partner, parent, child, or sibling of the conservator has received from a person providing goods or services to the individual subject to conservatorship;</P>
+<P>(g) Any business relation the conservator has with a person the conservator has paid or that has benefited from the property of the individual subject to conservatorship; and</P>
+<P>(h) Whether any co-conservator or successor conservator appointed to serve when a designated event occurs is alive and able to serve.</P>
+<P>(3) The court may appoint a court visitor to review a report under this section or conservator's plan under RCW 11.130.510, interview the individual subject to conservatorship or conservator, or investigate any other matter involving the conservatorship. In connection with the report, the court may order the conservator to submit the conservatorship estate to appropriate examination in a manner the court directs.</P>
+<P>(4) Notice of the filing under this section of a conservator's report, together with a copy of the report, must be provided to the individual subject to conservatorship, a person entitled to notice under RCW 11.130.420(6) or a subsequent order, and other persons the court determines. The notice and report must be given not later than fourteen days after filing.</P>
+<P>(5) The court shall establish procedures for monitoring a report submitted under this section and review each report at least annually to determine whether:</P>
+<P>(a) The reports provide sufficient information to establish the conservator has complied with the conservator's duties;</P>
+<P>(b) The conservatorship should continue; and</P>
+<P>(c) The conservator's requested fees, if any, should be approved.</P>
+<P>(6) If the court determines there is reason to believe a conservator has not complied with the conservator's duties or the conservatorship should not continue, the court:</P>
+<P>(a) Shall notify the individual subject to conservatorship, the conservator, and any other person entitled to notice under RCW 11.130.420(6) or a subsequent order;</P>
+<P>(b) May require additional information from the conservator;</P>
+<P>(c) May appoint a court visitor to interview the individual subject to conservatorship or conservator or investigate any matter involving the conservatorship; and</P>
+<P>(d) Consistent with RCW 11.130.565 and 11.130.570, may hold a hearing to consider removal of the conservator, termination of the conservatorship, or a change in the powers granted to the conservator or terms of the conservatorship.</P>
+<P>(7) If the court has reason to believe fees requested by a conservator are not reasonable, the court shall hold a hearing to determine whether to adjust the requested fees.</P>
+<P>(8) A conservator must petition the court for approval of a report filed under this section. The court after review may approve the report. If the court approves the report, there is a rebuttable presumption the report is accurate as to a matter adequately disclosed in the report.</P>
+<P>(9) An order, after notice and hearing, approving an interim report of a conservator filed under this section adjudicates liabilities concerning a matter adequately disclosed in the report, as to a person given notice of the report or accounting.</P>
+<P>(10) If the court approves a report filed under this section, the order approving the report shall set the due date for the filing of the next report to be filed under this section. The court may set the review at annual, biennial, or triennial intervals with the report due date to be within ninety days of the anniversary date of appointment. When determining the report interval, the court can consider: The length of time the conservator has been serving the person under conservatorship; whether the conservator has timely filed all required reports with the court; whether the conservator is monitored by other state or local agencies; the income of the person subject to conservatorship; the value of the property of the person subject to conservatorship; the adequacy of the bond and other verified receipt; and whether there have been any allegations of abuse, neglect, or a breach of fiduciary duty against the conservator.</P>
+<P>(11) If the court approves a report filed under this section, the order approving the report shall contain a conservatorship summary or accompanied by a conservatorship summary in the form or substantially in the same form as set forth in RCW 11.130.665.</P>
+<P>(12) If the court approves a report filed under this section, the order approving the report shall direct the clerk of the court to reissue letters of office in the form or substantially in the same form as set forth in RCW 11.130.660 to the conservator containing an expiration date which will be within one hundred eighty days <TextRun amendingStyle="strike">after the date the court directs the conservator file its next report</TextRun> <TextRun amendingStyle="add">of the anniversary date of appointment</TextRun>.</P>
+<P>(13) An order, after notice and hearing, approving a final report filed under this section discharges the conservator from all liabilities, claims, and causes of action by a person given notice of the report and the hearing as to a matter adequately disclosed in the report.</P>
+<P>(14) Any requirement to establish a monitoring program under this section is subject to appropriation.</P>
+<History>2020 c 312 § 222; 2019 c 437 § 423.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective dates<TextRun fontFamily="Times New Roman">—</TextRun>2020 c 312:</TextRun> See note following RCW 11.130.915.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>14</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>11</TitleNumber><TextRun>.</TextRun><ChapterNumber>130</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>The court shall have authority to bring before it, in the manner prescribed by RCW 11.48.070, any person or persons suspected of having in their possession or having concealed, embezzled, conveyed, or disposed of any of the property of the estate of the individual subject to conservatorship subject to administration of this title.</P>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>15</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>2</TitleNumber><TextRun>.</TextRun><ChapterNumber>72</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) Subject to the availability of funds appropriated for this specific purpose, the office shall contract with public or private entities or individuals to provide decision-making assistance services, prioritizing persons who are:</P>
+<P>(a) Age 18 or older whose income does not exceed 400 percent of the federal poverty level determined annually by the United States department of health and human services or who are eligible to receive long-term care services through the Washington state department of social and health services;</P>
+<P>(b) In an acute care hospital licensed under chapter 70.41 RCW, a psychiatric hospital licensed under chapter 71.12 RCW, or a state psychiatric hospital licensed under chapter 72.23 RCW, or in a location funded by such a hospital;</P>
+<P>(c) Medically ready for discharge, or will soon be medically ready for discharge, to a postacute care or community setting; and</P>
+<P>(d) Without a qualified person who is willing and able to serve as a decision maker.</P>
+<P>(2) For decision-making assistance services provided pursuant to subsection (1) of this section, the office shall establish a streamlined process to review requests for decision-making assistance for persons who meet the requirement in subsection (1) of this section on a weekly basis.</P>
+<P>(3) Subject to the availability of funds appropriated for this specific purpose, the office shall establish a navigator service to provide assistance and support for hospitals and persons in hospitals, including assistance to navigate options for guardianship, public conservatorship, decision-making assistance, and estate administration services as appropriate for the person.</P>
+<P>(4) Subject to the availability of funds appropriated for this specific purpose, the office shall fund training for decision makers regarding considerations for specific populations, including behavioral health, involuntary treatment, disability, family law, and medicaid programs.</P>
+<P>(5) Subject to the availability of funds appropriated for this specific purpose, the office shall offer low-barrier trainings to certified professional guardians on topics such as aging, mental health, and dementia.</P>
+</BillSection>
+</BillBody>
+</Bill>

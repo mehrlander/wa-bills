@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-4370.1</RequestNumber><ShortBillId>SB 6332</ShortBillId><LongBillId>SENATE BILL 6332</LongBillId><Legislature>69th Legislature</Legislature><Session>2026 Regular Session</Session><Sponsors>Senator Fortunato</Sponsors><BillHistory /><BriefDescription>Addressing regional transit authority accountability.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to regional transit authority accountability; adding a new section to chapter 44.28 RCW; adding a new section to chapter 81.112 RCW; and making an appropriation.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>44</TitleNumber><TextRun>.</TextRun><ChapterNumber>28</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) The joint legislative audit review committee shall conduct a performance audit of the regional transit authority as defined in RCW 81.112.020. The legislative auditor shall contract with an independent expert in forensic accounting and regional government administration to assist with the audit.</P>
+<P>(2) The performance audit must evaluate whether the regional transit authority is achieving its statutory purposes and operating in an efficient, effective, and accountable manner. At a minimum, the audit must examine the following areas:</P>
+<P>(a) Governance structure, decision-making processes, internal controls, and compliance with applicable state laws;</P>
+<P>(b) Financial management practices, including budgeting, debt management, long-term financial planning, cost containment strategies, and the use of public funds;</P>
+<P>(c) Project planning, delivery, and management, including schedule adherence, cost performance, change order practices, and risk management for capital and operating projects;</P>
+<P>(d) Procurement and contracting practices, including transparency, competition, contract oversight, and performance monitoring; and</P>
+<P>(e) Any other areas the joint legislative audit review committee determines are necessary to assess whether the regional transit authority is operating in an efficient, effective, and accountable manner.</P>
+<P>(3) The joint legislative audit review committee shall submit the results of the audit by December 1, 2027, to the appropriate committees of the legislature.</P>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>81</TitleNumber><TextRun>.</TextRun><ChapterNumber>112</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) A regional transit authority community oversight panel shall report any concerns or issues with the governance of a regional transit authority to the joint transportation committee annually on December 1st, beginning in 2026.</P>
+<P>(2) The executive committee of the joint transportation committee shall appoint two members to any authority oversight boards or organizations, including the community oversight panel of a regional transit authority.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>The sum of $600,000, or as much thereof as may be necessary, is appropriated for the fiscal year ending June 30, 2027, from the carbon emissions reduction account to the joint legislative audit review committee for the purposes of section 1 of this act.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

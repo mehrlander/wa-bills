@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-0350.1</RequestNumber><ShortBillId>SB 5105</ShortBillId><LongBillId>SENATE BILL 5105</LongBillId><Legislature>68th Legislature</Legislature><Session>2023 Regular Session</Session><Sponsors>Senators Mullet, Fortunato, Gildon, Liias, Nguyen, Pedersen, and C. Wilson</Sponsors><BillHistory><PrefiledDate>Prefiled 12/28/22.</PrefiledDate><ReadDate>Read first time 01/09/23.</ReadDate><ReferredCommittee>Referred to Committee on Transportation.</ReferredCommittee></BillHistory><BriefDescription>Authorizing digital driver's licenses through a mobile application.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to authorizing digital driver's licenses through a mobile application; amending RCW 46.20.017 and 46.20.161; creating a new section; providing an effective date; providing an expiration date; and declaring an emergency.</BillTitle>
+<EnactedClause />
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) By December 1, 2023, the department of licensing shall complete an implementation plan for issuing digital driver's licenses through a mobile application. The plan and evaluation must include, but is not limited to:</P></BillSectionHeader>
+<P>(a) Reviewing the adoption actions in other states, including successes and lessons learned;</P>
+<P>(b) Examining existing technical infrastructure and potential changes needed to maximize interoperability, utility, and privacy protection;</P>
+<P>(c) Identifying the technical investments and other costs associated with issuing digital driver's licenses through a mobile application;</P>
+<P>(d) Identifying how the technology may impact and can be used by external stakeholders, such as law enforcement;</P>
+<P>(e) Recommending any process changes required to implement the program successfully and ensure customer satisfaction; and</P>
+<P>(f) Recommending any statutory changes required to allow for the usage of digital driver's licenses, including recognition of interstate travelers.</P>
+<P>(2) The department of licensing shall submit a report of its findings and recommendations to the governor and the transportation committees of the legislature by December 1, 2023.</P>
+<P>(3) This section expires January 1, 2024.</P>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>46</TitleNumber><TextRun>.</TextRun><ChapterNumber>20</ChapterNumber><TextRun>.</TextRun><SectionNumber>017</SectionNumber></SectionCite> and 2010 c 8 s 9018 are each amended to read as follows:<Caption>Immediate possession and displayed on demand.</Caption></BillSectionHeader>
+<P><TextRun amendingStyle="strike">Every</TextRun> <TextRun amendingStyle="add">(1) Except as provided in subsection (2) of this section, every</TextRun> licensee shall have <TextRun amendingStyle="strike">his or her</TextRun> <TextRun amendingStyle="add">the licensee's</TextRun> driver's license in <TextRun amendingStyle="strike">his or her</TextRun> <TextRun amendingStyle="add">the licensee's</TextRun> immediate possession at all times when operating a motor vehicle and shall display the same upon demand to any police officer or to any other person when and if required by law to do so. The offense described in this section is a nonmoving offense.</P>
+<P><TextRun amendingStyle="add">(2) Beginning September 1, 2024, a licensee may meet the requirements of subsection (1) of this section by having in the licensee's immediate possession at all times when operating a motor vehicle and displaying upon demand a digital version of the licensee's driver's license as authorized in RCW 46.20.161(7). Only digital versions of the licensee's driver's license issued and authorized by the department is sufficient to meet the requirements of this section.</TextRun></P>
+<History>2010 c 8 § 9018; 1979 ex.s. c 136 § 56; 1965 ex.s. c 121 § 15; 1961 c 12 § 46.20.190. Prior: 1937 c 188 § 59; RRS § 6312-59; 1921 c 108 § 7, part; RRS § 6369, part. Formerly RCW 46.20.190.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>Severability<TextRun fontFamily="Times New Roman">—</TextRun>1979 ex.s. c 136:</TextRun> See notes following RCW 46.63.010.</NoteP></AnnNote>
+<CrossRefNote><NoteP>Driver's license, duty to display under other circumstances: RCW 46.52.020, 46.61.020, 46.61.021.</NoteP></CrossRefNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>46</TitleNumber><TextRun>.</TextRun><ChapterNumber>20</ChapterNumber><TextRun>.</TextRun><SectionNumber>161</SectionNumber></SectionCite> and 2021 c 158 s 7 are each amended to read as follows:<Caption>Issuance<TextRun fontFamily="Times New Roman">—</TextRun>Contents<TextRun fontFamily="Times New Roman">—</TextRun>Fee<TextRun fontFamily="Times New Roman">—</TextRun>Veterans, individuals meeting criteria for veterans<TextRun fontFamily="Times New Roman">—</TextRun>Medical alert designation, developmental disability designation, or deafness designation<TextRun fontFamily="Times New Roman">—</TextRun>Self-attestation.</Caption></BillSectionHeader>
+<P>(1) The department, upon receipt of a fee of <TextRun amendingStyle="strike">seventy-two dollars</TextRun> <TextRun amendingStyle="add">$72</TextRun>, unless the driver's license is issued for a period other than eight years, in which case the fee shall be <TextRun amendingStyle="strike">nine dollars</TextRun> <TextRun amendingStyle="add">$9</TextRun> for each year that the license is issued, which includes the fee for the required photograph, shall issue to every qualifying applicant a driver's license. A driver's license issued to a person under the age of <TextRun amendingStyle="strike">eighteen</TextRun> <TextRun amendingStyle="add">18</TextRun> is an intermediate license, subject to the restrictions imposed under RCW 46.20.075, until the person reaches the age of <TextRun amendingStyle="strike">eighteen</TextRun> <TextRun amendingStyle="add">18</TextRun>.</P>
+<P>(2) The license must include:</P>
+<P>(a) A distinguishing number assigned to the licensee;</P>
+<P>(b) The name of record;</P>
+<P>(c) Date of birth;</P>
+<P>(d) Washington residence address;</P>
+<P>(e) Photograph;</P>
+<P>(f) A brief description of the licensee;</P>
+<P>(g) Either a facsimile of the signature of the licensee or a space upon which the licensee shall write the licensees' usual signature with pen and ink immediately upon receipt of the license;</P>
+<P>(h) If applicable, the person's status as a veteran as provided in subsection (4) of this section; and</P>
+<P>(i) If applicable, a medical alert designation as provided in subsection (5) of this section.</P>
+<P>(3) No license is valid until it has been signed by the licensee.</P>
+<P>(4)(a) A veteran, as defined in RCW 41.04.007, or an individual who otherwise meets the criteria of RCW 41.04.007 but who has received a general discharge under honorable conditions, may apply to the department to obtain a veteran designation on a driver's license issued under this section by providing:</P>
+<P>(i) A United States department of veterans affairs identification card or proof of service letter;</P>
+<P>(ii) A United States department of defense discharge document, DD Form 214 or DD Form 215, as it exists on June 7, 2018, or such subsequent date as may be provided by the department by rule, consistent with the purposes of this section, or equivalent or successor discharge paperwork, that shows a discharge status of "honorable" or "general under honorable conditions" that establishes the person's service in the armed forces of the United States;</P>
+<P>(iii) A national guard state-issued report of separation and military service, NGB Form 22, as it exists on June 7, 2018, or such subsequent date as may be provided by the department by rule, consistent with the purposes of this section, or equivalent or successor discharge paperwork, that shows a discharge status of "honorable" or "general under honorable conditions" that establishes the person's active duty or reserve service in the national guard; or</P>
+<P>(iv) A United States uniformed services identification card, DD Form 2, that displays on its face that it has been issued to a retired member of any of the armed forces of the United States, including the national guard and armed forces reserves.</P>
+<P>(b) The department may permit a veteran, as defined in RCW 41.04.007, or an individual who otherwise meets the criteria of RCW 41.04.007 but who has received a general discharge under honorable conditions, to submit an alternate form of documentation to apply to obtain a veteran designation on a driver's license, as specified by rule, that requires a discharge status of "honorable" or "general under honorable conditions" and that establishes the person's service as required under RCW 41.04.007.</P>
+<P>(5) Any person may apply to the department to obtain a medical alert designation, a developmental disability designation, or a deafness designation on a driver's license issued under this chapter by providing:</P>
+<P>(a) Self-attestation that the individual:</P>
+<P>(i) Has a medical condition that could affect communication or account for a driver health emergency;</P>
+<P>(ii) Is deaf or hard of hearing; or</P>
+<P>(iii) Has a developmental disability as defined in RCW 71A.10.020;</P>
+<P>(b) A statement from the person that they have voluntarily provided the self-attestation and other information verifying the condition; and</P>
+<P>(c) For persons under <TextRun amendingStyle="strike">eighteen</TextRun> <TextRun amendingStyle="add">18</TextRun> years of age or who have a developmental disability, the signature of a parent or legal guardian.</P>
+<P>(6) A self-attestation or data contained in a self-attestation provided under this section:</P>
+<P>(a) Shall not be disclosed;</P>
+<P>(b) Is for the confidential use of the director, the chief of the Washington state patrol, and law enforcement and emergency medical service providers as designated by law; and</P>
+<P>(c) Is subject to the privacy protections of the driver's privacy protection act, 18 U.S.C. Sec. 2725.</P>
+<P><TextRun amendingStyle="add">(7)(a) By September 1, 2024, the department must establish a program that allows every qualifying applicant for a driver's license the ability to acquire a digital version of the applicant's driver's license in addition to the physical version issued pursuant to subsection (1) of this section.</TextRun></P>
+<P><TextRun amendingStyle="add">(b) By August 1, 2024, the department must adopt rules to implement (a) of this subsection, which include, but are not limited to, issuance requirements, specifications, security and privacy protections, and the use associated with the digital driver's license.</TextRun></P>
+<History>2021 c 158 § 7; 2020 c 261 § 3; 2018 c 69 § 1; 2014 c 185 § 1; 2012 c 80 § 8; 2000 c 115 § 6; 1999 c 308 § 2; 1999 c 6 § 22; 1998 c 41 § 12; 1990 c 250 § 40; 1981 c 245 § 1; 1975 1st ex.s. c 191 § 3; 1969 c 99 § 6; 1965 ex.s. c 121 § 11.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2021 c 158 §§ 2 and 5-11:</TextRun> See note following RCW 46.20.049.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Finding<TextRun fontFamily="Times New Roman">—</TextRun>Intent<TextRun fontFamily="Times New Roman">—</TextRun>2021 c 158:</TextRun> See note following RCW 46.20.049.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Finding<TextRun fontFamily="Times New Roman">—</TextRun>Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2020 c 261:</TextRun> See notes following RCW 46.20.117.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2014 c 185:</TextRun> "This act takes effect August 30, 2017." [2014 c 185 § 3.]</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2012 c 80 §§ 5-13:</TextRun> See note following RCW 46.20.055.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Finding<TextRun fontFamily="Times New Roman">—</TextRun>2000 c 115:</TextRun> See note following RCW 46.20.075.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2000 c 115 §§ 1-10:</TextRun> See note following RCW 46.20.075.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>1999 c 308:</TextRun> See note following RCW 46.20.120.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Intent<TextRun fontFamily="Times New Roman">—</TextRun>1999 c 6:</TextRun> See note following RCW 46.04.168.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Intent<TextRun fontFamily="Times New Roman">—</TextRun>Construction<TextRun fontFamily="Times New Roman">—</TextRun>Effective date<TextRun fontFamily="Times New Roman">—</TextRun>1998 c 41:</TextRun> See notes following RCW 46.20.265.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>1981 c 245:</TextRun> "This act is necessary for the immediate preservation of the public peace, health, and safety, the support of the state government and its existing public institutions, and shall take effect July 1, 1981." [1981 c 245 § 5.]</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>1969 c 99:</TextRun> See note following RCW 79A.05.070.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="new" action="emerg">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act is necessary for the immediate preservation of the public peace, health, or safety, or support of the state government and its existing public institutions, and takes effect July 1, 2023.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

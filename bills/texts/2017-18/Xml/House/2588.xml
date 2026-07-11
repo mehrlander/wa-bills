@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-3627.1</RequestNumber><ShortBillId>HB 2588</ShortBillId><LongBillId>HOUSE BILL 2588</LongBillId><Legislature>65th Legislature</Legislature><Session>2018 Regular Session</Session><Sponsors>Representatives Caldier, Appleton, Cody, Wylie, and Kloba</Sponsors><BillHistory><ReadDate>Read first time 01/10/18.</ReadDate><ReferredCommittee>Referred to Committee on Health Care &amp; Wellness.</ReferredCommittee></BillHistory><BriefDescription>Providing patients notice of facility fees charged by hospitals and ambulatory surgical facilities.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to providing patients notice of facility fees charged by hospitals and ambulatory surgical facilities; and adding a new section to chapter 70.02 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>70</TitleNumber><TextRun>.</TextRun><ChapterNumber>02</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>Prior to the delivery of nonemergency outpatient services, a hospital licensed under chapter 70.41 RCW that charges a facility fee or an ambulatory surgical facility licensed under chapter 70.230 RCW that charges a facility fee shall provide written notice to the patient:</P>
+<P>(1) That the hospital or ambulatory surgical facility charges a facility fee;</P>
+<P>(2) The amount of the fee;</P>
+<P>(3) That the patient may be able to obtain the same nonemergency outpatient services at another facility, such as a clinic or an ambulatory surgical facility, that does not charge the fee; and</P>
+<P>(4) That, if the patient chooses to receive the services at another facility, he or she should ask the other facility whether it charges a facility fee.</P>
+</BillSection>
+</BillBody>
+</Bill>

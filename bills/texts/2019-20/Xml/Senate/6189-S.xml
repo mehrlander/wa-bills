@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-6249.1</RequestNumber><ShortBillId>SSB 6189</ShortBillId><LongBillId>SUBSTITUTE SENATE BILL 6189</LongBillId><Legislature>66th Legislature</Legislature><Session>2020 Regular Session</Session><Sponsors>Senate Ways &amp; Means (originally sponsored by Senators Wellman, Mullet, Pedersen, Zeiger, Kuderer, Das, Short, and Wilson, C.)</Sponsors><BillHistory><ReadDate>READ FIRST TIME 02/11/20.</ReadDate></BillHistory><BriefDescription>Concerning eligibility for school employees' benefits board coverage.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to school employees' benefits board coverage; amending RCW 28A.300.615; adding a new section to chapter 41.05 RCW; creating new sections; and providing expiration dates.</BillTitle>
+<EnactedClause />
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) The joint legislative audit and review committee shall conduct a study to identify the number and types of part-time school district employees and their eligibility for benefits through the school employees' benefits board. The office of the superintendent of public instruction and the health care authority shall assist in providing any data requested by the joint legislative audit and review committee to conduct the study. The study will seek to identify:</P></BillSectionHeader>
+<P>(a) The categories and number of employees who worked less than full-time during the 2018-19 and 2019-20 school years, including ranges of hours worked, how many of those employees were eligible for employer support for benefits each year, and the amount of employer support provided for benefits. The study must summarize the data by major job category, such as substitute teacher, educational staff associate, paraprofessional, bus driver, principal, vice principal, and any other major job categories identified during the review;</P>
+<P>(b) The number of certificated and classified employees eligible for school employees' benefits board benefits beginning January 1, 2020, and the number who waived medical coverage by district;</P>
+<P>(c) The number of certificated and classified school employee benefit units funded in the state budget for school employees' benefits board benefits by district.</P>
+<P>(2) The joint legislative audit and review committee shall submit the review to the appropriate committees of the legislature by July 1, 2021. The review shall include recommendations for continued and regular data collection that should be incorporated into the superintendent of public instruction's and the health care authority's regular data and reporting systems.</P>
+<P>(3) This section expires January 1, 2022.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) The health care authority shall conduct an analysis of the impacts of changes to the requirement that school employers remit premiums for employees that waive medical coverage. The analysis shall consider the estimated impacts to the state and to each school district if a variable rate was charged for employees waiving medical coverage and that are covered under dental, vision, long-term life and disability, and any other benefits not waived. The analysis is due to the office of financial management and to the relevant fiscal committees of the legislature by November 1, 2020.</P></BillSectionHeader>
+<P>(2) This section expires June 30, 2021.</P>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>28A</TitleNumber><TextRun>.</TextRun><ChapterNumber>300</ChapterNumber><TextRun>.</TextRun><SectionNumber>615</SectionNumber></SectionCite> and 2016 c 233 s 8 are each amended to read as follows:<Caption>Substitute teachers<TextRun fontFamily="Times New Roman">—</TextRun>Hiring and compensation reporting.</Caption></BillSectionHeader>
+<P>(1) By October 1st of each year, a school district must report to the office of the superintendent of public instruction:</P>
+<P>(a) The number of substitute teachers hired per school year;</P>
+<P>(b) The number of <TextRun amendingStyle="add">hours worked by each</TextRun> substitute teacher<TextRun amendingStyle="strike">s hired under RCW 28A.410.252 per school year</TextRun>;</P>
+<P>(c) <TextRun amendingStyle="add">The number of substitute teachers that received benefits under the school employees' benefits board;</TextRun></P>
+<P><TextRun amendingStyle="add">(d)</TextRun> The full daily compensation rate per substitute teacher; and</P>
+<P><TextRun amendingStyle="strike">(d)</TextRun> <TextRun amendingStyle="add">(e)</TextRun> The reason for hiring the substitute teacher.</P>
+<P>(2) By January 1st of each year, the office of the superintendent of public instruction must post on its web site the information identified in subsection (1) of this section.</P>
+<History>2016 c 233 § 8.</History>
+<RCWNoteSection>
+<RevNote><NoteP><TextRun fontWeight="bold">*Reviser's note: </TextRun>The reference to RCW 28A.410.252 appears to be erroneous. Reference to RCW 41.32.068 was apparently intended.</NoteP></RevNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>41</TitleNumber><TextRun>.</TextRun><ChapterNumber>05</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>Beginning with the 2022 plan year, individuals are limited to a single enrollment in medical, dental, and vision plans among school employees' benefits board and public employees' benefits board plans. However, individuals may be enrolled in both public employees' benefits board and school employees' benefits board plans as long as those enrollments are across different types of plans, such as medical, dental, and vision. The school employees' benefits board and the public employees' benefits board shall adopt policies to reflect this single enrollment requirement.</P>
+</BillSection>
+</BillBody>
+</Bill>

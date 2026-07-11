@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-0594.2</RequestNumber><ShortBillId>SB 5302</ShortBillId><LongBillId>SENATE BILL 5302</LongBillId><Legislature>69th Legislature</Legislature><Session>2025 Regular Session</Session><Sponsors>Senators Boehnke, Liias, and Torres</Sponsors><BillHistory><ReadDate>Read first time 01/16/25.</ReadDate><ReferredCommittee>Referred to Committee on Law &amp; Justice.</ReferredCommittee></BillHistory><BriefDescription>Prohibiting the purchase of small unmanned aircrafts manufactured or assembled by a covered foreign entity.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to prohibiting the purchase of small unmanned aircrafts manufactured or assembled by a covered foreign entity; adding a new section to chapter 43.17 RCW; and providing an effective date.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>17</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) No state or local agency, including any law enforcement agency, shall purchase or otherwise acquire a small unmanned aircraft system that is manufactured or assembled by a covered foreign entity.</P>
+<P>(2) No state or local agency funds may be used in connection with small unmanned aircraft systems manufactured or assembled by a covered foreign entity, including without limitation state or local agency funds:</P>
+<P>(a) Awarded through a contract, grant, or cooperative agreement; or</P>
+<P>(b) Otherwise made available.</P>
+<P>(3) On or after July 1, 2026, a public entity shall not operate a small unmanned aircraft system manufactured or assembled by a covered foreign entity.</P>
+<P>(4) For the purposes of this section:</P>
+<P>(a) "Agency" has the same meaning as provided in RCW 42.56.010.</P>
+<P>(b) "Covered foreign entity" means an individual, person, foreign government, or a party that is:</P>
+<P>(i) On the consolidated screening list or the entity list, supplement No. 4 to 15 C.F.R. Part 744, as each are published by the United States department of commerce on the effective date of this section;</P>
+<P>(ii) Domiciled in the People's Republic of China or the Russian Federation;</P>
+<P>(iii) Under the influence or control by the government of the People's Republic of China or the Russian Federation; or</P>
+<P>(iv) A subsidiary or affiliate of an individual, government, or party referred to in (b)(i) through (iii) of this subsection.</P>
+<P>(c) "Small unmanned aircraft system" means an aircraft that:</P>
+<P>(i) Is an unmanned, powered aircraft that is operated without the possibility of direct human intervention from within or on the aircraft;</P>
+<P>(ii) May be expendable or recoverable; and</P>
+<P>(iii) Weighs less than 55 pounds including the weight of anything attached to or carried by the aircraft.</P>
+</BillSection>
+<BillSection type="new" action="effdate" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act takes effect January 1, 2026.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

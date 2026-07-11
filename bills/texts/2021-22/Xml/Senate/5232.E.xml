@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><ShortBillId>ESB 5232</ShortBillId><LongBillId>ENGROSSED SENATE BILL 5232</LongBillId><Legislature>67th Legislature</Legislature><Session>2021 Regular Session</Session><Sponsors>Senator King</Sponsors><BillHistory /><BriefDescription>Limiting bonding toll revenues on certain state highway facilities.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to limiting bonding toll revenues on certain state highway facilities; amending RCW 47.10.897; and declaring an emergency.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>47</TitleNumber><TextRun>.</TextRun><ChapterNumber>10</ChapterNumber><TextRun>.</TextRun><SectionNumber>897</SectionNumber></SectionCite> and 2019 c 421 s 3 are each amended to read as follows:<Caption>Administration and amount of sale.</Caption></BillSectionHeader>
+<P><TextRun amendingStyle="add">(1)</TextRun> Upon the request of the department, the state finance committee shall supervise and provide for the issuance, sale, and retirement of bonds authorized by chapter 421, Laws of 2019 in accordance with chapter 39.42 RCW. Bonds authorized by chapter 421, Laws of 2019 shall be sold in the manner, at time or times, in amounts, and at the price as the state finance committee shall determine. No bonds may be offered for sale without prior legislative appropriation of the net proceeds of the sale of the bonds.</P>
+<P><TextRun amendingStyle="add">(2) Bonds supported by revenues in the Interstate 405 and state route number 167 express toll lanes account may not be issued until (a) after January 1, 2023, and (b)(i) toll revenue levels in the account have returned to a level of $8,500,000 in a single quarter as reported in the department's quarterly revenue and expenditure reports or (ii) the state treasurer determines that the toll revenue levels are sufficient to meet the financial obligation for the Interstate 405 and state route number 167 express toll lanes provided in RCW 47.10.899.</TextRun></P>
+<P><TextRun amendingStyle="add">(3) Bonds supported by revenues in the Puget Sound Gateway facility account may not be issued until (a) after January 1, 2023, and (b) the state treasurer determines that the toll revenue levels will be sufficient to meet the financial obligation for the Puget Sound Gateway facility provided in RCW 47.10.899.</TextRun></P>
+<History>2019 c 421 § 3.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Intent<TextRun fontFamily="Times New Roman">—</TextRun>Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2019 c 421:</TextRun> See notes following RCW 47.10.896.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="new" action="emerg">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act is necessary for the immediate preservation of the public peace, health, or safety, or support of the state government and its existing public institutions, and takes effect immediately.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-3451.1</RequestNumber><ShortBillId>SB 5709</ShortBillId><LongBillId>SENATE BILL 5709</LongBillId><Legislature>67th Legislature</Legislature><Session>2022 Regular Session</Session><Sponsors>Senator Padden</Sponsors><BillHistory><PrefiledDate>Prefiled 01/06/22.</PrefiledDate></BillHistory><BriefDescription>Concerning attenuation exceptions to the exclusionary evidence rule.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to attenuation exceptions to the exclusionary evidence rule; adding a new section to chapter 10.58 RCW; creating a new section; and declaring an emergency.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>10</TitleNumber><TextRun>.</TextRun><ChapterNumber>58</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) The court shall not exclude evidence that is otherwise admissible in a criminal proceeding on the basis that the evidence was obtained as a result of an unconstitutional search or seizure if the court determines that the connection between unconstitutional conduct and the evidence collected has been interrupted by an intervening event or events such that the interest protected by Article 1, section 7 of the Washington state Constitution would not be served by suppressing the evidence.</P>
+<P>(2) In making its determination, the court shall consider the temporal proximity of the official misconduct and the collection of evidence, the presence of intervening circumstances, and the purpose and flagrancy of the official misconduct.</P>
+<P>(3) Circumstances in which intervening circumstances constitute a sufficient attenuation between the official misconduct and the collection of evidence include, but are not limited to, the following:</P>
+<P>(a) Obtaining evidence pursuant to a search warrant or an arrest warrant obtained from a neutral and detached magistrate that the peace officer reasonably believed to be valid;</P>
+<P>(b) Obtaining evidence pursuant to a warrantless search incident to an arrest for violation of a statute or ordinance that is later declared unconstitutional or otherwise invalidated; and</P>
+<P>(c) Obtaining evidence in reliance upon a court precedent that is later overruled.</P>
+<P>(4) A showing that a peace officer obtained evidence pursuant to, and within the scope of, a search warrant constitutes prima facie evidence that the peace officer's action was lawful and constitutionally permissible.</P>
+<P>(5) This section does not require or authorize the exclusion of evidence in any criminal proceeding.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act is retroactive and applies to searches and seizures conducted on, before, or after the effective date of this section.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>If any provision of this act or its application to any person or circumstance is held invalid, the remainder of the act or the application of the provision to other persons or circumstances is not affected.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="emerg" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act is necessary for the immediate preservation of the public peace, health, or safety, or support of the state government and its existing public institutions, and takes effect immediately.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

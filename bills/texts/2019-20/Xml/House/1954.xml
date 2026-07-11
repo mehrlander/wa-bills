@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-0037.2</RequestNumber><ShortBillId>HB 1954</ShortBillId><LongBillId>HOUSE BILL 1954</LongBillId><Legislature>66th Legislature</Legislature><Session>2019 Regular Session</Session><Sponsors>Representatives Corry, Harris, Mosbrucker, Caldier, and McCaslin</Sponsors><BillHistory><ReadDate>Read first time 02/07/19.</ReadDate><ReferredCommittee>Referred to Committee on Health Care &amp; Wellness.</ReferredCommittee></BillHistory><BriefDescription>Concerning reciprocity for marriage and family therapists.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to reciprocity for marriage and family therapists; amending RCW 18.225.140; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature finds that the number of licensed marriage and family therapists is inadequate to meet the demand for services. The legislature further finds that current requirements in Washington prevent marriage and family therapists licensed in other states from practicing in Washington. Therefore, in order to provide greater opportunities for individuals seeking their services, the legislature intends to grant reciprocity to marriage and family therapists that have been licensed in the states, territories, or possessions of the United States or the District of Columbia.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>18</TitleNumber><TextRun>.</TextRun><ChapterNumber>225</ChapterNumber><TextRun>.</TextRun><SectionNumber>140</SectionNumber></SectionCite> and 2001 c 251 s 14 are each amended to read as follows:<Caption>Credentialed in another state<TextRun fontFamily="Times New Roman">—</TextRun>Licensed without examination.</Caption></BillSectionHeader>
+<P><TextRun amendingStyle="add">(1) Except as provided in subsection (2) of this section, a</TextRun>n applicant holding a credential in another state may be licensed to practice in this state without examination if the secretary determines that the other state's credentialing standards are substantially equivalent to the licensing standards in this state.</P>
+<P><TextRun amendingStyle="add">(2) An applicant seeking a marriage and family therapist license may be licensed to practice in this state without examination if the applicant holds a current unrestricted license to practice in any state, territory, or possession of the United States, or the District of Columbia.</TextRun></P>
+<History>2001 c 251 § 14.</History>
+</BillSection>
+</BillBody>
+</Bill>

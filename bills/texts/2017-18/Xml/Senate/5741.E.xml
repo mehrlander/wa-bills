@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><ShortBillId>ESB 5741</ShortBillId><LongBillId>ENGROSSED SENATE BILL 5741</LongBillId><Legislature>65th Legislature</Legislature><Session>2017 Regular Session</Session><Sponsors>Senator King</Sponsors><BillHistory><ReadDate>Read first time 02/06/17.</ReadDate><ReferredCommittee>Referred to Committee on Transportation.</ReferredCommittee></BillHistory><BriefDescription>Clarifying the collection of fuel taxes on motor vehicle fuel sold by businesses owned or operated by a tribe or member of the tribe.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to clarifying the collection of fuel taxes on motor vehicle fuel sold by businesses owned or operated by a tribe or member of the tribe; amending RCW 82.38.031 and 82.38.035; adding a new section to chapter 82.38 RCW; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>It is the legislature's intent to honor the treaty rights of the Yakama Nation, while protecting the state's interest in collecting and enforcing its fuel taxes.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>82</TitleNumber><TextRun>.</TextRun><ChapterNumber>38</ChapterNumber><TextRun>.</TextRun><SectionNumber>031</SectionNumber></SectionCite> and 2007 c 515 s 33 are each amended to read as follows:<Caption>Tax imposed<TextRun fontFamily="Times New Roman">—</TextRun>Intent.</Caption></BillSectionHeader>
+<P><TextRun amendingStyle="add">(1)</TextRun> It is the intent and purpose of this chapter that the tax <TextRun amendingStyle="strike">shall</TextRun> <TextRun amendingStyle="add">must</TextRun> be imposed at the time and place of the first taxable event and upon the first taxable person within this state. Any person whose activities would otherwise require payment of the tax imposed by RCW 82.38.030 but who is exempt from the tax nevertheless has a precollection obligation for the tax that must be imposed on the first taxable event within this state. Failure to pay the tax with respect to a taxable event <TextRun amendingStyle="strike">shall</TextRun> <TextRun amendingStyle="add">does</TextRun> not prevent tax liability from arising by reason of a subsequent taxable event.</P>
+<P><TextRun amendingStyle="add">(2) It is the intent of the legislature that, in the absence of a tribal fuel tax agreement, as referenced in RCW 82.38.310, applicable taxes imposed by this chapter be collected on motor vehicle fuel sold by a business owned or operated by a tribe or an enrolled member of the tribe, when such sale is to any person who is not an enrolled member of the same tribe as the business owner or operator, consistent with collection of these taxes generally within the state. The legislature finds that applicable collection and enforcement measures under this chapter are reasonably necessary to prevent fraudulent transactions and place a minimal burden on the Indian tribal organization pursuant to the United States supreme court's decision in <TextRun fontStyle="italic">Washington v. Confederated Tribes of the Colville Indian Reservation</TextRun>, 447 U.S. 134 (1980).</TextRun></P>
+<History>2007 c 515 § 33.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Severability<TextRun fontFamily="Times New Roman">—</TextRun>Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2007 c 515:</TextRun> See notes following RCW 82.36.010.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>82</TitleNumber><TextRun>.</TextRun><ChapterNumber>38</ChapterNumber><TextRun>.</TextRun><SectionNumber>035</SectionNumber></SectionCite> and 2013 c 225 s 105 are each amended to read as follows:<Caption>Tax liability. <TextRun fontStyle="italic">(Effective July 1, 2016.)</TextRun></Caption></BillSectionHeader>
+<P>(1) A licensed supplier is liable for and must pay tax on fuel as provided in RCW 82.38.030<TextRun amendingStyle="strike">(7)</TextRun> <TextRun amendingStyle="add">(9)</TextRun> (a) and (i). On a two-party exchange, or buy-sell agreement between two licensed suppliers, the receiving exchange partner or buyer <TextRun amendingStyle="strike">shall be</TextRun> <TextRun amendingStyle="add">is</TextRun> liable for and pay the tax.</P>
+<P>(2) A refiner is liable for and must pay tax on fuel removed from a refinery as provided in RCW 82.38.030<TextRun amendingStyle="strike">(7)</TextRun> <TextRun amendingStyle="add">(9)</TextRun>(b).</P>
+<P>(3) A licensed distributor is liable for and must pay tax on fuel as provided in RCW 82.38.030<TextRun amendingStyle="strike">(7)</TextRun> <TextRun amendingStyle="add">(9)</TextRun>(c).</P>
+<P>(4) A licensed blender is liable for and must pay tax on fuel as provided in RCW 82.38.030<TextRun amendingStyle="strike">(7)</TextRun> <TextRun amendingStyle="add">(9)</TextRun>(f).</P>
+<P>(5) A licensed dyed special fuel user is liable for and must pay tax on fuel as provided in RCW 82.38.030<TextRun amendingStyle="strike">(7)</TextRun> <TextRun amendingStyle="add">(9)</TextRun>(g).</P>
+<P>(6) A terminal operator is jointly and severally liable for and must pay tax on fuel if, at the time of removal:</P>
+<P>(a) The position holder of the fuel is a person other than the terminal operator and is not a licensee;</P>
+<P>(b) The terminal operator is not a licensee;</P>
+<P>(c) The position holder has an expired internal revenue notification certificate;</P>
+<P>(d) The terminal operator has reason to believe that information on the internal revenue notification certificate is false.</P>
+<P>(7) A terminal operator is jointly and severally liable for and must pay tax on special fuel if the special fuel is removed and is not dyed or marked in accordance with internal revenue service requirements, and the terminal operator provides a person with a bill of lading, shipping paper, or similar document indicating the special fuel is dyed or marked in accordance with internal revenue service requirements.</P>
+<P>(8) International fuel tax agreement licensees, or persons operating motor vehicles under other reciprocity agreements entered into with the state of Washington, are liable for and must pay tax on fuel used to operate motor vehicles on state highways.</P>
+<P>(9) Dyed special fuel users are liable for and must pay tax on dyed special fuel used on state highways unless the use of the fuel is exempt from the tax.</P>
+<P><TextRun amendingStyle="add">(10) Any person who purchases fuel from a business that is owned or operated by a federally recognized Indian tribe or an enrolled member of such tribe and the tribe does not have a fuel tax agreement with the state as referenced in RCW 82.38.310, and who is not an enrolled member of the same tribe as the business owner or operator from whom the person purchases fuel, is liable for the applicable taxes imposed by this chapter if those taxes have not been paid by any of the entities listed under subsections (1) through (4) of this section.</TextRun></P>
+<History>2013 c 225 § 105; 2007 c 515 § 23; 2005 c 314 § 107; 2003 c 361 § 405; 2001 c 270 § 7; 1998 c 176 § 53.</History>
+<RCWNoteSection>
+<RevNote><NoteP><TextRun fontWeight="bold">*Reviser's note: </TextRun>RCW 82.38.030 was amended by 2015 3rd sp.s. c 44 § 102, changing subsection (7) to subsection (9).</NoteP></RevNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2013 c 225:</TextRun> See note following RCW 82.38.010.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Severability<TextRun fontFamily="Times New Roman">—</TextRun>Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2007 c 515:</TextRun> See notes following RCW 82.36.010.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2005 c 314 §§ 101-107, 109, 303-309, and 401:</TextRun> See note following RCW 46.68.290.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Part headings not law<TextRun fontFamily="Times New Roman">—</TextRun>2005 c 314:</TextRun> See note following RCW 46.68.035.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Findings<TextRun fontFamily="Times New Roman">—</TextRun>Part headings not law<TextRun fontFamily="Times New Roman">—</TextRun>Severability<TextRun fontFamily="Times New Roman">—</TextRun>2003 c 361:</TextRun> See notes following RCW 82.36.025.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective dates<TextRun fontFamily="Times New Roman">—</TextRun>2003 c 361:</TextRun> See note following RCW 82.08.020.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>82</TitleNumber><TextRun>.</TextRun><ChapterNumber>38</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>The department, in conjunction with the state patrol, must adopt rules to develop enforcement mechanisms for the collection of taxes owed under RCW 82.38.035(10).</P>
+</BillSection>
+</BillBody>
+</Bill>

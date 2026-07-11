@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-0124.1</RequestNumber><ShortBillId>SB 5017</ShortBillId><LongBillId>SENATE BILL 5017</LongBillId><Legislature>65th Legislature</Legislature><Session>2017 Regular Session</Session><Sponsors>Senators Bailey, Wilson, and Conway</Sponsors><BillHistory><PrefiledDate>Prefiled 12/23/16.</PrefiledDate><ReadDate>Read first time 01/09/17.</ReadDate><ReferredCommittee>Referred to Committee on Higher Education.</ReferredCommittee></BillHistory><BriefDescription>Requiring that student loan information be provided to students.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to providing student loan information to students; and adding a new section to chapter 28B.92 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>28B</TitleNumber><TextRun>.</TextRun><ChapterNumber>92</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) An eligible institution under this chapter that receives education loan information for a student enrolled in the eligible institution must provide to the student the following information:</P>
+<P>(a) An estimate of the total amount of education loans taken out by the student;</P>
+<P>(b) An estimate of:</P>
+<P>(i) The potential total payoff amount of the education loans incurred or a range of the total payoff amount; and</P>
+<P>(ii) Monthly repayment amounts that a similarly situated borrower may incur, including principal and interest, for the amount of loans the student has taken out at the time the information is provided; and</P>
+<P>(c) The percentage of the borrowing limit the student has reached at the time the information is provided.</P>
+<P>(2) The information provided under subsection (1) of this section may include a statement or disclaimer that the estimates and ranges provided are general in nature and not meant as a guarantee or promise of the actual projected amount.</P>
+<P>(3) An eligible institution must provide the information required under subsection (1) of this section annually.</P>
+<P>(4) An eligible institution does not incur liability for any representations made under this section.</P>
+</BillSection>
+</BillBody>
+</Bill>

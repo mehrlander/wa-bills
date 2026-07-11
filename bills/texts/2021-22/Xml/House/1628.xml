@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-1718.1</RequestNumber><ShortBillId>HB 1628</ShortBillId><LongBillId>HOUSE BILL 1628</LongBillId><Legislature>67th Legislature</Legislature><Session>2022 Regular Session</Session><Sponsors>Representatives Jacobsen and Dufault</Sponsors><BillHistory><PrefiledDate>Prefiled 12/09/21.</PrefiledDate><ReadDate>Read first time 01/10/22.</ReadDate><ReferredCommittee>Referred to Committee on State Government &amp; Tribal Relations.</ReferredCommittee></BillHistory><BriefDescription>Concerning the preparation of statements in local voters' pamphlets.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to the preparation of statements in local voters' pamphlets; amending RCW 29A.32.280; creating a new section; and providing an effective date.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>29A</TitleNumber><TextRun>.</TextRun><ChapterNumber>32</ChapterNumber><TextRun>.</TextRun><SectionNumber>280</SectionNumber></SectionCite> and 2015 c 146 s 3 are each amended to read as follows:<Caption>Arguments advocating approval or disapproval<TextRun fontFamily="Times New Roman">—</TextRun>Preparation by committees.</Caption></BillSectionHeader>
+<P><TextRun amendingStyle="add">(1)</TextRun> For each measure from a unit of local government that is included in a local voters' pamphlet, the <TextRun amendingStyle="strike">legislative authority of that jurisdiction</TextRun> <TextRun amendingStyle="add">auditor for the county in which a jurisdiction is located</TextRun> shall, <TextRun amendingStyle="strike">not later than</TextRun> <TextRun amendingStyle="add">within one week of</TextRun> the resolution deadline, formally appoint a committee to prepare arguments advocating voters' approval of the measure and shall formally appoint a committee to prepare arguments advocating voters' rejection of the measure. The authority shall appoint persons known to favor the measure to serve on the committee advocating approval and shall, whenever possible, appoint persons known to oppose the measure to serve on the committee advocating rejection. Each committee shall have not more than three members, however, a committee may seek the advice of any person or persons. <TextRun amendingStyle="strike">If the legislative authority of a unit of local government fails to make such appointments by the prescribed deadline, the county auditor shall whenever possible make the appointments.</TextRun></P>
+<P><TextRun amendingStyle="add">(2) If a local jurisdiction is located in more than one county, the auditors of the counties shall coordinate the appointment of the committee.</TextRun></P>
+<History>2015 c 146 § 3; 2003 c 111 § 820. Prior: 1994 c 191 § 2; 1984 c 106 § 10. Formerly RCW 29.81A.080.</History>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>These costs are payable in accordance with RCW 29A.04.410.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="effdate">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act takes effect January 1, 2023.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

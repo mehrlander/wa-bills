@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-3308.1</RequestNumber><ShortBillId>HB 2278</ShortBillId><LongBillId>HOUSE BILL 2278</LongBillId><Legislature>65th Legislature</Legislature><Session>2018 Regular Session</Session><Sponsors>Representatives Morris, Hudgins, Smith, Slatter, Tharinger, Macri, Young, Kloba, and Appleton</Sponsors><BillHistory><PrefiledDate>Prefiled 12/13/17.</PrefiledDate><ReadDate>Read first time 01/08/18.</ReadDate><ReferredCommittee>Referred to Committee on State Govt, Elections &amp; IT.</ReferredCommittee></BillHistory><BriefDescription>Concerning personal information privacy protections in government entities.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to enhancing personal information privacy protections in government entities; amending RCW 42.56.420; adding a new section to chapter 19.215 RCW; and adding a new chapter to Title 40 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) Each department or other agency of the state government must designate an agency privacy officer. In coordination with the state office of privacy and data protection, the agency privacy officer must:</P></BillSectionHeader>
+<P>(a) Develop an agency personal information minimization policy to reduce the use and retention of personal information wherever possible;</P>
+<P>(b) Create a work plan that uses a Gantt chart or similar project planning tool for the following, including the estimated costs of execution:</P>
+<P>(i) An inventory of all personal information prepared, owned, used, or retained by the agency, that would include the specific type of information, the purpose for its collection, and the extent to which the information is protected from unauthorized access; and</P>
+<P>(ii) A map of the physical or digital location of all personal information collected by the agency, that would be indexed to the inventory created in (b)(i) of this subsection; and</P>
+<P>(c) Report the work plan created under (b) of this subsection to the state office of privacy and data protection no later than December 15, 2018.</P>
+<P>(2) Agency privacy officers designated under subsection (1) of this section must complete a training course provided by the state office of privacy and data protection on privacy best practices. The training course must be completed no later than sixty days after assuming responsibilities as an agency privacy officer, and at intervals of no more than four years as long as they maintain the designation.</P>
+<P>(3) Any inventory or data map records created under subsection (1)(b) of this section that reveal the location of personal information or the extent to which it is protected may not be disclosed under the public records act, chapter 42.56 RCW.</P>
+<P>(4) For purposes of this section, "personal information" has the same meaning as in RCW 42.56.590(5).</P>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>19</TitleNumber><TextRun>.</TextRun><ChapterNumber>215</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>A governmental entity is prohibited from selling:</P>
+<P>(1) Personal financial and health information; and</P>
+<P>(2) Personal identification numbers issued by a government entity.</P>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>42</TitleNumber><TextRun>.</TextRun><ChapterNumber>56</ChapterNumber><TextRun>.</TextRun><SectionNumber>420</SectionNumber></SectionCite> and 2017 c 149 s 1 are each amended to read as follows:<Caption>Security.</Caption></BillSectionHeader>
+<P>The following information relating to security is exempt from disclosure under this chapter:</P>
+<P>(1) Those portions of records assembled, prepared, or maintained to prevent, mitigate, or respond to criminal terrorist acts, which are acts that significantly disrupt the conduct of government or of the general civilian population of the state or the United States and that manifest an extreme indifference to human life, the public disclosure of which would have a substantial likelihood of threatening public safety, consisting of:</P>
+<P>(a) Specific and unique vulnerability assessments or specific and unique response or deployment plans, including compiled underlying data collected in preparation of or essential to the assessments, or to the response or deployment plans; and</P>
+<P>(b) Records not subject to public disclosure under federal law that are shared by federal or international agencies, and information prepared from national security briefings provided to state or local government officials related to domestic preparedness for acts of terrorism;</P>
+<P>(2) Those portions of records containing specific and unique vulnerability assessments or specific and unique emergency and escape response plans at a city, county, or state adult or juvenile correctional facility, or secure facility for persons civilly confined under chapter 71.09 RCW, the public disclosure of which would have a substantial likelihood of threatening the security of a city, county, or state adult or juvenile correctional facility, secure facility for persons civilly confined under chapter 71.09 RCW, or any individual's safety;</P>
+<P>(3) Information compiled by school districts or schools in the development of their comprehensive safe school plans under RCW 28A.320.125, to the extent that they identify specific vulnerabilities of school districts and each individual school;</P>
+<P>(4) Information regarding the public and private infrastructure and security of computer and telecommunications networks, consisting of security passwords, security access codes and programs, access codes for secure software applications, security and service recovery plans, security risk assessments, and security test results to the extent that they identify specific system vulnerabilities, and other such information the release of which may increase risk to the confidentiality, integrity, or availability of security, information technology infrastructure, or assets;</P>
+<P>(5) The system security and emergency preparedness plan required under RCW 35.21.228, 35A.21.300, 36.01.210, 36.57.120, 36.57A.170, and 81.112.180; <TextRun amendingStyle="strike">and</TextRun></P>
+<P>(6) Personally identifiable information of employees, and other security information, of a private cloud service provider that has entered into a criminal justice information services agreement as contemplated by the United States department of justice criminal justice information services security policy, as authorized by 28 C.F.R. Part 20<TextRun amendingStyle="add">; and</TextRun></P>
+<P><TextRun amendingStyle="add">(7) Personal information inventory or data map records created under section 1(1)(b) of this act, that reveal the location of personal information or the extent to which it is protected</TextRun>.</P>
+<History>2017 c 149 § 1; 2016 c 153 § 1; 2013 2nd sp.s. c 33 § 9; 2009 c 67 § 1; 2005 c 274 § 422.</History>
+</BillSection>
+<BillSection type="new" action="addchap">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber><P>Section 1 of this act constitutes a new chapter in <TitleCite><TextRun>Title </TextRun><TitleNumber>40</TitleNumber><TextRun> RCW</TextRun></TitleCite>.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

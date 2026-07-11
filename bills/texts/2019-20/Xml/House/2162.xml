@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-2538.1</RequestNumber><ShortBillId>HB 2162</ShortBillId><LongBillId>HOUSE BILL 2162</LongBillId><Legislature>66th Legislature</Legislature><Session>2019 Regular Session</Session><Sponsors>Representative DeBolt</Sponsors><BillHistory><ReadDate>Read first time 03/29/19.</ReadDate><ReferredCommittee>Referred to Committee on Health Care &amp; Wellness.</ReferredCommittee></BillHistory><BriefDescription>Requiring newborn screening for spinal muscular atrophy.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to requiring newborn screening for spinal muscular atrophy; and amending RCW 70.83.020.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>70</TitleNumber><TextRun>.</TextRun><ChapterNumber>83</ChapterNumber><TextRun>.</TextRun><SectionNumber>020</SectionNumber></SectionCite> and 2014 c 18 s 1 are each amended to read as follows:<Caption>Screening tests of newborn infants.</Caption></BillSectionHeader>
+<P>(1) It shall be the duty of the department of health to require screening tests of all newborn infants born in any setting. Each hospital or health care provider attending a birth outside of a hospital shall collect and submit a sample blood specimen for all newborns no more than forty-eight hours following birth. The department of health shall conduct screening tests of samples for the detection of phenylketonuria<TextRun amendingStyle="add">, spinal muscular atrophy,</TextRun> and other heritable or metabolic disorders leading to intellectual disabilities or physical defects as defined by the state board of health: PROVIDED, That no such tests shall be given to any newborn infant whose parents or guardian object thereto on the grounds that such tests conflict with their religious tenets and practices.</P>
+<P>(2) The sample required in subsection (1) of this section must be received by the department <TextRun amendingStyle="strike">[of health]</TextRun> <TextRun amendingStyle="add">of health</TextRun> within seventy-two hours of the collection of the sample, excluding any day that the Washington state public health laboratory is closed.</P>
+<History>2014 c 18 § 1; 2010 c 94 § 18; 1991 c 3 § 348; 1975<Hyphen type="nobreak" />'76 2nd ex.s. c 27 § 1; 1967 c 82 § 2.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Purpose<TextRun fontFamily="Times New Roman">—</TextRun>2010 c 94:</TextRun> See note following RCW 44.04.280.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+</BillBody>
+</Bill>

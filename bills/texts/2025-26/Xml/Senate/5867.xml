@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-3497.1</RequestNumber><ShortBillId>SB 5867</ShortBillId><LongBillId>SENATE BILL 5867</LongBillId><Legislature>69th Legislature</Legislature><Session>2026 Regular Session</Session><Sponsors>Senators Muzzall, Cleveland, Christian, Dozier, Riccelli, and C. Wilson</Sponsors><BillHistory><PrefiledDate>Prefiled 12/10/25.</PrefiledDate><ReadDate>Read first time 01/12/26.</ReadDate><ReferredCommittee>Referred to Committee on Health &amp; Long-Term Care.</ReferredCommittee></BillHistory><BriefDescription>Partnering with a mobile pregnancy application to improve maternal and infant health.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to partnering with a mobile pregnancy application to improve maternal and infant health; adding a new section to chapter 41.05 RCW; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) To address the disparities in maternal and infant health in Washington among the medicaid eligible population, improving the continuum of care through awareness of available programs, supports, and services is vital. Unfortunately, too many pregnant patients remain unaware of critical maternal and infant health programs available in Washington. For example, perinatal substance use services can provide critical support to expecting patients, yet many remain unaware or unable to access these services in a timely or coordinated manner.</P></BillSectionHeader>
+<P>(2) The legislature therefore intends to close this gap. To do so, the state shall develop a mobile pregnancy application that connects medicaid eligible users to educational resources, care coordination, and state funded programs, supports, and services.</P>
+<P>(3) With this pregnancy application, the legislature further intends to modernize outreach to state programs, improve maternal and infant health outcomes, and ensure equitable access to available programs, supports, and services.</P>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>41</TitleNumber><TextRun>.</TextRun><ChapterNumber>05</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) The authority shall partner with a mobile pregnancy application to promote awareness of the government maternal and infant health programs and information available to prenatal, pregnant, and postpartum women who are enrolled in medical assistance under chapter 74.09 RCW. The authority may contract for such mobile application on a statewide basis following a competitive bidding process pursuant to requirements outlined in chapter 39.26 RCW.</P>
+<P>(2) The authority shall include the following mobile application deliverables in its request for proposal:</P>
+<P>(a) The mobile application must have the capability to deliver education, resources, and support to prenatal, pregnant, and postpartum women and their families, including information specific to Washington state such as links to the authority, the department of health, and other state agency programs and resources available to prenatal, pregnant, and postpartum women;</P>
+<P>(b) The mobile application must demonstrate a consistent workflow to increase awareness of state agency programs and resources available to users of the mobile application;</P>
+<P>(c) The mobile application platform must be able to survey specific questions from its users as determined by the authority or other agencies in the state;</P>
+<P>(d) The mobile application must include information and resources that meet acceptable clinical standards as determined by the authority;</P>
+<P>(e) The mobile application must be provided in multiple languages;</P>
+<P>(f) The mobile application must be available on both Android and iOS platforms; and</P>
+<P>(g) The selected vendor for the mobile application must regularly provide the authority with aggregate, deidentified data concerning:</P>
+<P>(i) The number of users of the mobile application for medicaid;</P>
+<P>(ii) The number of users of the mobile application that are engaging with content specific to the state of Washington;</P>
+<P>(iii) The number of users of the mobile application seeking additional information about medicaid enrollment or other available resources;</P>
+<P>(iv) The number of monthly users of the mobile application;</P>
+<P>(v) The number of daily users of the mobile application;</P>
+<P>(vi) The average length of time a user uses the mobile application; and</P>
+<P>(vii) Any other information requested by the authority or other state agencies.</P>
+<P>(3)  The authority shall issue a request for proposal pursuant to this act within 180 days of the effective date of this section.</P>
+<P>(4) The authority shall collaborate with the department of health to ensure that information on the selected mobile pregnancy application is included in the informational resources as directed in RCW 43.70.619.</P>
+<P />
+</BillSection>
+</BillBody>
+</Bill>

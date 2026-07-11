@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-5179.1</RequestNumber><ShortBillId>SB 6375</ShortBillId><LongBillId>SENATE BILL 6375</LongBillId><Legislature>66th Legislature</Legislature><Session>2020 Regular Session</Session><Sponsors>Senators Nguyen, Darneille, Takko, Hunt, Wilson, C., Das, Dhingra, Hasegawa, Randall, Keiser, Van De Wege, Lovelett, Pedersen, and Stanford</Sponsors><BillHistory><ReadDate>Read first time 01/15/20.</ReadDate><ReferredCommittee>Referred to Committee on Human Services, Reentry &amp; Rehabilitation.</ReferredCommittee></BillHistory><BriefDescription>Concerning private detention facilities.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to private detention facilities; adding a new chapter to Title 70 RCW; creating new sections; and declaring an emergency.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>It is the intent of the legislature to ensure the safety and welfare of people in Washington state by ending the operation of private detention facilities. The legislature finds that there are numerous documented abuses of people held in private detention facilities in Washington state and elsewhere. The legislature further finds that incarcerating persons in private detention facilities leads to cutting operational costs, which is dangerous and detrimental to Washingtonians. Therefore, it is the purpose of this act to eliminate the use of private detention operations in this state.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>The definitions in this section apply throughout this chapter unless the context clearly requires otherwise.</P></BillSectionHeader>
+<P>(1) "Detention facility" means any facility in which persons are incarcerated or otherwise involuntarily confined for purposes including prior to trial or sentencing, fulfilling the terms of a sentence imposed by a court, or for other judicial or administrative processes or proceedings.</P>
+<P>(2) "Private detention facility" means a detention facility that is operated by a private, nongovernmental entity and operating pursuant to a contract or agreement with a federal, state, or local governmental entity.</P>
+<P>(3) "Operate" includes owning, leasing, managing, or controlling some or all of the functions of a detention facility, regardless of the underlying ownership of the facility or land upon which the facility is located.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) Except as provided in subsections (2) and (3) of this section, no person, business, or state or local governmental entity shall operate a private detention facility within the state, or enter into agreements with any local or state government or private organization in any other state providing for the operation of a private detention facility.</P></BillSectionHeader>
+<P>(2) A private detention facility that is operating pursuant to a valid contract with a governmental entity that was in effect prior to January 1, 2020, may remain in effect for the duration of that contract, not to include any extensions or modifications made to, or authorized by, that contract.</P>
+<P>(3) This section does not apply to:</P>
+<P>(a) Any facility providing rehabilitative, counseling, treatment, mental health, educational, or medical services to a juvenile subject to chapter 13.04 RCW;</P>
+<P>(b) Any facility providing evaluation and treatment or forensic services to a person who has been detained or is subject to an order of commitment by a court pursuant to chapter 71.05, 10.77, or 71.34 RCW;</P>
+<P>(c) Contracts for exclusively providing ancillary services, including educational, vocational, medical, or other services to an inmate in the custody of, and under the direct supervision of, a state agency, local government, or law enforcement agency;</P>
+<P>(d) Any facility licensed or required to be licensed pursuant to the following: Assisted living facilities under chapter 18.20 RCW; nursing homes under chapter 18.51 RCW; adult family homes under chapter 70.128 RCW; soldiers' homes under chapter 72.36 RCW; residential habilitation centers under chapter 71A.20 RCW; or secure community transition facilities under chapter 71.09 RCW;</P>
+<P>(e) Any facility used for the quarantine or isolation of persons for public health reasons pursuant to RCW 43.20.050; and</P>
+<P>(f) Any facility owned and operated by federally recognized tribes and contracting with a government.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act shall be construed liberally for the accomplishment of the purposes thereof.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="emerg" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>5</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act is necessary for the immediate preservation of the public peace, health, or safety, or support of the state government and its existing public institutions, and takes effect immediately.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>6</Value><TextRun>.  </TextRun></BillSectionNumber><P>If any provision of this act or its application to any person or circumstance is held invalid, the remainder of the act or the application of the provision to other persons or circumstances is not affected.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addchap" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>7</Value><TextRun>.  </TextRun></BillSectionNumber><P>Sections 2 and 3 of this act constitute a new chapter in <TitleCite><TextRun>Title </TextRun><TitleNumber>70</TitleNumber><TextRun> RCW</TextRun></TitleCite>.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

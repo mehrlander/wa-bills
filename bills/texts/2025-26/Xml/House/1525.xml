@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-0299.1</RequestNumber><ShortBillId>HB 1525</ShortBillId><LongBillId>HOUSE BILL 1525</LongBillId><Legislature>69th Legislature</Legislature><Session>2025 Regular Session</Session><Sponsors>Representatives Walen, Stearns, Parshley, Shavers, Pollet, Scott, and Waters</Sponsors><BillHistory><ReadDate>Read first time 01/23/25.</ReadDate><ReferredCommittee>Referred to Committee on Finance.</ReferredCommittee></BillHistory><BriefDescription>Providing a sales and use tax exemption for a motor vehicle sold to a tribe or tribal member.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to providing a sales and use tax exemption for a motor vehicle sold to a tribe or tribal member; amending RCW 82.08.0317; adding a new section to chapter 82.12 RCW; creating a new section; providing an effective date; and providing expiration dates.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>82</TitleNumber><TextRun>.</TextRun><ChapterNumber>08</ChapterNumber><TextRun>.</TextRun><SectionNumber>0317</SectionNumber></SectionCite> and 2016 c 232 s 1 are each amended to read as follows:<Caption>Exemptions<TextRun fontFamily="Times New Roman">—</TextRun>Sales of motor vehicles to tribes or tribal members.</Caption></BillSectionHeader>
+<P indent="1">(1)(a) State sales tax is not imposed on the sale of a motor vehicle<TextRun amendingStyle="strike">: (i) If delivered to a tribe or tribal member in their Indian country, or (ii) if the sale is made to a tribe or tribal member in their Indian country</TextRun> <TextRun amendingStyle="add">if the sale is made to a tribe or tribal member</TextRun>. A tribal member is not required to reside in Indian country for the exemption under this section to apply. However, the tribal member must have tax exempt status as a member of the tribe <TextRun amendingStyle="strike">upon whose Indian country delivery is made</TextRun>.</P>
+<P>(b) In order to substantiate the tax exempt status of a tribal member, the seller must require presentation of one of the following:</P>
+<P>(i) The buyer's tribal membership or citizenship card <TextRun amendingStyle="add">from a tribe</TextRun>;</P>
+<P>(ii) The buyer's certificate of <TextRun amendingStyle="strike">tribal</TextRun> enrollment <TextRun amendingStyle="add">with a tribe</TextRun>; or</P>
+<P>(iii) A letter signed by <TextRun amendingStyle="strike">a tribal</TextRun> <TextRun amendingStyle="add">an</TextRun> official <TextRun amendingStyle="add">of a tribe</TextRun> confirming the buyer's tribal membership status.</P>
+<P><TextRun amendingStyle="strikemarkleft">(c)(i) To establish delivery for purposes of this section, the motor vehicle must be delivered to the tribe or tribal member in their Indian country. The seller must document the delivery by completing a declaration, which must be signed by the seller and the buyer. The declaration must be limited to attestation regarding the location of delivery and the enrollment status of the tribal member. The department may develop a form for the declaration.</TextRun></P>
+<P><TextRun amendingStyle="strikemarknone">(ii) No other proof of delivery may be accepted in place of or required in addition to the requirements in (c)(i) of this subsection.</TextRun></P>
+<P><TextRun amendingStyle="strikemarknone">(2) If the sale is made to the tribe or tribal member in their Indian country, the requirements in subsection (1)(c) of this section do not apply.</TextRun></P>
+<P><TextRun amendingStyle="strikemarkright">(3)</TextRun> <TextRun amendingStyle="add">(2)</TextRun> The seller must retain copies of the documentation required under subsection (1) of this section for the period required in RCW 82.32.070.</P>
+<P><TextRun amendingStyle="strike">(4)</TextRun> <TextRun amendingStyle="add">(3)</TextRun> Nothing in this section may be construed to affect, amend, or modify federal law or Washington state tax law as applied to a tribal member or tribe.</P>
+<P><TextRun amendingStyle="strike">(5)</TextRun> <TextRun amendingStyle="add">(4)</TextRun> The definitions in this subsection apply throughout this section unless the context clearly requires otherwise.</P>
+<P>(a) "Indian country" has the same meaning as provided in 18 U.S.C. Sec. 1151.</P>
+<P>(b) "Tribe" means a federally recognized tribe.</P>
+<P>(c) "Tribal member" means an enrolled member of a federally recognized tribe.</P>
+<History>2016 c 232 s 1.</History>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>82</TitleNumber><TextRun>.</TextRun><ChapterNumber>12</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) The provisions of this chapter do not apply with respect to the use of a motor vehicle that is sold to a tribe or tribal member.</P>
+<P>(2) All the eligibility requirements, conditions, limitations, and definitions in RCW 82.08.0317 apply to this section.</P>
+<P>(3) This section expires January 1, 2037.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) This section is the tax preference performance statement for the tax preferences contained in sections 1 and 2, chapter . . ., Laws of 2025 (sections 1 and 2 of this act). This performance statement is only intended to be used for subsequent evaluation of the tax preference. It is not intended to create a private right of action by any party or to be used to determine eligibility for preferential tax treatment.</P></BillSectionHeader>
+<P>(2) The legislature categorizes these tax preferences as ones intended to provide tax relief for certain businesses or individuals, as indicated in RCW 82.32.808(2)(e).</P>
+<P>(3) It is the legislature's specific public policy objective to promote the efficacy of the sales and use tax preference provided to tribal members when purchasing vehicles in Washington.</P>
+<P>(4) If the review finds that annual sales of vehicles to tribal members has increased by at least 20 percent by 2034 over calendar year 2025, then the legislature intends to extend the expiration date of this tax preference.</P>
+<P>(5) In order to obtain the data necessary to perform the review in subsection (4) of this section, the joint legislative audit and review committee may refer to any data collected by the state.</P>
+</BillSection>
+<BillSection type="new" action="effdate">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act takes effect January 1, 2026.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="expdate">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>5</Value><TextRun>.  </TextRun></BillSectionNumber><P>Section 1 of this act expires January 1, 2037.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

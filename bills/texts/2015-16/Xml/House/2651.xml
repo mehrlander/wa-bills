@@ -1,0 +1,1094 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>Z-0666.1</RequestNumber><ShortBillId>HB 2651</ShortBillId><LongBillId>HOUSE BILL 2651</LongBillId><Legislature>64th Legislature</Legislature><Session>2016 Regular Session</Session><Sponsors>Representatives Rossetti and Orcutt; by request of Department of Transportation</Sponsors><BillHistory><ReadDate>Read first time 01/18/16.</ReadDate><ReferredCommittee>Referred to Committee on Transportation.</ReferredCommittee></BillHistory><BriefDescription>Concerning vehicle maximum gross weight values.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to vehicle maximum gross weight values; and amending RCW 46.44.041.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>46</TitleNumber><TextRun>.</TextRun><ChapterNumber>44</ChapterNumber><TextRun>.</TextRun><SectionNumber>041</SectionNumber></SectionCite> and 1997 c 198 s 1 are each amended to read as follows:<Caption>Maximum gross weights<TextRun fontFamily="Times New Roman">—</TextRun>Wheelbase and axle factors.</Caption></BillSectionHeader>
+<P>No vehicle or combination of vehicles shall operate upon the public highways of this state with a gross load on any single axle in excess of twenty thousand pounds, or upon any group of axles in excess of that set forth in the following table, except that two consecutive sets of tandem axles may carry a gross load of thirty-four thousand pounds each, if the overall distance between the first and last axles of such consecutive sets of tandem axles is thirty-six feet or more.</P>
+<P postPadding="halfline"><TextRun amendingStyle="add" /><TextRun amendingStyle="add">The following table is based on the following formula:
+W = 500((LN/N-1)+12N+36). W is the maximum weight in pounds (to the nearest 500 pounds) carried on any group of two (2) or more consecutive axles. L is the distance in feet between the extremes of any group of two (2) or more consecutive axles. N is the number of axles under consideration.</TextRun></P>
+<Table width="243.0pt" align="center" fontSize="7pt" pubwidth="narrow" hCellPadding="none" vCellPadding="none">
+<Col width="9pt" />
+<Col width="37pt" />
+<Col width="22pt" />
+<Col width="22pt" />
+<Col width="23pt" />
+<Col width="23pt" />
+<Col width="6pt" />
+<Col width="22pt" />
+<Col width="6pt" />
+<Col width="20pt" />
+<Col width="6pt" />
+<Col width="19pt" />
+<Col width="6pt" />
+<Col width="22pt" />
+<TR>
+<TD colspan="2" rowspan="4" valign="bottom"><P>Distance in feet between the extremes of any group of 2 or more consecutive axles</P></TD>
+<TD textAlign="left" valign="top"><P /></TD>
+<TD colspan="5" textAlign="left" valign="top"><P>Maximum load in pounds carried on any group of 2 or more consecutive axles</P></TD>
+<TD colspan="6" textAlign="center" valign="top"><P /></TD>
+</TR>
+<TR>
+<TD colspan="12" border-bottom="solid" textAlign="center" valign="top"><P /></TD>
+</TR>
+<TR>
+<TD textAlign="center" valign="top"><P>2</P></TD>
+<TD textAlign="center" valign="top"><P>3</P></TD>
+<TD textAlign="center" valign="top"><P>4</P></TD>
+<TD textAlign="center" valign="top"><P>5</P></TD>
+<TD textAlign="center" valign="top"><P /></TD>
+<TD textAlign="center" valign="top"><P>6</P></TD>
+<TD textAlign="center" valign="top"><P /></TD>
+<TD textAlign="center" valign="top"><P>7</P></TD>
+<TD textAlign="center" valign="top"><P /></TD>
+<TD textAlign="center" valign="top"><P>8</P></TD>
+<TD textAlign="center" valign="top"><P /></TD>
+<TD textAlign="center" valign="top"><P>9</P></TD>
+</TR>
+<TR>
+<TD textAlign="center" valign="top"><P>axles</P></TD>
+<TD textAlign="center" valign="top"><P>axles</P></TD>
+<TD textAlign="center" valign="top"><P>axles</P></TD>
+<TD textAlign="center" valign="top"><P>axles</P></TD>
+<TD textAlign="center" valign="top"><P /></TD>
+<TD textAlign="center" valign="top"><P>axles</P></TD>
+<TD textAlign="center" valign="top"><P /></TD>
+<TD textAlign="center" valign="top"><P>axles</P></TD>
+<TD textAlign="center" valign="top"><P /></TD>
+<TD textAlign="center" valign="top"><P>axles</P></TD>
+<TD textAlign="center" valign="top"><P /></TD>
+<TD textAlign="center" valign="top"><P>axles</P></TD>
+</TR>
+<TR>
+<TD colspan="2" textAlign="left" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD colspan="2" textAlign="right" valign="top"><P /></TD>
+<TD colspan="2" textAlign="right" valign="top"><P /></TD>
+<TD colspan="2" textAlign="right" valign="top"><P /></TD>
+<TD colspan="2" textAlign="right" valign="top"><P /></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P /></TD>
+<TD textAlign="left" valign="top"><P>4</P></TD>
+<TD textAlign="right" valign="top"><P>34,000</P></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD colspan="2" textAlign="right" valign="top"><P /></TD>
+<TD colspan="2" textAlign="right" valign="top"><P /></TD>
+<TD colspan="2" textAlign="right" valign="top"><P /></TD>
+<TD colspan="2" textAlign="right" valign="top"><P /></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P /></TD>
+<TD textAlign="left" valign="top"><P>5</P></TD>
+<TD textAlign="right" valign="top"><P>34,000</P></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD colspan="2" textAlign="right" valign="top"><P /></TD>
+<TD colspan="2" textAlign="right" valign="top"><P /></TD>
+<TD colspan="2" textAlign="right" valign="top"><P /></TD>
+<TD colspan="2" textAlign="right" valign="top"><P /></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P /></TD>
+<TD textAlign="left" valign="top"><P>6</P></TD>
+<TD textAlign="right" valign="top"><P>34,000</P></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD colspan="2" textAlign="right" valign="top"><P /></TD>
+<TD colspan="2" textAlign="right" valign="top"><P /></TD>
+<TD colspan="2" textAlign="right" valign="top"><P /></TD>
+<TD colspan="2" textAlign="right" valign="top"><P /></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P /></TD>
+<TD textAlign="left" valign="top"><P>7</P></TD>
+<TD textAlign="right" valign="top"><P>34,000</P></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD colspan="2" textAlign="right" valign="top"><P /></TD>
+<TD colspan="2" textAlign="right" valign="top"><P /></TD>
+<TD colspan="2" textAlign="right" valign="top"><P /></TD>
+<TD colspan="2" textAlign="right" valign="top"><P /></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P /></TD>
+<TD textAlign="left" valign="top"><P>8 &amp; less</P></TD>
+<TD textAlign="right" valign="top"><P>34,000</P></TD>
+<TD textAlign="right" valign="top"><P>34,000</P></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD colspan="2" textAlign="right" valign="top"><P /></TD>
+<TD colspan="2" textAlign="right" valign="top"><P /></TD>
+<TD colspan="2" textAlign="right" valign="top"><P /></TD>
+<TD colspan="2" textAlign="right" valign="top"><P /></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P /></TD>
+<TD textAlign="left" valign="top"><P>more than 8</P></TD>
+<TD textAlign="right" valign="top"><P>38,000</P></TD>
+<TD textAlign="right" valign="top"><P>42,000</P></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD colspan="2" textAlign="right" valign="top"><P /></TD>
+<TD colspan="2" textAlign="right" valign="top"><P /></TD>
+<TD colspan="2" textAlign="right" valign="top"><P /></TD>
+<TD colspan="2" textAlign="right" valign="top"><P /></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P /></TD>
+<TD textAlign="left" valign="top"><P>9</P></TD>
+<TD textAlign="right" valign="top"><P>39,000</P></TD>
+<TD textAlign="right" valign="top"><P>42,500</P></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD colspan="2" textAlign="right" valign="top"><P /></TD>
+<TD colspan="2" textAlign="right" valign="top"><P /></TD>
+<TD colspan="2" textAlign="right" valign="top"><P /></TD>
+<TD colspan="2" textAlign="right" valign="top"><P /></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P /></TD>
+<TD textAlign="left" valign="top"><P>10</P></TD>
+<TD textAlign="right" valign="top"><P>40,000</P></TD>
+<TD textAlign="right" valign="top"><P>43,500</P></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD colspan="2" textAlign="right" valign="top"><P /></TD>
+<TD colspan="2" textAlign="right" valign="top"><P /></TD>
+<TD colspan="2" textAlign="right" valign="top"><P /></TD>
+<TD colspan="2" textAlign="right" valign="top"><P /></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P /></TD>
+<TD textAlign="left" valign="top"><P>11</P></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P>44,000</P></TD>
+<TD textAlign="right" valign="top"><P><TextRun amendingStyle="add">49,000</TextRun></P></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD colspan="2" textAlign="right" valign="top"><P /></TD>
+<TD colspan="2" textAlign="right" valign="top"><P /></TD>
+<TD colspan="2" textAlign="right" valign="top"><P /></TD>
+<TD colspan="2" textAlign="right" valign="top"><P /></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P /></TD>
+<TD textAlign="left" valign="top"><P>12</P></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P>45,000</P></TD>
+<TD textAlign="right" valign="top"><P>50,000</P></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD colspan="2" textAlign="right" valign="top"><P /></TD>
+<TD colspan="2" textAlign="right" valign="top"><P /></TD>
+<TD colspan="2" textAlign="right" valign="top"><P /></TD>
+<TD colspan="2" textAlign="right" valign="top"><P /></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P /></TD>
+<TD textAlign="left" valign="top"><P>13</P></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P>45,500</P></TD>
+<TD textAlign="right" valign="top"><P>50,500</P></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD colspan="2" textAlign="right" valign="top"><P /></TD>
+<TD colspan="2" textAlign="right" valign="top"><P /></TD>
+<TD colspan="2" textAlign="right" valign="top"><P /></TD>
+<TD colspan="2" textAlign="right" valign="top"><P /></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P /></TD>
+<TD textAlign="left" valign="top"><P>14</P></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P>46,500</P></TD>
+<TD textAlign="right" valign="top"><P>51,500</P></TD>
+<TD textAlign="right" valign="top"><P><TextRun amendingStyle="add">56,500</TextRun></P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P /></TD>
+<TD colspan="2" textAlign="right" valign="top"><P /></TD>
+<TD colspan="2" textAlign="right" valign="top"><P /></TD>
+<TD colspan="2" textAlign="right" valign="top"><P /></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P /></TD>
+<TD textAlign="left" valign="top"><P>15</P></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P>47,000</P></TD>
+<TD textAlign="right" valign="top"><P>52,000</P></TD>
+<TD textAlign="right" valign="top"><P><TextRun amendingStyle="add">57,000</TextRun></P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P /></TD>
+<TD colspan="2" textAlign="right" valign="top"><P /></TD>
+<TD colspan="2" textAlign="right" valign="top"><P /></TD>
+<TD colspan="2" textAlign="right" valign="top"><P /></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P /></TD>
+<TD textAlign="left" valign="top"><P>16</P></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P>48,000</P></TD>
+<TD textAlign="right" valign="top"><P>52,500</P></TD>
+<TD textAlign="right" valign="top"><P>58,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P /></TD>
+<TD colspan="2" textAlign="right" valign="top"><P /></TD>
+<TD colspan="2" textAlign="right" valign="top"><P /></TD>
+<TD colspan="2" textAlign="right" valign="top"><P /></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P /></TD>
+<TD textAlign="left" valign="top"><P>17</P></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P>48,500</P></TD>
+<TD textAlign="right" valign="top"><P>53,500</P></TD>
+<TD textAlign="right" valign="top"><P>58,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P /></TD>
+<TD colspan="2" textAlign="right" valign="top"><P /></TD>
+<TD colspan="2" textAlign="right" valign="top"><P /></TD>
+<TD colspan="2" textAlign="right" valign="top"><P /></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P /></TD>
+<TD textAlign="left" valign="top"><P>18</P></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P>49,500</P></TD>
+<TD textAlign="right" valign="top"><P>54,000</P></TD>
+<TD textAlign="right" valign="top"><P>59,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P><TextRun amendingStyle="add">64,500</TextRun></P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P /></TD>
+<TD colspan="2" textAlign="right" valign="top"><P /></TD>
+<TD colspan="2" textAlign="right" valign="top"><P /></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P /></TD>
+<TD textAlign="left" valign="top"><P>19</P></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P>50,000</P></TD>
+<TD textAlign="right" valign="top"><P>54,500</P></TD>
+<TD textAlign="right" valign="top"><P>60,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P><TextRun amendingStyle="add">65,000</TextRun></P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P /></TD>
+<TD colspan="2" textAlign="right" valign="top"><P /></TD>
+<TD colspan="2" textAlign="right" valign="top"><P /></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P /></TD>
+<TD textAlign="left" valign="top"><P>20</P></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P>51,000</P></TD>
+<TD textAlign="right" valign="top"><P>55,500</P></TD>
+<TD textAlign="right" valign="top"><P>60,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>66,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P /></TD>
+<TD colspan="2" textAlign="right" valign="top"><P /></TD>
+<TD colspan="2" textAlign="right" valign="top"><P /></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P /></TD>
+<TD textAlign="left" valign="top"><P>21</P></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P>51,500</P></TD>
+<TD textAlign="right" valign="top"><P>56,000</P></TD>
+<TD textAlign="right" valign="top"><P>61,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>66,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P><TextRun amendingStyle="add">72,000</TextRun></P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P /></TD>
+<TD colspan="2" textAlign="right" valign="top"><P /></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P /></TD>
+<TD textAlign="left" valign="top"><P>22</P></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P>52,500</P></TD>
+<TD textAlign="right" valign="top"><P>56,500</P></TD>
+<TD textAlign="right" valign="top"><P>61,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>67,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P><TextRun amendingStyle="add">72,500</TextRun></P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P /></TD>
+<TD colspan="2" textAlign="right" valign="top"><P /></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P /></TD>
+<TD textAlign="left" valign="top"><P>23</P></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P>53,000</P></TD>
+<TD textAlign="right" valign="top"><P>57,500</P></TD>
+<TD textAlign="right" valign="top"><P>62,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>68,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P><TextRun amendingStyle="add">73,000</TextRun></P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P /></TD>
+<TD colspan="2" textAlign="right" valign="top"><P /></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P /></TD>
+<TD textAlign="left" valign="top"><P>24</P></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P>54,000</P></TD>
+<TD textAlign="right" valign="top"><P>58,000</P></TD>
+<TD textAlign="right" valign="top"><P>63,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>68,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>74,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P /></TD>
+<TD colspan="2" textAlign="right" valign="top"><P /></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P /></TD>
+<TD textAlign="left" valign="top"><P>25</P></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P>54,500</P></TD>
+<TD textAlign="right" valign="top"><P>58,500</P></TD>
+<TD textAlign="right" valign="top"><P>63,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>69,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>74,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P><TextRun amendingStyle="add">80,000</TextRun></P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P /></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P /></TD>
+<TD textAlign="left" valign="top"><P>26</P></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P>55,500</P></TD>
+<TD textAlign="right" valign="top"><P>59,500</P></TD>
+<TD textAlign="right" valign="top"><P>64,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>69,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>75,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P><TextRun amendingStyle="add">80,500</TextRun></P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P /></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P /></TD>
+<TD textAlign="left" valign="top"><P>27</P></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P>56,000</P></TD>
+<TD textAlign="right" valign="top"><P>60,000</P></TD>
+<TD textAlign="right" valign="top"><P>65,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>70,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>75,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P><TextRun amendingStyle="add">81,000</TextRun></P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P /></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P /></TD>
+<TD textAlign="left" valign="top"><P>28</P></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P>57,000</P></TD>
+<TD textAlign="right" valign="top"><P>60,500</P></TD>
+<TD textAlign="right" valign="top"><P>65,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>71,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>76,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>82,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P><TextRun amendingStyle="add">87,500</TextRun></P></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P /></TD>
+<TD textAlign="left" valign="top"><P>29</P></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P>57,500</P></TD>
+<TD textAlign="right" valign="top"><P>61,500</P></TD>
+<TD textAlign="right" valign="top"><P>66,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>71,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>77,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>82,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P><TextRun amendingStyle="add">88,000</TextRun></P></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P /></TD>
+<TD textAlign="left" valign="top"><P>30</P></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P>58,500</P></TD>
+<TD textAlign="right" valign="top"><P>62,000</P></TD>
+<TD textAlign="right" valign="top"><P>66,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>72,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>77,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>83,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P><TextRun amendingStyle="add">88,500</TextRun></P></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P /></TD>
+<TD textAlign="left" valign="top"><P>31</P></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P>59,000</P></TD>
+<TD textAlign="right" valign="top"><P>62,500</P></TD>
+<TD textAlign="right" valign="top"><P>67,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>72,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>78,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>83,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P><TextRun amendingStyle="add">89,000</TextRun></P></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P /></TD>
+<TD textAlign="left" valign="top"><P>32</P></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P>60,000</P></TD>
+<TD textAlign="right" valign="top"><P>63,500</P></TD>
+<TD textAlign="right" valign="top"><P>68,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>73,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>78,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>84,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>90,000</P></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P /></TD>
+<TD textAlign="left" valign="top"><P>33</P></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P>64,000</P></TD>
+<TD textAlign="right" valign="top"><P>68,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>74,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>79,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>85,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>90,500</P></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P /></TD>
+<TD textAlign="left" valign="top"><P>34</P></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P>64,500</P></TD>
+<TD textAlign="right" valign="top"><P>69,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>74,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>80,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>85,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>91,000</P></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P /></TD>
+<TD textAlign="left" valign="top"><P>35</P></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P>65,500</P></TD>
+<TD textAlign="right" valign="top"><P>70,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>75,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>80,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>86,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>91,500</P></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P /></TD>
+<TD textAlign="left" valign="top"><P>36</P></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P>66,000</P></TD>
+<TD textAlign="right" valign="top"><P>70,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>75,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>81,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>86,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>92,000</P></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P /></TD>
+<TD textAlign="left" valign="top"><P>37</P></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P>66,500</P></TD>
+<TD textAlign="right" valign="top"><P>71,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>76,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>81,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>87,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>93,000</P></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P /></TD>
+<TD textAlign="left" valign="top"><P>38</P></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P>67,500</P></TD>
+<TD textAlign="right" valign="top"><P>71,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>77,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>82,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>87,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>93,500</P></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P /></TD>
+<TD textAlign="left" valign="top"><P>39</P></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P>68,000</P></TD>
+<TD textAlign="right" valign="top"><P>72,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>77,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>82,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>88,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>94,000</P></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P /></TD>
+<TD textAlign="left" valign="top"><P>40</P></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P>68,500</P></TD>
+<TD textAlign="right" valign="top"><P>73,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>78,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>83,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>89,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>94,500</P></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P /></TD>
+<TD textAlign="left" valign="top"><P>41</P></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P>69,500</P></TD>
+<TD textAlign="right" valign="top"><P>73,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>78,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>84,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>89,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>95,000</P></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P /></TD>
+<TD textAlign="left" valign="top"><P>42</P></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P>70,000</P></TD>
+<TD textAlign="right" valign="top"><P>74,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>79,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>84,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>90,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>95,500</P></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P /></TD>
+<TD textAlign="left" valign="top"><P>43</P></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P>70,500</P></TD>
+<TD textAlign="right" valign="top"><P>75,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>80,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>85,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>90,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>96,000</P></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P /></TD>
+<TD textAlign="left" valign="top"><P>44</P></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P>71,500</P></TD>
+<TD textAlign="right" valign="top"><P>75,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>80,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>85,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>91,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>96,500</P></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P /></TD>
+<TD textAlign="left" valign="top"><P>45</P></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P>72,000</P></TD>
+<TD textAlign="right" valign="top"><P>76,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>81,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>86,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>91,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>97,500</P></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P /></TD>
+<TD textAlign="left" valign="top"><P>46</P></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P>72,500</P></TD>
+<TD textAlign="right" valign="top"><P>76,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>81,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>87,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>92,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>98,000</P></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P /></TD>
+<TD textAlign="left" valign="top"><P>47</P></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P>73,500</P></TD>
+<TD textAlign="right" valign="top"><P>77,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>82,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>87,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>93,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>98,500</P></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P /></TD>
+<TD textAlign="left" valign="top"><P>48</P></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P>74,000</P></TD>
+<TD textAlign="right" valign="top"><P>78,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>83,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>88,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>93,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>99,000</P></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P /></TD>
+<TD textAlign="left" valign="top"><P>49</P></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P>74,500</P></TD>
+<TD textAlign="right" valign="top"><P>78,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>83,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>88,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>94,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>99,500</P></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P /></TD>
+<TD textAlign="left" valign="top"><P>50</P></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P>75,500</P></TD>
+<TD textAlign="right" valign="top"><P>79,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>84,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>89,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>94,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>100,000</P></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P /></TD>
+<TD textAlign="left" valign="top"><P>51</P></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P>76,000</P></TD>
+<TD textAlign="right" valign="top"><P>80,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>84,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>89,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>95,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>100,500</P></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P /></TD>
+<TD textAlign="left" valign="top"><P>52</P></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P>76,500</P></TD>
+<TD textAlign="right" valign="top"><P>80,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>85,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>90,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>95,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>101,000</P></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P /></TD>
+<TD textAlign="left" valign="top"><P>53</P></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P>77,500</P></TD>
+<TD textAlign="right" valign="top"><P>81,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>86,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>91,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>96,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>102,000</P></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P /></TD>
+<TD textAlign="left" valign="top"><P>54</P></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P>78,000</P></TD>
+<TD textAlign="right" valign="top"><P>81,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>86,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>91,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>97,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>102,500</P></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P /></TD>
+<TD textAlign="left" valign="top"><P>55</P></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P>78,500</P></TD>
+<TD textAlign="right" valign="top"><P>82,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>87,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>92,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>97,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>103,000</P></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P /></TD>
+<TD textAlign="left" valign="top"><P>56</P></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P>79,500</P></TD>
+<TD textAlign="right" valign="top"><P>83,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>87,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>92,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>98,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>103,500</P></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P /></TD>
+<TD textAlign="left" valign="top"><P>57</P></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P>80,000</P></TD>
+<TD textAlign="right" valign="top"><P>83,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>88,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>93,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>98,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>104,000</P></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P /></TD>
+<TD textAlign="left" valign="top"><P>58</P></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P>84,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>89,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>94,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>99,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>104,500</P></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P /></TD>
+<TD textAlign="left" valign="top"><P>59</P></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P>85,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>89,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>94,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>99,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>105,500</P></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P /></TD>
+<TD textAlign="left" valign="top"><P>60</P></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P>85,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>90,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>95,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>100,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>105,500</P></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P /></TD>
+<TD textAlign="left" valign="top"><P>61</P></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P>86,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>90,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>95,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>101,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>105,500</P></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P /></TD>
+<TD textAlign="left" valign="top"><P>62</P></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P>86,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>91,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>96,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>101,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>105,500</P></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P /></TD>
+<TD textAlign="left" valign="top"><P>63</P></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P>87,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>92,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>96,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>102,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>105,500</P></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P /></TD>
+<TD textAlign="left" valign="top"><P>64</P></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P>88,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>92,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>97,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>102,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>105,500</P></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P /></TD>
+<TD textAlign="left" valign="top"><P>65</P></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P>88,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>93,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>98,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>103,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>105,500</P></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P /></TD>
+<TD textAlign="left" valign="top"><P>66</P></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P>89,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>93,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>98,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>103,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>105,500</P></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P /></TD>
+<TD textAlign="left" valign="top"><P>67</P></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P>90,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>94,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>99,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>104,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>105,500</P></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P /></TD>
+<TD textAlign="left" valign="top"><P>68</P></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P>90,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>95,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>99,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>105,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>105,500</P></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P /></TD>
+<TD textAlign="left" valign="top"><P>69</P></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P>91,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>95,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>100,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>105,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>105,500</P></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P /></TD>
+<TD textAlign="left" valign="top"><P>70</P></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P>91,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>96,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>101,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>105,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>105,500</P></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P /></TD>
+<TD textAlign="left" valign="top"><P>71</P></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P>92,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>96,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>101,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>105,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>105,500</P></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P /></TD>
+<TD textAlign="left" valign="top"><P>72</P></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P>93,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>97,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>102,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>105,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>105,500</P></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P /></TD>
+<TD textAlign="left" valign="top"><P>73</P></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P>93,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>98,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>102,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>105,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>105,500</P></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P /></TD>
+<TD textAlign="left" valign="top"><P>74</P></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P>94,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>98,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>103,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>105,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>105,500</P></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P /></TD>
+<TD textAlign="left" valign="top"><P>75</P></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P>95,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>99,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>103,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>105,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>105,500</P></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P /></TD>
+<TD textAlign="left" valign="top"><P>76</P></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P>95,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>99,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>104,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>105,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>105,500</P></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P /></TD>
+<TD textAlign="left" valign="top"><P>77</P></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P>96,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>100,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>105,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>105,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>105,500</P></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P /></TD>
+<TD textAlign="left" valign="top"><P>78</P></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P>96,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>101,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>105,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>105,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>105,500</P></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P /></TD>
+<TD textAlign="left" valign="top"><P>79</P></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P>97,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>101,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>105,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>105,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>105,500</P></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P /></TD>
+<TD textAlign="left" valign="top"><P>80</P></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P>98,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>102,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>105,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>105,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>105,500</P></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P /></TD>
+<TD textAlign="left" valign="top"><P>81</P></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P>98,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>102,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>105,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>105,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>105,500</P></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P /></TD>
+<TD textAlign="left" valign="top"><P>82</P></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P>99,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>103,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>105,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>105,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>105,500</P></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P /></TD>
+<TD textAlign="left" valign="top"><P>83</P></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P>100,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>104,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>105,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>105,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>105,500</P></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P /></TD>
+<TD textAlign="left" valign="top"><P>84</P></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>104,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>105,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>105,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>105,500</P></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P /></TD>
+<TD textAlign="left" valign="top"><P>85</P></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>105,000</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>105,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>105,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>105,500</P></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P /></TD>
+<TD textAlign="left" valign="top"><P>86 or more</P></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD textAlign="right" valign="top"><P /></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>105,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>105,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>105,500</P></TD>
+<TD colspan="2" textAlign="right" valign="top"><P>105,500</P></TD>
+</TR>
+</Table>
+<P indent="0" prePadding="halfline">When inches are involved: Under six inches take lower, six inches or over take higher. The maximum load on any axle in any group of axles shall not exceed the single axle or tandem axle allowance as set forth in the table above.</P>
+<P>The maximum axle and gross weights specified in this section are subject to the braking requirements set up for the service brakes upon any motor vehicle or combination of vehicles as provided by law.</P>
+<P>Loads of not more than eighty thousand pounds which may be legally hauled in the state bordering this state which also has a sales tax, are legal in this state when moving to a port district within four miles of the bordering state except on the interstate system. This provision does not allow the operation of a vehicle combination consisting of a truck tractor and three trailers.</P>
+<P>Notwithstanding anything contained herein, a vehicle or combination of vehicles in operation on January 4, 1975, may operate upon the public highways of this state, including the interstate system within the meaning of section 127 of Title 23, United States Code, with an overall gross weight upon a group of two consecutive sets of dual axles which was lawful in this state under the laws, regulations, and procedures in effect in this state on January 4, 1975.</P>
+<History>1997 c 198 § 1; 1995 c 171 § 1. Prior: 1993 c 246 § 1; 1993 c 102 § 3; prior: 1988 c 229 § 1; 1988 c 6 § 2; 1985 c 351 § 3; 1977 c 81 § 2; 1975-'76 2nd ex.s. c 64 § 22.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date of 1993 c 102 and c 123<TextRun fontFamily="Times New Roman">—</TextRun>1993 sp.s. c 23:</TextRun> See note following RCW 46.16A.455.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective dates<TextRun fontFamily="Times New Roman">—</TextRun>Severability<TextRun fontFamily="Times New Roman">—</TextRun>1975-'76 2nd ex.s. c 64:</TextRun> See notes following RCW 46.16A.455.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+</BillBody>
+</Bill>

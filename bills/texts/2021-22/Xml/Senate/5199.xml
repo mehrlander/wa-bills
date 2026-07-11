@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>Z-0167.1</RequestNumber><ShortBillId>SB 5199</ShortBillId><LongBillId>SENATE BILL 5199</LongBillId><Legislature>67th Legislature</Legislature><Session>2021 Regular Session</Session><Sponsors>Senators Van De Wege, Das, Hasegawa, Nguyen, Randall, Stanford, and Wilson, C.; by request of Attorney General</Sponsors><BillHistory><ReadDate>Read first time 01/13/21.</ReadDate><ReferredCommittee>Referred to Committee on Agriculture, Water, Natural Resources &amp; Parks.</ReferredCommittee></BillHistory><BriefDescription>Recognizing judicially affirmed and treaty-reserved fishing rights and promoting state-tribal cooperative agreements in the management of salmon, trout, and steelhead resources.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to recognizing judicially affirmed and treaty-reserved fishing rights and promoting state-tribal cooperative agreements in the management of salmon, trout, and steelhead resources; creating a new section; and repealing RCW 77.110.010, 77.110.020, 77.110.030, 77.110.040, and 77.110.900.</BillTitle>
+<EnactedClause />
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature finds that chapter 77.110 RCW is inconsistent with judicially affirmed and treaty-reserved fishing rights. The legislature also finds that chapter 77.110 RCW conflicts with well-established state-tribal cooperative fishery management agreements. Therefore, the legislature acknowledges that in order to keep its commitments and relationship with Pacific Northwest tribes and to avoid any legal confusion with current cooperative agreements, it is necessary to repeal chapter 77.110 RCW.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="repeal">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>The following acts or parts of acts are each repealed:</P></BillSectionHeader>
+<P><RepealNumber>1</RepealNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>77</TitleNumber><TextRun>.</TextRun><ChapterNumber>110</ChapterNumber><TextRun>.</TextRun><SectionNumber>010</SectionNumber></SectionCite> (Declaration) and 1985 c 1 s 1;</P>
+<P><RepealNumber>2</RepealNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>77</TitleNumber><TextRun>.</TextRun><ChapterNumber>110</ChapterNumber><TextRun>.</TextRun><SectionNumber>020</SectionNumber></SectionCite> (Petition to congress) and 1985 c 1 s 2;</P>
+<P><RepealNumber>3</RepealNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>77</TitleNumber><TextRun>.</TextRun><ChapterNumber>110</ChapterNumber><TextRun>.</TextRun><SectionNumber>030</SectionNumber></SectionCite> (Management of natural resources<TextRun fontFamily="Times New Roman">—</TextRun>State policy) and 1985 c 1 s 3;</P>
+<P><RepealNumber>4</RepealNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>77</TitleNumber><TextRun>.</TextRun><ChapterNumber>110</ChapterNumber><TextRun>.</TextRun><SectionNumber>040</SectionNumber></SectionCite> (Declaration<TextRun fontFamily="Times New Roman">—</TextRun>Denial of rights based on race, sex, origin, or cultural heritage) and 1985 c 1 s 4; and</P>
+<P><RepealNumber>5</RepealNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>77</TitleNumber><TextRun>.</TextRun><ChapterNumber>110</ChapterNumber><TextRun>.</TextRun><SectionNumber>900</SectionNumber></SectionCite> (Transmittal of act to president and congress<TextRun fontFamily="Times New Roman">—</TextRun>1985 c 1) and 1985 c 1 s 5.</P>
+</BillSection>
+</BillBody>
+</Bill>

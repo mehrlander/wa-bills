@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-1090.1</RequestNumber><ShortBillId>HB 2244</ShortBillId><LongBillId>HOUSE BILL 2244</LongBillId><Legislature>65th Legislature</Legislature><Session>2017 3rd Special Session</Session><Sponsors>Representatives Shea and Haler</Sponsors><BillHistory><ReadDate>Read first time 07/03/17.</ReadDate><ReferredCommittee>Referred to Committee on Judiciary.</ReferredCommittee></BillHistory><BriefDescription>Recognizing fundamental parental rights.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to fundamental parental rights; and adding a new chapter to Title 26 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) Parents and legal guardians who have legal custody of minor children have a fundamental right to make decisions concerning the care, custody, education, and control of their children.</P></BillSectionHeader>
+<P>(2) The legislature hereby codifies these fundamental rights. Parents and legal guardians shall retain the fundamental rights listed in this section regardless of whether they continue to be recognized or articulated as constitutional rights by federal or state courts.</P>
+<P>(3) This section's codification of parents' and legal guardians' fundamental rights as now recognized by law shall not be construed to limit any parent or guardian from exercising additional rights under the Constitution and laws of the United States or of Washington.</P>
+</BillSection>
+<BillSection type="new" action="addchap" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>Section 1 of this act constitutes a new chapter in <TitleCite><TextRun>Title </TextRun><TitleNumber>26</TitleNumber><TextRun> RCW</TextRun></TitleCite>.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

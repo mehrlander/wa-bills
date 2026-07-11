@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-1051.1</RequestNumber><ShortBillId>HB 1574</ShortBillId><LongBillId>HOUSE BILL 1574</LongBillId><Legislature>65th Legislature</Legislature><Session>2017 Regular Session</Session><Sponsors>Representatives Rodne and Kilduff</Sponsors><BillHistory><ReadDate>Read first time 01/24/17.</ReadDate><ReferredCommittee>Referred to Committee on Judiciary.</ReferredCommittee></BillHistory><BriefDescription>Concerning construction contracts.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to construction contracts; and adding a new section to chapter 4.24 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>4</TitleNumber><TextRun>.</TextRun><ChapterNumber>24</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) Any clause in a construction contract, as defined in RCW 4.24.370, which purports to waive, release, or extinguish the claim rights of a contractor, subcontractor, or supplier to damages or an equitable adjustment based on failure to submit a claim notice or claim-related documentation in a specified time frame or form is void and unenforceable, except to the extent the party seeking to enforce the clause is able to show material prejudice as a result of noncompliance.</P>
+<P>(2) Subsection (1) of this section does not apply to any contractual requirement that a lawsuit, arbitration, or other similar alternative dispute resolution procedure be commenced within a reasonable time period, which shall be no fewer than one hundred eighty calendar days following the completion or termination of a contract.</P>
+<P>(3) For the purposes of this section, "claim" means any demand or assertion by a party to a construction contract seeking, as a matter of right, adjustment, or interpretation of contract terms, payment of money, extension of time, or other relief with respect to the terms of the contract. "Claim" includes other disputes and matters in question between the parties to a construction contract arising out of or relating to the contract. The responsibility to substantiate a claim rests with the claimant.</P>
+</BillSection>
+</BillBody>
+</Bill>

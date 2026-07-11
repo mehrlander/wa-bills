@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-1070.1</RequestNumber><ShortBillId>SB 5707</ShortBillId><LongBillId>SENATE BILL 5707</LongBillId><Legislature>66th Legislature</Legislature><Session>2019 Regular Session</Session><Sponsors>Senators Keiser, Hasegawa, Hunt, and Nguyen</Sponsors><BillHistory><ReadDate>Read first time 01/29/19.</ReadDate><ReferredCommittee>Referred to Committee on Labor &amp; Commerce.</ReferredCommittee></BillHistory><BriefDescription>Concerning employees who are required to work without regular payment.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to employees required to continue to work without regular payment; adding a new section to chapter 49.48 RCW; creating a new section; prescribing penalties; and declaring an emergency.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>49</TitleNumber><TextRun>.</TextRun><ChapterNumber>48</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>Any governmental employer, including federal, state, county, incorporated city or town, or other municipal corporation, that requires an employee to continue to work without regular payment of wages is liable to the employee for damages equal to three times the unpaid wages and any costs and reasonable attorneys' fees incurred by the employee in a civil action brought to enforce this section against the employer.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>If any part of this act is found to be in conflict with federal requirements that are a prescribed condition to the allocation of federal funds to the state, the conflicting part of this act is inoperative solely to the extent of the conflict and with respect to the agencies directly affected, and this finding does not affect the operation of the remainder of this act in its application to the agencies concerned. Rules adopted under this act must meet federal requirements that are a necessary condition to the receipt of federal funds by the state.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="emerg" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act is necessary for the immediate preservation of the public peace, health, or safety, or support of the state government and its existing public institutions, and takes effect immediately.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><ShortBillId>ESHB 2274</ShortBillId><LongBillId>ENGROSSED SUBSTITUTE HOUSE BILL 2274</LongBillId><Legislature>69th Legislature</Legislature><Session>2026 Regular Session</Session><Sponsors>House Consumer Protection &amp; Business (originally sponsored by Representatives Springer, McClintock, and Bernbaum)</Sponsors><BillHistory><ReadDate>READ FIRST TIME 02/04/26.</ReadDate></BillHistory><BriefDescription>Modifying the Washington commercial electronic mail act.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to modifying the Washington commercial electronic mail act; amending RCW 19.190.020 and 19.190.040; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>19</TitleNumber><TextRun>.</TextRun><ChapterNumber>190</ChapterNumber><TextRun>.</TextRun><SectionNumber>020</SectionNumber></SectionCite> and 1999 c 289 s 2 are each amended to read as follows:<Caption>Unpermitted or misleading electronic mail<TextRun fontFamily="Times New Roman">—</TextRun>Prohibition.</Caption></BillSectionHeader>
+<P>(1) No person may initiate the transmission, conspire with another to initiate the transmission, or assist the transmission, of a commercial electronic mail message from a computer located in Washington or to an electronic mail address that the sender knows, or has reason to know, is held by a Washington resident that:</P>
+<P>(a) Uses a third party's internet domain name without permission of the third party, or otherwise misrepresents or obscures any information in identifying the point of origin or the transmission path of a commercial electronic mail message; or</P>
+<P>(b) <TextRun amendingStyle="strike">Contains</TextRun> <TextRun amendingStyle="add">Uses a subject line which, based on the person's actual knowledge or knowledge fairly implied on the basis of objective circumstances, contains</TextRun> false or misleading information in the subject line.</P>
+<P>(2) For purposes of this section, a person knows that the intended recipient of a commercial electronic mail message is a Washington resident if that information is available, upon request, from the registrant of the internet domain name contained in the recipient's electronic mail address.</P>
+<History>1999 c 289 s 2; 1998 c 149 s 3.</History>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>19</TitleNumber><TextRun>.</TextRun><ChapterNumber>190</ChapterNumber><TextRun>.</TextRun><SectionNumber>040</SectionNumber></SectionCite> and 2003 c 137 s 5 are each amended to read as follows:<Caption>Violations<TextRun fontFamily="Times New Roman">—</TextRun>Damages.</Caption></BillSectionHeader>
+<P>(1) Damages to the recipient of a commercial electronic mail message or a commercial electronic text message sent in violation of this chapter are <TextRun amendingStyle="strike">five hundred dollars</TextRun> <TextRun amendingStyle="add">$100</TextRun>, or actual damages, whichever is greater.</P>
+<P>(2) Damages to an interactive computer service resulting from a violation of this chapter are <TextRun amendingStyle="strike">one thousand dollars</TextRun> <TextRun amendingStyle="add">$1,000</TextRun>, or actual damages, whichever is greater.</P>
+<History>2003 c 137 s 5; 1998 c 149 s 5.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Intent<TextRun fontFamily="Times New Roman">—</TextRun>2003 c 137:</TextRun> See note following RCW 19.190.060.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act applies to all causes of action commenced on or after the effective date of this section, regardless of when the cause of action arose. To this extent, this act applies retroactively, but in all other respects it applies prospectively.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

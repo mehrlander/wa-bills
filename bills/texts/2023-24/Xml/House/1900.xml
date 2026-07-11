@@ -1,0 +1,752 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-2132.1</RequestNumber><ShortBillId>HB 1900</ShortBillId><LongBillId>HOUSE BILL 1900</LongBillId><Legislature>68th Legislature</Legislature><Session>2024 Regular Session</Session><Sponsors>Representatives Fey, Reeves, Walen, Rule, Chapman, Bronoske, Wylie, Low, Ryu, Leavitt, Ramos, Callan, Kloba, Berg, Thai, Pollet, and Shavers</Sponsors><BillHistory><PrefiledDate>Prefiled 12/06/23.</PrefiledDate><ReadDate>Read first time 01/08/24.</ReadDate><ReferredCommittee>Referred to Committee on Environment &amp; Energy.</ReferredCommittee></BillHistory><BriefDescription>Implementing strategies to achieve higher recycling rates within Washington's existing solid waste management system.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to implementing strategies to achieve higher recycling rates within Washington's existing solid waste management system; amending RCW 70A.245.010, 70A.245.020, 70A.245.030, 70A.245.040, 70A.245.060, 70A.245.090, 70A.245.110, 70A.245.120, 70A.245.100, 70A.245.110, and 70A.65.260; reenacting and amending RCW 43.21B.110; adding new sections to chapter 70A.245 RCW; adding a new chapter to Title 70A RCW; creating new sections; and prescribing penalties.</BillTitle>
+<EnactedClause />
+<Part>
+<P>PART 1</P>
+<P>INTENT</P>
+</Part>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value fixed="true">101</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>INTENT.</SectionCaption><P>(1) The legislature finds that:</P></BillSectionHeader>
+<P>(a) Washington state has been a leader in recycling policy, reaching the goal of 50 percent recycling set by the legislature in RCW 70A.205.005. The legislature further finds that, since meeting the state's goal to achieve a 50 percent recycling rate, global market conditions have caused the recycling rate to fall below 50 percent.</P>
+<P>(b) New goals and target recycling rates must be established and a comprehensive needs assessment is necessary to implement improvements to Washington's existing recycling system to reach those goals.</P>
+<P>(c) 88 percent of Washington residents living in single-family homes and 77 percent living in multifamily residences have access to curbside recycling services through a robust regulatory structure that ensures equal access to services at affordable rates.</P>
+<P>(d) The investments in infrastructure by Washington companies has led to the development of materials sorting and processing superior to most other states.</P>
+<P>(2) It is the intent of the legislature that:</P>
+<P>(a) Producers increase the use of postconsumer recycled content in their products, to achieve the goals in RCW 70A.520.010(2) and to create strong markets for recycled materials and achieve environmental benefits; and</P>
+<P>(b) Through design and innovation, producers will reduce the use and climate impact of consumer packaging and paper products and increase the use of postconsumer recycled content.</P>
+<P>(3)(a) The legislature finds that contamination in the recycling stream is a major impediment to higher recovery rates.</P>
+<P>(b) It is the intent of the legislature to implement proven strategies to address these challenges, including:</P>
+<P>(i) The establishment of a single statewide list of materials for recyclables collected through Washington's curbside recycling system to reduce confusion and increase participation;</P>
+<P>(ii) A robust needs assessment unique to Washington state to determine costs and investments necessary to achieve a 60 percent overall recycling rate for packaging;</P>
+<P>(iii) Restrictions on the use of recycling symbols on packaging that cannot be readily recycled through Washington's recycling system; and</P>
+<P>(iv) The expansion of the successful recycled content requirements to ensure more materials are manufactured with postconsumer material.</P>
+<P>(4) Finally, it is the intent of the legislature that Washington should maintain the successful public-private partnership between state, local government, and solid waste and recycling service providers. The legislature does not intend to diminish or displace the primary role of the utilities and transportation commission and local governments in regulating or contracting directly with service providers for the curbside collection of residential recyclables. Local governments maintain their existing authority to collect, contract for collection with solid waste and recycling service providers, or defer to solid waste collection services regulated by the utilities and transportation commission.</P>
+</BillSection>
+<Part>
+<P>PART 2</P>
+<P>TRUTH IN LABELING, RATES STUDY, MATERIALS LIST, AND NEEDS ASSESSMENT</P>
+</Part>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value fixed="true">201</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>DEFINITIONS.</SectionCaption><P>The definitions in this section apply throughout this chapter unless the context clearly requires otherwise.</P></BillSectionHeader>
+<P>(1)(a) "Chasing arrows symbol" means an equilateral triangle, formed by three arrows curved at their midpoints, depicting a clockwise path, with a short gap separating the apex of each arrow from the base of the adjacent arrow.</P>
+<P>(b) "Chasing arrows symbol" also includes variants of that symbol that are likely to be interpreted by a consumer as an implication of recyclability including, but not limited to, one or more arrows arranged in a circular pattern or around a globe.</P>
+<P>(2) "Consumable product" means a commodity that is intended to be used and not disposed of.</P>
+<P>(3) "Covered product" means packaging and paper products sold or supplied to consumers for personal, noncommercial use.</P>
+<P>(4) "Department" means the department of ecology.</P>
+<P>(5) "Glass" means a covered product made of soda lime glass.</P>
+<P>(6) "Material category" means a group of covered products that have similar properties such as chemical composition, shape, or other characteristics.</P>
+<P>(7) "Overburdened community" means an overburdened community identified and prioritized by the department under RCW 70A.02.050(1)(a).</P>
+<P>(8)(a) "Packaging" means a material, substance, or object that is:</P>
+<P>(i) Used to protect, contain, transport, or serve an item;</P>
+<P>(ii) Sold or supplied to consumers expressly for the purpose of protecting, containing, transporting, or serving items;</P>
+<P>(iii) Attached to an item or its container for the purpose of marketing or communicating information about the item;</P>
+<P>(iv) Supplied at the point of sale to facilitate the delivery of the item; or</P>
+<P>(v) Supplied to or purchased by consumers expressly for the purpose of facilitating food or beverage consumption that is ordinarily discarded by consumers after a single use or short-term use, whether or not it could be reused.</P>
+<P>(b) "Packaging" does not include:</P>
+<P>(i) Materials intended to be used for the long-term storage or protection of a durable product, that is intended to transport, protect, or store the durable product on an ongoing basis, and that can be expected to be usable for that purpose for a period of at least five years;</P>
+<P>(ii) For purposes of this chapter only, materials used to package pesticide products regulated by the federal insecticide, fungicide, and rodenticide act, 7 U.S.C. Sec. 136 et seq., that are in direct contact with the regulated product. This exemption does not include products regulated by the United States food and drug administration;</P>
+<P>(iii) Liquefied petroleum gas containers that are designed to be refilled and reused;</P>
+<P>(iv)(A) Packaging for drugs that are used for animal medicines including parasiticide products for animals; and (B) packaging for products intended for animals that are regulated as animal drugs, biologics, parasiticides, medical devices, or diagnostics used to treat, or administered to, animals under the federal food, drug, and cosmetic act, 21 U.S.C. Sec. 301 et seq., the federal insecticide, fungicide, and rodenticide act, 7 U.S.C. Sec. 136 et seq., or the federal virus-serum-toxin act, 21 U.S.C. Sec. 151 et seq., as amended;</P>
+<P>(v) Packaging for products that are regulated as a medical device or drug by the United States food and drug administration under the federal food, drug, and cosmetic act, 21 U.S.C. Sec. 321 et seq.; and</P>
+<P>(vi) Packaging related to containers of architectural paint that has been collected by a stewardship organization under the program established in chapter 70A.515 RCW.</P>
+<P>(9) "Paper product" means paper sold or supplied including flyers, brochures, booklets, catalogs, magazines, copy paper, printing paper, and all other paper materials except for: (a) Bound books; (b) conservation grade and archival grade paper; (c) newspapers; (d) paper designed for use in building construction; and (e) paper products that, by any common and foreseeable use, could reasonably be anticipated to become unsafe or unsanitary to handle.</P>
+<P>(10)(a) "Producer" means the following person responsible for compliance with covered product registration and reporting requirements under this chapter for a covered product sold, offered for sale, or distributed in or into this state:</P>
+<P>(i) If the covered product is sold under the manufacturer's own brand or lacks identification of a brand, the producer is the person who manufactures the covered product;</P>
+<P>(ii) If the covered product is manufactured by a person other than the brand owner, the producer is the person who is the licensee of a brand or trademark under which a covered product is sold, offered for sale, or distributed in or into this state, whether or not the trademark is registered in this state, unless the manufacturer or brand owner of the covered product has agreed to accept responsibility under this chapter; or</P>
+<P>(iii) If there is no person described in (a)(i) and (ii) of this subsection over whom the state can constitutionally exercise jurisdiction, the producer is the person who imports or distributes the covered product in or into the state.</P>
+<P>(b) "Producer" does not include:</P>
+<P>(i) Government agencies, municipalities, or other political subdivisions of the state;</P>
+<P>(ii) Registered 501(c)(3) charitable organizations and 501(c)(4) social welfare organizations; or</P>
+<P>(iii) De minimis producers that annually sell, offer for sale, distribute, or import in or into the country for sale in Washington:</P>
+<P>(A) Less than one ton of covered products each year; or</P>
+<P>(B) A single category of a covered product that in aggregate generates less than $1,000,000 each year in revenue.</P>
+<P>(11) "Vulnerable population" has the same meaning as in RCW 70A.02.010.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>202</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>TRUTH IN LABELING.</SectionCaption><P>(1) Beginning January 1, 2028, a producer may not offer for sale, sell, or distribute in or into Washington, including by means of remote sale, any covered product that makes a deceptive or misleading claim about its recyclability.</P></BillSectionHeader>
+<P>(a) A product or packaging that displays a chasing arrows symbol, a chasing arrows symbol surrounding a resin identification code, or any other symbol or statement indicating that it is recyclable or otherwise directing the consumer to recycle the product or packaging, is deemed to be a deceptive or misleading claim under this section unless the product or packaging is considered recyclable in the state under section 204 of this act and is of a material type and form that routinely becomes feedstock used in the production of new products or packaging or is exempt under (b) of this subsection.</P>
+<P>(b) (a) of this subsection does not apply to products or packaging:</P>
+<P>(i) For which a symbol or statement described in (a) of this subsection is required by another state or by a federal law or agency in the United States at the time that the claim is made;</P>
+<P>(ii) For which a symbol or statement described in (a) of this subsection is part of a widely adopted and standardized third-party labeling system;</P>
+<P>(iii) For which a chasing arrows symbol is used in combination with a clearly visible line placed at a 45-degree angle over the chasing arrows symbol to convey that an item is not recyclable;</P>
+<P>(iv) Manufactured up to 18 months after the date the department publishes the first material characterization study required under section 203 of this act, or before January 1, 2028, whichever is later; or</P>
+<P>(v) Any product or packaging manufactured up to 18 months after the date the department updates the material characterization study under section 203 of this act, if the product or packaging satisfied or, for a new product or packaging, would have satisfied, the requirements to be considered recyclable in the state under section 204 of this act before the publication of the updated study.</P>
+<P>(c) For a product or packaging that is not considered to be recyclable in the state under section 204 of this act, all the following apply:</P>
+<P>(i) Displaying a chasing arrows symbol or any other statement indicating the product is recyclable directly on the product is deemed to be deceptive or misleading under this section;</P>
+<P>(ii) If a product or packaging has multiple material types, a chasing arrows symbol or statement indicating recyclability may be displayed on the external packaging that is considered to be recyclable in the state under section 204 of this act if the chasing arrows symbol or statement makes clear in the same or greater font, font size, or symbol size which other components of the product or packaging are not recyclable; and</P>
+<P>(iii) Displaying a chasing arrows symbol or any other statement indicating recyclability on packaging containing a consumable product shall, for purposes of this section, be deemed to refer only to the packaging.</P>
+<P>(2) At such time as an enforceable federal statutory or regulatory standard is implemented for labeling packaging related to recyclability, within 180 days the department shall review criteria under this chapter with federal standards or requirements. Upon completing its review, the department may adopt the federal criteria in lieu of the requirements of this section.</P>
+<P>(3) As of the effective date of this section, a city, town, or county may not enact an ordinance restricting the distribution or sale of covered products due to displaying a chasing arrows symbol, a chasing arrows symbol surrounding a resin identification code, or any other symbol or statement indicating that it is recyclable if the covered product is, at the time that the claim is made:</P>
+<P>(a) Required to display the symbol or statement by another state or by a federal law or agency;</P>
+<P>(b) Part of a widely adopted and standardized third-party labeling system:</P>
+<P>(i) For which a symbol or statement described in subsection (1)(a) of this section is in compliance with the federal trade commission green guides; or</P>
+<P>(ii) For which a symbol or statement described in subsection (1)(a) of this section incorporates by reference the ASTM standards for coding resin; or</P>
+<P>(c) Using a chasing arrows symbol in combination with a clearly visible line placed at a 45-degree angle over the chasing arrows symbol to convey that an item is not recyclable.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>203</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>MATERIAL CHARACTERIZATION STUDY.</SectionCaption><P>(1) By January 1, 2027, the department shall produce a material characterization study to provide information to the public sufficient for evaluating whether a product or packaging is recyclable in the state according to the criteria set forth in section 204 of this act and are of material types and forms that routinely become feedstock used in the production of new products or packaging.</P></BillSectionHeader>
+<P>(a) The department shall conduct and publish on its website a characterization study of material types and forms that are collected, sorted, sold, or transferred by facilities that process recyclable materials from curbside recycling programs and other solid waste facilities deemed appropriate by the department for inclusion in the study.</P>
+<P>(b) The material characterization study must:</P>
+<P>(i) Use data from statistically valid and representative samples of materials collected from curbside recycling programs in the state analyzed using industry standard methodologies;</P>
+<P>(ii) Identify what material types and forms are actively sorted for recycling, and not considered contaminants, by included operations or facilities;</P>
+<P>(iii) Identify what material types and forms are not sorted for recycling, and are considered contaminants, by included operations or facilities; and</P>
+<P>(iv) Identify how the material collected or processed by the operations and facilities was collected.</P>
+<P>(2) The department shall update the material characterization study required under this section no less often than every five years, with the first update being issued by the department in 2030.</P>
+<P>(3) For each material characterization study conducted under this section, the department shall publish on its website the preliminary findings of the study and conduct a public meeting to present the preliminary findings and receive public comments. The public meeting must occur at least 30 days after the department publishes the preliminary findings. After receiving and considering public comments, and within 90 days of the public meeting, the department shall finalize and publish on its website the findings of the study.</P>
+<P>(4) The department may publish additional information that was not available at the time of the most recent periodic material characterization study regarding the appropriate characterization of material types and forms.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>204</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>RECYCLABILITY DETERMINATIONS.</SectionCaption><P>(1)(a) A product or packaging is considered recyclable in the state if, based on information published by the department under section 203 of this act, the product or packaging is of a material type and form that meets both of the following requirements:</P></BillSectionHeader>
+<P>(i) The material type and form is collected for recycling by recycling programs for jurisdictions that collectively encompass at least 60 percent of the population of the state; and</P>
+<P>(ii) The material type and form are sorted into defined streams for recycling processes by large volume transfer or processing facilities, as provided in chapter 70A.205 RCW, that process materials and collectively serve at least 60 percent of recycling programs statewide, with the defined streams sent to and reclaimed at a reclaiming facility consistent with the requirements of chapter 70A.205 RCW.</P>
+<P>(b) The department may adopt rules modifying the requirement to encompass transfer or processing facilities other than large volume transfer or processing facilities as the department deems appropriate for achieving the purposes of this section.</P>
+<P>(2) A product or packaging is not considered recyclable in the state unless the product or packaging meets all the following criteria, as applicable:</P>
+<P>(a) For plastic packaging, the plastic packaging is designed to not include any components, inks, adhesives, or labels that prevent the recyclability of the packaging according to the association of plastic recyclers design guide published by the association of plastic recyclers; and</P>
+<P>(b) For plastic products and nonplastic products and packaging, the product or packaging is designed to ensure recyclability and does not include any components, inks, adhesives, or labels that prevent the recyclability of the product or packaging.</P>
+<P>(3) A product or packaging is recyclable in the state if the product or packaging has a demonstrated recycling rate of at least 75 percent, meaning that not less than 75 percent of the product or packaging sorted and aggregated in the state is reprocessed into new products or packaging.</P>
+<P>(4) Before January 1, 2033, a product or packaging not collected under a curbside collection program is recyclable in the state if the noncurbside collection program recovers at least 60 percent of the product or packaging in the program and the material has sufficient commercial value to be marketed for recycling and be transported at the end of its useful life to a transfer, processing, or recycling facility to be sorted and aggregated into defined streams by material type and form.</P>
+<P>(5) After January 1, 2033, a product or packaging not collected under a curbside collection program is recyclable in the state if the noncurbside collection program recovers at least 75 percent of the product or packaging in the program and the material has sufficient commercial value to be marketed for recycling and be transported at the end of its useful life to a transfer, processing, or recycling facility to be sorted and aggregated into defined streams by material type and form.</P>
+<P>(6) A product or packaging is recyclable in the state if the product or packaging is part of, and in compliance with, a program established under state or federal law on or after January 1, 2026, governing the recyclability or disposal of that product or packaging if the director of the department determines that the product or packaging will not increase contamination of curbside recycling or deceive consumers as to the recyclability of the product or packaging.</P>
+<P>(7) The information published by the department under section 203 of this act does not limit the discretion of a local government under existing law to decide whether, and to what extent, a material type or form is accepted by a local recycling program.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>205</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>ACTIVITIES TO SUPPORT FUTURE INCREASES IN RECOVERY RATES.</SectionCaption><P>(1) To inform the future development of strategies to increase recovery rates consistent with the goals established in subsection (2) of this section, the department must:</P></BillSectionHeader>
+<P>(a) Identify a statewide list of materials suitable for curbside collection services and a statewide list of materials suitable for drop-off collection, consistent with section 207 of this act, to be completed by October 1, 2025;</P>
+<P>(b) Complete a statewide needs assessment that must use the recycling rates from the department's <TextRun fontStyle="italic">December 2023 Washington Recycling, Reuse, and Source Reduction Target Study and Community Input Process</TextRun>, and be carried out by a third-party consultant selected by the department, consistent with section 208 of this act, and completed by October 1, 2026; and</P>
+<P>(c) Begin overseeing the registration and data reporting of producers of packaging, consistent with section 209 of this act.</P>
+<P>(2)(a) A goal is established for the state to achieve a recycling rate of 60 percent for covered products. The department must, in consultation with the advisory committee established in section 211 of this act, identify a methodology for calculating progress towards this goal as part of its duties under section 208 of this act, and must begin tracking and periodically making public the state's progress towards this goal beginning in the year following the initial reporting of data by producers under section 209 of this act.</P>
+<P>(b)(i) A goal is established for the state to reduce the sale or use of packaging that is not determined to be recyclable under section 204 of this act by:</P>
+<P>(A) 50 percent by the year 2030; and</P>
+<P>(B) 75 percent by the year 2035.</P>
+<P>(ii) The department must measure progress toward the achievement of the goals established in (b)(i) of this subsection in conjunction with the update to each material characterization study it completes consistent with section 203(2) of this act.</P>
+<P>(c) The goals established in this subsection must be used to inform the statewide needs assessment in section 208 of this act.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>206</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>PERFORMANCE RATES STUDY.</SectionCaption><P>For purposes of implementing this chapter, the department must, where appropriate, use and rely on the department's <TextRun fontStyle="italic">December 2023 Washington Recycling, Reuse, and Source Reduction Target Study and Community Input Process</TextRun>.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>207</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>RECYCLABLE MATERIALS SUITABLE FOR COLLECTION.</SectionCaption><P>(1)(a) By October 1, 2025, the department must develop and publish a:</P></BillSectionHeader>
+<P>(i) List of recyclable materials suitable for curbside collection from residents in single-family and multifamily residences; and</P>
+<P>(ii) Separate list of materials suitable for residential drop-off collection.</P>
+<P>(b) The department must review and update the lists in (a) of this subsection by October 1, 2030, and no less often than every five years thereafter. During the review and update of the lists, the department must newly review each material included on the previous versions of the lists using the factors described in subsection (4) of this section, and may only continue to include materials on a list after considering the factors described in subsection (4) of this section.</P>
+<P>(2) The initial list of materials suitable for curbside collection developed and published under this section must include the following materials:</P>
+<P>(a) Newspaper;</P>
+<P>(b) Paperboard and chipboard;</P>
+<P>(c) Loose paper;</P>
+<P>(d) Corrugated cardboard;</P>
+<P>(e) Magazines;</P>
+<P>(f) Envelopes;</P>
+<P>(g) Aluminum cans;</P>
+<P>(h) Tin or steel cans;</P>
+<P>(i) High density polyethylene plastic containers; and</P>
+<P>(j) Polyethylene terephthalate containers.</P>
+<P>(3) The initial list of materials suitable for drop-off residential collection must include the following materials:</P>
+<P>(a) Glass; and </P>
+<P>(b) Flexible plastic.</P>
+<P>(4) In addition to the materials identified under subsections (2) and (3) of this section, the department may identify additional materials for inclusion on a list or remove materials from inclusion on a list based on consultation with the stakeholder advisory committee established in section 211 of this act, and after considering the following factors:</P>
+<P>(a) The stability, maturity, accessibility, and viability of responsible end markets;</P>
+<P>(b) Economic factors;</P>
+<P>(c) Environmental factors from a life-cycle perspective;</P>
+<P>(d) The material's compatibility with existing recycling infrastructure;</P>
+<P>(e) The amount of the material available;</P>
+<P>(f) The ability for waste generators to easily identify and properly prepare the material;</P>
+<P>(g) The practicalities of sorting and storing the material;</P>
+<P>(h) Contamination;</P>
+<P>(i) Environmental health and safety considerations; and</P>
+<P>(j) The anticipated yield loss for the material during the recycling process.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>208</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>STATEWIDE NEEDS ASSESSMENT.</SectionCaption><P>(1) The statewide needs assessment must be consistent with the following requirements:</P></BillSectionHeader>
+<P>(a) The final scope of the statewide needs assessment must be determined after considering comments and recommendations from stakeholders, each jurisdiction planning under chapter 70A.205 RCW, and the advisory committee established in section 211 of this act; and</P>
+<P>(b) Stakeholders, jurisdictions planning under chapter 70A.205 RCW, and the advisory committee must have the opportunity to review and comment on the draft statewide needs assessment at least 90 days prior to its completion.</P>
+<P>(2) The statewide needs assessment must be:</P>
+<P>(a) Informed by the findings and recommendations of the 2023 performance rates study identified in section 206 of this act and rates and other comments suggested by stakeholders and the advisory committee;</P>
+<P>(b) Limited to covered products collected from residents in single-family and multifamily residences included on the list developed and published by the department in section 207 of this act;</P>
+<P>(c) Completed only after individual consultation with each jurisdiction planning under chapter 70A.205 RCW; and</P>
+<P>(d) Accepted from the selected consultant as complete by the department.</P>
+<P>(3) The statewide needs assessment must:</P>
+<P>(a) For each jurisdiction planning under chapter 70A.205 RCW, evaluate the capacity, costs, gaps, and needs for the following factors necessary to achieve performance rate recommendations identified under section 206 of this act:</P>
+<P>(i) Availability and types of recycling services for covered products for residents in single-family and multifamily residences, including whether current services are considered residential or commercial and whether any gaps, costs, or needs are specific to either commercial or residential customer service;</P>
+<P>(ii)(A) The current methods and infrastructure for serving residents, including curbside recycling service areas and material drop-off locations;</P>
+<P>(B) Any densely populated areas within each jurisdiction in which curbside recycling services for covered products identified by the department on the list developed and published under section 207 of this act are not available or are only partially available;</P>
+<P>(C) Any areas within each jurisdiction where curbside garbage collection services are offered to residents in single-family and multifamily residences but curbside recycling services are not offered;</P>
+<P>(iii) Education and outreach activities;</P>
+<P>(iv) Availability and performance of collection, transport, and processing capacity and infrastructure, including consideration of material quality and contamination;</P>
+<P>(v) Availability and performance of collection, transport, and processing capacity and infrastructure to manage compostable covered products, including consideration of the material quality and contamination;</P>
+<P>(vi) Necessary capital investments to existing reuse and recycling infrastructure, and how to maximize the use of existing infrastructure;</P>
+<P>(b) Compile information related to actual costs for curbside collection services, drop-off collection services, and other information relevant to the funding requirements to achieve performance rates, including costs for various service methods recommended by stakeholders during the study scoping process;</P>
+<P>(c) Estimate the total costs of investments necessary to reach target rates, within each jurisdiction, as well as ongoing program costs related to labor, equipment, and maintenance. Cost factors and variables to be considered in the estimates include:</P>
+<P>(i) Population size and density of a local jurisdiction;</P>
+<P>(ii) Types of households serviced and collection method used;</P>
+<P>(iii) Distance from a local jurisdiction to the nearest recycling facility;</P>
+<P>(iv) Whether a jurisdiction pays for transportation and sorting of collected materials and whether it receives a commodity value from processed materials;</P>
+<P>(v) Geographic location or other variables contributing to regional differences in costs;</P>
+<P>(vi) Cost increases over time; and</P>
+<P>(vii) Any other factors as determined to be necessary by the department, with input from stakeholders;</P>
+<P>(d)(i) Identify cost factors and other variables to be considered in the development of funding estimates for government entities for any services other than curbside collection to be carried out by government entities that may be needed to achieve performance rates developed under section 206 of this act;</P>
+<P>(ii) Identify methods to consider greenhouse gas emissions and other environmental outcomes associated with potential expansions of curbside recycling services to rural or sparsely populated areas;</P>
+<P>(e) Compile relevant information to be considered in the development of criteria by the department to determine whether a covered product is recyclable, reusable, or compostable through Washington's curbside recycling collection system. The relevant information to be compiled may include whether covered product materials are:</P>
+<P>(i) Or may be, collected, separated, and processed in sufficient quantity and quality into a marketable feedstock that can be used in the production of new products; or</P>
+<P>(ii) Designed in a way that is problematic for reuse, recycling, or composting;</P>
+<P>(f) Evaluate how the state's existing recycling system can be improved in a socially just manner as it relates to activities required under this chapter. The assessment must:</P>
+<P>(i) Include meaningful consultation with overburdened communities and vulnerable populations;</P>
+<P>(ii) Determine conditions and make recommendations including, at minimum:</P>
+<P>(A) Improving access to the recycling system for women and minority individuals;</P>
+<P>(B) The sufficiency of local government requirements related to multifamily recycling services and their implementation;</P>
+<P>(C) Identification of activities that disproportionately impact any community and in particular overburdened communities and vulnerable populations;</P>
+<P>(D) Improving the sufficiency of recycling education and outreach programs relative to desired socially just management outcomes;</P>
+<P>(E) Recommendations for improving socially just management practices and outcomes in the state's recycling system; and</P>
+<P>(F) Evaluate the extent to which covered products contribute to litter and marine debris. The assessment should draw on available data, assess gaps, and identify strategies for improving prevention and cleanup of litter and marine debris from covered products; and</P>
+<P>(g) Compile information from available data sources on the presence of toxic substances in covered products and their potential impacts on reuse, recycling, and composting systems. The information compiled is intended to inform the development of ecomodulation factors that incentivize the reduction of toxic substances that have potentially negative impacts when covered products are managed through reuse, recycling, and composting systems.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>209</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>COVERED PRODUCT PRODUCER REGISTRATION AND REPORTING.</SectionCaption><P>(1) Beginning January 1, 2025, a producer that offers for sale, sells, or distributes in or into Washington covered products must register with the department individually or through a third-party representative registering on behalf of a group of producers.</P></BillSectionHeader>
+<P>(2) The registration information submitted to the department under this section must include a list of the producers of covered products and the brand names of the covered products represented in the registration submittal. Beginning in 2026, a producer may submit registration information at the same time as the information submitted through the annual reporting in subsection (3) of this section.</P>
+<P>(3)(a) Beginning April 1, 2026, each producer of covered products, individually or through a third party representing a group of producers, must provide an annual report to the department that includes, by material category, the volume in pounds of covered products sold, offered for sale, or distributed in or into Washington during the preceding calendar year.</P>
+<P>(b) The report must be submitted in a format and manner prescribed by the department. A manufacturer may submit national data allocated on a per capita basis for Washington to approximate the information required in this subsection if the producer or third-party representative demonstrates to the department that state level data are not available or feasible to generate.</P>
+<P>(c) The department must post the information reported under this subsection on its website, except as provided in (d) of this subsection.</P>
+<P>(d) A producer that submits information or records to the department under this chapter may request that the information or records be made available only for the confidential use of the department, the director, or the appropriate division of the department. The director of the department must give consideration to the request and if this action is not detrimental to the public interest and is otherwise in accordance with the policies and purposes of chapter 43.21A RCW, the director must grant the request for the information to remain confidential as authorized in RCW 43.21A.160.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>210</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>DEPARTMENT OF ECOLOGY OVERSIGHT.</SectionCaption><P>(1) The department shall adopt rules as necessary to administer, implement, and enforce this section and section 209 of this act.</P></BillSectionHeader>
+<P>(2)(a) The department may conduct audits and investigations for the purpose of ensuring compliance with section 209 of this act.</P>
+<P>(b) The department shall annually publish a list of registered producers of covered products and associated brand names, their compliance status, and other information the department deems appropriate on the department's website.</P>
+<P>(3)(a) By January 31, 2025, and every January 31st thereafter, the department must:</P>
+<P>(i) Prepare an annual workload analysis for public comment that identifies the annual costs it expects to incur to implement, administer, and enforce this section and section 209 of this act, and to carry out its obligations under sections 206 through 208 and 211 of this act;</P>
+<P>(ii) Determine a total annual fee payment by producers or their third-party representatives that is adequate to cover, but not exceed, the workload identified in (a)(i) of this subsection;</P>
+<P>(iii) Until rules are adopted under (a)(iv) of this subsection, issue a general order to all entities falling within the definition of producer. The department must equitably determine fee amounts;</P>
+<P>(iv) By 2027, adopt rules to equitably determine annual fee payments by producers or their third-party representatives. Once such rules are adopted, the general order issued under (a)(iii) of this subsection is no longer effective; and</P>
+<P>(v) Send notice to producers or their third-party representatives of fee amounts due consistent with either the general order issued under (a)(iii) of this subsection or rules adopted under (a)(iv) of this subsection.</P>
+<P>(b) The department must:</P>
+<P>(i) Apply any remaining annual payment funds from the current year to the annual payment for the coming year, if the collected annual payment exceeds the department's costs for a given year; and</P>
+<P>(ii) Increase annual payments for the coming year to cover the department's costs, if the collected annual payment was less than the department's costs for a given year.</P>
+<P>(c) By April 1, 2025, and every April 1st thereafter, producers or their third-party representatives must submit a fee payment as determined by the department under (a) of this subsection. Fee payments must be deposited in the recycled content account created in RCW 70A.245.110.</P>
+<P>(4) For producers out of compliance with the registration or reporting requirements of section 209 of this act or the labeling requirements in section 202 of this act, the department shall provide written notification and offer information to producers. For the purposes of this section, written notification serves as notice of the violation. The department must issue at least two notices of violation by certified mail prior to assessing a penalty under subsection (5) of this section.</P>
+<P>(5) A producer in violation of the labeling requirements in section 202 of this act or the registration or reporting requirements in section 209 of this act is subject to a civil penalty for each day of violation in an amount not to exceed $1,000.</P>
+<P>(6) Penalties collected under this section must be deposited in the recycling enhancement account created in RCW 70A.245.100.</P>
+<P>(7) Penalties issued under this section are appealable to the pollution control hearings board established in chapter 43.21B RCW.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>211</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>ADVISORY COMMITTEE.</SectionCaption><P>(1) The advisory committee is established.</P></BillSectionHeader>
+<P>(2) The advisory committee consists of members appointed by the department as follows:</P>
+<P>(a) Four representatives of local governments representing geographic areas across the state, including two representatives of counties and two representatives of cities, each with one representative of urban communities and one representative of rural communities;</P>
+<P>(b) One representative of tribal or indigenous solid waste services organizations;</P>
+<P>(c) One representative of special purpose districts involved in activities related to the end-of-life management of solid waste;</P>
+<P>(d) Two representatives of community-based organizations whose mission is to serve the interests of overburdened communities and vulnerable populations;</P>
+<P>(e) Two representatives of environmental nonprofit organizations;</P>
+<P>(f) One owner or operator of a small business that is not eligible for representation under (g), (h), or (i) of this subsection;</P>
+<P>(g) Six representatives of the recycling industry, including local governments' service providers, solid waste collection companies or associations, material recovery facilities, or other processing facilities;</P>
+<P>(h) Three representatives of producers of covered products or producer trade associations representing different types of covered products;</P>
+<P>(i) Two representatives of packaging suppliers that are not producers as defined under this chapter representing different material categories; and</P>
+<P>(j) One representative of a retail establishment.</P>
+<P>(3) Advisory committee members must be appointed by the director of the department by January 1, 2025. In appointing members, the department shall:</P>
+<P>(a) Appoint members that, to the greatest extent practicable, represent diversity in race, ethnicity, age, and gender, urban and rural areas, and different regions of the state;</P>
+<P>(b) Consider recommendations for appointments from relevant represented groups or associations and from individuals interested in participating on the advisory committee.</P>
+<P>(4)(a) The terms of initial appointments must be staggered to two and three-year appointments, with subsequent terms of three years. Members are eligible for reappointment.</P>
+<P>(b) If there is a vacancy for any reason, the department shall make an appointment to become effective immediately for the unexpired term.</P>
+<P>(5)(a) The advisory committee shall elect one of its members to serve as chair and another to serve as vice chair of the advisory committee, for the terms and with the duties and powers necessary for the performance of the functions of such offices as the advisory committee determines. The chair and vice chair may not both be members appointed under subsection (2)(a) through (i) of this section.</P>
+<P>(b) The advisory committee may adopt bylaws and a charter for the operation of its business for the purposes of this chapter.</P>
+<P>(6) The advisory committee shall meet at least once every three months for the first three years, at times and places specified by the chair. The advisory committee may also meet at other times and places, including virtually, specified by the call of the chair or of a majority of the committee members, as necessary, to carry out the duties of the advisory committee.</P>
+<P>(7)(a) The department shall provide staff support and facilitation as necessary for the advisory committee to carry out its duties.</P>
+<P>(b) The department may select an impartial, third-party facilitator to convene and provide administrative support to the advisory committee.</P>
+<P>(8) The duties of the advisory committee include the following:</P>
+<P>(a) Advise and make recommendations to the department on the lists developed and published by the department under section 207 of this act;</P>
+<P>(b) Advise and make recommendations to the department on the scope of the statewide needs assessment under section 208 of this act;</P>
+<P>(c) Review and comment on a draft statewide needs assessment prior to their completion;</P>
+<P>(d) Review and comment on the department's implementation and administration of the registration and reporting requirements in sections 209 and 210 of this act; and</P>
+<P>(e) Provide input, review, and comment on rules proposed by the department under this chapter.</P>
+<P>(9) Advisory committee members that are representatives of tribes or tribal and indigenous services organizations or community-based and environmental nonprofit organizations must, if requested, be compensated and reimbursed in accordance with RCW 43.03.050, 43.03.060, and 43.03.220.</P>
+</BillSection>
+<Part>
+<P>PART 3</P>
+<P>ESTABLISHING POSTCONSUMER RECYCLED CONTENT</P>
+<P>REQUIREMENTS</P>
+</Part>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value fixed="true">301</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>DE MINIMIS PRODUCERS.</SectionCaption><P>(1) For purposes of determining whether a producer is a de minimis producer, the weight and revenue definitional thresholds must be calculated at the level of the entity associated with the covered product.</P></BillSectionHeader>
+<P>(2) The exemptions under this chapter for de minimis producers do not apply to an entity that has agreed to accept responsibility for compliance with the requirements of this chapter for a covered product on the behalf of another producer.</P>
+<P>(3)(a) De minimis producers are not required to meet annual registration, reporting, postconsumer recycled content, or fee requirements of covered products under this chapter.</P>
+<P>(b) De minimis producers must annually notify the department, in a form and manner specified by the department, to demonstrate that the producer is a de minimis producer.</P>
+<P>(4) The department may require that a producer submit information necessary to verify whether a producer qualifies for de minimis status, including:</P>
+<P>(a) Annual global gross revenue dollar amount less than or equal to $5,000,000;</P>
+<P>(b) Annual total resin weight less than or equal to one ton; and</P>
+<P>(c) Any additional information requested by the department.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>302</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>POSTCONSUMER RECYCLED CONTENT REQUIREMENTS FOR PLASTIC BEVERAGE CONTAINERS.</SectionCaption><P>A producer of a beverage in a plastic beverage container must meet the following annual minimum postconsumer recycled content percentage on average for the total quantity of plastic beverage containers, by weight, that are sold, offered for sale, or distributed in or into Washington by the producer effective:</P></BillSectionHeader>
+<P>(1) For beverages except wine in 187 milliliter plastic beverage containers and dairy milk:</P>
+<P>(a) January 1, 2023, through December 31, 2025: No less than 15 percent postconsumer recycled content plastic by weight;</P>
+<P>(b) January 1, 2026, through December 31, 2030: No less than 25 percent postconsumer recycled content plastic by weight; and</P>
+<P>(c) On and after January 1, 2031: No less than 50 percent postconsumer recycled content plastic by weight;</P>
+<P>(2) For wine in 187 milliliter plastic beverage containers and dairy milk:</P>
+<P>(a) January 1, 2028, through December 31, 2030: No less than 15 percent postconsumer recycled content plastic by weight;</P>
+<P>(b) January 1, 2031, through December 31, 2035: No less than 25 percent postconsumer recycled content plastic by weight; and</P>
+<P>(c) On and after January 1, 2036: No less than 50 percent postconsumer recycled content plastic by weight.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>303</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>POSTCONSUMER RECYCLED CONTENT REQUIREMENTS FOR HOUSEHOLD CLEANING PRODUCTS AND PERSONAL CARE PRODUCTS.</SectionCaption><P>A producer of household cleaning products in plastic containers or a producer of personal care products in plastic containers must meet the following annual minimum postconsumer recycled content percentage on average for the total quantity of plastic containers, by weight, that are sold, offered for sale, or distributed in or into Washington by the producer effective:</P></BillSectionHeader>
+<P>(1) January 1, 2025, through December 31, 2027: No less than 15 percent postconsumer recycled content plastic by weight;</P>
+<P>(2) January 1, 2028, through December 31, 2030: No less than 25 percent postconsumer recycled content plastic by weight; and</P>
+<P>(3) On and after January 1, 2031: No less than 50 percent postconsumer recycled content plastic by weight.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>304</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>POSTCONSUMER RECYCLED CONTENT FOR PLASTIC TRASH BAGS.</SectionCaption><P>A producer of plastic trash bags must meet the following annual minimum postconsumer recycled content percentage on average for the total quantity of plastic trash bags, by weight, that are sold, offered for sale, or distributed in or into Washington by the producer effective:</P></BillSectionHeader>
+<P>(1) January 1, 2023, through December 31, 2024: No less than 10 percent postconsumer recycled content plastic by weight;</P>
+<P>(2) January 1, 2025, through December 31, 2026: No less than 15 percent postconsumer recycled content plastic by weight; and</P>
+<P>(3) On and after January 1, 2027: No less than 20 percent postconsumer recycled content plastic by weight.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>305</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>POSTCONSUMER RECYCLED CONTENT FOR POLYPROPYLENE TUBS.</SectionCaption><P>A producer of polypropylene tubs must meet the following annual minimum postconsumer recycled content percentage on average for the total quantity of polypropylene tubs, by weight, that are sold, offered for sale, or distributed in or into Washington by the producer effective:</P></BillSectionHeader>
+<P>(1) January 1, 2028, through December 31, 2032: No less than 10 percent postconsumer recycled content plastic by weight; and</P>
+<P>(2) On and after January 1, 2033: No less than 30 percent postconsumer recycled content plastic by weight.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>306</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>POSTCONSUMER RECYCLED CONTENT FOR SINGLE-USE PLASTIC CUPS.</SectionCaption><P>A producer of single-use plastic cups made of polyethylene terephthalate, polypropylene, or polystyrene must meet the following annual minimum postconsumer recycled content percentage on average for the total quantity of single-use plastic cups, by weight, that are sold, offered for sale, or distributed in or into Washington by the producer effective:</P></BillSectionHeader>
+<P>(1) For polypropylene single-use plastic cups:</P>
+<P>(a) January 1, 2031, through December 31, 2032: No less than 15 percent postconsumer recycled content plastic by weight; and</P>
+<P>(b) On and after January 1, 2033: No less than 25 percent postconsumer recycled content plastic by weight;</P>
+<P>(2) For polyethylene terephthalate and polystyrene single-use plastic cups:</P>
+<P>(a) January 1, 2033, through December 31, 2034: No less than 20 percent postconsumer recycled content plastic by weight; and</P>
+<P>(b) On and after January 1, 2035: No less than 30 percent postconsumer recycled content plastic by weight.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>307</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>POSTCONSUMER RECYCLED CONTENT FOR POLYETHYLENE TEREPHTHALATE THERMOFORM PLASTIC CONTAINERS.</SectionCaption><P>A producer of a polyethylene terephthalate thermoform plastic container must meet the following annual minimum postconsumer recycled content percentage on average for the total quantity of polyethylene terephthalate thermoform plastic containers, by weight, that are sold, offered for sale, or distributed in or into Washington by the producer effective:</P></BillSectionHeader>
+<P>(1) For packaging for consumable goods:</P>
+<P>(a) January 1, 2028, through December 31, 2032: No less than 10 percent postconsumer recycled content plastic by weight; and</P>
+<P>(b) On and after January 1, 2033: No less than 30 percent postconsumer recycled content plastic by weight;</P>
+<P>(2)(a) Except as provided in (b) of this subsection, for packaging used for durable goods: On and after January 1, 2033, no less than 30 percent postconsumer recycled content plastic by weight;</P>
+<P>(b) Packaging designed to accompany a durable good where that durable good model is designed prior to the effective date of the requirement in (a) of this subsection is exempt.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>308</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) The department must ensure that any rules adopted pursuant to this chapter consider guidelines, and do not conflict with regulations, issued by the United States food and drug administration and the United States department of agriculture, and consider requirements imposed by other Washington state agencies including, but not limited to, the department of agriculture.</P></BillSectionHeader>
+<P>(2) The department may not impose any requirement including, but not limited to, a postconsumer recycled content requirement, in direct conflict with a federal law or regulation or the requirements necessary to comply with a federal law or regulation including, but not limited to: (a) Laws or regulations covering tamper-evident packaging pursuant to 21 C.F.R. Sec. 211.132; (b) laws or regulations covering child-resistant packaging pursuant to 16 C.F.R. Sec. 1700.1, et seq.; (c) regulations, rules, or guidelines issued by the United States department of agriculture or the United States food and drug administration related to packaging agricultural commodities; and (d) requirements for microbial contamination, structural integrity, or safety of packaging where no viable recyclable or compostable packaging that can meet the requirements exists, pursuant to: (i) The federal food, drug, and cosmetic act (21 U.S.C. Sec. 301, et seq.); (ii) 21 U.S.C. Sec. 2101, et seq.; (iii) The federal food and drug administration food safety modernization act (21 U.S.C. Sec. 2201, et seq.); (iv) the federal poultry products inspection act (21 U.S.C. Sec. 451, et seq.); (v) the federal meat inspection act (21 U.S.C. Sec. 601, et seq.); or (vi) the federal egg products inspection act (21 U.S.C. Sec. 1031, et seq.).</P>
+</BillSection>
+<Part>
+<P>PART 4</P>
+<P>AMENDMENTS TO EXISTING POSTCONSUMER RECYCLED</P>
+<P>CONTENT REQUIREMENTS</P>
+</Part>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value fixed="true">401</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>70A</TitleNumber><TextRun>.</TextRun><ChapterNumber>245</ChapterNumber><TextRun>.</TextRun><SectionNumber>010</SectionNumber></SectionCite> and 2021 c 313 s 2 are each amended to read as follows:<Caption>Definitions.</Caption></BillSectionHeader>
+<P>The definitions in this section apply throughout this chapter unless the context clearly requires otherwise.</P>
+<P>(1)<TextRun amendingStyle="add">(a)</TextRun> "Beverage" means <TextRun amendingStyle="strike">beverages identified in (a) through (f) of this subsection,</TextRun> <TextRun amendingStyle="add">liquid products</TextRun> intended for human or animal consumption, and in a quantity more than or equal to two fluid ounces and less than or equal to one gallon:</P>
+<P><TextRun amendingStyle="strike">(a)</TextRun> <TextRun amendingStyle="add">(i)</TextRun> Water and flavored water;</P>
+<P><TextRun amendingStyle="strike">(b)</TextRun> <TextRun amendingStyle="add">(ii)</TextRun> Beer or other malt beverages;</P>
+<P><TextRun amendingStyle="strike">(c)</TextRun> <TextRun amendingStyle="add">(iii)</TextRun> Wine;</P>
+<P><TextRun amendingStyle="strike">(d)</TextRun> <TextRun amendingStyle="add">(iv)</TextRun> Distilled spirits;</P>
+<P><TextRun amendingStyle="strike">(e)</TextRun> <TextRun amendingStyle="add">(v)</TextRun> Mineral water, soda water, and similar carbonated soft drinks; <TextRun amendingStyle="strikemarkleft">and</TextRun></P>
+<P><TextRun amendingStyle="strikemarkright">(f) Any beverage other than those specified in (a) through (e) of this subsection, except</TextRun> <TextRun amendingStyle="add">(vi) Dairy milk; and</TextRun></P>
+<P><TextRun amendingStyle="add">(vii) Any other beverage identified by the department by rule.</TextRun></P>
+<P><TextRun amendingStyle="add">(b) Beverage does not include</TextRun> infant formula as defined in 21 U.S.C. Sec. 321(z), medical food as defined in 21 U.S.C. Sec. 360ee(b)(3), or fortified oral nutritional supplements used for persons who require supplemental or sole source nutritional needs due to special dietary needs directly related to cancer, chronic kidney disease, diabetes, or other medical conditions as determined by the department.</P>
+<P>(2) "Beverage manufacturing industry" means an association that represents beverage producers.</P>
+<P>(3) "Condiment packaging" means packaging used to deliver single-serving condiments to customers. Condiment packaging includes, but is not limited to, single-serving packaging for ketchup, mustard, relish, mayonnaise, hot sauce, coffee creamer, salad dressing, jelly, jam, and soy sauce.</P>
+<P>(4)(a) "Covered product" means an item in one of the following categories subject to minimum postconsumer recycled content requirements:</P>
+<P>(i) Plastic trash bags;</P>
+<P>(ii) Household cleaning <TextRun amendingStyle="strikemarkleft">and personal care products that use plastic household cleaning and personal care product containers; and</TextRun></P>
+<P><TextRun amendingStyle="strikemarkright">(iii) Beverages that use plastic beverage containers</TextRun> <TextRun amendingStyle="add">products that use plastic household cleaning product containers;</TextRun></P>
+<P><TextRun amendingStyle="add">(iii) Personal care products that use personal care product containers;</TextRun></P>
+<P><TextRun amendingStyle="add">(iv) Beverages that use plastic beverage containers;</TextRun></P>
+<P><TextRun amendingStyle="add">(v) Plastic tubs;</TextRun></P>
+<P><TextRun amendingStyle="add">(vi) Thermoform plastic polyethylene terephthalate containers; and</TextRun></P>
+<P><TextRun amendingStyle="add">(vii) Single-use polypropylene, polyethylene terephthalate, or polystyrene cups</TextRun>.</P>
+<P>(b) "Covered product" does not include any type of container or bag for which the state is preempted from regulating content of the container material or bag material under federal law.</P>
+<P>(5) "Dairy milk" means a beverage that designates milk as the predominant (first) ingredient in the ingredient list on the container's label.</P>
+<P>(6) "Department" means the department of ecology.</P>
+<P>(7) "Expanded polystyrene" means blown polystyrene and expanded and extruded foams that are thermoplastic petrochemical materials utilizing a styrene monomer and processed by any number of techniques including, but not limited to, fusion of polymer spheres (expandable bead polystyrene), injection molding, foam molding, and extrusion-blow molding (extruded foam polystyrene).</P>
+<P>(8) "Food service business" means a business selling or providing food for consumption on or off the premises, and includes full-service restaurants, fast food restaurants, cafes, delicatessens, coffee shops, grocery stores, vending trucks or carts, home delivery services, delivery services provided through an online application, and business or institutional cafeterias.</P>
+<P>(9) "Food service product" means a product intended for one-time use and used for food or drink offered for sale or use. Food service products include, but are not limited to, containers, plates, bowls, cups, lids, beverage containers, meat trays, deli rounds, utensils, sachets, straws, condiment packaging, clamshells and other hinged or lidded containers, wrap, and portion cups.</P>
+<P>(10) "Household cleaning <TextRun amendingStyle="strikemarkleft">and personal care product" means any of the following:</TextRun></P>
+<P><TextRun amendingStyle="strikemarknone">(a) Laundry detergents, softeners, and stain removers;</TextRun></P>
+<P><TextRun amendingStyle="strikemarknone">(b) Household cleaning products;</TextRun></P>
+<P><TextRun amendingStyle="strikemarknone">(c) Liquid soap;</TextRun></P>
+<P><TextRun amendingStyle="strikemarknone">(d) Shampoo, conditioner, styling sprays and gels, and other hair care products; or</TextRun></P>
+<P><TextRun amendingStyle="strikemarkright">(e) Lotion, moisturizer, facial toner, and other skin care</TextRun> products<TextRun amendingStyle="add">" means products labeled, marketed, or otherwise indicating that the purpose of the product is to clean, freshen, or remove unwanted substances, such as dirt, stains, and other impurities from objects, interior or exterior structures, vehicles, possessions, and environments associated with a household. These items include:</TextRun></P>
+<P><TextRun amendingStyle="add">(a) Liquid soaps, laundry soaps, detergents, softeners, surface polishes, and stain removers;</TextRun></P>
+<P><TextRun amendingStyle="add">(b) Textile cleaners, carpet and pet cleaners, and treatments; or</TextRun></P>
+<P><TextRun amendingStyle="add">(c) Other products used to clean or freshen areas associated with a household</TextRun>.</P>
+<P>(11) "Household cleaning and personal care product manufacturing industry" means an association that represents companies that manufacture household cleaning <TextRun amendingStyle="add">products</TextRun> and personal care products.</P>
+<P>(12) "Licensee" means a manufacturer <TextRun amendingStyle="add">of a covered product</TextRun> or entity who licenses a brand and manufactures a covered product under that brand.</P>
+<P>(13) "Oral nutritional supplement" means a manufactured liquid, powder capable of being reconstituted, or solid product that contains a combination of carbohydrates, proteins, fats, fiber, vitamins, and minerals intended to supplement a portion of a patient's nutrition intake.</P>
+<P>(14)<TextRun amendingStyle="add">(a)</TextRun> "Plastic beverage container" means a bottle or other rigid container that is capable of maintaining its shape when empty, comprised solely of one or multiple plastic resins designed to contain a beverage. <TextRun amendingStyle="add">"Plastic beverage container" includes a container's cap or lid, beginning January 1, 2025;</TextRun></P>
+<P><TextRun amendingStyle="add">(b)</TextRun> Plastic beverage container does not include:</P>
+<P><TextRun amendingStyle="strike">(a)</TextRun> <TextRun amendingStyle="add">(i)</TextRun> Refillable beverage containers, such as containers that are sufficiently durable for multiple rotations of their original or similar purpose and are intended to function in a system of reuse;</P>
+<P><TextRun amendingStyle="strike">(b)</TextRun> <TextRun amendingStyle="add">(ii)</TextRun> Rigid plastic containers or plastic bottles that are or are used for medical devices, medical products that are required to be sterile, nonprescription and prescription drugs, or dietary supplements as defined in RCW 82.08.0293;</P>
+<P><TextRun amendingStyle="strike">(c)</TextRun> <TextRun amendingStyle="add">(iii)</TextRun> Bladders or pouches that contain wine; or</P>
+<P><TextRun amendingStyle="strike">(d)</TextRun> <TextRun amendingStyle="add">(iv)</TextRun> Liners, caps, corks, closures, labels, and other items added externally or internally but otherwise separate from the structure of the bottle or container<TextRun amendingStyle="add">, other than a cap or lids; and</TextRun></P>
+<P><TextRun amendingStyle="add">(c) Other products subject to minimum postconsumer recycled content requirements</TextRun>.</P>
+<P>(15)(a) "Plastic household cleaning <TextRun amendingStyle="strike">and</TextRun> <TextRun amendingStyle="add">container or</TextRun> personal care product container" means a bottle, jug, or other rigid container <TextRun amendingStyle="strike">with a neck or mouth narrower than the base, and</TextRun>:</P>
+<P>(i) <TextRun amendingStyle="strike">A</TextRun> <TextRun amendingStyle="add">With a</TextRun> minimum capacity of eight fluid ounces or its equivalent volume;</P>
+<P>(ii) <TextRun amendingStyle="strike">A</TextRun> <TextRun amendingStyle="add">With a</TextRun> maximum capacity of five fluid gallons or its equivalent volume;</P>
+<P>(iii) That is capable of maintaining its shape when empty;</P>
+<P>(iv) Comprised solely of one or multiple plastic resins; and</P>
+<P>(v) Containing a household cleaning or personal care product.</P>
+<P>(b) "Plastic household cleaning <TextRun amendingStyle="strike">and</TextRun> <TextRun amendingStyle="add">product container or</TextRun> personal care product container" does not include:</P>
+<P>(i) Refillable household cleaning <TextRun amendingStyle="strike">and</TextRun> <TextRun amendingStyle="add">product containers or</TextRun> personal care product containers, such as containers that are sufficiently durable for multiple rotations of their original or similar purpose and are intended to function in a system of reuse; <TextRun amendingStyle="strike">and</TextRun></P>
+<P>(ii) Rigid plastic containers or plastic bottles that are medical devices, medical products that are required to be sterile, and nonprescription and prescription drugs, dietary supplements as defined in RCW 82.08.0293, and packaging used for those products<TextRun amendingStyle="add">; or</TextRun></P>
+<P><TextRun amendingStyle="add">(iii) Other covered products subject to minimum postconsumer recycled content requirements</TextRun>.</P>
+<P>(16) "Plastic trash bag" means a bag that is made of noncompostable plastic, is at least 0.70 mils thick, and is designed and manufactured for use as a container to hold, store, or transport materials to be discarded or recycled, and includes, but is not limited to, a garbage bag, recycling bag, lawn or leaf bag, can liner bag, kitchen bag, or compactor bag. "Plastic trash bag" does not include any compostable bags meeting the requirements of chapter 70A.455 RCW. <TextRun amendingStyle="add">"Plastic trash bag" does not include any reusable plastic carryout bag meeting the requirements of RCW 70A.530.020(6)(b).</TextRun></P>
+<P>(17) "Plastic trash bag manufacturing industry" means an association that represents companies that manufacture plastic trash bags.</P>
+<P>(18) "Postconsumer recycled content" means the content of a covered product made of recycled materials derived specifically from recycled material generated by households or by commercial, industrial, and institutional facilities in their role as end users of a product that can no longer be used for its intended purpose. "Postconsumer recycled content" includes returns of material from the distribution chain.</P>
+<P>(19)(a) "Producer" means the following person responsible for compliance with minimum postconsumer recycled content requirements under this chapter for a covered product sold, offered for sale, or distributed in or into this state:</P>
+<P>(i) If the covered product is sold under the manufacturer's own brand or lacks identification of a brand, the producer is the person who manufactures the covered product;</P>
+<P>(ii) If the covered product is manufactured by a person other than the brand owner, the producer is the person who is the licensee of a brand or trademark under which a covered product is sold, offered for sale, or distributed in or into this state, whether or not the trademark is registered in this state, unless the manufacturer or brand owner of the covered product has agreed to accept responsibility under this chapter; or</P>
+<P>(iii) If there is no person described in (a)(i) and (ii) of this subsection over whom the state can constitutionally exercise jurisdiction, the producer is the person who imports or distributes the covered product in or into the state.</P>
+<P>(b) "Producer" does not include:</P>
+<P>(i) Government agencies, municipalities, or other political subdivisions of the state; <TextRun amendingStyle="add">or</TextRun></P>
+<P>(ii) Registered 501(c)(3) charitable organizations and 501(c)(4) social welfare organizations<TextRun amendingStyle="strikemarkleft">; or</TextRun></P>
+<P><TextRun amendingStyle="strikemarknone">(iii) De minimis producers that annually sell, offer for sale, distribute, or import in or into the country for sale in Washington:</TextRun></P>
+<P><TextRun amendingStyle="strikemarknone">(A) Less than one ton of a single category of plastic beverage containers, plastic household cleaning and personal care containers, or plastic trash bags each year; or</TextRun></P>
+<P><TextRun amendingStyle="strikemarkright">(B) A single category of a covered product that in aggregate generates less than $1,000,000 each year in revenue</TextRun>.</P>
+<P>(20)(a) "Retail establishment" means any person, corporation, partnership, business, facility, vendor, organization, or individual that sells or provides merchandise, goods, or materials directly to a customer.</P>
+<P>(b) "Retail establishment" includes, but is not limited to, food service businesses, grocery stores, department stores, hardware stores, home delivery services, pharmacies, liquor stores, restaurants, catering trucks, convenience stores, or other retail stores or vendors, including temporary stores or vendors at farmers markets, street fairs, and festivals.</P>
+<P>(21)(a) "Utensil" means a product designed to be used by a consumer to facilitate the consumption of food or beverages, including knives, forks, spoons, cocktail picks, chopsticks, splash sticks, and stirrers.</P>
+<P>(b) "Utensil" does not include plates, bowls, cups, and other products used to contain food or beverages.</P>
+<P><TextRun amendingStyle="add">(22) "Brand" means a name, symbol, word, logo, or mark that identifies a product and attributes the product and its components, including packaging, to the brand owner of the product as the producer.</TextRun></P>
+<P><TextRun amendingStyle="add">(23) "De minimis producer" means an entity that annually sells, offers for sale, distributes, or imports:</TextRun></P>
+<P><TextRun amendingStyle="add">(a) In or into the country for sale in Washington state less than one ton of covered products; or</TextRun></P>
+<P><TextRun amendingStyle="add">(b) A global gross revenue of less than $5,000,000 for the most recent fiscal year of the organization.</TextRun></P>
+<P><TextRun amendingStyle="add">(24) "Durable good" means a product that provides utility over an extended period of time.</TextRun></P>
+<P><TextRun amendingStyle="add">(25) "Entity" means an individual and any form of business enterprise. For purposes of calculating the de minimis producer thresholds under this chapter, a producer entity includes all legal entities that are affiliated by common ownership of 50 percent or greater, including parents, subsidiaries, and commonly owned affiliates.</TextRun></P>
+<P><TextRun amendingStyle="add">(26) "Household" means all of the people who occupy a residential property regardless of their relationship to one another.</TextRun></P>
+<P><TextRun amendingStyle="add">(27) "Personal care product" means a product intended or marketed for use to be rubbed, poured, sprinkled, or sprayed on, introduced into, or otherwise applied to the human body for cleansing, beautifying, promoting attractiveness, or altering the appearance including:</TextRun></P>
+<P><TextRun amendingStyle="add">(a) Shampoo, conditioner, styling sprays and gels, and other hair care products;</TextRun></P>
+<P><TextRun amendingStyle="add">(b) Lotion, moisturizer, facial toner, and other skin care products;</TextRun></P>
+<P><TextRun amendingStyle="add">(c) Liquid soap and other body care products; or</TextRun></P>
+<P><TextRun amendingStyle="add">(d) Other products used to maintain, improve, or enhance personal care or appearance.</TextRun></P>
+<P><TextRun amendingStyle="add">(28)(a) "Polyethylene terephthalate thermoform plastic container" means a clear or colored plastic container, such as a clamshell, lid, tray, egg carton, trifold, or similar rigid, nonbottle packaging, formed from sheets of extruded polyethylene terephthalate resin and used to package consumable or durable goods that reach consumers, including:</TextRun></P>
+<P><TextRun amendingStyle="add">(i) Branded and prepackaged containers that have been filled with products and sealed prior to receipt by the retail establishment, such as fresh produce, baked goods, nuts, toys, electronics, and tools;</TextRun></P>
+<P><TextRun amendingStyle="add">(ii) Containers that may be filled at the point-of-sale at a retail establishment;</TextRun></P>
+<P><TextRun amendingStyle="add">(iii) Unfilled containers that are sold directly;</TextRun></P>
+<P><TextRun amendingStyle="add">(iv) Hinged plastic containers, commonly known as "clamshells" or "blister packaging";</TextRun></P>
+<P><TextRun amendingStyle="add">(v) Two-piece unhinged containers;</TextRun></P>
+<P><TextRun amendingStyle="add">(vi) One-piece containers without lids, such as trays; and</TextRun></P>
+<P><TextRun amendingStyle="add">(vii) Trifold or tent containers with one or more hinges and a flat bottom.</TextRun></P>
+<P><TextRun amendingStyle="add">(b) "Polyethylene terephthalate thermoform plastic container" does not include:</TextRun></P>
+<P><TextRun amendingStyle="add">(i) Household cleaning products or personal care products;</TextRun></P>
+<P><TextRun amendingStyle="add">(ii) Polypropylene plastic tubs;</TextRun></P>
+<P><TextRun amendingStyle="add">(iii) Refillable containers, such as containers that are sufficiently durable for multiple rotations of their original or similar purpose and are intended to function in a system of reuse;</TextRun></P>
+<P><TextRun amendingStyle="add">(iv) A lid or seal of a different material type from plastic;</TextRun></P>
+<P><TextRun amendingStyle="add">(v) A refillable polyethylene terephthalate thermoform plastic container that ordinarily would be returned to the manufacturer to be refilled and resold;</TextRun></P>
+<P><TextRun amendingStyle="add">(vi) Plastic containers that are or are used for medical devices, medical products that are required to be sterile, prescription drugs, or dietary supplements as defined in RCW 82.08.0293;</TextRun></P>
+<P><TextRun amendingStyle="add">(vii) Other covered products subject to minimum postconsumer recycled content requirements under this chapter; and</TextRun></P>
+<P><TextRun amendingStyle="add">(viii) Polyethylene terephthalate thermoform plastic containers accompanying a durable good when the durable good model, and the associated packaging, was designed prior to January 1, 2028.</TextRun></P>
+<P><TextRun amendingStyle="add">(29)(a) "Polypropylene plastic tub" means a wide mouth, rigid container used to package consumable or durable goods that reach consumers, with a maximum capacity of 50 ounces, that is:</TextRun></P>
+<P><TextRun amendingStyle="add">(i) Capable of maintaining its shape when empty;</TextRun></P>
+<P><TextRun amendingStyle="add">(ii) Comprised solely of polypropylene; and</TextRun></P>
+<P><TextRun amendingStyle="add">(iii) Sealed with tamper-proof film or a detachable lid capable of multiple openings and closures.</TextRun></P>
+<P><TextRun amendingStyle="add">(b) "Polypropylene plastic tub" does not include:</TextRun></P>
+<P><TextRun amendingStyle="add">(i) Household cleaning and personal care products;</TextRun></P>
+<P><TextRun amendingStyle="add">(ii) Plastic containers that are or are used for medical devices, medical products that are required to be sterile, nonprescription and prescription drugs, or dietary supplements as defined in RCW 82.08.0293;</TextRun></P>
+<P><TextRun amendingStyle="add">(iii) Polyethylene terephthalate thermoform plastic containers;</TextRun></P>
+<P><TextRun amendingStyle="add">(iv) Single-use plastic cups made of polypropylene, polyethylene terephthalate, or polystyrene; and</TextRun></P>
+<P><TextRun amendingStyle="add">(v) Other covered products subject to minimum postconsumer recycled content requirements.</TextRun></P>
+<P><TextRun amendingStyle="add">(30)(a) "Single-use plastic cup" means all beverage cups that are nonsealed or sealed at point-of-sale.</TextRun></P>
+<P><TextRun amendingStyle="add">(b) Single-use plastic cups do not include: (i) Commercially or home compostable cups; (ii) expanded polystyrene cups; (iii) composite plastic-lined fiber cups; or (iv) other covered products subject to minimum postconsumer recycled content requirements.</TextRun></P>
+<History>2021 c 313 § 2.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Finding<TextRun fontFamily="Times New Roman">—</TextRun>Intent<TextRun fontFamily="Times New Roman">—</TextRun>2021 c 313:</TextRun> "(1) The legislature finds that minimum recycled content requirements for plastic beverage containers, trash bags, and household cleaning and personal care product containers, bans on problematic and unnecessary plastic packaging, and standards for customer opt-in for food service packaging and accessories are among actions needed to improve the state's recycling system as well as reduce litter.</NoteP><NoteP>(2) By implementing a minimum recycled content requirement for plastic beverage containers, trash bags, and household cleaning and personal care product containers; prohibiting the sale and distribution of certain expanded polystyrene products; and establishing optional serviceware requirements as provided for in this chapter; the legislature intends to take another step towards ensuring plastic packaging and other packaging materials are reduced, recycled, and reused." [2021 c 313 § 1.]</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>402</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>70A</TitleNumber><TextRun>.</TextRun><ChapterNumber>245</ChapterNumber><TextRun>.</TextRun><SectionNumber>020</SectionNumber></SectionCite> and 2021 c 313 s 3 are each amended to read as follows:<Caption>Postconsumer recycled content.</Caption></BillSectionHeader>
+<P>(1)(a) Beginning January 1, 2023, producers that offer for sale, sell, or distribute in or into Washington:</P>
+<P>(i) Beverages other than wine in 187 milliliter plastic beverage containers and dairy milk in plastic beverage containers must meet minimum postconsumer recycled content requirements established under <TextRun amendingStyle="strike">subsection (4) of this</TextRun> section <TextRun amendingStyle="add">302 of this act</TextRun>; and</P>
+<P>(ii) Plastic trash bags must meet minimum postconsumer recycled content requirements established under <TextRun amendingStyle="strike">subsection (6) of this</TextRun> section <TextRun amendingStyle="add">304 of this act</TextRun>.</P>
+<P>(b) Beginning January 1, 2025, producers that offer for sale, sell, or distribute in or into Washington household cleaning <TextRun amendingStyle="strike">and</TextRun> <TextRun amendingStyle="add">products or</TextRun> personal care products in plastic household cleaning <TextRun amendingStyle="add">product containers</TextRun> and personal care product containers must meet minimum postconsumer recycled content as required under <TextRun amendingStyle="strike">subsection (5) of this</TextRun> section <TextRun amendingStyle="add">303 of this act</TextRun>.</P>
+<P>(c) Beginning January 1, 2028, producers that offer for sale, sell, or distribute in or into Washington wine in 187 milliliter plastic beverage containers or dairy milk in plastic beverage containers must meet minimum postconsumer recycled content as required under <TextRun amendingStyle="strike">subsection (4) of this</TextRun> section <TextRun amendingStyle="add">302 of this act</TextRun>.</P>
+<P><TextRun amendingStyle="add">(d) Beginning January 1, 2028, producers that offer for sale, sell, or distribute in or into Washington polypropylene plastic tubs must meet minimum postconsumer recycled content requirements established under section 305 of this act.</TextRun></P>
+<P><TextRun amendingStyle="add">(e) Beginning January 1, 2031, producers that offer for sale, sell, or distribute in or into Washington single-use plastic cups must meet minimum postconsumer recycled content requirements established under section 306 of this act.</TextRun></P>
+<P><TextRun amendingStyle="add">(f) Beginning January 1, 2028, producers that offer for sale, sell, or distribute in or into Washington polyethylene terephthalate thermoform plastic containers except those containing durable goods must meet minimum postconsumer recycled content requirements established under section 307 of this act.</TextRun></P>
+<P><TextRun amendingStyle="add">(g) Beginning January 1, 2033, producers that offer for sale, sell, or distribute in or into Washington durable goods in polyethylene terephthalate thermoform plastic containers must meet minimum postconsumer recycled content requirements established under section 307 of this act.</TextRun></P>
+<P>(2)(a) On or before April 1, 2022, and annually thereafter, a producer that offers for sale, sells, or distributes in or into Washington covered products must register with the department individually or through a third-party representative registering on behalf of a group of producers. <TextRun amendingStyle="add">A producer of products newly added to the list of covered products under this act must register with the department individually or through a third-party representative registering on behalf of a group of producers on or before April 1, 2024.</TextRun></P>
+<P>(b) The registration information submitted to the department under this section must include a list of the producers of covered products and the brand names of the covered products represented in the registration submittal. Beginning <TextRun amendingStyle="strike">April 1, 2024, for plastic trash bags and plastic beverage containers other than wine in 187 milliliter plastic beverage containers and dairy milk in plastic beverage containers, April 1, 2026, for plastic household and personal care product containers, and April 1, 2029, for wine in 187 milliliter plastic beverage containers and dairy milk</TextRun> <TextRun amendingStyle="add">in the year in which an annual report must be submitted by a producer under RCW 70A.245.030</TextRun>, a producer may submit registration information at the same time as the information submitted through the annual reporting <TextRun amendingStyle="strike">required under RCW 70A.245.030</TextRun>.</P>
+<P>(3)(a) By January 31, 2022, and every January 31st thereafter, the department must:</P>
+<P>(i) Prepare an annual workload analysis for public comment that identifies the annual costs it expects to incur to implement, administer, and enforce <TextRun amendingStyle="strike">this section and RCW 70A.245.030 through 70A.245.060 and 70A.245.090 (1), (2), and (4)</TextRun> <TextRun amendingStyle="add">the requirements related to postconsumer recycled content under this chapter</TextRun>, including rule making, in the next fiscal year for each category of covered products;</P>
+<P>(ii) Determine a total annual fee payment by producers or their third-party representatives for each category of covered products that is adequate to cover, but not exceed, the workload identified in (a)(i) of this subsection;</P>
+<P>(iii) Until rules are adopted under (a)(iv) of this subsection, issue a general order to all entities falling within the definition of producer. The department must equitably determine fee amounts for an individual producer or third-party representatives within each category of covered product;</P>
+<P>(iv) By 2024, adopt rules to equitably determine annual fee payments by producers or their third-party representatives within each category of covered product. Once such rules are adopted, the general order issued under (a)(iii) of this subsection is no longer effective; and</P>
+<P>(v) Send notice to producers or their third-party representatives of fee amounts due consistent with either the general order issued under (a)(iii) of this subsection or rules adopted under (a)(iv) of this subsection.</P>
+<P>(b) The department must:</P>
+<P>(i) Apply any remaining annual payment funds from the current year to the annual payment for the coming year, if the collected annual payment exceeds the department's costs for a given year; and</P>
+<P>(ii) Increase annual payments for the coming year to cover the department's costs, if the collected annual payment was less than the department's costs for a given year.</P>
+<P>(c) By April 1, 2022, and every April 1st thereafter, producers or their third-party representative must submit a fee payment as determined by the department under (a) of this subsection. <TextRun amendingStyle="add">Producers of products newly included as covered products by this act must submit a fee payment as determined by the department under (a) of this subsection by April 1, 2025, and each April 1st thereafter.</TextRun></P>
+<P>(4) <TextRun amendingStyle="strikemarkleft">A producer of a beverage in a plastic beverage container must meet the following annual minimum postconsumer recycled content percentage on average for the total quantity of plastic beverage containers, by weight, that are sold, offered for sale, or distributed in or into Washington by the producer effective:</TextRun></P>
+<P><TextRun amendingStyle="strikemarknone">(a) For beverages except wine in 187 milliliter plastic beverage containers and dairy milk:</TextRun></P>
+<P><TextRun amendingStyle="strikemarknone">(i) January 1, 2023, through December 31, 2025: No less than 15 percent postconsumer recycled content plastic by weight;</TextRun></P>
+<P><TextRun amendingStyle="strikemarknone">(ii) January 1, 2026, through December 31, 2030: No less than 25 percent postconsumer recycled content plastic by weight; and</TextRun></P>
+<P><TextRun amendingStyle="strikemarknone">(iii) On and after January 1, 2031: No less than 50 percent postconsumer recycled content plastic by weight.</TextRun></P>
+<P><TextRun amendingStyle="strikemarknone">(b) For wine in 187 milliliter plastic beverage containers and dairy milk:</TextRun></P>
+<P><TextRun amendingStyle="strikemarknone">(i) January 1, 2028, through December 31, 2030: No less than 15 percent postconsumer recycled content plastic by weight;</TextRun></P>
+<P><TextRun amendingStyle="strikemarknone">(ii) January 1, 2031, through December 31, 2035: No less than 25 percent postconsumer recycled content plastic by weight; and</TextRun></P>
+<P><TextRun amendingStyle="strikemarknone">(iii) On and after January 1, 2036: No less than 50 percent postconsumer recycled content plastic by weight.</TextRun></P>
+<P><TextRun amendingStyle="strikemarknone">(5) A producer of household cleaning and personal care products in plastic containers must meet the following annual minimum postconsumer recycled content percentage on average for the total quantity of plastic containers, by weight, that are sold, offered for sale, or distributed in or into Washington by the producer effective:</TextRun></P>
+<P><TextRun amendingStyle="strikemarknone">(a) January 1, 2025, through December 31, 2027: No less than 15 percent postconsumer recycled content plastic by weight;</TextRun></P>
+<P><TextRun amendingStyle="strikemarknone">(b) January 1, 2028, through December 31, 2030: No less than 25 percent postconsumer recycled content plastic by weight; and</TextRun></P>
+<P><TextRun amendingStyle="strikemarknone">(c) On and after January 1, 2031: No less than 50 percent postconsumer recycled content plastic by weight.</TextRun></P>
+<P><TextRun amendingStyle="strikemarknone">(6) A producer of plastic trash bags must meet the following annual minimum postconsumer recycled content percentage on average for the total quantity of plastic trash bags, by weight, that are sold, offered for sale, or distributed in or into Washington by the producer effective:</TextRun></P>
+<P><TextRun amendingStyle="strikemarknone">(a) January 1, 2023, through December 31, 2024: No less than 10 percent postconsumer recycled content plastic by weight;</TextRun></P>
+<P><TextRun amendingStyle="strikemarknone">(b) January 1, 2025, through December 31, 2026: No less than 15 percent postconsumer recycled content plastic by weight; and</TextRun></P>
+<P><TextRun amendingStyle="strikemarknone">(c) On and after January 1, 2027: No less than 20 percent postconsumer recycled content plastic by weight.</TextRun></P>
+<P><TextRun amendingStyle="strikemarkright">(7)</TextRun>(a) <TextRun amendingStyle="strike">Beginning January 1, 2024, or when rule making is complete, whichever is sooner, the department may, on an annual basis on January 1st,</TextRun> <TextRun amendingStyle="add">By October 31st of each year, the department may</TextRun> review and determine for the following year whether to adjust the minimum postconsumer recycled content percentage required for a type of container or product or category of covered products pursuant to <TextRun amendingStyle="strike">subsection (4), (5), or (6) of this section</TextRun> <TextRun amendingStyle="add">this chapter</TextRun>. The department's review may be initiated by the department or at the petition of a producer or a covered product manufacturing industry not more than once annually. <TextRun amendingStyle="add">Petitions for review and adjustment must be made to the department in the annual report submitted under RCW 70A.245.030 by June 30th of the year prior to the year in which the adjustment would apply.</TextRun> When submitting a petition, producers or a producer manufacturing industry must provide necessary information that will allow the department to make a determination under (b) of this subsection.</P>
+<P>(b) In making a determination pursuant to this subsection, the department must consider, at a minimum, all of the following factors:</P>
+<P>(i) Changes in market conditions, including supply and demand for postconsumer recycled content plastics, collection rates, and bale availability both domestically and globally;</P>
+<P>(ii) Recycling rates;</P>
+<P>(iii) The availability of recycled plastic suitable to meet the minimum postconsumer recycled content requirements pursuant to <TextRun amendingStyle="strike">subsection (4), (5), or (6) of this section</TextRun> <TextRun amendingStyle="add">this chapter</TextRun>, including the availability of high quality recycled plastic, and food-grade recycled plastic from recycling programs;</P>
+<P>(iv) The capacity of recycling or processing infrastructure;</P>
+<P>(v) The technical feasibility of achieving the minimum postconsumer recycled content requirements in covered products that are regulated under 21 C.F.R., chapter I, subchapter G, 7 U.S.C. Sec. 136, 15 U.S.C. Sec. 1471-1477, 49 C.F.R. Sec. 178.33b, 49 C.F.R. Sec. 173, 40 C.F.R. Sec. 152.10, 15 U.S.C. Sec. 1261-1278, 49 U.S.C. 5101 et seq., 49 C.F.R. Sec. 178.509, 49 C.F.R. Sec. 179.522, 49 C.F.R. Sec. 178.600-609, and other federal laws; and</P>
+<P>(vi) The progress made by producers in achieving the <TextRun amendingStyle="add">postconsumer recycled content</TextRun> goals of this <TextRun amendingStyle="strike">section</TextRun> <TextRun amendingStyle="add">chapter</TextRun>.</P>
+<P>(c) Under (a) of this subsection:</P>
+<P>(i) The department may not adjust the minimum postconsumer recycled content requirements above the minimum postconsumer recycled content percentages for the year under review required pursuant to <TextRun amendingStyle="strike">subsection (4), (5), or (6) of this section</TextRun> <TextRun amendingStyle="add">sections 302 through 307 of this act</TextRun>.</P>
+<P>(ii) For plastic household cleaning <TextRun amendingStyle="add">product containers</TextRun> and personal care product containers, the department may not adjust the minimum postconsumer recycled content requirements above the minimum postconsumer recycled content percentages for the year under review required pursuant to <TextRun amendingStyle="strike">subsection (5) of this</TextRun> section <TextRun amendingStyle="add">303 of this act</TextRun> or below a minimum of 10 percent.</P>
+<P>(iii) For plastic trash bags, the department may not adjust the minimum postconsumer recycled content requirements above the minimum postconsumer recycled content percentages for the year under review required pursuant to <TextRun amendingStyle="strike">subsection (6) of this</TextRun> section <TextRun amendingStyle="add">304 of this act</TextRun> or below the minimum percentage required in <TextRun amendingStyle="strike">subsection (6)(a) of this</TextRun> section <TextRun amendingStyle="add">304(1) of this act</TextRun>.</P>
+<P>(d) A producer or the manufacturing industry for a covered product may appeal a decision by the department to adjust postconsumer recycled content percentages under (a) of this subsection or to temporarily exclude covered products from minimum postconsumer recycled content requirements under subsection <TextRun amendingStyle="strike">(8)</TextRun> <TextRun amendingStyle="add">(5)</TextRun> of this section to the pollution control hearings board within 30 days of the department's determination.</P>
+<P><TextRun amendingStyle="strike">(8)</TextRun> <TextRun amendingStyle="add">(5)</TextRun> The department must temporarily exclude from minimum postconsumer recycled content requirements for the upcoming year any types of covered products in plastic containers for which a producer annually demonstrates to the department by <TextRun amendingStyle="strike">December 31st</TextRun> <TextRun amendingStyle="add">June 1st</TextRun> of a given year that the achievement of postconsumer recycled content requirements in the container material is not technically feasible in order to comply with health or safety requirements of federal law, including the federal laws specified in subsection <TextRun amendingStyle="strike">(7)</TextRun> <TextRun amendingStyle="add">(4)</TextRun>(b)(v) of this section. A producer must continue to register and report consistent with the requirements of this chapter for covered products temporarily excluded from minimum postconsumer recycled content requirements under this subsection.</P>
+<P><TextRun amendingStyle="strike">(9)</TextRun> <TextRun amendingStyle="add">(6)(a) A producer or group of producers may evaluate the postconsumer recycled content requirements in sections 302 (1)(c) and (2)(c), 303(3), 304(2), 305 (1) and (2), and 306 (1)(b) and (2)(a) of this act and assess the market conditions, postconsumer recycled content availability, and technological feasibility of these requirements, no later than six months prior to the dates identified in those sections. The producer or group of producers may request an extension of these requirements and must present data, from the evaluation performed under this subsection, to the department. The department may grant the extension of the implementation of one or more of these requirements for up to one year.</TextRun></P>
+<P><TextRun amendingStyle="add">(b) The department shall review the extension request from the producer or group of producers within 30 days of the request and approve, partially approve, deny, or request additional information to evaluate the extension request.</TextRun></P>
+<P><TextRun amendingStyle="add">(c) The department may renew an approved extension annually, upon request of a producer or group of producers, and submission of data demonstrating that the conditions justifying the current extension remain in place.</TextRun></P>
+<P><TextRun amendingStyle="add">(d) If an extension is granted, the department may report to the legislature any potential need to revise these requirements, prior to the expiration of a one-year extension period.</TextRun></P>
+<P><TextRun amendingStyle="add">(7)</TextRun> A producer that does not achieve the postconsumer recycled content requirements established under this <TextRun amendingStyle="strike">section</TextRun> <TextRun amendingStyle="add">chapter</TextRun> is subject to penalties established in RCW 70A.245.040.</P>
+<P><TextRun amendingStyle="strike">(10)</TextRun> <TextRun amendingStyle="add">(8)</TextRun>(a) A city, town, county, or municipal corporation may not implement local recycled content requirements for a covered product that is subject to minimum postconsumer recycled content requirements established in this section.</P>
+<P>(b) A city, town, county, or municipal corporation may establish local purchasing requirements that include recycled content standards that exceed the minimum recycled content requirements established by this chapter for plastic household cleaning <TextRun amendingStyle="add">product containers</TextRun> and personal care product containers or plastic trash bags purchased by a city, town, or municipal corporation, or its contractor.</P>
+<P><TextRun amendingStyle="strike">(11)</TextRun> <TextRun amendingStyle="add">(9)</TextRun> The department may enter into contracts for the services required to implement this chapter and related duties of the department.</P>
+<P><TextRun amendingStyle="strike">(12)</TextRun> <TextRun amendingStyle="add">(10)</TextRun> In-state distributors, wholesalers, and retailers in possession of covered products manufactured before the date that postconsumer recycled content requirements become effective may exhaust their existing stock through sales to the public.</P>
+<History>2021 c 313 § 3.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Finding<TextRun fontFamily="Times New Roman">—</TextRun>Intent<TextRun fontFamily="Times New Roman">—</TextRun>2021 c 313:</TextRun> See note following RCW 70A.245.010.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>403</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>70A</TitleNumber><TextRun>.</TextRun><ChapterNumber>245</ChapterNumber><TextRun>.</TextRun><SectionNumber>030</SectionNumber></SectionCite> and 2021 c 313 s 4 are each amended to read as follows:<Caption>Producer reporting requirements.</Caption></BillSectionHeader>
+<P>(1)(a) Except as provided in (b) <TextRun amendingStyle="strike">and (c)</TextRun> <TextRun amendingStyle="add">through (f)</TextRun> of this subsection, beginning <TextRun amendingStyle="strike">April 1</TextRun> <TextRun amendingStyle="add">June 30</TextRun>, 2024, each producer of covered products, individually or through a third party representing a group of producers, must provide an annual report to the department that includes the amount in pounds of virgin plastic and the amount in pounds of postconsumer recycled content by resin type used for each category of covered products that are sold, offered for sale, or distributed in or into Washington state, including the total postconsumer recycled content resins as a percentage of total weight. The report must be submitted in a format and manner prescribed by the department. A <TextRun amendingStyle="strike">manufacturer</TextRun> <TextRun amendingStyle="add">producer</TextRun> may submit national data allocated on a per capita basis for Washington to approximate the information required in this subsection if the producer or third-party representative demonstrates to the department that state level data are not available or feasible to generate.</P>
+<P>(b) <TextRun amendingStyle="add">The report required in (a) of this subsection must include a certificate of compliance or similar proof of certification conducted by a nationally recognized, independent third party that has achieved ISO/IEC 17065 accreditation, as it existed as of January 1, 2023, or a similar certification identified by the department. The proof of certification must include all of the following:</TextRun></P>
+<P><TextRun amendingStyle="add">(i) The names, locations, and contact information of all sources of postconsumer recycled content material and suppliers of postconsumer recycled content material;</TextRun></P>
+<P><TextRun amendingStyle="add">(ii) The quantity and dates of postconsumer recycled content material purchases by the producer; and</TextRun></P>
+<P><TextRun amendingStyle="add">(iii) How postconsumer recycled content material was obtained.</TextRun></P>
+<P><TextRun amendingStyle="add">(c)</TextRun> The requirements of (a) of this subsection apply to household cleaning <TextRun amendingStyle="add">products in plastic containers</TextRun> and personal care products in plastic containers beginning <TextRun amendingStyle="strike">April 1</TextRun> <TextRun amendingStyle="add">June 30</TextRun>, 2026.</P>
+<P><TextRun amendingStyle="strike">(c)</TextRun> <TextRun amendingStyle="add">(d)</TextRun> The requirements of (a) of this subsection apply to wine in 187 milliliter plastic beverage containers and dairy milk in plastic beverage containers beginning <TextRun amendingStyle="strike">April 1, 2029</TextRun> <TextRun amendingStyle="add">June 30, 2026</TextRun>.</P>
+<P><TextRun amendingStyle="strike">(d)</TextRun> <TextRun amendingStyle="add">(e) The requirements of (a) of this subsection apply to polypropylene plastic tubs beginning June 30, 2029.</TextRun></P>
+<P><TextRun amendingStyle="add">(f) The requirements of (a) of this subsection apply to polyethylene terephthalate thermoform plastic containers beginning June 30, 2029.</TextRun></P>
+<P><TextRun amendingStyle="add">(g) The requirements of (a) of this subsection apply to single-use plastic cups made of polyethylene terephthalate, polypropylene, or polystyrene beginning June 30, 2030.</TextRun></P>
+<P><TextRun amendingStyle="add">(h)</TextRun> The department must post the information reported under this subsection on its website, except as provided in subsection (2) of this section.</P>
+<P>(2) A producer that submits information or records to the department under this chapter may request that the information or records be made available only for the confidential use of the department, the director, or the appropriate division of the department. The director of the department must give consideration to the request and if this action is not detrimental to the public interest and is otherwise in accordance with the policies and purposes of chapter 43.21A RCW, the director must grant the request for the information to remain confidential as authorized in RCW 43.21A.160.</P>
+<P><TextRun amendingStyle="add">(3) The department must review and may approve reports submitted under this section. The department must:</TextRun></P>
+<P><TextRun amendingStyle="add">(a) Make reports submitted under this section, including petitions for exclusions or rate adjustments under this chapter, available for public review and comment for at least 30 days upon the receipt of the annual report by the department;</TextRun></P>
+<P><TextRun amendingStyle="add">(b) Make a determination as to whether or not an annual report meets the requirements of this section and notify the producer of the:</TextRun></P>
+<P><TextRun amendingStyle="add">(i) Determination of approval of the report; or</TextRun></P>
+<P><TextRun amendingStyle="add">(ii) Reasons for not approving the report. The producer must submit a revised report within 60 days after receipt of the letter of disapproval.</TextRun></P>
+<P><TextRun amendingStyle="add">(4) The department must post approved annual reports submitted by each producer under this section on its website. The department must also post on its website all resin suppliers meeting postconsumer recycled content certification requirements.</TextRun></P>
+<History>2021 c 313 § 4.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Finding<TextRun fontFamily="Times New Roman">—</TextRun>Intent<TextRun fontFamily="Times New Roman">—</TextRun>2021 c 313:</TextRun> See note following RCW 70A.245.010.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>404</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>70A</TitleNumber><TextRun>.</TextRun><ChapterNumber>245</ChapterNumber><TextRun>.</TextRun><SectionNumber>040</SectionNumber></SectionCite> and 2021 c 313 s 5 are each amended to read as follows:<Caption>Penalties for postconsumer recycled content requirements<TextRun fontFamily="Times New Roman">—</TextRun>Penalty.</Caption></BillSectionHeader>
+<P>(1)(a) A producer that does not meet the minimum postconsumer recycled content requirements pursuant to <TextRun amendingStyle="strike">RCW 70A.245.020</TextRun> <TextRun amendingStyle="add">this chapter</TextRun> is subject to a penalty pursuant to this section. Beginning June 1st of the year following the first year that minimum postconsumer recycled product content requirements apply to a category of covered product, the penalty must be calculated consistent with subsection (2) of this section unless a penalty reduction or corrective action plan has been approved pursuant to subsection (3) of this section.</P>
+<P>(b) A producer that is assessed a penalty pursuant to this section may pay the penalty to the department in one payment, in quarterly installments, or arrange an alternative payment schedule subject to the approval of the department, not to exceed a 12-month payment schedule unless the department determines an extension is needed due to unforeseen circumstances, such as a public health emergency, state of emergency, or natural disaster.</P>
+<P>(2) Beginning <TextRun amendingStyle="strike">June</TextRun> <TextRun amendingStyle="add">October</TextRun> 1st of the year following the first year that minimum postconsumer recycled product content requirements apply to a category of covered product, and annually thereafter, the department shall determine the penalty for the previous calendar year based on the postconsumer recycled content requirement of the previous calendar year. The department shall calculate the amount of the penalty based upon the amounts in pounds in the aggregate of virgin plastic, postconsumer recycled content plastic, and any other plastic per category used by the producer to produce covered products sold or offered for sale in or into Washington state, in accordance with the following:</P>
+<P>(a)(i) The annual penalty amount assessed to a producer must equal the product of both of the following: The total pounds of plastic used per category multiplied by the relevant minimum postconsumer recycled plastic target percentage, less the pounds of total plastic multiplied by the percent of postconsumer recycled plastic used; multiplied by 20 cents.</P>
+<P>(ii) Example: [(Total pounds of plastic used x minimum postconsumer recycled plastic target percentage) – (Total pounds of plastic used x postconsumer recycled plastic percentage used)] x 20 cents.</P>
+<P>(b) For the purposes of (a) of this subsection, both of the following apply:</P>
+<P>(i) The total pounds of plastic used must equal the sum of the amount of virgin plastic, postconsumer recycled content plastic, and any other plastic used by the producer, as reported pursuant to RCW 70A.245.030.</P>
+<P>(ii) If the product calculated pursuant to (a) of this subsection is equal to or less than zero, the department may not assess a penalty.</P>
+<P>(3)(a)(i) The department shall consider granting a reduction of penalties assessed pursuant to this section for the purpose of meeting the minimum postconsumer recycled content requirements required pursuant to RCW 70A.245.020.</P>
+<P>(ii) In determining whether to grant the reduction pursuant to (a)(i) of this subsection, the department shall consider, at a minimum, all of the following factors:</P>
+<P>(A) Anomalous market conditions;</P>
+<P>(B) Disruption in, or lack of supply of, recycled plastics; and</P>
+<P>(C) Other factors that have prevented a producer from meeting the requirements.</P>
+<P>(b) In lieu of or in addition to assessing a penalty under this section, the department may require a producer to submit a corrective action plan detailing how the producer plans to come into compliance with <TextRun amendingStyle="strike">RCW 70A.245.020</TextRun> <TextRun amendingStyle="add">the minimum postconsumer recycled content requirements of this chapter</TextRun>.</P>
+<P>(4) For the purposes of determining compliance with the postconsumer recycled content requirements of this chapter, the department may consider the date of manufacture of a covered product or the container of a covered product.</P>
+<P>(5) A producer shall pay the penalty assessed pursuant to this section, as applicable, based on the information reported to the department as required under RCW 70A.245.030 in the form and manner prescribed by the department.</P>
+<P>(6) A producer may appeal the penalty assessed under this section to the pollution control hearings board within 30 days of assessment.</P>
+<P>(7) Penalties collected under this section must be deposited in the recycling enhancement account created in RCW 70A.245.100.</P>
+<History>2021 c 313 § 5.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Finding<TextRun fontFamily="Times New Roman">—</TextRun>Intent<TextRun fontFamily="Times New Roman">—</TextRun>2021 c 313:</TextRun> See note following RCW 70A.245.010.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>405</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>70A</TitleNumber><TextRun>.</TextRun><ChapterNumber>245</ChapterNumber><TextRun>.</TextRun><SectionNumber>060</SectionNumber></SectionCite> and 2021 c 313 s 7 are each amended to read as follows:<Caption>Trash bag labeling requirements.</Caption></BillSectionHeader>
+<P>(1) Beginning January 1, 2023, producers shall label each package containing plastic trash bags sold, offered for sale, or distributed in or into Washington with:</P>
+<P>(a) The name of the producer and the city, state, and country where the producer is located, which may be designated as the location of the producer's corporate headquarters <TextRun amendingStyle="add">and, beginning January 1, 2025, with the percentage of postconsumer recycled content that the plastic trash bag contains in accordance with 16 C.F.R. Part 260, as it existed as of the effective date of this section</TextRun>; or</P>
+<P>(b) A uniform resource locator or quick response code to an internet website that contains the information required pursuant to (a) of this subsection.</P>
+<P>(2)(a) The provisions of subsection (1) of this section do not apply to a plastic bag that is designed and manufactured to hold, store, or transport dangerous waste or biomedical waste.</P>
+<P>(b) For the purposes of this subsection:</P>
+<P>(i) "Biomedical waste" means any waste defined as that term under RCW 70A.228.010; and</P>
+<P>(ii) "Dangerous waste" means any waste defined as dangerous wastes under RCW 70A.300.010.</P>
+<History>2021 c 313 § 7.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Finding<TextRun fontFamily="Times New Roman">—</TextRun>Intent<TextRun fontFamily="Times New Roman">—</TextRun>2021 c 313:</TextRun> See note following RCW 70A.245.010.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>406</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>70A</TitleNumber><TextRun>.</TextRun><ChapterNumber>245</ChapterNumber><TextRun>.</TextRun><SectionNumber>090</SectionNumber></SectionCite> and 2021 c 313 s 12 are each amended to read as follows:<Caption>Department duties<TextRun fontFamily="Times New Roman">—</TextRun>Rule making.</Caption></BillSectionHeader>
+<P>(1) The department may conduct audits and investigations for the purpose of ensuring compliance with <TextRun amendingStyle="strike">RCW 70A.245.020 and 70A.245.040</TextRun> <TextRun amendingStyle="add">the postconsumer recycled content requirements of this chapter</TextRun> based on the information reported under RCW 70A.245.030.</P>
+<P>(2) The department shall annually publish a list of registered producers of covered products <TextRun amendingStyle="add">subject to minimum postconsumer recycled content requirements</TextRun> and associated brand names, their compliance status, and other information the department deems appropriate on the department's website.</P>
+<P>(3) To assist regulated parties with the requirements specified under RCW 70A.245.070 and 70A.245.080, the department:</P>
+<P>(a) Must prepare and post on its website information regarding the prohibitions on the sale and distribution of expanded polystyrene products as specified under RCW 70A.245.070 and restrictions on the provision of optional serviceware under RCW 70A.245.080;</P>
+<P>(b) For education and outreach to help implement RCW 70A.245.070 and 70A.245.080, may develop culturally appropriate and translated educational materials and resources for the state's diverse ethnic populations from existing materials used by local jurisdictions and other states.</P>
+<P>(4) The department may adopt rules as necessary to administer, implement, and enforce this chapter.</P>
+<History>2021 c 313 § 12.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Finding<TextRun fontFamily="Times New Roman">—</TextRun>Intent<TextRun fontFamily="Times New Roman">—</TextRun>2021 c 313:</TextRun> See note following RCW 70A.245.010.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>407</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>70A</TitleNumber><TextRun>.</TextRun><ChapterNumber>245</ChapterNumber><TextRun>.</TextRun><SectionNumber>110</SectionNumber></SectionCite> and 2021 c 313 s 14 are each amended to read as follows:<Caption>Recycled content account.</Caption></BillSectionHeader>
+<P>The recycled content account is created in the custody of the state treasurer. All receipts received by the department under RCW 70A.245.020 must be deposited in the account. Only the director of the department or the director's designee may authorize expenditures from the account. The account is subject to the allotment procedures under chapter 43.88 RCW, but an appropriation is not required for expenditures. Expenditures from the account may be used by the department only for implementing, administering, and enforcing <TextRun amendingStyle="strike">the requirements of RCW 70A.245.020 through 70A.245.060 and 70A.245.090 (1), (2), and (4)</TextRun> <TextRun amendingStyle="add">the provisions of this chapter related to minimum postconsumer recycled content of products</TextRun>.</P>
+<History>2021 c 313 § 14.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Finding<TextRun fontFamily="Times New Roman">—</TextRun>Intent<TextRun fontFamily="Times New Roman">—</TextRun>2021 c 313:</TextRun> See note following RCW 70A.245.010.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>408</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>70A</TitleNumber><TextRun>.</TextRun><ChapterNumber>245</ChapterNumber><TextRun>.</TextRun><SectionNumber>120</SectionNumber></SectionCite> and 2021 c 313 s 15 are each amended to read as follows:<Caption>Market study. <TextRun fontStyle="italic">(Expires July 1, 2029.)</TextRun></Caption></BillSectionHeader>
+<P>(1) Subject to the availability of amounts appropriated for this specific purpose prior to January 1, 2028, the department shall contract with a research university or an independent third-party consultant to study the plastic resin markets for all of the following:</P>
+<P>(a) Analyzing market conditions and opportunities in the state's recycling industry for meeting the minimum postconsumer recycled content requirements for covered products pursuant to <TextRun amendingStyle="strike">RCW 70A.245.020 and 70A.245.030</TextRun> <TextRun amendingStyle="add">this chapter</TextRun>; and</P>
+<P>(b) Determining the data needs and tracking opportunities to increase the transparency and support of a more effective, fact-based public understanding of the recycling industry.</P>
+<P>(2) If funding is provided pursuant to subsection (1) of this section and the department undertakes the study, the study must be completed by May 1, 2029.</P>
+<P>(3) This section expires July 1, 2029.</P>
+<History>2021 c 313 § 15.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Finding<TextRun fontFamily="Times New Roman">—</TextRun>Intent<TextRun fontFamily="Times New Roman">—</TextRun>2021 c 313:</TextRun> See note following RCW 70A.245.010.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<Part pagebreak="no" endofpart="no">
+<P KeepWithNext="yes"><TextRun />PART 5</P>
+<P KeepWithNext="yes">MISCELLANEOUS PROVISIONS</P>
+</Part>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value fixed="true">501</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>UTILITIES AND TRANSPORTATION COMMISSION REPORT TO THE LEGISLATURE.</SectionCaption><P>(1) By December 1, 2024, the utilities and transportation commission, in consultation with counties, cities, and regulated solid waste collection companies, must submit a report to the appropriate committees of the legislature addressing how to improve processes, including increasing the number of customers served and improving the ease of administration, for providing discounts for low-income solid waste collection company customers.</P></BillSectionHeader>
+<P>(2) The utilities and transportation commission's recommendations may include proposed changes to the provisions of RCW 81.77.195. The commission's recommendations must consider how local governments or nonprofit partners should certify the eligibility of low-income customers for discounts, and the appropriate role of the commission in approving proposed rates, charges, and services and in setting standards for low-income solid waste collection rate discount eligibility.</P>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>502</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>70A</TitleNumber><TextRun>.</TextRun><ChapterNumber>245</ChapterNumber><TextRun>.</TextRun><SectionNumber>100</SectionNumber></SectionCite> and 2021 c 313 s 13 are each amended to read as follows:<Caption>Recycling enhancement account.</Caption></BillSectionHeader>
+<P>The recycling enhancement account is created in the custody of the state treasurer. All penalties collected by the department pursuant to RCW 70A.245.040 <TextRun amendingStyle="strike">and</TextRun><TextRun amendingStyle="add">,</TextRun> 70A.245.050<TextRun amendingStyle="add">, and section 210 of this act</TextRun> must be deposited in the account. Only the director of the department or the director's designee may authorize expenditures from the account. The account is subject to the allotment procedures under chapter 43.88 RCW, but an appropriation is not required for expenditures. Expenditures from the account may be used by the department only for providing grants to local governments for the purpose of supporting local solid waste and financial assistance programs.</P>
+<History>2021 c 313 § 13.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Finding<TextRun fontFamily="Times New Roman">—</TextRun>Intent<TextRun fontFamily="Times New Roman">—</TextRun>2021 c 313:</TextRun> See note following RCW 70A.245.010.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>503</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>70A</TitleNumber><TextRun>.</TextRun><ChapterNumber>245</ChapterNumber><TextRun>.</TextRun><SectionNumber>110</SectionNumber></SectionCite> and 2021 c 313 s 14 are each amended to read as follows:<Caption>Recycled content account.</Caption></BillSectionHeader>
+<P>The recycled content account is created in the custody of the state treasurer. All receipts received by the department under RCW 70A.245.020 <TextRun amendingStyle="add">and fees paid under section 210 of this act</TextRun> must be deposited in the account. Only the director of the department or the director's designee may authorize expenditures from the account. The account is subject to the allotment procedures under chapter 43.88 RCW, but an appropriation is not required for expenditures. Expenditures from the account may be used by the department only for implementing, administering, and enforcing the requirements of RCW 70A.245.020 through 70A.245.060 <TextRun amendingStyle="strike">and</TextRun><TextRun amendingStyle="add">,</TextRun> 70A.245.090 (1), (2), and (4)<TextRun amendingStyle="add">, and sections 209 and 210 of this act</TextRun>.</P>
+<History>2021 c 313 § 14.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Finding<TextRun fontFamily="Times New Roman">—</TextRun>Intent<TextRun fontFamily="Times New Roman">—</TextRun>2021 c 313:</TextRun> See note following RCW 70A.245.010.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="amendatory" action="remd">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>504</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>21B</ChapterNumber><TextRun>.</TextRun><SectionNumber>110</SectionNumber></SectionCite> and 2023 c 455 s 5, 2023 c 434 s 20, 2023 c 344 s 5, and 2023 c 135 s 6 are each reenacted and amended to read as follows:<Caption>Pollution control hearings board jurisdiction.</Caption></BillSectionHeader>
+<P>(1) The hearings board shall only have jurisdiction to hear and decide appeals from the following decisions of the department, the director, local conservation districts, the air pollution control boards or authorities as established pursuant to chapter 70A.15 RCW, local health departments, the department of natural resources, the department of fish and wildlife, the parks and recreation commission, and authorized public entities described in chapter 79.100 RCW:</P>
+<P>(a) Civil penalties imposed pursuant to RCW 18.104.155, 70A.15.3160, 70A.300.090, 70A.20.050, 70A.530.040, 70A.350.070, 70A.515.060, 70A.245.040, 70A.245.050, <TextRun amendingStyle="add">section 210 of this act,</TextRun> 70A.245.070, 70A.245.080, 70A.245.130, 70A.245.140, 70A.65.200, 70A.455.090, 70A.550.030, 70A.555.110, 70A.560.020, 76.09.170, 77.55.440, 78.44.250, 88.46.090, 90.03.600, 90.46.270, 90.48.144, 90.56.310, 90.56.330, and 90.64.102.</P>
+<P>(b) Orders issued pursuant to RCW 18.104.043, 18.104.060, 43.27A.190, 70A.15.2520, 70A.15.3010, 70A.300.120, 70A.350.070, 70A.245.020, 70A.65.200, 70A.555.110, 70A.560.020, 86.16.020, 88.46.070, 90.14.130, 90.46.250, 90.48.120, and 90.56.330.</P>
+<P>(c) Except as provided in RCW 90.03.210(2), the issuance, modification, or termination of any permit, certificate, or license by the department or any air authority in the exercise of its jurisdiction, including the issuance or termination of a waste disposal permit, the denial of an application for a waste disposal permit, the modification of the conditions or the terms of a waste disposal permit, or a decision to approve or deny an application for a solid waste permit exemption under RCW 70A.205.260.</P>
+<P>(d) Decisions of local health departments regarding the grant or denial of solid waste permits pursuant to chapter 70A.205 RCW.</P>
+<P>(e) Decisions of local health departments regarding the issuance and enforcement of permits to use or dispose of biosolids under RCW 70A.226.090.</P>
+<P>(f) Decisions of the department regarding waste-derived fertilizer or micronutrient fertilizer under RCW 15.54.820, and decisions of the department regarding waste-derived soil amendments under RCW 70A.205.145.</P>
+<P>(g) Decisions of local conservation districts related to the denial of approval or denial of certification of a dairy nutrient management plan; conditions contained in a plan; application of any dairy nutrient management practices, standards, methods, and technologies to a particular dairy farm; and failure to adhere to the plan review and approval timelines in RCW 90.64.026.</P>
+<P>(h) Any other decision by the department or an air authority which pursuant to law must be decided as an adjudicative proceeding under chapter 34.05 RCW.</P>
+<P>(i) Decisions of the department of natural resources, the department of fish and wildlife, and the department that are reviewable under chapter 76.09 RCW, and the department of natural resources' appeals of county, city, or town objections under RCW 76.09.050(7).</P>
+<P>(j) Forest health hazard orders issued by the commissioner of public lands under RCW 76.06.180.</P>
+<P>(k) Decisions of the department of fish and wildlife to issue, deny, condition, or modify a hydraulic project approval permit under chapter 77.55 RCW, to issue a stop work order, to issue a notice to comply, to issue a civil penalty, or to issue a notice of intent to disapprove applications.</P>
+<P>(l) Decisions of the department of natural resources that are reviewable under RCW 78.44.270.</P>
+<P>(m) Decisions of an authorized public entity under RCW 79.100.010 to take temporary possession or custody of a vessel or to contest the amount of reimbursement owed that are reviewable by the hearings board under RCW 79.100.120.</P>
+<P>(n) Decisions of the department of ecology that are appealable under RCW 70A.245.020 to set recycled minimum postconsumer content for covered products or to temporarily exclude types of covered products in plastic containers from minimum postconsumer recycled content requirements.</P>
+<P>(o) Orders by the department of ecology under RCW 70A.455.080.</P>
+<P>(2) The following hearings shall not be conducted by the hearings board:</P>
+<P>(a) Hearings required by law to be conducted by the shorelines hearings board pursuant to chapter 90.58 RCW.</P>
+<P>(b) Hearings conducted by the department pursuant to RCW 70A.15.3010, 70A.15.3070, 70A.15.3080, 70A.15.3090, 70A.15.3100, 70A.15.3110, and 90.44.180.</P>
+<P>(c) Appeals of decisions by the department under RCW 90.03.110 and 90.44.220.</P>
+<P>(d) Hearings conducted by the department to adopt, modify, or repeal rules.</P>
+<P>(3) Review of rules and regulations adopted by the hearings board shall be subject to review in accordance with the provisions of the administrative procedure act, chapter 34.05 RCW.</P>
+<History>2023 c 455 § 5; 2023 c 434 § 20; 2023 c 344 § 5; 2023 c 135 § 6; 2022 c 180 § 812. Prior: 2021 c 316 § 41; 2021 c 313 § 16; prior: 2020 c 138 § 11; (2020 c 138 § 10 expired June 30, 2021); 2020 c 20 § 1035; (2020 c 20 § 1034 expired June 30, 2021); prior: 2019 c 344 § 16; 2019 c 292 § 10; 2019 c 290 § 12; 2013 c 291 § 34; (2013 c 291 § 33 expired June 30, 2019); prior: 2010 c 210 § 8; (2010 c 210 § 7 expired June 30, 2019); 2010 c 84 § 3; (2010 c 84 § 2 expired June 30, 2019); prior: 2009 c 456 § 16; 2009 c 332 § 18; (2009 c 183 § 17 expired June 30, 2021); 2003 c 393 § 19; 2001 c 220 § 2; prior: 1998 c 262 § 18; 1998 c 156 § 8; 1998 c 36 § 22; 1993 c 387 § 22; prior: 1992 c 174 § 13; 1992 c 73 § 1; 1989 c 175 § 102; 1987 c 109 § 10; 1970 ex.s. c 62 § 41.</History>
+<RCWNoteSection>
+<RevNote><NoteP><TextRun fontWeight="bold" readOnly="yes">Reviser's note:</TextRun><TextRun> This section was amended by 2023 c 135 § 6, 2023 c 344 § 5, 2023 c 434 § 20, and by 2023 c 455 § 5, without reference to one another. All amendments are incorporated in the publication of this section under RCW 1.12.025(2). For rule of construction, see RCW 1.12.025(1).</TextRun></NoteP></RevNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Finding<TextRun fontFamily="Times New Roman">—</TextRun>Intent<TextRun fontFamily="Times New Roman">—</TextRun>2023 c 135:</TextRun> See note following RCW 19.27.590.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Findings<TextRun fontFamily="Times New Roman">—</TextRun>Intent<TextRun fontFamily="Times New Roman">—</TextRun>Scope of authority of chapter 180, Laws of 2022<TextRun fontFamily="Times New Roman">—</TextRun>2022 c 180:</TextRun> See notes following RCW 70A.205.007.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Short title<TextRun fontFamily="Times New Roman">—</TextRun>2021 c 316:</TextRun> See RCW 70A.65.900.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Finding<TextRun fontFamily="Times New Roman">—</TextRun>Intent<TextRun fontFamily="Times New Roman">—</TextRun>2021 c 313:</TextRun> See note following RCW 70A.245.010.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2020 c 138 § 11:</TextRun> "Section 11 of this act takes effect June 30, 2021." [2020 c 138 § 15.]</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Expiration date<TextRun fontFamily="Times New Roman">—</TextRun>2020 c 138 § 10:</TextRun> "Section 10 of this act expires June 30, 2021." [2020 c 138 § 14.]</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Application of RCW 82.32.805 and 82.32.808<TextRun fontFamily="Times New Roman">—</TextRun>2020 c 138:</TextRun> See note following RCW 70A.530.005.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2020 c 20 § 1035:</TextRun> "Section 1035 of this act takes effect June 30, 2021." [2020 c 20 § 106.]</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Expiration date<TextRun fontFamily="Times New Roman">—</TextRun>2020 c 20 § 1034:</TextRun> "Section 1034 of this act expires June 30, 2021." [2020 c 20 § 105.]</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Short title<TextRun fontFamily="Times New Roman">—</TextRun>2019 c 292:</TextRun> See RCW 70A.350.900.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Finding<TextRun fontFamily="Times New Roman">—</TextRun>Intent<TextRun fontFamily="Times New Roman">—</TextRun>2019 c 290:</TextRun> See note following RCW 77.12.085.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2013 c 291 § 34:</TextRun> "Section 34 of this act takes effect June 30, 2019." [2013 c 291 § 47.]</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Expiration date<TextRun fontFamily="Times New Roman">—</TextRun>2013 c 291 § 33:</TextRun> "Section 33 of this act expires June 30, 2019." [2013 c 291 § 46.]</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Expiration dates<TextRun fontFamily="Times New Roman">—</TextRun>2010 c 210 §§ 3, 5, and 7:</TextRun> "(1) Sections 3 and 5 of this act expire July 1, 2011.</NoteP><NoteP>(2) Section 7 of this act expires June 30, 2019." [2010 c 210 § 45.]</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Intent<TextRun fontFamily="Times New Roman">—</TextRun>Effective dates<TextRun fontFamily="Times New Roman">—</TextRun>Application<TextRun fontFamily="Times New Roman">—</TextRun>Pending cases and rules<TextRun fontFamily="Times New Roman">—</TextRun>2010 c 210:</TextRun> See notes following RCW 43.21B.001.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2010 c 84 § 3:</TextRun> "Section 3 of this act takes effect June 30, 2019." [2010 c 84 § 6.]</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Expiration date<TextRun fontFamily="Times New Roman">—</TextRun>2010 c 84 § 2:</TextRun> "Section 2 of this act expires June 30, 2019." [2010 c 84 § 5.]</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Application<TextRun fontFamily="Times New Roman">—</TextRun>2009 c 332:</TextRun> See note following RCW 90.03.110.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Expiration date<TextRun fontFamily="Times New Roman">—</TextRun>2019 c 78; 2009 c 183:</TextRun> See note following RCW 90.03.380.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Intent<TextRun fontFamily="Times New Roman">—</TextRun>2001 c 220:</TextRun> "The legislature intends to assure that appeals of department of ecology decisions regarding changes or transfers of water rights that are the subject of an ongoing general adjudication of water rights are governed by an appeals process that is efficient and eliminates unnecessary duplication, while fully preserving the rights of all affected parties. The legislature intends to address only the judicial review process for certain decisions of the pollution control hearings board when a general adjudication is being actively litigated. The legislature intends to fully preserve the role of the pollution control hearings board, except as specifically provided in this act." [2001 c 220 § 1.]</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Construction<TextRun fontFamily="Times New Roman">—</TextRun>2001 c 220:</TextRun> "Nothing in this act shall be construed to affect or modify any treaty or other federal rights of an Indian tribe, or the rights of any federal agency or other person or entity arising under federal law. Nothing in this act is intended or shall be construed as affecting or modifying any existing right of a federally recognized Indian tribe to protect from impairment its federally reserved water rights in federal court." [2001 c 220 § 6.]</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2001 c 220:</TextRun> "This act is necessary for the immediate preservation of the public peace, health, or safety, or support of the state government and its existing public institutions, and takes effect immediately [May 9, 2001]." [2001 c 220 § 7.]</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>1998 c 262:</TextRun> See RCW 90.64.900.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Intent<TextRun fontFamily="Times New Roman">—</TextRun>1998 c 36:</TextRun> See RCW 15.54.265.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Short title<TextRun fontFamily="Times New Roman">—</TextRun>1998 c 36:</TextRun> See note following RCW 15.54.265.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>1993 c 387:</TextRun> See RCW 18.104.930.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective dates<TextRun fontFamily="Times New Roman">—</TextRun>1992 c 73:</TextRun> See RCW 82.23B.902.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>1989 c 175:</TextRun> See note following RCW 34.05.010.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Purpose<TextRun fontFamily="Times New Roman">—</TextRun>Short title<TextRun fontFamily="Times New Roman">—</TextRun>Construction<TextRun fontFamily="Times New Roman">—</TextRun>Rules<TextRun fontFamily="Times New Roman">—</TextRun>Severability<TextRun fontFamily="Times New Roman">—</TextRun>Captions<TextRun fontFamily="Times New Roman">—</TextRun>1987 c 109:</TextRun> See notes following RCW 43.21B.001.</NoteP></AnnNote>
+<CrossRefNote><NoteP>Order for compliance with oil spill contingency or prevention plan not subject to review by pollution control hearings board: RCW 90.56.270.</NoteP></CrossRefNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>505</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>70A</TitleNumber><TextRun>.</TextRun><ChapterNumber>65</ChapterNumber><TextRun>.</TextRun><SectionNumber>260</SectionNumber></SectionCite> and 2023 c 475 s 939 are each amended to read as follows:<Caption>Climate commitment account.</Caption></BillSectionHeader>
+<P>(1) The climate commitment account is created in the state treasury. The account must receive moneys distributed to the account from the climate investment account created in RCW 70A.65.250. Moneys in the account may be spent only after appropriation. Projects, activities, and programs eligible for funding from the account must be physically located in Washington state and include, but are not limited to, the following:</P>
+<P>(a) Implementing the working families' tax credit in RCW 82.08.0206;</P>
+<P>(b) Supplementing the growth management planning and environmental review fund established in RCW 36.70A.490 for the purpose of making grants or loans to local governments for the purposes set forth in RCW 43.21C.240, 43.21C.031, 36.70A.500, and 36.70A.600, for costs associated with RCW 36.70A.610, and to cover costs associated with the adoption of optional elements of comprehensive plans consistent with RCW 43.21C.420;</P>
+<P>(c) Programs, activities, or projects that reduce and mitigate impacts from greenhouse gases and copollutants in overburdened communities, including strengthening the air quality monitoring network to measure, track, and better understand air pollution levels and trends and to inform the analysis, monitoring, and pollution reduction measures required in RCW 70A.65.020;</P>
+<P>(d) Programs, activities, or projects that deploy renewable energy resources, such as solar and wind power, and projects to deploy distributed generation, energy storage, demand-side technologies and strategies, and other grid modernization projects;</P>
+<P>(e) Programs, activities, or projects that increase the energy efficiency or reduce greenhouse gas emissions of industrial facilities including, but not limited to, proposals to implement combined heat and power, district energy, or on-site renewables, such as solar and wind power, to upgrade the energy efficiency of existing equipment, to reduce process emissions, and to switch to less emissions intensive fuel sources;</P>
+<P>(f) Programs, activities, or projects that achieve energy efficiency or emissions reductions in the agricultural sector including:</P>
+<P>(i) Fertilizer management;</P>
+<P>(ii) Soil management;</P>
+<P>(iii) Bioenergy;</P>
+<P>(iv) Biofuels;</P>
+<P>(v) Grants, rebates, and other financial incentives for agricultural harvesting equipment, heavy duty trucks, agricultural pump engines, tractors, and other equipment used in agricultural operations;</P>
+<P>(vi) Grants, loans, or any financial incentives to food processors to implement projects that reduce greenhouse gas emissions;</P>
+<P>(vii) Renewable energy projects;</P>
+<P>(viii) Farmworker housing weatherization programs;</P>
+<P>(ix) Dairy digester research and development;</P>
+<P>(x) Alternative manure management; and</P>
+<P>(xi) Eligible fund uses under RCW 89.08.615;</P>
+<P>(g) Programs, activities, or projects that increase energy efficiency in new and existing buildings, or that promote low carbon architecture, including use of newly emerging alternative building materials that result in a lower carbon footprint in the built environment over the life cycle of the building and component building materials;</P>
+<P>(h) Programs, activities, or projects that promote the electrification and decarbonization of new and existing buildings, including residential, commercial, and industrial buildings;</P>
+<P>(i) Programs, activities, or projects that improve energy efficiency, including district energy, and investments in market transformation of high efficiency electric appliances and equipment for space and water heating;</P>
+<P>(j) Clean energy transition and assistance programs, activities, or projects that assist affected workers or people with lower incomes during the transition to a clean energy economy, or grow and expand clean manufacturing capacity in communities across Washington state including, but not limited to:</P>
+<P>(i) Programs, activities, or projects that directly improve energy affordability and reduce the energy burden of people with lower incomes, as well as the higher transportation fuel burden of rural residents, such as bill assistance, energy efficiency, and weatherization programs;</P>
+<P>(ii) Community renewable energy projects that allow qualifying participants to own or receive the benefits of those projects at reduced or no cost;</P>
+<P>(iii) Programs, activities, or other worker-support projects for bargaining unit and nonsupervisory fossil fuel workers who are affected by the transition away from fossil fuels to a clean energy economy. Worker support may include, but is not limited to: (A) Full wage replacement, health benefits, and pension contributions for every worker within five years of retirement; (B) full wage replacement, health benefits, and pension contributions for every worker with at least one year of service for each year of service up to five years of service; (C) wage insurance for up to five years for workers reemployed who have more than five years of service; (D) up to two years of retraining costs, including tuition and related costs, based on in-state community and technical college costs; (E) peer counseling services during transition; (F) employment placement services, prioritizing employment in the clean energy sector; and (G) relocation expenses;</P>
+<P>(iv) Direct investment in workforce development, via technical education, community college, institutions of higher education, apprenticeships, and other programs including, but not limited to:</P>
+<P>(A) Initiatives to develop a forest health workforce established under RCW 76.04.521; and</P>
+<P>(B) Initiatives to develop new education programs, emerging fields, or jobs pertaining to the clean energy economy;</P>
+<P>(v) Transportation, municipal service delivery, and technology investments that increase a community's capacity for clean manufacturing, with an emphasis on communities in greatest need of job creation and economic development and potential for commute reduction;</P>
+<P>(k)<TextRun amendingStyle="add">(i)</TextRun> Programs, activities, or projects that reduce emissions from landfills and waste-to-energy facilities through diversion of organic materials, methane capture or conversion strategies, installation of gas collection devices and gas control systems, monitoring and reporting of methane emissions, or other means, prioritizing funding needed for any activities by local governments to comply with chapter 70A.540 RCW;</P>
+<P><TextRun amendingStyle="add">(ii) The activities of the department under sections 206 through 208 and 211 of this act are eligible uses of the climate commitment account under (k)(i) of this subsection;</TextRun></P>
+<P>(l) Carbon dioxide removal projects, programs, and activities; and</P>
+<P>(m) Activities to support efforts to mitigate and adapt to the effects of climate change affecting Indian tribes, including capital investments in support of the relocation of Indian tribes located in areas at heightened risk due to anticipated sea level rise, flooding, or other disturbances caused by climate change. The legislature intends to dedicate at least $50,000,000 per biennium from the account for purposes of this subsection.</P>
+<P>(2) Moneys in the account may not be used for projects or activities that would violate tribal treaty rights or result in significant long-term damage to critical habitat or ecological functions. Investments from this account must result in long-term environmental benefits and increased resilience to the impacts of climate change.</P>
+<P>(3) During the 2023-2025 fiscal biennium, the legislature may appropriate moneys from the climate commitment account for activities related to environmental justice, including implementation of chapter 314, Laws of 2021.</P>
+<History>2023 c 475 § 939; 2022 c 179 § 17; 2021 c 316 § 29.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2023 c 475:</TextRun> See note following RCW 16.76.030.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="new" action="addchap">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>506</Value><TextRun>.  </TextRun></BillSectionNumber><P>Sections 201 through 211 of this act constitute a new chapter in <TitleCite><TextRun>Title </TextRun><TitleNumber>70A</TitleNumber><TextRun> RCW</TextRun></TitleCite>.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addmultisect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>507</Value><TextRun>.  </TextRun></BillSectionNumber><P>Sections 301 through 308 of this act are each added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>70A</TitleNumber><TextRun>.</TextRun><ChapterNumber>245</ChapterNumber><TextRun> RCW</TextRun></ChapterCite>.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>508</Value><TextRun>.  </TextRun></BillSectionNumber><P>If any provision of this act or its application to any person or circumstance is held invalid, the remainder of the act or the application of the provision to other persons or circumstances is not affected.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

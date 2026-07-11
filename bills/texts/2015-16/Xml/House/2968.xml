@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-4012.1</RequestNumber><ShortBillId>HB 2968</ShortBillId><LongBillId>HOUSE BILL 2968</LongBillId><Legislature>64th Legislature</Legislature><Session>2016 Regular Session</Session><Sponsors>Representatives Tharinger, DeBolt, Stanford, Smith, Dunshee, Kagi, Farrell, Lytton, Senn, Robinson, Ormsby, Walkinshaw, Hudgins, Frame, Ryu, Gregerson, Riccelli, Reykdal, Magendanz, Bergquist, Kilduff, Sells, Santos, Fey, Jinkins, and Fitzgibbon</Sponsors><BillHistory><ReadDate>Read first time 02/03/16.</ReadDate><ReferredCommittee>Referred to Committee on Capital Budget.</ReferredCommittee></BillHistory><BriefDescription>Financing public school facilities necessary to support state-funded all-day kindergarten and class size reduction in kindergarten through third grade.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to financing public school facilities necessary to support state-funded all-day kindergarten and class size reduction in kindergarten through third grade; amending RCW 43.79.495; creating a new section; making appropriations; and declaring an emergency.</BillTitle>
+<EnactedClause />
+<Part>
+<P>PART 1</P>
+<P>LEGISLATIVE INTENT</P>
+</Part>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value fixed="true">101</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature intends to provide one billion dollars in state funding from fiscal years 2016 to 2025 to assist school districts in financing public school facilities necessary to support state-funded all-day kindergarten and class size reduction in kindergarten through third grade.</P></BillSectionHeader>
+</BillSection>
+<Part>
+<P>PART 2</P>
+<P>BUDGET STABILIZATION ACCOUNT TRANSFER PLAN</P>
+</Part>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value fixed="true">201</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>79</ChapterNumber><TextRun>.</TextRun><SectionNumber>495</SectionNumber></SectionCite> and 2012 c 187 s 6 are each amended to read as follows:<Caption>Budget stabilization account<TextRun fontFamily="Times New Roman">—</TextRun>Governance.</Caption></BillSectionHeader>
+<P>(1) The budget stabilization account is governed by the provisions in Article VII, section 12 and this section.</P>
+<P>(2) By June 30th of each fiscal year, the state treasurer shall transfer an amount equal to one percent of the general state revenues for that fiscal year to the budget stabilization account.</P>
+<P>(3) For the purposes of Article VII, section 12, this section, and RCW 82.33.050, the state employment growth forecast shall be based on the total nonfarm payroll employment data series.</P>
+<P><TextRun amendingStyle="add">(4) The legislature intends that:</TextRun></P>
+<P><TextRun amendingStyle="add">(a) Beginning with fiscal year 2016 and ending with fiscal year 2025, on June 30th of each fiscal year, pursuant to appropriation, the state treasurer shall transfer into the education construction fund an amount equal to one-half of the one percent of general state revenues for that fiscal year transferred into the budget stabilization account.</TextRun></P>
+<P><TextRun amendingStyle="add">(b) In each omnibus capital appropriations act, the amount appropriated into the education construction fund under (a) of this subsection must be appropriated from the education construction fund to the office of the superintendent of public instruction solely for grants to school districts to construct, modernize, or replace public school facilities to support state-funded all-day kindergarten and class size reduction in kindergarten through third grade.</TextRun></P>
+<History>2012 c 187 § 6; 2007 c 484 § 2.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Contingent effective date<TextRun fontFamily="Times New Roman">—</TextRun>2007 c 484 §§ 2-8:</TextRun> "Sections 2 through 8 of this act take effect July 1, 2008, if the proposed amendment to Article VII of the state Constitution (Senate Joint Resolution No. 8206) is validly submitted to and is approved and ratified by the voters at a general election held in November 2007. If the proposed amendment is not approved and ratified, sections 2 through 8 of this act are void in their entirety." [2007 c 484 § 10.]  Engrossed Substitute Senate Joint Resolution No. 8206 was approved by the voters at the November 6, 2007 general election.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<Part>
+<P>PART 3</P>
+<P>BUDGET STABILIZATION ACCOUNT APPROPRIATION</P>
+</Part>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value fixed="true">301</Value><TextRun>.  </TextRun></BillSectionNumber><P>Budget stabilization account: For expenditure into the education construction fund to be used solely to fund the K-3 class size reduction construction grant program established in chapter 41, Laws of 2015 3rd sp. sess.:</P></BillSectionHeader>
+<Appropriations agency="0" project="00000000" appropType="appropriation"><Appropriation><AccountName><BudgetP>Budget Stabilization Account<TextRun fontFamily="Times New Roman">—</TextRun>State</BudgetP><BudgetP indent="1">Appropriation (FY 2016)</BudgetP></AccountName><Leader character="dot" /><DollarAmount>$91,795,000</DollarAmount></Appropriation><Appropriation><AccountName><BudgetP>Budget Stabilization Account<TextRun fontFamily="Times New Roman">—</TextRun>State</BudgetP><BudgetP indent="1">Appropriation (FY 2017)</BudgetP></AccountName><Leader character="dot" /><DollarAmount>$94,832,000</DollarAmount></Appropriation><AppropriationTotal><TextRun>TOTAL APPROPRIATION</TextRun><Leader character="dot" /><DollarAmount>$186,627,000</DollarAmount></AppropriationTotal></Appropriations>
+</BillSection>
+<Part>
+<P>PART 4</P>
+<P>MISCELLANEOUS PROVISIONS</P>
+</Part>
+<BillSection type="new" action="emerg">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value fixed="true">401</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act is necessary for the immediate preservation of the public peace, health, or safety, or support of the state government and its existing public institutions, and takes effect immediately.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

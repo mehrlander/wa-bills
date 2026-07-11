@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-0259.1</RequestNumber><ShortBillId>HB 1819</ShortBillId><LongBillId>HOUSE BILL 1819</LongBillId><Legislature>66th Legislature</Legislature><Session>2019 Regular Session</Session><Sponsors>Representatives Appleton, Hudgins, Dolan, Bergquist, and Pellicciotti</Sponsors><BillHistory><ReadDate>Read first time 01/31/19.</ReadDate><ReferredCommittee>Referred to Committee on State Government &amp; Tribal Relations.</ReferredCommittee></BillHistory><BriefDescription>Requiring additional information in reconciliation reports.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to requiring additional information in reconciliation reports; and amending RCW 29A.60.235.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>29A</TitleNumber><TextRun>.</TextRun><ChapterNumber>60</ChapterNumber><TextRun>.</TextRun><SectionNumber>235</SectionNumber></SectionCite> and 2018 c 218 s 9 are each amended to read as follows:<Caption>Reconciliation reports.</Caption></BillSectionHeader>
+<P>(1) The county auditor shall prepare at the time of certification an election reconciliation report that discloses the following information:</P>
+<P>(a) The number of registered voters;</P>
+<P>(b) The <TextRun amendingStyle="add">total</TextRun> number of ballots issued<TextRun amendingStyle="add">, received, counted, and rejected</TextRun>;</P>
+<P>(c) The number of ballots<TextRun amendingStyle="add">, categorized by precinct, that are issued,</TextRun> received<TextRun amendingStyle="add">, counted, and rejected</TextRun>;</P>
+<P>(d) <TextRun amendingStyle="strikemarkleft">The number of ballots counted;</TextRun></P>
+<P><TextRun amendingStyle="strikemarknone">(e) The number of ballots rejected;</TextRun></P>
+<P><TextRun amendingStyle="strikemarkright">(f)</TextRun> The number of provisional ballots issued;</P>
+<P><TextRun amendingStyle="strike">(g)</TextRun> <TextRun amendingStyle="add">(e)</TextRun> The number of provisional ballots received;</P>
+<P><TextRun amendingStyle="strike">(h)</TextRun> <TextRun amendingStyle="add">(f)</TextRun> The number of provisional ballots counted;</P>
+<P><TextRun amendingStyle="strike">(i)</TextRun> <TextRun amendingStyle="add">(g)</TextRun> The number of provisional ballots rejected;</P>
+<P><TextRun amendingStyle="strike">(j)</TextRun> <TextRun amendingStyle="add">(h)</TextRun> The number of federal write-in ballots received;</P>
+<P><TextRun amendingStyle="strike">(k)</TextRun> <TextRun amendingStyle="add">(i)</TextRun> The number of federal write-in ballots counted;</P>
+<P><TextRun amendingStyle="strike">(l)</TextRun> <TextRun amendingStyle="add">(j)</TextRun> The number of federal write-in ballots rejected;</P>
+<P><TextRun amendingStyle="strike">(m)</TextRun> <TextRun amendingStyle="add">(k)</TextRun> The number of overseas and service ballots issued by mail, email, web site link, or facsimile;</P>
+<P><TextRun amendingStyle="strike">(n)</TextRun> <TextRun amendingStyle="add">(l)</TextRun> The number of overseas and service ballots received by mail, email, or facsimile;</P>
+<P><TextRun amendingStyle="strike">(o)</TextRun> <TextRun amendingStyle="add">(m)</TextRun> The number of overseas and service ballots counted by mail, email, or facsimile;</P>
+<P><TextRun amendingStyle="strike">(p)</TextRun> <TextRun amendingStyle="add">(n)</TextRun> The number of overseas and service ballots rejected by mail, email, or facsimile;</P>
+<P><TextRun amendingStyle="strike">(q)</TextRun> <TextRun amendingStyle="add">(o)</TextRun> The number of nonoverseas and nonservice ballots sent by email, web site link, or facsimile;</P>
+<P><TextRun amendingStyle="strike">(r)</TextRun> <TextRun amendingStyle="add">(p)</TextRun> The number of nonoverseas and nonservice ballots received by email or facsimile;</P>
+<P><TextRun amendingStyle="strike">(s)</TextRun> <TextRun amendingStyle="add">(q)</TextRun> The number of nonoverseas and nonservice ballots that were rejected <TextRun amendingStyle="strikemarkleft">for:</TextRun></P>
+<P><TextRun amendingStyle="strikemarknone">(i) Failing to send an original or hard copy of the ballot by the certification deadline; or</TextRun></P>
+<P><TextRun amendingStyle="strikemarkright">(ii) Any other reason, including the reason for rejection</TextRun>;</P>
+<P><TextRun amendingStyle="strike">(t)</TextRun> <TextRun amendingStyle="add">(r)</TextRun> The number of voters credited with voting;</P>
+<P><TextRun amendingStyle="strike">(u)</TextRun> <TextRun amendingStyle="add">(s)</TextRun> The number of replacement ballots requested;</P>
+<P><TextRun amendingStyle="strike">(v)</TextRun> <TextRun amendingStyle="add">(t)</TextRun> The number of replacement ballots issued;</P>
+<P><TextRun amendingStyle="strike">(w)</TextRun> <TextRun amendingStyle="add">(u)</TextRun> The number of replacement ballots received;</P>
+<P><TextRun amendingStyle="strike">(x)</TextRun> <TextRun amendingStyle="add">(v)</TextRun> The number of replacement ballots counted;</P>
+<P><TextRun amendingStyle="strike">(y)</TextRun> <TextRun amendingStyle="add">(w)</TextRun> The number of replacement ballots rejected; <TextRun amendingStyle="strikemarkleft">and</TextRun></P>
+<P><TextRun amendingStyle="strikemarkright">(z)</TextRun> <TextRun amendingStyle="add">(x) The number of ballots cast in person at a voting center or the county auditor's office, including the number received, counted, and rejected;</TextRun></P>
+<P><TextRun amendingStyle="add">(y) The number of ballots cast using a direct recording electronic voting device or in-person ballot marking system, categorized by type of voting device or system used, including the number received, counted, and rejected;</TextRun></P>
+<P><TextRun amendingStyle="add">(z) The number of ballots received, counted, and rejected from voters using a nonsignature distinctive mark or symbol to sign the ballot declaration, categorized by each ballot type, including but not limited to: Provisional ballots, overseas and service ballots, nonoverseas and nonservice ballots, federal write-in ballots, and replacement ballots;</TextRun></P>
+<P><TextRun amendingStyle="add">(aa) The number of duplicated ballots;</TextRun></P>
+<P><TextRun amendingStyle="add">(bb) The number of discrepancies found during the audit of duplicated ballots pursuant to RCW 29A.60.185;</TextRun></P>
+<P><TextRun amendingStyle="add">(cc) The total number of ballots deposited in a ballot box;</TextRun></P>
+<P><TextRun amendingStyle="add">(dd) For any rejected ballots reported, the number of ballots rejected because:</TextRun></P>
+<P><TextRun amendingStyle="add">(i) Of a missing signature;</TextRun></P>
+<P><TextRun amendingStyle="add">(ii) The signature on the declaration did not match the signature on file;</TextRun></P>
+<P><TextRun amendingStyle="add">(iii) The ballot was postmarked after the deadline pursuant to RCW 29A.40.110;</TextRun></P>
+<P><TextRun amendingStyle="add">(iv) The voter has already received credit for voting in the same general election, special election, or primary;</TextRun></P>
+<P><TextRun amendingStyle="add">(v) Of failure to send an original or hard copy of the ballot, if initially sent by email or facsimile, by the certification deadline; or</TextRun></P>
+<P><TextRun amendingStyle="add">(vi) Of any other reason, including the reason for rejection; and</TextRun></P>
+<P><TextRun amendingStyle="add">(ee)</TextRun> Any other information the auditor or secretary of state deems necessary to reconcile the number of ballots counted with the number of voters credited with voting, and to maintain an audit trail.</P>
+<P>(2) <TextRun amendingStyle="add">The county auditor shall reconcile the information in subsection (1)(b) of this section with the information in subsection (1)(c) of this section. Any discrepancies must be documented in the reconciliation report, including the reason for the discrepancy.</TextRun></P>
+<P><TextRun amendingStyle="add">(3)</TextRun> The county auditor must make the report available to the public at the auditor's office and must publish the report on the auditor's web site at the time of certification. The county auditor must submit the report to the secretary of state at the time of certification in any form determined by the secretary of state.</P>
+<P><TextRun amendingStyle="strike">(3)</TextRun> <TextRun amendingStyle="add">(4)</TextRun>(a) The secretary of state must collect the reconciliation reports from each county auditor and prepare a statewide reconciliation report for each state primary and general election. The report may be produced in a form determined by the secretary that includes the information as described in this subsection <TextRun amendingStyle="strike">(3)</TextRun> <TextRun amendingStyle="add">(4)</TextRun>. The report must be prepared and published on the secretary of state's web site within two months after the last county's election results have been certified.</P>
+<P>(b) The state report must include a comparison among counties on rates of votes received, counted, and rejected, including provisional, write-in, overseas ballots, and ballots transmitted electronically. The comparison information may be in the form of rankings, percentages, or other relevant quantifiable data that can be used to measure performance and trends.</P>
+<P>(c) The state report must also include an analysis of the data that can be used to develop a better understanding of election administration and policy. The analysis must combine data, as available, over multiple years to provide broader comparisons and trends regarding voter registration and turnout and ballot counting. The analysis must incorporate national election statistics to the extent such information is available.</P>
+<History>2018 c 218 § 9; 2017 c 300 § 1; 2011 c 10 § 62; 2009 c 369 § 41; 2005 c 243 § 11.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Intent<TextRun fontFamily="Times New Roman">—</TextRun>2018 c 218:</TextRun> See note following RCW 29A.60.185.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Notice to registered poll voters<TextRun fontFamily="Times New Roman">—</TextRun>Elections by mail<TextRun fontFamily="Times New Roman">—</TextRun>2011 c 10:</TextRun> See note following RCW 29A.04.008.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+</BillBody>
+</Bill>

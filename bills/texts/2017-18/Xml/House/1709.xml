@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>Z-0406.1</RequestNumber><ShortBillId>HB 1709</ShortBillId><LongBillId>HOUSE BILL 1709</LongBillId><Legislature>65th Legislature</Legislature><Session>2017 Regular Session</Session><Sponsors>Representatives Chandler, Ormsby, and Stanford; by request of Select Committee on Pension Policy</Sponsors><BillHistory><ReadDate>Read first time 01/26/17.</ReadDate><ReferredCommittee>Referred to Committee on Appropriations.</ReferredCommittee></BillHistory><BriefDescription>Authorizing the transfer of public employees' retirement system service credit to the public safety employees' retirement system due to differing definitions of full-time.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to transferring public employees' retirement system service credit to the public safety employees' retirement system due to differing definitions of full-time; adding a new section to chapter 41.37 RCW; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>Since the establishment of the public safety employees' retirement system in 2006, some employees have been reported by employers as members of that retirement system even though they did not work what is normally considered full-time for the purposes of determining plan membership under RCW 41.37.010(19) due to written employment agreements that defined full-time differently. As a result, some employees who believed they were in the public safety employees' retirement system have been, or will be, moved into the public employees' retirement system that has different plan provisions and, generally, a later retirement date. The legislature intends that section 2 of this act only applies to those employees who believed they were in the public safety employees' retirement system and have been, or will be, moved into the public employees' retirement system, as described in this section.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>41</TitleNumber><TextRun>.</TextRun><ChapterNumber>37</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) An employee may elect to have their public employees' retirement system service credit transferred to the public safety employees' retirement system if:</P>
+<P>(a) They worked under a written employment contract prior to January 1, 2017, that defined full-time as less than one hundred sixty hours per month;</P>
+<P>(b) Other than the full-time requirement under RCW 41.37.010(19), have met all membership requirements for the public safety employees' retirement system under RCW 41.37.010(19);</P>
+<P>(c) Their employer incorrectly reported the employee's service in the public safety employees' retirement system instead of the public employees' retirement system; and</P>
+<P>(d) All contributions required for past periods of service established under this subsection are paid to the department, as follows:</P>
+<P>(i) A member who elects to transfer service credit under this subsection shall pay, for the applicable period of service, the difference between the contributions the employee paid to the public employees' retirement system and the contributions that would have been paid by the employee had the employee been a member of the public safety employees' retirement system.</P>
+<P>(ii) Employer contributions shall be paid by the employer and calculated by the department equal to the difference between the contributions the employer paid to the public employees' retirement system and the contributions that would have been paid by the employer had the employee been a member of the public safety employees' retirement system.</P>
+<P>(2) This section applies retroactively to July 1, 2006.</P>
+<P>(3) All employees who elect to have their public employees' retirement system service credit transferred to the public safety employees' retirement system under this section shall continue to have their service credit reported in the public safety employees' retirement system so long as:</P>
+<P>(a) They remain with their current employer in an otherwise public safety employees' retirement system eligible position; and</P>
+<P>(b) Continue to work under a written employment contract that defines full-time as less than one hundred sixty hours per month, but at least one hundred forty hours per month.</P>
+</BillSection>
+</BillBody>
+</Bill>

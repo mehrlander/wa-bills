@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-0260.1</RequestNumber><ShortBillId>HB 1820</ShortBillId><LongBillId>HOUSE BILL 1820</LongBillId><Legislature>66th Legislature</Legislature><Session>2019 Regular Session</Session><Sponsors>Representatives Appleton, Hudgins, and Dolan</Sponsors><BillHistory><ReadDate>Read first time 01/31/19.</ReadDate><ReferredCommittee>Referred to Committee on State Government &amp; Tribal Relations.</ReferredCommittee></BillHistory><BriefDescription>Extending the retention period for storage of election material.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to extending the retention period for storage of election material; amending RCW 29A.60.110; adding new sections to chapter 29A.04 RCW; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>In order to protect the integrity of our elections, voters must be assured that every vote is counted. Furthermore, voters should feel confident that ballots can be recounted and the results of an election can be verified again, if needed. An important component to this process is the retention of ballots after an election. Therefore, the legislature finds that ballots should be retained for a longer period that allows for more time to detect and recover any potential inconsistencies that could occur during an election. This change would also align our practices more closely to the federal law, which mandates that ballots be retained for twenty-two months.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>29A</TitleNumber><TextRun>.</TextRun><ChapterNumber>60</ChapterNumber><TextRun>.</TextRun><SectionNumber>110</SectionNumber></SectionCite> and 2018 c 218 s 4 are each amended to read as follows:<Caption>Ballot containers, sealing, opening.</Caption></BillSectionHeader>
+<P>(1) Immediately after their tabulation, all ballots counted at a ballot counting center must be sealed in containers that identify the primary or election <TextRun amendingStyle="strike">and</TextRun><TextRun amendingStyle="add">.</TextRun></P>
+<P><TextRun amendingStyle="add">(2) Ballots in the form of a physical document must</TextRun> be retained for at least <TextRun amendingStyle="strike">sixty days</TextRun> <TextRun amendingStyle="add">twenty-four months</TextRun> or according to federal law, whichever is longer. <TextRun amendingStyle="add">Cast vote records, voted ballot images, or other electronically stored data of vote counts, except as provided for under subsection (3) of this section, must be retained for at least five years. After the required retention period, the county canvassing board may destroy such ballots, voted ballot images, or other electronically stored data of vote counts if there are no pending election challenges.</TextRun></P>
+<P><TextRun amendingStyle="strike">(2)</TextRun> <TextRun amendingStyle="add">(3) Removable memory cards, flash drives, or other small ultraportable data storage devices used to electronically store data of vote counts or electronic ballot images must not be inserted into a tabulation machine more than one time. The secretary of state shall adopt rules for the retention of data on the memory cards, flash drives, or other small ultraportable data storage devices.</TextRun></P>
+<P><TextRun amendingStyle="add">(4)</TextRun> In the presence of major party observers who are available, ballots may be removed from the sealed containers at the elections department and consolidated into one sealed container for storage purposes. The containers may only be opened by the canvassing board as part of the canvass, to conduct recounts, to conduct a random check under RCW 29A.60.170, to conduct an audit under RCW 29A.60.185, or by order of the superior court in a contest or election dispute. If the canvassing board opens a ballot container, it shall make a full record of the additional tabulation or examination made of the ballots. This record must be added to any other record of the canvassing process in that county.</P>
+<History>2018 c 218 § 4; 2013 c 11 § 61; 2011 c 10 § 50; 2003 c 111 § 1511; 1999 c 158 § 14; 1990 c 59 § 59. Formerly RCW 29.54.075.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Intent<TextRun fontFamily="Times New Roman">—</TextRun>2018 c 218:</TextRun> See note following RCW 29A.60.185.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Notice to registered poll voters<TextRun fontFamily="Times New Roman">—</TextRun>Elections by mail<TextRun fontFamily="Times New Roman">—</TextRun>2011 c 10:</TextRun> See note following RCW 29A.04.008.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Intent<TextRun fontFamily="Times New Roman">—</TextRun>Effective date<TextRun fontFamily="Times New Roman">—</TextRun>1990 c 59:</TextRun> See notes following RCW 29A.04.013.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>29A</TitleNumber><TextRun>.</TextRun><ChapterNumber>04</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>"Voted ballot image" means an identical digital image of the paper ballot or ballot card.</P>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>29A</TitleNumber><TextRun>.</TextRun><ChapterNumber>04</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>"Cast vote record" means a data file of how the tabulation system interpreted voter markings on each individual ballot.</P>
+</BillSection>
+</BillBody>
+</Bill>

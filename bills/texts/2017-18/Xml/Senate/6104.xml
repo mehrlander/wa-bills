@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-3307.1</RequestNumber><ShortBillId>SB 6104</ShortBillId><LongBillId>SENATE BILL 6104</LongBillId><Legislature>65th Legislature</Legislature><Session>2018 Regular Session</Session><Sponsors>Senators Ranker, Carlyle, Wellman, Palumbo, Keiser, Nelson, Rolfes, McCoy, Kuderer, and Hasegawa</Sponsors><BillHistory><PrefiledDate>Prefiled 01/05/18.</PrefiledDate><ReadDate>Read first time 01/08/18.</ReadDate><ReferredCommittee>Referred to Committee on Energy, Environment &amp; Technology.</ReferredCommittee></BillHistory><BriefDescription>Defending scientific information and research.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to defending scientific information and research; adding a new section to chapter 18.235 RCW; adding a new section to chapter 43.21A RCW; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature finds and declares the following:</P></BillSectionHeader>
+<P>(1) Current law does not provide adequate guidance and clarity for persons employed by, or representing, governmental organizations to determine the circumstances under which they may properly seek to protect the public interest by reporting improper governmental activity to appropriate enforcement, regulatory, or oversight bodies.</P>
+<P>(2) There are new efforts underway to limit the freedom of scientists and other professionals working for the federal government to report improper government activity, as well as to restrict or prohibit their freedom to publish scientific information and to freely associate with other parties.</P>
+<P>(3) The purposes of sections 2 and 3 of this act are, to the maximum extent feasible under state law, to ensure that scientists and other professionals working for the federal government may report improper governmental activity and to continue to make scientific and other information open to the public without fear of losing their professional licenses or credentials.</P>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>18</TitleNumber><TextRun>.</TextRun><ChapterNumber>235</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) The definitions in this subsection apply throughout this section unless the context clearly requires otherwise:</P>
+<P>(a) "Employee" means a person on the payroll of any federal agency, the state, its subdivisions, special districts, the governing boards of the state universities, the regional universities, The Evergreen State College, and the community and technical colleges, or any other tax-financed entity who works in environmental sciences or fields related to climate change.</P>
+<P>(b) "Improper governmental activity" means conduct by a governmental organization or by its agent that meets one or more of the following actions:</P>
+<P>(i) It constitutes the use of the organization's official authority or influence by the agent to commit a crime, fraud, or other serious and willful violation of law;</P>
+<P>(ii) It involves the agent's willful misuse of public funds, willful breach of fiduciary duty, or willful or corrupt misconduct in office; or</P>
+<P>(iii) It involves the agent's willful omission to perform his or her official duty.</P>
+<P>(c) "Scientific or technical research" means the results of scientific activities related to environmental sciences or climate change including, but not limited to, the analysis, synthesis, compilation, or translation of scientific information and data into formats used in official decision-making processes or publications.</P>
+<P>(2) A licensing entity may not take disciplinary action, including disbarment, suspension, loss of credential, registration, or other professional privilege, against a public employee or employee of a governmental contractor, subcontractor, or grantee in connection with actions taken by that person to:</P>
+<P>(a) Report improper governmental activity, provided that the person takes one of the following actions:</P>
+<P>(i) Urges reconsideration of the matter while explaining its likely consequences to the organization;</P>
+<P>(ii) Refers the matter to a higher authority in the organization, including, if warranted by the seriousness of the matter, referral to the highest internal authority that can act on behalf of the organization; or</P>
+<P>(iii) Refers the matter to the law enforcement agency charged with responsibility over the matter or to any other governmental agency or official charged with overseeing or regulating the matter if all of the following have occurred:</P>
+<P>(A) The person has taken both actions described in (a)(i) and (ii) of this subsection without the matter being resolved;</P>
+<P>(B) The person reasonably believes that the highest internal authority that can act on behalf of the organization has already, directly or indirectly, participated in the improper governmental activity;</P>
+<P>(C) The referral is warranted by the seriousness of the circumstances and is not otherwise prohibited by law; and</P>
+<P>(D) Further action is required in order to prevent or rectify substantial harm to public health, safety, the environment, or the public interest or to the governmental organization resulting from the improper governmental activity; or</P>
+<P>(b) Communicate the results of or information about scientific or technical research in a scientific or a public forum or with the media.</P>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>21A</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>The director shall ensure that all scientific information and other data relating to environmental quality and climate change that is otherwise in the public domain is protected against censorship or destruction by the federal government.</P>
+</BillSection>
+</BillBody>
+</Bill>

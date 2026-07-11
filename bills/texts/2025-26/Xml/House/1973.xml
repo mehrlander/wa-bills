@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-1185.2</RequestNumber><ShortBillId>HB 1973</ShortBillId><LongBillId>HOUSE BILL 1973</LongBillId><Legislature>69th Legislature</Legislature><Session>2025 Regular Session</Session><Sponsors>Representative Donaghy</Sponsors><BillHistory><ReadDate>Read first time 02/13/25.</ReadDate><ReferredCommittee>Referred to Committee on Appropriations.</ReferredCommittee></BillHistory><BriefDescription>Concerning professional license accounts and fees.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to professional license accounts and fees; adding a new section to chapter 43.24 RCW; adding a new section to chapter 18.140 RCW; and declaring an emergency.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>24</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>The department shall have up to three biennia to balance professional license accounts if, due to an error by the department, an increase in licensing fees of more than 33 percent would be required to balance a professional licensing account within the current biennium.</P>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>18</TitleNumber><TextRun>.</TextRun><ChapterNumber>140</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) Within 60 days of the effective date of this section, the department shall examine its records to identify every individual who was required to pay a fee in excess of a 33 percent increase to the department that was imposed to balance the real estate appraiser commission account due to an error by the department within the last 12 months.</P>
+<P>(2) The department shall issue a one-time refund of the excess fee to every individual identified pursuant to subsection (1) of this section within 30 days.</P>
+</BillSection>
+<BillSection type="new" action="emerg" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act is necessary for the immediate preservation of the public peace, health, or safety, or support of the state government and its existing public institutions, and takes effect immediately.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

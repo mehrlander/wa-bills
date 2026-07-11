@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>Z-0747.1</RequestNumber><ShortBillId>HB 2271</ShortBillId><LongBillId>HOUSE BILL 2271</LongBillId><Legislature>66th Legislature</Legislature><Session>2020 Regular Session</Session><Sponsors>Representatives Duerr and Rude; by request of State Treasurer</Sponsors><BillHistory><PrefiledDate>Prefiled 12/23/19.</PrefiledDate><ReadDate>Read first time 01/13/20.</ReadDate><ReferredCommittee>Referred to Committee on Transportation.</ReferredCommittee></BillHistory><BriefDescription>Correcting a reference to an omnibus transportation appropriations act within a prior authorization of general obligation bonds for transportation funding.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to correcting a reference to an omnibus transportation appropriations act within a prior authorization of general obligation bonds for transportation funding; and amending RCW 47.10.873.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>47</TitleNumber><TextRun>.</TextRun><ChapterNumber>10</ChapterNumber><TextRun>.</TextRun><SectionNumber>873</SectionNumber></SectionCite> and 2007 c 519 s 4 are each amended to read as follows:<Caption>Bond issue authorized.</Caption></BillSectionHeader>
+<P>In order to provide funds necessary for the location, design, right-of-way, and construction of selected projects or improvements that are identified as 2005 transportation partnership projects or improvements in <TextRun amendingStyle="strike">the</TextRun> <TextRun amendingStyle="add">an</TextRun> omnibus transportation <TextRun amendingStyle="strike">budget chapter 313, Laws of 2005</TextRun> <TextRun amendingStyle="add">appropriations act</TextRun>, there shall be issued and sold upon the request of the department of transportation a total of five billion three hundred million dollars of general obligation bonds of the state of Washington.</P>
+<History>2007 c 519 § 4; 2005 c 315 § 1.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2005 c 315:</TextRun> "This act is necessary for the immediate preservation of the public peace, health, or safety, or support of the state government and its existing public institutions, and takes effect July 1, 2005." [2005 c 315 § 8.]</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+</BillBody>
+</Bill>

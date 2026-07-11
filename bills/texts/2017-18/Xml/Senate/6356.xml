@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-3363.1</RequestNumber><ShortBillId>SB 6356</ShortBillId><LongBillId>SENATE BILL 6356</LongBillId><Legislature>65th Legislature</Legislature><Session>2018 Regular Session</Session><Sponsors>Senators Rolfes and Honeyford</Sponsors><BillHistory><ReadDate>Read first time 01/12/18.</ReadDate><ReferredCommittee>Referred to Committee on Law &amp; Justice.</ReferredCommittee></BillHistory><BriefDescription>Prohibiting the operation of unmanned aircraft over certain facilities.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to prohibiting the operation of unmanned aircraft over certain facilities; adding a new section to chapter 9A.76 RCW; and prescribing penalties.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>9A</TitleNumber><TextRun>.</TextRun><ChapterNumber>76</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) For purposes of this section, "critical infrastructure facility" means a military installation under the jurisdiction of the United States department of defense.</P>
+<P>(2) A person is guilty of the prohibited operation of an unmanned aircraft if the person intentionally or knowingly:</P>
+<P>(a) Operates an unmanned aircraft over a critical infrastructure facility and the unmanned aircraft is less than four hundred feet above ground level;</P>
+<P>(b) Allows an unmanned aircraft to make contact with a critical infrastructure facility, including any person or object on the premises of or within the facility; or</P>
+<P>(c) Allows an unmanned aircraft to come within a distance of a critical infrastructure facility that is close enough to interfere with the operations of or cause a disturbance to the facility.</P>
+<P>(3) This section does not apply to conduct described in subsection (2) of this section that is committed by:</P>
+<P>(a) The federal government, the state of Washington, or any authorized governmental entity;</P>
+<P>(b) A law enforcement agency;</P>
+<P>(c) An owner or operator of a critical infrastructure facility;</P>
+<P>(d) Any person or entity under contract with or otherwise acting under the direction of an entity described in (a) through (c) of this subsection;</P>
+<P>(e) The owner or occupant of the property on which the critical infrastructure facility is located and any other person or entity who has prior written consent of the owner or operator of the critical infrastructure facility; or</P>
+<P>(f) An operator of an unmanned aircraft that is being used for a commercial purpose, if the operator is authorized by the federal aviation administration to conduct operations over that airspace.</P>
+<P>(4) The prohibited operation of an unmanned aircraft in violation of this section is a misdemeanor, except that the violation is a gross misdemeanor if the person has previously been convicted under this section.</P>
+</BillSection>
+</BillBody>
+</Bill>

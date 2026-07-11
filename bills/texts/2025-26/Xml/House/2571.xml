@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-2945.2</RequestNumber><ShortBillId>HB 2571</ShortBillId><LongBillId>HOUSE BILL 2571</LongBillId><Legislature>69th Legislature</Legislature><Session>2026 Regular Session</Session><Sponsors>Representatives Zahn, Thai, and Reed</Sponsors><BillHistory><ReadDate>Read first time 01/19/26.</ReadDate><ReferredCommittee>Referred to Committee on Civil Rights &amp; Judiciary.</ReferredCommittee></BillHistory><BriefDescription>Concerning evidence of medical, hospital, or similar expenses occasioned by an injury.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to evidence of medical, hospital, or similar expenses occasioned by an injury; and adding a new chapter to Title 5 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) In any civil action against a local government for personal injuries, or in any arbitration or mediation proceeding related to such civil action, evidence of the amount billed for medical, hospital, or similar expenses occasioned by an injury is not admissible to establish the plaintiff's damages, but the plaintiff's damages may be established by evidence of the amount actually paid for medical, hospital, or similar expenses occasioned by an injury.</P></BillSectionHeader>
+<P>(2) For the purpose of this section, "local government" means any city, town, county, special district, municipal corporation, or quasi-municipal corporation. "Special district" means a local unit of government, other than a city, town, or county, authorized by law to perform a single function or a limited number of functions and including, but not limited to, water-sewer districts, irrigation districts, fire districts, school districts, community college districts, hospital districts, transportation districts, and metropolitan municipal corporations organized under chapter 35.58 RCW.</P>
+</BillSection>
+<BillSection type="new" action="addchap" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>Section 1 of this act constitutes a new chapter in <TitleCite><TextRun>Title </TextRun><TitleNumber>5</TitleNumber><TextRun> RCW</TextRun></TitleCite>.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

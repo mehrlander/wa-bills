@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-1941.1</RequestNumber><ShortBillId>2SSB 5355</ShortBillId><LongBillId>SECOND SUBSTITUTE SENATE BILL 5355</LongBillId><Legislature>69th Legislature</Legislature><Session>2025 Regular Session</Session><Sponsors>Senate Ways &amp; Means (originally sponsored by Senators Orwall, Slatter, Dhingra, Hasegawa, Nobles, Stanford, Trudeau, Valdez, and C. Wilson)</Sponsors><BillHistory><ReadDate>READ FIRST TIME 02/28/25.</ReadDate></BillHistory><BriefDescription>Improving safety at institutions of higher education while supporting student survivors of sexual assault.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to improving safety at institutions of higher education while supporting student survivors of sexual assault; amending RCW 28B.10.735; and adding a new section to chapter 28B.112 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>28B</TitleNumber><TextRun>.</TextRun><ChapterNumber>112</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>Postsecondary educational institutions may not propose, request, or pressure a student reporting sexual misconduct in a complaint filed with the institution under Title IX or otherwise, with law enforcement, or in a civil court action to enter into a nondisclosure agreement relating to the alleged sexual misconduct by another student or employee of the institution.</P>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>28B</TitleNumber><TextRun>.</TextRun><ChapterNumber>10</ChapterNumber><TextRun>.</TextRun><SectionNumber>735</SectionNumber></SectionCite> and 2020 c 39 s 3 are each amended to read as follows:<Caption>Suicide prevention<TextRun fontFamily="Times New Roman">—</TextRun>Identification cards.</Caption></BillSectionHeader>
+<P>(1) Within existing resources, <TextRun amendingStyle="strike">every institution of higher education as defined in RCW 28B.10.016 that issues</TextRun> student identification cards, faculty or staff identification cards, or both, must have printed on either side of the identification cards:</P>
+<P>(a) The contact information for a national suicide prevention organization; <TextRun amendingStyle="strike">and</TextRun></P>
+<P>(b) The contact information for one or more campus, local, state, or national organizations specializing in suicide prevention, crisis intervention, or counseling, if available<TextRun amendingStyle="add">; and</TextRun></P>
+<P><TextRun amendingStyle="add">(c) The phone number of a regional community-based organization focused on survivors of sexual assault, sexual harassment, and sex-based and gender-based violence that provides 24/7 support</TextRun>.</P>
+<P>(2)<TextRun amendingStyle="add">(a)</TextRun> The requirements in subsection (1)<TextRun amendingStyle="add">(a) and (b)</TextRun> of this section apply to student identification cards and faculty or staff identification cards issued for the first time and issued to replace a damaged or lost identification card <TextRun amendingStyle="add">at an institution of higher education as defined in RCW 28B.10.016.</TextRun></P>
+<P><TextRun amendingStyle="add">(b) The requirements in subsection (1)(c) of this section apply to student identification cards issued for the first time and issued to replace a damaged or lost identification card at a state university, regional university, and the state college, as defined in RCW 28B.10.016</TextRun>.</P>
+<History>2020 c 39 s 3.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Finding<TextRun fontFamily="Times New Roman">—</TextRun>Intent<TextRun fontFamily="Times New Roman">—</TextRun>2020 c 39:</TextRun> See note following RCW 28A.210.400.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+</BillBody>
+</Bill>

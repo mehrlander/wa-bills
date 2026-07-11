@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-1169.1</RequestNumber><ShortBillId>HB 1730</ShortBillId><LongBillId>HOUSE BILL 1730</LongBillId><Legislature>66th Legislature</Legislature><Session>2019 Regular Session</Session><Sponsors>Representatives Walen, Frame, Jinkins, Macri, and Ormsby</Sponsors><BillHistory><ReadDate>Read first time 01/29/19.</ReadDate><ReferredCommittee>Referred to Committee on Civil Rights &amp; Judiciary.</ReferredCommittee></BillHistory><BriefDescription>Concerning the effect of payment or acknowledgment made after the expiration of a limitations period.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to the effect of payment or acknowledgment made after the expiration of a limitations period; and amending RCW 4.16.270 and 4.16.280.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>4</TitleNumber><TextRun>.</TextRun><ChapterNumber>16</ChapterNumber><TextRun>.</TextRun><SectionNumber>270</SectionNumber></SectionCite> and Code 1881 s 45 are each amended to read as follows:<Caption>Effect of partial payment.</Caption></BillSectionHeader>
+<P>When any payment of principal or interest has been or shall be made upon any existing contract, whether it be a bill of exchange, promissory note, bond or other evidence of indebtedness, if such payment be made after the same shall have become due, the limitation shall commence from the time the last payment was made. <TextRun amendingStyle="add">Any payment of principal or interest made after the limitations period has expired shall not revive or extend the limitations period.</TextRun></P>
+<History>Code 1881 § 45; 1877 p 10 § 46; 1854 p 365 § 19; RRS § 177.</History>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>4</TitleNumber><TextRun>.</TextRun><ChapterNumber>16</ChapterNumber><TextRun>.</TextRun><SectionNumber>280</SectionNumber></SectionCite> and Code 1881 s 44 are each amended to read as follows:<Caption>New promise must be in writing.</Caption></BillSectionHeader>
+<P>No acknowledgment or promise shall be sufficient evidence of a new or continuing contract whereby to take the case out of the operation of this chapter, unless it is contained in some writing signed by the party to be charged thereby; <TextRun amendingStyle="strike">but</TextRun> <TextRun amendingStyle="add">except, an acknowledgment or promise made after the limitations period has expired shall not revive or extend the limitations period. T</TextRun>his section shall not alter the effect of any payment of principal or interest.</P>
+<History>Code 1881 § 44; 1877 p 10 § 45; 1854 p 365 § 18; RRS § 176.</History>
+</BillSection>
+</BillBody>
+</Bill>

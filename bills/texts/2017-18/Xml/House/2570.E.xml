@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><ShortBillId>EHB 2570</ShortBillId><LongBillId>ENGROSSED HOUSE BILL 2570</LongBillId><Legislature>65th Legislature</Legislature><Session>2018 Regular Session</Session><Sponsors>Representatives Stambaugh, Robinson, Jinkins, Wylie, Muri, Graves, Doglio, Fitzgibbon, Pollet, Hayes, Riccelli, and Stonier</Sponsors><BillHistory><ReadDate>Read first time 01/10/18.</ReadDate><ReferredCommittee>Referred to Committee on Health Care &amp; Wellness.</ReferredCommittee></BillHistory><BriefDescription>Concerning a database of pharmacies offering vaccines and self-administered hormonal contraceptives through collaborative drug therapy agreements.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to a database of pharmacies offering vaccines and self-administered hormonal contraceptives through collaborative drug therapy agreements; adding a new section to chapter 43.70 RCW; and adding a new section to chapter 18.64 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>70</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) By July 1, 2020, the department shall establish, in consultation with pharmacists and pharmacies, a searchable database available on its web site of pharmacies that have one or more pharmacists on staff with collaborative drug therapy agreements to prescribe vaccines or self-administered hormonal contraceptives. The database must include:</P>
+<P>(a) The name and location of every pharmacy in the state with one or more pharmacists on staff that through a collaborative drug agreement prescribe:</P>
+<P>(i) Vaccines; or</P>
+<P>(ii) Self-administered hormonal contraceptives;</P>
+<P>(b) A listing, by pharmacy, of the general categories and types of vaccines and self-administered hormonal contraceptives, as determined by the pharmacy quality assurance commission, that one or more pharmacists on staff at each pharmacy in (a) of this subsection are authorized to prescribe under a collaborative drug therapy agreement; and</P>
+<P>(c) A statement that the names and locations provided are provided for information only and are subject to change.</P>
+<P>(2) The searchable database must allow users to search by zip code and include a map function displaying the closest locations to the user based on zip code. </P>
+<P>(3) The department shall update the database quarterly.</P>
+<P>(4) If the department determines that a statewide association of pharmacists or pharmacies provides a publicly available database substantially similar to the requirement of this section, the department is no longer required to establish or operate the database required under subsection (1) of this section.</P>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>18</TitleNumber><TextRun>.</TextRun><ChapterNumber>64</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) Except as provided in subsection (2) of this section, beginning April 1, 2020, any pharmacy in the state with one or more pharmacists on staff that prescribe vaccines or self-administered hormonal contraceptives through a collaborative drug therapy agreement shall provide the department with the information required by section 1 of this act, as requested by the department and in a format identified by the department.</P>
+<P>(2) This section does not apply, if the department determines that there is a substantially similar database and forgoes establishing or operating the database as provided by section 1 of this act.</P>
+</BillSection>
+</BillBody>
+</Bill>

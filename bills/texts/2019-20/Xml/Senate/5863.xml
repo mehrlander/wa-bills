@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-1412.1</RequestNumber><ShortBillId>SB 5863</ShortBillId><LongBillId>SENATE BILL 5863</LongBillId><Legislature>66th Legislature</Legislature><Session>2019 Regular Session</Session><Sponsors>Senators Van De Wege and Holy</Sponsors><BillHistory /><BriefDescription>Creating transient accommodation short-term agreement standards.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to creating transient accommodation short-term agreement standards; amending RCW 70.62.210; and adding a new section to chapter 70.62 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>70</TitleNumber><TextRun>.</TextRun><ChapterNumber>62</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) A person operating a transient accommodation as defined in this chapter must include, at minimum, the following information in a short-term agreement for rental of a lodging unit entered into on or after the effective date of this section:</P>
+<P>(a) The price per night;</P>
+<P>(b) The duration of the short-term rental period;</P>
+<P>(c) The full name of the parties to the agreement, including the full name of the guest and the person operating the transient accommodation; and</P>
+<P>(d) The notice language provided in subsection (2) of this section.</P>
+<P>(2) A short-term agreement for rental of a lodging unit entered into on or after the effective date of this section must include the following language:</P>
+<P>NOTICE: Information about specified registered sex offenders is made available to the public via a web site maintained by the Washington Association of Sheriffs and Police Chiefs at www.waspc.org/sex-offender-information. Depending on an offender's criminal history, this information includes either the address at which the offender resides, or the community of residence and ZIP Code in which he or she resides. This notice is provided in accordance with RCW 70.62.--- (this section).</P>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>70</TitleNumber><TextRun>.</TextRun><ChapterNumber>62</ChapterNumber><TextRun>.</TextRun><SectionNumber>210</SectionNumber></SectionCite> and 1991 c 3 s 347 are each amended to read as follows:<Caption>Definitions.</Caption></BillSectionHeader>
+<P><TextRun amendingStyle="strikemarkleft">The following terms whenever used or referred to in this chapter shall have the following respective meanings for the purposes of this chapter, except in those instances where the context clearly indicates otherwise:</TextRun></P>
+<P><TextRun amendingStyle="strikemarknone">(1) The term "transient accommodation" shall mean any facility such as a hotel, motel, condominium, resort, or any other facility or place offering three or more lodging units to travelers and transient guests.</TextRun></P>
+<P><TextRun amendingStyle="strikemarknone">(2) The term "person" shall mean any individual, firm, partnership, corporation, company, association or joint stock association, and the legal successor thereof.</TextRun></P>
+<P><TextRun amendingStyle="strikemarknone">(3) The term "secretary" shall mean the secretary of the Washington state department of health and any duly authorized representative thereof.</TextRun></P>
+<P><TextRun amendingStyle="strikemarknone">(4) The term "board" shall mean the Washington state board of health.</TextRun></P>
+<P><TextRun amendingStyle="strikemarknone">(5) The term "department" shall mean the Washington state department of health.</TextRun></P>
+<P><TextRun amendingStyle="strikemarkright">(6) The term "lodging unit" shall mean one self-contained unit designated by number, letter or some other method of identification.</TextRun> <TextRun amendingStyle="add">The definitions in this section apply throughout this chapter unless the context clearly requires otherwise.</TextRun></P>
+<P><TextRun amendingStyle="add">(1) "Board" means the Washington state board of health.</TextRun></P>
+<P><TextRun amendingStyle="add">(2) "Department" mean the Washington state department of health.</TextRun></P>
+<P><TextRun amendingStyle="add">(3) "Lodging unit" means one self-contained unit within a transient accommodation designated by number, letter, name, or some other method of identification.</TextRun></P>
+<P><TextRun amendingStyle="add">(4) "Person" means any individual, firm, partnership, corporation, company, limited liability company,<TextRun fontWeight="bold" /> association, or joint stock association, and the legal successor thereof.</TextRun></P>
+<P><TextRun amendingStyle="add">(5) "Secretary" means the secretary of the Washington state department of health and any duly authorized representative thereof.</TextRun></P>
+<P><TextRun amendingStyle="add">(6) "Short-term agreement" means an agreement for the short-term rental of a lodging unit that (a) meets the requirements of section 1 of this act, and (b) is signed by the parties to the agreement, including the guest and the person operating the transient accommodation or the person's agent or designee.</TextRun></P>
+<P><TextRun amendingStyle="add">(7) "Transient accommodation" means any facility such as a hotel, motel, condominium, resort, or any other facility or place offering one or more lodging units to travelers and transient guests.</TextRun></P>
+<History>1991 c 3 § 347; 1971 ex.s. c 239 § 2.</History>
+</BillSection>
+</BillBody>
+</Bill>

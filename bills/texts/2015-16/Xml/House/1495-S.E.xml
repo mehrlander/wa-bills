@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><ShortBillId>ESHB 1495</ShortBillId><LongBillId>ENGROSSED SUBSTITUTE HOUSE BILL 1495</LongBillId><Legislature>64th Legislature</Legislature><Session>2015 Regular Session</Session><Sponsors>House Education (originally sponsored by Representatives Reykdal, Magendanz, Springer, S. Hunt, Pollet, and Stanford)</Sponsors><BillHistory><ReadDate>READ FIRST TIME 02/20/15.</ReadDate></BillHistory><BriefDescription>Enacting the student user privacy in education rights act.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to the student user privacy in education rights act; adding a new chapter to Title 28A RCW; and providing an effective date.</BillTitle>
+<EnactedClause />
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>SHORT TITLE.</SectionCaption><P>This act may be known and cited as the student user privacy in education rights act or SUPER act.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>DEFINITIONS.</SectionCaption><P>The definitions in this section apply throughout this chapter unless the context clearly requires otherwise.</P></BillSectionHeader>
+<P>(1) "School service" means a web site, mobile application, or online service that: (a) Is designed and marketed primarily for use in a K-12 school; (b) is used at the direction of teachers or other employees of a K-12 school; and (c) collects, maintains, or uses student personal information. A "school service" does not include a web site, mobile application, or online service that is designed and marketed for use by individuals or entities generally, even if also marketed to a United States K-12 school.</P>
+<P>(2) "School service provider" means an entity that operates a school service to the extent it is operating in that capacity.</P>
+<P>(3) "Student personal information" means information collected through a school service that personally identifies an individual student or other information collected and maintained about an individual student that is linked to information that identifies an individual student.</P>
+<P>(4) "Students" means students of K-12 schools in Washington state.</P>
+<P>(5) "Targeted advertising" means sending advertisements to a student where the advertisement is selected based on information obtained or inferred from that student's online behavior, usage of applications, or student personal information. It does not include (a) advertising to a student at an online location based upon that student's current visit to that location without the collection and retention of a student's online activities over time or (b) adaptive learning, personalized learning, or customized education.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>OBLIGATIONS OF SCHOOL SERVICE PROVIDERS<TextRun fontFamily="Times New Roman">—</TextRun>TRANSPARENCY.</SectionCaption><P>(1) School service providers shall provide clear and easy to understand information about the types of student personal information they collect and about how they use and share the student personal information.</P></BillSectionHeader>
+<P>(2) School service providers shall provide prominent notice before making material changes to their privacy policies for school services.</P>
+<P>(3) School service providers shall facilitate access to and correction of student personal information by students or their parent or guardian either directly or through the relevant educational institution or teacher.</P>
+<P>(4) Where the school service is offered to an educational institution or teacher, information required by subsections (1) and (2) of this section may be provided to the educational institution or teacher.</P>
+<P>(5) The provisions of this section do not apply to the education data center established under RCW 43.41.400, but do apply to any subcontractors of the education data center.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>OBLIGATIONS OF SCHOOL SERVICE PROVIDERS—CHOICE AND CONTROL.</SectionCaption><P>(1) School service providers may collect, use, and share student personal information only for purposes authorized by the relevant educational institution or teacher, or with the consent of the student or the student's parent or guardian.</P></BillSectionHeader>
+<P>(2) School service providers may not sell student personal information. This prohibition does not apply to the purchase, merger, or other type of acquisition of a school service provider, or any assets of a school service provider by another entity, as long as the successor entity continues to be subject to the provisions of this section with respect to previously acquired student personal information to the extent that the school service provider was regulated by this chapter with regard to its acquisition of student personal information.</P>
+<P>(3) School service providers may not use or share any student personal information for purposes of targeted advertising to students. </P>
+<P>(4) School service providers may not use student personal information to create a personal profile of a student other than for supporting purposes authorized by the relevant educational institution or teacher, or with the consent of the student or the student's parent or guardian.</P>
+<P>(5) School service providers must obtain consent before using student personal information in a manner that is materially inconsistent with the school service provider's privacy policy or school contract for the applicable school service in effect at the time of collection.</P>
+<P>(6) The provisions of subsections (1), (2), (4), and (5) of this section may not apply to the use or disclosure of personal information by a school service provider to:</P>
+<P>(a) Protect the security or integrity of its web site, mobile application, or online service;</P>
+<P>(b) Ensure legal or regulatory compliance or to take precautions against liability;</P>
+<P>(c) Respond to or participate in judicial process;</P>
+<P>(d) Protect the safety of users or others on the web site, mobile application, or online service;</P>
+<P>(e) Investigate a matter related to public safety; or</P>
+<P>(f) A subcontractor, if the school service provider: (i) Contractually prohibits the subcontractor from using any student personal information for any purpose other than providing the contracted service to, or on behalf of, the school service provider; (ii) prohibits the subcontractor from disclosing any student personal information provided by the school service provider to subsequent third parties unless the disclosure is expressly permitted by (a) through (e) of this subsection or by sections 6 and 7 of this act; and (iii) requires the subcontractor to comply with the requirements of this chapter.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>5</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>OBLIGATIONS OF SCHOOL SERVICE PROVIDERS<TextRun fontFamily="Times New Roman">—</TextRun>SAFEGUARDS.</SectionCaption><P>(1) School service providers must maintain a comprehensive information security program that is reasonably designed to protect the security, privacy, confidentiality, and integrity of student personal information. The information security program should make use of appropriate administrative, technological, and physical safeguards.</P></BillSectionHeader>
+<P>(2) School service providers must delete student personal information within a reasonable period of time if the relevant educational institution requests deletion of the data under the control of the educational institution unless:</P>
+<P>(a) The school service provider has obtained student consent or the consent of the student's parent or guardian to retain information related to that student; or</P>
+<P>(b) The student has transferred to another educational institution and that educational institution has requested that the school service provider retain information related to that student.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>6</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>ADAPTIVE LEARNING AND CUSTOMIZED EDUCATION.</SectionCaption><P>Notwithstanding sections 2 through 7 of this act, nothing in this chapter is intended to prohibit the use of student personal information for purposes of:</P></BillSectionHeader>
+<P>(1) Adaptive learning or personalized or customized education;</P>
+<P>(2) Maintaining, developing, supporting, improving, or diagnosing the school service provider's web site, mobile application, online service, or application;</P>
+<P>(3) Providing recommendations for school, educational, or employment purposes within a school service without the response being determined in whole or in part by payment or other consideration from a third party; or</P>
+<P>(4) Responding to a student's request for information or for feedback without the information or response being determined in whole or in part by payment or other consideration from a third party.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>7</Value><TextRun>.  </TextRun></BillSectionNumber><P>This chapter adopts and does not modify existing law regarding consent, including consent from minors and employees on behalf of educational institutions.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>8</Value><TextRun>.  </TextRun></BillSectionNumber><P>This chapter shall not be construed to:</P></BillSectionHeader>
+<P>(1) Impose a duty upon a provider of an interactive computer service, as defined in 47 U.S.C. Sec. 230, to review or enforce compliance with this section by third-party content providers;</P>
+<P>(2) Apply to general audience internet web sites, general audience mobile applications, or general audience online services even if login credentials created for a school service provider's web site, mobile application, or online service may be used to access those general audience web sites, mobile applications, or online services;</P>
+<P>(3) Impede the ability of students to download, export, or otherwise save or maintain their own student data or documents;</P>
+<P>(4) Limit internet service providers from providing internet connectivity to schools or students and their families;</P>
+<P>(5) Prohibit a school service provider from marketing educational products directly to parents so long as the marketing did not result from use of student personal information obtained by the school service provider through the provision of its web site, mobile application, or online service; or</P>
+<P>(6) Impose a duty on a school service provider of an electronic store, gateway, marketplace, or other means of purchasing or downloading software or applications to review or enforce compliance with this chapter on those applications or software.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>9</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>TRANSITIONAL PROVISIONS.</SectionCaption><P>If a school service provider entered into a signed, written contract with an educational institution or teacher before the effective date of this section, the school service provider is not liable for the requirements of sections 2 through 6 of this act with respect to that contract until the next renewal date of the contract.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addmultisect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>10</Value><TextRun>.  </TextRun></BillSectionNumber><P>Sections 1 through 9 and 11 of this act constitute a new chapter in Title 28A RCW.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="effdate">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>11</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>EFFECTIVE DATE.</SectionCaption><P>This act takes effect July 1, 2016.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

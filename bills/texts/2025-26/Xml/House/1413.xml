@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-0635.1</RequestNumber><ShortBillId>HB 1413</ShortBillId><LongBillId>HOUSE BILL 1413</LongBillId><Legislature>69th Legislature</Legislature><Session>2025 Regular Session</Session><Sponsors>Representative Reeves</Sponsors><BillHistory><ReadDate>Read first time 01/20/25.</ReadDate><ReferredCommittee>Referred to Committee on Health Care &amp; Wellness.</ReferredCommittee></BillHistory><BriefDescription>Prohibiting government purchases of opioid overdose reversal medications from certain entities.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to prohibiting government purchases of opioid overdose reversal medications from certain entities; adding a new section to chapter 70.14 RCW; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature finds that certain corporations have been parties to settlements with state governments over claims of having participated in causing or fueling the opioid epidemic. Some of these same corporations are now selling opioid overdose reversal medications to states. Whereas qualified and capable pharmaceutical distributors exist that have not been a party to these settlements, the state finds it critical to purchase opioid overdose reversal medications from one or more of these distributors that have not been found to have caused or fueled the opioid epidemic.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>70</TitleNumber><TextRun>.</TextRun><ChapterNumber>14</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) Except as provided in subsection (2) of this section, a state agency, county, city, or town may not purchase an opioid overdose reversal medication from an entity, including the entity's affiliates or subsidiaries, which at the time of purchase, has been a party to a settlement with any state government over claims of having participated in causing or fueling the opioid epidemic.</P>
+<P>(2) An entity that has agreed to provide opioid overdose reversal medications as part of a state settlement prior to September 1, 2024, may continue to provide these medications until existing settlement obligations are fulfilled.</P>
+<P>(3) The department of health shall maintain a list on a public website of the entities from which a state agency, county, city, or town may not purchase opioid overdose reversal medications, as described in subsection (1) of this section.</P>
+<P>(4) "Opioid overdose reversal medication" has the same meaning as provided in RCW 69.41.095.</P>
+</BillSection>
+</BillBody>
+</Bill>

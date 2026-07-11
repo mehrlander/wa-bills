@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-1253.1</RequestNumber><ShortBillId>SSB 5179</ShortBillId><LongBillId>SUBSTITUTE SENATE BILL 5179</LongBillId><Legislature>65th Legislature</Legislature><Session>2017 Regular Session</Session><Sponsors>Senate Health Care (originally sponsored by Senators Bailey, Keiser, Palumbo, Hasegawa, and Conway)</Sponsors><BillHistory><ReadDate>READ FIRST TIME 02/03/17.</ReadDate></BillHistory><BriefDescription>Requiring coverage for hearing instruments under public employee and medicaid programs.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to requiring coverage for hearing instruments under public employee and medicaid programs; adding a new section to chapter 41.05 RCW; and adding a new section to chapter 74.09 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>41</TitleNumber><TextRun>.</TextRun><ChapterNumber>05</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) A health plan offered to employees and their covered dependents under this chapter issued or renewed on or after January 1, 2018, must include coverage for hearing instruments when medically necessary. Coverage must include a new hearing instrument every five years, a new hearing instrument when alterations to the existing hearing instrument cannot meet the needs of the patient, and services and supplies such as the initial assessment, fitting, adjustment, and auditory training.</P>
+<P>(2) The hearing instrument must be recommended by a licensed audiologist or hearing aid specialist and dispensed by a licensed audiologist or hearing aid specialist.</P>
+<P>(3) For the purposes of this section, "hearing instrument" and "hearing aid specialist" have the same meaning as defined in RCW 18.35.010.</P>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>74</TitleNumber><TextRun>.</TextRun><ChapterNumber>09</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) The medical assistance coverage offered under this chapter issued or renewed on or after January 1, 2018, must include coverage for hearing instruments when medically necessary. Coverage must include a new hearing instrument every five years, a new hearing instrument when alterations to the existing hearing instrument cannot meet the needs of the patient, and services and supplies such as the initial assessment, fitting, adjustment, and auditory training.</P>
+<P>(2) The hearing instrument must be recommended by a licensed audiologist or hearing aid specialist and dispensed by a licensed audiologist or hearing aid specialist.</P>
+<P>(3) For purposes of this section, "hearing instrument" and "hearing aid specialist" have the same meaning as defined in RCW 18.35.010.</P>
+</BillSection>
+</BillBody>
+</Bill>

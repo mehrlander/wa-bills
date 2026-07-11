@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-0378.1</RequestNumber><ShortBillId>SB 5116</ShortBillId><LongBillId>SENATE BILL 5116</LongBillId><Legislature>69th Legislature</Legislature><Session>2025 Regular Session</Session><Sponsors>Senators Christian, Riccelli, Frame, Krishnadasan, Lovick, Nobles, Shewmake, and J. Wilson</Sponsors><BillHistory><PrefiledDate>Prefiled 12/24/24.</PrefiledDate><ReadDate>Read first time 01/13/25.</ReadDate><ReferredCommittee>Referred to Committee on Law &amp; Justice.</ReferredCommittee></BillHistory><BriefDescription>Concerning the immediate use of marriage licenses for medical necessity.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to the immediate use of marriage licenses for medical necessity; amending RCW 26.04.180; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>26</TitleNumber><TextRun>.</TextRun><ChapterNumber>04</ChapterNumber><TextRun>.</TextRun><SectionNumber>180</SectionNumber></SectionCite> and 1985 c 82 s 4 are each amended to read as follows:<Caption>License<TextRun fontFamily="Times New Roman">—</TextRun>Time limitations as to issuance and use<TextRun fontFamily="Times New Roman">—</TextRun>Notification.</Caption></BillSectionHeader>
+<P><TextRun amendingStyle="add">(1)</TextRun> The county auditor may issue the marriage license at the time of application, but shall issue such license no later than the third full day following the date of the application. A marriage license issued pursuant to the provisions of this chapter may not be used until three days after the date of application and shall become void if the marriage is not solemnized within <TextRun amendingStyle="strike">sixty</TextRun> <TextRun amendingStyle="add">60</TextRun> days of the date of the issuance of the license, and the county auditor shall notify the applicant in writing of this requirement at the time of issuance of the license.</P>
+<P><TextRun amendingStyle="add">(2) The county auditor shall issue the marriage license at the time of application, and such license may be used immediately, in the event that a written statement from a physician licensed to practice medicine in the state is first provided to the county auditor, which states that one or both of the applicants is at risk of imminent death or incapacity.</TextRun></P>
+<History>1985 c 82 s 4; 1979 ex.s. c 128 s 1; 1963 c 230 s 3; 1953 c 107 s 1. Prior: 1943 c 250 s 1; 1939 c 204 s 6; Rem. Supp. 1943 s 8450-5.</History>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act may be known and cited as the medical emergency marriage act.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

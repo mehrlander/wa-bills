@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-3877.1</RequestNumber><ShortBillId>SSB 5787</ShortBillId><LongBillId>SUBSTITUTE SENATE BILL 5787</LongBillId><Legislature>68th Legislature</Legislature><Session>2024 Regular Session</Session><Sponsors>Senate Law &amp; Justice (originally sponsored by Senators Pedersen, Padden, Mullet, Nobles, and Salomon; by request of Uniform Law Commission)</Sponsors><BillHistory><ReadDate>READ FIRST TIME 01/12/24.</ReadDate></BillHistory><BriefDescription>Enacting the uniform electronic estate planning documents act.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to the uniform electronic estate planning documents act; amending RCW 1.80.020; and adding a new chapter to Title 11 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>TITLE.</SectionCaption><P>This chapter may be cited as the uniform electronic estate planning documents act.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>DEFINITIONS.</SectionCaption><P>In this chapter:</P></BillSectionHeader>
+<P>(1) "Electronic record" means a record created, generated, sent, communicated, received, or stored by electronic means.</P>
+<P>(2) "Electronic signature" means an electronic symbol or process attached to or logically associated with a record that uses a security procedure and is executed or adopted by a person with the intent to sign the record.</P>
+<P>(3) "Information" includes data, text, images, codes, computer programs, software, databases, and the like, and does not include videos or sounds.</P>
+<P>(4) "Nontestamentary estate planning document" means a record relating to estate planning that is readable as text at the time of signing and is not a will or contained in a will. The term:</P>
+<P>(a) Includes a record readable as text at the time of signing that creates, exercises, modifies, releases, or revokes:</P>
+<P>(i) An inter vivos trust governed by chapters 11.97, 11.98, 11.98B, 11.103, 11.110, and 11.118 RCW;</P>
+<P>(ii) A trust power held by a trustor, a trustee, a beneficiary or a third party that is granted under the terms of a trust, under this title, specifically including chapters 11.97, 11.98, 11.98B, 11.103, 11.110, and 11.118 RCW, or by any other statute or rule of law related to trusts that requires a writing, written instrument, or a signed record or document;</P>
+<P>(iii) A certification of a trust under RCW 11.98.075;</P>
+<P>(iv) A power of attorney, including for health care of the principal or of the principal's minor children, that is durable under chapter 11.125 RCW;</P>
+<P>(v) An agent's certification under RCW 11.125.430 of the validity of a power of attorney and the agent's authority;</P>
+<P>(vi) A power of appointment;</P>
+<P>(vii) A health care directive under chapter 70.122 RCW;</P>
+<P>(viii) A document appointing an agent to dispose of an individual's remains, directing disposition of an individual's remains after death, or expressing wishes regarding an anatomical gift;</P>
+<P>(ix) A nomination of a guardian or conservator for the signing individual;</P>
+<P>(x) A nomination of a guardian or conservator for a minor child or disabled adult child or a delegation of parental powers for a minor child pursuant to RCW 11.130.145;</P>
+<P>(xi) A mental health advance directive under chapter 71.32 RCW;</P>
+<P>(xii) A community property agreement as described in RCW 26.16.120;</P>
+<P>(xiii) A disclaimer under RCW 11.86.011(5);</P>
+<P>(xiv) A trust decanting under chapter 11.107 RCW;</P>
+<P>(xv) A separate writing directing the disposition of tangible personal property under RCW 11.12.260; and</P>
+<P>(xvi) Any other record intended to carry out an individual's intent regarding property or health care while incapacitated or on death; and</P>
+<P>(b) Does not include:</P>
+<P>(i) A deed of real property or certificate of title for a motor vehicle, watercraft, or aircraft; or</P>
+<P>(ii) A nonjudicial settlement agreement under RCW 11.96A.220.</P>
+<P>(5) "Person" means an individual, estate, business or nonprofit entity, government or governmental subdivision, agency, or instrumentality, or other legal entity.</P>
+<P>(6) "Security procedure" means a procedure employed for the purpose of verifying that an electronic signature, record, or performance is that of a specific person or for detecting changes or errors in the information in an electronic record. The term includes a procedure that requires the use of algorithms or other codes, identifying words or numbers, encryption, or callback or other acknowledgment procedures.</P>
+<P>(7) "Sign" means, with present intent to authenticate or adopt a record, to:</P>
+<P>(a) Execute or adopt a tangible symbol; or</P>
+<P>(b) Attach to or logically associate with the record an electronic signature.</P>
+<P>(8) "State" means a state of the United States, the District of Columbia, Puerto Rico, the United States Virgin Islands, or any territory or insular possession subject to the jurisdiction of the United States. The term includes an Indian tribe or band, or Alaskan native village, which is recognized by federal law or formally acknowledged by a state.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>CONSTRUCTION.</SectionCaption><P>This chapter must be construed and applied to:</P></BillSectionHeader>
+<P>(1) Facilitate electronic estate planning-related documents and signatures consistent with other law; and</P>
+<P>(2) Be consistent with reasonable practices concerning electronic documents and signatures and continued expansion of those practices.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>SCOPE.</SectionCaption><P>(1) Except as provided in subsection (2) of this section, this chapter applies to an electronic nontestamentary estate planning document and an electronic signature on a nontestamentary estate planning document.</P></BillSectionHeader>
+<P>(2) This chapter does not apply to a nontestamentary estate planning document if the document precludes use of an electronic record or electronic signature.</P>
+<P>(3) This chapter does not affect the validity of an electronic record or electronic signature that is valid under:</P>
+<P>(a) Chapter 1.80 RCW;</P>
+<P>(b) Chapter 5.50 RCW;</P>
+<P>(c) RCW 11.12.400 through 11.12.491; or</P>
+<P>(d) Chapter 42.45 RCW.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>5</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>PRINCIPLES OF LAW AND EQUITY.</SectionCaption><P>The law of this state and principles of equity applicable to a nontestamentary estate planning document apply to an electronic nontestamentary estate planning document except as modified by this chapter.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>6</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>USE OF ELECTRONIC RECORD OR SIGNATURE NOT REQUIRED.</SectionCaption><P>(1) This chapter does not require a nontestamentary estate planning document or signature on a nontestamentary estate planning document to be created, generated, sent, communicated, received, stored, or otherwise processed or used by electronic means or in electronic form.</P></BillSectionHeader>
+<P>(2) A person is not required to have a nontestamentary estate planning document in electronic form or signed electronically even if the person previously created or signed a nontestamentary estate planning document by electronic means.</P>
+<P>(3) A person may not waive the provisions of this section.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>7</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>RECOGNITION OF ELECTRONIC NONTESTAMENTARY ESTATE PLANNING DOCUMENT AND ELECTRONIC SIGNATURE.</SectionCaption><P>(1) A nontestamentary estate planning document or a signature on a nontestamentary estate planning document may not be denied legal effect or enforceability solely because it is in electronic form.</P></BillSectionHeader>
+<P>(2) If other law of this state requires a nontestamentary estate planning document to be in writing, an electronic record of the document satisfies the requirement.</P>
+<P>(3) If other law of this state requires a signature on a nontestamentary estate planning document, an electronic signature satisfies the requirement.</P>
+<P>(4) A person that refuses in violation of this section to accept a nontestamentary estate planning document or a signature on a nontestamentary estate planning document is subject to:</P>
+<P>(a) A court order mandating acceptance of the document or signature; and</P>
+<P>(b) Liability for reasonable attorneys' fees and costs incurred in any action or proceeding that confirms the validity of the document or signature or mandates acceptance of the document or signature.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>8</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>ATTRIBUTION AND EFFECT OF ELECTRONIC RECORD AND ELECTRONIC SIGNATURE.</SectionCaption><P>(1) An electronic nontestamentary estate planning document or electronic signature on an electronic nontestamentary estate planning document is attributable to a person if it was the act of the person. The act of the person may be shown in any manner, including by showing the efficacy of a security procedure applied to determine the person to which the electronic record or electronic signature was attributable.</P></BillSectionHeader>
+<P>(2) The effect of attribution to a person under subsection (1) of this section of a document or signature is determined from the context and surrounding circumstances at the time of its creation, execution, or adoption and as provided by other law.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>9</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>NOTARIZATION AND ACKNOWLEDGMENT.</SectionCaption><P>If other law of this state requires a signature or record to be notarized, acknowledged, verified, or made under oath, the requirement is satisfied with respect to an electronic nontestamentary estate planning document if an individual authorized to perform the notarization, acknowledgment, verification, or oath attaches or logically associates the individual's electronic signature on the document together with all other information required to be included under the other law. The individual making the statement or executing the signature may appear physically or, as provided in RCW 42.45.280, remotely.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>10</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>WITNESSING AND ATTESTATION.</SectionCaption><P>(1) If other law of this state bases the validity of a nontestamentary estate planning document on whether it is signed, witnessed, or attested by another individual, the signature, witnessing, or attestation of that individual may be electronic.</P></BillSectionHeader>
+<P>(2) If other law of this state bases the validity of a nontestamentary estate planning document on whether it is signed, witnessed, or attested by another individual in the presence of the individual signing the document, the presence requirement is satisfied if the individuals are in each other's electronic presence, as defined in RCW 11.02.005.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>11</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>RETENTION OF ELECTRONIC RECORD<TextRun fontFamily="Times New Roman">—</TextRun>ORIGINAL.</SectionCaption><P>(1) Except as provided in subsection (2) of this section, if other law of this state requires an electronic nontestamentary estate planning document to be retained, transmitted, copied, or filed, the requirement is satisfied by retaining, transmitting, copying, or filing an electronic record that:</P></BillSectionHeader>
+<P>(a) Accurately reflects the information in the document after it was first generated in final form as an electronic record or under section 12 of this act; and</P>
+<P>(b) Remains accessible to the extent required by the other law.</P>
+<P>(2) A requirement under subsection (1) of this section to retain a record does not apply to information the sole purpose of which is to enable the record to be sent, communicated, or received.</P>
+<P>(3) If other law of this state requires a nontestamentary estate planning document to be presented or retained in its original form, or provides consequences if a nontestamentary estate planning document is not presented or retained in its original form, an electronic record retained in accordance with subsection (1) of this section satisfies the other law.</P>
+<P>(4) This section does not preclude a governmental agency from specifying requirements for the retention of a record subject to the agency's jurisdiction in addition to those in this section. In this subsection, "governmental agency" means an executive, legislative, or judicial agency, department, board, commission, authority, institution, or instrumentality of the federal government or of a state or of a county, municipality, or other political subdivision of a state.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>12</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>CERTIFICATION OF PAPER COPY.</SectionCaption><P>An individual may create a certified paper copy of an electronic nontestamentary estate planning document by affirming under penalty of perjury that the paper copy is a complete and accurate copy of the document.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>13</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>ADMISSIBILITY IN EVIDENCE.</SectionCaption><P>Evidence relating to an electronic nontestamentary estate planning document or an electronic signature on the document may not be excluded in a proceeding solely because such evidence is in electronic form.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>14</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>UNIFORMITY OF APPLICATION AND CONSTRUCTION.</SectionCaption><P>In applying and construing this uniform act, a court shall consider the promotion of uniformity of the law among jurisdictions that enact it.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>15</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>RELATION TO ELECTRONIC SIGNATURES IN GLOBAL AND NATIONAL COMMERCE ACT.</SectionCaption><P>This chapter modifies, limits, or supersedes the electronic signatures in global and national commerce act, 15 U.S.C. Sec. 7001 et seq., but does not modify, limit, or supersede 15 U.S.C. Sec. 7001(c), or authorize electronic delivery of any of the notices described in 15 U.S.C. Sec. 7003(b).</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>16</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>TRANSITIONAL PROVISION.</SectionCaption><P>This chapter applies to an electronic nontestamentary estate planning document created, signed, generated, sent, communicated, received, or stored before, on, or after the effective date of this section.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>17</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>1</TitleNumber><TextRun>.</TextRun><ChapterNumber>80</ChapterNumber><TextRun>.</TextRun><SectionNumber>020</SectionNumber></SectionCite> and 2020 c 57 s 3 are each amended to read as follows:<Caption>Scope.</Caption></BillSectionHeader>
+<P>(1) Except as otherwise provided in subsection (2) of this section, this chapter applies to electronic records and electronic signatures relating to a transaction.</P>
+<P>(2) This chapter does not apply to a transaction to the extent it is governed by:</P>
+<P>(a) A law governing the creation and execution of wills, codicils, or testamentary trusts<TextRun amendingStyle="add">. However, this chapter applies to nonjudicial settlement agreements under RCW 11.96A.220</TextRun>; and</P>
+<P>(b) Title 62A RCW other than RCW 62A.1-306 and chapters 62A.2 and 62A.2A RCW.</P>
+<P>(3) This chapter applies to an electronic record or electronic signature otherwise excluded from the application of this chapter under subsection (2) of this section to the extent it is governed by a law other than those specified in subsection (2) of this section.</P>
+<P>(4) A transaction subject to this chapter is also subject to other applicable substantive law.</P>
+<History>2020 c 57 § 3.</History>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>18</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>SEVERABILITY.</SectionCaption><P>If any provision of this act or its application to any person or circumstance is held invalid, the remainder of the act or the application of the provision to other persons or circumstances is not affected.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addchap" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>19</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>CODIFICATION.</SectionCaption><P>Sections 1 through 16 of this act constitute a new chapter in <TitleCite><TextRun>Title </TextRun><TitleNumber>11</TitleNumber><TextRun> RCW</TextRun></TitleCite>.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

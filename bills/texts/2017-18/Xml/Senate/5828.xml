@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-1459.1</RequestNumber><ShortBillId>SB 5828</ShortBillId><LongBillId>SENATE BILL 5828</LongBillId><Legislature>65th Legislature</Legislature><Session>2017 Regular Session</Session><Sponsors>Senators Palumbo, Rolfes, Frockt, Kuderer, Hunt, and Saldaña</Sponsors><BillHistory><ReadDate>Read first time 02/16/17.</ReadDate><ReferredCommittee>Referred to Committee on Law &amp; Justice.</ReferredCommittee></BillHistory><BriefDescription>Limiting disclosure of information about the religious affiliation of individuals.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to limiting disclosure of information about the religious affiliation of individuals; adding a new section to chapter 49.60 RCW; adding a new section to chapter 42.56 RCW; adding a new chapter to Title 42 RCW; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature finds and declares the following:</P></BillSectionHeader>
+<P>(1) Washington state celebrates the rich cultural heritage and diversity of its residents; and</P>
+<P>(2) Freedom of religion and protection from persecution on the basis of religion is one of the founding ideals of the nation.</P>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>49</TitleNumber><TextRun>.</TextRun><ChapterNumber>60</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>It is an unfair practice for an employer to:</P>
+<P>(1) Require an employee to disclose information about his or her religious affiliation, unless the disclosure is for the purpose of providing religious accommodation for the employee; or</P>
+<P>(2) Require or authorize an employee to disclose information about the religious affiliation of another employee, unless the individual whose religious affiliation will be disclosed (a) expressly consents to the disclosure, and (b) has knowledge of the purpose for the disclosure.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>A state or local government agency or public employee shall not:</P></BillSectionHeader>
+<P>(1) Provide or disclose to federal government authorities personally identifiable information regarding the religious beliefs, practices, or affiliation of any individual, except where the employee is a witness to a crime;</P>
+<P>(2) Use public funds, facilities, property, equipment, or personnel to assist in creation, implementation, or enforcement of any government program compiling a list, registry, or database of personally identifiable information about individuals based on religious beliefs, practice, or affiliation, for law enforcement or immigration purposes; or</P>
+<P>(3) Make personally identifiable information from agency databases available, including any databases maintained by private vendors contracting with the agency, to anyone or any entity for the purpose of investigation or enforcement under any government program compiling a list, registry, or database of individuals based on religious belief, practice, or affiliation, or national origin, or ethnicity for law enforcement or immigration purposes.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber><P>State and local law enforcement agencies shall not:</P></BillSectionHeader>
+<P>(1) Collect information on the religious belief, practice, or affiliation of any individual except (a) as part of a targeted investigation of an individual based on reasonable suspicion that the individual has engaged in criminal activity, and when there is a clear nexus between the criminal activity and the specific information collected about religious belief, practice, or affiliation, or (b) where necessary to provide religious accommodations; or</P>
+<P>(2) Use public funds, facilities, property, equipment, or personnel to investigate, enforce, or assist in the investigation or enforcement of any criminal, civil, or administrative violation, or warrant for a violation, of any requirement that individuals register with the federal government or any federal agency based on religion.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>5</Value><TextRun>.  </TextRun></BillSectionNumber><P>Any agreements in existence on the effective date of this section that make any state or local government agency information or database available in conflict with the terms of this chapter are terminated on that date to the extent of the conflict.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addchap" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>6</Value><TextRun>.  </TextRun></BillSectionNumber><P>Sections 3 through 5 of this act constitute a new chapter in <TitleCite><TextRun>Title </TextRun><TitleNumber>42</TitleNumber><TextRun> RCW</TextRun></TitleCite>.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>7</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>42</TitleNumber><TextRun>.</TextRun><ChapterNumber>56</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>All records that relate to or contain personally identifying information about an individual's religious beliefs, practices, or affiliation are exempt from disclosure under this chapter.</P>
+</BillSection>
+</BillBody>
+</Bill>

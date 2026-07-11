@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-1109.2</RequestNumber><ShortBillId>HB 1503</ShortBillId><LongBillId>HOUSE BILL 1503</LongBillId><Legislature>65th Legislature</Legislature><Session>2017 Regular Session</Session><Sponsors>Representatives Short, Taylor, Van Werven, Buys, Haler, Kraft, and Hargrove</Sponsors><BillHistory><ReadDate>Read first time 01/23/17.</ReadDate><ReferredCommittee>Referred to Committee on Environment.</ReferredCommittee></BillHistory><BriefDescription>Preventing unfunded mandates involving on-site sewage systems from affecting local governments and property owners.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to preventing unfunded mandates involving on-site sewage systems from affecting local governments and property owners; adding a new section to chapter 36.70A RCW; adding a new section to chapter 70.118A RCW; and adding a new section to chapter 70.05 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>36</TitleNumber><TextRun>.</TextRun><ChapterNumber>70A</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>This chapter, including but not limited to RCW 36.70A.070 (1) and (5), and any interpretation of this chapter does not apply to or govern the operation, permitting, maintenance, and inspection of on-site septic systems. For the purposes of this chapter, protecting the quality or quantity of surface or groundwater resources does not require any county or city to impose obligations on property owners that are not required or authorized specifically under chapter 70.05 or 70.118A RCW.</P>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>70</TitleNumber><TextRun>.</TextRun><ChapterNumber>118A</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>This chapter does not require a local health jurisdiction to require that periodic inspections of an on-site sewage system in operation be conducted by a professional inspector. Nothing in this chapter prohibits a county from relying on self-inspection of on-site sewage systems for the purposes of protecting the quality or quantity of surface or groundwater resources under chapter 36.70A RCW.</P>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>70</TitleNumber><TextRun>.</TextRun><ChapterNumber>05</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>This chapter does not require a local board of health to require that periodic inspections of an on-site sewage system in operation be conducted by a professional inspector. Nothing in this chapter prohibits a county from relying on self-inspection of on-site sewage systems for the purposes of protecting the quality or quantity of surface or groundwater resources under chapter 36.70A RCW.</P>
+</BillSection>
+</BillBody>
+</Bill>

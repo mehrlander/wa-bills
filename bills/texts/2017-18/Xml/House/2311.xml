@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-3175.2</RequestNumber><ShortBillId>HB 2311</ShortBillId><LongBillId>HOUSE BILL 2311</LongBillId><Legislature>65th Legislature</Legislature><Session>2018 Regular Session</Session><Sponsors>Representatives Bergquist, Harris, Hudgins, Tarleton, Slatter, Haler, Reeves, Doglio, Muri, Graves, and Young</Sponsors><BillHistory><PrefiledDate>Prefiled 12/20/17.</PrefiledDate><ReadDate>Read first time 01/08/18.</ReadDate><ReferredCommittee>Referred to Committee on Education.</ReferredCommittee></BillHistory><BriefDescription>Reducing barriers to student participation in extracurricular activities.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to reducing barriers to student participation in extracurricular activities; adding new sections to chapter 28A.600 RCW; adding a new section to chapter 28A.300 RCW; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>INTENT.</SectionCaption><P>(1)(a) According to the Washington interscholastic activities association, interscholastic athletics and activities are a vital part of enriching students' educational experiences and developing students into responsible adults. The legislature finds that research compiled by the association demonstrates that students who participate in extracurricular activities have:</P></BillSectionHeader>
+<P>(i) Better grades and higher standardized test scores;</P>
+<P>(ii) Increased school attendance; and</P>
+<P>(iii) Improved health and wellness.</P>
+<P>(b) In addition, the legislature finds that this research shows that participation in extracurricular activities develops lifelong skills and relationship building; has long-term economic benefits; increases the odds of attending and graduating from college; decreases the likelihood of juvenile crimes, drug, alcohol, and cigarette use, and sexual activities; and positively enhances a student's educational experience.</P>
+<P>(2) Thus, the legislature intends to reduce barriers to participation in extracurricular activities by:</P>
+<P>(a) Capping fees for low-income students who participate in these activities;</P>
+<P>(b) Requiring that the process for charging and collecting fees be identical for all students; and</P>
+<P>(c) Reducing the frequency of required physical examinations.</P>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>28A</TitleNumber><TextRun>.</TextRun><ChapterNumber>600</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<SectionCaption>FEE LIMITATIONS.</SectionCaption>
+<P>(1)(a) The maximum fee charged to a public or private school student eligible to participate in the federal free and reduced-price meals program for an associated student body or other student identification card is five dollars per school year.</P>
+<P>(b) The maximum fee charged to a public or private school student eligible to participate in the federal free and reduced-price meals program to participate in an extracurricular activity is five dollars per extracurricular activity per school year. This subsection (1)(b) applies only to students who are enrolled in a school district that is a member of the Washington interscholastic activities association.</P>
+<P>(2) The process for charging and collecting fees from public and private school students eligible to participate in the federal free and reduced-price meals program, as required by subsection (1) of this section, must be identical to the process for charging and collecting fees from other students.</P>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>28A</TitleNumber><TextRun>.</TextRun><ChapterNumber>300</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<SectionCaption>PROMOTING LIVELY ACTIVITIES FOR YOUTH (PLAY) GRANT PROGRAM.</SectionCaption>
+<P>(1) The promoting lively activities for youth (PLAY) grant program is created to subsidize small school districts unduly impacted by section 2 of this act, which limits the extracurricular activities fee charged to public school students eligible to participate in the federal free and reduced-price meals program.</P>
+<P>(2) Subject to the availability of amounts appropriated for this specific purpose and beginning in the 2018-19 school year, the superintendent of public instruction shall allocate, on a first come basis, up to fifty thousand dollars per school year for the purposes of the PLAY grant program.</P>
+<P>(3) To qualify for a PLAY grant, a school district must:</P>
+<P>(a) Have fewer than two thousand students;</P>
+<P>(b) Have fifty percent or more of their students eligible to participate in the federal free and reduced-price meals program; and</P>
+<P>(c) Be impacted by the maximum extracurricular activities fee limitations described in section 2 of this act.</P>
+<P>(4) Applications for a PLAY grant must include the number and overall percentage of students eligible to participate in the federal free and reduced-price meals program who participated in one or more extracurricular activities in the prior school year, and an estimate of the number of extracurricular activities fees subject to the maximum described in section 2(2) of this act.</P>
+<P>(5) The maximum grant award per school district is five thousand dollars per year.</P>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>28A</TitleNumber><TextRun>.</TextRun><ChapterNumber>600</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<SectionCaption>PHYSICAL EXAMINATION FREQUENCY.</SectionCaption>
+<P>Students may not be required to complete a physical examination to participate in extracurricular activities more often than every twenty-four months, unless recommended by a medical authority licensed to perform a physical examination.</P>
+</BillSection>
+</BillBody>
+</Bill>

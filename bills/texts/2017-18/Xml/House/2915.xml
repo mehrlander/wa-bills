@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-4016.1</RequestNumber><ShortBillId>HB 2915</ShortBillId><LongBillId>HOUSE BILL 2915</LongBillId><Legislature>65th Legislature</Legislature><Session>2018 Regular Session</Session><Sponsors>Representatives Pike and Shea</Sponsors><BillHistory><ReadDate>Read first time 01/24/18.</ReadDate><ReferredCommittee>Referred to Committee on Judiciary.</ReferredCommittee></BillHistory><BriefDescription>Excluding veterans' disability related compensation or benefits from consideration in determining child support obligations.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to excluding veterans' disability related compensation or benefits from consideration in determining child support obligations; amending RCW 26.19.045 and 26.19.055; adding a new section to chapter 26.18 RCW; and adding a new section to chapter 74.20A RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>26</TitleNumber><TextRun>.</TextRun><ChapterNumber>19</ChapterNumber><TextRun>.</TextRun><SectionNumber>045</SectionNumber></SectionCite> and 1991 c 367 s 30 are each amended to read as follows:<Caption>Veterans' disability pensions, compensation for disability, and aid and attendant care payments.</Caption></BillSectionHeader>
+<P><TextRun amendingStyle="add">The court may not include the following disability related benefits or compensation paid by the veterans' administration in gross income for purposes of calculating the child support obligation or for purposes of deviation from the standard calculation, nor may the court require disclosure of the benefits or compensation to the court:</TextRun></P>
+<P><TextRun amendingStyle="add">(1)</TextRun> Veterans' disability pensions or regular compensation for disability incurred in or aggravated by service in the United States armed forces <TextRun amendingStyle="strike">paid by the veterans' administration shall be disclosed to the court. The court may consider either type of compensation as disposable income for purposes of calculating the child support obligation.</TextRun><TextRun amendingStyle="add">;</TextRun></P>
+<P><TextRun amendingStyle="add">(2)</TextRun> Aid and attendant care payments to prevent hospitalization paid by the veterans' administration solely to provide physical home care for a disabled veteran<TextRun amendingStyle="strike">,</TextRun><TextRun amendingStyle="add">;</TextRun> and</P>
+<P><TextRun amendingStyle="add">(3) S</TextRun>pecial medical compensation paid under 38 U.S.C. Sec. <TextRun amendingStyle="strike">314</TextRun> <TextRun amendingStyle="add">1114</TextRun> (k) through <TextRun amendingStyle="strike">(r)</TextRun> <TextRun amendingStyle="add">(t)</TextRun> to provide either special care or special aids, or both, to assist with routine daily functions <TextRun amendingStyle="strike">shall also be disclosed. The court may not include either aid and attendant care or special medical compensation payments in gross income for purposes of calculating the child support obligation or for purposes of deviating from the standard calculation</TextRun>.</P>
+<History>1991 c 367 § 30.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Severability<TextRun fontFamily="Times New Roman">—</TextRun>Effective date<TextRun fontFamily="Times New Roman">—</TextRun>Captions not law<TextRun fontFamily="Times New Roman">—</TextRun>1991 c 367:</TextRun> See notes following RCW 26.09.015.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>26</TitleNumber><TextRun>.</TextRun><ChapterNumber>19</ChapterNumber><TextRun>.</TextRun><SectionNumber>055</SectionNumber></SectionCite> and 1991 c 367 s 31 are each amended to read as follows:<Caption>Payments for attendant services in cases of disability.</Caption></BillSectionHeader>
+<P>Payments from any source, other than <TextRun amendingStyle="strike">veterans' aid and attendance allowances or special medical compensation paid under 38 U.S.C. Sec. 314 (k) through (r)</TextRun> <TextRun amendingStyle="add">those identified in RCW 26.19.045</TextRun>, for services provided by an attendant in case of a disability when the disability necessitates the hiring of the services of an attendant shall be disclosed but shall not be included in gross income and shall not be a reason to deviate from the standard calculation.</P>
+<History>1991 c 367 § 31.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Severability<TextRun fontFamily="Times New Roman">—</TextRun>Effective date<TextRun fontFamily="Times New Roman">—</TextRun>Captions not law<TextRun fontFamily="Times New Roman">—</TextRun>1991 c 367:</TextRun> See notes following RCW 26.09.015.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>26</TitleNumber><TextRun>.</TextRun><ChapterNumber>18</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>The disability related benefits or compensation paid by the veterans' administration listed in RCW 26.19.045 are not subject to garnishment or other collection action for enforcement of a child support order under this chapter and all other applicable statutes.</P>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>74</TitleNumber><TextRun>.</TextRun><ChapterNumber>20A</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>The disability related benefits or compensation paid by the veterans' administration listed in RCW 26.19.045 are not subject to collection action by the department for support enforcement under this chapter and all other applicable statutes.</P>
+</BillSection>
+</BillBody>
+</Bill>

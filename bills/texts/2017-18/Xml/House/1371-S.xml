@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-1816.4</RequestNumber><ShortBillId>SHB 1371</ShortBillId><LongBillId>SUBSTITUTE HOUSE BILL 1371</LongBillId><Legislature>65th Legislature</Legislature><Session>2017 Regular Session</Session><Sponsors>House Transportation (originally sponsored by Representatives Farrell, Lovick, Haler, Harris, Clibborn, Orwall, Kagi, Robinson, Appleton, Ryu, Goodman, Tarleton, Gregerson, Sells, Ormsby, and Cody)</Sponsors><BillHistory><ReadDate>READ FIRST TIME 02/17/17.</ReadDate></BillHistory><BriefDescription>Modifying the infraction of and penalties for distracted driving.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to updating the distracted driving infraction; adding a new section to chapter 46.61 RCW; repealing RCW 46.61.667 and 46.61.668; prescribing penalties; and providing an effective date.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>46</TitleNumber><TextRun>.</TextRun><ChapterNumber>61</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) A person who uses a personal electronic device while driving a motor vehicle on a public roadway is guilty of a traffic infraction and must pay a fine as provided in RCW 46.63.110(3).</P>
+<P>(2) Subsection (1) of this section does not apply to:</P>
+<P>(a) A driver who is using a personal electronic device to contact emergency services;</P>
+<P>(b) The use of a system by a transit system employee for time-sensitive relay communication between the transit system employee and the transit system's dispatch services;</P>
+<P>(c) An individual employed as a commercial motor vehicle driver who uses a personal electronic device within the scope of such individual's employment if such use is permitted under 49 U.S.C. Sec. 31136 as it existed on the effective date of this section;</P>
+<P>(d) A person operating an authorized emergency vehicle; and</P>
+<P>(e) A person operating a tow truck, to the extent that person is using the telephone call functionality of a wireless communications device to respond to a disabled vehicle.</P>
+<P>(3) Subsection (1) of this section does not restrict the operation of:</P>
+<P>(a) An amateur radio station by a person who holds a valid amateur radio operator license issued by the federal communications commission; or</P>
+<P>(b) Two-way or citizens band radio services by a person driving a commercial motor vehicle.</P>
+<P>(4) The state preempts the field of regulating the use of personal electronic devices in motor vehicles while driving, and this section supersedes any local laws, ordinances, orders, rules, or regulations enacted by any political subdivision or municipality to regulate the use of a personal electronic device by the operator of a motor vehicle.</P>
+<P>(5) A second or subsequent offense under this section within five years is subject to two times the penalty amount under RCW 46.63.110.</P>
+<P>(6) For purposes of this section:</P>
+<P>(a) "Driving" means to operate a motor vehicle on a public roadway, including while temporarily stationary because of traffic, a traffic control device, or other momentary delays. "Driving" does not include when the vehicle has pulled over to the side of, or off of, an active roadway and has stopped in a location where it can safely remain stationary.</P>
+<P>(b) "Personal electronic device" means any portable electronic device that is capable of wireless communication or electronic data retrieval and is not manufactured primarily for hands-free use in a motor vehicle. "Personal electronic device" includes, but is not limited to, a cell phone, tablet, laptop, two-way messaging device, or electronic game.</P>
+<P>(c) "Use" or "uses" means:</P>
+<P>(i) Holding a personal electronic device in either hand or both hands;</P>
+<P>(ii) Using your hand or finger to compose, send, read, view, access, browse, transmit, save, or retrieve email, text messages, instant messages, photographs, or other electronic data; however, this neither precludes the minimal use of a finger to activate, deactivate, or initiate a function of the device, nor precludes the use of a hand or finger to control the built-in features of a motor vehicle through the use of a touch screen control panel;</P>
+<P>(iii) Watching video on a personal electronic device.</P>
+</BillSection>
+<BillSection type="new" action="repeal">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>The following acts or parts of acts are each repealed:</P></BillSectionHeader>
+<P><RepealNumber>1</RepealNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>46</TitleNumber><TextRun>.</TextRun><ChapterNumber>61</ChapterNumber><TextRun>.</TextRun><SectionNumber>667</SectionNumber></SectionCite> (Using a wireless communications device or handheld mobile telephone while driving) and 2013 c 224 s 15, 2010 c 223 s 3, &amp; 2007 c 417 s 2; and</P>
+<P><RepealNumber>2</RepealNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>46</TitleNumber><TextRun>.</TextRun><ChapterNumber>61</ChapterNumber><TextRun>.</TextRun><SectionNumber>668</SectionNumber></SectionCite> (Sending, reading, or writing a text message while driving) and 2013 c 224 s 16, 2010 c 223 s 4, &amp; 2007 c 416 s 1.</P>
+</BillSection>
+<BillSection type="new" action="effdate">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act takes effect January 1, 2018.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

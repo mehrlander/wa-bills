@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-3241.1</RequestNumber><ShortBillId>HB 2461</ShortBillId><LongBillId>HOUSE BILL 2461</LongBillId><Legislature>65th Legislature</Legislature><Session>2018 Regular Session</Session><Sponsors>Representatives Kagi, Goodman, Ormsby, and Santos</Sponsors><BillHistory><ReadDate>Read first time 01/09/18.</ReadDate><ReferredCommittee>Referred to Committee on Public Safety.</ReferredCommittee></BillHistory><BriefDescription>Concerning the drug offense sentencing grid.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to seriousness level I offenses where the offender score is three to five on the drug offense sentencing grid; amending RCW 9.94A.517; and providing an effective date.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>9</TitleNumber><TextRun>.</TextRun><ChapterNumber>94A</ChapterNumber><TextRun>.</TextRun><SectionNumber>517</SectionNumber></SectionCite> and 2015 c 291 s 9 are each amended to read as follows:<Caption>Table 3<TextRun fontFamily="Times New Roman">—</TextRun>Drug offense sentencing grid. <TextRun fontStyle="italic">(Effective July 1, 2018.)</TextRun></Caption></BillSectionHeader>
+<P prePadding="halfline" postPadding="halfline">(1)</P>
+<P textAlign="center" prePadding="halfline" postPadding="halfline">TABLE 3</P>
+<P textAlign="center" prePadding="halfline" postPadding="halfline">DRUG OFFENSE SENTENCING GRID</P>
+<Table width="243.0pt" align="center" fontSize="8pt" pubwidth="narrow" hCellPadding="none">
+<Col width="45pt" />
+<Col width="63pt" />
+<Col width="67pt" />
+<Col width="68.0pt" />
+<TR>
+<TD valign="top"><P><TextRun fontWeight="bold">Seriousness</TextRun></P><P><TextRun fontWeight="bold">Level</TextRun></P></TD>
+<TD valign="top"><P><TextRun fontWeight="bold">Offender Score</TextRun></P><P><TextRun fontWeight="bold">0 to 2</TextRun></P></TD>
+<TD valign="top"><P><TextRun fontWeight="bold">Offender Score</TextRun></P><P><TextRun fontWeight="bold">3 to 5</TextRun></P></TD>
+<TD valign="top"><P><TextRun fontWeight="bold">Offender Score</TextRun></P><P><TextRun fontWeight="bold">6 to 9 or more</TextRun></P></TD>
+</TR>
+<TR>
+<TD valign="top"><P><TextRun fontWeight="bold">III</TextRun></P></TD>
+<TD valign="top"><P>51 to 68 months</P></TD>
+<TD valign="top"><P>68+ to 100 months</P></TD>
+<TD valign="top"><P>100+ to 120 months</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P><TextRun fontWeight="bold">II</TextRun></P></TD>
+<TD valign="top"><P>12+ to 20 months</P></TD>
+<TD valign="top"><P>20+ to 60 months</P></TD>
+<TD valign="top"><P>60+ to 120 months</P></TD>
+</TR>
+<TR>
+<TD valign="top"><P><TextRun fontWeight="bold">I</TextRun></P></TD>
+<TD valign="top"><P>0 to 6 months</P></TD>
+<TD valign="top"><P>6+ to <TextRun amendingStyle="strike">18</TextRun> <TextRun amendingStyle="add">12</TextRun> months</P></TD>
+<TD valign="top"><P>12+ to 24 months</P></TD>
+</TR>
+</Table>
+<P indent="0" prePadding="halfline">References to months represent the standard sentence ranges. 12+ equals one year and one day.</P>
+<P>(2) The court may utilize any other sanctions or alternatives as authorized by law, including but not limited to the special drug offender sentencing alternative under RCW 9.94A.660 or drug court under chapter 2.30 RCW.</P>
+<P>(3) Nothing in this section creates an entitlement for a criminal defendant to any specific sanction, alternative, sentence option, or substance abuse treatment.</P>
+<History>2015 c 291 § 9; 2002 c 290 § 8.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2015 c 291 § 9:</TextRun> "Section 9 of this act takes effect July 1, 2018." [2015 c 291 § 16.]</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Conflict with federal requirements<TextRun fontFamily="Times New Roman">—</TextRun>2015 c 291:</TextRun> See note following RCW 2.30.010.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Intent<TextRun fontFamily="Times New Roman">—</TextRun>2002 c 290:</TextRun> "It is the intent of the legislature to increase the use of effective substance abuse treatment for defendants and offenders in Washington in order to make frugal use of state and local resources, thus reducing recidivism and increasing the likelihood that defendants and offenders will become productive and law-abiding persons. The legislature recognizes that substance abuse treatment can be effective if it is well planned and involves adequate monitoring, and that substance abuse and addiction is a public safety and public health issue that must be more effectively addressed if recidivism is to be reduced. The legislature intends that sentences for drug offenses accurately reflect the adverse impact of substance abuse and addiction on public safety, that the public must have protection from violent offenders, and further intends that such sentences be based on policies that are supported by research and public policy goals established by the legislature." [2002 c 290 § 1.]</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2002 c 290 §§ 7-11 and 14-23:</TextRun> See note following RCW 9.94A.515.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="new" action="effdate">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>Section 1 of this act takes effect July 1, 2018.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

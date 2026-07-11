@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-0184.1</RequestNumber><ShortBillId>HB 1423</ShortBillId><LongBillId>HOUSE BILL 1423</LongBillId><Legislature>65th Legislature</Legislature><Session>2017 Regular Session</Session><Sponsors>Representatives Shea, Goodman, McCaslin, Taylor, and Volz</Sponsors><BillHistory><ReadDate>Read first time 01/19/17.</ReadDate><ReferredCommittee>Referred to Committee on Finance.</ReferredCommittee></BillHistory><BriefDescription>Concerning the excise taxation of personal and alcohol monitoring devices and services.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to the excise taxation of personal and alcohol monitoring devices and services; adding a new section to chapter 82.08 RCW; adding a new section to chapter 82.12 RCW; adding a new section to chapter 82.04 RCW; creating new sections; providing an effective date; and declaring an emergency.</BillTitle>
+<EnactedClause />
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature finds that in appropriate circumstances electronic home monitoring or alcohol monitoring can be a more cost-effective, and less restrictive, public safety measure than alternatives, such as incarceration. The legislature finds that it is in the public interest that there be a robust marketplace for providing these services and that the services should be as inexpensive as possible. Therefore, the legislature intends to clarify that neither sales and use nor business and occupation taxes apply to the provision of equipment and related monitoring services.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>82</TitleNumber><TextRun>.</TextRun><ChapterNumber>08</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) The tax levied by RCW 82.08.020 does not apply to the sale of personal monitoring devices or alcohol monitoring devices.</P>
+<P>(2) The definitions in this subsection apply throughout this section unless the context clearly requires otherwise.</P>
+<P>(a) "Alcohol monitoring device" means a device that is capable of remote continuous or transdermal alcohol monitoring that can be attached directly to the participant. The term includes any associated equipment necessary for the device to perform properly.</P>
+<P>(b) "Personal monitoring device" means a device used for tracking the location of an individual, whether pretrial or posttrial, through the use of technology that is capable of determining or identifying the monitored individual's presence or absence at a particular location including, but not limited to:</P>
+<P>(i) Radio frequency signaling technology, which detects if the monitored individual is or is not at an approved location and notifies the monitoring agency of the time that the monitored individual either leaves the approved location or tampers with or removes the personal monitoring device; or</P>
+<P>(ii) Active or passive global positioning system technology, which detects the location of the monitored individual and notifies the monitoring agency of the monitored individual's location.</P>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>82</TitleNumber><TextRun>.</TextRun><ChapterNumber>12</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>The provisions of this chapter do not apply to the use of personal monitoring devices or alcohol monitoring devices as defined in section 2 of this act.</P>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>82</TitleNumber><TextRun>.</TextRun><ChapterNumber>04</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) This chapter does not apply to amounts received by a person derived from the sale of personal monitoring devices or alcohol monitoring devices as defined in section 1 of this act.</P>
+<P>(2) This chapter does not apply to amounts derived from the sale of remote monitoring services.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>5</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act applies to the sale or use of personal monitoring devices or alcohol monitoring devices that occur on or after July 1, 2017, as well as retroactively for any taxpayer who has been assessed taxes by the department of revenue prior to July 1, 2017, on devices or services exempted in this act.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="emerg">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>6</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act is necessary for the immediate preservation of the public peace, health, or safety, or support of the state government and its existing public institutions, and takes effect July 1, 2017.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

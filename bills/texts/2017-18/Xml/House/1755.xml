@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-1291.1</RequestNumber><ShortBillId>HB 1755</ShortBillId><LongBillId>HOUSE BILL 1755</LongBillId><Legislature>65th Legislature</Legislature><Session>2017 Regular Session</Session><Sponsors>Representative Manweller</Sponsors><BillHistory><ReadDate>Read first time 01/27/17.</ReadDate><ReferredCommittee>Referred to Committee on Labor &amp; Workplace Standards.</ReferredCommittee></BillHistory><BriefDescription>Requiring notice to state fund employers for certain workers' compensation third-party settlements.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to notice to state fund employers for certain workers' compensation third-party settlements; and amending RCW 51.24.090.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>51</TitleNumber><TextRun>.</TextRun><ChapterNumber>24</ChapterNumber><TextRun>.</TextRun><SectionNumber>090</SectionNumber></SectionCite> and 1995 c 199 s 5 are each amended to read as follows:<Caption>Compromise or settlement less than benefits.</Caption></BillSectionHeader>
+<P>(1) Any compromise or settlement of the third party cause of action by the injured worker or beneficiary which results in less than the entitlement under this title is void unless made with the written approval of the department or self-insurer<TextRun amendingStyle="strike">: PROVIDED, That</TextRun><TextRun amendingStyle="add">. For a state fund claim, the department shall provide reasonable ongoing notice to the employer of the status of any compromise or settlement negotiations between the injured worker or beneficiary and the department. For a state fund claim, notice to the employer is not required if the costs of the claim or claims are no longer included in the calculation of the employer's experience factor used to determine premiums; or if the employer cannot be located, is no longer in business, fails to respond, or declines to participate after the department provides timely notice of the settlement process to the employer. F</TextRun>or the purposes of this chapter, "entitlement" means benefits and compensation paid and estimated by the department to be paid in the future.</P>
+<P>(2) If a compromise or settlement is void because of subsection (1) of this section, the department or self-insurer may petition the court in which the action was filed for an order assigning the cause of action to the department or self-insurer. If an action has not been filed, the department or self-insurer may proceed as provided in chapter 7.24 RCW.</P>
+<History>1995 c 199 § 5; 1984 c 218 § 7; 1977 ex.s. c 85 § 7.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Severability<TextRun fontFamily="Times New Roman">—</TextRun>1995 c 199:</TextRun> See note following RCW 51.12.120.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+</BillBody>
+</Bill>

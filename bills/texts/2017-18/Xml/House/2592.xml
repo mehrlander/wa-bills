@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-3648.2</RequestNumber><ShortBillId>HB 2592</ShortBillId><LongBillId>HOUSE BILL 2592</LongBillId><Legislature>65th Legislature</Legislature><Session>2018 Regular Session</Session><Sponsors>Representative Morris</Sponsors><BillHistory><ReadDate>Read first time 01/10/18.</ReadDate><ReferredCommittee>Referred to Committee on Technology &amp; Economic Development.</ReferredCommittee></BillHistory><BriefDescription>Concerning the efficient deployment of small cell network infrastructure.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to the efficient deployment of small cell network infrastructure; adding a new section to chapter 43.330 RCW; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) It is the policy of the state to promote the efficient deployment of small cell network infrastructure by offering a tool so wireless infrastructure providers can assess a predictable process in local government jurisdictions so citizens across the state have access to advanced wireless communications technologies as soon as possible. A framework for the deployment of wireless communication services that allows for local values to be expressed but also signals where predictable wireless capital investment can occur is the right balance. It is also the policy of the state that cities and towns maintain sufficient legal authority to manage the public rights-of-way for the health, safety, and welfare of their citizens and the general public.</P></BillSectionHeader>
+<P>(2) It is the intent of the legislature that state of Washington maintain a list of local governments that are investment ready for advanced and new wireless technologies subject to the provisions of chapter 43.330 RCW.</P>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>330</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) A local government that can demonstrate to the department in writing that it meets the criteria in (a) through (f) of this subsection will be designated on the department's web site as being investment-ready for advanced and new wireless technologies.</P>
+<P>(a) A local government must demonstrate a streamlined and predictable permit process period for installation of a small cell facility or network in the right-of-way that is no longer than twelve months. The permit processing period is measured from the date of receipt of an application to the date the applicant is allowed entry into and use of the specified right-of-way.</P>
+<P>(b) A local government must demonstrate a nondiscriminatory and competitively neutral application of standards for the installation of microcells, small cell facilities, and small cell networks on city or town-owned structures located outside of the right-of-way.</P>
+<P>(c) A local government must demonstrate adoption of a small cell facility deployment ordinance that outlines the standards that personal wireless service providers must follow in seeking a master permit to deploy microcells, small cell facilities, and small cell networks; or the amendment or adoption of a policy or directive that applies an existing ordinance or city regulation to exempt small cell network infrastructure from general land use requirements in a manner consistent with the requirements in Title 35 RCW.</P>
+<P>(d) The ordinance, policy, or directive adopted in accordance with (c) of this subsection must:</P>
+<P>(i) Treat service providers in a competitively neutral and nondiscriminatory manner, except that certain parts of local government-owned infrastructure may be made available on a first-provider-to-deploy basis until the attached or built microcells, small cell facilities, and small cell networks stresses government-owned property by increasing costs due to weight or conformance with local aesthetics, or by shortening the life cycle;</P>
+<P>(ii) Notwithstanding anything to the contrary in this section, but subject to traffic control requirements, allow the following types of small cell facility work without requiring an application, permit, or fee:</P>
+<P>(A) Routine maintenance; and</P>
+<P>(B) The replacement of small cell facilities with small cell facilities that are substantially similar or smaller in size, weight, and height;</P>
+<P>(iii) Include a permit fee schedule that:</P>
+<P>(A) Treats service providers in a competitively neutral and nondiscriminatory manner; and</P>
+<P>(B) Allows the local government to recover at least the actual costs of processing permits, provided the fee may not require any direct payments to or reimbursement of third-party wireless consultants, but may include reasonable reimbursement for the cost of additional contract staff to address permit volume.</P>
+<P>(e) The permit fee schedule outlined in (d)(iii) of this subsection may:</P>
+<P>(i) Allow the city or town to recover at least the actual costs associated with the development of the small cell facility deployment ordinance, policy, or directive amortized over the first five years following adoption;</P>
+<P>(ii) Allow a permit applicant to pay an additional fee for expedited permit processing if the city has deployed such a process. This provision is not intended to require jurisdictions to create an expedited process when one does not already exist; and</P>
+<P>(iii) Require the permit applicant to pay fair market rent or other consideration if the master permit proposes to deploy wireless facilities on city or town-owned poles. The annual recurring rate may not exceed the actual, direct, and reasonable costs related to the percentage of the volume of the capacity of the pole rendered unusable by the small cell, multiplied by the annual cost of ownership of the pole. The annual cost of ownership is the sum of capital costs and annual operating costs of the pole.</P>
+<P>(2) Nothing in this section limits a city or town from issuing master permits or use permits in accordance with the provisions of chapter 35.99 RCW.</P>
+<P>(3) The definitions in this subsection apply throughout this section unless the context clearly requires otherwise.</P>
+<P>(a) "Microcell" has the same meaning as defined in RCW 80.36.375(2)(b).</P>
+<P>(b) "Permit" means a master permit, use permit, or any other form of small cell installation authorization.</P>
+<P>(c) "Pole" means a pole or similar structure that is or may be used in whole or in part by or for wireline communications, electric distribution or transmission, lighting, traffic control, signage, or a similar function.</P>
+<P>(d) "Right-of-way" means the area on, below, or above a public roadway, highway, street, sidewalk, alley, utility easement, or similar property, but not including a federal interstate highway.</P>
+<P>(e) "Small cell facility" has the meaning as defined in RCW 80.36.375(2)(d).</P>
+<P>(f) "Small cell network" has the meaning as defined in RCW 80.36.375(2)(e).</P>
+</BillSection>
+</BillBody>
+</Bill>

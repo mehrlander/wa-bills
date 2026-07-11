@@ -1,0 +1,543 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-1184.1</RequestNumber><ShortBillId>HB 1646</ShortBillId><LongBillId>HOUSE BILL 1646</LongBillId><Legislature>65th Legislature</Legislature><Session>2017 Regular Session</Session><Sponsors>Representatives Fitzgibbon, Appleton, Fey, Goodman, McBride, Cody, Macri, Doglio, Pollet, and Jinkins</Sponsors><BillHistory><ReadDate>Read first time 01/25/17.</ReadDate><ReferredCommittee>Referred to Committee on Environment.</ReferredCommittee></BillHistory><BriefDescription>Promoting an equitable clean energy economy by creating a carbon tax that allows investment in clean energy, clean air, healthy forests, and Washington's communities.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to promoting an equitable clean energy economy by creating a carbon tax that allows investment in clean energy, clean air, healthy forests, and Washington's communities; amending RCW 70.235.020; adding a new chapter to Title 70 RCW; adding a new chapter to Title 82 RCW; and creating new sections.</BillTitle>
+<EnactedClause />
+<Part>
+<P>PART I</P>
+<P>Disposition of Carbon Tax Revenues</P>
+</Part>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value fixed="true">101</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>INTENT.</SectionCaption><P>(1)(a) The legislature finds that Washington state is poised to be a leader in cutting greenhouse gas emissions and transitioning to a clean energy economy. Our emissions, while only a fraction of those produced globally, also add to the impacts of climate change, which is already causing harm to our state: Weather that brings more frequent drought and more severe storms, and environmental effects that range from ocean acidification in Puget Sound to a lack of snow pack in the mountains to support hydropower, agriculture, and winter recreation. These impacts are not felt proportionally by all, and often hit rural communities hardest.</P></BillSectionHeader>
+<P>(b) To address the challenges posed by climate change, and to seize the opportunities offered by the transition to a clean energy economy, the health, environment, and economic well-being of Washington will benefit most from enacting a carbon policy that makes strategic investments in clean energy, clean water, forest health, and clean air projects. These investments will tap into the entrepreneurial spirit of Washington businesses and will maintain and create thousands of family-wage and community-sustaining jobs in Washington state while reducing greenhouse gas emissions. The investments made by this act in clean energy are intended to attract more total investment to catalyze faster reductions in greenhouse gas emissions than would otherwise be expected without state investments.</P>
+<P>(c) The legislature finds that assigning a cost to the emissions of greenhouse gases to partially defray the taxpayer cost of these impacts is appropriate in light of the social, environmental, and economic harms from those emissions. This is a necessary step to help level the playing field to allow clean energy, which lacks these negative externalities, to fairly compete in the marketplace, and to incentivize and expedite the transition to clean energy sources.</P>
+<P>(2) Therefore, it is the intent of the legislature to fund investments in clean energy, clean water, and healthy forests by enacting a carbon pollution mitigation tax on fossil fuel emissions of greenhouse gases that contribute to global climate change. This tax is intended to discourage emissions of greenhouse gases and to encourage the utilization of energy sources that pose fewer environmental and public health costs while benefiting the economies of local communities. This act is intended to avoid increasing the regressive burdens of energy costs on low-income individuals or households living at or near the federal poverty line. This act is also intended to help Washington do its part to forestall and minimize the worst-case scenario of impacts that are anticipated to result from greenhouse gas pollution of the atmosphere and the global climate change caused by that pollution. Finally, in order to facilitate a truly just transition to a clean energy economy, it is the intent of the legislature, while ensuring that all Washington residents can access and afford clean energy and that all our communities are able to prosper during the transition to a clean energy economy, to use revenue from the tax to:</P>
+<P>(a) Assist low-income individuals and disproportionately impacted communities in this transition;</P>
+<P>(b) Provide meaningful support to workers and communities that may be impacted by this act; and</P>
+<P>(c) Improve community health through contributing to clean air, clean water, and thriving forests.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>102</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>DEFINITIONS.</SectionCaption><P>The definitions in this section apply throughout this chapter unless the context clearly requires otherwise.</P></BillSectionHeader>
+<P>(1) "Board" means the carbon program oversight board established in section 107 of this act.</P>
+<P>(2) "Carbon calculation" means a calculation made by the department of ecology for purposes of calculating the carbon pollution mitigation tax for fossil fuels in section 202 of this act.</P>
+<P>(3) "Carbon content" means the carbon dioxide equivalent that is released through the combustion or oxidation of a fossil fuel or that is associated with the combustion or oxidation of a fossil fuel used to generate imported electricity.</P>
+<P>(4) "Carbon dioxide equivalent" has the same meaning as provided in RCW 70.235.010.</P>
+<P>(5) "Clean energy" means technologies, services, or processes that broadly reduce energy consumption or enable the transition to a low-carbon energy economy, or both. Clean energy includes, but is not limited to, technologies, services, or processes that increase the supply of renewable energy, improve the efficiency of energy utilization, improve the processes and systems that use energy, deploy renewable energy infrastructure, or more effectively enable energy solutions with fewer associated greenhouse gas emissions to permeate the marketplace, including planning and creating structures that facilitate energy demand reduction.</P>
+<P>(6) "Dangerous air pollutants" means the following air pollutants that have been determined to have a dangerous impact on human health or the environment, or both, when released from the combustion or oxidation of fossil fuels:</P>
+<P>(a) Hazardous air pollutants as defined by Title 42 U.S.C. Sec. 7412(b) of the clean air act;</P>
+<P>(b) Criteria air pollutants as defined by Title 42 U.S.C. Sec. 7409; and</P>
+<P>(c) Greenhouse gases as defined in RCW 70.235.010 and as identified in rules adopted by the department pursuant to chapters 70.235 and 70.94 RCW.</P>
+<P>(7) "Direct service industrial customer" has the same meaning as provided in RCW 82.16.0495.</P>
+<P>(8) "Disproportionately impacted communities" means communities identified by the department of health pursuant to section 112 of this act.</P>
+<P>(9) "Energy-intensive and trade-exposed facility" or "EITE facility" means a facility identified by the department of commerce under section 110 of this act.</P>
+<P>(10) "Fossil fuel" means petroleum products that are intended for combustion, natural gas, crude oil, petroleum, coal or coke of any kind, or any form of solid, liquid, or gaseous fuel derived from these products including but not limited to motor vehicle fuel, special fuel, aircraft fuel, marine fuel, still gas, propane, and petroleum residuals such as bunker fuel.</P>
+<P>(11) "Imported electricity" means electricity generated outside of the state of Washington and delivered for use within the state.</P>
+<P>(12) "Inflation" is the inflation rate determined by the consumer price index for Washington state compiled by the United States department of labor, bureau of labor statistics.</P>
+<P>(13) "Light and power business" has the same meaning as provided in RCW 82.16.010.</P>
+<P>(14) "Motor vehicle fuel" has the same meaning as provided in RCW 82.38.020.</P>
+<P>(15) "Natural gas" means naturally occurring mixtures of hydrocarbon gases and vapors consisting principally of methane, whether in gaseous or liquid form, including methane clathrate.</P>
+<P>(16) "Person" has the same meaning as provided in RCW 82.04.030.</P>
+<P>(17) "Petroleum product" has the same meaning as provided in RCW 82.23A.010.</P>
+<P>(18) "Special fuel" has the same meaning as provided in RCW 82.38.020 and includes fuel that is sold or used to propel vessels.</P>
+<P>(19) "Supplier" means a person that produces, refines, imports, or delivers fossil fuels, or any combination of producing, refining, importing, or delivering fossil fuels in or into the state for use or processing within the state.</P>
+<P>(20) "Year" means the twelve months commencing January 1st and ending December 31st unless otherwise specified.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>103</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>CLEAN AIR INVESTMENT PROGRAMS<TextRun fontFamily="Times New Roman">—</TextRun>CLEAN ENERGY ACCOUNT CREATION.</SectionCaption><P>(1) The clean energy account is created in the state treasury. After the distribution of money to the equitable transition fund created in section 111 of this act and the payment of administrative and accountability costs consistent with section 114 of this act, seventy percent of the receipts from the carbon pollution mitigation tax imposed under section 202 of this act must be deposited into the account. Money in the clean energy account must be allocated consistent with sections 104 and 105 of this act. Moneys in the account may only be spent after appropriation.</P></BillSectionHeader>
+<P>(2) For purposes of administering the carbon reduction investment fund and the sustainable infrastructure fund created as subaccounts within the clean energy account, the department of commerce must adopt procedures that ensure the achievement of quantifiable and verifiable emission reductions while minimizing the costs of state administration and other transaction costs associated with project implementation. Expenditures from the funds must be designed to stimulate new dangerous air pollutant reduction projects and must not exceed the minimum levels of funding necessary in order for the project to be viable or cost-competitive. Expenditures must also be set at such a level as to prevent recipients from generating greater revenues or profits than are necessary to stimulate the investment. A project may not receive funding from both the carbon reduction investment fund and the sustainable infrastructure fund. Projects that create new or expand existing fossil fuel infrastructure, including but not limited to fossil fuel vehicles, electricity generation from fossil fuels, and indoor heating and cooling and other project types that rely on fossil fuel infrastructure, are not eligible for funding under the clean energy account.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>104</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>CLEAN AIR INVESTMENT PROGRAMS<TextRun fontFamily="Times New Roman">—</TextRun>CARBON REDUCTION INVESTMENT FUND CREATED.</SectionCaption><P>(1) The carbon reduction investment fund is hereby created as a subaccount of the clean energy account created in section 103 of this act. Thirty-five percent of the money in the clean energy account created in section 103 of this act must be allocated to a carbon reduction investment fund within the account. Money in the carbon reduction investment fund within the account must be used for greenhouse gas emission reduction projects in Washington or that reduce emissions directly connected to energy use and other activity in Washington state. The Washington State University extension energy office, in consultation with the board created in section 107 of this act, must administer the carbon reduction investment fund and oversee the greenhouse gas emission reduction projects funded from moneys in the fund.</P></BillSectionHeader>
+<P>(2) Expenditures from the fund created in this section must prioritize grants and loans to projects with consideration given to the anticipated quantifiable and verifiable amount of carbon reduction to be achieved by the project per dollar of investment from the fund. Projects that reduce greenhouse gas emissions are eligible for investment, with preference given to projects that do not rely on nonrenewable resources as a power source. The amount of funding from the carbon reduction investment fund for each particular project must be based on the investment prices established in section 106 of this act, and must be of an amount sufficient to catalyze the implementation of each funded project, but not to exceed such an amount.</P>
+<P>(3) To be eligible for funding under the carbon reduction investment fund program, a project must demonstrate that it will result in a quantifiable and verifiable reduction of emissions of greenhouse gas emissions in the State.</P>
+<P>(4) The Washington State University extension energy office must adopt procedures for reviewing and prioritizing grant and loan project applications. Projects may include but are not limited to solar and distributed energy production, wind and other renewable energy sources, energy storage, energy efficiency, demand response, projects which support conversion to low-carbon transportation fuels including electricity or biofuels, and transit and clean transportation-related improvements. Holding other evaluative criteria constant, a preference must be given to project applicants who demonstrate that moneys from the carbon reduction investment fund will be accompanied by a matching investment from another public or private source of funds.</P>
+<P>(5) A single person or project may not receive more than five percent of the total value of carbon reduction investment fund investments made under this section each biennium. Funds for a project may be disbursed over multiple biennia as deemed appropriate by the Washington State University extension energy office.</P>
+<P>(6) Carbon reduction investment fund investments each biennium must include but are not limited to projects that are designed to:</P>
+<P>(a) Lower the cost of energy for Washington residents by making strategic investments in the clean energy economy, making clean energy more affordable and competitive, transitioning to zero-emission vehicles, and reducing the dependence on volatile and greenhouse gas-emitting energy sources;</P>
+<P>(b) Increase access to clean energy through greater deployment of clean transportation and renewable energy, including roof-top and community solar, to homeowners, multifamily unit dwellers, small businesses, local governments, school districts, nonprofits, owners and operators of affordable housing, large energy users, and others; and</P>
+<P>(c) Reduce energy waste and increase energy efficiency, helping to make energy efficiency projects affordable to homeowners, multifamily unit dwellers, local governments, school districts, nonprofits, small business owners, operators of affordable housing, large energy users, and others.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>105</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>CLEAN AIR INVESTMENT PROGRAMS<TextRun fontFamily="Times New Roman">—</TextRun>SUSTAINABLE INFRASTRUCTURE FUND CREATED.</SectionCaption><P>(1) The sustainable infrastructure fund is hereby created as a subaccount within the clean energy account created in section 103 of this act. Sixty-five percent of the money in the clean energy account must be allocated to the sustainable infrastructure fund. The department of commerce, in consultation with the board established in section 107 of this act, must administer the sustainable infrastructure fund and oversee the greenhouse gas emission reduction projects funded from moneys in the fund. Money in the sustainable infrastructure fund must be used for greenhouse gas emission reduction projects in Washington that achieve indirect carbon reductions, have long-term or difficult to quantify emission reduction prospects, or that would not be cost-competitive with projects funded under the carbon reduction investment fund where the primary performance metric for comparing projects is cost-per-ton of greenhouse gas emissions reduced. Public and private project proponents are eligible to apply to the board to obtain funding from the sustainable infrastructure fund, with preference given to projects that do not rely on nonrenewable resources as a power source, except for investments in efficiency improvements at EITE facilities identified in section 110 of this act. Projects eligible for funding from the sustainable infrastructure fund include projects that reduce greenhouse gas emissions through the categories specified in subsection (2), (3), or (4) of this section.</P></BillSectionHeader>
+<P>(2) Thirty-five percent of funds available in the sustainable infrastructure fund are reserved for transportation projects that:</P>
+<P>(a) Reduce pollution from transportation sources by increasing access to electric and advanced-technology vehicles, cleaner fuels, and improved transportation infrastructure;</P>
+<P>(b) Reduce pollution from transportation sources by:</P>
+<P>(i) Aiding fuel switching from motor vehicle and special fuels derived from fossil fuels, including but not limited to the switching of agricultural fuels, onto clean alternative fuels, as defined in RCW 82.08.809(3), that are not derived from fossil fuels;</P>
+<P>(ii) Converting private and public fleets, including transit fleets, to zero-emission vehicles; and</P>
+<P>(iii) Improving freight mobility systems; or</P>
+<P>(c) Reduce pollution from transportation sources by strategic planning and development of sustainable infrastructure projects, including charging and fueling projects necessary to support the categories of fleet conversions and vehicles identified in (b)(ii) of this subsection. However, to be eligible for infrastructure funding under this subsection (2)(c), an infrastructure project is not required to be associated with a fleet and vehicle conversion consistent with (b)(ii) of this subsection that receives or has received funding from the sustainable infrastructure fund.</P>
+<P>(3) Fifty percent of funds available in the sustainable infrastructure fund are reserved for land use projects that:</P>
+<P>(a) Support equitable transit-oriented development, including transit-oriented development that is predominately affordable housing, transit-oriented development that reduces vehicle miles traveled, and transit-oriented development that reduces transportation costs and logistical burdens for low-income individuals and families, and infirm, disabled, or otherwise vulnerable populations;</P>
+<P>(b) Expand or improve public transportation infrastructure, including but not limited to projects that promote connections between communities that are underserved by public transportation infrastructure, prioritizing improvements and vehicles that rely on alternative fuels not derived from fossil fuels, and supporting nonmotorized mobility; or</P>
+<P>(c) Support programs and infrastructure that reduce vehicle miles traveled through commute trip reduction strategies including, but not limited to, employer-based initiatives.</P>
+<P>(4) Fifteen percent of funds available in the sustainable infrastructure fund are reserved for power sector projects eligible for funding from the sustainable infrastructure fund. Projects must exceed the requirements of chapter 19.285 RCW, where applicable, and:</P>
+<P>(a) Achieve energy efficiency that exceeds the cost-effective conservation requirements of chapter 19.285 RCW;</P>
+<P>(b) Facilitate renewable energy integration, such as smart-grid technologies and energy storage;</P>
+<P>(c) Encourage the deployment of clean distributed energy resources;</P>
+<P>(d) Increase system resiliency and encourage the development of electricity microgrids with clean energy; or</P>
+<P>(e) Support other demand side resources that reduce generation or capacity needs.</P>
+<P>(5) For purposes of ranking the priority of transportation, land use, and energy project applications for funding from the sustainable infrastructure fund, the board must consider, at minimum, the criteria in (a) through (g) of this subsection (5). In addition, the board may develop additional subject-appropriate criteria for ranking the priority of project applications against other projects within the same categories of projects specified in subsection (2), (3), or (4) of this section. Additionally, proposals that include high labor standards provisions as defined in section 113(3) of this act must be prioritized.</P>
+<P>(a) The total volume of emissions of carbon dioxide equivalent avoided as a result of the project, measured over the anticipated lifetime of the project;</P>
+<P>(b) The cost per ton of carbon dioxide equivalent avoided as a result of the project, measured over the anticipated lifetime of the project;</P>
+<P>(c) The degree to which the project will reduce emissions of other dangerous air pollutants regulated under chapter 70.94 RCW or public exposures to pollutants regulated under chapter 90.48 or 70.105D RCW;</P>
+<P>(d) Whether the project will benefit a disproportionately impacted community identified in section 112 of this act and by the economic and environmental justice oversight panel established in section 107 of this act;</P>
+<P>(e) The likelihood of project completion in the absence of support from the sustainable infrastructure fund;</P>
+<P>(f) The degree to which the project is consistent with projects funded under multiple categories of the sustainable infrastructure fund; and</P>
+<P>(g) The degree to which funding from the sustainable infrastructure fund will be matched by project proponents or supplemented by other funding sources, including in-kind contributions from the community or project sponsor.</P>
+<P>(6) Should the total requested funding amount submitted to a category of the sustainable infrastructure fund fall short of total funding available in the category, remaining funding must be reallocated to the other categories in proportion to their relative allocation in this subsection.</P>
+<P>(7) The board may adopt rules establishing acquisition policies and priorities for projects to be financed from moneys in the sustainable infrastructure fund. To support the investment prioritization decisions for the use of sustainable infrastructure funds under this subsection, the board must rely on the advice of committees of technical subject-matter experts and stakeholder advisors to the board appointed by the governor and the economic and environmental justice oversight panel. The committees may be comprised of a total of up to eleven appointed members, and separate committees must be formed for each category of projects in subsections (2), (3), and (4) of this section. Two-thirds of advisors to the board serving on each committee must be appointed by the governor, and the balance of advisors to the committees must be appointed by the economic and environmental justice oversight panel. Committee composition must be selected based on expertise or experience in the specific areas of the committee's jurisdiction. Committee members are not state employees and are not eligible for compensation, except that members selected by the economic and environmental justice oversight panel must be compensated in accordance with RCW 43.03.240 and are entitled to reimbursement individually for travel expenses incurred in the performance of their duties as members of the board in accordance with RCW 43.03.050 and 43.03.060.</P>
+<P>(8) Before November 1st of each even-numbered year, the board must recommend to the governor a prioritized list of all projects to be funded from the sustainable infrastructure fund. The governor must submit this amended list in the capital budget request to the legislature. The legislature may remove projects from the list recommended by the governor. The board may not sign contracts or otherwise financially obligate funds from the sustainable infrastructure fund as provided in this chapter before the legislature has appropriated funds for a specific list of projects. Projects must be funded in order of rank consistent with other requirements in this section. In the event that a project ranked high enough to receive funding becomes ineligible for funding after initial application and rankings, funding must be moved to the next ranked project on the list. The list must include, but not be limited to, a description of each project and any particular match requirement.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>106</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>DEPARTMENT OF COMMERCE<TextRun fontFamily="Times New Roman">—</TextRun>CARBON REDUCTION INVESTMENT PRICE.</SectionCaption><P>(1) The department of commerce, in consultation with the Washington State University extension energy office and other relevant agencies, must set investment prices for different emissions reduction projects in the state based upon the quantifiable and verifiable amount of carbon reduction to be achieved by the project.</P></BillSectionHeader>
+<P>(2) By July 1, 2018, and July 1st of each even-numbered year thereafter, the department of commerce, in consultation with the Washington State University extension energy office and other relevant agencies, must determine the investment prices for a range of emissions reduction projects for the forthcoming two years. The investment price may not exceed one hundred dollars in 2017 dollars per ton of carbon dioxide equivalent of reduced emissions of greenhouse gases. In setting biannual carbon investment prices, the department of commerce must consider the recommendation of the Washington State University extension energy office in subsection (3) of this section, as well as the incentive size that it determines to be minimally necessary to overcome barriers to deployment in relevant sectors of the clean energy economy. Upon the request of a project applicant, the department of commerce and the Washington State University extension energy office may consider additional project types beyond those initially identified as eligible for funding under this section.</P>
+<P>(3) By March 1, 2018<TextRun fontWeight="bold">, </TextRun>the Washington State University extension energy office must complete a clean energy investment study to recommend appropriate initial investment prices per ton of carbon dioxide equivalent of greenhouse gas emission reductions for a variety of clean energy, efficiency, and other eligible project types. This study must take into account greenhouse gas emission reduction project prices in regulatory and voluntary carbon reduction programs operated in other jurisdictions and be set at the minimum level necessary to catalyze investment in these project categories. By March 1, 2019, and by March 1st of each odd-numbered year thereafter, the Washington State University extension energy office and the department of commerce must update the recommended investment price for the following two-year period.<TextRun amendingStyle="strikemarknone" /></P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>107</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>CARBON PROGRAM OVERSIGHT BOARD.</SectionCaption><P>(1)(a) The carbon program oversight board is established within the executive office of the governor. The purpose of the board is to oversee implementation of this act and advise the governor on whether this act is achieving greenhouse gas emission reductions equitably, sustainably, and efficiently, including through the programmatic investments of receipts from the carbon pollution mitigation tax.</P></BillSectionHeader>
+<P>(b) Voting members of the board must be appointed by the governor. The board must consist of at least one voting member each representing the following parties, totaling sixteen members:</P>
+<P>(i) An organization whose mission is to advocate for consumers;</P>
+<P>(ii) A Washington business or organization representing Washington businesses;</P>
+<P>(iii) A worker from an energy-intensive and trade-exposed facility;</P>
+<P>(iv) A light and power business or a supplier;</P>
+<P>(v) A land conservation organization;</P>
+<P>(vi) An environmental organization with a focus on climate policy;</P>
+<P>(vii) A federally recognized Indian tribe, if selected by action of all of the governing bodies of all federally recognized Indian tribes in the state;</P>
+<P>(viii) A statewide labor organization representing a broad cross section of workers;</P>
+<P>(ix) A public health organization or the organization's designee;</P>
+<P>(x) An organization that represents disproportionately impacted communities;</P>
+<P>(xi) Two local governments, of which one must be a city and one must be a county, and one must be located east of the crest of the Cascade mountains and one must be located west of the crest of the Cascade mountains;</P>
+<P>(xii) An organization or university that possesses technical expertise in alternative energy, energy efficiency, or other low-carbon energy efficiency project implementation;</P>
+<P>(xiii) A business engaged in alternative energy, energy efficiency, or other low-carbon energy project implementation, including businesses that:</P>
+<P>(A) Are engaged in the manufacture, distribution, or sale of zero-emission or plug-in hybrid vehicles;</P>
+<P>(B) Provide access to zero-emission or plug-in hybrid vehicles; or</P>
+<P>(C) Implement infrastructure or other types of projects related to zero-emission or plug-in hybrid vehicles; and</P>
+<P>(xiv) In addition to, and not counting, the board members identified in (b)(iii) and (x) of this subsection, at least three representatives must be members of the economic and environmental justice oversight panel.</P>
+<P>(c) The board must also consist of the following nonvoting members:</P>
+<P>(i) The director of the department of ecology or the director's designee;</P>
+<P>(ii) The director of the department of commerce or the director's designee;</P>
+<P>(iii) The director of the department of transportation or the director's designee;</P>
+<P>(iv) The chair of the utilities and transportation commission or the chair's designee; and</P>
+<P>(v) A representative of each caucus of the house of representatives and the senate, named by the leader of each caucus.</P>
+<P>(d)(i) For the members of the board, the duration of the first appointment must be:</P>
+<P>(A) A two-year term for five members;</P>
+<P>(B) A three-year term for five members; and</P>
+<P>(C) A four-year term for six members.</P>
+<P>(ii) After the initial appointments, the appointments must be for three-year terms or until a successor is appointed, except in the case of appointments to fill vacancies, which must be for the remainder of the unexpired term. The governor must appoint one of the members to serve as chair of the board for the duration of the member's term.</P>
+<P>(e) The governor must make the appointments of the members under (b) of this subsection by January 1, 2018. Any member appointed by the governor may be removed by the governor for cause. The governor must appoint board members so as to achieve a council membership with balanced representation by geography, gender, and ethnicity.</P>
+<P>(f) The board has the following powers and duties:</P>
+<P>(i) Providing advice and recommendations to the governor, the legislature, and the state agencies involved in the implementation of chapters 70.--- and 82.--- RCW (the new chapters created in sections 401 and 402 of this act) and RCW 70.235.020;</P>
+<P>(ii) Monitoring the effects of the implementation of this act, including the levying of the tax and the investments made under this act, to ensure that policy choices create a level playing field for businesses based on their greenhouse gas emissions footprint, and that implementation of this act does not lead to unfair or unintended economic distortions, including leakage related to EITE facilities; and</P>
+<P>(iii) Providing oversight of carbon pollution mitigation tax receipt moneys to ensure consistency with overlay investment criteria required under section 113 of this act, to ensure that implementation of this act does not lead to inequitable environmental or economic impacts and that implementation satisfies the other purposes established by sections 103 through 112 of this act.</P>
+<P>(2)(a) An economic and environmental justice oversight panel is established as a joint body between the office of the governor, the department of ecology, and the department of health. The membership of the economic and environmental justice oversight panel must consist of seven persons, appointed by the governor, based on the nomination of statewide organizations that represent the following interests:</P>
+<P>(i) Five members, representing those most adversely harmed by cumulative impacts in disproportionately impacted communities, as identified in section 112 of this act;</P>
+<P>(ii) Two members representing communities of workers in any economic sectors negatively impacted by the tax imposed under section 202 of this act.</P>
+<P>(b) The purpose of the panel is to ensure the policies adopted in chapters 70.--- and 82.--- RCW (the new chapters created in sections 401 and 402 of this act) to improve environmental and economic indicators used to classify disproportionately impacted communities within these communities and relative to other communities, and to provide recommendations to the board established in section 107 of this act. In addition, it is the responsibility of the panel to:</P>
+<P>(i) Oversee and make recommendations on the cumulative impacts analysis required in section 112 of this act;</P>
+<P>(ii) Oversee and make recommendations on the investments recommended by disproportionately impacted communities to meet the overlay investment criteria required under section 113 of this act;</P>
+<P>(iii) Oversee and make recommendations on environmental and economic analyses of the benefits and risks, including investments in areas with displacement risk, of investments of carbon pollution mitigation tax revenues that accrue to disproportionately impacted communities and to workers displaced by the provisions of this act; and</P>
+<P>(iv) Select sustainable infrastructure fund committee members to supplement the committee members appointed by the governor consistent with section 105(7) of this act.</P>
+<P>(3) Upon request, both the board and the economic and environmental justice oversight panel must receive staff support, including research and technical expertise, from the department of ecology, the department of commerce, and the Washington State University extension energy office. The department of commerce must also provide staff resources to the board for rule making required of the board by this chapter.</P>
+<P>(4) Members of the board and panel employed by the state must serve without additional pay and participation in the work of the board is deemed to be performance of their employment. Members from the public at large must be compensated in accordance with RCW 43.03.240 and are entitled to reimbursement individually for travel expenses incurred in the performance of their duties as members of the board or panel in accordance with RCW 43.03.050 and 43.03.060.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>108</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>CLEAN WATER CLIMATE GRANTS<TextRun fontFamily="Times New Roman">—</TextRun>CLEAN WATER CLIMATE PROGRAM ACCOUNT CREATION.</SectionCaption><P>(1) The clean water climate program account is created in the state treasury. After the distribution of money to the equitable transition fund established in section 111 of this act and the payment of administrative and accountability costs consistent with section 114 of this act, twenty percent of the receipts from the carbon pollution mitigation tax imposed under section 202 of this act must be deposited into the account. The department of ecology must use money in the account to provide grants and loans for sustainable water projects and activities that consider climate impacts in their planning, siting, design, and implementation. Determinations for sustainable water projects and activities that receive grants and loans must consider the climate impact of such investments. Projects must:</P></BillSectionHeader>
+<P>(a) Mitigate or facilitate adaptation to the impacts of climate change;</P>
+<P>(b) Provide long-term climate resilience benefits, including but not limited to:</P>
+<P>(i) Improved infiltration and treatment of polluted runoff and other green storm water infrastructure;</P>
+<P>(ii) Reduced risks of flooding or water infrastructure failure through floodplain management;</P>
+<P>(iii) Enhanced water resource conservation and availability; and</P>
+<P>(iv) Restored and protected estuaries and marine shoreline habitats that improve habitat, store carbon, or increase coastal resilience from climate change.</P>
+<P>(2) The department of ecology must use moneys deposited in the account in approximately equal amounts for each of the following projects and activities:</P>
+<P>(a) Design, construction, and monitoring activities and projects that restore and protect estuaries and marine shoreline habitats. Projects under this subsection (2)(a) should be selected with consideration given to the anticipated ability of the project to buffer the effect of severe storms, capture and sequester carbon, reduce impacts of ocean acidification, buffer sea level rise, and support the long-term economic health of businesses that rely on sustainable state fisheries and aquaculture. The department of ecology must select projects that add capacity to or complement project funding from the Puget Sound national estuary program marine and nearshore protection programs, and may not select projects that are required by regulatory obligations or administrative or court orders;</P>
+<P>(b) Activities and projects that reduce flood risk and restore natural floodplain and riparian ecological function. The department of ecology must give priority under this subsection (2)(b) to projects or activities that achieve multiple benefits including but not limited to: The viability of agricultural activities; improved water quality; restored, improved, or expanded habitat; improved public safety; enhanced salmon and steelhead recovery; economic development; increased access to public open space and recreational opportunities; or other benefits to local communities. The department of ecology must choose projects using ranking and selection criteria consistent with the procedures for ranking and selecting floodplains by design projects that are funded through the capital budget;</P>
+<P>(c) Sustainable water use projects and planning. In order for a project to receive funding under this subsection (2)(c), the project proponent must demonstrate that the project:</P>
+<P>(i) Is cost-effective; and</P>
+<P>(ii) Achieves multiple benefits, including sustainable water projects that benefit residential populations and water-dependent businesses, enhanced fish or wildlife habitat, or conservation or efficiency improvements to water delivery and use; and</P>
+<P>(d) Designing, constructing, and monitoring projects and activities that improve infrastructure treating storm water from previously developed areas within an urban growth boundary designated under chapter 36.70A RCW. In order to be eligible for funding under this subsection (2)(d), a project must reduce pollution and improve habitat, with a preference given to projects that use green storm water infrastructure or the infiltration and treatment of polluted runoff to achieve those goals. The department of ecology must choose projects using ranking and selection criteria consistent with the procedures for ranking and selecting projects funded through the storm water financial assistance program administered by the department of ecology.</P>
+<P>(3) In selecting grant and loan recipients under this section, the department of ecology must consider:</P>
+<P>(a) The cost-effectiveness of the project or activity;</P>
+<P>(b) The project's or activity's ability to leverage other private and government investments and markets;</P>
+<P>(c) Whether the project or activity will provide multiple benefits to communities and the environment; and</P>
+<P>(d) For projects or activities within the Puget Sound watershed, whether the project or activity is consistent with the action agenda developed by the Puget Sound partnership under chapter 90.71 RCW.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>109</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>FOREST HEALTH INVESTMENTS<TextRun fontFamily="Times New Roman">—</TextRun>SUSTAINABLE FOREST HEALTH ACCOUNT CREATION.</SectionCaption><P>(1) The sustainable forest health account is created in the state treasury. After the distribution of money to the equitable transition fund established in section 111 of this act and the payment of administrative and accountability costs consistent with section 114 of this act, ten percent of the receipts from the carbon pollution mitigation tax imposed under section 202 of this act must be deposited into the account. Money in the account must be used for projects that improve forest health, prevent wildfires, increase forests' ability to filter pollutants, sequester dangerous air pollutants, and provide long-term climate resilience benefits.</P></BillSectionHeader>
+<P>(2) Money in the sustainable forest health account must be applied to projects that achieve at least one of the following goals:</P>
+<P>(a) Improved air quality through increased carbon sequestration and reduced greenhouse gas emissions;</P>
+<P>(b) Improved water quality;</P>
+<P>(c) Improved wildlife habitat;</P>
+<P>(d) Enhanced public recreation opportunities; and</P>
+<P>(e) Enhanced long-term resilience to the effects of a changing climate on forest health.</P>
+<P>(3) The recreation and conservation office must develop procedures and criteria for allocation of money in the sustainable forest health account, in approximately equal amounts for:</P>
+<P>(a) Grants to projects and activities that prevent wildfires and enhance community preparedness to prevent and mitigate impacts of wildfires and ensure the safety of communities vulnerable to wildfires;</P>
+<P>(b) Grants to projects and activities that improve forest health through thinning or prescribed fire or both, with priority given to projects proposed pursuant to a forest collaborative planning process establishing ecological and public safety goals across any combination of local, state, federal, and private ownerships; and</P>
+<P>(c) The establishment and funding of a working forest conservation easement program to protect working private forestland, to be administered by the recreation and conservation office. The recreation and conservation office must consult with appropriate agencies and stakeholders when developing requirements for the working forest conservation easement program. The recreation and conservation office must finalize program requirements by July 1, 2018, and must include a ranking system in which the primary program goal is to maximize the amount of carbon sequestered over the easement's first one hundred years. The recreation and conservation office must develop rules governing the ranking system, including scientifically based carbon sequestration calculations, unique regional needs, and market-based appraisal methods. The program must be designed to permanently prevent the development or conversion of working forests, and to provide long-term, sustainable jobs in rural communities, including jobs in forest restoration and ecologically focused thinning and low-intensity timber harvesting. The program must prioritize the acquisition of easements for forest properties for which there is a comparatively high probability that contiguous forestland acreage will eventually be subdivided, otherwise sold in smaller-acreage parcels, or its timber stock liquidated in the near term.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>110</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>IDENTIFICATION OF ENERGY-INTENSIVE AND TRADE-EXPOSED FACILITIES.</SectionCaption><P>(1) By December 1, 2017, the department of commerce must adopt a rule that identifies energy-intensive and trade-exposed facilities that are exempt from the tax imposed in chapter 82.--- RCW (the new chapter created in section 402 of this act). EITE facilities identified under this section must include but are not limited to metal, glass, cement, and pulp and paper manufacturers. In adopting this rule, the department of commerce must consider the greenhouse gas emissions intensity of production by a facility, as well as the share of the goods produced by the economic sector that are sold out of state. The goal of the rules adopted under this section must be to reduce the leakage of emissions and associated economic activity to jurisdictions in which greenhouse gas emissions are not taxed or regulated.</P></BillSectionHeader>
+<P>(2) Beginning January 1, 2018, upon the request of an EITE facility that meets the qualifying criteria adopted by rule pursuant to subsection (1) of this section, the department of commerce must issue a certificate denoting EITE facility status. The department of commerce must maintain a record of all EITE facility certificate holders statewide, and must share its records with the department of revenue to facilitate administration of the tax imposed under chapter 82.--- RCW (the new chapter created in section 402 of this act).</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>111</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>EQUITABLE TRANSITION FUND CREATION.</SectionCaption><P>(1) In order to facilitate a just transition to a clean energy economy and to mitigate the impact of this transition on fossil fuel workers and workers in energy-intensive and trade-exposed facilities who may lose their jobs due to the transition, an equitable transition fund is created within the state treasury. Moneys in the account may only be spent after appropriation.</P></BillSectionHeader>
+<P>(2) The purpose of the fund is to ensure impacted workers are made substantially whole during a transition period, including but not limited to:</P>
+<P>(a) Full wage replacement, health benefits, and pension contributions for every worker with at least five years of service for each year of service up to ten years of service. Workers with less than five years of service are eligible for wage insurance;</P>
+<P>(b) Up to two years of retraining costs including tuition and related costs;</P>
+<P>(c) Peer counseling services during transition;</P>
+<P>(d) Employment placement services;</P>
+<P>(e) Relocation expenses; and</P>
+<P>(f) Other services deemed necessary by the economic and environmental justice oversight panel.</P>
+<P>(3) It is the intent of the legislature to prioritize the allocation of full financial support to this fund in an amount sufficient to meet the needs of workers who may lose their jobs to the transition to the clean energy economy, and to ensure that the allocation of moneys to this account occurs prior to any disbursements to the accounts created in this chapter. It is the intent of the legislature to deposit the sum of fifty million dollars into the equitable transition fund the first year of the program for the purpose of providing the support to workers detailed in subsection (2) of this section, after which additional money will be allocated over time as necessary.</P>
+<P>(4) Funding will be made available for workers who are dislocated specifically due to the impacts of this act, including but not limited to workers in fossil fuel-dependent industries. A case can be initiated by the economic and environmental justice oversight panel, the board, or brought to the attention of either body by a worker or a representative of a labor union who believes a situation qualifies for equitable transition support. The board must make final decisions determining qualifying events and levels of support needed.</P>
+<P>(5) The department of commerce must implement the requirements of this section.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>112</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>CUMULATIVE IMPACTS ANALYSIS AND IDENTIFICATION OF DISPROPORTIONATELY IMPACTED COMMUNITIES.</SectionCaption><P>(1) By March 1, 2018, for the purposes of mitigating harm from climate change and dangerous air pollutants, the department of health must conduct a cumulative impacts analysis to identify the geographic boundaries of disproportionately impacted communities in Washington. The department of health must identify, map, and rank disproportionately impacted communities, based on cumulative impacts measured on a census tract scale based on geographic, socioeconomic, public health, and environmental burden, vulnerability, and hazard criteria, including but not limited to:</P></BillSectionHeader>
+<P>(a) Areas that are disproportionately affected by dangerous air pollutants and other environmental burdens and vulnerabilities, including climate change vulnerabilities, such as vulnerabilities to wildfires, drought or severe flooding, and hazards with negative public health effects;</P>
+<P>(b) Areas with high concentrations of people that are of low income and wealth, that have low levels of educational attainment, that feature high rates of unemployment, that feature low levels of homeownership or where the average cost of rent is a high proportion of average income, linguistic isolation, or other vulnerability characteristics; and</P>
+<P>(c) Other factors that are identified by the department of health.</P>
+<P>(2) The cumulative impacts analysis must integrate with and build upon other population tracking resources used by the department of health.</P>
+<P>(3) By March 1, 2022, and every two years thereafter, the department of health, under advisement from the economic and environmental justice oversight panel, must update the identification of disproportionately impacted communities pursuant to this section. By March 1, 2024, and every four years thereafter, the department of health must review and revise the methodology for identifying disproportionately impacted communities to reflect best practices.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>113</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>OVERLAY INVESTMENT CRITERIA.</SectionCaption><P>(1) The following overlay investment criteria applies to the expenditures in sections 103 through 105, 108, and 109 of this act:</P></BillSectionHeader>
+<P>(a) Each biennium, a minimum of twenty-five percent of expenditures must be used for projects or activities that provide direct, meaningful, and assured benefits to the most disproportionately impacted communities; and</P>
+<P>(b) Each biennium, a minimum of ten percent of expenditures, in addition to the twenty-five percent used in (a) of this subsection, must be used for projects or activities that provide direct, meaningful, and assured benefits and which are located within the most disproportionately impacted communities, including overlap into an adjacent buffer area of one-quarter mile of the most disproportionately impacted communities identified in section 112 of this act.</P>
+<P>(2) For purposes of this section, a project or activity is considered to benefit a community if the project or activity:</P>
+<P>(a) Reduces one or more socioeconomic or environmental disparities that contribute significantly to the cumulative impact ranking in a particular impacted tract;</P>
+<P>(b) Protects a community from the anticipated impacts of climate change, including but not limited to reducing the susceptibility of rural communities to wildfires, coastal communities to sea level rise, and riparian communities to flooding; or</P>
+<P>(c) Meets a community need identified by members of that community consistent with the intent of this act, as determined by the economic and environmental justice oversight panel created in section 107 of this act based upon evidence that the proponents of the project or activity sought and accepted the feedback of persons and organizations that live or are active in the disproportionately impacted community.</P>
+<P>(3) All investment decisions must give preference to projects that meet high labor standards criteria that provide prevailing wage rates determined by local collective bargaining, apprenticeship and preapprenticeship utilization and preferred entry standards, community workforce agreements to prioritize local hiring, and the use of domestic content to lower greenhouse gas emissions in procurement decisions wherever practicable.</P>
+<P>(4) Only projects that commence after July 1, 2017, are eligible to receive funding.</P>
+<P>(5) Each state agency with control of expenditures of carbon pollution mitigation tax receipts must track whether expenditures of funds from accounts under that agency's administrative control meet the overlay investment criteria of subsection (1) of this section. By September 1, 2021, and September 1st of each odd-numbered year thereafter, each state agency with administrative control over the expenditure of carbon pollution mitigation tax receipts must submit information to the department of commerce, the economic and environmental justice oversight panel, and the board pertaining to the expenditures of money from the clean energy account, clean water climate program account, and sustainable forest health account, including the location, number, and description of people affected, and explanation of the benefits to disproportionately impacted communities.</P>
+<P>(6) Upon request, the department of commerce must provide technical and procedural assistance to the project applicants for projects that will benefit disproportionately impacted communities. Assistance by the department of commerce may take the form of direct technical assistance by department staff in support of the grant applications that benefit disproportionately impacted communities, or by facilitating access to resources and assistance made available through other state agencies or community-based organizations under contracts with the state to provide these services.</P>
+<P>(7) By December 1, 2021, and each odd-numbered year thereafter, the department of commerce, with prior approval of the findings and recommendations by the economic and environmental justice oversight panel, must submit a report to the legislature demonstrating whether the expenditures from the clean energy, clean water climate program, and sustainable forest health accounts complied with the overlay investment criteria of this section and associated impacts from those investments. In the event that the overlay investment criteria requirements of this section are not met, the report must include recommendations for how investments of expenditures from receipts of the carbon pollution mitigation tax can come into compliance in future biennia.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>114</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>LIMITATION ON ADMINISTRATIVE EXPENSES.</SectionCaption><P>No more than five percent of the receipts from the tax imposed under chapter 82.--- RCW (the new chapter created in section 402 of this act) may be allocated to the administration of the tax, the implementation of the programs directed by this chapter, or other related tax and program implementation and enforcement activities of the department of ecology, the department of revenue, the department of commerce, the department of health, the Washington State University extension energy office, the recreation and conservation office, the office of the attorney general, or other state activities required under this act.</P></BillSectionHeader>
+</BillSection>
+<Part>
+<P>PART II</P>
+<P>Carbon Pollution Mitigation Tax</P>
+</Part>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value fixed="true">201</Value><TextRun>.  </TextRun></BillSectionNumber><P>For the purposes of this chapter unless the context clearly requires otherwise:</P></BillSectionHeader>
+<P>(1) The definitions in section 102 of this act apply to this chapter; and</P>
+<P>(2) "Department" means the department of revenue.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>202</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>CARBON POLLUTION MITIGATION TAX IMPOSED.</SectionCaption><P>(1) A carbon pollution mitigation tax is levied and collected on the carbon content of fossil fuels and electricity, including imported electricity, sold or used within this state.</P></BillSectionHeader>
+<P>(2) Beginning July 1, 2018, the tax rate is equal to fifteen dollars per metric ton of carbon dioxide equivalent. Beginning July 1, 2019, the rate of the tax increases by seven percent plus inflation each July 1st until July 1, 2047, except as provided otherwise in section 212 of this act.</P>
+<P>(3) The tax levied under this section is imposed only once with respect to the same fossil fuel or electricity, at the time and place of the first sale or use taxable event within this state, and upon the first taxable person within this state.</P>
+<P>(4) For persons subject to any tax imposed under chapter 82.04, 82.08, 82.12, or 82.16 RCW, the frequency of reporting and payment of the carbon pollution mitigation tax must, to the extent practicable, coincide with a person's reporting periods for the taxes imposed under chapter 82.04, 82.08, 82.12, or 82.16 RCW. Returns must be filed electronically using the department's online tax filing service or other method of electronic reporting as the department may authorize.</P>
+<P>(5) For purposes of determining the amount of tax owed by a person under this section, the department must use carbon calculations as determined by the department of ecology under section 205 of this act.</P>
+<P>(6) For purposes of imposing the tax under this chapter, the department must assume the carbon content of electricity that is not attributed to a generation source under the rules adopted pursuant to section 206 of this act is equal to one metric ton of carbon dioxide per megawatt-hour.</P>
+<P>(7) Electricity and fuels subject to a similar tax or price imposed in another jurisdiction before being imported into Washington are exempt from the portion of the tax equal to the amount paid the other jurisdiction. The sum of the tax rates paid in Washington and another jurisdiction for electricity and fuels imported into Washington may not exceed the rate of the tax imposed in subsection (2) of this section.</P>
+<P>(8) Each sale within Washington of a fossil fuel or electricity must indicate on the invoice or other document of sale:</P>
+<P>(a) The amount of the tax paid or to be associated with the sold fossil fuel or electricity;</P>
+<P>(b) The rate of the tax paid or to be paid;</P>
+<P>(c) The person who paid or will pay the tax; and</P>
+<P>(d) Other information required by rules adopted by the department. Rules adopted by the department under this subsection (8)(d) must be sufficient to facilitate the remittance of tax for uses and facilities that are exempt from the tax under sections 207 and 208 of this act.</P>
+<P>(9)(a) The department must remit the amount of the tax to a person that is exempt under section 207 or 208 of this act, and for which the tax had been previously paid by a supplier or light and power business, as supported by the documentation specified in subsection (8) of this section.</P>
+<P>(b) The department may issue remittance in the form of credit against the payment of taxes otherwise owed by the person under chapters 82.04, 82.08, 82.12, and 82.16 RCW, at the time and frequency with which those taxes are reported and paid.</P>
+<P>(c) If a purchaser of fossil fuels or electricity sold within this state fails to obtain an invoice or document of sale that complies with the rules adopted pursuant to subsection (8) of this section, or fails to present a certificate described under section 207(4) of this act, or both, the department may not remit tax to that person.</P>
+<P>(10) Receipts from the tax collected under this section must be distributed in descending order of priority, as follows:</P>
+<P>(a) Amounts necessary to ensure that balance of the equitable transition fund established in section 111 of this act does not fall below five hundred thousand dollars at any point during the biennium;</P>
+<P>(b) To the general fund for payments of administrative expenses, consistent with section 114 of this act; and</P>
+<P>(c) To the clean energy account, clean water climate program account, and the sustainable forest health account, consistent with sections 103 through 105, 107, and 108 of this act.</P>
+<P>(11) The department must round the tax rate to the nearest cent. The department must publish on its web site the tax rate for any year by January 1st of that year.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>203</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>TAX ON ELECTRICITY.</SectionCaption><P>(1) The tax imposed in section 202 of this act on electricity must be paid by the light and power business. If a wholesale customer of a light and power business consumes electricity for which a tax under section 202 of this act has not been paid by a light and power business, then the customer must pay the tax directly to the department.</P></BillSectionHeader>
+<P>(2)(a) Light and power businesses are exempt from the tax if they obtain a fully completed exemption certificate, authorized under section 208 of this act within ninety days, or a longer period as may be provided by rule by the department, subsequent to the payment period associated with a sale of electricity. Upon the request of the department, the light and power business must provide evidence that the tax has been refunded to the exempt entity.</P>
+<P>(b) If the light and power business has not obtained an exemption certificate authorized under section 208 of this act within the period allowed subsequent to a payment period, the light and power business may, within one hundred twenty days, or a longer period as may be provided by rule by the department, subsequent to a request for substantiation by the department, either prove that the transaction was not subject to tax by other means or obtain a fully completed exemption certificate from the purchaser, taken in good faith.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>204</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>TAX ON FOSSIL FUELS<TextRun fontFamily="Times New Roman">—</TextRun>ELECTRICITY AND COMBINED HEAT AND POWER.</SectionCaption><P>(1) A light and power business is not required to pay the tax on fossil fuels supplied to a light and power business by a supplier and for which the tax under this chapter has been paid by a supplier.</P></BillSectionHeader>
+<P>(2) The tax on fossil fuels supplied for combined heat and power, as defined in RCW 19.280.020, are imposed on the supplier. The department may not impose the tax on electricity from combined heat and power, and must instead impose upon and assign payment responsibility for the tax to the supplier.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>205</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>DEPARTMENT OF ECOLOGY CARBON CALCULATIONS AND REPORTING.</SectionCaption><P>(1) By December 15, 2017, the department of ecology must adopt rules specifying the basis for a carbon calculation on the emissions of carbon dioxide equivalent inherent in or associated with fossil fuels and of the emissions inherent in or associated with imported electricity. In determining a carbon calculation methodology, the department of ecology may consider, among other resources, the reports filed in section 206 of this act, the carbon dioxide content measurements for fossil fuels from the United States energy information administration, and the United States environmental protection agency.</P></BillSectionHeader>
+<P>(2) The department of ecology may periodically update the rules specifying the carbon content of fossil fuels and imported electricity. Department of ecology rule updates under this section must be adopted by November 1st of a given year, and must take effect beginning January 1st of the following year.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>206</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>ELECTRIC SOURCE REPORTING AND UNSPECIFIED POWER TO THE DEPARTMENT OF COMMERCE.</SectionCaption><P>(1) Each light and power business must file with the department of commerce a fuel mix report. The report must be filed with the department of commerce during the reporting period for the tax imposed under section 202 of this act, as determined by the department.</P></BillSectionHeader>
+<P>(2) The department of commerce must adopt rules regarding the content of the fuel mix report submitted under this section. The fuel mix report rules must require the submission of the information required by RCW 19.29A.060, as well as any other information deemed necessary by the department of commerce or by the department to administer the tax imposed under this chapter.</P>
+<P>(3) The department of commerce must adopt rules under which a light and power business may specify the resources used to generate electricity that is not a declared resource under RCW 19.29A.060(1). To the maximum extent practicable, the electricity source specification requirements and procedures adopted by the department of commerce must be consistent with the electric source specification requirements that apply to electricity in other jurisdictions that have adopted a policy that results in the imposition of a tax, price, or other cost associated with the carbon content of electricity.</P>
+<P>(4) For purposes of imposing the tax under this chapter, the department must assume the carbon content of electricity that is not attributed to a generation source under the rules adopted pursuant to this section is equal to one metric ton of carbon dioxide per megawatt-hour.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>207</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>EXEMPTIONS AND REDUCED RATES.</SectionCaption><P>(1) The tax levied under section 202 of this act does not apply to:</P></BillSectionHeader>
+<P>(a) Fossil fuels brought into this state by means of the fuel supply tank of a motor vehicle, vessel, locomotive, or aircraft;</P>
+<P>(b) Fossil fuels that are prohibited from taxation under the Constitution of Washington or the Constitution of the United States;</P>
+<P>(c) Fossil fuels that are exported or sold for export outside of Washington. Export to a federally recognized Indian tribal reservation located within this state is not considered export outside of Washington; or</P>
+<P>(d) Fossil fuels used for aviation or maritime purposes, unless by December 31, 2021, an international consortium for each respective industry has not adopted a greenhouse gas emissions reduction plan consistent with climate goals in RCW 70.235.020, as determined by the department of ecology on December 1, 2021.</P>
+<P>(2) The tax levied under section 202 of this act is imposed on EITE facilities except as provided for in section 208 of this act.</P>
+<P>(3) The tax levied under section 202 of this act does not apply to the following fuel purchases until July 1, 2039:</P>
+<P>(a) Diesel fuel or aircraft fuel used solely for agricultural purposes, as those terms are defined in RCW 82.08.865;</P>
+<P>(b) Fuel purchased for the purpose of public transportation and for which the purchaser is entitled to a refund under RCW 82.38.080(1) (f) and (g) or 82.38.180(3)(b);</P>
+<P>(c) Fuel that is purchased by a private, nonprofit transportation provider certified under chapter 81.66 RCW and for which the purchaser is entitled to a refund under RCW 82.38.080(1) (f) and (g) or 82.38.180(3)(b);</P>
+<P>(d) Fuel purchased by the Washington state ferry system for use in a state-owned ferry; and</P>
+<P>(e) Fuel purchased for school buses, as defined in and consistent with the requirements of RCW 46.04.521.</P>
+<P>(4) The department must make available a certificate for use by purchasers of fuels exempted under subsection (3) or (1)(d) of this section from the tax imposed in section 202 of this act.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>208</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>EITE FACILITY TAX EXEMPTION.</SectionCaption><P>(1) Beginning July 1, 2019, and each July 1st thereafter, each EITE facility that has obtained a certificate from the department of commerce consistent with section 110 of this act must submit a report to the department of commerce, in a form and at time intervals adopted by rule by the department of commerce, regarding the EITE facility's consumption of fossil fuels and electricity and the associated tax paid on the fossil fuel or electricity for the preceding twelve months. Beginning July 1, 2020, the report must also include the benchmark annual emissions volume established for the facility as determined by the department of ecology under section 209 of this act.</P></BillSectionHeader>
+<P>(2) EITE facilities may qualify for an exemption from the tax under section 202 of this act. To qualify for an exemption, an EITE facility must:</P>
+<P>(a) Submit the report required under subsection (1) of this section;</P>
+<P>(b) Obtain an exemption certificate from the department of commerce; and</P>
+<P>(c) Provide the certificate to the light and power business, supplier, or other taxable person under this act at the time of purchase of electricity or fossil fuels.</P>
+<P>(3) The exemption certificates authorized under this section must be renewed with the department annually. The department of commerce may not issue an exemption certificate under this section to any EITE facility that has not filed the report required in subsection (1) of this section.</P>
+<P>(4) The exemption is subject to reduction or cancellation in the event that, despite exemption from the tax, a certified EITE closes a facility within the state or moves significant numbers of jobs to facilities outside Washington state. The department of commerce, with input from the board, must make a recommendation to the department regarding the amount of the tax exemption to be recovered from the EITE facility, which must be proportional to the percentage of the EITE facility's number of full-time employee positions in the state that moved to facilities outside of Washington state.</P>
+<P>(5) The department must recover previously exempted tax in the event that they find that reductions were a result of relocation and not normal changes in economics or business cycle. In recovering previously exempted taxes in such an event, the department must seek recovery of the proportional amount described in subsection (4) of this section of the tax that would have otherwise been due over the previous five calendar years, plus interest assessed consistent with RCW 82.32.050. The board and the department of commerce must also recommend a commensurate reduction in tax exemption or cancellation of the exemption, to be enacted by the department starting at the next taxable event.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>209</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>EITE FACILITY BENCHMARK SETTING.</SectionCaption><P>(1) Beginning February 1, 2020, and each February 1st thereafter, each EITE facility must provide the following data to the department of ecology:</P></BillSectionHeader>
+<P>(a) Data that allows the department of ecology to calculate the actual or projected emissions of the EITE facility;</P>
+<P>(b) Actual or projected production data for the energy-intensive and trade-exposed facility;</P>
+<P>(c) Actual or projected operating hours and days of operation during a calendar year;</P>
+<P>(d) Information regarding an EITE facility's processes that consume fossil fuels, use electricity, or otherwise are associated with the emissions of greenhouse gases; and</P>
+<P>(e) Any other information requested by the department of ecology that is germane to calculations of the greenhouse gas intensity of production at the EITE facility.</P>
+<P>(2) The EITE facility must also make available personnel who can assist the department of ecology in assigning a baseline greenhouse gas emissions value for the facility. If the EITE facility does not provide the department of ecology with information or access to personnel in a timely manner, the department of ecology may use the best information available to the department to conservatively estimate any missing data and assign a baseline greenhouse gas emissions value.</P>
+<P>(3) For each EITE facility, the department of ecology must establish a benchmark volume of annual greenhouse gas emissions based upon a determination of the greenhouse gas emissions associated with the most efficient fifty percent of similar existing facilities, adjusted for production volumes. In making the assessment of the greenhouse gas emissions intensity of the fiftieth percentile of similar existing EITE facilities, the department of ecology:</P>
+<P>(a) Must attempt to find existing parties, either local or otherwise, that are similar to the energy-intensive and trade-exposed facility because they make or supply similar products using similar processes as the EITE facility;</P>
+<P>(b) May prorate emissions or production data to scale data from similar facilities to the energy-intensive and trade-exposed facility subject to the tax imposed under section 202 of this act;</P>
+<P>(c) Must use average emissions data from the most recent three to five-year period that such data is available for the energy-intensive and trade-exposed facility and for similar facilities identified; and</P>
+<P>(d) Must use best available engineering methods to estimate greenhouse gas emissions from the EITE facilities, if similar facilities do not exist.</P>
+<P>(4) By June 1, 2020, and each June 1st thereafter, the department of ecology must determine, consistent with subsection (3) of this section, whether each EITE facility that submitted information to the department of ecology under subsection (1) of this section has exceeded the fiftieth percentile benchmark emissions volume during the preceding year.</P>
+<P>(5) An EITE facility is eligible to submit project proposals to the clean energy account detailed in section 103 of this act, in order to work towards greater efficiency and to help those EITE facilities below the fiftieth percentile to exceed that benchmark. This provision does not limit the eligibility of other public or private applicants to these funds.</P>
+<P>(6) The department of ecology may adopt rules to implement this section.</P>
+<P>(7) Information submitted to the department of ecology pursuant to subsection (1)(b), (c), or (d) of this section is not subject to public disclosure under chapter 42.56 RCW.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>210</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>TAX ADMINISTRATION.</SectionCaption><P>All of the provisions in chapter 82.32 RCW have full force and application with respect to taxes imposed under the provisions of this chapter. The department must develop and make available worksheets, tax tables, and guidance documents necessary to calculate the emissions of fossil fuels or inherent in electricity.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>211</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>LOW-INCOME CARBON POLLUTION MITIGATION TAX GRANT.</SectionCaption><P>(1) The definitions in this section apply throughout this section unless the context clearly indicates otherwise.</P></BillSectionHeader>
+<P>(a) "Adjusted gross income" has the same meaning as provided in Title 26 U.S.C. Sec. 62 of the federal internal revenue code, as amended, as of the effective date of this section.</P>
+<P>(b) "Department" means the department of social and health services.</P>
+<P>(c) "Eligible person" means:</P>
+<P>(i) An individual, or an individual and that individual's spouse if they file a joint return, who:</P>
+<P>(A) Has an adjusted gross income as provided for in subsection (3) of this section; and</P>
+<P>(B) Properly files a federal income tax return as a Washington resident, and has been a resident of the state of Washington for more than one hundred eighty days of the year in which the grant is sought;</P>
+<P>(ii) Any person eligible for any Washington means-tested benefits including, but not limited to, temporary assistance for needy families under chapter 74.12 RCW and the supplemental nutrition assistance program under chapter 74.04 RCW, and who have resided in the state of Washington for more than one hundred eighty days of the year in which the grant is sought;</P>
+<P>(iii) Any nonresident aliens who have an individual taxpayer identification number from the United States internal revenue service and have resided in the state of Washington for more than one hundred eighty days of the year in which the grant is sought.</P>
+<P>(2) The department must establish and administer a low-income carbon pollution mitigation tax grant, as provided in this section, for Washington state residents to assist in the equitable transition to lower carbon emission energy sources.</P>
+<P>(3) A qualified person is allowed a low-income carbon pollution mitigation tax grant based on the adjusted gross income reported on the federal personal income tax return for the tax year in which the grant is sought. It must be calculated in accordance with, and subject to the limits of, the following tables:</P>
+<P textAlign="center" prePadding="halfline">Low-income carbon pollution mitigation tax grant, single head of household</P>
+<Table align="center" width="508.0pt" pubwidth="wide">
+<Col width="63.5pt" />
+<Col width="63.5pt" />
+<Col width="63.5pt" />
+<Col width="63.5pt" />
+<Col width="63.5pt" />
+<Col width="63.5pt" />
+<Col width="63.5pt" />
+<Col width="63.5pt" />
+<TR>
+<TD colspan="2" border-top="solid" border-bottom="solid" border-left="solid" border-right="solid"><P>No children</P></TD>
+<TD colspan="2" border-top="solid" border-bottom="solid" border-left="solid" border-right="solid"><P>1 child</P></TD>
+<TD colspan="2" border-top="solid" border-bottom="solid" border-left="solid" border-right="solid"><P>2 children</P></TD>
+<TD colspan="2" border-top="solid" border-bottom="solid" border-left="solid" border-right="solid"><P>3 or more children</P></TD>
+</TR>
+<TR>
+<TD border-top="solid" border-bottom="solid" border-left="solid" border-right="solid"><P>AGI Range</P></TD>
+<TD border-bottom="solid" border-right="solid"><P>Grant Amount</P></TD>
+<TD border-bottom="solid" border-right="solid"><P>AGI Range</P></TD>
+<TD border-bottom="solid" border-right="solid"><P>Grant Amount</P></TD>
+<TD border-bottom="solid" border-right="solid"><P>AGI Range</P></TD>
+<TD border-bottom="solid" border-right="solid"><P>Grant Amount</P></TD>
+<TD border-bottom="solid" border-right="solid"><P>AGI Range</P></TD>
+<TD border-bottom="solid" border-right="solid"><P>Grant Amount</P></TD>
+</TR>
+<TR>
+<TD border-top="solid" border-bottom="solid" border-left="solid" border-right="solid"><P>$0-$19,999</P></TD>
+<TD border-bottom="solid" border-right="solid"><P>$120</P></TD>
+<TD border-bottom="solid" border-right="solid"><P>$0-$19,999</P></TD>
+<TD border-bottom="solid" border-right="solid"><P>$180</P></TD>
+<TD border-bottom="solid" border-right="solid"><P>$0-$19,999</P></TD>
+<TD border-bottom="solid" border-right="solid"><P>$240</P></TD>
+<TD border-bottom="solid" border-right="solid"><P>$0-$19,999</P></TD>
+<TD border-bottom="solid" border-right="solid"><P>$300</P></TD>
+</TR>
+<TR>
+<TD border-top="solid" border-bottom="solid" border-left="solid" border-right="solid"><P>$20,000-$26,999</P></TD>
+<TD border-bottom="solid" border-right="solid"><P>$90</P></TD>
+<TD border-bottom="solid" border-right="solid"><P>$20,000-$26,999</P></TD>
+<TD border-bottom="solid" border-right="solid"><P>$135</P></TD>
+<TD border-bottom="solid" border-right="solid"><P>$20,000-$28,499</P></TD>
+<TD border-bottom="solid" border-right="solid"><P>$180</P></TD>
+<TD border-bottom="solid" border-right="solid"><P>$20,000-$29,499</P></TD>
+<TD border-bottom="solid" border-right="solid"><P>$225</P></TD>
+</TR>
+<TR>
+<TD border-top="solid" border-bottom="solid" border-left="solid" border-right="solid"><P>$27,000-$33,999</P></TD>
+<TD border-bottom="solid" border-right="solid"><P>$60</P></TD>
+<TD border-bottom="solid" border-right="solid"><P>$27,000-$33,999</P></TD>
+<TD border-bottom="solid" border-right="solid"><P>$90</P></TD>
+<TD border-bottom="solid" border-right="solid"><P>$28,500-$36,999</P></TD>
+<TD border-bottom="solid" border-right="solid"><P>$120</P></TD>
+<TD border-bottom="solid" border-right="solid"><P>$29,500-$38,999</P></TD>
+<TD border-bottom="solid" border-right="solid"><P>$150</P></TD>
+</TR>
+<TR>
+<TD border-top="solid" border-bottom="solid" border-left="solid" border-right="solid"><P>$34,000-$40,999</P></TD>
+<TD border-bottom="solid" border-right="solid"><P>$30</P></TD>
+<TD border-bottom="solid" border-right="solid"><P>$34,000-$40,999</P></TD>
+<TD border-bottom="solid" border-right="solid"><P>$45</P></TD>
+<TD border-bottom="solid" border-right="solid"><P>$37,000-$45,499</P></TD>
+<TD border-bottom="solid" border-right="solid"><P>$60</P></TD>
+<TD border-bottom="solid" border-right="solid"><P>$39,000-$48,499</P></TD>
+<TD border-bottom="solid" border-right="solid"><P>$75</P></TD>
+</TR>
+<TR>
+<TD border-top="solid" border-bottom="solid" border-left="solid" border-right="solid"><P>$41,000 or greater</P></TD>
+<TD border-bottom="solid" border-right="solid"><P>$0</P></TD>
+<TD border-bottom="solid" border-right="solid"><P>$41,000 or greater</P></TD>
+<TD border-bottom="solid" border-right="solid"><P>$0</P></TD>
+<TD border-bottom="solid" border-right="solid"><P>$45,500 or greater</P></TD>
+<TD border-bottom="solid" border-right="solid"><P>$0</P></TD>
+<TD border-bottom="solid" border-right="solid"><P>$48,500 or greater</P></TD>
+<TD border-bottom="solid" border-right="solid"><P>$0</P></TD>
+</TR>
+</Table>
+<P textAlign="center" prePadding="halfline">Low-income carbon pollution mitigation tax remittance, married/filing jointly</P>
+<Table align="center" width="508.0pt" pubwidth="wide">
+<Col width="63.5pt" />
+<Col width="63.5pt" />
+<Col width="63.5pt" />
+<Col width="63.5pt" />
+<Col width="63.5pt" />
+<Col width="63.5pt" />
+<Col width="63.5pt" />
+<Col width="63.5pt" />
+<TR>
+<TD colspan="2" border-top="solid" border-bottom="solid" border-left="solid" border-right="solid"><P>No children</P></TD>
+<TD colspan="2" border-top="solid" border-bottom="solid" border-left="solid" border-right="solid"><P>1 child</P></TD>
+<TD colspan="2" border-top="solid" border-bottom="solid" border-left="solid" border-right="solid"><P>2 children</P></TD>
+<TD colspan="2" border-top="solid" border-bottom="solid" border-left="solid" border-right="solid"><P>3 or more children</P></TD>
+</TR>
+<TR>
+<TD border-top="solid" border-bottom="solid" border-left="solid" border-right="solid"><P>AGI Range</P></TD>
+<TD border-bottom="solid" border-right="solid"><P>Grant Amount</P></TD>
+<TD border-bottom="solid" border-right="solid"><P>AGI Range</P></TD>
+<TD border-bottom="solid" border-right="solid"><P>Grant Amount</P></TD>
+<TD border-bottom="solid" border-right="solid"><P>AGI Range</P></TD>
+<TD border-bottom="solid" border-right="solid"><P>Grant Amount</P></TD>
+<TD border-bottom="solid" border-right="solid"><P>AGI Range</P></TD>
+<TD border-bottom="solid" border-right="solid"><P>Grant Amount</P></TD>
+</TR>
+<TR>
+<TD border-top="solid" border-bottom="solid" border-left="solid" border-right="solid"><P>$0-$23,999</P></TD>
+<TD border-bottom="solid" border-right="solid"><P>$120</P></TD>
+<TD border-bottom="solid" border-right="solid"><P>$0-$23,999</P></TD>
+<TD border-bottom="solid" border-right="solid"><P>$180</P></TD>
+<TD border-bottom="solid" border-right="solid"><P>$0-$23,999</P></TD>
+<TD border-bottom="solid" border-right="solid"><P>$240</P></TD>
+<TD border-bottom="solid" border-right="solid"><P>$0-$23,999</P></TD>
+<TD border-bottom="solid" border-right="solid"><P>$300</P></TD>
+</TR>
+<TR>
+<TD border-top="solid" border-bottom="solid" border-left="solid" border-right="solid"><P>$24,000-$30,999</P></TD>
+<TD border-bottom="solid" border-right="solid"><P>$90</P></TD>
+<TD border-bottom="solid" border-right="solid"><P>$24,000-$30,999</P></TD>
+<TD border-bottom="solid" border-right="solid"><P>$135</P></TD>
+<TD border-bottom="solid" border-right="solid"><P>$24,000-$32,999</P></TD>
+<TD border-bottom="solid" border-right="solid"><P>$180</P></TD>
+<TD border-bottom="solid" border-right="solid"><P>$24,000-$33,999</P></TD>
+<TD border-bottom="solid" border-right="solid"><P>$225</P></TD>
+</TR>
+<TR>
+<TD border-top="solid" border-bottom="solid" border-left="solid" border-right="solid"><P>$31,000-$37,999</P></TD>
+<TD border-bottom="solid" border-right="solid"><P>$60</P></TD>
+<TD border-bottom="solid" border-right="solid"><P>$31,000-$37,999</P></TD>
+<TD border-bottom="solid" border-right="solid"><P>$90</P></TD>
+<TD border-bottom="solid" border-right="solid"><P>$33,000-$41,999</P></TD>
+<TD border-bottom="solid" border-right="solid"><P>$120</P></TD>
+<TD border-bottom="solid" border-right="solid"><P>$34,000-$43,999</P></TD>
+<TD border-bottom="solid" border-right="solid"><P>$150</P></TD>
+</TR>
+<TR>
+<TD border-top="solid" border-bottom="solid" border-left="solid" border-right="solid"><P>$38,000-$44,999</P></TD>
+<TD border-bottom="solid" border-right="solid"><P>$30</P></TD>
+<TD border-bottom="solid" border-right="solid"><P>$38,000-$44,999</P></TD>
+<TD border-bottom="solid" border-right="solid"><P>$45</P></TD>
+<TD border-bottom="solid" border-right="solid"><P>$42,000-$50,999</P></TD>
+<TD border-bottom="solid" border-right="solid"><P>$60</P></TD>
+<TD border-bottom="solid" border-right="solid"><P>$44,000-$53,999</P></TD>
+<TD border-bottom="solid" border-right="solid"><P>$75</P></TD>
+</TR>
+<TR>
+<TD border-top="solid" border-bottom="solid" border-left="solid" border-right="solid"><P>$45,000 or greater</P></TD>
+<TD border-bottom="solid" border-right="solid"><P>$0</P></TD>
+<TD border-bottom="solid" border-right="solid"><P>$45,000 or greater</P></TD>
+<TD border-bottom="solid" border-right="solid"><P>$0</P></TD>
+<TD border-bottom="solid" border-right="solid"><P>$51,000 or greater</P></TD>
+<TD border-bottom="solid" border-right="solid"><P>$0</P></TD>
+<TD border-bottom="solid" border-right="solid"><P>$54,000 or greater</P></TD>
+<TD border-bottom="solid" border-right="solid"><P>$0</P></TD>
+</TR>
+</Table>
+<P prePadding="halfline">(4) The grant amounts provided for in subsection (3) of this section must be adjusted effective on January 1st of an even-numbered year based on the annual growth of the consumer price index for urban wage earners and clerical workers as published by the United States bureau of labor statistics on January 1st of the immediately previous odd-numbered year.</P>
+<P>(5) The grant under this section must be administered according to this subsection (5):</P>
+<P>(a) An eligible person must apply to the department for the grant as calculated under this section.</P>
+<P>(b) Applications for the low-income carbon pollution mitigation tax grant must be made in the year following the year for which the federal return was filed, but in no case may any remittance be provided for any period before July 1, 2018. The department may use the best available data to process the grant. The department must begin accepting applications October 1, 2019.</P>
+<P>(c) The department must review the application and determine eligibility for the low-income carbon pollution mitigation tax grant based on information provided by the applicant and through audit and other administrative records including, when it deems it necessary, verification through the department of revenue and the United States internal revenue service data.</P>
+<P>(d) The department must remit the grant amount to the eligible person who submitted the application. Grants may be made through electronic funds transfer or other means.</P>
+<P>(e) The department may, in conjunction with other agencies, design and implement a public information campaign to inform potentially eligible persons of the existence of and requirements of this grant.</P>
+<P>(f) The department may adopt any rules necessary to implement this section.</P>
+<P>(6) The low-income carbon pollution mitigation tax grant must be excluded from consideration as income for the purpose of determining eligibility and benefit levels of food stamp or benefit program recipients to the maximum exclusion authorized by federal law.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>212</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>TAX INCREASE MITIGATED UPON ACHIEVEMENT OF LIMITS.</SectionCaption><P>(1) If the department of ecology, based on data collected by the department on total electricity and fuels subject to the tax in the previous year, determines that:</P></BillSectionHeader>
+<P>(a) The sources of emissions covered by the tax imposed by this chapter are predicted to achieve or exceed their combined share of the emissions reductions necessary for the state to achieve the emissions limits established in RCW 70.235.020, the tax rate established in section 202 of this act must increase the following July 1st only by the rate of inflation;</P>
+<P>(b) The sources of emissions covered by the tax imposed by this chapter are predicted to fall short of their combined share of the emissions reductions necessary for the state to achieve the emissions limits established in RCW 70.235.020 by no more than three percent of the overall statewide limit, the rate of the tax established in section 202 of this act must increase the following July 1st only by two percent plus the rate of inflation;</P>
+<P>(c) The sources of emissions covered by the tax imposed by this chapter are predicted to fall short of their combined share of the emissions reductions necessary for the state to achieve the emissions limits established in RCW 70.235.020 by between three percent and five percent of the overall statewide limit, the rate of the tax established in section 202 of this act must increase the following July 1st only by four percent plus the rate of inflation.</P>
+<P>(2) For purposes of this section, the combined share of emissions reductions for sources of emissions covered by the tax imposed by this chapter is the proportion of the greenhouse gas emissions in 2017 by entities subject to the tax relative to the state's overall emissions that year.</P>
+<P>(3) The department of ecology must make the determinations required under this section by December 1st of each year.</P>
+</BillSection>
+<Part>
+<P>PART III</P>
+<P>Amending Current Greenhouse Gas Limits in State Law per the Department of Ecology's 2016 Report</P>
+</Part>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value fixed="true">301</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>70</TitleNumber><TextRun>.</TextRun><ChapterNumber>235</ChapterNumber><TextRun>.</TextRun><SectionNumber>020</SectionNumber></SectionCite> and 2008 c 14 s 3 are each amended to read as follows:<Caption>Greenhouse gas emissions reductions<TextRun fontFamily="Times New Roman">—</TextRun>Reporting requirements.</Caption></BillSectionHeader>
+<P>(1)(a) The state <TextRun amendingStyle="strike">shall</TextRun> <TextRun amendingStyle="add">must</TextRun> limit emissions of greenhouse gases to achieve the following emission reductions for Washington state:</P>
+<P>(i) By 2020, reduce overall emissions of greenhouse gases in the state to 1990 levels;</P>
+<P>(ii) By 2035, reduce overall emissions of greenhouse gases in the state to <TextRun amendingStyle="strike">twenty-five</TextRun> <TextRun amendingStyle="add">forty</TextRun> percent below 1990 levels;</P>
+<P>(iii) By 2050, the state will do its part to reach global climate stabilization levels by reducing overall emissions to <TextRun amendingStyle="strike">fifty</TextRun> <TextRun amendingStyle="add">eighty</TextRun> percent below 1990 levels<TextRun amendingStyle="strike">, or seventy percent below the state's expected emissions that year</TextRun>.</P>
+<P>(b) By December 1, 2008, the department <TextRun amendingStyle="strike">shall</TextRun> <TextRun amendingStyle="add">must</TextRun> submit a greenhouse gas reduction plan for review and approval to the legislature, describing those actions necessary to achieve the emission reductions in (a) of this subsection by using existing statutory authority and any additional authority granted by the legislature. Actions taken using existing statutory authority may proceed prior to approval of the greenhouse gas reduction plan.</P>
+<P>(c) Except where explicitly stated otherwise, nothing in chapter 14, Laws of 2008 limits any state agency authorities as they existed prior to June 12, 2008.</P>
+<P>(d) Consistent with this directive, the department <TextRun amendingStyle="strike">shall</TextRun> <TextRun amendingStyle="add">must</TextRun> take the following actions:</P>
+<P>(i) Develop and implement a system for monitoring and reporting emissions of greenhouse gases as required under RCW 70.94.151; and</P>
+<P>(ii) Track progress toward meeting the emission reductions established in this subsection, including the results from policies currently in effect that have been previously adopted by the state and policies adopted in the future, and report on that progress.</P>
+<P>(2)<TextRun amendingStyle="add">(a)</TextRun> By <TextRun amendingStyle="strike">December</TextRun> <TextRun amendingStyle="add">October</TextRun> 31st of each even-numbered year beginning in 2010, the department and the department of <TextRun amendingStyle="strike">community, trade, and economic development shall</TextRun> <TextRun amendingStyle="add">commerce must</TextRun> report to the governor and the appropriate committees of the senate and house of representatives the total emissions of greenhouse gases for the preceding two years, and totals in each major source sector. <TextRun amendingStyle="add">The report must address both emissions from sources subject to the tax imposed pursuant to section 202 of this act and emissions from sources not subject to the tax.</TextRun></P>
+<P><TextRun amendingStyle="add">(b) The report required in (a) of this subsection (2) must include a declaration of whether entities subject to the tax imposed in chapter <TextRun keepTogether="always">82.---</TextRun> RCW (the new chapter created in section 402 of this act) have met their combined share of emissions reductions as defined in section 212 of this act. Beginning in 2024, the report must also evaluate the efficacy of the tax rate adjustments occurring under section 212 of this act, taking into account the rate of the tax that was imposed over the preceding three biennia. If the department determines that the entities subject to the tax did not meet their combined share of emissions reductions towards the achievement of the state limits established in subsection (1) of this section during the previous biennium, the report must include a recommendation to the legislature for an adjustment to the tax rate imposed in section 202 of this act that would be sufficient for the state to achieve the limits established in subsection (1) of this section.</TextRun></P>
+<P><TextRun amendingStyle="add">(c)</TextRun> The department <TextRun amendingStyle="strike">shall</TextRun> <TextRun amendingStyle="add">must</TextRun> ensure the reporting rules adopted under RCW 70.94.151 allow it to develop a comprehensive inventory of emissions of greenhouse gases from all significant sectors of the Washington economy.</P>
+<P>(3) Except for purposes of reporting, emissions of carbon dioxide from industrial combustion of biomass in the form of fuel wood, wood waste, wood by-products, and wood residuals <TextRun amendingStyle="strike">shall not be</TextRun> <TextRun amendingStyle="add">is not</TextRun> considered a greenhouse gas as long as the region's silvicultural sequestration capacity is maintained or increased.</P>
+<History>2008 c 14 § 3.</History>
+<RCWNoteSection>
+<RevNote><NoteP><TextRun fontWeight="bold">*Reviser's note:</TextRun> The "department of community, trade, and economic development" was renamed the "department of commerce" by 2009 c 565.</NoteP></RevNote>
+</RCWNoteSection>
+</BillSection>
+<Part>
+<P>PART IV</P>
+<P>Miscellaneous Provisions</P>
+</Part>
+<BillSection type="new" action="addchap">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value fixed="true">401</Value><TextRun>.  </TextRun></BillSectionNumber><P>Part I of this act constitutes a new chapter in <TitleCite><TextRun>Title </TextRun><TitleNumber>70</TitleNumber><TextRun> RCW</TextRun></TitleCite>.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addchap">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>402</Value><TextRun>.  </TextRun></BillSectionNumber><P>Part II of this act constitutes a new chapter in <TitleCite><TextRun>Title </TextRun><TitleNumber>82</TitleNumber><TextRun> RCW</TextRun></TitleCite>.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>403</Value><TextRun>.  </TextRun></BillSectionNumber><P>Part II of this act is exempt from the provisions of RCW 82.32.805 and 82.32.808.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>404</Value><TextRun>.  </TextRun></BillSectionNumber><P>Except where explicitly stated otherwise, nothing in this act limits the authority of any state agency as it existed prior to the effective date of this section.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>405</Value><TextRun>.  </TextRun></BillSectionNumber><P>If any provision of this act or its application to any person or circumstance is held invalid, the remainder of the act or the application of the provision to other persons or circumstances is not affected.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

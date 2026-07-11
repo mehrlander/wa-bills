@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-1603.1</RequestNumber><ShortBillId>HB 2022</ShortBillId><LongBillId>HOUSE BILL 2022</LongBillId><Legislature>65th Legislature</Legislature><Session>2017 Regular Session</Session><Sponsors>Representative Kilduff</Sponsors><BillHistory><ReadDate>Read first time 02/08/17.</ReadDate><ReferredCommittee>Referred to Committee on Judiciary.</ReferredCommittee></BillHistory><BriefDescription>Concerning homeowners' association violations.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to homeowners' association violations; and amending RCW 64.38.050.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>64</TitleNumber><TextRun>.</TextRun><ChapterNumber>38</ChapterNumber><TextRun>.</TextRun><SectionNumber>050</SectionNumber></SectionCite> and 1995 c 283 s 10 are each amended to read as follows:<Caption>Violation<TextRun fontFamily="Times New Roman">—</TextRun>Remedy<TextRun fontFamily="Times New Roman">—</TextRun>Attorneys' fees.</Caption></BillSectionHeader>
+<P>Any violation of the provisions of this chapter entitles an aggrieved party to any remedy provided by law or in equity. <TextRun amendingStyle="add">If a willful violation of this chapter is found, the aggrieved party is entitled to exemplary damages up to two times the actual damages sustained.</TextRun> The court<TextRun amendingStyle="strike">, in an appropriate case, may</TextRun> <TextRun amendingStyle="add">shall</TextRun> award <TextRun amendingStyle="add">costs and</TextRun> reasonable attorneys' fees to the prevailing party.</P>
+<History>1995 c 283 § 10.</History>
+</BillSection>
+</BillBody>
+</Bill>

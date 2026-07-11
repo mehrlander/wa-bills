@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-1935.2</RequestNumber><ShortBillId>SHB 1503</ShortBillId><LongBillId>SUBSTITUTE HOUSE BILL 1503</LongBillId><Legislature>65th Legislature</Legislature><Session>2017 Regular Session</Session><Sponsors>House Environment (originally sponsored by Representatives Short, Taylor, Van Werven, Buys, Haler, Kraft, and Hargrove)</Sponsors><BillHistory><ReadDate>READ FIRST TIME 02/17/17.</ReadDate></BillHistory><BriefDescription>Preventing unfunded mandates involving on-site sewage systems from affecting local governments and property owners.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to preventing unfunded mandates involving on-site sewage systems from affecting local governments and property owners; adding a new section to chapter 36.70A RCW; adding a new section to chapter 70.118A RCW; and adding a new section to chapter 70.05 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>36</TitleNumber><TextRun>.</TextRun><ChapterNumber>70A</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>This chapter, including but not limited to RCW 36.70A.070 (1) and (5), does not preclude certain counties from authorizing inspections of on-site sewage systems to be conducted, in appropriate circumstances, by a homeowner, a homeowner's family member, or a homeowner's tenant that has completed certification requirements specified by the county. If a county, the department of ecology, or a local health jurisdiction has identified a water quality problem that is linked to poorly functioning on-site sewage systems, a county ordinance that authorizes the self-inspection of an on-site sewage system may only do so consistent with the following conditions:</P>
+<P>(1) The on-site sewage system is not in an area that has been designated pursuant to RCW 70.118A.040;</P>
+<P>(2) The on-site sewage system treats sewage only from a residential source that is either a single-family residence or a duplex;</P>
+<P>(3) The on-site sewage system uses a gravity flow subsurface absorption system that does not rely on electrical components in order to function;</P>
+<P>(4) The on-site sewage system is not being operated pursuant to a permit issued, consistent with WAC 246-272A-0280 as it existed as of the effective date of this section, to a system that has previously failed;</P>
+<P>(5) The person performing the inspection of the on-site sewage system is the owner of the property, a family member of the owner of the property, or a resident of the property; and</P>
+<P>(6) The local health jurisdiction makes available educational materials, training opportunities, and reasonable levels of technical assistance in support of property owners choosing to self-inspect their residential on-site sewage systems.</P>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>70</TitleNumber><TextRun>.</TextRun><ChapterNumber>118A</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>Nothing in this chapter prohibits a county from relying on self-inspection of on-site sewage systems consistent with section 1 of this act for the purposes of protecting the quality or quantity of surface or groundwater resources under chapter 36.70A RCW.</P>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>70</TitleNumber><TextRun>.</TextRun><ChapterNumber>05</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>Nothing in this chapter prohibits a county from relying on self-inspection of on-site sewage systems consistent with section 1 of this act for the purposes of protecting the quality or quantity of surface or groundwater resources under chapter 36.70A RCW.</P>
+</BillSection>
+</BillBody>
+</Bill>

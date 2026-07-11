@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-3761.1</RequestNumber><ShortBillId>HB 2808</ShortBillId><LongBillId>HOUSE BILL 2808</LongBillId><Legislature>65th Legislature</Legislature><Session>2018 Regular Session</Session><Sponsors>Representatives Kirby and Walsh</Sponsors><BillHistory><ReadDate>Read first time 01/16/18.</ReadDate><ReferredCommittee>Referred to Committee on Business &amp; Financial Services.</ReferredCommittee></BillHistory><BriefDescription>Concerning vehicle dealer licensing.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to vehicle dealer licensing; amending 2017 c 15 s 1 (uncodified); adding a new section to chapter 46.70 RCW; repealing 2017 c 15 ss 2, 3, 4, 5, and 6; and repealing 2017 c 15 s 8 (uncodified).</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amenduncod" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><UncodCite>2017 c 15 s 1</UncodCite> (uncodified) is amended to read as follows:</BillSectionHeader>
+<P>(1)<TextRun amendingStyle="add">(a)</TextRun> Effective July 1, 2017, the department of licensing may not issue any new wholesale vehicle dealer licenses.</P>
+<P><TextRun amendingStyle="strike">(2)</TextRun> <TextRun amendingStyle="add">(b)</TextRun> Effective July 1, 2018, the department of licensing may not renew any wholesale vehicle dealer licenses<TextRun amendingStyle="strikemarkleft">.</TextRun></P>
+<P><TextRun amendingStyle="strikemarkright">(3) This section expires October 31, 2019</TextRun><TextRun amendingStyle="add">, except as provided in subsection (2) of this section.</TextRun></P>
+<P><TextRun amendingStyle="add">(2) The department of licensing shall renew a wholesale vehicle dealer license of a wholesale vehicle dealer who has held the license continuously for at least the previous six years from the effective date of this section and who otherwise meets the requirements of this chapter</TextRun>.</P>
+</BillSection>
+<BillSection type="new" action="repealuncod" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>The following acts or parts of acts are each repealed:</P></BillSectionHeader>
+<P><RepealNumber>1</RepealNumber><UncodCite>2017 c 15 s 2</UncodCite>;</P>
+<P><RepealNumber>2</RepealNumber><UncodCite>2017 c 15 s 3</UncodCite>;</P>
+<P><RepealNumber>3</RepealNumber><UncodCite>2017 c 15 s 4</UncodCite>;</P>
+<P><RepealNumber>4</RepealNumber><UncodCite>2017 c 15 s 5</UncodCite>;</P>
+<P><RepealNumber>5</RepealNumber><UncodCite>2017 c 15 s 6</UncodCite>; and</P>
+<P><RepealNumber>6</RepealNumber><UncodCite>2017 c 15 s 8</UncodCite> (uncodified).</P>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>Section 1 of this act is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>46</TitleNumber><TextRun>.</TextRun><ChapterNumber>70</ChapterNumber><TextRun> RCW</TextRun></ChapterCite>.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

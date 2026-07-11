@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-3280.1</RequestNumber><ShortBillId>HB 2397</ShortBillId><LongBillId>HOUSE BILL 2397</LongBillId><Legislature>65th Legislature</Legislature><Session>2018 Regular Session</Session><Sponsors>Representatives Kilduff, Haler, Reeves, Senn, Kagi, Appleton, Riccelli, and Young</Sponsors><BillHistory><PrefiledDate>Prefiled 01/05/18.</PrefiledDate><ReadDate>Read first time 01/08/18.</ReadDate><ReferredCommittee>Referred to Committee on Health Care &amp; Wellness.</ReferredCommittee></BillHistory><BriefDescription>Requiring health plans to reimburse the United States department of veterans affairs for health services provided to veterans for nonservice-connected disability treatments.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to requiring health plans to reimburse the United States department of veterans affairs for health services provided to veterans for nonservice-connected disability treatments; adding a new section to chapter 48.43 RCW; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The federal government has passed the veterans access, choice, and accountability act of 2014, as well as the veterans choice improvement act of 2017, to allow broader access to care for veterans, directing the United States department of veterans affairs to pay for private sector care in certain situations. Many veterans prefer to access care at veterans affairs health care facilities whenever possible, and it is the intent of the legislature to support veterans and ensure private sector health insurance plans reimburse veterans health care facilities when health plan enrollees receive services for a nonservice-connected disability treatment through the United States department of veterans affairs.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>48</TitleNumber><TextRun>.</TextRun><ChapterNumber>43</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) A health plan issued or renewed by a health carrier on or after January 1, 2019, must reimburse any United States department of veterans affairs facility for covered services provided by the facility for any nonservice-connected disability treatment, consistent with the requirements of 38 U.S.C. Sec. 1729 and 38 C.F.R. Sec. 17.101.</P>
+<P>(2) The amount of the reimbursement provided under subsection (1) of this section, must be:</P>
+<P>(a) An amount agreed to by the facility and the health carrier; or</P>
+<P>(b) The lesser of:</P>
+<P>(i) The billed charges described in 38 C.F.R. Sec. 17.101; or</P>
+<P>(ii) The in-network amount.</P>
+<P>(3) For purposes of this section:</P>
+<P>(a) "In-network amount" means the median reimbursement amount for the same care or services provided by in-network providers in the health plan's service area.</P>
+<P>(b) "Veterans affairs facility" means a hospital or clinic operated by the United States department of veterans affairs.</P>
+</BillSection>
+</BillBody>
+</Bill>

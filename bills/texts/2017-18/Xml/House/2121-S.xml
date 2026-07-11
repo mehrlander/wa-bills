@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-2151.1</RequestNumber><ShortBillId>SHB 2121</ShortBillId><LongBillId>SUBSTITUTE HOUSE BILL 2121</LongBillId><Legislature>65th Legislature</Legislature><Session>2017 Regular Session</Session><Sponsors>House Appropriations (originally sponsored by Representatives Pettigrew, Tarleton, and Macri)</Sponsors><BillHistory><ReadDate>READ FIRST TIME 02/24/17.</ReadDate></BillHistory><BriefDescription>Repealing income eligibility for temporary assistance for needy families benefits for a child who lives with a nonparent caregiver.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to income eligibility for temporary assistance for needy families benefits for a child who lives with a nonparent caregiver; creating a new section; repealing RCW 74.12.037; and providing an effective date.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="repeal">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P><SectionCite><TextRun>RCW </TextRun><TitleNumber>74</TitleNumber><TextRun>.</TextRun><ChapterNumber>12</ChapterNumber><TextRun>.</TextRun><SectionNumber>037</SectionNumber></SectionCite> (Income eligibility<TextRun fontFamily="Times New Roman">—</TextRun>Unearned income exemption) and 2014 c 75 s 1 &amp; 2011 1st sp.s. c 42 s 4 are each repealed.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>If specific funding for the purposes of this act, referencing this act by bill or chapter number, is not provided by June 30, 2017, in the omnibus appropriations act, this act is null and void.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="effdate">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act takes effect on November 1, 2017.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

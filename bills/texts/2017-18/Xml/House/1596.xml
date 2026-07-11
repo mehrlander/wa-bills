@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-0756.1</RequestNumber><ShortBillId>HB 1596</ShortBillId><LongBillId>HOUSE BILL 1596</LongBillId><Legislature>65th Legislature</Legislature><Session>2017 Regular Session</Session><Sponsors>Representatives Doglio, Fitzgibbon, McBride, Stanford, Peterson, Farrell, Kagi, Senn, Ryu, Sullivan, Gregerson, Hudgins, Pollet, Jinkins, and Tarleton</Sponsors><BillHistory><ReadDate>Read first time 01/25/17.</ReadDate><ReferredCommittee>Referred to Committee on Environment.</ReferredCommittee></BillHistory><BriefDescription>Requiring manufacturers of electronics to report the presence of high priority chemicals under the children's safe products act.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to requiring manufacturers of electronics to report the presence of high priority chemicals under the children's safe products act; and amending RCW 70.240.040.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>70</TitleNumber><TextRun>.</TextRun><ChapterNumber>240</ChapterNumber><TextRun>.</TextRun><SectionNumber>040</SectionNumber></SectionCite> and 2008 c 288 s 5 are each amended to read as follows:<Caption>Notice that a children's product contains a high priority chemical.</Caption></BillSectionHeader>
+<P>Beginning six months after the department has adopted rules under <TextRun amendingStyle="strike">section 8(5) of this act</TextRun> <TextRun amendingStyle="add">chapter 288, Laws of 2008</TextRun>, a manufacturer of a children's product, or a trade organization on behalf of its member manufacturers, shall provide notice to the department that the manufacturer's product contains a high priority chemical. <TextRun amendingStyle="add">Beginning January 1, 2018, a manufacturer of consumer or children's electronic products specified in RCW 70.240.010(4)(b)(vii) shall provide notice to the department that the manufacturer's product contains a high priority chemical.</TextRun> The notice must be filed annually with the department and must include the following information:</P>
+<P>(1) The name of the chemical used or produced and its chemical abstracts service registry number;</P>
+<P>(2) A brief description of the product or product component containing the substance;</P>
+<P>(3) A description of the function of the chemical in the product;</P>
+<P>(4) The amount of the chemical used in each unit of the product or product component. The amount may be reported in ranges, rather than the exact amount;</P>
+<P>(5) The name and address of the manufacturer and the name, address, and phone number of a contact person for the manufacturer; and</P>
+<P>(6) Any other information the manufacturer deems relevant to the appropriate use of the product.</P>
+<History>2008 c 288 § 5.</History>
+<RCWNoteSection>
+<RevNote><NoteP><TextRun fontWeight="bold">*Reviser's note:</TextRun> Section 8 of this act was vetoed by the governor.</NoteP></RevNote>
+</RCWNoteSection>
+</BillSection>
+</BillBody>
+</Bill>

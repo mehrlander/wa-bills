@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-1088.1</RequestNumber><ShortBillId>HB 1576</ShortBillId><LongBillId>HOUSE BILL 1576</LongBillId><Legislature>65th Legislature</Legislature><Session>2017 Regular Session</Session><Sponsors>Representative Schmick</Sponsors><BillHistory><ReadDate>Read first time 01/24/17.</ReadDate><ReferredCommittee>Referred to Committee on Health Care &amp; Wellness.</ReferredCommittee></BillHistory><BriefDescription>Concerning legislative oversight over the activities of the office of the insurance commissioner.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to legislative oversight over the activities of the office of the insurance commissioner; amending RCW 48.02.170; and adding a new chapter to Title 48 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The definitions in this section apply throughout this chapter, unless the context clearly requires otherwise.</P></BillSectionHeader>
+<P>(1) "Commissioner" means the insurance commissioner.</P>
+<P>(2) "Health care service" has the same meaning as in RCW 48.43.005.</P>
+<P>(3) "Health carrier" has the same meaning as in RCW 48.43.005.</P>
+<P>(4) "Health plan" means any policy, contract, or agreement offered by a health carrier to provide, arrange, reimburse, or pay for health care services.</P>
+<P>(5) "Joint administrative rules review committee" or "committee" means the joint administrative rules review committee established under RCW 34.05.610.</P>
+<P>(6) "Significant legislative rule" means a rule adopted under RCW 34.05.328.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) The commissioner shall review each significant legislative rule, adopted on or after the effective date of this section, relating to health carriers or health plans. The commissioner shall initiate the review two years after the rule's effective date and complete the review within sixty days.</P></BillSectionHeader>
+<P>(2) When conducting the review, the commissioner shall:</P>
+<P>(a) Repeat the analysis he or she performed under RCW 34.05.328 in light of the commissioner's experience implementing the rule and any changes in the health insurance marketplace;</P>
+<P>(b) Determine whether the analysis originally performed under RCW 34.05.328 is accurate and valid under current circumstances; and</P>
+<P>(c) Solicit input from stakeholders.</P>
+<P>(3) If the commissioner finds that the analysis performed under RCW 34.05.328 is inaccurate or no longer valid under current circumstances, the review must include the corrective action the commissioner plans to implement, including amending or repealing the rule.</P>
+<P>(4) Upon completion, the commissioner shall transmit all reviews completed under this section, including any stakeholder input received under subsection (2)(c) of this section, to the health care committees of the house of representatives and the senate.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) Within sixty days of a written request by the chair or ranking minority member of one of the health care committees of the house of representatives or senate, the joint administrative rules review committee shall conduct a hearing on a review completed by the commissioner under section 2 of this act.</P></BillSectionHeader>
+<P>(2) If a majority of the members of the joint administrative rules review committee finds that the commissioner's initial analysis under RCW 34.05.328 is inaccurate or no longer valid under current circumstances and the commissioner's proposed corrective action will not resolve the inaccuracy or invalidity, the committee may order the commissioner to amend or repeal the rule.</P>
+<P>(3) The code reviser shall publish orders issued by the joint administrative rules review committee under this section in the Washington State Register.</P>
+<P>(4) Upon publication of an order in the Washington State Register under subsection (3) of this section, the commissioner shall immediately initiate rule making to implement the order.</P>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>48</TitleNumber><TextRun>.</TextRun><ChapterNumber>02</ChapterNumber><TextRun>.</TextRun><SectionNumber>170</SectionNumber></SectionCite> and 2009 c 549 s 7012 are each amended to read as follows:<Caption>Annual report.</Caption></BillSectionHeader>
+<P><TextRun amendingStyle="add">(1)</TextRun> The commissioner shall, as soon as accurate preparation enables, prepare a report of his or her official transactions during the preceding fiscal year, containing information relative to insurance as the commissioner deems proper.</P>
+<P><TextRun amendingStyle="add">(2) The report must include the following performance data on the commissioner's regulatory activities in the health insurance market:</TextRun></P>
+<P><TextRun amendingStyle="add">(a) License applications and renewals, including the outcomes of the applications and renewals and the average time to process the applications and renewals;</TextRun></P>
+<P><TextRun amendingStyle="add">(b) Reviews of rates and forms, the outcome of the reviews, and the average time to complete the reviews; and</TextRun></P>
+<P><TextRun amendingStyle="add">(c) Enforcement actions against regulated entities, including the outcomes of the actions and the average time to complete the actions.</TextRun></P>
+<History>2009 c 549 § 7012; 1987 c 505 § 53; 1977 c 75 § 69; 1947 c 79 § .02.17; Rem. Supp. 1947 § 45.02.17.</History>
+</BillSection>
+<BillSection type="new" action="addchap">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>5</Value><TextRun>.  </TextRun></BillSectionNumber><P>Sections 1 through 3 of this act constitute a new chapter in <TitleCite><TextRun>Title </TextRun><TitleNumber>48</TitleNumber><TextRun> RCW</TextRun></TitleCite>.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

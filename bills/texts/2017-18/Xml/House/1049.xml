@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-0527.1</RequestNumber><ShortBillId>HB 1049</ShortBillId><LongBillId>HOUSE BILL 1049</LongBillId><Legislature>65th Legislature</Legislature><Session>2017 Regular Session</Session><Sponsors>Representative Morris</Sponsors><BillHistory><PrefiledDate>Prefiled 12/23/16.</PrefiledDate><ReadDate>Read first time 01/09/17.</ReadDate><ReferredCommittee>Referred to Committee on Technology &amp; Economic Development.</ReferredCommittee></BillHistory><BriefDescription>Concerning unmanned aircraft.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to unmanned aircraft; adding a new section to chapter 47.68 RCW; adding a new section to chapter 4.24 RCW; and prescribing penalties.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>47</TitleNumber><TextRun>.</TextRun><ChapterNumber>68</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) It is unlawful for a person to launch an unmanned aircraft in Washington state without specific federal authorization unless the unmanned aircraft is clearly and prominently labeled with the name and phone number of the unmanned aircraft's owner and operator.</P>
+<P>(2) It is unlawful for an operator of an unmanned aircraft to, without specific federal authorization, operate the unmanned aircraft over real property lawfully owned or occupied by a person, other than a public agency, without the consent of a lawful owner or occupant of the real property.</P>
+<P>(3) Subsections (1) and (2) of this section do not apply if the unmanned aircraft is lawfully in the flight path for landing at an airport, airfield, or runway and the unmanned aircraft is lawfully in the process of taking off or landing, pursuant to specific federal authorization.</P>
+<P>(4) Any person who operates an unmanned aircraft in violation of subsection (1) or (2) of this section commits a class 2 civil infraction punishable under chapter 7.80 RCW. The penalties provided in RCW 47.68.240 do not apply to this section.</P>
+<P>(5) This section may be enforced by any law enforcement officer.</P>
+<P>(6) For purposes of this section:</P>
+<P>(a) "Law enforcement officer" means any general authority, limited authority, or specially commissioned Washington peace officer or federal peace officer, as those terms are defined in RCW 10.93.020.</P>
+<P>(b) "Public agency" has the same meaning as defined in RCW 42.30.020.</P>
+<P>(c) "Radio-controlled aircraft" means an aircraft with no human pilot on board that is entirely manually controlled using a handheld radio transmitter and that is not capable of autonomous flight.</P>
+<P>(d) "Specific federal authorization" means lawfully permitted under the federal aviation administration modernization and reform act of 2012, P.L. 112-95, as in effect on January 1, 2015, except that "specific federal authorization" does not include operation of an unmanned aircraft as federally authorized under the special rule for model aircraft provided in section 336 of that act.</P>
+<P>(e) "Unmanned aircraft" means an aircraft, other than a radio<Hyphen type="nobreak" />controlled aircraft, with no human pilot on board.</P>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>4</TitleNumber><TextRun>.</TextRun><ChapterNumber>24</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) Except as provided in subsection (2) of this section, a person who owns or lawfully occupies real property in this state may bring an action for trespass against any person, other than a public agency, who operates an unmanned aircraft over the real property if:</P>
+<P>(a) The operator of the unmanned aircraft has flown the unmanned aircraft over the property on at least one previous occasion; and</P>
+<P>(b) An owner or lawful occupant of the real property has notified the owner or operator of the unmanned aircraft that an owner or lawful occupant of the real property did not want the unmanned aircraft flown over the property.</P>
+<P>(2) A person may not bring an action under this section if the unmanned aircraft is lawfully in the flight path for landing at an airport, airfield, or runway and the unmanned aircraft is lawfully in the process of taking off or landing, pursuant to specific federal authorization.</P>
+<P>(3) In any action brought under subsection (1) of this section, a person may recover actual damages or elect to recover, without proof of special damages, five hundred dollars as liquidated damages. A person may be awarded injunctive relief in the action.</P>
+<P>(4) This section is not intended to limit the rights and defenses available at common law under a claim of liability for wrongful occupation of real property.</P>
+<P>(5) A prevailing plaintiff under this section is entitled to recover reasonable attorneys' fees and legal expenses. These expenses are not confined to the costs allowed under RCW 4.84.010.</P>
+<P>(6) For purposes of this section:</P>
+<P>(a) "Public agency" has the same meaning as defined in RCW 42.30.020.</P>
+<P>(b) "Radio-controlled aircraft" means an aircraft with no human pilot on board that is entirely manually controlled using a handheld radio transmitter and that is not capable of autonomous flight.</P>
+<P>(c) "Specific federal authorization" means lawfully permitted under the federal aviation administration modernization and reform act of 2012, P.L. 112-95, as in effect on January 1, 2015, except that "specific federal authorization" does not include operation of an unmanned aircraft as federally authorized under the special rule for model aircraft provided in section 336 of that act.</P>
+<P>(d) "Unmanned aircraft" means an aircraft, other than a radio<Hyphen type="nobreak" />controlled aircraft, with no human pilot on board.</P>
+</BillSection>
+</BillBody>
+</Bill>

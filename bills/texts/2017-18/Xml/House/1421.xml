@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-0318.1</RequestNumber><ShortBillId>HB 1421</ShortBillId><LongBillId>HOUSE BILL 1421</LongBillId><Legislature>65th Legislature</Legislature><Session>2017 Regular Session</Session><Sponsors>Representatives Smith, Hudgins, and Stanford</Sponsors><BillHistory><ReadDate>Read first time 01/19/17.</ReadDate><ReferredCommittee>Referred to Committee on State Government.</ReferredCommittee></BillHistory><BriefDescription>Concerning the removal of payment credentials and other sensitive data from state data networks.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to the removal of payment credentials and other sensitive data from state data networks; and adding a new section to chapter 43.105 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>105</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) State agencies shall not store payment credentials on state data systems. For the purposes of this section, "payment credentials" means:</P>
+<P>(a) The full magnetic stripe or primary account number of a credit or debit card combined with cardholder name, expiration date, or service code; or</P>
+<P>(b) Other personally identifiable credentials allowing the state to receive incoming payments for services, excluding account information required for making outgoing payments, distributions, and transfers.</P>
+<P>(2) Payment credentials collected on behalf of a state agency in order to process payments for the agency must be accepted and stored by a third-party institution that is fully compliant with industry leading security standards.</P>
+<P>(3) If a security incident results in the unauthorized acquisition of payment credentials collected and processed by a third-party institution on behalf of a state agency, and if that institution is found not to have been fully compliant with industry leading security standards at the time of the breach, that institution is fully financially liable for the damages resulting from the breach. Damages may include costs of notification, credit monitoring, identity theft prevention measures, or any other remedies provided under relevant data breach laws.</P>
+<P>(4) State agencies that currently store payment credentials must work with the office to eliminate these data from state data systems by July 1, 2020.</P>
+<P>(5) The office may grant a waiver to the requirement under subsection (4) of this section in instances where transitioning payment credentials off state data systems presents special difficulty, or where holding payment credentials on state data systems is required for the day-to-day business of the agency or by law.</P>
+<P>(6) The office shall develop a policy for minimizing the retention of social security numbers and other sensitive, personally identifiable information by state agencies whenever not required for the day-to-day operations of an agency or by law. This policy must include instructions for identifying and classifying sensitive data, eliminating it where possible, and protecting them as necessary. The policy must include an examination of the reasons sensitive data are being collected, and any ongoing retention must be justified. All state agencies must comply with this policy.</P>
+</BillSection>
+</BillBody>
+</Bill>

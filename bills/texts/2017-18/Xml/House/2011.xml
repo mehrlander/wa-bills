@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-1439.1</RequestNumber><ShortBillId>HB 2011</ShortBillId><LongBillId>HOUSE BILL 2011</LongBillId><Legislature>65th Legislature</Legislature><Session>2017 Regular Session</Session><Sponsors>Representatives Koster and Volz</Sponsors><BillHistory><ReadDate>Read first time 02/07/17.</ReadDate><ReferredCommittee>Referred to Committee on Local Government.</ReferredCommittee></BillHistory><BriefDescription>Completing a study of the comparative constitutional and statutory obligations and revenue capacity of various local government entities.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to completing a study of the comparative constitutional and statutory obligations and revenue capacity of various local government entities; creating a new section; and making an appropriation.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) By December 30, 2017, and in compliance with RCW 43.01.036, the Washington state institute for public policy must prepare a report to the legislature describing:</P></BillSectionHeader>
+<P>(a) The comparative constitutional and statutory obligations of different types of local governments;</P>
+<P>(b) The comparative revenue of different types of local governments including local revenue authority and revenue shared by the state and federal government;</P>
+<P>(c) A methodology for comparing the constitutional and statutory obligations of different types of local governments with the revenues available to each type of local government. This methodology should also include a comparison of the funding levels for the regional services provided by local governments on behalf of the state with state services provided by state agencies;</P>
+<P>(d) An assessment of whether the state services provided regionally by local governments on behalf of the state are being provided equitably across the state. This assessment should also include what it would cost the state to provide these services through state agencies rather than local governments; and</P>
+<P>(e) Recommendations for how to appropriately distribute existing obligations and revenues between local governments, and between local governments providing regional services on behalf of the state and state agencies.</P>
+<P>(2) For the purposes of this section, "local government" means cities, counties, and special purpose districts.</P>
+</BillSection>
+<BillSection type="new" action="approp" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>The sum of two hundred fifty thousand dollars, or as much thereof as may be necessary, is appropriated for the fiscal biennium ending June 30, 2019, from the liquor revolving account, to the Washington state institute for public policy for the purposes of section 1 of this act.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

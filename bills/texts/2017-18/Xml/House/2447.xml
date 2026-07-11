@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-3177.1</RequestNumber><ShortBillId>HB 2447</ShortBillId><LongBillId>HOUSE BILL 2447</LongBillId><Legislature>65th Legislature</Legislature><Session>2018 Regular Session</Session><Sponsors>Representatives McCabe, Cody, Caldier, Orwall, Dye, Macri, Muri, Smith, Barkis, Harmsworth, Haler, Senn, Pollet, and Doglio</Sponsors><BillHistory><ReadDate>Read first time 01/09/18.</ReadDate><ReferredCommittee>Referred to Committee on Health Care &amp; Wellness.</ReferredCommittee></BillHistory><BriefDescription>Concerning practitioner education of opiate risks and pain management alternatives.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to practitioner education of opiate risks and pain management alternatives; adding a new section to chapter 69.50 RCW; adding a new section to chapter 43.70 RCW; creating new sections; providing an effective date; and declaring an emergency.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act may be known and cited as Jeremy's law.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) The legislature finds that:</P></BillSectionHeader>
+<P>(a) According to the centers for disease control and prevention, the United States is in the midst of an opioid overdose epidemic, and the number of drug overdose deaths has never been higher;</P>
+<P>(b) As many as one in four patients who are prescribed opioids long-term struggle with opioid addiction;</P>
+<P>(c) Individuals who are addicted to prescription opioids are forty times more likely to become addicted to heroin; and</P>
+<P>(d) In 2016, opioids killed six hundred ninety-four people in Washington and caused over one thousand four hundred hospitalizations for opioid overdose.</P>
+<P>(2) The legislature therefore intends to address this issue by requiring health care practitioners to educate their patients on the risks of opioids and to inform patients of nonopioid pain management alternatives when prescribing opioids for the first time during the course of treatment.</P>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>69</TitleNumber><TextRun>.</TextRun><ChapterNumber>50</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) Any practitioner authorized to prescribe opiates who writes a prescription for an opiate for the first time during the course of treatment to any patient shall have an in-person discussion with the patient that includes:</P>
+<P>(a) The risks of opiates, including risk of dependence and overdose;</P>
+<P>(b) Pain management alternatives to opiates, including nonpharmacological treatments available to the patient; and</P>
+<P>(c) A written copy of the warning language provided by the department under section 2 of this act.</P>
+<P>(2) If the patient is under eighteen years old or lacks legal competence, the in-person discussion required by subsection (1) of this section must also include the patient's parent, guardian, or legal representative, unless otherwise provided by law.</P>
+<P>(3) The practitioner shall document completion of the requirements in subsection (1) of this section in the patient's health care record.</P>
+<P>(4) Violation of this section constitutes unprofessional conduct under chapter 18.130 RCW.</P>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>70</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>The department shall create a brief statement warning individuals about the risks of opiate use and abuse. The department shall provide the warning on its web site.</P>
+</BillSection>
+<BillSection type="new" action="emerg" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>5</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act is necessary for the immediate preservation of the public peace, health, or safety, or support of the state government and its existing public institutions, and takes effect April 1, 2018.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-1619.1</RequestNumber><ShortBillId>HB 2035</ShortBillId><LongBillId>HOUSE BILL 2035</LongBillId><Legislature>65th Legislature</Legislature><Session>2017 Regular Session</Session><Sponsors>Representatives Harmsworth, Hayes, Shea, and Young</Sponsors><BillHistory><ReadDate>Read first time 02/08/17.</ReadDate><ReferredCommittee>Referred to Committee on Judiciary.</ReferredCommittee></BillHistory><BriefDescription>Concerning information on civil traffic infractions.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to information on civil traffic infractions; and adding a new section to chapter 2.56 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>2</TitleNumber><TextRun>.</TextRun><ChapterNumber>56</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>The administrative office of the courts shall remove any identifying information about individual cases filed in courts in this state that involve civil traffic infractions where it has been determined that the infraction was not committed and the notice has been dismissed, as described in chapter 46.63 RCW, from any publicly accessible internet search engines, databases, or online web sites maintained by the administrative office of the courts.</P>
+</BillSection>
+</BillBody>
+</Bill>

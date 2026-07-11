@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-3032.2</RequestNumber><ShortBillId>HB 2452</ShortBillId><LongBillId>HOUSE BILL 2452</LongBillId><Legislature>65th Legislature</Legislature><Session>2018 Regular Session</Session><Sponsors>Representatives Dolan, Johnson, Appleton, Haler, Kagi, Slatter, Macri, Stanford, Ryu, Sells, Frame, Fitzgibbon, Young, Stonier, Kloba, Valdez, Pollet, Holy, Steele, and Doglio</Sponsors><BillHistory><ReadDate>Read first time 01/09/18.</ReadDate><ReferredCommittee>Referred to Committee on Appropriations.</ReferredCommittee></BillHistory><BriefDescription>Addressing retiree benefits for participants in the public employees' retirement system, the teachers' retirement system, and the public employees' benefits board.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to retiree benefits for participants in the public employees' retirement system, the teachers' retirement system, and the public employees' benefits board; amending RCW 41.05.085; adding a new section to chapter 41.32 RCW; adding a new section to chapter 41.40 RCW; and providing an effective date.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>41</TitleNumber><TextRun>.</TextRun><ChapterNumber>32</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> under the subchapter heading "plan 1" to read as follows:</BillSectionHeader>
+<P>(1) Beneficiaries who are receiving a monthly benefit from the teachers' retirement system plan 1 on July 1, 2017, shall receive, effective July 1, 2018, an increase to their monthly benefit of three percent multiplied by the beneficiaries' monthly benefit, not to exceed sixty-two dollars and fifty cents.</P>
+<P>(2) This section does not apply to those receiving benefits pursuant to RCW 41.32.489 or 41.32.540.</P>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>41</TitleNumber><TextRun>.</TextRun><ChapterNumber>40</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> under the subchapter heading "plan 1" to read as follows:</BillSectionHeader>
+<P>(1) Beneficiaries who are receiving a monthly benefit from the public employees' retirement system plan 1 on July 1, 2017, shall receive, effective July 1, 2018, an increase to their monthly benefit of three percent multiplied by the beneficiaries' monthly benefit, not to exceed sixty-two dollars and fifty cents.</P>
+<P>(2) This section does not apply to those receiving benefits pursuant to RCW 41.40.1984.</P>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>41</TitleNumber><TextRun>.</TextRun><ChapterNumber>05</ChapterNumber><TextRun>.</TextRun><SectionNumber>085</SectionNumber></SectionCite> and 2005 c 195 s 3 are each amended to read as follows:<Caption>Retired or disabled school employee health insurance subsidy.</Caption></BillSectionHeader>
+<P>(1) Beginning with the appropriations act for the 2005-2007 biennium, the legislature shall establish as part of both the state employees' and the school and educational service district employees' insurance benefit allocation the portion of the allocation to be used to provide a prescription drug subsidy to reduce the health care insurance premiums charged to retired or disabled school district and educational service district employees, or retired state employees, who are eligible for parts A and B of medicare. The legislature may also establish a separate health care subsidy to reduce insurance premiums charged to individuals who select a medicare supplemental insurance policy option established in RCW 41.05.195.</P>
+<P>(2) The amount of any premium reduction shall be <TextRun amendingStyle="strike">established by the board. The amount established shall not result in a premium reduction of more</TextRun> <TextRun amendingStyle="add">no less</TextRun> than fifty percent <TextRun amendingStyle="add">of the premium cost</TextRun>, except as provided in subsection (3) of this section. The board may also determine the amount of any subsidy to be available to spouses and dependents.</P>
+<P>(3) The amount of the premium reduction in subsection (2) of this section may exceed fifty percent, if the administrator, in consultation with the office of financial management, determines that it is necessary in order to meet eligibility requirements to participate in the federal employer incentive program as provided in RCW 41.05.068.</P>
+<History>2005 c 195 § 3; 1994 c 153 § 8.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2005 c 195:</TextRun> See note following RCW 41.05.065.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Intent<TextRun fontFamily="Times New Roman">—</TextRun>Effective dates<TextRun fontFamily="Times New Roman">—</TextRun>1994 c 153:</TextRun> See notes following RCW 41.05.011.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="new" action="effdate">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber><P>Sections 1 and 2 of this act take effect July 1, 2018.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

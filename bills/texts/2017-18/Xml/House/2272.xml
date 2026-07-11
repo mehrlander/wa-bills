@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>Z-0660.1</RequestNumber><ShortBillId>HB 2272</ShortBillId><LongBillId>HOUSE BILL 2272</LongBillId><Legislature>65th Legislature</Legislature><Session>2018 Regular Session</Session><Sponsors>Representatives Cody, Harris, Kilduff, Peterson, Macri, Ryu, Tarleton, McBride, Slatter, Sawyer, Tharinger, Kagi, Valdez, Senn, Chapman, Frame, Reeves, Clibborn, Appleton, Jinkins, Ormsby, Pollet, Doglio, and Stonier; by request of Attorney General</Sponsors><BillHistory><PrefiledDate>Prefiled 12/12/17.</PrefiledDate><ReadDate>Read first time 01/08/18.</ReadDate><ReferredCommittee>Referred to Committee on Health Care &amp; Wellness.</ReferredCommittee></BillHistory><BriefDescription>Concerning restrictions on prescriptions for opiates.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to restrictions on prescriptions for opiates; and adding a new section to chapter 69.50 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>69</TitleNumber><TextRun>.</TextRun><ChapterNumber>50</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) Except as provided in subsection (2) of this section, when issuing a prescription for an opiate to a patient for the first time for outpatient use:</P>
+<P>(a) A practitioner may not issue a prescription for more than a seven-day supply for a patient twenty-one years of age or older.</P>
+<P>(b) A practitioner may not issue a prescription for more than a three-day supply for a patient under the age of twenty-one years.</P>
+<P>(2) The limits in subsection (1) of this section do not apply:</P>
+<P>(a) To the treatment of pain associated with cancer, or for palliative, hospice, or other end-of-life care. The condition triggering the prescription of an opiate in a quantity greater than provided in subsection (1) of this section must be documented in the patient's medical record.</P>
+<P>(b) If, in the professional medical judgment of a practitioner, an opiate in a quantity greater than provided in subsection (1) of this section is required to treat a patient's medical condition, then the practitioner may issue a prescription for no greater quantity than is needed for the expected duration of pain severe enough to require opiates. The condition triggering such a prescription must be documented in the patient's medical record, and the practitioner must indicate that an alternative to the opiate was not appropriate to address the medical condition.</P>
+<P>(3) When issuing a prescription for more than a three-day supply of an opiate to a patient for the first time for outpatient use:</P>
+<P>(a) A practitioner must discuss with the patient, or the person authorized to consent to health care for the patient, all of the following:</P>
+<P>(i) The risks of addiction and overdose associated with opiates;</P>
+<P>(ii) The increased risk of addiction and overdose associated with opiates for those with mental illness or a history of alcohol or other substance abuse; and</P>
+<P>(iii) The dangers of taking opiates with benzodiazepines, alcohol, or other central nervous system depressants.</P>
+<P>(b) The practitioner must obtain written consent, recorded on a form, for the prescription from the patient, or the person authorized to consent to health care for the patient. The form must contain all of the following:</P>
+<P>(i) The name and quantity of the opiate being prescribed and the amount of the initial dose;</P>
+<P>(ii) A statement indicating that a controlled substance is a drug or other substance that the United States drug enforcement administration has identified as having a potential for abuse;</P>
+<P>(iii) A statement that the practitioner discussed with the patient, or the person authorized to consent to health care for the patient, the items described in (a) of this subsection; and</P>
+<P>(iv) The signature of the patient, or the person authorized to consent to health care for the patient, and the date of signing.</P>
+<P>(c) The form described in (b) of this subsection must be maintained in the patient's record with the practitioner.</P>
+<P>(4) For purposes of this section, "opiate" does not include opioid overdose medications or medications approved by the federal food and drug administration for the treatment of opioid use disorder.</P>
+<P>(5) This section does not preempt, limit, diminish, or otherwise affect the authority of the boards and commissions that regulate practitioners from adopting restrictions more stringent than those set forth in this section.</P>
+</BillSection>
+</BillBody>
+</Bill>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><ShortBillId>EHB 2190</ShortBillId><LongBillId>ENGROSSED HOUSE BILL 2190</LongBillId><Legislature>65th Legislature</Legislature><Session>2017 Regular Session</Session><Sponsors>Representative Ormsby</Sponsors><BillHistory><ReadDate>Read first time 03/29/17.</ReadDate><ReferredCommittee>Referred to Committee on Appropriations.</ReferredCommittee></BillHistory><BriefDescription>Addressing budget stabilization account transfers and appropriations.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to budget stabilization account transfers; amending RCW 43.79.496; creating new sections; making appropriations; and declaring an emergency.</BillTitle>
+<EnactedClause />
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>FOR THE PENSION FUNDING STABILIZATION ACCOUNT.</SectionCaption><P>During the 2017-19 fiscal biennium, the treasurer shall transfer the sum of $925,166,000 from the budget stabilization account into the pension funding stabilization account. For purposes of RCW 43.88.055(4), the transfer in this section does not alter the requirement to balance in ensuing biennia.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>FOR THE DISASTER RESPONSE ACCOUNT.</SectionCaption><P>During the 2017-19 fiscal biennium, the treasurer must transfer the sum of $19,000,000 from the budget stabilization account to the  disaster response account. This amount is provided solely for disaster response and recovery efforts. For purposes of RCW 43.88.055(4), the transfer in this section does not alter the requirement to balance in ensuing biennia.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>FOR THE WASHINGTON STATE PATROL<TextRun fontFamily="Times New Roman">—</TextRun>FIRES.</SectionCaption><P>The sum of $14,500,000, or as much thereof as may be necessary, is appropriated from the budget stabilization account for the fiscal year ending June 30, 2017, and is provided solely for Washington state fire service resource mobilization costs incurred in response to an emergency or disaster authorized under RCW 43.43.960 through 43.43.964 for wildfires. For purposes of RCW 43.88.055(4), the appropriation in this section does not alter the requirement to balance in ensuing biennia.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>FOR THE DEPARTMENT OF NATURAL RESOURCES<TextRun fontFamily="Times New Roman">—</TextRun>FIRES.</SectionCaption><P>The sum of $23,622,000 is appropriated from the budget stabilization account for the fiscal year ending June 30, 2017, and is provided solely for fire suppression costs incurred by the department of natural resources during the 2016 fire season. For purposes of RCW 43.88.055(4), the appropriation in this section does not alter the requirement to balance in ensuing biennia.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>5</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>79</ChapterNumber><TextRun>.</TextRun><SectionNumber>496</SectionNumber></SectionCite> and 2015 3rd sp.s. c 2 s 1 are each amended to read as follows:<Caption>Transfers of budget stabilization account deposits to the general fund.</Caption></BillSectionHeader>
+<P>(1) By June 30, 2015, the treasurer shall transfer into the state general fund the entire budget stabilization account deposit for the 2013-2015 fiscal biennium that is attributable to extraordinary revenue growth, not to exceed fifty million dollars.</P>
+<P>(2) <TextRun amendingStyle="strikemarkleft">During the 2015-2017 fiscal biennium, the treasurer shall transfer into the state general fund the entire budget stabilization account deposit for the 2015-2017 fiscal biennium that is attributable to extraordinary revenue growth, not to exceed seventy-five million dollars.</TextRun></P>
+<P><TextRun amendingStyle="strikemarkright">(3)</TextRun> During the 2017-2019 fiscal biennium, the treasurer shall transfer into the state general fund the entire budget stabilization account deposit for the 2017-2019 fiscal biennium that is attributable to extraordinary revenue growth, not to exceed <TextRun amendingStyle="strike">five hundred fifty</TextRun> <TextRun amendingStyle="add">one billion seventy-eight</TextRun> million dollars.</P>
+<P><TextRun amendingStyle="strike">(4)</TextRun> <TextRun amendingStyle="add">(3)</TextRun> For purposes of RCW 43.88.055(4), the transfers in this section do not alter the requirement to balance in ensuing biennia.</P>
+<History>2015 3rd sp.s. c 2 § 1.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2015 3rd sp.s. c 2:</TextRun> "This act is necessary for the immediate preservation of the public peace, health, or safety, or support of the state government and its existing public institutions, and takes effect immediately [June 30, 2015]." [2015 3rd sp.s. c 2 § 2.]</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="new" action="emerg">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>6</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act is necessary for the immediate preservation of the public peace, health, or safety, or support of the state government and its existing public institutions, and takes effect immediately.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

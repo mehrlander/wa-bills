@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-0889.1</RequestNumber><ShortBillId>HB 1392</ShortBillId><LongBillId>HOUSE BILL 1392</LongBillId><Legislature>65th Legislature</Legislature><Session>2017 Regular Session</Session><Sponsors>Representatives Blake, Dent, Ryu, Peterson, Sullivan, Lovick, Springer, Stambaugh, Goodman, Bergquist, Fitzgibbon, Gregerson, Hudgins, Sells, Sawyer, Appleton, Chapman, Pollet, Ortiz-Self, and Kloba</Sponsors><BillHistory><ReadDate>Read first time 01/19/17.</ReadDate><ReferredCommittee>Referred to Committee on Capital Budget.</ReferredCommittee></BillHistory><BriefDescription>Concerning authorization for projects and appropriating funds recommended by the public works board.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to authorization for projects and appropriating funds recommended by the public works board; creating a new section; and declaring an emergency.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>Pursuant to chapter 43.155 RCW, the following project loans recommended by the public works board are to be made:</P></BillSectionHeader>
+<P>(1) Bremerton, City of - storm project - Ostrich Creek Culvert Improvements<Leader character="dot" />$4,699,688</P>
+<P>(2) King County - storm project - Georgetown Wet Weather Treatment Station<Leader character="dot" />$3,508,750</P>
+<P>(3) Aberdeen, City of - road project - 1st Avenue Landslide Repair<Leader character="dot" />$373,632</P>
+<P>(4) Bremerton, City of – storm project - Pine Basin Watershed Storm Sewer Improvements<Leader character="dot" />$3,891,034</P>
+<P>(5) Lexington Flood Control Zone District – storm project - South Fork McCorkle Creek Stormwater Detention Facility<Leader character="dot" />$4,711,750</P>
+<P>(6) Kenmore, City of – storm project - 61st/190th Culvert Replacement &amp; Embankment Repair<Leader character="dot" />$1,503,750</P>
+<P>(7) Walla Walla, City of – road project - Isaacs Avenue Improvements - Phase 2<Leader character="dot" />$3,971,957</P>
+<P>(8) Seattle, City of – bridge project - Fairview Ave N Bridge Replacement<Leader character="dot" />$10,025,000</P>
+<P>(9) Walla Walla, City of – solid waste project - Sudbury Landfill Area 7 Cell 3 Construction<Leader character="dot" />$2,985,643</P>
+<P>(10) Quincy, City of – sewer project - Wastewater Reuse </P>
+<P indent="0">Project <Leader character="dot" />$10,025,000</P>
+<P>(11) Whatcom County – storm project - Slater Road/Jordan Creek Fish Passage Project<Leader character="dot" />$5,012,500</P>
+<P>(12) Wenatchee, City of – road project - Miller Street Re-Alignment and Storm Repair<Leader character="dot" />$4,838,155</P>
+<P>(13) Clark County – road project - NE 10th Avenue (NE 149th to NE 164th St<Leader character="dot" />$10,025,000</P>
+<P>(14) Lake Forest Park Water District – water project - McKinnon Creek Wellfield Critical Infrastructure Security </P>
+<P indent="0">Improvements<Leader character="dot" />$200,500</P>
+<P>(15) King County – solid waste project - Cedar Hills Regional Landfill Pump Station Repairs<Leader character="dot" />$3,007,500</P>
+<P>(16) Snohomish County – road project - 35th Ave SE Phase II SR 524 to 180th St SE<Leader character="dot" />$3,007,500</P>
+<P>(17) Snohomish County – road project - 180th St SE SR 527 Brook Blvd<Leader character="dot" />$3,007,500</P>
+<P>(18) Vancouver, City of – road project - City Street Light Conversion to Light Emitting Diode (LED)<Leader character="dot" />$4,827,539</P>
+<P>(19) Lincoln County – solid waste project - Tipping Floor Restoration and Safety Upgrades<Leader character="dot" />$156,039</P>
+<P>(20) Birch Bay Water and Sewer District – water project - Automated Meter Reading Systems<Leader character="dot" />$1,503,750</P>
+<P>(21) King County – solid waste project - Cedar Hills Regional Landfill North Flare Station Repairs<Leader character="dot" />$1,587,008</P>
+<P>(22) Thurston Co. PUD No. 1 - water project - Water System Safety and Energy Efficiency Improvements<Leader character="dot" />$1,030,299</P>
+<P>(23) Kennewick, City of – road project - US 395/Ridgeline Interchange<Leader character="dot" />$6,015,000</P>
+<P>(24) Kennewick, City of - water project - Kennewick Automated Meter Reading Project<Leader character="dot" />$6,015,000</P>
+<P>(25) Spokane, City of – water project - Sunset Reservoir Restoration<Leader character="dot" />$1,415,530</P>
+</BillSection>
+<BillSection type="new" action="emerg" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act is necessary for the immediate preservation of the public peace, health, or safety, or support of the state government and its existing public institutions, and takes effect immediately.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>Z-0645.1</RequestNumber><ShortBillId>HB 2326</ShortBillId><LongBillId>HOUSE BILL 2326</LongBillId><Legislature>65th Legislature</Legislature><Session>2018 Regular Session</Session><Sponsors>Representatives Ryu, Haler, Sawyer, Jinkins, and Young; by request of Attorney General</Sponsors><BillHistory><PrefiledDate>Prefiled 12/26/17.</PrefiledDate><ReadDate>Read first time 01/08/18.</ReadDate><ReferredCommittee>Referred to Committee on Judiciary.</ReferredCommittee></BillHistory><BriefDescription>Concerning medicaid fraud false claims civil penalties.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to medicaid fraud false claims civil penalties; amending RCW 74.66.020; creating a new section; and prescribing penalties.</BillTitle>
+<EnactedClause />
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>It is the intent of the legislature through this act to strongly deter medicaid provider fraud and ensure maximum recoveries for the state in actions under chapter 74.66 RCW, the state medicaid fraud false claims act. Specifically, it is the policy of the state to maintain compliance with the federal deficit reduction act, codified as section 1909 of the federal social security act (42 U.S.C. Sec. 1396h), and thereby obtain the additional ten percent share of state medicaid fraud false claims act recoveries afforded by the federal deficit reduction act for compliant states, while encouraging qui tam whistleblower complaints to at least the same extent as the federal false claims act (31 U.S.C. Sec. 3729 et seq.).</P></BillSectionHeader>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>74</TitleNumber><TextRun>.</TextRun><ChapterNumber>66</ChapterNumber><TextRun>.</TextRun><SectionNumber>020</SectionNumber></SectionCite> and 2012 c 241 s 202 are each amended to read as follows:<Caption>Civil penalty<TextRun fontFamily="Times New Roman">—</TextRun>False or fraudulent claims.</Caption></BillSectionHeader>
+<P>(1) Subject to subsections (2) and (4) of this section, a person is liable to the government entity for a civil penalty of not less than <TextRun amendingStyle="strike">five thousand five hundred dollars and not more than eleven thousand dollars</TextRun> <TextRun amendingStyle="add">the greater of ten thousand nine hundred fifty-seven dollars or the minimum inflation adjusted penalty amount imposed as provided by 31 U.S.C. Sec. 3729(a) and not more than the greater of twenty-one thousand nine hundred sixteen dollars or the maximum inflation adjusted penalty amount imposed as provided by 31 U.S.C. Sec. 3729(a)</TextRun>, plus three times the amount of damages which the government entity sustains because of the act of that person, if the person:</P>
+<P>(a) Knowingly presents, or causes to be presented, a false or fraudulent claim for payment or approval;</P>
+<P>(b) Knowingly makes, uses, or causes to be made or used, a false record or statement material to a false or fraudulent claim;</P>
+<P>(c) Conspires to commit one or more of the violations in this subsection (1);</P>
+<P>(d) Has possession, custody, or control of property or money used, or to be used, by the government entity and knowingly delivers, or causes to be delivered, less than all of that money or property;</P>
+<P>(e) Is authorized to make or deliver a document certifying receipt of property used, or to be used, by the government entity and, intending to defraud the government entity, makes or delivers the receipt without completely knowing that the information on the receipt is true;</P>
+<P>(f) Knowingly buys, or receives as a pledge of an obligation or debt, public property from an officer or employee of the government entity who lawfully may not sell or pledge property; or</P>
+<P>(g) Knowingly makes, uses, or causes to be made or used<TextRun amendingStyle="strike">,</TextRun> a false record or statement material to an obligation to pay or transmit money or property to the government entity, or knowingly conceals or knowingly and improperly avoids or decreases an obligation to pay or transmit money or property to the government entity.</P>
+<P>(2) The court may assess not less than two times the amount of damages which the government entity sustains because of the act of a person, if the court finds that:</P>
+<P>(a) The person committing the violation of subsection (1) of this section furnished the Washington state attorney general with all information known to him or her about the violation within thirty days after the date on which he or she first obtained the information;</P>
+<P>(b) The person fully cooperated with any investigation by the attorney general of the violation; and</P>
+<P>(c) At the time the person furnished the attorney general with the information about the violation, no criminal prosecution, civil action, or administrative action had commenced under this title with respect to the violation, and the person did not have actual knowledge of the existence of an investigation into the violation.</P>
+<P>(3) A person violating this section is liable to the attorney general for the costs of a civil action brought to recover any such penalty or damages.</P>
+<P>(4) For the purposes of determining whether an insurer has a duty to provide a defense or indemnification for an insured and if coverage may be denied if the terms of the policy exclude coverage for intentional acts, a violation of subsection (1) of this section is an intentional act.</P>
+<P><TextRun amendingStyle="strike">(5) The office of the attorney general must, by rule, annually adjust the civil penalties established in subsection (1) of this section so that they are equivalent to the civil penalties provided under the federal false claims act and in accordance with the federal civil penalties inflation adjustment act of 1990.</TextRun></P>
+<History>2012 c 241 § 202.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Intent<TextRun fontFamily="Times New Roman">—</TextRun>Finding<TextRun fontFamily="Times New Roman">—</TextRun>2012 c 241:</TextRun> See note following RCW 74.66.010.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+</BillBody>
+</Bill>

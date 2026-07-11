@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-3307.1</RequestNumber><ShortBillId>HB 2482</ShortBillId><LongBillId>HOUSE BILL 2482</LongBillId><Legislature>65th Legislature</Legislature><Session>2018 Regular Session</Session><Sponsors>Representatives Macri, Jinkins, Doglio, and Robinson</Sponsors><BillHistory><ReadDate>Read first time 01/10/18.</ReadDate><ReferredCommittee>Referred to Committee on Health Care &amp; Wellness.</ReferredCommittee></BillHistory><BriefDescription>Concerning limitations on health care provider services imposed by health care entities.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to protecting patient care; adding a new chapter to Title 18 RCW; and prescribing penalties.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The definitions in this section apply throughout this chapter unless the context clearly requires otherwise.</P></BillSectionHeader>
+<P>(1) "Health care entity" means an entity that directly or indirectly employs, supervises, controls, grants privileges to, or directs or restricts the practice of, a health care provider.</P>
+<P>(2) "Health care provider" has the same meaning as in RCW 70.02.010.</P>
+<P>(3) "Medically accurate" means information that is verified or supported by research in compliance with scientific methods, is published in peer-reviewed journals, where appropriate, and is recognized as accurate and objective by professional organizations and agencies with expertise in the relevant field.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) Except as provided in subsection (2) of this section, if a health care provider is acting in good faith, within the provider's authorized scope of practice, and within the relevant standard of care, a health care entity may not:</P></BillSectionHeader>
+<P>(a) Limit the health care provider's provision of medically accurate and comprehensive information to a patient regarding the patient's health status, including, but not limited to, diagnosis, prognosis, recommended treatment, treatment alternatives, and any potential risks to the patient's health or life;</P>
+<P>(b) Limit the health care provider's provision of information regarding Washington's death with dignity act, chapter 70.245 RCW;</P>
+<P>(c) Limit the health care provider's referrals, or the timing of referrals; or</P>
+<P>(d) Prohibit the health care provider from providing health services in cases in which failure to provide the services would pose a serious risk to an individual's life or health or would violate the standard of care.</P>
+<P>(2) Nothing in this section prohibits a health care entity from limiting a health care provider's practice for purposes of:</P>
+<P>(a) Complying with the network or utilization review requirements of any program or entity authorized by state or federal law to provide insurance coverage for health care services to enrollees; or</P>
+<P>(b) Quality control or patient safety.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>A patient, health care provider, or an individual, who is aggrieved by a violation of section 1 of this act, may bring a civil action against a health care entity to enjoin further violations, to recover damages, or both, and may recover costs and reasonable attorneys' fees.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addchap" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber><P>Sections 1 through 3 of this act constitute a new chapter in <TitleCite><TextRun>Title </TextRun><TitleNumber>18</TitleNumber><TextRun> RCW</TextRun></TitleCite>.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

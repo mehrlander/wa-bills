@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>Z-0708.1</RequestNumber><ShortBillId>HB 2322</ShortBillId><LongBillId>HOUSE BILL 2322</LongBillId><Legislature>65th Legislature</Legislature><Session>2018 Regular Session</Session><Sponsors>Representatives Stanford, Kirby, Vick, Barkis, McDonald, and Ryu; by request of Insurance Commissioner</Sponsors><BillHistory><PrefiledDate>Prefiled 12/22/17.</PrefiledDate><ReadDate>Read first time 01/08/18.</ReadDate><ReferredCommittee>Referred to Committee on Business &amp; Financial Services.</ReferredCommittee></BillHistory><BriefDescription>Allowing property insurers to assist their insureds with risk mitigation goods or services.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to risk mitigation in property insurance; adding a new section to chapter 48.18 RCW; adding a new section to chapter 48.19 RCW; and creating new sections.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature finds that property insurers engage in supporting insureds through disaster response activities, such as providing fire retardants to homes in a wildfire area or sending crews to combat wildfires to protect insureds' homes. In addition to these efforts, the legislature finds that allowing property insurers to assist their insureds with either risk mitigation goods or services, or both, could help prevent, or reduce the severity of claims and losses.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>48</TitleNumber><TextRun>.</TextRun><ChapterNumber>18</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) With the prior approval of the commissioner, a personal property insurer may include the following goods and services intended to reduce either the probability of loss, or the extent of loss, or both, from a covered event as part of a policy of personal property insurance:</P>
+<P>(a) Goods, including a water monitor;</P>
+<P>(b) Foundation strapping to mitigate losses due to earthquake;</P>
+<P>(c) Ongoing services, including home safety monitoring or brush clearing to mitigate losses due to wildfire. The insureds must affirmatively sign up for the service and it must be made clear that the insureds can stop the services at any time without being locked into an ongoing contract for which the insured makes payments; and</P>
+<P>(d) Such other goods and services as the commissioner may identify by rule.</P>
+<P>(2) Any goods provided are owned by the insured, even if the insurance is subsequently canceled.</P>
+<P>(3) The value of goods and services to be provided is limited to five hundred dollars in value in the aggregate in any twelve-month period.</P>
+<P>(4) In order to receive prior approval of the commissioner, the personal property insurer must include the following in its rate filing:</P>
+<P>(a) A description of either the specific goods or services, or both, to be offered;</P>
+<P>(b) A description of the method of delivering either the specific goods or services, or both, being offered; and</P>
+<P>(c) The selection criteria for insureds receiving either the specific goods or services, or both, being offered.</P>
+<P>(5) This section does not require the commissioner to approve any particular proposed benefit. The commissioner may disapprove any proposed noninsurance benefit that the commissioner determines may tend to promote or facilitate the violation of any other section of this title. However, if the commissioner approves the inclusion of such goods and services in a policy of property insurance, it does not constitute a violation of RCW 48.30.140 or 48.30.150.</P>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>48</TitleNumber><TextRun>.</TextRun><ChapterNumber>19</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>In addition to other information required by this chapter, a rate filing by a personal property insurer for a policy that includes risk mitigation goods and services under section 2 of this act, must demonstrate that its rates account for the expected costs of the goods and services and the reduction in expected claims costs resulting from the goods and services.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber><P>The commissioner may adopt rules as necessary to implement sections 2 and 3 of this act.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

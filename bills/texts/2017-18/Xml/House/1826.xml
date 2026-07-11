@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-1174.1</RequestNumber><ShortBillId>HB 1826</ShortBillId><LongBillId>HOUSE BILL 1826</LongBillId><Legislature>65th Legislature</Legislature><Session>2017 Regular Session</Session><Sponsors>Representatives Fitzgibbon, Orcutt, Smith, Tharinger, and Ortiz-Self</Sponsors><BillHistory><ReadDate>Read first time 01/31/17.</ReadDate><ReferredCommittee>Referred to Committee on Environment.</ReferredCommittee></BillHistory><BriefDescription>Exempting certain innovative activities relying on recycled carbon fiber materials from solid waste handling facility permit requirements.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to exempting certain innovative activities relying on recycled carbon fiber materials from solid waste handling facility permit requirements; amending RCW 70.95.170; and adding a new section to chapter 70.95 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>70</TitleNumber><TextRun>.</TextRun><ChapterNumber>95</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) A permit under RCW 70.95.170 is not required for research and development activities intended to evaluate, develop, or demonstrate potential new or improved beneficial use, reuse, or recycling methods or technologies for cured or uncured fiber-reinforced composite materials that are consistent with this section.</P>
+<P>(2) In order to be exempt from solid waste facility permit requirements, the activities must be conducted by qualified persons in controlled laboratory, bench scale, or pilot study conditions and take place at:</P>
+<P>(a) The facility at which the materials are generated;</P>
+<P>(b) Another facility owned or operated by the generator of the materials;</P>
+<P>(c) An institution of higher education as defined in RCW 28B.10.016 or a higher education institution as defined in RCW 28B.07.020;</P>
+<P>(d) A technology center whose primary expertise and purpose is research and development related to the recycling or addition of value to used composite materials;</P>
+<P>(e) A facility owned or operated by the storm water technical resource center established pursuant to RCW 90.48.545; or</P>
+<P>(f) A public or private laboratory or facility contracted by a generator or the operator of an institution or facility that is eligible under (a) through (e) of this subsection.</P>
+<P>(3) A permit under RCW 70.95.170 is not required for the separation, collection, transport, or transfer of the materials described in subsection (1) of this section in support of the exempt activities described in subsection (2) of this section.</P>
+<P>(4) Any excess or residual materials described in subsection (1) of this section that remain after the activities conducted in subsection (2) of this section, and all solid waste generated during those activities, must be handled consistent with all applicable requirements of this chapter that are not exempted under this section.</P>
+<P>(5) Nothing in this section relieves a person from any obligation under any federal, state, or local law other than the obligation to obtain a permit under RCW 70.95.170.</P>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>70</TitleNumber><TextRun>.</TextRun><ChapterNumber>95</ChapterNumber><TextRun>.</TextRun><SectionNumber>170</SectionNumber></SectionCite> and 2009 c 178 s 4 are each amended to read as follows:<Caption>Permit for solid waste handling facility<TextRun fontFamily="Times New Roman">—</TextRun>Required.</Caption></BillSectionHeader>
+<P>Except as provided otherwise in RCW 70.95.300, 70.95.305, 70.95.306, 70.95.310, <TextRun amendingStyle="strike">or</TextRun> 70.95.330, <TextRun amendingStyle="add">or section 1 of this act,</TextRun> after approval of the comprehensive solid waste plan by the department<TextRun amendingStyle="add">,</TextRun> no solid waste handling facility or facilities shall be maintained, established, or modified until the county, city, or other person operating such <TextRun amendingStyle="add">a</TextRun> site has obtained a permit pursuant to RCW 70.95.180 or 70.95.190.</P>
+<History>2009 c 178 § 4; 1998 c 156 § 3; 1997 c 213 § 2; 1969 ex.s. c 134 § 17.</History>
+</BillSection>
+</BillBody>
+</Bill>

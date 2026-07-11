@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><ShortBillId>ESHB 2121</ShortBillId><LongBillId>ENGROSSED SUBSTITUTE HOUSE BILL 2121</LongBillId><Legislature>65th Legislature</Legislature><Session>2017 Regular Session</Session><Sponsors>House Appropriations (originally sponsored by Representatives Pettigrew, Tarleton, and Macri)</Sponsors><BillHistory><ReadDate>READ FIRST TIME 02/24/17.</ReadDate></BillHistory><BriefDescription>Revising income eligibility for temporary assistance for needy families benefits for a child who lives with a nonparent caregiver.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to income eligibility for temporary assistance for needy families benefits for a child who lives with a nonparent caregiver; amending RCW 74.12.037; creating a new section; and providing an effective date.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>74</TitleNumber><TextRun>.</TextRun><ChapterNumber>12</ChapterNumber><TextRun>.</TextRun><SectionNumber>037</SectionNumber></SectionCite> and 2014 c 75 s 1 are each amended to read as follows:<Caption>Income eligibility<TextRun fontFamily="Times New Roman">—</TextRun>Unearned income exemption.</Caption></BillSectionHeader>
+<P>(1) The department shall adopt rules establishing income eligibility for temporary assistance for needy families benefits for a child, other than a foster child, who lives with a caregiver other than his or her parents. The department shall establish a sliding scale benefit standard for a child when the income of the child's caregiver is above two hundred percent but below <TextRun amendingStyle="strike">three</TextRun> <TextRun amendingStyle="add">four</TextRun> hundred percent of the federal poverty level based on family size. A caregiver with an income above <TextRun amendingStyle="strike">three</TextRun> <TextRun amendingStyle="add">four</TextRun> hundred percent of the federal poverty level shall not be eligible for temporary assistance for needy families benefits for a child, not a foster child, who is residing with that caregiver.</P>
+<P>(2)(a) For purposes of this section, the department may, by rule, exempt fifty percent of a caregiver's unearned income in determining eligibility and benefit standards. This is in addition to other exemptions authorized by law.</P>
+<P>(b) For purposes of this subsection, "unearned income" means income received from a source other than employment or self-employment.</P>
+<History>2014 c 75 § 1; 2011 1st sp.s. c 42 § 4.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Findings<TextRun fontFamily="Times New Roman">—</TextRun>Intent<TextRun fontFamily="Times New Roman">—</TextRun>Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2011 1st sp.s. c 42:</TextRun> See notes following RCW 74.08A.260.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Finding<TextRun fontFamily="Times New Roman">—</TextRun>2011 1st sp.s. c 42:</TextRun> See note following RCW 74.04.004.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>If specific funding for the purposes of this act, referencing this act by bill or chapter number, is not provided by June 30, 2017, in the omnibus appropriations act, this act is null and void.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="effdate">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act takes effect on November 1, 2017.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

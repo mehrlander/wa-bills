@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><ShortBillId>EHB 1958</ShortBillId><LongBillId>ENGROSSED HOUSE BILL 1958</LongBillId><Legislature>65th Legislature</Legislature><Session>2017 Regular Session</Session><Sponsors>Representatives Harmsworth, Young, Rodne, and Stanford</Sponsors><BillHistory><ReadDate>Read first time 02/06/17.</ReadDate><ReferredCommittee>Referred to Committee on Transportation.</ReferredCommittee></BillHistory><BriefDescription>Prohibiting the imposition of regional transit authority property taxes on less than a whole parcel.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to regional transit authority property taxes imposed on less than a whole parcel; amending RCW 81.104.175; adding a new section to chapter 84.56 RCW; creating a new section; providing an expiration date; and declaring an emergency.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>81</TitleNumber><TextRun>.</TextRun><ChapterNumber>104</ChapterNumber><TextRun>.</TextRun><SectionNumber>175</SectionNumber></SectionCite> and 2015 3rd sp.s. c 44 s 321 are each amended to read as follows:<Caption>Property tax levy for regional transit authorities.</Caption></BillSectionHeader>
+<P>(1) A regional transit authority that includes a county with a population of more than one million five hundred thousand may impose a regular property tax levy in an amount not to exceed twenty-five cents per thousand dollars of the assessed value of property in the regional transit authority district in accordance with the terms of this section.</P>
+<P>(2) Any tax imposed under this section must be used for the purpose of providing high capacity transportation service, as set forth in a proposition that is approved by a majority of the registered voters that vote on the proposition.</P>
+<P>(3) Property taxes imposed under this section may be imposed for the period of time required to pay the cost to plan, design, construct, operate, and maintain the transit facilities set forth in the approved proposition. Property taxes pledged to repay bonds may be imposed at the pledged amount until the bonds are retired. After the bonds are retired, property taxes authorized under this section must be:</P>
+<P>(a) Reduced to the level required to operate and maintain the regional transit authority's transit facilities; or</P>
+<P>(b) Terminated, unless the taxes have been extended by public vote.</P>
+<P>(4) The limitations in RCW 84.52.043 do not apply to the tax authorized in this section.</P>
+<P>(5) The limitation in RCW 84.55.010 does not apply to the first levy imposed under this section.</P>
+<P>(6) If a regional transit authority imposes the tax authorized under subsection (1) of this section, the authority may not receive any state grant funds provided in an omnibus transportation appropriations act except transit coordination grants created in chapter 11, Laws of 2015 3rd sp. sess.</P>
+<P><TextRun amendingStyle="add">(7) Property taxes imposed under this section may not be imposed on less than a whole parcel.</TextRun></P>
+<History>2015 3rd sp.s. c 44 § 321.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2015 3rd sp.s. c 44:</TextRun> See note following RCW 46.68.395.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>84</TitleNumber><TextRun>.</TextRun><ChapterNumber>56</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) The county treasurer must waive interest and penalties for delinquencies on property taxes imposed by a regional transit authority under RCW 81.104.175 and collected before June 30, 2017, if the property is exempted from such tax under this act.</P>
+<P>(2) This section expires January 1, 2019.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act applies retroactively to November 1, 2016, as well as prospectively.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="emerg">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act is necessary for the immediate preservation of the public peace, health, or safety, or support of the state government and its existing public institutions, and takes effect immediately.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-1712.1</RequestNumber><ShortBillId>SHB 1213</ShortBillId><LongBillId>SUBSTITUTE HOUSE BILL 1213</LongBillId><Legislature>65th Legislature</Legislature><Session>2017 Regular Session</Session><Sponsors>House Local Government (originally sponsored by Representatives Farrell, Pollet, Peterson, Gregerson, Wylie, McBride, Doglio, and Hudgins)</Sponsors><BillHistory><ReadDate>READ FIRST TIME 02/17/17.</ReadDate></BillHistory><BriefDescription>Promoting the use of greywater in urban buildings.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to promoting the use of greywater in urban buildings; amending RCW 90.46.140; adding a new section to chapter 19.27 RCW; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature finds that the current growth of use of water in Washington's major cities may increasingly strain local water supplies and threaten to cause shortages during times of drought. In many areas of the state, one strategy available to stretch existing water supplies is to rely on the reuse of greywater, which includes wastewater from domestic sources like sinks, showers, and washing machines. Greywater reuse is frequently the most economical means of reducing pressures on the state's over appropriated water resources and is less costly and energy-intensive than alternatives such as desalinization. Therefore, it is the intent of the legislature to reaffirm its commitment to prioritizing greywater recycling as a water resource management strategy by requiring the updating of standards, procedures, and guidelines to allow for the indoor reuse of greywater in urban buildings.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>19</TitleNumber><TextRun>.</TextRun><ChapterNumber>27</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) By January 1, 2018, the department of health shall, within its existing resources, update its standards, procedures, and guidelines to authorize the indoor reuse of greywater in urban buildings in a manner consistent with the standards, procedures, and guidelines adopted by rule pursuant to RCW 90.46.140.</P>
+<P>(2) In consultation with the state building code council, and within its existing resources, the department of health shall update its standards, procedures, and guidelines pursuant to this section addressing the following requirements associated with the implementation of greywater reuse:</P>
+<P>(a) Treatment requirements associated with different greywater sources prior to its reuse; and</P>
+<P>(b) Standards for determining conditions in which indoor greywater reuse is allowed consistent with rules adopted pursuant to RCW 90.46.140 for purposes of:</P>
+<P>(i) Meeting building water use needs; or</P>
+<P>(ii) Building heating and cooling needs.</P>
+<P>(3) The greywater standards, procedures, and guidelines established pursuant to this section supersede all local government code in all cities.</P>
+<P>(4) The definitions in this subsection apply throughout this section unless the context clearly requires otherwise.</P>
+<P>(a) "Greywater" has the same meaning as defined in RCW 90.46.010.</P>
+<P>(b) "Indoor use" or "indoor reuse" includes the flushing of toilets and the reuse of greywater for a building's heating and cooling needs.</P>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>90</TitleNumber><TextRun>.</TextRun><ChapterNumber>46</ChapterNumber><TextRun>.</TextRun><SectionNumber>140</SectionNumber></SectionCite> and 1997 c 444 s 8 are each amended to read as follows:<Caption>Greywater reuse<TextRun fontFamily="Times New Roman">—</TextRun>Standards, procedures, and guidelines<TextRun fontFamily="Times New Roman">—</TextRun>Rules.</Caption></BillSectionHeader>
+<P>(1) The department of health shall develop standards, procedures, and guidelines for the reuse of greywater, consistent with RCW 43.20.230(2), by January 1, 1998. <TextRun amendingStyle="add">By January 1, 2018, the department of health must, within its existing resources, update the standards, procedures, and guidelines adopted under this section to allow for the indoor reuse of greywater for water use needs of a building, including heating and cooling and the flushing of toilets.</TextRun></P>
+<P>(2) Standards, procedures, and guidelines developed by the department of health for reuse of greywater shall encourage the application of this technology for conserving water resources, or reducing the wastewater load, on domestic wastewater facilities, individual on-site sewage treatment and disposal systems, or community on-site sewage treatment and disposal systems.</P>
+<P>(3) The department of health and local health officers may permit the reuse of greywater according to rules adopted by the department of health.</P>
+<History>1997 c 444 § 8.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Severability<TextRun fontFamily="Times New Roman">—</TextRun>1997 c 444:</TextRun> See note following RCW 90.46.010.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+</BillBody>
+</Bill>

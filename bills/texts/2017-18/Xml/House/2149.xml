@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-2329.1</RequestNumber><ShortBillId>HB 2149</ShortBillId><LongBillId>HOUSE BILL 2149</LongBillId><Legislature>65th Legislature</Legislature><Session>2017 Regular Session</Session><Sponsors>Representatives Lovick, Harmsworth, Reeves, Farrell, Clibborn, Sullivan, Springer, Pellicciotti, Chapman, Sells, Ortiz-Self, Kilduff, Riccelli, Sawyer, Kirby, Tarleton, Stanford, Jinkins, Ryu, Pollet, Goodman, Dolan, Muri, Orcutt, Hargrove, Macri, and Santos</Sponsors><BillHistory><ReadDate>Read first time 03/10/17.</ReadDate><ReferredCommittee>Referred to Committee on Transportation.</ReferredCommittee></BillHistory><BriefDescription>Requiring a taxpayer accountability statement to be included with regional transit authority motor vehicle excise taxes.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to requiring a taxpayer accountability statement to be included with regional transit authority motor vehicle excise taxes; amending RCW 81.104.190; creating a new section; and declaring an emergency.</BillTitle>
+<EnactedClause />
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>In November 2016, the voters within the sound transit district approved a fifty-four billion dollar, taxpayer-funded light rail, heavy rail, and bus expansion in the Puget Sound region. Ensuring that taxpayers understand how funds collected by sound transit are used is critical to achieving trust between the agency and the public. The legislature finds that the opportunities to provide transparency and understanding regarding the use of taxpayer dollars should be maximized. To achieve this end, a sound transit taxpayer accountability statement will be placed on the annual registration renewal notifications provided by the department of licensing, which will contain easy-to-access and easy-to-understand information on sound transit project status and financial audits.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>81</TitleNumber><TextRun>.</TextRun><ChapterNumber>104</ChapterNumber><TextRun>.</TextRun><SectionNumber>190</SectionNumber></SectionCite> and 2009 c 280 s 7 are each amended to read as follows:<Caption>Contract for collection of taxes.</Caption></BillSectionHeader>
+<P><TextRun amendingStyle="add">(1)</TextRun> Cities that operate transit systems, county transportation authorities, metropolitan municipal corporations, public transportation benefit areas, high capacity transportation corridor areas, and regional transit systems may contract with the state department of revenue or other appropriate entities for administration and collection of any tax authorized by RCW 81.104.150, 81.104.160, and 81.104.170.</P>
+<P><TextRun amendingStyle="add">(2)(a) A regional transit authority that includes a county with a population of more than one million five hundred thousand, if it contracts for the collection of a tax authorized by RCW 81.104.160, must require the inclusion of a taxpayer accountability statement when notification is sent to any person regarding the amount of tax levied under RCW 81.104.160.</TextRun></P>
+<P><TextRun amendingStyle="add">(b) For purposes of this subsection, a taxpayer accountability statement must include the following:</TextRun></P>
+<P><TextRun amendingStyle="add">(i) A statement indicating which of the regional transit authority's projects are in scope, on time, and on budget and which are not;</TextRun></P>
+<P><TextRun amendingStyle="add">(ii) A link or web site address to audited financial statements for the regional transit authority;</TextRun></P>
+<P><TextRun amendingStyle="add">(iii) A link or web site address to fiscal information on the regional transit authority's projects; and</TextRun></P>
+<P><TextRun amendingStyle="add">(iv) The number of a hotline to be provided by the department of licensing to expedite contact with the appropriate regional transit authority.</TextRun></P>
+<History>2009 c 280 § 7; 1992 c 101 § 30; 1990 c 43 § 45.</History>
+</BillSection>
+<BillSection type="new" action="emerg">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act is necessary for the immediate preservation of the public peace, health, or safety, or support of the state government and its existing public institutions, and takes effect immediately.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

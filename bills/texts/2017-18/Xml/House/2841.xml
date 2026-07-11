@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-3852.1</RequestNumber><ShortBillId>HB 2841</ShortBillId><LongBillId>HOUSE BILL 2841</LongBillId><Legislature>65th Legislature</Legislature><Session>2018 Regular Session</Session><Sponsors>Representatives Shea, McCaslin, Eslick, DeBolt, and Young</Sponsors><BillHistory><ReadDate>Read first time 01/17/18.</ReadDate><ReferredCommittee>Referred to Committee on Health Care &amp; Wellness.</ReferredCommittee></BillHistory><BriefDescription>Distributing information about the risks associated with vaccinations.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to distributing information about the risks associated with vaccinations; and adding a new section to chapter 43.70 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>70</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) The department shall adopt a standard disclaimer form for each vaccine approved by the federal food and drug administration that informs patients:</P>
+<P>(a) That a person who is vaccinated may inadvertently carry the disease that it was intended to protect against and that it may expose vulnerable populations to the disease;</P>
+<P>(b) That the receipt of a vaccination is not a guarantee of protection against the disease that it was intended to protect against; and</P>
+<P>(c) Of the known effectiveness rate of the particular vaccine, the expected duration of the protection, and the possibility that a person may become infected with the targeted disease.</P>
+<P>(2) Each health care provider who holds a license issued by a disciplining authority under RCW 18.130.040 must provide a patient with the relevant disclaimer form adopted pursuant to subsection (1) of this section for each vaccine to be administered prior to its administration.</P>
+<P>(3) Failure to comply with subsection (2) of this section constitutes unprofessional conduct under chapter 18.130 RCW.</P>
+</BillSection>
+</BillBody>
+</Bill>

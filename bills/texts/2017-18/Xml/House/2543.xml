@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-3624.1</RequestNumber><ShortBillId>HB 2543</ShortBillId><LongBillId>HOUSE BILL 2543</LongBillId><Legislature>65th Legislature</Legislature><Session>2018 Regular Session</Session><Sponsors>Representatives Lovick, Irwin, Springer, Kirby, Doglio, Frame, Chandler, Stokesbary, Griffey, Volz, Ortiz-Self, McBride, Senn, Gregerson, Muri, and Pollet</Sponsors><BillHistory><ReadDate>Read first time 01/10/18.</ReadDate><ReferredCommittee>Referred to Committee on Education.</ReferredCommittee></BillHistory><BriefDescription>Establishing regional school safety centers in educational service districts.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to establishing regional school safety centers in educational service districts; adding a new section to chapter 28A.310 RCW; creating a new section; and repealing RCW 28A.310.505.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>28A</TitleNumber><TextRun>.</TextRun><ChapterNumber>310</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) Subject to the availability of amounts appropriated for this specific purpose, educational service districts must establish regional school safety centers as part of a statewide network, and as required under this section.</P>
+<P>(2) The purpose of this statewide network is to provide regional coordination of school safety efforts across the state and to provide school safety resources to the school districts in the region.</P>
+<P>(3) The purposes of the regional school safety centers include:</P>
+<P>(a) Mental health support, threat assessment training, prevention planning, mitigation, preparedness, crisis response, and community recovery concerning emergency incidents in schools;</P>
+<P>(b) Supporting safe school plans, required under RCW 28A.320.125, and supporting school districts with emergency planning and preparedness for: Natural disasters including earthquakes, tsunamis, mud slides and fire; chemical spills; human-made disasters; incidents of school violence; and other disasters;</P>
+<P>(c) Assisting with coordinating other entities in the region to provide support to school districts before emergencies occur; and</P>
+<P>(d) Coordinating staff trainings for school districts to maximize efficiency for quality professional development related to school safety.</P>
+<P>(4) The regional school safety centers must provide, based on the needs of the school districts in their region:</P>
+<P>(a) Support for school districts' efforts to meet state requirements regarding school safety;</P>
+<P>(b) Technical assistance to school districts seeking funding for first aid, health, and safety and security resources including defibrillators and saws with automatic braking systems;</P>
+<P>(c) Information related to resources available for anonymous reporting systems for student concerns;</P>
+<P>(d) Training for teachers and school staff to respond during the critical period between the time an incident begins and outside help arrives;</P>
+<P>(e) Real time support for school districts in crisis by offering information, best practices, and additional support including personnel and other types of assistance; and</P>
+<P>(f) Training for teachers and school staff for the development of crisis teams and community recovery support.</P>
+<P>(5) In addition, the regional school safety centers may, based on the needs of the school districts in their region:</P>
+<P>(a) Provide assistance, where feasible, in monitoring 911 calls in the vicinity of schools across the state to provide early warnings of dangerous situations in close proximity; and</P>
+<P>(b) Implement a technology-based system to improve communication between schools and emergency responders and provide assistance when alerts are issued.</P>
+<P>(6) For the purpose of implementing regional school safety centers, educational service districts must employ a mental health coordinator, a threat assessment coordinator, and a leadership position for their regional school safety centers.</P>
+</BillSection>
+<BillSection type="new" action="repeal">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P><SectionCite><TextRun>RCW </TextRun><TitleNumber>2</TitleNumber><TextRun>8A.</TextRun><ChapterNumber>310</ChapterNumber><TextRun>.</TextRun><SectionNumber>505</SectionNumber></SectionCite> (Regional school safety and security programs) and 2016 c 240 s 6 are each repealed.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="repeal">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>If specific funding for the purposes of this act, referencing this act by bill or chapter number, is not provided by March 8, 2018, in the supplemental omnibus appropriations act, this act is null and void.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

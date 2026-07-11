@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-1040.2</RequestNumber><ShortBillId>HB 1872</ShortBillId><LongBillId>HOUSE BILL 1872</LongBillId><Legislature>65th Legislature</Legislature><Session>2017 Regular Session</Session><Sponsors>Representatives Kretz, Blake, Short, Kraft, Haler, and Shea</Sponsors><BillHistory><ReadDate>Read first time 02/01/17.</ReadDate><ReferredCommittee>Referred to Committee on Agriculture &amp; Natural Resources.</ReferredCommittee></BillHistory><BriefDescription>Providing for the partial delisting of the gray wolf by the fish and wildlife commission.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to providing for the partial delisting of the gray wolf by the fish and wildlife commission; amending RCW 77.12.020; adding a new section to chapter 77.12 RCW; and creating new sections.</BillTitle>
+<EnactedClause />
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1)(a) The legislature finds that the recovery and integration of gray wolves into society has been challenging. The wolf conservation and management plan, set up with good intentions years ago, has resulted in significant recovery in certain parts of the state. However, the level of recovery has had a disproportionate impact on certain communities where wolf recovery has been the most robust.</P></BillSectionHeader>
+<P>(b) For example, as of June 2016 the primary ranges of seventeen out of the nineteen wolf packs known and documented by the department of fish and wildlife in Washington were concentrated in four counties in the north-central and eastern portions of Washington. Currently, management options in those areas are limited due to the statewide endangered status of gray wolves and the current approach is not working.</P>
+<P>(2) In order for wolf recovery to be successful, the state must have the resources to deal with conflicts in areas where dense populations occur. Furthermore, the state needs to implement effective management tools to promote societal acceptance where populations are thriving.</P>
+<P>(3) The legislature intends to equip the state to manage gray wolves effectively with the goal of balancing continued recovery with more active conflict management in areas that have experienced the greatest negative impacts as a result of wolf recovery.</P>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>77</TitleNumber><TextRun>.</TextRun><ChapterNumber>12</ChapterNumber><TextRun>.</TextRun><SectionNumber>020</SectionNumber></SectionCite> and 2014 c 202 s 302 are each amended to read as follows:<Caption>Wildlife to be classified.</Caption></BillSectionHeader>
+<P>(1) The director shall investigate the habits and distribution of the various species of wildlife native to or adaptable to the habitats of the state. The commission shall determine whether a species should be managed by the department and, if so, classify it under this section.</P>
+<P>(2) The commission may classify by rule wild animals as game animals and game animals as fur-bearing animals.</P>
+<P>(3) The commission may classify by rule wild birds as game birds or predatory birds. All wild birds not otherwise classified are protected wildlife.</P>
+<P>(4) In addition to those species listed in RCW 77.08.020, the commission may classify by rule as game fish other species of the class Osteichthyes that are commonly found in freshwater except those classified as food fish by the director.</P>
+<P>(5) The director may recommend to the commission that a species of wildlife should not be hunted or fished. <TextRun amendingStyle="add">Except as provided in section 3 of this act, t</TextRun>he commission may designate species of wildlife as protected.</P>
+<P>(6) If the director determines that a species of wildlife is seriously threatened with extinction in the state of Washington, the director may request its designation as an endangered species. <TextRun amendingStyle="add">Except as provided in section 3 of this act, t</TextRun>he commission may designate an endangered species.</P>
+<P>(7) If the director determines that a species of the animal kingdom, not native to Washington, is dangerous to the environment or wildlife of the state, the director may request its designation as deleterious exotic wildlife. The commission may designate deleterious exotic wildlife.</P>
+<P>(8) Upon recommendation by the director, the commission may develop a work plan to eradicate native aquatic species that threaten human health. Priority shall be given to water bodies that the department of health has classified as representing a threat to human health based on the presence of a native aquatic species.</P>
+<History>2014 c 202 § 302; 2002 c 281 § 3; 1994 c 264 § 53; 1987 c 506 § 13; 1980 c 78 § 13; 1969 ex.s. c 18 § 1; 1955 c 36 § 77.12.020. Prior: 1947 c 275 § 12; Rem. Supp. 1947 § 5992-22.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Findings<TextRun fontFamily="Times New Roman">—</TextRun>2014 c 202:</TextRun> See note following RCW 77.135.010.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Purpose<TextRun fontFamily="Times New Roman">—</TextRun>2002 c 281:</TextRun> See note following RCW 77.08.010.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Legislative findings and intent<TextRun fontFamily="Times New Roman">—</TextRun>1987 c 506:</TextRun> See note following RCW 77.04.020.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>Intent, construction<TextRun fontFamily="Times New Roman">—</TextRun>Savings<TextRun fontFamily="Times New Roman">—</TextRun>Severability<TextRun fontFamily="Times New Roman">—</TextRun>1980 c 78:</TextRun> See notes following RCW 77.04.010.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>77</TitleNumber><TextRun>.</TextRun><ChapterNumber>12</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>The commission may not designate or maintain a designation for the gray wolf, <TextRun fontStyle="italic">Canis lupus</TextRun>, as an endangered, threatened, or sensitive species under RCW 77.12.020, or the rules adopted under RCW 77.12.020, in any Washington county east of the crest of the Cascade mountains that shares a border with Canada.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber><P>The fish and wildlife commission must immediately commence rule making to amend all applicable rules, as they existed on the effective date of this section, in order to conform with the requirements of section 3 of this act.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

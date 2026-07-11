@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-0352.1</RequestNumber><ShortBillId>HB 1034</ShortBillId><LongBillId>HOUSE BILL 1034</LongBillId><Legislature>65th Legislature</Legislature><Session>2017 Regular Session</Session><Sponsors>Representative Manweller</Sponsors><BillHistory><PrefiledDate>Prefiled 12/13/16.</PrefiledDate><ReadDate>Read first time 01/09/17.</ReadDate><ReferredCommittee>Referred to Committee on Judiciary.</ReferredCommittee></BillHistory><BriefDescription>Concerning legal actions against the state by state officials.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to legal actions against the state by state officials; amending RCW 43.10.040 and 43.12.075; and adding a new section to chapter 43.01 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>01</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>The lieutenant governor, secretary of state, treasurer, auditor, superintendent of public instruction, commissioner of public lands, and insurance commissioner may not institute or prosecute any legal action against the state under the authority of his or her office unless he or she has sought and obtained the written prior approval from the governor. Upon request, the governor must consult with any such state official seeking approval to bring a legal action against the state. The attorney general must institute and prosecute any such action approved by the governor through appointment of a special assistant attorney general.</P>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>10</ChapterNumber><TextRun>.</TextRun><SectionNumber>040</SectionNumber></SectionCite> and 1965 c 8 s 43.10.040 are each amended to read as follows:<Caption>Representation of boards, commissions and agencies.</Caption></BillSectionHeader>
+<P>The attorney general shall also represent the state and all officials, departments, boards, commissions and agencies of the state in the courts, and before all administrative tribunals or bodies of any nature, in all legal or quasi legal matters, hearings, or proceedings, and advise all officials, departments, boards, commissions, or agencies of the state in all matters involving legal or quasi legal questions, except those declared by law to be the duty of the prosecuting attorney of any county<TextRun amendingStyle="add">, or in any action subject to section 1 of this act</TextRun>.</P>
+<History>1965 c 8 § 43.10.040. Prior: 1941 c 50 § 1, part; Rem. Supp. 1941 § 11034-3, part.</History>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>12</ChapterNumber><TextRun>.</TextRun><SectionNumber>075</SectionNumber></SectionCite> and 2003 c 334 s 431 are each amended to read as follows:<Caption>Duty of attorney general<TextRun fontFamily="Times New Roman">—</TextRun>Commissioner may represent state.</Caption></BillSectionHeader>
+<P>It shall be the duty of the attorney general, to institute, or defend, any action or proceeding to which the state, or the commissioner or the board, is or may be a party, or in which the interests of the state are involved, in any court of this state, or any other state, or of the United States, or in any department of the United States, or before any board or tribunal, when requested so to do by the commissioner, or the board, or upon the attorney general's own initiative.</P>
+<P>The commissioner is authorized to represent the state in any such action or proceeding relating to any public lands of the state. <TextRun amendingStyle="add">The commissioner may not seek to initiate or prosecute any suit against the state, unless he or she has obtained the prior approval of the governor as provided under section 1 of this act.</TextRun></P>
+<History>2003 c 334 § 431; 1959 c 257 § 40; 1927 c 255 § 194; RRS § 7797-194. Prior: 1909 c 223 § 7; 1897 c 89 § 65; 1895 c 178 § 100. Formerly RCW 79.01.736, 79.08.020.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Intent<TextRun fontFamily="Times New Roman">—</TextRun>2003 c 334:</TextRun> See note following RCW 79.02.010.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+</BillBody>
+</Bill>

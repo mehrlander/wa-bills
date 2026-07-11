@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-1519.1</RequestNumber><ShortBillId>HB 1967</ShortBillId><LongBillId>HOUSE BILL 1967</LongBillId><Legislature>65th Legislature</Legislature><Session>2017 Regular Session</Session><Sponsors>Representatives Stanford, Ormsby, and Pollet</Sponsors><BillHistory><ReadDate>Read first time 02/06/17.</ReadDate><ReferredCommittee>Referred to Committee on Labor &amp; Workplace Standards.</ReferredCommittee></BillHistory><BriefDescription>Concerning noncompetition agreements.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to noncompetition agreements; adding a new section to chapter 49.44 RCW; and creating new sections.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature finds that noncompetition agreements are appropriate to protect information that is secret, competitive, and time-sensitive. However, the legislature further finds that noncompetition agreements are increasingly used in situations in which an alternative restriction, such as a nondisclosure agreement or a nonsolicitation agreement, may meet employer needs without limiting employee mobility or otherwise stifling innovation. Further, an employer's investment in an employee, such as through relocation or training costs, may be protected with a liquidated damages clause in an employment contract. Therefore, the legislature intends to place reasonable limits on noncompetition agreements to protect employees.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>49</TitleNumber><TextRun>.</TextRun><ChapterNumber>44</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) An unreasonable noncompetition agreement is void and unenforceable. If a court finds a noncompetition agreement unreasonable, it may reform the agreement to make it reasonable and enforceable. If a court reforms an agreement, the party seeking to declare the agreement void shall be deemed the prevailing party for purposes of the contract and under law.</P>
+<P>(2) For a noncompetition agreement to be enforceable, the employer must disclose the terms of the agreement in writing to the prospective employee no later than the time of the offer of employment or, if the agreement is entered into after the commencement of employment, the employer must provide independent consideration for the agreement.</P>
+<P>(3) The reformation or unenforceability of a noncompetition agreement does not affect the enforceability of any form of confidentiality, nonsolicitation, or other agreement, or any other terms and conditions between the parties, regardless of whether the other agreement or terms or conditions are contained in the same document as a noncompetition agreement.</P>
+<P>(4)(a) An employment noncompetition agreement is unreasonable and void and unenforceable if the employee is:</P>
+<P>(i) A temporary or seasonal employee; or</P>
+<P>(ii) Terminated without just cause or laid off by action of the employer.</P>
+<P>(b) A court may not reform a noncompetition agreement that is unenforceable under this subsection (4).</P>
+<P>(5) A rebuttable presumption is established that an employment noncompetition agreement is unreasonable and void and unenforceable if:</P>
+<P>(a) The employee is restricted from competing for more than one year after termination of employment; or</P>
+<P>(b) The employee is not an executive employee.</P>
+<P>(6) A noncompetition agreement between an entity engaging an independent contractor and an independent contractor is unreasonable and void and unenforceable.</P>
+<P>(7) If an employer requires an employee to enter into a noncompetition agreement containing provisions the employer knows or reasonably should know are unenforceable, the employee may recover actual damages, together with statutory damages of five thousand dollars and reasonable attorneys' fees.</P>
+<P>(8) For purposes of this section:</P>
+<P>(a) "Confidentiality agreement" means an agreement between an employer and employee that protects proprietary and confidential information including sales information, business strategies and plans, customer information, price information, and trade secrets as defined in RCW 19.108.010.</P>
+<P>(b) "Employee" means an employee of an employer.</P>
+<P>(c) "Employer" means any person, firm, corporation, partnership, business trust, legal representative, or other entity that engages in any business, industry, profession, or activity in this state and employs one or more employees, and includes the state, counties, cities, all municipal corporations, public corporations, political subdivisions of the state, and charitable organizations.</P>
+<P>(d) "Executive employee" means any employee:</P>
+<P>(i) Whose primary duty consists of the management of the enterprise in which he or she is employed or of a customarily recognized department or subdivision thereof;</P>
+<P>(ii) Who customarily and regularly directs the work of two or more employees;</P>
+<P>(iii) Who has the authority to hire or fire other employees or whose suggestions and recommendations as to the hiring or firing and as to the advancement and promotion or any other change in the status of other employees will be given particular weight;</P>
+<P>(iv) Who customarily and regularly exercises discretionary powers; and</P>
+<P>(v) Who does not devote more than twenty percent, or in the case of an employee at a retail or service establishment who does not devote more than forty percent, of his or her hours worked in a workweek to activities which are not directly and closely related to the performance of the work described in (d)(i) through (iv) of this subsection (8). This subsection (8)(d)(v) does not apply in the case of an employee who is in sole charge of an independent establishment or a physically separated branch establishment, or who owns at least a twenty percent interest in the enterprise in which he or she is employed.</P>
+<P>(e) "Noncompetition agreement" means an agreement between: (i) An employer and an employee that is specifically designed to impede the ability of an employee to compete with the employer upon the termination of the employment relationship; or (ii) a hiring entity and an independent contractor that is specifically designed to impede the ability of an independent contractor to compete with the hiring entity upon termination of the relationship with the hiring entity. A "noncompetition agreement" does not include a confidentiality agreement or a nonsolicitation agreement.</P>
+<P>(f) "Nonsolicitation agreement" means an agreement between an employer and employee that prohibits solicitation by an employee, upon termination of employment: (i) Of any employee of the employer to leave the employer; or (ii) of any customer of the employer to cease doing business with the employer or to compete with the employer.</P>
+<P>(9) Except as provided in this section, this section does not restrict the right of an employer or any entity engaging an independent contractor from entering into a confidentiality or nonsolicitation agreement, or other terms and conditions of the employment or engagement, with an employee or independent contractor.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act applies to agreements entered into on or after the effective date of this section.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

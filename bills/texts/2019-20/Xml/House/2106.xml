@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-1888.1</RequestNumber><ShortBillId>HB 2106</ShortBillId><LongBillId>HOUSE BILL 2106</LongBillId><Legislature>66th Legislature</Legislature><Session>2019 Regular Session</Session><Sponsors>Representative Sutherland</Sponsors><BillHistory><ReadDate>Read first time 02/21/19.</ReadDate><ReferredCommittee>Referred to Committee on Finance.</ReferredCommittee></BillHistory><BriefDescription>Capping the amount of residential property value that is subject to property taxation for state purposes.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to capping the amount of residential property value that is subject to property taxation for state purposes; adding a new section to chapter 84.36 RCW; creating new sections; and providing a contingent effective date.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature finds that the Washington State property tax levy rate was increased by forty-three percent during the 2017 legislative session. The legislature further finds that the Washington housing market has seen record growth since 2016. The legislature further finds that the combination of the increased state property tax rate and increasing home values has resulted in unprecedented state property tax bills and has put an extraordinary financial burden on local homeowners. The legislature further finds that rising high property taxes increase homelessness and can prohibit young adults from remaining in the housing market. Therefore, the legislature intends to provide tax relief by capping state property taxes for current and future homeowners.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) This section is the tax preference performance statement for the tax preference contained in section 3, chapter . . ., Laws of 2019 (section 3 of this act). This performance statement is only intended to be used for subsequent evaluation of the tax preference. It is not intended to create a private right of action by any party or be used to determine eligibility for preferential tax treatment.</P></BillSectionHeader>
+<P>(2) The legislature categorizes this tax preference as one intended to provide property tax relief to Washington homeowners, as indicated in RCW 82.32.808(2)(e).</P>
+<P>(3) It is the legislature's specific public policy objective to mitigate the negative externalities associated with high state property taxes. It is the legislature's intent to reduce the rapid growth of state property tax bills for current and future homeowners, in order to reduce the economic burden high state property taxes have imposed on Washingtonians.</P>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>84</TitleNumber><TextRun>.</TextRun><ChapterNumber>36</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) The amount of residential real property value that is subject to property taxation for state purposes is the lesser of that property's assessed value in the assessment year or that property's assessed value in 2019.</P>
+<P>(2) The definitions in this subsection apply throughout this section unless the context clearly requires otherwise.</P>
+<P>(a) "Residential real property" means a structure or part of a structure that is:</P>
+<P>(i) Used as a home, residence, or sleeping place by one person or by two or more persons maintaining a common household, including but not limited to single-family residences, units of multiplexes and apartment buildings, mobile homes, and rental property; and</P>
+<P>(ii) Subject to real property tax.</P>
+<P>(b) "State property tax levy" is the sum of the state property tax levies levied under RCW 84.52.065.</P>
+<P>(3) This section is not subject to the provisions of RCW 82.32.805 and 82.32.808.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber><P>If the proposed amendment to Article VII, section 1 of the state Constitution in House Joint Resolution No.. . . (H-1618/19) is validly submitted to and is approved and ratified by the voters at the next general election, this act takes effect on the date that House Joint Resolution No.. . . (H-1618/19) becomes effective.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

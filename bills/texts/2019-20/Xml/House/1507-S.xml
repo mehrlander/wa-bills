@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-2096.1</RequestNumber><ShortBillId>SHB 1507</ShortBillId><LongBillId>SUBSTITUTE HOUSE BILL 1507</LongBillId><Legislature>66th Legislature</Legislature><Session>2019 Regular Session</Session><Sponsors>House Capital Budget (originally sponsored by Representatives Walsh and Kraft)</Sponsors><BillHistory><ReadDate>READ FIRST TIME 02/28/19.</ReadDate></BillHistory><BriefDescription>Promoting physical safety and security of school buildings, grounds, and surroundings through environmental design principles.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to promoting physical safety and security of school buildings, grounds, and surroundings through environmental design principles; amending RCW 28A.335.010; creating a new section; and repealing RCW 28A.525.050.</BillTitle>
+<EnactedClause />
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature finds that recent acts of mass violence across the nation have threatened the safety of children at school. Thus, the legislature intends to implement short and long-term strategies that empower school districts to protect our students and provide a safe and secure learning environment. The legislature further intends to adopt policies that support our schools and enable them to increase security, provide greater protections for students and staff, and develop local strategies to identify and intervene against potential threats. The legislature finds that safety-focused design elements in the built environment can reduce and deter criminal activity and increase safety. Therefore, it is the intent of the legislature to encourage the incorporation of these design elements into the construction of school facilities as a long-term strategy to reduce incidences of violence and increase the safety of students and staff.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>28A</TitleNumber><TextRun>.</TextRun><ChapterNumber>335</ChapterNumber><TextRun>.</TextRun><SectionNumber>010</SectionNumber></SectionCite> and 2013 c 233 s 2 are each amended to read as follows:<Caption>School buildings, maintenance, furnishing, and insuring<TextRun fontFamily="Times New Roman">—</TextRun>School building security.</Caption></BillSectionHeader>
+<P>(1) Every board of directors, unless otherwise specifically provided by law, shall:</P>
+<P>(a) Cause all school buildings to be properly heated, lighted, and ventilated and maintained in a clean and sanitary condition; and</P>
+<P>(b) Maintain and repair, furnish, and insure such school buildings.</P>
+<P>(2) Every board of directors, unless otherwise specifically provided by law, shall also:</P>
+<P>(a) Consider installing a perimeter security control mechanism or system on all school campuses, as appropriate to the design of the campus; and</P>
+<P>(b) For new school construction projects or remodeling projects of more than forty percent of an existing school building that are initiated after July <TextRun amendingStyle="strike">28, 2013</TextRun> <TextRun amendingStyle="add">1, 2020</TextRun>, consider school building plans and designs that promote:</P>
+<P>(i) An optimal level of security for the specific school site that incorporates evolving technology and best practices to protect students and staff in the event of a threat during school hours;</P>
+<P>(ii) Direct control and observation of the public entering school grounds; <TextRun amendingStyle="strike">and</TextRun></P>
+<P>(iii) The public entering school grounds through as few entrances as possible, such as through the main entrance of a school's administrative offices<TextRun amendingStyle="add">; and</TextRun></P>
+<P><TextRun amendingStyle="add">(iv) Effective physical safety and security through natural surveillances, natural access controls, and territorial reinforcements, or other safety-focused environmental design elements, while maintaining functional and aesthetic qualities of school buildings, grounds, and surroundings</TextRun>.</P>
+<P>(3) The purpose of subsection (2) of this section is to promote generally the safety of all students and staff in Washington public schools. Nothing in subsection (2) of this section creates any civil liability for school districts, or creates a new cause of action or new theory of negligence against a school district board of directors, a school district, or the state.</P>
+<History>2013 c 233 § 2; 1969 ex.s. c 223 § 28A.58.102. Prior: 1969 c 53 § 1, part; 1967 ex.s. c 29 § 1, part; 1967 c 12 § 1, part; 1965 ex.s. c 49 § 1, part; 1963 c 104 § 1, part; 1963 c 5 § 1, part; 1961 c 305 § 1, part; 1961 c 237 § 1, part; 1961 c 66 § 1, part; 1955 c 68 § 2, part. Formerly RCW 28A.58.102, 28.58.100(3), part, and (4) part.</History>
+<RCWNoteSection>
+<CrossRefNote><NoteP>Energy audits and energy capital improvements: RCW 28A.320.330.</NoteP></CrossRefNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="new" action="repeal">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P><SectionCite><TextRun>RCW </TextRun><TitleNumber>28A</TitleNumber><TextRun>.</TextRun><ChapterNumber>525</ChapterNumber><TextRun>.</TextRun><SectionNumber>050</SectionNumber></SectionCite> (Applications for aid<TextRun fontFamily="Times New Roman">—</TextRun>Recommendations) and 2006 c 263 s 303 &amp; 1969 ex.s. c 223 s 28A.47.080 are each repealed.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

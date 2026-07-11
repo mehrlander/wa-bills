@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-4295.1</RequestNumber><ShortBillId>HB 2901</ShortBillId><LongBillId>HOUSE BILL 2901</LongBillId><Legislature>66th Legislature</Legislature><Session>2020 Regular Session</Session><Sponsors>Representatives Riccelli, Cody, Robinson, Stonier, and Macri</Sponsors><BillHistory><ReadDate>Read first time 01/29/20.</ReadDate><ReferredCommittee>Referred to Committee on Finance.</ReferredCommittee></BillHistory><BriefDescription>Providing health care premium assistance by imposing a tax on claims paid.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to providing health care premium assistance by imposing a tax on claims paid; adding a new section to chapter 48.14 RCW; and adding new sections to chapter 41.05 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>48</TitleNumber><TextRun>.</TextRun><ChapterNumber>14</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) In addition to any other taxes imposed under this chapter, each covered entity must pay an additional tax. The measure of the tax is one percent of all paid claims by a covered entity during the preceding calendar year. The tax is due annually each March 1st and must be reported and paid in the manner prescribed by the commissioner's office. The first payment is due March 1, 2021, for paid claims during calendar year 2020.</P>
+<P>(2) The proceeds of the tax must be deposited into the premium assistance account created in section 2 of this act.</P>
+<P>(3) The definitions in this subsection apply throughout this section unless the context clearly requires otherwise.</P>
+<P>(a) "Claims-related expenses" means:</P>
+<P>(i) Cost containment expenses including payments for utilization review, care or case management, disease management, medication review management, risk assessment, and similar administrative services intended to reduce the claims paid for health and medical services rendered to covered individuals by attempting to ensure the needed services are delivered in the most efficacious manner possible or by helping those covered individuals maintain or improve their health;</P>
+<P>(ii) Payments that are made to or by an organized group of health or medical service providers in accordance with managed care risk arrangements or network access agreements if the payments are unrelated to the provision of services to specific covered individuals; and</P>
+<P>(iii) General administrative expenses.</P>
+<P>(b) "Covered entity" means health carriers as defined in RCW 48.43.005, third-party administrators, and employers offering self-funded coverage.</P>
+<P>(c) "Health and medical services" means:</P>
+<P>(i) Services including furnishing medical care, dental care, pharmaceutical care, and care provided in a hospital or other medical facility;</P>
+<P>(ii) Ancillary services, including ambulatory services and emergency and nonemergency transportation;</P>
+<P>(iii) Services provided by any professional regulated under chapter 18.130 RCW, except for veterinarians, marriage and family therapists, athletic trainers, massage therapists, and mental health counselors; and</P>
+<P>(iv) Behavioral health services, including mental health and substance use disorder treatment.</P>
+<P>(d) "Paid claims" includes the net recovery of actual payments made on behalf of a Washington resident to a health and medical services provider or reimbursed to an individual by a covered entity. "Paid claims" does not include:</P>
+<P>(i) Claims-related expenses;</P>
+<P>(ii) Payments made to a qualifying provider under an incentive compensation arrangement if the payments are not reflected in the processing of claims submitted for services rendered to specific covered individuals;</P>
+<P>(iii) Claims paid by covered entities for specified accident, accident-only coverage, credit, disability income, long-term care, health-related claims under automobile insurance, homeowners insurance, farm owners insurance, commercial multiple peril insurance, workers compensation, and coverage issued as a supplement to liability insurance;</P>
+<P>(iv) Claims paid for services to a nonresident of Washington or for services provided outside of Washington;</P>
+<P>(v) Claims paid under health coverage offered to federal employees;</P>
+<P>(vi) Claims paid by a tribal government or a Taft-Hartley trust, or a third-party administrator acting on behalf of a tribal government or Taft-Hartley trust;</P>
+<P>(vii) Claims paid under federal and state programs, including medicare, apple health, apple health for kids, tricare, and veterans administration coverage;</P>
+<P>(viii) Reimbursement to an individual under a health reimbursement arrangement authorized under the federal internal revenue code, including a flexible spending arrangement, a health savings account, an Archer medical savings account, or a medicare advantage medical savings account;</P>
+<P>(ix) Cost-sharing paid by an individual, including copayments, coinsurance, and deductibles;</P>
+<P>(x) Claims paid by coverage offered under chapter 48.41 RCW.</P>
+<P>(e) "Third-party administrators" means any person or entity who, on behalf of a health carrier or health care purchaser other than a tribal government or a Taft-Hartley trust, receives or collects charges or contributions for providers and facilities.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>41</TitleNumber><TextRun>.</TextRun><ChapterNumber>05</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:<P /><P /></BillSectionHeader>
+<P>The premium assistance account is created in the state treasury. All the proceeds from the tax imposed in section 1 of this act must be deposited into the account. Moneys in the account may be spent only after appropriation. Expenditures from the account may only be used for premium assistance pursuant to section 3 of this act.</P>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>41</TitleNumber><TextRun>.</TextRun><ChapterNumber>05</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) An individual is eligible for premium assistance under this section if the individual:</P>
+<P>(a) Is a resident of the state;</P>
+<P>(b) Has income that is greater than or equal to one hundred thirty-three percent of the federal poverty level, but less than or equal to five hundred percent of the federal poverty level;</P>
+<P>(c) Is enrolled in a qualified health plan; and</P>
+<P>(d) Is ineligible for medicare, a federal or state medical assistance program administered by the authority under chapter 74.09 RCW, or for premium assistance under RCW 43.71A.020.</P>
+<P>(2) Subject to the availability of amounts appropriated for this specific purpose, the authority must provide premium assistance to an individual eligible under subsection (1) of this section. The authority must, by rule, establish the amount of premium assistance provided to eligible individuals under this section on a sliding scale.</P>
+<P>(3) The authority may disqualify an individual from receiving premium assistance under this section if he or she:</P>
+<P>(a) No longer meets the eligibility criteria in subsection (1) of this section;</P>
+<P>(b) Fails, without good cause, to comply with any procedural or documentation requirements established by the authority in accordance with subsection (4) of this section;</P>
+<P>(c) Fails, without good cause, to notify the authority of a change of address in a timely manner;</P>
+<P>(d) Voluntarily withdraws from the program; or</P>
+<P>(e) Performs an act, practice, or omission that constitutes fraud, and, as a result, an insurer rescinds the individual's policy for the qualified health plan.</P>
+<P>(4) The authority must establish:</P>
+<P>(a) An application process for premium assistance under this section; and</P>
+<P>(b) Procedural requirements for continued participation in the program, including participant documentation requirements that are necessary for the authority to administer the program.</P>
+<P>(5) If sufficient funds are not appropriated to fully fund premium assistance for all eligible individuals under this section, the authority must prioritize providing the premium assistance required under this section to eligible individuals with the lowest incomes.</P>
+<P>(6) Premium assistance under this section must be available no later than the 2022 plan year.</P>
+<P>(7) The definitions in this subsection apply throughout this section unless the context clearly requires otherwise.</P>
+<P>(a) "Advance premium tax credit" means the premium assistance amount determined in accordance with the affordable care act.</P>
+<P>(b) "Affordable care act" means the federal patient protection and affordable care act, P.L. 111-148, as amended by the federal health care and education reconciliation act of 2010, P.L. 111-152, or federal regulations or guidance issued under the affordable care act.</P>
+<P>(c) "Exchange" means the Washington health benefit exchange established in chapter 43.71 RCW.</P>
+<P>(d) "Income" means the modified adjusted gross income attributed to an individual for purposes of determining his or her eligibility for advance premium tax credits.</P>
+<P>(e) "Qualified health plan" means a health benefit plan sold through the health benefit exchange.</P>
+</BillSection>
+</BillBody>
+</Bill>

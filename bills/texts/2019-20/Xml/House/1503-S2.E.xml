@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><ShortBillId>E2SHB 1503</ShortBillId><LongBillId>ENGROSSED SECOND SUBSTITUTE HOUSE BILL 1503</LongBillId><Legislature>66th Legislature</Legislature><Session>2019 Regular Session</Session><Sponsors>House Appropriations (originally sponsored by Representatives Smith, Hudgins, and Stanford)</Sponsors><BillHistory><ReadDate>READ FIRST TIME 03/01/19.</ReadDate></BillHistory><BriefDescription>Concerning registration and consumer protection obligations of data brokers.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to registration and consumer protection obligations of data brokers; adding a new chapter to Title 19 RCW; creating a new section; prescribing penalties; providing an effective date; and providing an expiration date.</BillTitle>
+<EnactedClause />
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The definitions in this section apply throughout this chapter unless the context clearly requires otherwise.</P></BillSectionHeader>
+<P>(1) "Business" means a commercial entity, including a sole proprietorship, partnership, corporation, association, limited liability company, or other group, however organized and whether or not organized to operate at a profit, including a financial institution organized, chartered, or holding a license or authorization certificate under the laws of Washington state, or any other state, the United States, or any other country, or the parent, affiliate, or subsidiary of a financial institution, but it does not include the state, any political subdivision of the state, or a vendor acting solely on behalf of, and at the direction of, the state.</P>
+<P>(2) "Chief privacy officer" means the person appointed under RCW 43.105.369(2).</P>
+<P>(3) "Consumer" means an individual residing in this state.</P>
+<P>(4)(a) "Data broker" means a business, or unit or units of a business, separately or together, that knowingly collects and sells or licenses to third parties the personal information of a consumer with whom the business does not have a direct relationship.</P>
+<P>(b) The following activities conducted by a business do not qualify the business as a data broker:</P>
+<P>(i) Furnishing a consumer credit report, as defined in 15 U.S.C. Sec. 1681a(d), by a consumer reporting agency, as defined in 15 U.S.C. Sec. 1681a(f);</P>
+<P>(ii) Collecting or disclosing nonpublic personal information, as defined in 15 U.S.C. Sec. 6809(4), by a financial institution, as defined in 15 U.S.C. Sec. 6809(3), in a manner than is regulated under the federal Gramm Leach Bliley act, P.L. 106-102, and implementing regulations;</P>
+<P>(iii) Providing 411 directory assistance or directory information services, including name, address, and telephone number, on behalf of or as a function of a telecommunications carrier; or</P>
+<P>(iv) Providing publicly available information via real-time or near real-time alert services for health or safety purposes.</P>
+<P>(5)(a) "Personal information" means information that identifies, relates to, describes, is reasonably capable of being associated with, or could reasonably be linked, directly or indirectly, with a particular consumer or household.</P>
+<P>(b) "Personal information" does not include publicly available information to the extent that it is related to a consumer's business or profession.</P>
+<P>(6) "Record" means any material on which written, drawn, spoken, visual, or electromagnetic information is recorded or preserved, regardless of physical form or characteristic.</P>
+<P>(7) "Sale," "sell," "selling," or "sold" means selling, renting, releasing, disclosing, disseminating, making available, transferring, or otherwise communicating orally, in writing, or by electronic or other means, a consumer's personal information by the business to another business or a third party for monetary or other valuable consideration.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) Annually, on or before January 31st following a year in which a business meets the definition of data broker as provided in section 1 of this act, a data broker shall:</P></BillSectionHeader>
+<P>(a) Register with the chief privacy officer;</P>
+<P>(b) Pay a registration fee of two hundred fifty dollars to the chief privacy officer; and</P>
+<P>(c) Provide the following information to the chief privacy officer:</P>
+<P>(i) The name and primary physical, email, and internet addresses of the data broker;</P>
+<P>(ii) If the data broker permits a consumer to opt out of the data broker's collection of personal information, opt out of its databases, or opt out of certain sales of data:</P>
+<P>(A) The method for requesting an opt-out;</P>
+<P>(B) If the opt-out applies to only certain activities or sales, a statement specifying to which activities or sales the opt-out applies;</P>
+<P>(C) Whether the data broker permits a consumer to authorize a third party to opt out on the consumer's behalf;</P>
+<P>(D) A statement specifying the data collection, databases, or sales activities from which a consumer may not opt out;</P>
+<P>(iii) Whether the data broker implements a purchaser credentialing process;</P>
+<P>(iv) Where the data broker has actual knowledge that it possesses the personal information of minors, a separate statement detailing the data collection practices, databases, sales activities, and opt-out policies that are applicable to the personal information of minors; and</P>
+<P>(v) Any additional information that the data broker chooses to provide concerning its data collection practices.</P>
+<P>(2) The chief privacy officer is authorized to coordinate with a third party for the purpose of collecting the registration fee under subsection (1)(b) of this section.</P>
+<P>(3) A data broker that fails to fulfill the requirements of subsection (1) of this section is subject to:</P>
+<P>(a) A civil penalty of fifty dollars for each day, not to exceed a total of ten thousand dollars for each year it fails to register pursuant to this section;</P>
+<P>(b) A fine equal to the fees due under this section during the period it failed to register pursuant to this section; and</P>
+<P>(c) Other penalties imposed by law.</P>
+<P>(4) The attorney general may maintain an action to collect the penalties imposed in this section and to seek appropriate injunctive relief.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) A person shall not acquire personal information through fraudulent means.</P></BillSectionHeader>
+<P>(2) A person shall not acquire or use personal information for the purpose of:</P>
+<P>(a) Stalking or harassing another person;</P>
+<P>(b) Committing a fraud, including identity theft, financial fraud, or email fraud; or</P>
+<P>(c) Engaging in unlawful discrimination, including employment discrimination and housing discrimination.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) A violation of this chapter is not reasonable in relation to the development and preservation of business and is an unfair or deceptive act in trade or commerce and an unfair method of competition for the purpose of applying the consumer protection act, chapter 19.86 RCW.</P></BillSectionHeader>
+<P>(2) This chapter may be enforced solely by the attorney general under the consumer protection act, chapter 19.86 RCW.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>5</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) On or before December 1, 2021, the chief privacy officer, in consultation with the attorney general, shall submit a preliminary report concerning the implementation of this act to the relevant committees of the legislature. The report must also review and consider the necessity of additional legislative and regulatory approaches to protecting the data security and privacy of Washington consumers whose data is subject to data brokers activities.</P></BillSectionHeader>
+<P>(2) On or before October 1, 2022, the chief privacy officer, in consultation with the attorney general, shall update the preliminary report and provide additional information concerning the implementation of this act and the necessity of additional legislative and regulatory approaches to protecting the data security and privacy of Washington consumers whose data is subject to data brokers activities.</P>
+<P>(3) This section expires January 1, 2023.</P>
+</BillSection>
+<BillSection type="new" action="addchap">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>6</Value><TextRun>.  </TextRun></BillSectionNumber><P>Sections 1 through 4 of this act constitute a new chapter in <TitleCite><TextRun>Title </TextRun><TitleNumber>19</TitleNumber><TextRun> RCW</TextRun></TitleCite>.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="effdate">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>7</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act takes effect January 1, 2021.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

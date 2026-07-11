@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-3656.1</RequestNumber><ShortBillId>HB 2369</ShortBillId><LongBillId>HOUSE BILL 2369</LongBillId><Legislature>66th Legislature</Legislature><Session>2020 Regular Session</Session><Sponsors>Representatives Hoff, Vick, Harris, Orcutt, Gildon, and Volz</Sponsors><BillHistory><PrefiledDate>Prefiled 01/10/20.</PrefiledDate><ReadDate>Read first time 01/13/20.</ReadDate><ReferredCommittee>Referred to Committee on Appropriations.</ReferredCommittee></BillHistory><BriefDescription>Limiting the transfer of moneys in nonappropriated funds and accounts.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to limiting the transfer of moneys in nonappropriated funds and accounts; adding a new section to chapter 43.79 RCW; and adding a new section to chapter 43.88 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>79</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) After the effective date of this section, the legislature shall not transfer moneys from nonappropriated funds or accounts that receive fees paid by regulated or licensed businesses or organizations to any other funds or accounts.</P>
+<P>(2) This section does not apply to transfers specifically authorized by statutes enacted prior to the effective date of this section.</P>
+<P>(3) This section does not apply to acts enacted after the effective date of this section that are enacted with at least a three-fifths majority of the members of both the house of representatives and the senate.</P>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>88</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) After the effective date of this section, the legislature shall not transfer moneys from nonappropriated funds or accounts that receive fees paid by regulated or licensed businesses or organizations to any other funds or accounts in an omnibus biennial or supplemental appropriations act.</P>
+<P>(2) This section does not apply to implementing transfers that are allowed under section 1 (2) or (3) of this act.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>If any provision of this act or its application to any person or circumstance is held invalid, the remainder of the act or the application of the provision to other persons or circumstances is not affected.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

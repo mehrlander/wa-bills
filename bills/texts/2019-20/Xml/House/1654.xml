@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-0901.1</RequestNumber><ShortBillId>HB 1654</ShortBillId><LongBillId>HOUSE BILL 1654</LongBillId><Legislature>66th Legislature</Legislature><Session>2019 Regular Session</Session><Sponsors>Representatives Ryu, Shea, Morris, Valdez, Kloba, Fitzgibbon, Appleton, Frame, and Tarleton</Sponsors><BillHistory><ReadDate>Read first time 01/25/19.</ReadDate><ReferredCommittee>Referred to Committee on Innovation, Technology &amp; Economic Development.</ReferredCommittee></BillHistory><BriefDescription>Concerning the procurement and use of facial recognition technology by government entities in Washington state and privacy rights relating to facial recognition technology.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle> AN ACT Relating to the procurement and use of facial recognition technology by government entities in Washington state and privacy rights relating to facial recognition technology; and adding a new chapter to Title 10 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>FINDINGS.</SectionCaption><P>The legislature finds that:</P></BillSectionHeader>
+<P>(1) Washingtonians cherish privacy as an essential element of their individual freedom, and Washington explicitly recognizes its citizens' right to privacy in its Constitution under Article I, section 7.</P>
+<P>(2) Facial recognition technology poses unique and significant civil rights and civil liberties concerns.</P>
+<P>(3) Studies have found facial recognition technology to be less accurate at identifying women, youth, and people of color, leading to the risk of false matches.</P>
+<P>(4) There is a long history of the use of previous surveillance technologies to impact vulnerable communities, such as the use of social media monitoring systems to track black lives matter activists and license plate readers to track Muslim community members, and the Chinese government is currently using facial recognition and other technologies for general monitoring and social control.</P>
+<P>(5) The use of facial recognition technology without warrant or suspicion can chill the exercise of constitutionally protected free speech, assembly, religious, privacy, and other rights.</P>
+<P>(6) Before the widespread adoption of facial recognition technology by government agencies occurs, there must be a public discussion of acceptable uses of this technology, its accuracy must be demonstrated, and disproportionate impacts on vulnerable communities eliminated.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>DEFINITIONS.</SectionCaption><P>The definitions in this section apply throughout this chapter unless the context clearly requires otherwise.</P></BillSectionHeader>
+<P>(1) "Facial recognition" means both:</P>
+<P>(a) The automated or semiautomated process by which a person is identified or attempted to be identified based on the characteristics of their face, including identification of known or unknown individuals or groups; and</P>
+<P>(b) The automated or semiautomated process by which the characteristics of an individual's face are analyzed to determine the individual's sentiment, state of mind, or other propensities including but not limited to level of dangerousness.</P>
+<P>(2) "Facial recognition system" means any computer software or application that performs facial recognition.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>MORATORIUM ON GOVERNMENT USE OF FACIAL RECOGNITION SYSTEMS.</SectionCaption><P>(1) Until the conditions set forth in subsection (2) of this section are met, it is unlawful for any Washington state or local government agency or any official thereof to obtain, retain, access, or use:</P></BillSectionHeader>
+<P>(a) Any facial recognition system; or</P>
+<P>(b) Any information obtained from or by use of a facial recognition system.</P>
+<P>(2) The restrictions set forth in subsection (1) of this section remain in effect until such time as:</P>
+<P>(a) The attorney general provides a report certifying to the legislature that:</P>
+<P>(i) Independent, third-party testing and auditing of the accuracy of the five most commonly available facial recognition systems by market share, under operational conditions, has taken place; and</P>
+<P>(ii) Such testing and auditing shows no statistically significant variation in the accuracy of such systems on the basis of the race, skin tone, ethnicity, gender, or age of the individuals portrayed in probe images, whether or not those categories are applied individually or in combination;</P>
+<P>(b) The legislature convenes a task force consisting of fifteen representatives of communities historically impacted by surveillance technologies including, but not limited to, African American, Hispanic American, Native American, and Asian American communities, religious minorities, protest and activist groups, and other vulnerable communities, and such task force delivers to the legislature a report documenting the potential consequences of government use of facial recognition systems on the civil rights and civil liberties of vulnerable communities; and</P>
+<P>(c) On the basis of the reports set forth in (a) and (b) of this subsection, the legislature passes legislation finding that the conditions set forth in this subsection (2) have been met, and includes appropriate, recommended restrictions on facial recognition systems' use by government agencies.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>PRIVACY RIGHTS RELATING TO FACIAL RECOGNITION TECHNOLOGY.</SectionCaption><P>(1) This section applies to all Washington state and local government agencies.</P></BillSectionHeader>
+<P>(2) It is unlawful for any state or local government agency or state or local government official to monitor public spaces without a warrant using any facial recognition system or data obtained therefrom; or to use facial recognition to analyze, whether or not contemporaneously, any footage obtained from a police body worn camera.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>5</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>ENFORCEMENT.</SectionCaption><P>(1) No data collected or derived from any use of facial recognition in violation of this chapter and no evidence derived therefrom may be received in evidence in any trial, hearing, or other proceeding in or before any court, grand jury, department, officer, agency, regulatory body, legislative committee, or other authority subject to the jurisdiction of the state of Washington. Facial recognition data collected or derived in violation of this chapter must be considered unlawfully obtained and must be deleted upon discovery.</P></BillSectionHeader>
+<P>(2) Any violation of this chapter constitutes an injury and any person may institute proceedings for injunctive relief, declaratory relief, or writ of mandate in any court of competent jurisdiction to enforce this chapter. An action instituted under this subsection may be brought against the appropriate state or local government agency or state or local government official and, if necessary to effectuate compliance with this chapter, any other government agency with possession, custody, or control of data subject to this chapter.</P>
+<P>(3) Any person who has been subjected to facial recognition in violation of this chapter, or about whom information has been obtained, retained, accessed, or used in violation of this chapter, may institute proceedings in any court of competent jurisdiction against the state and is entitled to recover actual damages, but not less than liquidated damages of one thousand dollars or one hundred dollars for each violation, whichever is greater.</P>
+<P>(4) A court shall award costs and reasonable attorneys' fees to a plaintiff who is the prevailing party in an action brought under subsection (2) or (3) of this section.</P>
+</BillSection>
+<BillSection type="new" action="addchap" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>6</Value><TextRun>.  </TextRun></BillSectionNumber><P>Sections 1 through 5 of this act constitute a new chapter in <TitleCite><TextRun>Title </TextRun><TitleNumber>10</TitleNumber><TextRun> RCW</TextRun></TitleCite>.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

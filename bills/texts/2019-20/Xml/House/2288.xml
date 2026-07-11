@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-3554.1</RequestNumber><ShortBillId>HB 2288</ShortBillId><LongBillId>HOUSE BILL 2288</LongBillId><Legislature>66th Legislature</Legislature><Session>2020 Regular Session</Session><Sponsors>Representatives Leavitt, Gildon, Barkis, Davis, Callan, Frame, Doglio, and Kloba</Sponsors><BillHistory><PrefiledDate>Prefiled 01/03/20.</PrefiledDate><ReadDate>Read first time 01/13/20.</ReadDate><ReferredCommittee>Referred to Committee on Education.</ReferredCommittee></BillHistory><BriefDescription>Creating statutory authorization for school-based health centers.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to creating statutory authorization for school-based health centers; adding a new section to chapter 28A.335 RCW; and creating new sections.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act may be known and cited as the school-based health center authorization act.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature recognizes that school-based health centers may be an important component of education for common school students. Research has shown a link between access to school-based health centers and better educational outcomes for students including positive school climate, lower rates of absenteeism and tardiness, reduced discipline referrals, better supports for at-risk students, and increased likelihood that students will seek mental health services. Establishing connections between health care providers in the community and the local schools helps increase access to health services for children and gives providers perspectives on the health needs of students during the school day. The legislature intends to give clear direction in law for agreements between providers of health care services and school districts.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>28A</TitleNumber><TextRun>.</TextRun><ChapterNumber>335</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>Any school district in the state may enter into agreements with health care providers to establish school-based health centers for the provision of services exclusively to district students, employees, and employees' dependents. The authorization to enter into such agreements is limited and any agreement must include the following provisions:</P>
+<P>(1) The agreement must take the form of a lease of district property to private or public health care providers for those entities' provision of health care services;</P>
+<P>(2) The maximum term of the lease and any and all renewal terms is ten years;</P>
+<P>(3) All lease renewals require mutual agreement of the parties;</P>
+<P>(4) The lessees and any sublessees have sole responsibility for all services, activities, and operations of the school-based health center;</P>
+<P>(5) The lease amount must be sufficient to reimburse the district for any and all of its direct costs associated with the school-based health center; and</P>
+<P>(6) The district is not required to receive fair market value for the leased area if it determines the school-based health center will provide sufficient benefit to the district, its students, and staff.</P>
+</BillSection>
+</BillBody>
+</Bill>

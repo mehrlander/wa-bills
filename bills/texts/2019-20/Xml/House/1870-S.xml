@@ -1,0 +1,328 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-1853.1</RequestNumber><ShortBillId>SHB 1870</ShortBillId><LongBillId>SUBSTITUTE HOUSE BILL 1870</LongBillId><Legislature>66th Legislature</Legislature><Session>2019 Regular Session</Session><Sponsors>House Health Care &amp; Wellness (originally sponsored by Representatives Davis, Cody, Ryu, Jinkins, Dolan, Senn, Bergquist, Peterson, Thai, Valdez, Morgan, Robinson, Goodman, Kilduff, Fey, Pollet, Appleton, Orwall, Mead, Kirby, Kloba, Gregerson, Fitzgibbon, Stanford, and Tharinger)</Sponsors><BillHistory><ReadDate>READ FIRST TIME 02/22/19.</ReadDate></BillHistory><BriefDescription>Making state law consistent with selected federal consumer protections in the patient protection and affordable care act.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to making state law consistent with selected federal consumer protections in the patient protection and affordable care act; amending RCW 48.43.005, 48.43.012, 48.21.270, 48.44.380, 48.46.460, 48.43.715, and 48.43.0122; adding new sections to chapter 48.43 RCW; adding a new section to chapter 43.71 RCW; repealing RCW 48.43.015, 48.43.017, 48.43.018, and 48.43.025; and prescribing penalties.</BillTitle>
+<EnactedClause />
+<Part>
+<P>PART I</P>
+<P>DEFINITIONS</P>
+</Part>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>48</TitleNumber><TextRun>.</TextRun><ChapterNumber>43</ChapterNumber><TextRun>.</TextRun><SectionNumber>005</SectionNumber></SectionCite> and 2016 c 65 s 2 are each amended to read as follows:<Caption>Definitions.</Caption></BillSectionHeader>
+<P>Unless otherwise specifically provided, the definitions in this section apply throughout this chapter.</P>
+<P>(1) "Adjusted community rate" means the rating method used to establish the premium for health plans adjusted to reflect actuarially demonstrated differences in utilization or cost attributable to geographic region, age, family size, and use of wellness activities.</P>
+<P>(2) "Adverse benefit determination" means a denial, reduction, or termination of, or a failure to provide or make payment, in whole or in part, for a benefit, including a denial, reduction, termination, or failure to provide or make payment that is based on a determination of an enrollee's or applicant's eligibility to participate in a plan, and including, with respect to group health plans, a denial, reduction, or termination of, or a failure to provide or make payment, in whole or in part, for a benefit resulting from the application of any utilization review, as well as a failure to cover an item or service for which benefits are otherwise provided because it is determined to be experimental or investigational or not medically necessary or appropriate.</P>
+<P>(3) "Applicant" means a person who applies for enrollment in an individual health plan as the subscriber or an enrollee, or the dependent or spouse of a subscriber or enrollee.</P>
+<P>(4) "Basic health plan" means the plan described under chapter 70.47 RCW, as revised from time to time.</P>
+<P>(5) "Basic health plan model plan" means a health plan as required in RCW 70.47.060(2)(e).</P>
+<P>(6) "Basic health plan services" means that schedule of covered health services, including the description of how those benefits are to be administered, that are required to be delivered to an enrollee under the basic health plan, as revised from time to time.</P>
+<P>(7) "Board" means the governing board of the Washington health benefit exchange established in chapter 43.71 RCW.</P>
+<P>(8)(a) For grandfathered health benefit plans issued before January 1, 2014, and renewed thereafter, "catastrophic health plan" means:</P>
+<P>(i) In the case of a contract, agreement, or policy covering a single enrollee, a health benefit plan requiring a calendar year deductible of, at a minimum, one thousand seven hundred fifty dollars and an annual out-of-pocket expense required to be paid under the plan (other than for premiums) for covered benefits of at least three thousand five hundred dollars, both amounts to be adjusted annually by the insurance commissioner; and</P>
+<P>(ii) In the case of a contract, agreement, or policy covering more than one enrollee, a health benefit plan requiring a calendar year deductible of, at a minimum, three thousand five hundred dollars and an annual out-of-pocket expense required to be paid under the plan (other than for premiums) for covered benefits of at least six thousand dollars, both amounts to be adjusted annually by the insurance commissioner.</P>
+<P>(b) In July 2008, and in each July thereafter, the insurance commissioner shall adjust the minimum deductible and out-of-pocket expense required for a plan to qualify as a catastrophic plan to reflect the percentage change in the consumer price index for medical care for a preceding twelve months, as determined by the United States department of labor. For a plan year beginning in 2014, the out-of-pocket limits must be adjusted as specified in section 1302(c)(1) of P.L. 111-148 of 2010, as amended. The adjusted amount shall apply on the following January 1st.</P>
+<P>(c) For health benefit plans issued on or after January 1, 2014, "catastrophic health plan" means:</P>
+<P>(i) A health benefit plan that meets the definition of catastrophic plan set forth in section 1302(e) of P.L. 111-148 of 2010, as amended; or</P>
+<P>(ii) A health benefit plan offered outside the exchange marketplace that requires a calendar year deductible or out-of-pocket expenses under the plan, other than for premiums, for covered benefits, that meets or exceeds the commissioner's annual adjustment under (b) of this subsection.</P>
+<P>(9) "Certification" means a determination by a review organization that an admission, extension of stay, or other health care service or procedure has been reviewed and, based on the information provided, meets the clinical requirements for medical necessity, appropriateness, level of care, or effectiveness under the auspices of the applicable health benefit plan.</P>
+<P>(10) "Concurrent review" means utilization review conducted during a patient's hospital stay or course of treatment.</P>
+<P>(11) "Covered person" or "enrollee" means a person covered by a health plan including an enrollee, subscriber, policyholder, beneficiary of a group plan, or individual covered by any other health plan.</P>
+<P>(12) "Dependent" means, at a minimum, the enrollee's legal spouse and dependent children who qualify for coverage under the enrollee's health benefit plan.</P>
+<P>(13) "Emergency medical condition" means a medical condition manifesting itself by acute symptoms of sufficient severity, including severe pain, such that a prudent layperson, who possesses an average knowledge of health and medicine, could reasonably expect the absence of immediate medical attention to result in a condition (a) placing the health of the individual, or with respect to a pregnant woman, the health of the woman or her unborn child, in serious jeopardy, (b) serious impairment to bodily functions, or (c) serious dysfunction of any bodily organ or part.</P>
+<P>(14) "Emergency services" means a medical screening examination, as required under section 1867 of the social security act (42 U.S.C. 1395dd), that is within the capability of the emergency department of a hospital, including ancillary services routinely available to the emergency department to evaluate that emergency medical condition, and further medical examination and treatment, to the extent they are within the capabilities of the staff and facilities available at the hospital, as are required under section 1867 of the social security act (42 U.S.C. 1395dd) to stabilize the patient. Stabilize, with respect to an emergency medical condition, has the meaning given in section 1867(e)(3) of the social security act (42 U.S.C. 1395dd(e)(3)).</P>
+<P>(15) "Employee" has the same meaning given to the term, as of January 1, 2008, under section 3(6) of the federal employee retirement income security act of 1974.</P>
+<P>(16) "Enrollee point-of-service cost-sharing" means amounts paid to health carriers directly providing services, health care providers, or health care facilities by enrollees and may include copayments, coinsurance, or deductibles.</P>
+<P>(17) "Exchange" means the Washington health benefit exchange established under chapter 43.71 RCW.</P>
+<P>(18) "Final external review decision" means a determination by an independent review organization at the conclusion of an external review.</P>
+<P>(19) "Final internal adverse benefit determination" means an adverse benefit determination that has been upheld by a health plan or carrier at the completion of the internal appeals process, or an adverse benefit determination with respect to which the internal appeals process has been exhausted under the exhaustion rules described in RCW 48.43.530 and 48.43.535.</P>
+<P>(20) "Grandfathered health plan" means a group health plan or an individual health plan that under section 1251 of the patient protection and affordable care act, P.L. 111<Hyphen type="nobreak" />148 (2010) and as amended by the health care and education reconciliation act, P.L. 111<Hyphen type="nobreak" />152 (2010) is not subject to subtitles A or C of the act as amended.</P>
+<P>(21) "Grievance" means a written complaint submitted by or on behalf of a covered person regarding service delivery issues other than denial of payment for medical services or nonprovision of medical services, including dissatisfaction with medical care, waiting time for medical services, provider or staff attitude or demeanor, or dissatisfaction with service provided by the health carrier.</P>
+<P>(22) "Health care facility" or "facility" means hospices licensed under chapter 70.127 RCW, hospitals licensed under chapter 70.41 RCW, rural health care facilities as defined in RCW 70.175.020, psychiatric hospitals licensed under chapter 71.12 RCW, nursing homes licensed under chapter 18.51 RCW, community mental health centers licensed under chapter 71.05 or 71.24 RCW, kidney disease treatment centers licensed under chapter 70.41 RCW, ambulatory diagnostic, treatment, or surgical facilities licensed under chapter 70.41 RCW, drug and alcohol treatment facilities licensed under chapter 70.96A RCW, and home health agencies licensed under chapter 70.127 RCW, and includes such facilities if owned and operated by a political subdivision or instrumentality of the state and such other facilities as required by federal law and implementing regulations.</P>
+<P>(23) "Health care provider" or "provider" means:</P>
+<P>(a) A person regulated under Title 18 or chapter 70.127 RCW, to practice health or health-related services or otherwise practicing health care services in this state consistent with state law; or</P>
+<P>(b) An employee or agent of a person described in (a) of this subsection, acting in the course and scope of his or her employment.</P>
+<P>(24) "Health care service" means that service offered or provided by health care facilities and health care providers relating to the prevention, cure, or treatment of illness, injury, or disease.</P>
+<P>(25) "Health carrier" or "carrier" means a disability insurer regulated under chapter 48.20 or 48.21 RCW, a health care service contractor as defined in RCW 48.44.010, or a health maintenance organization as defined in RCW 48.46.020, and includes "issuers" as that term is used in the patient protection and affordable care act (P.L. 111-148).</P>
+<P>(26) "Health plan" or "health benefit plan" means any policy, contract, or agreement offered by a health carrier to provide, arrange, reimburse, or pay for health care services except the following:</P>
+<P>(a) Long-term care insurance governed by chapter 48.84 or 48.83 RCW;</P>
+<P>(b) Medicare supplemental health insurance governed by chapter 48.66 RCW;</P>
+<P>(c) Coverage supplemental to the coverage provided under chapter 55, Title 10, United States Code;</P>
+<P>(d) Limited health care services offered by limited health care service contractors in accordance with RCW 48.44.035;</P>
+<P>(e) Disability income;</P>
+<P>(f) Coverage incidental to a property/casualty liability insurance policy such as automobile personal injury protection coverage and homeowner guest medical;</P>
+<P>(g) Workers' compensation coverage;</P>
+<P>(h) Accident only coverage;</P>
+<P>(i) Specified disease or illness<Hyphen type="nobreak" />triggered fixed payment insurance, hospital confinement fixed payment insurance, or other fixed payment insurance offered as an independent, noncoordinated benefit;</P>
+<P>(j) Employer-sponsored self-funded health plans;</P>
+<P>(k) Dental only and vision only coverage;</P>
+<P>(l) Plans deemed by the insurance commissioner to have a short-term limited purpose or duration, or to be a student-only plan that is guaranteed renewable while the covered person is enrolled as a regular full-time undergraduate or graduate student at an accredited higher education institution, after a written request for such classification by the carrier and subsequent written approval by the insurance commissioner; and</P>
+<P>(m) Civilian health and medical program for the veterans affairs administration (CHAMPVA).</P>
+<P>(27) "Individual market" means the market for health insurance coverage offered to individuals other than in connection with a group health plan.</P>
+<P>(28) "Material modification" means a change in the actuarial value of the health plan as modified of more than five percent but less than fifteen percent.</P>
+<P>(29) "Open enrollment" means a period of time as defined in rule to be held at the same time each year, during which applicants may enroll in a carrier's individual health benefit plan without being subject to health screening or otherwise required to provide evidence of insurability as a condition for enrollment.</P>
+<P>(30) "Preexisting condition" means any medical condition, illness, or injury that existed any time prior to the effective date of coverage.</P>
+<P>(31) "Premium" means all sums charged, received, or deposited by a health carrier as consideration for a health plan or the continuance of a health plan. Any assessment or any "membership," "policy," "contract," "service," or similar fee or charge made by a health carrier in consideration for a health plan is deemed part of the premium. "Premium" shall not include amounts paid as enrollee point-of-service cost-sharing.</P>
+<P>(32) "Review organization" means a disability insurer regulated under chapter 48.20 or 48.21 RCW, health care service contractor as defined in RCW 48.44.010, or health maintenance organization as defined in RCW 48.46.020, and entities affiliated with, under contract with, or acting on behalf of a health carrier to perform a utilization review.</P>
+<P>(33) "Small employer" or "small group" means any person, firm, corporation, partnership, association, political subdivision, sole proprietor, or self-employed individual that is actively engaged in business that employed an average of at least one but no more than fifty employees, during the previous calendar year and employed at least one employee on the first day of the plan year, is not formed primarily for purposes of buying health insurance, and in which a bona fide employer-employee relationship exists. In determining the number of employees, companies that are affiliated companies, or that are eligible to file a combined tax return for purposes of taxation by this state, shall be considered an employer. Subsequent to the issuance of a health plan to a small employer and for the purpose of determining eligibility, the size of a small employer shall be determined annually. Except as otherwise specifically provided, a small employer shall continue to be considered a small employer until the plan anniversary following the date the small employer no longer meets the requirements of this definition. A self-employed individual or sole proprietor who is covered as a group of one must also: (a) Have been employed by the same small employer or small group for at least twelve months prior to application for small group coverage, and (b) verify that he or she derived at least seventy-five percent of his or her income from a trade or business through which the individual or sole proprietor has attempted to earn taxable income and for which he or she has filed the appropriate internal revenue service form 1040, schedule C or F, for the previous taxable year, except a self-employed individual or sole proprietor in an agricultural trade or business, must have derived at least fifty-one percent of his or her income from the trade or business through which the individual or sole proprietor has attempted to earn taxable income and for which he or she has filed the appropriate internal revenue service form 1040, for the previous taxable year.</P>
+<P>(34) "Special enrollment" means a defined period of time of not less than thirty-one days, triggered by a specific qualifying event experienced by the applicant, during which applicants may enroll in the carrier's individual health benefit plan without being subject to health screening or otherwise required to provide evidence of insurability as a condition for enrollment.</P>
+<P>(35) "Standard health questionnaire" means the standard health questionnaire designated under chapter 48.41 RCW.</P>
+<P>(36) "Utilization review" means the prospective, concurrent, or retrospective assessment of the necessity and appropriateness of the allocation of health care resources and services of a provider or facility, given or proposed to be given to an enrollee or group of enrollees.</P>
+<P>(37) "Wellness activity" means an explicit program of an activity consistent with department of health guidelines, such as, smoking cessation, injury and accident prevention, reduction of alcohol misuse, appropriate weight reduction, exercise, automobile and motorcycle safety, blood cholesterol reduction, and nutrition education for the purpose of improving enrollee health status and reducing health service costs.</P>
+<P><TextRun amendingStyle="add">(38) "Essential health benefit categories" means:</TextRun></P>
+<P><TextRun amendingStyle="add">(a) Ambulatory patient services;</TextRun></P>
+<P><TextRun amendingStyle="add">(b) Emergency services;</TextRun></P>
+<P><TextRun amendingStyle="add">(c) Hospitalization;</TextRun></P>
+<P><TextRun amendingStyle="add">(d) Maternity and newborn care;</TextRun></P>
+<P><TextRun amendingStyle="add">(e) Mental health and substance use disorder services, including behavioral health treatment;</TextRun></P>
+<P><TextRun amendingStyle="add">(f) Prescription drugs;</TextRun></P>
+<P><TextRun amendingStyle="add">(g) Rehabilitative and habilitative services and devices;</TextRun></P>
+<P><TextRun amendingStyle="add">(h) Laboratory services;</TextRun></P>
+<P><TextRun amendingStyle="add">(i) Preventive and wellness services and chronic disease management; and</TextRun></P>
+<P><TextRun amendingStyle="add">(j) Pediatric services, including oral and vision care.</TextRun></P>
+<History>2016 c 65 § 2. Prior: 2012 c 211 § 17; 2012 c 87 § 1; prior: 2011 c 315 § 2; 2011 c 314 § 3; prior: 2010 c 292 § 1; prior: 2008 c 145 § 20; 2008 c 144 § 1; prior: 2007 c 296 § 1; 2007 c 259 § 32; 2006 c 25 § 16; 2004 c 244 § 2; prior: 2001 c 196 § 5; 2001 c 147 § 1; 2000 c 79 § 18; prior: 1997 c 231 § 202; 1997 c 55 § 1; 1995 c 265 § 4.</History>
+<RCWNoteSection>
+<RevNote><NoteP><TextRun fontWeight="bold">*Reviser's note:</TextRun> Chapter 70.96A RCW was repealed and/or recodified in its entirety pursuant to 2016 sp.s. c 29 §§ 301, 601, and 701.</NoteP></RevNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Spiritual care services<TextRun fontFamily="Times New Roman">—</TextRun>2012 c 87:</TextRun> See RCW 43.71.901.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Intent<TextRun fontFamily="Times New Roman">—</TextRun>2011 c 315:</TextRun> "The federal patient protection and affordable care act (P.L. 111-148) prohibits insurance carriers from applying preexisting condition limitations for persons under age nineteen, beginning on or after September 23, 2010. The guidance from the United States department of health and human services provides some direction for the implementation of the new policy requirement, and the office of the insurance commissioner further clarified open enrollment requirements to help prevent disruption in the individual health insurance marketplace. It is the intent of this act to:</NoteP><NoteP>(1) Maintain access to individual plan options for persons under age nineteen; and</NoteP><NoteP>(2) Provide clarity for the establishment of open enrollment and special open enrollment periods that balance access to guaranteed issue coverage with efforts that protect market stability." [2011 c 315 § 1.]</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Application<TextRun fontFamily="Times New Roman">—</TextRun>2010 c 292:</TextRun> "This act applies to policies issued or renewed on or after January 1, 2011." [2010 c 292 § 9.]</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Contingent effective date<TextRun fontFamily="Times New Roman">—</TextRun>2010 c 292 §§ 1 and 2:</TextRun> "Sections 1 and 2 of this act take effect one hundred eighty days [September 29, 2010] after the date the insurance commissioner certifies to the secretary of the senate, the chief clerk of the house of representatives, and the code reviser's office that federal legislation has been signed into law by the President of the United States that includes guaranteed issue for individuals who purchase health coverage through the individual or small group markets." [2010 c 292 § 11.]</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2008 c 145:</TextRun> See RCW 48.83.901.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Severability<TextRun fontFamily="Times New Roman">—</TextRun>Subheadings not law<TextRun fontFamily="Times New Roman">—</TextRun>2007 c 259:</TextRun> See notes following RCW 41.05.033.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Application<TextRun fontFamily="Times New Roman">—</TextRun>2004 c 244:</TextRun> See note following RCW 48.21.045.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2001 c 196:</TextRun> See note following RCW 48.20.025.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>Severability<TextRun fontFamily="Times New Roman">—</TextRun>2000 c 79:</TextRun> See notes following RCW 48.04.010.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Short title<TextRun fontFamily="Times New Roman">—</TextRun>1997 c 231:</TextRun> "This act shall be known as the consumer assistance and insurance market stabilization act." [1997 c 231 § 402.]</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Part headings and captions not law<TextRun fontFamily="Times New Roman">—</TextRun>1997 c 231:</TextRun> "Part headings and section captions used in this act are not part of the law." [1997 c 231 § 403.]</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Severability<TextRun fontFamily="Times New Roman">—</TextRun>1997 c 231:</TextRun> "If any provision of this act or its application to any person or circumstance is held invalid, the remainder of the act or the application of the provision to other persons or circumstances is not affected." [1997 c 231 § 404.]</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective dates<TextRun fontFamily="Times New Roman">—</TextRun>1997 c 231:</TextRun> "(1) Sections 104 through 108 and 301 of this act take effect January 1, 1998.</NoteP><NoteP>(2) Section 111 of this act is necessary for the immediate preservation of the public peace, health, or safety, or support of the state government and its existing public institutions, and takes effect July 1, 1997.</NoteP><NoteP>(3) Section 205 of this act is necessary for the immediate preservation of the public peace, health, or safety, or support of the state government and its existing public institutions, and takes effect immediately." [1997 c 231 § 405.]</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>1997 c 55:</TextRun> "This act is necessary for the immediate preservation of the public peace, health, or safety, or support of the state government and its existing public institutions, and takes effect immediately [April 16, 1997]." [1997 c 55 § 2.]</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Captions not law<TextRun fontFamily="Times New Roman">—</TextRun>Effective dates<TextRun fontFamily="Times New Roman">—</TextRun>Savings<TextRun fontFamily="Times New Roman">—</TextRun>Severability<TextRun fontFamily="Times New Roman">—</TextRun>1995 c 265:</TextRun> See notes following RCW 70.47.015.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<Part>
+<P>PART II</P>
+<P>GUARANTEED ISSUE AND ELIGIBILITY</P>
+</Part>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>48</TitleNumber><TextRun>.</TextRun><ChapterNumber>43</ChapterNumber><TextRun>.</TextRun><SectionNumber>012</SectionNumber></SectionCite> and 2011 c 315 s 3 are each amended to read as follows:<Caption>Individual health benefit plans<TextRun fontFamily="Times New Roman">—</TextRun>Preexisting conditions.</Caption></BillSectionHeader>
+<P>(1) No carrier may reject an individual for an individual <TextRun amendingStyle="add">or group</TextRun> health benefit plan based upon preexisting conditions of the individual <TextRun amendingStyle="strike">except as provided in RCW 48.43.018</TextRun>.</P>
+<P>(2) No carrier may deny, exclude, or otherwise limit coverage for an individual's preexisting health conditions <TextRun amendingStyle="strike">except as provided in this section</TextRun> <TextRun amendingStyle="add">including, but not limited to, preexisting condition exclusions or waiting periods</TextRun>.</P>
+<P>(3) <TextRun amendingStyle="strikemarkleft">For an individual health benefit plan originally issued on or after March 23, 2000, preexisting condition waiting periods imposed upon a person enrolling in an individual health benefit plan shall be no more than nine months for a preexisting condition for which medical advice was given, for which a health care provider recommended or provided treatment, or for which a prudent layperson would have sought advice or treatment, within six months prior to the effective date of the plan. No carrier may impose a preexisting condition waiting period on an individual health benefit plan issued to an eligible individual as defined in section 2741(b) of the federal health insurance portability and accountability act of 1996 (42 U.S.C. 300gg-41(b)).</TextRun></P>
+<P><TextRun amendingStyle="strikemarknone">(4) Individual health benefit plan preexisting condition waiting periods shall not apply to prenatal care services.</TextRun></P>
+<P><TextRun amendingStyle="strikemarkright">(5)</TextRun> No carrier may avoid the requirements of this section through the creation of a new rate classification or the modification of an existing rate classification. A new or changed rate classification will be deemed an attempt to avoid the provisions of this section if the new or changed classification would substantially discourage applications for coverage from individuals who are higher than average health risks. These provisions apply only to individuals who are Washington residents.</P>
+<P><TextRun amendingStyle="strike">(6) For any person under age nineteen applying for coverage as allowed by RCW 48.43.0122(1) or enrolled in a health benefit plan subject to sections 1201 and 10103 of the patient protection and affordable care act (P.L. 111-148) that is not a grandfathered health plan in the individual market, a carrier must not impose a preexisting condition exclusion or waiting period or other limitations on benefits or enrollment due to a preexisting condition.</TextRun></P>
+<P><TextRun amendingStyle="add">(4) Unless preempted by federal law, the commissioner shall adopt any rules necessary to implement this section, consistent with federal rules and guidance in effect on January 1, 2017, implementing the patient protection and affordable care act.</TextRun></P>
+<History>2011 c 315 § 3; 2001 c 196 § 6; 2000 c 79 § 19.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Intent<TextRun fontFamily="Times New Roman">—</TextRun>2011 c 315:</TextRun> See note following RCW 48.43.005.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2001 c 196:</TextRun> See note following RCW 48.20.025.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>Severability<TextRun fontFamily="Times New Roman">—</TextRun>2000 c 79:</TextRun> See notes following RCW 48.04.010.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>48</TitleNumber><TextRun>.</TextRun><ChapterNumber>43</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) A health carrier or health plan may not establish rules for eligibility, including continued eligibility, of any individual to enroll under the terms of the plan or coverage based on any of the following health status-related factors in relation to the individual or a dependent of the individual:</P>
+<P>(a) Health status;</P>
+<P>(b) Medical condition, including both physical and mental illnesses;</P>
+<P>(c) Claims experience;</P>
+<P>(d) Receipt of health care;</P>
+<P>(e) Medical history;</P>
+<P>(f) Genetic information;</P>
+<P>(g) Evidence of insurability, including conditions arising out of acts of domestic violence;</P>
+<P>(h) Disability; or</P>
+<P>(i) Any other health status-related factor determined appropriate by the commissioner.</P>
+<P>(2) Unless preempted by federal law, the commissioner shall adopt any rules necessary to implement this section, consistent with federal rules and guidance in effect on January 1, 2017, implementing the patient protection and affordable care act.</P>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>48</TitleNumber><TextRun>.</TextRun><ChapterNumber>21</ChapterNumber><TextRun>.</TextRun><SectionNumber>270</SectionNumber></SectionCite> and 2011 c 314 s 2 are each amended to read as follows:<Caption>Conversion policy<TextRun fontFamily="Times New Roman">—</TextRun>Restrictions and requirements<TextRun fontFamily="Times New Roman">—</TextRun>Rules.</Caption></BillSectionHeader>
+<P>(1) An insurer shall not require proof of insurability as a condition for issuance of the conversion policy.</P>
+<P>(2) A conversion policy may not contain an exclusion for preexisting conditions for any applicant <TextRun amendingStyle="strike">who is under age nineteen. For policies issued to those age nineteen and older, an exclusion for a preexisting condition is permitted only to the extent that a waiting period for a preexisting condition has not been satisfied under the group policy</TextRun>.</P>
+<P>(3) An insurer must offer at least three policy benefit plans that comply with the following:</P>
+<P>(a) A major medical plan with a five thousand dollar deductible per person;</P>
+<P>(b) A comprehensive medical plan with a five hundred dollar deductible per person; and</P>
+<P>(c) A basic medical plan with a one thousand dollar deductible per person.</P>
+<P>(4) The insurance commissioner may revise the deductible amounts in subsection (3) of this section from time to time to reflect changing health care costs.</P>
+<P>(5) The insurance commissioner shall adopt rules to establish minimum benefit standards for conversion policies.</P>
+<P>(6) The commissioner shall adopt rules to establish specific standards for conversion policy provisions. These rules may include but are not limited to:</P>
+<P>(a) Terms of renewability;</P>
+<P>(b) Nonduplication of coverage;</P>
+<P>(c) Benefit limitations, exceptions, and reductions; and</P>
+<P>(d) Definitions of terms.</P>
+<History>2011 c 314 § 2; 1984 c 190 § 4.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Legislative intent<TextRun fontFamily="Times New Roman">—</TextRun>Severability<TextRun fontFamily="Times New Roman">—</TextRun>1984 c 190:</TextRun> See notes following RCW 48.21.250.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>5</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>48</TitleNumber><TextRun>.</TextRun><ChapterNumber>44</ChapterNumber><TextRun>.</TextRun><SectionNumber>380</SectionNumber></SectionCite> and 2011 c 314 s 7 are each amended to read as follows:<Caption>Conversion contract<TextRun fontFamily="Times New Roman">—</TextRun>Restrictions and requirements<TextRun fontFamily="Times New Roman">—</TextRun>Rules.</Caption></BillSectionHeader>
+<P>(1) A health care service contractor shall not require proof of insurability as a condition for issuance of the conversion contract.</P>
+<P>(2) A conversion contract may not contain an exclusion for preexisting conditions for any applicant <TextRun amendingStyle="strike">who is under age nineteen. For policies issued to those age nineteen and older, an exclusion for a preexisting condition is permitted only to the extent that a waiting period for a preexisting condition has not been satisfied under the group contract</TextRun>.</P>
+<P>(3) A health care service contractor must offer at least three contract benefit plans that comply with the following:</P>
+<P>(a) A major medical plan with a five thousand dollar deductible per person;</P>
+<P>(b) A comprehensive medical plan with a five hundred dollar deductible per person; and</P>
+<P>(c) A basic medical plan with a one thousand dollar deductible per person.</P>
+<P>(4) The insurance commissioner may revise the deductible amounts in subsection (3) of this section from time to time to reflect changing health care costs.</P>
+<P>(5) The insurance commissioner shall adopt rules to establish minimum benefit standards for conversion contracts.</P>
+<P>(6) The commissioner shall adopt rules to establish specific standards for conversion contract provisions. These rules may include but are not limited to:</P>
+<P>(a) Terms of renewability;</P>
+<P>(b) Nonduplication of coverage;</P>
+<P>(c) Benefit limitations, exceptions, and reductions; and</P>
+<P>(d) Definitions of terms.</P>
+<History>2011 c 314 § 7; 1984 c 190 § 7.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Legislative intent<TextRun fontFamily="Times New Roman">—</TextRun>Severability<TextRun fontFamily="Times New Roman">—</TextRun>1984 c 190:</TextRun> See notes following RCW 48.21.250.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>6</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>48</TitleNumber><TextRun>.</TextRun><ChapterNumber>46</ChapterNumber><TextRun>.</TextRun><SectionNumber>460</SectionNumber></SectionCite> and 2011 c 314 s 9 are each amended to read as follows:<Caption>Conversion agreement<TextRun fontFamily="Times New Roman">—</TextRun>Restrictions and requirements<TextRun fontFamily="Times New Roman">—</TextRun>Rules.</Caption></BillSectionHeader>
+<P>(1) A health maintenance organization must offer a conversion agreement for comprehensive health care services and shall not require proof of insurability as a condition for issuance of the conversion agreement.</P>
+<P>(2) A conversion agreement may not contain an exclusion for preexisting conditions for an applicant <TextRun amendingStyle="strike">who is under age nineteen. For policies issued to those age nineteen and older, an exclusion for a preexisting condition is permitted only to the extent that a waiting period for a preexisting condition has not been satisfied under the group agreement</TextRun>.</P>
+<P>(3) A conversion agreement need not provide benefits identical to those provided under the group agreement. The conversion agreement may contain provisions requiring the person covered by the conversion agreement to pay reasonable deductibles and copayments, except for preventive service benefits as defined in 45 C.F.R. 147.130 (2010), implementing sections 2701 through 2763, 2791, and 2792 of the public health service act (42 U.S.C. 300gg through 300gg-63, 300gg-91, and 300gg-92), as amended.</P>
+<P>(4) The insurance commissioner shall adopt rules to establish minimum benefit standards for conversion agreements.</P>
+<P>(5) The commissioner shall adopt rules to establish specific standards for conversion agreement provisions. These rules may include but are not limited to:</P>
+<P>(a) Terms of renewability;</P>
+<P>(b) Nonduplication of coverage;</P>
+<P>(c) Benefit limitations, exceptions, and reductions; and</P>
+<P>(d) Definitions of terms.</P>
+<History>2011 c 314 § 9; 1984 c 190 § 10.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Legislative intent<TextRun fontFamily="Times New Roman">—</TextRun>Severability<TextRun fontFamily="Times New Roman">—</TextRun>1984 c 190:</TextRun> See notes following RCW 48.21.250.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="new" action="repeal">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>7</Value><TextRun>.  </TextRun></BillSectionNumber><P>The following acts or parts of acts are each repealed:</P></BillSectionHeader>
+<P><RepealNumber>1</RepealNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>48</TitleNumber><TextRun>.</TextRun><ChapterNumber>43</ChapterNumber><TextRun>.</TextRun><SectionNumber>015</SectionNumber></SectionCite> (Health benefit plans<TextRun fontFamily="Times New Roman">—</TextRun>Preexisting conditions) and 2012 c 64 s 2, 2004 c 192 s 5, 2001 c 196 s 7, 2000 c 80 s 3, 2000 c 79 s 20, &amp; 1995 c 265 s 5;</P>
+<P><RepealNumber>2</RepealNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>48</TitleNumber><TextRun>.</TextRun><ChapterNumber>43</ChapterNumber><TextRun>.</TextRun><SectionNumber>017</SectionNumber></SectionCite> (Organ transplant benefit waiting periods<TextRun fontFamily="Times New Roman">—</TextRun>Prior creditable coverage) and 2009 c 82 s 2;</P>
+<P><RepealNumber>3</RepealNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>48</TitleNumber><TextRun>.</TextRun><ChapterNumber>43</ChapterNumber><TextRun>.</TextRun><SectionNumber>018</SectionNumber></SectionCite> (Requirement to complete the standard health questionnaire<TextRun fontFamily="Times New Roman">—</TextRun>Exemptions<TextRun fontFamily="Times New Roman">—</TextRun>Results) and 2012 c 211 s 16, 2012 c 64 s 1, 2010 c 277 s 1, &amp; 2009 c 42 s 1; and</P>
+<P><RepealNumber>4</RepealNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>48</TitleNumber><TextRun>.</TextRun><ChapterNumber>43</ChapterNumber><TextRun>.</TextRun><SectionNumber>025</SectionNumber></SectionCite> (Group health benefit plans<TextRun fontFamily="Times New Roman">—</TextRun>Preexisting conditions) and 2001 c 196 s 9, 2000 c 79 s 23, &amp; 1995 c 265 s 6.</P>
+</BillSection>
+<Part>
+<P>PART III</P>
+<P>PROHIBITING UNFAIR RESCISSIONS</P>
+</Part>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>8</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>48</TitleNumber><TextRun>.</TextRun><ChapterNumber>43</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) A health plan or health carrier offering group or individual coverage may not rescind such coverage with respect to an enrollee once the enrollee is covered under the plan or coverage involved, except that this section does not apply to a covered person who has performed an act or practice that constitutes fraud or makes an intentional misrepresentation of material fact as prohibited by the terms of the plan or coverage. The plan or coverage may not be canceled except as permitted under RCW 48.43.035 or 48.43.038.</P>
+<P>(2) The commissioner shall adopt any rules necessary to implement this section, consistent with federal rules and guidance in effect on January 1, 2017, implementing the patient protection and affordable care act.</P>
+</BillSection>
+<Part>
+<P>PART IV</P>
+<P>ESSENTIAL HEALTH BENEFITS</P>
+</Part>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>9</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>48</TitleNumber><TextRun>.</TextRun><ChapterNumber>43</ChapterNumber><TextRun>.</TextRun><SectionNumber>715</SectionNumber></SectionCite> and 2013 c 325 s 1 are each amended to read as follows:<Caption>Individual and small group market<TextRun fontFamily="Times New Roman">—</TextRun>Selection of benchmark plan<TextRun fontFamily="Times New Roman">—</TextRun>Minimum requirements<TextRun fontFamily="Times New Roman">—</TextRun>Criteria<TextRun fontFamily="Times New Roman">—</TextRun>List of state-mandated health benefits.</Caption></BillSectionHeader>
+<P>(1) <TextRun amendingStyle="strike">Consistent with federal law,</TextRun> <TextRun amendingStyle="add">T</TextRun>he commissioner, in consultation with the board and the health care authority, shall, by rule, select the largest small group plan in the state by enrollment as the benchmark plan for the individual and small group market for purposes of establishing the essential health benefits in Washington state <TextRun amendingStyle="strike">under P.L. 111-148 of 2010, as amended</TextRun>.</P>
+<P>(2) If the essential health benefits benchmark plan for the individual and small group market does not include all of the ten <TextRun amendingStyle="add">essential health</TextRun> benefit<TextRun amendingStyle="add">s</TextRun> categories <TextRun amendingStyle="strike">specified by section 1302 of P.L. 111-148, as amended</TextRun>, the commissioner, in consultation with the board and the health care authority, shall, by rule, supplement the benchmark plan benefits as needed <TextRun amendingStyle="strike">to meet the minimum requirements of section 1302</TextRun>.</P>
+<P>(3) <TextRun amendingStyle="strike">A</TextRun> <TextRun amendingStyle="add">All individual and small group</TextRun> health plan<TextRun amendingStyle="add">s</TextRun> <TextRun amendingStyle="strike">required to offer</TextRun> <TextRun amendingStyle="add">must cover</TextRun> the <TextRun amendingStyle="add">ten</TextRun> essential health benefits <TextRun amendingStyle="add">categories</TextRun>, other than a health plan offered through the federal basic health program<TextRun amendingStyle="add">, a grandfathered health plan,</TextRun> or medicaid<TextRun amendingStyle="strike">, under P.L. 111-148 of 2010, as amended,</TextRun><TextRun amendingStyle="add">. Such a health plan</TextRun> may not be offered in the state unless the commissioner finds that it is substantially equal to the benchmark plan. When making this determination, the commissioner:</P>
+<P>(a) Must ensure that the plan covers the ten essential health benefits categories <TextRun amendingStyle="strike">specified in section 1302 of P.L. 111-148 of 2010, as amended</TextRun>;</P>
+<P>(b) May consider whether the health plan has a benefit design that would create a risk of biased selection based on health status and whether the health plan contains meaningful scope and level of benefits in each of the ten essential health benefit<TextRun amendingStyle="add">s</TextRun> categories <TextRun amendingStyle="strike">specified by section 1302 of P.L. 111-148 of 2010, as amended</TextRun>;</P>
+<P>(c) Notwithstanding <TextRun amendingStyle="strike">the foregoing</TextRun> <TextRun amendingStyle="add">(a) and (b) of this subsection</TextRun>, for benefit years beginning January 1, 2015, <TextRun amendingStyle="strike">and only to the extent permitted by federal law and guidance,</TextRun> must establish by rule the review and approval requirements and procedures for pediatric oral services when offered in stand-alone dental plans in the nongrandfathered individual and small group markets outside of the exchange; and</P>
+<P>(d) <TextRun amendingStyle="strike">Unless prohibited by federal law and guidance,</TextRun> <TextRun amendingStyle="add">M</TextRun>ust allow health carriers to also offer pediatric oral services within the health benefit plan in the nongrandfathered individual and small group markets outside of the exchange.</P>
+<P>(4) Beginning December 15, 2012, and every year thereafter, the commissioner shall submit to the legislature a list of state-mandated health benefits, the enforcement of which will result in federally imposed costs to the state related to the plans sold through the exchange because the benefits are not included in the essential health benefits designated under federal law. The list must include the anticipated costs to the state of each state-mandated health benefit on the list and any statutory changes needed if funds are not appropriated to defray the state costs for the listed mandate. The commissioner may enforce a mandate on the list for the entire market only if funds are appropriated in an omnibus appropriations act specifically to pay the state portion of the identified costs.</P>
+<History>2013 c 325 § 1; 2012 c 87 § 13.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Spiritual care services<TextRun fontFamily="Times New Roman">—</TextRun>2012 c 87:</TextRun> See RCW 43.71.901.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<Part>
+<P>PART V</P>
+<P>COST SHARING</P>
+</Part>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>10</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>48</TitleNumber><TextRun>.</TextRun><ChapterNumber>43</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) For plan years beginning in 2020, the cost sharing incurred under a health plan for the essential health benefits may not exceed the following amounts:</P>
+<P>(a) For self-only coverage:</P>
+<P>(i) The amount required under federal law for the calendar year; or</P>
+<P>(ii) If there are no cost-sharing requirements under federal law, eight thousand two hundred dollars increased by the premium adjustment percentage for the calendar year.</P>
+<P>(b) For coverage other than self-only coverage:</P>
+<P>(i) The amount required under federal law for the calendar year; or</P>
+<P>(ii) If there are no cost-sharing requirements under federal law, sixteen thousand four hundred dollars increased by the premium adjustment percentage for the calendar year.</P>
+<P>(2) Regardless of whether an enrollee is covered by a self-only plan or a plan that is other than self-only, the enrollee's cost sharing for the essential health benefits may not exceed the self-only annual limitation on cost sharing.</P>
+<P>(3) For purposes of this section, "the premium adjustment percentage for the calendar year" means the percentage, if any, by which the average per capita premium for health insurance in Washington for the preceding year, as estimated by the commissioner no later than April 1st of such preceding year, exceeds such average per capita premium for 2020 as determined by the commissioner.</P>
+<P>(4) Unless preempted by federal law, the commissioner shall adopt any rules necessary to implement this section, consistent with federal rules and guidance in effect on January 1, 2017, implementing the patient protection and affordable care act.</P>
+</BillSection>
+<Part>
+<P>PART VI</P>
+<P>OPEN ENROLLMENT PERIODS</P>
+</Part>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>11</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>48</TitleNumber><TextRun>.</TextRun><ChapterNumber>43</ChapterNumber><TextRun>.</TextRun><SectionNumber>0122</SectionNumber></SectionCite> and 2011 c 315 s 4 are each amended to read as follows:<Caption>Individual health benefit plans<TextRun fontFamily="Times New Roman">—</TextRun>Persons under age nineteen.</Caption></BillSectionHeader>
+<P>(1) The commissioner shall adopt rules establishing and implementing requirements for the open enrollment periods and special enrollment periods that carriers must follow for individual health benefit plans <TextRun amendingStyle="strike">and enrollment of persons under age nineteen</TextRun>.</P>
+<P>(2) The commissioner shall monitor the sale of individual health benefit plans and if a carrier refuses to sell guaranteed issue policies to persons <TextRun amendingStyle="strike">under age nineteen</TextRun> in compliance with rules adopted by the commissioner pursuant to subsection (1) of this section, the commissioner may levy fines or suspend or revoke a certificate of authority as provided in chapter 48.05 RCW.</P>
+<History>2011 c 315 § 4.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Intent<TextRun fontFamily="Times New Roman">—</TextRun>2011 c 315:</TextRun> See note following RCW 48.43.005.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<Part>
+<P>PART VII</P>
+<P>LIFETIME LIMITS</P>
+</Part>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>12</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>48</TitleNumber><TextRun>.</TextRun><ChapterNumber>43</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>A health carrier may not impose annual or lifetime dollar limits on an essential health benefit, other than those permitted as reference-based limitations under rules adopted by the commissioner.</P>
+</BillSection>
+<Part>
+<P>PART VIII</P>
+<P>EXPLANATION OF COVERAGE</P>
+</Part>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>13</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>48</TitleNumber><TextRun>.</TextRun><ChapterNumber>43</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) The commissioner shall develop standards for use by a health carrier offering individual or group coverage, in compiling and providing to applicants and enrollees a summary of benefits and coverage explanation that accurately describes the benefits and coverage under the applicable plan. In developing the standards, the commissioner must use the standards developed under 42 U.S.C. Sec. 300gg-15 in use on the effective date of this section.</P>
+<P>(2) The standards must provide for the following:</P>
+<P>(a) The standards must ensure that the summary of benefits and coverage is presented in a uniform format that does not exceed four pages in length and does not include print smaller than twelve-point font.</P>
+<P>(b) The standards must ensure that the summary is presented in a culturally and linguistically appropriate manner and utilizes terminology understandable by the average plan enrollee.</P>
+<P>(c) The standards must ensure that the summary of benefits and coverage includes:</P>
+<P>(i) Uniform definitions of standard insurance and medical terms, consistent with the standard definitions developed under this section, so that consumers may compare health insurance coverage and understand the terms of coverage, or exceptions to such coverage;</P>
+<P>(ii) A description of the coverage, including cost sharing for:</P>
+<P>(A) The essential health benefits; and</P>
+<P>(B) Other benefits identified by the commissioner;</P>
+<P>(iii) The exceptions, reductions, and limitations on coverage;</P>
+<P>(iv) The cost-sharing provisions, including deductible, coinsurance, and copayment obligations;</P>
+<P>(v) The renewability and continuation of coverage provisions;</P>
+<P>(vi) A coverage facts label that includes examples to illustrate common benefits scenarios, including pregnancy and serious or chronic medical conditions and related cost sharing. The scenarios must be based on recognized clinical practice guidelines;</P>
+<P>(vii) A statement of whether the plan:</P>
+<P>(A) Provides minimum essential coverage under 26 U.S.C. Sec. 5000A(f); and</P>
+<P>(B) Ensures that the plan share of the total allowed costs of benefits provided under the plan is no less than sixty percent of the costs;</P>
+<P>(viii) A statement that the outline is a summary of the policy or certificate and that the coverage document itself should be consulted to determine the governing contractual provisions; and</P>
+<P>(ix) A contact number for the consumer to call with additional questions and a web site where a copy of the actual individual coverage policy or group certificate of coverage may be reviewed and obtained.</P>
+<P>(3) The commissioner shall periodically review and update the standards developed under this section.</P>
+<P>(4) A health carrier must provide a summary of benefits and coverage explanation to:</P>
+<P>(a) An applicant at the time of application;</P>
+<P>(b) An enrollee prior to the time of enrollment or reenrollment, as applicable; and</P>
+<P>(c) A policyholder or certificate holder at the time of issuance of the policy or delivery of the certificate.</P>
+<P>(5) A health carrier may provide the summary of benefits and coverage either in paper or electronically.</P>
+<P>(6) If a health carrier makes any material modification in any of the terms of the plan that is not reflected in the most recently provided summary of benefits and coverage, the carrier shall provide notice of the modification to enrollees no later than sixty days prior to the date on which the modification will become effective.</P>
+<P>(7) A health carrier that fails to provide the information required under this section is subject to a fine of no more than one thousand dollars for each failure. A failure with respect to each enrollee constitutes a separate offense for purposes of this subsection.</P>
+<P>(8) The commissioner shall, by rule, provide for the development of standards for the definitions of terms used in health insurance coverage, including the following:</P>
+<P>(a) Insurance-related terms, including premium; deductible; coinsurance; copayment; out-of-pocket limit; preferred provider; nonpreferred provider; out-of-network copayments; usual, customary, and reasonable fees; excluded services; grievance; appeals; and any other terms the commissioner determines are important to define so that consumers may compare health insurance coverage and understand the terms of their coverage; and</P>
+<P>(b) Medical terms, including hospitalization, hospital outpatient care, emergency room care, physician services, prescription drug coverage, durable medical equipment, home health care, skilled nursing care, rehabilitation services, hospice services, emergency medical transportation, and any other terms the commissioner determines are important to define so that consumers may compare the medical benefits offered by health insurance and understand the extent of those medical benefits or exceptions to those benefits.</P>
+<P>(9) Unless preempted by federal law, the commissioner shall adopt any rules necessary to implement this section, consistent with federal rules and guidance in effect on January 1, 2017, implementing the patient protection and affordable care act.</P>
+</BillSection>
+<Part>
+<P>PART IX</P>
+<P>WAITING PERIODS FOR GROUP COVERAGE</P>
+</Part>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>14</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>48</TitleNumber><TextRun>.</TextRun><ChapterNumber>43</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) A group health plan and a health carrier offering group health coverage may not apply any waiting period that exceeds ninety days.</P>
+<P>(2) Unless preempted by federal law, the commissioner shall adopt any rules necessary to implement this section, consistent with federal rules and guidance in effect on January 1, 2017, implementing the patient protection and affordable care act.</P>
+</BillSection>
+<Part>
+<P>PART X</P>
+<P>PROHIBITING ISSUER AND HEALTH PLAN DISCRIMINATION</P>
+</Part>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>15</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>48</TitleNumber><TextRun>.</TextRun><ChapterNumber>43</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) A health carrier offering a health plan:</P>
+<P>(a) May not make coverage decisions, determine reimbursement rates, establish incentive programs, or design benefits in ways that discriminate against individuals because of their age, disability, or expected length of life; and</P>
+<P>(b) Must ensure that essential health benefits are not subject to denial to individuals against their wishes on the basis of the individuals' age or expected length of life or of the individuals' present or predicted disability, degree of medical dependency, or quality of life.</P>
+<P>(2) Unless preempted by federal law, the commissioner shall adopt any rules necessary to implement this section, consistent with federal rules and guidance in effect on January 1, 2017, implementing the patient protection and affordable care act.</P>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>16</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>71</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) For qualified health plans, an issue offering a qualified health plan may not employ marketing practices or benefit designs that have the effect of discouraging enrollment in the plan by individuals with significant health needs.</P>
+<P>(2) Unless preempted by federal law, the commissioner shall adopt any rules necessary to implement this section, consistent with federal rules and guidance in effect on January 1, 2017, implementing the patient protection and affordable care act.</P>
+</BillSection>
+</BillBody>
+</Bill>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-3961.1</RequestNumber><ShortBillId>HB 2720</ShortBillId><LongBillId>HOUSE BILL 2720</LongBillId><Legislature>66th Legislature</Legislature><Session>2020 Regular Session</Session><Sponsors>Representatives Hudgins, Vick, Jenkin, and Blake</Sponsors><BillHistory><ReadDate>Read first time 01/20/20.</ReadDate><ReferredCommittee>Referred to Committee on Civil Rights &amp; Judiciary.</ReferredCommittee></BillHistory><BriefDescription>Concerning the application of gambling loss recovery laws to certain online games of chance.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to the application of gambling loss recovery laws to certain online games of chance; amending RCW 4.24.070; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature finds that the state has made it a priority to grow clean, high-wage jobs by encouraging firms engaged in video game development to invest and grow in the state. The state has been successful in its efforts and an estimated twenty percent of the global video game development industry is now based in Washington state. However, recent court cases filed in federal district courts in Washington have created economic uncertainty for video game companies located in Washington state, or offering games to players located in the state, by raising the possibility that the legality surrounding these games will be decided differently than similar issues raised and decided in other states, such as Illinois, Maryland, and Ohio.</P></BillSectionHeader>
+<P>The legislature further finds that two video game companies based in Washington are subject to recently filed class action lawsuits. These lawsuits, if decided adversely to the game companies, pose a substantial financial risk for video game development in this state. The further possibility exists that companies based in Washington will move their base of operations to other states, which would remove thousands of jobs from the state and a currently incalculable, but materially significant, amount of tax dollars.</P>
+<P>Therefore, it is the intent of the legislature to remove this economic uncertainty by clarifying that a player is not entitled to recovery under RCW 4.24.070 unless the video game played provides a mechanism for the withdrawal of money or property from the game.</P>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>4</TitleNumber><TextRun>.</TextRun><ChapterNumber>24</ChapterNumber><TextRun>.</TextRun><SectionNumber>070</SectionNumber></SectionCite> and 1957 c 7 s 2 are each amended to read as follows:<Caption>Recovery of money lost at gambling.</Caption></BillSectionHeader>
+<P><TextRun amendingStyle="add">(1)</TextRun> All persons losing money or anything of value at or on any illegal gambling games shall have a cause of action to recover from the dealer or player winning, or from the proprietor for whose benefit such game was played or dealt, or such money or things of value won, the amount of the money or the value of the thing so lost.</P>
+<P><TextRun amendingStyle="add">(2) For purposes of this section, "illegal gambling games" does not include online games of chance when played solely for entertainment purposes with virtual items if such virtual items may be used only for gameplay and may not be, per the terms of service of the game, transferred, exchanged, or redeemed for money or property.</TextRun></P>
+<History>1957 c 7 § 2; Code 1881 § 1255; 1879 p 98 § 3; RRS § 5851.</History>
+<RCWNoteSection>
+<CrossRefNote><NoteP>Gambling: Chapter 9.46 RCW.</NoteP></CrossRefNote>
+</RCWNoteSection>
+</BillSection>
+</BillBody>
+</Bill>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-3627.1</RequestNumber><ShortBillId>HB 2346</ShortBillId><LongBillId>HOUSE BILL 2346</LongBillId><Legislature>66th Legislature</Legislature><Session>2020 Regular Session</Session><Sponsors>Representatives Young, Walsh, Shewmake, and Pollet</Sponsors><BillHistory><PrefiledDate>Prefiled 01/09/20.</PrefiledDate><ReadDate>Read first time 01/13/20.</ReadDate><ReferredCommittee>Referred to Committee on State Government &amp; Tribal Relations.</ReferredCommittee></BillHistory><BriefDescription>Increasing the word count for voters' pamphlet statements submitted by state representative candidates.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to increasing the word count for voters' pamphlet statements submitted by state representative candidates; and amending RCW 29A.32.121.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>29A</TitleNumber><TextRun>.</TextRun><ChapterNumber>32</ChapterNumber><TextRun>.</TextRun><SectionNumber>121</SectionNumber></SectionCite> and 2004 c 271 s 168 are each amended to read as follows:<Caption>Candidates' statements<TextRun fontFamily="Times New Roman">—</TextRun>Length.</Caption></BillSectionHeader>
+<P>(1) The maximum number of words for statements submitted by candidates is as follows: State representative, <TextRun amendingStyle="strike">one hundred words;</TextRun> state senator, judge of the superior court, judge of the court of appeals, justice of the supreme court, and all state offices voted upon throughout the state, except that of governor, two hundred words; president and vice president, United States senator, United States representative, and governor, three hundred words.</P>
+<P>(2) Arguments written by committees under RCW 29A.32.060 may not exceed two hundred fifty words in length.</P>
+<P>(3) Rebuttal arguments written by committees may not exceed seventy-five words in length.</P>
+<P>(4) The secretary of state shall allocate space in the pamphlet based on the number of candidates or nominees for each office.</P>
+<History>2004 c 271 § 168.</History>
+</BillSection>
+</BillBody>
+</Bill>

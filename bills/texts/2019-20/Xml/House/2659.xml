@@ -1,0 +1,761 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-3955.1</RequestNumber><ShortBillId>HB 2659</ShortBillId><LongBillId>HOUSE BILL 2659</LongBillId><Legislature>66th Legislature</Legislature><Session>2020 Regular Session</Session><Sponsors>Representatives Young, Walsh, Shea, Corry, Gildon, Jenkin, Chambers, Irwin, Van Werven, Ybarra, and Kraft</Sponsors><BillHistory><ReadDate>Read first time 01/16/20.</ReadDate><ReferredCommittee>Referred to Committee on Transportation.</ReferredCommittee></BillHistory><BriefDescription>Limiting state and local taxes, fees, and other charges relating to vehicles.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to limiting state and local taxes, fees, and other charges relating to vehicles; amending RCW 46.17.355 and 46.17.323; reenacting and amending RCW 46.17.350; adding a new section to chapter 46.17 RCW; creating new sections; repealing RCW 46.17.365 and 46.68.415; and declaring an emergency.</BillTitle>
+<EnactedClause />
+<Part>
+<P />
+<P>LIMITING ANNUAL MOTOR VEHICLE LICENSE FEES TO $30</P>
+</Part>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>46</TitleNumber><TextRun>.</TextRun><ChapterNumber>17</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) State and local motor vehicle license fees may not exceed thirty dollars per year for motor vehicles, regardless of year, value, make, or model.</P>
+<P>(2) For the purposes of this section, "state and local motor vehicle license fees" means the general license tab fees paid annually for licensing motor vehicles, including but not limited to cars, sport utility vehicles, light trucks under RCW 46.17.355, motorcycles, and motor homes, and do not include charges approved by voters after the effective date of this section. This annual fee must be paid and collected annually and is due at the time of initial and renewal vehicle registration.</P>
+</BillSection>
+<BillSection type="amendatory" action="remd">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>46</TitleNumber><TextRun>.</TextRun><ChapterNumber>17</ChapterNumber><TextRun>.</TextRun><SectionNumber>350</SectionNumber></SectionCite> and 2019 c 44 s 4 are each reenacted and amended to read as follows:<Caption>License fees by vehicle type.</Caption></BillSectionHeader>
+<P postPadding="halfline">(1) Before accepting an application for a vehicle registration, the department, county auditor or other agent, or subagent appointed by the director shall require the applicant, unless specifically exempt, to pay the following vehicle license fee by vehicle type:</P>
+<Table width="243.0pt" align="center" fontSize="8pt" pubwidth="narrow" hCellPadding="none">
+<Col width="92pt" />
+<Col width="37pt" />
+<Col width="44pt" />
+<Col width="70pt" />
+<THead>
+<TR>
+<TD textAlign="left" valign="top"><P>VEHICLE TYPE</P></TD>
+<TD textAlign="center" valign="top"><P>INITIAL FEE</P></TD>
+<TD textAlign="center" valign="top"><P>RENEWAL FEE</P></TD>
+<TD textAlign="center" valign="top"><P>DISTRIBUTED UNDER</P></TD>
+</TR>
+</THead>
+<TR>
+<TD textAlign="left" valign="top"><P indentStyle="hanging" indent="1">(a) Auto stage, six seats or less</P></TD>
+<TD textAlign="center" valign="top"><P>$ 30.00</P></TD>
+<TD textAlign="center" valign="top"><P>$ 30.00</P></TD>
+<TD textAlign="center" valign="top"><P>RCW 46.68.030</P></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P>(b) Camper</P></TD>
+<TD textAlign="center" valign="top"><P>$ 4.90</P></TD>
+<TD textAlign="center" valign="top"><P>$ 3.50</P></TD>
+<TD textAlign="center" valign="top"><P>RCW 46.68.030</P></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P>(c) Commercial trailer</P></TD>
+<TD textAlign="center" valign="top"><P>$ <TextRun amendingStyle="strike">34.00</TextRun> <TextRun amendingStyle="add">30.00</TextRun></P></TD>
+<TD textAlign="center" valign="top"><P>$ <TextRun amendingStyle="strike">34.00</TextRun> <TextRun amendingStyle="add">30.00</TextRun></P></TD>
+<TD textAlign="center" valign="top"><P>RCW 46.68.035</P></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P indentStyle="hanging" indent="1">(d) For hire vehicle, six seats or less</P></TD>
+<TD textAlign="center" valign="top"><P>$ 30.00</P></TD>
+<TD textAlign="center" valign="top"><P>$ 30.00</P></TD>
+<TD textAlign="center" valign="top"><P>RCW 46.68.030</P></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P indentStyle="hanging" indent="1">(e) Mobile home (if registered)</P></TD>
+<TD textAlign="center" valign="top"><P>$ 30.00</P></TD>
+<TD textAlign="center" valign="top"><P>$ 30.00</P></TD>
+<TD textAlign="center" valign="top"><P>RCW 46.68.030</P></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P>(f) Moped</P></TD>
+<TD textAlign="center" valign="top"><P>$ 30.00</P></TD>
+<TD textAlign="center" valign="top"><P>$ 30.00</P></TD>
+<TD textAlign="center" valign="top"><P>RCW 46.68.030</P></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P>(g) Motor home</P></TD>
+<TD textAlign="center" valign="top"><P>$ 30.00</P></TD>
+<TD textAlign="center" valign="top"><P>$ 30.00</P></TD>
+<TD textAlign="center" valign="top"><P>RCW 46.68.030</P></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P>(h) Motorcycle</P></TD>
+<TD textAlign="center" valign="top"><P>$ 30.00</P></TD>
+<TD textAlign="center" valign="top"><P>$ 30.00</P></TD>
+<TD textAlign="center" valign="top"><P>RCW 46.68.030</P></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P>(i) Off-road vehicle</P></TD>
+<TD textAlign="center" valign="top"><P>$ 18.00</P></TD>
+<TD textAlign="center" valign="top"><P>$ 18.00</P></TD>
+<TD textAlign="center" valign="top"><P>RCW 46.68.045</P></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P>(j) Passenger car</P></TD>
+<TD textAlign="center" valign="top"><P>$ 30.00</P></TD>
+<TD textAlign="center" valign="top"><P>$ 30.00</P></TD>
+<TD textAlign="center" valign="top"><P>RCW 46.68.030</P></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P indentStyle="hanging" indent="1">(k) Private use single-axle trailer</P></TD>
+<TD textAlign="center" valign="top"><P>$ 15.00</P></TD>
+<TD textAlign="center" valign="top"><P>$ 15.00</P></TD>
+<TD textAlign="center" valign="top"><P>RCW 46.68.035</P></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P>(l) Snowmobile</P></TD>
+<TD textAlign="center" valign="top"><P>$ <TextRun amendingStyle="strike">50.00</TextRun> <TextRun amendingStyle="add">30.00</TextRun></P></TD>
+<TD textAlign="center" valign="top"><P>$ <TextRun amendingStyle="strike">50.00</TextRun> <TextRun amendingStyle="add">30.00</TextRun></P></TD>
+<TD textAlign="center" valign="top"><P>RCW 46.68.350</P></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P>(m) Snowmobile, vintage</P></TD>
+<TD textAlign="center" valign="top"><P>$ 12.00</P></TD>
+<TD textAlign="center" valign="top"><P>$ 12.00</P></TD>
+<TD textAlign="center" valign="top"><P>RCW 46.68.350</P></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P>(n) Sport utility vehicle</P></TD>
+<TD textAlign="center" valign="top"><P>$ 30.00</P></TD>
+<TD textAlign="center" valign="top"><P>$ 30.00</P></TD>
+<TD textAlign="center" valign="top"><P>RCW 46.68.030</P></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P>(o) Tow truck</P></TD>
+<TD textAlign="center" valign="top"><P>$ 30.00</P></TD>
+<TD textAlign="center" valign="top"><P>$ 30.00</P></TD>
+<TD textAlign="center" valign="top"><P>RCW 46.68.030</P></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P indentStyle="hanging" indent="1">(p) Trailer, over 2000 pounds</P></TD>
+<TD textAlign="center" valign="top"><P>$ 30.00</P></TD>
+<TD textAlign="center" valign="top"><P>$ 30.00</P></TD>
+<TD textAlign="center" valign="top"><P>RCW 46.68.030</P></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P>(q) Travel trailer</P></TD>
+<TD textAlign="center" valign="top"><P>$ 30.00</P></TD>
+<TD textAlign="center" valign="top"><P>$ 30.00</P></TD>
+<TD textAlign="center" valign="top"><P>RCW 46.68.030</P></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P indentStyle="hanging" indent="1">(r) Wheeled all-terrain vehicle, on-road use</P></TD>
+<TD textAlign="center" valign="top"><P>$ 12.00</P></TD>
+<TD textAlign="center" valign="top"><P>$ 12.00</P></TD>
+<TD textAlign="center" valign="top"><P>RCW 46.09.540</P></TD>
+</TR>
+<TR>
+<TD textAlign="left" valign="top"><P indentStyle="hanging" indent="1">(s) Wheeled all-terrain vehicle, off-road use</P></TD>
+<TD textAlign="center" valign="top"><P>$ 18.00</P></TD>
+<TD textAlign="center" valign="top"><P>$ 18.00</P></TD>
+<TD textAlign="center" valign="top"><P>RCW 46.09.510</P></TD>
+</TR>
+</Table>
+<P prePadding="halfline">(2) The vehicle license fee required in subsection (1) of this section is in addition to the filing fee required under RCW 46.17.005, and any other fee or tax required by law.</P>
+<History>2019 c 44 § 4; 2014 c 30 § 2; (2014 c 30 § 1 expired October 1, 2015); 2013 2nd sp.s. c 23 § 19; 2010 c 161 § 531.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Application<TextRun fontFamily="Times New Roman">—</TextRun>Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2014 c 30 § 2:</TextRun> "Section 2 of this act applies to snowmobile registrations that are due on or after October 1, 2015. Section 2 of this act takes effect October 1, 2015." [2014 c 30 § 4.]</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Application<TextRun fontFamily="Times New Roman">—</TextRun>Expiration date<TextRun fontFamily="Times New Roman">—</TextRun>2014 c 30 § 1:</TextRun> "Section 1 of this act applies to snowmobile registrations that are due on or after October 1, 2014. Section 1 of this act expires October 1, 2015." [2014 c 30 § 3.] </NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Finding<TextRun fontFamily="Times New Roman">—</TextRun>Intent<TextRun fontFamily="Times New Roman">—</TextRun>2013 2nd sp.s. c 23:</TextRun> See note following RCW 46.09.442.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2013 2nd sp.s. c 23:</TextRun> See note following RCW 46.09.310.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>Intent<TextRun fontFamily="Times New Roman">—</TextRun>Legislation to reconcile chapter 161, Laws of 2010 and other amendments made during the 2010 legislative session<TextRun fontFamily="Times New Roman">—</TextRun>2010 c 161:</TextRun> See notes following RCW 46.04.013.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>46</TitleNumber><TextRun>.</TextRun><ChapterNumber>17</ChapterNumber><TextRun>.</TextRun><SectionNumber>355</SectionNumber></SectionCite> and 2015 3rd sp.s. c 44 s 201 are each amended to read as follows:<Caption>License fees by weight.</Caption></BillSectionHeader>
+<P>(1)(a) For vehicle registrations that are due or become due before July 1, 2016, in lieu of the vehicle license fee required under RCW 46.17.350 and before accepting an application for a vehicle registration for motor vehicles described in RCW 46.16A.455, the department, county auditor or other agent, or subagent appointed by the director shall require the applicant, unless specifically exempt, to pay the following license fee by weight:</P>
+<Table align="center" width="243.0pt" pubwidth="narrow">
+<Col width="109pt" />
+<Col width="67pt" />
+<Col width="67pt" />
+<THead>
+<TR>
+<TD><P textAlign="center">WEIGHT</P></TD>
+<TD><P textAlign="center">SCHEDULE A</P></TD>
+<TD><P textAlign="center">SCHEDULE B</P></TD>
+</TR>
+</THead>
+<TR>
+<TD><P textAlign="center">4,000 pounds</P></TD>
+<TD><P textAlign="center">$ 38.00</P></TD>
+<TD><P textAlign="center">$ 38.00</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="center">6,000 pounds</P></TD>
+<TD><P textAlign="center">$ 48.00</P></TD>
+<TD><P textAlign="center">$ 48.00</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="center">8,000 pounds</P></TD>
+<TD><P textAlign="center">$ 58.00</P></TD>
+<TD><P textAlign="center">$ 58.00</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="center">10,000 pounds</P></TD>
+<TD><P textAlign="center">$ 60.00</P></TD>
+<TD><P textAlign="center">$ 60.00</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="center">12,000 pounds</P></TD>
+<TD><P textAlign="center">$ 77.00</P></TD>
+<TD><P textAlign="center">$ 77.00</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="center">14,000 pounds</P></TD>
+<TD><P textAlign="center">$ 88.00</P></TD>
+<TD><P textAlign="center">$ 88.00</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="center">16,000 pounds</P></TD>
+<TD><P textAlign="center">$ 100.00</P></TD>
+<TD><P textAlign="center">$ 100.00</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="center">18,000 pounds</P></TD>
+<TD><P textAlign="center">$ 152.00</P></TD>
+<TD><P textAlign="center">$ 152.00</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="center">20,000 pounds</P></TD>
+<TD><P textAlign="center">$ 169.00</P></TD>
+<TD><P textAlign="center">$ 169.00</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="center">22,000 pounds</P></TD>
+<TD><P textAlign="center">$ 183.00</P></TD>
+<TD><P textAlign="center">$ 183.00</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="center">24,000 pounds</P></TD>
+<TD><P textAlign="center">$ 198.00</P></TD>
+<TD><P textAlign="center">$ 198.00</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="center">26,000 pounds</P></TD>
+<TD><P textAlign="center">$ 209.00</P></TD>
+<TD><P textAlign="center">$ 209.00</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="center">28,000 pounds</P></TD>
+<TD><P textAlign="center">$ 247.00</P></TD>
+<TD><P textAlign="center">$ 247.00</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="center">30,000 pounds</P></TD>
+<TD><P textAlign="center">$ 285.00</P></TD>
+<TD><P textAlign="center">$ 285.00</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="center">32,000 pounds</P></TD>
+<TD><P textAlign="center">$ 344.00</P></TD>
+<TD><P textAlign="center">$ 344.00</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="center">34,000 pounds</P></TD>
+<TD><P textAlign="center">$ 366.00</P></TD>
+<TD><P textAlign="center">$ 366.00</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="center">36,000 pounds</P></TD>
+<TD><P textAlign="center">$ 397.00</P></TD>
+<TD><P textAlign="center">$ 397.00</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="center">38,000 pounds</P></TD>
+<TD><P textAlign="center">$ 436.00</P></TD>
+<TD><P textAlign="center">$ 436.00</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="center">40,000 pounds</P></TD>
+<TD><P textAlign="center">$ 499.00</P></TD>
+<TD><P textAlign="center">$ 499.00</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="center">42,000 pounds</P></TD>
+<TD><P textAlign="center">$ 519.00</P></TD>
+<TD><P textAlign="center">$ 609.00</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="center">44,000 pounds</P></TD>
+<TD><P textAlign="center">$ 530.00</P></TD>
+<TD><P textAlign="center">$ 620.00</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="center">46,000 pounds</P></TD>
+<TD><P textAlign="center">$ 570.00</P></TD>
+<TD><P textAlign="center">$ 660.00</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="center">48,000 pounds</P></TD>
+<TD><P textAlign="center">$ 594.00</P></TD>
+<TD><P textAlign="center">$ 684.00</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="center">50,000 pounds</P></TD>
+<TD><P textAlign="center">$ 645.00</P></TD>
+<TD><P textAlign="center">$ 735.00</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="center">52,000 pounds</P></TD>
+<TD><P textAlign="center">$ 678.00</P></TD>
+<TD><P textAlign="center">$ 768.00</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="center">54,000 pounds</P></TD>
+<TD><P textAlign="center">$ 732.00</P></TD>
+<TD><P textAlign="center">$ 822.00</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="center">56,000 pounds</P></TD>
+<TD><P textAlign="center">$ 773.00</P></TD>
+<TD><P textAlign="center">$ 863.00</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="center">58,000 pounds</P></TD>
+<TD><P textAlign="center">$ 804.00</P></TD>
+<TD><P textAlign="center">$ 894.00</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="center">60,000 pounds</P></TD>
+<TD><P textAlign="center">$ 857.00</P></TD>
+<TD><P textAlign="center">$ 947.00</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="center">62,000 pounds</P></TD>
+<TD><P textAlign="center">$ 919.00</P></TD>
+<TD><P textAlign="center">$ 1,009.00</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="center">64,000 pounds</P></TD>
+<TD><P textAlign="center">$ 939.00</P></TD>
+<TD><P textAlign="center">$ 1,029.00</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="center">66,000 pounds</P></TD>
+<TD><P textAlign="center">$ 1,046.00</P></TD>
+<TD><P textAlign="center">$ 1,136.00</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="center">68,000 pounds</P></TD>
+<TD><P textAlign="center">$ 1,091.00</P></TD>
+<TD><P textAlign="center">$ 1,181.00</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="center">70,000 pounds</P></TD>
+<TD><P textAlign="center">$ 1,175.00</P></TD>
+<TD><P textAlign="center">$ 1,265.00</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="center">72,000 pounds</P></TD>
+<TD><P textAlign="center">$ 1,257.00</P></TD>
+<TD><P textAlign="center">$ 1,347.00</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="center">74,000 pounds</P></TD>
+<TD><P textAlign="center">$ 1,366.00</P></TD>
+<TD><P textAlign="center">$ 1,456.00</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="center">76,000 pounds</P></TD>
+<TD><P textAlign="center">$ 1,476.00</P></TD>
+<TD><P textAlign="center">$ 1,566.00</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="center">78,000 pounds</P></TD>
+<TD><P textAlign="center">$ 1,612.00</P></TD>
+<TD><P textAlign="center">$ 1,702.00</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="center">80,000 pounds</P></TD>
+<TD><P textAlign="center">$ 1,740.00</P></TD>
+<TD><P textAlign="center">$ 1,830.00</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="center">82,000 pounds</P></TD>
+<TD><P textAlign="center">$ 1,861.00</P></TD>
+<TD><P textAlign="center">$ 1,951.00</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="center">84,000 pounds</P></TD>
+<TD><P textAlign="center">$ 1,981.00</P></TD>
+<TD><P textAlign="center">$ 2,071.00</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="center">86,000 pounds</P></TD>
+<TD><P textAlign="center">$ 2,102.00</P></TD>
+<TD><P textAlign="center">$ 2,192.00</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="center">88,000 pounds</P></TD>
+<TD><P textAlign="center">$ 2,223.00</P></TD>
+<TD><P textAlign="center">$ 2,313.00</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="center">90,000 pounds</P></TD>
+<TD><P textAlign="center">$ 2,344.00</P></TD>
+<TD><P textAlign="center">$ 2,434.00</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="center">92,000 pounds</P></TD>
+<TD><P textAlign="center">$ 2,464.00</P></TD>
+<TD><P textAlign="center">$ 2,554.00</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="center">94,000 pounds</P></TD>
+<TD><P textAlign="center">$ 2,585.00</P></TD>
+<TD><P textAlign="center">$ 2,675.00</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="center">96,000 pounds</P></TD>
+<TD><P textAlign="center">$ 2,706.00</P></TD>
+<TD><P textAlign="center">$ 2,796.00</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="center">98,000 pounds</P></TD>
+<TD><P textAlign="center">$ 2,827.00</P></TD>
+<TD><P textAlign="center">$ 2,917.00</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="center">100,000 pounds</P></TD>
+<TD><P textAlign="center">$ 2,947.00</P></TD>
+<TD><P textAlign="center">$ 3,037.00</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="center">102,000 pounds</P></TD>
+<TD><P textAlign="center">$ 3,068.00</P></TD>
+<TD><P textAlign="center">$ 3,158.00</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="center">104,000 pounds</P></TD>
+<TD><P textAlign="center">$ 3,189.00</P></TD>
+<TD><P textAlign="center">$ 3,279.00</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="center">105,500 pounds</P></TD>
+<TD><P textAlign="center">$ 3,310.00</P></TD>
+<TD><P textAlign="center">$ 3,400.00</P></TD>
+</TR>
+</Table>
+<P>(b) For vehicle registrations that are due or become due on or after July 1, 2016, in lieu of the vehicle license fee required under RCW 46.17.350 and before accepting an application for a vehicle registration for motor vehicles described in RCW 46.16A.455, the department, county auditor or other agent, or subagent appointed by the director shall require the applicant, unless specifically exempt, to pay the following license fee by <TextRun amendingStyle="add">gross</TextRun> weight:</P>
+<Table align="center" width="243.0pt" pubwidth="narrow" preview="yes">
+<Col width="109pt" />
+<Col width="67pt" />
+<Col width="67pt" />
+<THead>
+<TR>
+<TD><P textAlign="center">WEIGHT</P></TD>
+<TD><P textAlign="center">SCHEDULE A</P></TD>
+<TD><P textAlign="center">SCHEDULE B</P></TD>
+</TR>
+</THead>
+<TR>
+<TD><P textAlign="center">4,000 pounds</P></TD>
+<TD><P textAlign="center">$ <TextRun amendingStyle="strike">53.00</TextRun> <TextRun amendingStyle="add">30.00</TextRun></P></TD>
+<TD><P textAlign="center">$ <TextRun amendingStyle="strike">53.00</TextRun> <TextRun amendingStyle="add">30.00</TextRun></P></TD>
+</TR>
+<TR>
+<TD><P textAlign="center">6,000 pounds</P></TD>
+<TD><P textAlign="center">$ <TextRun amendingStyle="strike">73.00</TextRun> <TextRun amendingStyle="add">30.00</TextRun></P></TD>
+<TD><P textAlign="center">$ <TextRun amendingStyle="strike">73.00</TextRun> <TextRun amendingStyle="add">30.00</TextRun></P></TD>
+</TR>
+<TR>
+<TD><P textAlign="center">8,000 pounds</P></TD>
+<TD><P textAlign="center">$ <TextRun amendingStyle="strike">93.00</TextRun> <TextRun amendingStyle="add">30.00</TextRun></P></TD>
+<TD><P textAlign="center">$ <TextRun amendingStyle="strike">93.00</TextRun> <TextRun amendingStyle="add">30.00</TextRun></P></TD>
+</TR>
+<TR>
+<TD><P textAlign="center">10,000 pounds</P></TD>
+<TD><P textAlign="center">$ <TextRun amendingStyle="strike">93.00</TextRun> <TextRun amendingStyle="add">30.00</TextRun></P></TD>
+<TD><P textAlign="center">$ <TextRun amendingStyle="strike">93.00</TextRun> <TextRun amendingStyle="add">30.00</TextRun></P></TD>
+</TR>
+<TR>
+<TD><P textAlign="center">12,000 pounds</P></TD>
+<TD><P textAlign="center">$ 81.00</P></TD>
+<TD><P textAlign="center">$ 81.00</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="center">14,000 pounds</P></TD>
+<TD><P textAlign="center">$ 88.00</P></TD>
+<TD><P textAlign="center">$ 88.00</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="center">16,000 pounds</P></TD>
+<TD><P textAlign="center">$ 100.00</P></TD>
+<TD><P textAlign="center">$ 100.00</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="center">18,000 pounds</P></TD>
+<TD><P textAlign="center">$ 152.00</P></TD>
+<TD><P textAlign="center">$ 152.00</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="center">20,000 pounds</P></TD>
+<TD><P textAlign="center">$ 169.00</P></TD>
+<TD><P textAlign="center">$ 169.00</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="center">22,000 pounds</P></TD>
+<TD><P textAlign="center">$ 183.00</P></TD>
+<TD><P textAlign="center">$ 183.00</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="center">24,000 pounds</P></TD>
+<TD><P textAlign="center">$ 198.00</P></TD>
+<TD><P textAlign="center">$ 198.00</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="center">26,000 pounds</P></TD>
+<TD><P textAlign="center">$ 209.00</P></TD>
+<TD><P textAlign="center">$ 209.00</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="center">28,000 pounds</P></TD>
+<TD><P textAlign="center">$ 247.00</P></TD>
+<TD><P textAlign="center">$ 247.00</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="center">30,000 pounds</P></TD>
+<TD><P textAlign="center">$ 285.00</P></TD>
+<TD><P textAlign="center">$ 285.00</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="center">32,000 pounds</P></TD>
+<TD><P textAlign="center">$ 344.00</P></TD>
+<TD><P textAlign="center">$ 344.00</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="center">34,000 pounds</P></TD>
+<TD><P textAlign="center">$ 366.00</P></TD>
+<TD><P textAlign="center">$ 366.00</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="center">36,000 pounds</P></TD>
+<TD><P textAlign="center">$ 397.00</P></TD>
+<TD><P textAlign="center">$ 397.00</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="center">38,000 pounds</P></TD>
+<TD><P textAlign="center">$ 436.00</P></TD>
+<TD><P textAlign="center">$ 436.00</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="center">40,000 pounds</P></TD>
+<TD><P textAlign="center">$ 499.00</P></TD>
+<TD><P textAlign="center">$ 499.00</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="center">42,000 pounds</P></TD>
+<TD><P textAlign="center">$ 519.00</P></TD>
+<TD><P textAlign="center">$ 609.00</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="center">44,000 pounds</P></TD>
+<TD><P textAlign="center">$ 530.00</P></TD>
+<TD><P textAlign="center">$ 620.00</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="center">46,000 pounds</P></TD>
+<TD><P textAlign="center">$ 570.00</P></TD>
+<TD><P textAlign="center">$ 660.00</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="center">48,000 pounds</P></TD>
+<TD><P textAlign="center">$ 594.00</P></TD>
+<TD><P textAlign="center">$ 684.00</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="center">50,000 pounds</P></TD>
+<TD><P textAlign="center">$ 645.00</P></TD>
+<TD><P textAlign="center">$ 735.00</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="center">52,000 pounds</P></TD>
+<TD><P textAlign="center">$ 678.00</P></TD>
+<TD><P textAlign="center">$ 768.00</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="center">54,000 pounds</P></TD>
+<TD><P textAlign="center">$ 732.00</P></TD>
+<TD><P textAlign="center">$ 822.00</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="center">56,000 pounds</P></TD>
+<TD><P textAlign="center">$ 773.00</P></TD>
+<TD><P textAlign="center">$ 863.00</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="center">58,000 pounds</P></TD>
+<TD><P textAlign="center">$ 804.00</P></TD>
+<TD><P textAlign="center">$ 894.00</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="center">60,000 pounds</P></TD>
+<TD><P textAlign="center">$ 857.00</P></TD>
+<TD><P textAlign="center">$ 947.00</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="center">62,000 pounds</P></TD>
+<TD><P textAlign="center">$ 919.00</P></TD>
+<TD><P textAlign="center">$ 1,009.00</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="center">64,000 pounds</P></TD>
+<TD><P textAlign="center">$ 939.00</P></TD>
+<TD><P textAlign="center">$ 1,029.00</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="center">66,000 pounds</P></TD>
+<TD><P textAlign="center">$ 1,046.00</P></TD>
+<TD><P textAlign="center">$ 1,136.00</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="center">68,000 pounds</P></TD>
+<TD><P textAlign="center">$ 1,091.00</P></TD>
+<TD><P textAlign="center">$ 1,181.00</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="center">70,000 pounds</P></TD>
+<TD><P textAlign="center">$ 1,175.00</P></TD>
+<TD><P textAlign="center">$ 1,265.00</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="center">72,000 pounds</P></TD>
+<TD><P textAlign="center">$ 1,257.00</P></TD>
+<TD><P textAlign="center">$ 1,347.00</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="center">74,000 pounds</P></TD>
+<TD><P textAlign="center">$ 1,366.00</P></TD>
+<TD><P textAlign="center">$ 1,456.00</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="center">76,000 pounds</P></TD>
+<TD><P textAlign="center">$ 1,476.00</P></TD>
+<TD><P textAlign="center">$ 1,566.00</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="center">78,000 pounds</P></TD>
+<TD><P textAlign="center">$ 1,612.00</P></TD>
+<TD><P textAlign="center">$ 1,702.00</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="center">80,000 pounds</P></TD>
+<TD><P textAlign="center">$ 1,740.00</P></TD>
+<TD><P textAlign="center">$ 1,830.00</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="center">82,000 pounds</P></TD>
+<TD><P textAlign="center">$ 1,861.00</P></TD>
+<TD><P textAlign="center">$ 1,951.00</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="center">84,000 pounds</P></TD>
+<TD><P textAlign="center">$ 1,981.00</P></TD>
+<TD><P textAlign="center">$ 2,071.00</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="center">86,000 pounds</P></TD>
+<TD><P textAlign="center">$ 2,102.00</P></TD>
+<TD><P textAlign="center">$ 2,192.00</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="center">88,000 pounds</P></TD>
+<TD><P textAlign="center">$ 2,223.00</P></TD>
+<TD><P textAlign="center">$ 2,313.00</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="center">90,000 pounds</P></TD>
+<TD><P textAlign="center">$ 2,344.00</P></TD>
+<TD><P textAlign="center">$ 2,434.00</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="center">92,000 pounds</P></TD>
+<TD><P textAlign="center">$ 2,464.00</P></TD>
+<TD><P textAlign="center">$ 2,554.00</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="center">94,000 pounds</P></TD>
+<TD><P textAlign="center">$ 2,585.00</P></TD>
+<TD><P textAlign="center">$ 2,675.00</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="center">96,000 pounds</P></TD>
+<TD><P textAlign="center">$ 2,706.00</P></TD>
+<TD><P textAlign="center">$ 2,796.00</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="center">98,000 pounds</P></TD>
+<TD><P textAlign="center">$ 2,827.00</P></TD>
+<TD><P textAlign="center">$ 2,917.00</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="center">100,000 pounds</P></TD>
+<TD><P textAlign="center">$ 2,947.00</P></TD>
+<TD><P textAlign="center">$ 3,037.00</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="center">102,000 pounds</P></TD>
+<TD><P textAlign="center">$ 3,068.00</P></TD>
+<TD><P textAlign="center">$ 3,158.00</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="center">104,000 pounds</P></TD>
+<TD><P textAlign="center">$ 3,189.00</P></TD>
+<TD><P textAlign="center">$ 3,279.00</P></TD>
+</TR>
+<TR>
+<TD><P textAlign="center">105,500 pounds</P></TD>
+<TD><P textAlign="center">$ 3,310.00</P></TD>
+<TD><P textAlign="center">$ 3,400.00</P></TD>
+</TR>
+</Table>
+<P>(2) Schedule A applies to vehicles either used exclusively for hauling logs or that do not tow trailers. Schedule B applies to vehicles that tow trailers and are not covered under Schedule A.</P>
+<P>(3) If the resultant gross weight is not listed in the table provided in subsection (1) of this section, it must be increased to the next higher weight.</P>
+<P>(4) The license fees provided in subsection (1) of this section and the freight project fee provided in subsection <TextRun amendingStyle="strike">(6)</TextRun> <TextRun amendingStyle="add">(7)</TextRun> of this section are in addition to the filing fee required under RCW 46.17.005 and any other fee or tax required by law.</P>
+<P>(5) <TextRun amendingStyle="add">The license fees provided in subsection (1) of this section for light trucks weighing 10,000 pounds or less are limited to thirty dollars.</TextRun></P>
+<P><TextRun amendingStyle="add">(6)</TextRun> The license fee based on declared gross weight as provided in subsection (1) of this section must be distributed under RCW 46.68.035.</P>
+<P><TextRun amendingStyle="strike">(6)</TextRun> <TextRun amendingStyle="add">(7)</TextRun> For vehicle registrations that are due or become due on or after July 1, 2016, in addition to the license fee based on declared gross weight as provided in subsection (1) of this section, the department, county auditor or other agent, or subagent appointed by the director must require an applicant with a vehicle with a declared gross weight of more than 10,000 pounds, unless specifically exempt, to pay a freight project fee equal to fifteen percent of the license fee provided in subsection (1) of this section, rounded to the nearest whole dollar, which must be distributed under RCW 46.68.035.</P>
+<P><TextRun amendingStyle="strike">(7)</TextRun> <TextRun amendingStyle="add">(8)</TextRun> For vehicle registrations that are due or become due on or after July 1, 2022, in addition to the license fee based on declared gross weight as provided in subsection (1) of this section, the department, county auditor or other agent, or subagent appointed by the director must require an applicant with a vehicle with a declared gross weight of less than or equal to 12,000 pounds, unless specifically exempt, to pay an additional weight fee of ten dollars, which must be distributed under RCW 46.68.035.</P>
+<History>2015 3rd sp.s. c 44 § 201; 2011 c 171 § 61; 2010 c 161 § 530.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2015 3rd sp.s. c 44:</TextRun> See note following RCW 46.68.395.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Intent<TextRun fontFamily="Times New Roman">—</TextRun>Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2011 c 171:</TextRun> See notes following RCW 4.24.210.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>Intent<TextRun fontFamily="Times New Roman">—</TextRun>Legislation to reconcile chapter 161, Laws of 2010 and other amendments made during the 2010 legislative session<TextRun fontFamily="Times New Roman">—</TextRun>2010 c 161:</TextRun> See notes following RCW 46.04.013.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>46</TitleNumber><TextRun>.</TextRun><ChapterNumber>17</ChapterNumber><TextRun>.</TextRun><SectionNumber>323</SectionNumber></SectionCite> and 2015 3rd sp.s. c 44 s 203 are each amended to read as follows:<Caption>Electric vehicle registration renewal fees.</Caption></BillSectionHeader>
+<P>(1) Before accepting an application for an annual vehicle registration renewal for a vehicle that both (a) uses at least one method of propulsion that is capable of being reenergized by an external source of electricity and (b) is capable of traveling at least thirty miles using only battery power, the department, county auditor or other agent, or subagent appointed by the director must require the applicant to pay a <TextRun amendingStyle="strike">one hundred dollar fee in addition to any other fees and taxes required by law</TextRun> <TextRun amendingStyle="add">thirty dollar fee</TextRun>. The <TextRun amendingStyle="strike">one hundred</TextRun> <TextRun amendingStyle="add">thirty</TextRun> dollar fee is due only at the time of annual registration renewal.</P>
+<P>(2) This section only applies to a vehicle that is designed to have the capability to drive at a speed of more than thirty-five miles per hour.</P>
+<P>(3)<TextRun amendingStyle="strikemarkleft">(a) The fee under this section is imposed to provide funds to mitigate the impact of vehicles on state roads and highways and for the purpose of evaluating the feasibility of transitioning from a revenue collection system based on fuel taxes to a road user assessment system, and is separate and distinct from other vehicle license fees. Proceeds from the fee must be used for highway purposes, and must be deposited in the motor vehicle fund created in RCW 46.68.070, subject to (b) of this subsection.</TextRun></P>
+<P><TextRun amendingStyle="strikemarkright">(b)</TextRun> If in any year the amount of proceeds from the fee collected under this section exceeds one million dollars, the excess amount over one million dollars must be deposited as follows:</P>
+<P><TextRun amendingStyle="strike">(i)</TextRun> <TextRun amendingStyle="add">(a)</TextRun> Seventy percent to the motor vehicle fund created in RCW 46.68.070;</P>
+<P><TextRun amendingStyle="strike">(ii)</TextRun> <TextRun amendingStyle="add">(b)</TextRun> Fifteen percent to the transportation improvement account created in RCW 47.26.084; and</P>
+<P><TextRun amendingStyle="strike">(iii)</TextRun> <TextRun amendingStyle="add">(c)</TextRun> Fifteen percent to the rural arterial trust account created in RCW 36.79.020.</P>
+<P indent="1"><TextRun amendingStyle="strikemarkleft">(4)(a) In addition to the fee established in subsection (1) of this section, before accepting an application for an annual vehicle registration renewal for a vehicle that both (i) uses at least one method of propulsion that is capable of being reenergized by an external source of electricity and (ii) is capable of traveling at least thirty miles using only battery power, the department, county auditor or other agent, or subagent appointed by the director must require the applicant to pay a fifty dollar fee.</TextRun></P>
+<P indent="1"><TextRun amendingStyle="strikemarknone">(b) The fee required under (a) of this subsection must be distributed as follows:</TextRun></P>
+<P indent="1"><TextRun amendingStyle="strikemarknone">(i) The first one million dollars raised by the fee must be deposited into the multimodal transportation account created in RCW 47.66.070; and</TextRun></P>
+<P indent="1"><TextRun amendingStyle="strikemarknone">(ii) Any remaining amounts must be deposited into the motor vehicle fund created in RCW 46.68.070.</TextRun></P>
+<P indent="1"><TextRun amendingStyle="strikemarkright">(5) This section applies to annual vehicle registration renewals until the effective date of enacted legislation that imposes a vehicle miles traveled fee or tax.</TextRun></P>
+<History>2015 3rd sp.s. c 44 § 203; 2012 c 74 § 10.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Application<TextRun fontFamily="Times New Roman">—</TextRun>2015 3rd sp.s. c 44 § 203:</TextRun> "Section 203 of this act applies to vehicle registrations that are due or become due on or after July 1, 2016." [2015 3rd sp.s. c 44 § 204.]</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2015 3rd sp.s. c 44:</TextRun> See note following RCW 46.68.395.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Notice of expiration date<TextRun fontFamily="Times New Roman">—</TextRun>2012 c 74 § 10:</TextRun> "The department of licensing must provide written notice of the expiration date of section 10 of this act to affected parties, the chief clerk of the house of representatives, the secretary of the senate, the office of the code reviser, and others as deemed appropriate by the department." [2012 c 74 § 12.]</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2012 c 74 §§ 1-12:</TextRun> See note following RCW 46.17.100.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="new" action="repeal">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>5</Value><TextRun>.  </TextRun></BillSectionNumber><P>The following acts or parts of acts are each repealed:</P></BillSectionHeader>
+<P><RepealNumber>1</RepealNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>46</TitleNumber><TextRun>.</TextRun><ChapterNumber>17</ChapterNumber><TextRun>.</TextRun><SectionNumber>365</SectionNumber></SectionCite> (Motor vehicle weight fee<TextRun fontFamily="Times New Roman">—</TextRun>Motor home vehicle weight fee) and 2015 3rd sp.s. c 44 s 202 &amp; 2010 c 161 s 533; and</P>
+<P><RepealNumber>2</RepealNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>46</TitleNumber><TextRun>.</TextRun><ChapterNumber>68</ChapterNumber><TextRun>.</TextRun><SectionNumber>415</SectionNumber></SectionCite> (Motor vehicle weight fee, motor home vehicle weight fee<TextRun fontFamily="Times New Roman">—</TextRun>Disposition) and 2010 c 161 s 813.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>6</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>CONSTRUCTION CLAUSE.</SectionCaption><P>The provisions of this act are to be liberally construed to effectuate the intent, policies, and purposes of this act.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>7</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>SEVERABILITY CLAUSE.</SectionCaption><P>If any provision of this act or its application to any person or circumstance is held invalid, the remainder of the act or the application of the provision to other persons or circumstances is not affected.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>8</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>SHORT TITLE.</SectionCaption><P>This act may be known and cited as the bring back our $30 car tabs act.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="emerg">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>9</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act is necessary for the immediate preservation of the public peace, health, or safety, or support of the state government and its existing public institutions, and takes effect immediately.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>10</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act applies retroactively to December 5, 2019.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

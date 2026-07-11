@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-2317.3</RequestNumber><ShortBillId>2SHB 1938</ShortBillId><LongBillId>SECOND SUBSTITUTE HOUSE BILL 1938</LongBillId><Legislature>66th Legislature</Legislature><Session>2019 Regular Session</Session><Sponsors>House Finance (originally sponsored by Representatives Steele, Barkis, and Chapman)</Sponsors><BillHistory><ReadDate>READ FIRST TIME 03/09/19.</ReadDate></BillHistory><BriefDescription>Creating a local infrastructure investment program to support the development of affordable housing, workforce housing, and revitalization efforts.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to creating a local infrastructure investment program to support the development of affordable housing, workforce housing, and revitalization efforts; and adding a new chapter to Title 39 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The definitions in this section apply throughout this chapter unless the context clearly requires otherwise.</P></BillSectionHeader>
+<P>(1) "Affordable housing" and "workforce housing" mean residential housing units that are rented or owned by a person or household whose income is at or below eighty percent of the median income for the county in which the housing is located.</P>
+<P>(2) "Department" means the department of revenue.</P>
+<P>(3) "Eligible project" means an affordable housing project, a workforce housing project, or revitalization effort within a revitalization district. The eligible project may be housing, mixed-use, industrial, commercial, or a combination of multiple development types.</P>
+<P>(4) "Local infrastructure" has the same meaning as provided for "public improvements" in RCW 39.104.020.</P>
+<P>(5) "Participating local jurisdiction" means a city or county that establishes a local infrastructure investment program.</P>
+<P>(6) "Revitalization effort" means a project that promotes the continued economic growth of a participating local jurisdiction, as defined through the ordinance process provided in section 3 of this act.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) A participating local jurisdiction that builds approved local infrastructure to support the development of affordable housing or workforce housing or to support revitalization efforts within a revitalization district may receive a remittance that is the equivalent of a 4.37 percent sales or use tax on the construction of such housing developed under this program.</P></BillSectionHeader>
+<P>(2) The remittance may be claimed once per eligible project. The remittance received by the participating local jurisdiction under this section must be credited against the sales and use tax due to the state under chapters 82.08 and 82.12 RCW on the same sales.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) To commence a local infrastructure investment program, a participating local jurisdiction must adopt an ordinance establishing the local definition of revitalization effort and the geographic boundaries of the revitalization district.</P></BillSectionHeader>
+<P>(2) The participating local jurisdiction must hold a public hearing on the proposed local infrastructure investment program before passage of the ordinance establishing the program. The public hearing must be attended by at least a majority of the whole governing body. The public hearing is subject to the notice requirements in section 4 of this act.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) Prior to adopting the ordinance creating the local infrastructure investment program, the participating local jurisdiction must provide public notice.</P></BillSectionHeader>
+<P>(2) Notice of the public hearing must be published in a legal newspaper of general circulation within the participating local jurisdiction at least ten days before the public hearing and posted in at least six conspicuous public places located in the participating local jurisdiction.</P>
+<P>(3) Notice must also be sent by United States mail to the property owners within the participating local jurisdiction at least thirty days prior to the hearing.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>5</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) The city or county must notify the department that a local infrastructure investment program has been established, in a form prescribed by the department.</P></BillSectionHeader>
+<P>(2) To collect the sales and use tax remittance, the participating local jurisdiction must apply to the department in a form and manner prescribed by the department and provide the following information about the eligible project:</P>
+<P>(a) The total amount of construction costs for the eligible project;</P>
+<P>(b) The total amount of sales and use tax paid on the eligible project; and</P>
+<P>(c) Any other information required by the department to determine the amount of remittance due to the local jurisdiction.</P>
+</BillSection>
+<BillSection type="new" action="addchap" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>6</Value><TextRun>.  </TextRun></BillSectionNumber><P>Sections 1 through 5 of this act constitute a new chapter in <TitleCite><TextRun>Title </TextRun><TitleNumber>39</TitleNumber><TextRun> RCW</TextRun></TitleCite>.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

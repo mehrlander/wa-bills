@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-3419.1</RequestNumber><ShortBillId>HB 2326</ShortBillId><LongBillId>HOUSE BILL 2326</LongBillId><Legislature>66th Legislature</Legislature><Session>2020 Regular Session</Session><Sponsors>Representatives Macri, Robinson, Rude, Cody, Leavitt, Thai, Ormsby, Wylie, Doglio, Kloba, Riccelli, Tharinger, and Appleton</Sponsors><BillHistory><PrefiledDate>Prefiled 01/09/20.</PrefiledDate><ReadDate>Read first time 01/13/20.</ReadDate><ReferredCommittee>Referred to Committee on Health Care &amp; Wellness.</ReferredCommittee></BillHistory><BriefDescription>Reporting end-of-life care policies.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to hospital end-of-life care policies; amending RCW 70.41.520; adding a new section to chapter 70.41 RCW; and providing an effective date.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>70</TitleNumber><TextRun>.</TextRun><ChapterNumber>41</ChapterNumber><TextRun>.</TextRun><SectionNumber>520</SectionNumber></SectionCite> and 2019 c 399 s 4 are each amended to read as follows:<Caption>Access to care policies for admission, nondiscrimination, and reproductive health care<TextRun fontFamily="Times New Roman">—</TextRun>Requirement to submit, post on web site, and use department-created form.</Caption></BillSectionHeader>
+<P>(1) <TextRun amendingStyle="strike">By September 1, 2019, every</TextRun> <TextRun amendingStyle="add">Every</TextRun> hospital must submit to the department its policies related to access to care regarding:</P>
+<P>(a) Admission;</P>
+<P>(b) <TextRun amendingStyle="add">End-of-life care and the death with dignity act, chapter 70.245 RCW;</TextRun></P>
+<P><TextRun amendingStyle="add">(c)</TextRun> Nondiscrimination; and</P>
+<P><TextRun amendingStyle="strike">(c)</TextRun> <TextRun amendingStyle="add">(d)</TextRun> Reproductive health care.</P>
+<P>(2) The department shall post a copy of the policies received under subsection (1) of this section on its web site.</P>
+<P>(3) If a hospital makes changes to any of the policies listed under subsection (1) of this section, it must submit a copy of the changed policy to the department within thirty days after the hospital approves the changes.</P>
+<P>(4) A hospital must post a copy of the policies provided to the department under subsection (1) of this section and the form required under subsection (5) of this section to the hospital's own web site in a location where the policies are readily accessible to the public without a required login or other restriction.</P>
+<P>(5) <TextRun amendingStyle="strike">By September 1, 2019, the</TextRun> <TextRun amendingStyle="add">The</TextRun> department shall, in consultation with stakeholders including a hospital association and patient advocacy groups, develop a simple and clear form to be submitted by hospitals along with the policies required in subsection (1) of this section. The form must provide the public with specific information about which reproductive health care services <TextRun amendingStyle="add">and end-of-life services</TextRun> are and are not generally available at each hospital. The form must include contact information for the hospital in case patients have specific questions about services available at the hospital.</P>
+<History>2019 c 399 § 4.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Findings<TextRun fontFamily="Times New Roman">—</TextRun>Short title<TextRun fontFamily="Times New Roman">—</TextRun>2019 c 399:</TextRun> See notes following RCW 74.09.875.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Recommendations<TextRun fontFamily="Times New Roman">—</TextRun>Preexposure and postexposure prophylaxis financial support awareness<TextRun fontFamily="Times New Roman">—</TextRun>2019 c 399:</TextRun> See note following RCW 48.43.072.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>70</TitleNumber><TextRun>.</TextRun><ChapterNumber>41</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>By August 1, 2020, the department of health shall update the form required in RCW 70.41.520(5) to include services related to end-of-life care and the death with dignity act, chapter 70.245 RCW.</P>
+</BillSection>
+<BillSection type="new" action="effdate">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>Section 1 of this act takes effect September 1, 2020.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>Z-0788.1</RequestNumber><ShortBillId>HB 2470</ShortBillId><LongBillId>HOUSE BILL 2470</LongBillId><Legislature>66th Legislature</Legislature><Session>2020 Regular Session</Session><Sponsors>Representatives Hudgins and Kloba; by request of Uniform Law Commission</Sponsors><BillHistory><ReadDate>Read first time 01/14/20.</ReadDate><ReferredCommittee>Referred to Committee on Transportation.</ReferredCommittee></BillHistory><BriefDescription>Addressing the automated operation of vehicles.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to the automated operation of vehicles; amending RCW 46.04.370, 46.20.025, 46.16A.040, 46.37.010, 46.37.480, 46.61.590, 46.61.600, and 46.61.672; adding new sections to chapter 46.04 RCW; adding a new chapter to Title 46 RCW; and providing an effective date.</BillTitle>
+<EnactedClause />
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act may be known and cited as the uniform automated operation of vehicles act.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>"Associated automated vehicle" means an automated vehicle that an automated driving provider designates under section 15 of this act.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>"Automated driving provider" means a person who makes a declaration recognized by the department under section 14 of this act. An automated driving provider exclusively drives and is the exclusive operator of an associated automated vehicle under automated operation.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber><P>"Automated driving system" means the hardware and software collectively capable of performing the entire dynamic driving task on a sustained basis.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>5</Value><TextRun>.  </TextRun></BillSectionNumber><P>"Automated operation" means the performance of the entire dynamic driving task by an automated driving system. Automated operation begins on the performance of the entire dynamic driving task by the automated driving system and continues until a human driver or human operator other than the automated driving provider terminates the automated operation.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>6</Value><TextRun>.  </TextRun></BillSectionNumber><P>"Automated vehicle" means a motor vehicle with an automated driving system.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>7</Value><TextRun>.  </TextRun></BillSectionNumber><P>"Completely automated trip" means travel in an automated vehicle that, from the point of departure until the point of arrival, is under automated operation by means of an automated driving system designed to achieve a minimal risk condition.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>8</Value><TextRun>.  </TextRun></BillSectionNumber><P>"Dedicated automated vehicle" means an automated vehicle designed for exclusively automated operation when used for transportation on a public roadway.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>9</Value><TextRun>.  </TextRun></BillSectionNumber><P>"Dynamic driving task" means controlling lateral and longitudinal vehicle motion, monitoring the driving environment, executing responses to objects and events, planning vehicle maneuvers, and enhancing vehicle conspicuity as required to operate a vehicle in on-road traffic.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>10</Value><TextRun>.  </TextRun></BillSectionNumber><P>"Minimal risk condition" means a condition to which a vehicle user or an automated driving system may bring a vehicle to reduce the risk of a crash when a trip cannot or should not be continued.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>11</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) This act applies to the ownership, registration, and operation of an automated vehicle, even if the ownership, registration, and operation of the vehicle complies with laws of this state other than this act before the effective date of this section.</P></BillSectionHeader>
+<P>(2) Except as otherwise specified in the law, this title applies with respect to an automated vehicle.</P>
+<P>(3) This title must be interpreted to accommodate the development and deployment of automated vehicles in a way that maintains or improves traffic safety.</P>
+<P>(4) If the applicable law of a jurisdiction other than this state is substantially similar to this act, then with respect to an automated vehicle that is registered in that jurisdiction:</P>
+<P>(a) An automated driving provider in that jurisdiction is an automated driving provider under this act; and</P>
+<P>(b) An associated automated vehicle in that jurisdiction is an associated automated vehicle under this act.</P>
+<P>(5) This act does not preclude remedies under law other than this act.</P>
+<P>(6) In applying and construing this act, consideration must be given to the need to promote uniformity of the law with respect to its subject matter among states that enact it.</P>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>12</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>46</TitleNumber><TextRun>.</TextRun><ChapterNumber>04</ChapterNumber><TextRun>.</TextRun><SectionNumber>370</SectionNumber></SectionCite> and 1975 c 62 s 6 are each amended to read as follows:<Caption>Operator or driver.</Caption></BillSectionHeader>
+<P>"Operator or driver" means every person who drives or is in actual physical control of a vehicle. <TextRun amendingStyle="add">An automated driving provider that designates an associated automated vehicle under section 15 of this act is the exclusive operator and the exclusive driver of an associated automated vehicle under automated operation.</TextRun></P>
+<History>1975 c 62 § 6; 1967 c 32 § 1; 1961 c 12 § 46.04.370. Prior: 1959 c 49 § 38; prior: (i) 1943 c 153 § 1, part; 1937 c 188 § 1, part; Rem. Supp. 1943 § 6312-1, part; 1923 c 181 § 1, part; 1921 c 96 § 2, part; RRS § 6313, part. (ii) 1937 c 189 § 1, part; RRS § 6360-1, part.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Severability<TextRun fontFamily="Times New Roman">—</TextRun>1975 c 62:</TextRun> See note following RCW 36.75.010.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>13</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) The owner of an automated vehicle shall comply with chapter 46.16A RCW.</P></BillSectionHeader>
+<P>(2) If a motor vehicle that is not registered as an automated vehicle becomes an automated vehicle, the owner or the owner's authorized representative shall obtain a new registration for the vehicle before automated operation of the vehicle under the requirements for the registration of an automated vehicle provided in this section.</P>
+<P>(3) At registration of a motor vehicle, the owner or the owner's authorized representative shall indicate to the department whether the vehicle is an automated vehicle. This indication does not bind the department to register the vehicle as an automated vehicle.</P>
+<P>(4) The department may grant, maintain, or renew the registration of an automated vehicle only if an automated driving provider designates the vehicle under section 15 of this act as an associated automated vehicle.</P>
+<P>(5) The department may decline, suspend, revoke, or decline to renew the registration of an automated vehicle that is not:</P>
+<P>(a) An associated automated vehicle;</P>
+<P>(b) Associated with an automated driving provider recognized by the department;</P>
+<P>(c) Properly maintained;</P>
+<P>(d) Lawfully insured;</P>
+<P>(e) Compliant with a registration requirement; or </P>
+<P>(f) Fit to be operated.</P>
+<P>(6) If the department declines, suspends, revokes, or declines to renew the registration of an automated vehicle under subsection (5) of this section, the department may grant a temporary registration that applies to the vehicle only when it is not under automated operation.</P>
+<P>(7) The department may grant, maintain, or renew the registration of a motor vehicle that is no longer an automated vehicle only if the registrant represents under penalty of perjury to the department that the vehicle cannot presently and will not be used under automated operation on a public roadway.</P>
+<P>(8) Registration of an automated vehicle does not create a presumption as to the safety of the vehicle or its equipment.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>14</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) To qualify as an automated driving provider, a person must:</P></BillSectionHeader>
+<P>(a) Have participated in a substantial manner in the development of an automated driving system;</P>
+<P>(b) Have submitted to the United States national highway traffic safety administration a safety self-assessment or equivalent report for the automated driving system as required or permitted by the United States national highway traffic safety administration; or</P>
+<P>(c) Be registered as a manufacturer of motor vehicles or motor vehicle equipment under the requirements of the United States national highway traffic safety administration.</P>
+<P>(2) A person is an automated driving provider only if the person makes a declaration to the department that the person is an automated driving provider and pays a fee specified by the department for processing the declaration.</P>
+<P>(3) To make a declaration under subsection (2) of this section, a person must in a manner acceptable to the department:</P>
+<P>(a) Represent under penalty of perjury that the person qualifies as an automated driving provider under this act;</P>
+<P>(b) Represent under penalty of perjury that the person is capable of undertaking the responsibilities of an automated driving provider;</P>
+<P>(c) Represent under penalty of perjury that sufficient evidence demonstrates that the automated driving system of each associated automated vehicle is capable of complying with chapter 46.61 RCW; and</P>
+<P>(d) Irrevocably appoint the department as a lawful agent for service of process in an action arising from the automated operation of an associated automated vehicle.</P>
+<P>(4) A person who makes a declaration under subsection (2) of this section:</P>
+<P>(a) Has the burden of proving the qualifications and representations made in its declaration under subsection (2) of this section to the satisfaction of the department;</P>
+<P>(b) Shall submit to an investigation under subsection (5) of this section;</P>
+<P>(c) Shall provide all information relevant to (a) and (b) of this subsection requested by the department;</P>
+<P>(d) Shall pay the actual costs incurred by the department in the investigation under (b) of this subsection; and</P>
+<P>(e) Has no vested rights in the recognition of the declaration, which is a privilege.</P>
+<P>(5) The department may at any time:</P>
+<P>(a) Decline to recognize a declaration made under subsection (2) of this section because the department determines that requirements of this section have not been met;</P>
+<P>(b) Delay recognition of a declaration made under subsection (2) of this section because the department requires more time or information to determine that the requirements of this section have been met;</P>
+<P>(c) Rescind recognition of a declaration made under subsection (2) of this section because the department determines that requirements of this section are not being met; or</P>
+<P>(d) Investigate the qualifications or representations of a person that makes a declaration under subsection (2) of this section to determine whether the requirements of this section have been met.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>15</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) An automated vehicle is an associated automated vehicle only if an automated driving provider designates the automated vehicle under subsection (2) of this section.</P></BillSectionHeader>
+<P>(2) To designate an associated automated vehicle, an automated driving provider must provide notice in a form acceptable to the department.</P>
+<P>(3) Once designated under subsection (2) of this section, an automated vehicle remains an associated automated vehicle unless:</P>
+<P>(a) The department declines, delays, or rescinds recognition of the declaration of the automated driving provider under section 14 of this act;</P>
+<P>(b) The automated driving provider dissolves its business; or</P>
+<P>(c) The automated driving provider disassociates the automated vehicle.</P>
+<P>(4) To disassociate an associated automated vehicle, an automated driving provider must provide notice in a manner acceptable to the department.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>16</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) An automated driving provider shall take reasonable steps to comply with chapter 46.61 RCW during automated operation of an associated automated vehicle.</P></BillSectionHeader>
+<P>(2) An automated driving provider is responsible for a violation of chapter 46.61 RCW during automated operation of an associated automated vehicle.</P>
+<P>(3) A violation of this subsection is a violation under this title. A person may not operate an automated vehicle on a public roadway if the vehicle is not:</P>
+<P>(a) Properly maintained;</P>
+<P>(b) Lawfully insured;</P>
+<P>(c) Compliant with registration requirements; or</P>
+<P>(d) Fit to be operated.</P>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>17</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>46</TitleNumber><TextRun>.</TextRun><ChapterNumber>20</ChapterNumber><TextRun>.</TextRun><SectionNumber>025</SectionNumber></SectionCite> and 2010 c 161 s 1113 are each amended to read as follows:<Caption>Exemptions.</Caption></BillSectionHeader>
+<P>The following persons may operate a motor vehicle on a Washington highway without a valid Washington driver's license:</P>
+<P>(1) A member of the United States Army, Navy, Air Force, Marine Corps, or Coast Guard, or in the service of the National Guard of this state or any other state, if licensed by the military to operate an official motor vehicle in such service;</P>
+<P>(2) A nonresident driver who is at least:</P>
+<P>(a) Sixteen years of age and has immediate possession of a valid driver's license issued to the driver by his or her home state; or</P>
+<P>(b) Fifteen years of age with:</P>
+<P>(i) A valid instruction permit issued to the driver by his or her home state; and</P>
+<P>(ii) A licensed driver who has had at least five years of driving experience occupying a seat beside the driver; or</P>
+<P>(c) Sixteen years of age and has immediate possession of a valid driver's license issued to the driver by his or her home country. A nonresident driver may operate a motor vehicle in this state under this subsection (2)(c) for up to one year;</P>
+<P>(3) <TextRun amendingStyle="add">A person taking a completely automated trip;</TextRun></P>
+<P><TextRun amendingStyle="add">(4) An automated driving provider driving or operating an automated vehicle under automated operation;</TextRun></P>
+<P><TextRun amendingStyle="add">(5)</TextRun> Any person operating special highway construction equipment as defined in RCW 46.04.551;</P>
+<P><TextRun amendingStyle="strike">(4)</TextRun> <TextRun amendingStyle="add">(6)</TextRun> Any person while driving or operating any farm tractor or implement of husbandry that is only incidentally operated or moved over a highway; or</P>
+<P><TextRun amendingStyle="strike">(5)</TextRun> <TextRun amendingStyle="add">(7)</TextRun> An operator of a locomotive upon rails, including a railroad crossing over a public highway. A locomotive operator is not required to display a driver's license to any law enforcement officer in connection with the operation of a locomotive or train within this state.</P>
+<History>2010 c 161 § 1113; 1999 c 6 § 6; 1993 c 148 § 1; 1979 c 75 § 1; 1965 ex.s. c 121 § 3.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>Intent<TextRun fontFamily="Times New Roman">—</TextRun>Legislation to reconcile chapter 161, Laws of 2010 and other amendments made during the 2010 legislative session<TextRun fontFamily="Times New Roman">—</TextRun>2010 c 161:</TextRun> See notes following RCW 46.04.013.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Intent<TextRun fontFamily="Times New Roman">—</TextRun>1999 c 6:</TextRun> See note following RCW 46.04.168.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>18</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>46</TitleNumber><TextRun>.</TextRun><ChapterNumber>16A</ChapterNumber><TextRun>.</TextRun><SectionNumber>040</SectionNumber></SectionCite> and 2017 c 147 s 4 are each amended to read as follows:<Caption>Original registration<TextRun fontFamily="Times New Roman">—</TextRun>Application<TextRun fontFamily="Times New Roman">—</TextRun>Form and contents.</Caption></BillSectionHeader>
+<P>(1) An owner or the owner's authorized representative must apply for an original vehicle registration to the department, county auditor or other agent, or subagent appointed by the director on a form furnished by the department. The application must contain:</P>
+<P>(a) A description of the vehicle, including its make, model, vehicle identification number, type of body, and power to be used;</P>
+<P>(b) The name and address of the person who is the registered owner of the vehicle and, if the vehicle is subject to a security interest, the name and address of the secured party;</P>
+<P>(c) The purpose for which the vehicle is to be used;</P>
+<P>(d) The licensed gross weight for the vehicle, which is:</P>
+<P>(i) The adult seating capacity, including the operator, as provided for in RCW 46.16A.455(1) if the vehicle will be operated as a for hire vehicle or auto stage and has a seating capacity of more than six; or</P>
+<P>(ii) The gross weight declared by the applicant as required in RCW 46.16A.455(2) if the vehicle will be operated as a motor truck, tractor, or truck tractor;</P>
+<P>(e) The empty scale weight of the vehicle; <TextRun amendingStyle="strike">and</TextRun></P>
+<P>(f) <TextRun amendingStyle="add">Information required by the department under section 13 of this act; and</TextRun></P>
+<P><TextRun amendingStyle="add">(g)</TextRun> Other information that the department may require.</P>
+<P>(2) The registered owner or the registered owner's authorized representative shall sign the application for an original vehicle registration and certify that the statements on the application are true to the best of the applicant's knowledge.</P>
+<P>(3) The application for an original vehicle registration must be accompanied by a draft, money order, certified bank check, or cash for all fees and taxes due for the application for an original vehicle registration.</P>
+<P>(4) Whenever any person, after applying for or receiving a vehicle registration, moves from the address named in the application or in the registration issued to him or her, or changes his or her name of record, the person shall, within ten days thereafter, notify the department of the name or address change as provided in RCW 46.08.195.</P>
+<History>2017 c 147 § 4; 2010 c 161 § 413; 1987 c 244 § 2; 1975 c 25 § 15; 1969 ex.s. c 170 § 2. Prior: 1967 ex.s. c 83 § 59; 1967 c 32 § 16; 1961 c 12 § 46.16.040; prior: 1947 c 164 § 8; 1937 c 188 § 29; Rem. Supp. 1947 § 6312-29; 1921 c 96 § 5; 1919 c 178 § 1; 1919 c 59 § 4; 1915 c 142 § 5; RRS § 6316. Formerly RCW 46.16.040.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>Intent<TextRun fontFamily="Times New Roman">—</TextRun>Legislation to reconcile chapter 161, Laws of 2010 and other amendments made during the 2010 legislative session<TextRun fontFamily="Times New Roman">—</TextRun>2010 c 161:</TextRun> See notes following RCW 46.04.013.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective dates<TextRun fontFamily="Times New Roman">—</TextRun>1967 ex.s. c 83:</TextRun> See RCW 47.26.910.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>19</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>46</TitleNumber><TextRun>.</TextRun><ChapterNumber>37</ChapterNumber><TextRun>.</TextRun><SectionNumber>010</SectionNumber></SectionCite> and 2011 c 171 s 79 are each amended to read as follows:<Caption>Scope and effect of regulations<TextRun fontFamily="Times New Roman">—</TextRun>General penalty.</Caption></BillSectionHeader>
+<P>(1) It is a traffic infraction for any person to drive or move, or for a vehicle owner to cause or knowingly permit to be driven or moved, on any highway any vehicle or combination of vehicles that:</P>
+<P>(a) Is in such unsafe condition as to endanger any person;</P>
+<P>(b) Is not at all times equipped with such lamps and other equipment in proper working condition and adjustment as required by this chapter or by rules issued by the Washington state patrol;</P>
+<P>(c) Contains any parts in violation of this chapter or rules issued by the Washington state patrol<TextRun amendingStyle="add">; or</TextRun></P>
+<P><TextRun amendingStyle="add">(d) Is an automated vehicle that is not properly maintained</TextRun>.</P>
+<P>(2) It is a traffic infraction for any person to do any act forbidden or fail to perform any act required under this chapter or rules issued by the Washington state patrol.</P>
+<P>(3) Nothing contained in this chapter or the state patrol's regulations shall be construed to prohibit the use of additional parts and accessories on any vehicle not inconsistent with the provisions of this chapter or the state patrol's regulations.</P>
+<P>(4) The provisions of the chapter and the state patrol's regulations with respect to equipment on vehicles shall not apply to implements of husbandry, road machinery, road rollers, or farm tractors except as herein made applicable.</P>
+<P>(5) No owner or operator of a farm tractor, self-propelled unit of farm equipment, or implement of husbandry shall be guilty of a crime or subject to penalty for violation of RCW 46.37.160 as now or hereafter amended unless such violation occurs on a public highway.</P>
+<P>(6) <TextRun amendingStyle="add">The provisions of this chapter and the state patrol's regulations with respect to equipment that is necessary only for the performance of the dynamic driving task by a human driver or human operator shall not apply to dedicated automated vehicles, as defined in section 8 of this act.</TextRun></P>
+<P><TextRun amendingStyle="add">(7)</TextRun> It is a traffic infraction for any person to sell or offer for sale vehicle equipment which is required to be approved by the state patrol as prescribed in RCW 46.37.005 unless it has been approved by the state patrol.</P>
+<P><TextRun amendingStyle="strike">(7)</TextRun> <TextRun amendingStyle="add">(8)</TextRun> The provisions of this chapter with respect to equipment required on vehicles shall not apply to:</P>
+<P>(a) Motorcycles or motor-driven cycles except as herein made applicable;</P>
+<P>(b) Golf carts, as defined in RCW 46.04.1945, operating within a designated golf cart zone as described in RCW 46.08.175, except as provided in RCW 46.08.175(8).</P>
+<P><TextRun amendingStyle="strike">(8)</TextRun> <TextRun amendingStyle="add">(9)</TextRun> This chapter does not apply to off-road vehicles used on nonhighway roads or used on streets, roads, or highways as authorized under RCW 46.09.360.</P>
+<P><TextRun amendingStyle="strike">(9)</TextRun> <TextRun amendingStyle="add">(10)</TextRun> This chapter does not apply to vehicles used by the state parks and recreation commission exclusively for park maintenance and operations upon public highways within state parks.</P>
+<P><TextRun amendingStyle="strike">(10)</TextRun> <TextRun amendingStyle="add">(11)</TextRun> Notices of traffic infraction issued to commercial drivers under the provisions of this chapter with respect to equipment required on commercial motor vehicles shall not be considered for driver improvement purposes under chapter 46.20 RCW.</P>
+<P><TextRun amendingStyle="strike">(11)</TextRun> <TextRun amendingStyle="add">(12)</TextRun> Whenever a traffic infraction is chargeable to the owner or lessee of a vehicle under subsection (1) of this section, the driver shall not be arrested or issued a notice of traffic infraction unless the vehicle is registered in a jurisdiction other than Washington state, or unless the infraction is for an offense that is clearly within the responsibility of the driver.</P>
+<P><TextRun amendingStyle="strike">(12)</TextRun> <TextRun amendingStyle="add">(13)</TextRun> Whenever the owner or lessee is issued a notice of traffic infraction under this section the court may, on the request of the owner or lessee, take appropriate steps to make the driver of the vehicle, or any other person who directs the loading, maintenance, or operation of the vehicle, a codefendant. If the codefendant is held solely responsible and is found to have committed the traffic infraction, the court may dismiss the notice against the owner or lessee.</P>
+<History>2011 c 171 § 79; 2010 c 217 § 6. Prior: 2006 c 306 § 1; 2006 c 212 § 5; 2005 c 213 § 7; 1997 c 241 § 14; 1989 c 178 § 22; 1987 c 330 § 707; 1979 ex.s. c 136 § 69; 1977 ex.s. c 355 § 1; 1963 c 154 § 1; 1961 c 12 § 46.37.010; prior: 1955 c 269 § 1; prior: 1937 c 189 § 14, part; RRS § 6360-14, part; RCW 46.40.010, part; 1929 c 178 § 2; 1927 c 309 § 19; 1921 c 96 § 22, part; 1919 c 59 § 10, part; 1917 c 155 § 15, part; 1915 c 142 § 21, part; RRS § 6362-19.</History>
+<RCWNoteSection>
+<CrossRefNote><NoteP><TextRun fontWeight="bold">Rules of court: </TextRun>Monetary penalty schedule<TextRun fontFamily="Times New Roman">—</TextRun>IRLJ 6.2.</NoteP></CrossRefNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Intent<TextRun fontFamily="Times New Roman">—</TextRun>Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2011 c 171:</TextRun> See notes following RCW 4.24.210.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Findings<TextRun fontFamily="Times New Roman">—</TextRun>Construction<TextRun fontFamily="Times New Roman">—</TextRun>Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2005 c 213:</TextRun> See notes following RCW 46.09.300.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective dates<TextRun fontFamily="Times New Roman">—</TextRun>1989 c 178:</TextRun> See RCW 46.25.901.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Construction<TextRun fontFamily="Times New Roman">—</TextRun>Application of rules<TextRun fontFamily="Times New Roman">—</TextRun>Severability<TextRun fontFamily="Times New Roman">—</TextRun>1987 c 330:</TextRun> See notes following RCW 28B.12.050.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>Severability<TextRun fontFamily="Times New Roman">—</TextRun>1979 ex.s. c 136:</TextRun> See notes following RCW 46.63.010.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Severability<TextRun fontFamily="Times New Roman">—</TextRun>1977 ex.s. c 355:</TextRun> "If any provision of this 1977 amendatory act, or its application to any person or circumstance is held invalid, the remainder of the act, or the application of the provision to other persons or circumstances is not affected." [1977 ex.s. c 355 § 57.]</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>1963 c 154:</TextRun> "This act shall take effect on January 1, 1964." [1963 c 154 § 32.]</NoteP></AnnNote>
+<CrossRefNote><NoteP>Moving defective vehicle: RCW 46.32.060.</NoteP></CrossRefNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>20</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>46</TitleNumber><TextRun>.</TextRun><ChapterNumber>37</ChapterNumber><TextRun>.</TextRun><SectionNumber>480</SectionNumber></SectionCite> and 2011 c 368 s 1 are each amended to read as follows:<Caption>Television viewers<TextRun fontFamily="Times New Roman">—</TextRun>Earphones.</Caption></BillSectionHeader>
+<P>(1) No person shall drive any motor vehicle equipped with any television viewer, screen, or other means of visually receiving a television broadcast when the moving images are visible to the driver while operating the motor vehicle on a public road, except for live video of the motor vehicle backing up. This subsection does not apply to <TextRun amendingStyle="strike">law</TextRun><TextRun amendingStyle="add">:</TextRun></P>
+<P><TextRun amendingStyle="add">(a) Law</TextRun> enforcement vehicles communicating with mobile computer networks<TextRun amendingStyle="add">;</TextRun></P>
+<P><TextRun amendingStyle="add">(b) Dedicated automated vehicles, as defined in section 8 of this act; or</TextRun></P>
+<P><TextRun amendingStyle="add">(c) Automated vehicles under automated operation</TextRun>.</P>
+<P>(2) No person shall operate any motor vehicle on a public highway while wearing any headset or earphones connected to any electronic device capable of receiving a radio broadcast or playing a sound recording for the purpose of transmitting a sound to the human auditory senses and which headset or earphones muffle or exclude other sounds. This subsection does not apply to students and instructors participating in a Washington state motorcycle safety program.</P>
+<P>(3) This section does not apply to authorized emergency vehicles, motorcyclists wearing a helmet with built-in headsets or earphones as approved by the Washington state patrol, or motorists using hands-free, wireless communications systems, as approved by the equipment section of the Washington state patrol.</P>
+<History>2011 c 368 § 1; 1996 c 34 § 1; 1991 c 95 § 1; 1988 c 227 § 6; 1987 c 176 § 1; 1977 ex.s. c 355 § 40; 1961 c 12 § 46.37.480. Prior: 1949 c 196 § 11; Rem. Supp. 1949 § 6360<Hyphen type="nobreak" />98d. Formerly RCW 46.36.150.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Severability<TextRun fontFamily="Times New Roman">—</TextRun>1977 ex.s. c 355:</TextRun> See note following RCW 46.37.010.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>21</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>46</TitleNumber><TextRun>.</TextRun><ChapterNumber>61</ChapterNumber><TextRun>.</TextRun><SectionNumber>590</SectionNumber></SectionCite> and 1979 ex.s. c 178 s 1 are each amended to read as follows:<Caption>Unattended motor vehicle<TextRun fontFamily="Times New Roman">—</TextRun>Removal from highway.</Caption></BillSectionHeader>
+<P>It is unlawful for the operator of a vehicle to leave the vehicle unattended within the limits of any highway unless the operator of the vehicle arranges for the prompt removal of the vehicle <TextRun amendingStyle="add">or the vehicle is an automated vehicle under automated operation lawfully permitted to operate in the state</TextRun>.</P>
+<History>1979 ex.s. c 178 § 1.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Severability<TextRun fontFamily="Times New Roman">—</TextRun>1979 ex.s. c 178:</TextRun> "If any provision of this 1979 act or its application to any person or circumstance is held invalid, the remainder of the act or the application of the provision to other persons or circumstances is not affected." [1979 ex.s. c 178 § 23.]</NoteP></AnnNote>
+<CrossRefNote><NoteP>Towing and impoundment: Chapter 46.55 RCW.</NoteP></CrossRefNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>22</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>46</TitleNumber><TextRun>.</TextRun><ChapterNumber>61</ChapterNumber><TextRun>.</TextRun><SectionNumber>600</SectionNumber></SectionCite> and 2010 c 8 s 9072 are each amended to read as follows:<Caption>Unattended motor vehicle.</Caption></BillSectionHeader>
+<P>(1) No person driving or in charge of a motor vehicle shall permit it to stand unattended <TextRun amendingStyle="add">unless the vehicle is an automated vehicle under automated operation lawfully permitted to operate in the state</TextRun> without first stopping the engine, locking the ignition, removing the key and effectively setting the brake thereon and, when standing upon any perceptible grade, turning the front wheels to the curb or side of the highway.</P>
+<P>(2) The most recent driver of a motor vehicle which the driver has left standing unattended <TextRun amendingStyle="add">in violation of subsection (1) of this section</TextRun>, who learns that the vehicle has become set in motion and has struck another vehicle or property, or has caused injury to any person, shall comply with the requirements of:</P>
+<P>(a) RCW 46.52.010 if his or her vehicle strikes an unattended vehicle or property adjacent to a public highway; or</P>
+<P>(b) RCW 46.52.020 if his or her vehicle causes damage to an attended vehicle or other property or injury to any person.</P>
+<P>(3) Any person failing to comply with subsection (2)(b) of this section shall be subject to the sanctions set forth in RCW 46.52.020.</P>
+<History>2010 c 8 § 9072; 1980 c 97 § 2; 1965 ex.s. c 155 § 68.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>1980 c 97:</TextRun> See note following RCW 46.52.020.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>23</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>46</TitleNumber><TextRun>.</TextRun><ChapterNumber>61</ChapterNumber><TextRun>.</TextRun><SectionNumber>672</SectionNumber></SectionCite> and 2017 c 334 s 1 are each amended to read as follows:<Caption>Using a personal electronic device while driving.</Caption></BillSectionHeader>
+<P>(1) A person who uses a personal electronic device while driving a motor vehicle on a public highway is guilty of a traffic infraction and must pay a fine as provided in RCW 46.63.110(3).</P>
+<P>(2) Subsection (1) of this section does not apply to:</P>
+<P>(a) A driver who is using a personal electronic device to contact emergency services;</P>
+<P>(b) The use of a system by a transit system employee for time-sensitive relay communication between the transit system employee and the transit system's dispatch services;</P>
+<P>(c) An individual employed as a commercial motor vehicle driver who uses a personal electronic device within the scope of such individual's employment if such use is permitted under 49 U.S.C. Sec. 31136 as it existed on July 23, 2017; <TextRun amendingStyle="strike">and</TextRun></P>
+<P>(d) A person operating an authorized emergency vehicle<TextRun amendingStyle="add">; and</TextRun></P>
+<P><TextRun amendingStyle="add">(e) The automated operation of an automated vehicle</TextRun>.</P>
+<P>(3) The state preempts the field of regulating the use of personal electronic devices in motor vehicles while driving, and this section supersedes any local laws, ordinances, orders, rules, or regulations enacted by any political subdivision or municipality to regulate the use of a personal electronic device by the operator of a motor vehicle.</P>
+<P>(4) A second or subsequent offense under this section is subject to two times the penalty amount under RCW 46.63.110.</P>
+<P>(5) For purposes of this section:</P>
+<P>(a) "Driving" means to operate a motor vehicle on a public highway, including while temporarily stationary because of traffic, a traffic control device, or other momentary delays. "Driving" does not include when the vehicle has pulled over to the side of, or off of, an active roadway and has stopped in a location where it can safely remain stationary.</P>
+<P>(b) "Personal electronic device" means any portable electronic device that is capable of wireless communication or electronic data retrieval and is not manufactured primarily for hands-free use in a motor vehicle. "Personal electronic device" includes, but is not limited to, a cell phone, tablet, laptop, two-way messaging device, or electronic game. "Personal electronic device" does not include two-way radio, citizens band radio, or amateur radio equipment.</P>
+<P>(c) "Use" or "uses" means:</P>
+<P>(i) Holding a personal electronic device in either hand or both hands;</P>
+<P>(ii) Using your hand or finger to compose, send, read, view, access, browse, transmit, save, or retrieve email, text messages, instant messages, photographs, or other electronic data; however, this does not preclude the minimal use of a finger to activate, deactivate, or initiate a function of the device; <TextRun amendingStyle="add">or</TextRun></P>
+<P>(iii) Watching video on a personal electronic device.</P>
+<History>2017 c 334 § 1.</History>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>24</Value><TextRun>.  </TextRun></BillSectionNumber><P>If any provision of this act or its application to any person or circumstance is held invalid, the remainder of the act or the application of the provision to other persons or circumstances is not affected.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addmultisect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>25</Value><TextRun>.  </TextRun></BillSectionNumber><P>Sections 2 through 10 of this act are each added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>46</TitleNumber><TextRun>.</TextRun><ChapterNumber>04</ChapterNumber><TextRun> RCW</TextRun></ChapterCite>.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addchap">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>26</Value><TextRun>.  </TextRun></BillSectionNumber><P>Sections 1, 11, and 13 through 16 of this act constitute a new chapter in <TitleCite><TextRun>Title </TextRun><TitleNumber>46</TitleNumber><TextRun> RCW</TextRun></TitleCite>.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="effdate">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>27</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act takes effect January 1, 2021.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

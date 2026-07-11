@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-3432.1</RequestNumber><ShortBillId>HB 2698</ShortBillId><LongBillId>HOUSE BILL 2698</LongBillId><Legislature>66th Legislature</Legislature><Session>2020 Regular Session</Session><Sponsors>Representatives Walsh, Goehner, Smith, Mosbrucker, and Van Werven</Sponsors><BillHistory><ReadDate>Read first time 01/17/20.</ReadDate><ReferredCommittee>Referred to Committee on State Government &amp; Tribal Relations.</ReferredCommittee></BillHistory><BriefDescription>Increasing participation in the presidential primary.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to increasing participation in the presidential primary; amending RCW 29A.56.050; and declaring an emergency.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>29A</TitleNumber><TextRun>.</TextRun><ChapterNumber>56</ChapterNumber><TextRun>.</TextRun><SectionNumber>050</SectionNumber></SectionCite> and 2019 c 7 s 4 are each amended to read as follows:<Caption>Allocation of delegates<TextRun fontFamily="Times New Roman">—</TextRun>Party declarations.</Caption></BillSectionHeader>
+<P>(1) A major political party may, under national or state party rules, base the allocation of delegates from this state to the national nominating convention of that party in whole or in part on <TextRun amendingStyle="strike">the</TextRun><TextRun amendingStyle="add">:</TextRun></P>
+<P><TextRun amendingStyle="add">(a) The</TextRun> participation in precinct caucuses and conventions conducted under the rules of that party<TextRun amendingStyle="add">; or</TextRun></P>
+<P><TextRun amendingStyle="add">(b) The results of the presidential primary, as described in this section</TextRun>.</P>
+<P>(2) If requested by a major political party, the secretary of state shall adopt rules under RCW 29A.04.620 to provide for any declaration required by that party.</P>
+<P>(3) Voters who subscribe to a specific political party declaration under this section may only vote for a candidate of that party. Each list of candidates on ballots must be readily distinguishable from the list of candidates for any other party. Votes cast by persons making these declarations must be tabulated and reported separately from other votes cast at the primary and may be used by a major political party in its allocation of delegates under the rules of that party.</P>
+<P>(4) <TextRun amendingStyle="add">Voters who choose not to subscribe to a specific political party declaration under this section may vote for a candidate from any list of candidates, but may cast only one vote total. Votes cast by persons who choose not to subscribe to a party declaration must be tabulated and reported separately from the votes of persons who subscribe to a party declaration. A major political party may choose whether to use the votes of persons who do not subscribe to that party's declaration in its allocation of delegates under the rules of that party.</TextRun></P>
+<P><TextRun amendingStyle="add">(5)</TextRun> For a political party that requires a specific voter declaration under this section, the secretary of state shall prescribe rules for providing, to the state and county committees of that political party, a copy of the declarations or a list of the voters who <TextRun amendingStyle="strike">participated in the presidential nominating process</TextRun> <TextRun amendingStyle="add">subscribed to the declaration</TextRun> of that party.</P>
+<History>2019 c 7 § 4; 2003 c 111 § 1405. Prior: 1995 1st sp.s. c 20 § 3. Formerly RCW 29.19.055.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>1995 1st sp.s. c 20:</TextRun> See note following RCW 29A.56.020.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="new" action="emerg">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act is necessary for the immediate preservation of the public peace, health, or safety, or support of the state government and its existing public institutions, and takes effect immediately.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

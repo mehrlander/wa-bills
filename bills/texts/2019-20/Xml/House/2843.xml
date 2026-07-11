@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-4121.1</RequestNumber><ShortBillId>HB 2843</ShortBillId><LongBillId>HOUSE BILL 2843</LongBillId><Legislature>66th Legislature</Legislature><Session>2020 Regular Session</Session><Sponsors>Representatives Maycumber, Schmick, Chapman, Springer, DeBolt, Walsh, Chambers, Harris, Kretz, Caldier, and Sutherland</Sponsors><BillHistory><ReadDate>Read first time 01/24/20.</ReadDate><ReferredCommittee>Referred to Committee on Finance.</ReferredCommittee></BillHistory><BriefDescription>Providing premium tax relief to health carriers offering coverage in certain counties.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to providing premium tax relief to health carriers offering coverage in certain counties; amending RCW 48.14.022; creating a new section; and providing an expiration date.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>48</TitleNumber><TextRun>.</TextRun><ChapterNumber>14</ChapterNumber><TextRun>.</TextRun><SectionNumber>022</SectionNumber></SectionCite> and 1995 c 304 s 1 are each amended to read as follows:<Caption>Taxes<TextRun fontFamily="Times New Roman">—</TextRun>Exemptions and deductions.</Caption></BillSectionHeader>
+<P>(1) The taxes imposed in RCW 48.14.020 and 48.14.0201 do not apply to <TextRun amendingStyle="strike">premiums</TextRun><TextRun amendingStyle="add">:</TextRun></P>
+<P><TextRun amendingStyle="add">(a) Premiums</TextRun> and prepayments collected or received for policies of insurance issued under RCW 48.41.010 through 48.41.210<TextRun amendingStyle="add">; or</TextRun></P>
+<P><TextRun amendingStyle="add">(b) Premiums collected or received for all individual market health plans issued by a health carrier within a behavioral health administrative services organization if:</TextRun></P>
+<P><TextRun amendingStyle="add">(i) The behavioral health administrative services organization includes at least one county in which two or fewer health carriers offered individual market health plans on January 1, 2020; and</TextRun></P>
+<P><TextRun amendingStyle="add">(ii) The health carrier offers individual market health plans in every county within the behavioral health administrative services organization</TextRun>.</P>
+<P>(2) In computing tax due under RCW 48.14.020 and 48.14.0201, there may be deducted from taxable premiums and prepayments the amount of any assessment against the taxpayer under RCW 48.41.010 through 48.41.210. Any portion of the deduction allowed in this section which cannot be deducted in a tax year without reducing taxable premiums below zero may be carried forward and deducted in successive years until the deduction is exhausted.</P>
+<P><TextRun amendingStyle="add">(3) The definitions in this subsection apply throughout this section unless the context clearly requires otherwise.</TextRun></P>
+<P><TextRun amendingStyle="add">(a) "Health plan" and "health carrier" have the same meanings as in RCW 48.43.005.</TextRun></P>
+<P><TextRun amendingStyle="add">(b) "Behavioral health administrative services organization" has the same meaning as in RCW 71.24.025.</TextRun></P>
+<History>1995 c 304 § 1; 1987 c 431 § 23.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>1995 c 304:</TextRun> "This act is necessary for the immediate preservation of the public peace, health, or safety, or support of the state government and its existing public institutions, and shall take effect immediately [May 9, 1995]." [1995 c 304 § 2.]</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) This section is the tax preference performance statement for the tax preference contained in section 1, chapter . . ., Laws of 2020 (section 1 of this act). This performance statement is only intended to be used for subsequent evaluation of the tax preference. It is not intended to create a private right of action by any party or be used to determine eligibility for preferential tax treatment.</P></BillSectionHeader>
+<P>(2) The legislature categorizes this tax preference as one intended to improve industry competitiveness, as indicated in RCW 82.32.808(2)(b). </P>
+<P>(3) It is the legislature's specific public policy objective to increase competition for individual market health insurance in certain behavioral health administrative services organizations and encourage health carriers to offer individual market health plans in unserved or underserved areas.</P>
+<P>(4) If a review finds that the number of individual market health insurance options in counties described in section 1(1)(b)(i), chapter . . ., Laws of 2020 (section 1(1)(b)(i) of this act) has increased as compared to the number of options available in these counties on the effective date of this section, then the legislature intends to extend the expiration date of this tax preference.</P>
+<P>(5) In order to obtain the data necessary to perform the review in subsection (4) of this section, the joint legislative audit and review committee may refer to any data collected by the state.</P>
+</BillSection>
+<BillSection type="new" action="expdate">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>Section 1 of this act expires June 30, 2030.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

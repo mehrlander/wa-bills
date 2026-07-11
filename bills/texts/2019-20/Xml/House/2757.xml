@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-3466.1</RequestNumber><ShortBillId>HB 2757</ShortBillId><LongBillId>HOUSE BILL 2757</LongBillId><Legislature>66th Legislature</Legislature><Session>2020 Regular Session</Session><Sponsors>Representatives Corry, Appleton, Rude, Frame, Dent, Riccelli, Davis, and Lekanoff</Sponsors><BillHistory><ReadDate>Read first time 01/21/20.</ReadDate><ReferredCommittee>Referred to Committee on State Government &amp; Tribal Relations.</ReferredCommittee></BillHistory><BriefDescription>Concerning official state designations.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to official state designations; amending RCW 1.20.090 and 1.20.042; adding a new section to chapter 1.20 RCW; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature finds that the Ellensburg blue agate is a gem unique to the state of Washington. It is only found near the basalt beds located around Ellensburg, Washington and Kittitas Valley. Ellensburg blue agates were originally formed by mineral-dense fluid in the small cavities of the Teanaway basalts, which are more than forty million years old, and were carried by an ancient river to the Ellensburg region where they are found today. The Ellensburg blue agate is known for its rarity and color, which ranges from a light sky-blue to an almost royal-blue, and is the only agate to be considered a semiprecious gem.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>1</TitleNumber><TextRun>.</TextRun><ChapterNumber>20</ChapterNumber><TextRun>.</TextRun><SectionNumber>090</SectionNumber></SectionCite> and 1975 c 8 s 1 are each amended to read as follows:<Caption>State gem.</Caption></BillSectionHeader>
+<P><TextRun amendingStyle="strike">Petrified wood</TextRun> <TextRun amendingStyle="add">The Ellensburg blue agate</TextRun> is hereby designated as the official gem of the state of Washington.</P>
+<History>1975 c 8 § 1.</History>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>1</TitleNumber><TextRun>.</TextRun><ChapterNumber>20</ChapterNumber><TextRun>.</TextRun><SectionNumber>042</SectionNumber></SectionCite> and 1998 c 129 s 2 are each amended to read as follows:<Caption>State fossil.</Caption></BillSectionHeader>
+<P>The Columbian mammoth of North America, <TextRun fontStyle="italic">Mammuthus columbi</TextRun>, is hereby designated as the official <TextRun amendingStyle="add">vertebrate</TextRun> fossil of the state of Washington.</P>
+<History>1998 c 129 § 2.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Legislative recognition<TextRun fontFamily="Times New Roman">—</TextRun>1998 c 129:</TextRun> "The legislature recognizes that the large, hairy prehistoric elephants of the extinct genus Mammuthus roamed the North American continent, including the Pacific Northwest, during the Pleistocene epoch (ice ages)." [1998 c 129 § 1.]</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>1</TitleNumber><TextRun>.</TextRun><ChapterNumber>20</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>Petrified wood is hereby designated as the official vegetative fossil of the state of Washington.</P>
+</BillSection>
+</BillBody>
+</Bill>

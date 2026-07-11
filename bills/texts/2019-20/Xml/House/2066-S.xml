@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-4199.1</RequestNumber><ShortBillId>SHB 2066</ShortBillId><LongBillId>SUBSTITUTE HOUSE BILL 2066</LongBillId><Legislature>66th Legislature</Legislature><Session>2020 Regular Session</Session><Sponsors>House Public Safety (originally sponsored by Representatives Davis, Pellicciotti, Goodman, Appleton, Sutherland, Graham, Klippert, Leavitt, and Pollet)</Sponsors><BillHistory><ReadDate>READ FIRST TIME 01/27/20.</ReadDate></BillHistory><BriefDescription>Addressing restrictions on driver's licenses associated with certain criminal offenses.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to restrictions on driver's licenses associated with certain criminal offenses; amending RCW 46.20.285; and providing an effective date.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>46</TitleNumber><TextRun>.</TextRun><ChapterNumber>20</ChapterNumber><TextRun>.</TextRun><SectionNumber>285</SectionNumber></SectionCite> and 2005 c 288 s 4 are each amended to read as follows:<Caption>Offenses requiring revocation.</Caption></BillSectionHeader>
+<P>The department shall revoke the license of any driver for the period of one calendar year unless otherwise provided in this section, upon receiving a record of the driver's conviction of any of the following offenses, when the conviction has become final:</P>
+<P>(1) For vehicular homicide the period of revocation shall be two years. The revocation period shall be tolled during any period of total confinement for the offense;</P>
+<P>(2) Vehicular assault. The revocation period shall be tolled during any period of total confinement for the offense;</P>
+<P>(3) Driving a motor vehicle while under the influence of intoxicating liquor or a narcotic drug, or under the influence of any other drug to a degree which renders the driver incapable of safely driving a motor vehicle, for the period prescribed in RCW 46.61.5055;</P>
+<P>(4) Any felony <TextRun amendingStyle="add">where the sentencing court determines that</TextRun> in the commission <TextRun amendingStyle="strike">of which</TextRun> <TextRun amendingStyle="add">of the offense</TextRun> a motor vehicle <TextRun amendingStyle="strike">is</TextRun> <TextRun amendingStyle="add">was</TextRun> used <TextRun amendingStyle="add">in a manner that endangered persons or property</TextRun>;</P>
+<P>(5) Failure to stop and give information or render aid as required under the laws of this state in the event of a motor vehicle accident resulting in the death or personal injury of another or resulting in damage to a vehicle that is driven or attended by another;</P>
+<P>(6) Perjury or the making of a false affidavit or statement under oath to the department under Title 46 RCW or under any other law relating to the ownership or operation of motor vehicles;</P>
+<P>(7) Reckless driving upon a showing by the department's records that the conviction is the third such conviction for the driver within a period of two years.</P>
+<History>2005 c 288 § 4; 2001 c 64 § 6. Prior: 1998 c 207 § 4; 1998 c 41 § 3; 1996 c 199 § 5; 1990 c 250 § 43; 1985 c 407 § 2; 1984 c 258 § 324; 1983 c 165 § 16; 1983 c 165 § 15; 1965 ex.s. c 121 § 24.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2005 c 288:</TextRun> See note following RCW 46.20.245.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>1998 c 207:</TextRun> See note following RCW 46.61.5055.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Intent<TextRun fontFamily="Times New Roman">—</TextRun>Construction<TextRun fontFamily="Times New Roman">—</TextRun>Effective date<TextRun fontFamily="Times New Roman">—</TextRun>1998 c 41:</TextRun> See notes following RCW 46.20.265.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Severability<TextRun fontFamily="Times New Roman">—</TextRun>1996 c 199:</TextRun> See note following RCW 9.94A.505.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective dates<TextRun fontFamily="Times New Roman">—</TextRun>1985 c 407:</TextRun> See note following RCW 46.04.480.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Court Improvement Act of 1984<TextRun fontFamily="Times New Roman">—</TextRun>Effective dates<TextRun fontFamily="Times New Roman">—</TextRun>Severability<TextRun fontFamily="Times New Roman">—</TextRun>Short title<TextRun fontFamily="Times New Roman">—</TextRun>1984 c 258:</TextRun> See notes following RCW 3.30.010.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Intent<TextRun fontFamily="Times New Roman">—</TextRun>1984 c 258:</TextRun> See note following RCW 3.34.130.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Legislative finding, intent<TextRun fontFamily="Times New Roman">—</TextRun>Effective dates<TextRun fontFamily="Times New Roman">—</TextRun>Severability<TextRun fontFamily="Times New Roman">—</TextRun>1983 c 165:</TextRun> See notes following RCW 46.20.308.</NoteP></AnnNote>
+<CrossRefNote><NoteP>Revocation of license for attempting to elude pursuing police vehicle: RCW 46.61.024.</NoteP></CrossRefNote>
+<CrossRefNote><NoteP>Vehicular assault, penalty: RCW 46.61.522.</NoteP></CrossRefNote>
+<CrossRefNote><NoteP>Vehicular homicide, penalty: RCW 46.61.520.</NoteP></CrossRefNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="new" action="effdate">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act takes effect January 1, 2021.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

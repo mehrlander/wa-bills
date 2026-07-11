@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-0977.1</RequestNumber><ShortBillId>HB 1536</ShortBillId><LongBillId>HOUSE BILL 1536</LongBillId><Legislature>66th Legislature</Legislature><Session>2019 Regular Session</Session><Sponsors>Representative Kirby</Sponsors><BillHistory><ReadDate>Read first time 01/23/19.</ReadDate><ReferredCommittee>Referred to Committee on Civil Rights &amp; Judiciary.</ReferredCommittee></BillHistory><BriefDescription>Eliminating the option to serve before filing a civil complaint.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to eliminating the option to serve before filing a civil complaint; amending RCW 4.28.020 and 4.16.170; and providing an effective date.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>4</TitleNumber><TextRun>.</TextRun><ChapterNumber>28</ChapterNumber><TextRun>.</TextRun><SectionNumber>020</SectionNumber></SectionCite> and 1984 c 76 s 2 are each amended to read as follows:<Caption>Jurisdiction acquired, when.</Caption></BillSectionHeader>
+<P><TextRun amendingStyle="add">(1) A civil action is commenced by filing with the court a complaint signed as required by court rule.</TextRun></P>
+<P><TextRun amendingStyle="add">(2)</TextRun> From the time of the commencement of the action by <TextRun amendingStyle="strike">service of summons, or by</TextRun> the filing of a complaint, or as otherwise provided <TextRun amendingStyle="add">in statute</TextRun>, the court is deemed to have acquired jurisdiction and to have control of all subsequent proceedings.</P>
+<History>1984 c 76 § 2; 1895 c 86 § 4; 1893 c 127 § 15; RRS § 238.</History>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>4</TitleNumber><TextRun>.</TextRun><ChapterNumber>16</ChapterNumber><TextRun>.</TextRun><SectionNumber>170</SectionNumber></SectionCite> and 1971 ex.s. c 131 s 1 are each amended to read as follows:<Caption>Tolling of statute<TextRun fontFamily="Times New Roman">—</TextRun>Actions, when deemed commenced or not commenced.</Caption></BillSectionHeader>
+<P>For the purpose of tolling any statute of limitations an action shall be deemed commenced when the complaint is filed <TextRun amendingStyle="strike">or summons is served whichever occurs first. If service has not been had on the defendant prior to the filing of the complaint,</TextRun><TextRun amendingStyle="add">. T</TextRun>he plaintiff shall cause one or more of the defendants to be served personally, or commence service by publication within ninety days from the date of filing the complaint. <TextRun amendingStyle="strike">If the action is commenced by service on one or more of the defendants or by publication, the plaintiff shall file the summons and complaint within ninety days from the date of service.</TextRun> If <TextRun amendingStyle="strike">following service, the complaint is not so filed, or</TextRun> following filing, service is not so made, the action shall be deemed to not have been commenced for purposes of tolling the statute of limitations.</P>
+<History>1971 ex.s. c 131 § 1; 1955 c 43 § 3. Prior: 1903 c 24 § 1; Code 1881 § 35; 1873 p 10 § 35; 1869 p 10 § 35; RRS § 167, part.</History>
+</BillSection>
+<BillSection type="new" action="effdate">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act takes effect January 1, 2020.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

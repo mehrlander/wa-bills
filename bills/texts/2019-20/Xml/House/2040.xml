@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-1573.1</RequestNumber><ShortBillId>HB 2040</ShortBillId><LongBillId>HOUSE BILL 2040</LongBillId><Legislature>66th Legislature</Legislature><Session>2019 Regular Session</Session><Sponsors>Representative MacEwen</Sponsors><BillHistory><ReadDate>Read first time 02/14/19.</ReadDate><ReferredCommittee>Referred to Committee on Appropriations.</ReferredCommittee></BillHistory><BriefDescription>Concerning nonhigh school districts.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to providing flexibility and accountability for nonhigh school districts; amending RCW 28A.545.030; and adding a new section to chapter 28A.545 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>28A</TitleNumber><TextRun>.</TextRun><ChapterNumber>545</ChapterNumber><TextRun>.</TextRun><SectionNumber>030</SectionNumber></SectionCite> and 2017 3rd sp.s. c 13 s 1001 are each amended to read as follows:<Caption>Purposes. <TextRun fontStyle="italic">(Effective January 1, 2019.)</TextRun></Caption></BillSectionHeader>
+<P>The purposes of RCW 28A.545.030 through 28A.545.110 and 84.52.0531 are to:</P>
+<P>(1) Simplify the annual process of determining and paying the amounts due by nonhigh school districts to high school districts for educating students residing in a nonhigh school district;</P>
+<P>(2) Provide for a payment schedule that coincides to the extent practicable with the ability of nonhigh school districts to pay and the need of high school districts for payment; <TextRun amendingStyle="strike">and</TextRun></P>
+<P>(3) Establish that the maximum amount due per annual average full-time equivalent student by a nonhigh school district for each school year is <TextRun amendingStyle="strike">no greater than</TextRun> <TextRun amendingStyle="add">the lesser of:</TextRun></P>
+<P><TextRun amendingStyle="add">(a) T</TextRun>he enrichment levy rate per annual average full-time equivalent student levied upon the taxpayers of the high school district<TextRun amendingStyle="add">; or</TextRun></P>
+<P><TextRun amendingStyle="add">(b) The enrichment levy rate per annual average full-time equivalent student levied upon the taxpayers of the nonhigh school district; and</TextRun></P>
+<P><TextRun amendingStyle="add">(4) Designate the revenue provided to secondary school buildings to ensure dollars are being spent to support secondary school students</TextRun>.</P>
+<History>2017 3rd sp.s. c 13 § 1001; 1990 c 33 § 488; 1981 c 264 § 1. Formerly RCW 28A.44.150.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2017 3rd sp.s. c 13 §§ 1001 and 1002:</TextRun> "Sections 1001 and 1002 of this act take effect January 1, 2019." [2017 3rd sp.s. c 13 § 1007.]</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Intent<TextRun fontFamily="Times New Roman">—</TextRun>2017 3rd sp.s. c 13:</TextRun> See note following RCW 28A.150.410.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Severability<TextRun fontFamily="Times New Roman">—</TextRun>1981 c 264:</TextRun> "If any provision of this amendatory act or its application to any person or circumstance is held invalid, the remainder of the act or the application of the provision to other persons or circumstances is not affected." [1981 c 264 § 13.]</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>28A</TitleNumber><TextRun>.</TextRun><ChapterNumber>545</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>Upon a nonhigh school district's request, a host high school district shall provide an annual data report to the nonhigh school district within sixty days of the request. The report must include attendance, grades, discipline, and state assessment data for all nonhigh secondary students sent to the high school district.</P>
+</BillSection>
+</BillBody>
+</Bill>

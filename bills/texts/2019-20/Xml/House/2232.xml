@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-3276.1</RequestNumber><ShortBillId>HB 2232</ShortBillId><LongBillId>HOUSE BILL 2232</LongBillId><Legislature>66th Legislature</Legislature><Session>2020 Regular Session</Session><Sponsors>Representatives Van Werven and Barkis</Sponsors><BillHistory><PrefiledDate>Prefiled 12/11/19.</PrefiledDate><ReadDate>Read first time 01/13/20.</ReadDate><ReferredCommittee>Referred to Committee on Local Government.</ReferredCommittee></BillHistory><BriefDescription>Concerning the sale of nonalcoholic beverages by a child.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to the sale of nonalcoholic beverages by a child; adding a new section to chapter 35.21 RCW; and adding a new section to chapter 36.01 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>35</TitleNumber><TextRun>.</TextRun><ChapterNumber>21</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>A city or town may not adopt or enforce an ordinance, order, resolution, or rule that prohibits or regulates, including by requiring a license, permit, or fee, the occasional sale of lemonade or other nonalcoholic beverages from a stand on private property by any person under the age of eighteen years.</P>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>36</TitleNumber><TextRun>.</TextRun><ChapterNumber>01</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>A county may not adopt or enforce an ordinance, order, resolution, or rule that prohibits or regulates, including by requiring a license, permit, or fee, the occasional sale of lemonade or other nonalcoholic beverages from a stand on private property by any person under the age of eighteen years.</P>
+</BillSection>
+</BillBody>
+</Bill>

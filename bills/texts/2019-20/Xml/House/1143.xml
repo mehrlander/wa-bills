@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-0387.1</RequestNumber><ShortBillId>HB 1143</ShortBillId><LongBillId>HOUSE BILL 1143</LongBillId><Legislature>66th Legislature</Legislature><Session>2019 Regular Session</Session><Sponsors>Representatives Reeves, Gregerson, Appleton, Fitzgibbon, Ormsby, and Stanford</Sponsors><BillHistory><ReadDate>Read first time 01/15/19.</ReadDate><ReferredCommittee>Referred to Committee on Environment &amp; Energy.</ReferredCommittee></BillHistory><BriefDescription>Requiring notification of the discharge or use of firefighting foam containing certain chemicals.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to requiring notification of the discharge or use of firefighting foam containing certain chemicals; amending RCW 70.75A.060; adding a new section to chapter 70.75A RCW; adding a new section to chapter 90.48 RCW; prescribing penalties; and declaring an emergency.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>70</TitleNumber><TextRun>.</TextRun><ChapterNumber>75A</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) A person discharging or using class B firefighting foam containing intentionally added PFAS chemicals for any purpose must:</P>
+<P>(a) Notify the department within twenty-four hours; and</P>
+<P>(b) Immediately notify the division of emergency management within the state military department, using the division of emergency management's twenty-four hour statewide toll-free number established for reporting emergencies.</P>
+<P>(2) The notification to the department under subsection (1) of this section must include the time, date, location, and estimated amount of class B firefighting foam used or discharged.</P>
+<P>(3) Nothing in this section authorizes the manufacture, sale, distribution, discharge, or use of class B firefighting foam that is restricted under RCW 70.75A.010 or 70.75A.020. </P>
+<P>(4) The failure to provide notification of a discharge or use of class B firefighting foam under this section is subject to the penalties provided in RCW 70.75A.060, unless the discharge or use is covered by section 2 of this act, in which case the penalties of RCW 90.48.144 apply. </P>
+<P>(5) Any person not subject to the requirements of this section, if any such person exists, is nevertheless encouraged to provide notification to the department that is consistent with subsections (1) and (2) of this section.</P>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>90</TitleNumber><TextRun>.</TextRun><ChapterNumber>48</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) A person discharging any class B firefighting foam containing intentionally added PFAS chemicals for any purpose to state waters, or in a location where a rain event would lead to a discharge of unrecovered foam to state waters, must:</P>
+<P>(a) Notify the department within twenty-four hours; and</P>
+<P>(b) Immediately notify the division of emergency management within the state military department, using the division's twenty-four hour statewide toll-free number established for reporting emergencies.</P>
+<P>(2) The notification to the department under subsection (1) of this section must include the time, date, location, and estimated amount of class B firefighting foam used or discharged.</P>
+<P>(3) The failure to provide notification of a discharge to state waters of class B firefighting foam under this section is subject to the penalties provided in RCW 90.48.144.</P>
+<P>(4) For purposes of this section, "class B firefighting foam" and "PFAS chemicals" have the same meaning as in RCW 70.75A.005.</P>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>70</TitleNumber><TextRun>.</TextRun><ChapterNumber>75A</ChapterNumber><TextRun>.</TextRun><SectionNumber>060</SectionNumber></SectionCite> and 2018 c 286 s 7 are each amended to read as follows:<Caption>Penalties.</Caption></BillSectionHeader>
+<P>A manufacturer of class B firefighting foam in violation of RCW 70.75A.020 or 70.75A.040 or a person in violation of RCW 70.75A.010 <TextRun amendingStyle="strike">or</TextRun><TextRun amendingStyle="add">,</TextRun> 70.75A.030<TextRun amendingStyle="add">, or section 1 of this act</TextRun> is subject to a civil penalty not to exceed five thousand dollars for each violation in the case of a first offense. Manufacturers, local governments, or persons that are repeat violators are subject to a civil penalty not to exceed ten thousand dollars for each repeat offense. Penalties collected under this section must be deposited in the state toxics control account created in RCW <TextRun keepTogether="always">70.l05D.070</TextRun>.</P>
+<History>2018 c 286 § 7.</History>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber><P>If any provision of this act or its application to any person or circumstance is held invalid, the remainder of the act or the application of the provision to other persons or circumstances is not affected.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="emerg">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>5</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act is necessary for the immediate preservation of the public peace, health, or safety, or support of the state government and its existing public institutions, and takes effect immediately.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

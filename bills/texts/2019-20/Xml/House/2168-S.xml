@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-3111.2</RequestNumber><ShortBillId>SHB 2168</ShortBillId><LongBillId>SUBSTITUTE HOUSE BILL 2168</LongBillId><Legislature>66th Legislature</Legislature><Session>2019 Regular Session</Session><Sponsors>House Finance (originally sponsored by Representative Tarleton)</Sponsors><BillHistory><ReadDate>READ FIRST TIME 04/26/19.</ReadDate></BillHistory><BriefDescription>Concerning tax preferences.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to tax preferences; adding a new section to chapter 82.04 RCW; creating a new section; providing an effective date; and declaring an emergency.</BillTitle>
+<EnactedClause />
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>This section is the tax preference performance statement for the tax preference contained in section 2, chapter . . ., Laws of 2019 (section 2 of this act). This performance statement is only intended to be used for subsequent evaluation of the tax preference. It is not intended to create a private right of action by any party or be used to determine eligibility for preferential tax treatment.</P></BillSectionHeader>
+<P>(1) The legislature categorizes this tax preference as one intended to provide tax relief to certain eligible businesses, as indicated in RCW 82.32.808(2)(e).</P>
+<P>(2) The joint legislative audit and review committee is directed to evaluate the role eligible hospitals play as safety net providers, using metrics including but not limited to:</P>
+<P>(a) The monetary value of the following services provided by each eligible hospital:</P>
+<P>(i) Uncompensated care, by category of health care services; and</P>
+<P>(ii) Medicaid and medicare funded treatment, by category of health care services;</P>
+<P>(b) Percentage and count of all clients served by each eligible hospital, by category of health care services, who:</P>
+<P>(i) Receive uncompensated care; and</P>
+<P>(ii) Use medicare or medicaid to pay for treatment; and</P>
+<P>(c) Percentage and count of all clients served in all hospitals in Washington who:</P>
+<P>(i) Receive uncompensated care from an eligible hospital, by category of health care services;</P>
+<P>(ii) Use medicare and medicaid to pay for treatment from an eligible hospital, by category of health care services; and</P>
+<P>(iii) Receive uncompensated trauma care from an eligible hospital.</P>
+<P>(3) For the purposes of this section, "eligible hospital" means a taxpayer claiming the tax preference provided in section 2, chapter . . ., Laws of 2019 (section 2 of this act).</P>
+<P>(4) In order to obtain the data necessary to perform the review in this section, the joint legislative audit and review committee may refer to data from the health care authority and the department of health, as well as any other available data sources.</P>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>82</TitleNumber><TextRun>.</TextRun><ChapterNumber>04</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) This chapter does not apply to any person engaging within this state in business as a hospital, as defined in chapter 70.41 RCW, that is owned by a county with a population greater than two million and that is managed by a state university.</P>
+<P>(2) This section expires January 1, 2030.</P>
+</BillSection>
+<BillSection type="new" action="emerg" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act is necessary for the immediate preservation of the public peace, health, or safety, or support of the state government and its existing public institutions, and takes effect July 1, 2019.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

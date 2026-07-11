@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-0880.1</RequestNumber><ShortBillId>HB 1397</ShortBillId><LongBillId>HOUSE BILL 1397</LongBillId><Legislature>66th Legislature</Legislature><Session>2019 Regular Session</Session><Sponsors>Representatives Slatter, Dent, Fey, Orcutt, Kloba, Valdez, Wylie, Pollet, Fitzgibbon, Tharinger, Morris, Eslick, Doglio, and Ortiz-Self</Sponsors><BillHistory><ReadDate>Read first time 01/21/19.</ReadDate><ReferredCommittee>Referred to Committee on Transportation.</ReferredCommittee></BillHistory><BriefDescription>Encouraging the use of electric or hybrid-electric aircraft for regional air travel.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to encouraging the use of electric or hybrid-electric aircraft for regional air travel; amending RCW 47.68.070; adding a new section to chapter 47.68 RCW; and creating new sections.</BillTitle>
+<EnactedClause />
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) The legislature finds that the prospect of transitioning from aircraft powered by burning fuel to aircraft powered at least partially by electrical propulsion promises a variety of economic, social, and environmental benefits, including:</P></BillSectionHeader>
+<P>(a) Reduced fuel costs that make expanded commercial service of smaller regional airports economically viable;</P>
+<P>(b) Support for the type of dispersed and rural economic development already envisioned elsewhere in state policy, including through the state's participation in the western regional short-haul air transportation compact under chapter 81.96 RCW or similar types of multistate collaborative forums that currently exist through the northwest region national association of state aviation officials;</P>
+<P>(c) Reduced traffic on state roads as a result of short-haul flights becoming price competitive with driving;</P>
+<P>(d) A redistribution of air traffic from overly busy hubs to airports dispersed across the state that would otherwise operate below capacity;</P>
+<P>(e) Reduced greenhouse gas emissions from aircraft fuel use;</P>
+<P>(f) Reduced impacts on communities located adjacent to busy airport hubs from decreases in aircraft noise and emissions of conventional air pollutants; and</P>
+<P>(g) Support the expansion of aerospace manufacturing.</P>
+<P>(2) Therefore, it is the intent of the legislature to continue Washington's leading role in the aerospace industry by encouraging the development and adoption of aircraft whose propulsion is fully or partially powered by electricity.</P>
+<P>(3) It is also the intent of the legislature for the department of transportation to reconvene the electric aircraft work group initially created in the 2018 transportation budget to continue to study the state of the electrically powered aircraft industry and assess infrastructure needs related to the deployment of electric or hybrid-electric aircraft for commercial air travel in Washington state.</P>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>47</TitleNumber><TextRun>.</TextRun><ChapterNumber>68</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) The department must convene a work group to study the state of the electrically powered aircraft industry and assess infrastructure needs related to the deployment of electric or hybrid-electric aircraft for commercial air travel in Washington state.</P>
+<P>(2) The chair of the work group may be a consultant specializing in aeronautics. The work group must include, but is not limited to, representation from the electric aircraft industry, the aircraft manufacturing industry, electric utility districts, the battery industry, the department of commerce, the department of transportation aviation division, the airline pilots association, a primary airport representing an airport association, and the airline industry. The work group may include other members at the discretion of the department.</P>
+<P>(3) The study must include, but is not limited to:</P>
+<P>(a) Infrastructure requirements necessary to facilitate electric aircraft operations at airports;</P>
+<P>(b) Potential economic and public benefits including, but not limited to, the direct and indirect impact on the number of manufacturing and service jobs and the wages from those jobs in Washington state;</P>
+<P>(c) Potential incentives for industry in the manufacturing and operation of electric aircraft for regional air travel;</P>
+<P>(d) Educational and workforce requirements for manufacturing and maintaining electric aircraft;</P>
+<P>(e) Demand and forecast for electric aircraft use to include expected timeline of the aircraft entering the market given federal aviation administration certification requirements;</P>
+<P>(f) Identification of up to six airports in Washington state that may benefit from a pilot program once an electrically propelled aircraft for commercial use becomes available; and</P>
+<P>(g) Recommendations to further the advancement of the electrification of aircraft for regional commercial use within Washington state, including specific, measurable goals for the years 2030, 2040, and 2050 that reflect progressive and substantial increases in the utilization of electric and hybrid-electric commercial aircraft.</P>
+<P>(4) The work group must submit a report and accompanying recommendations to the transportation committees of the legislature by November 15, 2020. By February 15, 2021, and every two years thereafter, the department must provide a progress report on any efforts to implement the recommendations to the transportation committees of the legislature consistent with RCW 43.01.036.</P>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>47</TitleNumber><TextRun>.</TextRun><ChapterNumber>68</ChapterNumber><TextRun>.</TextRun><SectionNumber>070</SectionNumber></SectionCite> and 1984 c 7 s 344 are each amended to read as follows:<Caption>General powers.</Caption></BillSectionHeader>
+<P>The department has general supervision over aeronautics within this state. It is empowered and directed to encourage, foster, and assist in the development <TextRun amendingStyle="add">and sustainment</TextRun> of aeronautics in this state<TextRun amendingStyle="add">, including aeronautics involving electrically powered aircraft,</TextRun> and to encourage the establishment of airports and air navigation facilities. It shall cooperate with and assist the federal government, the municipalities of this state, and other persons in the development of aeronautics, <TextRun amendingStyle="add">including aeronautics involving electrically powered aircraft,</TextRun> and shall seek to coordinate the aeronautical activities of these bodies and persons. Municipalities are authorized to cooperate with the department in the development of aeronautics and aeronautical facilities in this state.</P>
+<History>1984 c 7 § 344; 1947 c 165 § 7; Rem. Supp. 1947 § 10964-87. Formerly RCW 14.04.070.</History>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber>This act may be known and cited as the linking communities by encouraging regional aircraft electrification act or LINK-AIR act.</BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

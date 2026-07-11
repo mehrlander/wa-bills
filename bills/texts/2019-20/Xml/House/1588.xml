@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-0717.1</RequestNumber><ShortBillId>HB 1588</ShortBillId><LongBillId>HOUSE BILL 1588</LongBillId><Legislature>66th Legislature</Legislature><Session>2019 Regular Session</Session><Sponsors>Representatives Vick, Hoff, Steele, Stokesbary, Orcutt, Corry, Young, Sutherland, Gildon, MacEwen, Rude, Shea, Harris, Barkis, Jenkin, and Kraft</Sponsors><BillHistory><ReadDate>Read first time 01/24/19.</ReadDate><ReferredCommittee>Referred to Committee on Finance.</ReferredCommittee></BillHistory><BriefDescription>Clarifying the prohibition of the imposition of a local income tax.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to clarifying the prohibition of the imposition of a local income tax; amending RCW 36.65.030; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature finds that the costs associated with local initiatives impose administrative and legal costs on municipalities, regardless of the initiative's constitutional or statutory validity. The legislature finds that the courts' use of the same preballot deference in deciding local initiative challenges as statewide initiatives is not appropriate. The legislature restates its refusal to delegate to a city, county, or city-county, as a whole or as a governing body, the power to impose a tax on the personal income of individuals or households.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>36</TitleNumber><TextRun>.</TextRun><ChapterNumber>65</ChapterNumber><TextRun>.</TextRun><SectionNumber>030</SectionNumber></SectionCite> and 1984 c 91 s 3 are each amended to read as follows:<Caption>Tax on net income prohibited.</Caption></BillSectionHeader>
+<P>A county, city, or city-county <TextRun amendingStyle="strike">shall</TextRun> <TextRun amendingStyle="add">may</TextRun> not levy a tax on <TextRun amendingStyle="strike">net</TextRun> <TextRun amendingStyle="add">an individual's or household's personal</TextRun> income<TextRun amendingStyle="add">, whether net, gross, or adjusted gross income, capital gains income, or any other portion, or type of income. This prohibition, and the definition of income specifically, are to be construed broadly by any reviewing court to affect the policy of this state that there exist absolute clarity and certainty in state law that there is no local government authority to levy any form of income tax on individuals or households</TextRun>.</P>
+<History>1984 c 91 § 3.</History>
+</BillSection>
+</BillBody>
+</Bill>

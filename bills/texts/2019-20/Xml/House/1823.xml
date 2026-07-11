@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-0319.3</RequestNumber><ShortBillId>HB 1823</ShortBillId><LongBillId>HOUSE BILL 1823</LongBillId><Legislature>66th Legislature</Legislature><Session>2019 Regular Session</Session><Sponsors>Representatives Appleton, Hudgins, and Dolan</Sponsors><BillHistory><ReadDate>Read first time 01/31/19.</ReadDate><ReferredCommittee>Referred to Committee on State Government &amp; Tribal Relations.</ReferredCommittee></BillHistory><BriefDescription>Concerning disclosure of electronic ballot images.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to the disclosure of electronic ballot images; amending RCW 29A.04.008; adding a new section to chapter 29A.60 RCW; and adding new sections to chapter 29A.04 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>29A</TitleNumber><TextRun>.</TextRun><ChapterNumber>04</ChapterNumber><TextRun>.</TextRun><SectionNumber>008</SectionNumber></SectionCite> and 2013 c 11 s 1 are each amended to read as follows:<Caption>Ballot and related terms.</Caption></BillSectionHeader>
+<P>As used in this title:</P>
+<P>(1) "Ballot" means, as the context implies, either:</P>
+<P>(a) The issues and offices to be voted upon in a jurisdiction or portion of a jurisdiction at a particular primary, general election, or special election;</P>
+<P>(b) A facsimile of the contents of a particular ballot whether printed on a paper ballot or ballot card or as part of a voting machine or voting device<TextRun amendingStyle="add">, except a cast vote record and a voted ballot image as defined in sections 3 and 4 of this act</TextRun>;</P>
+<P>(c) A physical or electronic record of the choices of an individual voter in a particular primary, general election, or special election<TextRun amendingStyle="add">, except a cast vote record and a voted ballot image as defined in sections 3 and 4 of this act</TextRun>; or</P>
+<P>(d) The physical document on which the voter's choices are to be recorded;</P>
+<P>(2) "Paper ballot" means a piece of paper on which the ballot for a particular election or primary has been printed, on which a voter may record his or her choices for any candidate or for or against any measure, and that is to be tabulated manually;</P>
+<P>(3) "Ballot card" means any type of card or piece of paper of any size on which a voter may record his or her choices for any candidate and for or against any measure and that is to be tabulated on a vote tallying system;</P>
+<P>(4) "Sample ballot" means a printed facsimile of all the issues and offices on the ballot in a jurisdiction and is intended to give voters notice of the issues, offices, and candidates that are to be voted on at a particular primary, general election, or special election;</P>
+<P>(5) "Provisional ballot" means a ballot issued to a voter who would otherwise be denied an opportunity to vote a regular ballot, for any reason authorized by the Help America Vote Act, including but not limited to the following:</P>
+<P>(a) The voter's name does not appear in the list of registered voters for the county;</P>
+<P>(b) There is an indication in the voter registration system that the voter has already voted in that primary, special election, or general election, but the voter wishes to vote again;</P>
+<P>(c) There is a question on the part of the voter concerning the issues or candidates on which the voter is qualified to vote;</P>
+<P>(d) Any other reason allowed by law.</P>
+<History>2013 c 11 § 1; 2011 c 10 § 1; 2007 c 38 § 1; 2005 c 243 § 1; 2004 c 271 § 102.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Notice to registered poll voters<TextRun fontFamily="Times New Roman">—</TextRun>Elections by mail<TextRun fontFamily="Times New Roman">—</TextRun>2011 c 10:</TextRun> "The county auditor of any county that maintained poll sites as of July 22, 2011, shall notify by mail each registered poll voter that all future primaries, special elections, and general elections will be conducted by mail." [2011 c 10 § 85.]</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>29A</TitleNumber><TextRun>.</TextRun><ChapterNumber>60</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) After the time for recounts under chapter 29A.64 RCW and when there are no pending recounts, a cast vote record and any voted ballot image of tabulated ballots that are electronically captured during ballot counting are available for public inspection, except as provided in subsection (2) of this section. Voted ballot images or the record of a voter's choices contained in a cast vote record are not available for public inspection where there are less than ten instances of the corresponding ballot design.</P>
+<P>(2) Cast vote records and voted ballot images that contain personally identifiable information, or distinguishing or identifying marks that compromise a voter's identity, are exempt from public inspection except:</P>
+<P>(a) When the personally identifiable information, or distinguishing or identifying mark can be redacted; or</P>
+<P>(b) By court order after finding that a voter's right to absolute secrecy of their vote would not be violated.</P>
+<P>(3) Public inspection of cast vote records and voted ballot images under this section does not include availability for copying.</P>
+<P>(4) Ballots remain subject to restrictions under RCW 29A.60.110 and 29A.60.125.</P>
+<P>(5) "Cast vote record" and "voted ballot image" have the same meaning as defined in sections 3 and 4 of this act.</P>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>29A</TitleNumber><TextRun>.</TextRun><ChapterNumber>04</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>"Voted ballot image" means an identical digital image of the paper ballot or ballot card.</P>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>29A</TitleNumber><TextRun>.</TextRun><ChapterNumber>04</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>"Cast vote record" means a data file of how the tabulation system interpreted voter markings on each individual ballot.</P>
+</BillSection>
+</BillBody>
+</Bill>

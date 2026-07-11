@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-3356.1</RequestNumber><ShortBillId>HB 2399</ShortBillId><LongBillId>HOUSE BILL 2399</LongBillId><Legislature>66th Legislature</Legislature><Session>2020 Regular Session</Session><Sponsors>Representatives Hudgins, Smith, Van Werven, Young, Wylie, and Kloba</Sponsors><BillHistory><PrefiledDate>Prefiled 01/10/20.</PrefiledDate><ReadDate>Read first time 01/13/20.</ReadDate><ReferredCommittee>Referred to Committee on Innovation, Technology &amp; Economic Development.</ReferredCommittee></BillHistory><BriefDescription>Concerning connected devices with a voice recognition feature.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to connected devices with a voice recognition feature; and adding a new chapter to Title 19 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) A manufacturer may not provide the operation of a voice recognition feature without prominently informing the user of a connected device with a voice recognition feature during the initial setup or installation and distinctly separate from the device terms of service that:</P></BillSectionHeader>
+<P>(a) The device is equipped with a voice recognition feature; and</P>
+<P>(b) The device may be used to process and retain recordings and transcriptions of spoken words.</P>
+<P>(2) Any recordings or transcriptions collected through the operation of a voice recognition feature by the manufacturer may not be:</P>
+<P>(a) Used for any advertising purpose;</P>
+<P>(b) Disclosed to a third party; or</P>
+<P>(c) Retained at any location, either electronically or otherwise, other than the connected device with a voice recognition feature that is under the control of the user for personal or household purposes unless the user first provides affirmative written consent.</P>
+<P>(3) If a user provides affirmative written consent to have recordings or transcriptions retained, the manufacturer must provide the user with the ability to delete permanently any recordings or transcriptions retained pursuant to the user's affirmative written consent.</P>
+<P>(4) A user may withdraw the affirmative written consent at any time. The affirmative written consent must be as easy to withdraw as it is to give.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>The definitions in this section apply throughout this chapter unless the context clearly requires otherwise.</P></BillSectionHeader>
+<P>(1) "Affirmative written consent" means that:</P>
+<P>(a) A manufacturer provided the following disclosure to a user during installation of the device and distinctly separate from the device terms of use:</P>
+<P margin="1,1" indent="0" prePadding="halfline" postPadding="halfline">"This device may be used to process and retain user recordings and transcriptions of spoken words. These recordings may be analyzed by . . . . . (manufacturer name) and its employees for the purpose of improving the device. Please indicate whether or not you give your consent for the device to be used in this way. This consent is not required to use the basic functions of this device.</P>
+<P indent="0" margin="1,1" prePadding="halfline" postPadding="halfline">[ ] I authorize . . . . . (manufacturer name) to retain my recordings and I understand that the recordings may be analyzed by the manufacturer and its employees solely for the purpose of improving the device.</P>
+<P indent="0" margin="1,1">[ ] I do not authorize . . . . . (manufacturer name) to retain my recordings and I understand that I may not be able to access the enhanced smart features of this device."; and</P>
+<P prePadding="halfline">(b) The user of the device with a voice recognition feature has clearly indicated consent to have the user's recordings retained and analyzed.</P>
+<P>(2) "Connected device with a voice recognition feature" means any device sold in this state that is capable of connecting to the internet and is equipped with a voice recognition feature, including a wireless speaker or a device with an integrated virtual assistant that offers interactive actions and hands-free activation.</P>
+<P>(3) "Manufacturer" means a person or entity providing the operation of a voice recognition feature on a connected device.</P>
+<P>(4) "Retain" means saving or storing voice recorded data longer than the minimum time necessary to complete a user's request.</P>
+<P>(5) "User" means a natural person who is a Washington resident and who purchases, leases, or takes ownership of a connected device with a voice recognition feature. A person who is incidentally recorded when a voice recognition feature is activated by a user is not a user.</P>
+<P>(6) "Voice recognition feature" means the function of a connected device that allows the collection, recording, storage, analysis, transmission, interpretation, or other use of spoken words or other sounds, except that this term does not include spoken words or other sounds that are not recorded, retained, or transmitted beyond the connected device with a voice recognition feature.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature finds that the practices covered by this chapter are matters vitally affecting the public interest for the purpose of applying the consumer protection act, chapter 19.86 RCW. A violation of this chapter is not reasonable in relation to the development and preservation of business and is an unfair or deceptive act in trade or commerce and an unfair method of competition for the purpose of applying the consumer protection act, chapter 19.86 RCW.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber><P>Nothing in this chapter limits the applicability of or diminishes the protections provided under RCW 9.73.030 relating to intercepting, recording, or divulging private communication.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addchap" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>5</Value><TextRun>.  </TextRun></BillSectionNumber><P>Sections 1 through 4 of this act constitute a new chapter in <TitleCite><TextRun>Title </TextRun><TitleNumber>19</TitleNumber><TextRun> RCW</TextRun></TitleCite>.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

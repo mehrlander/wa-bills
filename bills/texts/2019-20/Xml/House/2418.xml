@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-3680.3</RequestNumber><ShortBillId>HB 2418</ShortBillId><LongBillId>HOUSE BILL 2418</LongBillId><Legislature>66th Legislature</Legislature><Session>2020 Regular Session</Session><Sponsors>Representatives Davis, Kloba, Peterson, Pollet, and Wylie</Sponsors><BillHistory><ReadDate>Read first time 01/14/20.</ReadDate><ReferredCommittee>Referred to Committee on Health Care &amp; Wellness.</ReferredCommittee></BillHistory><BriefDescription>Concerning the preferred drug list status of medication-assisted treatment options.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to the preferred drug list status of medication-assisted treatment options; and amending RCW 74.09.645.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>74</TitleNumber><TextRun>.</TextRun><ChapterNumber>09</ChapterNumber><TextRun>.</TextRun><SectionNumber>645</SectionNumber></SectionCite> and 2019 c 314 s 38 are each amended to read as follows:<Caption>Opioid use disorder<TextRun fontFamily="Times New Roman">—</TextRun>Coverage without prior authorization.</Caption></BillSectionHeader>
+<P><TextRun amendingStyle="add">(1)</TextRun> Upon initiation or renewal of a contract with the authority to administer a medicaid managed care plan, a managed health care system shall provide coverage without prior authorization of at least one federal food and drug administration approved product for the treatment of opioid use disorder in the drug classes opioid agonists, opioid antagonists, and opioid partial agonists.</P>
+<P><TextRun amendingStyle="add">(2) Beginning January 1, 2021, all contracts with the authority to administer a medicaid managed care plan must require that a managed health care system provide coverage with preferred status and without prior authorization for federal food and drug administration approved products for the treatment of opioid use disorder that are in the form of implantable devices and long acting injections, if such approved products exist, for each of the following drug classes: Opioid agonists, opioid antagonists, and opioid partial agonists.</TextRun></P>
+<History>2019 c 314 § 38.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Declaration<TextRun fontFamily="Times New Roman">—</TextRun>2019 c 314:</TextRun> See note following RCW 18.22.810.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+</BillBody>
+</Bill>

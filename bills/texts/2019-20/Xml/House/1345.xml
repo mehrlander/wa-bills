@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-0709.1</RequestNumber><ShortBillId>HB 1345</ShortBillId><LongBillId>HOUSE BILL 1345</LongBillId><Legislature>66th Legislature</Legislature><Session>2019 Regular Session</Session><Sponsors>Representatives Frame, Irwin, Sells, and Goodman</Sponsors><BillHistory><ReadDate>Read first time 01/18/19.</ReadDate><ReferredCommittee>Referred to Committee on Labor &amp; Workplace Standards.</ReferredCommittee></BillHistory><BriefDescription>Limiting overtime for correctional officers.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to limiting overtime for correctional officers; adding new sections to chapter 49.28 RCW; and prescribing penalties.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) An employer may not require a correctional officer to work overtime. Attempts to compel or force correctional officers to work overtime are contrary to public policy, and any such requirement contained in a contract, agreement, or understanding is void.</P></BillSectionHeader>
+<P>(2) The acceptance by any correctional officer of overtime is strictly voluntary, and the refusal to accept such overtime work is not grounds for discrimination, dismissal, discharge, or any other penalty, threat of reports for discipline, or employment decision adverse to the correctional officer.</P>
+<P>(3) This section does not apply to overtime work that occurs:</P>
+<P>(a) Because of any unforeseeable emergent circumstance; or</P>
+<P>(b) When the employer documents that it has used reasonable efforts to obtain staffing. An employer has not used reasonable efforts if overtime work is used to fill vacancies resulting from chronic staff shortages.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>The definitions in this section apply throughout this section and sections 1 and 3 of this act unless the context clearly requires otherwise.</P></BillSectionHeader>
+<P>(1) "Correctional officer" means a person employed by an employer who is responsible for the custody, safety, security, and supervision of inmates in a jail.</P>
+<P>(2) "Employer" means a city or county or any combination of cities and counties responsible for the operation, supervision, and maintenance of a jail.</P>
+<P>(3) "Jail" means a facility operated by an employer primarily designed, staffed, and used for the housing of adult persons charged with a criminal offense either prior to trial or sentencing or following conviction, or both.</P>
+<P>(4) "Overtime" means hours in excess of the agreed upon, predetermined, regularly scheduled shift within a twenty-four hour period.</P>
+<P>(5) "Reasonable efforts" means that the employer, to the extent reasonably possible, does all of the following but is unable to obtain staffing coverage:</P>
+<P>(a) Seeks individuals to volunteer to work overtime from all available qualified staff who are working; and</P>
+<P>(b) Contacts qualified staff who have made themselves available to work overtime.</P>
+<P>(6) "Unforeseeable emergent circumstance" means:</P>
+<P>(a) A riot or other organized body acting together by force or similar emergency in which a need arises to detain a significant number of persons;</P>
+<P>(b) An unforeseen emergency requiring additional staffing occurs in the jail; or</P>
+<P>(c) Any other unforeseen disaster or other catastrophic event that affects staffing in the jail.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>The department of labor and industries must investigate complaints of violations of section 1 of this act. A violation of section 1 of this act is a class 1 civil infraction in accordance with chapter 7.80 RCW, except that the maximum penalty is one thousand dollars for each infraction up to three infractions. If there are four or more violations of section 1 of this act by an employer, the employer is subject to a fine of two thousand five hundred dollars for the fourth violation, and five thousand dollars for each subsequent violation. The department of labor and industries is authorized to issue and enforce civil infractions according to chapter 7.80 RCW.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addmultisect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber><P>Sections 1 through 3 of this act are each added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>49</TitleNumber><TextRun>.</TextRun><ChapterNumber>28</ChapterNumber><TextRun> RCW</TextRun></ChapterCite>.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

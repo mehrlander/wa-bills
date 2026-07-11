@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-4120.1</RequestNumber><ShortBillId>SHB 2875</ShortBillId><LongBillId>SUBSTITUTE HOUSE BILL 2875</LongBillId><Legislature>64th Legislature</Legislature><Session>2016 Regular Session</Session><Sponsors>House Technology &amp; Economic Development (originally sponsored by Representatives Smith, Morris, and Magendanz)</Sponsors><BillHistory><ReadDate>READ FIRST TIME 02/05/16.</ReadDate></BillHistory><BriefDescription>Establishing the office of privacy and data protection.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to establishing the office of data privacy, protection, and access equity; adding a new section to chapter 43.105 RCW; adding a new section to chapter 44.28 RCW; creating a new section; and providing an expiration date.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature finds that the rapid expansion of digital technology and mobile networks is changing how citizens access and share personal data and communications. Data privacy, data protection, and access equity are of increasing concern for all residents of the state. State agencies and programs entrusted by citizens with sensitive personal information must serve as responsible custodians of this data. The state can also play an important role in educating local governments and consumers about measures that may help them protect this information and as an advocate for access equity. In an interconnected world, citizens who lack meaningful access to digital technology, including mobile networks and high-speed internet connections, lack the necessary tools for sharing in the state's technology, innovation, and economic development successes. For the forgoing reasons, the legislature finds that it is necessary and efficient to have a central point of contact for policy matters involving data privacy, data protection, and access equity.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>105</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) The office of privacy and data protection is created within the office of the state chief information officer. The purpose of the office of privacy and data protection is to serve as a central point of contact for state agencies on policy matters involving data privacy and data protection.</P>
+<P>(2) The director shall appoint the chief privacy officer, who is the director of the office of privacy and data protection.</P>
+<P>(3) The primary duties of the office of privacy and data protection with respect to state agencies are:</P>
+<P>(a) To conduct an annual privacy review;</P>
+<P>(b) To conduct an annual privacy training for state agencies and employees;</P>
+<P>(c) To articulate privacy principles and best practices;</P>
+<P>(d) To coordinate data protection in cooperation with the agency; and</P>
+<P>(e) To participate with the office of the state chief information officer in the review of major state agency projects involving personally identifiable information.</P>
+<P>(4) The office of privacy and data protection must serve as a resource to local governments and the public on data privacy and protection concerns by:</P>
+<P>(a) Developing and promoting the dissemination of best practices for the collection and storage of personally identifiable information, including establishing and conducting a training program or programs for local governments; and</P>
+<P>(b) Educating consumers about the use of personally identifiable information on mobile and digital networks and measures that can help protect this information.</P>
+<P>(5) By December 1, 2016, and every four years thereafter, the office of privacy and data protection must prepare and submit to the legislature a report evaluating its performance. The office of privacy and data protection must establish performance measures in its 2016 report to the legislature and, in each report thereafter, demonstrate the extent to which performance results have been achieved. These performance measures must include, but are not limited to, the following:</P>
+<P>(a) The number of state agencies and employees who have participated in the annual privacy training;</P>
+<P>(b) A report on the extent of the office of privacy and data protection's coordination with international and national experts in the fields of data privacy, data protection, and access equity;</P>
+<P>(c) A report on the implementation of data protection measures by state agencies attributable in whole or in part to the office of privacy and data protection's coordination of efforts; and</P>
+<P>(d) A report on consumer education efforts, including but not limited to the number of consumers educated through public outreach efforts, as indicated by how frequently educational documents were accessed, the office of privacy and data protection's participation in outreach events, and inquiries received back from consumers via telephone or other media.</P>
+<P>(6) Within one year of the effective date of this section, the office of privacy and data protection must submit to the joint legislative audit and review committee for review and comment the performance measures developed under subsection (5) of this section and a data collection plan.</P>
+<P>(7) The office of privacy and data protection shall submit a report to the legislature on the: (a) Extent to which telecommunications providers in the state are deploying advanced telecommunications capability; and (b) existence of any inequality in access to advanced telecommunications infrastructure experienced by residents of tribal lands, rural areas, and economically distressed communities. The report may be submitted at a time within the discretion of the office of privacy and data protection, at least once every four years, and only to the extent the office of privacy and data protection is able to gather and present the information within existing resources.</P>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>44</TitleNumber><TextRun>.</TextRun><ChapterNumber>28</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) The joint committee must conduct a program and fiscal review of the office of privacy and data protection created in section 2 of this act, by June 30, 2025, and report its findings to the legislature and the governor by December 1, 2025. The report must be prepared in the manner set forth in RCW 44.28.071 and 44.28.075.</P>
+<P>(2) This section expires July 1, 2026.
+</P>
+</BillSection>
+</BillBody>
+</Bill>

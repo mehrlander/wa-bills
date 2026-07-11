@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-3122.2</RequestNumber><ShortBillId>HB 2436</ShortBillId><LongBillId>HOUSE BILL 2436</LongBillId><Legislature>64th Legislature</Legislature><Session>2016 Regular Session</Session><Sponsors>Representatives Hudgins, S. Hunt, Orwall, Bergquist, Reykdal, Jinkins, Walkinshaw, Tarleton, Stanford, Farrell, Sells, McBride, Pollet, and Hargrove</Sponsors><BillHistory><ReadDate>Read first time 01/13/16.</ReadDate><ReferredCommittee>Referred to Committee on State Government.</ReferredCommittee></BillHistory><BriefDescription>Equalizing access to permanent ballot drop boxes for every Washington citizen.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to equalizing access to permanent ballot drop boxes for every Washington citizen; adding a new section to chapter 29A.40 RCW; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature finds that Congress enacted the voting rights act of 1965 to provide every citizen with an equal opportunity to participate in elections. The legislature also finds that the national voter registration act of 1993 establishes a duty for federal, state, and local governments to promote and exercise citizens' fundamental right to vote. Therefore, the legislature intends to ensure that voting remains free and accessible to Washington citizens by providing that the number of permanent ballot drop boxes is proportional to the number of residents in each county.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>29A</TitleNumber><TextRun>.</TextRun><ChapterNumber>40</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) The county auditor of each county must ensure that by November 1, 2016, a minimum of one permanent ballot drop box for every fifteen thousand county residents is available for the secure deposit of paper ballots.</P>
+<P>(2) The county auditor may determine the location and placement of each ballot drop box within the county in order to improve accessibility for all county residents.</P>
+<P>(3) County officials are encouraged to purchase permanent ballot drop boxes produced or provided in whole or in part from class II inmate work programs operated by the department of corrections as identified in RCW 72.60.160.</P>
+<P>(4) Permanent ballot drop boxes must comply with all applicable state and federal requirements as adopted in rule by the secretary of state.</P>
+</BillSection>
+</BillBody>
+</Bill>

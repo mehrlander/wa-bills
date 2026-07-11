@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-3656.1</RequestNumber><ShortBillId>HB 2792</ShortBillId><LongBillId>HOUSE BILL 2792</LongBillId><Legislature>64th Legislature</Legislature><Session>2016 Regular Session</Session><Sponsors>Representatives Magendanz, Stokesbary, and Wilson</Sponsors><BillHistory><ReadDate>Read first time 01/20/16.</ReadDate><ReferredCommittee>Referred to Committee on Finance.</ReferredCommittee></BillHistory><BriefDescription>Shortening the period of time in which the department of revenue must process unclaimed property applications.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to shortening the period of time in which the department of revenue must process unclaimed property applications; and amending RCW 63.29.240 and 63.29.260.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>63</TitleNumber><TextRun>.</TextRun><ChapterNumber>29</ChapterNumber><TextRun>.</TextRun><SectionNumber>240</SectionNumber></SectionCite> and 2011 2nd sp.s. c 8 s 2 are each amended to read as follows:<Caption>Filing of claim with department.</Caption></BillSectionHeader>
+<P>(1) A person, excluding another state, claiming an interest in any property paid or delivered to the department may file with it a claim on a form prescribed by it and verified by the claimant.</P>
+<P>(2) The department must consider each claim within <TextRun amendingStyle="strike">ninety</TextRun> <TextRun amendingStyle="add">thirty</TextRun> days after it is filed and give written notice to the claimant if the claim is denied in whole or in part. The notice may be given by mailing it to the last address, if any, stated in the claim as the address to which notices are to be sent. If no address for notices is stated in the claim, the notice may be mailed to the last address, if any, of the claimant as stated in the claim. No notice of denial need be given if the claim fails to state either the last address to which notices are to be sent or the address of the claimant.</P>
+<P>(3)(a) If a claim is allowed, the department must pay over or deliver to the claimant the property or the amount the department actually received or the net proceeds if it has been sold by the department, together with any additional amount required by RCW 63.29.210. Nothing in this subsection (3)(a) may be construed to modify RCW 63.29.220(2)(c).</P>
+<P>(b) If the property claimed was interest-bearing to the owner on the date of surrender by the holder, the department also must pay interest at the legal rate or any lesser rate the property earned while in the possession of the holder. Interest begins to accrue when the property is delivered to the department and ceases on the earlier of the expiration of ten years after delivery or the date on which payment is made to the owner. No interest on interest<Hyphen type="nobreak" />bearing property is payable for any period before June 30, 1983.</P>
+<P>(4) Any holder who pays the owner for property that has been delivered to the state and which, if claimed from the department, would be subject to subsection (3) of this section must add interest as provided in subsection (3) of this section. The added interest must be repaid to the holder by the department in the same manner as the principal.</P>
+<History>2011 2nd sp.s. c 8 § 2; 1983 c 179 § 24.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2011 2nd sp.s. c 8:</TextRun> See note following RCW 63.29.220.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>63</TitleNumber><TextRun>.</TextRun><ChapterNumber>29</ChapterNumber><TextRun>.</TextRun><SectionNumber>260</SectionNumber></SectionCite> and 1983 c 179 s 26 are each amended to read as follows:<Caption>Action to establish claim.</Caption></BillSectionHeader>
+<P>A person aggrieved by a decision of the department or whose claim has not been acted upon within <TextRun amendingStyle="strike">ninety</TextRun> <TextRun amendingStyle="add">thirty</TextRun> days after its filing may bring an action to establish the claim in the superior court of Thurston county naming the department as a defendant. The action must be brought within ninety days after the decision of the department or within one hundred eighty days after the filing of the claim if the department has failed to act on it.</P>
+<History>1983 c 179 § 26.</History>
+</BillSection>
+</BillBody>
+</Bill>

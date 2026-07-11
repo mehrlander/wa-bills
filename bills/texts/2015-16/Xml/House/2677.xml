@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-3440.1</RequestNumber><ShortBillId>HB 2677</ShortBillId><LongBillId>HOUSE BILL 2677</LongBillId><Legislature>64th Legislature</Legislature><Session>2016 Regular Session</Session><Sponsors>Representatives Senn, Walsh, Vick, Jinkins, Pike, and Tharinger</Sponsors><BillHistory><ReadDate>Read first time 01/18/16.</ReadDate><ReferredCommittee>Referred to Committee on Early Learning &amp; Human Services.</ReferredCommittee></BillHistory><BriefDescription>Clarifying which counties may provide and maintain detention rooms or detention houses.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to counties providing and maintaining detention rooms or detention houses; and amending RCW 13.04.135.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>13</TitleNumber><TextRun>.</TextRun><ChapterNumber>04</ChapterNumber><TextRun>.</TextRun><SectionNumber>135</SectionNumber></SectionCite> and 1983 c 98 s 2 are each amended to read as follows:<Caption>Establishment of house or room of detention.</Caption></BillSectionHeader>
+<P>Counties containing more than <TextRun amendingStyle="add">two hundred</TextRun> fifty thousand inhabitants shall, and counties containing a lesser number of inhabitants may, provide and maintain at public expense, a detention room or house of detention, separated or removed from any jail, or police station, to be in charge of a matron, or other person of good character, wherein all children within the provisions of this chapter shall, when necessary, be sheltered.</P>
+<History>1983 c 98 § 2; 1945 c 121 § 1; 1913 c 160 § 13; Rem. Supp. 1945 1987-13. Formerly RCW 13.16.010.</History>
+<RCWNoteSection>
+<CrossRefNote><NoteP>Detention in facility under jurisdiction of juvenile court<TextRun fontFamily="Times New Roman">—</TextRun>Financial responsibility for cost of detention: RCW 13.34.161, 13.16.085.</NoteP></CrossRefNote>
+</RCWNoteSection>
+</BillSection>
+</BillBody>
+</Bill>

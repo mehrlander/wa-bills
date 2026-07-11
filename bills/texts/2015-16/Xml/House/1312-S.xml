@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-3945.1</RequestNumber><ShortBillId>SHB 1312</ShortBillId><LongBillId>SUBSTITUTE HOUSE BILL 1312</LongBillId><Legislature>64th Legislature</Legislature><Session>2016 Regular Session</Session><Sponsors>House Public Safety (originally sponsored by Representatives Goodman and Moscoso)</Sponsors><BillHistory><ReadDate>READ FIRST TIME 02/02/16.</ReadDate></BillHistory><BriefDescription>Addressing the limited exoneration of bail forfeitures in instances where the prosecuting agency declines extradition of a defendant.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to the limited exoneration of bail forfeitures in instances where the prosecuting agency declines extradition of a defendant; and adding a new section to chapter 10.19 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>10</TitleNumber><TextRun>.</TextRun><ChapterNumber>19</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>If a forfeiture has been entered against a defendant in a criminal case and the defendant is located in a jurisdiction beyond the jurisdiction of the court that ordered the bail forfeited, the court shall remit the full amount of the bond to the surety, less any and all costs determined by the court to have been incurred by law enforcement in transporting, locating, apprehending, or processing the return of the defendant to the jurisdiction of the court, if the following apply:</P>
+<P>(1)(a) The defendant is in custody in a jurisdiction beyond the jurisdiction of the court that ordered the bail forfeited; or</P>
+<P>(b) The defendant is temporarily detained by the surety in the presence of a local law enforcement officer, is positively identified as the defendant by the law enforcement officer in an affidavit signed under penalty of perjury, and is located in a jurisdiction beyond the jurisdiction of the court that ordered the bail forfeited;</P>
+<P>(2) There is no executable warrant to extradite the defendant;</P>
+<P>(3) The surety submitted a written request for an extradition warrant to the prosecuting attorney of the jurisdiction that ordered the bail forfeited informing him or her of the location of the defendant; and</P>
+<P>(4)(a) Seventy-two hours have passed since the submission of the written request under subsection (3) of this section; or</P>
+<P>(b) The surety has received a signed affidavit from the prosecuting attorney specifying that he or she is not going to seek extradition.</P>
+</BillSection>
+</BillBody>
+</Bill>

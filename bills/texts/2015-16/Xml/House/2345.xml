@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-3253.1</RequestNumber><ShortBillId>HB 2345</ShortBillId><LongBillId>HOUSE BILL 2345</LongBillId><Legislature>64th Legislature</Legislature><Session>2016 Regular Session</Session><Sponsors>Representatives Morris, Smith, Magendanz, and Tarleton</Sponsors><BillHistory><PrefiledDate>Prefiled 01/05/16.</PrefiledDate><ReadDate>Read first time 01/11/16.</ReadDate><ReferredCommittee>Referred to Committee on Technology &amp; Economic Development.</ReferredCommittee></BillHistory><BriefDescription>Promoting the deployment of combined heat and power systems.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to the deployment of combined heat and power systems; and adding a new section to chapter 80.28 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>80</TitleNumber><TextRun>.</TextRun><ChapterNumber>28</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) The legislature finds that the development of combined heat and power (cogeneration) systems may reduce overall greenhouse gas emissions in the state. The legislature further finds that generating both electric power and useful thermal energy from a single fuel source can help the state comply with federal emissions standards, increase overall energy efficiency, and benefit customers through cost-effective fuel-switching. It is the intent of the legislature to encourage natural gas companies to promote the deployment of combined heat and power systems in the state.</P>
+<P>(2) A natural gas company may offer incentives for customers to invest in combined heat and power systems that result in cost-effective energy efficiency savings and achieve real, quantifiable reductions in greenhouse gas emissions.</P>
+<P>(3) The commission must consult with the department of ecology and the Washington State University extension energy program to determine an appropriate methodology for evaluating, measuring, and verifying greenhouse gas emissions reductions that is consistent with established and internationally recognized protocols.</P>
+<P>(4) The commission may rely on its policies and practice for determining cost-effectiveness. For the purposes of this section, the commission shall consider the quantifiable benefits of electricity savings and reduced greenhouse gas emissions associated with combined heat and power systems.</P>
+<P>(5) The commission may establish a limit on the total cost of incentives authorized under this section.</P>
+</BillSection>
+</BillBody>
+</Bill>

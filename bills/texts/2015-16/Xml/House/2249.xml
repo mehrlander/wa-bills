@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-2737.1</RequestNumber><ShortBillId>HB 2249</ShortBillId><LongBillId>HOUSE BILL 2249</LongBillId><Legislature>64th Legislature</Legislature><Session>2015 1st Special Session</Session><Sponsors>Representatives MacEwen, Stokesbary, and Pike</Sponsors><BillHistory><PrefiledDate>Prefiled 04/28/15.</PrefiledDate><ReadDate>Read first time 04/29/15.</ReadDate><ReferredCommittee>Referred to Committee on State Government.</ReferredCommittee></BillHistory><BriefDescription>Making a declared leave of absence of an elected official a vacancy in the office.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to causes for a vacancy in office; amending RCW 42.12.010; and declaring an emergency.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>42</TitleNumber><TextRun>.</TextRun><ChapterNumber>12</ChapterNumber><TextRun>.</TextRun><SectionNumber>010</SectionNumber></SectionCite> and 1994 c 223 s 2 are each amended to read as follows:<Caption>Causes of vacancy.</Caption></BillSectionHeader>
+<P>Every elective office shall become vacant on the happening of any of the following events:</P>
+<P>(1) The death of the incumbent;</P>
+<P>(2) His or her resignation. A vacancy caused by resignation shall be deemed to occur upon the effective date of the resignation;</P>
+<P>(3) <TextRun amendingStyle="add">Upon a declared leave of absence from duties that is not due to medical or health-related reasons, or military obligations pursuant to RCW 73.16.041;</TextRun></P>
+<P><TextRun amendingStyle="add">(4)</TextRun> His or her removal;</P>
+<P><TextRun amendingStyle="strike">(4)</TextRun> <TextRun amendingStyle="add">(5)</TextRun> Except as provided in RCW <TextRun amendingStyle="strike">3.46.067 and</TextRun> 3.50.057, his or her ceasing to be a legally registered voter of the district, county, city, town, or other municipal or quasi municipal corporation from which he or she shall have been elected or appointed, including where applicable the council district, commissioner district, or ward from which he or she shall have been elected or appointed;</P>
+<P><TextRun amendingStyle="strike">(5)</TextRun> <TextRun amendingStyle="add">(6)</TextRun> His or her conviction of a felony, or of any offense involving a violation of his or her official oath;</P>
+<P><TextRun amendingStyle="strike">(6)</TextRun> <TextRun amendingStyle="add">(7)</TextRun> His or her refusal or neglect to take his or her oath of office, or to give or renew his or her official bond, or to deposit such oath or bond within the time prescribed by law;</P>
+<P><TextRun amendingStyle="strike">(7)</TextRun> <TextRun amendingStyle="add">(8)</TextRun> The decision of a competent tribunal declaring void his or her election or appointment; or</P>
+<P><TextRun amendingStyle="strike">(8)</TextRun> <TextRun amendingStyle="add">(9)</TextRun> Whenever a judgment shall be obtained against that incumbent for breach of the condition of his or her official bond.</P>
+<History>1994 c 223 § 2; 1993 c 317 § 9; 1981 c 180 § 4; Code 1881 § 3063; 1866 p 28 § 2; RRS § 9950.</History>
+<RCWNoteSection>
+<RevNote><NoteP><TextRun fontWeight="bold">*Reviser's note:</TextRun> RCW 3.46.067 was repealed by 2008 c 227 § 12, effective July 1, 2008.</NoteP></RevNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>1994 c 223 § 2:</TextRun> "(1) Section 2 of this act shall take effect January 1, 1995.</NoteP><NoteP>(2) *Section 20 of this act shall take effect July 1, 1994." [1994 c 223 § 94.]</NoteP></AnnNote>
+<RevNote><NoteP><TextRun fontWeight="bold">*Reviser's note:</TextRun> The governor vetoed 1994 c 233 § 20.</NoteP></RevNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Severability<TextRun fontFamily="Times New Roman">—</TextRun>Effective date<TextRun fontFamily="Times New Roman">—</TextRun>1993 c 317:</TextRun> See notes following RCW 3.50.810.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Severability<TextRun fontFamily="Times New Roman">—</TextRun>1981 c 180:</TextRun> See note following RCW 42.12.040.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="new" action="emerg">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act is necessary for the immediate preservation of the public peace, health, or safety, or support of the state government and its existing public institutions, and takes effect immediately.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

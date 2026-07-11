@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-2705.2</RequestNumber><ShortBillId>SHB 1396</ShortBillId><LongBillId>SUBSTITUTE HOUSE BILL 1396</LongBillId><Legislature>64th Legislature</Legislature><Session>2015 Regular Session</Session><Sponsors>House Transportation (originally sponsored by Representatives Clibborn, Orcutt, Fey, Zeiger, Fitzgibbon, Farrell, Tarleton, Peterson, McBride, Gregerson, and Goodman)</Sponsors><BillHistory><ReadDate>READ FIRST TIME 04/20/15.</ReadDate></BillHistory><BriefDescription>Incentivizing the use of alternative fuel commercial use vehicles with tax preferences.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to incentivizing the use of alternative fuel commercial use vehicles with tax preferences; adding a new section to chapter 82.04 RCW; adding a new section to chapter 82.16 RCW; creating a new section; providing an effective date; and providing expiration dates.</BillTitle>
+<EnactedClause />
+<Part>
+<P>Legislative Findings and Tax Performance Statement</P>
+</Part>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) This act is known and may be cited as the clean fuel vehicle incentives act.</P></BillSectionHeader>
+<P>(2) The legislature finds that cleaner fuels reduce greenhouse gas emissions in the transportation sector and lead to a more sustainable environment. The legislature further finds that alternative fuel vehicles cost more than comparable models of conventional fuel vehicles, particularly in the commercial market. The legislature further finds the higher cost of alternative fuel vehicles incentivize companies to purchase comparable models of conventional fuel vehicles. The legislature further finds that other states provide various tax credits and exemptions. The legislature further finds incentivizing businesses to purchase cleaner, alternative fuel vehicles is a collaborative step toward meeting the state’s climate and environmental goals.</P>
+<P>(3)(a) This subsection is the tax preference performance statement for the clean alternative fuel vehicle tax credits provided in sections 2 and 3 of this act. The performance statement is only intended to be used for subsequent evaluation of the tax preference. It is not intended to create a private right of action by any party or be used to determine eligibility for preferential tax treatment.</P>
+<P>(b) The legislature categorizes the tax preference as one intended to induce certain designated behavior by taxpayers.</P>
+<P>(c) It is the legislature's specific public policy objective to provide a credit against business and occupation and public utility taxes to increase sales of commercial vehicles that use clean alternative fuel to ten percent of commercial vehicle sales by 2026.</P>
+<P>(d) To measure the effectiveness of the credit provided in this act in achieving the specific public policy objective described in (c) of this subsection, the joint legislative audit and review committee must, at minimum, evaluate the changes in the number of commercial vehicles that are powered by clean alternative fuel that are registered in Washington state.</P>
+<P>(e)(i) The department of licensing must provide data needed for the joint legislative audit and review committee's analysis in (d) of this subsection.</P>
+<P>(ii) In addition to the data source described under (e)(i) of this subsection, the joint legislative audit and review committee may use any other data it deems necessary in performing the evaluation under (d) of this subsection.</P>
+</BillSection>
+<Part>
+<P>Business and Occupation Tax and Public Utility Tax Credits</P>
+</Part>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>82</TitleNumber><TextRun>.</TextRun><ChapterNumber>04</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1)(a) A person who is taxable under this chapter is allowed a credit against the tax imposed in this chapter according to the gross vehicle weight rating of the vehicle and the incremental cost of the vehicle purchased above the purchase price of a comparable conventionally fueled vehicle. The credit is limited, as set forth in the table below, to the lesser of the incremental cost amount or the maximum credit amount per vehicle purchased, and subject to a maximum annual credit amount per vehicle class.</P>
+<Table align="center" width="508.0pt" pubwidth="wide">
+<Col width="127pt" />
+<Col width="127pt" />
+<Col width="127pt" />
+<Col width="127pt" />
+<TR>
+<TD border-left="solid" border-right="solid" border-top="solid" border-bottom="solid"><P textAlign="center">Gross Vehicle Weight</P></TD>
+<TD border-left="solid" border-right="solid" border-top="solid" border-bottom="solid"><P textAlign="center">Incremental Cost Amount</P></TD>
+<TD border-left="solid" border-right="solid" border-top="solid" border-bottom="solid"><P textAlign="center">Maximum Credit Amount Per Vehicle</P></TD>
+<TD border-left="solid" border-right="solid" border-top="solid" border-bottom="solid"><P textAlign="center">Maximum Annual Credit Per Vehicle Class</P></TD>
+</TR>
+<TR>
+<TD border-left="solid" border-right="solid" border-top="solid" border-bottom="solid"><P textAlign="center">Up to 14,000 pounds</P></TD>
+<TD border-left="solid" border-right="solid" border-top="solid" border-bottom="solid"><P textAlign="center">50% of incremental cost</P></TD>
+<TD border-left="solid" border-right="solid" border-top="solid" border-bottom="solid"><P textAlign="center">$5,000</P></TD>
+<TD border-left="solid" border-right="solid" border-top="solid" border-bottom="solid"><P textAlign="center">$2,000,000</P></TD>
+</TR>
+<TR>
+<TD border-left="solid" border-right="solid" border-top="solid" border-bottom="solid"><P textAlign="center">14,001 to 26,500 pounds</P></TD>
+<TD border-left="solid" border-right="solid" border-top="solid" border-bottom="solid"><P textAlign="center">50% of incremental cost</P></TD>
+<TD border-left="solid" border-right="solid" border-top="solid" border-bottom="solid"><P textAlign="center">$10,000</P></TD>
+<TD border-left="solid" border-right="solid" border-top="solid" border-bottom="solid"><P textAlign="center">$2,000,000</P></TD>
+</TR>
+<TR>
+<TD border-left="solid" border-right="solid" border-top="solid" border-bottom="solid"><P textAlign="center">Above 26,500 pounds</P></TD>
+<TD border-left="solid" border-right="solid" border-top="solid" border-bottom="solid"><P textAlign="center">50% of incremental cost</P></TD>
+<TD border-left="solid" border-right="solid" border-top="solid" border-bottom="solid"><P textAlign="center">$20,000</P></TD>
+<TD border-left="solid" border-right="solid" border-top="solid" border-bottom="solid"><P textAlign="center">$2,000,000</P></TD>
+</TR>
+</Table>
+<P>(b) On September 1st of each year any unused credits from any weight class identified in the table in (a) of this subsection must be made available to applicants applying for credits under any other weight class listed.</P>
+<P>(c) The credit provided in this subsection (1) is not available for the lease of a vehicle.</P>
+<P>(2) A person who is taxable under this chapter is allowed, subject to the maximum annual credit per vehicle class in subsection (1)(a) of this section, a credit against the tax imposed in this chapter for the lesser of twenty-five thousand dollars or thirty percent of the costs of converting a commercial vehicle to be principally powered by a clean alternative fuel with a United States environmental protection agency certified conversion.</P>
+<P>(3) The total credits under this section may not exceed the lesser of two hundred fifty thousand dollars or twenty-five vehicles per person per calendar year.</P>
+<P>(4) A person may not receive credit under this section for amounts claimed as credits under chapter 82.16 RCW.</P>
+<P>(5) Credits are available on a first-in-time basis. The department must disallow any credits, or portion thereof, that would cause the total amount of credits claimed under this section, and section 3 of this act, during any calendar year to exceed six million dollars. The department must provide notification on its web site monthly on the amount of credits that have been applied for, the amount issued, and the amount remaining before the statewide annual limit is reached. In addition, the department must provide written notice to any person who has applied to claim tax credits in excess of the limitation in this subsection.</P>
+<P>(6) For the purposes of the limits provided in this section, a credit must be counted against such limits for the calendar year in which the credit is earned.</P>
+<P>(7) To claim a credit under this section a person must electronically file with the department all returns, forms, and any other information required by the department, in an electronic format as provided or approved by the department. No refunds may be granted for credits under this section.</P>
+<P>(8) To claim a credit under this section, the person applying must:</P>
+<P>(a) Complete an application for the credit which must include:</P>
+<P>(i) The name, business address, and tax identification number of the applicant;</P>
+<P>(ii) A quote or unexecuted copy of the purchase requisition or order for the vehicle;</P>
+<P>(iii) The type of alternative fuel to be used by the vehicle;</P>
+<P>(iv) The incremental cost of the alternative fuel system;</P>
+<P>(v) The anticipated delivery date of the vehicle;</P>
+<P>(vi) The estimated annual fuel use of the vehicle in its anticipated duties;</P>
+<P>(vii) The gross weight of the vehicle; and</P>
+<P>(viii) Any other information deemed necessary by the department to support administration or reporting of the program.</P>
+<P>(b) Within fifteen days of notice of credit availability from the department, provide notice of intent to claim the credit including:</P>
+<P>(i) A copy of the order for the vehicle, including the total cost for the vehicle;</P>
+<P>(ii) The anticipated delivery date of the vehicle, which must be within one hundred twenty days of acceptance of the credit; and</P>
+<P>(iii) Any other information deemed necessary by the department to support administration or reporting of the program.</P>
+<P>(c) Provide final documentation within fifteen days of receipt of the vehicle, including:</P>
+<P>(i) A copy of the final invoice for the vehicle;</P>
+<P>(ii) A copy of the factory build sheet or equivalent documentation;</P>
+<P>(iii) The vehicle identification number of the vehicle;</P>
+<P>(iv) The incremental cost of the alternative fuel system;</P>
+<P>(v) Attestations signed by both the seller and purchaser of the vehicle attesting that the incremental cost of the alternative fuel system includes only the costs necessary for the vehicle to run on alternative fuel and no other vehicle options, equipment, or costs; and</P>
+<P>(vi) Any other information deemed necessary by the department to support administration or reporting of the program.</P>
+<P>(9) To administer the credits, the department must, at a minimum:</P>
+<P>(a) Provide notification on its web site monthly of the amount of credits that have been applied for, claimed, and the amount remaining before the statewide annual limit is reached;</P>
+<P>(b) Within fifteen days of receipt of the application, notify persons applying of the availability of tax credits in the year in which the vehicles applied for are anticipated to be delivered;</P>
+<P>(c) Within fifteen days of receipt of the notice of intent to claim the tax credit, notify the applicant of the approval, denial, or missing information in their notice; and</P>
+<P>(d) Within fifteen days of receipt of final documentation, review the documentation and notify the person applying of the acceptance of their final documentation.</P>
+<P>(10) If a person fails to supply the information as required in subsection (8) of this section, the department must deny the application.</P>
+<P>(11)(a) Taxpayers are only eligible for a credit under this section based on:</P>
+<P>(i) Sales, but not leases, of new commercial vehicles and qualifying used commercial vehicles with propulsion units that are principally powered by a clean alternative fuel; or</P>
+<P>(ii) Costs to modify a commercial vehicle, including sales of tangible personal property incorporated into the vehicle and labor or service expenses incurred in modifying the vehicle, to be principally powered by a clean alternative fuel.</P>
+<P>(b) A credit is earned when qualifying purchases are made.</P>
+<P>(12) A credit earned during one calendar year may be carried over to be credited against taxes incurred in the subsequent calendar year, but may not be carried over a second year.</P>
+<P>(13)(a) Beginning November 25, 2015, and on the 25th of February, May, August, and November of each year thereafter, the department must notify the state treasurer of the amount of credits taken under this section as reported on returns filed with the department during the preceding calendar quarter ending on the last day of December, March, June, and September, respectively.</P>
+<P>(b) On the last day of March, June, September, and December of each year, the state treasurer, based upon information provided by the department, must transfer a sum equal to the dollar amount of the credit provided under this section from the multimodal transportation account to the general fund.</P>
+<P>(14) The definitions in this subsection apply throughout this section unless the context clearly requires otherwise.</P>
+<P>(a) "Commercial vehicle" means any commercial vehicle that is purchased by a private business and that is used exclusively in the transportation of commodities, merchandise, produce, refuse, freight, or animals, and that is displaying a Washington state license plate.</P>
+<P>(b) "Clean alternative fuel" means electricity, dimethyl ether, hydrogen, methane, natural gas, liquefied natural gas, compressed natural gas, or propane.</P>
+<P>(c) "Qualifying used commercial vehicle" means vehicles that:</P>
+<P>(i) Have an odometer reading of less than thirty thousand miles;</P>
+<P>(ii) Are less than two years past their original date of manufacture;</P>
+<P>(iii) Were modified after the initial purchase with a United States environmental protection agency certified conversion that would allow the propulsion units to be principally powered by a clean alternative fuel; and</P>
+<P>(iv) Are being sold for the first time after modification.</P>
+<P>(15) No tax credits may be earned under this section beginning January 1, 2026.</P>
+<P>(16) Credits earned under this section may not be used after January 1, 2027.</P>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>82</TitleNumber><TextRun>.</TextRun><ChapterNumber>16</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1)(a) A person who is taxable under this chapter is allowed a credit against the tax imposed in this chapter according to the gross vehicle weight rating of the vehicle and the incremental cost of the vehicle purchased above the purchase price of a comparable conventionally fueled vehicle. The credit is limited, as set forth in the table below, to the lesser of the incremental cost amount or the maximum credit amount per vehicle purchased, and subject to a maximum annual credit amount per vehicle class.</P>
+<Table align="center" width="508.0pt" pubwidth="wide">
+<Col width="127pt" />
+<Col width="127pt" />
+<Col width="127pt" />
+<Col width="127pt" />
+<TR>
+<TD border-left="solid" border-right="solid" border-top="solid" border-bottom="solid"><P textAlign="center">Gross Vehicle Weight</P></TD>
+<TD border-left="solid" border-right="solid" border-top="solid" border-bottom="solid"><P textAlign="center">Incremental Cost Amount</P></TD>
+<TD border-left="solid" border-right="solid" border-top="solid" border-bottom="solid"><P textAlign="center">Maximum Credit Amount Per Vehicle</P></TD>
+<TD border-left="solid" border-right="solid" border-top="solid" border-bottom="solid"><P textAlign="center">Maximum Annual Credit Per Vehicle Class</P></TD>
+</TR>
+<TR>
+<TD border-left="solid" border-right="solid" border-top="solid" border-bottom="solid"><P textAlign="center">Up to 14,000 pounds</P></TD>
+<TD border-left="solid" border-right="solid" border-top="solid" border-bottom="solid"><P textAlign="center">50% of incremental cost</P></TD>
+<TD border-left="solid" border-right="solid" border-top="solid" border-bottom="solid"><P textAlign="center">$5,000</P></TD>
+<TD border-left="solid" border-right="solid" border-top="solid" border-bottom="solid"><P textAlign="center">$2,000,000</P></TD>
+</TR>
+<TR>
+<TD border-left="solid" border-right="solid" border-top="solid" border-bottom="solid"><P textAlign="center">14,001 to 26,500 pounds</P></TD>
+<TD border-left="solid" border-right="solid" border-top="solid" border-bottom="solid"><P textAlign="center">50% of incremental cost</P></TD>
+<TD border-left="solid" border-right="solid" border-top="solid" border-bottom="solid"><P textAlign="center">$10,000</P></TD>
+<TD border-left="solid" border-right="solid" border-top="solid" border-bottom="solid"><P textAlign="center">$2,000,000</P></TD>
+</TR>
+<TR>
+<TD border-left="solid" border-right="solid" border-top="solid" border-bottom="solid"><P textAlign="center">Above 26,500 pounds</P></TD>
+<TD border-left="solid" border-right="solid" border-top="solid" border-bottom="solid"><P textAlign="center">50% of incremental cost</P></TD>
+<TD border-left="solid" border-right="solid" border-top="solid" border-bottom="solid"><P textAlign="center">$20,000</P></TD>
+<TD border-left="solid" border-right="solid" border-top="solid" border-bottom="solid"><P textAlign="center">$2,000,000</P></TD>
+</TR>
+</Table>
+<P>(b) On September 1st of each year any unused credits from any weight class identified in the table in (a) of this subsection must be made available to applicants applying for credits under any other weight class listed.</P>
+<P>(c) The credit provided in this subsection (1) is not available for the lease of a vehicle.</P>
+<P>(2) A person who is taxable under this chapter is allowed, subject to the maximum annual credit per vehicle class in subsection (1)(a) of this section, a credit against the tax imposed in this chapter for the lesser of twenty-five thousand dollars or thirty percent of the costs of converting a commercial vehicle to be principally powered by a clean alternative fuel with a United States environmental protection agency certified conversion.</P>
+<P>(3) The total credits under this section may not exceed two hundred fifty thousand dollars or twenty-five vehicles per person per calendar year.</P>
+<P>(4) A person may not receive credit under this section for amounts claimed as credits under chapter 82.04 RCW.</P>
+<P>(5) Credits are available on a first-in-time basis. The department must disallow any credits, or portion thereof, that would cause the total amount of credits claimed under this section, and section 2 of this act, during any calendar year to exceed six million dollars. The department must provide notification on its web site monthly on the amount of credits that have been applied for, the amount issued, and the amount remaining before the statewide annual limit is reached. In addition, the department must provide written notice to any person who has applied to claim tax credits in excess of the limitation in this subsection.</P>
+<P>(6) For the purposes of the limits provided in this section, a credit must be counted against such limits for the calendar year in which the credit is earned.</P>
+<P>(7) To claim a credit under this section a person must electronically file with the department all returns, forms, and any other information required by the department, in an electronic format as provided or approved by the department. No refunds may be granted for credits under this section.</P>
+<P>(8) To claim a credit under this section, the person applying must:</P>
+<P>(a) Complete an application for the credit which must include:</P>
+<P>(i) The name, business address, and tax identification number of the applicant;</P>
+<P>(ii) A quote or unexecuted copy of the purchase requisition or order for the vehicle;</P>
+<P>(iii) The type of alternative fuel to be used by the vehicle;</P>
+<P>(iv) The incremental cost of the alternative fuel system;</P>
+<P>(v) The anticipated delivery date of the vehicle;</P>
+<P>(vi) The estimated annual fuel use of the vehicle in its anticipated duties;</P>
+<P>(vii) The gross weight of the vehicle; and</P>
+<P>(viii) Any other information deemed necessary by the department to support administration or reporting of the program.</P>
+<P>(b) Within fifteen days of notice of credit availability from the department, provide notice of intent to claim the credit including:</P>
+<P>(i) A copy of the order for the vehicle, including the total cost for the vehicle;</P>
+<P>(ii) The anticipated delivery date of the vehicle, which must be within one hundred twenty days of acceptance of the credit; and</P>
+<P>(iii) Any other information deemed necessary by the department to support administration or reporting of the program.</P>
+<P>(c) Provide final documentation within fifteen days of receipt of the vehicle, including:</P>
+<P>(i) A copy of the final invoice for the vehicle;</P>
+<P>(ii) A copy of the factory build sheet or equivalent documentation;</P>
+<P>(iii) The vehicle identification number of the vehicle;</P>
+<P>(iv) The incremental cost of the alternative fuel system;</P>
+<P>(v) Attestations signed by both the seller and purchaser of the vehicle attesting that the incremental cost of the alternative fuel system includes only the costs necessary for the vehicle to run on alternative fuel and no other vehicle options, equipment, or costs; and</P>
+<P>(vi) Any other information deemed necessary by the department to support administration or reporting of the program.</P>
+<P>(9) To administer the credits, the department must, at a minimum:</P>
+<P>(a) Provide notification on its web site monthly of the amount of credits that have been applied for, claimed, and the amount remaining before the statewide annual limit is reached;</P>
+<P>(b) Within fifteen days of receipt of the application, notify persons applying of the availability of tax credits in the year in which the vehicles applied for are anticipated to be delivered;</P>
+<P>(c) Within fifteen days of receipt of the notice of intent to claim the tax credit, notify the applicant of the approval, denial, or missing information in their notice; and</P>
+<P>(d) Within fifteen days of receipt of final documentation, review the documentation and notify the person applying of the acceptance of their final documentation.</P>
+<P>(10) If a person fails to supply the information as required in subsection (8) of this section, the department must deny the application.</P>
+<P>(11)(a) Taxpayers are only eligible for a credit under this section based on:</P>
+<P>(i) Sales, but not leases, of new commercial vehicles and qualifying used commercial vehicles with propulsion units that are principally powered by a clean alternative fuel; or</P>
+<P>(ii) Costs to modify a commercial vehicle, including sales of tangible personal property incorporated into the vehicle and labor or service expenses incurred in modifying the vehicle, to be principally powered by a clean alternative fuel.</P>
+<P>(b) A credit is earned when qualifying purchases are made.</P>
+<P>(12) The definitions in section 2 of this act apply to this section.</P>
+<P>(13) A credit earned during one calendar year may be carried over to be credited against taxes incurred in the subsequent calendar year, but may not be carried over a second year.</P>
+<P>(14)(a) Beginning November 25, 2015, and on the 25th of February, May, August, and November of each year thereafter, the department must notify the state treasurer of the amount of credits taken under this section as reported on returns filed with the department during the preceding calendar quarter ending on the last day of December, March, June, and September, respectively.</P>
+<P>(b) On the last day of March, June, September, and December of each year, the state treasurer, based upon information provided by the department, must transfer a sum equal to the dollar amount of the credit provided under this section from the multimodal transportation account to the general fund.</P>
+<P>(15) No tax credits may be earned under this section beginning January 1, 2026.</P>
+<P>(16) Credits earned under this section may not be used after January 1, 2027.</P>
+</BillSection>
+<Part>
+<P>Miscellaneous Provisions</P>
+</Part>
+<BillSection type="new" action="effdate" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act takes effect January 1, 2016.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

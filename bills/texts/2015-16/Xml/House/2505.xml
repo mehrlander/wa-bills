@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-3325.1</RequestNumber><ShortBillId>HB 2505</ShortBillId><LongBillId>HOUSE BILL 2505</LongBillId><Legislature>64th Legislature</Legislature><Session>2016 Regular Session</Session><Sponsors>Representatives G. Hunt, Kirby, Shea, and Ormsby</Sponsors><BillHistory><ReadDate>Read first time 01/14/16.</ReadDate><ReferredCommittee>Referred to Committee on Labor &amp; Workplace Standards.</ReferredCommittee></BillHistory><BriefDescription>Concerning payroll cards.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to payroll cards; and adding a new chapter to Title 19 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P />The legislature finds that payroll cards are account access devices used by some employers to pay employees their wages. Such cards often carry fees that are much higher than those associated with other forms of wage payment, such as cash, check, or direct deposit.</BillSectionHeader>
+<P>The legislature further finds that federal law, including the electronic funds transfer act, the credit card accountability responsibility and disclosure act (credit CARD act), and their implementing regulations, evidence the intent of the federal government to protect consumers from abusive fees and practices of card issuers. The United States congress has also evidenced its intent that the electronic funds transfer act should regulate payroll card fees through the credit CARD act's prohibition on service fees and inactivity fees on general use prepaid cards. Through the credit CARD act, congress has opened the door for states to regulate financial institutions' fees on payroll cards.</P>
+<P>The legislature declares that employees should not have to bear onerous fees to collect the wages they have earned. Employees should be able to access their wages at automated teller machines and they should not have to pay a fee just to keep their cards active. Neither should employees be forced to pay when their cards are declined and account balance information should be available free of charge.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>The definitions in this section apply throughout this chapter unless the context clearly requires otherwise.</P></BillSectionHeader>
+<P>(1) "Balance inquiry fee" means a fee charged to provide the remaining balance on a payroll deposit account.</P>
+<P>(2) "Consumer" means an employee whose wages are paid to a payroll deposit account.</P>
+<P>(3) "Declined transaction fee" means a fee charged to a consumer when a card transaction at an automated teller machine or point of sale is declined due to insufficient funds in a payroll deposit account. "Declined transaction fee" does not include a fee for overdraft service in which the transaction is executed resulting in a negative balance in the payroll deposit account.</P>
+<P>(4) "Financial institution" means any bank, credit union, trust company, money transmitter, payroll service provider, or any other person holding or acting as custodian or servicer of a payroll deposit account or issuer of a payroll card.</P>
+<P>(5) "Issuer" means a financial institution or other entity that issues a payroll card to a consumer.</P>
+<P>(6) "Maintenance fee" means a recurring periodic fee charged on a payroll deposit account incurred for each period in which the account remains open.</P>
+<P>(7) "Payroll card" means a prepaid card, code, or other means used by a consumer to access wages in a payroll deposit account.</P>
+<P>(8) "Payroll deposit account" means an account that is directly or indirectly established through an employer and to which electronic funds transfers of the consumer's wages, salary, or other employee compensation are made on a recurring basis, whether the account is operated or managed by the employer, a third-party payroll processor, a depository institution, or any other person.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) No person may issue a payroll card unless the provisions of this section are met as to that payroll card.</P></BillSectionHeader>
+<P>(2) A financial institution must provide access to one or more automated teller machines that offer withdrawals from the payroll deposit account at no cost to the consumer.</P>
+<P>(3) A financial institution may not charge to a consumer, directly or indirectly, any of the following fees on a payroll deposit account:</P>
+<P>(a) A maintenance fee;</P>
+<P>(b) A declined transaction fee; or</P>
+<P>(c) A balance inquiry fee.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) An agreement made in violation of the provisions of this chapter or requiring any person to violate this chapter is contrary to public policy and is void and unenforceable.</P></BillSectionHeader>
+<P>(2) This chapter applies to agreements and transactions made on or after January 1, 2017.</P>
+</BillSection>
+<BillSection type="new" action="addchap" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>5</Value><TextRun>.  </TextRun></BillSectionNumber><P>Sections 1 through 4 of this act constitute a new chapter in <TitleCite><TextRun>Title </TextRun><TitleNumber>19</TitleNumber><TextRun> RCW</TextRun></TitleCite>.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>6</Value><TextRun>.  </TextRun></BillSectionNumber><P>If any provision of this act or its application to any person or circumstance is held invalid, the remainder of the act or the application of the provision to other persons or circumstances is not affected.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

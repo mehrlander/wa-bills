@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-3149.1</RequestNumber><ShortBillId>HB 2410</ShortBillId><LongBillId>HOUSE BILL 2410</LongBillId><Legislature>64th Legislature</Legislature><Session>2016 Regular Session</Session><Sponsors>Representatives Hayes, Orwall, Klippert, Goodman, Wilson, Griffey, Fitzgibbon, Magendanz, Muri, and Ormsby</Sponsors><BillHistory><ReadDate>Read first time 01/13/16.</ReadDate><ReferredCommittee>Referred to Committee on Judiciary.</ReferredCommittee></BillHistory><BriefDescription>Requiring information about certain criminal defendants be included in the felony firearm offense conviction database.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to requiring information about certain criminal defendants be included in the felony firearm offense conviction database; and amending RCW 9.41.330.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>9</TitleNumber><TextRun>.</TextRun><ChapterNumber>41</ChapterNumber><TextRun>.</TextRun><SectionNumber>330</SectionNumber></SectionCite> and 2013 c 183 s 3 are each amended to read as follows:<Caption>Felony firearm offenders<TextRun fontFamily="Times New Roman">—</TextRun>Determination of registration.</Caption></BillSectionHeader>
+<P><TextRun amendingStyle="strike">(1)</TextRun> On or after <TextRun amendingStyle="strike">July 28, 2013</TextRun> <TextRun amendingStyle="add">the effective date of this section</TextRun>, whenever a defendant in this state is convicted of a felony firearm offense or found not guilty by reason of insanity of any felony firearm offense, the court <TextRun amendingStyle="strike">must consider whether to</TextRun> <TextRun amendingStyle="add">shall</TextRun> impose a requirement that the person comply with the registration requirements of RCW 9.41.333 <TextRun amendingStyle="strikemarkleft">and may, in its discretion, impose such a requirement.</TextRun></P>
+<P><TextRun amendingStyle="strikemarknone">(2) In determining whether to require the person to register, the court shall consider all relevant factors including, but not limited to:</TextRun></P>
+<P><TextRun amendingStyle="strikemarknone">(a) The person's criminal history;</TextRun></P>
+<P><TextRun amendingStyle="strikemarknone">(b) Whether the person has previously been found not guilty by reason of insanity of any offense in this state or elsewhere; and</TextRun></P>
+<P><TextRun amendingStyle="strikemarkright">(c) Evidence of the person's propensity for violence that would likely endanger persons</TextRun>.</P>
+<History>2013 c 183 § 3.</History>
+</BillSection>
+</BillBody>
+</Bill>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-3491.2</RequestNumber><ShortBillId>HB 2457</ShortBillId><LongBillId>HOUSE BILL 2457</LongBillId><Legislature>64th Legislature</Legislature><Session>2016 Regular Session</Session><Sponsors>Representative Young</Sponsors><BillHistory><ReadDate>Read first time 01/13/16.</ReadDate><ReferredCommittee>Referred to Committee on Judiciary.</ReferredCommittee></BillHistory><BriefDescription>Concerning recorded interests in easements by an electric utility.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to recorded interests in easements by an electric utility; and amending RCW 36.35.290.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>36</TitleNumber><TextRun>.</TextRun><ChapterNumber>35</ChapterNumber><TextRun>.</TextRun><SectionNumber>290</SectionNumber></SectionCite> and 1961 c 15 s 84.64.460 are each amended to read as follows:<Caption>Easements.</Caption></BillSectionHeader>
+<P><TextRun amendingStyle="add">(1)</TextRun> The general property tax assessed on any tract, lot, or parcel of real property includes all easements appurtenant thereto, provided said easements are a matter of public record in the auditor's office of the county in which said real property is situated.</P>
+<P><TextRun amendingStyle="add">(2)(a) Except as provided in (b) of this subsection, a</TextRun>ny foreclosure of delinquent taxes on any tract, lot<TextRun amendingStyle="add">,</TextRun> or parcel of real property subject to such easement or easements, and any tax deed issued pursuant thereto shall be subject to such easement or easements, provided such easement or easements were established of record prior to the year for which the tax was foreclosed.</P>
+<P><TextRun amendingStyle="add">(b) If an electric utility has a recorded interest in the easement or easements, any foreclosure of delinquent taxes and tax deed issued pursuant thereto are subject to such easement or easements regardless of when such easement or easements were established.</TextRun></P>
+<History>1961 c 15 § 84.64.460. Prior: 1959 c 129 § 1. Formerly RCW 84.64.460.</History>
+</BillSection>
+</BillBody>
+</Bill>

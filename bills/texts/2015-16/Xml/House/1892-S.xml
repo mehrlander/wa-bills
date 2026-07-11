@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-1951.1</RequestNumber><ShortBillId>SHB 1892</ShortBillId><LongBillId>SUBSTITUTE HOUSE BILL 1892</LongBillId><Legislature>64th Legislature</Legislature><Session>2015 Regular Session</Session><Sponsors>House Transportation (originally sponsored by Representatives Fey, Clibborn, Farrell, Moscoso, Tarleton, Ormsby, and Bergquist)</Sponsors><BillHistory><ReadDate>READ FIRST TIME 02/27/15.</ReadDate></BillHistory><BriefDescription>Repealing the deduction for handling losses of motor vehicle fuel.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to repealing the deduction for handling losses of motor vehicle fuel; repealing RCW 82.38.083 and 82.36.029; providing an effective date; and providing a contingent effective date.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="repeal">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P><SectionCite><TextRun>RCW </TextRun><TitleNumber>82</TitleNumber><TextRun>.</TextRun><ChapterNumber>38</ChapterNumber><TextRun>.</TextRun><SectionNumber>083</SectionNumber></SectionCite> (Deductions<TextRun fontFamily="Times New Roman">—</TextRun>Handling losses<TextRun fontFamily="Times New Roman">—</TextRun>Reports) and 2013 c 225 s 205 are each repealed.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="repeal">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P><SectionCite><TextRun>RCW </TextRun><TitleNumber>82</TitleNumber><TextRun>.</TextRun><ChapterNumber>36</ChapterNumber><TextRun>.</TextRun><SectionNumber>029</SectionNumber></SectionCite> (Deductions<TextRun fontFamily="Times New Roman">—</TextRun>Handling losses<TextRun fontFamily="Times New Roman">—</TextRun>Reports) and 1998 c 176 s 10 are each repealed.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="effdate">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act takes effect August 1, 2015.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber><P>Section 2 of this act takes effect only if either chapter ... (House Bill No. 1993), Laws of 2015 or chapter ... (Senate Bill No. 5297), Laws of 2015 is enacted by June 30, 2015.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

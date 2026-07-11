@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-3509.1</RequestNumber><ShortBillId>HB 2598</ShortBillId><LongBillId>HOUSE BILL 2598</LongBillId><Legislature>64th Legislature</Legislature><Session>2016 Regular Session</Session><Sponsors>Representatives Orcutt and Clibborn</Sponsors><BillHistory><ReadDate>Read first time 01/15/16.</ReadDate><ReferredCommittee>Referred to Committee on Transportation.</ReferredCommittee></BillHistory><BriefDescription>Authorizing the use of certain cargo extensions that connect to a recreational vehicle frame.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to authorizing the use of certain cargo extensions that connect to a recreational vehicle frame; amending RCW 46.04.620 and 46.44.037; creating a new section; and providing an effective date.</BillTitle>
+<EnactedClause />
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>It is the intent of the legislature to ensure that a cargo-carrying extension on the rear of a recreational vehicle must safely carry the weight of the cargo by requiring, if necessary, that the unit have an axle and two wheels, acting as a tag axle, to accommodate the weight and size of the cargo.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>46</TitleNumber><TextRun>.</TextRun><ChapterNumber>04</ChapterNumber><TextRun>.</TextRun><SectionNumber>620</SectionNumber></SectionCite> and 1974 ex.s. c 76 s 3 are each amended to read as follows:<Caption>Trailer.</Caption></BillSectionHeader>
+<P>"Trailer" includes every vehicle without motive power designed for being drawn by or used in conjunction with a motor vehicle constructed so that no appreciable part of its weight rests upon or is carried by such motor vehicle, but does not include a municipal transit vehicle, or any portion thereof. <TextRun amendingStyle="add">"Trailer" does not include a cargo extension that connects to the left and right side of a recreational vehicle frame and (1) becomes part of the frame, (2) does not pivot on a hitch, and (3) has an axle with two wheels, acting as a tag axle, to safely carry the weight of the cargo.</TextRun></P>
+<History>1974 ex.s. c 76 § 3; 1961 c 12 § 46.04.620. Prior: 1959 c 49 § 67; prior: (i) 1943 c 153 § 1, part; 1937 c 188 § 1, part; Rem. Supp. 1943 § 6312-1, part; 1923 c 181 § 1, part; 1921 c 96 § 2, part; 1919 c 59 § 1, part; 1917 c 155 § 1, part; RRS § 6313, part. (ii) 1937 c 189 § 1, part; RRS § 6360-1, part; 1929 c 180 § 1, part; 1927 c 309 § 2, part; RRS § 6362-2, part.</History>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>46</TitleNumber><TextRun>.</TextRun><ChapterNumber>44</ChapterNumber><TextRun>.</TextRun><SectionNumber>037</SectionNumber></SectionCite> and 2011 c 230 s 1 are each amended to read as follows:<Caption>Combination of units<TextRun fontFamily="Times New Roman">—</TextRun>Lawful operations.</Caption></BillSectionHeader>
+<P>Notwithstanding the provisions of RCW 46.44.036 and subject to such rules and regulations governing their operation as may be adopted by the state department of transportation, operation of the following combinations is lawful:</P>
+<P>(1) A combination consisting of a truck tractor, a semitrailer, and another semitrailer or a full trailer. In this combination a converter gear used to convert a semitrailer into a full trailer shall be considered to be a part of the full trailer and not a separate vehicle. A converter gear being pulled without load and not used to convert a semitrailer into a full trailer may be substituted in lieu of a full trailer or a semitrailer in any lawful combination;</P>
+<P>(2) A combination consisting of a truck tractor carrying a freight compartment no longer than eight feet, a semitrailer, and another semitrailer or full trailer that meets the legal length requirement for a truck and trailer combination set forth in RCW 46.44.030<TextRun amendingStyle="add">;</TextRun></P>
+<P><TextRun amendingStyle="add">(3) A recreational vehicle with a cargo extension that connects to the left and right side of a recreational vehicle frame and (a) becomes part of the frame, (b) does not pivot on a hitch, and (c) has an axle with two wheels, acting as a tag axle, to safely carry the weight of the cargo</TextRun>.</P>
+<History>2011 c 230 § 1; 1991 c 143 § 2; 1985 c 351 § 2; 1984 c 7 § 53; 1979 ex.s. c 149 § 3; 1975<Hyphen type="nobreak" />'76 2nd ex.s. c 64 § 9; 1965 ex.s. c 170 § 37; 1963 ex.s. c 3 § 53; 1961 c 12 § 46.44.037. Prior: 1957 c 273 § 16; 1955 c 384 § 3.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Severability<TextRun fontFamily="Times New Roman">—</TextRun>1984 c 7:</TextRun> See note following RCW 47.01.141.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective dates<TextRun fontFamily="Times New Roman">—</TextRun>Severability<TextRun fontFamily="Times New Roman">—</TextRun>1975<Hyphen type="nobreak" />'76 2nd ex.s. c 64:</TextRun> See notes following RCW 46.16A.455.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="new" action="effdate">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act takes effect July 1, 2016.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

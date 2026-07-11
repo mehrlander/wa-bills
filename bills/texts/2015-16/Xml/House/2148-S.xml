@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-4337.1</RequestNumber><ShortBillId>SHB 2148</ShortBillId><LongBillId>SUBSTITUTE HOUSE BILL 2148</LongBillId><Legislature>64th Legislature</Legislature><Session>2016 Regular Session</Session><Sponsors>House General Government &amp; Information Technology (originally sponsored by Representatives Chandler, Pike, and Hudgins)</Sponsors><BillHistory><ReadDate>READ FIRST TIME 02/09/16.</ReadDate></BillHistory><BriefDescription>Concerning the state auditor including allowing for audits to be conducted by a private entity and establishing an appeal process.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to the state auditor including allowing for audits to be conducted by a private entity and establishing an appeal process; amending RCW 43.09.245; adding a new section to chapter 43.09 RCW; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>09</ChapterNumber><TextRun>.</TextRun><SectionNumber>245</SectionNumber></SectionCite> and 1995 c 301 s 14 are each amended to read as follows:<Caption>Local government accounting<TextRun fontFamily="Times New Roman">—</TextRun>Examination of financial affairs.</Caption></BillSectionHeader>
+<P><TextRun amendingStyle="add">(1)</TextRun> The state auditor has the power to examine all the financial affairs of every local government and its officers and employees.</P>
+<P><TextRun amendingStyle="add">(2) Local governments may request a financial audit from a private entity in lieu of an audit by the state auditor. Any entity performing a financial audit under this section must meet generally accepted government auditing standards.</TextRun></P>
+<History>1995 c 301 § 14.</History>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>09</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>A state agency or local government may appeal the results of any audit pursuant to the administrative procedure act. The audit report may not be made public until the appeal process is complete and the results of the appeal addressed. The state auditor shall adopt appropriate rules which must include that the presiding officer of the appeal shall be an administrative law judge assigned by the office of administrative hearings in accordance with chapter 34.12 RCW. The provisions of RCW 34.05.425 regarding disqualification for bias, prejudice, interest, or any other cause apply.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>NULL AND VOID. If specific funding for purposes of this act, referencing this act by bill or chapter number, is not provided by June 30, 2016, in the supplemental omnibus operating appropriations act, this act is null and void.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

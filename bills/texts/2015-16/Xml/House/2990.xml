@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-4464.5</RequestNumber><ShortBillId>HB 2990</ShortBillId><LongBillId>HOUSE BILL 2990</LongBillId><Legislature>64th Legislature</Legislature><Session>2016 Regular Session</Session><Sponsors>Representatives Peterson, Robinson, Farrell, Gregerson, Bergquist, Riccelli, Jinkins, Pollet, Kuderer, Stanford, Ryu, Frame, Tharinger, Moscoso, Cody, Sells, Appleton, Reykdal, Ortiz-Self, Wylie, Hudgins, S. Hunt, Kagi, Van De Wege, Moeller, Tarleton, Senn, Walkinshaw, and Ormsby</Sponsors><BillHistory /><BriefDescription>Improving the fairness of Washington's tax system by narrowing the use tax exemption for extracted fuel.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to improving the fairness of Washington's tax system by narrowing the use tax exemption for extracted fuel; amending RCW 82.12.0263; adding a new section to chapter 82.12 RCW; adding a new section to chapter 82.32 RCW; and adding a new section to chapter 43.135 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>82</TitleNumber><TextRun>.</TextRun><ChapterNumber>12</ChapterNumber><TextRun>.</TextRun><SectionNumber>0263</SectionNumber></SectionCite> and 1980 c 37 s 62 are each amended to read as follows:<Caption>Exemptions<TextRun fontFamily="Times New Roman">—</TextRun>Use of fuel by extractor or manufacturer thereof.</Caption></BillSectionHeader>
+<P>The provisions of this chapter <TextRun amendingStyle="strike">shall</TextRun> <TextRun amendingStyle="add">do</TextRun> not apply in respect to the use of <TextRun amendingStyle="add">biomass</TextRun> fuel by the extractor or manufacturer thereof when used directly in the operation of the particular extractive operation or manufacturing plant which produced or manufactured the same. <TextRun amendingStyle="add">For purposes of this section, "biomass fuel" means wood waste and other wood residuals, including forest derived biomass, but does not include firewood or wood pellets. "Biomass fuel" also includes partially organic by-products of pulp, paper, and wood manufacturing processes.</TextRun></P>
+<History>1980 c 37 § 62. Formerly RCW 82.12.030(12).</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Intent<TextRun fontFamily="Times New Roman">—</TextRun>1980 c 37:</TextRun> See note following RCW 82.04.4281.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>82</TitleNumber><TextRun>.</TextRun><ChapterNumber>12</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>The value of the article used with respect to refinery fuel gas under this chapter is the most recent monthly United States natural gas wellhead price, as published by the federal energy information administration.</P>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>82</TitleNumber><TextRun>.</TextRun><ChapterNumber>32</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) By the last workday of the second and fourth calendar quarters, the state treasurer must transfer the amount specified in subsection (2) of this section from the general fund to the education legacy trust account. The first transfer under this subsection (1) must occur by December 31, 2016.</P>
+<P>(2) By December 15th and by June 15th of each year, the department must estimate the increase in state general fund revenues from the changes made under sections 1 and 2 of this act for the current and prior calendar quarters and notify the state treasurer of the increase.</P>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>135</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>RCW 43.135.034(4) does not apply to the transfers under section 3 of this act.</P>
+</BillSection>
+</BillBody>
+</Bill>

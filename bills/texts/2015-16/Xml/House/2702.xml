@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-3132.1</RequestNumber><ShortBillId>HB 2702</ShortBillId><LongBillId>HOUSE BILL 2702</LongBillId><Legislature>64th Legislature</Legislature><Session>2016 Regular Session</Session><Sponsors>Representative Klippert</Sponsors><BillHistory><ReadDate>Read first time 01/19/16.</ReadDate><ReferredCommittee>Referred to Committee on Transportation.</ReferredCommittee></BillHistory><BriefDescription>Prohibiting the flying of certain flags from Washington state ferry system vessels and terminals.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to flying flags from Washington state ferry system vessels and terminals; and adding a new section to chapter 47.60 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>47</TitleNumber><TextRun>.</TextRun><ChapterNumber>60</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) The Washington state ferry system may not fly a flag on any vessel or terminal that it operates, other than the flag of the United States, the flag of Washington state, or a maritime flag.</P>
+<P>(2) For the purposes of this section, "maritime flag" means a flag that is flown as part of the international code of signals for the purpose of communication between vessels.</P>
+</BillSection>
+</BillBody>
+</Bill>

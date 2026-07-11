@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-4179.1</RequestNumber><ShortBillId>SHB 2505</ShortBillId><LongBillId>SUBSTITUTE HOUSE BILL 2505</LongBillId><Legislature>64th Legislature</Legislature><Session>2016 Regular Session</Session><Sponsors>House Business &amp; Financial Services (originally sponsored by Representatives G. Hunt, Kirby, Shea, and Ormsby)</Sponsors><BillHistory><ReadDate>READ FIRST TIME 02/05/16.</ReadDate></BillHistory><BriefDescription>Concerning payroll cards.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to payroll cards; and adding a new chapter to Title 19 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The definitions in this section apply throughout this chapter unless the context clearly requires otherwise.</P></BillSectionHeader>
+<P>(1) "Consumer" means an employee whose wages are paid to a payroll deposit account established through the employee's current employer.</P>
+<P>(2) "Financial institution" means any bank, credit union, trust company, or any other person that holds a payroll deposit account or that issues a payroll card. An employer that uses payroll cards as a method of wage payment is not a financial institution solely by virtue of such use.</P>
+<P>(3) "Maintenance fee" means a recurring periodic fee charged to a consumer on a payroll deposit account.</P>
+<P>(4) "Payroll card" means a prepaid card or other device used by a consumer to access wages in a payroll deposit account.</P>
+<P>(5) "Payroll deposit account" means a prepaid account that is established at the request of an employer and to which electronic funds transfers of the consumer's wages, salary, or other employee compensation are made on a recurring basis, whether the account is operated or managed by the employer, a third-party payroll processor, a depository institution, or any other person.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) No financial institution may issue a payroll card to a consumer unless the provisions of this section are met.</P></BillSectionHeader>
+<P>(2) The financial institution must provide the consumer with the ability, without cost, to access the balance in the consumer's payroll deposit account online and over the telephone.</P>
+<P>(3) The financial institution may not charge the consumer a maintenance fee on the payroll deposit account while the consumer receives electronic funds transfers of wages from the employer that established the account, and for sixty days thereafter.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) An agreement made in violation of the provisions of this chapter or requiring any person to violate this chapter is contrary to public policy and is void and unenforceable.</P></BillSectionHeader>
+<P>(2) This chapter applies to agreements and transactions made on or after January 1, 2017.</P>
+</BillSection>
+<BillSection type="new" action="addchap" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber><P>Sections 1 through 3 of this act constitute a new chapter in <TitleCite><TextRun>Title </TextRun><TitleNumber>19</TitleNumber><TextRun> RCW</TextRun></TitleCite>.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>5</Value><TextRun>.  </TextRun></BillSectionNumber><P>If any provision of this act or its application to any person or circumstance is held invalid, the remainder of the act or the application of the provision to other persons or circumstances is not affected.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

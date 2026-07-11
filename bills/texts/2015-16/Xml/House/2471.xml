@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>H-3357.1</RequestNumber><ShortBillId>HB 2471</ShortBillId><LongBillId>HOUSE BILL 2471</LongBillId><Legislature>64th Legislature</Legislature><Session>2016 Regular Session</Session><Sponsors>Representative Appleton</Sponsors><BillHistory><ReadDate>Read first time 01/13/16.</ReadDate><ReferredCommittee>Referred to Committee on Judiciary.</ReferredCommittee></BillHistory><BriefDescription>Repealing the warrant authority of coroners.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to repealing the warrant authority of coroners; amending RCW 36.24.100; and repealing RCW 36.24.110 and 36.24.120.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>36</TitleNumber><TextRun>.</TextRun><ChapterNumber>24</ChapterNumber><TextRun>.</TextRun><SectionNumber>100</SectionNumber></SectionCite> and 1963 c 4 s 36.24.100 are each amended to read as follows:<Caption>Procedure where accused is at large<TextRun fontFamily="Times New Roman">—</TextRun>Warrant of arrest.</Caption></BillSectionHeader>
+<P>If the jury finds that the person was killed and the party committing the homicide is ascertained by the inquisition, but is not in custody, the coroner <TextRun amendingStyle="strike">shall issue a warrant for the arrest of the person charged, returnable forthwith to the nearest magistrate</TextRun> <TextRun amendingStyle="add">must deliver the findings of the jury and all documents, testimony, records generated, possessed, or used during the inquest to the prosecuting attorney of the county where the inquest was held</TextRun>.</P>
+<History>1963 c 4 § 36.24.100. Prior: Code 1881 § 2785; 1863 p 561 § 11; 1854 p 437 § 11; RRS § 4190.</History>
+</BillSection>
+<BillSection type="new" action="repeal">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>The following acts or parts of acts are each repealed:</P></BillSectionHeader>
+<P><RepealNumber>1</RepealNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>36</TitleNumber><TextRun>.</TextRun><ChapterNumber>24</ChapterNumber><TextRun>.</TextRun><SectionNumber>110</SectionNumber></SectionCite> (Form of warrant) and 2009 c 549 s 4037 &amp; 1963 c 4 s 36.24.110; and</P>
+<P><RepealNumber>2</RepealNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>36</TitleNumber><TextRun>.</TextRun><ChapterNumber>24</ChapterNumber><TextRun>.</TextRun><SectionNumber>120</SectionNumber></SectionCite> (Service of warrant) and 1963 c 4 s 36.24.120.</P>
+</BillSection>
+</BillBody>
+</Bill>

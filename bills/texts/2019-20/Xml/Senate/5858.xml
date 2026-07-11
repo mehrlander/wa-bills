@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-1451.1</RequestNumber><ShortBillId>SB 5858</ShortBillId><LongBillId>SENATE BILL 5858</LongBillId><Legislature>66th Legislature</Legislature><Session>2019 Regular Session</Session><Sponsors>Senators Hobbs and Zeiger</Sponsors><BillHistory><ReadDate>Read first time 02/07/19.</ReadDate><ReferredCommittee>Referred to Committee on Financial Institutions, Economic Development &amp; Trade.</ReferredCommittee></BillHistory><BriefDescription>Concerning funding and uses of the military department active state service account.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to funding and uses of the military department active state service account; amending RCW 38.40.220; and adding a new section to chapter 48.14 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>48</TitleNumber><TextRun>.</TextRun><ChapterNumber>14</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) In addition to any other taxes imposed on insurance premiums, each authorized insurer shall on or before the first day of March of each year pay to the state treasurer through the commissioner's office a tax on homeowners and commercial property insurance premiums. Such tax must be in the amount of two one-hundredths of one percent of all homeowners and commercial property premiums. For tax purposes, the reporting of premiums must be on a written basis or on a paid-for basis consistent with the basis required by the annual statement.</P>
+<P>(2) The taxes collected in subsection (1) of this section must be deposited into the military department active state service account created in RCW 38.40.220.</P>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>38</TitleNumber><TextRun>.</TextRun><ChapterNumber>40</ChapterNumber><TextRun>.</TextRun><SectionNumber>220</SectionNumber></SectionCite> and 2008 c 44 s 1 are each amended to read as follows:<Caption>Military department active state service account.</Caption></BillSectionHeader>
+<P>The military department active state service account is created in the state treasury. Moneys may be placed in the account from legislative appropriations and transfers, federal appropriations, or any other lawful source. Moneys in the account may be spent only after appropriation. Expenditures from the account may be used <TextRun amendingStyle="strike">only</TextRun> for<TextRun amendingStyle="add">:</TextRun></P>
+<P><TextRun amendingStyle="add">(1) C</TextRun>laims and expenses for the organized militia called into active state service to perform duties under RCW 38.08.040 that are not paid under RCW 38.24.010 from nonappropriated funds, including but not limited to claims and expenses arising from anticipated planning, training, exercises, and other administrative duties that are not of an emergency nature<TextRun amendingStyle="add">;</TextRun></P>
+<P><TextRun amendingStyle="add">(2) The military department's state disaster planning, training, exercising, and response; and</TextRun></P>
+<P><TextRun amendingStyle="add">(3) The maintenance of military department facilities</TextRun>.</P>
+<History>2008 c 44 § 1.</History>
+</BillSection>
+</BillBody>
+</Bill>

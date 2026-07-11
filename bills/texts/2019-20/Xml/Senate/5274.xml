@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-0441.2</RequestNumber><ShortBillId>SB 5274</ShortBillId><LongBillId>SENATE BILL 5274</LongBillId><Legislature>66th Legislature</Legislature><Session>2019 Regular Session</Session><Sponsors>Senators Hasegawa, Hunt, Wilson, C., Billig, Nguyen, Conway, Das, Frockt, Keiser, Randall, and Saldaña</Sponsors><BillHistory><ReadDate>Read first time 01/16/19.</ReadDate><ReferredCommittee>Referred to Committee on Health &amp; Long Term Care.</ReferredCommittee></BillHistory><BriefDescription>Concerning dental coverage for Pacific islanders residing in Washington.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to dental coverage for Pacific islanders residing in Washington; amending RCW 43.71A.010 and 43.71A.800; adding a new section to chapter 43.71A RCW; creating a new section; and declaring an emergency.</BillTitle>
+<EnactedClause />
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) The legislature finds that:</P></BillSectionHeader>
+<P>(a) The legislature recognized the important relationship between the citizens of the compact of free association (COFA) nations and the United States by enacting the COFA premium assistance program in 2018 to pay for premiums and out-of-pocket expenses for COFA citizens who purchase qualifying health coverage;</P>
+<P>(b) While other Washingtonians who are income-eligible for medicaid receive dental coverage through apple health, individuals enrolled in the COFA premium assistance program do not currently have affordable access to dental coverage;</P>
+<P>(c) Affordable access to dental care, including preventative care, is critical to treating the whole body health of an individual and preventing systemic health problems such as stroke, heart attack, and diabetes. Poor oral health is also associated with a wide range of hardships including difficulty obtaining employment, work absences due to pain, and decreased productivity; and</P>
+<P>(d) Research shows that people living in households in which the primary language spoken at home is not English, seniors, people with disabilities, and people who identify as Native Hawaiian or Pacific Islanders are disproportionately impacted by oral health inequities.</P>
+<P>(2) The legislature therefore intends to increase access to dental services for COFA islanders residing in Washington by establishing a dental services program that provides dental coverage to income-eligible members of this population with no premium or cost-sharing payment requirements.</P>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>71A</ChapterNumber><TextRun>.</TextRun><SectionNumber>010</SectionNumber></SectionCite> and 2018 c 161 s 2 are each amended to read as follows:<Caption>Definitions.</Caption></BillSectionHeader>
+<P>The definitions in this section apply throughout this chapter unless the context clearly requires otherwise.</P>
+<P>(1) "Advance premium tax credit" means the premium assistance amount determined in accordance with the affordable care act.</P>
+<P>(2) "Affordable care act" means the federal patient protection and affordable care act, P.L. 111-148, as amended by the federal health care and education reconciliation act of 2010, P.L. 111-152, or federal regulations or guidance issued under the affordable care act.</P>
+<P>(3) "Authority" means the Washington state health care authority.</P>
+<P>(4) "COFA citizen" means a person who is a citizen of:</P>
+<P>(a) The Republic of the Marshall Islands;</P>
+<P>(b) The Federated States of Micronesia; or</P>
+<P>(c) The Republic of Palau.</P>
+<P>(5) "Health benefit exchange" or "exchange" means the Washington health benefit exchange established in chapter 43.71 RCW.</P>
+<P>(6) "Income" means the modified adjusted gross income attributed to an individual for purposes of determining his or her eligibility for advance premium tax credits.</P>
+<P>(7) "In-network provider" means a health care provider or group of providers that directly contracts with an insurer to provide health benefits covered by a health benefit plan offered by an insurer.</P>
+<P>(8) "Open enrollment period" means the period during which a person may enroll in a qualified health plan <TextRun amendingStyle="add">or qualified dental plan</TextRun>.</P>
+<P>(9) "Out-of-pocket costs" means copayments, coinsurance, deductibles, and other cost-sharing requirements imposed under a qualified health plan <TextRun amendingStyle="add">or qualified dental plan</TextRun> for services, pharmaceuticals, devices, and other health benefits that are covered by the plan and rendered by in-network providers.</P>
+<P>(10) "Premium cost" means an individual's premium for a qualified health plan <TextRun amendingStyle="add">or qualified dental plan</TextRun> less the amount of the individual's advance premium tax credit.</P>
+<P>(11) <TextRun amendingStyle="add">"Qualified dental plan" means a stand-alone dental benefit plan sold through the health benefit exchange.</TextRun></P>
+<P><TextRun amendingStyle="add">(12)</TextRun> "Qualified health plan" means a health benefit plan sold through the health benefit exchange.</P>
+<P><TextRun amendingStyle="strike">(12)</TextRun> <TextRun amendingStyle="add">(13)</TextRun> "Resident" means a person who is domiciled in this state.</P>
+<P><TextRun amendingStyle="strike">(13)</TextRun> <TextRun amendingStyle="add">(14)</TextRun> "Special enrollment period" means a period during which a person who has not done so during the open enrollment period may enroll in a qualified health plan <TextRun amendingStyle="add">or qualified dental plan</TextRun> through the exchange if the person meets specified requirements.</P>
+<P><TextRun amendingStyle="add">(15) "Total cost of care" means out-of-pocket costs and other costs for services rendered by in-network dental providers that exceed the qualified dental plan maximum benefit for the plan year.</TextRun></P>
+<History>2018 c 161 § 2.</History>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>71A</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) An individual is eligible for the COFA islander dental care program if the individual is eligible for the COFA premium assistance program under RCW 43.71A.020, or:</P>
+<P>(a) Is a resident;</P>
+<P>(b) Is a COFA citizen;</P>
+<P>(c) Enrolls in a qualified dental plan;</P>
+<P>(d) Has income that is less than one hundred thirty-three percent of the federal poverty level; and</P>
+<P>(e) Is enrolled in medicare coverage under Title XVIII of the social security act (42 U.S.C. Sec. 1395 et seq., as amended).</P>
+<P>(2) The authority shall pay the premium cost for a qualified dental plan and the total cost of care for an individual who is eligible for the COFA islander dental care program under subsection (1) of this section.</P>
+<P>(3) The authority may disqualify a participant from the program if the participant:</P>
+<P>(a) No longer meets the eligibility criteria in subsection (1) of this section;</P>
+<P>(b) Fails, without good cause, to comply with procedural or documentation requirements established by the authority in accordance with subsection (4) of this section;</P>
+<P>(c) Fails, without good cause, to notify the authority of a change of address in a timely manner;</P>
+<P>(d) Withdraws the participant's application or requests termination of coverage; or</P>
+<P>(e) Performs an act, practice, or omission that constitutes fraud, and, as a result, an insurer rescinds the participant's policy for the qualified dental plan.</P>
+<P>(4) The authority shall establish:</P>
+<P>(a) Application, enrollment, and renewal processes for the COFA islander dental care program;</P>
+<P>(b) The qualified dental plans that are eligible for reimbursement under the program;</P>
+<P>(c) Procedural requirements for continued participation in the program, including participant documentation requirements that are necessary for the authority to administer the program; and</P>
+<P>(d) Open enrollment periods and special enrollment periods.</P>
+<P>(5) The authority shall contract with a Washington organization that has multilingual language capacity to provide a comprehensive community education and outreach campaign to COFA citizens, working with stakeholder and community organizations, to facilitate applications for, and enrollment in, the COFA islander dental care program. The education and outreach program must provide culturally and linguistically accessible information to facilitate participation in the program including, but not limited to, enrollment procedures, benefit utilization, and patient responsibilities. The community education and outreach campaign must begin no later than September 1, 2019.</P>
+<P>(6) The first open enrollment period for the COFA islander dental care program must begin no later than November 1, 2019.</P>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>71A</ChapterNumber><TextRun>.</TextRun><SectionNumber>800</SectionNumber></SectionCite> and 2018 c 161 s 4 are each amended to read as follows:<Caption>Advisory committee.</Caption></BillSectionHeader>
+<P>The authority shall appoint an advisory committee that includes, but is not limited to, insurers and representatives of communities of COFA citizens. The committee shall advise the authority in the development, implementation, and operation of the COFA premium assistance <TextRun amendingStyle="add">and the COFA islander dental care</TextRun> program<TextRun amendingStyle="add">s</TextRun> established in this chapter. The advisory committee must exist until at least December 31, <TextRun amendingStyle="strike">2019</TextRun> <TextRun amendingStyle="add">2020</TextRun>. <TextRun amendingStyle="strike">Subject to the availability of amounts appropriated for this specific purpose,</TextRun> <TextRun amendingStyle="add">A</TextRun>dvisory committee members may be reimbursed for transportation and travel expenses related to serving on the committee, as needed.</P>
+<History>2018 c 161 § 4.</History>
+</BillSection>
+<BillSection type="new" action="emerg">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>5</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act is necessary for the immediate preservation of the public peace, health, or safety, or support of the state government and its existing public institutions, and takes effect immediately.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

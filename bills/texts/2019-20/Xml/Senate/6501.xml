@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-5384.1</RequestNumber><ShortBillId>SB 6501</ShortBillId><LongBillId>SENATE BILL 6501</LongBillId><Legislature>66th Legislature</Legislature><Session>2020 Regular Session</Session><Sponsors>Senator Padden</Sponsors><BillHistory /><BriefDescription>Concerning the unlawful disposition of human remains.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to the unlawful disposition of human remains; amending RCW 68.50.130; and prescribing penalties.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>68</TitleNumber><TextRun>.</TextRun><ChapterNumber>50</ChapterNumber><TextRun>.</TextRun><SectionNumber>130</SectionNumber></SectionCite> and 2019 c 432 s 21 are each amended to read as follows:<Caption>Unlawful disposal of remains. <TextRun fontStyle="italic">(Effective May 1, 2020.)</TextRun></Caption></BillSectionHeader>
+<P>Every person who performs a disposition of any human remains, except as otherwise provided by law, in any place, except in a cemetery or a building dedicated exclusively for religious purposes, is guilty of a <TextRun amendingStyle="strike">misdemeanor</TextRun> <TextRun amendingStyle="add">class C felony</TextRun>. Disposition of human remains following cremation, alkaline hydrolysis, or natural organic reduction may also occur on private property, with the consent of the property owner; and on public or government lands or waters with the approval of the government agency that has either jurisdiction or control, or both, of the lands or waters.</P>
+<History>2019 c 432 § 21; 2005 c 365 § 139; 1943 c 247 § 28; Rem. Supp. 1943 § 3778-28. Formerly RCW 68.08.130.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2019 c 432:</TextRun> See note following RCW 68.05.175.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+</BillBody>
+</Bill>

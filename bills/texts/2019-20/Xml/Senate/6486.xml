@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-5429.1</RequestNumber><ShortBillId>SB 6486</ShortBillId><LongBillId>SENATE BILL 6486</LongBillId><Legislature>66th Legislature</Legislature><Session>2020 Regular Session</Session><Sponsors>Senators Rivers, Short, Brown, and Becker</Sponsors><BillHistory><ReadDate>Read first time 01/17/20.</ReadDate><ReferredCommittee>Referred to Committee on Health &amp; Long Term Care.</ReferredCommittee></BillHistory><BriefDescription>Expanding medicaid coverage for individuals with a rare disease.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to expanding medicaid coverage for individuals with a rare disease; adding a new section to chapter 74.09 RCW; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>74</TitleNumber><TextRun>.</TextRun><ChapterNumber>09</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) Beginning January 1, 2021, the authority shall provide health coverage to individuals who:</P>
+<P>(a) Have been diagnosed with a rare disease; and</P>
+<P>(b) Are not eligible for categorically needy medical assistance as defined in the social security Title XIX state plan.</P>
+<P>(2) The amount, scope, and duration of health care services provided to individuals under this section must be the same as that provided to individuals eligible for categorically needy medical assistance. The authority shall manage its application and renewal procedures so as to maximize enrollment of eligible individuals.</P>
+<P>(3) The authority shall seek federal funding, as available, to defray state costs associated with providing coverage to persons under this section.</P>
+<P>(4) For purposes of this section, "rare disease" means any disease or condition that affects less than two hundred thousand persons in the United States.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>The health care authority shall submit a waiver request to the federal centers for medicare and medicaid services to allow for the state to receive federal match for the coverage of persons diagnosed with a rare disease identified in section 1 of this act. The authority shall provide coverage to all eligible persons diagnosed with a rare disease identified under section 1 of this act regardless of federal approval of the waiver request. The authority shall report to the legislature on the status of the waiver request by December 1, 2020, and inform the legislature of any statutory changes necessary to allow the state to receive federal match for the coverage of persons diagnosed with a rare disease identified in section 1 of this act.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-4942.1</RequestNumber><ShortBillId>SB 6308</ShortBillId><LongBillId>SENATE BILL 6308</LongBillId><Legislature>66th Legislature</Legislature><Session>2020 Regular Session</Session><Sponsors>Senators Zeiger, O'Ban, Padden, and Wagoner</Sponsors><BillHistory><ReadDate>Read first time 01/15/20.</ReadDate><ReferredCommittee>Referred to Committee on Human Services, Reentry &amp; Rehabilitation.</ReferredCommittee></BillHistory><BriefDescription>Conducting a study of data systems used by the department of corrections and county jails.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to conducting a study of data systems used by the department of corrections and county jails; adding a new section to chapter 72.09 RCW; and providing an expiration date.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>72</TitleNumber><TextRun>.</TextRun><ChapterNumber>09</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) The joint legislative audit and review committee shall conduct a study of the data systems used by the department that support the intake, transfer, and release of offenders, and the interaction of the department data systems with information systems used by county jails under RCW 36.28A.040.</P>
+<P>(2) The study must seek to identify:</P>
+<P>(a) The categories and types of offender information that are currently maintained and tracked by the department's offender management network information system;</P>
+<P>(b) The categories and types of offender information that are currently authorized and shared across information systems used by county jails under RCW 36.28A.040, including considerations of confidentiality policies concerning data sharing;</P>
+<P>(c) How the calculations for sentence, release, and supervision terms are determined, including any dependency on information from courts and county jails; and</P>
+<P>(d) Departmental staffing levels currently allocated to reviewing any sentence, release, or supervision term calculations generated or maintained through the department's offender management network information system.</P>
+<P><TextRun amendingStyle="add" />(3) The department and the Washington association of sheriffs and police chiefs shall provide advice and assistance to the committee's effort to conduct the study.</P>
+<P>(4) By December 1, 2023, and in compliance with RCW 43.01.036, the committee shall report the findings of the study to the governor and relevant policy and fiscal committees of the legislature.</P>
+<P>(5) This section expires July 1, 2024.</P>
+</BillSection>
+</BillBody>
+</Bill>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-0508.1</RequestNumber><ShortBillId>SB 5083</ShortBillId><LongBillId>SENATE BILL 5083</LongBillId><Legislature>66th Legislature</Legislature><Session>2019 Regular Session</Session><Sponsors>Senators McCoy, Hasegawa, and Saldaña</Sponsors><BillHistory><PrefiledDate>Prefiled 01/04/19.</PrefiledDate><ReadDate>Read first time 01/14/19.</ReadDate><ReferredCommittee>Referred to Committee on Law &amp; Justice.</ReferredCommittee></BillHistory><BriefDescription>Allowing certain records, documents, proceedings, and published laws of federally recognized Indian tribes to be admitted as evidence in courts of Washington state.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to allowing certain records, documents, proceedings, and published laws of federally recognized Indian tribes to be admitted as evidence in courts of Washington state; and amending RCW 5.44.010, 5.44.040, and 5.44.050.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>5</TitleNumber><TextRun>.</TextRun><ChapterNumber>44</ChapterNumber><TextRun>.</TextRun><SectionNumber>010</SectionNumber></SectionCite> and 1997 c 358 s 7 are each amended to read as follows:<Caption>Court records and proceedings<TextRun fontFamily="Times New Roman">—</TextRun>When admissible.</Caption></BillSectionHeader>
+<P>The records and proceedings of any court of the United States, or any state or territory, <TextRun amendingStyle="strike">shall be</TextRun> <TextRun amendingStyle="add">or any federally recognized Indian tribe, are</TextRun> admissible in evidence in all cases in this state when duly certified by the attestation of the clerk, prothonotary or other officer having charge of the records of such court, with the seal of such court annexed.</P>
+<History>1997 c 358 § 7; Code 1881 § 430; 1877 p 94 § 432; 1869 p 115 § 426; 1854 p 195 § 334; RRS § 1254.</History>
+<RCWNoteSection>
+<CrossRefNote><NoteP><TextRun fontWeight="bold">Rules of court: </TextRun>Cf. CR 44(a)(1).</NoteP></CrossRefNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>5</TitleNumber><TextRun>.</TextRun><ChapterNumber>44</ChapterNumber><TextRun>.</TextRun><SectionNumber>040</SectionNumber></SectionCite> and 1991 c 59 s 1 are each amended to read as follows:<Caption>Certified copies of public records as evidence.</Caption></BillSectionHeader>
+<P>Copies of all records and documents on record or on file in the offices of the various departments of the United States and of this state or any other state or territory of the United States <TextRun amendingStyle="add">or any federally recognized Indian tribe</TextRun>, when duly certified by the respective officers having by law the custody thereof, under their respective seals where such officers have official seals, <TextRun amendingStyle="strike">shall</TextRun> <TextRun amendingStyle="add">must</TextRun> be admitted in evidence in the courts of this state.</P>
+<History>1991 c 59 § 1; 1891 c 19 § 16; Code 1881 § 432; 1854 p 195 § 336; RRS § 1257.</History>
+<RCWNoteSection>
+<CrossRefNote><NoteP><TextRun fontWeight="bold">Rules of court: </TextRun>Cf. ER 803; CR 44(a)(1).</NoteP></CrossRefNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>5</TitleNumber><TextRun>.</TextRun><ChapterNumber>44</ChapterNumber><TextRun>.</TextRun><SectionNumber>050</SectionNumber></SectionCite> and Code 1881 s 435 are each amended to read as follows:<Caption>Foreign statutes as evidence.</Caption></BillSectionHeader>
+<P>Printed copies of the statute laws of any state, territory, <TextRun amendingStyle="strike">or</TextRun> foreign government, <TextRun amendingStyle="add">or federally recognized Indian tribe</TextRun> if purporting to have been published under the authority of the respective governments, or if commonly admitted and read as evidence in their courts, <TextRun amendingStyle="strike">shall</TextRun> <TextRun amendingStyle="add">must</TextRun> be admitted in all courts in this state, and on all other occasions as presumptive evidence of such laws.</P>
+<History>Code 1881 § 435; 1877 p 95 § 437; 1869 p 116 § 431; 1854 p 196 § 339; RRS § 1259.</History>
+<RCWNoteSection>
+<CrossRefNote><NoteP>Uniform judicial notice of foreign laws act: Chapter 5.24 RCW.</NoteP></CrossRefNote>
+</RCWNoteSection>
+</BillSection>
+</BillBody>
+</Bill>

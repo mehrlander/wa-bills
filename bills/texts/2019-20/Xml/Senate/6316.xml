@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-4931.1</RequestNumber><ShortBillId>SB 6316</ShortBillId><LongBillId>SENATE BILL 6316</LongBillId><Legislature>66th Legislature</Legislature><Session>2020 Regular Session</Session><Sponsors>Senators Holy, Pedersen, Padden, Dhingra, Hasegawa, and Lovelett</Sponsors><BillHistory><ReadDate>Read first time 01/15/20.</ReadDate><ReferredCommittee>Referred to Committee on Law &amp; Justice.</ReferredCommittee></BillHistory><BriefDescription>Prohibiting the consideration of the number of citations for traffic infractions issued by a law enforcement officer in the performance review of the officer.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to prohibiting the consideration of the number of citations for traffic infractions issued by a law enforcement officer in the performance review of the officer; adding a new section to chapter 46.64 RCW; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature finds it is essential that the citizens of Washington state trust both the integrity and the intentions of law enforcement officers with whom they come in contact regarding traffic violations and that law enforcement agencies avoid the appearance of impropriety in the way they evaluate the performance of law enforcement officers. The legislature intends by this act to ensure that the performance of law enforcement officers is evaluated with objectivity, neutrality, impartiality, and fairness and avoids the perception that traffic stops are occurring pursuant to any real or alleged quota system or directive to enhance the evaluation of a law enforcement officer's performance or to enhance a law enforcement agency's revenue from the assessment of penalties imposed for traffic violations.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>46</TitleNumber><TextRun>.</TextRun><ChapterNumber>64</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>The number of citations issued by a law enforcement officer for traffic infractions, or the amount of penalties assessed from the issuance of such citations, may not be considered in any performance review, evaluation, rating, assessment, salary, promotion, or assignment of the law enforcement officer.</P>
+</BillSection>
+</BillBody>
+</Bill>

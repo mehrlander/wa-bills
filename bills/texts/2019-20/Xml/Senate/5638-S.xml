@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-1624.2</RequestNumber><ShortBillId>SSB 5638</ShortBillId><LongBillId>SUBSTITUTE SENATE BILL 5638</LongBillId><Legislature>66th Legislature</Legislature><Session>2019 Regular Session</Session><Sponsors>Senate Environment, Energy &amp; Technology (originally sponsored by Senators Brown, Rivers, Becker, and Short)</Sponsors><BillHistory><ReadDate>READ FIRST TIME 02/20/19.</ReadDate></BillHistory><BriefDescription>Recognizing the validity of distributed ledger technology.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to recognizing the validity of distributed ledger technology; and adding a new chapter to Title 19 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature intends to encourage the development of distributed ledger technology. It further intends for this chapter to comply with 15 U.S.C. Sec. 7002 and here makes specific reference to chapter 96 of Title 15 of the United States Code.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>The definitions in this section apply throughout this chapter unless the context clearly requires otherwise.</P></BillSectionHeader>
+<P>(1) "Blockchain" means a cryptographically secured, chronological, and decentralized consensus ledger or consensus database maintained via internet, peer-to-peer network, or other similar interaction.</P>
+<P>(2) "Distributed ledger technology" means any distributed ledger protocol and supporting infrastructure, including blockchain, that uses a distributed, decentralized, shared, and replicated ledger.</P>
+<P>(3) "Electronic record" means a record generated, communicated, received, or stored by electronic means for use in an information system or for transmission from one information system to another.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>An electronic record may not be denied legal effect, validity, or enforceability solely because it is generated, communicated, received, or stored using distributed ledger technology.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addchap" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber><P>Sections 1 through 3 of this act constitute a new chapter in <TitleCite><TextRun>Title </TextRun><TitleNumber>19</TitleNumber><TextRun> RCW</TextRun></TitleCite>.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

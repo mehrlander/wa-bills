@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-5227.1</RequestNumber><ShortBillId>SB 6341</ShortBillId><LongBillId>SENATE BILL 6341</LongBillId><Legislature>66th Legislature</Legislature><Session>2020 Regular Session</Session><Sponsors>Senators Stanford and King</Sponsors><BillHistory /><BriefDescription>Requiring the liquor and cannabis board to provide written interpretations of liquor statutes and rules.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to requiring the liquor and cannabis board to provide written interpretations of liquor statutes and rules; adding a new section to chapter 66.08 RCW; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature intends to protect public health and safety, facilitate tax collection, and preserve an orderly liquor market by ensuring liquor licensees, the public, and employees of the liquor and cannabis board understand how Title 66 RCW will be interpreted and enforced by the board.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>66</TitleNumber><TextRun>.</TextRun><ChapterNumber>08</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) The board must adopt rules to allow persons licensed under this title or organizations representing liquor licensees to request a written board interpretation of liquor laws and rules to specific facts presented by the requester. The process of requesting a written interpretation must be clearly identified and described on the board's public web site.</P>
+<P>(2) The board must provide a written interpretation to the requester within sixty days of the requester submitting an initial request for the interpretation. The board may request additional information from the requester during this sixty-day period.</P>
+<P>(3) The board must make any written interpretation, or summary of the interpretation under (d) of this subsection, available for public inspection within thirty days of providing the interpretation to the requester. The board must publish all interpretations on its public web site in a manner that provides a complete collection of interpretations organized by topic and readily searchable by the public. Before making a written interpretation available for public inspection, the board must:</P>
+<P>(a) Remove the name, address, and other identifying details of the person or organization requesting the interpretation;</P>
+<P>(b) If possible, make the interpretation generally applicable to all licensees by removing the name, address, and other identifying details of a specific licensee;</P>
+<P>(c) Remove information, the disclosure of which is expressly prohibited by statute or rule; and</P>
+<P>(d) Upon request, prepare a summary of the interpretation and post this summary instead of the interpretation if the interpretation cannot be prepared in a manner that avoids information uniquely identifying the requester.</P>
+<P>(4) All enforcement action of the board must be consistent with its published written interpretations, unless the board formally withdraws an interpretation.</P>
+<P>(5) The board may withdraw a written interpretation at any time and for any reason provided the board identifies justification for the withdrawal on its public web site.</P>
+<P>(6) Upon request of a liquor licensee or organization liquor licensees, the board must provide notice of the publication or withdrawal of any interpretation.</P>
+<P>(7) This section does not prevent the board from providing confidential interpretations to individual licensees if the confidential interpretation is not in conflict with a written interpretation published by the board.</P>
+</BillSection>
+</BillBody>
+</Bill>

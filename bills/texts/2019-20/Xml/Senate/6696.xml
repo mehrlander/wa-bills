@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-7352.2</RequestNumber><ShortBillId>SB 6696</ShortBillId><LongBillId>SENATE BILL 6696</LongBillId><Legislature>66th Legislature</Legislature><Session>2020 Regular Session</Session><Sponsors>Senators O'Ban, Braun, Becker, Rivers, Schoesler, Brown, Warnick, Honeyford, Muzzall, Wagoner, Cleveland, Das, Zeiger, Short, Wilson, L., King, Holy, Darneille, Saldaña, Padden, and Kuderer</Sponsors><BillHistory><ReadDate>Read first time 03/03/20.</ReadDate><ReferredCommittee>Referred to Committee on Ways &amp; Means.</ReferredCommittee></BillHistory><BriefDescription>Making expenditures from the budget stabilization account for declared catastrophic events.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to making expenditures from the budget stabilization account for declared catastrophic events; making an appropriation; creating new sections; and declaring an emergency.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>On February 29, 2020, the governor declared a state of emergency in all counties due to threats of life and property from the novel coronavirus (COVID-19).</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="approp" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>FOR THE DISASTER RESPONSE ACCOUNT.</SectionCaption><P>The state treasurer must transfer the sum of one hundred million dollars from the budget stabilization account to the disaster response account. This amount is provided solely for response and recovery efforts related to the declared emergency from the coronavirus (COVID-19). For purposes of RCW 43.88.055(4), the transfer in this section does not alter the requirement to balance in the ensuing biennia.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="approp" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCaption>FOR THE OFFICE OF FINANCIAL MANAGEMENT.</SectionCaption><P>The sum of one hundred million dollars or as much thereof as may be necessary, is appropriated from the disaster response account for costs incurred by state agencies and local governments in response to the declared emergency from the coronavirus (COVID-19). The appropriation in this section is subject to the following conditions and limitations:</P></BillSectionHeader>
+<P>(a) The office of financial management must provide monthly updates on spending from this appropriation to the fiscal committees of the legislature; and</P>
+<P>(b) Funding from this section may not be used to supplant existing federal, state, and local funds for services and activities that will assist in the response to the coronavirus (COVID-19). Additionally, agencies and local governments must demonstrate maximum use of available federal funds for coronavirus (COVID-19) response and recovery efforts before seeking funding from this appropriation.</P>
+</BillSection>
+<BillSection type="new" action="emerg" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act is necessary for the immediate preservation of the public peace, health, or safety, or support of the state government and its existing public institutions, and takes effect immediately.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

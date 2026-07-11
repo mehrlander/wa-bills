@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-1435.1</RequestNumber><ShortBillId>SB 5916</ShortBillId><LongBillId>SENATE BILL 5916</LongBillId><Legislature>66th Legislature</Legislature><Session>2019 Regular Session</Session><Sponsors>Senators Hasegawa, Nguyen, Saldaña, Das, and Wilson, C.</Sponsors><BillHistory><ReadDate>Read first time 02/14/19.</ReadDate><ReferredCommittee>Referred to Committee on Law &amp; Justice.</ReferredCommittee></BillHistory><BriefDescription>Collecting data regarding the use of force.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to collecting data regarding the use of force; adding a new section to chapter 10.93 RCW; and adding a new section to chapter 18.170 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>10</TitleNumber><TextRun>.</TextRun><ChapterNumber>93</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) By January 1, 2020, and annually thereafter, all general authority Washington law enforcement agencies and the department of corrections must report to the office of the attorney general regarding the occasions of justifiable homicide or uses of deadly force by a public officer, peace officer, or person aiding under RCW 9A.16.040. The report must include the following:</P>
+<P>(a) The number of tort claims filed and moneys paid in use of force cases;</P>
+<P>(b) The number of incidents in which peace officers discharged firearms at citizens;</P>
+<P>(c) The demographic characteristics of the officers and citizens involved in each incident, including sex, age, race, and ethnicity;</P>
+<P>(d) The agency or agencies employing the involved officers and location of each incident;</P>
+<P>(e) The particular weapon or weapons used by peace officers and citizens; and</P>
+<P>(f) The injuries, if any, suffered by officers and citizens.</P>
+<P>(2) By July 1, 2020, and annually thereafter, the office of the attorney general must compile reports received pursuant to this section and section 2 of this act and make public the data collected.</P>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>18</TitleNumber><TextRun>.</TextRun><ChapterNumber>170</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) By January 1, 2020, and annually thereafter, any private security company licensed by the department must report to the department regarding the occasions of the use of force requiring the discharge of a firearm by a private security guard in its employ. The report must include the following:</P>
+<P>(a) The number of incidents in which security guards discharged firearms at citizens;</P>
+<P>(b) The demographic characteristics of the security guards and citizens involved in each incident, including sex, age, race, and ethnicity;</P>
+<P>(c) The company employing the involved security guards and the location of each incident;</P>
+<P>(d) The particular weapon or weapons used by security guards and citizens; and</P>
+<P>(e) The injuries, if any, suffered by security guards and citizens.</P>
+<P>(2) The department must forward all data received on an annual basis to the office of the attorney general.</P>
+</BillSection>
+</BillBody>
+</Bill>

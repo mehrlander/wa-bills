@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-7204.1</RequestNumber><ShortBillId>SB 6698</ShortBillId><LongBillId>SENATE BILL 6698</LongBillId><Legislature>66th Legislature</Legislature><Session>2020 Regular Session</Session><Sponsors>Senator Ericksen</Sponsors><BillHistory /><BriefDescription>Increasing transparency for renewable energy credit transactions.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to increasing transparency for renewable energy credit transactions; and adding a new chapter to Title 80 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature finds that Washington needs to enhance transparency relating to transactions involving renewable energy credits. As the state implements the Washington clean energy transformation act, it will be necessary for the public to know who is generating renewable energy credits, who is dealing in them, and how much money is being generated in renewable energy credit transactions.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>The definitions in this section apply throughout this chapter unless the context clearly requires otherwise.</P></BillSectionHeader>
+<P>(1) "Renewable energy credit" has the same meaning as defined in RCW 19.405.020.</P>
+<P>(2) "Renewable energy credit broker" means a person or organization that buys, sells, or trades a renewable energy credit in Washington, and may include an electric utility as defined in RCW 19.405.020.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) Beginning January 1, 2021, a renewable energy credit broker shall register with the commission by December 31st of each year in which the renewable energy credit broker generated, bought, sold, traded, or owned a renewable energy credit in Washington.</P></BillSectionHeader>
+<P>(2) The commission shall keep and maintain a registry of renewable energy credit brokers that are required to register pursuant to subsection (1) of this section.</P>
+<P>(3) The registry required to be kept and maintained by the commission under this section must include the following information about each renewable energy credit broker:</P>
+<P>(a) The name of the person or organization that is a renewable energy credit broker;</P>
+<P>(b) The business address of each renewable energy credit broker or the name and address of a person designated as an agent for service of process in Washington for each renewable energy credit broker;</P>
+<P>(c) A business telephone number for each renewable energy credit broker;</P>
+<P>(d) The number of renewable energy credits the renewable energy credit broker generated, bought, sold, traded, or owned in Washington during the previous year;</P>
+<P>(e) The source of renewable energy credits the renewable energy credit broker generated, bought, sold, traded, or owned in Washington during the previous year;</P>
+<P>(f) The total dollar amount of revenue the renewable energy credit broker derived from the buying, selling, or trading of renewable energy credits in Washington during the previous year; and</P>
+<P>(g) The average cost of the renewable energy credits the renewable energy credit broker bought, sold, or traded in Washington during the previous year.</P>
+<P>(4) The registry required to be kept and maintained under this section must be made publicly available by the commission and must be posted to the commission's internet web site in a searchable format.</P>
+</BillSection>
+<BillSection type="new" action="addchap" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber><P>Sections 1 through 3 of this act constitute a new chapter in <TitleCite><TextRun>Title </TextRun><TitleNumber>80</TitleNumber><TextRun> RCW</TextRun></TitleCite>.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

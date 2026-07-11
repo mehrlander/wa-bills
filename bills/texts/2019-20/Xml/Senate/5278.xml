@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-0637.2</RequestNumber><ShortBillId>SB 5278</ShortBillId><LongBillId>SENATE BILL 5278</LongBillId><Legislature>66th Legislature</Legislature><Session>2019 Regular Session</Session><Sponsors>Senators Mullet and Wilson, L.</Sponsors><BillHistory /><BriefDescription>Concerning reporting suspected fraud and theft of payment cards.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to reporting suspected fraud and theft of payment cards; and adding a new chapter to Title 19 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) Any financial institution which issues payment cards shall list a phone number on its web site for cardholders and merchants to report suspected incidents in which payment cards are used for fraud or payment cards have been stolen.</P></BillSectionHeader>
+<P>(2) Any financial institution which issues payment cards shall have employees or contractors available at all times to receive phone calls for the purpose of providing assistance to cardholders or merchants regarding suspected incidents in which payment cards are used for fraud or payment cards have been stolen. The use of an automated electronic or interactive voice response system may not substitute for the assistance of a live person for these types of suspected incidents.</P>
+<P>(3) As used in this section, "payment cards" has the meaning defined in RCW 9A.56.280.</P>
+</BillSection>
+<BillSection type="new" action="addchap" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>Section 1 of this act constitutes a new chapter in <TitleCite><TextRun>Title </TextRun><TitleNumber>19</TitleNumber><TextRun> RCW</TextRun></TitleCite>.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

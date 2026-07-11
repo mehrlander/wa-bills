@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-5506.2</RequestNumber><ShortBillId>SB 6563</ShortBillId><LongBillId>SENATE BILL 6563</LongBillId><Legislature>66th Legislature</Legislature><Session>2020 Regular Session</Session><Sponsors>Senators Conway, Zeiger, Hasegawa, and Wilson, C.</Sponsors><BillHistory><ReadDate>Read first time 01/22/20.</ReadDate><ReferredCommittee>Referred to Committee on Early Learning &amp; K-12 Education.</ReferredCommittee></BillHistory><BriefDescription>Creating statutory authorization for school-based health centers.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to creating statutory authorization for school-based health centers; adding a new section to chapter 28A.335 RCW; and creating new sections.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act may be known and cited as the school-based health center authorization act.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature recognizes that school-based health centers may be an important component of education for common school students. Research has shown a link between access to school-based health centers and better educational outcomes for students including positive school climate, lower rates of absenteeism and tardiness, reduced discipline referrals, better supports for at-risk students, and increased likelihood that students will seek mental health services. Establishing connections between health care providers in the community and the local schools helps increase access to health services for children and gives providers perspectives on the health needs of students during the school day. The legislature intends to give clear direction in law to allow for agreements between providers of health care services and school districts.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>28A</TitleNumber><TextRun>.</TextRun><ChapterNumber>335</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>Any school district in the state may enter into agreements with health care providers to establish school-based health centers for the provision of services to students and other community members.</P>
+</BillSection>
+</BillBody>
+</Bill>

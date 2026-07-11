@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-0478.2</RequestNumber><ShortBillId>SB 5546</ShortBillId><LongBillId>SENATE BILL 5546</LongBillId><Legislature>66th Legislature</Legislature><Session>2019 Regular Session</Session><Sponsors>Senators Conway, Zeiger, Darneille, Fortunato, Becker, and Nguyen</Sponsors><BillHistory><ReadDate>Read first time 01/23/19.</ReadDate><ReferredCommittee>Referred to Committee on Health &amp; Long Term Care.</ReferredCommittee></BillHistory><BriefDescription>Creating a pilot project to establish an enhanced 211 drug line in certain counties.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to creating a pilot project to establish an enhanced 211 drug line in certain counties; adding a new section to chapter 43.211 RCW; creating a new section; making an appropriation; and providing an expiration date.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature finds that there is a state of opioid crisis in the south sound region. The legislature intends to create a pilot project that establishes an enhanced 211 drug line to provide easy public access to referral for opioid and other drug crisis services in the south sound region by dialing the 211 telephone number.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>211</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) A pilot project is established to create an enhanced 211 drug line in the WIN 211 south sound region, which encompasses Lewis, Pierce, and Thurston counties. The pilot project must start August 1, 2019, and end July 1, 2021.</P>
+<P>(2) The purpose of the pilot project is to provide residents of Lewis, Pierce, and Thurston counties with easy public access, ideally available twenty-four hours per day, seven days per week, through the 211 telephone service for referral for opioid and other drug crisis services.</P>
+<P>(3) WIN 211 shall, in accordance with the purposes of the pilot project, create an enhanced 211 drug line in the south sound region, encompassing Lewis, Pierce, and Thurston counties, and administer and implement the pilot project in collaboration with one or more approved 211 service providers.</P>
+<P>(4)(a) The department shall provide oversight and administrative support for the pilot project. No more than five percent of the funding provided for the pilot project may be used by the department for purposes of this subsection (4).</P>
+<P>(b) The department, in collaboration with WIN 211, shall submit a report regarding the pilot project to the governor and the appropriate committees of the legislature. The report must be submitted by December 1, 2020, and must include a recommendation on whether the pilot project should be continued, expanded, or discontinued.</P>
+<P>(5) This section expires July 1, 2021.</P>
+</BillSection>
+<BillSection type="new" action="approp" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>The sum of three hundred thousand dollars, or as much thereof as may be necessary, is appropriated for the fiscal biennium ending June 30, 2021, from the general fund to the department of social and health services for the purposes of this act.</P></BillSectionHeader>
+<P>The appropriation in this section is subject to the following conditions and limitations:</P>
+<P>(1) The appropriation is provided solely for operational support of the pilot program created by this act and implemented by the Washington information network 211 organization.</P>
+<P>(2) Funding in this section is sufficient for the Washington information network 211 organization to hire, or provide grants to approved 211 service providers to hire, a technician and two telephone operators.</P>
+</BillSection>
+</BillBody>
+</Bill>

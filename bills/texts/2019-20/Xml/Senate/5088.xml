@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-0546.1</RequestNumber><ShortBillId>SB 5088</ShortBillId><LongBillId>SENATE BILL 5088</LongBillId><Legislature>66th Legislature</Legislature><Session>2019 Regular Session</Session><Sponsors>Senators Wellman, Palumbo, and Mullet</Sponsors><BillHistory><PrefiledDate>Prefiled 01/07/19.</PrefiledDate><ReadDate>Read first time 01/14/19.</ReadDate><ReferredCommittee>Referred to Committee on Early Learning &amp; K-12 Education.</ReferredCommittee></BillHistory><BriefDescription>Awarding credits for computer science.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to the awarding of credits for computer science; amending RCW 28A.230.100; adding a new section to chapter 28A.230 RCW; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature recognizes the benefit of computer science and computational thinking in education, not only with respect to educational development, but also in cultivating the skills needed to compete and excel in our state's career landscape. By providing more opportunities to take courses and earn credit in computer science, Washington can better prepare students to excel both in school and after graduation.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>28A</TitleNumber><TextRun>.</TextRun><ChapterNumber>230</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) Beginning no later than the 2022-23 school year, each school district that operates a high school must, at a minimum, provide an opportunity to access an elective computer science course that is available to all students. School districts are encouraged to consider community-based or public-private partnerships in establishing and administering a course.</P>
+<P>(2) Beginning in the 2019-20 school year, school districts may award academic credit for computer science to students based on student completion of a competency examination. Each school district board of directors in districts that award credit under this subsection shall develop a written policy for awarding such credit that includes:</P>
+<P>(a) A course equivalency approval procedure;</P>
+<P>(b) Procedures for awarding competency-based credit for skills learned partially or wholly outside of a course; and</P>
+<P>(c) An approval process for computer science courses taken before attending high school under RCW 28A.230.090 (4) and (5).</P>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>28A</TitleNumber><TextRun>.</TextRun><ChapterNumber>230</ChapterNumber><TextRun>.</TextRun><SectionNumber>100</SectionNumber></SectionCite> and 2012 c 229 s 504 are each amended to read as follows:<Caption>Rules implementing RCW 28A.230.090<TextRun fontFamily="Times New Roman">—</TextRun>Temporary exemptions and special alterations from requirements<TextRun fontFamily="Times New Roman">—</TextRun>Competency testing.</Caption></BillSectionHeader>
+<P><TextRun amendingStyle="add">(1)</TextRun> The superintendent of public instruction, in consultation with the student achievement council, the state board for community and technical colleges, and the workforce training and education coordinating board, shall adopt rules pursuant to chapter 34.05 RCW, to implement the course requirements set forth in RCW 28A.230.090. The rules shall include, as the superintendent deems necessary, granting equivalencies for and temporary exemptions from the course requirements in RCW 28A.230.090 and special alterations of the course requirements in RCW 28A.230.090. In developing such rules the superintendent shall recognize the relevance of vocational and applied courses and allow such courses to fulfill in whole or in part the courses required for graduation in RCW 28A.230.090, as determined by the high school or school district in accordance with RCW 28A.230.097.</P>
+<P><TextRun amendingStyle="add">(2)</TextRun> The rules <TextRun amendingStyle="strike">may</TextRun> <TextRun amendingStyle="add">created under subsection (1) of this section must</TextRun> include provisions for<TextRun amendingStyle="add">:</TextRun></P>
+<P><TextRun amendingStyle="add">(a) C</TextRun>ompetency testing in lieu of such courses required for graduation in RCW 28A.230.090<TextRun amendingStyle="add">;</TextRun></P>
+<P><TextRun amendingStyle="add">(b) Competency testing in lieu of electives, including computer science electives created under section 2 of this act;</TextRun> or</P>
+<P><TextRun amendingStyle="add">(c) D</TextRun>emonstration of specific skill proficiency or understanding of concepts through work or experience.</P>
+<History>2012 c 229 § 504. Prior: 2006 c 263 § 402; 2006 c 114 § 4; 1991 c 116 § 8; 1990 c 33 § 239; 1985 c 384 § 1. Formerly RCW 28A.05.062.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2012 c 229 §§ 101, 117, 401, 402, 501 through 594, 601 through 609, 701 through 708, 801 through 821, 902, and 904:</TextRun> See note following RCW 28B.77.005.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Findings<TextRun fontFamily="Times New Roman">—</TextRun>Purpose<TextRun fontFamily="Times New Roman">—</TextRun>Part headings not law<TextRun fontFamily="Times New Roman">—</TextRun>2006 c 263:</TextRun> See notes following RCW 28A.150.230.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Finding<TextRun fontFamily="Times New Roman">—</TextRun>Intent<TextRun fontFamily="Times New Roman">—</TextRun>2006 c 114:</TextRun> See note following RCW 28A.230.097.</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+</BillBody>
+</Bill>

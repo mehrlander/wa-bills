@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-5730.1</RequestNumber><ShortBillId>SB 6639</ShortBillId><LongBillId>SENATE BILL 6639</LongBillId><Legislature>66th Legislature</Legislature><Session>2020 Regular Session</Session><Sponsors>Senators O'Ban and Brown</Sponsors><BillHistory><ReadDate>Read first time 01/29/20.</ReadDate><ReferredCommittee>Referred to Committee on Health &amp; Long Term Care.</ReferredCommittee></BillHistory><BriefDescription>Reestablishing a business and occupation tax deduction for government-funded behavioral health care.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to reestablishing a business and occupation tax deduction for government-funded behavioral health care; adding a new section to chapter 82.04 RCW; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>82</TitleNumber><TextRun>.</TextRun><ChapterNumber>04</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) A health or social welfare organization may deduct from the measure of tax amounts received as compensation for providing mental health services or substance use disorder treatment services under a government-funded program.</P>
+<P>(2) A behavioral health administrative services organization may deduct from the measure of tax amounts received from the state of Washington for distribution to a health or social welfare organization that is eligible to deduct the distribution under subsection (1) of this section.</P>
+<P>(3) A person claiming a deduction under this section must file a complete annual tax performance report with the department under RCW 82.32.534.</P>
+<P>(4) The definitions in this subsection apply throughout this section unless the context clearly requires otherwise.</P>
+<P>(a) "Behavioral health administrative services organization" has the same meaning as provided in RCW 71.24.025.</P>
+<P>(b) "Health or social welfare organization" has the meaning provided in RCW 82.04.431.</P>
+<P>(c) "Mental health services" means mental health services as described in chapter 71.24 RCW.</P>
+<P>(d) "Substance use disorder treatment services" means substance use disorder treatment services as described in chapter 71.24 RCW.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>The provisions of RCW 82.32.805 and 82.32.808 do not apply to this act.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

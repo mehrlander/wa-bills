@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-1870.3</RequestNumber><ShortBillId>SSB 5377</ShortBillId><LongBillId>SUBSTITUTE SENATE BILL 5377</LongBillId><Legislature>66th Legislature</Legislature><Session>2019 Regular Session</Session><Sponsors>Senate Environment, Energy &amp; Technology (originally sponsored by Senators Carlyle, Palumbo, Mullet, Hasegawa, Keiser, Pedersen, and Saldaña)</Sponsors><BillHistory><ReadDate>READ FIRST TIME 02/21/19.</ReadDate></BillHistory><BriefDescription>Concerning data sales and governance.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to data sales and governance; amending RCW 43.105.020; adding new sections to chapter 43.105 RCW; creating new sections; and providing an expiration date.</BillTitle>
+<EnactedClause />
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act may be known and cited as the data management and protection act.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature finds that:</P></BillSectionHeader>
+<P>(1) The Constitution and laws of the state of Washington provide for robust protection of personal privacy;</P>
+<P>(2) Data breaches and internet crime have in recent years repeatedly compromised the safety and welfare of Washington residents and visitors;</P>
+<P>(3) The people of the state expect and require their government to act as a good steward of all data with which it is entrusted;</P>
+<P>(4) The public entrusts the state of Washington with their data and expects that it will be treated with a high degree of professionalism;</P>
+<P>(5) The trust of the public is more valuable to the state than any funds to be derived from selling data;</P>
+<P>(6) The legislature has only rarely deemed the sale of data to be in the public interest;</P>
+<P>(7) The legislature created the office of privacy and data protection in part to enhance the practice of data stewardship among state agencies and local government;</P>
+<P>(8) The people of the state expect state agencies to appropriately protect especially vulnerable people from unwarranted exposure, danger, or interference;</P>
+<P>(9) The state's partners including businesses, governments, and other organizations are held to no lesser account than state agencies when conducting or supporting state functions;</P>
+<P>(10) The state strives to make decisions based only on the best data available in order to ensure fairness and efficiency in the conduct of government; and</P>
+<P>(11) Transparency and open data have been a priority for the legislature since the creation of the information access task force in 1995.</P>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>105</ChapterNumber><TextRun>.</TextRun><SectionNumber>020</SectionNumber></SectionCite> and 2017 c 92 s 2 are each amended to read as follows:<Caption>Definitions.</Caption></BillSectionHeader>
+<P>The definitions in this section apply throughout this chapter unless the context clearly requires otherwise.</P>
+<P>(1) "Agency" means the consolidated technology services agency.</P>
+<P>(2) "Board" means the technology services board.</P>
+<P>(3) "Customer agencies" means all entities that purchase or use information technology resources, telecommunications, or services from the consolidated technology services agency.</P>
+<P>(4) "Director" means the state chief information officer, who is the director of the consolidated technology services agency.</P>
+<P>(5) "Enterprise architecture" means an ongoing activity for translating business vision and strategy into effective enterprise change. It is a continuous activity. Enterprise architecture creates, communicates, and improves the key principles and models that describe the enterprise's future state and enable its evolution.</P>
+<P>(6) "Equipment" means the machines, devices, and transmission facilities used in information processing, including but not limited to computers, terminals, telephones, wireless communications system facilities, cables, and any physical facility necessary for the operation of such equipment.</P>
+<P>(7) "Information" includes, but is not limited to, data, text, voice, and video.</P>
+<P>(8) "Information security" means the protection of communication and information resources from unauthorized access, use, disclosure, disruption, modification, or destruction in order to:</P>
+<P>(a) Prevent improper information modification or destruction;</P>
+<P>(b) Preserve authorized restrictions on information access and disclosure;</P>
+<P>(c) Ensure timely and reliable access to and use of information; and</P>
+<P>(d) Maintain the confidentiality, integrity, and availability of information.</P>
+<P>(9) "Information technology" includes, but is not limited to, all electronic technology systems and services, automated information handling, system design and analysis, conversion of data, computer programming, information storage and retrieval, telecommunications, requisite system controls, simulation, electronic commerce, radio technologies, and all related interactions between people and machines.</P>
+<P>(10) "Information technology portfolio" or "portfolio" means a strategic management process documenting relationships between agency missions and information technology and telecommunications investments.</P>
+<P>(11) "K<Hyphen type="nobreak" />20 network" means the network established in RCW 43.41.391.</P>
+<P>(12) "Local governments" includes all municipal and quasi-municipal corporations and political subdivisions, and all agencies of such corporations and subdivisions authorized to contract separately.</P>
+<P>(13) "Office" means the office of the state chief information officer within the consolidated technology services agency.</P>
+<P>(14) "Oversight" means a process of comprehensive risk analysis and management designed to ensure optimum use of information technology resources and telecommunications.</P>
+<P>(15) "Proprietary software" means that software offered for sale or license.</P>
+<P>(16) "Public agency" means any agency of this state or another state; any political subdivision or unit of local government of this state or another state including, but not limited to, municipal corporations, quasi-municipal corporations, special purpose districts, and local service districts; any public benefit nonprofit corporation; any agency of the United States; and any Indian tribe recognized as such by the federal government.</P>
+<P>(17) "Public benefit nonprofit corporation" means a public benefit nonprofit corporation as defined in RCW 24.03.005 that is receiving local, state, or federal funds either directly or through a public agency other than an Indian tribe or political subdivision of another state.</P>
+<P>(18) "Public record" has the definitions in RCW 42.56.010 and chapter 40.14 RCW and includes legislative records and court records that are available for public inspection.</P>
+<P>(19) "Public safety" refers to any entity or services that ensure the welfare and protection of the public.</P>
+<P>(20) "Security incident" means an accidental or deliberative event that results in or constitutes an imminent threat of the unauthorized access, loss, disclosure, modification, disruption, or destruction of communication and information resources.</P>
+<P>(21) "State agency" means every state office, department, division, bureau, board, commission, or other state agency, including offices headed by a statewide elected official.</P>
+<P>(22) "Telecommunications" includes, but is not limited to, wireless or wired systems for transport of voice, video, and data communications, network systems, requisite facilities, equipment, system controls, simulation, electronic commerce, and all related interactions between people and machines.</P>
+<P>(23) "Utility-based infrastructure services" includes personal computer and portable device support, servers and server administration, security administration, network administration, telephony, email, and other information technology services commonly used by state agencies.</P>
+<P><TextRun amendingStyle="add">(24) "Consent" means a clear, affirmative act establishing a freely given, specific, informed, and unambiguous indication of a consumer's agreement to the processing of personal data relating to the consumer, such as by a written statement or other clear, affirmative action.</TextRun></P>
+<P><TextRun amendingStyle="add">(25) "Consumer" means a natural person who is a Washington resident, property owner, or a beneficiary of the state. "Consumer" does not include an employee or contractor of a business acting in their role as an employee or contractor. "Consumer" does not include inmates under the jurisdiction of the department of corrections.</TextRun></P>
+<P><TextRun amendingStyle="add">(26) "Deidentified data" means data that: (a) Cannot be linked to a known natural person without additional information kept separately; or (b)(i) has been modified to a degree that the risk of reidentification is small, or (ii) a state agency has committed to not attempt to reidentify.</TextRun></P>
+<P><TextRun amendingStyle="add">(27) "Identified or identifiable natural person" means a person who can be identified, directly or indirectly, in particular by reference to an identifier such as a name, an identification number, specific geolocation data, or an online identifier.</TextRun></P>
+<P><TextRun amendingStyle="add">(28) "Personal data" means any information collected by a state agency or entity relating to an identified or identifiable natural person. "Personal data" does not include deidentified data or health care, financial, or educational data protected by federal law.</TextRun></P>
+<P><TextRun amendingStyle="add">(29)</TextRun><TextRun amendingStyle="add"> "Personal information" means any information relating to an identified or identifiable natural person. "Personal data" does not include deidentified data or health care, financial, or educational data protected by federal law.</TextRun></P>
+<P><TextRun amendingStyle="add">(30) "Process" or "processing" means any operation or set of operations that is performed on personal data or on sets of personal data, whether or not by automated means, such as collection, recording, organization, structuring, storage, adaptation or alteration, retrieval, consultation, use, disclosure by transmission, dissemination or otherwise making available, alignment or combination, restriction, deletion, or destruction.</TextRun></P>
+<P><TextRun amendingStyle="add">(31) "Profiling" means any form of automated processing of personal data consisting of the use of personal data to evaluate certain personal aspects relating to a natural person, in particular to analyze or predict aspects concerning that natural person's economic situation, health, personal preferences, interests, reliability, behavior, location, or movements.</TextRun></P>
+<P><TextRun amendingStyle="add">(32) "Restriction of processing" means the marking of stored personal data with the aim of limiting the processing of such personal data in the future.</TextRun></P>
+<P><TextRun amendingStyle="add">(33) "Sale" means the exchange of personal data for monetary consideration to a third party for purposes of aggregating and licensing or disclosing personal data at the third party's discretion to additional third parties. "Sale" does not include the disclosure of personal data to a third party, such as another state agency or branch of government, with whom the consumer has a direct relationship for purposes of providing a product or service requested by the consumer or otherwise in a manner that is consistent with a consumer's reasonable expectations considering the context in which the consumer provided the personal data to the state agency. "Sale" does not include cost recovery as permitted under RCW 42.56.120 or existing record or management practices regarding vital statistics.</TextRun></P>
+<P><TextRun amendingStyle="add">(34) "Verified request" means the process through which a consumer may submit a request to exercise a right or rights set forth in this chapter, and by which a controller can reasonably authenticate the request and the consumer making the request using commercially reasonable means.</TextRun></P>
+<History>2017 c 92 § 2; 2016 c 237 § 2. Prior: 2015 3rd sp.s. c 1 § 102; 2011 1st sp.s. c 43 § 802; 2010 1st sp.s. c 7 § 64; prior: 2009 c 565 § 32; 2009 c 509 § 7; 2009 c 486 § 14; 2003 c 18 § 2; prior: 1999 c 285 § 1; 1999 c 80 § 1; 1993 c 280 § 78; 1990 c 208 § 3; 1987 c 504 § 3; 1973 1st ex.s. c 219 § 3; 1967 ex.s. c 115 § 2.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Short title<TextRun fontFamily="Times New Roman">—</TextRun>2016 c 237:</TextRun> See note following RCW 43.105.801.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2015 3rd sp.s. c 1 §§ 101-109, 201-224, 406-408, 410, 501-507, 601, and 602:</TextRun> See note following RCW 43.105.007.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>Purpose<TextRun fontFamily="Times New Roman">—</TextRun>2011 1st sp.s. c 43:</TextRun> See notes following RCW 43.19.003.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2010 1st sp.s. c 26; 2010 1st sp.s. c 7:</TextRun> See note following RCW 43.330.400.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Findings<TextRun fontFamily="Times New Roman">—</TextRun>Intent<TextRun fontFamily="Times New Roman">—</TextRun>Purpose<TextRun fontFamily="Times New Roman">—</TextRun>Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2009 c 509:</TextRun> See notes following RCW 43.105.370.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Conflict with federal requirements<TextRun fontFamily="Times New Roman">—</TextRun>Intent<TextRun fontFamily="Times New Roman">—</TextRun>2009 c 486:</TextRun> See notes following RCW 28B.30.530.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Intent<TextRun fontFamily="Times New Roman">—</TextRun>Finding<TextRun fontFamily="Times New Roman">—</TextRun>2003 c 18:</TextRun> "It is the intent of the legislature to ensure that the state's considerable investment in radio communications facilities, and the radio spectrum that is licensed to government entities in the state, are managed in a way that promotes to the maximum extent the health and safety of the state's citizens and the economic efficiencies of coordinated planning, development, management, maintenance, accountability, and performance. The legislature finds that such coordination is essential for disaster preparedness, emergency management, and public safety, and that such coordination will result in more cost-effective use of state resources and improved government services." [2003 c 18 § 1.]</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2003 c 18:</TextRun> "This act is necessary for the immediate preservation of the public peace, health, or safety, or support of the state government and its existing public institutions, and takes effect July 1, 2003." [2003 c 18 § 6.]</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>1993 c 280:</TextRun> See RCW 43.330.902.</NoteP></AnnNote>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>1967 ex.s. c 115:</TextRun> "This act is necessary for the immediate preservation of the public peace, health and safety, the support of the state government and its existing public institutions, and shall take effect July 1, 1967." [1967 ex.s. c 115 § 8.]</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>105</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) The sale of personal data to third parties by state agencies is prohibited except as authorized by law. For the avoidance of doubt, any such sale of personal data that fails to comply with the requirements of this chapter is impermissible.</P>
+<P>(2) State agencies authorized by law to sell information containing the personal data of individuals to third parties must take affirmative steps, including but not limited to those set forth in this chapter, to protect such data from impermissible subsequent use, transfer, or sale by such third parties.</P>
+<P>(3) Before completing a sale of personal data or confidential data to an entity other than the subject of such data, a state agency must confirm that the conditions under which the data is to be used are documented in a contract involving one or more state agencies providing the data.</P>
+<P>(a) The contract must include the following requirements at a minimum:</P>
+<P>(i) A data recipient must undergo both permissible use and data security audits prior to receiving data and on a reoccurring basis;</P>
+<P>(ii) A data security audit must verify at a minimum compliance with the data security standards adopted by the office of the chief information officer, or equivalent;</P>
+<P>(iii) A permissible use audit must verify at a minimum compliance with permissible use standards adopted by the state agency;</P>
+<P>(iv) A data recipient that shares data with other entities must:</P>
+<P>(A) Enter into a contract that includes at a minimum the data security, permissible use, and audit requirements set forth in the contract;</P>
+<P>(B) Require the data recipient to ensure that subsequent recipients comply with the data security, permissible use, and audit requirements; and</P>
+<P>(C) Other requirements as may be required by the office of the chief information officer; and</P>
+<P>(v) A provision that the cost of the audits performed pursuant to this subsection must be borne by the data recipient. A new data recipient must bear the initial cost to set up a system to disburse the data to the data recipient.</P>
+<P>(b) Data security audits required under this section must be conducted in accordance with professional audit standards by individuals with nationally recognized certifications relevant to the type of audit performed.</P>
+<P>(c) A state agency may accept an audit meeting the requirements of this section that was conducted within the previous year.</P>
+<P>(4)(a) State agencies may charge a fee in connection with the dissemination of personal data under this section, as authorized by law, or for the purpose of recovering processing costs.</P>
+<P>(b) State agencies must use any moneys collected under this subsection solely for the purposes of technology improvement, data management, and data audit functions.</P>
+<P>(5) If a list or other compilation of personal data is used for any purpose other than that authorized in this section, the agent or contractor responsible for the unauthorized disclosure or use must be denied further access to such information by the state agency.</P>
+<P>(6) Nothing in this section shall be construed to relieve any state agency of any obligation imposed by chapter 19.255 RCW.</P>
+<P>(7) The requirements of this section do not apply to the following:</P>
+<P>(a) Public records disclosed pursuant to the public records act, chapter 42.56 RCW, and related law;</P>
+<P>(b) Release of records for research pursuant to chapter 42.48 RCW;</P>
+<P>(c) Review, release, or correction of data by the individual who is the subject of the data, pursuant to RCW 43.105.365;</P>
+<P>(d) Voluntary publication of open data via state systems that are widely accessible by the public pursuant to RCW 43.105.365; or</P>
+<P>(e) Campaign disclosure and contribution data published pursuant to chapter 42.17A RCW.</P>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>5</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>105</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>The office of privacy and data protection must publish among its privacy principles and best practices the following statement of principles to promote responsible stewardship of the state's structured data assets:</P>
+<P>(1) Data minimization: Data access, collection, and processing should be kept to the minimum amount necessary to fulfill its purpose.</P>
+<P>(a) The retention of data should have a legitimate and fair basis, including beyond the purposes for which access to the data was originally granted, to ensure that no extra or just-in-case data set is stored.</P>
+<P>(b) Any data retention should be also considered in light of the potential risks, harms, and benefits. The data should be permanently deleted upon conclusion of the time period needed to fulfill its purpose.</P>
+<P>(2) Due diligence: Third-party collaborators engaging in data use should act in compliance with relevant laws, including privacy laws, as well as the highest standards of confidentiality.</P>
+<P>(a) Third-party collaborators' actions should adhere to the same principles as public agencies.</P>
+<P>(b) Legally binding agreements outlining parameters for data access and handling, including but not limited to data security, data formats, data transmission, fusion, analysis, validation, storage, retention, reuse, licensing, and disposition, should be established to ensure reliable and secure access to data provided by third-party collaborators.</P>
+<P>(3) Sensitive data and sensitive contexts: Stricter standards of data protection should be employed while obtaining, accessing, collecting, analyzing, or otherwise using data on vulnerable populations and persons at risk, children and young people, or any other sensitive data.</P>
+<P>(4) Data quality: Data and information are critical to effective business decision making in government and should be maintained in a manner appropriate to meet business needs.</P>
+<P>(a) Data and information that is used by multiple applications or shared across business units should be defined and managed from an enterprise perspective and fit for a variety of purposes.</P>
+<P>(b) All data-related activities should be designed, carried out, reported, and documented accurately. More specifically, data should be validated for accuracy, relevancy, sufficiency, integrity, completeness, usability, validity, and coherence, and be kept up to date.</P>
+<P>(c) Data quality should be carefully considered in light of the risks that the use of low-quality data for decision making can create for individuals and groups.</P>
+<P>(5) Open data, transparency and accountability: Transparency is a critical element of accountability. Being transparent about data use, including but not limited to publishing data sets or publishing an organization's data use practices, is generally encouraged, but should be balanced against privacy, justice, and environmental stewardship.</P>
+<P>(a) Except in cases where there is a legitimate reason not to do so, the existence, description, meaning, authorship, location, age, and purpose of data use should be publicly disclosed and described in a clear and nontechnical language suitable for a general audience.</P>
+<P>(b) Open data is an important driver of innovation, transparency, and accountability. Therefore, whenever possible, the data should be made open unless there are legitimate reasons not to do so.</P>
+<P>(6) Data security: Data security is crucial in ensuring data privacy and data protection. Taking into account available technology and cost of implementation, robust technical and organizational safeguards and procedures, including efficient monitoring of data access and data breach notification procedures, should be implemented to ensure proper data management throughout the data life cycle and prevent any unauthorized use, disclosure, or breach of personal data.</P>
+<P>(a) No deidentified data should knowingly and purposely be reidentified, unless there is a legitimate, lawful, and fair basis for doing so.</P>
+<P>(b) Data access should be limited to authorized personnel, based on the "need-to-know" principle.</P>
+<P>(c) Personnel should undergo regular and systematic data privacy and data security trainings.</P>
+<P>(d) Prior to data use, vulnerabilities of the security system, including but not limited to data storage and way of transfer, should be assessed.</P>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>6</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>105</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>By June 1, 2020, the chief privacy officer shall present to the relevant committees of the legislature a report proposing how state agencies should treat personal data and respond to verified requests for personal data from consumers. In the creating the report, the chief privacy officer shall:</P>
+<P>(1) Collaborate with state agencies;</P>
+<P>(2) Include proposed legislation;</P>
+<P>(3) Detail methods for state agencies to comply with the proposed legislation; and</P>
+<P>(4) Consider whether:</P>
+<P>(a) Agencies should receive exemptions because complying with the proposed legislation would impose a substantial financial burden.</P>
+<P>(b) Agencies should provide access to personal data that the agency maintains in identifiable form concerning the consumer.</P>
+<P>(c) Agencies should provide a copy of the personal data that the agency maintains in identifiable form when undergoing processing.</P>
+<P>(d) Agencies should correct inaccurate personal data that the agency maintains in identifiable form concerning the consumer.</P>
+<P>(e) Agencies should delete the consumer's personal data that the agency maintains in identifiable form without undue delay where the personal data is no longer necessary in relation to the purposes for which the personal data was collected or otherwise processed, subject to chapter 42.56 RCW.</P>
+<P>(f) Agencies should restrict processing of personal data that the agency maintains in identifiable form if one of the following grounds applies:</P>
+<P>(i) The accuracy of the personal data is contested by the consumer, for a period enabling the agency to verify the accuracy of the personal data;</P>
+<P>(ii) The processing is unlawful and the consumer opposes the deletion of the personal data and requests the restriction of processing instead; or</P>
+<P>(iii) The agency no longer needs the personal data for the purposes of the processing, but the personal data is required by the consumer for the establishment, exercise, or defense of legal claims.</P>
+<P>(g)(i) Where personal data is subject to a restriction of processing, the personal data should, with the exception of storage, only be processed: (A) With the consumer's consent; (B) for the establishment, exercise, or defense of legal claims; (C) for the protection of the rights of another natural or legal person; or (D) for reasons of important public interest under federal, state, or local law;</P>
+<P>(ii) A consumer who has obtained restriction of processing pursuant to this subsection should be informed by the agency before the restriction of processing is lifted.</P>
+<P>(h) Agencies should provide the consumer, if technically feasible and commercially reasonable, any personal data that the agency maintains in identifiable form concerning a consumer that the consumer has provided to an agency in a structured, commonly used, and machine-readable format if: (i)(A) The processing of such personal data is necessary for the performance of a contract to which the consumer is a party or (B) in order to take steps at the request of the consumer prior to entering into a contract; and (ii) the processing is carried out by automated means.</P>
+<P>(i) Agencies should communicate any correction, deletion, or restriction of processing carried out in accordance with this section to each third-party recipient to whom the agency knows personal data has been disclosed, including third parties that received the data through a sale, unless this proves functionally impractical, technically infeasible, or involves disproportionate effort.</P>
+<P>(j) Agencies should provide information on action taken on a request under this section without undue delay and in any event within thirty days of receipt of the request.</P>
+<P>(k) Agencies should provide information under this section by the agency free of charge to the consumer.</P>
+<P>(5) This section expires June 1, 2021.</P>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>7</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>105</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) State agencies must be transparent and accountable for their processing of personal data by making available in a form that is reasonably accessible to consumers a clear, meaningful privacy notice that includes:</P>
+<P>(a) The categories of personal data collected by the state agency;</P>
+<P>(b) The purposes for which the categories of personal data is used and disclosed to third parties, if any;</P>
+<P>(c) The rights that consumers may exercise pursuant to section 5 of this act, if any;</P>
+<P>(d) The categories of personal data that the state agency shares with third parties, if any; and</P>
+<P>(e) The categories of third parties, if any, with whom the state agency shares personal data.</P>
+<P>(2) State agencies that engage in profiling must disclose such profiling to the consumer at or before the time personal data is obtained, including meaningful information about the logic involved and the significance and envisioned consequences of the profiling.</P>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>8</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>43</TitleNumber><TextRun>.</TextRun><ChapterNumber>105</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) State agencies must certify compliance with the requirements of this chapter.</P>
+<P>(2) By June 30, 2021, the office of privacy and data protection must provide a design template for consumer access to data and develop compliance criteria to meet the requirements of this chapter.</P>
+<P>(3) This chapter applies to all state agencies. Agencies may request a waiver for hardship or inability to comply for special circumstances. The office of privacy and data protection must determine the waiver and must not unreasonably withhold it. The waiver may take the form of an extension of time to comply with specific provisions.</P>
+</BillSection>
+</BillBody>
+</Bill>

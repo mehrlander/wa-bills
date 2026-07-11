@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-5436.1</RequestNumber><ShortBillId>SB 6636</ShortBillId><LongBillId>SENATE BILL 6636</LongBillId><Legislature>66th Legislature</Legislature><Session>2020 Regular Session</Session><Sponsors>Senator Fortunato</Sponsors><BillHistory /><BriefDescription>Monitoring vaccine adverse events.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to monitoring vaccine adverse events; and adding a new chapter to Title 70 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The definitions in this section apply throughout this chapter unless the context clearly requires otherwise.</P></BillSectionHeader>
+<P>(1) "Adverse event" means a health problem that occurs after vaccination that may or may not be caused by a vaccine.</P>
+<P>(2) "Department" means the department of health.</P>
+<P>(3) "Health care provider" means the same as in RCW 48.43.005.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) The department shall establish a vaccine adverse event reporting system that is designed to facilitate quality improvement in the health care system, improve patient safety, and assist the public in making informed health care choices.</P></BillSectionHeader>
+<P>(2)(a) When a health care provider is made aware of an adverse event, they shall, within forty-eight hours, submit notification of the event to the department, with the date, type of adverse event, and any additional contextual information the provider deems relevant.</P>
+<P>(b) The health care provider may amend the notification within sixty days of the submission.</P>
+<P>(3) The notification must be filed in a format specified by the department.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><P>The department shall:</P></BillSectionHeader>
+<P>(1) Collect all data received through the reporting system and produce a report on an annual basis that is made available on the department's web site detailing the number and types of events associated with each type of vaccine;</P>
+<P>(2) Watch for unexpected or unusual patterns in adverse event notifications and investigate events when necessary;</P>
+<P>(3) Adopt rules as necessary to implement this act.</P>
+</BillSection>
+<BillSection type="new" action="addchap" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber><P>Sections 1 through 3 of this act constitute a new chapter in <TitleCite><TextRun>Title </TextRun><TitleNumber>70</TitleNumber><TextRun> RCW</TextRun></TitleCite>.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

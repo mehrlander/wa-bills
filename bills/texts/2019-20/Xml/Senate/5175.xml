@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-0498.2</RequestNumber><ShortBillId>SB 5175</ShortBillId><LongBillId>SENATE BILL 5175</LongBillId><Legislature>66th Legislature</Legislature><Session>2019 Regular Session</Session><Sponsors>Senators Braun, Keiser, Becker, Fortunato, Palumbo, Wilson, L., Rivers, Kuderer, O'Ban, Van De Wege, and Wagoner</Sponsors><BillHistory><ReadDate>Read first time 01/15/19.</ReadDate><ReferredCommittee>Referred to Committee on Labor &amp; Commerce.</ReferredCommittee></BillHistory><BriefDescription>Concerning firefighter safety.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to firefighter safety; adding a new section to chapter 51.04 RCW; and making an appropriation.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>51</TitleNumber><TextRun>.</TextRun><ChapterNumber>04</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) The department must adopt by rule, the healthy in, healthy out best practices for reducing firefighter risk of exposure to carcinogens, which was a project funded through the department's safety and health investment project. These best practices must include postfire activities to reduce the risk of exposure to carcinogens, such as decontamination, cleaning, and disinfecting. The department may amend the rule to update the best practices as the department deems appropriate.</P>
+<P>(2) Employers with workers involved in firefighting who follow the best practices provided in subsection (1) of this section may be eligible for a premium discount as determined by the department after an actuarial determination of anticipated future reductions in firefighter risk of exposure to carcinogens.</P>
+</BillSection>
+<BillSection type="new" action="approp" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>The sum of one hundred thousand dollars, or as much thereof as may be necessary, is appropriated for the fiscal year ending June 30, 2020, from the general fund to the department of labor and industries for the purposes of providing funding to employers with workers involved in firefighting who have limited resources to purchase additional equipment and other gear that may be needed to follow the healthy in, healthy out best practices provided for in section 1 of this act.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

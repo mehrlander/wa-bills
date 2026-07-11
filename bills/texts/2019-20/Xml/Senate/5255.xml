@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-0620.1</RequestNumber><ShortBillId>SB 5255</ShortBillId><LongBillId>SENATE BILL 5255</LongBillId><Legislature>66th Legislature</Legislature><Session>2019 Regular Session</Session><Sponsors>Senators Sheldon, Honeyford, and Short</Sponsors><BillHistory><ReadDate>Read first time 01/16/19.</ReadDate><ReferredCommittee>Referred to Committee on Transportation.</ReferredCommittee></BillHistory><BriefDescription>Prohibiting road usage charges in rural counties.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to prohibiting road usage charges in rural counties; and adding a new section to chapter 46.08 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>46</TitleNumber><TextRun>.</TextRun><ChapterNumber>08</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>The state of Washington is prohibited from imposing or collecting any new road usage charge, vehicle miles traveled fee, or other similar type of comparable charge, tax, or fee, in rural counties as defined in RCW 43.160.020. This prohibition shall be liberally construed.</P>
+</BillSection>
+</BillBody>
+</Bill>

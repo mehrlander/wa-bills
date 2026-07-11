@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-1689.1</RequestNumber><ShortBillId>SB 5940</ShortBillId><LongBillId>SENATE BILL 5940</LongBillId><Legislature>66th Legislature</Legislature><Session>2019 Regular Session</Session><Sponsors>Senators Keiser and Kuderer</Sponsors><BillHistory><ReadDate>Read first time 02/18/19.</ReadDate><ReferredCommittee>Referred to Committee on Ways &amp; Means.</ReferredCommittee></BillHistory><BriefDescription>Imposing a business and occupation surtax on prescription opioid drugs.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to imposing a business and occupation surtax on prescription opioid drugs; adding a new section to chapter 82.04 RCW; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>82</TitleNumber><TextRun>.</TextRun><ChapterNumber>04</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) In addition to the tax imposed under RCW 82.04.272, an additional tax is imposed upon every person engaging within the state in the business of warehousing and reselling opioid drugs for human use pursuant to a prescription; as to such persons, the amount of the additional tax is equal to the gross income derived from the sale of opioid drugs multiplied by a rate of thirty-seven percent.</P>
+<P>(2) The definitions in this subsection apply throughout this section unless the context clearly requires otherwise.</P>
+<P>(a) "Drug" has the same meaning as provided in RCW 82.08.0281.</P>
+<P>(b) "Opioid" means a prescription drug that is an opiate derived from the opium poppy or opiate-like that is a semi-synthetic or synthetic drug including, but not limited to, morphine, codeine, hydrocodone, oxycodone, fentanyl, meperidine, and methadone.</P>
+<P>(c) "Prescription" has the same meaning as provided in RCW 82.08.0281.</P>
+<P>(d) "Warehousing and reselling drugs for human use pursuant to a prescription" has the same meaning as provided in RCW 82.04.272.</P>
+</BillSection>
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act applies to gross income received on or after October 1, 2019.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

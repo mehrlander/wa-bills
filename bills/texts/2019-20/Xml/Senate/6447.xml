@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-5415.1</RequestNumber><ShortBillId>SB 6447</ShortBillId><LongBillId>SENATE BILL 6447</LongBillId><Legislature>66th Legislature</Legislature><Session>2020 Regular Session</Session><Sponsors>Senators Liias, Kuderer, Rivers, Dhingra, Randall, Wilson, C., and Saldaña</Sponsors><BillHistory><ReadDate>Read first time 01/16/20.</ReadDate><ReferredCommittee>Referred to Committee on Health &amp; Long Term Care.</ReferredCommittee></BillHistory><BriefDescription>Requiring a coprescription of opioid overdose reversal medication.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to requiring a coprescription of opioid overdose reversal medication; adding a new section to chapter 69.41 RCW; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature finds that Washington has made great strides in recent years to address the opioid crisis in our state. However, there continue to be too many deaths from opioid overdose in communities across the state. The use of opioid antagonists such as naloxone reverses the effects of opioids and can be life-saving when an opioid overdose occurs.</P></BillSectionHeader>
+<P>The legislature intends to standardize naloxone coprescription practices to ensure consistency between the prescribing professions and alignment with nationally articulated standards of care.</P>
+<P>The legislature intends that these changes will increase the number of opioid prescribed patients who have access to a life-saving overdose intervention in the event of an emergency with the goal of reducing the likelihood that an opioid overdose event for a given patient may lead to fatality or long-term adverse health outcomes and the likelihood that patients and their families face long-term financial and emotional burden due to an opioid overdose event.</P>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>69</TitleNumber><TextRun>.</TextRun><ChapterNumber>41</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) A practitioner shall provide a current prescription or confirm the patient has a current prescription for an opioid overdose reversal medication when the practitioner has prescribed the patient an opioid at or in excess of a fifty morphine milligram equivalent.</P>
+<P>(2) The definitions in this subsection apply throughout this section unless the context clearly requires otherwise.</P>
+<P>(a) "Morphine milligram equivalent" means the conversion factor used to calculate the strength of an opioid using morphine dosage as the comparative unit of measure.</P>
+<P>(b) "Opioid overdose reversal medication" means any drug used to reverse an opioid overdose that binds to opioid receptors and blocks or inhibits the effects of opioids acting on those receptors.</P>
+<P>(c) "Practitioner" has the meaning provided in RCW 69.50.101.</P>
+</BillSection>
+</BillBody>
+</Bill>

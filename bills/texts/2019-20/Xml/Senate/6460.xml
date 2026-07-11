@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-5381.2</RequestNumber><ShortBillId>SB 6460</ShortBillId><LongBillId>SENATE BILL 6460</LongBillId><Legislature>66th Legislature</Legislature><Session>2020 Regular Session</Session><Sponsors>Senator Fortunato</Sponsors><BillHistory /><BriefDescription>Concerning criminal sentences requiring the removal of graffiti.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to criminal sentences requiring the removal of graffiti; adding a new section to chapter 9A.48 RCW; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>9A</TitleNumber><TextRun>.</TextRun><ChapterNumber>48</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>When any person is found guilty of violating RCW 9A.48.090 or 9A.48.105, the court must order a mandatory thirty-day period of community restitution to require the removal of graffiti from buildings in the local area where the offense was committed, unless the court finds that such an order is not practical. The community restitution must be imposed consecutively to any other community restitution the court imposes for the offense.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act may be known and cited as the keep our communities graffiti free act.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

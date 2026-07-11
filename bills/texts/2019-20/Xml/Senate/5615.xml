@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-0670.1</RequestNumber><ShortBillId>SB 5615</ShortBillId><LongBillId>SENATE BILL 5615</LongBillId><Legislature>66th Legislature</Legislature><Session>2019 Regular Session</Session><Sponsors>Senators Rivers, Palumbo, Randall, and Wellman</Sponsors><BillHistory><ReadDate>Read first time 01/25/19.</ReadDate><ReferredCommittee>Referred to Committee on State Government, Tribal Relations &amp; Elections.</ReferredCommittee></BillHistory><BriefDescription>Designating Sasquatch the official cryptid or crypto-animal of Washington.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to designating Sasquatch the official cryptid or crypto-animal of Washington; adding a new section to chapter 1.20 RCW; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>The legislature recognizes that Sasquatch has made immeasurable contributions to Washington state's cultural heritage and ecosystem. The state of Washington further recognizes the importance of preserving the legacy of Sasquatch.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>1</TitleNumber><TextRun>.</TextRun><ChapterNumber>20</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>The species of cryptid commonly called "Sasquatch" or "Bigfoot" or "Forest Yeti" is hereby designated as the official cryptid of the state of Washington.</P>
+</BillSection>
+</BillBody>
+</Bill>

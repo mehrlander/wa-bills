@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-5581.1</RequestNumber><ShortBillId>SB 6619</ShortBillId><LongBillId>SENATE BILL 6619</LongBillId><Legislature>66th Legislature</Legislature><Session>2020 Regular Session</Session><Sponsors>Senators Wellman, Nguyen, Lovelett, Stanford, and Das</Sponsors><BillHistory /><BriefDescription>Concerning chemicals in drinking water.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to chemicals in drinking water; and adding a new section to chapter 90.48 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>90</TitleNumber><TextRun>.</TextRun><ChapterNumber>48</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) A water utility may notify a municipal or public corporation operating or proposing to operate a well that is used to discharge fluids into the subsurface, as authorized under this chapter, when the water utility finds PFAS chemicals in its drinking water supply from a groundwater source underlying the area served by the municipal or public corporation.</P>
+<P>(2) Upon request by the water utility, the municipal or public corporation must provide the water utility the opportunity to review and comment on plans for a new well that is used to discharge fluids into the subsurface or modifications to a well that is used to discharge fluids into the subsurface.</P>
+<P>(3) The definitions in this subsection apply throughout this section unless the context clearly requires otherwise.</P>
+<P>(a) "PFAS chemicals" means a class of fluorinated organic chemicals containing at least one fully fluorinated carbon atom.</P>
+<P>(b) "Well that is used to discharge fluids into the subsurface" includes: (i) A bored, drilled, or driven shaft, or dug hole whose depth is greater than the largest surface dimension; (ii) an improved sinkhole; or (iii) a subsurface fluid distribution system.</P>
+</BillSection>
+</BillBody>
+</Bill>

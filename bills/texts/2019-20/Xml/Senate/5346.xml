@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-0675.1</RequestNumber><ShortBillId>SB 5346</ShortBillId><LongBillId>SENATE BILL 5346</LongBillId><Legislature>66th Legislature</Legislature><Session>2019 Regular Session</Session><Sponsors>Senators Sheldon and Randall</Sponsors><BillHistory /><BriefDescription>Concerning the use of life insurance to pay for the last illness and death of the insured.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to the use of life insurance to pay for the last illness and death of the insured; and adding a new section to chapter 48.23 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>48</TitleNumber><TextRun>.</TextRun><ChapterNumber>23</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to be codified between RCW 48.23.030 and 48.23.130 to read as follows:</BillSectionHeader>
+<P>There shall be a provision that the first five percent or fifteen thousand dollars, whichever is greater, of any sum becoming due by reason of the death of the individual insured shall be used to pay for funeral or other expenses related to the last illness or death of the individual insured.</P>
+</BillSection>
+</BillBody>
+</Bill>

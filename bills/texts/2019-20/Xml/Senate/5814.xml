@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-1224.1</RequestNumber><ShortBillId>SB 5814</ShortBillId><LongBillId>SENATE BILL 5814</LongBillId><Legislature>66th Legislature</Legislature><Session>2019 Regular Session</Session><Sponsors>Senators Nguyen, Keiser, Frockt, Hasegawa, Dhingra, Saldaña, Takko, Darneille, Hunt, Kuderer, Wilson, C., and Randall</Sponsors><BillHistory><ReadDate>Read first time 02/04/19.</ReadDate><ReferredCommittee>Referred to Committee on Health &amp; Long Term Care.</ReferredCommittee></BillHistory><BriefDescription>Concerning health coverage for young adults.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to health coverage for young adults; adding a new section to chapter 74.09 RCW; and creating a new section.</BillTitle>
+<EnactedClause />
+<BillSection type="new" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) The legislature finds that:</P></BillSectionHeader>
+<P>(a) Individuals with health insurance coverage have better health outcomes than those who lack coverage. Uninsured individuals are more likely to be in poor health and more likely to delay seeking or go without needed health care services, which ultimately drives up the cost of care;</P>
+<P>(b) In recognition of the value of a healthy next generation, Washington has extended apple health coverage to all children residing in the state, regardless of where they were born. Federal law, however, unjustly excludes undocumented immigrants from receiving health coverage through apple health, so young adults without status age out of eligibility for apple health on their nineteenth birthday;</P>
+<P>(c) Washington is home to more than one million immigrants who go to school, work, pay taxes, and contribute to our state's vibrant economy. This includes more than seventeen thousand recipients of the deferred action for childhood arrival program, young people who came to this country as children and have made their homes here;</P>
+<P>(d) Under the affordable care act, young adults are eligible to remain on their parents' health plans until their twenty-sixth birthday. Similarly, young adult alumni of the foster care program are eligible for apple health coverage until they reach the age of twenty-six.</P>
+<P>(2) As a matter of equity, the legislature therefore intends to improve the health of all young people in this state by extending eligibility for apple health to all low-income young adults, regardless of immigration status.</P>
+</BillSection>
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>74</TitleNumber><TextRun>.</TextRun><ChapterNumber>09</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) The authority shall provide health coverage to individuals who:</P>
+<P>(a) Are at least nineteen years old and no older than twenty-six years old;</P>
+<P>(b) Have a countable income that is at or below one hundred thirty-three percent of the federal poverty level, adjusted for family size and determined annually by the federal department of health and human services;</P>
+<P>(c) Are not incarcerated; and</P>
+<P>(d) Are not eligible for categorically needy medical assistance as defined in the social security Title XIX state plan.</P>
+<P>(2) The amount, scope, and duration of health care services provided to individuals under this section must be the same as that provided to individuals eligible for categorically needy medical assistance. The authority shall assure a seamless transition in coverage for individuals aging out of children's health coverage and use the same eligibility redetermination and appeals procedures as those provided for children's health coverage. The authority shall manage its application and renewal procedures so as to maximize enrollment of eligible individuals.</P>
+<P>(3) The authority shall seek federal funding, as available, to defray state costs associated with providing coverage to persons under this section.</P>
+</BillSection>
+</BillBody>
+</Bill>

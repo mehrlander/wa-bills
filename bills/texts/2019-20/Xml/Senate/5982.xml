@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-2650.1</RequestNumber><ShortBillId>SB 5982</ShortBillId><LongBillId>SENATE BILL 5982</LongBillId><Legislature>66th Legislature</Legislature><Session>2019 Regular Session</Session><Sponsors>Senators Short, Kuderer, Rolfes, Warnick, Keiser, and Conway</Sponsors><BillHistory><ReadDate>Read first time 03/07/19.</ReadDate><ReferredCommittee>Referred to Committee on Health &amp; Long Term Care.</ReferredCommittee></BillHistory><BriefDescription>Concerning the licensing of pharmacy benefit managers and creating a new fee.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to the licensing of pharmacy benefit managers and creating a new fee; amending RCW 19.340.010, 19.340.030, 48.02.220, and 19.340.110; adding new sections to chapter 19.340 RCW; adding a new section to chapter 42.56 RCW; creating new sections; and providing an effective date.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>19</TitleNumber><TextRun>.</TextRun><ChapterNumber>340</ChapterNumber><TextRun>.</TextRun><SectionNumber>010</SectionNumber></SectionCite> and 2016 c 210 s 3 are each amended to read as follows:<Caption>Definitions.</Caption></BillSectionHeader>
+<P>The definitions in this section apply throughout this chapter unless the context clearly requires otherwise.</P>
+<P>(1) "Claim" means a request from a pharmacy <TextRun amendingStyle="strike">or pharmacist</TextRun> to be reimbursed for the cost of filling or refilling a prescription for a drug or for providing a medical supply or service <TextRun amendingStyle="add">related to the provision of these products</TextRun>.</P>
+<P>(2) <TextRun amendingStyle="add">"Claims processing services" means the administrative services performed in connection with the processing and adjudicating of claims relating to pharmacy services that include:</TextRun></P>
+<P><TextRun amendingStyle="add">(a) Receiving payments for pharmacy services;</TextRun></P>
+<P><TextRun amendingStyle="add">(b) Making payments to pharmacies for pharmacy services; or</TextRun></P>
+<P><TextRun amendingStyle="add">(c) Both (a) and (b) of this subsection.</TextRun></P>
+<P><TextRun amendingStyle="add">(3)</TextRun> "Commissioner" means the insurance commissioner established in chapter 48.02 RCW.</P>
+<P><TextRun amendingStyle="strike">(3)</TextRun> <TextRun amendingStyle="add">(4)</TextRun> "Insurer" has the same meaning as in RCW 48.01.050.</P>
+<P><TextRun amendingStyle="strike">(4)</TextRun> <TextRun amendingStyle="add">(5) "Other prescription drug or device services" means services other than claims processing services, provided directly or indirectly, whether in connection with or separate from claims processing services including, but not limited to:</TextRun></P>
+<P><TextRun amendingStyle="add">(a) Negotiating rebates, discounts, or other financial incentives and arrangements with drug companies;</TextRun></P>
+<P><TextRun amendingStyle="add">(b) Disbursing or distributing rebates;</TextRun></P>
+<P><TextRun amendingStyle="add">(c) Managing or participating in incentive programs or arrangements for pharmacy services;</TextRun></P>
+<P><TextRun amendingStyle="add">(d) Negotiating or entering into contractual arrangements with pharmacies, pharmacy services administrative organizations on behalf of pharmacies, or both;</TextRun></P>
+<P><TextRun amendingStyle="add">(e) Developing formularies or covered drug lists;</TextRun></P>
+<P><TextRun amendingStyle="add">(f) Designing prescription benefit programs; or</TextRun></P>
+<P><TextRun amendingStyle="add">(g) Advertising or promoting services.</TextRun></P>
+<P><TextRun amendingStyle="add">(6)</TextRun> "Pharmacist" has the same meaning as in RCW 18.64.011.</P>
+<P><TextRun amendingStyle="strike">(5)</TextRun> <TextRun amendingStyle="add">(7)</TextRun> "Pharmacy" has the same meaning as in RCW 18.64.011.</P>
+<P><TextRun amendingStyle="strike">(6)</TextRun> <TextRun amendingStyle="add">(8)</TextRun>(a) "Pharmacy benefit manager" means a person<TextRun amendingStyle="add">, business, or entity, including a wholly or partially owned or controlled subsidiary of a pharmacy benefit manager,</TextRun> that contracts with pharmacies on behalf of an insurer, a third-party payor, or the prescription drug purchasing consortium established under RCW 70.14.060 to:</P>
+<P>(i) Process claims for prescription drugs or medical supplies <TextRun amendingStyle="strike">or provide retail network management for pharmacies or pharmacists</TextRun><TextRun amendingStyle="add">, other prescription drug or device services, or both</TextRun>;</P>
+<P>(ii) Pay pharmacies <TextRun amendingStyle="strike">or pharmacists</TextRun> for prescription drugs or medical supplies; or</P>
+<P>(iii) Negotiate rebates with manufacturers for drugs paid for or procured as described in this subsection.</P>
+<P>(b) "Pharmacy benefit manager" does not include a health care service contractor as defined in RCW 48.44.010.</P>
+<P><TextRun amendingStyle="strike">(7)</TextRun> <TextRun amendingStyle="add">(9) "Pharmacy benefit manager affiliate" means a pharmacy or pharmacist that directly or indirectly, through one or more intermediaries, owns or controls, is owned or controlled by, or is under common ownership or control with, a pharmacy benefit manager.</TextRun></P>
+<P><TextRun amendingStyle="add">(10) "Pharmacy benefit manager network" means a network of pharmacies that are offered by an agreement or insurance contract to provide pharmacist services for health benefit plans.</TextRun></P>
+<P><TextRun amendingStyle="add">(11) "Pharmacy benefit plan or program" means a plan or program that pays for, reimburses, covers the costs of, or otherwise provides for pharmacy services under a health benefit plan.</TextRun></P>
+<P><TextRun amendingStyle="add">(12) "Pharmacy services" means products, goods, and services, or any combination of products, goods, or services, provided to a patient within the scope of pharmacy practice and covered in the pharmacy benefit plan or program.</TextRun></P>
+<P><TextRun amendingStyle="add">(13) "Pharmacy services administrative organization" means an organization that helps pharmacies and pharmacy benefit managers, or third-party payors achieve administrative efficiencies, including contracting and payment efficiencies.</TextRun></P>
+<P><TextRun amendingStyle="add">(14) "Rebate" means a discount, or other price concession, based on utilization of a prescription drug that is paid by a manufacturer or third-party payor, directly or indirectly, to a pharmacy benefit manager, pharmacy services administrative organization, or pharmacy after a claim has been processed and paid at a pharmacy. "Rebate" includes, without limitation, incentives, disbursements, and reasonable estimates of a volume-based discount.</TextRun></P>
+<P><TextRun amendingStyle="add">(15)</TextRun> "Third-party payor" means a person <TextRun amendingStyle="strike">licensed under RCW 48.39.005</TextRun><TextRun amendingStyle="add">, business, or entity other than a pharmacy benefit manager that is not an enrollee or insured in a health benefit plan</TextRun>.</P>
+<History>2016 c 210 § 3; 2014 c 213 § 1.</History>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>2</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>19</TitleNumber><TextRun>.</TextRun><ChapterNumber>340</ChapterNumber><TextRun>.</TextRun><SectionNumber>030</SectionNumber></SectionCite> and 2016 c 210 s 1 are each amended to read as follows:<Caption>Pharmacy benefit managers<TextRun fontFamily="Times New Roman">—</TextRun>Registration<TextRun fontFamily="Times New Roman">—</TextRun>Renewal.</Caption></BillSectionHeader>
+<P>(1) To conduct business in this state, a pharmacy benefit manager must <TextRun amendingStyle="strike">register with</TextRun> <TextRun amendingStyle="add">be licensed by</TextRun> the office of the insurance commissioner and annually renew the <TextRun amendingStyle="strike">registration</TextRun> <TextRun amendingStyle="add">license</TextRun>.</P>
+<P>(2) To <TextRun amendingStyle="strike">register</TextRun> <TextRun amendingStyle="add">be licensed</TextRun> under this section, a pharmacy benefit manager must:</P>
+<P>(a) Submit an application requiring the following information:</P>
+<P>(i) The identity of the pharmacy benefit manager;</P>
+<P>(ii) The name, business address, phone number, and contact person for the pharmacy benefit manager; and</P>
+<P>(iii) Where applicable, the federal tax employer identification number for the entity; and</P>
+<P>(b) Pay a <TextRun amendingStyle="strike">registration</TextRun> <TextRun amendingStyle="add">licensing</TextRun> fee established in rule by the commissioner. The <TextRun amendingStyle="strike">registration</TextRun> <TextRun amendingStyle="add">licensing</TextRun> fee must be set to allow the <TextRun amendingStyle="strike">registration</TextRun> <TextRun amendingStyle="add">licensing</TextRun> and oversight activities to be self-supporting.</P>
+<P>(3) To renew a <TextRun amendingStyle="strike">registration</TextRun> <TextRun amendingStyle="add">license</TextRun> under this section, a pharmacy benefit manager must pay a renewal fee established in rule by the commissioner. The renewal fee must be set to allow the renewal and oversight activities to be self-supporting.</P>
+<P>(4) All receipts from <TextRun amendingStyle="strike">registrations</TextRun> <TextRun amendingStyle="add">licenses</TextRun> and renewals collected by the commissioner must be deposited into the insurance commissioner's regulatory account created in RCW 48.02.190.</P>
+<History>2016 c 210 § 1; 2014 c 213 § 2.</History>
+<RCWNoteSection>
+<AnnNote><NoteP><TextRun fontWeight="bold">Effective date<TextRun fontFamily="Times New Roman">—</TextRun>2016 c 210 § 1:</TextRun> "Section 1 of this act takes effect January 1, 2017." [2016 c 210 § 8.]</NoteP></AnnNote>
+</RCWNoteSection>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>3</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>48</TitleNumber><TextRun>.</TextRun><ChapterNumber>02</ChapterNumber><TextRun>.</TextRun><SectionNumber>220</SectionNumber></SectionCite> and 2016 c 210 s 5 are each amended to read as follows:<Caption>Pharmacy benefit managers<TextRun fontFamily="Times New Roman">—</TextRun>Registration<TextRun fontFamily="Times New Roman">—</TextRun>Enforcement authority<TextRun fontFamily="Times New Roman">—</TextRun>Rules.</Caption></BillSectionHeader>
+<P indent="1">(1) The commissioner shall accept <TextRun amendingStyle="strike">registration</TextRun> <TextRun amendingStyle="add">licensing</TextRun> of pharmacy benefit managers as established in RCW 19.340.030 and receipts shall be deposited in the insurance commissioner's regulatory account.</P>
+<P indent="1">(2) The commissioner shall have enforcement authority over chapter 19.340 RCW consistent with requirements established in RCW 19.340.110.</P>
+<P indent="1">(3) The commissioner may adopt rules to implement chapter 19.340 RCW and to establish <TextRun amendingStyle="strike">registration</TextRun> <TextRun amendingStyle="add">licensing</TextRun> and renewal fees that ensure the <TextRun amendingStyle="strike">registration</TextRun> <TextRun amendingStyle="add">licensing</TextRun>, renewal, and oversight activities are self-supporting.</P>
+<History>2016 c 210 § 5.</History>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>4</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>19</TitleNumber><TextRun>.</TextRun><ChapterNumber>340</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) A pharmacy benefit manager has a fiduciary duty to a health carrier client and shall discharge that duty in accordance with the provisions of state and federal law.</P>
+<P>(2) A pharmacy benefit manager must notify a health carrier client in writing of any activity, policy, or practice of the pharmacy benefit manager that directly or indirectly presents any conflict of interest with the duties imposed in this chapter.</P>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>5</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>19</TitleNumber><TextRun>.</TextRun><ChapterNumber>340</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>A pharmacy benefit manager may not:</P>
+<P>(1) Cause or knowingly permit the use of any advertisement, promotion, solicitation, representation, proposal, or offer that is untrue, deceptive, or misleading;</P>
+<P>(2) Charge a pharmacist or pharmacy a fee related to the adjudication of a claim including, without limitation, a fee for:</P>
+<P>(a) The receipt and processing of a pharmacy claim;</P>
+<P>(b) The development or management of claims processing services in a pharmacy benefit manager network; or</P>
+<P>(c) Participation in a pharmacy benefit manager network;</P>
+<P>(3) Unless approved by the pharmacy quality assurance commission, require pharmacy accreditation standards or certification requirements inconsistent with, more stringent than, or in addition to requirements of the commission;</P>
+<P>(4) Reimburse a pharmacy in the state an amount less than the amount that the pharmacy benefit manager reimburses a pharmacy benefit manager affiliate for providing the same pharmacy services; or</P>
+<P>(5) Deny, reduce, or recoup payment to a pharmacy for pharmacy services after adjudication of the claim unless:</P>
+<P>(a) The original claim was submitted fraudulently;</P>
+<P>(b) The original claim payment was incorrect because the pharmacy had already been paid for the pharmacy services; or</P>
+<P>(c) The pharmacy services were not properly rendered by the pharmacy or pharmacist.</P>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>6</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>19</TitleNumber><TextRun>.</TextRun><ChapterNumber>340</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) A pharmacy benefit manager shall provide:</P>
+<P>(a) A reasonably adequate and accessible pharmacy benefit manager network for the provision of prescription drugs for a health benefit plan that must provide for convenient patient access to pharmacies within a reasonable distance from a patient's residence; and</P>
+<P>(b) A pharmacy benefit manager network adequacy report describing the pharmacy benefit manager network and the pharmacy benefit manager network's accessibility in the state in the time and manner required by rules adopted by the commissioner.</P>
+<P>(2) Termination of a pharmacy from a pharmacy benefit manager network does not release the pharmacy benefit manager from the obligation to make any payment due to the pharmacy for pharmacy services properly rendered.</P>
+<P>(3) The commissioner may issue a rule establishing prohibited practices of pharmacy benefit managers providing claims processing services or other prescription drug or device services for health benefit plans.</P>
+<P>(4) A mail-order pharmacy must not be included in the calculations determining pharmacy benefit manager network adequacy.</P>
+</BillSection>
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>7</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>19</TitleNumber><TextRun>.</TextRun><ChapterNumber>340</ChapterNumber><TextRun>.</TextRun><SectionNumber>110</SectionNumber></SectionCite> and 2016 c 210 s 2 are each amended to read as follows:<Caption>Enforcement<TextRun fontFamily="Times New Roman">—</TextRun>Disputes<TextRun fontFamily="Times New Roman">—</TextRun>Civil penalties.</Caption></BillSectionHeader>
+<P>(1) The commissioner shall have enforcement authority over this chapter and shall have authority to<TextRun amendingStyle="add">:</TextRun></P>
+<P><TextRun amendingStyle="add">(a) R</TextRun>ender a binding decision in any dispute between a pharmacy benefit manager, or third-party administrator of prescription drug benefits, and a pharmacy arising out of an appeal under RCW 19.340.100(6) regarding drug pricing and reimbursement<TextRun amendingStyle="add">; or</TextRun></P>
+<P><TextRun amendingStyle="add">(b) Examine or audit the books and records of a pharmacy benefit manager providing claims processing services or other prescription drug or device services for a health plan to determine if the pharmacy benefit manager is in compliance with this chapter. Information the commissioner acquires in an examination is proprietary and confidential</TextRun>.</P>
+<P>(2) Any person, corporation, third-party administrator of prescription drug benefits, pharmacy benefit manager, or business entity which violates any provision of this chapter shall be subject to a civil penalty in the amount of one thousand dollars for each act in violation of this chapter or, if the violation was knowing and willful, a civil penalty of five thousand dollars for each violation of this chapter.</P>
+<History>2016 c 210 § 2.</History>
+</BillSection>
+<BillSection type="new" action="addsect">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>8</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>42</TitleNumber><TextRun>.</TextRun><ChapterNumber>56</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>Information acquired by the insurance commissioner under RCW 19.340.110(1)(b) is not subject to public disclosure under this chapter.</P>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>9</Value><TextRun>.  </TextRun></BillSectionNumber><P>The insurance commissioner may adopt any rules necessary to implement this act.</P></BillSectionHeader>
+</BillSection>
+<BillSection type="new">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>10</Value><TextRun>.  </TextRun></BillSectionNumber><P>(1) This act applies to all contracts or health benefit plans issued, renewed, recredentialed, amended, or extended on or after July 1, 2020.</P></BillSectionHeader>
+<P>(2) A contract existing on the date of licensure of a pharmacy benefit manager must comply with the requirements of this act as a condition of licensure for the pharmacy benefit manager.</P>
+<P>(3) This act is not applicable to self-funded health benefit plans, as they do not constitute the business of insurance; thus, the regulation of such self-funded plans is not specifically reserved to this state and the several states by the McCarran-Ferguson act of 1945, 15 U.S.C. Sec. 1011–1015.</P>
+</BillSection>
+<BillSection type="new" action="effdate">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>11</Value><TextRun>.  </TextRun></BillSectionNumber><P>This act takes effect July 1, 2020.</P></BillSectionHeader>
+</BillSection>
+</BillBody>
+</Bill>

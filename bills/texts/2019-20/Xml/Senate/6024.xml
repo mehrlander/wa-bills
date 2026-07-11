@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-4528.1</RequestNumber><ShortBillId>SB 6024</ShortBillId><LongBillId>SENATE BILL 6024</LongBillId><Legislature>66th Legislature</Legislature><Session>2019 Regular Session</Session><Sponsors>Senator Randall</Sponsors><BillHistory /><BriefDescription>Facilitating the transfer of persons detained for involuntary behavioral health treatment to certified evaluation and treatment facilities.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to facilitating the transfer of persons detained for involuntary behavioral health treatment to certified evaluation and treatment facilities; and adding a new section to chapter 71.05 RCW.</BillTitle>
+<EnactedClause />
+<BillSection type="new" action="addsect" xmlns="http://leg.wa.gov/2012/document">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber>A new section is added to <ChapterCite><TextRun>chapter </TextRun><TitleNumber>71</TitleNumber><TextRun>.</TextRun><ChapterNumber>05</ChapterNumber><TextRun> RCW</TextRun></ChapterCite> to read as follows:</BillSectionHeader>
+<P>(1) A certified evaluation and treatment facility must prioritize providing admission and services to persons detained pursuant to a single bed certification under RCW 71.05.745 in an emergency room or other facility that is not primarily concerned in the treatment of persons with behavioral health disorders alongside providing admission and services to new detainees.</P>
+<P>(2) A certified evaluation and treatment facility is not required under subsection (1) of this section to offer admission and services to a person who requires medical services that are not generally available in a certified evaluation and treatment facility, to a person who is already awaiting transportation to an identified bed at another certified evaluation and treatment facility, or to a person whose condition has stabilized to the point where the person is ready for imminent discharge and remaining at the facility of the single bed certification would serve the best interests of the person and facilitate continuity of care.</P>
+<P>(3) A certified evaluation and treatment facility which refuses admission and services to a person under subsection (1) of this section when the facility has a bed available must document the reasons for refusal in a log which is available for inspection by the certification authority.</P>
+<P>(4) Nothing in this section limits the right of a certified evaluation and treatment facility that has a bed available to provide admission and services to a person not included in subsection (1) of this section, or to refuse to provide admission and services to a person for reasons that are unrelated to the person's detention pursuant to a single bed certification.</P>
+</BillSection>
+</BillBody>
+</Bill>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Bill type="bill" xmlns="http://leg.wa.gov/2012/document"><BillHeading><RequestNumber>S-0237.1</RequestNumber><ShortBillId>SB 5132</ShortBillId><LongBillId>SENATE BILL 5132</LongBillId><Legislature>66th Legislature</Legislature><Session>2019 Regular Session</Session><Sponsors>Senators Takko and Short</Sponsors><BillHistory><PrefiledDate>Prefiled 01/11/19.</PrefiledDate></BillHistory><BriefDescription>Addressing noncollection of taxes by county treasurers.</BriefDescription></BillHeading>
+
+<BillBody>
+<BillTitle>AN ACT Relating to noncollection of taxes by county treasurers; and amending RCW 84.56.250.</BillTitle>
+<EnactedClause />
+<BillSection type="amendatory" action="amend">
+<BillSectionHeader><BillSectionNumber><TextRun>Sec. </TextRun><Value>1</Value><TextRun>.  </TextRun></BillSectionNumber><SectionCite><TextRun>RCW </TextRun><TitleNumber>84</TitleNumber><TextRun>.</TextRun><ChapterNumber>56</ChapterNumber><TextRun>.</TextRun><SectionNumber>250</SectionNumber></SectionCite> and 2001 c 299 s 19 are each amended to read as follows:<Caption>Penalty for willful noncollection or failure to file delinquent list.</Caption></BillSectionHeader>
+<P>If any county treasurer willfully refuses <TextRun amendingStyle="strike">or neglects</TextRun> to collect any taxes assessed upon personal property, where the same is collectible, or to file the delinquent list and affidavit, as <TextRun amendingStyle="strike">herein</TextRun> provided <TextRun amendingStyle="add">in RCW 84.56.300</TextRun>, the treasurer shall be held, in his or her next settlement with the county legislative authority, liable for the whole amount of such taxes uncollected, and the same shall be deducted from his or her salary and applied to the several funds for which they were levied.</P>
+<History>2001 c 299 § 19; 1961 c 15 § 84.56.250. Prior: 1925 ex.s. c 130 § 95; RRS § 11256; prior: 1897 c 71 § 73; 1893 c 124 § 74; 1890 p 563 § 91.</History>
+</BillSection>
+</BillBody>
+</Bill>

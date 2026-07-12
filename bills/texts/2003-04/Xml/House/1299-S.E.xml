@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE Bill PUBLIC "-//LSC//DTD Authoring Bill XML//EN" "c:\dtd\author\billauthoring.top">
+
+<Bill version="1.0" type="introLN" docName="ESHB 1299">
+<IntroducedBillHeader>
+<BillNumber>ENGROSSED SUBSTITUTE HOUSE BILL 1299</BillNumber>
+<StateLegSession>
+<State>State of Washington</State>
+<Legislature>58th Legislature</Legislature>
+<Session>2003 Regular Session</Session>
+</StateLegSession>
+<Sponsors> House Committee on Health Care (originally sponsored by
+Representatives Cody, Sommers, Morrell, Schual-Berke and Dickerson)</Sponsors>
+<IntroHistory>
+<ReadDate>READ FIRST TIME 02/17/03.  </ReadDate>
+</IntroHistory>
+</IntroducedBillHeader>
+<BriefDescription>Providing for uniform policies for health services purchasing by state
+purchased health care programs.</BriefDescription>
+<BillBody>
+<BillTitle><LineNumber line=" 1" page="1,1" hrt="no"/>	AN ACT Relating to evidence<hyphen></hyphen>based health services purchasing by<LineNumber line=" 2" page="1,2"/>state purchased health care programs; adding a new section to chapter<LineNumber line=" 3" page="1,3"/>41.05 RCW; and creating a new section.</BillTitle>
+<EnactingClause><LineNumber line=" 4" page="1,4" hrt="no"/>BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF WASHINGTON:</EnactingClause>
+<BillSection type="new" clausetype="newsinglesectoch">
+<LineNumber line=" 5" page="1,5" hrt="no"/>
+<BegSecNew>
+<NewSecText>NEW SECTION.</NewSecText>
+<SecNum>Sec. </SecNum>
+<BegSecText>A new section is added to chapter <NewSingleSecToCh>41.05</NewSingleSecToCh> RCW<LineNumber line=" 6" page="1,6"/>to read as follows:</BegSecText>
+<LineNumber line=" 7" page="1,7" hrt="no"/>
+</BegSecNew>
+<RCWSLText>	(1) The authority shall coordinate state agency efforts to develop<LineNumber line=" 8" page="1,8"/>and implement uniform policies across state purchased health care<LineNumber line=" 9" page="1,9"/>programs that will ensure prudent, cost<hyphen></hyphen>effective health services<LineNumber line="10" page="1,10"/>purchasing, maximize efficiencies in administration of state purchased<LineNumber line="11" page="1,11"/>health care programs, improve the quality of care provided through<LineNumber line="12" page="1,12"/>state purchased health care programs, and reduce administrative burdens<LineNumber line="13" page="1,13"/>on health care providers participating in state purchased health care<LineNumber line="14" page="1,14"/>programs.  The policies adopted should be based, to the extent<LineNumber line="15" page="1,15"/>possible, upon the best available scientific and medical evidence and<LineNumber line="16" page="1,16"/>shall endeavor to address:<paraend/><LineNumber line="17" page="1,17" hrt="no"/>	(a) Methods of formal assessment, such as health technology<LineNumber line="18" page="1,18"/>assessment.  Consideration of the best available scientific evidence<PageNumberFooter>		p. 1	ESHB 1299</PageNumberFooter><LineNumber line=" 1" page="2,1" hrt="no"/>does
+not preclude consideration of experimental or investigational<LineNumber line=" 2" page="2,2"/>treatment or services under a clinical investigation approved by an<LineNumber line=" 3" page="2,3"/>institutional review board;<paraend/><LineNumber line=" 4" page="2,4" hrt="no"/>	(b) Monitoring of health outcomes, adverse events, quality, and<LineNumber line=" 5" page="2,5"/>cost<hyphen></hyphen>effectiveness of health services;<paraend/><LineNumber line=" 6" page="2,6" hrt="no"/>	(c) Development of a common definition of medical necessity; and<paraend/><LineNumber line=" 7" page="2,7" hrt="no"/>	(d) Exploration of common strategies for disease management and<LineNumber line=" 8" page="2,8"/>demand management programs.<paraend/><LineNumber line=" 9" page="2,9" hrt="no"/>	(2) The administrator may invite health care provider<LineNumber line="10" page="2,10"/>organizations, carriers, other health care purchasers, and consumers to<LineNumber line="11" page="2,11"/>participate in efforts undertaken under this section.<paraend/><LineNumber line="12" page="2,12" hrt="no"/>	(3) For the purposes of this section &quot;best available scientific and<LineNumber line="13" page="2,13"/>medical evidence&quot; means the best available external clinical evidence<LineNumber line="14" page="2,14"/>derived from systematic research.</RCWSLText>
+</BillSection>
+<BillSection type="new">
+<LineNumber line="15" page="2,15" hrt="no"/>
+<BegSecNew>
+<NewSecText>NEW SECTION.</NewSecText>
+<SecNum>Sec. </SecNum>
+</BegSecNew>
+<RCWSLText>Agencies administering state purchased<LineNumber line="16" page="2,16"/>health care programs shall cooperatively adopt rules necessary to<LineNumber line="17" page="2,17"/>implement this act.</RCWSLText>
+</BillSection>
+<BillEnd>--- END ---<PageNumberFooter>	ESHB 1299	p. 2	</PageNumberFooter></BillEnd>
+</BillBody>
+</Bill>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE Bill PUBLIC "-//LSC//DTD Authoring Bill XML//EN" "c:\dtd\author\billauthoring.top">
+
+<Bill version="1.0" type="introLN" docName="EHB 1808">
+<IntroducedBillHeader>
+<BillNumber>ENGROSSED HOUSE BILL 1808</BillNumber>
+<StateLegSession>
+<State>State of Washington</State>
+<Legislature>58th Legislature</Legislature>
+<Session>2003 Regular Session</Session>
+</StateLegSession>
+<Sponsors> Representatives Kenney, Cox, Fromhold, Priest, Berkey, Jarrett,
+Gombosky, Morrell, Chase, McCoy and Lantz</Sponsors>
+<IntroHistory>
+<ReadDate>Read first time 02/11/2003.  </ReadDate>
+<ReferredTo>Referred to Committee on Higher Education.</ReferredTo>
+</IntroHistory>
+</IntroducedBillHeader>
+<BriefDescription>Requiring standards of review before changing lines of instruction at
+research universities.</BriefDescription>
+<BillBody>
+<BillTitle><LineNumber line=" 1" page="1,1" hrt="no"/>	AN ACT Relating to establishing standards of review in order to<LineNumber line=" 2" page="1,2"/>change lines of instruction at research universities; amending RCW<LineNumber line=" 3" page="1,3"/>28B.10.115; and adding a new section to chapter 28B.80 RCW.</BillTitle>
+<EnactingClause><LineNumber line=" 4" page="1,4" hrt="no"/>BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF WASHINGTON:</EnactingClause>
+<BillSection type="amend">
+<LineNumber line=" 5" page="1,5" hrt="no"/>
+<BegSecAmd>
+<SecNum>Sec. </SecNum>
+<BegSecText>RCW <Cite>28B.10.115</Cite> and 1985 c 218 s 1 are each amended to read<LineNumber line=" 6" page="1,6"/>as follows:</BegSecText>
+<LineNumber line=" 7" page="1,7" hrt="no"/>
+</BegSecAmd>
+<RCWSLText>	The courses of instruction of both the University of Washington and<LineNumber line=" 8" page="1,8"/>Washington State University shall embrace as major lines, pharmacy,<LineNumber line=" 9" page="1,9"/>architecture, civil engineering, ((<strike>electrical engineering,</strike>)) mechanical<LineNumber line="10" page="1,10"/>engineering, chemical engineering, and forest management as<LineNumber line="11" page="1,11"/>distinguished from forest products and logging engineering which are<LineNumber line="12" page="1,12"/>exclusive to the University of Washington.  These major lines shall be<LineNumber line="13" page="1,13"/>offered and taught at said institutions only.</RCWSLText>
+</BillSection>
+<BillSection type="new" clausetype="newsinglesectoch">
+<LineNumber line="14" page="1,14" hrt="no"/>
+<BegSecNew>
+<NewSecText>NEW SECTION.</NewSecText>
+<SecNum>Sec. </SecNum>
+<BegSecText>A new section is added to chapter <NewSingleSecToCh>28B.80</NewSingleSecToCh> RCW<LineNumber line="15" page="1,15"/>to read as follows:</BegSecText>
+<LineNumber line="16" page="1,16" hrt="no"/>
+</BegSecNew>
+<RCWSLText>	(1) This section applies to any amendment to RCW 28B.10.115 after<PageNumberFooter>		p. 1	EHB 1808</PageNumberFooter><LineNumber line=" 1" page="2,1" hrt="no"/>January 1, 2003, that changes the major lines of instruction exclusive<LineNumber line=" 2" page="2,2"/>to the University of Washington or Washington State University,<LineNumber line=" 3" page="2,3"/>including the amendments in chapter . . ., Laws of 2003 (this act).<paraend/><LineNumber line=" 4" page="2,4" hrt="no"/>	(2) If a four<hyphen></hyphen>year institution requests approval under RCW<LineNumber line=" 5" page="2,5"/>28B.80.340 of a new degree program that is the result of legislation<LineNumber line=" 6" page="2,6"/>enacted to change the terms of RCW 28B.10.115, the higher education<LineNumber line=" 7" page="2,7"/>coordinating board shall conduct an independent analysis using<LineNumber line=" 8" page="2,8"/>information from a variety of sources as part of the board&apos;s review of<LineNumber line=" 9" page="2,9"/>the proposed program, including but not limited to information<LineNumber line="10" page="2,10"/>submitted by the institution.  Such information shall include:<paraend/><LineNumber line="11" page="2,11" hrt="no"/>	(a) Detailed evidence of why the program is justified, including<LineNumber line="12" page="2,12"/>the size and scope of student, employer, and community demand for the<LineNumber line="13" page="2,13"/>program;<paraend/><LineNumber line="14" page="2,14" hrt="no"/>	(b) The feasibility of using existing public or private capacity<LineNumber line="15" page="2,15"/>for the program and comparisons of the state cost of providing existing<LineNumber line="16" page="2,16"/>and proposed capacity.  Any institution that offers programs under this<LineNumber line="17" page="2,17"/>section shall comply with all applicable state rules and regulations;<paraend/><LineNumber line="18" page="2,18" hrt="no"/>	(c) Projected future enrollment in the program and substantiation<LineNumber line="19" page="2,19"/>of the enrollment estimates; and<paraend/><LineNumber line="20" page="2,20" hrt="no"/>	(d) Additional information as requested by the board regarding<LineNumber line="21" page="2,21"/>demand, need, and cost<hyphen></hyphen>effectiveness of the program.<paraend/><LineNumber line="22" page="2,22" hrt="no"/>	(3) The higher education coordinating board shall submit a complete<LineNumber line="23" page="2,23"/>analysis of a proposed program under this section to the higher<LineNumber line="24" page="2,24"/>education committees of the legislature before making a final<LineNumber line="25" page="2,25"/>determination regarding approval of the program.</RCWSLText>
+</BillSection>
+<BillEnd>--- END ---<PageNumberFooter>	EHB 1808	p. 2	</PageNumberFooter></BillEnd>
+</BillBody>
+</Bill>

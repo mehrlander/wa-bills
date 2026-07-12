@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE Bill PUBLIC "-//LSC//DTD Authoring Bill XML//EN" "c:\dtd\author\billauthoring.top">
+
+<Bill version="1.0" type="introLN" docName="H-0349.1">
+<IntroducedBillHeader>
+<RequestNumber>H-0349.2</RequestNumber>
+<BillNumber>HOUSE BILL 1390</BillNumber>
+<StateLegSession>
+<State>State of Washington</State>
+<Legislature>58th Legislature</Legislature>
+<Session>2003 Regular Session</Session>
+</StateLegSession>
+<Sponsors>Representatives Moeller, Jarrett, Lovick, Fromhold, Veloria,
+Kessler, Pettigrew, Miloscia, McDermott, Dunshee, Upthegrove, DeBolt,
+Wallace, Wood, Sullivan, Schual-Berke, Kagi and Nixon</Sponsors>
+<IntroHistory>
+<ReadDate>Read first time 01/24/2003.  </ReadDate>
+<ReferredTo>Referred to Committee on Local Government.</ReferredTo>
+</IntroHistory>
+</IntroducedBillHeader>
+<BriefDescription>Authorizing instant runoff voting.</BriefDescription>
+<BillBody>
+<BillTitle><LineNumber line=" 1" page="1,1" hrt="no"/>	AN ACT Relating to the process for election to local nonpartisan<LineNumber line=" 2" page="1,2"/>offices; amending RCW 29.65.050; adding a new chapter to Title 29 RCW;<LineNumber line=" 3" page="1,3"/>creating a new section; and repealing RCW 29.30.085.</BillTitle>
+<EnactingClause><LineNumber line=" 4" page="1,4" hrt="no"/>BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF WASHINGTON:</EnactingClause>
+<BillSection type="new">
+<LineNumber line=" 5" page="1,5" hrt="no"/>
+<BegSecNew>
+<NewSecText>NEW SECTION.</NewSecText>
+<SecNum>Sec. </SecNum>
+</BegSecNew>
+<SectionCaption>FINDINGS AND PURPOSE.  </SectionCaption>
+<RCWSLText>The legislature finds<LineNumber line=" 6" page="1,6"/>that it is in the public interest to adopt a voting system in which all<LineNumber line=" 7" page="1,7"/>successful candidates must win by a majority vote rather than a<LineNumber line=" 8" page="1,8"/>plurality of effective votes and that allows voters to vote secondary<LineNumber line=" 9" page="1,9"/>and other preferences in case their favorite candidate is not elected.<endofsentence/><LineNumber line="10" page="1,10"/>A system known as instant runoff voting achieves that purpose.  The<LineNumber line="11" page="1,11"/>legislature further finds that voter interest and participation in<LineNumber line="12" page="1,12"/>elections will increase because a voter has more choices and all votes<LineNumber line="13" page="1,13"/>will be more meaningful than under the present system.  It is in the<LineNumber line="14" page="1,14"/>interest of participatory democracy that voters be given the<LineNumber line="15" page="1,15"/>opportunity to vote their true beliefs with their first choice votes,<LineNumber line="16" page="1,16"/>while still making effective secondary choices among the remaining<LineNumber line="17" page="1,17"/>acceptable candidates.  It is the intent of the legislature to<LineNumber line="18" page="1,18"/>authorize instant runoff voting as a local option for nonpartisan<LineNumber line="19" page="1,19"/>offices in first class cities.</RCWSLText>
+</BillSection>
+<BillSection type="new" pageBreak="yes">
+<PageNumberFooter>		p. 1	HB 1390</PageNumberFooter>
+<LineNumber line=" 1" page="2,1" hrt="no"/>
+<BegSecNew>
+<NewSecText>NEW SECTION.</NewSecText>
+<SecNum>Sec. </SecNum>
+</BegSecNew>
+<SectionCaption>DEFINITIONS.  </SectionCaption>
+<RCWSLText>The definitions set forth in<LineNumber line=" 2" page="2,2"/>this section apply throughout this chapter.<paraend/><LineNumber line=" 3" page="2,3" hrt="no"/>	(1) &quot;Instant runoff voting&quot; means a system of voting whereby voters<LineNumber line=" 4" page="2,4"/>may rank three or more candidates for the same office in order of<LineNumber line=" 5" page="2,5"/>preference, so that voters may indicate a first choice, a second<LineNumber line=" 6" page="2,6"/>choice, and so on for as many of the candidates for the office as they<LineNumber line=" 7" page="2,7"/>wish, up to the maximum number of choices allowed.<paraend/><LineNumber line=" 8" page="2,8" hrt="no"/>	(2) &quot;Choice&quot; means an indication on a ballot of a voter&apos;s ranking<LineNumber line=" 9" page="2,9"/>of candidates for a particular office according to the voter&apos;s<LineNumber line="10" page="2,10"/>preference.<paraend/><LineNumber line="11" page="2,11" hrt="no"/>	(3) &quot;Vote&quot; means a ballot choice that is counted toward election of<LineNumber line="12" page="2,12"/>a candidate.  All first choices are votes, and lower ranked choices are<LineNumber line="13" page="2,13"/>potential votes that may be credited to a candidate, and thus become<LineNumber line="14" page="2,14"/>votes for the candidate, according to the rules stated in this chapter.<paraend/><LineNumber line="15" page="2,15" hrt="no"/>	(4) &quot;Stage&quot; or &quot;stage in the counting&quot; means a step in counting<LineNumber line="16" page="2,16"/>votes, where votes for all remaining candidates are counted to<LineNumber line="17" page="2,17"/>determine whether a candidate has achieved a majority and, if not,<LineNumber line="18" page="2,18"/>which candidate or candidates are eliminated.<paraend/><LineNumber line="19" page="2,19" hrt="no"/>	(5) &quot;Next choice&quot; means the highest ranked choice for a remaining<LineNumber line="20" page="2,20"/>candidate that has not become a vote at the stage referred to.<paraend/><LineNumber line="21" page="2,21" hrt="no"/>	(6) &quot;Last place candidate&quot; means a candidate who has received the<LineNumber line="22" page="2,22"/>fewest votes among the candidates who remain at any stage.  Two or more<LineNumber line="23" page="2,23"/>candidates simultaneously become last place candidates where their<LineNumber line="24" page="2,24"/>combined votes add up to less than all votes for the candidate with the<LineNumber line="25" page="2,25"/>next highest number of votes.<paraend/><LineNumber line="26" page="2,26" hrt="no"/>	(7) &quot;Exhausted ballot&quot; means a ballot on which all available<LineNumber line="27" page="2,27"/>choices have been used; for example, all choices made on the ballot<LineNumber line="28" page="2,28"/>have become votes for the various candidates so indicated or contain<LineNumber line="29" page="2,29"/>choices for eliminated candidates or both and no other choices remain.<paraend/><LineNumber line="30" page="2,30" hrt="no"/>	(8) &quot;Continuing ballot&quot; means a ballot that is not exhausted.<paraend/><LineNumber line="31" page="2,31" hrt="no"/>	(9) &quot;Remaining candidate&quot; means a candidate who has not been<LineNumber line="32" page="2,32"/>eliminated.  &quot;Candidates who remain&quot; are all those who have not been<LineNumber line="33" page="2,33"/>eliminated at the stage referred to.</RCWSLText>
+</BillSection>
+<BillSection type="new">
+<LineNumber line="34" page="2,34" hrt="no"/>
+<BegSecNew>
+<NewSecText>NEW SECTION.</NewSecText>
+<SecNum>Sec. </SecNum>
+</BegSecNew>
+<SectionCaption>INSTANT RUNOFF VOTING.  </SectionCaption>
+<RCWSLText>The instant runoff<LineNumber line="35" page="2,35"/>system of voting is adopted in this state in the manner specified in<LineNumber line="36" page="2,36"/>this chapter for all applicable elections.</RCWSLText>
+</BillSection>
+<BillSection type="new" pageBreak="yes">
+<PageNumberFooter>	HB 1390	p. 2	</PageNumberFooter>
+<LineNumber line=" 1" page="3,1" hrt="no"/>
+<BegSecNew>
+<NewSecText>NEW SECTION.</NewSecText>
+<SecNum>Sec. </SecNum>
+</BegSecNew>
+<SectionCaption>COUNTING OF BALLOTS.  </SectionCaption>
+<RCWSLText>(1) General<LineNumber line=" 2" page="3,2"/>Explanation.  In general, instant runoff counting proceeds in the<LineNumber line=" 3" page="3,3"/>following manner:  First by counting all votes.  If a candidate<LineNumber line=" 4" page="3,4"/>receives a majority of votes he or she is elected.  If no candidate<LineNumber line=" 5" page="3,5"/>receives a majority on the first or any subsequent stage then the last<LineNumber line=" 6" page="3,6"/>place candidate at each stage is eliminated.  The next choices on<LineNumber line=" 7" page="3,7"/>ballots for an eliminated candidate become votes for the candidates<LineNumber line=" 8" page="3,8"/>indicated in those choices, and this process continues until all but<LineNumber line=" 9" page="3,9"/>one candidate has been eliminated.<paraend/><LineNumber line="10" page="3,10" hrt="no"/>	(2) Specific Rules and Procedures.  The following specific rules<LineNumber line="11" page="3,11"/>and procedures, subject to the conditions of section 5 of this act,<LineNumber line="12" page="3,12"/>govern how votes must be counted for each office subject to instant<LineNumber line="13" page="3,13"/>runoff voting:<paraend/><LineNumber line="14" page="3,14" hrt="no"/>	(a) All first choices are counted first and if a candidate has<LineNumber line="15" page="3,15"/>obtained a majority of those votes that candidate is elected and<LineNumber line="16" page="3,16"/>counting ends.<paraend/><LineNumber line="17" page="3,17" hrt="no"/>	(b) If no candidate receives a majority of votes at the first stage<LineNumber line="18" page="3,18"/>then second stage counting begins by eliminating the last place<LineNumber line="19" page="3,19"/>candidate and the second choices made on ballots for the eliminated<LineNumber line="20" page="3,20"/>candidate become votes for the second choice candidate indicated on<LineNumber line="21" page="3,21"/>those ballots.  A candidate who receives a majority of votes at that<LineNumber line="22" page="3,22"/>stage is elected.<paraend/><LineNumber line="23" page="3,23" hrt="no"/>	(c) If no candidate receives a majority at a previous stage then<LineNumber line="24" page="3,24"/>the last place candidate among the remaining candidates is eliminated<LineNumber line="25" page="3,25"/>and the next choices made on ballots for an eliminated candidate become<LineNumber line="26" page="3,26"/>votes for the candidate indicated on those ballots.  A candidate who<LineNumber line="27" page="3,27"/>receives a majority of votes at that stage is elected.<paraend/><LineNumber line="28" page="3,28" hrt="no"/>	(d) If at any stage in the counting there are two or more last<LineNumber line="29" page="3,29"/>place candidates, these candidates are eliminated simultaneously and<LineNumber line="30" page="3,30"/>the next choices made on ballots that had votes for all such eliminated<LineNumber line="31" page="3,31"/>candidates become votes for any candidates so indicated who remain.<paraend/><LineNumber line="32" page="3,32" hrt="no"/>	(e) The counting process continues in this manner with successive<LineNumber line="33" page="3,33"/>last place candidates being eliminated and the next choices made on<LineNumber line="34" page="3,34"/>continuing ballots on which votes were cast for eliminated candidates<LineNumber line="35" page="3,35"/>are counted for the remaining candidate or candidates indicated by<LineNumber line="36" page="3,36"/>those choices until all but one candidate has been eliminated and that<LineNumber line="37" page="3,37"/>candidate is then elected.</RCWSLText>
+</BillSection>
+<BillSection type="new" pageBreak="yes">
+<PageNumberFooter>		p. 3	HB 1390</PageNumberFooter>
+<LineNumber line=" 1" page="4,1" hrt="no"/>
+<BegSecNew>
+<NewSecText>NEW SECTION.</NewSecText>
+<SecNum>Sec. </SecNum>
+</BegSecNew>
+<SectionCaption>VOTING
+CONDITIONS AND LIMITATIONS.  </SectionCaption>
+<RCWSLText>(1)<LineNumber line=" 2" page="4,2"/>Exhausted Ballots.  (a) Once a ballot is exhausted it is disregarded<LineNumber line=" 3" page="4,3"/>and no longer counted.<paraend/><LineNumber line=" 4" page="4,4" hrt="no"/>	(b) A ballot assigning the same ranking to more than one candidate<LineNumber line=" 5" page="4,5"/>for an office is exhausted when the duplicate ranking is reached, and<LineNumber line=" 6" page="4,6"/>in that case no vote is recorded for any of the duplicate candidates so<LineNumber line=" 7" page="4,7"/>chosen.<paraend/><LineNumber line=" 8" page="4,8" hrt="no"/>	(c) If in a partisan primary election a voter makes a choice for a<LineNumber line=" 9" page="4,9"/>candidate for a particular office who is not a candidate of the party<LineNumber line="10" page="4,10"/>for which the voter has made a higher ranked choice, then that ballot<LineNumber line="11" page="4,11"/>is exhausted with respect to all subsequent choices for that office.<paraend/><LineNumber line="12" page="4,12" hrt="no"/>	(2) Skipped Ranking.  If a ballot choice skips a ranking, then the<LineNumber line="13" page="4,13"/>next ranking below the skipped choice is moved up and counted as though<LineNumber line="14" page="4,14"/>it were the rank of the skipped choice.<paraend/><LineNumber line="15" page="4,15" hrt="no"/>	(3) Tie Votes.  Ties between candidates occurring at any stage are<LineNumber line="16" page="4,16"/>resolved according to the general election laws of this state.<paraend/><LineNumber line="17" page="4,17" hrt="no"/>	(4) Maximum Effective Choices.  Only five choices for any one<LineNumber line="18" page="4,18"/>office are counted.<paraend/><LineNumber line="19" page="4,19" hrt="no"/>	(5) Write<hyphen></hyphen>in Votes.  Voters may write in one candidate for each<LineNumber line="20" page="4,20"/>office and assign a ranking to the write<hyphen></hyphen>in candidate along with<LineNumber line="21" page="4,21"/>candidates whose names are already on the ballot.  Write<hyphen></hyphen>in candidates<LineNumber line="22" page="4,22"/>with fewer than ten votes are automatically eliminated in elections in<LineNumber line="23" page="4,23"/>jurisdictions where more than one thousand total ballots were cast in<LineNumber line="24" page="4,24"/>the previous election.<paraend/><LineNumber line="25" page="4,25" hrt="no"/>	(6) Insufficient Choice Votes Made.  If ballots do not contain<LineNumber line="26" page="4,26"/>sufficient effective second and lower choices for a particular office<LineNumber line="27" page="4,27"/>so that at the end of the counting no candidate achieves a majority<LineNumber line="28" page="4,28"/>then the candidate with the most votes credited to him or her is<LineNumber line="29" page="4,29"/>elected.<paraend/><LineNumber line="30" page="4,30" hrt="no"/>	(7) Votes for Eliminated Candidates.  No votes may be counted for<LineNumber line="31" page="4,31"/>a candidate who has been eliminated no matter how many second and lower<LineNumber line="32" page="4,32"/>ranked choices might otherwise have become votes for the candidate in<LineNumber line="33" page="4,33"/>a later stage.</RCWSLText>
+</BillSection>
+<BillSection type="new">
+<LineNumber line="34" page="4,34" hrt="no"/>
+<BegSecNew>
+<NewSecText>NEW SECTION.</NewSecText>
+<SecNum>Sec. </SecNum>
+</BegSecNew>
+<SectionCaption>LOCAL OPTION AUTHORIZED.  </SectionCaption>
+<RCWSLText>A first class city<LineNumber line="35" page="4,35"/>may use instant runoff voting in its elections if adopted by<LineNumber line="36" page="4,36"/>appropriate action of its governing body.<paraend/><PageNumberFooter>	HB 1390	p. 4	</PageNumberFooter><LineNumber line=" 1" page="5,1" hrt="no"/>	Primaries for all nonpartisan offices in first class cities<LineNumber line=" 2" page="5,2"/>choosing to use instant runoff voting are abolished, and there will be<LineNumber line=" 3" page="5,3"/>only a general election under instant runoff voting rules for these<LineNumber line=" 4" page="5,4"/>offices.</RCWSLText>
+</BillSection>
+<BillSection type="new">
+<LineNumber line=" 5" page="5,5" hrt="no"/>
+<BegSecNew>
+<NewSecText>NEW SECTION.</NewSecText>
+<SecNum>Sec. </SecNum>
+</BegSecNew>
+<SectionCaption>BALLOT SPECIFICATIONS AND DIRECTIONS TO<LineNumber line=" 6" page="5,6"/>VOTERS.  </SectionCaption>
+<RCWSLText>Ballots should be simple and easy to understand.  Sample<LineNumber line=" 7" page="5,7"/>ballots illustrating voting procedures must be posted in or near the<LineNumber line=" 8" page="5,8"/>voting booth, and included in the instruction packet of absentee<LineNumber line=" 9" page="5,9"/>ballots.  Directions provided to voters must conform substantially to<LineNumber line="10" page="5,10"/>the following specifications:<paraend/><paraendLessSpace/><LineNumber line="11" page="5,11" hrt="no"/><doubleindent>	&quot;You may vote for candidates in order of preference.<endofsentence/></doubleindent><LineNumber line="12" page="5,12"/><doubleindent>Indicate your first choice by marking the number &quot;1&quot; beside a</doubleindent><LineNumber line="13" page="5,13"/><doubleindent>candidate&apos;s name (or by marking in the column labeled &quot;First</doubleindent><LineNumber line="14" page="5,14"/><doubleindent>Choice&quot;), your second choice by marking the number &quot;2&quot; (or by</doubleindent><LineNumber line="15" page="5,15"/><doubleindent>marking in the column labeled &quot;Second Choice&quot;), your third</doubleindent><LineNumber line="16" page="5,16"/><doubleindent>choice by the number &quot;3&quot; (or marking the &quot;Third Choice&quot;</doubleindent><LineNumber line="17" page="5,17"/><doubleindent>column), and so on, for as many or as few choices as you wish</doubleindent><LineNumber line="18" page="5,18"/><doubleindent>from one up to a total of five.  You are under no obligation to</doubleindent><LineNumber line="19" page="5,19"/><doubleindent>rank more than one candidate for each office, but ranking</doubleindent><LineNumber line="20" page="5,20"/><doubleindent>additional candidates will not affect your first choice</doubleindent><LineNumber line="21" page="5,21"/><doubleindent>candidate.  Do not mark the same number beside more than one</doubleindent><LineNumber line="22" page="5,22"/><doubleindent>candidate (or put more than one mark in each column for the</doubleindent><LineNumber line="23" page="5,23"/><doubleindent>office you are voting on).  Do not skip numbers.&quot;</doubleindent></RCWSLText>
+</BillSection>
+<BillSection type="new">
+<LineNumber line="24" page="5,24" hrt="no"/>
+<BegSecNew>
+<NewSecText>NEW SECTION.</NewSecText>
+<SecNum>Sec. </SecNum>
+</BegSecNew>
+<SectionCaption>CHANGES IN VOTING DEVICES AND COUNTING<LineNumber line="25" page="5,25"/>METHODS.  </SectionCaption>
+<RCWSLText>Appropriate election officials of this state may provide for<LineNumber line="26" page="5,26"/>the use of electronic, computerized, or other devices for marking,<LineNumber line="27" page="5,27"/>sorting, and counting the ballots and tabulating the results, and may<LineNumber line="28" page="5,28"/>modify the design and form of the ballots, the directions to voters,<LineNumber line="29" page="5,29"/>and the details with respect to the method of marking, sorting,<LineNumber line="30" page="5,30"/>invalidating, and retaining of ballots, and the counting of votes.  No<LineNumber line="31" page="5,31"/>change may be made inconsistent with provisions, purposes, or<LineNumber line="32" page="5,32"/>principles of this chapter.  Election officials should provide voters<LineNumber line="33" page="5,33"/>with a ballot that has a special design, format, or layout for offices<LineNumber line="34" page="5,34"/>to which instant runoff voting applies, but the parts of ballots for<LineNumber line="35" page="5,35"/>contests that have only one or two candidates for the same office may<PageNumberFooter>		p. 5	HB 1390</PageNumberFooter><LineNumber line=" 1" page="6,1" hrt="no"/>differ from the parts of a ballot to which instant runoff voting<LineNumber line=" 2" page="6,2"/>applies.</RCWSLText>
+</BillSection>
+<BillSection type="amend">
+<LineNumber line=" 3" page="6,3" hrt="no"/>
+<BegSecAmd>
+<SecNum>Sec. </SecNum>
+<BegSecText>RCW <Cite>29.65.050</Cite> and 1965 c 9 s 29.65.050 are each amended to<LineNumber line=" 4" page="6,4"/>read as follows:</BegSecText>
+<LineNumber line=" 5" page="6,5" hrt="no"/>
+</BegSecAmd>
+<RCWSLText>	The clerk shall issue subpoenas for witnesses in such contested<LineNumber line=" 6" page="6,6"/>election at the request of either party, which shall be served by the<LineNumber line=" 7" page="6,7"/>sheriff or constable, as other subpoenas, and the superior court shall<LineNumber line=" 8" page="6,8"/>have full power to issue attachments to compel the attendance of<LineNumber line=" 9" page="6,9"/>witnesses who shall have been duly subpoenaed to attend if they fail to<LineNumber line="10" page="6,10"/>do so.<paraend/><LineNumber line="11" page="6,11" hrt="no"/>	The court shall meet at the time and place designated to determine<LineNumber line="12" page="6,12"/>such contested election by the rules of law and evidence governing the<LineNumber line="13" page="6,13"/>determination of questions of law and fact, so far as the same may be<LineNumber line="14" page="6,14"/>applicable, and may dismiss the proceedings if the statement of the<LineNumber line="15" page="6,15"/>cause or causes of contest is insufficient, or for want of prosecution.<endofsentence/><LineNumber line="16" page="6,16"/>After hearing the proofs and allegations of the parties, the court<LineNumber line="17" page="6,17"/>shall pronounce judgment in the premises, either confirming or<LineNumber line="18" page="6,18"/>annulling and setting aside such election, according to the law and<LineNumber line="19" page="6,19"/>right of the case.<paraend/><LineNumber line="20" page="6,20" hrt="no"/>	If in any such case it shall appear that another person than the<LineNumber line="21" page="6,21"/>one returned has the highest number of legal votes, said court shall<LineNumber line="22" page="6,22"/>declare such person duly elected<add>, consistent with the requirements for</add><LineNumber line="23" page="6,23"/><add>instant runoff voting contained in chapter 29.<hyphen></hyphen><hyphen></hyphen> RCW (sections 1</add><LineNumber line="24" page="6,24"/><add>through 8 of this act)</add>.</RCWSLText>
+</BillSection>
+<BillSection type="repeal">
+<LineNumber line="25" page="6,25" hrt="no"/>
+<BegSecNew>
+<NewSecText>NEW SECTION.</NewSecText>
+<SecNum>Sec. </SecNum>
+</BegSecNew>
+<RCWSLText>RCW <Cite>29.30.085</Cite> (Nonpartisan candidates<LineNumber line="26" page="6,26"/>qualified for general election) and 1992 c 181 s 2 &amp; 1990 c 59 s 95 are<LineNumber line="27" page="6,27"/>each repealed.</RCWSLText>
+</BillSection>
+<BillSection type="new">
+<LineNumber line="28" page="6,28" hrt="no"/>
+<BegSecNew>
+<NewSecText>NEW SECTION.</NewSecText>
+<SecNum>Sec. </SecNum>
+</BegSecNew>
+<RCWSLText>Sections 1 through 8 of this act constitute<LineNumber line="29" page="6,29"/>a new chapter in Title <NewSingleChapToTtl>29</NewSingleChapToTtl> RCW.</RCWSLText>
+</BillSection>
+<BillSection type="new" clausetype="captiondisclaimer">
+<LineNumber line="30" page="6,30" hrt="no"/>
+<BegSecNew>
+<NewSecText>NEW SECTION.</NewSecText>
+<SecNum>Sec. </SecNum>
+</BegSecNew>
+<RCWSLText>Section captions used in this act are not<LineNumber line="31" page="6,31"/>part of the law.</RCWSLText>
+</BillSection>
+<BillSection type="new">
+<LineNumber line="32" page="6,32" hrt="no"/>
+<BegSecNew>
+<NewSecText>NEW SECTION.</NewSecText>
+<SecNum>Sec. </SecNum>
+</BegSecNew>
+<RCWSLText>If any provision of this act or its<PageNumberFooter>	HB 1390	p. 6	</PageNumberFooter><LineNumber line=" 1" page="7,1" hrt="no"/>application to any person or circumstance is held invalid, the<LineNumber line=" 2" page="7,2"/>remainder of the act or the application of the provision to other<LineNumber line=" 3" page="7,3"/>persons or circumstances is not affected.</RCWSLText>
+</BillSection>
+<BillEnd>--- END ---<PageNumberFooter lastpage="yes">		p. 7	HB 1390</PageNumberFooter></BillEnd>
+</BillBody>
+</Bill>

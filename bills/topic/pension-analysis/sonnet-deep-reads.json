@@ -1,0 +1,1881 @@
+[
+ {
+  "oneLine": "HB 1055 opens Washington's Public Safety Employees' Retirement System (PSERS) Plan 2 to public safety telecommunicators (911 dispatchers) and their direct supervisors employed by PERS-covered public agencies, giving existing PERS 2/3 telecommunicators a one-time 2024 election to switch and requiring PSERS membership for new hires, while expressly excluding contract, nonprofit, and first-class city employees from coverage.",
+  "provisions": [
+   {
+    "kind": "eligibility",
+    "detail": "Uncodified intent section limits the act's reach to newly-hired telecommunicators who would otherwise land in PERS 2/3, and to existing telecommunicators currently in PERS 2/3, while expressly disclaiming any intent to extend retirement membership to contract employees, nonprofit employees, or first-class city employees.",
+    "cites": "uncodified (Sec. 1)"
+   },
+   {
+    "kind": "other",
+    "detail": "Amends the PSERS statement of legislative intent to add 'psychological' risk alongside physical risk as a basis for the plan's coverage rationale.",
+    "cites": "RCW 41.37.005"
+   },
+   {
+    "kind": "membership",
+    "detail": "Expands the RCW 41.37.010 definition of 'employer' with a new catch-all category (12)(a)(xiii) covering any PERS chapter 41.40 employer some or all of whose employees primarily receive, process, transmit, or dispatch 911 emergency/nonemergency calls, if not already listed elsewhere in the employer definition.",
+    "cites": "RCW 41.37.010"
+   },
+   {
+    "kind": "membership",
+    "detail": "Expands the RCW 41.37.010 definition of 'member' to add new subsection (19)(f) covering employees whose primary responsibility is 911 dispatch/call-processing (or supervision of such employees), making them PSERS-eligible.",
+    "cites": "RCW 41.37.010"
+   },
+   {
+    "kind": "portability",
+    "detail": "Creates a one-time election window (January 1, 2024 through March 1, 2024) letting existing PERS 2/3 telecommunicators elect to become PSERS Plan 2 members as dual members under chapter 41.54 RCW; PERS service credit does not transfer to PSERS, and the new PSERS membership runs prospectively from the election date.",
+    "cites": "new section to chapter 41.37 RCW; ch. 41.54 RCW"
+   },
+   {
+    "kind": "eligibility",
+    "detail": "Employees who do not affirmatively elect to move to PSERS by September 1, 2024 default to remaining in their current PERS plan.",
+    "cites": "new section to chapter 41.37 RCW"
+   },
+   {
+    "kind": "eligibility",
+    "detail": "Employees who were PERS Plan 1 members on or before June 1, 2019 and later become eligible telecommunicators must remain in PERS Plan 1 and are barred from moving to PSERS, creating a closed, permanently excluded subclass.",
+    "cites": "new section to chapter 41.37 RCW"
+   },
+   {
+    "kind": "membership",
+    "detail": "All employees newly hired on or after June 1, 2024 who meet the telecommunicator eligibility criteria are mandatorily enrolled in PSERS Plan 2 rather than PERS.",
+    "cites": "new section to chapter 41.37 RCW"
+   },
+   {
+    "kind": "other",
+    "detail": "Sets a single effective date of June 1, 2024 for the entire act.",
+    "cites": "uncodified (Sec. 5)"
+   }
+  ],
+  "whoAffected": "Public safety telecommunicators (911 dispatchers) and their direct supervisors employed by PERS-covered public agencies gain PSERS Plan 2 eligibility; contract, nonprofit, and first-class city dispatch employees, and pre-2019 PERS Plan 1 members, are excluded or locked out.",
+  "flags": [
+   "narrow-carve-out"
+  ],
+  "pointsOfInterest": [
+   "The bill carves out contract employees, nonprofit employees, and first-class city employees from coverage even though they may perform identical dispatch work, making eligibility turn on employer type rather than job function.",
+   "The one-time election window (Jan-Mar 2024) with no PERS service-credit transfer to PSERS creates a self-selection dynamic: employees must weigh giving up PERS-side service credit continuity for PSERS benefit design, which could produce uneven uptake among otherwise similarly situated telecommunicators.",
+   "The PERS Plan 1 grandfather clause permanently locks a small, closed class of pre-June-2019 Plan 1 members out of PSERS even though they meet the new job-based eligibility test, splitting an otherwise identical job classification across two different plans indefinitely.",
+   "The new catch-all 'employer' definition (41.37.010(12)(a)(xiii)) sweeps in any PERS chapter 41.40 employer with qualifying dispatch employees, a broad residual category unlike the chapter's usual practice of naming specific state agencies, and could pull in numerous small cities, counties, and special districts not otherwise contemplated."
+  ],
+  "bill": "2023-24/House/1055"
+ },
+ {
+  "oneLine": "SHB 1056 strikes the rule that barred PERS/SERS/TRS 2 and 3 members who retired under the 2008 'alternate early retirement' reduced-benefit schedule from the standard 867-hour postretirement employment allowance until age 65, and separately recalculates the benefit reduction (upward) for members who instead chose the 3%-per-year reduction option, effective January 1, 2024.",
+  "provisions": [
+   {
+    "kind": "eligibility",
+    "detail": "Strikes the provision making a member who retired under the 2008 alternate early retirement schedule (30 service years, age 55+, age-based reduction table) ineligible for the 867-hour postretirement employment allowance until age 65, opening that allowance to them immediately upon retirement.",
+    "cites": "RCW 41.32.765(3)(b), 41.32.875(3)(b), 41.35.420(3)(b), 41.35.680(3)(b), 41.40.630(3)(b), 41.40.820(3)(b)"
+   },
+   {
+    "kind": "other",
+    "detail": "For members who chose the 3%-per-year alternate early retirement reduction rather than the 2008 formula (and its now-removed work restriction), directs recalculation of their benefit reduction to the more generous 2008 age-based schedule for payments made on or after the effective date, so they are not penalized relative to those who chose the restricted option.",
+    "cites": "RCW 41.32.765(3)(b)(ii), 41.32.875(3)(b)(ii), 41.35.420(3)(b)(ii), 41.35.680(3)(b)(ii), 41.40.630(3)(b)(ii), 41.40.820(3)(b)(ii); Sec. 1 (uncodified intent)"
+   },
+   {
+    "kind": "governance",
+    "detail": "Makes conforming strikes and renumbers subsections in the companion postretirement-reemployment sections that had cross-referenced the now-removed age-65 restriction on retirees under the alternate early retirement provisions, in TRS 2/3 and SERS 2/3.",
+    "cites": "RCW 41.32.802, 41.32.862, 41.35.060"
+   },
+   {
+    "kind": "other",
+    "detail": "Sets a specified future effective date rather than an immediate or emergency effective date.",
+    "cites": "Sec. 11"
+   }
+  ],
+  "whoAffected": "PERS 2/3, SERS 2/3, and TRS 2/3 members who retired (or will retire) under the 2008 alternate early retirement formula (30 years service, age 55+), plus a smaller subgroup who instead chose the 3%-per-year reduction and now get a prospective benefit-reduction recalculation",
+  "flags": [
+   "narrow-carve-out"
+  ],
+  "pointsOfInterest": [
+   "The affected class is defined entirely by a member's historical election among early-retirement options tied to the 2007-08 gain-sharing repeal litigation (chapter 41.31A RCW); the bill is unreadable without that background, a marker of narrow, path-dependent eligibility drafting.",
+   "Section 1's recalculation clause is a rare instance of the legislature adjusting a past member's benefit reduction upward to correct for an earlier choice made without full information (members who picked the 3% option to avoid work restrictions now being removed anyway), rather than a going-forward policy change.",
+   "The bill is purely conforming/deregulatory in substance (removes a return-to-work restriction) but touches nine RCW sections symmetrically across three systems and two plans each, so its length reflects structural repetition, not policy complexity.",
+   "No fiscal mechanics (no rate change, no new appropriation, no contingency) accompany a benefit-reduction recalculation that increases some members' allowances, suggesting SCPP/OSA scored the population and cost as immaterial."
+  ],
+  "bill": "2023-24/House/1056"
+ },
+ {
+  "oneLine": "ESHB 1057 gives PERS 1 and TRS 1 retirees on the rolls as of July 1, 2022 a one-time 3 percent benefit increase (capped at $110/month) effective July 1, 2023, exempts the cost from the supplemental contribution rate, defers its inclusion in the standard employer UAAL rate until July 1, 2027, and directs SCPP to study an ongoing COLA.",
+  "provisions": [
+   {
+    "kind": "cola",
+    "detail": "Adds subsection (4) granting TRS 1 beneficiaries receiving a monthly benefit on July 1, 2022 a 3 percent increase to their monthly benefit, effective July 1, 2023, capped at $110.00.",
+    "cites": "RCW 41.32.4992"
+   },
+   {
+    "kind": "cola",
+    "detail": "Adds subsection (4) granting PERS 1 beneficiaries receiving a monthly benefit on July 1, 2022 a 3 percent increase to their monthly benefit, effective July 1, 2023, capped at $110.00.",
+    "cites": "RCW 41.40.1987"
+   },
+   {
+    "kind": "eligibility",
+    "detail": "Renumbers the exclusion clause (new subsection (5)) so the TRS increase continues to not apply to beneficiaries receiving benefits under the separate minimum-benefit provisions.",
+    "cites": "RCW 41.32.4992; RCW 41.32.489; RCW 41.32.540"
+   },
+   {
+    "kind": "eligibility",
+    "detail": "Renumbers the exclusion clause (new subsection (5)) so the PERS increase continues to not apply to beneficiaries receiving benefits under the separate minimum-benefit provision.",
+    "cites": "RCW 41.40.1987; RCW 41.40.1984"
+   },
+   {
+    "kind": "funding-policy",
+    "detail": "Adds a proviso to the plan 1 UAAL benefit-improvement amortization language in the PERS, PSERS, and TRS employer contribution rate formulas providing that the rate for post-2009 benefit improvements shall not include a rate for this act's increase until July 1, 2027.",
+    "cites": "RCW 41.45.060"
+   },
+   {
+    "kind": "funding-policy",
+    "detail": "Adds new subsection (10) exempting the benefit increases granted to TRS 1 and PERS 1 members under this act from the supplemental contribution rate otherwise charged to fund benefit improvements.",
+    "cites": "RCW 41.45.070"
+   },
+   {
+    "kind": "other",
+    "detail": "New uncodified section directs the Select Committee on Pension Policy, during the 2023-2025 biennium, to study and recommend an ongoing COLA for PERS 1 and TRS 1 beneficiaries, coordinated with employer rate stability and reduction of the plan 1 unfunded liability.",
+    "cites": "uncodified, Sec. 2"
+   },
+   {
+    "kind": "other",
+    "detail": "Legislative findings section states the increase is a one-time measure addressing inflation-driven purchasing-power loss and that an ongoing COLA may not be affordable until UAAL contribution rates are reduced or eliminated.",
+    "cites": "uncodified, Sec. 1"
+   }
+  ],
+  "whoAffected": "PERS Plan 1 and TRS Plan 1 retirees/beneficiaries who were receiving a monthly benefit as of July 1, 2022, excluding those on the separate statutory minimum-benefit provisions (RCW 41.32.489, 41.32.540, 41.40.1984); cost borne by PERS/SERS/PSERS and TRS employers via deferred UAAL rate impact rather than a supplemental rate.",
+  "flags": [
+   "emergency-clause",
+   "study-mandate",
+   "narrow-carve-out"
+  ],
+  "pointsOfInterest": [
+   "The increase is walled off from the normal cost-recognition mechanics twice over: exempted entirely from the supplemental rate (Sec. 6) and excluded from the standard plan 1 UAAL benefit-improvement rate until July 1, 2027 (Sec. 5), a multi-year deferral of the fiscal footprint onto future rate-setting cycles.",
+   "Section 2 functions as a placeholder: it commits only to a one-time bump now while tasking SCPP with designing an ongoing COLA later, conditioned on employer rate stability and payoff of the plan 1 unfunded liability, signaling the legislature was unwilling to commit to recurring cost in this bill.",
+   "Continues the bill series' recurring eligibility-snapshot design (prior cohorts keyed to 2017, 2019, 2021 status dates now joined by a 2022 date), which by construction excludes anyone who retired or died between the snapshot date and the effective date, a hard eligibility cliff rather than a rolling COLA.",
+   "The carve-out excluding recipients of the RCW 41.32.489/.540 and 41.40.1984 minimum-benefit provisions means the lowest-benefit retiree subpopulation, already on a statutory floor, is the one group left out of this increase."
+  ],
+  "bill": "2023-24/House/1057"
+ },
+ {
+  "oneLine": "HB 1201 amends RCW 41.45.060 and 41.45.150 to put fixed sunset dates on the existing minimum employer contribution rates that amortize the PERS 1 and TRS 1 unfunded liability, and layers on new four-year 0% supersession windows (TRS starting Sept. 2024, PERS/PSERS/SERS starting mid-2025, all running through 2029), converting an open-ended \"until 100% funded\" contribution floor into a scheduled, time-limited one.",
+  "whoAffected": "Public employers in PERS, SERS, PSERS, and TRS (state agencies, local governments, school districts, and by extension PERS 1/TRS 1 retirees whose plans depend on continued UAAL funding)",
+  "provisions": [
+   {
+    "kind": "contribution-rate",
+    "detail": "Amends RCW 41.45.060(6)(b), (7)(b), and (8)(b) to replace \"subject to any minimum or maximum rates applied pursuant to\" with \"unless superseded by\" RCW 41.45.150, conforming the PERS/PSERS and TRS employer UAAL-amortization formula to the new 0% supersession provisions added to .150.",
+    "cites": "RCW 41.45.060, RCW 41.45.150"
+   },
+   {
+    "kind": "contribution-rate",
+    "detail": "Strikes \"or maximum\" from the \"minimum or maximum rates\" reference in RCW 41.45.060(6)(c), (7)(c), and (8)(c), removing the maximum-rate qualifier that had bounded benefit-improvement amortization surcharges collected in addition to RCW 41.45.150 rates.",
+    "cites": "RCW 41.45.060"
+   },
+   {
+    "kind": "funding-policy",
+    "detail": "Amends RCW 41.45.150(4) to add a fixed sunset of June 30, 2025 to the 3.50% minimum PERS/PSERS employer contribution for PERS 1 UAAL amortization, striking the prior open-ended condition that it remain effective \"until the actuarial value of assets... equals one hundred percent of the actuarial accrued liability.\"",
+    "cites": "RCW 41.45.150"
+   },
+   {
+    "kind": "funding-policy",
+    "detail": "Amends RCW 41.45.150(5) to add a fixed sunset of August 31, 2025 to the 3.50% minimum SERS employer contribution for PERS 1 UAAL amortization, striking the same open-ended 100%-funded condition.",
+    "cites": "RCW 41.45.150"
+   },
+   {
+    "kind": "funding-policy",
+    "detail": "Amends RCW 41.45.150(6) to add a fixed sunset of August 31, 2024 to the 5.75% minimum TRS employer contribution for TRS 1 UAAL amortization, striking the same open-ended 100%-funded condition.",
+    "cites": "RCW 41.45.150"
+   },
+   {
+    "kind": "contribution-rate",
+    "detail": "Adds new RCW 41.45.150(7) establishing a 0% contribution rate that supersedes the PERS/PSERS employer UAAL-amortization rate from July 1, 2025 through June 30, 2029.",
+    "cites": "RCW 41.45.150"
+   },
+   {
+    "kind": "contribution-rate",
+    "detail": "Adds new RCW 41.45.150(8) establishing a 0% contribution rate that supersedes the SERS employer UAAL-amortization rate from September 1, 2025 through August 31, 2029.",
+    "cites": "RCW 41.45.150"
+   },
+   {
+    "kind": "contribution-rate",
+    "detail": "Adds new RCW 41.45.150(9) establishing a 0% contribution rate that supersedes the TRS employer UAAL-amortization rate from September 1, 2024 through August 31, 2029, a window that opens before the bill's own effective date of any later action and roughly a year ahead of the parallel PERS/SERS holidays.",
+    "cites": "RCW 41.45.150"
+   },
+   {
+    "kind": "governance",
+    "detail": "Amends renumbered RCW 41.45.150(10) to direct the state actuary to review the appropriateness of \"establishing, removing, or adjusting\" minimum contribution rates (previously limited to reviewing existing minimum rates), broadening the recurring biennial review mandate.",
+    "cites": "RCW 41.45.150"
+   },
+   {
+    "kind": "other",
+    "detail": "Repeals uncodified 2021 c 334 s 747, a 2021 session-law provision whose substance is not reproduced in this bill's text.",
+    "cites": "2021 c 334 s 747 (uncodified)"
+   }
+  ],
+  "flags": [
+   "emergency-clause",
+   "repeals-sections",
+   "study-mandate"
+  ],
+  "pointsOfInterest": [
+   "Converts an open-ended minimum-contribution floor tied to reaching 100% funded status into a fixed-term floor followed by a four-year 0% rate holiday for PERS 1/TRS 1 UAAL amortization -- a shift from funded-status-driven policy to calendar-driven policy, decoupling employer contribution relief from actual plan funding levels.",
+   "The TRS 0% holiday (RCW 41.45.150(9)) opens September 1, 2024, roughly a year ahead of the parallel PERS/PSERS holiday (July 1, 2025) and SERS holiday (September 1, 2025) -- an asymmetric schedule across systems sharing the same PERS 1/TRS 1 legacy liability that an analyst would want reconciled against each system's funded ratio.",
+   "Section 3 repeals a 2021 uncodified operating-budget proviso (2021 c 334 s 747) without stating its content anywhere in the bill -- typical of budget-conforming pension bills but it means the repealed policy can't be assessed from this text alone.",
+   "Section 1 quietly strips the \"maximum\" rate concept from the benefit-improvement amortization surcharge language in RCW 41.45.060(6)(c)/(7)(c)/(8)(c), leaving only an unbounded reference to RCW 41.45.150 rates -- a small drafting change that removes a prior cap concept and could matter if a future plan 1 benefit improvement's surcharge is no longer bounded by a maximum rate."
+  ],
+  "bill": "2023-24/House/1201"
+ },
+ {
+  "oneLine": "HB 1279 amends the LEOFF definition of \"firefighter\" in RCW 41.26.030 to add a catch-all for full-time fire department employees in promotional positions requiring an experienced firefighter, so that firefighters who are promoted (e.g., to officer ranks not covered by the existing civil-service-exam or supervisory clauses) remain LEOFF members rather than falling out into PERS or another system.",
+  "provisions": [
+   {
+    "kind": "eligibility",
+    "detail": "Inserts new RCW 41.26.030(17)(d), defining as a statutory \"firefighter\" any person serving full-time and fully compensated as an employee of a fire department in a position that requires an experienced firefighter, which keeps firefighters who accept promotional positions within LEOFF membership (plan 1 and plan 2 alike, since this new clause is not excluded from plan 2 the way several adjoining clauses are).",
+    "cites": "RCW 41.26.030(17)"
+   },
+   {
+    "kind": "other",
+    "detail": "Relabels the existing firefighter-definition subsections (17)(d) through (h) as (e) through (i) to make room for the newly inserted (17)(d), a pure renumbering with no substantive change to those clauses' content.",
+    "cites": "RCW 41.26.030(17)(d)-(i)"
+   },
+   {
+    "kind": "tax-technical",
+    "detail": "Updates the internal cross-reference in the EMT-firefighter clause from RCW 18.73.030(12) to RCW 18.73.030(13), conforming to the renumbering already made by 2022 c 136 and flagged in the reviser's note; unrelated to the bill's stated policy purpose.",
+    "cites": "RCW 41.26.030(17)(i); RCW 18.73.030"
+   }
+  ],
+  "whoAffected": "Firefighters who accept promotional (non-civil-service-exam) positions within a fire department; no member class loses eligibility",
+  "flags": [
+   "narrow-carve-out"
+  ],
+  "pointsOfInterest": [
+   "The operative new language, \"a position that requires an experienced firefighter,\" is undefined and untethered to civil service rank or job title, unlike every other clause in the (17) list, which invites administrative line-drawing by the Department of Retirement Systems over which promotional titles qualify and creates coverage-creep risk over time.",
+   "The new clause is not carved out of plan 2 the way the executive-secretary clauses in (17)(e)-(f) are, so it extends to both plan 1 and plan 2 members; keeping promoted staff in LEOFF rather than letting them fall to PERS preserves the employer's LEOFF 2 contribution obligation (a state-shared, statutorily set rate) rather than shifting cost to a different plan and rate structure.",
+   "The bill is a single-section, single-RCW-cite fix with no fiscal apparatus: no emergency clause, no null-and-void-without-appropriation language, and no retroactivity or contingent effective date, suggesting the drafters read this as closing a definitional gap rather than creating new liability.",
+   "A second, unrelated technical correction (updating an EMT cross-reference from RCW 18.73.030(12) to (13)) is bundled into the same already-amended section rather than left for a separate reviser's bill, a minor drafting economy rather than a substantive add."
+  ],
+  "bill": "2023-24/House/1279"
+ },
+ {
+  "oneLine": "HB 1283 requires the Washington State Investment Board to publicly report every three years on climate-related financial risk and governance practices across its portfolios, and to offer at least three ESG-aligned investment options to plan 3 and self-directed program participants by January 1, 2024.",
+  "provisions": [
+   {
+    "kind": "governance",
+    "detail": "Adds a new section to chapter 43.33A RCW requiring WSIB to publicly report by January 1, 2024, and every three years thereafter, on its analysis of climate-related financial risk, social responsibility, and proxy voting/corporate governance policy and use, across its private and public market portfolios, including alignment with the Paris climate agreement and the state climate commitment act.",
+    "cites": "43.33A RCW (new section)"
+   },
+   {
+    "kind": "other",
+    "detail": "Defines \"climate-related financial risk\" to include physical risks (storms, sea level rise, temperature) and transition risks (carbon emission costs, policy shifts, changing economics of carbon-intensive industries) for purposes of the new reporting mandate.",
+    "cites": "43.33A RCW (new section, subsection (2))"
+   },
+   {
+    "kind": "dc-plan",
+    "detail": "Reenacts and amends RCW 43.33A.190 to require that, beginning January 1, 2024, WSIB provide no fewer than three self-directed investment options consistent with the ESG policies examined under the new reporting section, reflecting a range of ESG-related policy preferences and investment objectives to the extent consistent with fiduciary duty.",
+    "cites": "RCW 43.33A.190"
+   }
+  ],
+  "whoAffected": "Self-directed (defined contribution) account holders only: TRS plan 3, SERS plan 3, and PERS plan 3 members, plus WA ABLE program and (if selected) DreamAhead college savings program participants gain new ESG investment menu options; defined benefit plan members and non-self-directed portfolios are unaffected.",
+  "flags": [
+   "study-mandate",
+   "narrow-carve-out"
+  ],
+  "pointsOfInterest": [
+   "This is a DC-menu-design and disclosure bill, not a benefit-design bill: it touches no multiplier, COLA, contribution rate, or funding policy, so its fiscal footprint is administrative (WSIB staff/reporting time and investment product development), not actuarial, despite the bill's pension classification.",
+   "The mandate reaches only self-directed plan 3 accounts (TRS/SERS/PERS 3), ABLE, and DreamAhead participants, not the far larger commingled DB trust funds where WSIB already reports it 'broadly incorporates' ESG considerations per the intent section, so the operative options requirement is a narrow slice of total WSIB-managed assets.",
+   "Section 3 reenacts and amends RCW 43.33A.190 citing two separate 2016 amendments to the same section (2016 c 69 s 20 and 2016 c 39 s 8), a code-reviser reconciliation of parallel 2016 changes rather than a substantive policy signal, but it adds drafting complexity worth checking against the current RCW text.",
+   "No emergency clause, no null-and-void-without-appropriation clause, and no contingent effective date despite a hard January 1, 2024 implementation deadline for both the report and the new investment options, so funding and timing risk for meeting that deadline is not addressed in the bill text itself."
+  ],
+  "bill": "2023-24/House/1283"
+ },
+ {
+  "oneLine": "HB 1294 creates an annual CPI-indexed cost-of-living adjustment for TRS Plan 1 and PERS Plan 1 retirees, capped at 3 percent per year, with an emergency clause taking effect July 1, 2023.",
+  "provisions": [
+   {
+    "kind": "cola",
+    "detail": "Adds a new section to chapter 41.32 RCW directing the department, beginning July 1, 2023 and annually thereafter, to compute a ratio-based COLA for each TRS Plan 1 retired member or beneficiary whose allowance has been in effect at least one year, using the ratio of CPI-W (Seattle area) for the year before determination to CPI-W for the year before July 1, 2022 (or the retirement date if later), applied against the original allowance as of June 30, 2023.",
+    "cites": "RCW 41.32 (new section)"
+   },
+   {
+    "kind": "cola",
+    "detail": "Identical new section added to chapter 41.40 RCW establishing the same ratio-based, CPI-W-indexed COLA mechanism for PERS Plan 1 retired members and beneficiaries.",
+    "cites": "RCW 41.40 (new section)"
+   },
+   {
+    "kind": "eligibility",
+    "detail": "Limits the new COLA to plan 1 retired members or beneficiaries whose retirement allowance has been in effect for at least one year at the time of determination.",
+    "cites": "RCW 41.32 (new section); RCW 41.40 (new section)"
+   },
+   {
+    "kind": "other",
+    "detail": "Caps the adjustment so it can never reduce the allowance below the original amount, can never exceed 3 percent in the first annual adjustment, and cannot change from the prior year's adjustment by more than 3 percentage points.",
+    "cites": "RCW 41.32 (new section); RCW 41.40 (new section)"
+   },
+   {
+    "kind": "other",
+    "detail": "Section 3 declares the act necessary for the immediate preservation of public peace, health, or safety and sets a fixed effective date of July 1, 2023, with no appropriation contingency attached.",
+    "cites": "N/A (uncodified effective date/emergency section)"
+   }
+  ],
+  "whoAffected": "TRS Plan 1 and PERS Plan 1 retirees and beneficiaries with at least one year on the retirement rolls; Plan 2/3 members and other retirement systems (LEOFF, WSPRS, SERS, etc.) are not touched.",
+  "flags": [
+   "emergency-clause",
+   "narrow-carve-out"
+  ],
+  "pointsOfInterest": [
+   "The formula duplicates the existing 'Uniform COLA' design already used elsewhere in the plan 2/3 systems (index-ratio to a base year, floor at original allowance, 3 percent annual cap), effectively extending that mechanism to the plan 1 cohort rather than inventing new COLA math.",
+   "No funding or appropriation provision accompanies the benefit increase; the bill carries an emergency clause and a fixed July 1, 2023 effective date rather than a contingent-on-appropriation clause, so enactment is not conditioned on the budget providing the money.",
+   "Because the year-over-year change is capped at 3 percentage points but the underlying ratio is measured against a fixed original-allowance base rather than compounding off the prior year's adjusted amount, a high-inflation stretch (2022 CPI was elevated) could produce a ratio above 3 percent that gets truncated in year one, with permanent under-indexing baked in if CPI outpaces the 3-point year-over-year cap in subsequent years.",
+   "Sections 1 and 2 are verbatim duplicates targeted at different chapters (41.32 for TRS, 41.40 for PERS), which is standard drafting practice for parallel plan 1 provisions but means any future amendment must be made in both places to stay in sync."
+  ],
+  "bill": "2023-24/House/1294"
+ },
+ {
+  "oneLine": "SHB 1413 lets Washington law enforcement agencies adopt voluntary flexible/part-time work policies for peace officers and, by striking \"full-time\" from the officer definitions in RCW 41.26.030 (LEOFF) and RCW 10.93.020, opens LEOFF Plan 2 membership and peace-officer status to fully compensated officers who work less than full time, effective July 1, 2023.",
+  "whoAffected": "General authority and limited authority Washington peace officers who are fully compensated but work part time (and the LEOFF employers that choose to use them); full-time officers, firefighters, and Plan 1 members are not directly affected by the definitional change.",
+  "provisions": [
+   {
+    "kind": "eligibility",
+    "detail": "Adds new RCW 41.26.030(19)(f): beginning July 1, 2023, \"law enforcement officer\" also includes a person commissioned and employed on a fully compensated but less-than-full-time basis, so long as they meet the other qualifications in (a)-(e) of the subsection.",
+    "cites": "RCW 41.26.030(19)(f)"
+   },
+   {
+    "kind": "eligibility",
+    "detail": "Conforming amendment to RCW 41.26.030(19)(c) states the full-time requirement for commissioned city police personnel does not apply to the extent allowed under new (19)(f).",
+    "cites": "RCW 41.26.030(19)(c)"
+   },
+   {
+    "kind": "eligibility",
+    "detail": "Strikes \"full-time,\" from the RCW 10.93.020 definitions of \"general authority Washington peace officer\" (4) and \"limited authority Washington peace officer\" (6), so part-time fully compensated officers qualify as peace officers for mutual-aid/commissioning purposes under chapter 10.93 RCW, not just for LEOFF.",
+    "cites": "RCW 10.93.020(4), (6)"
+   },
+   {
+    "kind": "governance",
+    "detail": "Adds a new uncodified section to chapter 49.28 RCW authorizing (but not requiring) law enforcement agencies to adopt flexible/part-time work policies, barring layoff or displacement of full-time officers, preserving existing collective bargaining agreements and the duty to bargain, and requiring full-time and part-time officers at the same agency to be in the same bargaining unit.",
+    "cites": "new section, chapter 49.28 RCW"
+   },
+   {
+    "kind": "service-credit",
+    "detail": "Newly LEOFF-eligible part-time officers will accrue service credit under the existing Plan 2 hours-based partial-month schedule (full credit at 90+ hours/month, half credit at 70-89 hours, quarter credit below 70 hours); the bill does not create a new accrual rule for this group.",
+    "cites": "RCW 41.26.030(29)(b)(i)"
+   },
+   {
+    "kind": "tax-technical",
+    "detail": "Updates an internal cross-reference in the emergency medical technician clause of the \"firefighter\" definition from RCW 18.73.030(12) to 18.73.030(13), a non-substantive recodification fix unrelated to the flexible-work policy.",
+    "cites": "RCW 41.26.030(17)(h)"
+   }
+  ],
+  "flags": [
+   "retroactive"
+  ],
+  "pointsOfInterest": [
+   "The membership expansion runs entirely through a definitional gateway (deleting \"full-time\" from RCW 41.26.030(19) and RCW 10.93.020) rather than a standalone eligibility or funding section, so its actuarial footprint depends on how many agencies actually adopt part-time policies under the new chapter 49.28 RCW authority - nothing in the bill text itself quantifies or caps that exposure.",
+   "No benefit formula, multiplier, vesting, or contribution-rate provision is touched; any cost effect is carried entirely through the existing Plan 2 hours-based partial service-credit schedule (quarter/half/full month), which was written for other purposes (e.g., mid-month hires, reduced schedules) and is now the mechanism by which a new class of intentionally part-time officers earns pension service.",
+   "\"Beginning July 1, 2023\" is embedded directly in the substantive definition (RCW 41.26.030(19)(f)) rather than set by a conventional bill effective-date section - an unusual drafting choice that, given this substitute's February 2023 first reading, could predate the bill's actual enactment and effective date, creating a quasi-retroactive application window for eligibility.",
+   "Section 1 is enabling only (agencies \"may\" adopt a flexible work policy) and explicitly forecloses a two-tier bargaining structure - full-time and part-time officers at the same employer must remain in the same bargaining unit - which limits the cost-shifting or labor-cost-arbitrage risk that a part-time carve-out might otherwise invite."
+  ],
+  "bill": "2023-24/House/1413"
+ },
+ {
+  "oneLine": "HB 1459 grants PERS Plan 1 and TRS Plan 1 retirees a capped cost-of-living adjustment (3% per year, $110/month maximum increase) tied to the Seattle-area CPI, funded in part by only partially lowering the assumed long-term investment rate of return (from 7.7% to 7.2%, RCW 41.45.035), with an emergency clause and a legislative declaration that the act's provisions are nonseverable.",
+  "provisions": [
+   {
+    "kind": "cola",
+    "detail": "Creates a new annual postretirement adjustment for TRS Plan 1 retirees/beneficiaries retired at least one year, based on the ratio of the current year's Seattle-area CPI to the CPI at retirement (or July 2022 base), applied each July.",
+    "cites": "new section added to chapter 41.32 RCW"
+   },
+   {
+    "kind": "cola",
+    "detail": "Creates an identical new annual postretirement adjustment for PERS Plan 1 retirees/beneficiaries retired at least one year, using the same CPI-ratio methodology and same July effective date.",
+    "cites": "new section added to chapter 41.40 RCW"
+   },
+   {
+    "kind": "cola",
+    "detail": "Caps the adjustment so it can never reduce the original allowance, cannot exceed 3 percent in the first year, cannot change by more than 3 percentage points from the prior year's adjustment, and cannot raise the monthly benefit by more than $110 over the prior year's amount.",
+    "cites": "new sections to chapters 41.32 and 41.40 RCW"
+   },
+   {
+    "kind": "governance",
+    "detail": "States the legislature reserves the right to amend or repeal the new COLA provision at any time and that no member or beneficiary has a contractual right to an adjustment not already granted.",
+    "cites": "new sections to chapters 41.32 and 41.40 RCW"
+   },
+   {
+    "kind": "funding-policy",
+    "detail": "Amends the long-term investment rate of return assumption used by the state actuary, adding a new tier that lowers it from 7.7 percent (set in 2017) to 7.2 percent beginning July 1, 2023, a smaller reduction than the Pension Funding Council's 2021 recommendation of 7.0 percent.",
+    "cites": "RCW 41.45.035"
+   },
+   {
+    "kind": "other",
+    "detail": "Section 1 legislative findings declare the benefit increase and the investment rate of return change to be an integrated, nonseverable package, even though Section 5 contains a standard severability clause stating that if any provision is held invalid the remainder of the act stays in effect.",
+    "cites": "Section 1 (uncodified findings); Section 5 (uncodified severability clause)"
+   }
+  ],
+  "whoAffected": "PERS Plan 1 and TRS Plan 1 retirees and beneficiaries who have been retired at least one year gain a capped CPI-linked COLA; PERS/TRS Plan 2 and 3 members and other retirement systems are unaffected, and all system members are affected indirectly through the changed investment return assumption used to value their plans.",
+  "flags": [
+   "emergency-clause",
+   "narrow-carve-out"
+  ],
+  "pointsOfInterest": [
+   "Section 1's uncodified findings assert the act's provisions are 'nonseverable,' but the operative Section 5 is a conventional severability clause preserving the rest of the act if any part is struck down \u2014 a direct textual conflict likely to draw scrutiny in any legal challenge.",
+   "The bill lowers the assumed investment rate of return only to 7.2 percent rather than the Pension Funding Council's recommended 7.0 percent, effectively pairing a smaller actuarial conservatism increase with the new COLA cost, a deliberate tradeoff flagged in the findings themselves.",
+   "The COLA is narrowly targeted: only Plan 1 members retired at least one year as of the July determination date qualify, and the $110/month and 3 percent caps mean the adjustment will lag actual CPI growth in high-inflation years, especially for higher-dollar allowances.",
+   "The 'no contractual right' / legislative reservation clause in both new sections signals this is designed as a discretionary, revocable benefit rather than a vested one, consistent with past legislative caution after Plan 1 COLA litigation history."
+  ],
+  "bill": "2023-24/House/1459"
+ },
+ {
+  "oneLine": "HB 1481 lets Washington tribal governments elect, through a negotiated state-tribal compact, to enroll certificated general authority peace officers employed by tribal police departments in LEOFF Plan 2, with participating tribes paying both the employer and state contribution shares and a limited window to purchase prior service credit.",
+  "provisions": [
+   {
+    "kind": "membership",
+    "detail": "Adds the government of a federally recognized tribe to the definition of a general authority law enforcement agency.",
+    "cites": "RCW 41.26.030(18)"
+   },
+   {
+    "kind": "membership",
+    "detail": "Adds a new subsection defining law enforcement officer to include a person employed on or after January 1, 2024 by a tribal police department under a section 2 compact who is certified as a general authority peace officer under chapter 43.101 RCW.",
+    "cites": "RCW 41.26.030(19)(f)"
+   },
+   {
+    "kind": "eligibility",
+    "detail": "Renumbers a cross reference to RCW 18.73.030 from subsection (12) to (13), a conforming technical fix flagged by the reviser's note, not a substantive change.",
+    "cites": "RCW 41.26.030(17)(h)"
+   },
+   {
+    "kind": "governance",
+    "detail": "Authorizes the governor to negotiate and execute state-tribal compacts admitting tribal general authority peace officers into LEOFF Plan 2, with an application process, a 90-day government-to-government meeting requirement, and mandatory compact terms covering employer status, reporting/contribution/auditing compliance, a limited waiver of sovereign immunity and consent to state court jurisdiction, dissolution and withdrawal-liability procedures, and acknowledgment of possible federal tax consequences.",
+    "cites": "New section added to chapter 41.26 RCW (Sec. 2)"
+   },
+   {
+    "kind": "other",
+    "detail": "Provides that the pension-participation portions of a compact are null and void if the IRS finds them in conflict with governmental plan qualification requirements under IRC section 401(a) and the conflict cannot be resolved administratively or by amendment.",
+    "cites": "New section added to chapter 41.26 RCW (Sec. 2(6)(g))"
+   },
+   {
+    "kind": "eligibility",
+    "detail": "Provides that tribal law enforcement employees of a tribe that opts out of pension participation earn no service credit in the plan.",
+    "cites": "New section added to chapter 41.26 RCW (Sec. 2(7))"
+   },
+   {
+    "kind": "contribution-rate",
+    "detail": "Requires tribal governments participating through a state-tribal compact to contribute both the employer and state shares of retirement system cost for their LEOFF officers, the same funding obligation currently imposed on port districts and higher-education institutions.",
+    "cites": "RCW 41.26.450(1)"
+   },
+   {
+    "kind": "service-credit",
+    "detail": "Allows a tribal officer employed by a tribal police department on July 1, 2025 to purchase service credit for qualifying prior service, with a written election due by June 30, 2026 and full actuarial-cost payment required within five years of the election or before retirement, whichever comes first.",
+    "cites": "New section added to chapter 41.26 RCW (Sec. 4)"
+   },
+   {
+    "kind": "other",
+    "detail": "Sets the act's effective date as July 1, 2025.",
+    "cites": "Sec. 5"
+   }
+  ],
+  "whoAffected": "Certificated general authority peace officers employed full-time by tribal police departments of federally recognized tribes in Washington that opt into a state-tribal compact; a narrow new LEOFF Plan 2 membership class, with existing LEOFF 2 members and non-tribal employers otherwise unaffected.",
+  "flags": [
+   "narrow-carve-out",
+   "retroactive"
+  ],
+  "pointsOfInterest": [
+   "Creates a novel compact-based admission mechanism for a sovereign tribal government into a state pension system, including a negotiated limited waiver of tribal sovereign immunity and consent to state court jurisdiction for enforcement purposes, a precedent-setting design not used elsewhere in LEOFF.",
+   "Shifts the full funding burden onto participating tribes: RCW 41.26.450 makes tribal employers pay both the employer and the state contribution shares, unlike the normal three-way employee/employer/state split, so the state bears no ongoing normal-cost share for this new class.",
+   "Anticipates instability with explicit withdrawal-liability and dissolution procedures plus a null-and-void clause tied to future IRS guidance on IRC 401(a) governmental plan qualification, reflecting unresolved federal tax-law uncertainty about tribal government participation in a state retirement system.",
+   "Section 4's prior-service purchase window (elect by June 30, 2026, pay full actuarial cost) is self-funded by the member rather than subsidized, limiting cost/gaming risk to the plan, but the narrow eligibility date (must be employed on July 1, 2025) and short election window create a hard cutoff for who can buy in."
+  ],
+  "bill": "2023-24/House/1481"
+ },
+ {
+  "oneLine": "HB 1566 raises the general state-employee vacation-leave accrual cap from 240 to 280 hours (RCW 43.01.040/.044) but freezes the PERS compensation-earnable exclusion and the termination cash-out cap at 240 hours, so the added leave does not flow into pensionable compensation, while adding a narrow WSPRS salary-exclusion fix for troopers commissioned before July 1, 2001.",
+  "provisions": [
+   {
+    "kind": "other",
+    "detail": "Raises the maximum accrued unused vacation leave a state officer/employee may carry from 240 to 280 hours (both the base cap and the extended cap available under a retained statement-of-necessity).",
+    "cites": "RCW 43.01.040"
+   },
+   {
+    "kind": "other",
+    "detail": "Conforms the alternative no-statement-of-necessity accumulation method's trigger threshold from 'in excess of 240 hours' to 'in excess of 280 hours,' matching the new base accrual cap in RCW 43.01.040.",
+    "cites": "RCW 43.01.044"
+   },
+   {
+    "kind": "other",
+    "detail": "Non-substantive drafting correction changing 'as [at] a minimum' to 'at a minimum' in the statement-of-necessity content requirements.",
+    "cites": "RCW 43.01.044"
+   },
+   {
+    "kind": "other",
+    "detail": "Adds an express cap limiting vacation-leave payout upon termination of employment to 'up to 240 hours,' even though the underlying accrual cap in RCW 43.01.040 is being raised to 280 hours, so up to 40 accrued hours become non-cashable at separation under this section.",
+    "cites": "RCW 43.01.041"
+   },
+   {
+    "kind": "other",
+    "detail": "Removes the cross-reference to RCW 43.01.044 and 43.01.041 from the PERS 'compensation earnable' exclusion for unused annual leave in excess of 240 hours, decoupling that pension-compensation exclusion threshold from the general leave statutes so a future change to the accrual/payout caps does not automatically alter what counts as pensionable compensation.",
+    "cites": "RCW 41.40.010(8)(a)(ii)(B)"
+   },
+   {
+    "kind": "other",
+    "detail": "Converts numerous spelled-out numbers to numerals throughout the PERS definitions section (e.g., fifty-nine to 59, sixty to 60, twelve to 12, ten to 10, seventy to 70, twenty-two to 22, forty-five to 45, thirty-three to 33, eleven to 11) as non-substantive code-revision style cleanup with no benefit change.",
+    "cites": "RCW 41.40.010"
+   },
+   {
+    "kind": "other",
+    "detail": "Adds a new exclusion to the WSPRS 'salary' definition for members commissioned prior to July 1, 2001, excluding lump-sum payments for unused accumulated vacation or annual leave in excess of 240 hours (plus hours earned since the member's anniversary date) from countable salary, bringing that cohort into parity with the exclusion language already applicable to members commissioned on or after July 1, 2001.",
+    "cites": "RCW 43.43.120(21)(a)"
+   }
+  ],
+  "whoAffected": "All state officers and employees for general vacation-accrual purposes; PERS Plan 1/2/3 members and WSPRS Plan 1/2 members for the pension-compensation and cash-out provisions, with a narrow carve-out benefiting WSPRS members commissioned before July 1, 2001",
+  "flags": [
+   "narrow-carve-out"
+  ],
+  "pointsOfInterest": [
+   "The bill raises the working accrual cap (240 to 280 hours) but deliberately holds the PERS compensation-earnable exclusion and the RCW 43.01.041 termination cash-out cap at 240 hours, an apparent anti-spiking design that expands a leave benefit without expanding pensionable compensation.",
+   "Severing the cross-reference in RCW 41.40.010(8)(a)(ii)(B) to RCW 43.01.044 and 43.01.041 is a notable drafting choice: it insulates the PERS compensation-earnable definition from future amendments to the general leave-accrual statutes, a precedent worth flagging for anyone tracking how pension definitions get decoupled from HR policy statutes.",
+   "The new WSPRS carve-out for members commissioned before July 1, 2001 is narrow and technical, but its existence implies that, absent this fix, that specific legacy cohort's salary definition may not have excluded large unused-leave cash-outs the way later cohorts' definitions already do, a potential prior spiking exposure for a small closed group.",
+   "The bulk of the RCW 41.40.010 changes are cosmetic numeral-for-spelled-number conversions, which could make the one substantive change in that section (the cross-reference removal in (8)(a)(ii)(B)) easy to overlook on a quick read."
+  ],
+  "bill": "2023-24/House/1566"
+ },
+ {
+  "oneLine": "HB 1814 creates a new vaccination-mandate service-credit purchase right (up to five years) in LEOFF 2, TRS 2/3, SERS 2/3, PSERS, PERS 2/3, and WSPRS, adds a 10-point hiring-exam preference for employees separated over vaccination status, and takes effect immediately as an emergency measure.",
+  "whoAffected": "Members of LEOFF Plan 2, TRS Plans 2/3, SERS Plans 2/3, PSERS, PERS Plans 2/3, and WSPRS Plan 2 who separated from public employment (voluntarily or involuntarily) due to an employer COVID-19 vaccination mandate imposed after January 1, 2020, and who later return to covered employment; also job applicants statewide who were dismissed for vaccination status.",
+  "provisions": [
+   {
+    "kind": "service-credit",
+    "detail": "Adds a new subsection to RCW 41.26.520 (LEOFF 2) granting up to five years of retirement service credit for members who left employment, voluntarily or involuntarily, due to an employer vaccination mandate imposed after January 1, 2020.",
+    "cites": "RCW 41.26.520"
+   },
+   {
+    "kind": "service-credit",
+    "detail": "Adds an identical vaccination-mandate service-credit purchase provision to RCW 41.32.810 (TRS 2/3 leave-of-absence/military service statute).",
+    "cites": "RCW 41.32.810"
+   },
+   {
+    "kind": "service-credit",
+    "detail": "Adds the same vaccination-mandate service-credit provision to RCW 41.32.865 (TRS defined-benefit/defined-contribution hybrid plan leave provisions).",
+    "cites": "RCW 41.32.865"
+   },
+   {
+    "kind": "service-credit",
+    "detail": "Adds the same vaccination-mandate service-credit provision to RCW 41.35.470 (SERS 2/3).",
+    "cites": "RCW 41.35.470"
+   },
+   {
+    "kind": "service-credit",
+    "detail": "Adds the same vaccination-mandate service-credit provision to RCW 41.35.650 (SERS Plan 3/hybrid leave provisions).",
+    "cites": "RCW 41.35.650"
+   },
+   {
+    "kind": "service-credit",
+    "detail": "Adds the same vaccination-mandate service-credit provision to RCW 41.37.260 (PSERS).",
+    "cites": "RCW 41.37.260"
+   },
+   {
+    "kind": "service-credit",
+    "detail": "Adds the same vaccination-mandate service-credit provision to RCW 41.40.710 (PERS 2).",
+    "cites": "RCW 41.40.710"
+   },
+   {
+    "kind": "service-credit",
+    "detail": "Adds the same vaccination-mandate service-credit provision to RCW 41.40.805 (PERS Plan 3 hybrid leave provisions).",
+    "cites": "RCW 41.40.805"
+   },
+   {
+    "kind": "service-credit",
+    "detail": "Adds the same vaccination-mandate service-credit provision to RCW 43.43.260 (WSPRS 2) and folds the new subsection into the existing 75 percent of average-final-salary benefit cap.",
+    "cites": "RCW 43.43.260"
+   },
+   {
+    "kind": "eligibility",
+    "detail": "To claim the credit, a returning member must apply within 90 days of resuming covered employment and pay employee contributions (plus interest) within five years of resumption or before retirement, or, if those deadlines are missed, pay the alternative amount under RCW 41.50.165(2) prior to retirement.",
+    "cites": "RCW 41.50.165(2); RCW 41.45.061; RCW 41.45.067"
+   },
+   {
+    "kind": "funding-policy",
+    "detail": "Once the member pays the employee share, the administering department bills the former employer for its share of the plan-appropriate contributions (RCW 41.45.060, 41.45.061, and 41.45.067, or equivalent chapter cites) plus interest, for the separation period, shifting the employer contribution liability retroactively to employers who imposed the mandate.",
+    "cites": "RCW 41.45.060; 41.45.061; 41.45.067"
+   },
+   {
+    "kind": "eligibility",
+    "detail": "Compensation used to calculate required contributions is the pay the member would have earned absent the mandate-related separation, or, if that cannot be reasonably estimated, the compensation reported for the member in the year before the separation (mirrors the existing military-leave compensation-estimation method).",
+    "cites": "RCW 41.26.520; 41.32.810; 41.32.865; 41.35.470; 41.35.650; 41.37.260; 41.40.710; 41.40.805; 43.43.260"
+   },
+   {
+    "kind": "other",
+    "detail": "New freestanding section adds a hiring preference in all state and local government (and contracted private) competitive civil-service examinations for applicants separated from any employment due to vaccination status in 2020-2022, adding 10 percent to the applicant's passing score.",
+    "cites": "new section, chapter 41.04 RCW"
+   },
+   {
+    "kind": "other",
+    "detail": "Preference is self-certified: the applicant submits either proof of dismissal for vaccination status or proof of the prior employer's vaccination policy plus an affidavit of separation due to that policy; no independent verification mechanism is specified.",
+    "cites": "new section, chapter 41.04 RCW"
+   },
+   {
+    "kind": "funding-policy",
+    "detail": "Legislative findings section recounts Executive Order 22-13's state workforce losses (about 1,900 employees including 400 transportation workers) and the state's subsequent shift from a vaccine-booster mandate to a $1,000 incentive payment, framing the bill's intent to facilitate rehiring and restore service credit.",
+    "cites": "none (uncodified intent section)"
+   }
+  ],
+  "flags": [
+   "emergency-clause",
+   "retroactive",
+   "creates-new-plan"
+  ],
+  "pointsOfInterest": [
+   "The employer contribution liability for the missed-service period is billed to the employer that imposed the mandate rather than shared prospectively across the plan, so the fiscal exposure lands narrowly on state agencies and local governments that had vaccination policies -- a targeted retroactive cost-shift rather than a systemwide funding change.",
+   "The bill defines the eligible population by a specific historical cause of separation (employer vaccination mandate after January 1, 2020) rather than by an ongoing plan feature, which is an unusual, one-time cohort carve-out layered into the general military-leave service-credit framework across nine separate RCW sections -- meaning any actuarial cost estimate depends entirely on how many separated employees actually return and buy back credit, a population that is hard to size ex ante.",
+   "The hiring-preference mechanism in the new chapter 41.04 section relies on applicant self-certification (affidavit plus policy proof) with no stated verification standard, which invites disputes over eligibility and potential inconsistency in how examining bodies apply the 10-point boost.",
+   "Six of nine amended sections are the DC/hybrid-plan leave-of-absence provisions (TRS/SERS/PERS Plan 3 and PSERS/WSPRS structures) where the mechanics of billing 'employer contributions' plus interest into a defined contribution account for a multi-year retroactive gap could pose administrative complications not present in straight defined-benefit plans.",
+   "The bill carries both an emergency clause and immediate effective date, atypical for a service-credit purchase bill of this kind, suggesting the sponsors intended fast implementation ahead of further changes to state vaccination policy referenced in the intent section."
+  ],
+  "bill": "2023-24/House/1814"
+ },
+ {
+  "oneLine": "HB 1949 expands the PSERS Plan 2 \"member\" definition (RCW 41.37.010(19)(d)(iv)) to cover DSHS institutional/residential competency restoration workers who serve civilly committed residents or NGRI patients, and creates a new section letting current PERS Plan 2/3 employees at those sites elect, through September 1, 2025, to become PSERS Plan 2 dual members without transferring PERS service credit, while PERS Plan 1 members at those sites remain in Plan 1 and new hires are placed directly into PSERS.",
+  "provisions": [
+   {
+    "kind": "eligibility",
+    "detail": "Amends the PSERS Plan 2 definition of \"member\" to add workers at DSHS/DCYF institutions or residential sites that serve civilly committed residents or patients found not guilty by reason of insanity, alongside the existing competency-restoration and developmentally-disabled categories (state-operated living alternatives facilities remain excluded).",
+    "cites": "RCW 41.37.010(19)(d)(iv)"
+   },
+   {
+    "kind": "membership",
+    "detail": "Gives an employee who was in PERS Plan 2 or 3 immediately before the effective date and who meets the newly expanded eligibility criteria a one-time choice, during an election period running from the effective date to September 1, 2025, to stay in PERS or become a PSERS Plan 2 dual member under chapter 41.54 RCW.",
+    "cites": "New section, chapter 41.37 RCW; chapter 41.54 RCW"
+   },
+   {
+    "kind": "portability",
+    "detail": "Bars transfer of service credit accrued in PERS into PSERS for employees who elect to switch; the PSERS membership is prospective only from the date of election.",
+    "cites": "New section, chapter 41.37 RCW"
+   },
+   {
+    "kind": "membership",
+    "detail": "Employees not electing by September 1, 2025 default to staying in their current PERS plan permanently, with no automatic PSERS conversion.",
+    "cites": "New section, chapter 41.37 RCW"
+   },
+   {
+    "kind": "eligibility",
+    "detail": "Employees who were PERS Plan 1 members on or before June 1, 2019 and later work in a newly eligible position remain in PERS Plan 1; they are not offered the PSERS election.",
+    "cites": "New section, chapter 41.37 RCW"
+   },
+   {
+    "kind": "membership",
+    "detail": "All new hires on or after the effective date who fill a newly eligible position become PSERS Plan 2 members automatically, with no election.",
+    "cites": "New section, chapter 41.37 RCW"
+   },
+   {
+    "kind": "other",
+    "detail": "Sets the act's effective date at June 1, 2025, a year after the June 1, 2024 effective date of the underlying 2023 c 199 definitional section being amended.",
+    "cites": "Section 3 (uncodified effective-date section)"
+   }
+  ],
+  "whoAffected": "DSHS/DCYF institutional and residential-site workers who provide custody, nursing, or security services to civilly committed residents or NGRI patients (competency restoration-adjacent staff), currently covered by PERS Plan 1, 2, or 3, gain PSERS Plan 2 eligibility; PERS Plan 1 members in that population are excluded from the new option and stay put.",
+  "flags": [
+   "contingent-effective-date",
+   "narrow-carve-out"
+  ],
+  "pointsOfInterest": [
+   "The mechanism is dual membership under ch. 41.54 RCW with no PERS-to-PSERS service credit transfer, so the bill avoids shifting accrued PERS liability onto PSERS; the actuarial cost is limited to prospective service and any dual-membership benefit calculation effects, not a stock of transferred credit.",
+   "PERS Plan 1 members are affirmatively locked out of the election and must remain in Plan 1, consistent with the closed, legislatively protected status of Plan 1 and avoidance of moving Plan 1's distinct funding and benefit structure into PSERS.",
+   "A roughly 15-month, one-time election window (effective date to September 1, 2025) is a self-selection design: analysts would expect adverse selection toward PSERS by employees for whom the more generous PSERS 2%/60 formula and earlier retirement age outweigh PERS terms, which OSA would need to model as a participation-rate assumption rather than a known cost.",
+   "Eligibility turns on fact-specific site/duty classifications (\"serve civilly committed residents,\" \"serve patients under not guilty by reason of insanity findings\") layered onto existing competency-restoration language; boundary calls about which specific institutions or rotating staff qualify could generate classification disputes similar to those seen in other PSERS carve-outs."
+  ],
+  "bill": "2023-24/House/1949"
+ },
+ {
+  "oneLine": "SHB 1985 extends the annual one-time ad hoc benefit increase for TRS Plan 1 and PERS Plan 1 retirees by adding a fifth increment: beneficiaries on the rolls as of July 1, 2023 get a 3 percent increase, capped at $110/month, effective July 1, 2024.",
+  "provisions": [
+   {
+    "kind": "cola",
+    "detail": "Adds new subsection (5) to RCW 41.32.4992 granting TRS Plan 1 beneficiaries receiving a monthly benefit on July 1, 2023 a 3 percent increase to that benefit, capped at $110.00, effective July 1, 2024.",
+    "cites": "RCW 41.32.4992"
+   },
+   {
+    "kind": "cola",
+    "detail": "Adds new subsection (5) to RCW 41.40.1987 granting PERS Plan 1 beneficiaries receiving a monthly benefit on July 1, 2023 a 3 percent increase to that benefit, capped at $110.00, effective July 1, 2024.",
+    "cites": "RCW 41.40.1987"
+   },
+   {
+    "kind": "eligibility",
+    "detail": "Renumbers the exclusion clause as subsection (6) and retains that the TRS increase does not apply to those receiving benefits under RCW 41.32.489 or 41.32.540.",
+    "cites": "RCW 41.32.4992, RCW 41.32.489, RCW 41.32.540"
+   },
+   {
+    "kind": "eligibility",
+    "detail": "Renumbers the exclusion clause as subsection (6) and retains that the PERS increase does not apply to those receiving benefits under RCW 41.40.1984.",
+    "cites": "RCW 41.40.1987, RCW 41.40.1984"
+   }
+  ],
+  "whoAffected": "Retirees and beneficiaries of TRS Plan 1 and PERS Plan 1 who were on the benefit rolls as of July 1, 2023, excluding those already receiving benefits under the separate minimum-benefit provisions of RCW 41.32.489, 41.32.540, and 41.40.1984.",
+  "flags": [
+   "narrow-carve-out"
+  ],
+  "pointsOfInterest": [
+   "This is the fifth consecutive one-time, non-compounding ad hoc increase layered onto closed Plan 1 systems (2018, 2020, 2022, 2023, now 2024), each keyed to a snapshot date of who is on the rolls, rather than an ongoing COLA; the dollar cap has been frozen at $110 for three cycles running, so the cap itself has not kept pace with inflation.",
+   "The bill continues the pattern set by 2023 c 397, whose uncodified finding stated an ongoing COLA \"may not be affordable until required employer contribution rates towards the unfunded accrued actuarial liability are reduced or no longer required\" and directed SCPP to study a permanent COLA during the 2023-25 biennium; this bill enacts another one-time patch rather than the studied permanent fix, leaving that study mandate unresolved.",
+   "No emergency clause and no null-and-void-without-appropriation clause appear in this bill's own text, unlike its 2023 c 397 predecessor which carried an immediate-effective-date emergency clause; worth confirming the bill's effective date against its internal July 1, 2024 trigger date.",
+   "Eligibility is a point-in-time snapshot (on the rolls as of July 1, 2023) rather than continuous eligibility through the effective date, which is standard for this series but worth checking against survivor benefit rules for any edge-case windfalls if status changes between snapshot and effective date."
+  ],
+  "bill": "2023-24/House/1985"
+ },
+ {
+  "oneLine": "HB 2013 adds a new section to chapter 41.50 RCW directing DRS to continue paying retiree and beneficiary benefits through the end of the month in which death occurs (rather than stopping on the exact death date), delays survivor benefits to the first of the following month, preserves DRS's authority to recover payments issued after month-end, and bars retroactive refund claims for repayments already made before the January 1, 2025 effective date.",
+  "provisions": [
+   {
+    "kind": "survivor-disability",
+    "detail": "Requires DRS to continue paying retiree or beneficiary benefits through the end of the month in which death occurs, rather than stopping precisely on the date of death, across all listed retirement systems.",
+    "cites": "New section, chapter 41.50 RCW; applies to retirees/beneficiaries under chapters 2.10, 2.12, 41.26, 41.32, 41.35, 41.37, 41.40, and 43.43 RCW"
+   },
+   {
+    "kind": "survivor-disability",
+    "detail": "Sets the start date for survivor benefits at the first day of the month following the month in which the retiree or beneficiary died, coordinating with the new month-end payment rule.",
+    "cites": "New section, chapter 41.50 RCW, subsection (1)"
+   },
+   {
+    "kind": "other",
+    "detail": "Clarifies that the month-end payment rule applies to all benefit payments issued by DRS, including optional annuities, not just standard periodic retirement allowances.",
+    "cites": "New section, chapter 41.50 RCW, subsection (2)"
+   },
+   {
+    "kind": "other",
+    "detail": "Preserves DRS's existing authority and obligation to require the beneficiary, survivor, or estate to refund any benefit payments issued for periods after the month of death, so the fix shifts the recovery cutoff to month-end but does not eliminate overpayment recovery.",
+    "cites": "New section, chapter 41.50 RCW, subsection (3)"
+   },
+   {
+    "kind": "other",
+    "detail": "Makes the new rule prospective only, expressly stating that no beneficiary, survivor, or estate that repaid benefits before January 1, 2025 has any right to a refund of those prior repayments.",
+    "cites": "New section, chapter 41.50 RCW, subsection (4)"
+   }
+  ],
+  "whoAffected": "Retirees, beneficiaries, survivors, and estates across essentially all state retirement systems (PERS, TRS, SERS/PSERS, LEOFF, WSPRS, and judicial retirement under chapters 2.10, 2.12, 41.26, 41.32, 41.35, 41.37, 41.40, and 43.43 RCW) whose death occurs mid-month; estates of decedents dying mid-month gain a partial month of retained benefits, while estates of those who already repaid pre-2025 overpayments gain nothing.",
+  "flags": [
+   "narrow-carve-out"
+  ],
+  "pointsOfInterest": [
+   "A single new section in chapter 41.50 RCW (the general DRS administration chapter) reaches into eight separate retirement-system chapters at once, rather than amending each system's statute individually, a centralization approach rather than parallel system-by-system amendments.",
+   "Subsection (4) affirmatively forecloses refund claims from estates that already repaid pre-2025 overpayments under the old date-of-death cutoff, a defensive drafting choice that limits the state's retroactive liability exposure rather than extending equitable relief to past cases.",
+   "The bill does not eliminate DRS's overpayment recovery power; subsection (3) keeps clawback authority intact for payments beyond the new month-end cutoff, so the change is narrowly a shift in the cutoff date, not a broader forgiveness of overpayments.",
+   "By request of the Select Committee on Pension Policy (SCPP), signaling this originated as a technical administrative-correction bill rather than a benefit-expansion policy initiative, consistent with its narrow, mechanical scope."
+  ],
+  "bill": "2023-24/House/2013"
+ },
+ {
+  "oneLine": "2SHB 2014 broadens Washington's statutory definition of \"veteran\" to reach general-under-honorable, other-than-honorable-with-VA-benefits, and LGBTQ+ bias discharges across dozens of licensing, tuition, employment, and benefit statutes, but deliberately excludes PERS and old-law police/fire pension military service credit from that broadened standard, and makes the entire act null and void absent a 2024 appropriation.",
+  "whoAffected": "Veterans/former service members with general-under-honorable, other-than-honorable (VA-benefit-eligible), or LGBTQ+ bias-motivated discharges gain expanded state licensing, tuition, hunting/fishing, employment-preference, and veterans'-home benefits; the same members are excluded from gaining expanded PERS/old-law police and fire pension military service credit, which retains the narrower honorable-discharge/period-of-war standard.",
+  "provisions": [
+   {
+    "kind": "eligibility",
+    "detail": "Creates a new statutory \"qualifying discharge\" definition (new section, ch. 73.04 RCW) that includes honorable, general-under-honorable, other-than-honorable-with-VA-monetary-benefits, and any discharge motivated solely by sexual orientation, gender identity, or gender expression (or related statements/conduct/disclosure), and applies it across roughly 19 cross-referenced RCW sections governing licensing, tuition, hunting/fishing, gambling-license renewal, and civil-service employment preference.",
+    "cites": "new section, ch. 73.04 RCW; RCW 9.46.070, 28A.230.120, 28B.15.012, 28B.15.621, 28B.102.020, 41.04.005, 41.04.007, 41.04.010, 41.06.133, 41.08.040, 41.12.040, 43.24.130, 43.70.270, 46.18.270, 46.18.280, 46.20.161, 72.36.030, 73.08.005, 77.32.480"
+   },
+   {
+    "kind": "service-credit",
+    "detail": "Strikes the cross-reference to RCW 41.16.220, 41.20.050, and 41.40.170 from the RCW 41.04.005 \"veteran\" definition being broadened, and instead rewrites those three sections to spell out \"honorably discharged\" (or honorable-record physical discharge) with period-of-war service directly, so PERS and old-law police/fire pension military service-credit purchase does not inherit the act's broadened qualifying-discharge standard.",
+    "cites": "RCW 41.04.005, 41.16.220, 41.20.050, 41.40.170"
+   },
+   {
+    "kind": "service-credit",
+    "detail": "Reenacts and amends RCW 41.40.170 (PERS military service credit purchase) to require the member be \"an honorably discharged veteran or veteran who received a physical discharge from the armed forces with an honorable record\" and to affirmatively prove period-of-war service under RCW 41.04.005, tightening the drafting even as it fixes an internal citation error (41.40.005 to 41.04.005).",
+    "cites": "RCW 41.40.170"
+   },
+   {
+    "kind": "service-credit",
+    "detail": "Reenacts and amends RCW 41.20.050 (old-law city police pension) to require honorable discharge (or honorable-record physical discharge) during a period of war for military-service credit toward the 25-year pension calculation.",
+    "cites": "RCW 41.20.050"
+   },
+   {
+    "kind": "eligibility",
+    "detail": "Amends RCW 84.39.020 to allow the deceased-veteran property tax exemption for surviving spouses even where the veteran had an other-than-honorable discharge, provided the veteran or survivor was eligible for or received federal VA monetary benefits.",
+    "cites": "RCW 84.39.020"
+   },
+   {
+    "kind": "eligibility",
+    "detail": "Amends RCW 28B.15.012 to apply the qualifying-discharge standard to resident-tuition eligibility for veterans and their dependents, while retaining exclusion of students with bad-conduct discharge, officer dismissal, or dishonorable discharge.",
+    "cites": "RCW 28B.15.012"
+   },
+   {
+    "kind": "other",
+    "detail": "Repeals RCW 2.48.100 (bar admission, effect of disability discharge) and RCW 73.04.042 (1919/1923 honorable-discharge recording statute for Spanish-American War and WWI veterans) as obsolete honorable-discharge-based provisions superseded by the qualifying-discharge standard.",
+    "cites": "RCW 2.48.100, 73.04.042"
+   },
+   {
+    "kind": "governance",
+    "detail": "Adds a new section directing the Department of Veterans Affairs to develop and implement an outreach program informing veterans of the law's changes, beginning on that section's effective date.",
+    "cites": "new section, ch. 43.60A RCW"
+   }
+  ],
+  "flags": [
+   "null-and-void-without-appropriation",
+   "narrow-carve-out",
+   "contingent-effective-date",
+   "repeals-sections"
+  ],
+  "pointsOfInterest": [
+   "The bill's headline reform (a broadened \"qualifying discharge\" standard reaching LGBTQ+ bias discharges and other-than-honorable-with-VA-benefits cases) is deliberately not extended to RCW 41.40.170 (PERS military service credit) or RCW 41.20.050/41.16.220 (predecessor police/fire pension military credit) \u2014 Sec. 2 strips those three RCW cites from the definition's scope and Secs. 18-20 restate \"honorably discharged\"/period-of-war language directly, so bad-paper veterans gain tuition, licensing, and hunting benefits but not retirement service credit purchase eligibility.",
+   "Section 40 makes the entire act null and void without a specific appropriation identified by bill or chapter number in the omnibus budget by June 30, 2024 \u2014 a funding contingency that would also nullify the pension-carve-out drafting itself if unfunded.",
+   "Section 37 exempts the act from the tax-preference performance-statement/JLARC automatic-review requirements (RCW 82.32.805/.808), even though Sec. 36 touches a property-tax exemption (RCW 84.39.020) for veterans' widows \u2014 a drafting choice that avoids future sunset review of that tax provision.",
+   "Sections 24-27 (armed-forces, Purple Heart, and Pearl Harbor license plates, and veterans emblems) get a staggered April 1, 2025 contingent effective/expiration date decoupled from the rest of the act, apparently for DOL system lead time; RCW 41.40.170's retroactive-recalculation note (from a prior 2023 act, not this bill) continues to reference the older, narrower veteran definition since 41.40.170 was excluded from the broadened standard."
+  ],
+  "bill": "2023-24/House/2014"
+ },
+ {
+  "oneLine": "HB 2024 authorizes law enforcement agencies to adopt flexible/part-time work policies for peace officers and, in the companion definitional amendments, opens LEOFF Plan 2 \"law enforcement officer\" membership to fully compensated but less-than-full-time officers beginning July 1, 2024, while expressly excluding reserve peace officers called into active service.",
+  "provisions": [
+   {
+    "kind": "other",
+    "detail": "Adds a new section to chapter 49.28 RCW authorizing (not requiring) general and limited authority Washington law enforcement agencies to adopt flexible/part-time work policies, subject to no displacement of full-time officers, no alteration of existing collective bargaining agreements or duty-to-bargain obligations, and a requirement that full-time and part-time officers in the same bargaining unit be covered together.",
+    "cites": "new section, chapter 49.28 RCW"
+   },
+   {
+    "kind": "eligibility",
+    "detail": "Strikes the 'full-time,' qualifier from the definitions of 'general authority Washington peace officer' and 'limited authority Washington peace officer,' extending those statuses (used for mutual aid and commissioning purposes) to part-time commissioned officers.",
+    "cites": "RCW 10.93.020(4), (6)"
+   },
+   {
+    "kind": "membership",
+    "detail": "In the pre-July 1, 2025 version of the LEOFF definitions section, strikes 'full time' from the city-police-officer qualifier and adds new subsection (19)(g) providing that 'law enforcement officer' does not include reserve peace officers called into active service under RCW 10.93.020.",
+    "cites": "RCW 41.26.030(19)(c), (g)"
+   },
+   {
+    "kind": "membership",
+    "detail": "Adds new subsection (19)(h) to the pre-July 1, 2025 version of RCW 41.26.030 making a person commissioned and fully compensated, but working less than full time, a 'law enforcement officer' eligible for LEOFF Plan 2 membership beginning July 1, 2024.",
+    "cites": "RCW 41.26.030(19)(h)"
+   },
+   {
+    "kind": "membership",
+    "detail": "Makes the parallel amendment (reserve-officer exclusion at new (19)(g) and part-time officer inclusion at new (19)(h)) to the post-July 1, 2025 version of RCW 41.26.030, which already incorporates the 2023 c 77 tribal-police-officer membership provision, so the part-time definition carries forward without a gap.",
+    "cites": "RCW 41.26.030(19)(g), (h)"
+   },
+   {
+    "kind": "other",
+    "detail": "Sunsets the temporary Section 3 version of RCW 41.26.030 on July 1, 2025, and makes the parallel Section 4 version effective the same date, synchronizing the part-time officer definition with the already-scheduled tribal officer amendment.",
+    "cites": "Sec. 5 (expiration), Sec. 6 (effective date)"
+   }
+  ],
+  "whoAffected": "Part-time (less-than-full-time), fully compensated commissioned peace officers of general and limited authority Washington law enforcement agencies gain LEOFF Plan 2 \"law enforcement officer\" eligibility; reserve peace officers called into active service are expressly excluded from LEOFF membership status.",
+  "flags": [
+   "narrow-carve-out",
+   "contingent-effective-date"
+  ],
+  "pointsOfInterest": [
+   "The bill text contains no actuarial or fiscal adjustment language, yet it expands the LEOFF Plan 2 covered population to a new class of part-time officers; an OSA reader would look for the accompanying fiscal note rather than the bill itself for cost impact to the tri-party (state/employer/employee) funded plan.",
+   "The eligibility expansion is threaded twice, into both the pre- and post-July 1, 2025 versions of RCW 41.26.030 (Sec. 3 and Sec. 4), using an expire/take-effect pairing (Sec. 5, Sec. 6) to keep the temporary and permanent versions in sync with the already-scheduled 2023 c 77 tribal-officer amendment; any future drafter who amends only one version risks the two falling out of alignment.",
+   "The reserve-officer exclusion is a narrow carve-out drawn specifically to prevent reserve peace officers called into active duty under chapter 10.93 RCW from being swept into LEOFF membership by the new part-time officer language, forestalling an unintended eligibility expansion to a much larger and more casual class of personnel.",
+   "The flexible-work-policy authorization (Sec. 1, chapter 49.28 RCW) is a labor-policy provision layered loosely onto the pension eligibility change via a shared definitions cross-reference (RCW 10.93.020); an agency can adopt a flexible work policy without necessarily triggering the LEOFF membership question, and existing LEOFF Plan 2 service-credit tiers (70/90-hour monthly thresholds) already accommodate part-time work, so the practical benefit-computation mechanics for final average salary during transitions between full-time and part-time status are not separately addressed."
+  ],
+  "bill": "2023-24/House/2024"
+ },
+ {
+  "oneLine": "HB 2167 lets LEOFF 2 retirees who have separated from service for six months or more return to part-time LEOFF officer/firefighter work (up to 1040 hours per year, for up to three years) without suspension of their retirement allowance, while forgoing further service credit, and adds a statutory definition of \"separation from service\" tied to the anti-collusion return-to-work rule in RCW 41.26.062.",
+  "provisions": [
+   {
+    "kind": "eligibility",
+    "detail": "Adds new subsection (4) to RCW 41.26.500 allowing a LEOFF 2 retiree who has separated from service for six months or more to work in an eligible LEOFF position for up to 1040 hours per calendar year for up to three years without suspension of the monthly retirement allowance.",
+    "cites": "RCW 41.26.500"
+   },
+   {
+    "kind": "service-credit",
+    "detail": "Retirees using the new part-time return-to-work window forgo any service credit or other accrual of retirement benefits for hours worked during that period.",
+    "cites": "RCW 41.26.500(4)(b)"
+   },
+   {
+    "kind": "other",
+    "detail": "The bill expressly states the expanded postretirement work eligibility is not a contractual right and may be repealed or modified by the legislature at any time, a non-vesting disclaimer aimed at avoiding contract-clause protection under state pension case law.",
+    "cites": "RCW 41.26.500(4)(c)"
+   },
+   {
+    "kind": "eligibility",
+    "detail": "Adds new definition (29) \"Separation from service,\" specifying it occurs only when a person has terminated all employment with an employer, and that a written or oral agreement to resume employment with the same employer defeats separation and may violate the bona fide separation rule in RCW 41.26.062.",
+    "cites": "RCW 41.26.030(29); RCW 41.26.062"
+   },
+   {
+    "kind": "other",
+    "detail": "Because RCW 41.26.030 is already scheduled to be amended by 2023 c 77 effective July 1, 2025 (adding tribal police department officers to the \"law enforcement officer\" definition), the bill amends both the pre- and post-July 1, 2025 versions of the section in parallel to keep the new \"separation from service\" definition and renumbering consistent across both.",
+    "cites": "RCW 41.26.030"
+   },
+   {
+    "kind": "other",
+    "detail": "Sections 4 and 5 sunset the pre-July 1, 2025 version of the definitions section (Section 1) and set the effective date of the post-July 1, 2025 version (Section 2) to July 1, 2025, matching the existing 2023 c 77 schedule.",
+    "cites": "RCW 41.26.030"
+   }
+  ],
+  "whoAffected": "LEOFF Plan 2 retirees who separate from service for six months or more and their rehiring LEOFF employers; no change for LEOFF Plan 1 members or non-LEOFF retirement systems",
+  "flags": [
+   "narrow-carve-out",
+   "contingent-effective-date"
+  ],
+  "pointsOfInterest": [
+   "The 1040-hour/three-year return-to-work window lets a retiree draw a full pension and a part-time LEOFF paycheck simultaneously; benefit-formula spiking is blocked by the service-credit forgo clause, but the policy still raises the classic double-dipping optics/cost question OSA typically flags even where the funding math is neutral.",
+   "The new 'separation from service' definition is deliberately cross-referenced to the pre-arranged-return prohibition in RCW 41.26.062, suggesting drafters are threading a six-month bright-line rule around an existing anti-collusion standard rather than replacing it; the interaction between the two provisions is left for DRS to administer.",
+   "The non-contractual-right disclaimer in new RCW 41.26.500(4)(c) is unusual and purposeful drafting, an explicit attempt to keep this benefit outside the vested-rights doctrine that has otherwise made Washington pension liberalizations hard to unwind.",
+   "The double amendment of RCW 41.26.030 (Sections 1 and 2, with Sections 4 and 5 as bridging sunset/effective-date sections) is a technical artifact of a second pending bill (2023 c 77) already scheduled to take effect July 1, 2025; it is clean drafting but signals the section is a live target for multiple bills in the same biennium."
+  ],
+  "bill": "2023-24/House/2167"
+ },
+ {
+  "oneLine": "SHB 2152 is a 55-section terminology overhaul of Washington's criminal-insanity and competency-to-stand-trial statutes (replacing \"incompetent\"/\"competency\" language with \"unable to proceed to trial due to a mental health condition\" and similar person-first phrasing); its only PSERS touchpoint is a nominal relabeling of \"competency restoration services\" to \"restoration treatment services\" within the RCW 41.37.010 Plan 2 membership definition, with an accompanying savings clause stating the act changes no substantive meaning.",
+  "whoAffected": "PSERS Plan 2 members employed at DSHS/DCYF institutions (juvenile rehabilitation facilities, mental health hospitals, child study and treatment centers) whose duties include custody/security for patients undergoing what the statute now calls \"restoration treatment\" rather than \"competency restoration\"; the covered class of employees is unchanged.",
+  "provisions": [
+   {
+    "kind": "eligibility",
+    "detail": "Renames \"competency restoration services\" to \"restoration treatment services\" within the PSERS Plan 2 \"member\" definition covering staff at state institutions who provide custody/security for offender, probationary, or patient populations, or perform those services; no change to which job classes or institutions qualify.",
+    "cites": "RCW 41.37.010(19)(d) (Sec. 39)"
+   },
+   {
+    "kind": "other",
+    "detail": "Uncodified savings clause states the act's terminology amendments are not intended to change the substantive meaning of the underlying concepts and do not alter the applicability or effect of prior case law on criminal insanity or inability to proceed to trial.",
+    "cites": "Sec. 57 (new, uncodified)"
+   },
+   {
+    "kind": "other",
+    "detail": "Sets a contingent effective date tying two unrelated civil-commitment definitions to a prior act's trigger; this contingency does not apply to the PSERS section (Sec. 39), which takes effect on the bill's normal effective date.",
+    "cites": "Sec. 58 (new); RCW 71.05.020 and 71.05.212 (Secs. 43, 45), contingent on 2022 c 210 \u00a7\u00a7 2, 10"
+   }
+  ],
+  "flags": [
+   "contingent-effective-date"
+  ],
+  "pointsOfInterest": [
+   "Of 55 amended/reenacted sections, only one (RCW 41.37.010) touches a retirement statute; the PSERS classification rests entirely on a single incidental relabeling inside a criminal-justice terminology bill, not on any deliberate pension policy change.",
+   "The bill carries its own savings clause (Sec. 57) disclaiming substantive effect, which is unusually explicit reassurance for a bill coded as pension-related \u2014 useful for an analyst confirming zero actuarial or eligibility impact rather than inferring it from silence.",
+   "RCW 41.37.010 is amended \"as amended by 2023 c 199 s 3,\" a very recent companion act (2023 telecommunicator PERS/PSERS expansion); layering a terminology-only edit on top of a just-enacted substantive amendment raises an ordinary but nontrivial code-reviser sequencing/publication risk.",
+   "No cost-shifting, contribution-rate, multiplier, or membership-count effect is created; this is the rare \"pension bill\" that an OSA fiscal note would properly score as zero fiscal impact despite touching an RCW that defines a covered retirement plan's membership."
+  ],
+  "bill": "2023-24/House/2152"
+ },
+ {
+  "oneLine": "HB 2316 amends RCW 41.40.023 to add a new, narrow PERS membership exclusion for part-time bus drivers on naval-shipyard routes for a public transportation benefit area who are simultaneously full-time federal employees contributing to the federal retirement system, plus carries two unrelated technical conforming edits in the same section.",
+  "provisions": [
+   {
+    "kind": "eligibility",
+    "detail": "Adds new membership exception (23): persons hired on or after the effective date, employed by a public transportation benefit area (RCW 36.57A.010) as part-time bus drivers serving naval shipyards, are excluded from mandatory PERS membership if they are simultaneously employed full-time by an employer of the federal government and making contributions to the federal employees' retirement system.",
+    "cites": "RCW 41.40.023(23)"
+   },
+   {
+    "kind": "other",
+    "detail": "Technical conforming amendment splitting the reference to the former combined 'volunteer firefighters' and reserve officers' relief and pension principal fund' into the two separate funds created by 2023 c 73, with no substantive policy effect.",
+    "cites": "RCW 41.40.023(4)(c)"
+   },
+   {
+    "kind": "other",
+    "detail": "Technical renaming of the 'liquor control board' to the 'liquor and cannabis board' to conform to the 2015 rename, no substantive policy effect.",
+    "cites": "RCW 41.40.023(10)"
+   }
+  ],
+  "whoAffected": "A narrow class of part-time bus drivers for a public transportation benefit area serving naval shipyard routes who are also full-time federal government employees (e.g., federal civilian shipyard workers driving a shuttle route, likely Kitsap Transit serving Puget Sound Naval Shipyard) lose PERS membership eligibility for that part-time job; other listed exception classes are unaffected in substance.",
+  "flags": [
+   "narrow-carve-out"
+  ],
+  "pointsOfInterest": [
+   "The new provision is an exclusion from membership, not an expansion of access: it relieves the transit employer of PERS employer contributions for these part-time drivers, while the drivers forgo any PERS service credit for that job, in exchange for avoiding simultaneous participation in two retirement systems for overlapping employment.",
+   "The carve-out is unusually specific in both geography and employment structure (part-time bus driver, naval shipyard route, employer is a public transportation benefit area, employee also full-time federal and contributing to FERS), suggesting the bill was drafted to fit one identifiable real-world workforce (transit agency shuttle drivers serving a naval shipyard) rather than a general policy class.",
+   "No fiscal note language, actuarial impact statement, or SCPP analysis is present in the bill text itself; given the request-of-SCPP sponsorship, the class size is presumably small enough that any PERS trust fund impact would be treated as negligible, but that determination is not visible from the text.",
+   "Two unrelated technical/reviser cleanup edits (firefighters' fund split, liquor board rename) are bundled into the same amendatory section as the substantive change, typical drafting practice when reopening a frequently-amended RCW section but worth separating out when assessing what the bill actually does."
+  ],
+  "bill": "2023-24/House/2316"
+ },
+ {
+  "oneLine": "HB 2246 raises the general state employee vacation-accrual cap from 240 to 280 hours (RCW 43.01.040/.044) and makes conforming amendments to PERS plan 1 and WSPRS plan 1 compensation definitions so the added leave does not translate into higher pension-computable pay, including a new anti-spiking exclusion for a narrow class of WSPRS officers commissioned before July 1, 2001.",
+  "provisions": [
+   {
+    "kind": "other",
+    "detail": "Raises the maximum accrual of unused vacation leave for state officers and employees from 240 to 280 hours, and correspondingly raises the cap that applies when leave use is deferred and extended by statement of necessity.",
+    "cites": "RCW 43.01.040"
+   },
+   {
+    "kind": "other",
+    "detail": "Conforms the alternative no-statement-of-necessity vacation accumulation method to the new 280-hour threshold (three references changed from 240 to 280 hours); leaves intact the existing rule that this alternative accumulation shall not increase a retirement allowance under any public retirement system.",
+    "cites": "RCW 43.01.044"
+   },
+   {
+    "kind": "other",
+    "detail": "Removes the cross-reference to RCW 43.01.044 and 43.01.041 in the PERS plan 1 definition of compensation earnable while leaving the exclusion of remuneration for unused annual leave in excess of 240 hours unchanged, meaning the compensation-earnable exclusion threshold was not raised to match the new 280-hour accrual cap.",
+    "cites": "RCW 41.40.010(8)(a)(ii)(B)"
+   },
+   {
+    "kind": "other",
+    "detail": "Adds a new exclusion to the WSPRS plan 1 definition of pension-computable salary for lump sum payments for unused accumulated vacation or annual leave in excess of 240 hours (plus hours earned since the member's anniversary date), applicable only to members commissioned before July 1, 2001, a group whose salary definition previously did not exclude such payments unlike the two later-commissioned cohorts.",
+    "cites": "RCW 43.43.120(21)(a)"
+   },
+   {
+    "kind": "tax-technical",
+    "detail": "Makes numerous nonsubstantive numeral-style edits converting spelled-out numbers to digits (e.g., sixty to 60, twelve to 12, seventy to 70) throughout the PERS definitions section, with no effect on benefits.",
+    "cites": "RCW 41.40.010"
+   }
+  ],
+  "whoAffected": "All state civil-service employees (higher vacation accrual cap); PERS plan 1 members and, narrowly, WSPRS plan 1 members commissioned before July 1, 2001 (pension compensation-definition conformance/anti-spiking fix)",
+  "flags": [
+   "narrow-carve-out"
+  ],
+  "pointsOfInterest": [
+   "The bill's operative policy change (240 to 280 hour vacation cap) sits in Title 43.01, a personnel statute; three of its four sections instead amend PERS and WSPRS compensation definitions purely to keep the larger leave balance from flowing into pension-computable pay, i.e., this is fundamentally an anti-spiking conforming bill riding alongside an HR leave-policy change.",
+   "Sec. 3 strips the RCW 43.01.044/.041 cross-reference from the PERS plan 1 compensation-earnable exclusion but leaves the numeric threshold at 240 hours rather than updating it to 280; still protective in effect (anything paid above 240 hours stays excluded), but the mismatch between the new 280-hour accrual cap and the still-240-hour compensation exclusion is a drafting artifact worth flagging.",
+   "Sec. 4 creates a genuinely narrow carve-out: the added salary exclusion applies only to WSPRS officers commissioned before July 1, 2001, a closed and shrinking cohort nearing or past retirement eligibility, apparently closing a gap because later-commissioned cohorts already had this exclusion in their salary definitions.",
+   "No emergency clause, no null-and-void-without-appropriation clause, and no contingent effective date appear anywhere in the bill, consistent with the drafters treating this as fiscally neutral -- the existing 'shall not result in any increase in a retirement allowance' savings clause in RCW 43.01.044(3) is left undisturbed."
+  ],
+  "bill": "2023-24/House/2246"
+ },
+ {
+  "oneLine": "HB 2337 exempts LEOFF Plan 2 Retirement Board employees from civil service coverage and gives the board direct authority to hire staff outside Title 41 RCW and set their salaries, downgrading OFM's role from consultation to mere notice.",
+  "provisions": [
+   {
+    "kind": "governance",
+    "detail": "Adds employees of the LEOFF Plan 2 Retirement Board to the list of positions exempt from classified civil service coverage under the state civil service law.",
+    "cites": "RCW 41.06.070"
+   },
+   {
+    "kind": "governance",
+    "detail": "Removes the existing requirement that LEOFF 2 board staff (other than the executive director) be state employees under Title 41 RCW, instead authorizing the board itself to set staff salaries subject to periodic board review.",
+    "cites": "RCW 41.26.717"
+   },
+   {
+    "kind": "governance",
+    "detail": "Changes the process for setting the executive director's salary: the board must now merely provide notice to the OFM director rather than consult with OFM, while continuing to notify the house and senate fiscal committee chairs of changes.",
+    "cites": "RCW 41.26.717"
+   }
+  ],
+  "whoAffected": "Staff and executive director of the LEOFF Plan 2 Retirement Board (a small administrative body), who gain hiring/compensation autonomy; OFM loses its consultative role over executive salary-setting.",
+  "flags": [
+   "narrow-carve-out"
+  ],
+  "pointsOfInterest": [
+   "The carve-out affects an extremely small class (the board's own staff, likely fewer than a dozen positions), the kind of narrow personnel-law exemption that draws little floor debate but sets durable precedent.",
+   "Removing the Title 41 RCW state-employee requirement lets the board hire and pay staff outside the classified civil service and general state salary schedules, mirroring autonomy already granted to entities like the state investment board; this is a governance template other retirement boards could later seek.",
+   "Downgrading OFM's role from 'consultation with' to 'notice to' on executive director salary-setting reduces centralized executive-branch oversight of compensation, shifting effective control to the board and legislative fiscal committees (notice only, not approval).",
+   "The bill is by request of the LEOFF Plan 2 Retirement Board itself, i.e., a governance/HR housekeeping measure originating from the board rather than OSA or SCPP, with no apparent fiscal note implications for plan funding, benefits, or contribution rates."
+  ],
+  "bill": "2023-24/House/2337"
+ },
+ {
+  "oneLine": "HB 2338 removes the statute of limitations on LEOFF special death benefit claims and creates a retroactive reopening path for previously denied beneficiaries, shifts liability for employer-caused LEOFF 2 pension overpayments from retirees to employers (capped at one year absent fraud), modestly broadens the firefighter definition, and lets certain nonduty PTSD disability retirees seek retroactive reclassification to line-of-duty status as L&I's occupational-disease determinations evolve.",
+  "provisions": [
+   {
+    "kind": "eligibility",
+    "detail": "Eliminates the statute of limitations on the LEOFF special death benefit and requires L&I to redetermine eligibility for beneficiaries previously denied solely for missing that deadline, with an option to reelect an ongoing pension under RCW 41.26.510(2) paid retroactive to the member's death.",
+    "cites": "RCW 41.26.048"
+   },
+   {
+    "kind": "membership",
+    "detail": "Expands the statutory definition of 'firefighter' to add full-time, fully compensated fire department personnel in positions that necessitate firefighter experience to perform essential job functions, with conforming subsection reletterings.",
+    "cites": "RCW 41.26.030 (Sec. 201, effective-until-7/1/2025 version)"
+   },
+   {
+    "kind": "membership",
+    "detail": "Makes the identical firefighter-definition addition to the parallel, later-effective version of the same definitions section that already incorporates the 2023 tribal-officer and general-authority-agency language, via a synchronized expiration/effective-date pair (Sec. 201 expires 7/1/2025; Sec. 202 takes effect 7/1/2025) so the change survives the scheduled 2023 c 77 amendment.",
+    "cites": "RCW 41.26.030 (Sec. 202, effective-7/1/2025 version); Sec. 203-204"
+   },
+   {
+    "kind": "governance",
+    "detail": "Provides that a LEOFF 2 retiree is not liable to repay a pension overpayment caused by an employer's erroneous reporting of member information (absent member nondisclosure, fraud, or misrepresentation), and exempts such employer-caused overpayments from the standard three-year lookback limit on benefit corrections.",
+    "cites": "RCW 41.50.130"
+   },
+   {
+    "kind": "funding-policy",
+    "detail": "Creates a new section making the employer liable to reimburse the LEOFF 2 retirement fund for overpayments caused by the employer's erroneous reporting, with liability capped at one year of overpayments plus interest unless the employer committed fraud, in which case the employer is liable for the full overpayment; effective January 1, 2025.",
+    "cites": "New section added to chapter 41.26 RCW (Sec. 302); Sec. 303"
+   },
+   {
+    "kind": "survivor-disability",
+    "detail": "Allows a member receiving a nonduty disability benefit for a condition not classified as an occupational disease at the time of retirement, but now meeting the PTSD occupational-disease definition, to file a new application for a line-of-duty disability determination, with the higher benefit paid retroactive to the date the condition became eligible as an occupational disease.",
+    "cites": "RCW 41.26.470; cross-references RCW 51.08.165"
+   }
+  ],
+  "whoAffected": "LEOFF Plan 2 active members, retirees, beneficiaries, and their employers, with the death-benefit statute-of-limitations fix also reaching past-denied beneficiaries chapter-wide and a narrow class of nonduty PTSD disability retirees gaining a reclassification path",
+  "flags": [
+   "retroactive",
+   "contingent-effective-date",
+   "narrow-carve-out"
+  ],
+  "pointsOfInterest": [
+   "Sec. 101(3) reopens denied special-death-benefit claims with no dollar cap or outer time bound on the retroactive pension payments, creating open-ended liability exposure tied to a claims-processing failure rather than a benefit design change.",
+   "Sec. 302 is a cost-shift from members to employers for employer reporting errors, but the one-year cap (absent fraud) means older employer-caused overpayments still fall back on the fund/member, only partially transferring the liability.",
+   "Sec. 401(12) ties a retroactive disability-reclassification right to L&I's evolving occupational-disease determinations for PTSD, meaning future L&I policy changes could retroactively convert an unknown, currently-unquantifiable number of nonduty retirements into higher-cost line-of-duty retirements.",
+   "The twin-section drafting for RCW 41.26.030 (Secs. 201-204) is pension-code bookkeeping to synchronize with a previously enacted, not-yet-effective 2023 amendment rather than a substantive change in itself, and is easy to misread as two separate policy changes."
+  ],
+  "bill": "2023-24/House/2338"
+ },
+ {
+  "oneLine": "Creates a time-limited (through June 30, 2029) $15,000 annual longevity bonus for Washington State Patrol commissioned employees with 26+ years of service, statutorily excluded from salary and average final salary for pension calculation purposes, contingent on collective bargaining agreement changes, with a mandated 2028 JLARC performance review.",
+  "provisions": [
+   {
+    "kind": "other",
+    "detail": "Creates a new state trooper longevity bonus of $15,000 annually, paid on the employee's state-service anniversary date, for eligible commissioned employees with 26 or more years of service, beginning July 1, 2024.",
+    "cites": "New section added to chapter 43.43 RCW (Sec. 2(1), (6))"
+   },
+   {
+    "kind": "other",
+    "detail": "Establishment of the bonus is made subject to negotiated changes in the applicable collective bargaining agreements with the exclusive bargaining representatives, and the section expressly disclaims any interference with collective bargaining rights under RCW 41.56.473.",
+    "cites": "New section added to chapter 43.43 RCW (Sec. 2(2), (3)); RCW 41.56.473"
+   },
+   {
+    "kind": "other",
+    "detail": "Declares the bonus a time-limited incentive not intended to be included in salary or average final salary for pension benefit calculations, and states it is not a matter of contractual right, so the legislature may alter or abolish it at any time.",
+    "cites": "New section added to chapter 43.43 RCW (Sec. 2(4), (5))"
+   },
+   {
+    "kind": "eligibility",
+    "detail": "The new bonus section itself expires June 30, 2029, sunsetting the pilot program.",
+    "cites": "New section added to chapter 43.43 RCW (Sec. 2(7))"
+   },
+   {
+    "kind": "other",
+    "detail": "Amends the WSPRS definition of 'salary' for all three commissioning-date tiers to expressly exclude earnings from the new longevity bonus, preventing the bonus from inflating average final salary and retirement allowances.",
+    "cites": "RCW 43.43.120(21)(a), (b), (c)"
+   },
+   {
+    "kind": "tax-technical",
+    "detail": "Converts several spelled-out numbers in the WSPRS definitions section (e.g., 'seventy' to '70,' 'sixty' to '60,' 'twelve' to '12,' 'seventy-seven' to '77') to numerals; a non-substantive drafting cleanup riding along with the salary amendment.",
+    "cites": "RCW 43.43.120(2), (21)(a)-(c), (22)(a)"
+   },
+   {
+    "kind": "other",
+    "detail": "Section 3 (the RCW 43.43.120 amendment carrying the salary exclusion) is itself set to expire June 30, 2029, tying the salary-exclusion language to the same sunset as the bonus program.",
+    "cites": "Sec. 5 (uncodified); RCW 43.43.120"
+   },
+   {
+    "kind": "other",
+    "detail": "Requires the joint legislative audit and review committee to complete a performance review of the longevity bonus pilot by November 1, 2028, assessing retention impact, vacancy trends, optimal staffing levels compared to other states, and other retention factors, and to recommend whether to continue the program; this review section also expires June 30, 2029.",
+    "cites": "Sec. 4 (uncodified, new section)"
+   }
+  ],
+  "whoAffected": "Washington State Patrol commissioned employees (troopers/sergeants) in the Washington State Patrol Retirement System with 26 or more years of service; no other WSPRS members or classes are affected.",
+  "flags": [
+   "narrow-carve-out",
+   "study-mandate",
+   "contingent-effective-date",
+   "repeals-sections"
+  ],
+  "pointsOfInterest": [
+   "The bonus is deliberately walled off from pension calculations: Sec. 2(4) and the parallel amendments to the 'salary' definition in RCW 43.43.120(21)(a)-(c) both exclude the $15,000 payment from average final salary, an explicit anti-spiking design choice for what is otherwise a large annual payment to a senior, near-retirement cohort.",
+   "The entire program is a five-year pilot: the new benefit section, the salary-exclusion amendment (via a separate standalone Sec. 5 expiration section), and the JLARC review mandate all sunset June 30, 2029, with the review due by November 1, 2028 to inform a continuation decision.",
+   "Eligibility is unusually narrow and senior: 26+ years of service (beyond the roughly 25-year mark the findings cite for 122 currently retirement-eligible staff), targeting retention of the most senior commissioned staff specifically to preserve a leadership pipeline, rather than addressing broader recruitment or mid-career retention.",
+   "The bonus's actual establishment is made contingent on collective bargaining agreement changes (Sec. 2(2)), and the bill preserves the legislature's unilateral right to alter or abolish it (Sec. 2(5)) with no contractual right created, standard non-vesting boilerplate that keeps this off the books as a pension enhancement despite its size and recurrence."
+  ],
+  "bill": "2023-24/House/2357"
+ },
+ {
+  "oneLine": "HB 2405 directs WSIB to integrate climate and other sustainability factors into investment decision-making, adopt proxy voting guidelines favoring climate-risk-reducing shareholder resolutions, report annually on environmental sustainability of its investment process, and requires a state auditor evaluation of proxy voting conformance every two years starting December 2027.",
+  "provisions": [
+   {
+    "kind": "governance",
+    "detail": "Adds subsection requiring the board to integrate sustainability factors (governance, environmental, social, human capital) into its investment decision making, analysis, portfolio construction, due diligence, and ownership when determining a prudent level of risk.",
+    "cites": "RCW 43.33A.110"
+   },
+   {
+    "kind": "governance",
+    "detail": "Enumerates a non-exhaustive list of sustainability factors the board should strive to incorporate when updating sustainability frameworks, covering corporate governance/leadership, environmental, social capital, human capital, and business model/innovation categories.",
+    "cites": "RCW 43.33A.110"
+   },
+   {
+    "kind": "governance",
+    "detail": "Adds a new duty for the board to develop and publish proxy voting guidelines treating climate change as a business and systemic risk, support shareholder resolutions reducing climate-change-contributing activity, and publicly justify in writing any decision not to support such resolutions.",
+    "cites": "RCW 43.33A.140"
+   },
+   {
+    "kind": "governance",
+    "detail": "Adds a new annual reporting requirement on the environmental sustainability of the board's investment decision-making process, including climate-related risk identification, financial impact assessment, and mitigation actions tied to federal climate-related reporting requirements.",
+    "cites": "RCW 43.33A.150"
+   },
+   {
+    "kind": "governance",
+    "detail": "Creates a new section directing the state auditor to conduct a biennial (starting December 1, 2027) evaluation of WSIB's climate-risk proxy voting guidelines and conformance, reporting findings and recommendations to the legislature.",
+    "cites": "New section, chapter 43.09 RCW"
+   }
+  ],
+  "whoAffected": "No member class gains or loses benefits; the bill governs WSIB's investment and proxy-voting practices, indirectly affecting all beneficiaries of the pension funds and other public funds WSIB manages as fiduciary assets.",
+  "flags": [
+   "study-mandate"
+  ],
+  "pointsOfInterest": [
+   "This is not a benefits bill: it contains no multiplier, COLA, contribution, or eligibility change; it regulates WSIB's fiduciary investment and proxy-voting process, which is unusual for a bill classified as pension-related.",
+   "The bill layers a policy mandate (climate-risk-focused sustainability integration and proxy voting) onto WSIB's existing prudent-investor standard in RCW 43.33A.140, raising a potential tension between the statutory duty to maximize return at prudent risk and a directive to support climate-related shareholder resolutions, which analysts often flag as a fiduciary-duty overlay question even though the bill frames sustainability factors as return-maximizing.",
+   "The bill creates an external oversight mechanism (state auditor biennial review of proxy voting conformance, first due December 1, 2027) rather than legislature-facing SCPP oversight, a structurally different accountability channel than typical pension bills.",
+   "No fiscal note mechanics are present in the text itself (no appropriation language, no actuarial funding note, no contingent effective date, no emergency clause), consistent with a governance/process bill rather than a benefit-cost bill."
+  ],
+  "bill": "2023-24/House/2405"
+ },
+ {
+  "oneLine": "HB 2471 adds a 0.5% per-year multiplier bonus for service beyond 30 years, prospectively, across the Plan 2 benefit formulas of TRS, SERS, and PERS.",
+  "provisions": [
+   {
+    "kind": "multiplier",
+    "detail": "Adds a new bonus accrual of an additional 0.5% of average final compensation per year of service beyond 30 years, for TRS 2 members, applicable only to years of service earned after the section's effective date.",
+    "cites": "RCW 41.32.760"
+   },
+   {
+    "kind": "multiplier",
+    "detail": "Adds the same 0.5%-per-year-beyond-30-years bonus accrual for TRS 3 members' defined benefit portion, prospective only.",
+    "cites": "RCW 41.32.840"
+   },
+   {
+    "kind": "multiplier",
+    "detail": "Adds the same 0.5%-per-year-beyond-30-years bonus accrual for SERS 2 members, prospective only.",
+    "cites": "RCW 41.35.400"
+   },
+   {
+    "kind": "multiplier",
+    "detail": "Adds the same 0.5%-per-year-beyond-30-years bonus accrual for SERS 3 members' defined benefit portion, prospective only.",
+    "cites": "RCW 41.35.620"
+   },
+   {
+    "kind": "multiplier",
+    "detail": "Adds the same 0.5%-per-year-beyond-30-years bonus accrual for PERS 2 members, prospective only.",
+    "cites": "RCW 41.40.620"
+   },
+   {
+    "kind": "multiplier",
+    "detail": "Adds the same 0.5%-per-year-beyond-30-years bonus accrual for PERS 3 members' defined benefit portion, prospective only.",
+    "cites": "RCW 41.40.790"
+   }
+  ],
+  "whoAffected": "Active PERS 2/3, SERS 2/3, and TRS 2/3 members who work beyond 30 years of service credit; no effect on members who separate at or before 30 years, and no retroactive effect on years already earned.",
+  "flags": [
+   "narrow-carve-out"
+  ],
+  "pointsOfInterest": [
+   "The bonus applies only to years of service earned after the bill's effective date, so a member with 32 years at enactment gets the enhanced 2.5% rate only on future years beyond 30, not on the two years already worked past the 30-year mark; this creates a mixed-formula calculation for long-tenure members mid-career.",
+   "Benefit is narrowly targeted at a small population of very long-tenured members (30+ years of service), which in PERS/SERS/TRS Plan 2/3 is a relatively small share of the active membership, concentrating fiscal cost on a specific late-career cohort.",
+   "Uniform 0.5% bump is applied identically across six sections/three systems/two plan designs (Plan 2 and the DB half of Plan 3) rather than being tailored to each system's differing normal cost or funded status, suggesting a policy-driven rather than actuarially-calibrated design choice.",
+   "No emergency clause, no null-and-void-without-appropriation clause, and no contingent effective date appear in the bill text, meaning it would take effect under the standard 90-days-after-sine-die rule absent a fiscal note constraint added later; this leaves cost absorption to the standard PERS/SERS/TRS contribution rate-setting process rather than tying implementation to appropriated funding."
+  ],
+  "bill": "2023-24/House/2471"
+ },
+ {
+  "oneLine": "ESSB 5294 replaces the open-ended minimum employer contribution rates for PERS/PSERS, SERS, and TRS Plan 1 unfunded liability with a declining rate schedule running through fiscal year 2027 (backstopped by a funding-contingent 0.50 percent floor thereafter), adds a state actuary review-and-recommend requirement, and cuts the fiscal year 2023 one-time general fund deposit to the TRS Plan 1 fund from $800 million to $250 million, effective immediately under an emergency clause.",
+  "provisions": [
+   {
+    "kind": "contribution-rate",
+    "detail": "Caps the existing 3.50 percent minimum PERS/PSERS employer contribution rate for amortizing PERS Plan 1 unfunded actuarial accrued liability (UAAL) so it runs only through June 30, 2023, deleting the prior open-ended duration of 'until the actuarial value of assets ... equals 100 percent.'",
+    "cites": "RCW 41.45.150(4) (renumbered)"
+   },
+   {
+    "kind": "contribution-rate",
+    "detail": "Caps the existing 3.50 percent minimum SERS employer contribution rate for the same PERS Plan 1 UAAL so it runs only through August 31, 2023, removing the same open-ended 100 percent funded trigger.",
+    "cites": "RCW 41.45.150(5) (renumbered (2))"
+   },
+   {
+    "kind": "contribution-rate",
+    "detail": "Caps the existing 5.75 percent minimum TRS employer contribution rate for TRS Plan 1 UAAL so it runs only through August 31, 2023, removing the same open-ended trigger.",
+    "cites": "RCW 41.45.150(6) (renumbered (3))"
+   },
+   {
+    "kind": "contribution-rate",
+    "detail": "Establishes a new declining employer contribution rate schedule for PERS/PSERS (2.50%, 2.00%, 1.50%, 0.50% for fiscal years 2024-2027) dedicated to PERS Plan 1 UAAL, followed by a 0.50 percent minimum floor beginning July 1, 2027 that applies only while plan assets are below 100 percent of accrued liability.",
+    "cites": "RCW 41.45.150(4)(a)-(b) (new)"
+   },
+   {
+    "kind": "contribution-rate",
+    "detail": "Establishes the identical declining schedule (2.50% down to 0.50%, fiscal years 2024-2027) for SERS employer rates dedicated to PERS Plan 1 UAAL, followed by the same funding-contingent 0.50 percent floor beginning September 1, 2027.",
+    "cites": "RCW 41.45.150(5)(a)-(b) (new)"
+   },
+   {
+    "kind": "contribution-rate",
+    "detail": "Establishes a declining schedule for TRS employer rates dedicated to TRS Plan 1 UAAL running from 0.50 percent (FY2024-25) down to 0.00 percent (FY2026-27), followed by the same funding-contingent 0.50 percent floor beginning September 1, 2027.",
+    "cites": "RCW 41.45.150(6)(a)-(b) (new)"
+   },
+   {
+    "kind": "governance",
+    "detail": "Adds a new subsection directing the state actuary, upon completion of each biennial actuarial valuation, to review the minimum contribution rates and recommend adjustments to the Pension Funding Council for material changes in benefits, assumptions, methods, or experience, with any council changes subject to legislative revision.",
+    "cites": "RCW 41.45.150(7) (new)"
+   },
+   {
+    "kind": "funding-policy",
+    "detail": "Reduces the one-time fiscal year 2023 General Fund-State appropriation for deposit into the TRS Plan 1 fund (to be applied against the plan's unfunded actuarial accrued liability on June 30, 2023) from $800,000,000 to $250,000,000.",
+    "cites": "2021 c 334 s 747 (uncodified)"
+   },
+   {
+    "kind": "other",
+    "detail": "Declares an emergency for immediate preservation of public peace, health, safety, or state government operations, and sets the act's effective date as June 30, 2023.",
+    "cites": "Sec. 3 (uncodified, new)"
+   }
+  ],
+  "whoAffected": "Public employers in PERS/PSERS, SERS, and TRS (who pay the amortization-rate share of employer contributions) and the state general fund, not individual member benefits; PERS Plan 1 and TRS Plan 1 legacy funding levels are affected indirectly",
+  "flags": [
+   "emergency-clause",
+   "retroactive",
+   "study-mandate"
+  ],
+  "pointsOfInterest": [
+   "Section 2 cuts the FY2023 supplemental general-fund deposit into the TRS Plan 1 fund from $800 million to $250 million, a $550 million reduction in one-time UAAL paydown, timed to an effective date of June 30, 2023 (the last day of that fiscal year) under an emergency clause, meaning the reduced appropriation takes effect essentially concurrent with the close of the fiscal year it governs.",
+   "The bill swaps an indefinite 'minimum rate until 100 percent funded' floor for a fixed, declining stairstep schedule that sunsets in 2027, then reinstates a minimum rate only conditioned on funded status (below 100 percent) rather than a hard date - a shift from open-ended to time-boxed-plus-contingent design that could affect long-run amortization certainty.",
+   "The TRS schedule glides to a 0.00 percent employer rate by FY2026-2027 while the PERS/PSERS and SERS schedules bottom out at 0.50 percent, implying TRS Plan 1 is assumed to reach full funding on a faster track than PERS Plan 1 - worth checking against the underlying OSA valuation assumptions.",
+   "New subsection (7) creates a recurring state actuary review-and-recommend loop to the Pension Funding Council each biennial valuation, institutionalizing periodic rate reassessment rather than leaving the schedule static through 2027 as enacted."
+  ],
+  "bill": "2023-24/Senate/5294"
+ },
+ {
+  "oneLine": "SB 5328 adds public safety telecommunicators (911 dispatchers) employed by PERS-covered employers to PSERS Plan 2 membership, gives existing PERS 2/3 telecommunicators a one-time election window to transfer prospectively as dual members, locks in PERS 1 telecommunicators, and makes new hires after June 1, 2024 automatic PSERS members.",
+  "whoAffected": "Public safety telecommunicators (911 dispatchers/call-takers and their direct supervisors) employed by PERS-participating employers gain PSERS Plan 2 eligibility; PERS Plan 1 telecommunicators are excluded and remain in Plan 1; contract, nonprofit, and first-class-city telecommunicator employees are excluded entirely.",
+  "provisions": [
+   {
+    "kind": "membership",
+    "detail": "Expands the RCW 41.37.010(12) definition of 'employer' to include any PERS-participating employer whose employees' primary responsibility is to receive, process, transmit, or dispatch 911 emergency and nonemergency calls, bringing those employers into PSERS coverage for that class of worker.",
+    "cites": "RCW 41.37.010(12)"
+   },
+   {
+    "kind": "membership",
+    "detail": "Adds a new RCW 41.37.010(19)(f) category to the definition of 'member,' extending PSERS eligibility to employees whose primary responsibility is to receive, process, transmit, or dispatch 911 emergency/nonemergency calls or to supervise such employees, plus a renumbered (g) for supervisors of newly eligible members.",
+    "cites": "RCW 41.37.010(19)(f)-(g)"
+   },
+   {
+    "kind": "eligibility",
+    "detail": "Adds 'or psychological' to the legislative intent language in RCW 41.37.005 describing the physical risk that justifies separate PSERS treatment, textually extending the stated rationale for PSERS membership to psychological as well as physical occupational risk.",
+    "cites": "RCW 41.37.005"
+   },
+   {
+    "kind": "portability",
+    "detail": "New section creates a one-time election period (January 1, 2024 through March 1, 2024) during which existing PERS Plan 2/3 telecommunicators employed as of June 1, 2024 may elect to become PSERS Plan 2 dual members under chapter 41.54 RCW, with membership effective prospectively from the election date and no transfer of accrued PERS service credit into PSERS.",
+    "cites": "new section added to chapter 41.37 RCW (Sec. 4); ch. 41.54 RCW"
+   },
+   {
+    "kind": "eligibility",
+    "detail": "Telecommunicators who do not affirmatively elect to join PSERS by September 1, 2024 default to remaining in their current PERS plan, and PERS Plan 1 telecommunicators (members on or before June 1, 2019) are barred from switching and must remain in PERS Plan 1.",
+    "cites": "new section added to chapter 41.37 RCW (Sec. 4)"
+   },
+   {
+    "kind": "membership",
+    "detail": "All newly hired telecommunicators meeting the eligibility definition who are hired on or after June 1, 2024 become PSERS members automatically, with no election required.",
+    "cites": "new section added to chapter 41.37 RCW (Sec. 4)"
+   }
+  ],
+  "flags": [
+   "narrow-carve-out",
+   "contingent-effective-date"
+  ],
+  "pointsOfInterest": [
+   "Section 1 is an unusual freestanding intent section that affirmatively narrows the bill's reach, explicitly disclaiming coverage for contract employees, nonprofit employees, and employees of first-class cities even though those entities may employ functionally identical telecommunicators; this creates a durable coverage gap that tracks employer type rather than job duties.",
+   "The election design (prospective-only join, no PERS service credit transfer into PSERS) avoids any actuarial cost of purchasing past service at PSERS rates, which limits the cost-shift to employers/plan compared to a full transfer-in design, but leaves electing members' PSERS benefit accrual starting from zero regardless of tenure.",
+   "The PERS Plan 1 carve-out (Sec. 4(5)) is a narrow, closed class: only those who were PERS 1 members on or before June 1, 2019 and remain PERS-covered telecommunicators past June 1, 2024. Because PERS 1 is closed and typically older/near-retirement, this avoids disrupting Plan 1's distinct benefit formula and funding status.",
+   "The 'or psychological' addition to the RCW 41.37.005 intent language is a small textual change but is notable because it is the only substantive amendment to the general PSERS rationale section, and could be read as legislative acknowledgment that psychological risk alone can justify PSERS-equivalent treatment for other occupational classes beyond telecommunicators."
+  ],
+  "bill": "2023-24/Senate/5328"
+ },
+ {
+  "oneLine": "ESSB 5187, the 2023-25 operating budget (with 2021-23 second supplemental), makes one direct LEOFF 2 statutory change extending a narrow dual-contribution requirement, funds pension employer-contribution-rate increases and DRS costs contingent on separate companion bills, and cuts a prior TRS 1 unfunded-liability paydown from $800 million to $250 million.",
+  "whoAffected": "LEOFF 2 officers/firefighters employed by port districts and higher-education institutions doing outside fee-for-service work; PERS 1 and TRS 1 retirees (contingent benefit-increase funding); WSPRS and LEOFF 2 members (contingent military-service-credit funding); TRS 1 plan funded status generally (reduced UAAL paydown)",
+  "provisions": [
+   {
+    "kind": "governance",
+    "detail": "Extends into the 2023-2025 fiscal biennium the existing requirement that port districts and institutions of higher education pay both the employer and state pension contribution shares for LEOFF 2 members who are law enforcement officers or firefighters performing fee-for-service work for entities that are not their statutory 'employer'.",
+    "cites": "RCW 41.26.450 (Sec. 925)"
+   },
+   {
+    "kind": "contribution-rate",
+    "detail": "Funds a 0.12 percent increase in PERS, PSERS, and SERS employer contributions and a 0.23 percent increase in TRS employer contributions to pay for a one-time ongoing benefit increase for PERS 1 and TRS 1 retirees; the subsection is null and void, and the appropriations held in unallotted status, if Senate Bill No. 5350 is not enacted by June 30, 2023.",
+    "cites": "Sec. 912(2) (uncodified); refs SB 5350"
+   },
+   {
+    "kind": "contribution-rate",
+    "detail": "Funds a 0.13 percent increase in Washington state patrol retirement system employer contributions and a 0.01 percent increase in LEOFF 2 employer contributions to fund a military service credit purchase benefit; null and void if Senate Bill No. 5296 is not enacted by June 30, 2023.",
+    "cites": "Sec. 912(3) (uncodified); refs SB 5296"
+   },
+   {
+    "kind": "funding-policy",
+    "detail": "Appropriates $181.3 million (biennium) in state contributions to LEOFF, made monthly per chapter 41.45 RCW, plus $12.3 million to the judicial retirement system and $600,000 to the judges' retirement system, made quarterly per chapters 2.10 and 2.12 RCW, and $18.704 million to the volunteer firefighters' and reserve officers' relief and pension fund.",
+    "cites": "Sec. 727-728 (uncodified); ch. 41.45 RCW, ch. 2.10 RCW, ch. 2.12 RCW"
+   },
+   {
+    "kind": "funding-policy",
+    "detail": "Amends a prior 2021-23 supplemental appropriation, reducing a lump-sum deposit into the teachers' retirement system plan 1 fund earmarked for paydown of the unfunded actuarial accrued liability from $800,000,000 to $250,000,000, with expenditure still directed for June 30, 2023.",
+    "cites": "Sec. 1904, amending 2021 c 334 s 747 (uncodified)"
+   },
+   {
+    "kind": "other",
+    "detail": "Appropriates $34.491 million (2023-25) and $6.007 million (2021-23 supplemental) to the Department of Retirement Systems for 'pension system modernization,' subject to the IT-project oversight conditions of Sec. 701, plus smaller sums contingent on enactment of companion pension bills, including SB 5296 (military service credit, $143,000), SSB 5538 (postretirement nursing, $1,172,000), SB 5084 (self-insured pensions/fund, $41,000 plus $84,000/$84,000 from L&I accident and medical aid accounts), SB 5367 (inactive retirement accounts, $619,000), SB 5021 ($286,000), and ESSB 5399 (universal health care commission, $7,000); two supplemental items for SB 5676 (PERS/TRS 1 benefit increase, $48,000) and HB 1669 (PSERS disability benefits, $82,000) carry a June 30, 2022 enactment deadline that had already passed, so those amounts lapse.",
+    "cites": "multiple uncodified sections, e.g. lines 687-689, 6827-6832"
+   }
+  ],
+  "flags": [
+   "emergency-clause",
+   "retroactive",
+   "narrow-carve-out",
+   "contingent-effective-date"
+  ],
+  "pointsOfInterest": [
+   "Sec. 1904 quietly cuts the TRS 1 UAAL supplemental paydown from $800 million to $250 million by amending a prior year's uncodified appropriation proviso rather than RCW, buried at the very end of the bill -- a $550 million swing in extra debt-reduction funding that materially affects TRS 1's funded-status trajectory and is easy to miss on a section-by-section RCW scan.",
+   "Nearly every pension item in this budget is a funding pass-through rather than a benefit change: contribution-rate bumps and DRS implementation costs for SB 5350, SB 5296, SB 5084, SB 5538, SB 5367, SB 5676, and HB 1669 are all null and void (appropriations unallotted) if those freestanding bills fail to pass -- the actual benefit design sits entirely outside this text.",
+   "The one direct LEOFF 2 statutory change (RCW 41.26.450) is a narrow anti-subsidy/cost-shifting mechanic, not a benefit change: it makes port districts and higher-ed institutions absorb both employer and state contribution shares when their LEOFF 2 officers or firefighters do outside fee-for-service work, preventing the state general fund from indirectly subsidizing third-party service arrangements.",
+   "The military-service-credit and PERS1/TRS1 benefit-increase funding is expressed as small employer contribution-rate increments (0.01%-0.23%) layered onto rates already set by the Pension Funding Council and the LEOFF 2 board and adjusted under SB 5294 (plan 1 UAAL rates), typical incremental normal-cost/UAAL funding mechanics rather than a rate-setting policy change in its own right."
+  ],
+  "bill": "2023-24/Senate/5187"
+ },
+ {
+  "oneLine": "SB 5349 lifts the age-65 postretirement-employment bar for TRS 2/3, SERS 2/3, and PERS 2/3 members who retired under the 30-year/age-55 'alternate early retirement' option, letting them work up to 867 hours a year starting January 1, 2024, while consolidating and repealing a redundant narrower carve-out that previously served the same purpose.",
+  "provisions": [
+   {
+    "kind": "eligibility",
+    "detail": "Removes, effective January 1, 2024, the prior rule barring alternate early retirees (30 service years, age 55, benefit reduced per statutory schedule) from any postretirement employment until age 65, and instead lets them work up to 867 hours per calendar year under the standard postretirement employment provisions before reaching 65; the pre-2024 bar remains in force through December 31, 2023.",
+    "cites": "RCW 41.32.765, 41.32.875, 41.35.420, 41.35.680, 41.40.630, 41.40.820"
+   },
+   {
+    "kind": "other",
+    "detail": "Broadens the definition of 'employment with an employer' for these alternate early retirees before age 65 to include personal service contracts and service as a temporary or project employee, then narrows it after age 65 to only the statutory 'employer' definition, changing what counts against the hours cap depending on the retiree's age.",
+    "cites": "RCW 41.32.765, 41.32.875, 41.35.420, 41.35.680, 41.40.630, 41.40.820"
+   },
+   {
+    "kind": "other",
+    "detail": "Repeals a narrower, now-redundant subsection that had separately authorized up to 867 hours of postretirement work without benefit suspension for alternate early retirees who reentered nonadministrative employment after June 9, 2016, since the same 867-hour allowance is now granted directly in the eligibility sections; remaining subsections are relettered accordingly.",
+    "cites": "RCW 41.32.802, 41.32.862, 41.35.060"
+   }
+  ],
+  "whoAffected": "TRS 2/3, SERS 2/3, and PERS 2/3 members who retired (or will retire) under the 30-service-year/age-55 'alternate early retirement' option, a narrower subset of the general early-retiree population",
+  "flags": [
+   "narrow-carve-out",
+   "repeals-sections"
+  ],
+  "pointsOfInterest": [
+   "The bill's substantive reach is confined to one narrow retiree subclass, alternate early retirees who elected the 30-year/age-55 reduced-benefit path, even though it amends nine sections across three systems' plan 2/3 structures.",
+   "It liberalizes postretirement work rules by removing an age-65 employment bar that had specifically targeted this subclass, raising the usual return-to-work/benefit-suspension policy tension (workforce retention and staffing shortages, particularly in schools, versus double-dipping and cost-shifting concerns) without any accompanying fiscal note or study language in the bill text itself.",
+   "The employment definition is widened (capturing personal service contracts and temp/project work) for retirees under 65 but narrowed for retirees over 65 in the same sentence, an asymmetric anti-loophole drafting choice whose practical effect is muted by the fact that the underlying hours-limit prohibition it guards is being lifted at the same time.",
+   "The repealed carve-out in the reemployment sections overlapped with still-active, separately sunsetting (July 1, 2025) COVID-era school-district reemployment relief enacted by 2022 c 110, so this bill is layered on top of an already temporary, staggered set of postretirement employment rules rather than a clean baseline."
+  ],
+  "bill": "2023-24/Senate/5349"
+ },
+ {
+  "oneLine": "SB 5350 grants a one-time 3 percent COLA, capped at $110 a month, to PERS 1 and TRS 1 retirees on the rolls as of July 1, 2022, excludes certain survivor and disability beneficiaries from that increase, and directs the Select Committee on Pension Policy to study an ongoing COLA tied to paydown of the plans' unfunded liability, effective immediately under an emergency clause.",
+  "provisions": [
+   {
+    "kind": "cola",
+    "detail": "Adds a fourth-tier one-time benefit increase for TRS Plan 1 beneficiaries receiving a monthly benefit on July 1, 2022, effective July 1, 2023: 3 percent of the monthly benefit, capped at $110.00.",
+    "cites": "RCW 41.32.4992"
+   },
+   {
+    "kind": "cola",
+    "detail": "Adds a matching fourth-tier one-time benefit increase for PERS Plan 1 beneficiaries receiving a monthly benefit on July 1, 2022, effective July 1, 2023: 3 percent of the monthly benefit, capped at $110.00.",
+    "cites": "RCW 41.40.1987"
+   },
+   {
+    "kind": "survivor-disability",
+    "detail": "Excludes TRS 1 beneficiaries receiving benefits under the survivor/disability provisions of RCW 41.32.489 or 41.32.540 from the increase in this section.",
+    "cites": "RCW 41.32.4992(5)"
+   },
+   {
+    "kind": "survivor-disability",
+    "detail": "Excludes PERS 1 beneficiaries receiving benefits under RCW 41.40.1984 from the increase in this section.",
+    "cites": "RCW 41.40.1987(5)"
+   },
+   {
+    "kind": "tax-technical",
+    "detail": "Restates the prior three tiers' dollar caps in numeral form ($62.50, $62.50, $110.00) rather than spelled-out text, a non-substantive drafting cleanup.",
+    "cites": "RCW 41.32.4992; RCW 41.40.1987"
+   },
+   {
+    "kind": "governance",
+    "detail": "Uncodified legislative finding states that an ongoing COLA for PERS 1/TRS 1 beneficiaries may not be affordable until required employer UAAL contribution rates are reduced or eliminated.",
+    "cites": "Section 1 (uncodified)"
+   },
+   {
+    "kind": "funding-policy",
+    "detail": "Directs SCPP, during the 2023-2025 fiscal biennium, to study and recommend an ongoing COLA for PERS 1/TRS 1 beneficiaries, with any recommendation to consider employer contribution rate stability and to coordinate the COLA's effective date with reduction or elimination of the unfunded actuarial accrued liability.",
+    "cites": "Section 2 (uncodified)"
+   }
+  ],
+  "whoAffected": "PERS Plan 1 and TRS Plan 1 retirees/beneficiaries on the benefit rolls as of July 1, 2022, excluding those drawing survivor or disability benefits under RCW 41.32.489, 41.32.540, or 41.40.1984",
+  "flags": [
+   "emergency-clause",
+   "study-mandate",
+   "narrow-carve-out"
+  ],
+  "pointsOfInterest": [
+   "This is the fourth successive one-time, capped-dollar COLA layered onto the same two statutes (2018, 2020, 2022, now 2023) rather than a permanent indexed COLA; the ad hoc pattern itself is the policy, not a one-off fix.",
+   "Section 2 explicitly conditions any future ongoing COLA on reduction or elimination of the UAAL, an unusual instance of the legislature pre-committing a benefit study's scope to employer cost sequencing rather than beneficiary need.",
+   "The survivor/disability carve-outs under RCW 41.32.489/41.32.540 and 41.40.1984 have been excluded from every iteration of this ad hoc COLA since 2018; the bill perpetuates rather than revisits that exclusion, worth flagging for equity review.",
+   "An emergency clause is used for what is functionally a routine, incremental benefit bump rather than a genuine peace/health/safety measure; its practical effect is to move the effective date up and to place the act beyond referendum."
+  ],
+  "bill": "2023-24/Senate/5350"
+ },
+ {
+  "oneLine": "ESSB 5424 authorizes law enforcement agencies to adopt flexible/part-time work policies and, via a dual-track technical amendment sequenced against a companion tribal-officer provision, extends LEOFF Plan 2 membership and statewide peace-officer status to less-than-full-time commissioned officers beginning July 1, 2024.",
+  "provisions": [
+   {
+    "kind": "other",
+    "detail": "Adds a new section to chapter 49.28 RCW authorizing general and limited authority Washington law enforcement agencies to adopt flexible work policies (part-time work, alternative shifts), with guardrails barring displacement of full-time officers and preserving collective bargaining obligations and existing bargaining units.",
+    "cites": "new section, chapter 49.28 RCW"
+   },
+   {
+    "kind": "eligibility",
+    "detail": "Reenacts and amends the chapter 10.93 RCW definitions of \"general authority Washington peace officer\" and \"limited authority Washington peace officer\" by striking the existing \"full-time\" qualifier, so part-time commissioned officers now qualify as peace officers under that chapter.",
+    "cites": "RCW 10.93.020(4), (6)"
+   },
+   {
+    "kind": "membership",
+    "detail": "Amends the currently effective version of the LEOFF definitions section to add a new law enforcement officer category, effective July 1, 2024, covering commissioned, fully compensated officers working less than full time who otherwise meet the existing qualifications, making them LEOFF Plan 2 members.",
+    "cites": "RCW 41.26.030(19)(f)"
+   },
+   {
+    "kind": "membership",
+    "detail": "Makes the identical part-time officer eligibility addition to the version of RCW 41.26.030 that takes effect July 1, 2025 (as already amended by 2023 c 77 to add a tribal police department officer category), inserting it as a new subsection so both changes coexist.",
+    "cites": "RCW 41.26.030(19)(g)"
+   },
+   {
+    "kind": "other",
+    "detail": "Section 3 (the July 2024 version of the amendment) expires July 1, 2025, and Section 4 (the tribal-officer-compatible version) takes effect July 1, 2025, sequencing the two amendments to the same subsection so there is no gap or conflict in coverage.",
+    "cites": "Sec. 5, Sec. 6 (uncodified)"
+   }
+  ],
+  "whoAffected": "Part-time (less-than-full-time), fully compensated general and limited authority Washington peace officers and law enforcement officers, who newly qualify for peace-officer status statewide and for LEOFF Plan 2 membership; full-time officers and existing bargaining units are protected from displacement.",
+  "flags": [
+   "contingent-effective-date"
+  ],
+  "pointsOfInterest": [
+   "Uses a dual-track (expire/effective) amendment pair on the same RCW 41.26.030 subsection to sequence this change against the already-enacted 2023 c 77 tribal-officer provision, a standard but easy-to-miss WA drafting mechanic that can obscure which version of the definition is live at a given date.",
+   "Pure eligibility/definitional expansion: no change to contribution rates, benefit multiplier, COLA, vesting, or funding policy; cost impact depends entirely on how many employers voluntarily adopt flexible work policies under the new chapter 49.28 section, since adoption is permissive (\"may\"), not mandatory.",
+   "Existing LEOFF service-credit thresholds (90/70-hour full, half, and quarter service-credit months) already accommodate part-time work, so no new crediting mechanism was needed, but final average salary for Plan 2 is based on the highest 60 consecutive service-credit months, meaning a late-career shift to part-time schedule would generally lower, not spike, a member's benefit.",
+   "The RCW 10.93.020 change reaches beyond LEOFF and pension eligibility into the general peace-officer certification and mutual-aid framework, conferring statewide peace-officer authority on part-time officers, not just retirement-system membership."
+  ],
+  "bill": "2023-24/Senate/5424"
+ },
+ {
+  "oneLine": "SB 5468 amends the LEOFF definitions statute, RCW 41.26.030, to add promotional (non-civil-service-tested) full-time firefighter positions requiring firefighting experience to the definition of 'firefighter,' keeping members who are promoted within a fire department in LEOFF rather than losing that status, and separately fixes a stale internal citation.",
+  "provisions": [
+   {
+    "kind": "membership",
+    "detail": "Adds new RCW 41.26.030(17)(d), defining 'firefighter' to include any person serving full time, fully compensated, as an employee of a fire department in a position that requires an experienced firefighter, so that a firefighter promoted into such a position keeps LEOFF membership instead of falling outside the statutory definition.",
+    "cites": "RCW 41.26.030(17)"
+   },
+   {
+    "kind": "membership",
+    "detail": "Relabels existing subsections (17)(d) through (h) as (e) through (i) to accommodate the new (d), including the carve-out for executive secretaries of fire protection district associations, which continues to state it does not apply to plan 2 members.",
+    "cites": "RCW 41.26.030(17)(e)-(i)"
+   },
+   {
+    "kind": "tax-technical",
+    "detail": "Corrects an internal cross-reference from RCW 18.73.030(12) to RCW 18.73.030(13) in the EMT-firefighter clause, conforming to a 2022 renumbering of that statute noted by the code reviser.",
+    "cites": "RCW 41.26.030(17)(i); RCW 18.73.030"
+   }
+  ],
+  "whoAffected": "Firefighters promoted into full-time positions within a fire department that require firefighting experience (e.g., fire marshal, training officer, inspector roles) but lack a distinct civil service firefighter exam, who gain continued/clarified LEOFF membership rather than risking exclusion from the definition of 'firefighter.'",
+  "flags": [
+   "narrow-carve-out"
+  ],
+  "pointsOfInterest": [
+   "The new (17)(d) standard - 'a position that requires an experienced firefighter' - is undefined and less concrete than the criteria used elsewhere in the same definition (civil service exam, named dispatcher/EMT certification requirements), leaving the employer or DRS to determine case by case which promotional positions qualify.",
+   "Unlike the neighboring carve-outs in (17)(e) and (17)(f), which expressly state they do not apply to plan 2 members, the new (17)(d) contains no such limitation, so on its face it extends to both plan 1 and plan 2, which broadens the fiscal exposure beyond a plan 1-only fix.",
+   "Because LEOFF is a closed, more generous system relative to PERS for local government employees, retaining promoted firefighters in LEOFF rather than letting them default into PERS has an actuarial cost and would ordinarily warrant a fiscal note from the state actuary given the membership-eligibility expansion.",
+   "The bill piggybacks an unrelated technical citation fix (18.73.030 renumbering) onto the same amendatory section as the substantive membership change, which is common drafting practice in RCW 41.26.030 but obscures the size of the substantive change within a large omnibus definitions section."
+  ],
+  "bill": "2023-24/Senate/5468"
+ },
+ {
+  "oneLine": "SSB 5538 creates a temporary, sunsetting (through July 1, 2026) return-to-work carve-out in both PSERS and PERS letting retired licensed nurses working nonadministrative positions for a state agency draw full pension payments while working up to 1,040 hours a year, bypassing the usual 867-hour postretirement work cap, and takes effect immediately under an emergency clause.",
+  "provisions": [
+   {
+    "kind": "eligibility",
+    "detail": "Adds new subsection (2)(b) to RCW 41.37.050 (PSERS) letting a retiree who has met the break-in-employment requirement and who takes a nonadministrative licensed-nurse position with a state agency keep receiving pension payments while working, until service exceeds 1,040 hours in a calendar year, effective from the act's effective date through July 1, 2026.",
+    "cites": "RCW 41.37.050"
+   },
+   {
+    "kind": "eligibility",
+    "detail": "Adds new subsection (2)(c) to RCW 41.40.037 (PERS, plans 1/2/3, including alternate early retirees under RCW 41.40.630(3)(b) and 41.40.820(3)(b)) granting the identical nonadministrative licensed-nurse, state-agency, 1,040-hour, effective-date-to-July 1, 2026 carve-out from pension suspension.",
+    "cites": "RCW 41.40.037; RCW 41.40.630(3)(b); RCW 41.40.820(3)(b)"
+   },
+   {
+    "kind": "other",
+    "detail": "New uncodified Section 3 declares the act necessary for immediate preservation of public peace, health, or safety and gives it an immediate effective date.",
+    "cites": ""
+   }
+  ],
+  "whoAffected": "Retired PSERS and PERS members (plans 1, 2, and 3, including alternate early retirees) who return to nonadministrative licensed-nursing positions with a state agency gain a temporary, higher (1,040-hour) postretirement work threshold before pension suspension; other retirees remain capped at 867 hours.",
+  "flags": [
+   "emergency-clause",
+   "narrow-carve-out"
+  ],
+  "pointsOfInterest": [
+   "The carve-out is drawn extremely narrowly: nonadministrative, licensed-nurse, state-agency positions only, mirroring but distinct from the existing school-district nonadministrative-position carve-out already in RCW 41.40.037(2)(b) (which runs through July 1, 2025) \u2014 this bill effectively extends the same double-dipping relief mechanism to a new, unnamed 'state agency' population, almost certainly targeting DOC or DSHS institutional nursing shortages.",
+   "Raises the postretirement work ceiling from 867 hours (the standard limit in both sections' (2)(a)) to 1,040 hours for this class, a nontrivial expansion of allowable hours worked while drawing full pension, which increases double-dipping cost exposure to the retirement systems for the duration of the carve-out.",
+   "The sunset date (July 1, 2026) is set well past the bill's own emergency immediate-effective-date, giving roughly three years of carve-out life \u2014 long for what is framed as a stopgap staffing fix, and worth checking against any fiscal note for projected cost.",
+   "Emergency clause plus immediate effective date for what is otherwise a narrow personnel-policy tweak signals urgent, likely institution-specific staffing pressure (e.g., 24-hour nursing coverage at a state facility) rather than a broad systemic pension change."
+  ],
+  "bill": "2023-24/Senate/5538"
+ },
+ {
+  "oneLine": "SB 5625 creates a DRS retiree ombuds office funded by system expense-fund/HCA fees, tolls and lengthens member appeal deadlines with retroactive reopening of dismissed claims, expands LEOFF 2 disability-review rights and the 'basic salary' definition used for benefits, and excludes DRS administrative/UAL fees from the cost of purchasing service credit.",
+  "provisions": [
+   {
+    "kind": "governance",
+    "detail": "Creates a governor-appointed office of the ombuds for retiree benefits within DRS, with a six-year term, removal only for cause, staffing capped at four for the first two years, defined qualifications, advocacy/complaint-resolution/referral duties, a toll-free line, confidentiality of records, good-faith immunity, whistleblower protection for DRS employees who cooperate, a dedicated assistant attorney general, and a required website link.",
+    "cites": "new sections added to chapter 41.50 RCW (Secs. 1-9, 12, 19)"
+   },
+   {
+    "kind": "funding-policy",
+    "detail": "Funds the ombuds office through the DRS expense fund (RCW 41.50.110) and the health care authority administrative account (RCW 41.05.130), i.e., through system/employer rate charges rather than a general fund appropriation.",
+    "cites": "new section (Sec. 10); RCW 41.50.110; RCW 41.05.130"
+   },
+   {
+    "kind": "governance",
+    "detail": "Requires an annual ombuds report to the governor, the Select Committee on Pension Policy, and the LEOFF 2 board, describing issues handled, monitoring activity, and recommended remedial action, first due April 1, 2024.",
+    "cites": "new section (Sec. 11)"
+   },
+   {
+    "kind": "other",
+    "detail": "Tolls a member's or retiree's time to file a notice of appeal under chapter 34.05 RCW while a matter is under ombuds investigation, until the ombuds decides and DRS responds.",
+    "cites": "new section (Sec. 13)"
+   },
+   {
+    "kind": "survivor-disability",
+    "detail": "Defines 'in the line of duty' for LEOFF/PSERS purposes to match 'in the course of employment' under the industrial insurance title, makes LEOFF 2 disability-retirement denials issued before the effective date subject to department review for line-of-duty status, and requires an occupational assessment whenever a disability denial rests on capacity for employment.",
+    "cites": "new section (Sec. 14); chapter 41.26 RCW; chapter 41.37 RCW; Title 51 RCW"
+   },
+   {
+    "kind": "purchasing-window",
+    "detail": "Amends the DRS expense-fund statute to exclude the department's administrative fee and any employer unfunded-liability charge from the calculation of employer contributions charged to a member when purchasing service credit.",
+    "cites": "RCW 41.50.110 (Sec. 15)"
+   },
+   {
+    "kind": "other",
+    "detail": "Sets a minimum 90-day notice-of-appeal deadline for DRS decisions, requires at least a 90-day toll when DRS requests supporting information, and allows refiling of any claim previously dismissed for untimely appeal after such an information request.",
+    "cites": "new section (Sec. 16)"
+   },
+   {
+    "kind": "survivor-disability",
+    "detail": "Treats survivor-election change requests made between June 11, 2020 and the date IRS approval is received as timely, with any resulting benefit change effective only prospectively upon federal approval.",
+    "cites": "RCW 41.40.660 (Sec. 17)"
+   },
+   {
+    "kind": "other",
+    "detail": "Expands the LEOFF plan 2 'basic salary' definition to include holiday payments (in addition to overtime already counted) and sick or vacation leave used by the member, increasing the compensation base used to calculate final average salary and benefits; also corrects a cross-reference to RCW 18.73.030's renumbered subsection.",
+    "cites": "RCW 41.26.030(4)(b), (17)(h) (Sec. 18)"
+   }
+  ],
+  "whoAffected": "DRS-administered system retirees and members generally gain an ombuds/appeal-rights channel; LEOFF plan 2 members and disability applicants (including those previously denied) gain expanded compensation counting and a retroactive disability-review right; PERS plan 1 members with pre-1998 survivor elections and post-2020 election-change requesters gain a curative timeliness fix; employers bear the ombuds funding cost through DRS expense-fund and HCA account charges.",
+  "flags": [
+   "retroactive",
+   "narrow-carve-out"
+  ],
+  "pointsOfInterest": [
+   "Creates a standing governance body (the ombuds office) with confidentiality, immunity, and subpoena-adjacent investigatory features, funded entirely through system expense-fund and HCA administrative-account rate charges rather than a general fund appropriation - a durable cost embedded in employer billing rates rather than a one-time budget item.",
+   "Section 14 reopens LEOFF 2 disability denials issued before the bill's effective date for line-of-duty redetermination, and Section 16 lets previously dismissed appeals be refiled - both create open-ended retroactive liability and reprocessing exposure with no cost estimate or funding offset stated in the bill text itself.",
+   "Section 18's expansion of LEOFF 2 'basic salary' to include holiday pay and used sick/vacation leave raises the compensation base used for final average salary, a modest but real spiking-adjacent cost shift onto the plan since it increases benefit levels without an offsetting contribution-rate change in the bill.",
+   "Section 15 shifts a cost away from members purchasing service credit (excluding DRS admin fee and employer UAL charge from the purchase price) - a narrow but precedent-setting exclusion that could invite requests to exclude other administrative surcharges elsewhere in the DRS fee structure."
+  ],
+  "bill": "2023-24/Senate/5625"
+ },
+ {
+  "oneLine": "SB 5881 amends RCW 41.40.023 to add a new PERS membership exclusion for part-time bus drivers serving naval shipyards for a public transportation benefit area who are hired on or after the effective date and simultaneously work full-time for the federal government under FERS.",
+  "provisions": [
+   {
+    "kind": "eligibility",
+    "detail": "Adds new subsection (23) excluding from PERS membership persons hired on or after the effective date who are employed by a public transportation benefit area (per RCW 36.57A.010) as part-time bus drivers serving naval shipyards, if simultaneously employed full-time by the federal government and contributing to the federal employees' retirement system.",
+    "cites": "RCW 41.40.023(23)"
+   },
+   {
+    "kind": "tax-technical",
+    "detail": "Splits the strike-through reference to the 'volunteer firefighters' and reserve officers' relief and pension principal fund' into two separately named funds (the firefighters' fund and the reserve officers' fund) to conform subsection (4)(c) to a 2023 statutory fund split.",
+    "cites": "RCW 41.40.023(4)(c); conforms to 2023 c 73 s 6 amending RCW 41.24.030"
+   },
+   {
+    "kind": "other",
+    "detail": "Updates the reference to the liquor control board to the liquor and cannabis board in subsection (10), a technical rename already reflected in 2015 c 70 s 3.",
+    "cites": "RCW 41.40.023(10)"
+   },
+   {
+    "kind": "other",
+    "detail": "Replaces the trailing conjunction after subsection (21) and adds 'and' after subsection (22) to grammatically accommodate the new subsection (23).",
+    "cites": "RCW 41.40.023(21), (22)"
+   }
+  ],
+  "whoAffected": "A narrow class of newly hired part-time transit bus drivers who serve naval shipyard routes for a public transportation benefit area while also working full-time federal jobs under FERS; they are excluded from PERS membership, while current employees in that role before the effective date are unaffected.",
+  "flags": [
+   "narrow-carve-out"
+  ],
+  "pointsOfInterest": [
+   "The carve-out is defined by an unusually specific fact pattern (part-time PTBA bus driver, naval shipyard routes, simultaneous full-time federal employment under FERS) rather than by job classification alone, suggesting it targets a known, small, identifiable group of workers (likely near a specific shipyard such as PSNS in Bremerton) rather than a general policy class.",
+   "The exclusion is prospective only ('hired on or after the effective date'), so it avoids disrupting existing members' accrued PERS service, but it also means current dual-employed drivers keep dual coverage indefinitely while new hires cannot, creating a two-tier workforce doing the same job.",
+   "The policy rationale mirrors the existing portability logic in the 1999 c 286 intent note appended to this same RCW section (avoiding low-value PERS membership for workers whose real retirement value lies in a more portable federal system), extending that reasoning from elected or mobile officials to a specific transit labor pool.",
+   "The bill piggybacks two unrelated technical reviser-note corrections (the 2023 volunteer firefighters'/reserve officers' fund split and the liquor-to-cannabis board rename) onto the same section being reopened for the substantive change, a common but easy-to-miss pattern when scanning for the bill's actual policy content."
+  ],
+  "bill": "2023-24/Senate/5881"
+ },
+ {
+  "oneLine": "SB 6000 replaces the \"period of war\" test with a campaign, expeditionary, or service medal/badge test for no-cost interruptive military service credit across LEOFF 2, PERS, PSERS, SERS, TRS, and WSPRS, and applies the expanded eligibility retroactively, requiring DRS to recalculate benefits and contributions for members who already retired.",
+  "provisions": [
+   {
+    "kind": "eligibility",
+    "detail": "Replaces the requirement that interruptive military service occur \"during a period of war as defined in RCW 41.04.005\" with a requirement that the member was awarded a campaign, expeditionary, or service badge or medal, as the alternate (no member-contribution) path to up to five years of free service credit for the member, for a deceased member's survivors, and for a disabled member.",
+    "cites": "RCW 41.26.520(7)(a)(iv), (d)(iv), (e)(iv)"
+   },
+   {
+    "kind": "eligibility",
+    "detail": "Same substitution of the medal/badge criterion for the period-of-war criterion governing no-cost interruptive military service credit for the member, surviving spouse/child, and totally incapacitated member.",
+    "cites": "RCW 41.32.810(6)(a)(iv), (d)(iv), (e)(iv)"
+   },
+   {
+    "kind": "eligibility",
+    "detail": "Same substitution of the medal/badge criterion for the period-of-war criterion governing no-cost interruptive military service credit for the member, surviving spouse/child, and totally incapacitated member.",
+    "cites": "RCW 41.35.470(4)(a)(iv), (d)(iv), (e)(iv)"
+   },
+   {
+    "kind": "eligibility",
+    "detail": "Same substitution of the medal/badge criterion for the period-of-war criterion governing no-cost interruptive military service credit for the member, surviving spouse/child, and totally incapacitated member.",
+    "cites": "RCW 41.37.260(4)(a)(iv), (d)(iv), (e)(iv)"
+   },
+   {
+    "kind": "eligibility",
+    "detail": "Same substitution of the medal/badge criterion for the period-of-war criterion governing no-cost interruptive military service credit for the member, surviving spouse/child, and totally incapacitated member.",
+    "cites": "RCW 41.40.710(4)(a)(iv), (d)(iv), (e)(iv)"
+   },
+   {
+    "kind": "eligibility",
+    "detail": "Same substitution of the medal/badge criterion for the period-of-war criterion governing no-cost interruptive military service credit, applied to the WSPRS provisions for members commissioned on or after January 1, 2003, their survivors, and disabled members; leaves intact the separate pre-2003-commission provision allowing up to five years of credited uniformed service without regard to whether the member left Patrol employment to serve.",
+    "cites": "RCW 43.43.260(3)(b)(i)(D), (iv)(D), (v)(D)"
+   },
+   {
+    "kind": "other",
+    "detail": "New uncodified section makes the expanded no-cost military service credit eligibility retroactive for all RCW 41.50.030 retirement systems and requires the department to recalculate retirement benefits and adjust contributions for members who retired before the act's effective date if they have eligible military service.",
+    "cites": "Section 7 (uncodified); references RCW 41.50.030"
+   }
+  ],
+  "whoAffected": "Members of LEOFF 2, PERS 2/3, PSERS 2, SERS 2/3, TRS 2/3, and WSPRS (post-2003-commission) who performed interruptive military service and hold a campaign, expeditionary, or service medal but did not serve during a formally defined \"period of war\" gain no-cost service credit eligibility, as do their surviving spouses/domestic partners/children and members who became totally incapacitated during such service; already-retired members with qualifying service gain retroactive benefit recalculation.",
+  "flags": [
+   "retroactive",
+   "narrow-carve-out"
+  ],
+  "pointsOfInterest": [
+   "Section 7 requires DRS to retroactively recalculate benefits and adjust contributions for members who already retired, an unusual and administratively heavy remedy for a pension bill that implies the department must identify and reprocess an unknown population of past retirements.",
+   "Swapping the \"period of war\" test (tied to statutorily enumerated war periods under RCW 41.04.005) for a medal/badge test is more easily documented via DD-214 but likely expands the eligible population to campaigns and operations never designated a \"period of war\" (e.g., certain peacetime deployments and campaign medals), broadening the no-cost credit pool without a corresponding member contribution.",
+   "Because the credit is \"no-cost\" to the member once medal/badge proof is furnished, the fiscal exposure lands on the employer and state contribution side (the department bills the employer/state under each system's funding statutes), so the eligibility expansion is a cost shift to employers/the state rather than a member-funded benefit.",
+   "The amendment is executed nearly word-for-word across six separate chapters/systems (LEOFF 2, TRS, SERS, PSERS, PERS, WSPRS), which is efficient drafting but means any actuarial or drafting error in the template propagates across all six systems simultaneously; the WSPRS section also preserves a distinct, older, narrower carve-out for members commissioned before January 1, 2003."
+  ],
+  "bill": "2023-24/Senate/6000"
+ },
+ {
+  "oneLine": "SSB 5871 replaces Washington's honorable-discharge standard with a broader \"qualifying discharge\" definition across roughly 30 veteran-benefit statutes (tuition, hiring credit, licensing, bar admission, veterans' home admission, tax exemptions), but leaves the PERS and legacy firefighters'/police pension military-service-credit-purchase statutes on the old honorable-discharge/period-of-war standard.",
+  "provisions": [
+   {
+    "kind": "membership",
+    "detail": "Redefines \"veteran\" for purposes of RCW 41.16.220, 41.20.050, and 41.40.170 by replacing the honorable-discharge requirement with the new \"qualifying discharge\" standard.",
+    "cites": "RCW 41.04.005"
+   },
+   {
+    "kind": "membership",
+    "detail": "Redefines the general-purpose \"veteran\" status (used for hiring credit, tuition, licensing, and dozens of other statutes) to substitute \"qualifying discharge\" for \"honorable discharge.\"",
+    "cites": "RCW 41.04.007"
+   },
+   {
+    "kind": "membership",
+    "detail": "Creates a new statewide \"qualifying discharge\" standard covering honorable, general-under-honorable, and other-than-honorable discharges tied to VA benefit eligibility, plus any discharge characterization resulting from sexual orientation, gender identity, or gender expression.",
+    "cites": "new section, chapter 73.04 RCW"
+   },
+   {
+    "kind": "other",
+    "detail": "Directs the department of veterans affairs to run an outreach program explaining the act's eligibility changes, beginning on the section's effective date.",
+    "cites": "new section, chapter 43.60A RCW"
+   },
+   {
+    "kind": "eligibility",
+    "detail": "Ties WWII-era veteran bar-admission eligibility to the RCW 41.04.007 veteran definition instead of an honorable/other-than-dishonorable service standard.",
+    "cites": "RCW 2.48.070, 2.48.090"
+   },
+   {
+    "kind": "other",
+    "detail": "Repeals the disability-discharge bar-admission provision, superseded by the new qualifying-discharge standard.",
+    "cites": "RCW 2.48.100 (repealed)"
+   },
+   {
+    "kind": "eligibility",
+    "detail": "Extends the post-discharge gambling-license renewal grace period to any qualifying discharge rather than only an honorable discharge.",
+    "cites": "RCW 9.46.070"
+   },
+   {
+    "kind": "eligibility",
+    "detail": "Allows discretionary high school diplomas for wartime-service veterans using the qualifying-discharge standard instead of \"honorably discharged member.\"",
+    "cites": "RCW 28A.230.120"
+   },
+   {
+    "kind": "eligibility",
+    "detail": "Substitutes qualifying discharge for honorable service in the 10-year-service resident-tuition classification, cross-references the new LGBTQ-discharge carve-out, and explicitly excludes bad conduct discharge and officer dismissal (along with dishonorable discharge) from residency eligibility.",
+    "cites": "RCW 28B.15.012"
+   },
+   {
+    "kind": "eligibility",
+    "detail": "Redefines \"eligible veteran or national guard member\" for tuition waivers and textbook stipends using the qualifying-discharge standard.",
+    "cites": "RCW 28B.15.621"
+   },
+   {
+    "kind": "eligibility",
+    "detail": "Applies the qualifying-discharge standard to the teacher conditional-scholarship/loan-repayment program's veteran definition.",
+    "cites": "RCW 28B.102.020"
+   },
+   {
+    "kind": "eligibility",
+    "detail": "Ties the veterans' hiring and promotional examination scoring credit to qualifying discharge rather than honorable discharge.",
+    "cites": "RCW 41.04.010"
+   },
+   {
+    "kind": "eligibility",
+    "detail": "Substitutes qualifying discharge for the prior honorable/not-undesirable-bad-conduct-dishonorable test in the state civil service veterans' layoff-and-seniority credit rule (up to five years added to unbroken state service).",
+    "cites": "RCW 41.06.133"
+   },
+   {
+    "kind": "eligibility",
+    "detail": "Extends the fire and police civil-service commissions' entrance-examination military credit (keyed to RCW 41.04.010) to any qualifying discharge.",
+    "cites": "RCW 41.08.040, 41.12.040"
+   },
+   {
+    "kind": "service-credit",
+    "detail": "Clarifies that firefighters' relief-and-pension credit for wartime military service (up to five years, purchased by member contribution) requires an honorably discharged veteran or an honorable physical-reasons discharge, and explicit service \"during a period of war\" -- retaining the pre-bill honorable-discharge standard rather than the act's new qualifying-discharge definition.",
+    "cites": "RCW 41.16.220"
+   },
+   {
+    "kind": "service-credit",
+    "detail": "Applies the same honorable-discharge-plus-period-of-war standard (not the new qualifying-discharge definition) to police relief-and-pension credit for wartime military service, purchasable up to five years by member contribution.",
+    "cites": "RCW 41.20.050"
+   },
+   {
+    "kind": "service-credit",
+    "detail": "Adds an explicit \"period of war\" requirement (RCW 41.04.005) to PERS military-leave service-credit purchases, extends eligibility to honorable physical-reasons discharges, and corrects an erroneous cross-reference from RCW 41.40.005 to RCW 41.04.005 governing service credit for members who become retirement-eligible while still serving; survivor and total-incapacitation service-credit provisions continue to require proof of honorable service/discharge and are not updated to the new qualifying-discharge standard.",
+    "cites": "RCW 41.40.170"
+   },
+   {
+    "kind": "eligibility",
+    "detail": "Extends the professional-license moratorium and post-discharge renewal grace period (director of licensing, and secretary of health) to any qualifying discharge.",
+    "cites": "RCW 43.24.130, 43.70.270"
+   },
+   {
+    "kind": "eligibility",
+    "detail": "Ties the certified veteran-owned business ownership test to the RCW 41.04.007 veteran definition rather than a separately-stated honorable/medical-honorable standard.",
+    "cites": "RCW 43.60A.190"
+   },
+   {
+    "kind": "eligibility",
+    "detail": "Redefines armed forces, Pearl Harbor, Purple Heart, and veterans/military emblem license-plate eligibility, and driver's-license veteran designation, around the qualifying-discharge standard, with the license-plate provisions delayed to an April 1, 2025 effective date and the current armed-forces-plate section expiring the same date.",
+    "cites": "RCW 46.18.210, 46.18.270, 46.18.280, 46.18.295, 46.20.027, 46.20.161"
+   },
+   {
+    "kind": "eligibility",
+    "detail": "Broadens state veterans' home admission from \"honorably discharged\" veterans of the armed forces to veterans meeting RCW 41.04.007's discharge requirements or otherwise eligible for VA medical care, and widens the covered branch definition from \"armed forces\" to \"uniformed services.\"",
+    "cites": "RCW 72.36.030"
+   },
+   {
+    "kind": "other",
+    "detail": "Repeals an obsolete 1919/1923 statute recording honorable discharges for Spanish-American War and World War I veterans.",
+    "cites": "RCW 73.04.042 (repealed)"
+   },
+   {
+    "kind": "eligibility",
+    "detail": "Substitutes qualifying discharge for honorable discharge across the county veterans'-assistance-fund veteran definition's several subcategories.",
+    "cites": "RCW 73.08.005"
+   },
+   {
+    "kind": "eligibility",
+    "detail": "Changes the veteran-employment campaign's \"veteran\" definition from \"honorably discharged\" to the RCW 41.04.007 definition, and similarly updates reduced-rate hunting/fishing license eligibility for disabled veterans.",
+    "cites": "RCW 73.16.120, 77.32.480"
+   },
+   {
+    "kind": "tax-technical",
+    "detail": "Removes the requirement that a deceased veteran's DD-214 show \"honorable conditions\" for a surviving spouse's property-tax exemption claim, substituting proof of qualification under RCW 41.04.005 with added documentation paths for other-than-honorable decedents, and exempts the act from standard tax-preference automatic-expiration/JLARC review requirements.",
+    "cites": "RCW 84.39.020, 82.32.805, 82.32.808"
+   }
+  ],
+  "whoAffected": "Washington veterans with other-than-honorable or general discharges -- particularly those discharged due to sexual orientation, gender identity, or gender expression, or otherwise eligible for VA monetary benefits -- gain broad state veteran-benefit eligibility, except that PERS and the legacy firefighters'/police pension military-service-credit-purchase statutes (RCW 41.16.220, 41.20.050, 41.40.170) retain the pre-bill honorable-discharge/period-of-war standard and are not extended to this newly eligible population.",
+  "flags": [
+   "contingent-effective-date",
+   "narrow-carve-out",
+   "repeals-sections"
+  ],
+  "pointsOfInterest": [
+   "The bill's stated purpose is to align state veteran benefits with federal VA eligibility and to remedy discriminatory discharges, but the three military-service-credit-purchase pension statutes (RCW 41.16.220 firefighters, RCW 41.20.050 police, RCW 41.40.170 PERS) are conspicuously not updated to the new \"qualifying discharge\" definition -- they keep \"honorably discharged\" (plus a narrow physical-discharge exception) and, for PERS, add an explicit \"period of war\" test. LGBTQ-discharged and OTH veterans become eligible for tuition, hiring credit, license renewal, and bar admission under the new standard, but not for purchasing military service credit in these three retirement systems.",
+   "Section 20(4)(b) fixes a longstanding scrivener's-type cross-reference error (RCW 41.40.005 corrected to RCW 41.04.005) in the PERS military-service-credit statute -- a pure technical correction bundled into an otherwise substantive bill.",
+   "Service-credit purchase under the three pension statutes remains member-funded (restoration of withdrawn contributions or payment of the contribution rate for the credited period), so there is no direct employer or state cost-shift from this bill; the effect is instead a mismatch between who counts as a \"veteran\" for general benefit administration and who can buy military service credit toward a pension.",
+   "The only hard contingent effective date in the bill (Secs. 37-38) applies to license-plate provisions, which take effect and cause the prior armed-forces-plate section to expire on the same date, April 1, 2025 -- creating a brief window where DOL's plate-eligibility standard lags every other agency's qualifying-discharge standard under the act."
+  ],
+  "bill": "2023-24/Senate/5871"
+ }
+]

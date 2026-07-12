@@ -1,10 +1,12 @@
 # bills/texts/
 
-Full bill texts, House and Senate, HTM and XML, for the eleven biennia
-2005-06 through 2025-26: 116,207 files, verified byte-exact against the
-server's directory listings. Fetched from the Legislature's static file
-server (`lawfilesext.leg.wa.gov/Biennium/<biennium>/<Htm|Xml>/Bills/`)
-on 2026-07-11. Layout mirrors the source:
+Full bill texts, House and Senate, for the thirteen biennia 2001-02
+through 2025-26: 133,160 files, verified byte-exact against the
+server's directory listings. HTM for all thirteen; XML from 2003-04
+forward (the server's XML archive starts there, so 2001-02 is HTM
+only). Fetched from the Legislature's static file server
+(`lawfilesext.leg.wa.gov/Biennium/<biennium>/<Htm|Xml>/Bills/`)
+on 2026-07-11 and 2026-07-12. Layout mirrors the source:
 
 ```
 texts/<biennium>/<Htm|Xml>/<House|Senate>/<file>
@@ -21,10 +23,8 @@ size is complete. `fetch-texts.py` populates the tree from the manifest;
 it is resumable and safe to rerun (skips complete files, retries the
 rest).
 
-The manifest also covers 2003-04 (HTM and XML) and 2001-02 (HTM only;
-the server's XML archive starts at 2003-04): 16,953 files, 478 MB, not
-yet fetched. Running `fetch-texts.py` pulls exactly that remainder.
-1999-00 HTM exists on the server but is outside the manifest.
+1999-00 HTM exists on the server but is outside the manifest and not
+imported.
 
 This import is the deliberate exception to the repo's `*.htm`/`*.xml`
 gitignore guard; see the carve-out in `.gitignore`.

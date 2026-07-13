@@ -1,0 +1,3596 @@
+{
+ "@context": "http://www.w3.org/ns/anno.jsonld",
+ "source": {
+  "xml": "bills/texts/2023-24/Xml/House/1003-S.xml",
+  "markdown": "bill.md",
+  "normalization": "UTF-8, LF, offsets count raw bill.md characters"
+ },
+ "items": [
+  {
+   "id": "prov-sec-1",
+   "motivation": "provenance",
+   "body": {
+    "type": "source-provenance",
+    "sourceElement": "BillSection[1]",
+    "sectionType": "new",
+    "sectionAction": null
+   },
+   "target": {
+    "source": "bill.md",
+    "selector": [
+     {
+      "type": "TextPositionSelector",
+      "start": 1056,
+      "end": 2599
+     },
+     {
+      "type": "SectionSelector",
+      "section": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "prov-sec-2",
+   "motivation": "provenance",
+   "body": {
+    "type": "source-provenance",
+    "sourceElement": "BillSection[2]",
+    "sectionType": "new",
+    "sectionAction": "addsect"
+   },
+   "target": {
+    "source": "bill.md",
+    "selector": [
+     {
+      "type": "TextPositionSelector",
+      "start": 2599,
+      "end": 5878
+     },
+     {
+      "type": "SectionSelector",
+      "section": 2
+     }
+    ]
+   }
+  },
+  {
+   "id": "prov-sec-3",
+   "motivation": "provenance",
+   "body": {
+    "type": "source-provenance",
+    "sourceElement": "BillSection[3]",
+    "sectionType": "new",
+    "sectionAction": "addsect"
+   },
+   "target": {
+    "source": "bill.md",
+    "selector": [
+     {
+      "type": "TextPositionSelector",
+      "start": 5878,
+      "end": 6425
+     },
+     {
+      "type": "SectionSelector",
+      "section": 3
+     }
+    ]
+   }
+  },
+  {
+   "id": "prov-sec-4",
+   "motivation": "provenance",
+   "body": {
+    "type": "source-provenance",
+    "sourceElement": "BillSection[4]",
+    "sectionType": "new",
+    "sectionAction": "addsect"
+   },
+   "target": {
+    "source": "bill.md",
+    "selector": [
+     {
+      "type": "TextPositionSelector",
+      "start": 6425,
+      "end": 7463
+     },
+     {
+      "type": "SectionSelector",
+      "section": 4
+     }
+    ]
+   }
+  },
+  {
+   "id": "prov-sec-5",
+   "motivation": "provenance",
+   "body": {
+    "type": "source-provenance",
+    "sourceElement": "BillSection[5]",
+    "sectionType": "amendatory",
+    "sectionAction": "amend"
+   },
+   "target": {
+    "source": "bill.md",
+    "selector": [
+     {
+      "type": "TextPositionSelector",
+      "start": 7463,
+      "end": 14220
+     },
+     {
+      "type": "SectionSelector",
+      "section": 5
+     }
+    ]
+   }
+  },
+  {
+   "id": "prov-sec-6",
+   "motivation": "provenance",
+   "body": {
+    "type": "source-provenance",
+    "sourceElement": "BillSection[6]",
+    "sectionType": "new",
+    "sectionAction": "addsect"
+   },
+   "target": {
+    "source": "bill.md",
+    "selector": [
+     {
+      "type": "TextPositionSelector",
+      "start": 14220,
+      "end": 17906
+     },
+     {
+      "type": "SectionSelector",
+      "section": 6
+     }
+    ]
+   }
+  },
+  {
+   "id": "prov-sec-7",
+   "motivation": "provenance",
+   "body": {
+    "type": "source-provenance",
+    "sourceElement": "BillSection[7]",
+    "sectionType": "new",
+    "sectionAction": "addsect"
+   },
+   "target": {
+    "source": "bill.md",
+    "selector": [
+     {
+      "type": "TextPositionSelector",
+      "start": 17906,
+      "end": 19575
+     },
+     {
+      "type": "SectionSelector",
+      "section": 7
+     }
+    ]
+   }
+  },
+  {
+   "id": "prov-sec-8",
+   "motivation": "provenance",
+   "body": {
+    "type": "source-provenance",
+    "sourceElement": "BillSection[8]",
+    "sectionType": "amendatory",
+    "sectionAction": "remd"
+   },
+   "target": {
+    "source": "bill.md",
+    "selector": [
+     {
+      "type": "TextPositionSelector",
+      "start": 19575,
+      "end": 29446
+     },
+     {
+      "type": "SectionSelector",
+      "section": 8
+     }
+    ]
+   }
+  },
+  {
+   "id": "prov-sec-9",
+   "motivation": "provenance",
+   "body": {
+    "type": "source-provenance",
+    "sourceElement": "BillSection[9]",
+    "sectionType": "amendatory",
+    "sectionAction": "amend"
+   },
+   "target": {
+    "source": "bill.md",
+    "selector": [
+     {
+      "type": "TextPositionSelector",
+      "start": 29446,
+      "end": 30272
+     },
+     {
+      "type": "SectionSelector",
+      "section": 9
+     }
+    ]
+   }
+  },
+  {
+   "id": "prov-sec-10",
+   "motivation": "provenance",
+   "body": {
+    "type": "source-provenance",
+    "sourceElement": "BillSection[10]",
+    "sectionType": "amendatory",
+    "sectionAction": "amend"
+   },
+   "target": {
+    "source": "bill.md",
+    "selector": [
+     {
+      "type": "TextPositionSelector",
+      "start": 30272,
+      "end": 30731
+     },
+     {
+      "type": "SectionSelector",
+      "section": 10
+     }
+    ]
+   }
+  },
+  {
+   "id": "prov-sec-11",
+   "motivation": "provenance",
+   "body": {
+    "type": "source-provenance",
+    "sourceElement": "BillSection[11]",
+    "sectionType": "amendatory",
+    "sectionAction": "amend"
+   },
+   "target": {
+    "source": "bill.md",
+    "selector": [
+     {
+      "type": "TextPositionSelector",
+      "start": 30731,
+      "end": 41303
+     },
+     {
+      "type": "SectionSelector",
+      "section": 11
+     }
+    ]
+   }
+  },
+  {
+   "id": "prov-sec-12",
+   "motivation": "provenance",
+   "body": {
+    "type": "source-provenance",
+    "sourceElement": "BillSection[12]",
+    "sectionType": "new",
+    "sectionAction": "addsect"
+   },
+   "target": {
+    "source": "bill.md",
+    "selector": [
+     {
+      "type": "TextPositionSelector",
+      "start": 41303,
+      "end": 41796
+     },
+     {
+      "type": "SectionSelector",
+      "section": 12
+     }
+    ]
+   }
+  },
+  {
+   "id": "prov-sec-13",
+   "motivation": "provenance",
+   "body": {
+    "type": "source-provenance",
+    "sourceElement": "BillSection[13]",
+    "sectionType": "new",
+    "sectionAction": "repeal"
+   },
+   "target": {
+    "source": "bill.md",
+    "selector": [
+     {
+      "type": "TextPositionSelector",
+      "start": 41796,
+      "end": 42519
+     },
+     {
+      "type": "SectionSelector",
+      "section": 13
+     }
+    ]
+   }
+  },
+  {
+   "id": "rcw-1",
+   "motivation": "identifying",
+   "body": {
+    "type": "statutory-citation",
+    "cite": "28A.600.287",
+    "status": "current"
+   },
+   "target": {
+    "source": "bill.md",
+    "selector": [
+     {
+      "type": "TextPositionSelector",
+      "start": 657,
+      "end": 668
+     },
+     {
+      "type": "TextQuoteSelector",
+      "exact": "28A.600.287",
+      "prefix": "ng access to dual credit programs; amending RCW ",
+      "suffix": ", 28A.600.390, 28A.600.400, and 28B.92.030; reen"
+     }
+    ]
+   },
+   "generatedBy": {
+    "type": "RegexRule",
+    "id": "rcw-cite-rule",
+    "version": "1.0",
+    "pattern": "\\b(\\d{1,2}[A-Za-z]?\\.\\d{1,3}[A-Za-z]?\\.\\d+[A-Za-z]?)\\b",
+    "note": "validated 100% recall vs 17,899 drafter hyperlinks, 2015-2026"
+   }
+  },
+  {
+   "id": "rcw-2",
+   "motivation": "identifying",
+   "body": {
+    "type": "statutory-citation",
+    "cite": "28A.600.390",
+    "status": "current"
+   },
+   "target": {
+    "source": "bill.md",
+    "selector": [
+     {
+      "type": "TextPositionSelector",
+      "start": 670,
+      "end": 681
+     },
+     {
+      "type": "TextQuoteSelector",
+      "exact": "28A.600.390",
+      "prefix": "dual credit programs; amending RCW 28A.600.287, ",
+      "suffix": ", 28A.600.400, and 28B.92.030; reenacting and am"
+     }
+    ]
+   },
+   "generatedBy": {
+    "type": "RegexRule",
+    "id": "rcw-cite-rule",
+    "version": "1.0",
+    "pattern": "\\b(\\d{1,2}[A-Za-z]?\\.\\d{1,3}[A-Za-z]?\\.\\d+[A-Za-z]?)\\b",
+    "note": "validated 100% recall vs 17,899 drafter hyperlinks, 2015-2026"
+   }
+  },
+  {
+   "id": "rcw-3",
+   "motivation": "identifying",
+   "body": {
+    "type": "statutory-citation",
+    "cite": "28A.600.400",
+    "status": "current"
+   },
+   "target": {
+    "source": "bill.md",
+    "selector": [
+     {
+      "type": "TextPositionSelector",
+      "start": 683,
+      "end": 694
+     },
+     {
+      "type": "TextQuoteSelector",
+      "exact": "28A.600.400",
+      "prefix": "rograms; amending RCW 28A.600.287, 28A.600.390, ",
+      "suffix": ", and 28B.92.030; reenacting and amending RCW 28"
+     }
+    ]
+   },
+   "generatedBy": {
+    "type": "RegexRule",
+    "id": "rcw-cite-rule",
+    "version": "1.0",
+    "pattern": "\\b(\\d{1,2}[A-Za-z]?\\.\\d{1,3}[A-Za-z]?\\.\\d+[A-Za-z]?)\\b",
+    "note": "validated 100% recall vs 17,899 drafter hyperlinks, 2015-2026"
+   }
+  },
+  {
+   "id": "rcw-4",
+   "motivation": "identifying",
+   "body": {
+    "type": "statutory-citation",
+    "cite": "28B.92.030",
+    "status": "current"
+   },
+   "target": {
+    "source": "bill.md",
+    "selector": [
+     {
+      "type": "TextPositionSelector",
+      "start": 700,
+      "end": 710
+     },
+     {
+      "type": "TextQuoteSelector",
+      "exact": "28B.92.030",
+      "prefix": " RCW 28A.600.287, 28A.600.390, 28A.600.400, and ",
+      "suffix": "; reenacting and amending RCW 28A.600.310; addin"
+     }
+    ]
+   },
+   "generatedBy": {
+    "type": "RegexRule",
+    "id": "rcw-cite-rule",
+    "version": "1.0",
+    "pattern": "\\b(\\d{1,2}[A-Za-z]?\\.\\d{1,3}[A-Za-z]?\\.\\d+[A-Za-z]?)\\b",
+    "note": "validated 100% recall vs 17,899 drafter hyperlinks, 2015-2026"
+   }
+  },
+  {
+   "id": "rcw-5",
+   "motivation": "identifying",
+   "body": {
+    "type": "statutory-citation",
+    "cite": "28A.600.310",
+    "status": "current"
+   },
+   "target": {
+    "source": "bill.md",
+    "selector": [
+     {
+      "type": "TextPositionSelector",
+      "start": 740,
+      "end": 751
+     },
+     {
+      "type": "TextQuoteSelector",
+      "exact": "28A.600.310",
+      "prefix": "00, and 28B.92.030; reenacting and amending RCW ",
+      "suffix": "; adding new sections to chapter 28A.600 RCW; ad"
+     }
+    ]
+   },
+   "generatedBy": {
+    "type": "RegexRule",
+    "id": "rcw-cite-rule",
+    "version": "1.0",
+    "pattern": "\\b(\\d{1,2}[A-Za-z]?\\.\\d{1,3}[A-Za-z]?\\.\\d+[A-Za-z]?)\\b",
+    "note": "validated 100% recall vs 17,899 drafter hyperlinks, 2015-2026"
+   }
+  },
+  {
+   "id": "rcw-6",
+   "motivation": "identifying",
+   "body": {
+    "type": "statutory-citation",
+    "cite": "28A.320.196",
+    "status": "current"
+   },
+   "target": {
+    "source": "bill.md",
+    "selector": [
+     {
+      "type": "TextPositionSelector",
+      "start": 927,
+      "end": 938
+     },
+     {
+      "type": "TextQuoteSelector",
+      "exact": "28A.320.196",
+      "prefix": " RCW; creating a new section; and repealing RCW ",
+      "suffix": ", 28A.600.290, 28B.76.730, 43.131.427, and 43.13"
+     }
+    ]
+   },
+   "generatedBy": {
+    "type": "RegexRule",
+    "id": "rcw-cite-rule",
+    "version": "1.0",
+    "pattern": "\\b(\\d{1,2}[A-Za-z]?\\.\\d{1,3}[A-Za-z]?\\.\\d+[A-Za-z]?)\\b",
+    "note": "validated 100% recall vs 17,899 drafter hyperlinks, 2015-2026"
+   }
+  },
+  {
+   "id": "rcw-7",
+   "motivation": "identifying",
+   "body": {
+    "type": "statutory-citation",
+    "cite": "28A.600.290",
+    "status": "historical"
+   },
+   "target": {
+    "source": "bill.md",
+    "selector": [
+     {
+      "type": "TextPositionSelector",
+      "start": 940,
+      "end": 951
+     },
+     {
+      "type": "TextQuoteSelector",
+      "exact": "28A.600.290",
+      "prefix": "g a new section; and repealing RCW 28A.320.196, ",
+      "suffix": ", 28B.76.730, 43.131.427, and 43.131.428.\n\nBE IT"
+     }
+    ]
+   },
+   "generatedBy": {
+    "type": "RegexRule",
+    "id": "rcw-cite-rule",
+    "version": "1.0",
+    "pattern": "\\b(\\d{1,2}[A-Za-z]?\\.\\d{1,3}[A-Za-z]?\\.\\d+[A-Za-z]?)\\b",
+    "note": "validated 100% recall vs 17,899 drafter hyperlinks, 2015-2026"
+   }
+  },
+  {
+   "id": "rcw-8",
+   "motivation": "identifying",
+   "body": {
+    "type": "statutory-citation",
+    "cite": "28B.76.730",
+    "status": "current"
+   },
+   "target": {
+    "source": "bill.md",
+    "selector": [
+     {
+      "type": "TextPositionSelector",
+      "start": 953,
+      "end": 963
+     },
+     {
+      "type": "TextQuoteSelector",
+      "exact": "28B.76.730",
+      "prefix": "on; and repealing RCW 28A.320.196, 28A.600.290, ",
+      "suffix": ", 43.131.427, and 43.131.428.\n\nBE IT ENACTED BY "
+     }
+    ]
+   },
+   "generatedBy": {
+    "type": "RegexRule",
+    "id": "rcw-cite-rule",
+    "version": "1.0",
+    "pattern": "\\b(\\d{1,2}[A-Za-z]?\\.\\d{1,3}[A-Za-z]?\\.\\d+[A-Za-z]?)\\b",
+    "note": "validated 100% recall vs 17,899 drafter hyperlinks, 2015-2026"
+   }
+  },
+  {
+   "id": "rcw-9",
+   "motivation": "identifying",
+   "body": {
+    "type": "statutory-citation",
+    "cite": "43.131.427",
+    "status": "current"
+   },
+   "target": {
+    "source": "bill.md",
+    "selector": [
+     {
+      "type": "TextPositionSelector",
+      "start": 965,
+      "end": 975
+     },
+     {
+      "type": "TextQuoteSelector",
+      "exact": "43.131.427",
+      "prefix": "aling RCW 28A.320.196, 28A.600.290, 28B.76.730, ",
+      "suffix": ", and 43.131.428.\n\nBE IT ENACTED BY THE LEGISLAT"
+     }
+    ]
+   },
+   "generatedBy": {
+    "type": "RegexRule",
+    "id": "rcw-cite-rule",
+    "version": "1.0",
+    "pattern": "\\b(\\d{1,2}[A-Za-z]?\\.\\d{1,3}[A-Za-z]?\\.\\d+[A-Za-z]?)\\b",
+    "note": "validated 100% recall vs 17,899 drafter hyperlinks, 2015-2026"
+   }
+  },
+  {
+   "id": "rcw-10",
+   "motivation": "identifying",
+   "body": {
+    "type": "statutory-citation",
+    "cite": "43.131.428",
+    "status": "current"
+   },
+   "target": {
+    "source": "bill.md",
+    "selector": [
+     {
+      "type": "TextPositionSelector",
+      "start": 981,
+      "end": 991
+     },
+     {
+      "type": "TextQuoteSelector",
+      "exact": "43.131.428",
+      "prefix": "0.196, 28A.600.290, 28B.76.730, 43.131.427, and ",
+      "suffix": ".\n\nBE IT ENACTED BY THE LEGISLATURE OF THE STATE"
+     }
+    ]
+   },
+   "generatedBy": {
+    "type": "RegexRule",
+    "id": "rcw-cite-rule",
+    "version": "1.0",
+    "pattern": "\\b(\\d{1,2}[A-Za-z]?\\.\\d{1,3}[A-Za-z]?\\.\\d+[A-Za-z]?)\\b",
+    "note": "validated 100% recall vs 17,899 drafter hyperlinks, 2015-2026"
+   }
+  },
+  {
+   "id": "rcw-11",
+   "motivation": "identifying",
+   "body": {
+    "type": "statutory-citation",
+    "cite": "28A.600.310",
+    "status": "current"
+   },
+   "target": {
+    "source": "bill.md",
+    "selector": [
+     {
+      "type": "TextPositionSelector",
+      "start": 3141,
+      "end": 3152
+     },
+     {
+      "type": "TextQuoteSelector",
+      "exact": "28A.600.310",
+      "prefix": "y the institution of higher education under RCW ",
+      "suffix": "; and\n\n(ii) Textbooks and other course materials"
+     },
+     {
+      "type": "SectionSelector",
+      "section": 2,
+      "markers": "(i)"
+     }
+    ]
+   },
+   "generatedBy": {
+    "type": "RegexRule",
+    "id": "rcw-cite-rule",
+    "version": "1.0",
+    "pattern": "\\b(\\d{1,2}[A-Za-z]?\\.\\d{1,3}[A-Za-z]?\\.\\d+[A-Za-z]?)\\b",
+    "note": "validated 100% recall vs 17,899 drafter hyperlinks, 2015-2026"
+   }
+  },
+  {
+   "id": "rcw-12",
+   "motivation": "identifying",
+   "body": {
+    "type": "statutory-citation",
+    "cite": "28A.600.300",
+    "status": "current"
+   },
+   "target": {
+    "source": "bill.md",
+    "selector": [
+     {
+      "type": "TextPositionSelector",
+      "start": 3760,
+      "end": 3771
+     },
+     {
+      "type": "TextQuoteSelector",
+      "exact": "28A.600.300",
+      "prefix": "igher education\" has the same meaning as in RCW ",
+      "suffix": ".\n\n(3) For eligible students enrolled in college"
+     },
+     {
+      "type": "SectionSelector",
+      "section": 2,
+      "markers": "(c)"
+     }
+    ]
+   },
+   "generatedBy": {
+    "type": "RegexRule",
+    "id": "rcw-cite-rule",
+    "version": "1.0",
+    "pattern": "\\b(\\d{1,2}[A-Za-z]?\\.\\d{1,3}[A-Za-z]?\\.\\d+[A-Za-z]?)\\b",
+    "note": "validated 100% recall vs 17,899 drafter hyperlinks, 2015-2026"
+   }
+  },
+  {
+   "id": "rcw-13",
+   "motivation": "identifying",
+   "body": {
+    "type": "statutory-citation",
+    "cite": "28A.600.287",
+    "status": "current"
+   },
+   "target": {
+    "source": "bill.md",
+    "selector": [
+     {
+      "type": "TextPositionSelector",
+      "start": 3916,
+      "end": 3927
+     },
+     {
+      "type": "TextQuoteSelector",
+      "exact": "28A.600.287",
+      "prefix": "must subsidize tuition fees permitted under RCW ",
+      "suffix": ".\n\n(4) For eligible students enrolled in career "
+     },
+     {
+      "type": "SectionSelector",
+      "section": 2,
+      "markers": "(3)"
+     }
+    ]
+   },
+   "generatedBy": {
+    "type": "RegexRule",
+    "id": "rcw-cite-rule",
+    "version": "1.0",
+    "pattern": "\\b(\\d{1,2}[A-Za-z]?\\.\\d{1,3}[A-Za-z]?\\.\\d+[A-Za-z]?)\\b",
+    "note": "validated 100% recall vs 17,899 drafter hyperlinks, 2015-2026"
+   }
+  },
+  {
+   "id": "rcw-14",
+   "motivation": "identifying",
+   "body": {
+    "type": "statutory-citation",
+    "cite": "28A.600.310",
+    "status": "current"
+   },
+   "target": {
+    "source": "bill.md",
+    "selector": [
+     {
+      "type": "TextPositionSelector",
+      "start": 4571,
+      "end": 4582
+     },
+     {
+      "type": "TextQuoteSelector",
+      "exact": "28A.600.310",
+      "prefix": "ers for running start program courses under RCW ",
+      "suffix": ".\n\n(7) The office of the superintendent of publi"
+     },
+     {
+      "type": "SectionSelector",
+      "section": 2,
+      "markers": "(6)"
+     }
+    ]
+   },
+   "generatedBy": {
+    "type": "RegexRule",
+    "id": "rcw-cite-rule",
+    "version": "1.0",
+    "pattern": "\\b(\\d{1,2}[A-Za-z]?\\.\\d{1,3}[A-Za-z]?\\.\\d+[A-Za-z]?)\\b",
+    "note": "validated 100% recall vs 17,899 drafter hyperlinks, 2015-2026"
+   }
+  },
+  {
+   "id": "rcw-15",
+   "motivation": "identifying",
+   "body": {
+    "type": "statutory-citation",
+    "cite": "28B.10.016",
+    "status": "current"
+   },
+   "target": {
+    "source": "bill.md",
+    "selector": [
+     {
+      "type": "TextPositionSelector",
+      "start": 5086,
+      "end": 5096
+     },
+     {
+      "type": "TextQuoteSelector",
+      "exact": "28B.10.016",
+      "prefix": "igher education\" has the same meaning as in RCW ",
+      "suffix": ", and also means a public tribal college located"
+     },
+     {
+      "type": "SectionSelector",
+      "section": 2,
+      "markers": "(a)"
+     }
+    ]
+   },
+   "generatedBy": {
+    "type": "RegexRule",
+    "id": "rcw-cite-rule",
+    "version": "1.0",
+    "pattern": "\\b(\\d{1,2}[A-Za-z]?\\.\\d{1,3}[A-Za-z]?\\.\\d+[A-Za-z]?)\\b",
+    "note": "validated 100% recall vs 17,899 drafter hyperlinks, 2015-2026"
+   }
+  },
+  {
+   "id": "rcw-16",
+   "motivation": "identifying",
+   "body": {
+    "type": "statutory-citation",
+    "cite": "28B.92.205",
+    "status": "current"
+   },
+   "target": {
+    "source": "bill.md",
+    "selector": [
+     {
+      "type": "TextPositionSelector",
+      "start": 5787,
+      "end": 5797
+     },
+     {
+      "type": "TextQuoteSelector",
+      "exact": "28B.92.205",
+      "prefix": " the maximum Washington college grant under RCW ",
+      "suffix": ", using the attestation form developed as requir"
+     },
+     {
+      "type": "SectionSelector",
+      "section": 2,
+      "markers": "(iii)"
+     }
+    ]
+   },
+   "generatedBy": {
+    "type": "RegexRule",
+    "id": "rcw-cite-rule",
+    "version": "1.0",
+    "pattern": "\\b(\\d{1,2}[A-Za-z]?\\.\\d{1,3}[A-Za-z]?\\.\\d+[A-Za-z]?)\\b",
+    "note": "validated 100% recall vs 17,899 drafter hyperlinks, 2015-2026"
+   }
+  },
+  {
+   "id": "rcw-17",
+   "motivation": "identifying",
+   "body": {
+    "type": "statutory-citation",
+    "cite": "28A.600.310",
+    "status": "current"
+   },
+   "target": {
+    "source": "bill.md",
+    "selector": [
+     {
+      "type": "TextPositionSelector",
+      "start": 6411,
+      "end": 6422
+     },
+     {
+      "type": "TextQuoteSelector",
+      "exact": "28A.600.310",
+      "prefix": "ers for running start program courses under RCW ",
+      "suffix": ".\n\n## Sec. 4. A new section is added to chapter "
+     },
+     {
+      "type": "SectionSelector",
+      "section": 3,
+      "markers": null
+     }
+    ]
+   },
+   "generatedBy": {
+    "type": "RegexRule",
+    "id": "rcw-cite-rule",
+    "version": "1.0",
+    "pattern": "\\b(\\d{1,2}[A-Za-z]?\\.\\d{1,3}[A-Za-z]?\\.\\d+[A-Za-z]?)\\b",
+    "note": "validated 100% recall vs 17,899 drafter hyperlinks, 2015-2026"
+   }
+  },
+  {
+   "id": "rcw-18",
+   "motivation": "identifying",
+   "body": {
+    "type": "statutory-citation",
+    "cite": "28A.320.195",
+    "status": "current"
+   },
+   "target": {
+    "source": "bill.md",
+    "selector": [
+     {
+      "type": "TextPositionSelector",
+      "start": 7328,
+      "end": 7339
+     },
+     {
+      "type": "TextQuoteSelector",
+      "exact": "28A.320.195",
+      "prefix": "ction with the notifications required under RCW ",
+      "suffix": ", 28A.600.287, and 28A.600.320.\n\n(3) As used in "
+     },
+     {
+      "type": "SectionSelector",
+      "section": 4,
+      "markers": "(2)"
+     }
+    ]
+   },
+   "generatedBy": {
+    "type": "RegexRule",
+    "id": "rcw-cite-rule",
+    "version": "1.0",
+    "pattern": "\\b(\\d{1,2}[A-Za-z]?\\.\\d{1,3}[A-Za-z]?\\.\\d+[A-Za-z]?)\\b",
+    "note": "validated 100% recall vs 17,899 drafter hyperlinks, 2015-2026"
+   }
+  },
+  {
+   "id": "rcw-19",
+   "motivation": "identifying",
+   "body": {
+    "type": "statutory-citation",
+    "cite": "28A.600.287",
+    "status": "current"
+   },
+   "target": {
+    "source": "bill.md",
+    "selector": [
+     {
+      "type": "TextPositionSelector",
+      "start": 7341,
+      "end": 7352
+     },
+     {
+      "type": "TextQuoteSelector",
+      "exact": "28A.600.287",
+      "prefix": "e notifications required under RCW 28A.320.195, ",
+      "suffix": ", and 28A.600.320.\n\n(3) As used in this section,"
+     },
+     {
+      "type": "SectionSelector",
+      "section": 4,
+      "markers": "(2)"
+     }
+    ]
+   },
+   "generatedBy": {
+    "type": "RegexRule",
+    "id": "rcw-cite-rule",
+    "version": "1.0",
+    "pattern": "\\b(\\d{1,2}[A-Za-z]?\\.\\d{1,3}[A-Za-z]?\\.\\d+[A-Za-z]?)\\b",
+    "note": "validated 100% recall vs 17,899 drafter hyperlinks, 2015-2026"
+   }
+  },
+  {
+   "id": "rcw-20",
+   "motivation": "identifying",
+   "body": {
+    "type": "statutory-citation",
+    "cite": "28A.600.320",
+    "status": "current"
+   },
+   "target": {
+    "source": "bill.md",
+    "selector": [
+     {
+      "type": "TextPositionSelector",
+      "start": 7358,
+      "end": 7369
+     },
+     {
+      "type": "TextQuoteSelector",
+      "exact": "28A.600.320",
+      "prefix": "equired under RCW 28A.320.195, 28A.600.287, and ",
+      "suffix": ".\n\n(3) As used in this section, \"public school\" "
+     },
+     {
+      "type": "SectionSelector",
+      "section": 4,
+      "markers": "(2)"
+     }
+    ]
+   },
+   "generatedBy": {
+    "type": "RegexRule",
+    "id": "rcw-cite-rule",
+    "version": "1.0",
+    "pattern": "\\b(\\d{1,2}[A-Za-z]?\\.\\d{1,3}[A-Za-z]?\\.\\d+[A-Za-z]?)\\b",
+    "note": "validated 100% recall vs 17,899 drafter hyperlinks, 2015-2026"
+   }
+  },
+  {
+   "id": "rcw-21",
+   "motivation": "identifying",
+   "body": {
+    "type": "statutory-citation",
+    "cite": "28A.150.010",
+    "status": "current"
+   },
+   "target": {
+    "source": "bill.md",
+    "selector": [
+     {
+      "type": "TextPositionSelector",
+      "start": 7449,
+      "end": 7460
+     },
+     {
+      "type": "TextQuoteSelector",
+      "exact": "28A.150.010",
+      "prefix": "\"public school\" has the same meaning as in RCW\u202f ",
+      "suffix": ".\n\n## Sec. 5. RCW 28A.600.287 and 2021 c 71 s 1 "
+     },
+     {
+      "type": "SectionSelector",
+      "section": 4,
+      "markers": "(3)"
+     }
+    ]
+   },
+   "generatedBy": {
+    "type": "RegexRule",
+    "id": "rcw-cite-rule",
+    "version": "1.0",
+    "pattern": "\\b(\\d{1,2}[A-Za-z]?\\.\\d{1,3}[A-Za-z]?\\.\\d+[A-Za-z]?)\\b",
+    "note": "validated 100% recall vs 17,899 drafter hyperlinks, 2015-2026"
+   }
+  },
+  {
+   "id": "rcw-22",
+   "motivation": "identifying",
+   "body": {
+    "type": "statutory-citation",
+    "cite": "28A.600.287",
+    "status": "current"
+   },
+   "target": {
+    "source": "bill.md",
+    "selector": [
+     {
+      "type": "TextPositionSelector",
+      "start": 7478,
+      "end": 7489
+     },
+     {
+      "type": "TextQuoteSelector",
+      "exact": "28A.600.287",
+      "prefix": "meaning as in RCW\u202f 28A.150.010.\n\n## Sec. 5. RCW ",
+      "suffix": " and 2021 c 71 s 1 are each amended to read as f"
+     },
+     {
+      "type": "SectionSelector",
+      "section": 5,
+      "markers": null
+     }
+    ]
+   },
+   "generatedBy": {
+    "type": "RegexRule",
+    "id": "rcw-cite-rule",
+    "version": "1.0",
+    "pattern": "\\b(\\d{1,2}[A-Za-z]?\\.\\d{1,3}[A-Za-z]?\\.\\d+[A-Za-z]?)\\b",
+    "note": "validated 100% recall vs 17,899 drafter hyperlinks, 2015-2026"
+   }
+  },
+  {
+   "id": "rcw-23",
+   "motivation": "identifying",
+   "body": {
+    "type": "statutory-citation",
+    "cite": "28B.10.035",
+    "status": "current"
+   },
+   "target": {
+    "source": "bill.md",
+    "selector": [
+     {
+      "type": "TextPositionSelector",
+      "start": 7931,
+      "end": 7941
+     },
+     {
+      "type": "TextQuoteSelector",
+      "exact": "28B.10.035",
+      "prefix": "must meet the accreditation requirements in RCW ",
+      "suffix": " and the requirements in this section.\n\n(2) A co"
+     },
+     {
+      "type": "SectionSelector",
+      "section": 5,
+      "markers": "(1)"
+     }
+    ]
+   },
+   "generatedBy": {
+    "type": "RegexRule",
+    "id": "rcw-cite-rule",
+    "version": "1.0",
+    "pattern": "\\b(\\d{1,2}[A-Za-z]?\\.\\d{1,3}[A-Za-z]?\\.\\d+[A-Za-z]?)\\b",
+    "note": "validated 100% recall vs 17,899 drafter hyperlinks, 2015-2026"
+   }
+  },
+  {
+   "id": "rcw-24",
+   "motivation": "identifying",
+   "body": {
+    "type": "statutory-citation",
+    "cite": "28A.150.010",
+    "status": "current"
+   },
+   "target": {
+    "source": "bill.md",
+    "selector": [
+     {
+      "type": "TextPositionSelector",
+      "start": 13641,
+      "end": 13652
+     },
+     {
+      "type": "TextQuoteSelector",
+      "exact": "28A.150.010",
+      "prefix": "chool\" means a public school, as defined in RCW ",
+      "suffix": ", that serves students in any of grades nine thr"
+     },
+     {
+      "type": "SectionSelector",
+      "section": 5,
+      "markers": "(b)"
+     }
+    ]
+   },
+   "generatedBy": {
+    "type": "RegexRule",
+    "id": "rcw-cite-rule",
+    "version": "1.0",
+    "pattern": "\\b(\\d{1,2}[A-Za-z]?\\.\\d{1,3}[A-Za-z]?\\.\\d+[A-Za-z]?)\\b",
+    "note": "validated 100% recall vs 17,899 drafter hyperlinks, 2015-2026"
+   }
+  },
+  {
+   "id": "rcw-25",
+   "motivation": "identifying",
+   "body": {
+    "type": "statutory-citation",
+    "cite": "28B.10.016",
+    "status": "current"
+   },
+   "target": {
+    "source": "bill.md",
+    "selector": [
+     {
+      "type": "TextPositionSelector",
+      "start": 13779,
+      "end": 13789
+     },
+     {
+      "type": "TextQuoteSelector",
+      "exact": "28B.10.016",
+      "prefix": "igher education\" has the same meaning as in RCW ",
+      "suffix": ", and also means a public tribal college located"
+     },
+     {
+      "type": "SectionSelector",
+      "section": 5,
+      "markers": "(c)"
+     }
+    ]
+   },
+   "generatedBy": {
+    "type": "RegexRule",
+    "id": "rcw-cite-rule",
+    "version": "1.0",
+    "pattern": "\\b(\\d{1,2}[A-Za-z]?\\.\\d{1,3}[A-Za-z]?\\.\\d+[A-Za-z]?)\\b",
+    "note": "validated 100% recall vs 17,899 drafter hyperlinks, 2015-2026"
+   }
+  },
+  {
+   "id": "rcw-26",
+   "motivation": "identifying",
+   "body": {
+    "type": "statutory-citation",
+    "cite": "28A.600.300",
+    "status": "current"
+   },
+   "target": {
+    "source": "bill.md",
+    "selector": [
+     {
+      "type": "TextPositionSelector",
+      "start": 14566,
+      "end": 14577
+     },
+     {
+      "type": "TextQuoteSelector",
+      "exact": "28A.600.300",
+      "prefix": "titutions of higher education identified in RCW ",
+      "suffix": "(2)(c), shall administer the running start summe"
+     },
+     {
+      "type": "SectionSelector",
+      "section": 6,
+      "markers": "(1)"
+     }
+    ]
+   },
+   "generatedBy": {
+    "type": "RegexRule",
+    "id": "rcw-cite-rule",
+    "version": "1.0",
+    "pattern": "\\b(\\d{1,2}[A-Za-z]?\\.\\d{1,3}[A-Za-z]?\\.\\d+[A-Za-z]?)\\b",
+    "note": "validated 100% recall vs 17,899 drafter hyperlinks, 2015-2026"
+   }
+  },
+  {
+   "id": "rcw-27",
+   "motivation": "identifying",
+   "body": {
+    "type": "statutory-citation",
+    "cite": "28A.600.300",
+    "status": "current"
+   },
+   "target": {
+    "source": "bill.md",
+    "selector": [
+     {
+      "type": "TextPositionSelector",
+      "start": 15154,
+      "end": 15165
+     },
+     {
+      "type": "TextQuoteSelector",
+      "exact": "28A.600.300",
+      "prefix": "titutions of higher education identified in RCW ",
+      "suffix": "(2)(c), select one institution that chooses to p"
+     },
+     {
+      "type": "SectionSelector",
+      "section": 6,
+      "markers": "(b)"
+     }
+    ]
+   },
+   "generatedBy": {
+    "type": "RegexRule",
+    "id": "rcw-cite-rule",
+    "version": "1.0",
+    "pattern": "\\b(\\d{1,2}[A-Za-z]?\\.\\d{1,3}[A-Za-z]?\\.\\d+[A-Za-z]?)\\b",
+    "note": "validated 100% recall vs 17,899 drafter hyperlinks, 2015-2026"
+   }
+  },
+  {
+   "id": "rcw-28",
+   "motivation": "identifying",
+   "body": {
+    "type": "statutory-citation",
+    "cite": "28A.600.310",
+    "status": "current"
+   },
+   "target": {
+    "source": "bill.md",
+    "selector": [
+     {
+      "type": "TextPositionSelector",
+      "start": 15747,
+      "end": 15758
+     },
+     {
+      "type": "TextQuoteSelector",
+      "exact": "28A.600.310",
+      "prefix": "its per summer academic term. Provisions in RCW ",
+      "suffix": " (6) and (7), which describe fees paid by runnin"
+     },
+     {
+      "type": "SectionSelector",
+      "section": 6,
+      "markers": "(4)"
+     }
+    ]
+   },
+   "generatedBy": {
+    "type": "RegexRule",
+    "id": "rcw-cite-rule",
+    "version": "1.0",
+    "pattern": "\\b(\\d{1,2}[A-Za-z]?\\.\\d{1,3}[A-Za-z]?\\.\\d+[A-Za-z]?)\\b",
+    "note": "validated 100% recall vs 17,899 drafter hyperlinks, 2015-2026"
+   }
+  },
+  {
+   "id": "rcw-29",
+   "motivation": "identifying",
+   "body": {
+    "type": "statutory-citation",
+    "cite": "43.01.036",
+    "status": "current"
+   },
+   "target": {
+    "source": "bill.md",
+    "selector": [
+     {
+      "type": "TextPositionSelector",
+      "start": 15984,
+      "end": 15993
+     },
+     {
+      "type": "TextQuoteSelector",
+      "exact": "43.01.036",
+      "prefix": "By November 1, 2024, and in accordance with RCW ",
+      "suffix": ", the office of the superintendent of public ins"
+     },
+     {
+      "type": "SectionSelector",
+      "section": 6,
+      "markers": "(5)"
+     }
+    ]
+   },
+   "generatedBy": {
+    "type": "RegexRule",
+    "id": "rcw-cite-rule",
+    "version": "1.0",
+    "pattern": "\\b(\\d{1,2}[A-Za-z]?\\.\\d{1,3}[A-Za-z]?\\.\\d+[A-Za-z]?)\\b",
+    "note": "validated 100% recall vs 17,899 drafter hyperlinks, 2015-2026"
+   }
+  },
+  {
+   "id": "rcw-30",
+   "motivation": "identifying",
+   "body": {
+    "type": "statutory-citation",
+    "cite": "28A.600.300",
+    "status": "current"
+   },
+   "target": {
+    "source": "bill.md",
+    "selector": [
+     {
+      "type": "TextPositionSelector",
+      "start": 16426,
+      "end": 16437
+     },
+     {
+      "type": "TextQuoteSelector",
+      "exact": "28A.600.300",
+      "prefix": "titutions of higher education as defined in RCW ",
+      "suffix": ".\n\n(6) The definitions in this subsection apply "
+     },
+     {
+      "type": "SectionSelector",
+      "section": 6,
+      "markers": "(5)"
+     }
+    ]
+   },
+   "generatedBy": {
+    "type": "RegexRule",
+    "id": "rcw-cite-rule",
+    "version": "1.0",
+    "pattern": "\\b(\\d{1,2}[A-Za-z]?\\.\\d{1,3}[A-Za-z]?\\.\\d+[A-Za-z]?)\\b",
+    "note": "validated 100% recall vs 17,899 drafter hyperlinks, 2015-2026"
+   }
+  },
+  {
+   "id": "rcw-31",
+   "motivation": "identifying",
+   "body": {
+    "type": "statutory-citation",
+    "cite": "28A.600.300",
+    "status": "current"
+   },
+   "target": {
+    "source": "bill.md",
+    "selector": [
+     {
+      "type": "TextPositionSelector",
+      "start": 17039,
+      "end": 17050
+     },
+     {
+      "type": "TextQuoteSelector",
+      "exact": "28A.600.300",
+      "prefix": "stitution of higher education identified in RCW ",
+      "suffix": "(2)(c) that was selected, as described in subsec"
+     },
+     {
+      "type": "SectionSelector",
+      "section": 6,
+      "markers": "(b)"
+     }
+    ]
+   },
+   "generatedBy": {
+    "type": "RegexRule",
+    "id": "rcw-cite-rule",
+    "version": "1.0",
+    "pattern": "\\b(\\d{1,2}[A-Za-z]?\\.\\d{1,3}[A-Za-z]?\\.\\d+[A-Za-z]?)\\b",
+    "note": "validated 100% recall vs 17,899 drafter hyperlinks, 2015-2026"
+   }
+  },
+  {
+   "id": "rcw-32",
+   "motivation": "identifying",
+   "body": {
+    "type": "statutory-citation",
+    "cite": "28A.600.300",
+    "status": "current"
+   },
+   "target": {
+    "source": "bill.md",
+    "selector": [
+     {
+      "type": "TextPositionSelector",
+      "start": 17521,
+      "end": 17532
+     },
+     {
+      "type": "TextQuoteSelector",
+      "exact": "28A.600.300",
+      "prefix": "g start program\" has the same meaning as in RCW ",
+      "suffix": ".\n\n(7)(a) Except as provided in (b) of this subs"
+     },
+     {
+      "type": "SectionSelector",
+      "section": 6,
+      "markers": "(e)"
+     }
+    ]
+   },
+   "generatedBy": {
+    "type": "RegexRule",
+    "id": "rcw-cite-rule",
+    "version": "1.0",
+    "pattern": "\\b(\\d{1,2}[A-Za-z]?\\.\\d{1,3}[A-Za-z]?\\.\\d+[A-Za-z]?)\\b",
+    "note": "validated 100% recall vs 17,899 drafter hyperlinks, 2015-2026"
+   }
+  },
+  {
+   "id": "rcw-33",
+   "motivation": "identifying",
+   "body": {
+    "type": "statutory-citation",
+    "cite": "28A.600.300",
+    "status": "current"
+   },
+   "target": {
+    "source": "bill.md",
+    "selector": [
+     {
+      "type": "TextPositionSelector",
+      "start": 17675,
+      "end": 17686
+     },
+     {
+      "type": "TextQuoteSelector",
+      "exact": "28A.600.300",
+      "prefix": " otherwise, the requirements established in RCW ",
+      "suffix": " through 28A.600.400 apply to the running start "
+     },
+     {
+      "type": "SectionSelector",
+      "section": 6,
+      "markers": "(7)(a)"
+     }
+    ]
+   },
+   "generatedBy": {
+    "type": "RegexRule",
+    "id": "rcw-cite-rule",
+    "version": "1.0",
+    "pattern": "\\b(\\d{1,2}[A-Za-z]?\\.\\d{1,3}[A-Za-z]?\\.\\d+[A-Za-z]?)\\b",
+    "note": "validated 100% recall vs 17,899 drafter hyperlinks, 2015-2026"
+   }
+  },
+  {
+   "id": "rcw-34",
+   "motivation": "identifying",
+   "body": {
+    "type": "statutory-citation",
+    "cite": "28A.600.400",
+    "status": "current"
+   },
+   "target": {
+    "source": "bill.md",
+    "selector": [
+     {
+      "type": "TextPositionSelector",
+      "start": 17695,
+      "end": 17706
+     },
+     {
+      "type": "TextQuoteSelector",
+      "exact": "28A.600.400",
+      "prefix": "irements established in RCW 28A.600.300 through ",
+      "suffix": " apply to the running start summer school progra"
+     },
+     {
+      "type": "SectionSelector",
+      "section": 6,
+      "markers": "(7)(a)"
+     }
+    ]
+   },
+   "generatedBy": {
+    "type": "RegexRule",
+    "id": "rcw-cite-rule",
+    "version": "1.0",
+    "pattern": "\\b(\\d{1,2}[A-Za-z]?\\.\\d{1,3}[A-Za-z]?\\.\\d+[A-Za-z]?)\\b",
+    "note": "validated 100% recall vs 17,899 drafter hyperlinks, 2015-2026"
+   }
+  },
+  {
+   "id": "rcw-35",
+   "motivation": "identifying",
+   "body": {
+    "type": "statutory-citation",
+    "cite": "28A.600.385",
+    "status": "current"
+   },
+   "target": {
+    "source": "bill.md",
+    "selector": [
+     {
+      "type": "TextPositionSelector",
+      "start": 17784,
+      "end": 17795
+     },
+     {
+      "type": "TextQuoteSelector",
+      "exact": "28A.600.385",
+      "prefix": "mmer school program.\n\n(b) The provisions of RCW ",
+      "suffix": " relating to cooperative agreements with communi"
+     },
+     {
+      "type": "SectionSelector",
+      "section": 6,
+      "markers": "(b)"
+     }
+    ]
+   },
+   "generatedBy": {
+    "type": "RegexRule",
+    "id": "rcw-cite-rule",
+    "version": "1.0",
+    "pattern": "\\b(\\d{1,2}[A-Za-z]?\\.\\d{1,3}[A-Za-z]?\\.\\d+[A-Za-z]?)\\b",
+    "note": "validated 100% recall vs 17,899 drafter hyperlinks, 2015-2026"
+   }
+  },
+  {
+   "id": "rcw-36",
+   "motivation": "identifying",
+   "body": {
+    "type": "statutory-citation",
+    "cite": "28A.600.310",
+    "status": "current"
+   },
+   "target": {
+    "source": "bill.md",
+    "selector": [
+     {
+      "type": "TextPositionSelector",
+      "start": 19590,
+      "end": 19601
+     },
+     {
+      "type": "TextQuoteSelector",
+      "exact": "28A.600.310",
+      "prefix": "stitutions of higher education.\n\n## Sec. 8. RCW ",
+      "suffix": " and 2019 c 252 s 115 and 2019 c 176 s 2 are eac"
+     },
+     {
+      "type": "SectionSelector",
+      "section": 8,
+      "markers": null
+     }
+    ]
+   },
+   "generatedBy": {
+    "type": "RegexRule",
+    "id": "rcw-cite-rule",
+    "version": "1.0",
+    "pattern": "\\b(\\d{1,2}[A-Za-z]?\\.\\d{1,3}[A-Za-z]?\\.\\d+[A-Za-z]?)\\b",
+    "note": "validated 100% recall vs 17,899 drafter hyperlinks, 2015-2026"
+   }
+  },
+  {
+   "id": "rcw-37",
+   "motivation": "identifying",
+   "body": {
+    "type": "statutory-citation",
+    "cite": "28B.15.020",
+    "status": "current"
+   },
+   "target": {
+    "source": "bill.md",
+    "selector": [
+     {
+      "type": "TextPositionSelector",
+      "start": 23379,
+      "end": 23389
+     },
+     {
+      "type": "TextQuoteSelector",
+      "exact": "28B.15.020",
+      "prefix": " In lieu of tuition and fees, as defined in RCW ",
+      "suffix": " and 28B.15.041:\n\n(i) Running start students sha"
+     },
+     {
+      "type": "SectionSelector",
+      "section": 8,
+      "markers": null
+     }
+    ]
+   },
+   "generatedBy": {
+    "type": "RegexRule",
+    "id": "rcw-cite-rule",
+    "version": "1.0",
+    "pattern": "\\b(\\d{1,2}[A-Za-z]?\\.\\d{1,3}[A-Za-z]?\\.\\d+[A-Za-z]?)\\b",
+    "note": "validated 100% recall vs 17,899 drafter hyperlinks, 2015-2026"
+   }
+  },
+  {
+   "id": "rcw-38",
+   "motivation": "identifying",
+   "body": {
+    "type": "statutory-citation",
+    "cite": "28B.15.041",
+    "status": "current"
+   },
+   "target": {
+    "source": "bill.md",
+    "selector": [
+     {
+      "type": "TextPositionSelector",
+      "start": 23394,
+      "end": 23404
+     },
+     {
+      "type": "TextQuoteSelector",
+      "exact": "28B.15.041",
+      "prefix": "tion and fees, as defined in RCW 28B.15.020 and ",
+      "suffix": ":\n\n(i) Running start students shall pay to the c"
+     },
+     {
+      "type": "SectionSelector",
+      "section": 8,
+      "markers": null
+     }
+    ]
+   },
+   "generatedBy": {
+    "type": "RegexRule",
+    "id": "rcw-cite-rule",
+    "version": "1.0",
+    "pattern": "\\b(\\d{1,2}[A-Za-z]?\\.\\d{1,3}[A-Za-z]?\\.\\d+[A-Za-z]?)\\b",
+    "note": "validated 100% recall vs 17,899 drafter hyperlinks, 2015-2026"
+   }
+  },
+  {
+   "id": "rcw-39",
+   "motivation": "identifying",
+   "body": {
+    "type": "statutory-citation",
+    "cite": "28B.15.020",
+    "status": "current"
+   },
+   "target": {
+    "source": "bill.md",
+    "selector": [
+     {
+      "type": "TextPositionSelector",
+      "start": 23736,
+      "end": 23746
+     },
+     {
+      "type": "TextQuoteSelector",
+      "exact": "28B.15.020",
+      "prefix": "> percent of tuition and fees as defined in RCW ",
+      "suffix": " and 28B.15.041; and\n\n(ii) All other institution"
+     },
+     {
+      "type": "SectionSelector",
+      "section": 8,
+      "markers": "(i)"
+     }
+    ]
+   },
+   "generatedBy": {
+    "type": "RegexRule",
+    "id": "rcw-cite-rule",
+    "version": "1.0",
+    "pattern": "\\b(\\d{1,2}[A-Za-z]?\\.\\d{1,3}[A-Za-z]?\\.\\d+[A-Za-z]?)\\b",
+    "note": "validated 100% recall vs 17,899 drafter hyperlinks, 2015-2026"
+   }
+  },
+  {
+   "id": "rcw-40",
+   "motivation": "identifying",
+   "body": {
+    "type": "statutory-citation",
+    "cite": "28B.15.041",
+    "status": "current"
+   },
+   "target": {
+    "source": "bill.md",
+    "selector": [
+     {
+      "type": "TextPositionSelector",
+      "start": 23751,
+      "end": 23761
+     },
+     {
+      "type": "TextQuoteSelector",
+      "exact": "28B.15.041",
+      "prefix": "ition and fees as defined in RCW 28B.15.020 and ",
+      "suffix": "; and\n\n(ii) All other institutions of higher edu"
+     },
+     {
+      "type": "SectionSelector",
+      "section": 8,
+      "markers": "(i)"
+     }
+    ]
+   },
+   "generatedBy": {
+    "type": "RegexRule",
+    "id": "rcw-cite-rule",
+    "version": "1.0",
+    "pattern": "\\b(\\d{1,2}[A-Za-z]?\\.\\d{1,3}[A-Za-z]?\\.\\d+[A-Za-z]?)\\b",
+    "note": "validated 100% recall vs 17,899 drafter hyperlinks, 2015-2026"
+   }
+  },
+  {
+   "id": "rcw-41",
+   "motivation": "identifying",
+   "body": {
+    "type": "statutory-citation",
+    "cite": "28B.15.020",
+    "status": "current"
+   },
+   "target": {
+    "source": "bill.md",
+    "selector": [
+     {
+      "type": "TextPositionSelector",
+      "start": 23974,
+      "end": 23984
+     },
+     {
+      "type": "TextQuoteSelector",
+      "exact": "28B.15.020",
+      "prefix": "> percent of tuition and fees as defined in RCW ",
+      "suffix": " and 28B.15.041 in addition to technology fees.\n"
+     },
+     {
+      "type": "SectionSelector",
+      "section": 8,
+      "markers": "(ii)"
+     }
+    ]
+   },
+   "generatedBy": {
+    "type": "RegexRule",
+    "id": "rcw-cite-rule",
+    "version": "1.0",
+    "pattern": "\\b(\\d{1,2}[A-Za-z]?\\.\\d{1,3}[A-Za-z]?\\.\\d+[A-Za-z]?)\\b",
+    "note": "validated 100% recall vs 17,899 drafter hyperlinks, 2015-2026"
+   }
+  },
+  {
+   "id": "rcw-42",
+   "motivation": "identifying",
+   "body": {
+    "type": "statutory-citation",
+    "cite": "28B.15.041",
+    "status": "current"
+   },
+   "target": {
+    "source": "bill.md",
+    "selector": [
+     {
+      "type": "TextPositionSelector",
+      "start": 23989,
+      "end": 23999
+     },
+     {
+      "type": "TextQuoteSelector",
+      "exact": "28B.15.041",
+      "prefix": "ition and fees as defined in RCW 28B.15.020 and ",
+      "suffix": " in addition to technology fees.\n\n(b) The fees c"
+     },
+     {
+      "type": "SectionSelector",
+      "section": 8,
+      "markers": "(ii)"
+     }
+    ]
+   },
+   "generatedBy": {
+    "type": "RegexRule",
+    "id": "rcw-cite-rule",
+    "version": "1.0",
+    "pattern": "\\b(\\d{1,2}[A-Za-z]?\\.\\d{1,3}[A-Za-z]?\\.\\d+[A-Za-z]?)\\b",
+    "note": "validated 100% recall vs 17,899 drafter hyperlinks, 2015-2026"
+   }
+  },
+  {
+   "id": "rcw-43",
+   "motivation": "identifying",
+   "body": {
+    "type": "statutory-citation",
+    "cite": "28A.150.260",
+    "status": "current"
+   },
+   "target": {
+    "source": "bill.md",
+    "selector": [
+     {
+      "type": "TextPositionSelector",
+      "start": 27038,
+      "end": 27049
+     },
+     {
+      "type": "TextQuoteSelector",
+      "exact": "28A.150.260",
+      "prefix": "neys appropriated for basic education under RCW ",
+      "suffix": "<ins>, and equivalent amounts for high school gr"
+     },
+     {
+      "type": "SectionSelector",
+      "section": 8,
+      "markers": null
+     }
+    ]
+   },
+   "generatedBy": {
+    "type": "RegexRule",
+    "id": "rcw-cite-rule",
+    "version": "1.0",
+    "pattern": "\\b(\\d{1,2}[A-Za-z]?\\.\\d{1,3}[A-Za-z]?\\.\\d+[A-Za-z]?)\\b",
+    "note": "validated 100% recall vs 17,899 drafter hyperlinks, 2015-2026"
+   }
+  },
+  {
+   "id": "rcw-44",
+   "motivation": "identifying",
+   "body": {
+    "type": "statutory-citation",
+    "cite": "28A.150.260",
+    "status": "current"
+   },
+   "target": {
+    "source": "bill.md",
+    "selector": [
+     {
+      "type": "TextPositionSelector",
+      "start": 27496,
+      "end": 27507
+     },
+     {
+      "type": "TextQuoteSelector",
+      "exact": "28A.150.260",
+      "prefix": "alent high school student allocations under RCW ",
+      "suffix": ", excluding small high school enhancements, and "
+     },
+     {
+      "type": "SectionSelector",
+      "section": 8,
+      "markers": null
+     }
+    ]
+   },
+   "generatedBy": {
+    "type": "RegexRule",
+    "id": "rcw-cite-rule",
+    "version": "1.0",
+    "pattern": "\\b(\\d{1,2}[A-Za-z]?\\.\\d{1,3}[A-Za-z]?\\.\\d+[A-Za-z]?)\\b",
+    "note": "validated 100% recall vs 17,899 drafter hyperlinks, 2015-2026"
+   }
+  },
+  {
+   "id": "rcw-45",
+   "motivation": "identifying",
+   "body": {
+    "type": "statutory-citation",
+    "cite": "28A.710.040",
+    "status": "current"
+   },
+   "target": {
+    "source": "bill.md",
+    "selector": [
+     {
+      "type": "TextPositionSelector",
+      "start": 28267,
+      "end": 28278
+     },
+     {
+      "type": "TextQuoteSelector",
+      "exact": "28A.710.040",
+      "prefix": "verns school operation and management under RCW ",
+      "suffix": " and 28A.715.020 and applies to charter schools "
+     },
+     {
+      "type": "SectionSelector",
+      "section": 8,
+      "markers": null
+     }
+    ]
+   },
+   "generatedBy": {
+    "type": "RegexRule",
+    "id": "rcw-cite-rule",
+    "version": "1.0",
+    "pattern": "\\b(\\d{1,2}[A-Za-z]?\\.\\d{1,3}[A-Za-z]?\\.\\d+[A-Za-z]?)\\b",
+    "note": "validated 100% recall vs 17,899 drafter hyperlinks, 2015-2026"
+   }
+  },
+  {
+   "id": "rcw-46",
+   "motivation": "identifying",
+   "body": {
+    "type": "statutory-citation",
+    "cite": "28A.715.020",
+    "status": "current"
+   },
+   "target": {
+    "source": "bill.md",
+    "selector": [
+     {
+      "type": "TextPositionSelector",
+      "start": 28283,
+      "end": 28294
+     },
+     {
+      "type": "TextQuoteSelector",
+      "exact": "28A.715.020",
+      "prefix": "ration and management under RCW 28A.710.040 and ",
+      "suffix": " and applies to charter schools established unde"
+     },
+     {
+      "type": "SectionSelector",
+      "section": 8,
+      "markers": null
+     }
+    ]
+   },
+   "generatedBy": {
+    "type": "RegexRule",
+    "id": "rcw-cite-rule",
+    "version": "1.0",
+    "pattern": "\\b(\\d{1,2}[A-Za-z]?\\.\\d{1,3}[A-Za-z]?\\.\\d+[A-Za-z]?)\\b",
+    "note": "validated 100% recall vs 17,899 drafter hyperlinks, 2015-2026"
+   }
+  },
+  {
+   "id": "rcw-47",
+   "motivation": "identifying",
+   "body": {
+    "type": "statutory-citation",
+    "cite": "1.12.025",
+    "status": "current"
+   },
+   "target": {
+    "source": "bill.md",
+    "selector": [
+     {
+      "type": "TextPositionSelector",
+      "start": 28711,
+      "end": 28719
+     },
+     {
+      "type": "TextQuoteSelector",
+      "exact": "1.12.025",
+      "prefix": "ed in the publication of this section under RCW ",
+      "suffix": "(2). For rule of construction, see RCW 1.12.025("
+     },
+     {
+      "type": "SectionSelector",
+      "section": 8,
+      "markers": null
+     }
+    ]
+   },
+   "generatedBy": {
+    "type": "RegexRule",
+    "id": "rcw-cite-rule",
+    "version": "1.0",
+    "pattern": "\\b(\\d{1,2}[A-Za-z]?\\.\\d{1,3}[A-Za-z]?\\.\\d+[A-Za-z]?)\\b",
+    "note": "validated 100% recall vs 17,899 drafter hyperlinks, 2015-2026"
+   }
+  },
+  {
+   "id": "rcw-48",
+   "motivation": "identifying",
+   "body": {
+    "type": "statutory-citation",
+    "cite": "1.12.025",
+    "status": "current"
+   },
+   "target": {
+    "source": "bill.md",
+    "selector": [
+     {
+      "type": "TextPositionSelector",
+      "start": 28758,
+      "end": 28766
+     },
+     {
+      "type": "TextQuoteSelector",
+      "exact": "1.12.025",
+      "prefix": " 1.12.025(2). For rule of construction, see RCW ",
+      "suffix": "(1).\n\n> **Intent\u2014**2019 c 252: See note followin"
+     },
+     {
+      "type": "SectionSelector",
+      "section": 8,
+      "markers": null
+     }
+    ]
+   },
+   "generatedBy": {
+    "type": "RegexRule",
+    "id": "rcw-cite-rule",
+    "version": "1.0",
+    "pattern": "\\b(\\d{1,2}[A-Za-z]?\\.\\d{1,3}[A-Za-z]?\\.\\d+[A-Za-z]?)\\b",
+    "note": "validated 100% recall vs 17,899 drafter hyperlinks, 2015-2026"
+   }
+  },
+  {
+   "id": "rcw-49",
+   "motivation": "identifying",
+   "body": {
+    "type": "statutory-citation",
+    "cite": "28A.655.250",
+    "status": "historical"
+   },
+   "target": {
+    "source": "bill.md",
+    "selector": [
+     {
+      "type": "TextPositionSelector",
+      "start": 28820,
+      "end": 28831
+     },
+     {
+      "type": "TextQuoteSelector",
+      "exact": "28A.655.250",
+      "prefix": "> **Intent\u2014**2019 c 252: See note following RCW ",
+      "suffix": ".\n\n> **Findings\u2014**Intent**\u2014**2015 c 202: See not"
+     },
+     {
+      "type": "SectionSelector",
+      "section": 8,
+      "markers": null
+     }
+    ]
+   },
+   "generatedBy": {
+    "type": "RegexRule",
+    "id": "rcw-cite-rule",
+    "version": "1.0",
+    "pattern": "\\b(\\d{1,2}[A-Za-z]?\\.\\d{1,3}[A-Za-z]?\\.\\d+[A-Za-z]?)\\b",
+    "note": "validated 100% recall vs 17,899 drafter hyperlinks, 2015-2026"
+   }
+  },
+  {
+   "id": "rcw-50",
+   "motivation": "identifying",
+   "body": {
+    "type": "statutory-citation",
+    "cite": "28A.320.196",
+    "status": "current"
+   },
+   "target": {
+    "source": "bill.md",
+    "selector": [
+     {
+      "type": "TextPositionSelector",
+      "start": 28895,
+      "end": 28906
+     },
+     {
+      "type": "TextQuoteSelector",
+      "exact": "28A.320.196",
+      "prefix": "**Intent**\u2014**2015 c 202: See note following RCW ",
+      "suffix": ".\n\n> **Effective date\u2014**2012 c 229 \u00a7\u00a7 101, 117, "
+     },
+     {
+      "type": "SectionSelector",
+      "section": 8,
+      "markers": null
+     }
+    ]
+   },
+   "generatedBy": {
+    "type": "RegexRule",
+    "id": "rcw-cite-rule",
+    "version": "1.0",
+    "pattern": "\\b(\\d{1,2}[A-Za-z]?\\.\\d{1,3}[A-Za-z]?\\.\\d+[A-Za-z]?)\\b",
+    "note": "validated 100% recall vs 17,899 drafter hyperlinks, 2015-2026"
+   }
+  },
+  {
+   "id": "rcw-51",
+   "motivation": "identifying",
+   "body": {
+    "type": "statutory-citation",
+    "cite": "28B.77.005",
+    "status": "current"
+   },
+   "target": {
+    "source": "bill.md",
+    "selector": [
+     {
+      "type": "TextPositionSelector",
+      "start": 29069,
+      "end": 29079
+     },
+     {
+      "type": "TextQuoteSelector",
+      "exact": "28B.77.005",
+      "prefix": "rough 821, 902, and 904: See note following RCW ",
+      "suffix": ".\n\n> **Findings\u2014**Intent**\u2014**Short title**\u2014**201"
+     },
+     {
+      "type": "SectionSelector",
+      "section": 8,
+      "markers": null
+     }
+    ]
+   },
+   "generatedBy": {
+    "type": "RegexRule",
+    "id": "rcw-cite-rule",
+    "version": "1.0",
+    "pattern": "\\b(\\d{1,2}[A-Za-z]?\\.\\d{1,3}[A-Za-z]?\\.\\d+[A-Za-z]?)\\b",
+    "note": "validated 100% recall vs 17,899 drafter hyperlinks, 2015-2026"
+   }
+  },
+  {
+   "id": "rcw-52",
+   "motivation": "identifying",
+   "body": {
+    "type": "statutory-citation",
+    "cite": "28B.15.031",
+    "status": "current"
+   },
+   "target": {
+    "source": "bill.md",
+    "selector": [
+     {
+      "type": "TextPositionSelector",
+      "start": 29169,
+      "end": 29179
+     },
+     {
+      "type": "TextQuoteSelector",
+      "exact": "28B.15.031",
+      "prefix": "\u2014**2011 1st sp.s. c 10: See notes following RCW ",
+      "suffix": ".\n\n> **Findings\u2014**Intent**\u2014**2009 c 450: See not"
+     },
+     {
+      "type": "SectionSelector",
+      "section": 8,
+      "markers": null
+     }
+    ]
+   },
+   "generatedBy": {
+    "type": "RegexRule",
+    "id": "rcw-cite-rule",
+    "version": "1.0",
+    "pattern": "\\b(\\d{1,2}[A-Za-z]?\\.\\d{1,3}[A-Za-z]?\\.\\d+[A-Za-z]?)\\b",
+    "note": "validated 100% recall vs 17,899 drafter hyperlinks, 2015-2026"
+   }
+  },
+  {
+   "id": "rcw-53",
+   "motivation": "identifying",
+   "body": {
+    "type": "statutory-citation",
+    "cite": "28A.600.280",
+    "status": "current"
+   },
+   "target": {
+    "source": "bill.md",
+    "selector": [
+     {
+      "type": "TextPositionSelector",
+      "start": 29243,
+      "end": 29254
+     },
+     {
+      "type": "TextQuoteSelector",
+      "exact": "28A.600.280",
+      "prefix": "**Intent**\u2014**2009 c 450: See note following RCW ",
+      "suffix": ".\n\n> **Effective date\u2014**1993 c 222: \"This act sh"
+     },
+     {
+      "type": "SectionSelector",
+      "section": 8,
+      "markers": null
+     }
+    ]
+   },
+   "generatedBy": {
+    "type": "RegexRule",
+    "id": "rcw-cite-rule",
+    "version": "1.0",
+    "pattern": "\\b(\\d{1,2}[A-Za-z]?\\.\\d{1,3}[A-Za-z]?\\.\\d+[A-Za-z]?)\\b",
+    "note": "validated 100% recall vs 17,899 drafter hyperlinks, 2015-2026"
+   }
+  },
+  {
+   "id": "rcw-54",
+   "motivation": "identifying",
+   "body": {
+    "type": "statutory-citation",
+    "cite": "28A.225.220",
+    "status": "current"
+   },
+   "target": {
+    "source": "bill.md",
+    "selector": [
+     {
+      "type": "TextPositionSelector",
+      "start": 29432,
+      "end": 29443
+     },
+     {
+      "type": "TextQuoteSelector",
+      "exact": "28A.225.220",
+      "prefix": "*\u2014**1990 1st ex.s. c 9: See notes following RCW ",
+      "suffix": ".\n\n## Sec. 9. RCW 28A.600.390 and 2012 c 229 s 5"
+     },
+     {
+      "type": "SectionSelector",
+      "section": 8,
+      "markers": null
+     }
+    ]
+   },
+   "generatedBy": {
+    "type": "RegexRule",
+    "id": "rcw-cite-rule",
+    "version": "1.0",
+    "pattern": "\\b(\\d{1,2}[A-Za-z]?\\.\\d{1,3}[A-Za-z]?\\.\\d+[A-Za-z]?)\\b",
+    "note": "validated 100% recall vs 17,899 drafter hyperlinks, 2015-2026"
+   }
+  },
+  {
+   "id": "rcw-55",
+   "motivation": "identifying",
+   "body": {
+    "type": "statutory-citation",
+    "cite": "28A.600.390",
+    "status": "current"
+   },
+   "target": {
+    "source": "bill.md",
+    "selector": [
+     {
+      "type": "TextPositionSelector",
+      "start": 29461,
+      "end": 29472
+     },
+     {
+      "type": "TextQuoteSelector",
+      "exact": "28A.600.390",
+      "prefix": "otes following RCW 28A.225.220.\n\n## Sec. 9. RCW ",
+      "suffix": " and 2012 c 229 s 506 are each amended to read a"
+     },
+     {
+      "type": "SectionSelector",
+      "section": 9,
+      "markers": null
+     }
+    ]
+   },
+   "generatedBy": {
+    "type": "RegexRule",
+    "id": "rcw-cite-rule",
+    "version": "1.0",
+    "pattern": "\\b(\\d{1,2}[A-Za-z]?\\.\\d{1,3}[A-Za-z]?\\.\\d+[A-Za-z]?)\\b",
+    "note": "validated 100% recall vs 17,899 drafter hyperlinks, 2015-2026"
+   }
+  },
+  {
+   "id": "rcw-56",
+   "motivation": "identifying",
+   "body": {
+    "type": "statutory-citation",
+    "cite": "28A.600.300",
+    "status": "current"
+   },
+   "target": {
+    "source": "bill.md",
+    "selector": [
+     {
+      "type": "TextPositionSelector",
+      "start": 29748,
+      "end": 29759
+     },
+     {
+      "type": "TextQuoteSelector",
+      "exact": "28A.600.300",
+      "prefix": "l jointly develop and adopt rules governing RCW ",
+      "suffix": " through 28A.600.380 <ins>and section 7 of this "
+     },
+     {
+      "type": "SectionSelector",
+      "section": 9,
+      "markers": null
+     }
+    ]
+   },
+   "generatedBy": {
+    "type": "RegexRule",
+    "id": "rcw-cite-rule",
+    "version": "1.0",
+    "pattern": "\\b(\\d{1,2}[A-Za-z]?\\.\\d{1,3}[A-Za-z]?\\.\\d+[A-Za-z]?)\\b",
+    "note": "validated 100% recall vs 17,899 drafter hyperlinks, 2015-2026"
+   }
+  },
+  {
+   "id": "rcw-57",
+   "motivation": "identifying",
+   "body": {
+    "type": "statutory-citation",
+    "cite": "28A.600.380",
+    "status": "current"
+   },
+   "target": {
+    "source": "bill.md",
+    "selector": [
+     {
+      "type": "TextPositionSelector",
+      "start": 29768,
+      "end": 29779
+     },
+     {
+      "type": "TextQuoteSelector",
+      "exact": "28A.600.380",
+      "prefix": "d adopt rules governing RCW 28A.600.300 through ",
+      "suffix": " <ins>and section 7 of this act</ins>, if rules "
+     },
+     {
+      "type": "SectionSelector",
+      "section": 9,
+      "markers": null
+     }
+    ]
+   },
+   "generatedBy": {
+    "type": "RegexRule",
+    "id": "rcw-cite-rule",
+    "version": "1.0",
+    "pattern": "\\b(\\d{1,2}[A-Za-z]?\\.\\d{1,3}[A-Za-z]?\\.\\d+[A-Za-z]?)\\b",
+    "note": "validated 100% recall vs 17,899 drafter hyperlinks, 2015-2026"
+   }
+  },
+  {
+   "id": "rcw-58",
+   "motivation": "identifying",
+   "body": {
+    "type": "statutory-citation",
+    "cite": "28A.600.300",
+    "status": "current"
+   },
+   "target": {
+    "source": "bill.md",
+    "selector": [
+     {
+      "type": "TextPositionSelector",
+      "start": 29976,
+      "end": 29987
+     },
+     {
+      "type": "TextQuoteSelector",
+      "exact": "28A.600.300",
+      "prefix": "arrow or limit the enrollment options under RCW ",
+      "suffix": " through 28A.600.380.\n\n> **Effective date\u2014**2012"
+     },
+     {
+      "type": "SectionSelector",
+      "section": 9,
+      "markers": null
+     }
+    ]
+   },
+   "generatedBy": {
+    "type": "RegexRule",
+    "id": "rcw-cite-rule",
+    "version": "1.0",
+    "pattern": "\\b(\\d{1,2}[A-Za-z]?\\.\\d{1,3}[A-Za-z]?\\.\\d+[A-Za-z]?)\\b",
+    "note": "validated 100% recall vs 17,899 drafter hyperlinks, 2015-2026"
+   }
+  },
+  {
+   "id": "rcw-59",
+   "motivation": "identifying",
+   "body": {
+    "type": "statutory-citation",
+    "cite": "28A.600.380",
+    "status": "current"
+   },
+   "target": {
+    "source": "bill.md",
+    "selector": [
+     {
+      "type": "TextPositionSelector",
+      "start": 29996,
+      "end": 30007
+     },
+     {
+      "type": "TextQuoteSelector",
+      "exact": "28A.600.380",
+      "prefix": "nrollment options under RCW 28A.600.300 through ",
+      "suffix": ".\n\n> **Effective date\u2014**2012 c 229 \u00a7\u00a7 101, 117, "
+     },
+     {
+      "type": "SectionSelector",
+      "section": 9,
+      "markers": null
+     }
+    ]
+   },
+   "generatedBy": {
+    "type": "RegexRule",
+    "id": "rcw-cite-rule",
+    "version": "1.0",
+    "pattern": "\\b(\\d{1,2}[A-Za-z]?\\.\\d{1,3}[A-Za-z]?\\.\\d+[A-Za-z]?)\\b",
+    "note": "validated 100% recall vs 17,899 drafter hyperlinks, 2015-2026"
+   }
+  },
+  {
+   "id": "rcw-60",
+   "motivation": "identifying",
+   "body": {
+    "type": "statutory-citation",
+    "cite": "28B.77.005",
+    "status": "current"
+   },
+   "target": {
+    "source": "bill.md",
+    "selector": [
+     {
+      "type": "TextPositionSelector",
+      "start": 30170,
+      "end": 30180
+     },
+     {
+      "type": "TextQuoteSelector",
+      "exact": "28B.77.005",
+      "prefix": "rough 821, 902, and 904: See note following RCW ",
+      "suffix": ".\n\n> **Finding\u2014**Severability**\u2014**1990 1st ex.s."
+     },
+     {
+      "type": "SectionSelector",
+      "section": 9,
+      "markers": null
+     }
+    ]
+   },
+   "generatedBy": {
+    "type": "RegexRule",
+    "id": "rcw-cite-rule",
+    "version": "1.0",
+    "pattern": "\\b(\\d{1,2}[A-Za-z]?\\.\\d{1,3}[A-Za-z]?\\.\\d+[A-Za-z]?)\\b",
+    "note": "validated 100% recall vs 17,899 drafter hyperlinks, 2015-2026"
+   }
+  },
+  {
+   "id": "rcw-61",
+   "motivation": "identifying",
+   "body": {
+    "type": "statutory-citation",
+    "cite": "28A.225.220",
+    "status": "current"
+   },
+   "target": {
+    "source": "bill.md",
+    "selector": [
+     {
+      "type": "TextPositionSelector",
+      "start": 30258,
+      "end": 30269
+     },
+     {
+      "type": "TextQuoteSelector",
+      "exact": "28A.225.220",
+      "prefix": "*\u2014**1990 1st ex.s. c 9: See notes following RCW ",
+      "suffix": ".\n\n## Sec. 10. RCW 28A.600.400 and 1994 c 205 s "
+     },
+     {
+      "type": "SectionSelector",
+      "section": 9,
+      "markers": null
+     }
+    ]
+   },
+   "generatedBy": {
+    "type": "RegexRule",
+    "id": "rcw-cite-rule",
+    "version": "1.0",
+    "pattern": "\\b(\\d{1,2}[A-Za-z]?\\.\\d{1,3}[A-Za-z]?\\.\\d+[A-Za-z]?)\\b",
+    "note": "validated 100% recall vs 17,899 drafter hyperlinks, 2015-2026"
+   }
+  },
+  {
+   "id": "rcw-62",
+   "motivation": "identifying",
+   "body": {
+    "type": "statutory-citation",
+    "cite": "28A.600.400",
+    "status": "current"
+   },
+   "target": {
+    "source": "bill.md",
+    "selector": [
+     {
+      "type": "TextPositionSelector",
+      "start": 30288,
+      "end": 30299
+     },
+     {
+      "type": "TextQuoteSelector",
+      "exact": "28A.600.400",
+      "prefix": "tes following RCW 28A.225.220.\n\n## Sec. 10. RCW ",
+      "suffix": " and 1994 c 205 s 11 are each amended to read as"
+     },
+     {
+      "type": "SectionSelector",
+      "section": 10,
+      "markers": null
+     }
+    ]
+   },
+   "generatedBy": {
+    "type": "RegexRule",
+    "id": "rcw-cite-rule",
+    "version": "1.0",
+    "pattern": "\\b(\\d{1,2}[A-Za-z]?\\.\\d{1,3}[A-Za-z]?\\.\\d+[A-Za-z]?)\\b",
+    "note": "validated 100% recall vs 17,899 drafter hyperlinks, 2015-2026"
+   }
+  },
+  {
+   "id": "rcw-63",
+   "motivation": "identifying",
+   "body": {
+    "type": "statutory-citation",
+    "cite": "28A.600.300",
+    "status": "current"
+   },
+   "target": {
+    "source": "bill.md",
+    "selector": [
+     {
+      "type": "TextPositionSelector",
+      "start": 30421,
+      "end": 30432
+     },
+     {
+      "type": "TextQuoteSelector",
+      "exact": "28A.600.300",
+      "prefix": "program\u2014Existing agreements not affected.*\n\nRCW ",
+      "suffix": " through 28A.600.390 are in addition to and not "
+     },
+     {
+      "type": "SectionSelector",
+      "section": 10,
+      "markers": null
+     }
+    ]
+   },
+   "generatedBy": {
+    "type": "RegexRule",
+    "id": "rcw-cite-rule",
+    "version": "1.0",
+    "pattern": "\\b(\\d{1,2}[A-Za-z]?\\.\\d{1,3}[A-Za-z]?\\.\\d+[A-Za-z]?)\\b",
+    "note": "validated 100% recall vs 17,899 drafter hyperlinks, 2015-2026"
+   }
+  },
+  {
+   "id": "rcw-64",
+   "motivation": "identifying",
+   "body": {
+    "type": "statutory-citation",
+    "cite": "28A.600.390",
+    "status": "current"
+   },
+   "target": {
+    "source": "bill.md",
+    "selector": [
+     {
+      "type": "TextPositionSelector",
+      "start": 30441,
+      "end": 30452
+     },
+     {
+      "type": "TextQuoteSelector",
+      "exact": "28A.600.390",
+      "prefix": "eements not affected.*\n\nRCW 28A.600.300 through ",
+      "suffix": " are in addition to and not intended to adversel"
+     },
+     {
+      "type": "SectionSelector",
+      "section": 10,
+      "markers": null
+     }
+    ]
+   },
+   "generatedBy": {
+    "type": "RegexRule",
+    "id": "rcw-cite-rule",
+    "version": "1.0",
+    "pattern": "\\b(\\d{1,2}[A-Za-z]?\\.\\d{1,3}[A-Za-z]?\\.\\d+[A-Za-z]?)\\b",
+    "note": "validated 100% recall vs 17,899 drafter hyperlinks, 2015-2026"
+   }
+  },
+  {
+   "id": "rcw-65",
+   "motivation": "identifying",
+   "body": {
+    "type": "statutory-citation",
+    "cite": "28A.225.220",
+    "status": "current"
+   },
+   "target": {
+    "source": "bill.md",
+    "selector": [
+     {
+      "type": "TextPositionSelector",
+      "start": 30717,
+      "end": 30728
+     },
+     {
+      "type": "TextQuoteSelector",
+      "exact": "28A.225.220",
+      "prefix": "*\u2014**1990 1st ex.s. c 9: See notes following RCW ",
+      "suffix": ".\n\n## Sec. 11. RCW 28B.92.030 and 2022 c 166 s 1"
+     },
+     {
+      "type": "SectionSelector",
+      "section": 10,
+      "markers": null
+     }
+    ]
+   },
+   "generatedBy": {
+    "type": "RegexRule",
+    "id": "rcw-cite-rule",
+    "version": "1.0",
+    "pattern": "\\b(\\d{1,2}[A-Za-z]?\\.\\d{1,3}[A-Za-z]?\\.\\d+[A-Za-z]?)\\b",
+    "note": "validated 100% recall vs 17,899 drafter hyperlinks, 2015-2026"
+   }
+  },
+  {
+   "id": "rcw-66",
+   "motivation": "identifying",
+   "body": {
+    "type": "statutory-citation",
+    "cite": "28B.92.030",
+    "status": "current"
+   },
+   "target": {
+    "source": "bill.md",
+    "selector": [
+     {
+      "type": "TextPositionSelector",
+      "start": 30747,
+      "end": 30757
+     },
+     {
+      "type": "TextQuoteSelector",
+      "exact": "28B.92.030",
+      "prefix": "tes following RCW 28A.225.220.\n\n## Sec. 11. RCW ",
+      "suffix": " and 2022 c 166 s 1 are each amended to read as "
+     },
+     {
+      "type": "SectionSelector",
+      "section": 11,
+      "markers": null
+     }
+    ]
+   },
+   "generatedBy": {
+    "type": "RegexRule",
+    "id": "rcw-cite-rule",
+    "version": "1.0",
+    "pattern": "\\b(\\d{1,2}[A-Za-z]?\\.\\d{1,3}[A-Za-z]?\\.\\d+[A-Za-z]?)\\b",
+    "note": "validated 100% recall vs 17,899 drafter hyperlinks, 2015-2026"
+   }
+  },
+  {
+   "id": "rcw-67",
+   "motivation": "identifying",
+   "body": {
+    "type": "statutory-citation",
+    "cite": "28B.92.150",
+    "status": "current"
+   },
+   "target": {
+    "source": "bill.md",
+    "selector": [
+     {
+      "type": "TextPositionSelector",
+      "start": 32362,
+      "end": 32372
+     },
+     {
+      "type": "TextQuoteSelector",
+      "exact": "28B.92.150",
+      "prefix": "lies with program rules adopted pursuant to RCW ",
+      "suffix": ". However, any institution, branch, extension or"
+     },
+     {
+      "type": "SectionSelector",
+      "section": 11,
+      "markers": "(b)"
+     }
+    ]
+   },
+   "generatedBy": {
+    "type": "RegexRule",
+    "id": "rcw-cite-rule",
+    "version": "1.0",
+    "pattern": "\\b(\\d{1,2}[A-Za-z]?\\.\\d{1,3}[A-Za-z]?\\.\\d+[A-Za-z]?)\\b",
+    "note": "validated 100% recall vs 17,899 drafter hyperlinks, 2015-2026"
+   }
+  },
+  {
+   "id": "rcw-68",
+   "motivation": "identifying",
+   "body": {
+    "type": "statutory-citation",
+    "cite": "28B.77.240",
+    "status": "current"
+   },
+   "target": {
+    "source": "bill.md",
+    "selector": [
+     {
+      "type": "TextPositionSelector",
+      "start": 33234,
+      "end": 33244
+     },
+     {
+      "type": "TextQuoteSelector",
+      "exact": "28B.77.240",
+      "prefix": "d by the state of Washington as provided in RCW ",
+      "suffix": "; or\n\n<del>(iv)</del> <ins>(c)</ins> An approved"
+     },
+     {
+      "type": "SectionSelector",
+      "section": 11,
+      "markers": "(iii)"
+     }
+    ]
+   },
+   "generatedBy": {
+    "type": "RegexRule",
+    "id": "rcw-cite-rule",
+    "version": "1.0",
+    "pattern": "\\b(\\d{1,2}[A-Za-z]?\\.\\d{1,3}[A-Za-z]?\\.\\d+[A-Za-z]?)\\b",
+    "note": "validated 100% recall vs 17,899 drafter hyperlinks, 2015-2026"
+   }
+  },
+  {
+   "id": "rcw-69",
+   "motivation": "identifying",
+   "body": {
+    "type": "statutory-citation",
+    "cite": "28B.10.016",
+    "status": "current"
+   },
+   "target": {
+    "source": "bill.md",
+    "selector": [
+     {
+      "type": "TextPositionSelector",
+      "start": 33504,
+      "end": 33514
+     },
+     {
+      "type": "TextQuoteSelector",
+      "exact": "28B.10.016",
+      "prefix": "titutions of higher education as defined in RCW ",
+      "suffix": ", is tuition and estimated fees for <del>fifteen"
+     },
+     {
+      "type": "SectionSelector",
+      "section": 11,
+      "markers": "(a)"
+     }
+    ]
+   },
+   "generatedBy": {
+    "type": "RegexRule",
+    "id": "rcw-cite-rule",
+    "version": "1.0",
+    "pattern": "\\b(\\d{1,2}[A-Za-z]?\\.\\d{1,3}[A-Za-z]?\\.\\d+[A-Za-z]?)\\b",
+    "note": "validated 100% recall vs 17,899 drafter hyperlinks, 2015-2026"
+   }
+  },
+  {
+   "id": "rcw-70",
+   "motivation": "identifying",
+   "body": {
+    "type": "statutory-citation",
+    "cite": "28B.77.240",
+    "status": "current"
+   },
+   "target": {
+    "source": "bill.md",
+    "selector": [
+     {
+      "type": "TextPositionSelector",
+      "start": 35005,
+      "end": 35015
+     },
+     {
+      "type": "TextQuoteSelector",
+      "exact": "28B.77.240",
+      "prefix": "rs University-Washington, as established in RCW ",
+      "suffix": ", in the 2019-20 academic year, is <del>five tho"
+     },
+     {
+      "type": "SectionSelector",
+      "section": 11,
+      "markers": "(f)"
+     }
+    ]
+   },
+   "generatedBy": {
+    "type": "RegexRule",
+    "id": "rcw-cite-rule",
+    "version": "1.0",
+    "pattern": "\\b(\\d{1,2}[A-Za-z]?\\.\\d{1,3}[A-Za-z]?\\.\\d+[A-Za-z]?)\\b",
+    "note": "validated 100% recall vs 17,899 drafter hyperlinks, 2015-2026"
+   }
+  },
+  {
+   "id": "rcw-71",
+   "motivation": "identifying",
+   "body": {
+    "type": "statutory-citation",
+    "cite": "43.79.195",
+    "status": "current"
+   },
+   "target": {
+    "source": "bill.md",
+    "selector": [
+     {
+      "type": "TextPositionSelector",
+      "start": 36036,
+      "end": 36045
+     },
+     {
+      "type": "TextQuoteSelector",
+      "exact": "43.79.195",
+      "prefix": "**Intent**\u2014**2019 c 406: See note following RCW ",
+      "suffix": ".\n\n> **Findings\u2014**Short title**\u2014**2019 c 406: Se"
+     },
+     {
+      "type": "SectionSelector",
+      "section": 11,
+      "markers": null
+     }
+    ]
+   },
+   "generatedBy": {
+    "type": "RegexRule",
+    "id": "rcw-cite-rule",
+    "version": "1.0",
+    "pattern": "\\b(\\d{1,2}[A-Za-z]?\\.\\d{1,3}[A-Za-z]?\\.\\d+[A-Za-z]?)\\b",
+    "note": "validated 100% recall vs 17,899 drafter hyperlinks, 2015-2026"
+   }
+  },
+  {
+   "id": "rcw-72",
+   "motivation": "identifying",
+   "body": {
+    "type": "statutory-citation",
+    "cite": "28B.92.200",
+    "status": "current"
+   },
+   "target": {
+    "source": "bill.md",
+    "selector": [
+     {
+      "type": "TextPositionSelector",
+      "start": 36115,
+      "end": 36125
+     },
+     {
+      "type": "TextQuoteSelector",
+      "exact": "28B.92.200",
+      "prefix": "t title**\u2014**2019 c 406: See notes following RCW ",
+      "suffix": ".\n\n> **Findings\u2014**2019 c 406: See note following"
+     },
+     {
+      "type": "SectionSelector",
+      "section": 11,
+      "markers": null
+     }
+    ]
+   },
+   "generatedBy": {
+    "type": "RegexRule",
+    "id": "rcw-cite-rule",
+    "version": "1.0",
+    "pattern": "\\b(\\d{1,2}[A-Za-z]?\\.\\d{1,3}[A-Za-z]?\\.\\d+[A-Za-z]?)\\b",
+    "note": "validated 100% recall vs 17,899 drafter hyperlinks, 2015-2026"
+   }
+  },
+  {
+   "id": "rcw-73",
+   "motivation": "identifying",
+   "body": {
+    "type": "statutory-citation",
+    "cite": "28B.94.020",
+    "status": "current"
+   },
+   "target": {
+    "source": "bill.md",
+    "selector": [
+     {
+      "type": "TextPositionSelector",
+      "start": 36178,
+      "end": 36188
+     },
+     {
+      "type": "TextQuoteSelector",
+      "exact": "28B.94.020",
+      "prefix": "**Findings\u2014**2019 c 406: See note following RCW ",
+      "suffix": ".\n\n> **Findings\u2014**Intent**\u2014**2019 c 406: See not"
+     },
+     {
+      "type": "SectionSelector",
+      "section": 11,
+      "markers": null
+     }
+    ]
+   },
+   "generatedBy": {
+    "type": "RegexRule",
+    "id": "rcw-cite-rule",
+    "version": "1.0",
+    "pattern": "\\b(\\d{1,2}[A-Za-z]?\\.\\d{1,3}[A-Za-z]?\\.\\d+[A-Za-z]?)\\b",
+    "note": "validated 100% recall vs 17,899 drafter hyperlinks, 2015-2026"
+   }
+  },
+  {
+   "id": "rcw-74",
+   "motivation": "identifying",
+   "body": {
+    "type": "statutory-citation",
+    "cite": "28C.30.050",
+    "status": "current"
+   },
+   "target": {
+    "source": "bill.md",
+    "selector": [
+     {
+      "type": "TextPositionSelector",
+      "start": 36252,
+      "end": 36262
+     },
+     {
+      "type": "TextQuoteSelector",
+      "exact": "28C.30.050",
+      "prefix": "**Intent**\u2014**2019 c 406: See note following RCW ",
+      "suffix": ".\n\n> **Findings\u2014**Intent**\u2014**2019 c 406: See not"
+     },
+     {
+      "type": "SectionSelector",
+      "section": 11,
+      "markers": null
+     }
+    ]
+   },
+   "generatedBy": {
+    "type": "RegexRule",
+    "id": "rcw-cite-rule",
+    "version": "1.0",
+    "pattern": "\\b(\\d{1,2}[A-Za-z]?\\.\\d{1,3}[A-Za-z]?\\.\\d+[A-Za-z]?)\\b",
+    "note": "validated 100% recall vs 17,899 drafter hyperlinks, 2015-2026"
+   }
+  },
+  {
+   "id": "rcw-75",
+   "motivation": "identifying",
+   "body": {
+    "type": "statutory-citation",
+    "cite": "43.216.135",
+    "status": "current"
+   },
+   "target": {
+    "source": "bill.md",
+    "selector": [
+     {
+      "type": "TextPositionSelector",
+      "start": 36326,
+      "end": 36336
+     },
+     {
+      "type": "TextQuoteSelector",
+      "exact": "43.216.135",
+      "prefix": "**Intent**\u2014**2019 c 406: See note following RCW ",
+      "suffix": ".\n\n> **Findings\u2014**Intent**\u2014**2013 c 248: \"The le"
+     },
+     {
+      "type": "SectionSelector",
+      "section": 11,
+      "markers": null
+     }
+    ]
+   },
+   "generatedBy": {
+    "type": "RegexRule",
+    "id": "rcw-cite-rule",
+    "version": "1.0",
+    "pattern": "\\b(\\d{1,2}[A-Za-z]?\\.\\d{1,3}[A-Za-z]?\\.\\d+[A-Za-z]?)\\b",
+    "note": "validated 100% recall vs 17,899 drafter hyperlinks, 2015-2026"
+   }
+  },
+  {
+   "id": "rcw-76",
+   "motivation": "identifying",
+   "body": {
+    "type": "statutory-citation",
+    "cite": "28B.77.240",
+    "status": "current"
+   },
+   "target": {
+    "source": "bill.md",
+    "selector": [
+     {
+      "type": "TextPositionSelector",
+      "start": 36494,
+      "end": 36504
+     },
+     {
+      "type": "TextQuoteSelector",
+      "exact": "28B.77.240",
+      "prefix": "recognized by the state of Washington under RCW ",
+      "suffix": ", serves a student population that is nontraditi"
+     },
+     {
+      "type": "SectionSelector",
+      "section": 11,
+      "markers": null
+     }
+    ]
+   },
+   "generatedBy": {
+    "type": "RegexRule",
+    "id": "rcw-cite-rule",
+    "version": "1.0",
+    "pattern": "\\b(\\d{1,2}[A-Za-z]?\\.\\d{1,3}[A-Za-z]?\\.\\d+[A-Za-z]?)\\b",
+    "note": "validated 100% recall vs 17,899 drafter hyperlinks, 2015-2026"
+   }
+  },
+  {
+   "id": "rcw-77",
+   "motivation": "identifying",
+   "body": {
+    "type": "statutory-citation",
+    "cite": "28B.77.005",
+    "status": "current"
+   },
+   "target": {
+    "source": "bill.md",
+    "selector": [
+     {
+      "type": "TextPositionSelector",
+      "start": 38190,
+      "end": 38200
+     },
+     {
+      "type": "TextQuoteSelector",
+      "exact": "28B.77.005",
+      "prefix": "rough 821, 902, and 904: See note following RCW ",
+      "suffix": ".\n\n> **Effective date\u2014**2011 1st sp.s. c 11 \u00a7\u00a7 1"
+     },
+     {
+      "type": "SectionSelector",
+      "section": 11,
+      "markers": null
+     }
+    ]
+   },
+   "generatedBy": {
+    "type": "RegexRule",
+    "id": "rcw-cite-rule",
+    "version": "1.0",
+    "pattern": "\\b(\\d{1,2}[A-Za-z]?\\.\\d{1,3}[A-Za-z]?\\.\\d+[A-Za-z]?)\\b",
+    "note": "validated 100% recall vs 17,899 drafter hyperlinks, 2015-2026"
+   }
+  },
+  {
+   "id": "rcw-78",
+   "motivation": "identifying",
+   "body": {
+    "type": "statutory-citation",
+    "cite": "28B.76.020",
+    "status": "current"
+   },
+   "target": {
+    "source": "bill.md",
+    "selector": [
+     {
+      "type": "TextPositionSelector",
+      "start": 38306,
+      "end": 38316
+     },
+     {
+      "type": "TextQuoteSelector",
+      "exact": "28B.76.020",
+      "prefix": "6-202, 204-244, and 301: See note following RCW ",
+      "suffix": ".\n\n> **Intent\u2014**2011 1st sp.s. c 11: See note fo"
+     },
+     {
+      "type": "SectionSelector",
+      "section": 11,
+      "markers": null
+     }
+    ]
+   },
+   "generatedBy": {
+    "type": "RegexRule",
+    "id": "rcw-cite-rule",
+    "version": "1.0",
+    "pattern": "\\b(\\d{1,2}[A-Za-z]?\\.\\d{1,3}[A-Za-z]?\\.\\d+[A-Za-z]?)\\b",
+    "note": "validated 100% recall vs 17,899 drafter hyperlinks, 2015-2026"
+   }
+  },
+  {
+   "id": "rcw-79",
+   "motivation": "identifying",
+   "body": {
+    "type": "statutory-citation",
+    "cite": "28B.76.020",
+    "status": "current"
+   },
+   "target": {
+    "source": "bill.md",
+    "selector": [
+     {
+      "type": "TextPositionSelector",
+      "start": 38376,
+      "end": 38386
+     },
+     {
+      "type": "TextQuoteSelector",
+      "exact": "28B.76.020",
+      "prefix": "t\u2014**2011 1st sp.s. c 11: See note following RCW ",
+      "suffix": ".\n\n> **Findings\u2014**Intent**\u2014**2009 c 238: See not"
+     },
+     {
+      "type": "SectionSelector",
+      "section": 11,
+      "markers": null
+     }
+    ]
+   },
+   "generatedBy": {
+    "type": "RegexRule",
+    "id": "rcw-cite-rule",
+    "version": "1.0",
+    "pattern": "\\b(\\d{1,2}[A-Za-z]?\\.\\d{1,3}[A-Za-z]?\\.\\d+[A-Za-z]?)\\b",
+    "note": "validated 100% recall vs 17,899 drafter hyperlinks, 2015-2026"
+   }
+  },
+  {
+   "id": "rcw-80",
+   "motivation": "identifying",
+   "body": {
+    "type": "statutory-citation",
+    "cite": "28C.18.160",
+    "status": "current"
+   },
+   "target": {
+    "source": "bill.md",
+    "selector": [
+     {
+      "type": "TextPositionSelector",
+      "start": 38450,
+      "end": 38460
+     },
+     {
+      "type": "TextQuoteSelector",
+      "exact": "28C.18.160",
+      "prefix": "**Intent**\u2014**2009 c 238: See note following RCW ",
+      "suffix": ".\n\n> **Findings\u2014**Intent**\u2014**2009 c 215: \"The le"
+     },
+     {
+      "type": "SectionSelector",
+      "section": 11,
+      "markers": null
+     }
+    ]
+   },
+   "generatedBy": {
+    "type": "RegexRule",
+    "id": "rcw-cite-rule",
+    "version": "1.0",
+    "pattern": "\\b(\\d{1,2}[A-Za-z]?\\.\\d{1,3}[A-Za-z]?\\.\\d+[A-Za-z]?)\\b",
+    "note": "validated 100% recall vs 17,899 drafter hyperlinks, 2015-2026"
+   }
+  },
+  {
+   "id": "rcw-81",
+   "motivation": "identifying",
+   "body": {
+    "type": "statutory-citation",
+    "cite": "28B.76.090",
+    "status": "current"
+   },
+   "target": {
+    "source": "bill.md",
+    "selector": [
+     {
+      "type": "TextPositionSelector",
+      "start": 40854,
+      "end": 40864
+     },
+     {
+      "type": "TextQuoteSelector",
+      "exact": "28B.76.090",
+      "prefix": "gs not law\u2014**2004 c 275: See note following RCW ",
+      "suffix": ".\n\n> **Intent\u2014**1989 c 254: \"It is the intent of"
+     },
+     {
+      "type": "SectionSelector",
+      "section": 11,
+      "markers": null
+     }
+    ]
+   },
+   "generatedBy": {
+    "type": "RegexRule",
+    "id": "rcw-cite-rule",
+    "version": "1.0",
+    "pattern": "\\b(\\d{1,2}[A-Za-z]?\\.\\d{1,3}[A-Za-z]?\\.\\d+[A-Za-z]?)\\b",
+    "note": "validated 100% recall vs 17,899 drafter hyperlinks, 2015-2026"
+   }
+  },
+  {
+   "id": "rcw-82",
+   "motivation": "identifying",
+   "body": {
+    "type": "statutory-citation",
+    "cite": "28B.77.060",
+    "status": "current"
+   },
+   "target": {
+    "source": "bill.md",
+    "selector": [
+     {
+      "type": "TextPositionSelector",
+      "start": 41200,
+      "end": 41210
+     },
+     {
+      "type": "TextQuoteSelector",
+      "exact": "28B.77.060",
+      "prefix": "**1975 1st ex.s. c 132: See notes following RCW ",
+      "suffix": ".\n\n> Loan programs for mathematics and science t"
+     },
+     {
+      "type": "SectionSelector",
+      "section": 11,
+      "markers": null
+     }
+    ]
+   },
+   "generatedBy": {
+    "type": "RegexRule",
+    "id": "rcw-cite-rule",
+    "version": "1.0",
+    "pattern": "\\b(\\d{1,2}[A-Za-z]?\\.\\d{1,3}[A-Za-z]?\\.\\d+[A-Za-z]?)\\b",
+    "note": "validated 100% recall vs 17,899 drafter hyperlinks, 2015-2026"
+   }
+  },
+  {
+   "id": "rcw-83",
+   "motivation": "identifying",
+   "body": {
+    "type": "statutory-citation",
+    "cite": "28B.15.760",
+    "status": "current"
+   },
+   "target": {
+    "source": "bill.md",
+    "selector": [
+     {
+      "type": "TextPositionSelector",
+      "start": 41271,
+      "end": 41281
+     },
+     {
+      "type": "TextQuoteSelector",
+      "exact": "28B.15.760",
+      "prefix": "grams for mathematics and science teachers: RCW ",
+      "suffix": " through 28B.15.766.\n\n## Sec. 12. A new section "
+     },
+     {
+      "type": "SectionSelector",
+      "section": 11,
+      "markers": null
+     }
+    ]
+   },
+   "generatedBy": {
+    "type": "RegexRule",
+    "id": "rcw-cite-rule",
+    "version": "1.0",
+    "pattern": "\\b(\\d{1,2}[A-Za-z]?\\.\\d{1,3}[A-Za-z]?\\.\\d+[A-Za-z]?)\\b",
+    "note": "validated 100% recall vs 17,899 drafter hyperlinks, 2015-2026"
+   }
+  },
+  {
+   "id": "rcw-84",
+   "motivation": "identifying",
+   "body": {
+    "type": "statutory-citation",
+    "cite": "28B.15.766",
+    "status": "current"
+   },
+   "target": {
+    "source": "bill.md",
+    "selector": [
+     {
+      "type": "TextPositionSelector",
+      "start": 41290,
+      "end": 41300
+     },
+     {
+      "type": "TextQuoteSelector",
+      "exact": "28B.15.766",
+      "prefix": "cs and science teachers: RCW 28B.15.760 through ",
+      "suffix": ".\n\n## Sec. 12. A new section is added to chapter"
+     },
+     {
+      "type": "SectionSelector",
+      "section": 11,
+      "markers": null
+     }
+    ]
+   },
+   "generatedBy": {
+    "type": "RegexRule",
+    "id": "rcw-cite-rule",
+    "version": "1.0",
+    "pattern": "\\b(\\d{1,2}[A-Za-z]?\\.\\d{1,3}[A-Za-z]?\\.\\d+[A-Za-z]?)\\b",
+    "note": "validated 100% recall vs 17,899 drafter hyperlinks, 2015-2026"
+   }
+  },
+  {
+   "id": "rcw-85",
+   "motivation": "identifying",
+   "body": {
+    "type": "statutory-citation",
+    "cite": "28A.320.196",
+    "status": "current"
+   },
+   "target": {
+    "source": "bill.md",
+    "selector": [
+     {
+      "type": "TextPositionSelector",
+      "start": 41870,
+      "end": 41881
+     },
+     {
+      "type": "TextQuoteSelector",
+      "exact": "28A.320.196",
+      "prefix": " acts or parts of acts are each repealed:\n\n1RCW ",
+      "suffix": " (Academic acceleration incentive program\u2014Dual c"
+     },
+     {
+      "type": "SectionSelector",
+      "section": 13,
+      "markers": null
+     }
+    ]
+   },
+   "generatedBy": {
+    "type": "RegexRule",
+    "id": "rcw-cite-rule",
+    "version": "1.0",
+    "pattern": "\\b(\\d{1,2}[A-Za-z]?\\.\\d{1,3}[A-Za-z]?\\.\\d+[A-Za-z]?)\\b",
+    "note": "validated 100% recall vs 17,899 drafter hyperlinks, 2015-2026"
+   }
+  },
+  {
+   "id": "rcw-86",
+   "motivation": "identifying",
+   "body": {
+    "type": "statutory-citation",
+    "cite": "28A.600.290",
+    "status": "historical"
+   },
+   "target": {
+    "source": "bill.md",
+    "selector": [
+     {
+      "type": "TextPositionSelector",
+      "start": 42050,
+      "end": 42061
+     },
+     {
+      "type": "TextQuoteSelector",
+      "exact": "28A.600.290",
+      "prefix": " 4, 2015 c 202 s 2, &amp; 2013 c 184 s 3;\n\n2RCW ",
+      "suffix": " (College in the high school program\u2014Funding) an"
+     },
+     {
+      "type": "SectionSelector",
+      "section": 13,
+      "markers": null
+     }
+    ]
+   },
+   "generatedBy": {
+    "type": "RegexRule",
+    "id": "rcw-cite-rule",
+    "version": "1.0",
+    "pattern": "\\b(\\d{1,2}[A-Za-z]?\\.\\d{1,3}[A-Za-z]?\\.\\d+[A-Za-z]?)\\b",
+    "note": "validated 100% recall vs 17,899 drafter hyperlinks, 2015-2026"
+   }
+  },
+  {
+   "id": "rcw-87",
+   "motivation": "identifying",
+   "body": {
+    "type": "statutory-citation",
+    "cite": "28B.76.730",
+    "status": "current"
+   },
+   "target": {
+    "source": "bill.md",
+    "selector": [
+     {
+      "type": "TextPositionSelector",
+      "start": 42188,
+      "end": 42198
+     },
+     {
+      "type": "TextQuoteSelector",
+      "exact": "28B.76.730",
+      "prefix": ", 2012 c 229 s 801, &amp; 2009 c 450 s 3;\n\n3RCW ",
+      "suffix": " (Washington dual enrollment scholarship pilot p"
+     },
+     {
+      "type": "SectionSelector",
+      "section": 13,
+      "markers": null
+     }
+    ]
+   },
+   "generatedBy": {
+    "type": "RegexRule",
+    "id": "rcw-cite-rule",
+    "version": "1.0",
+    "pattern": "\\b(\\d{1,2}[A-Za-z]?\\.\\d{1,3}[A-Za-z]?\\.\\d+[A-Za-z]?)\\b",
+    "note": "validated 100% recall vs 17,899 drafter hyperlinks, 2015-2026"
+   }
+  },
+  {
+   "id": "rcw-88",
+   "motivation": "identifying",
+   "body": {
+    "type": "statutory-citation",
+    "cite": "43.131.427",
+    "status": "current"
+   },
+   "target": {
+    "source": "bill.md",
+    "selector": [
+     {
+      "type": "TextPositionSelector",
+      "start": 42317,
+      "end": 42327
+     },
+     {
+      "type": "TextQuoteSelector",
+      "exact": "43.131.427",
+      "prefix": " 6, 2020 c 259 s 1, &amp; 2019 c 176 s 1;\n\n4RCW ",
+      "suffix": " (Washington dual enrollment scholarship pilot p"
+     },
+     {
+      "type": "SectionSelector",
+      "section": 13,
+      "markers": null
+     }
+    ]
+   },
+   "generatedBy": {
+    "type": "RegexRule",
+    "id": "rcw-cite-rule",
+    "version": "1.0",
+    "pattern": "\\b(\\d{1,2}[A-Za-z]?\\.\\d{1,3}[A-Za-z]?\\.\\d+[A-Za-z]?)\\b",
+    "note": "validated 100% recall vs 17,899 drafter hyperlinks, 2015-2026"
+   }
+  },
+  {
+   "id": "rcw-89",
+   "motivation": "identifying",
+   "body": {
+    "type": "statutory-citation",
+    "cite": "43.131.428",
+    "status": "current"
+   },
+   "target": {
+    "source": "bill.md",
+    "selector": [
+     {
+      "type": "TextPositionSelector",
+      "start": 42425,
+      "end": 42435
+     },
+     {
+      "type": "TextQuoteSelector",
+      "exact": "43.131.428",
+      "prefix": "gram\u2014Termination) and 2019 c 176 s 3; and\n\n5RCW ",
+      "suffix": " (Washington dual enrollment scholarship pilot p"
+     },
+     {
+      "type": "SectionSelector",
+      "section": 13,
+      "markers": null
+     }
+    ]
+   },
+   "generatedBy": {
+    "type": "RegexRule",
+    "id": "rcw-cite-rule",
+    "version": "1.0",
+    "pattern": "\\b(\\d{1,2}[A-Za-z]?\\.\\d{1,3}[A-Za-z]?\\.\\d+[A-Za-z]?)\\b",
+    "note": "validated 100% recall vs 17,899 drafter hyperlinks, 2015-2026"
+   }
+  },
+  {
+   "id": "manual-1",
+   "motivation": "classifying",
+   "body": {
+    "type": "policy-topic",
+    "value": "dual-credit tuition subsidy",
+    "note": "manual example annotation per spike step 4"
+   },
+   "target": {
+    "source": "bill.md",
+    "selector": [
+     {
+      "type": "TextPositionSelector",
+      "start": 8893,
+      "end": 8935
+     },
+     {
+      "type": "TextQuoteSelector",
+      "exact": "The maximum per college credit tuition fee",
+      "prefix": "in this subsection (5).\n\n(b)(i) ",
+      "suffix": " for a program course is <del>$6"
+     },
+     {
+      "type": "SectionSelector",
+      "section": 5,
+      "markers": "(b)(i)"
+     }
+    ]
+   },
+   "creator": "manual"
+  }
+ ]
+}

@@ -1,0 +1,327 @@
+[
+ {
+  "op": "replace",
+  "old": "$65",
+  "new": "$42.50",
+  "section": 5,
+  "markers": "(b)(i)"
+ },
+ {
+  "op": "replace",
+  "old": "that college credit earned upon successful completion of a program course may count only as elective credit if transferred to another institution of higher education",
+  "new": "most but not all institutions of higher education may recognize and accept this credit",
+  "section": 5,
+  "markers": "(iv)"
+ },
+ {
+  "op": "insert",
+  "new": "Every school district must allow eligible students as described in subsection (2) of this section to participate in the running start program.",
+  "section": 8,
+  "markers": "(1)"
+ },
+ {
+  "op": "insert",
+  "new": "(2) Student eligibility for the running start program is as follows:",
+  "section": 8,
+  "markers": null
+ },
+ {
+  "op": "replace",
+  "old": "twelfth",
+  "new": "12th",
+  "section": 8,
+  "markers": "(a)"
+ },
+ {
+  "op": "replace",
+  "old": "eleventh",
+  "new": "11th",
+  "section": 8,
+  "markers": "(a)"
+ },
+ {
+  "op": "replace",
+  "old": "twelfth",
+  "new": "12th",
+  "section": 8,
+  "markers": "(a)"
+ },
+ {
+  "op": "replace",
+  "old": "s",
+  "new": ", including students receiving home-based instruction under chapter 28A.200 RCW and students attending private schools approved under chapter 28A.195 RCW,",
+  "section": 8,
+  "markers": "(a)"
+ },
+ {
+  "op": "replace",
+  "old": "The course sections and programs offered as running start courses must also be open for registration to matriculated students at the participating institution of higher education and may not be a course consisting solely of high school students offered at a high school campus.</del>\n\n<del>(c) A student",
+  "new": "High school graduates who have 15 or fewer college credits to earn before meeting associate degree requirements may continue participation in the running start program and earn up to 15 college credits during the summer academic term following their high school graduation.",
+  "section": 8,
+  "markers": "(b)"
+ },
+ {
+  "op": "insert",
+  "new": "(3) Students",
+  "section": 8,
+  "markers": null
+ },
+ {
+  "op": "insert",
+  "new": "under chapter 28A.200 RCW",
+  "section": 8,
+  "markers": null
+ },
+ {
+  "op": "replace",
+  "old": "Students receiving home-based instruction under chapter 28A.200 RCW and students attending private schools approved under chapter 28A.195 RCW shall not be required to meet the student learning goals or to learn the state learning standards. However, students are eligible to enroll in courses or programs in participating universities only if the board of directors of the student's school district has decided to participate in the program.",
+  "new": "(4)",
+  "section": 8,
+  "markers": null
+ },
+ {
+  "op": "replace",
+  "old": "these",
+  "new": "eligible",
+  "section": 8,
+  "markers": null
+ },
+ {
+  "op": "replace",
+  "old": "pupil",
+  "new": "student",
+  "section": 8,
+  "markers": null
+ },
+ {
+  "op": "replace",
+  "old": "pupil",
+  "new": "student",
+  "section": 8,
+  "markers": null
+ },
+ {
+  "op": "replace",
+  "old": "pupil's",
+  "new": "student's",
+  "section": 8,
+  "markers": null
+ },
+ {
+  "op": "replace",
+  "old": "ten",
+  "new": "10",
+  "section": 8,
+  "markers": null
+ },
+ {
+  "op": "replace",
+  "old": "pupil",
+  "new": "student",
+  "section": 8,
+  "markers": null
+ },
+ {
+  "op": "replace",
+  "old": "(2)",
+  "new": "(5) The course sections and programs offered as running start courses must be open for registration to matriculated students at the participating institution of higher education and may not be a course consisting solely of high school students offered at a high school campus.",
+  "section": 8,
+  "markers": null
+ },
+ {
+  "op": "insert",
+  "new": "(6)",
+  "section": 8,
+  "markers": null
+ },
+ {
+  "op": "replace",
+  "old": "ten",
+  "new": "10",
+  "section": 8,
+  "markers": "(i)"
+ },
+ {
+  "op": "replace",
+  "old": "ten",
+  "new": "10",
+  "section": 8,
+  "markers": "(ii)"
+ },
+ {
+  "op": "replace",
+  "old": "(2)",
+  "new": "(6)",
+  "section": 8,
+  "markers": "(b)"
+ },
+ {
+  "op": "insert",
+  "new": "(6)",
+  "section": 8,
+  "markers": "(c)"
+ },
+ {
+  "op": "replace",
+  "old": "(3)",
+  "new": "(7)",
+  "section": 8,
+  "markers": null
+ },
+ {
+  "op": "replace",
+  "old": "low-income running start students. A student shall be considered low income and eligible for a fee waiver upon proof that the student is currently qualified to receive free or reduced-price lunch. Acceptable documentation of low-income status may also include, but is not limited to, documentation that a student has been deemed eligible for free or reduced-price lunches in the last five years, or other criteria established in the institution's policy",
+  "new": "eligible students as defined in section 2 of this act",
+  "section": 8,
+  "markers": null
+ },
+ {
+  "op": "insert",
+  "new": "registration processes,",
+  "section": 8,
+  "markers": "(c)"
+ },
+ {
+  "op": "replace",
+  "old": "(4)",
+  "new": "(8)",
+  "section": 8,
+  "markers": null
+ },
+ {
+  "op": "replace",
+  "old": "pupil's",
+  "new": "student's",
+  "section": 8,
+  "markers": null
+ },
+ {
+  "op": "insert",
+  "new": ", and equivalent amounts for high school graduates enrolled in running start summer courses under section 6(6)(a)(ii) of this act,",
+  "section": 8,
+  "markers": null
+ },
+ {
+  "op": "insert",
+  "new": "(9) This section governs school operation and management under RCW 28A.710.040 and 28A.715.020 and applies to charter schools established under chapter 28A.710 RCW and state-tribal education compact schools established under chapter 28A.715 RCW to the same extent as it applies to school districts.",
+  "section": 8,
+  "markers": null
+ },
+ {
+  "op": "insert",
+  "new": "and section 7 of this act",
+  "section": 9,
+  "markers": null
+ },
+ {
+  "op": "replace",
+  "old": ", and in the future</del>.\n\n> **Finding\u2014**Severability**\u2014**1990 1st ex.s. c 9: See notes following RCW 28A.225.220.\n\n## Sec. 11. RCW 28B.92.030 and 2022 c 166 s 1 are each amended to read as follows:\n\n*Definitions.*\n\nThe definitions in this section apply throughout this chapter unless the context clearly requires otherwise.\n\n(1) \"Council\" means the student achievement council.\n\n(2) <ins>\"Dual credit incentive rebate\" means a one-time, lump sum grant provided in addition to the Washington college grant to provide supplementary financial support to low-income students.</ins>\n\n<ins>(3) \"Dual credit program\" means a program in which a student qualifies for both postsecondary and high school credit upon either successfully completing a dual credit course or by passing a dual credit exam.</ins>\n\n<ins>(4)</ins> \"Financial aid\" means either loans, grants, or both, to students who demonstrate financial need enrolled or accepted for enrollment as a student at institutions of higher education.\n\n<del>(3)",
+  "new": "(5)",
+  "section": 10,
+  "markers": null
+ },
+ {
+  "op": "replace",
+  "old": "(4)",
+  "new": "(6)",
+  "section": 11,
+  "markers": null
+ },
+ {
+  "op": "replace",
+  "old": "or</del>\n\n(b) Any other university, college, school, or institute in the state of Washington offering instruction beyond the high school level that is a member institution of an accrediting association recognized by rule of the council for the purposes of this section and that agrees to and complies with program rules adopted pursuant to RCW 28B.92.150. However, any institution, branch, extension or facility operating within the state of Washington that is affiliated with an institution operating in another state must be:\n\n(i) A separately accredited member institution of any such accrediting association;\n\n(ii) A branch of a member institution of an accrediting association recognized by rule of the council for purposes of this section, that is eligible for federal student financial aid assistance and has operated as a nonprofit college or university delivering on-site classroom instruction for a minimum of <del>twenty",
+  "new": "20",
+  "section": 11,
+  "markers": "(a)"
+ },
+ {
+  "op": "replace",
+  "old": "seven hundred",
+  "new": "700",
+  "section": 11,
+  "markers": "(ii)"
+ },
+ {
+  "op": "insert",
+  "new": "or",
+  "section": 11,
+  "markers": "(ii)"
+ },
+ {
+  "op": "replace",
+  "old": "(iv)",
+  "new": "(c)",
+  "section": 11,
+  "markers": null
+ },
+ {
+  "op": "replace",
+  "old": "(5)",
+  "new": "(7)",
+  "section": 11,
+  "markers": null
+ },
+ {
+  "op": "replace",
+  "old": "fifteen",
+  "new": "15",
+  "section": 11,
+  "markers": "(a)"
+ },
+ {
+  "op": "replace",
+  "old": "nine thousand seven hundred thirty-nine dollars",
+  "new": "$9,739",
+  "section": 11,
+  "markers": "(b)"
+ },
+ {
+  "op": "replace",
+  "old": "three thousand six hundred ninety-four dollars",
+  "new": "$3,694",
+  "section": 11,
+  "markers": "(c)"
+ },
+ {
+  "op": "replace",
+  "old": "eight thousand five hundred seventeen dollars",
+  "new": "$8,517",
+  "section": 11,
+  "markers": "(d)"
+ },
+ {
+  "op": "replace",
+  "old": "two thousand eight hundred twenty-three dollars",
+  "new": "$2,823",
+  "section": 11,
+  "markers": "(e)"
+ },
+ {
+  "op": "replace",
+  "old": "five thousand six hundred nineteen dollars",
+  "new": "$5,619",
+  "section": 11,
+  "markers": "(f)"
+ },
+ {
+  "op": "replace",
+  "old": "(6)",
+  "new": "(8)",
+  "section": 11,
+  "markers": null
+ },
+ {
+  "op": "replace",
+  "old": "(7)",
+  "new": "(9)",
+  "section": 11,
+  "markers": null
+ },
+ {
+  "op": "replace",
+  "old": "fourteen",
+  "new": "14",
+  "section": 11,
+  "markers": null
+ }
+]

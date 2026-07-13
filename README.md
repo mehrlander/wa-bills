@@ -54,9 +54,9 @@ DRS bill tracker page; it loads from `wsl-api/data/` and `bills/content/`.
   few extracted fields or term counts; a study keeps everything about one
   bill. Both live under `bills/`.
 - **Full bill texts live in `bills/texts/`.** Imported 2026-07-11/12:
-  all House and Senate bill documents, thirteen biennia (2001-02
-  through 2025-26; XML from 2003-04), verified against the source
-  directory listings.
+  all House and Senate bill documents, fourteen biennia (1999-00
+  through 2025-26; XML from 2003-04), the full reach of the server's
+  bill archive, verified against the source directory listings.
   `.gitignore` still blocks `*.xml`/`*.htm`/`*.pdf` everywhere else, so
   bill documents outside `bills/texts/` and the studies' `raw/` folders
   remain a deliberate `git add -f` decision.

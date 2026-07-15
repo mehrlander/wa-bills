@@ -1,18 +1,81 @@
 {
   "description": "Washington State legislation data by biennium",
   "source": "Washington State Legislature API",
-  "total_bills": 40160,
+  "total_bills": 95395,
   "formats": {
     "json": "Full bill records as JSON arrays (json/{biennium}.json)",
     "csv": "Flattened tabular format for spreadsheets (csv/{biennium}.csv)"
   },
   "bienniums": [
     {
+      "biennium": "1991-92",
+      "json_file": "json/1991-92.json",
+      "csv_file": "csv/1991-92.csv",
+      "bill_count": 4951,
+      "json_size_bytes": 2871938
+    },
+    {
+      "biennium": "1993-94",
+      "json_file": "json/1993-94.json",
+      "csv_file": "csv/1993-94.csv",
+      "bill_count": 4934,
+      "json_size_bytes": 2895064
+    },
+    {
+      "biennium": "1995-96",
+      "json_file": "json/1995-96.json",
+      "csv_file": "csv/1995-96.csv",
+      "bill_count": 5306,
+      "json_size_bytes": 3083361
+    },
+    {
+      "biennium": "1997-98",
+      "json_file": "json/1997-98.json",
+      "csv_file": "csv/1997-98.csv",
+      "bill_count": 5569,
+      "json_size_bytes": 3223331
+    },
+    {
+      "biennium": "1999-00",
+      "json_file": "json/1999-00.json",
+      "csv_file": "csv/1999-00.csv",
+      "bill_count": 5427,
+      "json_size_bytes": 3290476
+    },
+    {
+      "biennium": "2001-02",
+      "json_file": "json/2001-02.json",
+      "csv_file": "csv/2001-02.csv",
+      "bill_count": 5292,
+      "json_size_bytes": 3150410
+    },
+    {
+      "biennium": "2003-04",
+      "json_file": "json/2003-04.json",
+      "csv_file": "csv/2003-04.csv",
+      "bill_count": 5594,
+      "json_size_bytes": 3277365
+    },
+    {
+      "biennium": "2005-06",
+      "json_file": "json/2005-06.json",
+      "csv_file": "csv/2005-06.csv",
+      "bill_count": 6066,
+      "json_size_bytes": 3515420
+    },
+    {
+      "biennium": "2007-08",
+      "json_file": "json/2007-08.json",
+      "csv_file": "csv/2007-08.csv",
+      "bill_count": 6398,
+      "json_size_bytes": 3657716
+    },
+    {
       "biennium": "2009-10",
       "json_file": "json/2009-10.json",
       "csv_file": "csv/2009-10.csv",
-      "bill_count": 2318,
-      "json_size_bytes": 1353899
+      "bill_count": 5954,
+      "json_size_bytes": 3497157
     },
     {
       "biennium": "2011-12",
@@ -60,15 +123,15 @@
       "biennium": "2023-24",
       "json_file": "json/2023-24.json",
       "csv_file": "csv/2023-24.csv",
-      "bill_count": 4800,
-      "json_size_bytes": 2431572
+      "bill_count": 4801,
+      "json_size_bytes": 2431734
     },
     {
       "biennium": "2025-26",
       "json_file": "json/2025-26.json",
       "csv_file": "csv/2025-26.csv",
-      "bill_count": 3184,
-      "json_size_bytes": 1635651
+      "bill_count": 5245,
+      "json_size_bytes": 2704040
     }
   ],
   "fields": [

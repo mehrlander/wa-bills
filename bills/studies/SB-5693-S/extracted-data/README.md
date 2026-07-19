@@ -19,9 +19,9 @@ A comprehensive extraction and analysis of **HB 5693-S** (2021-2023 Supplemental
 ## HB 5693-S Files
 
 ### Core Files
-- **`5693-S.xml`** - Source bill in XML format (2.7 MB)
-- **`5693-S.htm`** - Source bill in HTML format (2.9 MB)
-- **`hb5693-data.json`** - Extracted structured data (~15 MB)
+- **`../raw/5693-S.xml`** - Source bill in XML format (2.7 MB)
+- **`../raw/5693-S.htm`** - Source bill in HTML format (2.9 MB)
+- **`hb5693-data.json`** - Extracted structured data (~2.4 MB)
 
 ### Tools
 - **`bill-extractor.js`** - JavaScript extraction library (works in browser and Node.js)

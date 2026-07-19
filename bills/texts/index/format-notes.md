@@ -2,9 +2,9 @@
 
 A parsing-oriented survey of the full-text bill corpus under `bills/texts/`, written for
 whoever builds extraction tooling next. On-disk layout is `<biennium>/<fmt>/<chamber>/<name>`,
-where `fmt` is `Htm` or `Xml` and `chamber` is `House` or `Senate`. Thirteen biennia,
-2001-02 through 2025-26. Htm exists for all thirteen; Xml begins in 2003-04 (2001-02 has no
-`Xml` directory).
+where `fmt` is `Htm` or `Xml` and `chamber` is `House` or `Senate`. Fourteen biennia,
+1999-00 through 2025-26. Htm exists for all fourteen; Xml begins in 2003-04 (1999-00 and
+2001-02 have no `Xml` directory).
 
 Every claim below was read off an actual file. Paths are repo-relative from the repo root.
 Counts and version-suffix taxonomy live in the sibling files `index/integrity-report.md`
@@ -17,9 +17,10 @@ up between Htm and Xml.
 
 | Biennia | Htm generation | Xml generation |
 |---|---|---|
+| 1999-00 | H1: MS-Word-filtered HTML | (none) |
 | 2001-02 | H1: MS-Word-filtered HTML | (none) |
 | 2003-04 | H2: FONT/CENTER + field comments | X1: LSC DTD |
-| 2005-06 .. 2008 | H2 | X1 |
+| 2005-06 .. 2007-08 | H2 | X1 |
 | 2009-10 .. 2011-12 | H2 | X1 (system-id + encoding-case shift) |
 | 2013-14 | H2 | X1 |
 | 2015-16 .. 2017-18 | H3: XHTML div/style, BOM | X2: 2012 namespace |
@@ -40,7 +41,7 @@ Key transition facts:
 
 ## 2. HTM generations
 
-### H1 — MS-Word-filtered HTML (2001-02 only)
+### H1 — MS-Word-filtered HTML (1999-00 and 2001-02)
 
 Example: `2001-02/Htm/House/1000-S.htm`, `2001-02/Htm/Senate/5347-S.htm` (budget-sized,
 1.67 MB).
@@ -113,11 +114,13 @@ Example: `2019-20/Htm/House/1000.htm`, `2019-20/Htm/House/1023-S.E.htm`.
 - UTF-8 BOM, then bare `<html><body>` (no `xmlns`, no `<head>`). Horizontal rules are
   `<hr style=...></hr>`. Bill id is again `<div style="font-weight:bold;text-align:center;">
   HOUSE BILL 1000</div>`.
-- Field comments present, **but doubled**: this biennium emits each marker twice, e.g.
-  `<!-- field: Sponsors --><!-- field: Sponsors -->Representative Klippert<!-- field: --><!-- field: -->`.
-  Verified across the first several files; the doubling is systematic in 2019-20. An extractor
+- Field comments present, and in many files **doubled**: 2,109 of the 5,633 files (37%)
+  emit each marker twice, e.g.
+  `<!-- field: Sponsors --><!-- field: Sponsors -->Representative Klippert<!-- field: --><!-- field: -->`;
+  the other 3,524 emit each marker once. The doubling skews toward plain as-introduced
+  filenames (1,896 of the 2,109 doubled files). An extractor
   that matches the first opener to the first closer still captures the field, but a naive
-  count of markers will be off by 2x. This is the one Htm quirk most likely to trip regex-
+  count of markers will be off by 2x on the doubled files. This is the one Htm quirk most likely to trip regex-
   based tooling.
 - No html entities for spacing (`&nbsp;` count 0, numeric entities 0); literal UTF-8 plus CSS.
 
@@ -145,8 +148,8 @@ Examples: `2007-08/Xml/House/1000.xml`, `2007-08/Xml/House/1008-S.E.xml` (amenda
   `<!DOCTYPE Bill PUBLIC "-//LSC//DTD Authoring Bill XML//EN" "...billauthoring.top">`.
   **No default namespace, no BOM.**
 - Root: `<Bill version="1.0" type="introLN">`. Some substitute/engrossed reprints carry an
-  extra `docName="ESHB 1000"` (or a request-style `docName="S-5439.1"`) attribute; base
-  bills do not. Do not depend on `docName`.
+  extra `docName="ESHB 1000"` (or a request-style `docName="S-5439.1"`) attribute; many base
+  bills carry it too. Do not depend on `docName`.
 - Header block `<IntroducedBillHeader>`:
   - `<RequestNumber>H-0135.1</RequestNumber>` (present on as-introduced; omitted on some
     engrossed reprints, mirroring the Htm "BILL REQ" line).

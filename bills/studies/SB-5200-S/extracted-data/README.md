@@ -42,7 +42,7 @@ Repository for parsing and analyzing Washington State budget bills in XML, HTM, 
 ## 📁 Repository Contents
 
 ### HB 5200-S (Capital Budget)
-- `5200-S.xml` - Source XML (2.0 MB)
+- `../raw/5200-S.xml` - Source XML (2.0 MB)
 - `hb5200-data.json` - Extracted data (1.8 MB)
 - `bill-extractor.js` - Extraction library
 - `extract-bill-data.js` - Node.js extraction script

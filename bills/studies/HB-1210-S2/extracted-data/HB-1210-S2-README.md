@@ -9,9 +9,9 @@ This project provides a comprehensive toolkit for extracting, analyzing, and que
 ## 📦 Deliverables
 
 ### 1. **Data Files**
-- `1210-S2.xml` - Original bill in XML format (1.1 MB)
-- `1210-S2.htm` - Original bill in HTM format (1.0 MB)
-- `1210-S2-data.json` - Extracted structured data (~200 KB)
+- `../raw/1210-S2.xml` - Original bill in XML format (1.1 MB)
+- `../raw/1210-S2.htm` - Original bill in HTM format (1.0 MB)
+- `1210-S2-data.json` - Extracted structured data (~138 KB)
 
 ### 2. **Extraction Tools**
 - `bill-extractor.js` - JavaScript library for browser and Node.js

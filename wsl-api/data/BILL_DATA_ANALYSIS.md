@@ -6,7 +6,7 @@ This document analyzes the CSV legislation data stored by biennium and proposes 
 
 **Data Coverage:**
 - 9 bienniums: 2009-10 through 2025-26
-- 40,161 total rows across all files
+- 45,858 total rows across all files
 - 35 columns per file (consistent schema)
 
 ---
@@ -32,8 +32,8 @@ This document analyzes the CSV legislation data stored by biennium and proposes 
 
 **Version Distribution (2023-24):**
 ```
-SubstituteVersion: 0=3464, 1=1109, 2=215, 3=10, 4=2
-EngrossedVersion:  0=4459, 1=329, 2=12
+SubstituteVersion: 0=3465, 1=1109, 2=215, 3=10, 4=2
+EngrossedVersion:  0=4460, 1=329, 2=12
 ```
 
 ### Bill Type Fields
@@ -44,7 +44,7 @@ EngrossedVersion:  0=4459, 1=329, 2=12
 | `ShortLegislationType.LongLegislationType` | string | 7 | Full names |
 
 **Type Codes:**
-- `B` = Bill (4,158) - legislation
+- `B` = Bill (4,159) - legislation
 - `GA` = Gubernatorial Appointment (453) - confirmations
 - `R` = Resolution (102) - single chamber
 - `CR` = Concurrent Resolution (30) - both chambers
@@ -57,7 +57,7 @@ EngrossedVersion:  0=4459, 1=329, 2=12
 | Column | Count when 1 | Description |
 |--------|--------------|-------------|
 | `RequestedByGovernor` | 57 | Governor's request |
-| `RequestedByDepartment` | 395 | Agency request |
+| `RequestedByDepartment` | 396 | Agency request |
 | `RequestedByBudgetCommittee` | 2 | Budget committee |
 | `RequestedByOther` | 178 | Other entity |
 
@@ -75,9 +75,9 @@ EngrossedVersion:  0=4459, 1=329, 2=12
 
 | Column | Type | Max Length | Description |
 |--------|------|------------|-------------|
-| `ShortDescription` | string | ~50 chars | Brief topic (e.g., "Working families' tax credit") |
-| `LongDescription` | string | ~300 chars | Fuller explanation |
-| `LegalTitle` | string | ~500 chars | Formal "AN ACT Relating to..." title |
+| `ShortDescription` | string | ~30 chars | Brief topic (e.g., "Working families' tax credit") |
+| `LongDescription` | string | ~520 chars | Fuller explanation |
+| `LegalTitle` | string | ~730 chars | Formal "AN ACT Relating to..." title |
 
 ### Sponsorship Fields
 
@@ -127,7 +127,7 @@ EngrossedVersion:  0=4459, 1=329, 2=12
 | `Companions.Companion.BillId` | Companion bill ID |
 | `Companions.Companion.Status` | Companion's status |
 
-**Stats (2023-24):** 1,006 of 4,800 rows have a companion bill (House/Senate counterpart).
+**Stats (2023-24):** 1,006 of 4,801 rows have a companion bill (House/Senate counterpart).
 
 ### Other Fields
 
@@ -192,8 +192,8 @@ Of the 2,826 unique bills (type B) in 2023-24:
 | Versions | Bills | Percentage |
 |----------|-------|------------|
 | 1 | 1,721 | 60.9% |
-| 2 | 890 | 31.5% |
-| 3 | 205 | 7.3% |
+| 2 | 889 | 31.5% |
+| 3 | 206 | 7.3% |
 | 4 | 8 | 0.3% |
 | 5 | 2 | 0.1% |
 
@@ -202,8 +202,8 @@ Of the 2,826 unique bills (type B) in 2023-24:
 ### Substitute/Engrossed Breakdown
 
 ```
-SubstituteVersion: 0=2826, 1=1105, 2=215, 3=10, 4=2
-EngrossedVersion:  0=3819, 1=327, 2=12
+SubstituteVersion: 0=2827, 1=1105, 2=215, 3=10, 4=2
+EngrossedVersion:  0=3820, 1=327, 2=12
 ```
 
 ### Active Flag Distribution
@@ -285,9 +285,9 @@ This significant variance (approximately 35%) supports placing fiscal note field
 
 | Field | Count=1 | Count=0 |
 |-------|---------|---------|
-| StateFiscalNote | 2,931 | 1,227 |
-| LocalFiscalNote | 1,071 | 3,087 |
-| Appropriations | 4 | 4,154 |
+| StateFiscalNote | 2,907 | 1,252 |
+| LocalFiscalNote | 1,061 | 3,098 |
+| Appropriations | 4 | 4,155 |
 
 ---
 
@@ -322,21 +322,21 @@ Some records have incomplete status data:
 
 | Biennium | Total Rows | Placeholder Records | Percentage |
 |----------|-----------|---------------------|------------|
-| 2009-10 | 2,318 | 6 | 0.3% |
+| 2009-10 | 5,954 | 6 | 0.1% |
 | 2011-12 | 5,003 | 11 | 0.2% |
 | 2013-14 | 4,906 | 13 | 0.3% |
 | 2015-16 | 5,216 | 0 | 0.0% |
 | 2017-18 | 5,577 | 14 | 0.3% |
 | 2019-20 | 5,766 | 22 | 0.4% |
 | 2021-22 | 3,390 | 9 | 0.3% |
-| 2023-24 | 4,800 | 8 | 0.2% |
-| 2025-26 | 3,184 | 188 | 5.9% |
+| 2023-24 | 4,801 | 9 | 0.2% |
+| 2025-26 | 5,245 | 348 | 6.6% |
 
 The active biennium (2025-26) has significantly more placeholder records, representing in-progress or proposed states.
 
-### Duplicate BillId Issue (2025-26 Only)
+### Duplicate BillId Issue
 
-In completed bienniums (2009-10 through 2023-24), BillId is unique. However, the active 2025-26 biennium contains **5 cases of duplicate BillIds**:
+In completed bienniums (2009-10 through 2021-22), BillId is unique. However, the active 2025-26 biennium contains **10 cases of duplicate BillIds**:
 
 | BillId | Duplicate Rows | Pattern |
 |--------|---------------|---------|
@@ -345,6 +345,11 @@ In completed bienniums (2009-10 through 2023-24), BillId is unique. However, the
 | HB 1217 | 3 | All placeholders (Active=0) |
 | SB 5167 | 3 | Mixed: one real date, two placeholders |
 | SSB 5316 | 2 | One passed (Active=1), one placeholder (Active=0) |
+| EHB 2487 | 2 | One passed (Active=1), one placeholder (Active=0) |
+| HB 2325 | 2 | Mixed: one real date, one placeholder |
+| HB 2487 | 2 | All placeholders (Active=0) |
+| SB 5865 | 2 | Mixed: one real date, one placeholder |
+| SSB 5552 | 2 | All placeholders (Active=0) |
 
 **Key finding:** `SubstituteVersion` and `EngrossedVersion` do NOT distinguish these duplicates—they have identical values. The distinguishing factors are:
 - `Active` flag (typically 1 vs 0)

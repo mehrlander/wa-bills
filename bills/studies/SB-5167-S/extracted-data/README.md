@@ -108,8 +108,8 @@ const byYear = _.chain(billData.appropriations)
 
 | File | Description | Size |
 |------|-------------|------|
-| `5167-S.xml` | Source bill (XML format) | 4.2 MB |
-| `5167-S.htm` | Source bill (HTML format) | 4.5 MB |
+| `../raw/5167-S.xml` | Source bill (XML format) | 4.2 MB |
+| `../raw/5167-S.htm` | Source bill (HTML format) | 4.5 MB |
 | `bill-extractor.js` | Extraction library | 25 KB |
 | `HB5167-S-data.json` | Extracted data | ~2 MB |
 | `schema.json` | JSON Schema | 8 KB |

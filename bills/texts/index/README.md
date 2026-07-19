@@ -1,11 +1,11 @@
 # bills/texts/index/
 
 Structured metadata extracted from the full-text corpus in `bills/texts/`.
-One JSONL file per biennium plus five cross-cutting reports.
+One JSONL file per biennium from 2001-02 forward, plus five cross-cutting reports.
 
-The corpus itself is raw HTM and XML bill documents (133,160 files, 4.08 GB).
+The corpus itself is raw HTM and XML bill documents (138,706 files, 4.29 GB).
 This directory is the derived, queryable layer: **133,160 document records,
-one line per source file** (69,280 HTM, 63,880 XML), one record per file. It
+one line per indexed source file** (69,280 HTM, 63,880 XML), one record per file. It
 carries no bill text, only extracted fields, so it is cheap to load and grep.
 
 Both formats are indexed. HTM is rendered from the same bills as the XML, but
@@ -72,7 +72,7 @@ Two RCW fields, and the distinction matters:
 
 - **`rcw`** is the **acted-on set**: the RCW sections the bill amends, reenacts,
   repeals, recodifies, or decodifies, each with an action code
-  (`amend`, `reen`, `repeal`, `recod`, `decod`). For HTM it is parsed from the
+  (in HTM, `amend`, `reen`, `repeal`, `recod`, `decod`). For HTM it is parsed from the
   enacting-clause title ("AN ACT Relating to ...; amending RCW a, b; repealing
   RCW c; ..."), which by the state constitution's title requirement enumerates
   exactly the sections acted on. This is the authoritative amendment list. HTM
@@ -95,7 +95,7 @@ up, not acted-on sections. Filter XML `rcw` to non-null action, or use the HTM
   match 100%; acted-on RCW set matches 99.3%; documents the hyperlink caveat
   and the XML null-action cross-references.
 - `integrity-report.md` — the corpus checked against `manifest.json`. All
-  133,160 files present, sizes exact, nothing missing, no file under 200 bytes.
+  138,706 files present, sizes exact, nothing missing, no file under 200 bytes.
 - `version-suffixes.md` — taxonomy of the 18 filename version suffixes,
   each decoded and verified against a real document's long title.
 - `format-notes.md` — parsing survey of the HTM generations and the two XML

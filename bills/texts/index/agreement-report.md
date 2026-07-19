@@ -26,7 +26,7 @@ Cross-format check over the merged index. For every bill document present in bot
 
 - **acted-RCW set match**: the set of RCW sections the bill acts on (from the HTM enacting-clause title) compared against the XML index's cites that carry an action code. Agreement is high. The residual splits three ways: a small number of XML index entries that truncated a cite (e.g. `2.310.505` for `28A.310.505`, which HTM gets right); genuine source-level typos where the HTM and XML documents themselves disagree on a digit (e.g. `43.060.010` vs `43.06D.010`, with the HTM hyperlink confirming the HTM reading); and rare title-parse edge cases.
 
-- **XML acted-set ⊆ HTM links**: for the six biennia with hyperlinks (2015-16 forward), whether every RCW the XML marks as acted-on is present in the HTM's hyperlink set. The hyperlink set is a superset (it also links body cross-references), so this measures link completeness, not exact match.
+- **XML acted-set ⊆ HTM links**: for the six biennia with hyperlinks (2015-16 forward), the share of hyperlinked documents whose non-empty XML acted-on set is fully present in the HTM's hyperlink set. Documents whose XML marks no acted-on section stay in the denominator but never count as included. The hyperlink set is a superset (it also links body cross-references), so this measures link completeness, not exact match.
 
 ## Note on the XML `rcw` field
 

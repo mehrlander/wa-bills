@@ -2,7 +2,7 @@
 
 Taxonomy of the version suffix carried in each bill filename. The suffix is the portion after the bill number and before the file extension, with the leading separator (`-` or `.`) stripped. Examples: `1007-S2.E.htm` -> `S2.E`; `1049.E.htm` -> `E`; `1000.htm` -> base (no suffix).
 
-Extraction covered all **133160** filenames (69280 Htm, 63880 Xml) across 13 biennia (2001-02 to 2025-26), with zero unparseable names. **18** distinct suffixes occur.
+Extraction covered the **133160** indexed filenames (69280 Htm, 63880 Xml) across 13 biennia (2001-02 to 2025-26), with zero unparseable names. **18** distinct suffixes occur.
 
 ## Naming convention
 

@@ -18,18 +18,20 @@ This project analyzes **HB 1320-S2** (Engrossed Second Substitute House Bill 132
 ## Project Structure
 
 ```
-wa-bills/
-├── 1320-S2.xml                  # Source bill (XML format)
-├── 1320-S2.htm                  # Source bill (HTML format)
+HB-1320-S2/
+├── raw/
+│   ├── 1320-S2.xml              # Source bill (XML format)
+│   └── 1320-S2.htm              # Source bill (HTML format)
 │
-├── billExtractor.js             # Main extraction library
-├── extractBillData.js           # Node.js extraction script
-├── HB-1320-S2-data.json        # Extracted JSON data (generated)
-│
-├── demo.html                    # Interactive browser demo
-├── SCHEMA.md                    # JSON schema documentation
-├── ANALYSIS.md                  # Bill analysis & format comparison
-└── README-EXTRACTION.md         # This file
+└── extracted-data/
+    ├── billExtractor.js         # Main extraction library
+    ├── extractBillData.js       # Node.js extraction script
+    ├── HB-1320-S2-data.json    # Extracted JSON data (generated)
+    │
+    ├── demo.html                # Interactive browser demo
+    ├── SCHEMA.md                # JSON schema documentation
+    ├── ANALYSIS.md              # Bill analysis & format comparison
+    └── README-EXTRACTION.md     # This file
 ```
 
 ## Quick Start
@@ -94,13 +96,13 @@ const sections = BillExtractor.extractSections(xmlDoc);
 - Consolidates 6 different types of protection orders
 - Amends 88 existing RCW sections
 - Creates 84 new sections
-- Repeals 175+ RCW sections
+- Repeals 137 RCW sections
 
 **Key Statistics:**
 - Total Sections: 172
 - Total Parts: 17
 - RCW References: 227
-- Definitions: 36
+- Definitions: 34
 - Agencies: 124
 - Federal Law References: 12
 
@@ -121,7 +123,7 @@ See [ANALYSIS.md](ANALYSIS.md) for complete bill type analysis and format compar
   "statutoryReferences": {},   // RCW, USC, CFR citations
   "sections": [],              // All 172 bill sections
   "parts": [],                 // 17 bill parts/divisions
-  "definitions": [],           // 36 legal definitions
+  "definitions": [],           // 34 legal definitions
   "agencies": [],              // 124 government agencies
   "programs": [],              // Programs & initiatives
   "fiscal": {},                // Fiscal information

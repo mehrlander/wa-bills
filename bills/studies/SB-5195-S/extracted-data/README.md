@@ -77,8 +77,8 @@ const data = BillExtractor.extractAll(xml);
 ## Files
 
 ### Source Data
-- `5195-S.xml` - Official bill in XML format (2.3 MB)
-- `5195-S.htm` - Official bill in HTML format (2.5 MB)
+- `../raw/5195-S.xml` - Official bill in XML format (2.3 MB)
+- `../raw/5195-S.htm` - Official bill in HTML format (2.5 MB)
 
 ### Extraction Tools
 - `bill-extractor.js` - Browser-compatible extraction library

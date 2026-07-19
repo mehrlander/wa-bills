@@ -4,8 +4,8 @@ Verification of `bills/texts/` against `bills/texts/manifest.json`. Manifest hol
 
 ## Summary
 
-- Manifest records: **133,160**
-- Files on disk: **133,160**
+- Manifest records: **138,706**
+- Files on disk: **138,706**
 - Duplicate manifest paths: **0**
 - Missing (in manifest, not on disk): **0**
 - Size mismatches: **0**
@@ -19,6 +19,7 @@ Verification of `bills/texts/` against `bills/texts/manifest.json`. Manifest hol
 
 | Biennium | Manifest count | Disk count | Size mismatches | Missing | Extra | Total size |
 |---|--:|--:|--:|--:|--:|--:|
+| 1999-00 | 5,546 | 5,546 | 0 | 0 | 0 | 214.9 MB |
 | 2001-02 | 5,397 | 5,397 | 0 | 0 | 0 | 206.9 MB |
 | 2003-04 | 11,556 | 11,556 | 0 | 0 | 0 | 249.1 MB |
 | 2005-06 | 12,401 | 12,401 | 0 | 0 | 0 | 279.6 MB |
@@ -32,12 +33,13 @@ Verification of `bills/texts/` against `bills/texts/manifest.json`. Manifest hol
 | 2021-22 | 6,832 | 6,832 | 0 | 0 | 0 | 302.8 MB |
 | 2023-24 | 9,008 | 9,008 | 0 | 0 | 0 | 355.4 MB |
 | 2025-26 | 9,378 | 9,378 | 0 | 0 | 0 | 382.0 MB |
-| **Total** | **133,160** | **133,160** | **0** | **0** | **0** | **4.08 GB** |
+| **Total** | **138,706** | **138,706** | **0** | **0** | **0** | **4.29 GB** |
 
 ## Per-biennium by format
 
 | Biennium | Htm files | Htm size | Xml files | Xml size |
 |---|--:|--:|--:|--:|
+| 1999-00 | 5,546 | 214.9 MB | 0 | 0.0 MB |
 | 2001-02 | 5,397 | 206.9 MB | 0 | 0.0 MB |
 | 2003-04 | 5,778 | 99.0 MB | 5,778 | 150.1 MB |
 | 2005-06 | 6,202 | 111.6 MB | 6,199 | 168.0 MB |

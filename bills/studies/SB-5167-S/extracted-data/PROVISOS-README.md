@@ -80,13 +80,13 @@ Quick reference with agencies, categories, and biennia lists.
 1. **Department of Commerce** - 957 provisos
 2. **Department of Health** - 600 provisos
 3. **University of Washington** - 534 provisos
-4. **State Board for Community and Technical Colleges** - 348 provisos
-5. **Department of Ecology** - 329 provisos
-6. **State Health Care Authority (Medical Assistance)** - 311 provisos
-7. **DSHS (Aging and Adult Services)** - 295 provisos
-8. **Department of Fish and Wildlife** - 292 provisos
-9. **Department of Labor and Industries** - 277 provisos
-10. **State Health Care Authority (Behavioral Health)** - 275 provisos
+4. **Department of Commerce (Community Services and Housing)** - 361 provisos
+5. **State Board for Community and Technical Colleges** - 348 provisos
+6. **Department of Ecology** - 329 provisos
+7. **State Health Care Authority (Medical Assistance)** - 311 provisos
+8. **DSHS (Aging and Adult Services)** - 295 provisos
+9. **Department of Fish and Wildlife** - 292 provisos
+10. **Department of Labor and Industries** - 277 provisos
 
 ## Usage
 

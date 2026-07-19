@@ -121,7 +121,7 @@ const large = _.filter(billData.data.appropriations,
 5. **Structure** - 18 parts, 361 sections, hierarchical organization
 6. **Agencies** - 27+ agencies with codes and names
 7. **Appropriations** - 314 appropriation sections, $304.6B total
-8. **Statutory References** - 500+ RCW citations
+8. **Statutory References** - 305 RCW citations
 9. **Dates** - Legislative process dates, deadlines, report dates
 10. **Conditions** - Provisos, limitations, reporting requirements
 11. **Fiscal Impacts** - Aggregations by year, source, agency
@@ -177,19 +177,23 @@ const large = _.filter(billData.data.appropriations,
 ## File Structure
 
 ```
-wa-bills/
-├── 5187-S.xml                      # Source XML (4.3MB)
-├── 5187-S.htm                      # Source HTM (4.7MB)
-├── bill-extractor-xmldom.js        # Main extraction library
-├── extract-bill-data-simple.js     # CLI extraction script
-├── 5187-S-data.json                # Extracted data (formatted)
-├── 5187-S-data-compact.json        # Extracted data (compact)
-├── schema.json                     # JSON Schema definition
-├── demo.html                       # Interactive demo
-├── ANALYSIS.md                     # Comprehensive analysis
-├── README.md                       # This file
-├── package.json                    # Node.js dependencies
-└── package-lock.json               # Dependency lock file
+bills/studies/SB-5187-S/
+├── raw/
+│   ├── 5187-S.xml                  # Source XML (4.3MB)
+│   └── 5187-S.htm                  # Source HTM (4.7MB)
+└── extracted-data/
+    ├── bill-extractor-xmldom.js    # Main extraction library (xmldom)
+    ├── bill-extractor.js           # Extraction library (browser DOMParser)
+    ├── extract-bill-data-simple.js # CLI extraction script (xmldom)
+    ├── extract-bill-data.js        # CLI extraction script (jsdom)
+    ├── 5187-S-data.json            # Extracted data (formatted)
+    ├── 5187-S-data-compact.json    # Extracted data (compact)
+    ├── schema.json                 # JSON Schema definition
+    ├── demo.html                   # Interactive demo
+    ├── ANALYSIS.md                 # Comprehensive analysis
+    ├── README.md                   # This file
+    ├── package.json                # Node.js dependencies
+    └── package-lock.json           # Dependency lock file
 ```
 
 ## Use Cases

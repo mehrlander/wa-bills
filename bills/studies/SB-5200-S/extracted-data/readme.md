@@ -41,7 +41,7 @@ This project was forked from it's [original source](https://github.com/jindw/xml
 
 ### Example:
 
-[In NodeJS](examples/nodejs/src/index.js)
+[In NodeJS](https://github.com/xmldom/xmldom/blob/0.8.11/examples/nodejs/src/index.js)
 ```javascript
 const { DOMParser, XMLSerializer } = require('@xmldom/xmldom')
 
@@ -302,7 +302,7 @@ import { DOMParser } from '@xmldom/xmldom'
 The implementation is based on several specifications:
 
 <!-- Should open in new tab and the links in the SVG should be clickable there! -->
-<a href="https://raw.githubusercontent.com/xmldom/xmldom/master/docs/specs.svg" target="_blank" rel="noopener noreferrer nofollow" >![Overview of related specifications and their relations](docs/specs.svg)</a>
+<a href="https://raw.githubusercontent.com/xmldom/xmldom/master/docs/specs.svg" target="_blank" rel="noopener noreferrer nofollow" >![Overview of related specifications and their relations](https://raw.githubusercontent.com/xmldom/xmldom/master/docs/specs.svg)</a>
 
 ### DOM Parsing and Serialization
 

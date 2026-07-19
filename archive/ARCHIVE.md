@@ -6,8 +6,10 @@ history; nothing in this repo loads them. Do not edit here: changes belong
 in the live home.
 
 "Archived" here means exactly that the canonical copy moved to web-tools.
-Old-but-native material (the `projects/` experiments, the `wsl-api/tools/archive/`
-kit lineage) is not in this folder.
+Old-but-native material (the `wsl-api/tools/archive/` kit lineage) is not in
+this folder. The `projects/` experiments were not archived either; they were
+removed outright on 2026-07-19 (retrievable from history, see
+[`../docs/projects-retired-2026-07.md`](../docs/projects-retired-2026-07.md)).
 
 | Archived | Live home in web-tools | Notes |
 |---|---|---|

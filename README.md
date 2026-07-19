@@ -13,18 +13,12 @@ web-tools points to them.
 ## Quick start
 
 ### I want to explore bills interactively
-- **Budget Bill Comparison:** [`projects/viewers/budget-bill-comparison/`](projects/viewers/budget-bill-comparison/)
-- **Proviso Search Tool:** [`projects/viewers/proviso-search-tool/`](projects/viewers/proviso-search-tool/)
 - **Legislation Tracker:** [`LegislationTrackerGH.html`](LegislationTrackerGH.html)
 
 ### I want to query bill data
-- **WA Budget Automation Database:** [`projects/database/wa-budget-automation/`](projects/database/wa-budget-automation/)
-- **Budget Bills Database:** [`projects/database/wa-budget-bills-database/`](projects/database/wa-budget-bills-database/)
 - **Per-bill extracted data:** [`bills/studies/`](bills/studies/)
 
 ### I want to understand the repository
-- **Project inventory:** [`projects/PROJECT_INVENTORY.md`](projects/PROJECT_INVENTORY.md)
-- **Projects overview:** [`projects/PROJECTS.md`](projects/PROJECTS.md)
 - **WSL corpus guide:** [`wsl-api/README.md`](wsl-api/README.md)
 - **Bill corpus guide:** [`bills/README.md`](bills/README.md)
 - **Bill hierarchy reference:** [`docs/hierarchy.md`](docs/hierarchy.md)
@@ -37,8 +31,7 @@ web-tools points to them.
 | [`bills/`](bills/) | Everything derived from bill documents: corpus-wide scans (content extracts, term indexes, topic sets) and [`studies/`](bills/studies/), ten bills analyzed in depth |
 | [`fiscal-notes/`](fiscal-notes/) | OFM fiscal note data, 2011-12 through 2023-24, with the paste-join tool that populates it |
 | [`rcw/`](rcw/) | The Revised Code of Washington: titles, chapters, full cite hierarchy, plus the pension chapter mapping |
-| [`projects/`](projects/) | One-shot analysis experiments over the studied bills (viewers, databases, extractors). Exploratory, unmaintained, kept for reference |
-| [`docs/`](docs/) | Domain reference (the [bill hierarchy guide](docs/hierarchy.md)) and dated repo surveys |
+| [`docs/`](docs/) | Domain reference (the [bill hierarchy guide](docs/hierarchy.md)) and dated repo surveys, including the [note on the retired `projects/` experiments](docs/projects-retired-2026-07.md) |
 | [`archive/`](archive/) | Superseded copies whose live homes are now web-tools. See [ARCHIVE.md](archive/ARCHIVE.md) before touching anything here |
 
 Top-level [`LegislationTrackerGH.html`](LegislationTrackerGH.html) is the

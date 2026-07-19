@@ -5,11 +5,10 @@
 
 ## Summary
 
-- 139,134 files total across 7 top-level directories: `archive/`, `bills/`, `docs/`, `fiscal-notes/`, `projects/`, `rcw/`, `wsl-api/`
+- 139,032 files total across 6 top-level directories: `archive/`, `bills/`, `docs/`, `fiscal-notes/`, `rcw/`, `wsl-api/`
 - The 20 largest range from 6 MB to 17 MB -- all JSON data or raw HTML/XML bill text
 - `bills/` has the most files (138,883) with raw `.htm`/`.xml` and extracted fiscal JSON
 - `bills/`, `wsl-api/`, and `rcw/` hold the largest individual datasets (API dumps, term-frequency indexes, full RCW index)
-- `projects/` has combined analysis datasets up to 8.9 MB
 - `rcw/` and `archive/format/` are small (a handful of files each)
 - SB-5167 (2025-27 operating budget) accounts for 2 of the top 10 largest files
 
@@ -42,13 +41,6 @@
 | 4.2 MB | `wsl-api/data/GetLegislationIntroducedSince.json` | WA Legislature API dump: every bill in the 2025-26 biennium with metadata. |
 | 3.9 MB | `bills/content/htm_2025-26.json` | Parsed metadata from every 2025-26 bill HTML page. |
 | 3.1 MB | `wsl-api/data/GetLegislationSinceHistorical/json/2015-16.json` | Compact historical dataset of all 2015-16 biennium bills. |
-
-### projects/ -- Analysis datasets
-
-| Size | File | Content |
-|------|------|---------|
-| 8.9 MB | `projects/analysis/analyze-bill-patterns-1/bills-data.json` | Combined analysis: 10 bills, 10,257 appropriations, 474 fund accounts, 581 agencies, fiscal years 1991-2038. |
-| 5.7 MB | `projects/specialized/appropriations-timeline/appropriations-raw.json` | Multi-biennium appropriations timeline going back to at least 2021-23. |
 
 ## Notes
 

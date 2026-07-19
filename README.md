@@ -33,7 +33,7 @@ web-tools points to them.
 
 | Folder | What it is |
 |---|---|
-| [`wsl-api/`](wsl-api/) | The WSL web-services corpus: API schema, raw endpoint pulls (40K+ bills, 9 biennia), derived joins, and the live per-biennium [snapshots](wsl-api/README.md#snapshots) that the web-tools pages consume |
+| [`wsl-api/`](wsl-api/) | The WSL web-services corpus: API schema, raw endpoint pulls (40K+ bills, 18 biennia), derived joins, and the live per-biennium [snapshots](wsl-api/README.md#snapshots) that the web-tools pages consume |
 | [`bills/`](bills/) | Everything derived from bill documents: corpus-wide scans (content extracts, term indexes, topic sets) and [`studies/`](bills/studies/), ten bills analyzed in depth |
 | [`fiscal-notes/`](fiscal-notes/) | OFM fiscal note data, 2011-12 through 2023-24, with the paste-join tool that populates it |
 | [`rcw/`](rcw/) | The Revised Code of Washington: titles, chapters, full cite hierarchy, plus the pension chapter mapping |

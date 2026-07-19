@@ -2,7 +2,7 @@
 
 **Date:** December 2025
 **Total Bills:** 10
-**Total Raw Size:** ~28 MB
+**Total Raw Size:** ~46 MB
 **Total Extracted Data:** ~50 MB
 
 ---
@@ -30,9 +30,9 @@ This directory contains Washington State legislative bills with both raw source 
 
 | Category | Count | Description |
 |----------|-------|-------------|
-| **Operating Budget** | 4 | Biennial and supplemental operating budgets |
+| **Operating Budget** | 5 | Biennial and supplemental operating budgets |
 | **Capital Budget** | 2 | Capital construction and improvement budgets |
-| **Policy Bills** | 4 | Non-appropriations legislative changes |
+| **Policy Bills** | 3 | Non-appropriations legislative changes |
 
 ---
 
@@ -112,7 +112,7 @@ This directory contains Washington State legislative bills with both raw source 
 - **Status:** Chapter 215, Laws of 2021
 - **Raw Formats:** XML (1.1 MB), HTM (1.1 MB)
 - **Extracted Data:** 200 KB
-- **Key Stats:** 172 sections, 227 RCW references, 36 legal definitions, 124 agencies
+- **Key Stats:** 172 sections, 227 RCW references, 34 legal definitions, 124 agencies
 - **Has Demo:** Yes
 
 #### HB-1281-S (Technical Corrections)
@@ -141,13 +141,13 @@ Each bill includes a `demo.html` file that provides:
 - Browser-based data exploration (no server required for most)
 - Pre-built query buttons for common analyses
 - Lodash-powered custom queries
-- Chart.js visualizations
+- Chart.js visualizations (most bills)
 - Search and filtering capabilities
 
 ```bash
 # For most bills, just open demo.html directly
 # For larger files, use a local server:
-cd bills/SB-5167-S/extracted-data
+cd bills/studies/SB-5167-S/extracted-data
 python -m http.server 8000
 # Then open http://localhost:8000/demo.html
 ```
@@ -157,7 +157,7 @@ python -m http.server 8000
 Each bill includes extraction scripts that can be adapted:
 
 ```javascript
-const BillExtractor = require('./bill-extractor.js');
+const { BillExtractor } = require('./bill-extractor.js');
 const fs = require('fs');
 
 const xml = fs.readFileSync('../raw/5167-S.xml', 'utf-8');

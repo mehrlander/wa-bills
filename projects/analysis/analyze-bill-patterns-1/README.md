@@ -161,7 +161,7 @@ node analyze-bills.js
 ## File Structure
 
 ```
-wa-bills/
+analyze-bill-patterns-1/
 ├── bills-index.json          # Categorized bill metadata
 ├── bills-data.json           # All extracted entities
 ├── extraction-library.js     # Reusable parsing library
@@ -169,9 +169,7 @@ wa-bills/
 ├── demo.html                 # Interactive browser interface
 ├── generate-deliverables.js  # Main generation script
 ├── analyze-bills.js          # Preliminary analysis script
-├── README.md                 # This file
-├── *.xml                     # XML bill files
-└── *.htm                     # HTM bill files
+└── README.md                 # This file
 ```
 
 ## Format Differences

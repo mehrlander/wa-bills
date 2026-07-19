@@ -58,7 +58,7 @@ This tool compares two Washington State budget bills side-by-side to identify di
 - Comparison: Any supplemental bill for the same biennium
 
 **Different Biennia:**
-- Base: `1320-S2.xml` (2023-2025 Budget)
+- Base: `5187-S.xml` (2023-2025 Budget)
 - Comparison: `5167-S.xml` (2025-2027 Budget)
 
 ## Technical Details

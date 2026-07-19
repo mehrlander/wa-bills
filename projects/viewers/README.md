@@ -65,7 +65,7 @@ The most useful tool for finding specific provisions quickly. Powerful full-text
   - Reporting Requirements
   - IT Spending
   - Pilot Programs
-  - Fund Transfers
+  - Funding Distribution
   - And more...
 - Agency and category filtering
 - Rich context display with section numbers and dollar amounts
@@ -187,7 +187,7 @@ All tools work the same way:
 | I want to... | Use this tool |
 |--------------|---------------|
 | Compare two budget versions | `budget-bill-comparison.html` |
-| Find a specific proviso | `proviso-search-tool.html` |
+| Find a specific proviso | `proviso-search.html` |
 | Track amendments over time | `legislative-diff-viewer.html` |
 | Understand XML structure | `xml-bill-inspector.html` |
 
@@ -209,12 +209,10 @@ All viewers use client-side technologies only (no server required):
 
 | Technology | Used In | Purpose |
 |------------|---------|---------|
-| Vanilla JavaScript | All projects | Core functionality |
-| DOMParser | All projects | XML parsing in browser |
-| Chart.js | comparison, search | Visualizations |
-| Tabulator.js | comparison | Data grids |
-| jsdiff | diff-viewer | Text comparison |
-| Bootstrap 5 | diff-viewer | Responsive UI |
+| Vanilla JavaScript | comparison, search, inspector | Core functionality |
+| DOMParser | comparison, search, inspector | XML parsing in browser |
+| diff-match-patch | diff-viewer | Text comparison |
+| Bootstrap 5 | comparison | Responsive UI |
 | Tailwind CSS | some viewers | Styling |
 
 ## Browser Compatibility

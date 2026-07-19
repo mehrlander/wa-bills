@@ -58,10 +58,10 @@ The fastest path from raw XML to interactive exploration. Paste any budget bill 
 - Tabulator.js grid (handles 1000+ rows)
 - Chart.js visualizations (top 10 agencies, fund distribution)
 - CSV export
-- Works completely offline
+- Works completely client-side
 
 **Key Files:**
-- `budget-explorer.html` - Self-contained interactive tool
+- `budget-explorer.html` - Single-file interactive tool
 
 **Quick Start:**
 ```bash
@@ -86,7 +86,7 @@ The only project mapping statutory cross-references and bill-to-statute relation
 
 **Key Files:**
 - `parse-references.js` - Main parser (39.7 KB)
-- `references.json` - 165 KB citation database
+- `references.json` - 2.5 MB citation database
 - `reference-viz.html` - Network visualization
 - `reference-patterns.md` - Analysis report
 

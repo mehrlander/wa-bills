@@ -2,21 +2,20 @@
 
 **Date:** November 19, 2025
 **Repository:** wa-bills
-**Total Projects:** 26 across 5 categories
+**Total Projects:** 16 across 4 categories
 
 ---
 
 ## Executive Summary
 
-This repository contains 26 distinct projects created to analyze, extract, and visualize data from Washington State legislative budget and policy bills. Projects span multiple approaches and angles, from raw data extraction to interactive web-based exploration tools. This inventory provides a comprehensive guide to understanding what each project does, what it produces, and how to use it.
+This repository contains 16 distinct projects created to analyze, extract, and visualize data from Washington State legislative budget and policy bills. Projects span multiple approaches and angles, from raw data extraction to interactive web-based exploration tools. This inventory provides a comprehensive guide to understanding what each project does, what it produces, and how to use it.
 
 ### Quick Stats
 
 - **Analysis Projects:** 4 (focus on bill structure and patterns)
-- **Data Extraction Projects:** 11 (extract structured data from bills)
 - **Database Projects:** 2 (normalized database schemas and automation)
 - **Specialized Projects:** 5 (targeted analysis tools)
-- **Viewer Projects:** 4 (interactive exploration interfaces)
+- **Viewer Projects:** 5 (interactive exploration interfaces)
 
 ### Output Types
 
@@ -58,15 +57,7 @@ Projects produce three main categories of outputs:
 
 **Best For:** Developers building new extraction tools, researchers understanding bill structure.
 
-### 2. Data Extraction Projects (`projects/data-extraction/`)
-
-**Purpose:** Extract structured data from specific bills into queryable JSON format.
-
-**Approach:** Each project typically focuses on one or a few bills, extracting appropriations, agencies, provisos, and statutory references.
-
-**Best For:** Getting structured data from specific bills quickly.
-
-### 3. Database Projects (`projects/database/`)
+### 2. Database Projects (`projects/database/`)
 
 **Purpose:** Create normalized relational databases for querying across multiple bills.
 
@@ -74,7 +65,7 @@ Projects produce three main categories of outputs:
 
 **Best For:** SQL-based analysis, historical tracking, complex queries across biennia.
 
-### 4. Specialized Projects (`projects/specialized/`)
+### 3. Specialized Projects (`projects/specialized/`)
 
 **Purpose:** Targeted analysis for specific research questions (agency relationships, statutory references, funding timelines).
 
@@ -82,7 +73,7 @@ Projects produce three main categories of outputs:
 
 **Best For:** Answering specific questions about agencies, funding trends, or legal references.
 
-### 5. Viewer Projects (`projects/viewers/`)
+### 4. Viewer Projects (`projects/viewers/`)
 
 **Purpose:** Interactive web interfaces for exploring bills without writing code.
 
@@ -187,143 +178,6 @@ Lightweight, standalone tool for analyzing bill language and terminology. Paste 
 
 ---
 
-## DATA EXTRACTION PROJECTS
-
-These 11 projects focus on extracting structured data from specific bills. Most produce:
-- JSON data files
-- Interactive demo.html for exploration
-- Node.js extraction scripts
-- Schema documentation
-
-### Bill-Specific Extraction Projects
-
-#### 1. Bill Extraction Tools #1
-**Path:** `projects/data-extraction/bill-extraction-tools-1/`
-**Bill:** HB 5200-S (2023-2025 Capital Budget)
-**Output:** 🌐 Web + 📊 Data (1.8 MB JSON)
-
-**Highlights:** $21.8 billion in capital appropriations, 923 projects, 71 agencies, 4,479 appropriation records, 99%+ extraction accuracy.
-
-**Use:** Open `demo.html` for interactive queries or run `node bill-extractor.js` to regenerate data.
-
----
-
-#### 2. Bill Extraction Tools #2
-**Path:** `projects/data-extraction/bill-extraction-tools-2/`
-**Bill:** ESSB 5092 (2021-2023 Operating Budget)
-**Output:** 🌐 Web + 📊 Data (15-25 MB JSON)
-
-**Highlights:** $56.25 billion operating budget, 243 sections, 1,847 appropriations, 1,200+ provisos, 478 RCW references.
-
-**Use:** Open `demo.html` with local server (large file) or `node extract-hb5092.js` to regenerate.
-
----
-
-#### 3. Bill Extraction Tools #3
-**Path:** `projects/data-extraction/bill-extraction-tools-3/`
-**Bill:** ESSB 5693 (2021-2023 Supplemental Operating Budget)
-**Output:** 🌐 Web + 📊 Data (2.4 MB JSON)
-
-**Highlights:** 218 agencies, 1,172 appropriations, 281 RCW references, 22 vetoed sections tracked.
-
-**Use:** Open `demo.html` for queries or `node extract-data.js` to regenerate from XML.
-
----
-
-#### 4. Bill Extraction Tools #4
-**Path:** `projects/data-extraction/bill-extraction-tools-4/`
-**Bill:** SSB 5195 (2025-27 Capital Budget)
-**Output:** 🌐 Web + 📊 Data (3 MB JSON) + JSON Schema
-
-**Highlights:** $10.46 billion current + $9.45 billion reappropriations, 788 projects, 40 departments, JSON Schema validation.
-
-**Use:** `npm install && node extract-to-json.js`, then open `demo.html` with local server.
-
----
-
-#### 5. Bill Document Extraction
-**Path:** `projects/data-extraction/bill-document-extraction/`
-**Bill:** HB 1320-S2 (Civil Protection Order Modernization - Policy Bill)
-**Output:** 🌐 Web + 📊 Data (450 KB JSON)
-
-**Highlights:** 172 sections, 227 RCW references, 36 legal definitions, 124 agencies, voting records. Demonstrates non-budget bill extraction.
-
-**Use:** Open `demo.html` or `node extractBillData.js` to regenerate.
-
----
-
-#### 6. Bill Data Extraction Tools #1
-**Path:** `projects/data-extraction/bill-data-extraction-tools-1/`
-**Bill:** ESSB 5187 (2023-2025 Operating Budget)
-**Output:** 🌐 Web + 📊 Data (716 KB JSON) + JSON Schema
-
-**Highlights:** $304.6 billion operating budget, 361 sections, 1,820 line items, 29 partial vetoes, JSON Schema Draft-07 validation.
-
-**Use:** Open `demo.html` or `npm install && node extract-bill-data-simple.js`.
-
----
-
-#### 7. Bill Data Extraction Tools #2
-**Path:** `projects/data-extraction/bill-data-extraction-tools-2/`
-**Bill:** HB 1281-S (Technical Corrections Bill)
-**Output:** 🌐 Web + 📊 Data (147 KB JSON)
-
-**Highlights:** 257 sections, 423 RCW references, 114 agencies, amendment tracking (strike/add), multiple effective dates.
-
-**Use:** Open `demo.html` (standalone) or `node extract-bill-data.js`.
-
----
-
-#### 8. Bill Data Extraction Tools #3
-**Path:** `projects/data-extraction/bill-data-extraction-tools-3/`
-**Bill:** HB 5167-S (2025-2027 Operating Budget - Current)
-**Output:** 🌐 Web + 📊 Data (860 KB JSON) + JSON Schema
-
-**Highlights:** 420 sections, 216 agencies, 1,816 appropriations, 38 vetoed sections, $3.3+ billion tracked, most recent budget data.
-
-**Use:** Open `demo.html` or `npm install && node extract-to-json.js`.
-
----
-
-#### 9. Extract Bill Data
-**Path:** `projects/data-extraction/extract-bill-data/`
-**Bill:** HB 1210-S2 (Cannabis Terminology Replacement)
-**Output:** 🌐 Web + 📊 Data (200 KB JSON) + JSON Schema
-
-**Highlights:** 176 sections, 160 RCW amendments, 1,376 term replacements tracked, voting analysis.
-
-**Use:** Open `demo.html` or `node extract-bill.js`.
-
----
-
-### Multi-Bill Extraction Projects
-
-#### 10. Extract Bill Provisos
-**Path:** `projects/data-extraction/extract-bill-provisos/`
-**Bills:** 6 operating budget bills across 3 biennia
-**Output:** 🌐 Web Search Tool + 📊 Data (12.7 MB + 4.4 MB JSON)
-
-**Highlights:** 11,986 provisos extracted from 6 bills (2021-27), categorized by 8 types, 7,156 appropriations linked, interactive search interface.
-
-**Use:** Open `proviso-search.html` for keyword/agency/category filtering, or `npm install && node extract-provisos.js` to regenerate.
-
-**Key Strength:** Only project providing comprehensive cross-biennium proviso analysis.
-
----
-
-#### 11. Extract Fiscal Data
-**Path:** `projects/data-extraction/extract-fiscal-data/`
-**Bills:** 9 bill files analyzed
-**Output:** 📊 Data (17.6 GB JSON) + 🌐 Visualization Dashboard
-
-**Highlights:** 29,982 fiscal items, $1.251 TRILLION total appropriations, fund source analysis, fiscal year tracking, extraction pattern documentation.
-
-**Use:** Open `fiscal-viz.html` for dashboard, read `fiscal-patterns.md` for insights, or `node extract-fiscal-data.js` to regenerate.
-
-**Key Strength:** Largest-scale fiscal analysis with cross-bill aggregation and pattern analysis.
-
----
-
 ## DATABASE PROJECTS
 
 ### 1. WA Budget Automation
@@ -332,7 +186,7 @@ These 11 projects focus on extracting structured data from specific bills. Most 
 
 **What It Produces:**
 - `wa-budget.db` - Normalized SQLite database
-- `schema.sql` - 7-table normalized schema
+- `schema.sql` - 9-table normalized schema
 - `index.js` - Main orchestrator
 - Extraction modules: appropriations, provisos, XML parsing
 - Database utilities for insert/upsert operations
@@ -373,7 +227,7 @@ SELECT * FROM agency_totals ORDER BY total_amount_dollars DESC;
 **What It Produces:**
 - `wa-budget-bills.db` - Metadata database with 27 bills (1999-2025)
 - `schema.sql` - Metadata schema (bills, formats, companions)
-- `content-schema.sql` - Designed content schema (14+ tables)
+- `content-schema.sql` - Designed content schema (13 tables)
 - `query-database.js` - Command-line query tool
 - `example-usage.js` - 10 query examples
 - Comprehensive documentation (DATABASE.md, CONTENT-SCHEMA.md, SCHEMA-DIAGRAM.md)
@@ -515,7 +369,7 @@ python download_bills.py --biennium 2023-24 --chamber House --start 1000 --end 1
 
 **What It Produces:**
 - `parse-references.js` - Main parser (39.7 KB)
-- `references.json` - 165 KB citation database
+- `references.json` - 2.5 MB citation database
 - `reference-clusters.json` - 166 KB cluster analysis
 - `reference-patterns.md` - 11 KB analysis report
 - `reference-viz.html` - 2.54 MB network visualization
@@ -633,12 +487,12 @@ Interactive XML structure analysis with expandable tree view, text extraction, n
 
 | Technology | Used By | Purpose |
 |------------|---------|---------|
-| **Node.js** | Analysis, Data-Extraction, Database, Specialized | Server-side parsing and extraction |
+| **Node.js** | Analysis, Database, Specialized | Server-side parsing and extraction |
 | **Python** | Specialized (2 projects) | Agency extraction, bill downloading |
 | **Vanilla JavaScript** | Most viewers, some tools | Browser-based processing |
-| **Lodash** | Analysis, Data-Extraction | Data querying and manipulation |
+| **Lodash** | Analysis | Data querying and manipulation |
 | **Chart.js** | Analysis, Viewers, Specialized | Data visualization |
-| **Tabulator.js** | 2 viewers | High-performance data grids |
+| **Tabulator.js** | 1 specialized project | High-performance data grids |
 | **Bootstrap 5** | 1 viewer | Responsive UI |
 | **Alpine.js + Tailwind** | 1 viewer | Reactive UI framework |
 | **SQLite** | Database (2 projects) | Relational data storage |
@@ -654,11 +508,9 @@ Raw Bills (XML/HTM/PDF)
     ↓
 [Analysis: Analyze Bill Structures] - Understand format
     ↓
-[Data-Extraction: 11 projects] - Extract structured data
-    ↓
 [Database: WA Budget Automation] - Normalize to SQL
     ↓
-[Viewers: 4 tools] - Interactive exploration
+[Viewers: 5 tools] - Interactive exploration
     ↓
 [Specialized: Various] - Targeted analysis
 ```
@@ -666,18 +518,6 @@ Raw Bills (XML/HTM/PDF)
 ---
 
 ## Redundancy Assessment
-
-### High Redundancy (Similar Approaches)
-
-**Data-Extraction Projects (11 total):**
-- **bill-extraction-tools-1 through 4** - Very similar approach, different bills
-- **bill-data-extraction-tools-1 through 3** - Nearly identical pattern, different bills
-
-**Redundancy Level:** 🔴 HIGH
-**Reason:** Each extracts individual bills with similar code patterns
-**Value:** Demonstrates consistency and covers different biennia, but code could be consolidated
-
-**Recommendation:** Create single unified extraction tool that accepts bill path as parameter.
 
 ### Medium Redundancy (Different Implementations, Same Goal)
 
@@ -692,14 +532,14 @@ Raw Bills (XML/HTM/PDF)
 
 ### Low Redundancy (Complementary Approaches)
 
-**Viewer Projects (4 total):**
+**Viewer Projects (5 total):**
 - Each viewer has distinct purpose: comparison, proviso search, diff tracking, XML inspection
 
 **Redundancy Level:** 🟢 LOW
 **Reason:** Different tools for different tasks
 **Value:** Each serves specific use case
 
-**Recommendation:** All four provide unique value, keep all.
+**Recommendation:** All five provide unique value, keep all.
 
 **Specialized Projects (5 total):**
 - Each analyzes different dimension: timelines, agencies, references, downloads
@@ -726,61 +566,56 @@ Raw Bills (XML/HTM/PDF)
    - **Use For:** Cross-biennium analysis, historical tracking
    - **Strength:** Relational schema enables sophisticated queries
 
-3. **Extract Bill Provisos** (`projects/data-extraction/extract-bill-provisos/`)
-   - **Why:** Only comprehensive proviso analysis across multiple bills
-   - **Use For:** Understanding budget conditions and restrictions
-   - **Strength:** 11,986 provisos categorized and searchable
-
-4. **Budget Bill Comparison Tool** (`projects/viewers/budget-bill-comparison/`)
+3. **Budget Bill Comparison Tool** (`projects/viewers/budget-bill-comparison/`)
    - **Why:** Most practical tool for legislative staff and analysts
    - **Use For:** Comparing budget versions, tracking changes
    - **Strength:** No installation, instant comparison, fiscal impact analysis
 
-5. **Proviso Search Tool** (`projects/viewers/proviso-search-tool/`)
+4. **Proviso Search Tool** (`projects/viewers/proviso-search-tool/`)
    - **Why:** Most useful for finding specific provisions quickly
    - **Use For:** Legislative research, compliance checking
    - **Strength:** Fast full-text search with auto-categorization
 
 ### 🥈 Tier 2: Valuable for Specific Use Cases
 
-6. **WA Budget Bills Database** (`projects/database/wa-budget-bills-database/`)
+5. **WA Budget Bills Database** (`projects/database/wa-budget-bills-database/`)
    - **Why:** Best historical metadata catalog (27 bills, 25 years)
    - **Use For:** Bill discovery, historical research
    - **Strength:** Comprehensive metadata with query tools
 
-7. **Parse Statutory References** (`projects/specialized/parse-statutory-references/`)
+6. **Parse Statutory References** (`projects/specialized/parse-statutory-references/`)
    - **Why:** Unique analysis of bill-to-statute relationships
    - **Use For:** Understanding legislative interconnections
    - **Strength:** Network analysis of RCW references
 
-8. **Map Agencies & Programs** (`projects/specialized/map-agencies-programs/`)
+7. **Map Agencies & Programs** (`projects/specialized/map-agencies-programs/`)
    - **Why:** Only organizational network analysis
    - **Use For:** Understanding inter-agency relationships
    - **Strength:** 3,460 agencies mapped with relationship graphs
 
-9. **Appropriations Timeline** (`projects/specialized/appropriations-timeline/`)
+8. **Appropriations Timeline** (`projects/specialized/appropriations-timeline/`)
    - **Why:** Only longitudinal funding analysis
    - **Use For:** Tracking budget trends over time
    - **Strength:** Identifies growth/cuts/new programs across biennia
 
-10. **Legislative Diff Viewer** (`projects/viewers/legislative-diff-viewer/`)
+9. **Legislative Diff Viewer** (`projects/viewers/legislative-diff-viewer/`)
     - **Why:** Most sophisticated text comparison tool
     - **Use For:** Tracking amendments through legislative process
     - **Strength:** Three-way merge, timeline mode, annotations
 
 ### 🥉 Tier 3: Useful for Development & Understanding
 
-11. **Analyze Bill Structures** (`projects/analysis/analyze-bill-structures/`)
+10. **Analyze Bill Structures** (`projects/analysis/analyze-bill-structures/`)
     - **Why:** Best documentation for understanding bill formats
     - **Use For:** Learning before building new tools
     - **Strength:** Comprehensive format comparison and parsing guides
 
-12. **WA Bill XML Inspector** (`projects/viewers/xml-bill-inspector/`)
+11. **WA Bill XML Inspector** (`projects/viewers/xml-bill-inspector/`)
     - **Why:** Essential for understanding XML structure
     - **Use For:** Debugging parsers, exploring structure
     - **Strength:** Interactive tree view with schema inference
 
-13. **Budget Appropriations Explorer** (`projects/specialized/budget-appropriations-explorer/`)
+12. **Budget Appropriations Explorer** (`projects/specialized/budget-appropriations-explorer/`)
     - **Why:** Fastest path to exploring a single bill
     - **Use For:** Quick ad-hoc exploration without installation
     - **Strength:** Paste XML, get instant interactive grid
@@ -931,18 +766,6 @@ Raw Bills (XML/HTM/PDF)
 | **Analysis** | analyze-bill-patterns-2 | 9 | 🌐 + 📊 | ✅ | ✅ |
 | **Analysis** | analyze-bill-structures | 0 | 📄 | ✅ | ✅ |
 | **Analysis** | bill-language-analysis-tool | 0 | 🌐 | ✅ | ✅ |
-| **Data-Extraction** | bill-extraction-tools-1 | 1 | 🌐 + 📊 | ✅ | ✅ |
-| **Data-Extraction** | bill-extraction-tools-2 | 1 | 🌐 + 📊 | ⚠️ | ✅ |
-| **Data-Extraction** | bill-extraction-tools-3 | 1 | 🌐 + 📊 | ✅ | ✅ |
-| **Data-Extraction** | bill-extraction-tools-4 | 1 | 🌐 + 📊 | ⚠️ | ✅ |
-| **Data-Extraction** | bill-document-extraction | 1 | 🌐 + 📊 | ✅ | ✅ |
-| **Data-Extraction** | bill-data-extraction-tools-1 | 1 | 🌐 + 📊 | ✅ | ✅ |
-| **Data-Extraction** | bill-data-extraction-tools-2 | 1 | 🌐 + 📊 | ✅ | ✅ |
-| **Data-Extraction** | bill-data-extraction-tools-3 | 1 | 🌐 + 📊 | ⚠️ | ✅ |
-| **Data-Extraction** | bill-data-extraction-tools-4 | 1 | 🌐 + 📊 | ❌ | ❌ |
-| **Data-Extraction** | extract-bill-data | 1 | 🌐 + 📊 | ✅ | ✅ |
-| **Data-Extraction** | extract-bill-provisos | 6 | 🌐 + 📊 | ⚠️ | ✅ |
-| **Data-Extraction** | extract-fiscal-data | 9 | 🌐 + 📊 | ✅ | ⚠️ |
 | **Database** | wa-budget-automation | 1 | 📊 | ❌ | ⚠️ |
 | **Database** | wa-budget-bills-database | 27 | 📊 + 📄 | ❌ | ✅ |
 | **Specialized** | appropriations-timeline | 3+ | 🌐 + 📊 | ⚠️ | ✅ |
@@ -964,23 +787,22 @@ Raw Bills (XML/HTM/PDF)
 
 ## Conclusion
 
-This repository represents a comprehensive exploration of Washington State legislative bill analysis from multiple angles. The **26 projects** demonstrate various approaches to parsing, extraction, storage, and visualization.
+This repository represents a comprehensive exploration of Washington State legislative bill analysis from multiple angles. The **16 projects** demonstrate various approaches to parsing, extraction, storage, and visualization.
 
 **Key Takeaways:**
 
 1. **Viewer projects** are immediately useful for non-technical users
-2. **Data-extraction projects** provide structured data but have redundancy
-3. **Database projects** offer the most sophisticated analysis capabilities but need completion
-4. **Specialized projects** provide unique insights not available elsewhere
-5. **Analysis projects** serve as excellent documentation and reference implementations
+2. **Database projects** offer the most sophisticated analysis capabilities but need completion
+3. **Specialized projects** provide unique insights not available elsewhere
+4. **Analysis projects** serve as excellent documentation and reference implementations
 
 **Recommended Starting Points:**
 
 - **Non-technical user?** → Start with viewer projects (budget-bill-comparison, proviso-search-tool)
-- **Researcher?** → Use analyze-bill-patterns-2 or extract-bill-provisos
+- **Researcher?** → Use analyze-bill-patterns-2
 - **Developer?** → Read analyze-bill-structures, then build on wa-budget-automation
 - **Policy analyst?** → Use proviso-search-tool and appropriations-timeline
-- **Journalist?** → Use budget-bill-comparison and fiscal-viz.html
+- **Journalist?** → Use budget-bill-comparison
 
 **Next Steps:** Follow the recommended roadmap starting with Phase 1 consolidation to maximize the value of existing work while reducing complexity.
 

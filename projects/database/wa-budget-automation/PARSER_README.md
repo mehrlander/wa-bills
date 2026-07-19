@@ -46,9 +46,9 @@ Dependencies:
 
 Download the bill files manually (automation blocked by WA Legislature website):
 
-See `bills/2025-27/operating/README.md` for download links.
+See `README.md` for download links.
 
-Place the XML file in `bills/2025-27/operating/ESSB-5167.xml`
+Place the XML file in this directory as `ESSB-5167.xml`
 
 ### 2. Initialize Database
 
@@ -61,13 +61,13 @@ This creates `wa-budget.db` with the schema.
 ### 3. Parse Budget Bill
 
 ```bash
-npm run parse bills/2025-27/operating/ESSB-5167.xml
+npm run parse ESSB-5167.xml
 ```
 
 Or with options:
 
 ```bash
-node src/index.js bills/2025-27/operating/ESSB-5167.xml --reset --db custom.db
+node index.js ESSB-5167.xml --reset --db custom.db
 ```
 
 Options:
@@ -110,51 +110,45 @@ GROUP BY a.agency_id;
 ## Project Structure
 
 ```
-wa-bills/
-├── schema.sql                 # Database schema
-├── package.json               # Dependencies
-├── src/
-│   ├── index.js              # Main parser orchestrator
-│   ├── init-db.js            # Database initialization
-│   ├── extractors/
-│   │   ├── xml-parser.js          # XML parsing utilities
-│   │   ├── appropriations-extractor.js  # Appropriations extraction
-│   │   └── proviso-extractor.js         # Proviso extraction
-│   └── utils/
-│       ├── text-utils.js     # Text processing utilities
-│       └── db-utils.js       # Database utilities
-└── bills/
-    └── 2025-27/
-        └── operating/
-            ├── README.md     # Download instructions
-            └── ESSB-5167.xml # Bill file (not in git)
+wa-budget-automation/
+├── schema.sql                      # Database schema
+├── package.json                    # Dependencies
+├── index.js                        # Main parser orchestrator
+├── init-db.js                      # Database initialization
+├── xml-parser.js                   # XML parsing utilities
+├── appropriations-extractor.js     # Appropriations extraction
+├── proviso-extractor.js            # Proviso extraction
+├── text-utils.js                   # Text processing utilities
+├── db-utils.js                     # Database utilities
+├── README.md                       # Download instructions
+└── ESSB-5167.xml                   # Bill file (not in git)
 ```
 
 ## Parser Architecture
 
-### 1. XML Parser (`extractors/xml-parser.js`)
+### 1. XML Parser (`xml-parser.js`)
 - Parses bill XML structure
 - Extracts sections, subsections, tables
 - Handles nested legislative structure
 
-### 2. Appropriations Extractor (`extractors/appropriations-extractor.js`)
+### 2. Appropriations Extractor (`appropriations-extractor.js`)
 - Identifies agencies and programs from section titles
 - Extracts appropriations tables
 - Parses textual appropriation patterns
 - Extracts FTE data
 
-### 3. Proviso Extractor (`extractors/proviso-extractor.js`)
+### 3. Proviso Extractor (`proviso-extractor.js`)
 - Identifies proviso language patterns
 - Classifies proviso types (Restriction, Directive, Reporting, Intent)
 - Extracts cross-references
 
-### 4. Text Utilities (`utils/text-utils.js`)
+### 4. Text Utilities (`text-utils.js`)
 - Parse dollar amounts (handles $1.2M, $1,234,567, etc.)
 - Extract agency codes
 - Normalize section references
 - Classify proviso types
 
-### 5. Database Utilities (`utils/db-utils.js`)
+### 5. Database Utilities (`db-utils.js`)
 - Insert/upsert operations
 - Extraction logging
 - Statistics generation

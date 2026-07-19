@@ -88,7 +88,7 @@ const entities = lib.extractAllEntities(billData);
 
 **Features:**
 - Handles both XML and HTM formats
-- Manages large files (up to 4.7MB)
+- Manages large files (up to 4.4MB)
 - Flexible pattern matching for structural variations
 - Comprehensive error handling
 - Unicode and XML entity support
@@ -276,7 +276,7 @@ const topAgencies = _.chain(billsData.appropriations)
 - **Recommendation**: Use XML as primary, HTM as fallback
 
 ### Parsing Challenges
-1. **Large Files**: Up to 4.7MB require efficient parsing
+1. **Large Files**: Up to 4.4MB require efficient parsing
 2. **Deep Nesting**: Complex hierarchies need recursive handling
 3. **Proviso Language**: Unstructured narrative text with embedded data
 4. **Variations**: Different formatting across years and bill types
@@ -297,7 +297,7 @@ const topAgencies = _.chain(billsData.appropriations)
 - **Total Amount**: $349.9 billion
 
 ### File Sizes
-- **Largest Bill**: 5167-S.xml (4.7MB, 420 sections, 2,351 appropriations)
+- **Largest Bill**: 5167-S.xml (4.4MB, 420 sections, 2,351 appropriations)
 - **Most Sections**: 5195-S (1,180 sections - Capital Budget)
 - **Most Appropriations**: 5167-S (2,351 appropriations)
 

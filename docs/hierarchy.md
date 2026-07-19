@@ -82,7 +82,7 @@ function isRomanNumeral(str) {
 
 Both cases, up to 3999:
 ```javascript
-/^M{0,4}(CM|CD|D?C{0,3})(XC|XL|L?X{0,3})(IX|IV|V?I{0,3})$/i
+/^M{0,3}(CM|CD|D?C{0,3})(XC|XL|L?X{0,3})(IX|IV|V?I{0,3})$/i
 ```
 
 ---

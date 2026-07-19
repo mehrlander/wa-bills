@@ -19,8 +19,8 @@ This repository contains extraction tools and analysis for **HB 5950-S (ESSB 595
 
 ### Source Bill Files
 
-- `5950-S.xml` (2.8 MB) - XML format of the bill (recommended for data extraction)
-- `5950-S.htm` (3.1 MB) - HTML format of the bill (optimized for reading)
+- `../raw/5950-S.xml` (2.8 MB) - XML format of the bill (recommended for data extraction)
+- `../raw/5950-S.htm` (3.1 MB) - HTML format of the bill (optimized for reading)
 
 ### Extraction Tools
 
@@ -39,7 +39,7 @@ This repository contains extraction tools and analysis for **HB 5950-S (ESSB 595
 - **`hb-5950-s-data.json`** - Complete extracted data in JSON format
   - Queryable from browser JavaScript
   - Structured for analysis
-  - ~500+ KB of structured data
+  - ~1.4 MB of structured data
 
 ### Documentation
 
@@ -276,7 +276,7 @@ See [`json-schema.md`](json-schema.md) for complete schema documentation.
 - ✅ Human-readable format
 - ✅ Validated against schema
 - ✅ Static file (no database needed)
-- ✅ ~500 KB compressed size
+- ✅ ~137 KB compressed size
 
 ### Demo Page
 

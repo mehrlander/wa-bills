@@ -12,7 +12,7 @@ Database projects transform unstructured bill XML/HTM into queryable relational 
 
 | Project | Output | Status | Description |
 |---------|--------|--------|-------------|
-| [wa-budget-automation](./wa-budget-automation/) | SQLite + Parser | **Recommended** | Normalized database with 7-table schema |
+| [wa-budget-automation](./wa-budget-automation/) | SQLite + Parser | **Recommended** | Normalized database with 9-table schema |
 | [wa-budget-bills-database](./wa-budget-bills-database/) | SQLite + Docs | Stable | Historical metadata catalog (27 bills, 25 years) |
 
 ## Detailed Descriptions
@@ -23,7 +23,7 @@ Database projects transform unstructured bill XML/HTM into queryable relational 
 
 Transforms unstructured bill XML into queryable relational database. Currently parses 2025-27 ESSB 5167 ($77.9B general fund, $150.4B total). Enables SQL-based analysis across agencies, programs, and fiscal years.
 
-**Database Schema (7 tables):**
+**Database Schema (9 tables):**
 - `agencies` - Government agencies with codes
 - `programs` - Programs within agencies
 - `accounts` - Funding accounts
@@ -31,10 +31,12 @@ Transforms unstructured bill XML into queryable relational database. Currently p
 - `provisos` - Legislative conditions and restrictions
 - `ftes` - Full-time equivalent positions
 - `cross_references` - Section cross-references
+- `bill_metadata` - Bill-level metadata and budget totals
+- `extraction_log` - Per-section extraction run log
 
 **Key Files:**
 - `wa-budget.db` - Normalized SQLite database
-- `schema.sql` - 7-table normalized schema
+- `schema.sql` - 9-table normalized schema
 - `index.js` - Main orchestrator
 - `appropriations-extractor.js` - Appropriations parser
 - `proviso-extractor.js` - Provisos parser
@@ -48,7 +50,7 @@ npm install
 npm run init-db
 
 # Parse a bill
-npm run parse ../bills/2025-27/operating/ESSB-5167.xml
+npm run parse ESSB-5167.xml
 
 # Query with SQLite
 sqlite3 wa-budget.db
@@ -70,7 +72,7 @@ Most comprehensive historical metadata catalog spanning 25+ years. Phase 1 provi
 **Key Files:**
 - `wa-budget-bills.db` - Metadata database with 27 bills
 - `schema.sql` - Metadata schema (bills, formats, companions)
-- `content-schema.sql` - Designed content schema (14+ tables, not yet implemented)
+- `content-schema.sql` - Designed content schema (13 tables, not yet implemented)
 - `query-database.js` - Command-line query tool
 - `example-usage.js` - 10 query examples
 
@@ -119,9 +121,11 @@ Future integration could combine both: use the metadata catalog to discover bill
 **Find top-funded agencies:**
 ```sql
 -- Using wa-budget-automation
-SELECT agency_name, SUM(amount) as total
-FROM appropriations
-GROUP BY agency_name
+SELECT a.agency_name, SUM(ap.amount) / 100.0 as total
+FROM appropriations ap
+JOIN programs p ON ap.program_id = p.program_id
+JOIN agencies a ON p.agency_id = a.agency_id
+GROUP BY a.agency_name
 ORDER BY total DESC
 LIMIT 10;
 ```
@@ -138,7 +142,7 @@ node query-database.js biennium 2023-25
 |------------|---------|---------|
 | SQLite | Both projects | Relational data storage |
 | Node.js | Both projects | Parsing and automation |
-| xmldom | wa-budget-automation | XML parsing |
+| fast-xml-parser | wa-budget-automation | XML parsing |
 
 ## Recommended Next Steps
 

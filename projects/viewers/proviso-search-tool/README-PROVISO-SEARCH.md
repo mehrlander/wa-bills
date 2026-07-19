@@ -60,7 +60,7 @@ Each proviso displays:
 python3 -m http.server 8000
 
 # Open in browser:
-# http://localhost:8000/proviso-search.html
+# http://localhost:8000/projects/viewers/proviso-search-tool/proviso-search.html
 ```
 
 ## Quick Test
@@ -143,7 +143,6 @@ Works in all modern browsers:
 ```
 proviso-search.html          # Complete standalone tool
 README-PROVISO-SEARCH.md    # This file
-*.xml                        # Sample budget bill XML files
 ```
 
 ## Development Notes

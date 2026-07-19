@@ -54,7 +54,7 @@ Some bills don't join because the bill number on the fiscal note side is a draft
 ### Dependencies
 
 * **Source Data**: Relies on legislative metadata located in the `wsl-api/data/GetLegislationSinceHistorical/json/` directory.
-* **File Correspondence**: Each fiscal note file in `FiscalNotes/json` corresponds directly to a legislative JSON file for the same biennium (e.g., `2021-22.json`).
+* **File Correspondence**: Each fiscal note file in `fiscal-notes/json` corresponds directly to a legislative JSON file for the same biennium (e.g., `2021-22.json`).
 * **Exclusions**: Data for the **2009-10** biennium is excluded due to unresolved data quality and join issues.
 
 ### The Mechanics
@@ -67,7 +67,7 @@ Some bills don't join because the bill number on the fiscal note side is a draft
 
 ### Data Population Workflow
 
-This tool was used to fill and verify the files in the `FiscalNotes/json` directory through the following process:
+This tool was used to fill and verify the files in the `fiscal-notes/json` directory through the following process:
 
 1. **Fetch**: Raw session data is retrieved by running a fetch command in the browser console while on the OFM API domain:
 ```javascript
@@ -80,12 +80,12 @@ fetch('https://fnspublic.ofm.wa.gov/api/FNSPublicWebService/GetFNS075Data?sessio
 
 
 2. **Audit**: The resulting JSON is pasted into this tool to join it with legislative titles and check for "Unmatched" records.
-3. **Validate**: The **Match Diagnostics** table is used to identify any bill numbers or years missing from the library.
+3. **Validate**: The **Join Diagnostics** table is used to identify any bill numbers or years missing from the library.
 4. **Export**: Once audited and pivoted, the **Copy JSON** button is used to extract the clean, flattened data to be saved into the corresponding biennium file.
 
 ### Library Coverage
 
-Covers biennia from 2011-12 through 2025-26.  Biennium 2009-10 gave messy joins for reasons not yet determined.
+Covers biennia from 2011-12 through 2023-24.  Biennium 2009-10 gave messy joins for reasons not yet determined.
 
 ### Future Development
 

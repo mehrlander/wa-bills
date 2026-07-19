@@ -52,8 +52,8 @@ console.log(`RCW References: ${billData.rcwReferences.length}`);
 ## 📁 Files
 
 ### Source Files
-- `1281-S.xml` - Bill in XML format (1.4 MB, 6,124 lines)
-- `1281-S.htm` - Bill in HTML format (1.2 MB)
+- `../raw/1281-S.xml` - Bill in XML format (1.4 MB, 6,124 lines)
+- `../raw/1281-S.htm` - Bill in HTML format (1.2 MB)
 
 ### Extraction Tools
 - `bill-extractor.js` - JavaScript library with extraction functions

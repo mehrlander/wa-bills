@@ -28,9 +28,9 @@ Specific results against the spike's seven steps:
 3. **Sidecar.** Three annotation kinds shipped: per-section source provenance
    (position plus SectionSelector), rule-generated RCW citations (the validated
    extractor as a `generatedBy` RegexRule; position, quote, and section/marker
-   selectors on every instance), one manual policy-topic annotation.
+   selectors on most instances), one manual policy-topic annotation.
 4. **Fidelity validation.** Inserted and deleted text in the Markdown matches
-   the source XML character for character on both bills (1,733/1,733 ins and
+   the source XML word character for word character on both bills (1,733/1,733 ins and
    1,451/1,451 del chars on 1003-S; 2,788/2,788 and 309/309 on 1008-S.E).
 5. **Relocation.** After inserting an editorial paragraph near the top of each
    file, all annotations relocate: 103/103 and 41/41. The selector cascade did
@@ -73,7 +73,7 @@ are literal text in this schema and are removed adjacent to `del` spans; the
   version, pattern, and the rule's validation record.
 - **Change grouping**: adjacent del/ins pairs group into `replace` ops at
   derivation time, not storage time.
-- **Selectors**: every text-anchored annotation carries position, quote
+- **Selectors**: most text-anchored annotations carry position, quote
   (48-char context), and a SectionSelector with paragraph markers. The
   relocation test shows all three earn their place.
 - **Deletion parens**: not reproduced in the Markdown; `del` carries the

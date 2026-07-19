@@ -14,15 +14,17 @@ This project provides tools to extract structured data from Washington State bud
 ## 📁 Project Files
 
 ```
-/home/user/wa-bills/
-├── 5092-S.htm              # Original bill HTML (3.8 MB)
-├── bill-extractor.js       # Browser-based extraction library
-├── extract-hb5092.js       # Node.js extraction script
-├── hb5092-data.json       # Extracted structured data (~15-25 MB)
-├── schema.md               # JSON schema documentation
-├── demo.html               # Interactive browser demo
-├── ANALYSIS.md            # Comprehensive analysis report
-└── README.md              # This file
+bills/studies/SB-5092-S/
+├── raw/
+│   └── 5092-S.htm          # Original bill HTML (3.8 MB)
+└── extracted-data/
+    ├── bill-extractor.js   # Browser-based extraction library
+    ├── extract-hb5092.js   # Node.js extraction script
+    ├── hb5092-data.json    # Extracted structured data (~1.1 MB)
+    ├── schema.md           # JSON schema documentation
+    ├── demo.html           # Interactive browser demo
+    ├── ANALYSIS.md         # Comprehensive analysis report
+    └── README.md           # This file
 ```
 
 ## 🚀 Quick Start
@@ -88,8 +90,8 @@ The extraction tools capture:
 - FTE (Full-Time Equivalent) counts
 
 ### ✅ Financial Data
-- 1,847 individual appropriations
-- 287 unique fund types
+- 839 individual appropriations
+- 256 unique fund types
 - Fiscal year breakdowns (FY 2022, FY 2023)
 - $56.25B total budget tracked
 
@@ -311,11 +313,11 @@ To extract another bill:
 
 - **Total Budget:** $56.25 billion
 - **Sections:** 243
-- **Appropriations:** 1,847 line items
+- **Appropriations:** 839 line items
 - **RCW References:** 478 unique citations
 - **Bill References:** 414 references
 - **Provisos:** 1,200+ conditions
-- **Fund Types:** 287 unique types
+- **Fund Types:** 256 unique types
 - **Agencies:** 243 funded entities
 
 ## 🤝 Contributing
@@ -342,7 +344,7 @@ This project is for educational and research purposes. Bill data is public domai
 ## ⚡ Performance
 
 - **Extraction time:** 15-30 seconds (3.8 MB file)
-- **JSON file size:** ~15-25 MB
+- **JSON file size:** ~1.1 MB
 - **Demo load time:** 2-5 seconds
 - **Search response:** <100ms
 - **Chart rendering:** <500ms

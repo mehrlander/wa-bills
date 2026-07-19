@@ -121,10 +121,10 @@ Comma-delimited values indicating legislative outcomes:
   "short": "Transportation budget",
   "long": "Making transportation appropriations for the 2023-2025 fiscal biennium.",
   "sponsor": "Fey",
-  "sponsor_id": 28800,
-  "req": null,
-  "approp": true,
-  "companion": null,
+  "sponsor_id": 17241,
+  "req": "D",
+  "approp": false,
+  "companion": "SB 5162",
   "versions": [
     {
       "id": "HB 1125",
@@ -133,9 +133,9 @@ Comma-delimited values indicating legislative outcomes:
       "active": false,
       "intro": "2023-01-09",
       "status": "H subst for",
-      "action": "Substitute bill substituted.",
-      "date": "2023-02-22",
-      "fn": "SWF",
+      "action": "1st substitute bill substituted.",
+      "date": "2023-04-03",
+      "fn": null,
       "outcome": null
     },
     {
@@ -143,11 +143,11 @@ Comma-delimited values indicating legislative outcomes:
       "sub": 1,
       "eng": 1,
       "active": true,
-      "intro": "2023-02-22",
+      "intro": "2023-03-29",
       "status": "C 472 L 23",
-      "action": "Effective date 7/1/2023**.",
-      "date": "2023-05-15",
-      "fn": "SWF,Loc",
+      "action": "Effective date 5/16/2023.",
+      "date": "2023-05-16",
+      "fn": null,
       "outcome": "Passed,Partial Veto",
       "amended": true,
       "amendments": true
@@ -213,7 +213,7 @@ Multiple versions may have `Active=1`. This is valid and represents the bill bei
 See BILL_DATA_ANALYSIS.md Section 7 for detailed analysis.
 
 - **Placeholder records:** Some records have `0001-01-01` action dates and empty status fields (~0.2% in completed bienniums, ~6% in active 2025-26)
-- **BillId uniqueness:** Unique in completed bienniums; 5 duplicate cases in 2025-26 due to placeholder records
+- **BillId uniqueness:** Nearly unique in completed bienniums; 10 duplicate cases in 2025-26 due to placeholder records
 - **Deduplication:** For active bienniums, filter records with placeholder dates or prefer `Active=1`
 
 ---

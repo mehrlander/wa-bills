@@ -79,7 +79,7 @@ cat structural-patterns.md
 Standalone single-file tool for analyzing bill language and terminology. Paste bill text, get instant analysis with visual charts.
 
 **Key Files:**
-- `bill-analysis-tool.html` - Self-contained analysis tool
+- `bill-analysis-tool.html` - Single-file analysis tool
 
 **Quick Start:**
 ```bash

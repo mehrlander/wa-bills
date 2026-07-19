@@ -1,6 +1,6 @@
 # Projects Overview
 
-This folder contains 26 projects organized into 5 categories for analyzing Washington State legislative budget bills.
+This folder contains 16 projects organized into 4 categories for analyzing Washington State legislative budget bills.
 
 ## Quick Navigation
 
@@ -9,12 +9,11 @@ This folder contains 26 projects organized into 5 categories for analyzing Washi
 | [analysis/](./analysis/) | 4 | Bill structure analysis and parsing libraries |
 | [database/](./database/) | 2 | Normalized SQL databases for cross-bill queries |
 | [specialized/](./specialized/) | 5 | Targeted tools for specific research questions |
-| [viewers/](./viewers/) | 4 | Interactive web-based exploration tools |
-| Data Extraction | 11 | Single-bill extraction tools (see PROJECT_INVENTORY.md) |
+| [viewers/](./viewers/) | 5 | Interactive web-based exploration tools |
 
-## All Projects (26 Total)
+## All Projects (16 Total)
 
-See **[PROJECT_INVENTORY.md](./PROJECT_INVENTORY.md)** for comprehensive documentation of all 26 projects.
+See **[PROJECT_INVENTORY.md](./PROJECT_INVENTORY.md)** for comprehensive documentation of all 16 projects.
 
 ### Analysis (4)
 | Project | Purpose | Output |
@@ -39,16 +38,13 @@ See **[PROJECT_INVENTORY.md](./PROJECT_INVENTORY.md)** for comprehensive documen
 | [map-agencies-programs](./specialized/map-agencies-programs/) | Inter-agency relationship mapping | Python + Viz |
 | [map-wa-legal-site](./specialized/map-wa-legal-site/) | Automated bill downloads | Python Script |
 
-### Viewers (4)
+### Viewers (5)
 | Project | Purpose | Output |
 |---------|---------|--------|
 | [budget-bill-comparison](./viewers/budget-bill-comparison/) | Side-by-side budget version comparison | Web Tool |
 | [proviso-search-tool](./viewers/proviso-search-tool/) | Full-text proviso search | Web Tool |
 | [legislative-diff-viewer](./viewers/legislative-diff-viewer/) | Multi-mode text diff (2-way, 3-way) | Web Tool |
 | [xml-bill-inspector](./viewers/xml-bill-inspector/) | Interactive XML structure analysis | Web Tool |
-
-### Data Extraction (11)
-Individual bill extraction tools stored in project subdirectories. See [PROJECT_INVENTORY.md](./PROJECT_INVENTORY.md) for complete list.
 
 ## Start Here
 

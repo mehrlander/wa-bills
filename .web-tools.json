@@ -4,5 +4,22 @@
   "group": "data",
   "order": 30,
   "quickLink": true,
-  "note": "Washington bill structure: corpora and analysis, especially budget bills."
+  "note": "Washington bill structure: corpora and analysis, especially budget bills.",
+  "pages": [
+    { "path": "LegislationTrackerGH.html", "title": "Legislation & Pension Tracker", "note": "The repo's front door; current interactive bill tracker (see README)." },
+    { "path": "fiscal-notes/fn-paste-join.html", "title": "Policy Joiner v6", "note": "Paste-join tool that populates the fiscal-notes data." },
+    { "path": "rcw/PensionMappingInverter.html", "title": "RCW Crosswalk Inverter", "note": "Inverts the RCW-to-pension-chapter mapping." },
+    { "path": "bills/terms-and-rcws/log-odds.html", "title": "Term Scorer", "note": "Log-odds term comparison across bill sets." },
+    { "path": "bills/terms-and-rcws/BienniumTermsAndRCWs.html", "title": "Session Scanner", "note": "Fetches per-biennium term frequencies and RCW cites." },
+    { "path": "bills/topic/ScanFromList.html", "title": "Bill Fetcher", "note": "Fetches bill documents for the pension/retirement topic set." },
+    { "path": "bills/content/CombineContent.html", "title": "Clean Index", "note": "Merges HTM/XML header scans into combined_2025-26.json." },
+    { "path": "bills/content/DivideContent.html", "title": "Strip Index", "note": "Splits content-index fields back out." },
+    { "path": "wsl-api/data/LegislationSinceWithRcwScanner.html", "title": "Legislation Data Utility", "note": "Scans the LegislationSinceWithRcw derived join." },
+    { "path": "wsl-api/data/GetAllDocumentsByClass/BillDocumentURLsWithFilter.html", "title": "Bill Document URLs", "note": "Filters the per-biennium document URL catalog." },
+    { "path": "wsl-api/data/generate-grouped.html", "title": "Legislation JSON", "note": "Generates the grouped_2025-26.json derived grouping." },
+    { "path": "wsl-api/data/LegislationTrackerUsingGitHub.html", "title": "DRS Bill Tracker", "note": "Earlier tracker iteration, outside archive/; unclear if superseded by the root tracker — cleanup candidate." },
+    { "path": "wsl-api/tools/LegislationTrackerFresh.html", "title": "Legislation Tracker", "note": "Another tracker iteration in tools/; unclear if superseded — cleanup candidate." },
+    { "path": "wsl-api/tools/content/ScanSessionBills.html", "title": "Bill Extractor v3", "note": "Extracts session bill content." },
+    { "path": "wsl-api/tools/content/ClearSessionBills.html", "title": "DB Cleaner", "note": "Clears session bill data." }
+  ]
 }

@@ -1,13 +1,16 @@
 # bills/
 
-Everything in this folder is derived from bill documents. Two depths:
+Everything in this folder is derived from bill documents.
 
 - **Scans go wide.** Fetch every bill's document, extract something small,
   discard the document. The three scan sets below cover the full 2025-26
   biennium as a point-in-time snapshot.
-- **Studies go deep.** Keep everything about one bill: raw source,
-  extracted data, analysis, interactive demo. Ten bills, in
-  [`studies/`](studies/).
+- **Full texts** ([`texts/`](texts/)) keep every bill document across fourteen
+  biennia.
+
+(A per-bill deep-study tree, `studies/`, was retired 2026-07-20 after an audit
+found its extracted data unreliable; see
+[`../probes/studies-retired-2026-07.md`](../probes/studies-retired-2026-07.md).)
 
 ## The scans
 
@@ -19,8 +22,8 @@ Everything in this folder is derived from bill documents. Two depths:
 
 What the scans keep: identity metadata, the RCW citation graph, word
 frequencies. What they discard with the documents: section structure,
-amendatory strike/insert marks, proviso text, dollar amounts. That last
-category is what the studies capture.
+amendatory strike/insert marks, proviso text, dollar amounts. Those live only
+in the full texts under [`texts/`](texts/), for anyone who wants to parse them.
 
 Known quality notes: the HTM content scan's sponsors field failed (the XML
 scan's is good, and `combined` uses it), and term extraction fused some

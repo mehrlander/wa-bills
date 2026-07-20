@@ -1,7 +1,7 @@
 # wa-bills
 
 The data home and research archive for Washington State legislation: bill
-metadata, corpus scans, deep per-bill studies, fiscal notes, and the RCW.
+metadata, corpus scans, full bill texts, fiscal notes, and the RCW.
 
 This repo holds data; the pages that display it live in
 [mehrlander/web-tools](https://github.com/mehrlander/web-tools) and fetch
@@ -16,7 +16,8 @@ web-tools points to them.
 - **Legislation Tracker:** [`LegislationTrackerGH.html`](LegislationTrackerGH.html)
 
 ### I want to query bill data
-- **Per-bill extracted data:** [`bills/studies/`](bills/studies/)
+- **WSL metadata (by biennium):** [`wsl-api/data/`](wsl-api/data/)
+- **Full bill texts (corpus):** [`bills/texts/`](bills/texts/)
 
 ### I want to understand the repository
 - **WSL corpus guide:** [`wsl-api/README.md`](wsl-api/README.md)
@@ -28,10 +29,10 @@ web-tools points to them.
 | Folder | What it is |
 |---|---|
 | [`wsl-api/`](wsl-api/) | The WSL web-services corpus: API schema, raw endpoint pulls (40K+ bills, 18 biennia), derived joins, and the live per-biennium [snapshots](wsl-api/README.md#snapshots) that the web-tools pages consume |
-| [`bills/`](bills/) | Everything derived from bill documents: corpus-wide scans (content extracts, term indexes, topic sets) and [`studies/`](bills/studies/), ten bills analyzed in depth |
+| [`bills/`](bills/) | Everything derived from bill documents: the full-text corpus ([`texts/`](bills/texts/)) and corpus-wide scans (content extracts, term indexes, topic sets) |
 | [`fiscal-notes/`](fiscal-notes/) | OFM fiscal note data, 2011-12 through 2023-24, with the paste-join tool that populates it |
 | [`rcw/`](rcw/) | The Revised Code of Washington: titles, chapters, full cite hierarchy, plus the pension chapter mapping |
-| [`probes/`](probes/) | Dated, point-in-time repo surveys: a [documentation-claims audit](probes/audit-2026-07.md), the [note on the retired `projects/` experiments](probes/projects-retired-2026-07.md), and a [large-files survey](probes/large-files-survey-2026-02.md). Each answers "what was true when checked," not a living reference |
+| [`probes/`](probes/) | Dated, point-in-time repo surveys: a [documentation-claims audit](probes/audit-2026-07.md), notes on the retired [`projects/` experiments](probes/projects-retired-2026-07.md) and [`bills/studies/`](probes/studies-retired-2026-07.md), the [per-study data audit](probes/studies-audit-2026-07.md) behind that retirement, and a [large-files survey](probes/large-files-survey-2026-02.md). Each answers "what was true when checked," not a living reference |
 | [`archive/`](archive/) | Superseded copies whose live homes are now web-tools. See [ARCHIVE.md](archive/ARCHIVE.md) before touching anything here |
 
 Top-level [`hierarchy.md`](hierarchy.md) is the bill paragraph-numbering
@@ -46,16 +47,17 @@ DRS bill tracker page; it loads from `wsl-api/data/` and `bills/content/`.
   helpers live beside the data they populate (`fiscal-notes/fn-paste-join.html`,
   `wsl-api/fetch-data.mjs`, the scan pages inside `bills/`). No separate
   tools tree.
-- **Scans go wide, studies go deep.** A scan visits every bill and keeps a
-  few extracted fields or term counts; a study keeps everything about one
-  bill. Both live under `bills/`.
+- **Scans go wide.** A scan visits every bill and keeps a few extracted
+  fields or term counts; the scan pages live under `bills/`. (A per-bill
+  deep-study tree, `bills/studies/`, was retired 2026-07-20; see
+  [`probes/studies-retired-2026-07.md`](probes/studies-retired-2026-07.md).)
 - **Full bill texts live in `bills/texts/`.** Imported 2026-07-11/12:
   all House and Senate bill documents, fourteen biennia (1999-00
   through 2025-26; XML from 2003-04), the full reach of the server's
   bill archive, verified against the source directory listings.
   `.gitignore` still blocks `*.xml`/`*.htm`/`*.pdf` everywhere else, so
-  bill documents outside `bills/texts/` and the studies' `raw/` folders
-  remain a deliberate `git add -f` decision.
+  bill documents outside `bills/texts/` remain a deliberate `git add -f`
+  decision.
 
 ## Freshness
 

@@ -2,7 +2,7 @@
 
 **Date:** 2026-07-20
 **Repository:** `/home/user/wa-bills`
-**Scope:** the ten per-bill studies under [`bills/studies/`](../bills/studies/)
+**Scope:** the ten per-bill studies under [`bills/studies/`](https://github.com/mehrlander/wa-bills/tree/82548b9fe/bills/studies/)
 
 ## Method
 
@@ -14,24 +14,31 @@ compared its output to the committed JSON. Findings below are the reviewers'
 spot-checks reproduced against the source; dollar figures and counts are the
 values measured on 2026-07-20.
 
-This audit concerns data correctness and usefulness. It does not edit the
-studies or their data. It records which fields a reader can trust and names the
-one follow-up that would fix the shared defects.
+This audit concerns data correctness and usefulness. It records which fields a
+reader could trust and names the one follow-up that would fix the shared
+defects.
+
+**Retirement (2026-07-20).** On the strength of this audit, `bills/studies/`
+was retired from the working tree the same day; see
+[`studies-retired-2026-07.md`](studies-retired-2026-07.md). This report is the
+mining that justified the retirement. Its links to the studies now point to the
+pre-retirement tree in history at
+[`82548b9fe`](https://github.com/mehrlander/wa-bills/tree/82548b9fe/bills/studies).
 
 ## Scorecard
 
 | Study | Type | Score | Headline defect |
 |---|---|---|---|
-| [SB-5167-S](../bills/studies/SB-5167-S/) | Operating (2025-27) | 3/5 | Drops ~25% of appropriations; cross-bill data mis-filed as this study's summary |
-| [SB-5187-S](../bills/studies/SB-5187-S/) | Operating (2023-25) | 3/5 | $304.6B total double-counts amendatory strike/add (real total funds ~$150B) |
-| [SB-5092-S](../bills/studies/SB-5092-S/) | Operating (2021-23), HTM-only | 3/5 | Drops ~44% of sections, including a real appropriation |
-| [HB-1210-S2](../bills/studies/HB-1210-S2/) | Policy (cannabis terms) | 3/5 | "1,376 replacements" is the total strike count, not marijuana→cannabis |
-| [HB-1281-S](../bills/studies/HB-1281-S/) | Policy (technical corrections) | 2.5/5 | RCW citations undercount 142 of 565 (regex misses letter-suffixed titles) |
-| [SB-5693-S](../bills/studies/SB-5693-S/) | Supplemental (2021-23) | 2/5 | New amounts dropped; fiscal total reads −$98B on a spending increase |
-| [SB-5950-S](../bills/studies/SB-5950-S/) | Supplemental (2023-25) | 2/5 | ~90% of account names collapse to "—"; total double-counted to $244.6B |
-| [SB-5195-S](../bills/studies/SB-5195-S/) | Capital (2025-27) | 2/5 | Project-ID collisions corrupt every project and every fiscal total |
-| [SB-5200-S](../bills/studies/SB-5200-S/) | Capital (2023-25) | 2/5 | "4,479 appropriations" 3.4x inflated by subtotal rows; a whole npm package vendored loose |
-| [HB-1320-S2](../bills/studies/HB-1320-S2/) | Policy (protection orders) | 2/5 | Section numbers 100% blank; the 137 repeals not captured |
+| [SB-5167-S](https://github.com/mehrlander/wa-bills/tree/82548b9fe/bills/studies/SB-5167-S/) | Operating (2025-27) | 3/5 | Drops ~25% of appropriations; cross-bill data mis-filed as this study's summary |
+| [SB-5187-S](https://github.com/mehrlander/wa-bills/tree/82548b9fe/bills/studies/SB-5187-S/) | Operating (2023-25) | 3/5 | $304.6B total double-counts amendatory strike/add (real total funds ~$150B) |
+| [SB-5092-S](https://github.com/mehrlander/wa-bills/tree/82548b9fe/bills/studies/SB-5092-S/) | Operating (2021-23), HTM-only | 3/5 | Drops ~44% of sections, including a real appropriation |
+| [HB-1210-S2](https://github.com/mehrlander/wa-bills/tree/82548b9fe/bills/studies/HB-1210-S2/) | Policy (cannabis terms) | 3/5 | "1,376 replacements" is the total strike count, not marijuana→cannabis |
+| [HB-1281-S](https://github.com/mehrlander/wa-bills/tree/82548b9fe/bills/studies/HB-1281-S/) | Policy (technical corrections) | 2.5/5 | RCW citations undercount 142 of 565 (regex misses letter-suffixed titles) |
+| [SB-5693-S](https://github.com/mehrlander/wa-bills/tree/82548b9fe/bills/studies/SB-5693-S/) | Supplemental (2021-23) | 2/5 | New amounts dropped; fiscal total reads −$98B on a spending increase |
+| [SB-5950-S](https://github.com/mehrlander/wa-bills/tree/82548b9fe/bills/studies/SB-5950-S/) | Supplemental (2023-25) | 2/5 | ~90% of account names collapse to "—"; total double-counted to $244.6B |
+| [SB-5195-S](https://github.com/mehrlander/wa-bills/tree/82548b9fe/bills/studies/SB-5195-S/) | Capital (2025-27) | 2/5 | Project-ID collisions corrupt every project and every fiscal total |
+| [SB-5200-S](https://github.com/mehrlander/wa-bills/tree/82548b9fe/bills/studies/SB-5200-S/) | Capital (2023-25) | 2/5 | "4,479 appropriations" 3.4x inflated by subtotal rows; a whole npm package vendored loose |
+| [HB-1320-S2](https://github.com/mehrlander/wa-bills/tree/82548b9fe/bills/studies/HB-1320-S2/) | Policy (protection orders) | 2/5 | Section numbers 100% blank; the 137 repeals not captured |
 
 The set averages about 2.4. No study exceeds 3.
 

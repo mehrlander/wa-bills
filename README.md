@@ -32,7 +32,7 @@ web-tools points to them.
 | [`bills/`](bills/) | Everything derived from bill documents: the full-text corpus ([`texts/`](bills/texts/)) and corpus-wide scans (content extracts, term indexes, topic sets) |
 | [`fiscal-notes/`](fiscal-notes/) | OFM fiscal note data, 2011-12 through 2023-24, with the paste-join tool that populates it |
 | [`rcw/`](rcw/) | The Revised Code of Washington: titles, chapters, full cite hierarchy, plus the pension chapter mapping |
-| [`probes/`](probes/) | Dated, point-in-time repo surveys: a [documentation-claims audit](probes/audit-2026-07.md), notes on the retired [`projects/` experiments](probes/projects-retired-2026-07.md) and [`bills/studies/`](probes/studies-retired-2026-07.md), the [per-study data audit](probes/studies-audit-2026-07.md) behind that retirement, and a [large-files survey](probes/large-files-survey-2026-02.md). Each answers "what was true when checked," not a living reference |
+| [`probes/`](probes/) | Dated, point-in-time repo surveys: a [documentation-claims audit](probes/audit-2026-07.md), notes on the retired [`projects/` experiments](probes/projects-retired-2026-07.md) and [`bills/studies/`](probes/studies-retired-2026-07.md) (the latter carrying the per-study data audit behind its retirement), and a [large-files survey](probes/large-files-survey-2026-02.md). Each answers "what was true when checked," not a living reference |
 | [`archive/`](archive/) | Superseded copies whose live homes are now web-tools. See [ARCHIVE.md](archive/ARCHIVE.md) before touching anything here |
 
 Top-level [`hierarchy.md`](hierarchy.md) is the bill paragraph-numbering

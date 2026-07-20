@@ -11,58 +11,230 @@ the last commit that contained it,
 [`82548b9fe`](https://github.com/mehrlander/wa-bills/tree/82548b9fe/bills/studies)
 (`git show 82548b9fe:bills/studies/<path>` locally).
 
+This note records both the audit that assessed the studies and the decision to
+retire them.
+
 ## Why they were retired
 
-A per-study data audit on 2026-07-20 verified each study's extracted JSON
-against its source document. The full result, with a scorecard, a
-systematic-defect taxonomy, a per-field trust map, and a comparison of the
-parsing approaches, is [`studies-audit-2026-07.md`](studies-audit-2026-07.md).
-The short version:
+A per-study data audit on 2026-07-20 (below) verified each study's extracted
+JSON against its source document. Four facts settled it:
 
 - **The headline is always wrong.** In all ten studies the structural layer
   (section counts, votes, chapter law, veto flags, agency rosters, individual
   line-item amounts) is accurate, but the marquee statistic each study exists to
-  produce is not. Every budget's fiscal total is corrupted by unnetted
-  amendatory strike/add lines (inflated in most, negative in one supplemental
-  that raised spending); the policy bills undercount RCW citations and
-  definitions through too-strict regexes. The set averages about 2.4 of 5, and
-  no study exceeds 3.
+  produce is not. The set averages about 2.4 of 5, and no study exceeds 3.
 - **Nothing consumed them.** No page in web-tools and no pipeline in this repo
   reads the studies. They were built, looked at once, and left. Stuff is used or
   it is not; this was not.
 - **The audit mined more than the set held.** The reusable content was the
-  method and the findings, not the data. Both now live in the audit probe, so
-  the tree was only inviting a re-look at numbers already known to be unreliable.
+  method and the findings, not the data. Both are recorded here, so the tree was
+  only inviting a re-look at numbers already known to be unreliable.
 - **The sources are not lost.** Each study's `raw/` XML and HTM is a copy of a
   document already held in `bills/texts/` (verified for a sample spanning
   operating, capital, and policy bills). Retiring the studies removes the flawed
   derived data and about 143 MB of duplicated raw text, not the source corpus.
 
+---
+
+## The audit
+
+**Method.** One reviewer agent per study, ten in parallel, each against the same
+rubric. Each reviewer checked the study's extracted JSON against its own source
+document in `raw/` (the bill XML, or HTM where no XML exists), not against the
+study's prose. Where feasible the reviewer ran the extractor on Node v22 and
+compared its output to the committed JSON. Findings below are the reviewers'
+spot-checks reproduced against the source; dollar figures and counts are the
+values measured on 2026-07-20. Links point to the pre-retirement tree in history
+at `82548b9fe`.
+
+### Scorecard
+
+| Study | Type | Score | Headline defect |
+|---|---|---|---|
+| [SB-5167-S](https://github.com/mehrlander/wa-bills/tree/82548b9fe/bills/studies/SB-5167-S/) | Operating (2025-27) | 3/5 | Drops ~25% of appropriations; cross-bill data mis-filed as this study's summary |
+| [SB-5187-S](https://github.com/mehrlander/wa-bills/tree/82548b9fe/bills/studies/SB-5187-S/) | Operating (2023-25) | 3/5 | $304.6B total double-counts amendatory strike/add (real total funds ~$150B) |
+| [SB-5092-S](https://github.com/mehrlander/wa-bills/tree/82548b9fe/bills/studies/SB-5092-S/) | Operating (2021-23), HTM-only | 3/5 | Drops ~44% of sections, including a real appropriation |
+| [HB-1210-S2](https://github.com/mehrlander/wa-bills/tree/82548b9fe/bills/studies/HB-1210-S2/) | Policy (cannabis terms) | 3/5 | "1,376 replacements" is the total strike count, not marijuana→cannabis |
+| [HB-1281-S](https://github.com/mehrlander/wa-bills/tree/82548b9fe/bills/studies/HB-1281-S/) | Policy (technical corrections) | 2.5/5 | RCW citations undercount 142 of 565 (regex misses letter-suffixed titles) |
+| [SB-5693-S](https://github.com/mehrlander/wa-bills/tree/82548b9fe/bills/studies/SB-5693-S/) | Supplemental (2021-23) | 2/5 | New amounts dropped; fiscal total reads −$98B on a spending increase |
+| [SB-5950-S](https://github.com/mehrlander/wa-bills/tree/82548b9fe/bills/studies/SB-5950-S/) | Supplemental (2023-25) | 2/5 | ~90% of account names collapse to "—"; total double-counted to $244.6B |
+| [SB-5195-S](https://github.com/mehrlander/wa-bills/tree/82548b9fe/bills/studies/SB-5195-S/) | Capital (2025-27) | 2/5 | Project-ID collisions corrupt every project and every fiscal total |
+| [SB-5200-S](https://github.com/mehrlander/wa-bills/tree/82548b9fe/bills/studies/SB-5200-S/) | Capital (2023-25) | 2/5 | "4,479 appropriations" 3.4x inflated by subtotal rows; a whole npm package vendored loose |
+| [HB-1320-S2](https://github.com/mehrlander/wa-bills/tree/82548b9fe/bills/studies/HB-1320-S2/) | Policy (protection orders) | 2/5 | Section numbers 100% blank; the 137 repeals not captured |
+
+The set averages about 2.4. No study exceeds 3.
+
+### The central finding
+
+In every study, the structural layer is accurate and the headline number is
+wrong. This holds across all ten regardless of bill type or extractor. What
+verifies against the source: section and part counts, vote tallies, sponsors,
+chapter law, effective dates, veto flags and veto text, agency and department
+rosters, and individual line-item amounts, often to the cent. What does not
+verify is the marquee statistic each study exists to produce.
+
+- **Budgets:** every fiscal total is corrupted by amendatory strike/add
+  handling. An amended appropriation carries an old figure (struck) and a new
+  figure (added). The extractors either sum both (inflating the total: 5187,
+  5950, 5167) or keep the wrong side (5693's negative total). None nets
+  correctly. No dollar total in any of the seven budget studies is
+  citation-grade.
+- **Policy bills:** the domain count undercounts because the extraction regex
+  is too strict. RCW citations with letter-suffixed titles (`9.94A`, `71A.12`)
+  are silently dropped (1281 misses 142 of 565). Definitions that open with a
+  lettered subsection are dropped (1320 misses 2 of 36). The "1,376
+  replacements" headline in 1210 is the total strike count, not the
+  marijuana→cannabis count (about 872 by the tool's own field).
+
+### Systematic defects
+
+Ordered by reader impact. Each is present in more than one study, so the fix
+would be shared, not per-study.
+
+**A. Amendatory strike/add is never netted (all seven budgets).** Amended bills
+carry both the superseded (`amendingStyle="strike"`) and the enacted
+(`amendingStyle="add"`) dollar amount. No extractor nets them. SB-5187-S sums
+both, producing `$304,584,371,000` (real total funds ~$150B); 110 of 314 blocks
+have an item-sum that disagrees with their own `AppropriationTotal`. SB-5950-S
+sums both (add $124.7B + strike $113.9B) to `$244,647,243,000` against a roughly
+$72B supplemental. SB-5693-S keeps struck line items but drops most add amounts,
+summing incomparable columns into a `change` of `−$98,160,350,000` on a bill
+that raises spending. SB-5167-S drops rows entirely when the amount is wrapped
+in markup (see E).
+
+**B. Extraction regex too strict for domain tokens (policy bills, and 5167).**
+HB-1281-S: `/RCW\s+(\d+)\.(\d+)\.(\d+)/` requires three all-digit groups, so
+every letter-suffixed citation (`9.94A`, `18.88A`, `71A.12`) fails to match;
+423 captured against 565 distinct, 142 real citations dropped, zero false
+positives, on the citation style a technical-corrections bill leans on most.
+HB-1320-S2: definitions numbered `(5)(a) "Course of conduct"` and
+`(20)(a) "Isolate"` open with a lettered subsection the regex does not match, so
+34 of 36 are captured. SB-5167-S: `parseInt` on a `<DollarAmount>` wrapped in
+`<TextRun>` (line vetoes, amended `((old))new` figures) returns `NaN`, and the
+row is discarded (see E).
+
+**C. Text-node flattening mangles names.** When a name spans multiple XML text
+nodes separated by an em-dash `<TextRun>`, the flatten step glues tokens
+together and relocates or strips the em-dash. SB-5950-S (worst):
+`getTextContent()` returns only nested `<TextRun>` content, so `General Fund` +
+`—` + `State Appropriation (FY 2024)` collapses to `"—"`; 786 of 1,499
+appropriations show `"—"`, 568 are empty, 145 (9.7%) carry real text. SB-5167-S
+(xml2js pipeline only): `FOR THE DEPARTMENT OF COMMERCECOMMUNITY SERVICES AND
+HOUSING —` (its regex pipeline is clean). SB-5200-S: `...BuildingAccount—State`.
+SB-5195-S: 19 accounts, e.g. `...Underground StorageTank`. Absent (clean) in
+SB-5187-S, SB-5693-S, HB-1320-S2, and the SB-5092-S agency names. This defect is
+pipeline-dependent, not universal.
+
+**D. Row-count inflation and miscount (capital budgets).** SB-5200-S: "4,479
+appropriations" counts 550 appropriation + 764 reappropriation = 1,314 real
+funding lines plus 3,165 informational rows (prior/future biennia, subtotals,
+totals; 1,193 flagged `isTotal: true`); "923 projects" is 668 distinct ids (148
+duplicated). SB-5195-S: `projectMap` is keyed on the 8-digit project id alone,
+but that id is reused across agencies, so first-section-wins on name and
+last-block-wins on fiscal totals corrupt `projects[]` and every `fiscalImpact`
+rollup (788 reported against 1,064 distinct agency+project pairs). The flat
+`appropriations[]` array, which keeps the `agency` attribute, is correct.
+
+**E. Silent completeness loss.** SB-5092-S captures 243 of roughly 437 `Sec.`
+headers, dropping Sec. 801 (a real appropriation in table markup), 601, 951-999,
+and all 1000+ sections, then reports "243 (100%)". SB-5167-S drops 508
+individual appropriations (about 25%), all the amended/supplemental and vetoed
+line items, via the `parseInt` NaN path in B. HB-1320-S2: section `number` is
+the blank stub `"Sec. .  "` on all 172 sections, and content is empty on 74 of
+172, so a definition or amendment cannot be mapped back to its section.
+SB-5693-S keeps 440 of 3,882 `add` runs (empty-account-name adds skipped).
+
+**F. Broken joins and dead fields.** SB-5693-S: every appropriation has
+`agency: ""` and every agency record has `agencyCode: ""`, so the README's own
+headline query `_.filter(data.appropriations, {agency: 'DEPARTMENT OF COMMERCE'})`
+returns nothing. SB-5200-S: `agencyCode` is `null` on all 923 projects and all
+71 agencies carry `totalAppropriation: 0`. SB-5195-S: `fiscalImpact.byDepartment`
+has 38 entries against 40 departments.
+
+**G. Docs vouch for the wrong number.** Each study's README or ANALYSIS
+confidently prints the broken headline, so the prose repeats the extraction
+error rather than catching it, and corrections have been partial. SB-5092-S: the
+earlier repo audit fixed the counts in `README.md` (839 / 256 / ~1.1 MB) but the
+discredited figures (1,847 / 287 / 15-25 MB) still stand in `ANALYSIS.md` and
+`schema.md`. Manifest errors: `bills-manifest.json` lists HB-1281-S session as
+2023 (it is 2025) and SB-5187-S `agencies: 27` while the data array holds 212.
+SB-5950-S `ANALYSIS.md` advises "handle amendments carefully to avoid
+double-counting," which is exactly what the pipeline fails to do.
+
+**H. Hygiene.** SB-5200-S: about half the folder is a loose copy of the
+`@xmldom/xmldom@0.8.11` npm package (`dom.js`, `sax.js`, `entities.js`, plus a
+foreign `LICENSE`, `SECURITY.md`, `CHANGELOG.md`, `readme.md`), already declared
+as a dependency. Most extractors hardcode a source path that does not match the
+`raw/` layout, so they fail with ENOENT as committed. SB-5167-S
+`extract-provisos.js` globs every `*.xml` in its run directory, so `provisos.json`
+and `data-summary.json` hold six bills' data mis-filed inside the SB-5167 study
+(the "11,986 provisos / 7,156 appropriations" there are cross-bill totals; the
+SB-5167-only proviso count is 3,439). Naming is inconsistent (`HB5167-S-data.json`
+for a Senate bill; `SCHEMA.md` / `schema.md` / `schema-documentation.md` /
+`json-schema.md` across studies).
+
+### Trust map
+
+For anyone reading the data from history, what could be trusted and what could
+not:
+
+**Reliable** (verified against source across the set): section and part counts
+and part titles; passage votes, sponsors, chapter law, effective dates; veto
+flags and veto text; agency and department rosters as names, except where
+collapsed by defect C (SB-5950-S and the SB-5167-S xml2js output); individual
+line-item dollar amounts as literal values (the strike side is faithful). The
+one standout is the SB-5167-S proviso extraction: 3,439 numbered provisos with
+amounts and rule-based categories, useful and correct.
+
+**Not reliable** (recompute before citing): every fiscal total and rollup in the
+budget studies (A); fiscal-year breakdowns (partial or empty in 5187, 5693,
+5950); RCW-reference and legal-definition counts in the policy bills (B);
+account-name string fields in SB-5167-S (xml2js), SB-5195-S, SB-5200-S, and
+SB-5950-S (C); project and appropriation counts in the capital budgets (D); the
+"1,376 term replacements" headline in HB-1210-S2; any agency-keyed join in
+SB-5693-S, SB-5200-S, or SB-5195-S (F).
+
+### Consistency
+
+Poor at the code level, uniform at the failure level. Each study was a separate
+one-shot session that rebuilt the extractor from scratch: at least four parsing
+stacks (raw regex, xml2js, jsdom, `@xmldom/xmldom`), ten scripts, and ten
+distinct bug sets, with at most 11 percent shared code between any two. The same
+five or six defects recur because the same problems (amendatory netting,
+text-node names, letter-suffixed citations, subtotal rows) were each solved
+independently and each solved wrong. This is the same "repeated first attempts
+at one problem" pattern the retired `projects/` tree showed. The difference is
+that these attempts shipped real, partially correct data, and their structural
+layer was sound.
+
+---
+
 ## What was mined
 
-Recorded here so the retirement does not lose the few things worth keeping. The
-detail is in the audit; these are the pointers.
+The few things worth carrying forward, so the retirement does not lose them.
 
-- **The audit itself** is the durable product: the defect taxonomy (amendatory
-  netting, text-node name mangling, letter-suffixed citation misses, subtotal-row
-  inflation), the trust map, and the finding that the ten extractors were ten
-  independent rewrites (at most 11 percent shared code), not a versioned parser,
-  which is why they each re-made a different subset of the same five bugs.
+- **A parsing lesson.** Prefer the XML source over HTM wherever it exists
+  (2003-04 on), and read the schema's own structure (`agency`, `amendingStyle`,
+  `<TitleNumber>/<ChapterNumber>/<SectionNumber>`) rather than flattening to a
+  string and re-deriving it by regex. A lightweight XML DOM (`@xmldom/xmldom` in
+  Node, `DOMParser` in the browser) is the right-sized tool; the cleanest runs
+  in the set used it, and its failures were misuse, not limits.
 - **One deliverable had independent value:** the SB-5167 proviso extraction,
   3,439 numbered provisos with dollar amounts and rule-based categories. It is
-  the only proviso extractor in the set and the only artifact the audit rated as
-  useful and correct. It is browsable in history at the SHA above if it is ever
-  wanted as a starting point.
-- **A parsing lesson worth carrying forward.** Prefer the XML source over HTM
-  wherever it exists (2003-04 on), and read the schema's own structure
-  (`agency`, `amendingStyle`, `<TitleNumber>/<ChapterNumber>/<SectionNumber>`)
-  rather than flattening to a string and re-deriving it by regex. A lightweight
-  XML DOM (`@xmldom/xmldom` in Node, `DOMParser` in the browser) is the
-  right-sized tool; the cleanest runs in the set used it, and its failures were
-  misuse, not limits.
-- **The shape a replacement would take, if built:** not ten scripts but four
-  domain profiles (operating budget, capital budget, policy bill, provisos) over
-  one shared core (fetch, DOM parse, amendatory netting, name assembly,
-  citation regex, output validation against the source), placed in `web-tools`
-  where shared code belongs. This is recorded as the shape such an effort would
-  have, not as scheduled work. Nothing depends on it existing.
+  the only proviso extractor in the set and the only artifact rated useful and
+  correct. It is browsable in history at the SHA above if it is ever wanted as a
+  starting point.
+- **The shape a replacement would take, if built.** The defects are not ten
+  problems but about five, duplicated: the budgets share A, C, and E; the policy
+  bills share B; the capital budgets share D. A replacement would be not ten
+  scripts but four domain profiles (operating budget, capital budget, policy
+  bill, provisos) over one shared core, placed in `web-tools` where shared code
+  belongs, with: amendatory netting (read `amendingStyle`, net strike against
+  add, keep both as labeled fields); a citation regex that accepts
+  letter-suffixed titles and chapters; name assembly that walks text nodes and
+  preserves the em-dash separator; explicit exclusion of `isTotal`/subtotal/
+  biennia rows from counts and a project key of agency plus project id; and
+  validation of each output against the source (section count, appropriation
+  count, a checksum of dollar totals) so a bad run fails loudly. This is recorded
+  as the shape such an effort would have, not as scheduled work. Nothing depends
+  on it existing.

@@ -5,6 +5,16 @@
 **Total Raw Size:** ~46 MB
 **Total Extracted Data:** ~50 MB
 
+> **Known limitations (2026-07-20).** A per-study data audit found the
+> structural layer (section and part counts, votes, sponsors, chapter law,
+> veto flags, agency rosters, individual line-item amounts) accurate across
+> all ten studies, but the headline statistics unreliable: every budget's
+> fiscal total is corrupted by unnetted amendatory strike/add lines, the
+> policy bills undercount RCW and definition counts, and several account-name
+> fields are mangled. Recompute any dollar total or domain count before
+> citing it. Full scorecard, defect taxonomy, and per-field trust map:
+> [`probes/studies-audit-2026-07.md`](../../probes/studies-audit-2026-07.md).
+
 ---
 
 ## Overview

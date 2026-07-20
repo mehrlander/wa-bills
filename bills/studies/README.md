@@ -204,7 +204,7 @@ Most bills include schema documentation:
 
 ## Related Resources
 
-- **Retired experiments:** the `projects/` analysis tools, viewers, and databases were removed 2026-07-19; see [`../../docs/projects-retired-2026-07.md`](../../docs/projects-retired-2026-07.md)
+- **Retired experiments:** the `projects/` analysis tools, viewers, and databases were removed 2026-07-19; see [`../../probes/projects-retired-2026-07.md`](../../probes/projects-retired-2026-07.md)
 
 ---
 

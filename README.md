@@ -21,7 +21,7 @@ web-tools points to them.
 ### I want to understand the repository
 - **WSL corpus guide:** [`wsl-api/README.md`](wsl-api/README.md)
 - **Bill corpus guide:** [`bills/README.md`](bills/README.md)
-- **Bill hierarchy reference:** [`docs/hierarchy.md`](docs/hierarchy.md)
+- **Bill hierarchy reference:** [`hierarchy.md`](hierarchy.md)
 
 ## The map
 
@@ -31,8 +31,11 @@ web-tools points to them.
 | [`bills/`](bills/) | Everything derived from bill documents: corpus-wide scans (content extracts, term indexes, topic sets) and [`studies/`](bills/studies/), ten bills analyzed in depth |
 | [`fiscal-notes/`](fiscal-notes/) | OFM fiscal note data, 2011-12 through 2023-24, with the paste-join tool that populates it |
 | [`rcw/`](rcw/) | The Revised Code of Washington: titles, chapters, full cite hierarchy, plus the pension chapter mapping |
-| [`docs/`](docs/) | Domain reference (the [bill hierarchy guide](docs/hierarchy.md)) and dated repo surveys, including the [note on the retired `projects/` experiments](docs/projects-retired-2026-07.md) |
+| [`probes/`](probes/) | Dated, point-in-time repo surveys: a [documentation-claims audit](probes/audit-2026-07.md), the [note on the retired `projects/` experiments](probes/projects-retired-2026-07.md), and a [large-files survey](probes/large-files-survey-2026-02.md). Each answers "what was true when checked," not a living reference |
 | [`archive/`](archive/) | Superseded copies whose live homes are now web-tools. See [ARCHIVE.md](archive/ARCHIVE.md) before touching anything here |
+
+Top-level [`hierarchy.md`](hierarchy.md) is the bill paragraph-numbering
+reference: general and undated, unlike the dated surveys in `probes/`.
 
 Top-level [`LegislationTrackerGH.html`](LegislationTrackerGH.html) is the
 DRS bill tracker page; it loads from `wsl-api/data/` and `bills/content/`.

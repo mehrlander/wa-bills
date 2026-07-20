@@ -9,7 +9,7 @@ in the live home.
 Old-but-native material (the `wsl-api/tools/archive/` kit lineage) is not in
 this folder. The `projects/` experiments were not archived either; they were
 removed outright on 2026-07-19 (retrievable from history, see
-[`../docs/projects-retired-2026-07.md`](../docs/projects-retired-2026-07.md)).
+[`../probes/projects-retired-2026-07.md`](../probes/projects-retired-2026-07.md)).
 
 | Archived | Live home in web-tools | Notes |
 |---|---|---|
@@ -18,5 +18,5 @@ removed outright on 2026-07-19 (retrievable from history, see
 | `wsl-sync.html`, `pension-dash.html`, `pension-map.js` | [`pages/wsl-sync/`](https://github.com/mehrlander/web-tools/tree/main/pages/wsl-sync) | Imported 2026-05-07, then rebuilt in web-tools PR #162 on the kits below. These copies predate that refactor |
 | `wsl-api.js` | [`lib/kits/wsl-core.js`](https://github.com/mehrlander/web-tools/blob/main/lib/kits/wsl-core.js) + [`lib/kits/wsl.js`](https://github.com/mehrlander/web-tools/blob/main/lib/kits/wsl.js) | The kit the web-tools pair replaced. The name overlap with this repo's `wsl-api/` folder is coincidental: the file consolidated `legislation/tools/wsl-api-13.js` (now `wsl-api/tools/wsl-api-13.js`), the folder is the corpus |
 
-`format/hierarchy.md` did not come here: it moved to [`../docs/hierarchy.md`](../docs/hierarchy.md)
+`format/hierarchy.md` did not come here: it moved to [`../hierarchy.md`](../hierarchy.md)
 as the canonical copy (web-tools points to it).

@@ -4,7 +4,8 @@
   "group": "data",
   "order": 30,
   "quickLink": true,
-  "note": "Washington bill structure: corpora and analysis, especially budget bills.",
+  "note": "The Washington legislative corpus: bill texts, WSL metadata, fiscal notes, and the RCW.",
+  "scope": "The statewide legislative substrate store, agnostic by charter: every Washington bill and its full text, the WSL web-service metadata, OFM fiscal notes, and the RCW. DRS and pension are the slice filled first, a matter of coverage, not a limit on the charter. The mechanical RCW-to-pension crosswalk lives here as substrate, on the theory the same treatment extends to other RCW areas; interpretation does not, so DRS budget analysis stays in home's budget-drs and the pension-bill analysis in home's projects/bills references this corpus rather than copying it. Public because bill data is public record, and visibility is what forces the repo boundary.",
   "pages": [
     { "path": "LegislationTrackerGH.html", "title": "Legislation & Pension Tracker", "note": "The repo's front door; current interactive bill tracker (see README)." },
     { "path": "fiscal-notes/fn-paste-join.html", "title": "Policy Joiner v6", "note": "Paste-join tool that populates the fiscal-notes data." },

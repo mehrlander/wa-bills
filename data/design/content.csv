@@ -1,0 +1,12 @@
+locator,creation_mode,analysis_use,description
+CLAUDE.md,hybrid-authored,concept-vocabulary,Repo instructions
+README.md,hybrid-authored,concept-vocabulary,What the corpus is and how it is laid out
+hierarchy.md,hybrid-authored,concept-vocabulary,Bill document hierarchy notes
+probes/,hybrid-authored,prose-review,Session probe write-ups
+bills/,supplied,source-corpus,"Washington bill text from WSL: 74,826 .htm and 63,880 .xml. 99.9% of this repo by file count and the largest body of language the estate holds. Supplied verbatim; nothing here is this repo's voice"
+wsl-api/,supplied,source-corpus,WSL API pulls and their per-biennium catalogs
+rcw/,supplied,source-corpus,RCW titles and chapter mappings from the code
+fiscal-notes/,supplied,source-corpus,Fiscal note pulls kept for joining
+archive/,mixed,exclude,Retired tools and pages
+LegislationTrackerGH.html,hybrid-authored,exclude,The repo's front-door tracker page
+package.json,mechanical,exclude,Dependency manifest

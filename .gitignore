@@ -43,3 +43,8 @@ logs/
 tmp/
 temp/
 *.tmp
+
+# Per-bill citation shards: 46 MB of derived JSONL, rebuilt in six minutes by
+# tools/extract-citations.py. The distilled aggregate (bills/index/
+# citation-index.json, 1 MB) is the committed join; this is the working detail.
+bills/index/citations/

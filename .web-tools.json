@@ -8,6 +8,15 @@
   "scope": "Washington State legislation as structured data and its tooling: bill corpora across many biennia (JSON and CSV, with a catalog index) plus the subprojects that extract, normalize, and analyze bill structure, budget bills especially. Downstream analysis in home draws on its corpus by reference rather than copying it in.",
   "pages": [
     {
+      "path": "mehrlander/web-tools:pages/citations.html",
+      "title": "Citations",
+      "note": "Which bills cite each RCW chapter, joined to the chapters the other repos discuss.",
+      "appView": true,
+      "viewLabel": "Citations",
+      "icon": "ph-scales",
+      "order": 20
+    },
+    {
       "path": "LegislationTrackerGH.html",
       "title": "Legislation & Pension Tracker",
       "note": "The repo's front door; current interactive bill tracker (see README)."
@@ -65,12 +74,12 @@
     {
       "path": "wsl-api/data/LegislationTrackerUsingGitHub.html",
       "title": "DRS Bill Tracker",
-      "note": "Earlier tracker iteration, outside archive/; unclear if superseded by the root tracker — cleanup candidate."
+      "note": "Earlier tracker iteration, outside archive/; unclear if superseded by the root tracker \u2014 cleanup candidate."
     },
     {
       "path": "wsl-api/tools/LegislationTrackerFresh.html",
       "title": "Legislation Tracker",
-      "note": "Another tracker iteration in tools/; unclear if superseded — cleanup candidate."
+      "note": "Another tracker iteration in tools/; unclear if superseded \u2014 cleanup candidate."
     },
     {
       "path": "wsl-api/tools/content/ScanSessionBills.html",

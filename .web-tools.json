@@ -11,8 +11,6 @@
       "path": "mehrlander/web-tools:pages/citations.html",
       "title": "Citations",
       "note": "Which bills cite each RCW chapter, joined to the chapters the other repos discuss.",
-      "appView": true,
-      "viewLabel": "Citations",
       "icon": "ph-scales",
       "order": 20
     },

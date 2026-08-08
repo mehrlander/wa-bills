@@ -1,8 +1,12 @@
 ## Working conventions
 
-Run the `web-tools-conventions` skill at the start of any session that will modify files.
+Run the `web-tools` skill (`/portable:web-tools`) at the start of any session that will modify files.
 
-These are your portable conventions for Claude Code web sessions: surfacing primitives (explicit markdown, `[new]/[main]/[diff]` per-file links, screenshots, branch anchors, session diffs), plus an opt-in PR-workflow lifecycle (guide PR, merge-guide, wrap-up). The canonical source is [`docs/CONVENTIONS.md`](https://github.com/mehrlander/web-tools/blob/main/docs/CONVENTIONS.md) in your public repo `mehrlander/web-tools`; the skill fetches it fresh each session so this repo doesn't keep a stale copy. Local `CLAUDE.md` rules override the portable defaults.
+These are your portable conventions for Claude Code web sessions: surfacing primitives (explicit markdown, `[new]/[main]/[diff]` per-file links, screenshots, branch anchors, session diffs), plus the guide-PR lifecycle that begins when a PR opens. The canonical sources are [`docs/CONVENTIONS.md`](https://github.com/mehrlander/web-tools/blob/main/docs/CONVENTIONS.md) and [`docs/SURFACING.md`](https://github.com/mehrlander/web-tools/blob/main/docs/SURFACING.md) in your public repo `mehrlander/web-tools`; the skill fetches both fresh each session so this repo doesn't keep a stale copy. Local `CLAUDE.md` rules override the portable defaults.
+
+## Project tracker
+
+This repo runs the portable tracker, stood up 2026-08-08. Task files are `tracker/tasks/<id>.md`, the rollups are `tracker/board.md` and `tracker/board.json`, and both commit directly to `main`. Local extension points and the standing permission are in [`tracker/README.md`](tracker/README.md); the convention itself is upstream in [`docs/TRACKER.md`](https://github.com/mehrlander/web-tools/blob/main/docs/TRACKER.md), operated through `/tasks`.
 
 ## Post-merge handoff
 

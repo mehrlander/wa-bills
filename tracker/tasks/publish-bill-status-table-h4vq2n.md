@@ -3,6 +3,7 @@ id: publish-bill-status-table-h4vq2n
 title: Publish the bill-status table here, where two other stores are asking for it
 status: backlog
 opened: 2026-08-08
+size: M
 ---
 # Publish the bill-status table here, where two other stores are asking for it
 

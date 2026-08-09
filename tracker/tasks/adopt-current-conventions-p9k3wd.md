@@ -3,6 +3,7 @@ id: adopt-current-conventions-p9k3wd
 title: Decide whether the handoff-prompt convention stays copied here
 status: backlog
 opened: 2026-08-08
+size: XS
 ---
 # Decide whether the handoff-prompt convention stays copied here
 
